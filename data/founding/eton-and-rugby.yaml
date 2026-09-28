@@ -1,0 +1,93 @@
+id: eton-and-rugby
+title: "Eton and Arnold's Rugby: The English Public-School Classics"
+category: 19th-century-school
+people: [John Keate, Thomas Arnold, Arthur Penrhyn Stanley, Thomas Hughes]
+date: "c. 1760–1864"
+summary: >-
+  Eton trained English statesmen almost entirely through construing, repetition and verse composition,
+  using its own Eton Latin Grammar and the house anthologies (Poetae Graeci, Scriptores Graeci,
+  Scriptores Romani) together with Homer, Virgil and Horace. The Clarendon Commission (1864) recorded
+  exactly what each division read. At Rugby from 1828 to 1842, Thomas Arnold kept the classics but made
+  them serve moral and political understanding: Thucydides, Herodotus and Aristotle, modern history,
+  divinity lessons and chapel sermons. He gave the Sixth Form real responsibility for the school,
+  aiming to form "Christian gentlemen." This program adopts Eton's memorization and verse writing
+  together with Arnold's ordering of goals: religious and moral principle first, gentlemanly conduct
+  second, intellectual ability third.
+primarySources:
+  - { label: "Public Schools (Clarendon) Commission, Report, vol. I (1864), Archive.org", url: "https://archive.org/details/india.history.resource.106833" }
+  - { label: "Clarendon Commission, Report with appendix and evidence, vol. 2 (Archive.org)", url: "https://archive.org/details/reportofhermajes02grea" }
+  - { label: "H. C. Maxwell Lyte, A History of Eton College, 1440–1875 (Archive.org)", url: "https://archive.org/details/historyetoncolle00lyteiala" }
+  - { label: "A. P. Stanley, Life and Correspondence of Thomas Arnold, vol. 1 (1882 ed., Archive.org)", url: "https://archive.org/details/thomasarnoldddla01stan" }
+  - { label: "Thomas Hughes, Tom Brown's School Days (Gutenberg #1480)", url: "https://www.gutenberg.org/ebooks/1480" }
+entries:
+  - text: "The Eton Latin Grammar (used until replaced by the Public School Latin Primer in the 1860s)"
+    search: Grammar
+    tracks: [latin, grammar-composition]
+  - text: "Construing: boys translated set passages aloud in school and parsed them, quoting grammar rules and parallel passages; Sixth Form turned Homer into Latin (Lyte)"
+    search: construing
+    tracks: [latin, greek]
+  - text: "Fourth Form (1861): Greek Testament, Farnaby's Epigrams, Aesop, Ovid's Epistles and Metamorphoses, Caesar"
+    search: Ovid
+    tracks: [latin, greek, poetry]
+  - text: "Remove (1861): Poetae Graeci, Scriptores Graeci, Cornelius Nepos, Virgil, Horace — the Eton house anthologies"
+    search: Nepos
+    tracks: [latin, greek]
+  - text: "Scriptores Romani — Eton's Latin prose selection, construed alongside Homer, Lucian and Virgil in the eighteenth-century routine"
+    search: Scriptores
+    tracks: [latin, history]
+  - text: "Fifth Form (1861): four books of the Iliad, extracts of Herodotus and Thucydides, Theocritus, two books of the Aeneid, Horace's Satires and Epistles and Odes, extracts of Livy"
+    search: Homer
+    tracks: [greek, latin, poetry, history]
+  - text: "Sixth Form and First Division (1861): Odyssey, Aeschylus, Euripides, Theocritus, Thucydides, Demosthenes, Virgil's Georgics, Lucretius, Tacitus, Cicero's Letters"
+    search: Thucydides
+    tracks: [greek, latin, rhetoric]
+  - text: "Horace's Odes construed and repeated by heart in summer; Selecta ex Ovidio and Epigrammatum Delectus as repetition books"
+    search: Horace
+    tracks: [latin, poetry]
+  - text: "Weekly Latin theme, elegiac verses and lyrics — Latin verse composition as the mark of an Eton scholar"
+    search: Latin verse
+    tracks: [latin, poetry, grammar-composition]
+  - text: "Greek plays from Burton's Pentalogia or Aristophanes, construed in extra hours by the Sixth and upper Fifth"
+    search: Sophocles
+    tracks: [greek, literature]
+  - text: "Scripture history and the Greek Testament in every public school; Sunday religious teaching (Clarendon Report)"
+    search: Greek Testament
+    tracks: [theology, greek]
+  - text: "Arnold's priorities, told to the Sixth: 'religious and moral principle; 2ndly, gentlemanly conduct; 3rdly, intellectual ability'"
+    search: Arnold
+    tracks: [character-virtue, theology]
+  - text: "Arnold's aim, told to the assembled school: that Rugby be 'a school of Christian gentlemen'"
+    search: Arnold
+    tracks: [character-virtue]
+  - text: "Sixth Form and praepostors as the school's governors: prefects with authority, backed by the head master, 'like officers' in an army"
+    search: praepostor
+    tracks: [civics-law, character-virtue]
+  - text: "Thucydides — Arnold's lifelong author (his edition and lexicon); he read the Corcyrean sedition as a lesson for modern politics"
+    search: Thucydides
+    tracks: [greek, history, civics-law]
+  - text: "Aristotle's Ethics, Rhetoric and Politics, whose maxims Arnold 'cited ... as oracles'; Herodotus and Homer as his other loves"
+    search: Aristotle
+    tracks: [philosophy, rhetoric, greek]
+  - text: "Modern history, modern languages and mathematics made regular school subjects at Rugby (with Russell's Modern Europe, Hallam and Guizot as the history texts)"
+    search: history
+    tracks: [history, mathematics]
+  - text: "Divinity lessons, Scripture read with the Praepostors, and the Greek Testament taught on weekdays so Sunday stayed for English religious reading"
+    search: Bible
+    tracks: [theology]
+  - text: "Arnold's chapel sermons to the boys (published as his Sermons) and his introduction of regular Communion for older boys"
+    search: Arnold
+    tracks: [theology, rhetoric, character-virtue]
+  - text: "Arnold on classics: language study seems 'given for the very purpose of forming the human mind in youth'"
+    search: Latin
+    tracks: [latin, greek]
+  - text: "Thomas Hughes, Tom Brown's School Days (1857) — the novel of Arnold's Rugby: fagging, football, the Doctor's sermons, and Tom's charge over young Arthur"
+    search: Hughes
+    tracks: [literature, character-virtue, physical-training]
+notes: >-
+  The Eton reading by form for the year ending at Midsummer 1861 comes from the Clarendon Report, vol. I.
+  The weekly construing and repetition routine and the replacement of the Eton Latin Grammar come from
+  Lyte's History, which is also the source for dating the replacement to the 1860s; the exact year was
+  not checked. Arnold material is from Stanley's Life, vol. 1, chs. I and III. The Sixth Form "officers"
+  simile paraphrases a quotation there. Stanley does not give a fixed Sixth Form syllabus, so the
+  Thucydides and Aristotle entries show Arnold's own emphases and teaching rather than a timetable.
+  I did not find or verify an online edition of Arnold's Sermons or his collected letters beyond Stanley.

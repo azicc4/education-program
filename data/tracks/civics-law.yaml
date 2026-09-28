@@ -1,0 +1,1287 @@
+track: civics-law
+title: Civics & Law
+trackGroup: Founder Skills
+description: >-
+  Civic formation for a future statesman. It runs from the child's first communities to the texts and
+  practice of self-government. In early childhood (2–6) the child learns to belong and to be loyal: to the
+  family and the parish first, then to the nation through the Pledge, the flag, the anthem and patriotic
+  songs. From 6 to 11 the founding documents are memorized and then understood: the Declaration, the
+  Preamble, the Bill of Rights and the Gettysburg Address, read with Hillsdale's primary-source approach.
+  From 10 to 13 the student learns how the government works (the three branches, how a bill becomes law,
+  state and local government) and practices it through Robert's Rules, debate and model legislature. He
+  also reads the statesmen: Plutarch, Washington, Lincoln and Churchill. From 13 to 16 he reads, in
+  order, the political philosophy the founders drew on: Aristotle, Cicero and Aquinas; Hooker, Locke,
+  Sidney, Montesquieu and Vattel; then The Federalist and the Anti-Federalists, Burke and Tocqueville. He
+  also studies the common law as the founders did, from Blackstone and Coke, and argues landmark cases in
+  mock trial and moot court. Catholic social teaching on the state, and John Courtney Murray on the
+  American proposition, close the high-school sequence. College-level seminars (17–18) cover the
+  Constitution, American political thought, and law and jurisprudence. The end state is a young citizen
+  who can recite the founding documents, explain the Constitution clause by clause, argue from the
+  natural-law tradition and the common law, run a meeting, and hold public office or read law.
+rows:
+  - id: civics-law-01
+    title: "First Communities: Family, Parish and Neighborhood"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6
+    order: 1
+    prerequisites: []
+    related: [early-development-12, theology-01, character-virtue-01]
+    summary: >-
+      Civic life begins at home. The family is the first society and the parish the second. Through chores,
+      family meals, Sunday Mass, and knowing the neighbors, the parish priest, the mailman and the
+      firefighters, the child learns that he belongs to communities with rules, roles and duties of service.
+      Catholic social teaching calls the family the "original cell of social life," and subsidiarity (the
+      idea that larger bodies should help, not replace, smaller ones) starts here.
+    objectives:
+      - Do real daily chores that serve the household (setting the table, tidying, feeding pets)
+      - Know the names and roles of family members, the pastor, and neighborhood helpers
+      - Take part in parish life (Mass, feast days, a parish service project) and family decision-making in small ways
+      - Learn basic rules of courtesy toward elders and guests
+    coreTexts:
+      - title: Compendium of the Social Doctrine of the Church (ch. 5, "The Family, the Vital Cell of Society")
+        author: Pontifical Council for Justice and Peace
+        date: "2004"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html" }
+    notes: >-
+      Parent reading, not child reading. Protestant families will find the same pattern in the Reformed
+      idea of "sphere sovereignty" (family, church and state as distinct spheres; see Kuyper's Lectures on
+      Calvinism in civics-law-15).
+
+  - id: civics-law-02
+    title: "The Pledge, the Flag, the Anthem and Patriotic Song"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6.5
+    order: 2
+    prerequisites: []
+    related: [early-development-10, music-01]
+    summary: >-
+      Young children love ritual and song, and they learn loyalty the way they learn language: by
+      repetition. Recite the Pledge of Allegiance daily with hand on heart. Teach how to treat the flag,
+      and sing "The Star-Spangled Banner," "My Country, 'Tis of Thee" and "America the Beautiful." Tell the
+      stories behind them: Fort McHenry, Betsy Ross, the Liberty Bell.
+    objectives:
+      - Recite the Pledge of Allegiance from memory with correct posture
+      - Sing the first verse of the national anthem and two other patriotic songs
+      - Recognize the flag, the bald eagle, the Liberty Bell, the Statue of Liberty and the Capitol
+      - Know basic flag etiquette (don't let it touch the ground; raise it at dawn, lower it at dusk)
+    coreTexts:
+      - title: "4 U.S. Code § 4: Pledge of Allegiance to the Flag"
+        author: U.S. Congress
+        date: "1942 / 1954"
+        publicDomain: true
+        links:
+          - { label: Cornell LII, url: "https://www.law.cornell.edu/uscode/text/4/4" }
+      - title: "4 U.S. Code Chapter 1: The Flag (the Flag Code)"
+        author: U.S. Congress
+        publicDomain: true
+        links:
+          - { label: Cornell LII, url: "https://www.law.cornell.edu/uscode/text/4/chapter-1" }
+    curriculumOptions:
+      - name: "Teaching American History & Civics, Grades K-2 (free online course for parents)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/teaching-american-history-civics-grades-k-2"
+        notes: Shows parents how Hillsdale-affiliated schools teach symbols, holidays and heroes at this age.
+    sources:
+      - { label: "Smithsonian NMAH: The Star-Spangled Banner", url: "https://amhistory.si.edu/starspangledbanner/" }
+    notes: >-
+      Families with conscientious objections to the Pledge can study West Virginia v. Barnette (1943)
+      later, in civics-law-14.
+
+  - id: civics-law-03
+    title: "American Symbols, Holidays and Heroes"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 8
+    order: 3
+    prerequisites: [civics-law-02]
+    related: [character-virtue-03, history-01, history-06]
+    summary: >-
+      The first formal civics unit, taught through the calendar. Each national holiday (Presidents' Day,
+      Memorial Day, Independence Day, Constitution Day, Veterans Day, Thanksgiving) brings a story, a
+      primary-source line to memorize, and a hero: Washington, Franklin, Jefferson, Lincoln. The
+      catechism-style question-and-answer drill builds a store of civic facts that later courses explain.
+    objectives:
+      - Explain why each national holiday is kept and who or what it honors
+      - Answer 50 or more catechism-style questions on American history and government
+      - Tell the story of Washington, Franklin, Jefferson and Lincoln in their own words
+      - Copy and recite short lines (for example "Liberty and Union, now and forever, one and inseparable!")
+    curriculumOptions:
+      - name: 200 Questions About American History
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/schools/cottage-school/200-questions-about-american-history-2/"
+        notes: A question-and-answer drill of civic and historical facts; work through it over several years.
+      - name: "The Hillsdale 1776 Curriculum (K-12 American History & Civics, free)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+        notes: Free lesson plans used in Hillsdale's charter schools; the K-2 and 3-5 units cover symbols, holidays and heroes.
+      - name: "Teaching American History & Civics, Grades 3-5 (free online course for parents)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/teaching-american-history-civics-grades-3-5"
+    historicalPrecedent: >-
+      Nineteenth-century schoolbooks (the McGuffey Readers, Noah Webster's American Spelling Book)
+      included patriotic selections and speeches by Washington and Webster for children to read aloud
+      and memorize.
+
+  - id: civics-law-04
+    title: "Founding Documents I: The Declaration and the Preamble Memorized"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 9
+    order: 4
+    prerequisites: [civics-law-03]
+    related: [rhetoric-02, history-06, history-14]
+    summary: >-
+      The child memorizes the Declaration of Independence from "When in the Course of human events"
+      through "the consent of the governed," along with the Preamble to the Constitution. Memorize first,
+      then explain: equality, unalienable rights, the purpose of government, consent, and the six purposes
+      in the Preamble. The first sentences are copied as penmanship lessons.
+    objectives:
+      - Recite the Declaration's first two paragraphs and the Preamble word-perfect
+      - Explain in one's own words "all men are created equal," "unalienable Rights," and "consent of the governed"
+      - Name the six purposes of government in the Preamble
+      - Identify Jefferson, Adams, Franklin and the Second Continental Congress as authors and signers
+    coreTexts:
+      - title: "The Declaration of Independence: A Transcription"
+        author: Thomas Jefferson et al.
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/founding-docs/declaration-transcript" }
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/declare.asp" }
+      - title: "The Constitution of the United States: A Transcription"
+        date: "1787"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/founding-docs/constitution-transcript" }
+    curriculumOptions:
+      - name: "Foundations in Liberty: The Founding Documents that Shaped American Freedom"
+        publisher: Roman Roads Press
+        tradition: protestant
+        url: "https://romanroadspress.com/store/foundations-in-liberty/"
+        notes: A reader of founding documents from a Protestant classical publisher.
+      - name: "The Hillsdale 1776 Curriculum (free)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+        notes: The American Founding unit includes lessons on the Declaration with student-ready primary sources.
+      - name: "New American Cursive 2: Quotations from Famous Americans"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/penmanship/new-american-cursive-2-famous-americans-fourth-edition/"
+        notes: Pairs founding quotations with penmanship.
+
+  - id: civics-law-05
+    title: "Founding Documents II: The Bill of Rights, the Gettysburg Address and the Constitution's Structure"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 11
+    order: 5
+    prerequisites: [civics-law-04]
+    related: [rhetoric-02, history-06]
+    summary: >-
+      The child memorizes the ten amendments of the Bill of Rights (at least in summary, the First in
+      full) and the whole Gettysburg Address, and learns the seven Articles of the Constitution by name
+      and subject. Read with a parent, selected primary sources from Hillsdale's Constitution Reader show
+      that the documents answer real arguments. Hillsdale's short free course introduces the Constitution.
+    objectives:
+      - Recite the Gettysburg Address and the First Amendment word-perfect
+      - Name the subject of each of the first ten amendments and each of the seven Articles
+      - Explain separation of powers, federalism and checks and balances with examples
+      - Connect the Gettysburg Address to the Declaration ("four score and seven years ago")
+    coreTexts:
+      - title: "The Bill of Rights: A Transcription"
+        date: "1791"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/founding-docs/bill-of-rights-transcript" }
+      - title: The Gettysburg Address
+        author: Abraham Lincoln
+        date: "1863"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/19th_century/gettyb.asp" }
+      - title: "The U.S. Constitution: A Reader"
+        author: Hillsdale College Politics Faculty
+        date: "2012"
+        publicDomain: false
+        links:
+          - { label: Hillsdale College Press, url: "https://shop.hillsdale.edu/products/constitution-em-a-reader-em" }
+    curriculumOptions:
+      - name: "Introduction to the Constitution (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/intro-to-the-constitution"
+        notes: Short video lectures; watch together and discuss.
+      - name: "The Hillsdale 1776 Curriculum (free)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+      - name: 200 Questions About American History
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/schools/cottage-school/200-questions-about-american-history-2/"
+    notes: >-
+      The Reader has 113 primary sources and is written for college students. At this age a parent
+      chooses a few short documents (for example Washington's letter to the Hebrew Congregation at Newport).
+      The whole Reader is used in civics-law-16.
+
+  - id: civics-law-06
+    title: "How American Government Works: The Branches, Lawmaking, and State and Local Government"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 6
+    prerequisites: [civics-law-05]
+    related: [history-14]
+    summary: >-
+      A structured civics course. It covers the three branches and their powers, how a bill becomes law,
+      elections and the Electoral College, federalism, and the student's own state constitution, county
+      and town. The spine is Joseph Story's Familiar Exposition of the Constitution (1840), which the
+      Supreme Court justice wrote for schools. Field trips make it concrete: a town council meeting, a
+      courtroom, the state capitol, and a letter to one's representative.
+    objectives:
+      - Trace a bill from introduction through committee, floor votes, conference and signature or veto
+      - Explain the powers of each branch and give an example of each check and balance
+      - Describe the structure of one's own state government and name one's governor, legislators, mayor and county officials
+      - Attend and write a report on a local government meeting and a court session
+      - Write a respectful letter to an elected official about a real issue
+    coreTexts:
+      - title: A Familiar Exposition of the Constitution of the United States
+        author: Joseph Story
+        date: "1840"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/familiarexpositi00stor" }
+      - title: "The Legislative Process (House of Representatives)"
+        author: U.S. House of Representatives
+        publicDomain: true
+        links:
+          - { label: house.gov, url: "https://www.house.gov/the-house-explained/the-legislative-process" }
+    curriculumOptions:
+      - name: "The Hillsdale 1776 Curriculum: American Civics (free)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+        notes: Middle-school civics lessons built on primary sources.
+      - name: "The Forgotten Realm: Civics for American Christians"
+        publisher: Roman Roads Press
+        tradition: protestant
+        url: "https://romanroadspress.com/store/civics/"
+        notes: A civics sourcebook from a Protestant classical publisher.
+      - name: "Civics and American Government (Dave Raymond)"
+        publisher: Compass Classroom
+        tradition: protestant
+        url: "https://compassclassroom.com/shop/product/civics-with-dave-raymond/"
+        notes: A live class aimed at high schoolers; suits an advanced 11–12-year-old.
+    historicalPrecedent: >-
+      Story, a sitting Supreme Court justice and Harvard law professor, condensed his three-volume
+      Commentaries (1833) into the Familiar Exposition (1840) for use in schools and by general readers.
+
+  - id: civics-law-07
+    title: "Parliamentary Procedure, Debate and Model Legislature"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 14
+    order: 7
+    prerequisites: [civics-law-06]
+    related: [rhetoric-09, logic-02]
+    summary: >-
+      Self-government is a skill as well as a body of knowledge. The student learns to run and take part in
+      a meeting under Robert's Rules: motions, seconds, amendments, the previous question, points of
+      order, minutes. He practices in a family or co-op club modeled on Franklin's Junto, then in
+      congressional debate or a Youth & Government model legislature. Jefferson's Manual, written for the
+      Senate he presided over, shows where the rules came from.
+    objectives:
+      - Chair a meeting and keep minutes using Robert's Rules
+      - Make, second, amend, and table a motion correctly; know the order of precedence of the common motions
+      - Draft a bill with findings and enacting clauses and argue for it in a mock legislative session
+      - Deliver a three-minute persuasive speech and answer cross-examination
+    coreTexts:
+      - title: "Robert's Rules of Order (1915 edition)"
+        author: Henry M. Robert
+        date: "1915"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9097" }
+      - title: A Manual of Parliamentary Practice
+        author: Thomas Jefferson
+        date: "1801"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1834 ed.), url: "https://archive.org/details/manualofparliame00jeffrich" }
+    curriculumOptions:
+      - name: "Robert's Rules of Order Newly Revised (current edition)"
+        publisher: Robert's Rules Association
+        tradition: secular
+        url: "https://www.robertsrules.com/"
+        notes: The current authoritative edition used by most organizations; the free 1915 text is enough for learning.
+      - name: Everyday Debate & Discussion
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/everyday-debate"
+        notes: A gentle introduction to structured debate for the upper grammar and logic stages.
+      - name: National Speech & Debate Association (Congressional Debate event)
+        publisher: NSDA
+        tradition: secular
+        url: "https://www.speechanddebate.org/"
+        notes: Congressional Debate is a model-legislature competition run under parliamentary procedure.
+    historicalPrecedent: >-
+      Franklin's Junto (1727) was a young tradesmen's club with standing queries and set debate rules;
+      Franklin credited it with much of his education. Jefferson compiled his Manual of Parliamentary
+      Practice while presiding over the Senate as Vice President (1797–1801), and the House still uses it.
+    sources:
+      - { label: "Franklin, Standing Queries for the Junto (1732), Founders Online", url: "https://founders.archives.gov/documents/Franklin/01-01-02-0088" }
+
+  - id: civics-law-08
+    title: "Statesmanship: Plutarch, Washington, Lincoln and Churchill"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 13
+    order: 8
+    prerequisites: [civics-law-05]
+    related: [character-virtue-06, character-virtue-10, rhetoric-08, literature-10, history-09]
+    summary: >-
+      The founders learned statesmanship from Plutarch's Lives, and later statesmen learned it from the
+      founders. The student reads paired Lives (Lycurgus and Numa, Solon and Publicola, Cato the Younger,
+      Cicero and Demosthenes). He then studies the great American and British speeches on free government:
+      Washington's Farewell Address, Lincoln's Lyceum Address and Second Inaugural, and Churchill's 1940
+      speeches. Each speech is analyzed, partly memorized, and answered in a short essay on the
+      statesman's virtues.
+    objectives:
+      - Read at least eight of Plutarch's Lives and compare paired statesmen in writing
+      - Summarize Washington's warnings in the Farewell Address (faction, foreign entanglements, religion and morality)
+      - Explain Lincoln's argument in the Lyceum Address for "reverence for the laws" as the political religion
+      - Memorize the closing paragraph of the Second Inaugural and a passage from "Their Finest Hour"
+      - Write an essay on what makes a statesman, as distinct from a politician
+    coreTexts:
+      - title: "Plutarch: Lives of the Noble Grecians and Romans (Dryden/Clough)"
+        author: Plutarch
+        date: c. 100
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
+      - title: Washington's Farewell Address
+        author: George Washington
+        date: "1796"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/washing.asp" }
+      - title: "The Perpetuation of Our Political Institutions (Lyceum Address)"
+        author: Abraham Lincoln
+        date: "1838"
+        publicDomain: true
+        links:
+          - { label: Abraham Lincoln Online, url: "https://www.abrahamlincolnonline.org/lincoln/speeches/lyceum.htm" }
+      - title: Second Inaugural Address
+        author: Abraham Lincoln
+        date: "1865"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/19th_century/lincoln2.asp" }
+      - title: "Their Finest Hour; We Shall Fight on the Beaches"
+        author: Winston Churchill
+        date: "1940"
+        publicDomain: false
+        links:
+          - { label: International Churchill Society, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/their-finest-hour/" }
+          - { label: International Churchill Society, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
+    curriculumOptions:
+      - name: "Plutarch's Lives, Volume 1"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/plutarchs-lives-volume-1/"
+      - name: "Winston Churchill and Statesmanship (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/winston-churchill-and-statesmanship"
+        notes: Hillsdale publishes the official Churchill biography and documents.
+    historicalPrecedent: >-
+      Plutarch was a staple of colonial reading. Franklin recalls reading Plutarch's Lives "in which I
+      read abundantly" as a boy, and Hamilton, Adams and Madison quote him. Washington had Addison's Cato,
+      a play drawn from Plutarch's life of Cato, staged for his officers at Valley Forge.
+
+  - id: civics-law-09
+    title: "Ancient and Medieval Political Philosophy: Aristotle, Cicero and Aquinas on Law"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 9
+    prerequisites: [civics-law-08]
+    related: [philosophy-07, character-virtue-13, latin-11, theology-22, philosophy-15]
+    summary: >-
+      Jefferson said the Declaration rested on "the elementary books of public right, as Aristotle,
+      Cicero, Locke, Sidney." This course reads the first two, then St. Thomas. From Aristotle's Politics
+      (Books I–III, VII) the student takes man as a political animal, the forms of regimes and the mixed
+      constitution. From Cicero's Republic and Laws he takes natural law and the Roman res publica
+      ("true law is right reason in agreement with nature"). From Aquinas's Treatise on Law (Summa I-II,
+      qq. 90–97) he takes the eternal, natural, human and divine law, and the principle that an unjust law
+      is no law. De Regno adds Aquinas on kingship and tyranny.
+    objectives:
+      - Explain Aristotle's six regimes and his argument for the "polity" or mixed regime
+      - Summarize Cicero's definition of a commonwealth and of true law
+      - State Aquinas's definition of law (an ordinance of reason for the common good, made by whoever has care of the community, and promulgated) and the four kinds of law
+      - Write a comparative essay on natural law in Cicero and Aquinas
+    coreTexts:
+      - title: "Politics: A Treatise on Government (Jowett trans.)"
+        author: Aristotle
+        date: c. 350 BC
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6762" }
+      - title: "The Treatises of M. T. Cicero (includes On the Republic and On the Laws; Yonge trans.)"
+        author: Marcus Tullius Cicero
+        date: 54–51 BC
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/treatisescicero00ciceuoft" }
+      - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law)"
+        author: St. Thomas Aquinas
+        date: c. 1270
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/summa/2090.htm" }
+      - title: De Regno (On Kingship)
+        author: St. Thomas Aquinas
+        date: c. 1267
+        publicDomain: false
+        links:
+          - { label: Isidore.co, url: "https://isidore.co/aquinas/english/DeRegno.htm" }
+    curriculumOptions:
+      - name: "Cicero: The Republic and The Laws (Set with Student and Teacher Guides)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/the-republic-and-the-laws-set/"
+        notes: The Oxford World's Classics translation with Memoria study guides.
+      - name: "Aristotle's Ethics (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/aristotles-ethics"
+        notes: Background for the Politics, which Aristotle presents as the sequel to the Ethics.
+    historicalPrecedent: >-
+      Harvard, Yale and King's College required Cicero and Aristotle's ethics and politics, and Adams
+      read Cicero in Latin throughout his life. In 1825 Jefferson named Aristotle and Cicero, with Locke
+      and Sidney, as the sources of the Declaration's "harmonising sentiments."
+    sources:
+      - { label: "Jefferson to Henry Lee, 8 May 1825 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/98-01-02-5212" }
+
+  - id: civics-law-10
+    title: "Early Modern Political Philosophy: Hooker, Locke, Sidney, Montesquieu and Vattel"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 10
+    prerequisites: [civics-law-09]
+    related: [philosophy-10]
+    summary: >-
+      These are the books the founders actually cited. Hooker's Laws of Ecclesiastical Polity, Book I, is
+      the bridge from Aquinas to Locke, and Locke cites "the judicious Hooker." Locke's Second Treatise
+      covers the state of nature, property, consent and the right of revolution. Sidney's Discourses
+      argue for resisting tyranny. Montesquieu's Spirit of the Laws, Books XI–XII, is the source of the
+      separation of powers. Vattel's Law of Nations was the founders' manual of international law. The
+      Protestant resistance theory of Vindiciae contra Tyrannos and Rutherford's Lex, Rex is read beside
+      them.
+    objectives:
+      - Outline Locke's argument from the state of nature to consent and the dissolution of government
+      - Trace Hooker's natural-law teaching and show how Locke borrows it
+      - Explain Montesquieu's separation of powers and its use in Federalist No. 47
+      - Compare Sidney's and Locke's accounts of the right to resist tyranny
+      - Identify Vattel's influence on the Declaration's language and on early American diplomacy
+    coreTexts:
+      - title: Of the Laws of Ecclesiastical Polity (Book I)
+        author: Richard Hooker
+        date: "1594"
+        publicDomain: true
+        links:
+          - { label: Archive.org (Everyman ed.), url: "https://archive.org/details/oflawsofecclesia00hook" }
+      - title: Second Treatise of Government
+        author: John Locke
+        date: "1689"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
+      - title: Discourses Concerning Government
+        author: Algernon Sidney
+        date: "1698"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/sidney-discourses-concerning-government" }
+      - title: "The Spirit of Laws (Nugent trans.)"
+        author: Montesquieu
+        date: "1748"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/spiritoflaws01nugguoft" }
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/montesquieu-complete-works-vol-1-the-spirit-of-laws" }
+      - title: The Law of Nations
+        author: Emer de Vattel
+        date: "1758"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1852 ed.), url: "https://archive.org/details/lawofnationsorpr00vatt" }
+      - title: Lex, Rex, or The Law and the Prince
+        author: Samuel Rutherford
+        date: "1644"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/lexrexorlawprinc00ruth" }
+    curriculumOptions:
+      - name: "Vindiciae Contra Tyrannos: A Defense of Liberty Against Tyrants"
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/vindiciae-contra-tyrannos-a-defense-of-liberty-against-tyrants"
+        notes: A Huguenot treatise (1579) on lawful resistance to tyrants, a key text of the Reformed resistance tradition.
+      - name: "The Real American Founding (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/real-american-founding"
+    historicalPrecedent: >-
+      In the 1790 letter to his son-in-law quoted below, Jefferson says that Locke's "little book on
+      government is perfect as far as it goes." He recommends Montesquieu but warns that it contains "a
+      great number of political truths; but almost an equal number of political heresies." He also calls
+      the Federalist the best book "descending from theory to practice." His course of reading for Bernard
+      Moore (see civics-law-13) lists Vattel under natural law.
+    sources:
+      - { label: "Jefferson to Thomas Mann Randolph Jr., 30 May 1790 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-16-02-0264" }
+    notes: >-
+      A Catholic/Protestant note. Catholic readers trace the right of resistance and popular consent
+      through Aquinas, Bellarmine and Suárez. Reformed readers trace it through Vindiciae, Rutherford and
+      the Puritan tradition. Historians debate how much each strand shaped the founders; both lines can
+      be read here.
+
+  - id: civics-law-11
+    title: "The Federalist, the Anti-Federalists and the Constitutional Convention"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 11
+    prerequisites: [civics-law-10, civics-law-06]
+    related: [rhetoric-11, history-14, history-23]
+    summary: >-
+      The founding debate in the founders' own words. The student reads the core Federalist papers (1,
+      10, 14, 39, 47–51, 62–63, 70, 78, 84) against the strongest Anti-Federalist essays (Brutus, Federal
+      Farmer, Cato), follows the Philadelphia Convention in Madison's Notes on the key days, and samples
+      Elliot's Debates from the state ratifying conventions (Virginia: Henry vs. Madison; New York: Smith
+      vs. Hamilton). Each unit ends in a formal debate.
+    objectives:
+      - Summarize the arguments of Federalist 10 and 51 on faction and ambition counteracting ambition
+      - State the principal Anti-Federalist objections (consolidation, the missing bill of rights, the judiciary, a large republic)
+      - Follow the Great Compromise and the Electoral College through Madison's Notes
+      - Take either side in a mock ratifying convention and argue it from the sources
+    coreTexts:
+      - title: The Federalist Papers
+        author: Alexander Hamilton, James Madison, John Jay
+        date: 1787–1788
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1404" }
+          - { label: Library of Congress full text, url: "https://guides.loc.gov/federalist-papers/full-text" }
+      - title: Notes on the Debates in the Federal Convention
+        author: James Madison
+        date: "1787"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/debcont.asp" }
+      - title: The Debates in the Several State Conventions on the Adoption of the Federal Constitution
+        author: Jonathan Elliot (ed.)
+        date: "1836"
+        publicDomain: true
+        links:
+          - { label: Archive.org (vol. 1), url: "https://archive.org/details/debatesinseveral01elli" }
+      - title: "The Antifederalists (introduction and documents)"
+        author: Gordon Lloyd (ed.)
+        publicDomain: false
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/resource/antifederalist/" }
+    curriculumOptions:
+      - name: The Federalist Papers
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/the-federalist-papers/"
+      - name: "The Federalist Papers (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/the-federalist-papers"
+      - name: "Declaration Statesmanship: A Course in American Government"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/declaration-statesmanship-a-course-in-american-government-set/"
+        notes: A high-school American government course from a Catholic publisher, organized around the Declaration's principles.
+    sources:
+      - { label: "ConSource: The Constitutional Sources Project", url: "https://www.consource.org/" }
+
+  - id: civics-law-12
+    title: "Burke and Tocqueville: Tradition, Liberty and Democracy in America"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 12
+    prerequisites: [civics-law-11]
+    related: [philosophy-10]
+    summary: >-
+      Two outside observers of the American experiment. Burke's Reflections on the Revolution in France
+      (1790) contrasts the "prescriptive" liberties of Englishmen, and so of the Americans he had
+      defended, with abstract revolutionary rights. Tocqueville's Democracy in America (1835/1840) explains
+      what made American self-government work: townships, associations, religion, mores, the jury and
+      the legal profession. It also names its dangers: majority tyranny, individualism and soft despotism.
+    objectives:
+      - Explain Burke's idea of society as a partnership between the dead, the living and the unborn
+      - Contrast the American and French revolutions using Burke and the Declaration
+      - Summarize Tocqueville on township government, voluntary associations and "self-interest rightly understood"
+      - Write an essay testing Tocqueville's warnings about soft despotism against present-day America
+    coreTexts:
+      - title: "Reflections on the Revolution in France (in Works, vol. 3)"
+        author: Edmund Burke
+        date: "1790"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
+      - title: Democracy in America, Volume 1
+        author: Alexis de Tocqueville
+        date: "1835"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/815" }
+      - title: Democracy in America, Volume 2
+        author: Alexis de Tocqueville
+        date: "1840"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
+    curriculumOptions:
+      - name: "American Citizenship and Its Decline (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/american-citizenship-and-its-decline"
+
+  - id: civics-law-13
+    title: "The Common Law: Blackstone and Coke"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 13
+    prerequisites: [civics-law-10]
+    related: [latin-11, history-21]
+    summary: >-
+      Blackstone's Commentaries (1765–69) was the founders' law book. Burke told Parliament in 1775 that
+      nearly as many copies had sold in America as in England, and Lincoln taught himself law from it. The student reads the Introduction ("Of
+      the Nature of Laws in General") and Book I, "Of the Rights of Persons," and samples Books II–IV on
+      property, torts and crimes. Coke's Institutes, which Jefferson and Adams worked through as law
+      apprentices, are sampled for Magna Carta, the Petition of Right and the ancient constitution. The
+      course also covers how common law develops: precedent, stare decisis, and trial by jury.
+    objectives:
+      - Summarize Blackstone's account of the law of nature, revelation and municipal law
+      - Explain the "absolute rights of individuals" (personal security, personal liberty, private property)
+      - Brief five classic common-law cases in the standard format (facts, issue, holding, reasoning)
+      - Trace the line from Magna Carta through Coke to the Fifth, Sixth and Seventh Amendments
+    coreTexts:
+      - title: Commentaries on the Laws of England
+        author: William Blackstone
+        date: 1765–1769
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/blackstone.asp" }
+          - { label: Project Gutenberg (Book I), url: "https://www.gutenberg.org/ebooks/30802" }
+      - title: "The First Part of the Institutes of the Laws of England (Coke upon Littleton)"
+        author: Sir Edward Coke
+        date: "1628"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/cu31924021661693" }
+    historicalPrecedent: >-
+      Jefferson's course of reading for Bernard Moore (c. 1773, recopied for John Minor in 1814) set out a
+      daily schedule. Physical studies, ethics, religion and natural law (including Vattel) came before
+      eight in the morning, law from eight to twelve, politics from twelve to one, history in the
+      afternoon, and belles lettres, criticism, rhetoric and oratory from dark to bedtime. The law
+      reading runs from Coke's Institutes through Bacon's Abridgment to "the inimitable Commentaries of
+      Blackstone." In his autobiography Adams recalls telling Jeremiah Gridley, before his admission to
+      the Boston bar (1758), that he had read Wood's Institutes, Coke upon Littleton and the other
+      Institutes, and the reports. Gridley's advice was to "pursue the Law itself, rather than the gain
+      of it."
+    sources:
+      - { label: "Jefferson to John Minor, 30 Aug. 1814, including Jefferson to Bernard Moore (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/03-07-02-0455" }
+      - { label: "John Adams, Autobiography, 1758 (Founders Online)", url: "https://founders.archives.gov/documents/Adams/01-03-02-0016-0006" }
+
+  - id: civics-law-14
+    title: "Landmark Supreme Court Cases, Mock Trial and Moot Court"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 14
+    prerequisites: [civics-law-13, civics-law-07]
+    related: [rhetoric-09, rhetoric-12, history-24]
+    summary: >-
+      Constitutional law is learned from the cases. The student reads opinions (edited, then in full)
+      starting with Marbury v. Madison (judicial review) and McCulloch v. Maryland (implied powers and
+      federal supremacy). Dred Scott v. Sandford is read critically, beside Lincoln's answer to it and
+      Justice Curtis's dissent. Brown v. Board of Education follows, then a few modern cases. Knowledge
+      becomes skill in a mock-trial team (evidence, direct and cross-examination, opening and closing
+      statements) and a moot-court appellate argument.
+    objectives:
+      - Brief Marbury, McCulloch, Dred Scott and Brown and explain the constitutional principle each decided
+      - Explain why Dred Scott is now regarded as a grave constitutional error, using Lincoln's and Curtis's arguments
+      - Compete in at least one mock-trial season (attorney and witness roles)
+      - Write an appellate brief and deliver a timed oral argument before a moot-court panel
+    coreTexts:
+      - title: Marbury v. Madison
+        date: "1803"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/milestone-documents/marbury-v-madison" }
+      - title: McCulloch v. Maryland
+        date: "1819"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/milestone-documents/mcculloch-v-maryland" }
+      - title: Dred Scott v. Sandford
+        date: "1857"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/milestone-documents/dred-scott-v-sandford" }
+      - title: Brown v. Board of Education
+        date: "1954"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/milestone-documents/brown-v-board-of-education" }
+    curriculumOptions:
+      - name: "The U.S. Supreme Court (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/the-us-supreme-court"
+      - name: "Mock Trial Notebook: Commonwealth v. Zillias"
+        publisher: Classical Conversations
+        tradition: protestant
+        url: "https://classicalconversationsbooks.com/products/mock-trial-notebook"
+        notes: The mock-trial case used in Classical Conversations' Challenge program; works for a co-op team.
+      - name: National High School Mock Trial Championship
+        publisher: NHSMTC
+        tradition: secular
+        url: "https://www.nationalmocktrial.org/"
+        notes: The national tournament; state bar associations run the qualifying competitions.
+
+  - id: civics-law-15
+    title: "Catholic Social Teaching on the State, Subsidiarity and Religious Liberty"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 17
+    order: 15
+    prerequisites: [civics-law-09, civics-law-12]
+    related: [theology-20, economics-07]
+    summary: >-
+      This course reads the Church's teaching on political authority. In Immortale Dei (1885) and Libertas
+      (1888), Leo XIII teaches that authority comes from God and describes the proper relation of Church
+      and state. Rerum Novarum (1891) sets out the limits of the state and the rights of families and
+      associations. Quadragesimo Anno (1931) defines subsidiarity. The Compendium of the Social Doctrine of
+      the Church gives the synthesis. John Courtney Murray's We Hold These Truths (1960), the classic
+      Catholic defense of the American founding, is read with them. Murray argued that its natural-law
+      "consensus" is compatible with Catholic teaching, and he helped shape Vatican II's declaration on
+      religious liberty.
+    objectives:
+      - Define the common good, subsidiarity and solidarity with reference to the encyclicals
+      - Explain Leo XIII's teaching on the origin of political authority and the limits of state power
+      - Summarize Murray's argument about the American "public consensus" and the First Amendment's religion clauses
+      - Write an essay comparing the Catholic principle of subsidiarity with American federalism
+    coreTexts:
+      - title: Immortale Dei (On the Christian Constitution of States)
+        author: Pope Leo XIII
+        date: "1885"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111885_immortale-dei.html" }
+      - title: Libertas (On the Nature of Human Liberty)
+        author: Pope Leo XIII
+        date: "1888"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html" }
+      - title: Rerum Novarum
+        author: Pope Leo XIII
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
+      - title: Quadragesimo Anno (§§ 78–80 on subsidiarity)
+        author: Pope Pius XI
+        date: "1931"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html" }
+      - title: "We Hold These Truths: Catholic Reflections on the American Proposition"
+        author: John Courtney Murray, S.J.
+        date: "1960"
+        publicDomain: false
+        links:
+          - { label: Georgetown University Library (full text), url: "https://library.georgetown.edu/woodstock/Murray/whtt_index" }
+      - title: Lectures on Calvinism (Lecture 3, "Calvinism and Politics")
+        author: Abraham Kuyper
+        date: "1898"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/LecturesOnCalvinism" }
+    curriculumOptions:
+      - name: "Declaration Statesmanship: A Course in American Government"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/declaration-statesmanship-a-course-in-american-government-set/"
+    notes: >-
+      A Catholic/Protestant note. Leo XIII's ideal of a confessional Catholic state (Immortale Dei) and
+      Vatican II's Dignitatis Humanae (1965) on religious liberty are read side by side, and Catholics
+      disagree about how the two fit together. The Reformed tradition reaches similar limits on state
+      power through Kuyper's "sphere sovereignty," which the course reads alongside subsidiarity.
+
+  - id: civics-law-16
+    title: "College Seminar: The Constitution"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 17.5
+    order: 16
+    prerequisites: [civics-law-11, civics-law-14]
+    related: [history-31]
+    summary: >-
+      The equivalent of Hillsdale's required core course on the Constitution. The seminar works through
+      Hillsdale's Constitution Reader (113 primary sources) from the founding principles through the Civil
+      War, the Progressive rejection of the founding and the rise of the administrative state. Story's
+      Commentaries on the Constitution and the Heritage Guide to the Constitution serve as the clause-by-clause
+      references.
+    objectives:
+      - Explain the original meaning of each Article and Amendment, citing the Heritage Guide and Story
+      - Analyze the Progressive critique of the founding (Wilson, Goodnow) and the founders' likely response
+      - Trace the growth of the presidency and the administrative state from primary sources
+      - Write a seminar paper of 3,000 words on a constitutional question
+    coreTexts:
+      - title: "The U.S. Constitution: A Reader"
+        author: Hillsdale College Politics Faculty
+        date: "2012"
+        publicDomain: false
+        links:
+          - { label: Hillsdale College Press, url: "https://shop.hillsdale.edu/products/constitution-em-a-reader-em" }
+      - title: Commentaries on the Constitution of the United States
+        author: Joseph Story
+        date: "1833"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/commentariesonco01storuoft" }
+      - title: The Heritage Guide to the Constitution
+        author: The Heritage Foundation
+        publicDomain: false
+        links:
+          - { label: Heritage Foundation (free online), url: "https://constitution.heritage.org/" }
+    curriculumOptions:
+      - name: "Constitution 101: The Meaning and History of the Constitution (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/constitution-101"
+      - name: "Constitution 201 (free online course on the Progressive rejection of the founding)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/constitution-201"
+      - name: "The Presidency and the Constitution (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/the-presidency-and-the-constitution"
+
+  - id: civics-law-17
+    title: "College Seminar: American Political Thought"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 17
+    prerequisites: [civics-law-12, civics-law-15]
+    related: [philosophy-10, history-31, history-24]
+    summary: >-
+      A survey of American political argument from the primary sources. It runs from the Puritan covenant
+      and the Revolutionary pamphlets through Jefferson and Hamilton, Calhoun and Lincoln (the
+      Lincoln–Douglas debates), and Frederick Douglass. It continues with the Progressives, the New Deal,
+      and the twentieth-century conservative and civil-rights movements. Teaching American History's
+      document collections and Hillsdale's American Heritage course supply the readings. The student also
+      studies how Congress was designed to work and how it works now.
+    objectives:
+      - Present seminar reports on 12 major American political documents from 1630 to 1965
+      - Explain the Lincoln–Douglas dispute over popular sovereignty and the Declaration
+      - Compare the founders' idea of natural rights with the Progressive idea of historical rights
+      - Write a capstone essay on a perennial American political question
+    coreTexts:
+      - title: Teaching American History document library and collections
+        author: Ashbrook Center
+        publicDomain: false
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/resources/" }
+      - title: The Avalon Project (documents in law, history and diplomacy)
+        author: Yale Law School
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/" }
+      - title: "Founders Online (the papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison, Jay)"
+        author: National Archives
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/" }
+    curriculumOptions:
+      - name: "American Heritage: From Colonial Settlement to the Current Day (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/american-heritage"
+      - name: "Congress: How It Worked and Why It Doesn't (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/congress"
+
+  - id: civics-law-18
+    title: "College Seminar: Law and Jurisprudence"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17.5
+    ageEnd: 18
+    order: 18
+    prerequisites: [civics-law-13, civics-law-16]
+    related: [philosophy-14, theology-22, philosophy-16]
+    summary: >-
+      A pre-law seminar on what law is. The natural-law tradition (Aquinas, Blackstone's Introduction,
+      the Declaration) is set against legal positivism and legal realism. Oliver Wendell Holmes's "The
+      Path of the Law" (1897) is the classic statement of the modern view. The seminar also covers methods
+      of constitutional interpretation (originalism, textualism, living constitutionalism) through paired
+      Supreme Court opinions. Jefferson's reading list for Bernard Moore is used as a template for the
+      student's own plan of lifelong legal reading.
+    objectives:
+      - Contrast the natural-law, positivist and realist definitions of law, using Aquinas, Blackstone and Holmes
+      - Explain originalism and its critics, citing majority and dissenting opinions
+      - Draft a personal reading plan in the law on the model of Jefferson's letter to Bernard Moore
+      - Deliver a moot-court argument on a live constitutional question
+    coreTexts:
+      - title: The Path of the Law
+        author: Oliver Wendell Holmes Jr.
+        date: "1897"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2373" }
+      - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law)"
+        author: St. Thomas Aquinas
+        date: c. 1270
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/summa/2090.htm" }
+      - title: "Commentaries on the Laws of England: Introduction, Section 2"
+        author: William Blackstone
+        date: "1765"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/blackstone.asp" }
+    curriculumOptions:
+      - name: "The U.S. Supreme Court (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/the-us-supreme-court"
+    historicalPrecedent: >-
+      Before law schools, Americans "read law" in a practitioner's office from a self-directed list. The
+      model is Jefferson's letter to Bernard Moore (c. 1773). Jefferson's 1790 letter to Thomas Mann
+      Randolph Jr. calls the study of law "the most certain stepping stone to preferment in the political
+      line."
+    sources:
+      - { label: "Jefferson to John Minor, 30 Aug. 1814, including Jefferson to Bernard Moore (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/03-07-02-0455" }
+      - { label: "Jefferson to Thomas Mann Randolph Jr., 30 May 1790 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-16-02-0264" }
+
+  - id: civics-law-19
+    title: "College Seminar: Christian Legal Philosophy I: Covenant, Biblical Law, Augustine, Aquinas and the Reformers"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 17.5
+    order: 17.5
+    prerequisites: [civics-law-10, civics-law-13, civics-law-15]
+    related: [philosophy-08, philosophy-15, theology-19, theology-22, history-29, latin-18]
+    summary: >-
+      How did Christian theology shape Western law? This seminar follows the John Jay Institute's
+      modules on the Bible and politics and on Christianity and the state through the Reformation.
+      It begins with biblical law and covenant: the Sinai covenant and the Decalogue, Deuteronomy's
+      judges and its king under the law, Samuel's warning about kings, Romans 13 and Acts 5:29.
+      It continues with Augustine's City of God XIX on peace, the two cities and the definition of
+      a people, and with Aquinas on the Old Law's judicial precepts, reread with his Treatise on
+      Law. The Reformed line follows: Calvin on civil government (Institutes IV.20), Althusius's
+      covenantal federalism, and Rutherford's Lex, Rex. Harold Berman's Law and Revolution supplies
+      the historian's frame: the Western legal tradition was born in the Papal Revolution of
+      1075–1122.
+    objectives:
+      - Explain covenant as a legal and political form (Exodus 19–24, Deuteronomy 17) and trace it into Althusius and the Puritan charters
+      - Distinguish the moral, ceremonial and judicial precepts of the Old Law (ST I-II qq. 99, 104–105) and compare Calvin's answer to whether the judicial law binds Christian states (Institutes IV.20.14–16)
+      - Contrast Augustine's definition of a people (City of God XIX.24) with Cicero's (XIX.21) and state what follows for justice and the state
+      - Outline Calvin's three parts of civil government (magistrate, laws, people) and his teaching on the "lesser magistrates" (IV.20.31), and trace it into Rutherford
+      - Summarize Berman's thesis on the Papal Revolution and the origin of the Western legal tradition
+      - Write a paper on Romans 13 and Acts 5:29 as read by Augustine, Aquinas, Calvin and Rutherford
+    coreTexts:
+      - title: "The Bible: Exodus 19–24; Deuteronomy 16–17; 1 Samuel 8; Jeremiah 29; Matthew 22; Romans 2 and 13; Acts 5"
+        publicDomain: true
+        links:
+          - { label: "USCCB (NABRE), Exodus 20", url: "https://bible.usccb.org/bible/exodus/20" }
+          - { label: "Douay-Rheims (DRBO), Exodus 20", url: "https://www.drbo.org/chapter/02020.htm" }
+      - title: "The City of God, Book XIX"
+        author: Augustine of Hippo
+        date: "413–426"
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/fathers/120119.htm" }
+      - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law) and q. 105 (the judicial precepts)"
+        author: St. Thomas Aquinas
+        date: c. 1270
+        publicDomain: true
+        links:
+          - { label: "New Advent (q. 90)", url: "https://www.newadvent.org/summa/2090.htm" }
+          - { label: "New Advent (q. 105)", url: "https://www.newadvent.org/summa/2105.htm" }
+      - title: "Institutes of the Christian Religion, Book IV, ch. 20 (Of Civil Government)"
+        author: John Calvin
+        date: "1559"
+        publicDomain: true
+        links:
+          - { label: CCEL, url: "https://ccel.org/ccel/calvin/institutes/institutes.vi.xxi.html" }
+      - title: Politica (abridged, trans. F.S. Carney)
+        author: Johannes Althusius
+        date: "1603; 3rd ed. 1614"
+        publicDomain: false
+        links:
+          - { label: Online Library of Liberty (free), url: "https://oll.libertyfund.org/titles/althusius-politica" }
+      - title: Lex, Rex, or The Law and the Prince
+        author: Samuel Rutherford
+        date: "1644"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/lexrexorlawprinc00ruth" }
+      - title: "Law and Revolution: The Formation of the Western Legal Tradition (Introduction and Part I)"
+        author: Harold J. Berman
+        date: "1983"
+        publicDomain: false
+        links:
+          - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674517769" }
+    curriculumOptions:
+      - name: John Jay Fellows Program (semester residency)
+        publisher: John Jay Institute
+        tradition: protestant
+        url: "https://www.johnjayfellows.com/jji-fellows"
+        notes: >-
+          The model for this row and civics-law-20. It is a tuition-free semester for college
+          graduates with a stipend: five three-week Socratic seminar modules (about 150 pages a
+          night), Friday field studies, and daily prayer from the Book of Common Prayer. It is
+          ecumenical (Evangelical, Catholic and Orthodox) and badged Protestant here only for its
+          Anglican-evangelical ethos. A goal for after college, not an option at 17.
+      - name: Center for the Study of Law and Religion (publications, lectures and videos)
+        publisher: Emory University School of Law (John Witte Jr.)
+        tradition: secular
+        url: "https://cslr.law.emory.edu/"
+        notes: >-
+          The leading academic center in the field, where Harold Berman taught and which Witte
+          directed for many years. Its free lectures and essays suit an advanced student.
+      - name: Acton University
+        publisher: Acton Institute
+        tradition: catholic
+        url: "https://university.acton.org/"
+        notes: An ecumenical summer conference with tracks on Christian anthropology, natural law and political theology.
+    historicalPrecedent: >-
+      The New England Puritans wrote biblical law and covenant into their first codes. John
+      Cotton's draft "Moses his Judicials" (1636) was set aside, but the Massachusetts Body of
+      Liberties (1641) supported its capital laws with Old Testament citations. Rutherford's Lex,
+      Rex and Calvin's doctrine of the lesser magistrates were read in the colonies as warrants for
+      lawful resistance.
+    sources:
+      - { label: "The Massachusetts Body of Liberties (1641), Hanover College", url: "https://history.hanover.edu/texts/masslib.html" }
+      - { label: "John Jay Institute, Learning Together (current seminar modules)", url: "https://www.johnjayfellows.com/learning-together" }
+      - { label: "John Jay Institute curriculum page, archived 23 Feb 2009 (Wayback Machine)", url: "https://web.archive.org/web/20090223104713/http://www.johnjayinstitute.org/index.cfm?get=get.curriculum" }
+    notes: >-
+      To be revised when the user attaches the John Jay Institute curriculum. What is public: the
+      Institute's current site names five modules: Christian Worldview and Engagement with Culture;
+      Natural Law; Christianity and Politics from the Patristic Age through the Reformation; The
+      American Founding and Constitution; and Modern Political Theory and Christian Thought. An
+      archived 2006–2009 curriculum gives fuller descriptions. "The Bible, Christianity, Culture
+      and Politics" read Genesis 1–11, the Decalogue, Psalms, Isaiah, Jeremiah, Daniel, Amos,
+      Matthew 5–6 and 22, Romans 13 and Revelation, with H. Richard Niebuhr, T.S. Eliot,
+      Christopher Dawson, J. Gresham Machen and Bonhoeffer. "Christianity and the State through
+      the Reformation" ran from Irenaeus, Tertullian, Origen, Eusebius and Augustine through Gelasius
+      I, Justinian, Gregory VII, John of Salisbury, Aquinas, Ockham, Marsilius and Gerson to Luther,
+      Calvin, Beza, Knox, Ponet, Cartwright, Hooker and Althusius. Those lists can extend this row.
+      No public source names a current John Jay course titled "Christian Legal Philosophy", its
+      faculty, or its editions. The Institute's statement of beliefs says all law and public policy
+      should agree with the principles of natural law. Catholic and Protestant readers differ on
+      the authority of Scripture's judicial law. Aquinas and Calvin agree that it does not bind
+      Christian states as such, which later theonomists dispute.
+
+  - id: civics-law-20
+    title: "College Seminar: Christian Legal Philosophy II: Blackstone to Benedict XVI, Just and Unjust Laws, and Religious Liberty"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17.5
+    ageEnd: 18
+    order: 18.5
+    prerequisites: [civics-law-19, civics-law-18]
+    related: [philosophy-16, theology-20, rhetoric-08, history-27, history-31]
+    summary: >-
+      Modern Christian jurisprudence and its public uses. Blackstone ranks the law of nature and
+      revelation above all human law. Kuyper's sphere sovereignty and Leo XIII's Libertas give the
+      Reformed and Catholic accounts of law, liberty and the limits of the state. Pacem in Terris
+      (1963) grounds rights and duties in the natural law. The same year, King's Letter from
+      Birmingham Jail cites Augustine and Aquinas to distinguish just from unjust laws. In his 2011
+      Bundestag address Benedict XVI asks what makes law just and answers positivism with "nature
+      and reason". Harold Berman, John Witte Jr. and the Jewish legal scholar Robert Cover give the
+      scholarly account of how law and religion interact. The seminar ends with American
+      religious-liberty law, from Madison's Memorial and Remonstrance to the modern cases.
+    objectives:
+      - Explain Blackstone's account of the law of nature and revealed law as superior to municipal law, and how far he let it bind English judges
+      - Compare Kuyper's sphere sovereignty with the Catholic principle of subsidiarity
+      - Analyze King's use of Augustine and Aquinas and test it against Pacem in Terris §51 and ST I-II q.96 a.4
+      - Summarize Benedict XVI's critique of a purely positivist concept of law and his appeal to an "ecology of man"
+      - Explain Berman's claim that law and religion share ritual, tradition, authority and universality, and Cover's claim that law lives within a community's narratives
+      - Brief Employment Division v. Smith, Hosanna-Tabor and Kennedy v. Bremerton, and argue a moot religious-liberty case from the Memorial and Remonstrance and Dignitatis Humanae
+    coreTexts:
+      - title: "Commentaries on the Laws of England: Introduction, Section 2 (Of the Nature of Laws in General)"
+        author: William Blackstone
+        date: "1765"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/blackstone_intro.asp" }
+      - title: Lectures on Calvinism (Lecture 3, "Calvinism and Politics")
+        author: Abraham Kuyper
+        date: "1898"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/LecturesOnCalvinism" }
+      - title: Libertas (On the Nature of Human Liberty)
+        author: Pope Leo XIII
+        date: "1888"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html" }
+      - title: Pacem in Terris
+        author: Pope John XXIII
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html" }
+      - title: Letter from Birmingham Jail
+        author: Martin Luther King Jr.
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Stanford King Institute, url: "https://kinginstitute.stanford.edu/letter-birmingham-jail" }
+      - title: "The Listening Heart: Reflections on the Foundations of Law (Address to the Bundestag)"
+        author: Pope Benedict XVI
+        date: "2011"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/content/benedict-xvi/en/speeches/2011/september/documents/hf_ben-xvi_spe_20110922_reichstag-berlin.html" }
+      - title: The Interaction of Law and Religion
+        author: Harold J. Berman
+        date: "1974"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/interaction-religion-Harold-Joseph-Berman/dp/0687191270" }
+      - title: "Christianity and Law: An Introduction"
+        author: John Witte Jr. & Frank S. Alexander (eds.)
+        date: "2008"
+        publicDomain: false
+        links:
+          - { label: Amazon (Cambridge University Press), url: "https://www.amazon.com/Christianity-Law-Introduction-Cambridge-Companions/dp/0521697492" }
+      - title: "The Supreme Court, 1982 Term. Foreword: Nomos and Narrative"
+        author: Robert M. Cover
+        date: "1983"
+        publicDomain: false
+        links:
+          - { label: Yale Law School repository (free), url: "https://openyls.law.yale.edu/handle/20.500.13051/2047" }
+      - title: Memorial and Remonstrance against Religious Assessments
+        author: James Madison
+        date: "1785"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Madison/01-08-02-0163" }
+      - title: Dignitatis Humanae (Declaration on Religious Freedom)
+        author: Second Vatican Council
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651207_dignitatis-humanae_en.html" }
+      - title: "Religious-liberty cases: Employment Division v. Smith (1990); Hosanna-Tabor v. EEOC (2012); Kennedy v. Bremerton School District (2022)"
+        author: U.S. Supreme Court
+        publicDomain: true
+        links:
+          - { label: "Oyez (Smith)", url: "https://www.oyez.org/cases/1989/88-1213" }
+          - { label: "Oyez (Hosanna-Tabor)", url: "https://www.oyez.org/cases/2011/10-553" }
+          - { label: "Oyez (Kennedy)", url: "https://www.oyez.org/cases/2021/21-418" }
+    curriculumOptions:
+      - name: John Jay Fellows Program (semester residency)
+        publisher: John Jay Institute
+        tradition: protestant
+        url: "https://www.johnjayfellows.com/jji-fellows"
+        notes: >-
+          The modules "The American Founding and Constitution" and "Modern Political Theory and
+          Christian Thought" cover this ground for college graduates. See civics-law-19.
+      - name: Center for the Study of Law and Religion
+        publisher: Emory University School of Law (John Witte Jr.)
+        tradition: secular
+        url: "https://cslr.law.emory.edu/"
+        notes: Witte's center. Its lectures on religious liberty and on Protestant and Catholic legal thought extend the Witte reading.
+      - name: ISI Honors Program
+        publisher: Intercollegiate Studies Institute
+        tradition: classical
+        url: "https://isi.org/students/honors-program/"
+        notes: A year-long great-books fellowship for undergraduates. Apply once in college.
+    historicalPrecedent: >-
+      The Institute's namesake joined law and faith in one career. John Jay studied under King's
+      College's 1763 plan, which set Grotius or Pufendorf in the fourth year. He became the first
+      Chief Justice and in retirement served as president of the American Bible Society
+      (1821–1827). In 1963 King's Birmingham letter showed that the Augustinian and Thomist
+      distinction between just and unjust laws could still move American law.
+    sources:
+      - { label: "John Jay Institute, Our Beliefs (natural law and religious liberty)", url: "https://www.johnjayfellows.com/our-beliefs" }
+      - { label: "John Jay Institute curriculum page, archived 23 Feb 2009 (Wayback Machine)", url: "https://web.archive.org/web/20090223104713/http://www.johnjayinstitute.org/index.cfm?get=get.curriculum" }
+    notes: >-
+      To be revised when the user attaches the John Jay Institute curriculum. The archived
+      2006–2009 module "Christianity, American Constitutionalism and Jurisprudence" read Coke,
+      Selden, Hale and Blackstone, colonial charters and the founding documents. It also read Jay,
+      Marshall, Kent and Story, and set James Fitzjames Stephen against J.S. Mill. "Modern
+      Political Theory and Christian Thought" added Milton, Baxter, Wilberforce, Coleridge, Groen
+      van Prinsterer, Kuyper, Leo XIII, John Courtney Murray, Reinhold Niebuhr, John Paul II and
+      Richard John Neuhaus. The Institute's statement of beliefs calls religious freedom America's
+      first freedom. The King letter is under copyright (King Estate) but is free to read at the
+      King Institute. Cover was Jewish. His essay is included because it explains how a religious
+      community's law lives alongside the state's, a theme Berman and Witte take up. civics-law-15
+      already reads Leo XIII against Dignitatis Humanae. Here the question is the jurisprudence of
+      religious liberty.

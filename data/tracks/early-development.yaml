@@ -1,0 +1,812 @@
+track: early-development
+title: Early Development (Birth to 7)
+trackGroup: Early Formation
+description: >-
+  Evidence-based best practices for the years before formal schooling, arranged by age band
+  (0–1, 1–2, 2–3, 3–4, 4–5, 5–6, 6–7). This is not a curriculum; it is the soil the curriculum grows in.
+  The track follows ten domains in parallel: responsive language and read-aloud, bilingual exposure by ear
+  (Spanish and Mandarin), movement and outdoor play, music, early numeracy through play, faith and prayer,
+  habit training and self-control, sleep and nutrition, and screen limits. The classical authorities
+  (Quintilian Book I, Locke's Some Thoughts Concerning Education, Charlotte Mason, Montessori) are read
+  beside current pediatric evidence (AAP, WHO, CDC, AASM, and peer-reviewed studies). Where the two agree,
+  as they usually do, the practice is stated plainly. The end state at 6–7 is a healthy, well-rested child
+  who has heard thousands of stories, rhymes and songs, understands (and begins to speak) Spanish and Mandarin,
+  prays with the family through the liturgical year, can attend, obey and wait, counts and compares quantities
+  with ease, and is ready to begin reading, writing, Latin and formal study.
+rows:
+  - id: early-development-01
+    title: "Responsive Talk: Serve-and-Return from Birth"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 1
+    order: 1
+    prerequisites: []
+    related: [reading-phonics-01, poetry-01]
+    summary: >-
+      The single most powerful language practice in infancy is ordinary conversation: noticing the baby's
+      coos, gestures and gaze and answering them with words, faces and touch ("serve and return"). Narrate
+      the day, name what the child looks at, pause for a reply, and read aloud from the first weeks.
+      The AAP's 2024 literacy policy recommends shared reading from birth because it builds language
+      and the parent-child bond together.
+    objectives:
+      - Parents narrate daily care (feeding, changing, walks) in full, rich sentences rather than baby talk alone
+      - Follow the baby's gaze and name objects; wait for and answer every coo, babble and gesture
+      - Read aloud daily from birth (board books, Mother Goose, psalms and poems), for the sound of language even before comprehension
+      - Track CDC milestones at 2, 4, 6, 9 and 12 months (social smile, babbling, responding to name, first words) and raise concerns early
+    coreTexts:
+      - title: The Real Mother Goose
+        author: Blanche Fisher Wright (illus.)
+        date: "1916"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
+    historicalPrecedent: >-
+      Quintilian (Institutio Oratoria I.1) insists that the nurse's speech be correct because the child's
+      first impressions of language are the most lasting, and that the parents themselves be as well educated
+      as possible. Locke (Thoughts §1) likewise holds that the "little, or almost insensible impressions on
+      our tender infancies" have the most lasting consequences.
+    sources:
+      - { label: "AAP Policy (2024): Literacy Promotion, An Essential Component of Primary Care", url: "https://publications.aap.org/pediatrics/article/154/6/e2024069090/199467/Literacy-Promotion-An-Essential-Component-of" }
+      - { label: "HealthyChildren.org: Shared Reading Starting at Birth", url: "https://www.healthychildren.org/English/news/Pages/beyond-literacy-shared-reading-starting-in-infancy-offers-lifelong-benefits.aspx" }
+      - { label: "Harvard Center on the Developing Child: Serve and Return", url: "https://developingchild.harvard.edu/key-concept/serve-and-return/" }
+      - { label: "CDC: Developmental Milestones (Learn the Signs. Act Early.)", url: "https://www.cdc.gov/act-early/milestones/index.html" }
+      - { label: "Quintilian, Institutio Oratoria Book I ch. 1–3 (LacusCurtius)", url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/1A%2A.html" }
+      - { label: "Locke, Some Thoughts Concerning Education (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+    notes: >-
+      Reach Out and Read (reachoutandread.org) distributes books at well-child visits and is a good
+      model for building a home library early.
+
+  - id: early-development-02
+    title: "Infant Sleep, Feeding and First Foods"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 1
+    order: 2
+    prerequisites: []
+    related: []
+    summary: >-
+      Establish the physical foundations: safe sleep, human milk where possible, vitamin D, and at about six
+      months a varied introduction of iron-rich and whole foods, including early allergen introduction.
+      Good sleep and nutrition in the first year support everything else in this track.
+    objectives:
+      - "Safe sleep for every sleep: on the back, on a firm flat surface, in the parents' room but not the parents' bed, with no soft bedding (AAP 2022)"
+      - Aim for 12–16 hours of sleep per 24 hours from 4–12 months, including naps (AASM, endorsed by AAP)
+      - Exclusive human milk for about six months if possible, continued through the first year; iron-fortified formula otherwise; vitamin D supplementation
+      - Introduce complementary foods at about six months, with iron- and zinc-rich foods and early peanut and egg introduction per pediatric guidance (LEAP trial); avoid added sugars, ultra-processed foods and honey before age 1
+      - Build a predictable daily rhythm of feeding, play, nap and bedtime, with a short bedtime ritual that includes a song and a prayer
+    sources:
+      - { label: "AAP: Safe Sleep", url: "https://www.aap.org/en/patient-care/safe-sleep/" }
+      - { label: "AAP Policy (2022): Sleep-Related Infant Deaths", url: "https://publications.aap.org/pediatrics/article/150/1/e2022057990/188304/Sleep-Related-Infant-Deaths-Updated-2022" }
+      - { label: "AASM Consensus: Recommended Amount of Sleep for Pediatric Populations (2016)", url: "https://jcsm.aasm.org/doi/10.5664/jcsm.5866" }
+      - { label: "Du Toit et al., NEJM 2015: Peanut Consumption in Infants at Risk (LEAP)", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa1414850" }
+      - { label: "Dietary Guidelines for Americans 2025–2030 (ODPHP)", url: "https://odphp.health.gov/healthypeople/tools-action/browse-evidence-based-resources/dietary-guidelines-americans-2025-2030" }
+    notes: >-
+      Medical specifics (allergen timing for high-risk infants, supplementation) should be decided with the
+      child's pediatrician; this row gives the consensus defaults only.
+
+  - id: early-development-03
+    title: "Floor Time, Tummy Time and First Movement"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 1
+    order: 3
+    prerequisites: []
+    related: [physical-training-01]
+    summary: >-
+      Babies need to be free on the floor, not strapped in seats. The WHO recommends interactive floor play
+      several times a day and at least 30 minutes of tummy time spread across the day for infants who are not
+      yet mobile, and no more than an hour at a time restrained in prams, high chairs or carriers.
+    objectives:
+      - At least 30 minutes of tummy time daily, in short sessions, from the first weeks
+      - Daily unrestricted floor time on a safe surface to reach, roll, pivot, crawl and pull to stand
+      - Offer graspable objects (rattles, wooden rings, cloth balls) for reaching, grasping and transferring hand to hand
+      - Time outdoors every day in fair weather (pram walks, lying on a blanket under trees)
+    sources:
+      - { label: "WHO Guidelines on Physical Activity, Sedentary Behaviour and Sleep for Children under 5 (2019)", url: "https://www.who.int/publications/i/item/9789241550536" }
+      - { label: "CDC: Developmental Milestones", url: "https://www.cdc.gov/act-early/milestones/index.html" }
+    historicalPrecedent: >-
+      Locke (Thoughts §§5–10, 30) summarizes the regimen for bodily health as "plenty of open air, exercise,
+      and sleep, plain diet," and warns against coddling and overheating infants.
+
+  - id: early-development-04
+    title: "Lullabies, Mother Goose and First Books (Read-Aloud from Birth)"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 2
+    order: 4
+    prerequisites: []
+    related: [poetry-01, music-01, reading-phonics-01]
+    summary: >-
+      Nursery rhymes are the infant's first poetry. Their strong meter, rhyme and alliteration train the ear
+      for the sounds of English (phonological awareness) long before reading. Sing and chant Mother Goose
+      daily, share sturdy picture books, and let the baby handle books.
+    objectives:
+      - Recite or sing several nursery rhymes every day, with bouncing, clapping and tickling games
+      - Read short board books and picture books daily, pointing to and naming pictures
+      - Keep a basket of books within the baby's reach
+      - By 18–24 months the child fills in the last word of familiar rhymes
+    coreTexts:
+      - title: The Real Mother Goose
+        author: Blanche Fisher Wright (illus.)
+        date: "1916"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
+      - title: Mother Goose's Nursery Rhymes
+        author: Walter Crane, John Tenniel et al. (illus.)
+        date: "1877"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/39784" }
+      - title: Divine Songs Attempted in Easy Language for the Use of Children
+        author: Isaac Watts
+        date: "1715"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13439" }
+    sources:
+      - { label: "AAP Policy (2024): Literacy Promotion", url: "https://publications.aap.org/pediatrics/article/154/6/e2024069090/199467/Literacy-Promotion-An-Essential-Component-of" }
+      - { label: "Reach Out and Read", url: "https://reachoutandread.org/" }
+    historicalPrecedent: >-
+      Watts's Divine Songs (1715) was the most widely memorized children's verse in the English-speaking
+      world through the 18th and early 19th centuries, alongside the Mother Goose collections first printed
+      in London and Boston in the 1760s–1780s.
+
+  - id: early-development-05
+    title: "Bilingual by Ear I: Spanish and Mandarin from Native Speakers"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 3
+    order: 5
+    prerequisites: []
+    related: [spanish-01, chinese-01]
+    summary: >-
+      Infants can distinguish the sounds of every language, but between 6 and 12 months that ability narrows
+      to the languages they hear from people. Kuhl, Tsao and Liu (2003) showed that 9-month-old American
+      infants learned Mandarin phonetic contrasts from live native speakers but not from the same speakers
+      on video or audio. The practice is therefore human and relational: Spanish- and Mandarin-speaking
+      caregivers, relatives, nannies or playgroups, with consistent time in each language.
+    objectives:
+      - Arrange regular live exposure to native speakers of Spanish and of Mandarin, ideally several hours a week each, through a nanny, grandparent, au pair, playgroup or Saturday school
+      - Use a consistent pattern (one-person-one-language, or set times and places for each language)
+      - Caregivers sing lullabies and nursery rhymes and read picture books in their own language
+      - Recorded songs support live exposure and do not replace it
+      - By age 3 the child understands everyday commands and songs in both languages and begins to answer in them
+    coreTexts:
+      - title: Chinese Mother Goose Rhymes
+        author: Isaac Taylor Headland (trans.)
+        date: "1900"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/40425" }
+    sources:
+      - { label: "Kuhl, Tsao & Liu, PNAS 2003: Foreign-language experience in infancy", url: "https://www.pnas.org/doi/10.1073/pnas.1532872100" }
+      - { label: "Harvard Center on the Developing Child: Serve and Return", url: "https://developingchild.harvard.edu/key-concept/serve-and-return/" }
+    historicalPrecedent: >-
+      Quintilian (I.1.12–14) advised that a Roman boy begin with Greek, heard from nurses and slaves, while
+      Latin followed at home. Bilingual rearing by ear was the norm for the educated classes of antiquity.
+      Montaigne was raised speaking only Latin with his tutors until age six.
+    notes: >-
+      Headland's collection gives English translations of Chinese nursery rhymes and is useful for parents.
+      The caregiver should supply the Mandarin originals by ear. If native-speaker caregivers cannot be
+      arranged, expect a slower start, and note it as a gap for the spanish and chinese tracks.
+
+  - id: early-development-06
+    title: "Family Prayer from the Cradle"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 3
+    order: 6
+    prerequisites: []
+    related: [theology-01]
+    summary: >-
+      Faith is first caught and then taught. The child is carried to Sunday worship, blessed at bedtime, and
+      hears grace at every meal and short prayers morning and night. By three the child makes the sign of the
+      cross, folds hands, joins in the Our Father and a simple grace, and knows that the family prays together.
+    objectives:
+      - Bless the child at bedtime; sing a short hymn or Marian antiphon (for example the Salve Regina) as a lullaby
+      - Keep grace before meals and short morning and night prayers every day, with the child present
+      - Bring the child to Sunday Mass or worship every week from infancy
+      - Set up a prayer corner at child height with a crucifix or cross, an icon or picture, and a candle for family prayer
+      - By age 3 the child knows the Sign of the Cross, a simple grace, and the first lines of the Our Father and Hail Mary
+    coreTexts:
+      - title: Divine Songs Attempted in Easy Language for the Use of Children
+        author: Isaac Watts
+        date: "1715"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13439" }
+    curriculumOptions:
+      - name: Devotional Stories for Little Folks
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/devotional-stories-for-little-folks/"
+        notes: Short Catholic read-aloud stories for bedtime prayer.
+      - name: The Jesus Storybook Bible (Sally Lloyd-Jones)
+        publisher: Zondervan
+        tradition: protestant
+        url: "https://www.barnesandnoble.com/w/the-jesus-storybook-bible-sally-lloyd-jones/1100472254?ean=9780310708254"
+        notes: Widely used evangelical story Bible for toddlers and preschoolers.
+    notes: >-
+      Catholic and Protestant note: Catholic families add Marian prayers, the Sign of the Cross and
+      sacramentals (holy water, blessed candles), and bring infants to Mass. Many Protestant families keep
+      "family worship" (Scripture, a psalm or hymn, and prayer). Both traditions agree on daily family prayer
+      and weekly worship.
+
+  - id: early-development-07
+    title: "Screens I: No Screens Before Two"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 2
+    order: 7
+    prerequisites: []
+    related: []
+    summary: >-
+      Under two, children learn language and attention from people and real objects, not screens. The AAP
+      discourages all screen media before 18 months except video-chatting with family, and the WHO recommends
+      no sedentary screen time before age 2. This program adopts the stricter standard: no television, tablets
+      or phones for the child before age 2, with video calls to grandparents as the one exception.
+    objectives:
+      - No television, tablet or phone viewing by the child before age 2, apart from live video chat with relatives
+      - No background television. Adults keep phones away during feeding, play and reading
+      - Replace screens with books, blocks, songs, outdoor time and conversation
+    sources:
+      - { label: "AAP Policy (2016, reaffirmed 2022): Media and Young Minds", url: "https://publications.aap.org/pediatrics/article/138/5/e20162591/60503/Media-and-Young-Minds" }
+      - { label: "WHO Guidelines for Children under 5 (2019)", url: "https://www.who.int/publications/i/item/9789241550536" }
+      - { label: "Kuhl et al., PNAS 2003 (no language learning from video)", url: "https://www.pnas.org/doi/10.1073/pnas.1532872100" }
+
+  - id: early-development-08
+    title: "Toddler Language: Rhymes, Finger Plays and Dialogic Reading"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 1
+    ageEnd: 3
+    order: 8
+    prerequisites: [early-development-04]
+    related: [reading-phonics-01, poetry-01]
+    summary: >-
+      Toddlers' vocabularies explode when adults talk with them rather than at them. Use dialogic reading:
+      ask the child to name, point, complete the rhyme and tell what happens next, then expand the child's
+      words into full sentences. Add finger plays, action rhymes and short memorized verses. Expect the
+      two-word phrases of age 2 to become the full sentences and short narratives of age 3.
+    objectives:
+      - "Read aloud together at least 20–30 minutes a day, across several short sessions"
+      - "Use dialogic reading prompts: completion ('Humpty Dumpty sat on a ___'), 'what' and 'where' questions, recall, and expansion"
+      - Memorize 20 or more nursery rhymes and finger plays by age 3
+      - Introduce the first simple story picture books (Beatrix Potter) and illustrated word books
+      - Check CDC milestones at 15, 18, 24 and 30 months, since language delay is the most common early concern
+    coreTexts:
+      - title: The Tale of Peter Rabbit
+        author: Beatrix Potter
+        date: "1902"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14838" }
+      - title: Orbis Pictus (The Visible World in Pictures)
+        author: Johann Amos Comenius
+        date: "1658"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28299" }
+    sources:
+      - { label: "CDC: Milestones by 2 Years", url: "https://www.cdc.gov/act-early/milestones/2-years.html" }
+      - { label: "AAP Policy (2024): Literacy Promotion", url: "https://publications.aap.org/pediatrics/article/154/6/e2024069090/199467/Literacy-Promotion-An-Essential-Component-of" }
+    historicalPrecedent: >-
+      Comenius's Orbis Pictus (1658), the first illustrated textbook for children, taught vocabulary by naming
+      pictured objects in Latin and the vernacular, which is essentially the toddler word book. It was used in
+      schools across Europe and colonial America for two centuries.
+
+  - id: early-development-09
+    title: "Walking, Climbing and Outdoor Play"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 1
+    ageEnd: 3
+    order: 9
+    prerequisites: [early-development-03]
+    related: [physical-training-01, natural-science-01]
+    summary: >-
+      Once walking, children need at least three hours a day of physical activity of any intensity (WHO),
+      much of it outdoors and self-directed: walking, climbing, carrying, running, digging and throwing.
+      Locke's "hardiness" means plenty of fresh air, simple clothing, and permission to get cold, wet and
+      dirty. It is still good advice.
+    objectives:
+      - "180 minutes or more of varied physical activity daily, spread through the day (WHO, ages 1–4)"
+      - Daily outdoor play in all but dangerous weather, dressed for the conditions
+      - Walk rather than ride in a stroller when practical, lengthening walks gradually
+      - "Offer climbing, balancing and throwing challenges: low walls, logs, stairs, balls, a balance bike by age 2–3"
+      - Begin water familiarization with a parent (splashing, pouring, supported floating), and plan swim lessons from age 1 (AAP)
+    sources:
+      - { label: "WHO Guidelines for Children under 5 (2019)", url: "https://www.who.int/publications/i/item/9789241550536" }
+      - { label: "AAP: Drowning Prevention and Water Safety", url: "https://www.aap.org/en/patient-care/drowning-prevention-and-water-safety/" }
+      - { label: "Locke, Some Thoughts Concerning Education §§5–10 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+    historicalPrecedent: >-
+      Locke (§9): children should "be much in the open air, and as little as may be by the fire, even in
+      winter," and (§8) should learn to swim when of age. The Romans, he notes, ranked swimming with letters.
+
+  - id: early-development-10
+    title: "Singing, Rhythm and Chant in the Home"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 1
+    ageEnd: 4
+    order: 10
+    prerequisites: []
+    related: [music-01]
+    summary: >-
+      Singing to and with children, keeping a steady beat, and moving to music build the ear, the voice and
+      the child's sense of timing, which carries over into speech. Zhao and Kuhl (2016) found that 9-month-olds
+      given a short course of social music play (waltz meter) showed stronger brain responses to timing in
+      both music and speech. Keep an unaccompanied, in-tune adult voice at the center, with folk songs,
+      hymns, chant and a few percussion instruments.
+    objectives:
+      - Sing to the child every day, unaccompanied, with a repertoire of folk songs, lullabies, hymns and simple chant
+      - Bounce, clap, march and dance to steady beats in duple and triple meter
+      - "Give the child simple instruments: drum, rhythm sticks, shakers, a glockenspiel"
+      - By 4, the child sings short songs in tune within a small range and keeps a steady beat with the hands and feet
+      - Include Spanish and Mandarin children's songs with the caregivers of those languages
+    curriculumOptions:
+      - name: Music Together (mixed-age family classes, 0–5)
+        publisher: Music Together
+        tradition: secular
+        url: "https://www.musictogether.com/parents/class-types/mixed-age-classes"
+        notes: Research-informed parent-and-child classes; a good weekly anchor if one is local.
+      - name: Kodály-inspired early childhood music (OAKE)
+        publisher: Organization of American Kodály Educators
+        tradition: secular
+        url: "https://www.oake.org/"
+        notes: Folk-song-first, singing-based approach that leads into the music track's formal Kodály/Ward sequence.
+    sources:
+      - { label: "Zhao & Kuhl, PNAS 2016: Musical intervention enhances infants' neural processing", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4868410/" }
+
+  - id: early-development-11
+    title: "Toddler and Preschool Sleep, Meals and Daily Rhythm"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 1
+    ageEnd: 6
+    order: 11
+    prerequisites: [early-development-02]
+    related: []
+    summary: >-
+      Adequate sleep is associated with better attention, behavior, learning, memory and emotional
+      regulation. Children 1–2 need 11–14 hours per 24 hours and children 3–5 need 10–13 hours (AASM,
+      AAP-endorsed). Pair a fixed bedtime with shared family meals of whole foods, few added sugars and
+      no ultra-processed snacks. A predictable daily rhythm is itself a form of habit training.
+    objectives:
+      - "Sleep: 11–14 h (ages 1–2), 10–13 h (ages 3–5), 9–12 h (ages 6–12), including naps. Keep a consistent early bedtime and no screens in the hour before bed"
+      - Eat family meals together at the table at set times, with conversation and grace
+      - Serve whole foods and full-fat dairy for toddlers, and avoid added sugars and ultra-processed foods (DGA 2025–2030)
+      - The child helps set the table, pour, serve and clear, which is also practical-life training
+    sources:
+      - { label: "AASM Consensus: Recommended Amount of Sleep for Pediatric Populations", url: "https://jcsm.aasm.org/doi/10.5664/jcsm.5866" }
+      - { label: "WHO Guidelines for Children under 5 (sleep recommendations)", url: "https://www.who.int/publications/i/item/9789241550536" }
+      - { label: "Dietary Guidelines for Americans 2025–2030 (ODPHP)", url: "https://odphp.health.gov/healthypeople/tools-action/browse-evidence-based-resources/dietary-guidelines-americans-2025-2030" }
+    historicalPrecedent: >-
+      Locke's health regimen (§30) is "plenty of open air, exercise, and sleep, plain diet, no wine or strong
+      drink, and very little or no physic." Charlotte Mason likewise gives the first part of Home Education
+      to fresh air, food, sleep and regularity.
+
+  - id: early-development-12
+    title: "Habit Training: Obedience, Order, Attention and Self-Control"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6
+    order: 12
+    prerequisites: []
+    related: [character-virtue-01]
+    summary: >-
+      Charlotte Mason called habit "ten natures," and Locke held that children learn by "indispensable
+      practice," not rules. Train one habit at a time, gently and consistently, until it is automatic:
+      prompt obedience, tidiness, attention, truthfulness, courtesy and waiting. The Dunedin study (Moffitt
+      et al., 2011) found that childhood self-control predicted adult health, wealth and freedom from crime
+      across the whole range of ability and background. Self-control is trainable, and play-based programs
+      such as Tools of the Mind build it deliberately.
+    objectives:
+      - Work on one habit at a time for 4–6 weeks (for example, putting toys away, coming when called the first time), with calm consistency and no nagging
+      - "Build attention: short, complete tasks; narration (telling back a story just heard) begins around 5–6"
+      - Practice waiting and turn-taking through games (Simon Says, freeze-dance, board games)
+      - Tell the truth always, and never reward a lie. Keep promises made to the child
+      - Give real chores suited to age (sorting laundry, feeding pets, carrying groceries)
+    coreTexts:
+      - title: Home Education
+        author: Charlotte M. Mason
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/71087" }
+      - title: Some Thoughts Concerning Education
+        author: John Locke
+        date: "1693"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+    curriculumOptions:
+      - name: Tools of the Mind
+        publisher: Tools of the Mind
+        tradition: secular
+        url: "https://toolsofthemind.org/"
+        notes: Vygotskian preschool/K program built around mature make-believe play and self-regulation. Adapt its games at home.
+    sources:
+      - { label: "Moffitt et al., PNAS 2011: Childhood self-control predicts health, wealth, and public safety", url: "https://pubmed.ncbi.nlm.nih.gov/21262822/" }
+    historicalPrecedent: >-
+      Locke §66: "Children are not to be taught by rules... What you think necessary for them to do, settle in
+      them by an indispensable practice." §67: manners are "rather to be learnt by example than rules."
+
+  - id: early-development-13
+    title: "Practical Life and Fine Motor Skill"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 5
+    order: 13
+    prerequisites: [early-development-03]
+    related: [fine-arts-01]
+    summary: >-
+      Montessori's "practical life" work (pouring, spooning, buttoning, sweeping, food preparation) builds
+      concentration, independence and the hand control later needed for writing and drawing. Pair it with
+      crayons, scissors, clay, bead-stringing, puzzles and blocks.
+    objectives:
+      - Child-sized tools for real work (pitcher, broom, cloth, butter knife) and time allowed to finish tasks without interruption
+      - Dressing independently (buttons, zips, shoes) by 4–5
+      - "Fine motor progression: scribbling, then circles and crosses, then a tripod grasp and drawing people, then copying letters (5–6)"
+      - Daily construction play (unit blocks, puzzles), plus clay, scissors and paste
+    coreTexts:
+      - title: Dr. Montessori's Own Handbook
+        author: Maria Montessori
+        date: "1914"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29635" }
+      - title: The Montessori Method
+        author: Maria Montessori
+        date: "1912"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/39863" }
+    sources:
+      - { label: "CDC: Milestones by 3 Years", url: "https://www.cdc.gov/act-early/milestones/3-years.html" }
+    historicalPrecedent: >-
+      Locke (§§204–206) recommended gardening and woodworking as healthy recreations even for a gentleman's
+      son, citing the ancients who "reconcile[d] manual labour with affairs of state."
+
+  - id: early-development-14
+    title: "Early Numeracy Through Play"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 5
+    order: 14
+    prerequisites: []
+    related: [mathematics-01, mathematics-03]
+    summary: >-
+      Number sense grows from everyday counting, comparing, sorting, patterning and games. Siegler and Ramani
+      (2008) showed that four short sessions of a simple linear number board game (a 1–10 race game)
+      eliminated the gap in number-line estimation between low- and middle-income preschoolers. Recognizing
+      small quantities at a glance (subitizing) and grouping by five and ten prepare the child for formal arithmetic.
+    objectives:
+      - Count real things daily (stairs, spoons, steps), with one-to-one correspondence to 10 by 3–4 and to 20 or more by 5
+      - Play linear number board games (Chutes and Ladders style), dice and dot-card games several times a week
+      - Subitize quantities 1–5 and recognize 6–10 as "five and some more"
+      - "Sort, match, compare (more, less, same), measure with hands and cups, build patterns with blocks and beads"
+      - Use the language of shape and position (above, below, beside, between)
+    curriculumOptions:
+      - name: RightStart Mathematics Level A (2nd ed.)
+        publisher: Activities for Learning
+        tradition: secular
+        url: "https://rightstartmath.com/shop/rightstart-mathematics-level-a-second-edition-book-bundle/"
+        notes: Abacus- and game-based, strong on subitizing and grouping in fives. Use gently from about 5.
+      - name: Junior Kindergarten (numbers strand)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/junior-kindergarten/"
+        notes: Two- or five-day plans for 4- and 5-year-olds that combine numbers, letters, prayer and read-alouds.
+      - name: Singapore Math early-years materials
+        publisher: Singapore Math Inc.
+        tradition: secular
+        url: "https://www.singaporemath.com/"
+        notes: Concrete, pictorial, abstract sequence. Early-years books lead into the mathematics track.
+    sources:
+      - { label: "Siegler & Ramani 2008: Playing linear numerical board games (PDF)", url: "https://siegler.tc.columbia.edu/wp-content/uploads/2019/02/sieg-ram08.pdf" }
+
+  - id: early-development-15
+    title: "Screens II: Limited, Co-Viewed and Purposeful (2–7)"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 7
+    order: 15
+    prerequisites: [early-development-07]
+    related: []
+    summary: >-
+      After two, the AAP and WHO allow up to one hour a day of high-quality programming, watched together
+      with a parent. Madigan et al. (2019) found that more screen time at 2 and 3 predicted poorer
+      developmental screening scores a year or two later, and not the reverse. This program keeps entertainment
+      screens well under the ceiling (a family film on weekends, video calls, occasional co-viewed nature or
+      music programs) and keeps the rest of the day for play, books and people.
+    objectives:
+      - "Write a family media plan: no screens in bedrooms, at meals or in the hour before bed"
+      - Keep entertainment screen time well under 1 hour a day, co-viewed and talked about
+      - Do not use screens to pacify, reward or fill waiting time. Carry books and small toys instead
+      - Parents model limits on their own phones
+    sources:
+      - { label: "AAP Policy: Media and Young Minds", url: "https://publications.aap.org/pediatrics/article/138/5/e20162591/60503/Media-and-Young-Minds" }
+      - { label: "AAP Family Media Plan (HealthyChildren.org)", url: "https://www.healthychildren.org/English/fmp/Pages/MediaPlan.aspx" }
+      - { label: "Madigan et al., JAMA Pediatrics 2019: Screen time and developmental screening", url: "https://pubmed.ncbi.nlm.nih.gov/30688984/" }
+      - { label: "WHO Guidelines for Children under 5 (2019)", url: "https://www.who.int/publications/i/item/9789241550536" }
+
+  - id: early-development-16
+    title: "The Liturgical Year and the Catechesis of the Good Shepherd"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6
+    order: 16
+    prerequisites: [early-development-06]
+    related: [theology-02, theology-05]
+    summary: >-
+      From three, the child can live the Church year at home: Advent wreath and Jesse tree, Christmas crib,
+      Lent, Holy Week and Easter, Marian feasts and name days, with the liturgical colors and the saints of
+      the day. The Catechesis of the Good Shepherd (Cavalletti and Gobbi) is a Montessori-based atrium for
+      ages 3–6 centered on the parable of the Good Shepherd, the Mass and the Holy Land. Godly Play is a
+      Montessori-derived Protestant (Episcopal) alternative.
+    objectives:
+      - Keep the seasons at home, with colors, a prayer table, feast-day meals and saints' stories
+      - Learn the Our Father, Hail Mary, Glory Be, grace and a morning offering by heart, with short Scripture verses and Psalm 23
+      - Attend a Level I atrium (CGS) weekly if one is available, or set up a small home atrium
+      - Hear the great Bible stories (Creation, Noah, Abraham, Moses, David, the Nativity, the parables, the Passion and Resurrection)
+    curriculumOptions:
+      - name: Catechesis of the Good Shepherd (Level I atrium, ages 3–6)
+        publisher: CGSUSA
+        tradition: catholic
+        url: "https://cgsusa.org/discover/cgs-approach/"
+        notes: Parish-based Montessori catechesis. Parents can train as catechists.
+      - name: "The Religious Potential of the Child (Cavalletti), the CGS handbook for ages 3–6"
+        publisher: Liturgy Training Publications
+        tradition: catholic
+        url: "https://www.amazon.com/Religious-Potential-Child-Experiencing-Scripture/dp/1616715189"
+        notes: Read this before setting up a home atrium.
+      - name: Godly Play
+        publisher: Godly Play Foundation
+        tradition: protestant
+        url: "https://www.godlyplayfoundation.org/"
+        notes: Montessori-derived story-and-wonder method developed by an Episcopal priest (Jerome Berryman). Ecumenical in use.
+    notes: >-
+      Catholic and Protestant note: CGS is explicitly Catholic in its sacramental and Marian content, though it is
+      used in some Anglican and Lutheran parishes. Godly Play is a Protestant adaptation that is lighter on
+      sacraments. Families of either tradition can use the church year, Bible stories and memorized prayers.
+
+  - id: early-development-17
+    title: "The Read-Aloud Canon: Fables, Fairy Tales, Verse and Nature Stories"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6
+    order: 17
+    prerequisites: [early-development-08]
+    related: [literature-01, poetry-02, character-virtue-01, reading-phonics-01]
+    summary: >-
+      Between three and six, read-alouds lengthen from picture books to chapter-length stories. Build a
+      canon of old books with vivid language: Aesop, Grimm and Lang, Beatrix Potter, Stevenson's A Child's
+      Garden of Verses, Burgess's animal stories, and the Hillsdale and AmblesideOnline preschool lists. The
+      child should hear an hour or more a day, including one longer story told in installments.
+    objectives:
+      - Read aloud an hour or more daily, across sessions, including one ongoing chapter book from about age 4
+      - Memorize and recite short poems (Stevenson, Mother Goose, psalms) and learn to say them clearly
+      - The child retells (narrates) favorite stories and fables in order by 5–6
+      - Know the core fables and fairy tales by name and moral (the Tortoise and the Hare, Cinderella, the Three Bears, and others)
+    coreTexts:
+      - title: Aesop's Fables (Jones translation, Rackham illus.)
+        author: Aesop
+        date: "1912"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11339" }
+      - title: A Child's Garden of Verses
+        author: Robert Louis Stevenson
+        date: "1885"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25609" }
+      - title: Grimms' Fairy Tales
+        author: Jacob and Wilhelm Grimm
+        date: "1812"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2591" }
+      - title: The Blue Fairy Book
+        author: Andrew Lang (ed.)
+        date: "1889"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/503" }
+      - title: The Burgess Animal Book for Children
+        author: Thornton W. Burgess
+        date: "1920"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23708" }
+      - title: A Wonder Book and Tanglewood Tales
+        author: Nathaniel Hawthorne
+        date: "1851–1853"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35377" }
+    curriculumOptions:
+      - name: AmblesideOnline Year 0 booklist
+        publisher: AmblesideOnline
+        tradition: classical
+        url: "https://www.amblesideonline.org/ao-y0-bks"
+        notes: Free Charlotte Mason read-aloud list for under-sixes. Christian, and widely used by Protestant and Catholic families.
+      - name: Junior Kindergarten read-aloud program
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/junior-kindergarten/"
+        notes: Weekly classic picture-book read-alouds with enrichment. Classical Christian.
+    historicalPrecedent: >-
+      Locke (§156) recommends that the first book put in a child's hands be "some easy pleasant book," naming
+      Aesop's Fables as the best, "which being stories apt to delight and entertain a child, may yet afford
+      useful reflections to a grown man."
+
+  - id: early-development-18
+    title: "Bilingual by Ear II: Songs, Stories and Play in Spanish and Mandarin"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6
+    order: 18
+    prerequisites: [early-development-05]
+    related: [spanish-02, chinese-02, chinese-03]
+    summary: >-
+      Keep up and deepen oral exposure. Native-speaker caregivers and playmates, picture books read aloud in
+      each language, songs and rhymes, and games that require the child to speak. The aim by six is easy
+      listening comprehension and conversational speech in both languages, so that formal reading and
+      writing (Spanish at about 7, Chinese characters from about 7) builds on a spoken base.
+    objectives:
+      - Several hours a week of live interaction in each language (caregiver, playgroup, weekend language school, relatives)
+      - A library of picture books in Spanish and in Mandarin, read aloud by fluent speakers
+      - Sing 20 or more songs and rhymes in each language, and play games (store, cooking, hide-and-seek) conducted in them
+      - "Mandarin: hear and imitate the four tones through songs and rhymes. Pinyin and characters wait for the formal track"
+      - By 6, the child follows stories and holds simple conversations in both languages
+    coreTexts:
+      - title: Chinese Mother Goose Rhymes
+        author: Isaac Taylor Headland (trans.)
+        date: "1900"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/40425" }
+    curriculumOptions:
+      - name: Song School Spanish Book 1
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/song-school-spanish-book-1-program"
+        notes: Chant- and song-based Spanish for early elementary. Use orally from about 5–6 as a bridge to the spanish track.
+    sources:
+      - { label: "Kuhl et al., PNAS 2003 (live vs. recorded exposure)", url: "https://www.pnas.org/doi/10.1073/pnas.1532872100" }
+    notes: >-
+      I could not verify a Mandarin early-childhood curriculum; the chinese-track agent should propose one.
+      Audio and video are supplements. The research shows that live, social exposure drives early
+      phonetic learning.
+
+  - id: early-development-19
+    title: "Outdoor Hours, Nature Walks and Gross-Motor Skill"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 7
+    order: 19
+    prerequisites: [early-development-09]
+    related: [natural-science-03, natural-science-04, physical-training-01, fine-arts-02]
+    summary: >-
+      Charlotte Mason urged several hours a day out of doors for young children, and the WHO recommends at
+      least three hours of activity a day for 3–4-year-olds, including an hour of energetic play. Go on
+      daily walks and weekly nature rambles, learn to name local birds, trees and flowers, climb, run, ride
+      a bike, and take swim lessons. This is the root of both the natural-science and physical-training
+      tracks.
+    objectives:
+      - "Three or more hours of activity daily, including 60 minutes or more of moderate-to-vigorous play (WHO, ages 3–4)"
+      - A weekly nature walk. By 6, name 20 or more local plants and animals and keep a simple picture nature notebook
+      - "Motor milestones: hop, skip, catch a bounced ball, pedal a bicycle, swim a short distance with support"
+      - Formal swim lessons (see physical-training-01) and supervised climbing, balancing and rough-and-tumble play
+    coreTexts:
+      - title: Handbook of Nature-Study
+        author: Anna Botsford Comstock
+        date: "1911"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/78142" }
+      - title: Home Education (Part II, Out-of-Door Life for the Children)
+        author: Charlotte M. Mason
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/71087" }
+    sources:
+      - { label: "WHO Guidelines for Children under 5 (2019)", url: "https://www.who.int/publications/i/item/9789241550536" }
+      - { label: "CDC: Milestones by 5 Years", url: "https://www.cdc.gov/act-early/milestones/5-years.html" }
+
+  - id: early-development-20
+    title: "Readiness for Formal Schooling: Memory Work, Letters and Narration"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 5
+    ageEnd: 7
+    order: 20
+    prerequisites: [early-development-17, early-development-14, early-development-12]
+    related: [reading-phonics-03, latin-01, mathematics-04, rhetoric-01]
+    summary: >-
+      This is the bridge into the formal curriculum. Quintilian argued against wasting the years before seven
+      and said the child's memory is most retentive when young, but that early learning must be play and
+      never drudgery. At 5–6 the child learns letter sounds and letter formation, recites memorized poems,
+      prayers and catechism, narrates stories, counts past 100, and gets used to short daily "lessons" of
+      10–20 minutes. Formal reading, Latin and Spanish/Chinese literacy begin at 6–7 in their own tracks.
+    objectives:
+      - Knows all letter sounds, blends simple words, and forms letters with a correct pencil grip (hand-off to reading-phonics)
+      - Recites 20 or more poems, the basic prayers, and short catechism answers from memory
+      - Narrates a fable or story of several paragraphs in sequence after one hearing
+      - Counts to 100, subitizes to 10, adds and subtracts within 10 with objects
+      - Sits for short, complete lessons with full attention, and does chores independently
+    curriculumOptions:
+      - name: Junior Kindergarten and Kindergarten curriculum
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/junior-kindergarten/"
+        notes: Classical Christian. Includes letters, numbers, prayer, recitation and read-alouds.
+      - name: Kindergarten Enrichment (3rd ed.)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/kindergarten-enrichment-third-edition/"
+        notes: Read-aloud, art-card and poetry enrichment for 5–6-year-olds.
+      - name: "AmblesideOnline Year 0 (Charlotte Mason: no formal academics before 6)"
+        publisher: AmblesideOnline
+        tradition: classical
+        url: "https://www.amblesideonline.org/ao-y0-bks"
+        notes: The gentler alternative. Delay formal lessons to 6 and keep to read-alouds, nature and habits.
+    coreTexts:
+      - title: McGuffey's Eclectic Primer and First Reader
+        author: William Holmes McGuffey
+        date: "1836 (rev. 1879)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg (First Reader), url: "https://www.gutenberg.org/ebooks/14640" }
+    historicalPrecedent: >-
+      Quintilian I.1.15–20: some held that children should not learn letters before seven, but Quintilian
+      (following Chrysippus) wanted no age to be idle, provided early learning is "an amusement." McGuffey's
+      Primer and First Reader were the standard American entry into reading for five- and six-year-olds
+      through the 19th century.
+    sources:
+      - { label: "Quintilian, Institutio Oratoria Book I ch. 1–3 (LacusCurtius)", url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/1A%2A.html" }
+    notes: >-
+      Start (family decision): gentle formal lessons begin at 5, meaning short daily phonics and number
+      work in the Quintilian and Memoria Press manner. Full formal schooling begins at 6–7. There is a
+      real disagreement to settle here. Quintilian and Memoria Press begin gentle formal lessons at 4–5,
+      while Charlotte Mason and the Montessori tradition delay formal academics to about 6. For an
+      accelerated program, gentle formal lessons from 5 with strict time limits fit best.

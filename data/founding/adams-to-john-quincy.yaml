@@ -1,0 +1,124 @@
+id: adams-to-john-quincy
+title: "John and Abigail Adams on Educating John Quincy Adams (1758–1786)"
+category: founder-letter
+people: [John Adams, Abigail Adams, John Quincy Adams, John Shaw, Francis Dana]
+date: "1758–1786"
+summary: >-
+  From Philadelphia, Paris, Amsterdam and Braintree, John and Abigail Adams directed their
+  son's education by letter. His father set the books: Thucydides in Greek, Sallust,
+  Cicero, Tacitus and Livy for "Wisdom and Virtue", and Demosthenes and Homer rather than
+  easy school authors. His mother set the moral frame: hardship forms "the Hero and the
+  Statesman". John Quincy's own letters record what he actually covered at Haverhill
+  (1785–86): Greek grammar by heart, the Greek Testament, Homer, Xenophon, Horace, Terence,
+  logic and Locke, ending in an oral Harvard examination and a translation into Latin.
+  This program takes from the Adamses the pairing of hard classical texts with explicit
+  moral and civic purpose, parents who keep writing to direct study, and a real
+  examination as the gate to college-level work.
+primarySources:
+  - { label: "John Adams to Abigail Adams, 29 Oct 1775 (MHS Adams Family Papers)", url: "https://www.masshist.org/digitaladams/archive/doc?id=L17751029jathird" }
+  - { label: "John Adams to John Quincy Adams, 11 Aug 1777 (MHS Adams Papers Digital Edition, AFC 2:308)", url: "https://www.masshist.org/publications/adams-papers/index.php/volume/AFC02/pageid/AFC02p308" }
+  - { label: "John Adams to John Quincy Adams, 11 Aug 1777 (Founders Online)", url: "https://founders.archives.gov/documents/Adams/04-02-02-0247" }
+  - { label: "Abigail Adams to John Quincy Adams, 10 Jun 1778 (Founders Online)", url: "https://founders.archives.gov/documents/Adams/04-03-02-0034" }
+  - { label: "Abigail Adams to John Quincy Adams, 19 Jan 1780 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-03-02-0207" }
+  - { label: "John Adams to John Quincy Adams, 17 Mar 1780 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-03-02-0238" }
+  - { label: "John Adams to John Quincy Adams, 23 Dec 1780 (Founders Online)", url: "https://founders.archives.gov/documents/Adams/04-04-02-0030" }
+  - { label: "John Adams to John Quincy Adams, 18 May 1781 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-04-02-0082" }
+  - { label: "John Adams to John Quincy Adams, 29 May 1781 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-04-02-0101" }
+  - { label: "John Adams to John Quincy Adams, 14 Dec 1781 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-04-02-0176" }
+  - { label: "John Quincy Adams to Abigail Adams 2d, 1 Oct 1785 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-06-02-0123" }
+  - { label: "John Quincy Adams to John Adams, 2 Apr 1786 (MHS Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-07-02-0039" }
+  - { label: "John Quincy Adams diary 10, 1 Jan 1785 – 30 Jun 1786 (MHS)", url: "https://www.masshist.org/jqadiaries/php/doc?id=jqad10_300" }
+  - { label: "John Adams diary 2, 5 Oct 1758 – 9 Apr 1759 (MHS Adams Family Papers)", url: "https://www.masshist.org/digitaladams/archive/doc?id=D2&bc=/digitaladams/archive/browse/diaries_by_date.php" }
+entries:
+  # --- Parents' principles ---
+  - text: "JA to AA (1775): 'elevate the minds of our children and exalt their courage'. Education makes the great difference between one man and another"
+    search: education
+    tracks: [character-virtue]
+  - text: "JA to AA (1775): the children's 'bodies must be hardened, as well as their souls exalted'"
+    search: hardened
+    tracks: [physical-training, character-virtue]
+  - text: "AA to JQA (1778): better an early grave than a son grown into a profligate. Virtue ranks above all accomplishment"
+    search: virtue
+    tracks: [character-virtue]
+  - text: "AA to JQA (1780): 'Great necessities call out great virtues'. Hardship forms the character of 'the Hero and the Statesman'"
+    search: virtue
+    tracks: [character-virtue, history]
+  - text: "AA to JQA (1780): govern an 'impetuosity of temper' while young, and repay superior advantages with diligence and steady application"
+    search: temper
+    tracks: [character-virtue]
+  # --- John Adams's reading directions ---
+  - text: "JA to JQA (1777): Thucydides, 'full of Instruction to the Orator, the Statesman, the General'. Master him in Greek, 'the most perfect of all human Languages'"
+    search: Thucydides
+    tracks: [greek, history]
+  - text: "JA to JQA (1777): meanwhile use the translations. Hobbes's 'learned and exact' version, or William Smith's more elegant one"
+    search: Thucydides
+    tracks: [history, literature]
+  - text: "JA to JQA (1780): Latin by making Latin and construing Cicero, Erasmus, the Appendix de Diis et Heroibus and Phaedrus"
+    search: Phaedrus
+    tracks: [latin]
+  - text: "JA to JQA (1780): never omit the Greek grammar. Move soon to the Greek Testament, then Virgil, Cicero's orations, Ovid and Horace"
+    search: Greek Testament
+    tracks: [greek, latin, theology]
+  - text: "JA to JQA (1780): geometry, fractions and geography can wait. Writing and drawing are 'Relaxations' from the languages"
+    search: geometry
+    tracks: [mathematics, fine-arts]
+  - text: "JA to JQA (1780): at Leyden, study Latin and Greek with a private master. Honour the Pilgrims, who sailed from that town"
+    search: Leyden
+    tracks: [latin, greek, history]
+  - text: "JA to JQA (1781): begin Sallust, 'one of the most polished and perfect of the Roman Historians'"
+    search: Sallust
+    tracks: [latin, history]
+  - text: "JA to JQA (1781): 'In Company with Sallust, Cicero, Tacitus and Livy, you will learn Wisdom and Virtue'"
+    search: Tacitus
+    tracks: [latin, history, character-virtue]
+  - text: "JA to JQA (1781): 'all the End of study is to make you a good Man and a useful Citizen'"
+    search: citizen
+    tracks: [character-virtue, civics-law]
+  - text: "JA to JQA (1781): 'I absolutely insist upon it, that you begin upon Demosthenes, and Cicero'"
+    search: Demosthenes
+    tracks: [greek, rhetoric]
+  - text: "JA to JQA (1781): learn Greek from Demosthenes and Homer, and Latin from Virgil and Cicero, not only from Isocrates, Lucian, Phaedrus and Nepos"
+    search: Homer
+    tracks: [greek, latin, poetry]
+  - text: "JA to JQA (1781): in St Petersburg as secretary to Francis Dana, 'loose no Time', the plainest moral precept. Copying diplomatic papers is an education in business"
+    search: Dana
+    tracks: [character-virtue, practical-arts]
+  # --- JQA's preparation for Harvard ---
+  - text: "JQA (1785): Harvard junior-class entrance needs Greek grammar, the New Testament, 3–4 books of Xenophon's Cyropaedia, 5–6 books of Homer's Iliad, and Horace"
+    search: Xenophon
+    tracks: [greek, latin]
+  - text: "JQA (1785–86): under Rev. John Shaw at Haverhill he learned Greek grammar 'by heart' and read the Greek Testament as far as Titus"
+    search: Greek Testament
+    tracks: [greek, theology]
+  - text: "JQA (1786): read six books of the Iliad and four of the Cyropaedia, finished Horace and Terence's Andria"
+    search: Terence
+    tracks: [greek, latin, poetry]
+  - text: "JQA (1785–86): English studies for entrance were Watts's Logic, Locke's Essay Concerning Human Understanding, and some astronomy"
+    search: Locke
+    tracks: [logic, philosophy, natural-science]
+  - text: "JQA (1786): oral examination before Harvard's president, professors and tutors on Horace, Homer, logic, geography and Locke, ending with English prose put into Latin"
+    search: Horace
+    tracks: [latin, greek, logic]
+  # --- John Adams's own legal education, 1758 ---
+  - text: "JA diary (1758): reading Justinian's Institutes in Latin with Vinnius's notes. Civil law as a foundation for the bar"
+    search: Justinian
+    tracks: [civics-law, latin]
+  - text: "JA diary (1758), Jeremiah Gridley's advice: the common law 'deserves your first and last Attention', beginning with Coke's Institutes"
+    search: Coke
+    tracks: [civics-law]
+  - text: "JA diary (1758), Gridley: pursue 'the Study of the Law rather than the Gain of it'. Do not marry early or keep much company"
+    search: Gridley
+    tracks: [civics-law, character-virtue]
+notes: >-
+  Founders Online sits behind an automated bot challenge, so its pages could not be fetched.
+  The Founders Online URLs above (11 Aug 1777, 10 Jun 1778, 23 Dec 1780) were confirmed from
+  search results showing the exact titles. All other letters were read on the Massachusetts
+  Historical Society's Adams Papers Digital Edition, whose ADMS ids match Founders Online.
+  Several details in the brief need correcting. The "great necessities" letter is dated 19
+  Jan 1780, not 12 Jan. The Sallust and "Wisdom and Virtue" letter is 18 May 1781, not 1780.
+  John Adams's Thucydides letter is 11 Aug 1777. No letter was found urging Grotius "in the
+  original". Grotius appears only in AA to JQA, 21 Jan 1781 (among Holland's famous men) and
+  in JA's Amsterdam memoranda of 1780. JQA's St Petersburg diary (diary 5, 1782) was not
+  read in detail, so no titles from his reading there are listed. Gridley also dismissed
+  Greek as "a matter of meer Curiosity" for a lawyer, a view John Adams plainly did not
+  keep for his son.

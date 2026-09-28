@@ -1,0 +1,254 @@
+track: old-english
+title: Old English
+trackGroup: Languages
+description: >-
+  Old English (Anglo-Saxon) is the root of the student's own language and of English law,
+  liberty and poetry. It is taught in five compact units from about age 14, once Latin
+  inflection makes its grammar easy. The arc runs from grammar (Baker's Old English Aerobics,
+  Mitchell & Robinson, Sweet's Primer) to easy prose (Ælfric's Colloquy, Bede's Cædmon story,
+  the Anglo-Saxon Chronicle), then the great short poems (The Dream of the Rood, The Wanderer,
+  The Seafarer, The Battle of Maldon), then Beowulf in excerpts. The track ends with a bridge
+  into Middle English, Chaucer read aloud in the original. Tolkien, Oxford's Professor of
+  Anglo-Saxon, is the guide throughout, both as a scholar and as the example of what this
+  learning can produce. End state: the student reads prose and poetry in Old English with a
+  glossary, scans and recites alliterative verse, reads Chaucer fluently aloud, and understands
+  the history of English words, sounds and grammar from inside.
+rows:
+  - id: old-english-01
+    title: "Old English Grammar: Sounds, Inflections & First Sentences"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 14.5
+    order: 1
+    prerequisites: []
+    related: [latin-04]
+    summary: >-
+      Pronunciation (æ, þ, ð, the palatal c and g), the case system (a light version of Latin's),
+      strong and weak nouns and adjectives, strong verb classes and word order. Baker's free Old
+      English Aerobics exercises give daily drill. The student's Latin and knowledge of English
+      cognates make this go quickly.
+    objectives:
+      - Pronounce Old English correctly and read aloud from the Anglo-Saxon Lord's Prayer
+      - Decline strong and weak nouns and adjectives and the demonstratives se/sēo/þæt
+      - Recognize the seven strong verb classes and conjugate weak verbs
+      - Translate simple prose sentences with a glossary
+    coreTexts:
+      - title: Anglo-Saxon Primer, with Grammar, Notes, and Glossary
+        author: Henry Sweet
+        date: "1882"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/34316" }
+      - title: Old English Aerobics (free online exercises, anthology and glossary)
+        author: Peter S. Baker
+        publicDomain: false
+        links:
+          - { label: oldenglishaerobics.net, url: "https://oldenglishaerobics.net/" }
+    curriculumOptions:
+      - name: "Introduction to Old English (3rd ed.), Peter S. Baker"
+        publisher: Wiley-Blackwell
+        tradition: secular
+        url: "https://www.wiley.com/en-us/Introduction+to+Old+English%2C+3rd+Edition-p-9780470659847"
+        notes: The gentlest modern grammar. It is keyed to the free Old English Aerobics site, which makes it ideal for self-study.
+      - name: "A Guide to Old English (8th ed.), Mitchell & Robinson"
+        publisher: Wiley-Blackwell
+        tradition: secular
+        url: "https://www.wiley.com/en-us/A+Guide+to+Old+English%2C+8th+Edition-p-9780470671078"
+        notes: The standard university grammar and reader, denser than Baker. It is the better long-term reference.
+      - name: Sweet's Anglo-Saxon Primer (free)
+        publisher: Project Gutenberg
+        tradition: classical
+        url: "https://www.gutenberg.org/ebooks/34316"
+        notes: The Victorian school primer. Concise and free, with old-fashioned terminology.
+    historicalPrecedent: >-
+      Jefferson championed Anglo-Saxon as the root of English liberty and common law. He wrote
+      "An Essay towards Facilitating Instruction in the Anglo-Saxon and Modern Dialects of the
+      English Language", printed "for the use of the University of Virginia".
+      Sweet's Primer and Reader were the standard
+      Victorian university texts.
+    sources:
+      - { label: "Jefferson, Essay on the Anglo-Saxon language (1851 printing), Archive.org", url: "https://archive.org/details/anessaytowardsf00jeffgoog" }
+
+  - id: old-english-02
+    title: "Old English Prose: Ælfric's Colloquy, Bede's Cædmon & the Chronicle"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 2
+    prerequisites: [old-english-01]
+    related: [latin-16, latin-05]
+    summary: >-
+      Easy, humane prose. Ælfric's Colloquy is a schoolroom dialogue of monk, ploughman,
+      fisherman and merchant, written to teach Latin, with an Old English gloss. It is the English
+      cousin of Corderius. The Old English Bede's story of Cædmon comes next, then Chronicle
+      entries (Cynewulf and Cyneheard, 755; William the Conqueror, 1087) that show loyalty,
+      kingship and law.
+    objectives:
+      - Read Ælfric's Colloquy in Old English (and compare the Latin)
+      - Read the Old English Bede's account of Cædmon
+      - Read two Anglo-Saxon Chronicle entries (755 and 1087) in Old English
+      - Explain the comitatus ideal of lord and retainer from the Cynewulf and Cyneheard episode
+    coreTexts:
+      - title: Ælfric's Colloquy (Old English gloss)
+        author: Ælfric of Eynsham
+        date: "c. 1000"
+        publicDomain: true
+        links:
+          - { label: Wikisource, url: "https://en.wikisource.org/wiki/%C3%86lfric%27s_Colloquy" }
+      - title: The Story of Cædmon (Old English Bede)
+        author: Bede (Old English translation)
+        date: "9th c."
+        publicDomain: true
+        links:
+          - { label: "Old English Aerobics Anthology (glossed)", url: "https://oldenglishaerobics.net/caedmon.php" }
+      - title: "Anglo-Saxon Chronicle: Cynewulf and Cyneheard; William the Conqueror"
+        author: Anonymous
+        date: "9th–12th c."
+        publicDomain: true
+        links:
+          - { label: "Old English Aerobics, Cynewulf and Cyneheard", url: "https://oldenglishaerobics.net/cynewulf.php" }
+          - { label: "Old English Aerobics, William the Conqueror", url: "https://oldenglishaerobics.net/william.html" }
+          - { label: "Project Gutenberg (English trans., Ingram & Giles)", url: "https://www.gutenberg.org/ebooks/657" }
+      - title: An Anglo-Saxon Reader in Prose and Verse
+        author: Henry Sweet
+        date: "1894 ed."
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/anglosaxonreader00swee" }
+
+  - id: old-english-03
+    title: "Old English Poetry: Cædmon's Hymn, The Dream of the Rood, The Wanderer, The Seafarer"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 15.5
+    order: 3
+    prerequisites: [old-english-02]
+    related: [latin-14]
+    summary: >-
+      Alliterative verse: the half-line, stress, alliteration and kennings. The student reads
+      Cædmon's Hymn (the first English poem), The Dream of the Rood (Christ as warrior-king), and
+      the elegies The Wanderer and The Seafarer on exile, transience and the heavenly home. The
+      Battle of Maldon, the last stand of Byrhtnoth, is added for courage. Each poem is read
+      aloud.
+    objectives:
+      - Scan Old English alliterative lines (stress and alliteration)
+      - Read The Dream of the Rood and The Wanderer complete in Old English
+      - Read selections of The Seafarer and The Battle of Maldon (lines 309–319, "Hige sceal þē heardra")
+      - Memorize and recite Cædmon's Hymn
+      - Write an original poem in modern English alliterative verse
+    coreTexts:
+      - title: The Dream of the Rood
+        author: Anonymous (Vercelli Book)
+        date: "c. 8th–10th c."
+        publicDomain: true
+        links:
+          - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/dream.php" }
+          - { label: Wikisource, url: "https://en.wikisource.org/wiki/The_Dream_of_the_Rood" }
+      - title: The Wanderer
+        author: Anonymous (Exeter Book)
+        publicDomain: true
+        links:
+          - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/wanderer.php" }
+      - title: The Battle of Maldon
+        author: Anonymous
+        date: "after 991"
+        publicDomain: true
+        links:
+          - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/maldon.php" }
+      - title: The Seafarer
+        author: Anonymous (Exeter Book)
+        publicDomain: true
+    notes: >-
+      Tolkien wrote a verse-drama sequel to Maldon, The Homecoming of Beorhtnoth Beorhthelm's Son
+      (1953). It makes a good companion to the Maldon reading
+      (https://www.tolkienestate.com/scholarship/thomas-honegger-the-homecoming-of-beorhtnoth-beorhthelms-son/).
+      The Dream of the Rood is a shared Christian devotional classic. Its cross-veneration imagery
+      fits Catholic and Orthodox piety naturally, and Protestants read it as a poem of Christ's
+      victory.
+
+  - id: old-english-04
+    title: "Beowulf in Old English (with Tolkien)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 4
+    prerequisites: [old-english-03]
+    related: [greek-11, latin-12, literature-18]
+    summary: >-
+      The student reads the great epic in excerpts in the original: the opening (1–52), Grendel's
+      attack and the fight (702–836), Grendel's mother's mere (1345–1382), and the dragon and
+      Beowulf's death (2711–2820 and 3137–3182). The whole poem is read in translation. Tolkien's
+      1936 lecture, "Beowulf: The Monsters and the Critics", guides the interpretation. It
+      transformed the poem's study by treating the monsters as the point.
+    objectives:
+      - Read about 400 lines of Beowulf in Old English
+      - Memorize and perform the opening lines ("Hwæt! Wē Gār-Dena in geār-dagum…")
+      - Read Tolkien's "The Monsters and the Critics" and summarize its argument
+      - Compare Beowulf with Achilles and Aeneas as heroic ideals, and with Christian virtue
+    coreTexts:
+      - title: "Bēowulf: an Anglo-Saxon poem; The Fight at Finnsburh (Old English text)"
+        author: Anonymous (ed. J. A. Harrison & R. Sharp)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9701" }
+          - { label: "Old English Aerobics Beowulf (glossed, in progress)", url: "https://oldenglishaerobics.net/beowulf.html" }
+      - title: "Beowulf: The Monsters and the Critics (and Other Essays)"
+        author: J. R. R. Tolkien
+        date: "1936 lecture; essays 1983"
+        publicDomain: false
+        links:
+          - { label: "Tolkien Estate (about the book)", url: "https://www.tolkienestate.com/scholarship/tom-shippey-the-monsters-and-the-critics-and-other-essays/" }
+      - title: "Beowulf: A Translation and Commentary, together with Sellic Spell"
+        author: J. R. R. Tolkien (ed. Christopher Tolkien)
+        date: "2014"
+        publicDomain: false
+        links:
+          - { label: "Tolkien Estate (about the book)", url: "https://www.tolkienestate.com/scholarship/beowulf-a-translation-and-commentary-together-with-sellic-spell/" }
+    historicalPrecedent: >-
+      Tolkien was Rawlinson and Bosworth Professor of Anglo-Saxon at Oxford (1925–1945) and later
+      Merton Professor of English Language and Literature. The Old English poems (Beowulf, The
+      Wanderer, Maldon) are woven through The Hobbit and The Lord of the Rings.
+    sources:
+      - { label: "Tolkien Estate, 'J.R.R. Tolkien and Philology' (Shippey)", url: "https://www.tolkienestate.com/scholarship/tom-shippey-j-r-r-tolkien-and-philology/" }
+
+  - id: old-english-05
+    title: "Bridge to Middle English: Chaucer in the Original"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 5
+    prerequisites: [old-english-04]
+    related: [literature-18]
+    summary: >-
+      A short bridge from Old to Middle English. The unit covers the loss of inflections, the
+      French and Latin influx, and the Great Vowel Shift in outline. The student reads Chaucer's
+      General Prologue and the Nun's Priest's Tale aloud in Middle English. The Canterbury Tales
+      are thus heard as Chaucer wrote them, and the whole history of English becomes visible.
+    objectives:
+      - Pronounce Chaucer's Middle English and read the first 42 lines of the General Prologue aloud from memory
+      - Read the General Prologue and the Nun's Priest's Tale in Middle English with glosses
+      - Trace five words from Old English through Middle English to modern English
+      - Explain in outline the Norman Conquest's effect on English vocabulary and grammar
+    coreTexts:
+      - title: "The Canterbury Tales (Skeat edition, Middle English)"
+        author: Geoffrey Chaucer
+        date: "c. 1387–1400"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Chaucer's Works, vol. 4, ed. Skeat)", url: "https://www.gutenberg.org/ebooks/22120" }
+    notes: >-
+      Chaucer split (family decision): this unit reads Canterbury Tales selections in the original
+      Middle English as language study. The fuller literary reading of Chaucer is in the literature
+      survey (literature-18). This unit overlaps with the literature track. Coordinate so that the full
+      Canterbury Tales (in modern translation or the original) is read there, and pronunciation and
+      language history are taught here.

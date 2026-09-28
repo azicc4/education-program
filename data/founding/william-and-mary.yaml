@@ -1,0 +1,94 @@
+id: william-and-mary
+title: "College of William & Mary: Charter, Statutes, and Jefferson's Reorganization (1693–1780s)"
+category: colonial-college
+people: [James Blair, William Small, George Wythe, Thomas Jefferson]
+date: "1693–1782"
+summary: >-
+  The 1693 charter founded William & Mary so that Virginia might have "a Seminary of Ministers of
+  the Gospel". It was also meant to educate the colony's youth "in good Manners and Learning" and
+  to carry the faith to the Indians. The statutes (first framed in 1727; printed in Latin and
+  English in 1758) set up four schools. The grammar school taught Latin and Greek from the books
+  used in English schools, plus the Church catechism. Two philosophy masters taught rhetoric,
+  logic and ethics, and physics, metaphysics and mathematics. Two divinity professors taught
+  Hebrew, exegesis, and commonplaces and controversy. An Indian school taught reading, writing
+  and arithmetic. Jefferson studied there from 1760 to 1762. William Small gave the college's
+  first regular lectures in ethics, rhetoric and belles lettres, and Small introduced him to
+  George Wythe for the study of law. As a Visitor in 1779, Jefferson abolished the grammar school
+  and the divinity and oriental-language chairs. In their place he set up professorships of law
+  and police, of anatomy and medicine, and of modern languages. He added the law of nature and
+  nations and the fine arts to moral philosophy. This program takes two things from William &
+  Mary: grammar-school Latin and Greek finished before college, and the Founders' upper course
+  in law, natural law, political economy, science and modern languages.
+primarySources:
+  - { label: "The Charter, Transfer and Statutes of the College of William and Mary, in Latin and English (Williamsburg: William Hunter, 1758) (Internet Archive)", url: "https://archive.org/details/chartertransfers00coll" }
+  - { label: "Jefferson, Autobiography (1821): studies under Small and Wythe; the 1779 reorganization (Avalon Project)", url: "https://avalon.law.yale.edu/19th_century/jeffauto.asp" }
+  - { label: "Jefferson, Notes on the State of Virginia, Query XV (Colleges): the professorships as they stood c. 1781 (Avalon Project)", url: "https://avalon.law.yale.edu/18th_century/jeffvir.asp" }
+  - { label: "Secondary: Herbert B. Adams, The College of William and Mary (U.S. Bureau of Education, 1887) (Internet Archive)", url: "https://archive.org/details/collegeofwilliam00adam" }
+entries:
+  - text: "Charter (1693): a college 'for Divinity, Philosophy, Languages, and other good Arts and Sciences', to supply a seminary of ministers; the Transfer (printed with it in 1758) restates the aim that youth be educated 'in good Manners and Learning'"
+    search: William and Mary charter
+    tracks: [history, civics-law, theology]
+  - text: "Grammar school: Latin and Greek well taught, using the rudiments, grammars and classical authors 'used in the Schools of England'; the master must skip any passage against religion and good morals"
+    search: Latin grammar
+    tracks: [latin, greek, character-virtue]
+  - text: "Grammar school: all scholars learn the Church of England catechism in English, and the more advanced learn it in Latin"
+    search: Catechism
+    tracks: [theology, latin]
+  - text: "Examination in Latin and Greek before promotion from the grammar school to the philosophy school"
+    search: Latin
+    tracks: [latin, greek]
+  - text: "Philosophy school: Aristotle's logic and physics no longer 'reigned alone'; the masters choose the systems of logic, physics, ethics and mathematics to teach"
+    search: Aristotle
+    tracks: [logic, natural-science, philosophy, mathematics]
+  - text: "One philosophy master teaches rhetoric, logic and ethics; the other physics, metaphysics and mathematics; four years to the B.A., seven to the M.A."
+    search: Rhetoric
+    tracks: [rhetoric, logic, philosophy, natural-science, mathematics]
+  - text: "Exercises: disputations, plus declamations and themes on various subjects (not taken from the Bible)"
+    search: Declamation
+    tracks: [rhetoric, grammar-composition]
+  - text: "Divinity school: one professor teaches Hebrew and critically expounds the literal sense of Scripture in both Testaments; the other teaches the commonplaces of divinity and the controversies with heretics"
+    search: Hebrew Psalter
+    tracks: [hebrew, theology]
+  - text: "Indian (Brafferton) school: reading, writing, vulgar arithmetic, and the catechism and principles of Christianity"
+    search: Brafferton
+    tracks: [reading-phonics, mathematics, theology]
+  - text: "Jefferson under William Small (1760–62): mathematics and natural philosophy, and the college's first regular lectures in ethics, rhetoric and belles lettres"
+    search: Small
+    tracks: [mathematics, natural-science, philosophy, rhetoric]
+  - text: "Law under George Wythe: Jefferson read law under Wythe's direction after Small left in 1762. After 1779 Wythe held the new chair of law, and John Marshall attended his lectures"
+    search: Wythe
+    tracks: [civics-law]
+  - text: "1779 professorship of Law and Police"
+    search: Blackstone
+    tracks: [civics-law]
+  - text: "1779 professorship of Anatomy and Medicine (Jefferson's autobiography adds chemistry)"
+    search: Anatomy
+    tracks: [natural-science]
+  - text: "1779 professorship of Natural Philosophy and Mathematics, with natural history added"
+    search: Newton
+    tracks: [natural-science, mathematics]
+  - text: "1779 professorship of Moral Philosophy, the Law of Nature and Nations, and the Fine Arts (architecture explicitly included)"
+    search: Vattel
+    tracks: [philosophy, civics-law, fine-arts]
+  - text: "1779 professorship of Modern Languages"
+    search: French
+    tracks: [spanish]
+  - text: "Jefferson's proposal: a future chair for 'the antient languages and literature of the North' (Anglo-Saxon and Old Norse), for their bearing on English language, law and history"
+    search: Anglo-Saxon
+    tracks: [old-english, history, civics-law]
+  - text: "Jefferson's Bill for Amending the Constitution of the College (1779, Revisal of the Laws): to enlarge the college's 'sphere of science, and to make it in fact an University'"
+    search: Jefferson
+    tracks: [civics-law, history]
+notes: >-
+  The 1758 printing gives the statutes as amended by the Visitors between 1753 and 1756, with
+  rules from 1742 added. Its preface says they keep the title and preface of the statutes first
+  published, which are those of 1727. So the text here is the 1727 framework with mid-century
+  amendments, not a clean 1727 text. I could not fetch or verify the text of Jefferson's Bill for
+  Amending the Constitution of the College of William and Mary. Founders Online blocked automated
+  access, so it is described only from Jefferson's Autobiography and there is no link. The six
+  professorships come from Query XV of Notes on Virginia. The Brafferton kept its own place as
+  the sixth. The modern-languages chair is tagged `spanish` only because the program's modern
+  language tracks are Spanish and Chinese. The historical chair taught French, Italian and other
+  modern languages. The `search` terms Blackstone, Vattel and Newton are cross-link hints, not
+  texts named in the 1779 documents. Adams (1887) records Blackstone and Vattel as W&M texts only
+  for 1830.

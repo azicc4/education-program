@@ -1,0 +1,87 @@
+id: kings-college
+title: "King's College (Columbia): Johnson's Advertisement and the 1763 Plan of Education (1754–1785)"
+category: colonial-college
+people: [Samuel Johnson, Myles Cooper, Alexander Hamilton, John Jay]
+date: "1754–1785"
+summary: >-
+  In 1754 President Samuel Johnson set out the lowest qualifications for entering King's College.
+  A boy had to read and write well and know arithmetic through division and reduction. He also had
+  to parse the first select orations of Cicero, the first books of Virgil's Aeneid, and the
+  opening of St. John's Gospel in Greek. Johnson promised a course in "the Arts of reasoning
+  exactly, of writing correctly, and speaking eloquently". It would also cover surveying and
+  navigation, geography and history, husbandry, commerce and government, and natural history,
+  leading "from the Study of Nature" to God. Under Myles Cooper, the Governors adopted a four-year
+  Plan of Education in 1763. It is one of the richest classical reading lists of the colonial era:
+  Sallust, Caesar, Ovid and Aesop; then Cicero's Offices, Terence and Xenophon; then Cicero's
+  orations and De Oratore, Quintilian, Horace, Aristotle's Ethics and Poetics, Plato and the
+  Iliad; and finally Livy, Tacitus, the Odyssey, the Greek tragedians, Thucydides, Herodotus,
+  Longinus, Demosthenes, Isocrates, Hebrew, and Grotius or Pufendorf. John Jay (class of 1764)
+  and Alexander Hamilton (c. 1773–76) studied under this regime. This program uses the 1763
+  plan as a model for the order of Latin and Greek reading in grades 9–12 and college.
+primarySources:
+  - { label: "A History of Columbia University 1754–1904 (1904), Appendix A: Johnson's Advertisement (1754); Appendix B: Laws of 1755 and the 1763 Plan of Education (Internet Archive)", url: "https://archive.org/details/historyofcolumbi00coluuoft" }
+entries:
+  - text: "Admission (1754): read well, write a good legible hand, and know the first five rules of arithmetic, 'as far as Division and Reduction'"
+    search: Arithmetic
+    tracks: [reading-phonics, mathematics, practical-arts]
+  - text: "Admission (1754): know the Latin and Greek grammars and make grammatical Latin; construe and parse two or three of Tully's (Cicero's) first Select Orations"
+    search: Cicero
+    tracks: [latin, grammar-composition]
+  - text: "Admission (1754): the first books of Virgil's Aeneid and part of the first chapter of St. John's Gospel in Greek"
+    search: Virgil
+    tracks: [latin, greek, poetry]
+  - text: "Laws of 1755: Tully's first three Select Orations, the first three books of the Aeneid, and the first ten chapters of St. John in Greek, turned into Latin; the rules of Clarke's Introduction to making Latin"
+    search: Greek New Testament
+    tracks: [latin, greek]
+  - text: "Aim (1754): teach the children to know God in Jesus Christ and train them in virtuous habits to be 'Ornaments to their Country'"
+    search: Virtue
+    tracks: [character-virtue, theology]
+  - text: "Planned course (1754): the learned languages, and the arts of reasoning exactly, writing correctly and speaking eloquently"
+    search: Rhetoric
+    tracks: [logic, grammar-composition, rhetoric, latin, greek]
+  - text: "Planned course (1754): numbering and measuring, surveying and navigation, geography and history, husbandry, commerce and government"
+    search: Surveying
+    tracks: [mathematics, practical-arts, history, economics, civics-law]
+  - text: "Planned course (1754): the knowledge of all nature (heavens, air, water, earth, minerals, plants and animals), leading 'from the Study of Nature' to knowledge of God and duty"
+    search: Natural history
+    tracks: [natural-science, theology]
+  - text: "First year (1763): Sallust, Caesar's Commentaries, Ovid's Metamorphoses, Virgil's Eclogues, Aesop's Fables, Lucian's Dialogues, Greek Testament, Grotius's De Veritate; Latin and English themes and translation"
+    search: Caesar
+    tracks: [latin, greek, history, theology, grammar-composition]
+  - text: "Second year: Cicero's De Officiis, Quintus Curtius, Terence, Ovid's Epistles, Virgil's Aeneid and Georgics, Epictetus's Enchiridion, Xenophon's Cyropaedia and Anabasis, Farnaby's epigrams"
+    search: Xenophon
+    tracks: [latin, greek, philosophy, poetry, character-virtue]
+  - text: "Second year: Wallis's Logic, Sanderson's Compendium, Johnson's Noetica; rhetoric, recitations to learn the art of speaking, Latin and English verse"
+    search: Logic
+    tracks: [logic, rhetoric, poetry]
+  - text: "Third year: Cicero's Orations and De Oratore, Quintilian's Institutes, Pliny's Letters, Catullus, Tibullus, Propertius, Horace"
+    search: Quintilian
+    tracks: [latin, rhetoric, poetry]
+  - text: "Third year: Aristotle's Ethics and Poetics, Plato's Dialogues, Xenophon's Memorabilia, Theocritus, Homer's Iliad; Hutcheson's ethics and metaphysics; syllogistic disputations in Latin"
+    search: Homer
+    tracks: [greek, philosophy, poetry, logic, character-virtue]
+  - text: "Fourth year: Cicero's Tusculan Disputations, Livy and Tacitus, Lucan, Juvenal and Persius, Plautus"
+    search: Livy
+    tracks: [latin, history, poetry, philosophy]
+  - text: "Fourth year: Homer's Odyssey, Sophocles, Euripides, Aeschylus, Thucydides, Herodotus, Longinus On the Sublime, Demosthenes, Dionysius of Halicarnassus, Isocrates"
+    search: Thucydides
+    tracks: [greek, literature, history, rhetoric]
+  - text: "Fourth year: Hebrew grammar and the Hebrew Bible"
+    search: Hebrew Psalter
+    tracks: [hebrew, theology]
+  - text: "Fourth year: Grotius's De Jure Belli ac Pacis or Pufendorf; Hutcheson's Moral Philosophy; philosophical essays in English and Latin; disputations in the hall"
+    search: Grotius
+    tracks: [civics-law, philosophy, grammar-composition]
+  - text: "Admission from 1786 (statutes of 1785): Caesar's Gallic War, the four Catilinarian Orations, the first four books of the Aeneid, and the Gospels from the Greek; arithmetic through the rule of three"
+    search: Caesar
+    tracks: [latin, greek, mathematics]
+notes: >-
+  Johnson's 1754 advertisement names Tully, Virgil's Aeneid and the Gospel of St. John. It does not
+  name Caesar. Caesar and Sallust enter the admission rules in the 1763 laws ("Sallust, Caesar's
+  Commentaries or some part of Cicero's Works", and "the Gospels at least" from Greek into Latin).
+  The 1763 plan came late in the course of John Jay (class of 1764), so Jay would have met it only partly.
+  Hamilton, who entered around 1773–74, would have followed it or its successor. There is no
+  surviving record of what either man read. All quotations come from the appendices and text of
+  the 1904 History of Columbia University, which prints the advertisement (dated New York, May 31,
+  1754) and the laws and plan from the Governors' minutes. I did not separately verify Moore's
+  Historical Sketch (1846) as a source.

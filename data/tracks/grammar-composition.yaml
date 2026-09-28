@@ -1,0 +1,577 @@
+track: grammar-composition
+title: Grammar & Composition
+trackGroup: English
+description: >-
+  The track runs from the copybook to the college essay. In the early years children copy and take
+  dictation from excellent sentences (Charlotte Mason) and narrate what they have read. Then comes
+  formal English grammar: recitation, parsing and Reed & Kellogg diagramming, using modern classical,
+  Catholic and Protestant programs alongside the founding-era standard, Lindley Murray's English Grammar.
+  Composition follows Franklin's method of imitating good prose. Students keep a commonplace book on
+  Locke's method and write letters on the Founders' model, then essays, a research paper, and finally
+  expository and argumentative writing with attention to style (Strunk, the Fowlers, Orwell). The
+  progymnasmata and oratory belong to the rhetoric track and run in parallel. End-state (17–18): the
+  student writes clear, correct, forceful English prose in any expository or argumentative form,
+  documents research properly, edits their own work to a professional standard, and can parse and
+  diagram any sentence.
+rows:
+  - id: grammar-composition-01
+    title: "Copywork & Penmanship"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [reading-phonics-04, character-virtue-04, practical-arts-07]
+    summary: >-
+      Daily, careful copying of short passages of Scripture, poetry and great prose, first in print and
+      then in cursive. Copywork trains attention, spelling, punctuation and the feel of well-made
+      sentences before the child is asked to compose.
+    objectives:
+      - Copy a 2–4 line passage daily with perfect accuracy and neat handwriting
+      - Write fluent, legible cursive by about age 8
+      - Notice and reproduce capitalization, punctuation and spelling in models
+    coreTexts:
+      - title: Home Education (Vol. 1), on transcription
+        author: Charlotte M. Mason
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/71087" }
+    curriculumOptions:
+      - name: Copybook Cursive I–III (Scripture and poems)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/penmanship/copybook-cursive-i-ii/"
+        notes: Classical copybooks built on Scripture, poetry and proverbs.
+      - name: Language of God, Level A (copywork and early language)
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/language-of-god-level-a/"
+        notes: Catholic early-grades language arts with copywork.
+    historicalPrecedent: >-
+      At about 14 to 16, George Washington copied the 110 "Rules of Civility & Decent Behaviour in Company
+      and Conversation" into his school exercise book. This is the classic founding-era example of
+      copywork as both penmanship and moral formation.
+    sources:
+      - { label: "Mount Vernon: The Rules of Civility", url: "https://www.mountvernon.org/george-washington/rules-of-civility" }
+
+  - id: grammar-composition-02
+    title: "Narration & Dictation"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 9
+    order: 2
+    prerequisites: [grammar-composition-01]
+    related: [reading-phonics-07, rhetoric-02]
+    summary: >-
+      The child tells back in their own words what was read (oral narration, then written narration)
+      and writes studied passages from dictation. Narration builds composition's raw material, ordered
+      thought in sentences. Dictation fixes spelling and punctuation in memory.
+    objectives:
+      - Narrate a read-aloud passage orally in sequence, with detail, after one hearing
+      - Write a 3–5 sentence narration independently by about age 8–9
+      - Take dictation of a studied passage of 2–4 sentences without error
+    coreTexts:
+      - title: Home Education (Vol. 1), on narration and dictation
+        author: Charlotte M. Mason
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/71087" }
+    curriculumOptions:
+      - name: Writing With Ease (Levels 1–4)
+        publisher: Well-Trained Mind Press
+        tradition: classical
+        url: "https://welltrainedmind.com/c/series/writing-with-ease/"
+        notes: Scripted narration and dictation from classic children's literature. The most turnkey option.
+      - name: Language of God (Levels B–C)
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/language-of-god-level-a/"
+        notes: Catholic language arts with dictation and early composition. The link is Level A; later levels follow.
+
+  - id: grammar-composition-03
+    title: "First Grammar: Parts of Speech & the Sentence (Recitation)"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 9
+    order: 3
+    prerequisites: [grammar-composition-01]
+    related: [latin-01]
+    summary: >-
+      The eight parts of speech, subject and predicate, the four kinds of sentences, capitalization and
+      punctuation, learned by memorized definitions and oral recitation in grammar-stage style. This is
+      coordinated with first Latin, which reinforces the same concepts.
+    objectives:
+      - Recite definitions of the eight parts of speech and identify them in sentences
+      - Identify simple and complete subject and predicate
+      - Punctuate declarative, interrogative, imperative and exclamatory sentences correctly
+    curriculumOptions:
+      - name: First Language Lessons for the Well-Trained Mind (Levels 1–4)
+        publisher: Well-Trained Mind Press
+        tradition: classical
+        url: "https://welltrainedmind.com/c/series/first-language-lessons/"
+        notes: Scripted oral lessons with poem memorization. Level 3–4 begins diagramming.
+      - name: English Grammar Recitation I
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/writing-and-english-grammar/english-grammar-recitation-workbook-one/"
+        notes: Catechism-style grammar recitation that repeats each year, tightly tied to Latin.
+      - name: Well-Ordered Language (Level 1)
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/collections/well-ordered-language"
+        notes: Grammar through songs, chants and poetry, introducing diagramming gently.
+
+  - id: grammar-composition-04
+    title: "Grammar II: Systematic English Grammar (Shurley, Rod & Staff, Voyages)"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8.5
+    ageEnd: 10
+    order: 4
+    prerequisites: [grammar-composition-03]
+    related: [latin-03]
+    summary: >-
+      A complete systematic grammar course: phrases and clauses, verb tenses and voice, pronoun case,
+      agreement, and usage. Each lesson is applied immediately in short compositions. Choose one of three
+      traditions.
+    objectives:
+      - Classify every word in a sentence by part of speech and function (parsing)
+      - Identify phrases (prepositional, verbal) and clauses (independent, dependent)
+      - Write a well-organized paragraph with a topic sentence and support
+    curriculumOptions:
+      - name: Shurley English (Levels 3–5)
+        publisher: Shurley Instructional Materials
+        tradition: secular
+        url: "https://www.shurley.com/hs/"
+        notes: Question-and-answer "flow" chants for classifying sentences. Very effective for young children, though loud and repetitive.
+      - name: Building Christian English (Grades 3–5)
+        publisher: Rod and Staff Publishers
+        tradition: protestant
+        url: "https://www.rodstaff.com/english/"
+        notes: Mennonite, rigorous and thorough, with diagramming. Grades 6–8 books are near high-school level.
+      - name: Voyages in English (Grades 3–5)
+        publisher: Loyola Press
+        tradition: catholic
+        url: "https://languagearts.loyolapress.com/voyages-in-english/"
+        notes: Jesuit-published successor to the classic Catholic-school grammar series, with diagramming.
+
+  - id: grammar-composition-05
+    title: "Sentence Diagramming: Reed & Kellogg"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 9.5
+    ageEnd: 11
+    order: 5
+    prerequisites: [grammar-composition-04]
+    related: [logic-02]
+    summary: >-
+      Students learn the Reed–Kellogg diagram (1877), the visual syntax used in American schools for a
+      century, from simple sentences through complex and compound-complex ones with verbals and
+      clauses. Diagramming makes the logic of English sentences visible and prepares for Latin and
+      Greek syntax.
+    objectives:
+      - Diagram simple, compound, complex and compound-complex sentences
+      - Diagram participles, gerunds, infinitives, appositives and noun clauses
+      - Diagram sentences from the Declaration and the Gettysburg Address
+    coreTexts:
+      - title: Graded Lessons in English
+        author: Alonzo Reed and Brainerd Kellogg
+        date: "1877"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/7010" }
+      - title: Higher Lessons in English
+        author: Alonzo Reed and Brainerd Kellogg
+        date: "1877; rev. 1885"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/7188" }
+    curriculumOptions:
+      - name: Well-Ordered Language (Levels 3–4)
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/collections/well-ordered-language"
+        notes: Modern classical program with full diagramming.
+      - name: Building Christian English (Grades 6–7)
+        publisher: Rod and Staff Publishers
+        tradition: protestant
+        url: "https://www.rodstaff.com/english/"
+        notes: Its diagramming is some of the most thorough available.
+
+  - id: grammar-composition-06
+    title: "Founding-Era Grammar: Lindley Murray & Harvey (Parsing, Syntax, Prosody)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 12
+    order: 6
+    prerequisites: [grammar-composition-05]
+    related: [latin-04]
+    summary: >-
+      The grammar the early Republic learned. Lindley Murray's English Grammar (1795), in its four parts
+      (Orthography, Etymology, Syntax, Prosody), was the standard school grammar in America and Britain
+      for half a century. It is paired with Harvey's English Grammar (1868), the McGuffey-era companion.
+      Students parse sentences in full, correct false syntax, and learn punctuation and English prosody.
+    objectives:
+      - Parse any sentence fully in the 19th-century manner (part of speech, inflection, syntax rule)
+      - Correct "false syntax" exercises by stating the violated rule
+      - Master the rules of punctuation, and scan English verse (prosody)
+    coreTexts:
+      - title: English Grammar, Adapted to the Different Classes of Learners
+        author: Lindley Murray
+        date: "1795; 1823 ed."
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1823)", url: "https://archive.org/details/englishgrammarad00murruoft" }
+      - title: Harvey's English Grammar
+        author: Thomas W. Harvey
+        date: "1868; 1870 ed."
+        publicDomain: true
+        links:
+          - { label: "Archive.org", url: "https://archive.org/details/harveysenglishgr00harv" }
+    curriculumOptions:
+      - name: English 7 for Young Catholics
+        publisher: Seton Educational Media
+        tradition: catholic
+        url: "https://setonbooks.com/english/1158-english-7-for-young-catholics.html"
+        notes: Traditional Catholic grammar and composition text to run alongside Murray.
+      - name: Building Christian English (Grade 8)
+        publisher: Rod and Staff Publishers
+        tradition: protestant
+        url: "https://www.rodstaff.com/english/"
+        notes: Completes grammar at a level that equals most high-school courses.
+    historicalPrecedent: >-
+      In his 1749 Proposals, Franklin asked that pupils be "taught the English Tongue by Grammar" and
+      form their style on the best English authors. Murray's Grammar (first printed 1795) went through
+      hundreds of American editions and became the grammar of the early-19th-century schoolroom.
+    sources:
+      - { label: "Franklin, Proposals Relating to the Education of Youth in Pensilvania (1749), Penn Archives", url: "https://archives.upenn.edu/digitized-resources/docs-pubs/franklin-proposals/" }
+
+  - id: grammar-composition-07
+    title: "The Commonplace Book"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 18
+    order: 7
+    prerequisites: [grammar-composition-02]
+    related: [rhetoric-04]
+    summary: >-
+      A lifelong notebook of striking passages copied from one's reading and indexed by topic on John
+      Locke's method. It is a store of quotations, arguments and models for writing and speaking, begun
+      at 10 and kept through college. Jefferson's and Locke's own commonplace books are the models.
+    objectives:
+      - Keep a commonplace book with a Locke-style index, adding entries weekly from all subjects
+      - Copy passages accurately with author, work and page
+      - Use commonplace entries as material in essays and speeches
+    coreTexts:
+      - title: A New Method of Making Common-Place-Books
+        author: John Locke
+        date: "1706 (Eng. trans.)"
+        publicDomain: true
+        links:
+          - { label: "Archive.org", url: "https://archive.org/details/gu_newmethodmaki00lock" }
+      - title: Jefferson's Literary Commonplace Book
+        author: Thomas Jefferson, ed. Douglas L. Wilson
+        date: "c. 1758–1772; ed. 1989"
+        publicDomain: false
+        links:
+          - { label: "Princeton University Press", url: "https://press.princeton.edu/books/hardcover/9780691636078/jeffersons-literary-commonplace-book" }
+          - { label: "Library of Congress (manuscript)", url: "https://www.loc.gov/item/mtjbib026467/" }
+    historicalPrecedent: >-
+      As a student and young lawyer (c. 1758–1772), Jefferson copied passages from Homer, Euripides,
+      Cicero, Milton, Pope and Bolingbroke into his Literary Commonplace Book. It is the best surviving
+      record of a Founder's self-education.
+
+  - id: grammar-composition-08
+    title: "Letter Writing on the Founders' Model"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 13
+    order: 8
+    prerequisites: [grammar-composition-04]
+    related: [character-virtue-04, practical-arts-07]
+    summary: >-
+      Students learn the forms of the letter (friendly, formal, business, condolence, thanks) and write
+      real letters weekly by hand to grandparents, pen-pals, officials and authors. The models are the
+      letters of the Founders and the classic letters of advice from father to son.
+    objectives:
+      - Write correctly formatted friendly, formal and business letters
+      - Sustain a regular handwritten correspondence with at least one person for a year
+      - Read and imitate letters of Adams, Jefferson and Franklin found on Founders Online
+    coreTexts:
+      - title: Letters to His Son
+        author: Philip Dormer Stanhope, Earl of Chesterfield
+        date: "1774"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/3361" }
+      - title: Letter to Peter Carr, 10 August 1787 (a model letter of advice on education)
+        author: Thomas Jefferson
+        date: "1787"
+        publicDomain: true
+        links:
+          - { label: "Teaching American History", url: "https://teachingamericanhistory.org/document/letter-to-peter-carr/" }
+    sources:
+      - { label: "Founders Online (National Archives)", url: "https://founders.archives.gov/" }
+    notes: >-
+      Chesterfield's letters are brilliant on style and manners but worldly in morals. Johnson said they
+      taught "the morals of a whore, and the manners of a dancing master." Read them selectively and
+      discuss them.
+
+  - id: grammar-composition-09
+    title: "From Paragraph to Essay: Imitation & Franklin's Method"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 13
+    order: 9
+    prerequisites: [grammar-composition-04, grammar-composition-02]
+    related: [rhetoric-03, rhetoric-04, latin-08]
+    summary: >-
+      Students write multi-paragraph compositions by imitating model prose. Following Franklin, they take
+      notes on an essay (the Spectator, Johnson, Lincoln), set it aside, rewrite it from the notes, and
+      compare. Structured programs teach outlining, dress-ups of style, and the parts of the essay. The
+      progymnasmata exercises run in parallel in the rhetoric track.
+    objectives:
+      - Outline a model essay and reconstruct it in their own words (Franklin's exercise)
+      - Write a five-paragraph essay with thesis, ordered support and conclusion
+      - Vary sentence openings and structures deliberately
+    coreTexts:
+      - title: Autobiography (Franklin on teaching himself to write from the Spectator)
+        author: Benjamin Franklin
+        date: "1771–1790"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/20203" }
+    curriculumOptions:
+      - name: The Lost Tools of Writing (Level I)
+        publisher: CiRCE Institute
+        tradition: classical
+        url: "https://circeinstitute.org/lost-tools-writing/"
+        notes: Classical invention, arrangement and elocution applied to the persuasive essay.
+      - name: Structure and Style for Students
+        publisher: Institute for Excellence in Writing
+        tradition: protestant
+        url: "https://iew.com/sss-info"
+        notes: Key-word outlines and stylistic techniques, taught by video. Very structured and effective for reluctant writers.
+      - name: English 7 for Young Catholics (composition units)
+        publisher: Seton Educational Media
+        tradition: catholic
+        url: "https://setonbooks.com/english/1158-english-7-for-young-catholics.html"
+        notes: Catholic option that combines grammar review with composition.
+    historicalPrecedent: >-
+      Franklin (Autobiography) took a volume of the Spectator, made short hints of each sentence, laid
+      them by, and after some days tried to rewrite the papers "in any suitable words that should come to
+      hand," then compared his version with the original and corrected his faults. He also turned the
+      essays into verse and back to sharpen his vocabulary.
+
+  - id: grammar-composition-10
+    title: "Usage & Style I: Strunk and the Fowlers"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 10
+    prerequisites: [grammar-composition-06, grammar-composition-09]
+    related: []
+    summary: >-
+      Students learn the rules of plain, vigorous English: omit needless words, prefer the active voice
+      and the concrete word, and avoid the common errors of usage. Revision becomes a habit through
+      editing one's own and peers' essays against Strunk's rules and the Fowlers' examples.
+    objectives:
+      - Apply Strunk's elementary rules of usage and principles of composition in revision
+      - Identify and correct common errors (dangling modifiers, faulty parallelism, vague pronouns)
+      - Revise a draft to cut its length by a quarter without losing content
+    coreTexts:
+      - title: The Elements of Style (original 1918 edition)
+        author: William Strunk Jr.
+        date: "1918"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/37134" }
+      - title: The King's English
+        author: H. W. Fowler and F. G. Fowler
+        date: "1906"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/75439" }
+    notes: >-
+      The later Strunk & White editions (1959 onward) are copyrighted and widely available. The free 1918
+      text holds the core rules.
+
+  - id: grammar-composition-11
+    title: "The Essay: Expository & Persuasive Writing"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 15
+    order: 11
+    prerequisites: [grammar-composition-09, grammar-composition-10]
+    related: [rhetoric-07, logic-02]
+    summary: >-
+      Students write a full essay every week or two across genres (definition, comparison, cause and
+      effect, literary analysis, and persuasion on a question of justice or policy), using classical
+      invention (the topics) and the logic course's argument analysis. Timed essays prepare for exams.
+    objectives:
+      - Write 1,000–1,500-word expository and persuasive essays with a defensible thesis
+      - Answer the strongest counter-argument fairly in every persuasive essay
+      - Write a well-organized timed essay in 40 minutes
+    curriculumOptions:
+      - name: The Lost Tools of Writing (Levels II–III)
+        publisher: CiRCE Institute
+        tradition: classical
+        url: "https://circeinstitute.org/lost-tools-writing/"
+        notes: Extends invention and arrangement into comparison, the judicial and the deliberative essay.
+      - name: English Grammar & Composition (high-school course plan)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://books.kolbe.org/products/english-grammar-composition-course-plan"
+        notes: Catholic classical homeschool course plan and tests for high-school composition.
+      - name: Structure and Style for Students (Level C)
+        publisher: Institute for Excellence in Writing
+        tradition: protestant
+        url: "https://iew.com/sss-info"
+        notes: High-school level of the IEW system, with essay models and critiques.
+    historicalPrecedent: >-
+      Franklin's Proposals (1749) recommended that pupils write "Letters to each other, making Abstracts
+      of what they read" and learn to express themselves "clearly, concisely, and naturally, without
+      affected Words, or high-flown Phrases."
+    sources:
+      - { label: "Franklin, Proposals (1749), Archive.org", url: "https://archive.org/details/ProposalsRelatingToTheEducationOfYouthInPensilvaniaBenjaminFranklin" }
+
+  - id: grammar-composition-12
+    title: "The Research Paper"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16
+    order: 12
+    prerequisites: [grammar-composition-11]
+    related: []
+    summary: >-
+      Students learn the research process: framing a question, finding and evaluating sources
+      (especially primary sources), taking notes, outlining, drafting and documenting in Chicago style.
+      They produce one substantial paper each year, for example on a founding-era question researched
+      in Founders Online.
+    objectives:
+      - Formulate a research question and a working bibliography of primary and secondary sources
+      - Write a 3,000–5,000-word research paper with Chicago/Turabian footnotes and bibliography
+      - Defend the paper orally before a small panel
+    coreTexts:
+      - title: A Manual for Writers of Research Papers, Theses, and Dissertations (9th ed.)
+        author: Kate L. Turabian
+        date: "2018"
+        publicDomain: false
+        links:
+          - { label: "University of Chicago Press", url: "https://press.uchicago.edu/ucp/books/book/chicago/M/bo27847540.html" }
+    curriculumOptions:
+      - name: "They Say / I Say: The Moves That Matter in Academic Writing"
+        publisher: W. W. Norton
+        tradition: secular
+        url: "https://wwnorton.com/books/They-Say-I-Say"
+        notes: Short, practical guide to entering a scholarly conversation with templates for summarizing and responding to sources.
+      - name: Founders Online (primary-source database)
+        publisher: National Archives
+        tradition: secular
+        url: "https://founders.archives.gov/"
+        notes: Free, searchable papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison and Jay, ideal for primary-source research.
+
+  - id: grammar-composition-13
+    title: "Usage & Style II: Fowler's Modern English Usage & Classic Prose"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 13
+    prerequisites: [grammar-composition-10, grammar-composition-11]
+    related: [rhetoric-11]
+    summary: >-
+      Advanced style. Students browse Fowler's Modern English Usage as a habit and study the
+      sentence-level craft of clarity, cohesion, emphasis and concision (Williams). They learn the
+      "classic style" of writers from Descartes to Jefferson (Thomas & Turner), and practise sustained
+      imitation of masters such as Johnson, Burke, Lincoln and Newman.
+    objectives:
+      - Consult Fowler habitually and settle usage questions with reasons
+      - Diagnose and revise prose for clarity, cohesion and emphasis (Williams's principles)
+      - Write pastiches of three prose masters that a reader can recognize
+    coreTexts:
+      - title: A Dictionary of Modern English Usage (1st ed.)
+        author: H. W. Fowler
+        date: "1926"
+        publicDomain: true
+        links:
+          - { label: "Archive.org", url: "https://archive.org/details/dli.ernet.15684" }
+    curriculumOptions:
+      - name: "Style: Lessons in Clarity and Grace (Joseph M. Williams & Joseph Bizup)"
+        publisher: Pearson
+        tradition: secular
+        url: "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140/9780137536603"
+        notes: The best modern treatment of sentence-level clarity, with graded exercises.
+      - name: "Clear and Simple as the Truth: Writing Classic Prose (Thomas & Turner)"
+        publisher: Princeton University Press
+        tradition: secular
+        url: "https://press.princeton.edu/books/paperback/9780691147437/clear-and-simple-as-the-truth"
+        notes: A philosophical account of "classic style" with many examples. Ideal for a strong 16-year-old.
+
+  - id: grammar-composition-14
+    title: "College Writing: Expository & Argumentative Prose; Politics and Language"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 14
+    prerequisites: [grammar-composition-12, grammar-composition-13]
+    related: [rhetoric-12, philosophy-13]
+    summary: >-
+      A general-education college writing seminar. Students write sustained expository and
+      argumentative essays across the disciplines (philosophy, history, science, law) under close
+      editing, and study the ethics of language. Orwell's "Politics and the English Language" is the
+      centerpiece, on how debased prose corrupts thought and is used to defend the indefensible.
+    objectives:
+      - Write argumentative essays of 2,500–5,000 words that meet college-seminar standards
+      - Diagnose euphemism, jargon, and dead metaphor in political and academic prose (Orwell's six rules)
+      - Produce a portfolio of revised essays, including one publishable op-ed and one scholarly paper
+    coreTexts:
+      - title: Politics and the English Language
+        author: George Orwell
+        date: "1946"
+        publicDomain: false
+        links:
+          - { label: "The Orwell Foundation (full text)", url: "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/" }
+    curriculumOptions:
+      - name: "They Say / I Say (with readings)"
+        publisher: W. W. Norton
+        tradition: secular
+        url: "https://wwnorton.com/books/They-Say-I-Say"
+        notes: Standard college-composition text for argument with sources.
+      - name: "Style: Lessons in Clarity and Grace"
+        publisher: Pearson
+        tradition: secular
+        url: "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140/9780137536603"
+        notes: Continue the grammar-composition-13 exercises at college level.
+      - name: The Lost Tools of Writing (advanced levels)
+        publisher: CiRCE Institute
+        tradition: classical
+        url: "https://circeinstitute.org/lost-tools-writing/"
+        notes: Classical option that keeps invention and arrangement rooted in the rhetorical tradition.

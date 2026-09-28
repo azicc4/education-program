@@ -1,0 +1,85 @@
+id: noah-webster
+title: "Noah Webster: Speller, Reader, Dictionary, and the Education of Youth (1783–1828)"
+category: treatise
+people: [Noah Webster]
+date: "1783–1828"
+summary: >-
+  Noah Webster set out to give the new republic its own schoolbooks. His Grammatical Institute had
+  three parts: the speller (later the "Blue-backed" American Spelling Book), a grammar, and a reader,
+  An American Selection. Beside these stand his 1788 essay "On the Education of Youth in America" and
+  the 1828 American Dictionary. All of them joined literacy to morality and patriotism: fables and a
+  moral catechism in the speller, Revolutionary orations in the reader, and Scripture-laden definitions
+  in the dictionary. Webster argued that a child should "rehearse the history of his own country" from
+  his first words. This program takes his idea that learning to read is learning to be a citizen. It
+  does not follow him in shrinking the classics, and it keeps Latin and Greek for every pupil.
+primarySources:
+  - { label: "Webster, A Collection of Essays and Fugitiv Writings (1790), incl. 'On the Education of Youth in America' (Gutenberg #44416)", url: "https://www.gutenberg.org/ebooks/44416" }
+  - { label: "The American Spelling Book (Hartford, 1809), Archive.org", url: "https://archive.org/details/americanspelling00webs" }
+  - { label: "A Grammatical Institute, Part II: grammar (1784), Archive.org", url: "https://archive.org/details/bim_eighteenth-century_a-grammatical-institute_webster-noah_1784" }
+  - { label: "A Grammatical Institute, Part III (1785), Archive.org", url: "https://archive.org/details/bim_eighteenth-century_a-grammatical-institute_webster-noah_1785" }
+  - { label: "An American Selection of Lessons in Reading and Speaking (1787), Archive.org", url: "https://archive.org/details/bim_eighteenth-century_a-grammatical-institute_webster-noah-lld_1787" }
+  - { label: "An American Dictionary of the English Language (1828), vol. 1, Archive.org", url: "https://archive.org/details/americandictiona01websrich" }
+  - { label: "An American Dictionary (1828), vol. 2, Archive.org", url: "https://archive.org/details/americandictiona02websrich" }
+  - { label: "Dissertations on the English Language (1789), Gutenberg #45738", url: "https://www.gutenberg.org/ebooks/45738" }
+entries:
+  - text: "The American Spelling Book ('Blue-backed Speller'; Grammatical Institute Part I, 1783) — syllable tables and 'An Easy Standard of Pronunciation'"
+    search: Webster
+    tracks: [reading-phonics, early-development]
+  - text: "Speller fables: 'Of the Boy that stole Apples', 'The Country Maid and her Milk Pail', 'The Fox and the Swallow' (Aesop via Aristotle)"
+    search: Aesop
+    tracks: [reading-phonics, character-virtue]
+  - text: "Speller 'Moral Catechism': moral virtue is 'honest upright conduct'; its rule is God's word, summed up in the Sermon on the Mount"
+    search: Bible
+    tracks: [character-virtue, theology]
+  - text: "Speller catechism topics (1809): humility, mercy, purity of heart, anger, justice, generosity, gratitude, charity and almsgiving, avarice, frugality and economy, industry, cheerfulness"
+    search: Webster
+    tracks: [character-virtue]
+  - text: "Speller 'Precepts concerning the social relations' — on marriage, parenthood and filial duty"
+    search: Webster
+    tracks: [character-virtue]
+  - text: "Grammatical Institute Part II (1784): an English grammar with 'an essay towards investigating the rules of English verse'"
+    search: Webster
+    tracks: [grammar-composition, poetry]
+  - text: "An American Selection (Part III, 1785–): 'rules of elocution' and readings to 'instruct them in the geography, history, and politics of the United States'"
+    search: Webster
+    tracks: [reading-phonics, rhetoric, history]
+  - text: "American Selection speaking pieces: Warren's and Hancock's Boston Massacre orations, Barlow's July 4 oration, the Declaration of Independence"
+    search: Declaration
+    tracks: [rhetoric, history, civics-law]
+  - text: "American Selection readings: Franklin's 'The Whistle', a history of Columbus, Webster's own sketch of the late war (including Washington's appointment to command), Chesterfield's rules for behavior"
+    search: Franklin
+    tracks: [history, character-virtue]
+  - text: "'On the Education of Youth in America' (1788): education must 'implant ... the principles of virtue and of liberty'"
+    search: Webster
+    tracks: [civics-law, character-virtue]
+  - text: "Same essay: every child 'should rehearse the history of his own country' and 'lisp the praise of liberty'"
+    search: Webster
+    tracks: [history, civics-law]
+  - text: "Same essay, a caution: too much time given to the dead languages; Latin and Greek to be pressed hardest on young men 'designed for the learned professions'"
+    search: Latin
+    tracks: [latin, greek]
+  - text: "Same essay: colleges neglect the ancient historians — Herodotus, Thucydides, Xenophon, Polybius, Livy, Tacitus"
+    search: Thucydides
+    tracks: [history, greek, latin]
+  - text: "Same essay: against using the Bible as a common school reader, lest careless reading breed irreverence"
+    search: Bible
+    tracks: [theology]
+  - text: "Same essay: female education, so that mothers can 'implant' virtue in their children; a good education rather than a 'showy' one"
+    search: Webster
+    tracks: [character-virtue]
+  - text: "Dissertations on the English Language (1789): 'our honor requires us to have a system of our own, in language as well as government'"
+    search: Webster
+    tracks: [grammar-composition, civics-law]
+  - text: "American Dictionary (1828): definitions with moral and scriptural illustrations; under Education, a religious education is 'indispensable'"
+    search: Webster
+    tracks: [grammar-composition, theology]
+  - text: "American Dictionary introduction: a dissertation on the origin and connection of the languages of Western Asia and Europe (Hebrew, Greek, Latin and Teutonic roots)"
+    search: Webster
+    tracks: [grammar-composition, hebrew, old-english]
+notes: >-
+  The speller fables and the Moral Catechism were checked in the 1809 Hartford American Spelling Book.
+  The "Federal Catechism" found in some early editions was not seen in that OCR, so it is not listed. The
+  American Selection contents were checked in an Archive.org scan dated 1787 in its metadata, which
+  includes material later than 1787, so it may be a later printing. The linked 1787 ECCO-derived scan was
+  not checked page by page. I found no digitized 1783 first edition of Part I (the speller). The essay was
+  first printed in 1788 and is reprinted in the 1790 Collection of Essays used here.

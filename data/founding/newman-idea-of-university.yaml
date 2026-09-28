@@ -1,0 +1,84 @@
+id: newman-idea-of-university
+title: "John Henry Newman, The Idea of a University (1852/1873)"
+category: 19th-century-school
+people: [John Henry Newman]
+date: "1852–1873"
+summary: >-
+  Newman's Dublin discourses, given for the founding of the Catholic University of Ireland, with his later lectures
+  on "University Subjects", are the classic 19th-century English case for liberal education. Knowledge is its own
+  end; a university forms a "philosophical habit" of mind; theology is a true branch of knowledge that no university
+  may leave out; literature is the voice of human nature and cannot be purged of sin. Classical grammar, composition,
+  and Latin writing are the elementary discipline behind all of it. This program adopts Newman as the theological
+  and philosophical capstone of its liberal-arts design: exact grammar and Latin composition in the early years,
+  Homer, Aristotle, Cicero, and Virgil as the "schoolmasters of all generations", the English classics (Protestant
+  ones included), and a clear line between the gentleman that liberal knowledge produces and the saint that only
+  grace makes.
+primarySources:
+  - { label: "The Idea of a University, contents (Newman Reader)", url: "https://www.newmanreader.org/works/idea/index.html" }
+  - { label: "Discourse 5, Knowledge Its Own End (Newman Reader)", url: "https://www.newmanreader.org/works/idea/discourse5.html" }
+  - { label: "Discourse 7, Knowledge and Professional Skill (Newman Reader)", url: "https://www.newmanreader.org/works/idea/discourse7.html" }
+  - { label: "Discourse 8, Knowledge and Religious Duty (Newman Reader)", url: "https://www.newmanreader.org/works/idea/discourse8.html" }
+  - { label: "University Subjects 4, Elementary Studies (Newman Reader)", url: "https://www.newmanreader.org/works/idea/article4.html" }
+entries:
+  - text: "Discourse 1, Introductory: the case for a Catholic University of Ireland, open to the whole range of knowledge"
+    search: Newman
+    tracks: [philosophy, theology]
+  - text: "Discourse 2, Theology a Branch of Knowledge: 'Religious doctrine is knowledge', and teaching without it is 'simply unphilosophical'"
+    search: Newman
+    tracks: [theology, philosophy]
+  - text: "Discourses 3–4: the bearing of theology on other knowledge and of other knowledge on theology (the circle of the sciences)"
+    search: Newman
+    tracks: [theology, philosophy, natural-science]
+  - text: "Discourse 5, Knowledge Its Own End: 'Knowledge is capable of being its own end'; liberal vs. useful knowledge; the 'philosophical habit' of mind"
+    search: Newman
+    tracks: [philosophy, character-virtue]
+  - text: "Discourse 6, Knowledge and Learning: enlargement of mind as the power to see things in relation, not the piling up of information"
+    search: Newman
+    tracks: [philosophy, logic]
+  - text: "Discourse 7, Knowledge and Professional Skill: answers Locke and the Edinburgh Review; a university trains 'good members of society' in 'the art of social life'"
+    search: Locke
+    tracks: [philosophy, civics-law]
+  - text: "Discourse 8, Knowledge and Religious Duty: the 'gentleman' passage ('one who never inflicts pain') and its limits; liberal knowledge alone does not make a Christian"
+    search: Newman
+    tracks: [character-virtue, theology]
+  - text: "Discourse 9, Duties of the Church towards Knowledge: 'a sinless Literature of sinful man' is impossible; read the real classics, under the Church's guidance"
+    search: Newman
+    tracks: [literature, theology]
+  - text: "University Subjects 1, Christianity and Letters: Homer and Aristotle, with their poets and philosophers, as the 'schoolmasters of all generations'"
+    search: Homer
+    tracks: [literature, greek, philosophy, history]
+  - text: "Latin authors inside that tradition: Terence after Menander, Virgil after Homer, Hesiod, and Theocritus, Cicero after Greek philosophy"
+    search: Virgil
+    tracks: [latin, literature, poetry]
+  - text: "University Subjects 2, Literature: literature as the personal use of language by a great author; the classics as models of thought and expression"
+    search: Newman
+    tracks: [literature, rhetoric]
+  - text: "University Subjects 3, Catholic Literature in the English Tongue: Shakespeare, Milton, Pope, the Protestant Bible and Prayer Book, Hooker, Addison, Swift, Hume, Goldsmith made the language"
+    search: Shakespeare
+    tracks: [literature, poetry]
+  - text: "English philosophy: after faulting Locke, Hobbes, Hume, and Bentham, Newman takes comfort in Clarke, Berkeley, Butler, and Reid, and calls Bacon 'the most orthodox of Protestant philosophers'"
+    search: Bacon
+    tracks: [philosophy]
+  - text: "University Subjects 4, Elementary Studies, §1 Grammar: exact Latin and Greek grammar (etymology and syntax) for university entrance, not a smattering of authors"
+    search: Grammar
+    tracks: [latin, greek, grammar-composition]
+  - text: "Elementary Studies, §§2–3 Composition and Latin Writing: translating English into Latin is 'the best test' of knowing the language; imitate Cicero, not Tacitus"
+    search: Cicero
+    tracks: [latin, grammar-composition]
+  - text: "Books in Newman's entrance-examination dialogue: Homer, Lucian, Demosthenes, Xenophon, Virgil, Horace, Statius, Juvenal, Cicero, with Xenophon and Virgil set"
+    search: Xenophon
+    tracks: [greek, latin]
+  - text: "Latin Writing (§3): a father's letter tells his son he reached the university knowing Homer, Sophocles, Herodotus, Xenophon, Horace, Virgil, and Cicero, with Addison, Hume, and Johnson as English models"
+    search: Sophocles
+    tracks: [greek, latin, literature]
+  - text: "Elementary Studies, §4 General Religious Knowledge: the canon of Scripture and its history, St. Jerome, the languages and versions of the Bible"
+    search: Bible
+    tracks: [theology, hebrew]
+notes: >-
+  Quotations were checked against the Newman Reader text (1873 and later edition, Part 1 University Teaching and
+  Part 2 University Subjects). The Xenophon and Virgil entrance-examination list comes from Newman's humorous dialogue
+  between a tutor and "Mr. Brown", so it shows typical set books rather than a statutory syllabus. The
+  reading list in the Latin Writing section is given in a letter from a fictional father to his son (a character in
+  the essay, not explicitly Newman himself), though it reads like autobiography. The Hebrew tag on the last entry reflects this program's use
+  of the entry: Newman mentions the languages of Scripture, but does not prescribe Hebrew. No Project Gutenberg
+  edition number was verified, so none is linked.

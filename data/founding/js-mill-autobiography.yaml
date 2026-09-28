@@ -1,0 +1,90 @@
+id: js-mill-autobiography
+title: "John Stuart Mill's Education (Autobiography, 1873)"
+category: 19th-century-school
+people: [John Stuart Mill, James Mill]
+date: "1809–1826"
+summary: >-
+  In the first two chapters of his Autobiography, Mill records how his father taught him at home in
+  London. He began Greek at three and Latin at eight. Most of the Greek and Latin canon, Euclid and
+  algebra, and a wide range of history came before twelve; Aristotle's logic, Hobbes and Ricardo's
+  political economy came by thirteen or fourteen. His father also made him teach his younger sisters
+  and brothers and give an account of his reading on their morning walks. Mill judged that this gave
+  him "an advantage of a quarter of a century", but at twenty the training ended in a breakdown he
+  blamed on analysis that had worn away his feelings, and Wordsworth's poems helped cure it. This
+  program takes the pace and the spoken narration on walks. It also takes the warning, and
+  forms the affections through poetry, music, worship and friendship alongside the intellect.
+primarySources:
+  - { label: "Mill, Autobiography (1873), Project Gutenberg #10378", url: "https://www.gutenberg.org/ebooks/10378" }
+  - { label: "Autobiography, HTML text (Gutenberg)", url: "https://www.gutenberg.org/cache/epub/10378/pg10378.html" }
+entries:
+  - text: "Greek from about age three: memorizing 'vocables' (common Greek words with English meanings), then straight to translation"
+    search: Greek
+    tracks: [greek, early-development]
+  - text: "Aesop's Fables — his first Greek book; Xenophon's Anabasis the second"
+    search: Aesop
+    tracks: [greek, character-virtue]
+  - text: "Before eight: all of Herodotus; Xenophon's Cyropaedia and Memorabilia ('Memorials of Socrates')"
+    search: Herodotus
+    tracks: [greek, history, philosophy]
+  - text: "Diogenes Laertius (some Lives of the Philosophers), part of Lucian, Isocrates To Demonicus and To Nicocles"
+    search: Isocrates
+    tracks: [greek, philosophy, rhetoric]
+  - text: "Plato's first six dialogues, Euthyphro through Theaetetus (1813, at seven); later Gorgias, Protagoras, and the Republic"
+    search: Plato
+    tracks: [greek, philosophy]
+  - text: "Arithmetic in the evenings with his father; Euclid, then algebra; later some differential calculus"
+    search: Euclid
+    tracks: [mathematics]
+  - text: "Narration on morning walks: notes on slips of paper, then telling his father the story of what he had read"
+    search: Mill
+    tracks: [rhetoric, grammar-composition, physical-training]
+  - text: "History: Robertson, Hume, Gibbon; favorites Watson's Philip II and Philip III and Hooke's Roman History"
+    search: Gibbon
+    tracks: [history]
+  - text: "Rollin's Ancient History, Langhorne's Plutarch ('great delight'), Burnet's History of His Own Time, the Annual Register, the Ancient Universal History, Millar's Historical View of the English Government"
+    search: Plutarch
+    tracks: [history, character-virtue]
+  - text: "Latin from eight while teaching it to a younger sister: Virgil's Bucolics and Aeneid I–VI, all Horace except the Epodes, Phaedrus"
+    search: Virgil
+    tracks: [latin, poetry]
+  - text: "Livy (first decade), all Sallust, much of Ovid's Metamorphoses, some Terence, two or three books of Lucretius"
+    search: Livy
+    tracks: [latin, history, poetry]
+  - text: "Cicero: several Orations, the rhetorical works, and the Letters to Atticus"
+    search: Cicero
+    tracks: [latin, rhetoric]
+  - text: "Homer's Iliad and Odyssey entire in Greek (Pope's Iliad his first English verse love); some Sophocles, Euripides, Aristophanes"
+    search: Homer
+    tracks: [greek, poetry]
+  - text: "All Thucydides, Xenophon's Hellenica, much of Demosthenes (orations analyzed in writing), Aeschines, Lysias, Theocritus, Polybius"
+    search: Thucydides
+    tracks: [greek, history, rhetoric]
+  - text: "Aristotle's Rhetoric, analyzed into synoptic tables — 'the first expressly scientific treatise' on a moral subject he read"
+    search: Aristotle
+    tracks: [greek, rhetoric, philosophy]
+  - text: "Writing 'histories' as boyhood exercises: a Roman history from Livy and Dionysius; verse practice turning Horace into English verse and imitating Thomson's Winter"
+    search: Horace
+    tracks: [grammar-composition, poetry, history]
+  - text: "Logic at about twelve: Aristotle's Organon through the Analytics, then Hobbes's Computatio sive Logica"
+    search: Aristotle
+    tracks: [logic]
+  - text: "Political economy at thirteen (1819): Ricardo, explained on walks and written up daily; then Adam Smith, read critically against Ricardo"
+    search: Smith
+    tracks: [economics]
+  - text: "Few children's books: Robinson Crusoe, the Arabian Nights, Don Quixote, Edgeworth's Popular Tales; later Scott's metrical romances"
+    search: Crusoe
+    tracks: [literature]
+  - text: "Teaching younger siblings from age eight — a duty he 'greatly disliked'; it made him learn thoroughly, though he judged it poor teaching and poor moral discipline"
+    search: Mill
+    tracks: [character-virtue, practical-arts]
+  - text: "The crisis of 1826 (ch. V): he concluded that 'the habit of analysis' wears away the feelings when nothing else is cultivated"
+    search: Mill
+    tracks: [character-virtue, philosophy]
+  - text: "Cure through Wordsworth's poems (autumn 1828) and the Intimations Ode; he now held 'the cultivation of the feelings' a cardinal point"
+    search: Wordsworth
+    tracks: [poetry, character-virtue]
+notes: >-
+  Chapter I covers 1806–1819, Chapter II covers 1813–1821,
+  and the mental crisis is in Chapter V (1826–1832), not Chapter II. Mill says he was brought up
+  without religious belief, so his course has no theology. This program keeps the course's rigor and
+  sequence but not its exclusion of faith.

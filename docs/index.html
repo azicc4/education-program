@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formation Program</title>
+  <meta name="description" content="A classical, track-based education and formation program from birth through early college.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Formation Program<small>Classical education from birth to the founding of a life</small></a>
+      <nav class="nav" aria-label="Views">
+        <a href="index.html" aria-current="page">Curriculum</a>
+        <a href="tree.html">Skill Tree</a>
+        <a href="founding.html">Founding-Era Reading</a>
+        <a href="family.html">Family</a>
+      </nav>
+      <button type="button" class="theme-toggle">☾ Dark</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="intro">
+      Every subject is its own track, running from simple to complex. Ages 0–6 are best practices for early development.
+      Gentle formal lessons begin at 5 and full formal schooling at 6–7, high-school material is mastered by 16, and college general education follows at 17.
+      Sort by any column or filter by level and subject, then click a unit to see its texts, curriculum options, and historical precedent.
+    </p>
+    <div class="filters" id="filters"></div>
+    <div class="table-wrap">
+      <table class="curriculum" id="table">
+        <thead>
+          <tr>
+            <th data-sort="age" scope="col"><button type="button">Age</button></th>
+            <th data-sort="level" scope="col"><button type="button">Level</button></th>
+            <th data-sort="track" scope="col"><button type="button">Track</button></th>
+            <th data-sort="title" scope="col"><button type="button">Unit</button></th>
+            <th scope="col" style="padding:10px 12px">Key texts</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+  <footer>Data last built <span id="updated"></span>. Edit the YAML in <code>data/tracks/</code> and run <code>npm run build</code>.</footer>
+
+  <script src="data/curriculum.js"></script>
+  <script src="assets/store.js"></script>
+  <script src="assets/common.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

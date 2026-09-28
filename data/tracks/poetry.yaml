@@ -1,0 +1,1181 @@
+track: poetry
+title: Poetry
+trackGroup: English
+description: >-
+  Poetry is heard, memorized, recited, understood, and finally made. The track begins with nursery rhymes and
+  Mother Goose in infancy, which lay down rhythm and phonological awareness. It builds a large memorized store
+  through the great school anthologies (Stevenson, Palgrave, Lang, The Harp and Laurel Wreath) and through the
+  nineteenth-century practice of declamation. From 11 it moves into the craft: prosody and scansion, then the
+  forms (couplet, ballad stanza, sonnet, blank verse, ode), studied in the major English poets from Chaucer to
+  Eliot, along with the Psalms and hymnody and the Augustan art of translating Latin verse. End-state competency
+  ("poetic competence"): by 16 the student has 1,500+ lines by heart, can scan any English line and name its
+  form, and has a portfolio of serious original verse (sonnets, blank verse, odes, verse translations from
+  Latin) that meets the standards of the tradition. A college poetics seminar (Aristotle to Eliot) supplies the
+  theory at 17–18.
+rows:
+  - id: poetry-01
+    title: "Nursery Rhymes, Mother Goose & Lullabies"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 6
+    order: 1
+    prerequisites: []
+    related: [literature-01]
+    summary: >-
+      Sing and say nursery rhymes, lullabies and finger-plays with the child every day from birth. Rhyme,
+      alliteration and strong meter train the ear to hear the sound-structure of words. That phonological
+      awareness predicts later reading. It also gives the child a first inheritance of English verse before
+      formal schooling.
+    objectives:
+      - "Birth–2: hear lullabies and bouncing rhymes daily (lap games, clapping to the beat)"
+      - "2–4: join in on rhyming words and complete familiar couplets"
+      - "4–6: recite 30+ Mother Goose rhymes; clap syllables; produce rhymes for a given word"
+      - Associate verse with affection and play (sung at bedtime, in the car, at work)
+    coreTexts:
+      - title: The Real Mother Goose
+        author: Blanche Fisher Wright (illus.)
+        date: "1916"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
+      - title: The Oxford Nursery Rhyme Book
+        author: Iona & Peter Opie (eds.)
+        date: "1955"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-oxford-nursery-rhyme-book-iona-opie/1100459134?ean=9780198691129" }
+      - title: "Sing-Song: A Nursery Rhyme Book"
+        author: Christina Rossetti
+        date: "1872"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76703" }
+      - title: The Book of Nonsense
+        author: Edward Lear
+        date: "1846"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/982" }
+    curriculumOptions:
+      - name: "A Children's Anthology of Poems & Lullabies"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/read-alouds/a-childrens-anthology-of-poems-lullabies/"
+        notes: A read-aloud anthology for the nursery years.
+      - name: Junior Kindergarten Recitation
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/recitation/junior-kindergarten-recitation/"
+        notes: A structured daily recitation of rhymes, prayers and short poems for ages 4–5.
+    sources:
+      - { label: "Bryant, Bradley, Maclean & Crossland (1989), Nursery rhymes, phonological skills and reading, J Child Lang", url: "https://pubmed.ncbi.nlm.nih.gov/2760133/" }
+      - { label: "AAP (2024), Literacy Promotion: An Essential Component of Primary Care Pediatric Practice (policy statement)", url: "https://pubmed.ncbi.nlm.nih.gov/39342414/" }
+    notes: >-
+      Evidence: Bryant et al. found that 3-year-olds' knowledge of nursery rhymes predicted later phonological
+      awareness and early reading, even after controlling for IQ and social background. The AAP recommends daily
+      reading, rhyming, singing and talking from infancy. Sing rather than recite where possible. For bilingual
+      households, do the same in Spanish and Chinese (see the language tracks).
+
+  - id: poetry-02
+    title: "Children's Verse & First Memorization"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 8
+    order: 2
+    prerequisites: [poetry-01]
+    related: [literature-01, literature-02]
+    summary: >-
+      The first formal memory work in verse. The child learns a short poem each week from Stevenson's A Child's
+      Garden of Verses, Milne, de la Mare, Eugene Field, Lear and Belloc, recites it with clear diction, and
+      keeps a poetry notebook with each poem copied out and illustrated. Poems are chosen for strong rhythm and
+      rhyme and for a child's world seen truthfully.
+    objectives:
+      - Memorize 30–40 short poems (4–20 lines) in two years and keep them in review
+      - Recite with clear articulation, natural pauses and eye contact
+      - Copy each poem in the poetry notebook (pairs with handwriting and copywork)
+      - Hear and clap the beat of a line; identify rhyming words
+    coreTexts:
+      - title: "A Child's Garden of Verses"
+        author: Robert Louis Stevenson
+        date: "1885"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/136" }
+      - title: When We Were Very Young
+        author: A. A. Milne
+        date: "1924"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/70271" }
+      - title: "Peacock Pie: A Book of Rhymes"
+        author: Walter de la Mare
+        date: "1913"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3753" }
+      - title: Poems of Childhood
+        author: Eugene Field (illus. Maxfield Parrish)
+        date: "1904"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/75578" }
+      - title: Cautionary Tales for Children
+        author: Hilaire Belloc
+        date: "1907"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27424" }
+      - title: The Harp and Laurel Wreath
+        author: Laura Berquist (ed.)
+        date: "1999"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/" }
+    curriculumOptions:
+      - name: Poetry for the Primary Stage (anthology)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/first/poetry-primary-stage-anthology/"
+        notes: A graded anthology used with MP's 1st–2nd grade literature and recitation programs.
+      - name: The Harp and Laurel Wreath
+        publisher: Ignatius Press (Laura Berquist)
+        tradition: catholic
+        url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/"
+        notes: Poems graded by stage (grammar, dialectic, rhetoric) with dictation passages. The anthology behind Mother of Divine Grace's memory work, usable from here to 14.
+      - name: 1st Grade Recitation
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/recitation/1st-grade-recitation/"
+        notes: Daily recitation cards and schedule. Continues through 7th grade.
+
+  - id: poetry-03
+    title: "The Great Anthologies: Memorization & Recitation"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10
+    order: 3
+    prerequisites: [poetry-02]
+    related: [literature-06, literature-07]
+    summary: >-
+      Longer and greater poems learned by heart from the classic school anthologies: Andrew Lang's Blue Poetry
+      Book, Palgrave's Golden Treasury and Favorite Poems Old and New. The student learns the lyrics every
+      educated English speaker once knew (Blake, Wordsworth, Tennyson, Longfellow, Shakespeare's songs) and
+      begins to hear the differences among meters.
+    objectives:
+      - Memorize 25+ lyric poems of 12–40 lines (total 600+ lines) and review them on a rotating schedule
+      - Recite a poem before an audience with appropriate expression, pace and volume
+      - Tell iambic from trochaic and anapestic rhythm by ear
+      - Name the poet and approximate century of each memorized poem
+    coreTexts:
+      - title: The Blue Poetry Book
+        author: Andrew Lang (ed.)
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46515" }
+      - title: The Golden Treasury
+        author: Francis Turner Palgrave (ed.)
+        date: "1861"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19221" }
+      - title: Favorite Poems Old and New
+        author: Helen Ferris (ed.)
+        date: "1957"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/favorite-poems-old-and-new-helen-ferris/1003119005?ean=9780385076968" }
+      - title: The Harp and Laurel Wreath
+        author: Laura Berquist (ed.)
+        date: "1999"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/" }
+      - title: Songs of Innocence and of Experience
+        author: William Blake
+        date: "1789/1794"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1934" }
+    curriculumOptions:
+      - name: Poetry for the Grammar Stage Set (3rd ed.)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/third/poetry-grammar-stage-set-third-edition/"
+        notes: Anthology with teacher guide covering meter, rhyme and imagery, for grades 3–6.
+      - name: The Harp and Laurel Wreath
+        publisher: Ignatius Press
+        tradition: catholic
+        url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/"
+        notes: Includes Catholic devotional poems (Hopkins, Southwell, Thompson) alongside the standard canon.
+      - name: 4th Grade Recitation
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/recitation/4th-grade-recitation/"
+        notes: Graded recitation schedule. Accelerated versions exist for 3rd–6th.
+    historicalPrecedent: >-
+      Palgrave's Golden Treasury (1861) was for a century the standard gift and school anthology in Britain and
+      America. Memorization of poetry "by heart" was a daily staple of 19th-century schools from the dame
+      school to Eton, where boys learned and "said" set passages of English and Latin verse.
+
+  - id: poetry-04
+    title: "Ballads & Narrative Verse"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 11
+    order: 4
+    prerequisites: [poetry-03]
+    related: [literature-08]
+    summary: >-
+      The ballad tradition and the great narrative poems. The course reads the Child Ballads and Percy's
+      Reliques (Sir Patrick Spens, Chevy Chase, the Robin Hood ballads), Macaulay's Lays of Ancient Rome, Scott's
+      Lady of the Lake, Coleridge's Rime of the Ancient Mariner, Longfellow's Evangeline and Hiawatha, and
+      Browning's Pied Piper. Narrative verse carries a young reader through long poems by the power of story.
+      The ballad stanza is also the first form the student will write.
+    objectives:
+      - Memorize one long narrative poem (Horatius, 70 stanzas; or the Rime, Part I)
+      - Identify the ballad stanza (4-3-4-3 stresses, abcb rhyme), refrain and incremental repetition
+      - Compose an original ballad of 8+ stanzas on a historical or family subject
+      - Read aloud a narrative poem with dramatic variation of voice
+    coreTexts:
+      - title: "The English and Scottish Popular Ballads, Vol. 1"
+        author: Francis James Child (ed.)
+        date: "1882"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44969" }
+      - title: The Oxford Book of Ballads
+        author: Arthur Quiller-Couch (ed.)
+        date: "1910"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44593" }
+      - title: "Reliques of Ancient English Poetry, Vol. 1"
+        author: Thomas Percy (ed.)
+        date: "1765"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45939" }
+      - title: Lays of Ancient Rome
+        author: Thomas Babington Macaulay
+        date: "1842"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/847" }
+      - title: The Lady of the Lake
+        author: Sir Walter Scott
+        date: "1810"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3011" }
+      - title: The Rime of the Ancient Mariner
+        author: Samuel Taylor Coleridge
+        date: "1798"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/151" }
+      - title: "Evangeline: A Tale of Acadie"
+        author: Henry Wadsworth Longfellow
+        date: "1847"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2039" }
+      - title: The Song of Hiawatha
+        author: Henry Wadsworth Longfellow
+        date: "1855"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19" }
+      - title: The Pied Piper of Hamelin, and Other Poems
+        author: Robert Browning
+        date: "1842"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/42850" }
+    curriculumOptions:
+      - name: Poetry & Short Stories for the Logic Stage Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/seventh/poetry-short-stories-for-the-logic-stage-set/"
+        notes: Includes ballads and narrative poems with analysis of form.
+      - name: 5th Grade Recitation
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/recitation/5th-grade-recitation/"
+        notes: Graded recitation that continues memory work alongside the ballads.
+    historicalPrecedent: >-
+      Macaulay's "Horatius" was among the most-recited poems in Victorian and Edwardian schools; as a Harrow
+      boy, Churchill won a prize for reciting 1,200 lines of the Lays without error. Longfellow's narrative poems filled American readers and
+      school exhibitions.
+
+  - id: poetry-05
+    title: "Declamation & Public Recitation"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 5
+    prerequisites: [poetry-03]
+    related: [literature-07, literature-10, literature-13, literature-15, rhetoric-05]
+    summary: >-
+      The nineteenth-century art of declamation: speaking a memorized poem or speech before an audience with
+      trained voice, posture and gesture. Texts come from the Columbian Orator, McGuffey's Sixth Reader,
+      Shakespeare's speeches, Macaulay, Kipling and the great patriotic verse. The student performs at a public
+      "exhibition" each term. This is the bridge from poetry to rhetoric.
+    objectives:
+      - Declaim a memorized piece of 40–100 lines each term before an audience
+      - Apply McGuffey's rules of articulation, inflection, accent, emphasis and pause
+      - Mark a text for breath, emphasis and pause before memorizing it
+      - Recite Kipling's "If—" and one Shakespeare speech from the literature track
+    coreTexts:
+      - title: The Columbian Orator
+        author: Caleb Bingham (ed.)
+        date: "1797"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/columbianoratorc00bing" }
+      - title: "McGuffey's Sixth Eclectic Reader (with rules for elocution)"
+        author: William Holmes McGuffey
+        date: "1879 rev. ed."
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
+      - title: "Rewards and Fairies (contains \"If—\")"
+        author: Rudyard Kipling
+        date: "1910"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/556" }
+      - title: Lays of Ancient Rome
+        author: Thomas Babington Macaulay
+        date: "1842"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/847" }
+      - title: The Complete Works of William Shakespeare (speeches)
+        author: William Shakespeare
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/100" }
+    curriculumOptions:
+      - name: 7th Grade Recitation
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/recitation/7th-grade-recitation/"
+        notes: The last of MP's graded recitation programs. Add a public exhibition each term.
+      - name: The Columbian Orator (free)
+        publisher: Archive.org
+        tradition: classical
+        url: "https://archive.org/details/columbianoratorc00bing"
+        notes: Bingham's own "Rules for Eloquence" preface plus 80+ pieces to declaim. It is its own course.
+      - name: Poetry Out Loud (national recitation contest)
+        publisher: National Endowment for the Arts and state arts agencies (administered by Mid Atlantic Arts)
+        tradition: secular
+        url: "https://www.poetryoutloud.org/"
+        notes: >-
+          The national recitation contest, running from school or group rounds through state finals to a national
+          final. Open to students in grades 9–12; homeschoolers enter through a local school or a homeschool group
+          registered with the state coordinator. Poems must come from its online anthology. Enter once the student
+          is doing high-school work (about 12–13 here), and keep competing through 16.
+    historicalPrecedent: >-
+      Declamation was a fixture of Anglo-American schooling from the colonial Latin schools through the 1800s:
+      weekly "speaking" of memorized pieces, and public exhibitions at term's end. Bingham's Columbian Orator
+      (1797) went through dozens of editions. Douglass bought it at about 12 and credited it with his rhetoric
+      of freedom. McGuffey's Fifth and Sixth Readers open with rules of elocution.
+    sources:
+      - { label: "Poetry Out Loud: Rules & Eligibility", url: "https://poetryoutloud.org/rules-eligibility/" }
+    notes: >-
+      Coordinate with the rhetoric track, which takes up the delivery canon (actio) formally. The student's tutor
+      or verse mentor should hear each piece before the exhibition and coach breath, pace and emphasis; the
+      evaluation criteria in Poetry Out Loud's Teacher's Guide make a useful shared rubric.
+
+  - id: poetry-06
+    title: "Psalms & Hymnody as Poetry"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 6
+    prerequisites: [poetry-03]
+    related: [hebrew-06, music-05]
+    summary: >-
+      The Psalms are the oldest poetry the student will memorize. The unit studies Hebrew parallelism (read
+      further in the Hebrew track), the psalms in the KJV and Douay-Rheims, and the English metrical psalm (Bay
+      Psalm Book, Watts). It then turns to the great hymn-writers as poets: Watts, the Wesleys, Newton and Cowper
+      (Olney Hymns), Keble, and Caswall's translations of the Latin breviary hymns. These are English verse
+      forms (common meter, long meter) that the student will sing and write.
+    objectives:
+      - Memorize Psalms 1, 23, 51, 90 and 121 (in a Bible translation) and one metrical psalm
+      - Identify synonymous, antithetic and synthetic parallelism in Hebrew poetry
+      - Scan hymn meters (common meter 8.6.8.6, long meter 8.8.8.8) and match texts to tunes
+      - Write a metrical paraphrase of a short psalm in common meter
+    coreTexts:
+      - title: "The Book of Psalms (King James Version)"
+        date: "1611"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8019" }
+      - title: "The Bible, Douay-Rheims (Psalms)"
+        date: "1582–1610; rev. Challoner 1750"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
+      - title: The Bay Psalm Book (facsimile)
+        date: "1640"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/The-Bay-Psalm-Book-wdl-3600" }
+      - title: The Psalms of David Imitated in the Language of the New Testament
+        author: Isaac Watts
+        date: "1719"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13166" }
+      - title: Divine Songs for Children
+        author: Isaac Watts
+        date: "1715"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13439" }
+      - title: Olney Hymns
+        author: John Newton & William Cowper
+        date: "1779"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/olneyhymnsinth00newt" }
+      - title: A Collection of Hymns for the Use of the People Called Methodists
+        author: John & Charles Wesley
+        date: "1779"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/collectionofhym00wesl" }
+      - title: Lyra Catholica (breviary and missal hymns)
+        author: Edward Caswall (trans.)
+        date: "1849"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/LyraCatholica1849" }
+      - title: The Christian Year
+        author: John Keble
+        date: "1827"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4272" }
+    curriculumOptions:
+      - name: Copybook Cursive, Scripture & Poems
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/penmanship/copybook-cursive-scripture-poems/"
+        notes: Copywork of Scripture and poems. Useful for fixing psalms in memory.
+    historicalPrecedent: >-
+      The Bay Psalm Book (1640) was the first book printed in British North America. Watts's Psalms and Divine
+      Songs were among the most-memorized texts of colonial and early-republic childhood, and Franklin printed
+      Watts's Psalms in 1729. Psalm-singing and hymn memorization were universal in 18th- and 19th-century
+      schools and homes, Catholic and Protestant.
+    notes: >-
+      Catholic/Protestant note. Protestant English hymnody (Watts, Wesley, Newton) and the Catholic Latin hymn
+      tradition (Aquinas's Adoro te devote, Pange lingua; Caswall and Newman as translators) are both treated
+      as English poetry. Catholic Psalter numbering (Vulgate/Douay) differs by one from the Hebrew/KJV for most
+      of Psalms 10–147. Note which numbering is in use when memorizing.
+
+  - id: poetry-07
+    title: "Prosody & Scansion"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12.5
+    order: 7
+    prerequisites: [poetry-04]
+    related: []
+    summary: >-
+      The formal study of English meter. The student learns stress and syllable, the feet (iamb, trochee,
+      anapest, dactyl, spondee), line lengths (trimeter to hexameter), caesura and enjambment, substitution,
+      and rhyme and its kinds. Every memorized poem is scanned. The texts are Stephen Fry's The Ode Less
+      Travelled (practical, with daily exercises), Hollander's Rhyme's Reason (each form illustrated in itself)
+      and Fussell's Poetic Meter and Poetic Form (the standard college text), with Saintsbury and Alden for
+      historical depth.
+    objectives:
+      - Scan any line of accentual-syllabic English verse and name its meter
+      - Identify and explain metrical substitution (initial trochee, feminine ending, spondee) and its expressive effect
+      - Distinguish accentual-syllabic, accentual (Old English, Hopkins' sprung rhythm) and syllabic verse
+      - Complete Fry's exercises in iambic pentameter (write 50+ correct lines)
+    coreTexts:
+      - title: "The Ode Less Travelled: Unlocking the Poet Within"
+        author: Stephen Fry
+        date: "2005"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
+      - title: "Rhyme's Reason: A Guide to English Verse"
+        author: John Hollander
+        date: "1981; 4th ed. 2014"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rhymes-reason-john-hollander/1120113755?ean=9780300206296" }
+      - title: Poetic Meter and Poetic Form
+        author: Paul Fussell
+        date: "1965; rev. 1979"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/dp/0075536064" }
+      - title: "English Verse: Specimens Illustrating its Principles and History"
+        author: Raymond Macdonald Alden
+        date: "1903"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32262" }
+      - title: "A History of English Prosody, Vol. 1"
+        author: George Saintsbury
+        date: "1906"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/historyofenglish01sainiala" }
+    curriculumOptions:
+      - name: The Art of Poetry
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/the-art-of-poetry-program-1"
+        notes: Christine Perrin's course on the elements of poetry (image, sound, meter, form) for middle and high school, with video lessons.
+      - name: Poetry & Short Stories for the Logic Stage Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/seventh/poetry-short-stories-for-the-logic-stage-set/"
+        notes: Introduces meter and poetic devices through the logic-stage anthology.
+    historicalPrecedent: >-
+      English schoolboys learned prosody first in Latin, through the rules of quantity in the Eton Latin Grammar
+      and endless Latin verse composition (the "vulgus" at Eton and Rugby), and applied it to English afterward.
+      Here English prosody comes first and runs parallel to Latin scansion (see the Latin track).
+    notes: Saintsbury is exhaustive and opinionated, so use him for reference. Alden's anthology is a free set of examples for every meter and form.
+
+  - id: poetry-08
+    title: "Poetic Forms & First Composition"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13.5
+    order: 8
+    prerequisites: [poetry-07]
+    related: []
+    summary: >-
+      Each traditional form is studied in its best examples and then written by the student. The sequence runs
+      heroic couplet, quatrain and ballad stanza, tetrameter couplet, rhyme royal and ottava rima, Spenserian
+      stanza, the sonnet (Petrarchan and Shakespearean), blank verse, villanelle and sestina. The weekly rhythm
+      is read → scan → imitate → revise. The Oxford Book of English Verse serves as the source book.
+    objectives:
+      - Write a finished poem in each of eight forms, revised at least twice
+      - Write two sonnets (one Petrarchan, one Shakespearean) with a true volta
+      - Write 30 lines of blank verse on a narrative subject
+      - Explain why a poet chose a given form, and the effect of the choice, for any studied poem
+    coreTexts:
+      - title: "The Oxford Book of English Verse, 1250–1900"
+        author: Arthur Quiller-Couch (ed.)
+        date: "1900"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66619" }
+      - title: "Shakespeare's Sonnets"
+        author: William Shakespeare
+        date: "1609"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1041" }
+      - title: "Rhyme's Reason: A Guide to English Verse"
+        author: John Hollander
+        date: "4th ed. 2014"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rhymes-reason-john-hollander/1120113755?ean=9780300206296" }
+      - title: The Ode Less Travelled
+        author: Stephen Fry
+        date: "2005"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
+      - title: The Golden Treasury
+        author: Francis Turner Palgrave (ed.)
+        date: "1861"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19221" }
+    curriculumOptions:
+      - name: The Art of Poetry
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/the-art-of-poetry-program-1"
+        notes: Includes writing exercises in the forms. Use it with Fry for composition.
+      - name: Challenge III (Poetry & Shakespeare strand)
+        publisher: Classical Conversations
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-iii/"
+        notes: Students assemble "a poetry anthology of their own work". A good co-op model for the portfolio.
+      - name: The Harp and Laurel Wreath (rhetoric-stage section)
+        publisher: Ignatius Press
+        tradition: catholic
+        url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/"
+        notes: The upper-level poems serve as models for imitation.
+    historicalPrecedent: >-
+      Writing verse was a normal school exercise until the 20th century. Eton, Winchester and Rugby boys wrote
+      Latin elegiacs and hexameters weekly, and English verse exercises and prize poems were common (Tennyson
+      won Cambridge's Chancellor's Medal for English verse in 1829). Franklin records in his Autobiography
+      turning Spectator essays into verse and back into prose to enlarge his vocabulary.
+
+  - id: poetry-09
+    title: "Major Poets I: Chaucer to Milton"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14.5
+    order: 9
+    prerequisites: [poetry-08]
+    related: [literature-18, literature-19, literature-26, old-english-05]
+    summary: >-
+      Close study of the English poets from the Middle Ages to the Restoration: Chaucer's General Prologue,
+      Shakespeare's Sonnets, Sidney, Donne's Songs and Holy Sonnets, Herbert's The Temple, Southwell, Marvell,
+      and Milton's shorter poems (the Nativity Ode, Lycidas, the sonnets). The metaphysical conceit and the
+      devotional lyric are the center of the course. The student writes imitations of Donne and Herbert.
+    objectives:
+      - Memorize 5 Shakespeare sonnets, 2 Holy Sonnets and 2 Herbert poems
+      - Explicate a metaphysical conceit (e.g. Donne's compasses) in a 1,000-word essay
+      - Scan the pentameter couplets of the General Prologue's opening (hear it read in Middle English; the student's own reading aloud in the original comes in old-english-05)
+      - Write an imitation of a Herbert pattern poem or a Donne holy sonnet
+    coreTexts:
+      - title: The Canterbury Tales (General Prologue)
+        author: Geoffrey Chaucer
+        date: "c. 1387"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2383" }
+      - title: "Shakespeare's Sonnets"
+        author: William Shakespeare
+        date: "1609"
+        publicDomain: true
+        links:
+          - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/" }
+      - title: A Defence of Poesie and Poems
+        author: Sir Philip Sidney
+        date: "1595"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1962" }
+      - title: "The Poems of John Donne, Vol. 1 (ed. Grierson)"
+        author: John Donne
+        date: "1633"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48688" }
+      - title: "The Temple: Sacred Poems and Private Ejaculations"
+        author: George Herbert
+        date: "1633"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/templesacredpoem00herbiala" }
+      - title: The Poetical Works of Robert Southwell
+        author: St. Robert Southwell, S.J.
+        date: "1595; ed. 1856"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/poeticalworksof00sout" }
+      - title: The Poems of Andrew Marvell
+        author: Andrew Marvell
+        date: "1681; ed. 1898"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/poemsandrewmarv00marvgoog" }
+      - title: The Poetical Works of John Milton
+        author: John Milton
+        date: "1645–1673"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1745" }
+    curriculumOptions:
+      - name: "Poetry, Prose & Drama Book One: The Old English and Medieval Periods (set)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/eighth/poetry-prose-drama-set/"
+        notes: The medieval anthology. Follow it with Poetry & Prose Book Two (Elizabethan to Neoclassical).
+      - name: "Poetry & Prose Book Two: Elizabethan to Neoclassical (set)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mp/poetry-prose-book-ii-set/"
+        notes: Shakespeare, Donne, Herbert, Milton and others with guide.
+      - name: English 12 (British Literature)
+        publisher: Seton Home Study School
+        tradition: catholic
+        url: "https://www.setonhome.org/high-school/english/english-12/"
+        notes: Catholic survey anthology covering Donne, Milton and Gray.
+    notes: >-
+      Catholic/Protestant note. This period's devotional poetry comes from both sides of the Reformation divide.
+      Southwell was a Jesuit priest martyred at Tyburn in 1595 and canonized in 1970. Donne was born into a
+      recusant Catholic family and became an Anglican dean. Herbert was a devout Anglican country parson, and
+      Milton a Puritan. Crashaw (Anglican turned Catholic) can be added. The shared devotional tradition is
+      itself a lesson. Chaucer here is studied only as the maker of the English pentameter couplet. The fuller
+      reading of the Canterbury Tales is in literature-18, and the General Prologue in the original Middle
+      English, read aloud and memorized, is in old-english-05.
+
+  - id: poetry-10
+    title: "Translating Latin Verse into English"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15.5
+    order: 10
+    prerequisites: [poetry-08]
+    related: [literature-16, literature-20, latin-15]
+    summary: >-
+      Verse translation and "imitation" in the Augustan manner. The student studies Dryden's Aeneid and Pope's
+      Homer as models, and Johnson's London and Vanity of Human Wishes as imitations of Juvenal. They read
+      Horace in Latin with Conington's verse translations, then produce their own English verse renderings of
+      Horace's odes and passages of Virgil and Ovid, in heroic couplets, blank verse and stanzas. This joins the
+      Latin track to the poetry track, and it is how English poets have always learned their craft.
+    objectives:
+      - Compare three translations of the same passage (e.g. Aeneid II or Iliad VI) for fidelity, meter and diction
+      - Translate 6 Horace odes into rhymed English stanzas
+      - Translate 50+ lines of Virgil into heroic couplets or blank verse
+      - Write a Johnsonian "imitation" of a Latin satire applied to modern life
+    coreTexts:
+      - title: The Aeneid (trans. John Dryden)
+        author: Virgil
+        date: "1697"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/228" }
+      - title: The Iliad (trans. Alexander Pope)
+        author: Homer
+        date: "1715–1720"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6130" }
+      - title: The Odyssey (trans. Alexander Pope)
+        author: Homer
+        date: "1725–26"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3160" }
+      - title: "Horace: Odes and Epodes (Latin text, ed. Shorey & Laing)"
+        author: Horace
+        date: "23–13 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9646" }
+      - title: The Odes and Carmen Saeculare of Horace (trans. John Conington)
+        author: Horace
+        date: "trans. 1863"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5432" }
+      - title: The Vanity of Human Wishes (imitation of Juvenal X)
+        author: Samuel Johnson
+        date: "1749"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13350" }
+    curriculumOptions:
+      - name: Aeneid (Latin text and guides)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/aeneid/"
+        notes: MP's Latin Aeneid program supplies the source text and grammar support for translation.
+      - name: Ancient Roman Literature 10
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plans-tests-core-ancient-roman-literature-10"
+        notes: The Roman literature course that pairs with the Latin reading.
+    historicalPrecedent: >-
+      Translating classical verse into English verse was the school exercise of the English poets. Dryden
+      recalled translating a satire of Persius as a Westminster School exercise, and Pope fell in love with Homer
+      as a boy through Ogilby's translation. Johnson's London (1738) and Vanity of Human Wishes (1749) are
+      the model of "imitation", where the Latin poem is transposed into English circumstances.
+
+  - id: poetry-11
+    title: "Major Poets II: Gray to Hopkins"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 11
+    prerequisites: [poetry-09]
+    related: [literature-21, literature-23]
+    summary: >-
+      English poetry from the mid-eighteenth century through the Victorians. The course reads Gray's Elegy;
+      Wordsworth and Coleridge's Lyrical Ballads and Wordsworth's sonnets and odes; Keats's Odes; Tennyson's In
+      Memoriam; Browning's dramatic monologues; Christina Rossetti; Newman's Dream of Gerontius; and Gerard
+      Manley Hopkins. The focus is the ode, the dramatic monologue and the elegy as forms the student will write
+      in the capstone.
+    objectives:
+      - Memorize Gray's Elegy (or 60 lines of it), one Keats ode, and three Hopkins sonnets
+      - Explicate one of Keats's odes stanza by stanza
+      - Write a dramatic monologue in blank verse after Browning's "My Last Duchess" or "Andrea del Sarto"
+      - Analyze Hopkins' sprung rhythm and inscape in a close reading
+    coreTexts:
+      - title: Select Poems of Thomas Gray (incl. Elegy Written in a Country Churchyard)
+        author: Thomas Gray
+        date: "1751"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30357" }
+      - title: "Lyrical Ballads, with Other Poems, 1800, Vol. 1"
+        author: William Wordsworth & S. T. Coleridge
+        date: "1800"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8905" }
+      - title: Poems of Coleridge
+        author: Samuel Taylor Coleridge
+        date: "1796–1834"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8208" }
+      - title: "Keats: Poems Published in 1820 (the Odes)"
+        author: John Keats
+        date: "1820"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23684" }
+      - title: In Memoriam A. H. H.
+        author: Alfred, Lord Tennyson
+        date: "1850"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/70950" }
+      - title: Men and Women
+        author: Robert Browning
+        date: "1855"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/17393" }
+      - title: "Goblin Market, The Prince's Progress, and Other Poems"
+        author: Christina Rossetti
+        date: "1862–66"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16950" }
+      - title: The Dream of Gerontius
+        author: John Henry Newman
+        date: "1865"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48927" }
+      - title: Poems of Gerard Manley Hopkins (ed. Robert Bridges)
+        author: Gerard Manley Hopkins, S.J.
+        date: "1918"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/22403" }
+    curriculumOptions:
+      - name: "Poetry Book III: The Romantic to the Victorian Age (set)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/eighth/poetry-book-iii-romantic-victorian-age-set/"
+        notes: Anthology with guide covering the Romantics and Victorians.
+      - name: British Literature Course Plan
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plans-tests-british-literature"
+        notes: Catholic survey including the Romantic and Victorian poets.
+      - name: English 12 (British Literature)
+        publisher: Seton Home Study School
+        tradition: catholic
+        url: "https://www.setonhome.org/high-school/english/english-12/"
+        notes: Catholic survey anthology.
+    notes: >-
+      Catholic/Protestant note. Hopkins was an Anglican convert received into the Catholic Church by Newman, and
+      he became a Jesuit. His poems were published posthumously in 1918 by his Anglican friend Robert Bridges.
+      Keble (The Christian Year) and Rossetti represent the Anglican High Church. Newman's Gerontius (set by
+      Elgar) is a Catholic poem of purgatory that Protestant readers may treat as a dramatic vision.
+
+  - id: poetry-12
+    title: "Major Poets III: Frost, Yeats, Eliot & the Moderns"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 12
+    prerequisites: [poetry-11]
+    related: [literature-24, literature-28]
+    summary: >-
+      Twentieth-century poetry in English. The course reads Frost's early books, Yeats, Housman's A Shropshire
+      Lad, Chesterton's "Lepanto" and ballads, Eliot's "Prufrock", The Waste Land and Four Quartets, and Kipling's
+      verse. The question is how modern poets kept, broke or remade the traditional forms. Frost's blank verse
+      and Yeats's stanzas become models, and Eliot's free verse is a problem to understand.
+    objectives:
+      - Memorize two Frost poems, one Yeats poem and one section of Four Quartets
+      - Compare Frost's blank-verse dialogues ("Death of the Hired Man") with Browning's monologues
+      - Write an essay on the religious turn in Eliot from The Waste Land to Four Quartets
+      - Distinguish free verse from loosened accentual verse
+    coreTexts:
+      - title: A Boy's Will
+        author: Robert Frost
+        date: "1913"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3021" }
+      - title: North of Boston
+        author: Robert Frost
+        date: "1914"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3026" }
+      - title: Mountain Interval
+        author: Robert Frost
+        date: "1916"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29345" }
+      - title: Poems
+        author: W. B. Yeats
+        date: "1895–1912"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38877" }
+      - title: A Shropshire Lad
+        author: A. E. Housman
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5720" }
+      - title: Poems (incl. "Lepanto")
+        author: G. K. Chesterton
+        date: "1915"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31184" }
+      - title: Prufrock and Other Observations
+        author: T. S. Eliot
+        date: "1917"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1459" }
+      - title: Four Quartets
+        author: T. S. Eliot
+        date: "1943"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/four-quartets-t-s-eliot/1102477281?ean=9780156332255" }
+    curriculumOptions:
+      - name: Modern Era Literature 12
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plans-tests-core-modern-era-literature-12"
+        notes: Includes modern poetry within Kolbe's 12th-grade course.
+      - name: Challenge III (Poetry & Shakespeare strand)
+        publisher: Classical Conversations
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-iii/"
+        notes: Includes "a book on poetry" and the student's own anthology.
+    notes: >-
+      Chesterton's "Lepanto" (1911) is collected in the 1915 Poems on Gutenberg and is a superb declamation piece.
+      Mature content: a parent should read The Waste Land (the loveless seduction in section III) first and
+      discuss it with the student; it is read with notes in literature-24.
+
+  - id: poetry-13
+    title: "Verse Composition Capstone: Sonnet, Blank Verse & Ode"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 13
+    prerequisites: [poetry-08, poetry-10, poetry-11]
+    related: [literature-26]
+    summary: >-
+      The capstone of poetic competence: a year-long workshop producing a finished portfolio of serious verse in
+      the major forms of the English tradition. The portfolio holds a sonnet sequence, a long poem in blank verse,
+      a Horatian and a Pindaric/irregular ode, a satire in heroic couplets, and verse translations from Latin.
+      Each piece goes through drafts, critique and revision against the models from Milton, Wordsworth, Keats,
+      Hopkins and Frost. The year ends with a public reading.
+    objectives:
+      - "Complete a portfolio of 12 sonnets (including a linked sequence), 150+ lines of blank verse, two odes, a couplet satire, and 3 Latin translations"
+      - Critique a peer's poem in terms of meter, diction, image and form
+      - Revise each poem at least three times, keeping drafts to show development
+      - Give a public reading of the portfolio from memory
+      - Submit work to at least one juried poetry competition or publication
+    coreTexts:
+      - title: The Ode Less Travelled
+        author: Stephen Fry
+        date: "2005"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
+      - title: Poetic Meter and Poetic Form
+        author: Paul Fussell
+        date: "rev. 1979"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/dp/0075536064" }
+      - title: "The Poetical Works of John Milton (sonnets, Lycidas)"
+        author: John Milton
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1745" }
+      - title: "Keats: Poems Published in 1820 (the Odes)"
+        author: John Keats
+        date: "1820"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23684" }
+      - title: "The Oxford Book of English Verse, 1250–1900"
+        author: Arthur Quiller-Couch (ed.)
+        date: "1900"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66619" }
+    curriculumOptions:
+      - name: The Art of Poetry
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/the-art-of-poetry-program-1"
+        notes: Use it for its writing prompts. The portfolio standard here goes well beyond it.
+      - name: Challenge III (Poetry & Shakespeare strand)
+        publisher: Classical Conversations
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-iii/"
+        notes: Its own-anthology project is a ready co-op format for the capstone.
+      - name: Scholastic Art & Writing Awards (Poetry category; Writing Portfolio for seniors)
+        publisher: Alliance for Young Artists & Writers
+        tradition: secular
+        url: "https://www.artandwriting.org/"
+        notes: >-
+          The oldest U.S. juried awards for young writers (since 1923). Open to students in grades 7–12, age 13 and
+          up; homeschoolers enter through the regional program for their zip code. Poetry is its own category,
+          formal verse included, and graduating seniors may submit a six-piece Writing Portfolio. Regional
+          deadlines fall in December–January, and there is an entry fee (waivers available).
+      - name: Dappled Things (Catholic literary journal; Jane Greer Memorial Poetry Contest)
+        publisher: Dappled Things
+        tradition: catholic
+        url: "https://www.dappledthings.org/contests"
+        notes: >-
+          A Catholic "journal of ideas, art, and faith" (print and digital since 2005) that publishes poetry,
+          fiction and essays. Every poem submitted in a year is
+          also considered for its Jane Greer Memorial Poetry Contest. It has no separate student or young-writer
+          contest; the student submits alongside adults, which suits a finished capstone portfolio.
+    historicalPrecedent: >-
+      English public schools and universities awarded prizes for original verse (Oxford's Newdigate Prize from
+      1806; Cambridge's Chancellor's Medal from 1813, won by Tennyson). Nineteenth-century educated men and women
+      wrote occasional verse as a normal accomplishment. John Quincy Adams and Lincoln both wrote
+      and published poems.
+    sources:
+      - { label: "Scholastic Awards: FAQ (eligibility, homeschoolers, fees)", url: "https://www.artandwriting.org/frequently-asked-questions/" }
+      - { label: "Scholastic Awards: Categories (Poetry; Writing Portfolio)", url: "https://www.artandwriting.org/awards/how-to-enter/categories/" }
+      - { label: "Foyle Young Poets of the Year Award (Poetry Society, UK; ages 11–17, open worldwide, free)", url: "https://foyleyoungpoets.org/rules/" }
+      - { label: "Young Poets Network (Poetry Society, UK; free challenges for poets up to 25, worldwide)", url: "https://ypn.poetrysociety.org.uk/" }
+    notes: >-
+      This row carries the program's "poetic competence" goal. Work with a verse mentor or tutor, ideally one who
+      writes metrical verse: meet every week or two to go over drafts line by line (meter, diction, image, form),
+      and let the mentor choose which finished poems go out to competitions and journals. Poets associated with
+      the classical-school world or with journals publishing formal verse can also critique portfolios. Outlets
+      by stage: the Scholastic Awards (U.S., grades 7–12) and the Foyle Young Poets Award (worldwide, ages 11–17,
+      one poem of up to 40 lines for international entrants) while the student is eligible; Young Poets Network
+      challenges for practice; and Dappled Things as a first adult Catholic venue.
+
+  - id: poetry-14
+    title: "Poetics Seminar: Aristotle to Eliot"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 14
+    prerequisites: [poetry-13]
+    related: [literature-32]
+    summary: >-
+      A college seminar on what poetry is and what it is for. The course reads Aristotle's Poetics, Horace's Ars
+      Poetica, Longinus On the Sublime, Sidney's Defence of Poesy, Pope's Essay on Criticism, Wordsworth's Preface
+      to Lyrical Ballads, Shelley's Defence of Poetry, Eliot's "Tradition and the Individual Talent", and Lewis's An
+      Experiment in Criticism. The student writes a defense of poetry of their own. Theory comes last, after the
+      student has made poems.
+    objectives:
+      - Summarize and critique Aristotle's account of mimesis, plot, character and catharsis
+      - Compare Sidney's and Shelley's defenses of poetry against Plato's charge
+      - Evaluate Wordsworth's claim that poetry uses "the real language of men"
+      - Write a 4,000-word "Defence of Poetry" of the student's own, citing the tradition
+    coreTexts:
+      - title: The Poetics (trans. S. H. Butcher)
+        author: Aristotle
+        date: "c. 335 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1974" }
+      - title: "The Satires, Epistles, and Art of Poetry (trans. Conington)"
+        author: Horace
+        date: "c. 19 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5419" }
+      - title: On the Sublime
+        author: Longinus (trans. H. L. Havell)
+        date: "1st c. AD"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/17957" }
+      - title: A Defence of Poesie and Poems
+        author: Sir Philip Sidney
+        date: "1595"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1962" }
+      - title: An Essay on Criticism
+        author: Alexander Pope
+        date: "1711"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7409" }
+      - title: "Lyrical Ballads, 1800, Vol. 1 (Preface)"
+        author: William Wordsworth
+        date: "1800"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8905" }
+      - title: A Defence of Poetry and Other Essays
+        author: Percy Bysshe Shelley
+        date: "1821"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5428" }
+      - title: "The Sacred Wood (incl. \"Tradition and the Individual Talent\")"
+        author: T. S. Eliot
+        date: "1920"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/57795" }
+      - title: An Experiment in Criticism
+        author: C. S. Lewis
+        date: "1961"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/an-experiment-in-criticism-c-s-lewis/1116913581?ean=9781107604728" }
+    curriculumOptions:
+      - name: "Aristotle's Poetics Study Guide Set"
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://books.kolbe.org/products/poetics-study-guide-set"
+        notes: Guided reading of the Poetics.
+      - name: Great Books Reading List
+        publisher: St. John's College
+        tradition: secular
+        url: "https://www.sjc.edu/academic-programs/undergraduate/great-books-reading-list"
+        notes: The Poetics is read in the St. John's freshman year alongside the tragedians.
+      - name: Syllabus
+        publisher: Thomas Aquinas College
+        tradition: catholic
+        url: "https://www.thomasaquinas.edu/a-liberating-education/syllabus"
+        notes: TAC reads Aristotle's Poetics in its seminar sequence, within a Thomist frame.
+    notes: >-
+      The 1800 Lyrical Ballads vol. 1 on Gutenberg (8905) carries the Preface. The expanded 1802 Preface
+      (with "What is a Poet?") is worth locating in a modern edition. Plato's Ion and Republic X should be read
+      first (see the philosophy track).

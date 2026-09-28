@@ -1,0 +1,575 @@
+track: spanish
+title: Spanish
+trackGroup: Languages
+description: >-
+  Spanish is acquired by ear from birth through a native-speaking caregiver or One-Parent-One-Language
+  arrangement, songs and stories, and it is kept as a living spoken language throughout. Formal study
+  begins about age 7. Children learn to read Spanish, which is quick because Spanish spelling is
+  regular, and learn classical grammar alongside Latin (Spanish for Children), then build volume
+  through comprehensible-input readers, a full program such as ¡Avancemos!, and the Destinos
+  telenovela. From about 10 the track moves into graded literature: an adapted Lazarillo and Don
+  Quijote, then Hispanic history from primary sources (Bernal Díaz, Las Casas), Golden Age poetry, the
+  Spanish mystics (Teresa of Ávila, John of the Cross), the full Quijote, Calderón, Bécquer and Galdós,
+  and finally Unamuno, Neruda and Borges. End-state (17–18): the student reads the Spanish and Spanish
+  American canon in the original at a college level, writes analytical essays in Spanish, and speaks
+  with educated fluency. This is the practical fulfilment of Jefferson's 1787 advice to his nephew to
+  "bestow great attention" on Spanish.
+rows:
+  - id: spanish-01
+    title: "By-Ear Spanish: Native-Speaker Caregivers & One Parent, One Language"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 3
+    order: 1
+    prerequisites: []
+    related: [early-development-05, chinese-01]
+    summary: >-
+      The strongest predictor of early bilingual ability is the amount of live, interactive input a
+      child hears in each language. Give Spanish a consistent human source from birth: a native-speaking
+      parent, nanny, grandparent or au pair who speaks only Spanish to the child (One Parent, One
+      Language), or a fixed "Spanish time or place" (minority-language-at-home).
+    objectives:
+      - Hear several hours a week of live, responsive Spanish from the same native speaker(s)
+      - Understand everyday routines, commands and nursery rhymes in Spanish by age 2–3
+      - Answer in Spanish (single words, then phrases) without being pressured to perform
+    coreTexts:
+      - title: "Language Strategies for Bilingual Families: The One-Parent-One-Language Approach"
+        author: Suzanne Barron-Hauwaert
+        date: "2004; 2nd ed. 2022"
+        publicDomain: false
+        links:
+          - { label: "Multilingual Matters", url: "https://www.multilingual-matters.com/page/detail/?K=9781788921398" }
+    sources:
+      - { label: "Kuhl, Tsao & Liu (2003), PNAS: live vs. recorded foreign-language exposure in infancy", url: "https://www.pnas.org/doi/10.1073/pnas.1532872100" }
+      - { label: "Hoff et al. (2012), Dual language exposure and early bilingual development", url: "https://pubmed.ncbi.nlm.nih.gov/21418730/" }
+    notes: >-
+      Recorded audio and video alone do not produce phonetic learning in infants. In Kuhl's study, only
+      live interaction did. Expect a bilingual child's vocabulary in each language to lag a monolingual
+      child's for a while; combined vocabulary is normal. With three home languages (English, Spanish
+      and Mandarin), assign each language to a fixed person or setting so the input stays consistent.
+
+  - id: spanish-02
+    title: "Spanish Songs, Stories & Audio (with Screen Limits)"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6
+    order: 2
+    prerequisites: [spanish-01]
+    related: [early-development-18, early-development-15, chinese-02]
+    summary: >-
+      Enrich live input with Spanish nursery rhymes, songs, picture books read aloud, and a small amount
+      of high-quality Spanish video watched together with an adult. Media supplements a human speaker
+      and never replaces one. Before age 2, avoid screens except video chat with family.
+    objectives:
+      - Sing a repertoire of traditional Spanish children's songs and rhymes (e.g. "Los pollitos dicen")
+      - Follow a Spanish picture book read aloud and retell it with pictures
+      - Understand short Spanish cartoons or episodes watched with a parent (ages 3–6 only)
+    curriculumOptions:
+      - name: Canticos (bilingual nursery rhymes, books and videos)
+        publisher: Encantos
+        tradition: secular
+        url: "https://canticosworld.com/"
+        notes: Bilingual English–Spanish songs and board books for ages 0–5. Use for singing together, not passive viewing.
+      - name: Whistlefritz Spanish for Kids
+        publisher: Whistlefritz
+        tradition: secular
+        url: "https://www.whistlefritz.com/spanish-programs/"
+        notes: All-Spanish immersion videos and music for ages 2–8. Limit sessions and watch together.
+      - name: Dreaming Spanish (Superbeginner videos)
+        publisher: Dreaming
+        tradition: secular
+        url: "https://www.dreaming.com/spanish"
+        notes: Graded comprehensible-input video. Good for ages 5+ and for parents learning alongside.
+    sources:
+      - { label: "AAP Council on Communications and Media (2016), Media and Young Minds", url: "https://publications.aap.org/pediatrics/article/138/5/e20162591/60503/Media-and-Young-Minds" }
+    notes: >-
+      AAP guidance: no screen media before 18–24 months except video chat. From 2 to 5, at most about 1
+      hour a day of high-quality programming, watched together with an adult.
+
+  - id: spanish-03
+    title: "Spanish I: Reading Spanish & First Grammar"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 8
+    order: 3
+    prerequisites: [spanish-02]
+    related: [latin-01, reading-phonics-03]
+    summary: >-
+      Formal study begins. The child learns to read and spell Spanish (five pure vowels, regular
+      grapheme–sound correspondences, accents and ñ), which transfers quickly from English phonics. They
+      also begin grammar through chants and vocabulary on the classical model, in parallel with Latin.
+    objectives:
+      - Read aloud any Spanish text with correct pronunciation and stress, including accent rules
+      - Chant present-tense conjugations of ser, estar, tener and regular -ar/-er/-ir verbs
+      - Master about 300 high-frequency words and write simple dictated sentences
+    curriculumOptions:
+      - name: Spanish for Children Primer A
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/spanish-for-children-primer-a"
+        notes: Grammar-chant approach that parallels Latin for Children, with video and audio. Ideal for a child who already understands spoken Spanish.
+      - name: Song School Spanish
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-song-school-spanish"
+        notes: Gentler, song-based bridge for ages 5–7 if Primer A feels too heavy.
+      - name: Madrigal's Magic Key to Spanish
+        publisher: Penguin Random House (Broadway)
+        tradition: secular
+        url: "https://www.penguinrandomhouse.com/books/105997/madrigals-magic-key-to-spanish-by-margarita-madrigal-with-original-illustrations-by-andy-warhol/"
+        notes: Classic cognate-based parent resource. Useful for a non-native parent teaching alongside.
+    notes: >-
+      A child who is already bilingual by ear should spend most of this year on literacy (reading real
+      children's books in Spanish) and only lightly on grammar drills.
+
+  - id: spanish-04
+    title: "Spanish II: Grammar & Comprehensible-Input Readers"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 9.5
+    order: 4
+    prerequisites: [spanish-03]
+    related: [latin-02]
+    summary: >-
+      Grammar continues through the preterite and imperfect, object pronouns and reflexives. Reading
+      volume grows through short novels written in high-frequency vocabulary (comprehensible input) and
+      public-domain graded readers from the early 1900s.
+    objectives:
+      - Narrate past events using preterite vs. imperfect correctly
+      - Read four or more short Spanish novellas independently for pleasure
+      - Write a half-page composition in Spanish without a dictionary
+    coreTexts:
+      - title: Spanish Tales for Beginners
+        author: E. C. Hills and Louise Reinhardt (eds.)
+        date: "1910"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/36805" }
+      - title: A First Spanish Reader
+        author: Erwin W. Roessler and Alfred Remy
+        date: "1904"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/15353" }
+    curriculumOptions:
+      - name: Spanish for Children Primer B
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/spanish-for-children-primer-b"
+        notes: Continues Primer A with past tenses and more reading.
+      - name: Fluency Matters comprehensible-input novels (e.g. Brandon Brown quiere un perro)
+        publisher: Wayside Publishing (Fluency Matters)
+        tradition: secular
+        url: "https://www.waysidepublishing.com/languages/spanish/brandon-brown-quiere-un-perro"
+        notes: Very-low-vocabulary novellas, levelled; read many of them quickly. Some later titles treat mature themes, so preview them.
+      - name: Memoria Press modern languages
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/modern-languages/"
+        notes: Classical-school alternative sequence. Check the current Spanish offerings against your child's level.
+
+  - id: spanish-05
+    title: "Spanish III: Full Program, Destinos & Conversation"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 9.5
+    ageEnd: 11
+    order: 5
+    prerequisites: [spanish-04]
+    related: []
+    summary: >-
+      A complete modern course covers the subjunctive, compound tenses and a wide vocabulary. It runs
+      alongside Destinos, the 52-episode telenovela made for learners, set in Spain, Argentina, Puerto
+      Rico and Mexico, and weekly conversation with a native speaker.
+    objectives:
+      - Use present and imperfect subjunctive in speech and writing
+      - Follow Destinos episodes and summarize each one orally in Spanish
+      - Hold a 20-minute conversation on everyday and school topics
+      - Reach about ACTFL Intermediate-Mid in reading and speaking
+    coreTexts:
+      - title: "Destinos: An Introduction to Spanish (video series)"
+        author: WGBH / Annenberg
+        date: "1992"
+        publicDomain: false
+        links:
+          - { label: "Archive.org (full series)", url: "https://archive.org/details/destinos_pbs" }
+          - { label: "Annenberg Learner interactive", url: "https://www.learner.org/wp-content/interactive/destinos/mexico/index.html" }
+    curriculumOptions:
+      - name: "¡Avancemos! Levels 1–2"
+        publisher: Houghton Mifflin Harcourt (Holt McDougal)
+        tradition: secular
+        url: "https://www.hmhco.com/programs/avancemos"
+        notes: Standard U.S. school program with complete scope and sequence and workbooks. Communicative rather than classical.
+      - name: Seton Spanish I
+        publisher: Seton Home Study School
+        tradition: catholic
+        url: "https://www.setonhome.org/high-school/foreign-languages/spanish-1/"
+        notes: Catholic high-school course that an accelerated 10–11-year-old can take early.
+      - name: Dreaming Spanish (intermediate/advanced)
+        publisher: Dreaming
+        tradition: secular
+        url: "https://www.dreaming.com/spanish"
+        notes: Hours of graded listening that keep the spoken language growing.
+
+  - id: spanish-06
+    title: "Graded Literature I: Lazarillo & Don Quijote (Adapted)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 12
+    order: 6
+    prerequisites: [spanish-05]
+    related: []
+    summary: >-
+      The first real literature, in adapted form. The picaresque Lazarillo de Tormes (1554) in a graded
+      A2–B1 reader, then a school adaptation of Don Quijote. Students narrate, keep a vocabulary
+      notebook, and memorize famous passages ("En un lugar de la Mancha…").
+    objectives:
+      - Read an adapted Lazarillo and an adapted Quijote in full, in Spanish
+      - Narrate each tratado or chapter orally and in writing
+      - Explain the picaresque and the chivalric romance that Cervantes parodies
+    coreTexts:
+      - title: "Don Quijote de la Mancha: edición escolar (RAE, adapted by Arturo Pérez-Reverte)"
+        author: Miguel de Cervantes
+        date: "1605/1615; school ed. 2014"
+        publicDomain: false
+        links:
+          - { label: "Real Academia Española", url: "https://www.rae.es/obras-academicas/obras-literarias-e-historicas/el-quijote-popular-y-escolar" }
+    curriculumOptions:
+      - name: "Lazarillo de Tormes (Lecturas graduadas, A2)"
+        publisher: ELI Ediciones
+        tradition: secular
+        url: "https://www.eliediciones.es/p/ellazarillodetormes"
+        notes: Graded reader with audio and exercises.
+      - name: "Lazarillo de Tormes (Leer y aprender, A2)"
+        publisher: Black Cat – Cideb
+        tradition: secular
+        url: "https://www.blackcat-cideb.com/es/libros/lazarillo-de-tormes-4"
+        notes: Alternative graded edition with audio.
+      - name: "Don Quijote (Colección Cucaña, adapted)"
+        publisher: Vicens Vives
+        tradition: secular
+        url: "https://www.casadellibro.com/libro-don-quijote-cucana-29/9788431676377/983433"
+        notes: Illustrated adaptation widely used in Spanish schools. Easier than the RAE school edition.
+    historicalPrecedent: >-
+      By John Quincy Adams's report, Jefferson taught himself Spanish on his 1784 Atlantic crossing
+      with a grammar and a copy of Don Quixote. Franklin writes in his Autobiography that he acquired
+      "as much of the Spanish as to read their books."
+    sources:
+      - { label: "Autobiography of Benjamin Franklin (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/20203" }
+
+  - id: spanish-07
+    title: "Hispanic History from Primary Sources: Bernal Díaz & Las Casas"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13.5
+    order: 7
+    prerequisites: [spanish-06]
+    related: []
+    summary: >-
+      The conquest and evangelization of the Americas as told by participants. Students read Bernal
+      Díaz del Castillo's eyewitness Historia verdadera of the conquest of Mexico and Bartolomé de las
+      Casas's Brevísima relación, the Dominican friar's indictment of colonial cruelty. They read
+      excerpts in Spanish and the whole in English.
+    objectives:
+      - Read selected chapters of Bernal Díaz and the Brevísima relación in the original Spanish
+      - Compare the two witnesses on the same events and judge their reliability and purpose
+      - Explain the Valladolid debate (1550–51) and the natural-law arguments of Las Casas and Vitoria
+    coreTexts:
+      - title: Historia verdadera de la conquista de la Nueva España
+        author: Bernal Díaz del Castillo
+        date: "c. 1568 (pub. 1632)"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Spanish, vol. 1 of 3)", url: "https://www.gutenberg.org/ebooks/64945" }
+          - { label: "Project Gutenberg (English, Lockhart trans., vol. 1)", url: "https://www.gutenberg.org/ebooks/32474" }
+      - title: Brevísima relación de la destrucción de las Indias
+        author: Bartolomé de las Casas
+        date: "1552"
+        publicDomain: true
+        links:
+          - { label: "Biblioteca Virtual Miguel de Cervantes (Spanish)", url: "https://www.cervantesvirtual.com/obra/brevisima-relacion-de-la-destruccion-de-las-indias/" }
+          - { label: "Project Gutenberg (English)", url: "https://www.gutenberg.org/ebooks/20321" }
+    historicalPrecedent: >-
+      Jefferson to Peter Carr (10 August 1787) urged Spanish because "the ancient history of that part
+      of America, too, is written in that language."
+    sources:
+      - { label: "Jefferson to Peter Carr, 10 Aug 1787 (Teaching American History)", url: "https://teachingamericanhistory.org/document/letter-to-peter-carr/" }
+    notes: >-
+      The Brevísima was used in Protestant polemic (the "Black Legend"). Present Las Casas as a Catholic
+      friar arguing from Catholic natural-law principles, and weigh his statistics critically.
+
+  - id: spanish-08
+    title: "Golden Age Poetry & Lazarillo in the Original"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 8
+    prerequisites: [spanish-06]
+    related: [rhetoric-02]
+    summary: >-
+      Students read the unabridged Lazarillo de Tormes and an anthology of the Siglo de Oro: Garcilaso's
+      sonnets and églogas, Fray Luis de León's odes, Lope de Vega, Góngora and Quevedo. They memorize
+      and recite poems and learn Spanish metrics (endecasílabo, octosílabo, soneto, romance).
+    objectives:
+      - Read the original 1554 Lazarillo with a glossary
+      - Memorize and recite at least ten Golden Age poems
+      - Scan Spanish verse and identify sonnet, lira, romance and redondilla forms
+    coreTexts:
+      - title: Vida de Lazarillo de Tormes y de sus fortunas y adversidades
+        author: Anonymous
+        date: "1554"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Spanish)", url: "https://www.gutenberg.org/ebooks/320" }
+          - { label: "Project Gutenberg (English)", url: "https://www.gutenberg.org/ebooks/437" }
+      - title: Obras
+        author: Garcilaso de la Vega
+        date: "1543"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/68131" }
+      - title: Historia de la vida del Buscón
+        author: Francisco de Quevedo
+        date: "1626"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/32315" }
+    curriculumOptions:
+      - name: "Spanish Poetry: A Dual-Language Anthology, 16th–20th Centuries (ed. Angel Flores)"
+        publisher: Dover
+        tradition: secular
+        url: "https://www.amazon.com/Spanish-Poetry-Dual-Language-Anthology-16th-20th/dp/0486401715"
+        notes: Inexpensive facing-page anthology running from Garcilaso to Lorca. It serves this row and spanish-11 and spanish-12.
+
+  - id: spanish-09
+    title: "The Spanish Mystics: Teresa of Ávila & John of the Cross"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14.5
+    order: 9
+    prerequisites: [spanish-08]
+    related: [theology-17, latin-10, theology-24]
+    summary: >-
+      Spanish prose and poetry at their spiritual summit. Students read Teresa of Ávila's Libro de la
+      vida and selections from Las moradas (The Interior Castle), and John of the Cross's poems "Noche
+      oscura", "Cántico espiritual" and "Llama de amor viva", with passages from his commentaries.
+    objectives:
+      - Read Teresa's Vida (selected chapters) and Las moradas I and VII in Spanish
+      - Memorize "Noche oscura" and read it closely as poetry (his prose commentaries are read at college level in theology-24)
+      - Write a short essay in Spanish on prayer as Teresa describes it
+    coreTexts:
+      - title: Libro de la vida
+        author: Santa Teresa de Jesús
+        date: "1565"
+        publicDomain: true
+        links:
+          - { label: "Wikisource (Spanish)", url: "https://es.wikisource.org/wiki/Libro_de_la_vida_de_Santa_Teresa_de_Jes%C3%BAs" }
+          - { label: "Project Gutenberg (English, Lewis trans.)", url: "https://www.gutenberg.org/ebooks/8120" }
+      - title: Las moradas (El castillo interior)
+        author: Santa Teresa de Jesús
+        date: "1577"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (Spanish, 1916)", url: "https://archive.org/details/lasmoradas00tereuoft" }
+          - { label: "CCEL (English)", url: "https://ccel.org/ccel/teresa/castle2.toc.html" }
+      - title: Poesías (Noche oscura, Cántico espiritual, Llama de amor viva)
+        author: San Juan de la Cruz
+        date: "c. 1578–1591"
+        publicDomain: true
+        links:
+          - { label: "Centro Virtual Cervantes (Spanish)", url: "https://cvc.cervantes.es/obref/sanjuan/edicion/p_sanlucar/default.htm" }
+          - { label: "CCEL: Dark Night of the Soul (English)", url: "https://ccel.org/ccel/john_cross/dark_night.html" }
+          - { label: "Archive.org: Ascent of Mount Carmel (English, 1922)", url: "https://archive.org/details/ascentofmountcar00johnuoft" }
+    notes: >-
+      Catholic–Protestant note: Catholics read Teresa and John as Doctors of the Church. Many
+      Protestants value them as devotional classics, though traditionally with reservations about
+      contemplative mysticism and monastic vows. The poems belong to the Spanish literary canon for
+      every reader.
+
+  - id: spanish-10
+    title: "Don Quijote in the Original"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15.5
+    order: 10
+    prerequisites: [spanish-06, spanish-08]
+    related: [literature-30]
+    summary: >-
+      Students read the complete Don Quijote (Parts I and II) in Spanish, using the Instituto
+      Cervantes's annotated online edition (Francisco Rico) and an English translation for difficult
+      stretches. This is the defining achievement of the high-school Spanish track.
+    objectives:
+      - Read both parts of the Quijote in Spanish, about 20 pages a day
+      - Keep a commonplace book of refranes (proverbs) and memorable passages
+      - Discuss the novel's themes (madness and reason, fiction and reality, Christian charity, honor) in Spanish seminar
+    coreTexts:
+      - title: El ingenioso hidalgo don Quijote de la Mancha
+        author: Miguel de Cervantes
+        date: "1605/1615"
+        publicDomain: true
+        links:
+          - { label: "Centro Virtual Cervantes (annotated, ed. Rico)", url: "https://cvc.cervantes.es/literatura/clasicos/quijote/" }
+          - { label: "Project Gutenberg (Spanish)", url: "https://www.gutenberg.org/ebooks/2000" }
+          - { label: "Project Gutenberg (English, Ormsby trans.)", url: "https://www.gutenberg.org/ebooks/996" }
+    historicalPrecedent: >-
+      The Quijote was the classic first long text for English-speaking learners of Spanish. Jefferson
+      reportedly learned the language with it and a grammar (see spanish-06), and he recommended
+      Spanish to his nephew in 1787.
+
+  - id: spanish-11
+    title: "Calderón, Bécquer & Galdós: Drama, Romantic Lyric, the Novel"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16
+    order: 11
+    prerequisites: [spanish-10]
+    related: [philosophy-08]
+    summary: >-
+      Three centuries in three authors. Calderón's La vida es sueño (1635) is the great Catholic
+      philosophical drama of free will and grace. Bécquer's Rimas and Leyendas are the Spanish Romantic
+      lyric. Galdós's Marianela or Doña Perfecta is the 19th-century realist novel, the latter a study of
+      provincial religious conflict.
+    objectives:
+      - Read La vida es sueño in full and memorize Segismundo's soliloquy ("¿Qué es la vida? Un frenesí…")
+      - Read and recite a selection of Bécquer's Rimas
+      - Read one Galdós novel and write a Spanish essay comparing its view of faith and society with Calderón's
+    coreTexts:
+      - title: La vida es sueño
+        author: Pedro Calderón de la Barca
+        date: "1635"
+        publicDomain: true
+        links:
+          - { label: "Wikisource (Spanish)", url: "https://es.wikisource.org/wiki/La_vida_es_sue%C3%B1o" }
+          - { label: "Biblioteca Virtual Miguel de Cervantes", url: "https://www.cervantesvirtual.com/obra/la-vida-es-sueno/" }
+          - { label: "Project Gutenberg: Teatro selecto, tomo 1", url: "https://www.gutenberg.org/ebooks/54436" }
+      - title: Rimas; Obras escogidas
+        author: Gustavo Adolfo Bécquer
+        date: "1871"
+        publicDomain: true
+        links:
+          - { label: "Archive.org: Rimas", url: "https://archive.org/details/rimasbcqu00bcqu" }
+          - { label: "Project Gutenberg: Obras escogidas", url: "https://www.gutenberg.org/ebooks/53552" }
+      - title: Marianela; Doña Perfecta
+        author: Benito Pérez Galdós
+        date: "1878; 1876"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg: Marianela", url: "https://www.gutenberg.org/ebooks/17340" }
+          - { label: "Project Gutenberg: Doña Perfecta", url: "https://www.gutenberg.org/ebooks/15725" }
+    notes: >-
+      Doña Perfecta is anticlerical in tendency. Read it in dialogue with Calderón and discuss it
+      rather than assigning it alone.
+
+  - id: spanish-12
+    title: "Modern Masters: Unamuno, Neruda, Borges (AP Spanish Literature level)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 12
+    prerequisites: [spanish-11]
+    related: []
+    summary: >-
+      The 20th century in Spain and Spanish America: Unamuno's San Manuel Bueno, mártir and essays on
+      faith and doubt, selected poems from Neruda, and Borges's Ficciones. The course is framed by the
+      College Board's AP Spanish Literature and Culture reading list, and the AP exam can serve as an
+      external benchmark.
+    objectives:
+      - Read San Manuel Bueno, mártir and one Unamuno essay collection in Spanish
+      - Analyze selected Neruda odes and Borges stories (e.g. "El Sur", "La muerte y la brújula")
+      - Write timed literary-analysis essays in Spanish (AP format)
+    coreTexts:
+      - title: San Manuel Bueno, mártir
+        author: Miguel de Unamuno
+        date: "1931"
+        publicDomain: false
+        links:
+          - { label: "Ediciones Cátedra", url: "https://catedra.com/libro/letras-hispanicas/san-manuel-bueno-martir-miguel-de-unamuno-9788437601854/" }
+      - title: Abel Sánchez; Vida de Don Quijote y Sancho
+        author: Miguel de Unamuno
+        date: "1917; 1905"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg: Abel Sánchez", url: "https://www.gutenberg.org/ebooks/44512" }
+          - { label: "Project Gutenberg: Vida de Don Quijote y Sancho", url: "https://www.gutenberg.org/ebooks/75472" }
+      - title: "Veinte poemas de amor y una canción desesperada (bilingual)"
+        author: Pablo Neruda
+        date: "1924"
+        publicDomain: false
+        links:
+          - { label: "Penguin Random House", url: "https://www.penguinrandomhouse.com/books/773270/twenty-love-poems-and-a-song-of-despair-by-pablo-neruda-translated-by-w-s-merwin-introduction-by-cristina-garcia/" }
+      - title: Ficciones / Fictions (bilingual)
+        author: Jorge Luis Borges
+        date: "1944"
+        publicDomain: false
+        links:
+          - { label: "Penguin Random House", url: "https://www.penguinrandomhouse.com/books/224704/ficciones--fictions-by-jorge-luis-borges/" }
+    curriculumOptions:
+      - name: AP Spanish Literature and Culture (course framework and reading list)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-spanish-literature-and-culture"
+        notes: Its required list overlaps this track (Lazarillo, Quijote, Garcilaso, Quevedo, Sor Juana, Bécquer, Unamuno, Borges, Neruda).
+    notes: >-
+      For Neruda, choose selections rather than whole books. The Canto general and the Odas elementales
+      suit students better than all of the love poems. Neruda was a communist, which is itself worth
+      discussing.
+
+  - id: spanish-13
+    title: "College Spanish: The Hispanic Canon in the Original"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 13
+    prerequisites: [spanish-12]
+    related: [philosophy-13, latin-18]
+    summary: >-
+      A college-level seminar conducted entirely in Spanish, on longer and harder texts: complete Las
+      moradas, Las Casas's Historia de las Indias, the full Bernal Díaz, Unamuno's Del sentimiento
+      trágico de la vida, and self-chosen further reading (Sor Juana, Lope's comedias, Ortega y Gasset).
+      Students write research essays in Spanish.
+    objectives:
+      - Read college-level Spanish prose and verse without translation aids
+      - Write a 3,000-word research essay in Spanish on a Hispanic text or historical question
+      - Discuss philosophical and theological texts orally in Spanish at an educated register
+    coreTexts:
+      - title: Del sentimiento trágico de la vida
+        author: Miguel de Unamuno
+        date: "1913"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Spanish)", url: "https://www.gutenberg.org/ebooks/59852" }
+          - { label: "Project Gutenberg (English)", url: "https://www.gutenberg.org/ebooks/14636" }
+      - title: The Interior Castle (for comparison with the Spanish)
+        author: Teresa of Ávila
+        date: "1577 (trans. 1921)"
+        publicDomain: true
+        links:
+          - { label: "Archive.org", url: "https://archive.org/details/interiorcastleor00tere" }
+    notes: >-
+      End-state check: the student can read a page of the Quijote, Calderón or Unamuno aloud, gloss it
+      in Spanish, and discuss it with a native-speaking professor.

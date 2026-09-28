@@ -1,0 +1,955 @@
+track: social-science
+title: Psychology & Social Science
+trackGroup: Founder Skills
+description: >-
+  A founder must read modern social science without being either credulous or dismissive of it. The
+  track begins, before any textbook, with the classical account of human nature: Aristotle on the
+  soul, Aquinas on the passions and habits, and Augustine on memory. It then follows the field as it
+  actually grew, from the "mental philosophy" of the Scottish and American colleges to James and Wundt,
+  and works through a standard introductory psychology course at AP and CLEP level. Research methods
+  and the replication crisis come early, so that every later finding is read with its evidence in view.
+  Units on judgment and bias (Kahneman and Gigerenzer), on learning and development (Piaget, Vygotsky,
+  and the research behind retrieval practice and spacing), on moral and social psychology (Haidt,
+  Milgram, Asch, and the Stanford Prison Experiment and its debunking), on sociology (Tocqueville,
+  Durkheim, Weber, Nisbet, Putnam and Coleman), on personality and mental health (the Big Five, Frankl,
+  and Catholic and Christian psychology), on media and the mind (Postman and Haidt), and on culture
+  (Dawson and cultural anthropology) follow. A college seminar asks what the social sciences can and
+  cannot know. The end state is a young adult who knows the real findings and methods of psychology and
+  sociology, can read a study and judge its strength, and can name the philosophical assumptions of a
+  theory and weigh them against a classical and Christian understanding of the person.
+rows:
+  - id: social-science-01
+    title: "Human Nature Before Psychology: The Soul, the Passions, Habit and Memory"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 1
+    prerequisites: []
+    related: [philosophy-04, philosophy-08, character-virtue-09, early-development-12]
+    summary: >-
+      Psychology means "the account of the soul," and it had a long history before it had a laboratory.
+      This unit reads short selections as a working anthropology for the rest of the track: Aristotle's
+      On the Soul (the soul as the form of a living body, and its nutritive, sensitive and rational
+      powers) and On Memory; Aquinas on the powers of the soul, the eleven passions, and habit as a
+      "second nature"; and Augustine's meditation on the "fields and roomy chambers of memory" in
+      Confessions X. The aim is a vocabulary (intellect, will, the passions, habit, memory, the
+      imagination) against which each modern theory can later be tested. The philosophy track covers
+      Aristotle and Aquinas as philosophers. This unit reads them as the first psychologists.
+    objectives:
+      - Explain Aristotle's definition of the soul and the hierarchy of vegetative, sensitive and rational powers
+      - List Aquinas's eleven passions (concupiscible and irascible) and give an everyday example of each
+      - Explain how habits are formed and lost according to ST I-II q.49–53, and compare with a modern account of habit
+      - Summarize Augustine's account of memory and why he finds God "in" memory
+      - Keep a two-week log of one's own passions and habits, classified in Thomist terms
+    coreTexts:
+      - title: On the Soul (De Anima), Books II–III
+        author: Aristotle
+        date: "c. 350 BC"
+        publicDomain: true
+        links:
+          - { label: Internet Classics Archive (MIT), url: "https://classics.mit.edu/Aristotle/soul.html" }
+      - title: On Memory and Reminiscence
+        author: Aristotle
+        date: "c. 350 BC"
+        publicDomain: true
+        links:
+          - { label: Internet Classics Archive (MIT), url: "https://classics.mit.edu/Aristotle/memory.html" }
+      - title: "Summa Theologiae I q.75 and q.78 (the soul and its powers)"
+        author: Thomas Aquinas
+        date: "1265–1268"
+        publicDomain: true
+        links:
+          - { label: "New Advent (I q.75)", url: "https://www.newadvent.org/summa/1075.htm" }
+          - { label: "New Advent (I q.78)", url: "https://www.newadvent.org/summa/1078.htm" }
+      - title: "Summa Theologiae I-II q.22ff. (the passions) and q.49ff. (habits)"
+        author: Thomas Aquinas
+        date: "1271"
+        publicDomain: true
+        links:
+          - { label: "New Advent (I-II q.22)", url: "https://www.newadvent.org/summa/2022.htm" }
+          - { label: "New Advent (I-II q.49)", url: "https://www.newadvent.org/summa/2049.htm" }
+      - title: Confessions, Book X (memory)
+        author: Augustine of Hippo
+        date: "c. 400"
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/fathers/110110.htm" }
+          - { label: Project Gutenberg (Pusey trans.), url: "https://www.gutenberg.org/ebooks/3296" }
+      - title: Thomistic Psychology
+        author: Robert E. Brennan, O.P.
+        date: "1941"
+        publicDomain: false
+        links:
+          - { label: Archive.org (lending library), url: "https://archive.org/details/thomisticpsychol0000robe" }
+    curriculumOptions:
+      - name: "Aquinas 101: The Passions of the Soul (free video lessons)"
+        publisher: The Thomistic Institute
+        tradition: catholic
+        url: "https://aquinas101.thomisticinstitute.org/videos/the-passions-in-general"
+        notes: Short lectures by Dominican friars on the passions and the powers of the soul; free with registration.
+      - name: Consciousness and Its Implications (Daniel N. Robinson)
+        publisher: The Great Courses
+        tradition: secular
+        url: "https://shop.thegreatcourses.com/consciousness-and-its-implications"
+        notes: A philosopher-psychologist's history of the mind-body problem from the Greeks to neuroscience; sympathetic to Aristotle and Reid.
+    historicalPrecedent: >-
+      In the medieval universities Aristotle's De Anima was a set text of the arts course (it is named in
+      the Paris arts-faculty statute of 1255). Every master of arts had therefore studied the powers of
+      the soul before going on to theology, law or medicine.
+    notes: >-
+      Brennan's Thomistic Psychology (1941) is the classic attempt to set Aquinas's account beside the
+      experimental psychology of its day, and is a useful teacher's reference. Protestant readers will
+      find a parallel treatment of the "heart" and "affections" in Jonathan Edwards's Religious Affections.
+      Keep the reading short. The full treatise on the passions belongs to theology-22 and philosophy-08.
+
+  - id: social-science-02
+    title: "Introduction to Psychology: The Science of Mind and Behavior, from James and Wundt to AP"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 2
+    prerequisites: [social-science-01]
+    related: [natural-science-11, natural-science-12, philosophy-09, rhetoric-11]
+    summary: >-
+      A full, college-level introductory psychology course in one year, taken at AP or CLEP level. It
+      covers the biological bases of behavior, sensation and perception, learning (classical and operant
+      conditioning), memory, cognition, motivation and emotion, development, personality, psychological
+      disorders and treatment, and social psychology. The course is paired with the history of the field:
+      the Scottish "mental philosophy" taught in American colleges, Wundt's laboratory at Leipzig (1879),
+      and William James's Principles of Psychology (1890). James's chapters on habit, attention, memory
+      and will are still among the best writing in psychology.
+    objectives:
+      - Master the content of a standard introductory text and sit the AP Psychology or CLEP Introductory Psychology exam
+      - Explain classical and operant conditioning and the multi-store model of memory with experiments as evidence
+      - Trace the history of psychology from Reid and the college "mental philosophy" through Wundt, James, behaviorism and the cognitive revolution
+      - Read James's chapter "Habit" and compare it with Aquinas on habit (social-science-01)
+      - Identify the view of the person assumed by each major school (behaviorist, psychoanalytic, humanistic, cognitive, evolutionary)
+    coreTexts:
+      - title: "The Principles of Psychology, Vol. 1 (ch. IV Habit, IX The Stream of Thought, XI Attention, XVI Memory)"
+        author: William James
+        date: "1890"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/57628" }
+          - { label: Classics in the History of Psychology (York Univ.), url: "https://psychclassics.yorku.ca/James/Principles/" }
+      - title: "Psychology: Briefer Course"
+        author: William James
+        date: "1892"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/55262" }
+      - title: An Introduction to Psychology
+        author: Wilhelm Wundt
+        date: "1911; Eng. 1912"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46677" }
+      - title: An Inquiry into the Human Mind, on the Principles of Common Sense (selections)
+        author: Thomas Reid
+        date: "1764"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/b30503462" }
+      - title: Psychology 2e
+        author: Rose M. Spielman et al.
+        date: "2020"
+        publicDomain: false
+        links:
+          - { label: OpenStax (free), url: "https://openstax.org/details/books/psychology-2e" }
+    curriculumOptions:
+      - name: Psychology 2e (free textbook)
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/psychology-2e"
+        notes: Free, complete introductory text that follows the standard course sequence; enough for CLEP.
+      - name: "Myers' Psychology for the AP Course, 4th ed."
+        publisher: BFW / Macmillan Learning
+        tradition: secular
+        url: "https://www.bfwpub.com/high-school/us/product/Myers-Psychology-for-the-AP-Course/p/1319281168"
+        notes: The most widely used AP text, aligned to the current AP framework. Myers, a professing Christian, has also written on faith and psychology.
+      - name: "Introduction to Psychology, PSYC 110 (Paul Bloom)"
+        publisher: Open Yale Courses
+        tradition: secular
+        url: "https://oyc.yale.edu/introduction-psychology/psyc-110"
+        notes: Free recorded Yale lecture course; lively and clear. Some lectures (on Freud, sex and evolution) need parental preview.
+      - name: AP Psychology
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-psychology"
+        notes: Course and exam description; five units from biological bases through mental and physical health.
+      - name: CLEP Introductory Psychology
+        publisher: College Board
+        tradition: secular
+        url: "https://clep.collegeboard.org/clep-exams/introductory-psychology"
+        notes: A 90-minute exam for 3 semester hours of credit at many colleges; follows DSM-5 terminology.
+      - name: Psychology classes for Catholic homeschoolers (live and recorded)
+        publisher: Homeschool Connections
+        tradition: catholic
+        url: "https://homeschoolconnections.com/5-reasons-to-study-psychology-in-high-school/"
+        notes: Online psychology classes taught from a Catholic perspective; check the current catalog for level and schedule.
+    historicalPrecedent: >-
+      Before "psychology" was a separate science, American colleges taught "mental" or "intellectual
+      philosophy" in the senior year, in the tradition of Thomas Reid and the Scottish common-sense school
+      that Witherspoon brought to Princeton. Thomas Upham's Elements of Mental Philosophy (1831) was
+      abridged "for academies and high schools"; Noah Porter taught The Elements of Intellectual Science at
+      Yale; and James McCosh's Psychology: The Cognitive Powers (1886) was the Princeton text. William James,
+      trained in this tradition and in German physiology, turned it into an experimental science.
+    sources:
+      - { label: "SEP: Scottish Philosophy in the 18th Century", url: "https://plato.stanford.edu/entries/scottish-18th/" }
+      - { label: "SEP: Thomas Reid", url: "https://plato.stanford.edu/entries/reid/" }
+      - { label: "Upham, Elements of Mental Philosophy, abridged for academies and high schools (Archive.org)", url: "https://archive.org/details/elementsofmental00uph" }
+      - { label: "Porter, The Elements of Intellectual Science (Archive.org)", url: "https://archive.org/details/elementsofintell00portuoft" }
+      - { label: "McCosh, Psychology: The Cognitive Powers (Archive.org)", url: "https://archive.org/details/psychologycognit00mccorich" }
+    notes: >-
+      Content cautions: standard texts treat sexuality, sexual orientation and gender under development
+      and motivation, and treat human origins in evolutionary terms. Parents should preview those chapters
+      and discuss them from Catholic teaching (Catechism 2331–2400) or their own tradition. Freud should be
+      read critically; Paul Vitz's Sigmund Freud's Christian Unconscious and Psychology as Religion (see
+      social-science-08) give a Christian critique. The textbooks' methodological naturalism is a working
+      method, not a proof that there is no soul. Say so explicitly, and return to it in social-science-11.
+
+  - id: social-science-03
+    title: "How to Read a Study: Research Methods, Statistics and the Replication Crisis"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 3
+    prerequisites: [social-science-02]
+    related: [mathematics-16, logic-02, natural-science-18, logic-08]
+    summary: >-
+      Before reading any more findings, the student learns how findings are made and how they fail. The
+      unit covers experimental and correlational designs, random assignment and sampling, operational
+      definitions, validity and reliability, confounds, effect sizes, p-values and confidence intervals,
+      meta-analysis, and preregistration. It then reads the replication crisis in its primary sources:
+      Ioannidis's "Why Most Published Research Findings Are False" (2005); "False-Positive Psychology"
+      (2011) on "researcher degrees of freedom"; and the Open Science Collaboration's 2015 attempt to
+      replicate 100 psychology studies, which reproduced significant results in only about a third to
+      a half, depending on the criterion. The student ends by dissecting real studies and press reports
+      of them.
+    objectives:
+      - Distinguish experiment, quasi-experiment, correlational study and case study, and what each can show
+      - Explain why correlation does not establish causation, with confounding, reverse causation and selection effects
+      - State correctly what a p-value is and is not, following the ASA's 2016 statement
+      - Explain p-hacking, publication bias, small samples and low statistical power, and how preregistration addresses them
+      - Summarize the main findings of Open Science Collaboration (2015) and Ioannidis (2005)
+      - Write a one-page critical appraisal of a published study and of a news article that reports it
+    coreTexts:
+      - title: Why Most Published Research Findings Are False
+        author: John P. A. Ioannidis
+        date: "2005"
+        publicDomain: false
+        links:
+          - { label: PLOS Medicine (open access), url: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124" }
+      - title: Estimating the Reproducibility of Psychological Science
+        author: Open Science Collaboration
+        date: "2015"
+        publicDomain: false
+        links:
+          - { label: Science (DOI), url: "https://doi.org/10.1126/science.aac4716" }
+          - { label: OSF project (data and materials), url: "https://osf.io/ezcuj/" }
+      - title: "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant"
+        author: Joseph P. Simmons, Leif D. Nelson and Uri Simonsohn
+        date: "2011"
+        publicDomain: false
+        links:
+          - { label: Psychological Science (DOI), url: "https://doi.org/10.1177/0956797611417632" }
+      - title: "The ASA Statement on p-Values: Context, Process, and Purpose"
+        author: Ronald L. Wasserstein and Nicole A. Lazar
+        date: "2016"
+        publicDomain: false
+        links:
+          - { label: The American Statistician (DOI), url: "https://doi.org/10.1080/00031305.2016.1154108" }
+      - title: How to Lie with Statistics
+        author: Darrell Huff
+        date: "1954"
+        publicDomain: false
+        links:
+          - { label: W. W. Norton, url: "https://wwnorton.com/books/How-to-Lie-with-Statistics" }
+      - title: "Science Fictions: How Fraud, Bias, Negligence, and Hype Undermine the Search for Truth"
+        author: Stuart Ritchie
+        date: "2020"
+        publicDomain: false
+        links:
+          - { label: Macmillan, url: "https://us.macmillan.com/books/9781250222695/sciencefictions" }
+    curriculumOptions:
+      - name: Research Methods in Psychology, 4th ed. (free open textbook)
+        publisher: Kwantlen Polytechnic University (Pressbooks)
+        tradition: secular
+        url: "https://kpu.pressbooks.pub/psychmethods4e/"
+        notes: A clear, free first course in psychological research design, including the replication crisis.
+      - name: "Improving Your Statistical Inferences (Daniël Lakens)"
+        publisher: Coursera / Eindhoven University of Technology
+        tradition: secular
+        url: "https://www.coursera.org/learn/statistical-inferences"
+        notes: Free to audit; the best short course on p-values, effect sizes, power and open science. For strong 15–16-year-olds after mathematics-16.
+      - name: "Meaning from Data: Statistics Made Clear (Michael Starbird)"
+        publisher: The Great Courses
+        tradition: secular
+        url: "https://shop.thegreatcourses.com/meaning-from-data-statistics-made-clear"
+        notes: A gentler lecture review of the statistics needed to read studies.
+    notes: >-
+      This unit depends on mathematics-16 (probability and statistics). It sets the habit for the rest of
+      the track: for every finding, ask how large the effect is, how it was measured, whether it has
+      replicated, and what else could explain it. Knowing the limits of a science is part of taking it
+      seriously. This is not skepticism about science in general, and the student should also learn which
+      findings have held up well (for example, the testing effect in social-science-05).
+
+  - id: social-science-04
+    title: "Judgment and Decision: Heuristics, Biases and Their Critics (Kahneman and Gigerenzer)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 15.5
+    order: 4
+    prerequisites: [social-science-02, social-science-03]
+    related: [logic-02, mathematics-16, economics-10, rhetoric-07]
+    summary: >-
+      Cognitive psychology's most influential program for a statesman or businessman is the study of
+      judgment under uncertainty. The student reads Tversky and Kahneman's 1974 paper in Science and large
+      parts of Kahneman's Thinking, Fast and Slow: the two "systems," anchoring, availability,
+      representativeness, base-rate neglect, overconfidence, loss aversion and framing. He then reads
+      Gigerenzer's reply: simple heuristics are often "ecologically rational" and beat complex models in
+      real environments, and many "biases" disappear when risks are stated as natural frequencies. The
+      unit also reads Kahneman's own admission that the priming studies in his chapter 4 had not
+      replicated.
+    objectives:
+      - Define and illustrate anchoring, availability, representativeness, base-rate neglect, framing and loss aversion
+      - Solve base-rate problems (e.g. a medical screening test) in both probability and natural-frequency formats
+      - State Gigerenzer's critique of the heuristics-and-biases program and assess where each side is strongest
+      - Identify which findings in Thinking, Fast and Slow have replicated well and which have not
+      - Compare the modern account of bias with the classical account of prudence, and of how passion clouds judgment
+      - Keep a decision journal with predictions and confidence levels, and score it after three months
+    coreTexts:
+      - title: "Judgment under Uncertainty: Heuristics and Biases"
+        author: Amos Tversky and Daniel Kahneman
+        date: "1974"
+        publicDomain: false
+        links:
+          - { label: Science (DOI), url: "https://doi.org/10.1126/science.185.4157.1124" }
+      - title: Thinking, Fast and Slow
+        author: Daniel Kahneman
+        date: "2011"
+        publicDomain: false
+        links:
+          - { label: Farrar, Straus and Giroux (Macmillan), url: "https://us.macmillan.com/books/9780374533557/thinkingfastandslow" }
+      - title: "Risk Savvy: How to Make Good Decisions"
+        author: Gerd Gigerenzer
+        date: "2014"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/309675/risk-savvy-by-gerd-gigerenzer/" }
+    curriculumOptions:
+      - name: "Mindware: Critical Thinking for the Information Age (Richard Nisbett)"
+        publisher: Coursera / University of Michigan
+        tradition: secular
+        url: "https://www.coursera.org/learn/mindware"
+        notes: Free to audit; statistical, causal and cost-benefit reasoning from a leading social psychologist.
+      - name: "Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills (Steven Novella)"
+        publisher: The Great Courses
+        tradition: secular
+        url: "https://shop.thegreatcourses.com/your-deceptive-mind-a-scientific-guide-to-critical-thinking-skills"
+        notes: Lectures on perception, memory, bias and fallacies. Novella is a prominent scientific skeptic, and his asides on religion reflect that stance.
+      - name: Harding Center for Risk Literacy (free fact boxes and tools)
+        publisher: Harding Center, University of Potsdam
+        tradition: secular
+        url: "https://www.hardingcenter.de/en"
+        notes: Gigerenzer's center; free "fact boxes" that show medical risks in natural frequencies, ideal for practice.
+    sources:
+      - { label: "Nature (2012): Nobel laureate challenges psychologists to clean up their act", url: "https://www.nature.com/articles/nature.2012.11535" }
+    notes: >-
+      Thinking, Fast and Slow is long, so assign Parts I–III and V in full and skim Part IV. Chapter 4
+      ("The Associative Machine") relies on behavioral-priming studies that have largely failed to
+      replicate. Read it as a case study for social-science-03. Kahneman acknowledged the problem in his 2012
+      open letter and in later public comments. The unit pairs naturally with logic-02 on fallacies, since
+      the fallacies catalog errors of argument and the bias literature catalogs errors of intuition.
+
+  - id: social-science-05
+    title: "How Children Learn: Developmental and Educational Psychology"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 5
+    prerequisites: [social-science-02, social-science-03]
+    related: [early-development-12, early-development-20, grammar-composition-07, philosophy-11]
+    summary: >-
+      The student studies the science behind his own education. First come the classic theories of
+      development: Piaget's stages and Vygotsky's "zone of proximal development" and scaffolding, with
+      their later critics, together with Erikson and attachment research. Then comes the best-supported
+      research in learning: retrieval practice (the testing effect), spacing, interleaving, worked
+      examples, and the role of background knowledge, from Make It Stick, Willingham and the 2013 review
+      by Dunlosky and colleagues. Ericsson's research on deliberate practice follows, with the
+      meta-analysis that qualifies it. The student sees why recitation, memory work, narration and the
+      commonplace book work, and designs his own study system.
+    objectives:
+      - Summarize Piaget's four stages and Vygotsky's zone of proximal development, and state one major criticism of each
+      - Rank common study techniques by strength of evidence, following Dunlosky et al. (2013)
+      - Explain retrieval practice, spacing and interleaving, and why re-reading and highlighting feel effective but are weak
+      - Explain deliberate practice and assess how much of expert performance it accounts for (Macnamara et al., 2014)
+      - Relate the research to classical methods (recitation, memoria, narration, copywork) and to William James's Talks to Teachers
+      - Design, run and evaluate a spaced-retrieval study plan for one subject for a whole term
+    coreTexts:
+      - title: "Make It Stick: The Science of Successful Learning"
+        author: Peter C. Brown, Henry L. Roediger III and Mark A. McDaniel
+        date: "2014"
+        publicDomain: false
+        links:
+          - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674729018" }
+      - title: "Why Don't Students Like School? (2nd ed.)"
+        author: Daniel T. Willingham
+        date: "2021"
+        publicDomain: false
+        links:
+          - { label: Wiley, url: "https://www.wiley.com/en-us/shop/general-introductory-education/why-don't-students-like-school-a-cognitive-scientist-answers-questions-about-how-the-mind-works-and-what-it-means-for-the-classroom-2nd-edition-p-9781119715665" }
+      - title: "Improving Students' Learning With Effective Learning Techniques"
+        author: John Dunlosky, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan and Daniel T. Willingham
+        date: "2013"
+        publicDomain: false
+        links:
+          - { label: Psychological Science in the Public Interest (DOI), url: "https://doi.org/10.1177/1529100612453266" }
+      - title: The Psychology of the Child
+        author: Jean Piaget and Bärbel Inhelder
+        date: "1966; Eng. 1969"
+        publicDomain: false
+        links:
+          - { label: Basic Books (Hachette), url: "https://www.hachettebookgroup.com/titles/jean-piaget/the-psychology-of-the-child/9780465095001/" }
+      - title: "Mind in Society: The Development of Higher Psychological Processes"
+        author: L. S. Vygotsky
+        date: "1930s; Eng. 1978"
+        publicDomain: false
+        links:
+          - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674576292" }
+      - title: "Peak: Secrets from the New Science of Expertise"
+        author: Anders Ericsson and Robert Pool
+        date: "2016"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/peak-anders-ericssonrobert-pool" }
+      - title: Talks to Teachers on Psychology; and to Students on Some of Life's Ideals
+        author: William James
+        date: "1899"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16287" }
+    curriculumOptions:
+      - name: "Learning How to Learn (Barbara Oakley and Terrence Sejnowski)"
+        publisher: Coursera / Deep Teaching Solutions
+        tradition: secular
+        url: "https://www.coursera.org/learn/learning-how-to-learn"
+        notes: Free to audit; one of the most popular online courses, a practical entry point before Make It Stick.
+      - name: The Learning Scientists (free materials)
+        publisher: The Learning Scientists
+        tradition: secular
+        url: "https://www.learningscientists.org/"
+        notes: Free posters, blog posts and podcasts by cognitive psychologists on the six evidence-based study strategies.
+      - name: CLEP Human Growth and Development
+        publisher: College Board
+        tradition: secular
+        url: "https://clep.collegeboard.org/clep-exams/human-growth-development"
+        notes: A lifespan developmental psychology exam for 3 credits; use OpenStax Psychology 2e plus a lifespan text.
+      - name: CLEP Introduction to Educational Psychology
+        publisher: College Board
+        tradition: secular
+        url: "https://clep.collegeboard.org/clep-exams/introduction-educational-psychology"
+        notes: Covers cognition, teaching methods, development and assessment.
+    sources:
+      - { label: "Macnamara, Hambrick and Oswald (2014), Deliberate Practice and Performance: A Meta-Analysis (DOI)", url: "https://doi.org/10.1177/0956797614535810" }
+      - { label: "RetrievalPractice.org (Pooja K. Agarwal)", url: "https://www.retrievalpractice.org/" }
+    historicalPrecedent: >-
+      William James gave his Talks to Teachers to Cambridge schoolteachers in the 1890s. He warned that
+      psychology is a science and teaching an art, and that "sciences never generate arts directly out of
+      themselves." His chapters on habit, attention and memory are still a sound guide to the classroom.
+    notes: >-
+      This row ties the track to the program itself, and a good capstone is to have the student tutor a
+      younger sibling using what he has learned. Piaget's stage theory is taught everywhere but is now
+      considered too rigid. Children can often do more, earlier, than Piaget allowed, which suits an
+      accelerated program. Theologically, the research on habit and practice fits the Aristotelian-Thomist
+      account of virtue as a habit acquired by repeated acts.
+
+  - id: social-science-06
+    title: "Moral and Social Psychology: Haidt, Obedience, Conformity and Persuasion"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 6
+    prerequisites: [social-science-03, social-science-04]
+    related: [rhetoric-07, character-virtue-12, history-27, philosophy-07]
+    summary: >-
+      Social psychology studies how situations and groups shape what people do. The unit reads the classic
+      experiments in the original papers: Asch on conformity (1956) and Milgram on obedience (1963). It then
+      takes the Stanford Prison Experiment (1971) as a case study in how a famous study can fail: Le
+      Texier's archival work (2019) shows that the guards were coached. Haidt's The Righteous Mind
+      offers moral foundations theory and the "rider and elephant" model of intuition and reasoning.
+      Cialdini's Influence catalogs the six (now seven) principles of persuasion, and the student learns
+      to recognize them in advertising and politics. Throughout, the findings are set beside the classical
+      account of virtue, which holds that character can resist situational pressure.
+    objectives:
+      - Describe the design and results of Asch's and Milgram's experiments and their later replications and critiques
+      - Explain the methodological and ethical problems of the Stanford Prison Experiment, citing Le Texier (2019)
+      - Summarize Haidt's six moral foundations and his claim that intuition comes first and strategic reasoning second
+      - Identify Cialdini's principles of influence in five real advertisements or political appeals
+      - Write an essay on the question "Does situationism refute virtue ethics?" drawing on Aristotle, Milgram and Haidt
+    coreTexts:
+      - title: "Studies of Independence and Conformity: I. A Minority of One Against a Unanimous Majority"
+        author: Solomon E. Asch
+        date: "1956"
+        publicDomain: false
+        links:
+          - { label: Psychological Monographs (DOI), url: "https://doi.org/10.1037/h0093718" }
+      - title: Behavioral Study of Obedience
+        author: Stanley Milgram
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Journal of Abnormal and Social Psychology (DOI), url: "https://doi.org/10.1037/h0040525" }
+      - title: Debunking the Stanford Prison Experiment
+        author: Thibault Le Texier
+        date: "2019"
+        publicDomain: false
+        links:
+          - { label: American Psychologist (DOI), url: "https://doi.org/10.1037/amp0000401" }
+      - title: "The Righteous Mind: Why Good People Are Divided by Politics and Religion"
+        author: Jonathan Haidt
+        date: "2012"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/" }
+      - title: "Influence: The Psychology of Persuasion (new and expanded ed.)"
+        author: Robert B. Cialdini
+        date: "1984; 2021"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/influence-new-and-expanded-robert-b-cialdini" }
+    curriculumOptions:
+      - name: "Social Psychology (Scott Plous)"
+        publisher: Coursera / Wesleyan University
+        tradition: secular
+        url: "https://www.coursera.org/learn/social-psychology"
+        notes: Free to audit; a well-produced survey including conformity, obedience, persuasion and prejudice.
+      - name: "Understanding the Mysteries of Human Behavior (Mark Leary)"
+        publisher: The Great Courses
+        tradition: secular
+        url: "https://shop.thegreatcourses.com/understanding-the-mysteries-of-human-behavior"
+        notes: Lectures by a Duke social psychologist on self-control, emotion, stress, morality and group behavior.
+      - name: Moral Foundations Theory (free questionnaires and readings)
+        publisher: moralfoundations.org
+        tradition: secular
+        url: "https://moralfoundations.org/"
+        notes: The student can take the Moral Foundations Questionnaire and compare results with a parent's.
+    notes: >-
+      Haidt writes as a secular evolutionary psychologist but treats religion as a real social good; his
+      account of religion as a "hive switch" is functionalist and should be discussed. Christian readers
+      will notice that his foundations of sanctity, loyalty and authority match themes of the older moral
+      tradition. Milgram's and Zimbardo's films are distressing for some students. The honest lesson of the
+      unit is double: situations are powerful, and the minority who resisted in Asch's and Milgram's
+      experiments (and the rescuers and dissidents of the twentieth century; see history-26 and history-27) show that character still matters.
+      Cialdini should be read with Aristotle's Rhetoric (rhetoric-07) as the ethics of persuasion.
+
+  - id: social-science-07
+    title: "Sociology and the Social Order: Tocqueville, Durkheim, Weber, Nisbet and Putnam"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 7
+    prerequisites: [social-science-03]
+    related: [civics-law-12, civics-law-15, economics-07, philosophy-10, civics-law-01]
+    summary: >-
+      Sociology studies the institutions between the individual and the state: family, church, town,
+      association and class. The course reads its founders and its best American heirs. Tocqueville is read
+      as a sociologist of mores and associations (Democracy in America, Volume 2). Durkheim's Suicide
+      (1897) is the first great statistical study of society; it links suicide rates to social integration
+      and religious community. Weber's The Protestant Ethic and the Spirit of Capitalism (1905) argues that
+      ideas and religion shape economic life. Nisbet's The Quest for Community (1953) argues that
+      totalitarianism grows where the intermediate associations collapse. Putnam's Bowling Alone (2000) and
+      Coleman's 1988 paper on social capital measure that collapse and show how family and community
+      shape children's success. Berger's Invitation to Sociology serves as a humane introduction.
+    objectives:
+      - Master the content of an introductory sociology text and optionally sit the CLEP Introductory Sociology exam
+      - Summarize Tocqueville on associations, individualism and "self-interest rightly understood" as sociological claims
+      - Explain Durkheim's types of suicide and his finding on religion and social integration, and evaluate his use of statistics
+      - State Weber's thesis and at least two major criticisms of it (including Catholic ones)
+      - Explain Nisbet's argument about community, the state and the intermediate associations
+      - Define social capital (Coleman, Putnam) and assess the evidence for its decline since 1960
+      - Write a research paper on the state of one mediating institution (parish, family, lodge, local club) in your own town
+    coreTexts:
+      - title: Invitation to Sociology
+        author: Peter L. Berger
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/12385/invitation-to-sociology-by-peter-l-berger/" }
+      - title: Democracy in America, Volume 2 (Part II, on individualism and associations)
+        author: Alexis de Tocqueville
+        date: "1840"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
+      - title: "Suicide: A Study in Sociology"
+        author: Émile Durkheim
+        date: "1897; Eng. 1951"
+        publicDomain: false
+        links:
+          - { label: Free Press (Simon & Schuster), url: "https://www.simonandschuster.com/books/Suicide/John-A-Spaulding/9780684836324" }
+          - { label: "Project Gutenberg (French original, public domain)", url: "https://www.gutenberg.org/ebooks/40489" }
+      - title: The Protestant Ethic and the Spirit of Capitalism
+        author: Max Weber (trans. Talcott Parsons)
+        date: "1905; Eng. 1930"
+        publicDomain: true
+        links:
+          - { label: Marxists Internet Archive (full text), url: "https://www.marxists.org/reference/archive/weber/protestant-ethic/" }
+      - title: The Quest for Community
+        author: Robert Nisbet
+        date: "1953"
+        publicDomain: false
+        links:
+          - { label: ISI Books (Simon & Schuster), url: "https://www.simonandschuster.com/books/The-Quest-for-Community/Robert-Nisbet/9781684516360" }
+      - title: "Bowling Alone: The Collapse and Revival of American Community (revised and updated)"
+        author: Robert D. Putnam
+        date: "2000; 2020"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/Bowling-Alone-Revised-and-Updated/Robert-D-Putnam/9781982130848" }
+      - title: Social Capital in the Creation of Human Capital
+        author: James S. Coleman
+        date: "1988"
+        publicDomain: false
+        links:
+          - { label: American Journal of Sociology (DOI), url: "https://doi.org/10.1086/228943" }
+    curriculumOptions:
+      - name: Introduction to Sociology 3e (free textbook)
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/introduction-sociology-3e"
+        notes: Free standard text for the survey half of the course. Its framing is conventionally progressive, so pair it with Nisbet and Berger.
+      - name: CLEP Introductory Sociology
+        publisher: College Board
+        tradition: secular
+        url: "https://clep.collegeboard.org/clep-exams/introductory-sociology"
+        notes: One-semester equivalent covering institutions, social patterns and processes, stratification and the sociological perspective.
+      - name: American Citizenship and Its Decline (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/american-citizenship-and-its-decline"
+        notes: Complements the Tocqueville and Nisbet readings on self-government and the decline of civic life.
+    notes: >-
+      Content caution: Durkheim's Suicide is a statistical study, not a sensational one, but the topic
+      calls for parental awareness; the 988 Suicide and Crisis Lifeline (see social-science-08) should be
+      known. Weber's thesis is disputed. Catholic historians and economists (for example, those who stress
+      the commercial economies of medieval Italy and Flanders) argue that capitalism long predates
+      Calvinism, while Protestant readers often find in Weber a real insight about vocation. Read both
+      sides. Catholic social teaching on subsidiarity (civics-law-15, economics-07) states in normative
+      terms what Nisbet, Coleman and Putnam describe empirically; this course is the cross-reference, not
+      the place to teach it.
+
+  - id: social-science-08
+    title: "Personality, Mental Health and Meaning: The Big Five, Anxiety and Depression, Frankl and Christian Psychology"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 8
+    prerequisites: [social-science-02, social-science-03]
+    related: [theology-17, character-virtue-09, history-26]
+    summary: >-
+      This unit covers what an educated adult, future parent and leader should know about personality and
+      mental health. The Big Five model (openness, conscientiousness, extraversion, agreeableness,
+      neuroticism) is the best-supported account of personality and predicts real outcomes. The student
+      learns the signs, prevalence and evidence-based treatments of anxiety and depression, the research on
+      resilience, and when and how to get help for oneself or a friend. Viktor Frankl's Man's Search for
+      Meaning, written by a psychiatrist who survived Auschwitz, argues that the will to meaning is basic
+      to man. Christian psychologists then show how the field can be integrated with a Christian
+      anthropology: Paul Vitz's critique of "selfism," the Catholic Christian Meta-Model of the Person
+      from Divine Mercy University, and Conrad Baars's work on affirmation.
+    objectives:
+      - Describe the Big Five traits, how they are measured, and what they predict; take an IPIP-based inventory and interpret it
+      - Recognize the common signs of anxiety disorders and depression, and know the first steps to getting help, including 988
+      - Summarize the evidence for cognitive behavioral therapy and for exercise, sleep and social connection in mental health
+      - Explain Frankl's logotherapy and his three sources of meaning (work, love, and the attitude taken to unavoidable suffering)
+      - Summarize Vitz's argument that popular psychology became a "religion of the self," and assess it
+      - Explain the eleven dimensions of the person in the Catholic Christian Meta-Model and how it relates to secular therapy
+    coreTexts:
+      - title: Man's Search for Meaning
+        author: Viktor E. Frankl
+        date: "1946; Eng. 1959"
+        publicDomain: false
+        links:
+          - { label: Beacon Press, url: "https://www.beacon.org/Mans-Search-for-Meaning-P602.aspx" }
+      - title: "Psychology as Religion: The Cult of Self-Worship (2nd ed.)"
+        author: Paul C. Vitz
+        date: "1977; 1994"
+        publicDomain: false
+        links:
+          - { label: Eerdmans, url: "https://www.eerdmans.com/9780802807250/psychology-as-religion/" }
+      - title: "A Catholic Christian Meta-Model of the Person: Integration with Psychology and Mental Health Practice (selections)"
+        author: Paul C. Vitz, William J. Nordling and Craig Steven Titus (eds.)
+        date: "2020"
+        publicDomain: false
+        links:
+          - { label: Harvard Book Store, url: "https://www.harvard.com/book/9781733123501" }
+      - title: "Born Only Once: The Miracle of Affirmation (3rd ed.)"
+        author: Conrad W. Baars
+        date: "1975; 2016"
+        publicDomain: false
+        links:
+          - { label: Wipf and Stock, url: "https://wipfandstock.com/9781498288156/born-only-once-third-edition/" }
+    curriculumOptions:
+      - name: Catholic Christian Meta-Model of the Person (overview and resources)
+        publisher: Divine Mercy University
+        tradition: catholic
+        url: "https://divinemercy.edu/department-integrative-studies/catholic-christian-meta-model-of-the-person-ccmmp/"
+        notes: The framework of the former Institute for the Psychological Sciences (IPS). A shorter "mini-version" of the book appeared in 2025.
+      - name: "Understanding the Mysteries of Human Behavior (Mark Leary)"
+        publisher: The Great Courses
+        tradition: secular
+        url: "https://shop.thegreatcourses.com/understanding-the-mysteries-of-human-behavior"
+        notes: Lectures on personality, emotion, stress and self-control; also used in social-science-06.
+      - name: The Baars Institute
+        publisher: The Baars Institute
+        tradition: catholic
+        url: "https://www.baarsinstitute.com/"
+        notes: Books and resources on Conrad Baars's Thomist psychiatry of the emotions and affirmation.
+    sources:
+      - { label: "NIMH: Depression", url: "https://www.nimh.nih.gov/health/topics/depression" }
+      - { label: "NIMH: Anxiety Disorders", url: "https://www.nimh.nih.gov/health/topics/anxiety-disorders" }
+      - { label: "988 Suicide and Crisis Lifeline", url: "https://988lifeline.org/" }
+      - { label: "International Personality Item Pool (public-domain Big Five scales)", url: "https://ipip.ori.org/" }
+    notes: >-
+      Content caution: this unit is not training in diagnosis, and students should be warned against
+      self-diagnosis from checklists or social media. If a student recognizes himself or a friend in the
+      material, the right step is a parent, a physician or a qualified counselor. Frankl describes the
+      camps plainly; it is suitable for 16-year-olds, but some passages are harrowing. On the Christian
+      perspective, Catholic integrationists (Vitz, the Divine Mercy University school, Baars) accept sound
+      clinical science within a Thomist anthropology. Some Protestants take the same integrationist view,
+      while the "biblical counseling" movement (after Jay Adams) is more skeptical of secular psychology.
+      Present both fairly. Baars, a Buchenwald survivor like Frankl, worked from Aquinas's account of the
+      emotions (social-science-01).
+
+  - id: social-science-09
+    title: "Media, Technology and the Mind: Postman, Haidt and the Attention Economy"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 9
+    prerequisites: [social-science-03]
+    related: [early-development-07, early-development-15, literature-25, rhetoric-07]
+    summary: >-
+      Every medium shapes the mind that uses it. Postman's Amusing Ourselves to Death (1985) argues that
+      television turned public discourse into entertainment and weakened the "typographic mind" on which
+      the founders' republic was built. Carr's The Shallows extends the argument to the internet and the
+      research on attention and distraction. Haidt's The Anxious Generation (2024) argues that the move to
+      smartphone- and social-media-based childhood after about 2012 caused a rise in adolescent anxiety and
+      depression, and his critics argue that the data show only small correlations. The student weighs
+      the evidence using the methods of social-science-03. Pieper's short essay on propaganda closes the
+      unit, and the student then writes his own "rule of life" for technology.
+    objectives:
+      - Summarize Postman's argument about the "typographic mind" and apply it to a current medium
+      - Summarize Haidt's four foundational reforms and the evidence he offers for them
+      - Weigh Haidt's causal claims against his critics (Odgers; Orben and Przybylski) using the distinction between correlation and causation and the concept of effect size
+      - Explain attention research on multitasking, notifications and deep reading
+      - Explain Pieper's claim that the abuse of language for power is the root of propaganda
+      - Write and keep for one term a personal technology rule, and report on it
+    coreTexts:
+      - title: "Amusing Ourselves to Death: Public Discourse in the Age of Show Business"
+        author: Neil Postman
+        date: "1985"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/" }
+      - title: "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness"
+        author: Jonathan Haidt
+        date: "2024"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/729231/the-anxious-generation-by-jonathan-haidt/" }
+      - title: "The Shallows: What the Internet Is Doing to Our Brains"
+        author: Nicholas Carr
+        date: "2010; rev. 2020"
+        publicDomain: false
+        links:
+          - { label: W. W. Norton, url: "https://wwnorton.com/books/The-Shallows" }
+      - title: Abuse of Language, Abuse of Power
+        author: Josef Pieper
+        date: "Eng. 1992"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/abuse-of-language-abuse-of-power-alapp/" }
+      - title: "The Tech-Wise Family: Everyday Steps for Putting Technology in Its Proper Place"
+        author: Andy Crouch
+        date: "2017"
+        publicDomain: false
+        links:
+          - { label: Amazon (Baker Books), url: "https://www.amazon.com/Tech-Wise-Family-Everyday-Putting-Technology/dp/0801018668" }
+    curriculumOptions:
+      - name: Foundations of Humane Technology (free online course)
+        publisher: Center for Humane Technology
+        tradition: secular
+        url: "https://www.humanetech.com/course"
+        notes: A free course on persuasive design and the attention economy, from former technology-industry insiders.
+      - name: The Anxious Generation movement (free resources for families and schools)
+        publisher: The Anxious Generation
+        tradition: secular
+        url: "https://www.anxiousgeneration.com/"
+        notes: Toolkits for the four reforms (no smartphones before high school, no social media before 16, phone-free schools, more free play).
+    sources:
+      - { label: "Odgers (2024), The great rewiring: is social media really behind an epidemic of teenage mental illness? Nature", url: "https://doi.org/10.1038/d41586-024-00902-2" }
+      - { label: "Orben and Przybylski (2019), The association between adolescent well-being and digital technology use, Nature Human Behaviour", url: "https://doi.org/10.1038/s41562-018-0506-1" }
+    notes: >-
+      This unit continues the screen practices of early-development-07 and -15 at the level of argument, so
+      that the student understands and owns his family's rules. The Haidt debate is a live scientific
+      controversy and a good test of the methods unit. Present Odgers's and Orben's critiques fairly even if
+      the family's practice follows Haidt. Postman wrote as a secular humanist from a Jewish background and
+      drew on the Second Commandment for his argument about images. Crouch writes as an evangelical
+      Protestant, and Pieper as a Catholic Thomist. Orwell's "Politics and the English Language" and 1984
+      (literature-25) make a good companion.
+
+  - id: social-science-10
+    title: "Culture and Anthropology: Dawson, Evans-Pritchard and a Critical Introduction (optional)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 10
+    prerequisites: [social-science-07]
+    related: [history-19, history-28, theology-23]
+    summary: >-
+      An optional unit on culture as the anthropologist sees it. The student surveys cultural anthropology
+      (kinship, ritual, exchange, fieldwork and ethnography) from a standard text, then reads three
+      thinkers who studied culture from a Christian standpoint. Christopher Dawson argues that religion is
+      the dynamic center of every culture. E. E. Evans-Pritchard, the Oxford anthropologist and Catholic
+      convert, criticizes the Victorian theories that explained religion away. Mary Douglas, also
+      Catholic, shows in Purity and Danger how the rules of clean and unclean express a whole social order,
+      including a celebrated reading of Leviticus. The unit teaches the anthropologist's real virtue,
+      which is to understand a people from the inside, while rejecting cultural relativism about truth
+      and the good.
+    objectives:
+      - Define culture, ethnography, participant observation, kinship and ritual, and summarize one classic ethnography
+      - Summarize Dawson's thesis that religion is the key to culture and test it against one non-Western case
+      - Explain Evans-Pritchard's critique of intellectualist, emotionalist and sociological theories of religion
+      - Explain Douglas's account of purity rules and her reading of the dietary laws of Leviticus
+      - Distinguish methodological relativism (suspending judgment in order to understand) from moral relativism
+    coreTexts:
+      - title: Religion and the Rise of Western Culture
+        author: Christopher Dawson
+        date: "1950"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House (Image), url: "https://www.penguinrandomhouse.com/books/37979/religion-and-the-rise-of-western-culture-by-christopher-dawson/" }
+      - title: Theories of Primitive Religion
+        author: E. E. Evans-Pritchard
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/theories-of-primitive-religion-9780198231318" }
+      - title: "Purity and Danger: An Analysis of Concepts of Pollution and Taboo"
+        author: Mary Douglas
+        date: "1966"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/Purity-and-Danger-An-Analysis-of-Concept-of-Pollution-and-Taboo/Douglas/p/book/9780415289955" }
+    curriculumOptions:
+      - name: Introduction to Anthropology (free textbook)
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/introduction-anthropology"
+        notes: A free survey of all four fields; use the cultural-anthropology chapters. Its framing is contemporary-academic, so read it critically.
+      - name: "Understanding Peoples and Cultures of the World (Edward Fischer)"
+        publisher: The Great Courses
+        tradition: secular
+        url: "https://shop.thegreatcourses.com/peoples-and-cultures-of-the-world"
+        notes: Lecture survey of cultural anthropology by a Vanderbilt anthropologist, with applied examples.
+    notes: >-
+      This unit is optional. It suits a student headed toward diplomacy, missions, business abroad or the
+      Spanish- and Chinese-language tracks. Dawson's The Making of Europe is read in history-19. This unit
+      uses his more general Religion and the Rise of Western Culture (the 1948–49 Gifford Lectures). Content
+      caution: ethnographies and anthropology texts describe sexual customs and initiation rites frankly,
+      so preview the assigned chapters. Evans-Pritchard, Douglas and Victor Turner (another convert) are a
+      notable Catholic presence in twentieth-century British anthropology and make good models for a
+      Christian student.
+
+  - id: social-science-11
+    title: "College Seminar: What Can Social Science Know? (Hayek, MacIntyre, Smith and the Person)"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 11
+    prerequisites: [social-science-03, social-science-07, social-science-08]
+    related: [philosophy-13, natural-science-18, economics-09, character-virtue-14, logic-08]
+    summary: >-
+      A capstone seminar on the philosophy of the social sciences. Hayek's The Counter-Revolution of Science
+      (1952) traces "scientism," the imitation of physics in the study of society, from Saint-Simon and
+      Comte, and his Nobel lecture "The Pretence of Knowledge" (1974) states its practical danger. Chapter
+      8 of MacIntyre's After Virtue ("The Character of Generalizations in Social Science and Their
+      Lack of Predictive Power") argues that systematic unpredictability is built into human affairs and
+      that social science cannot supply the expertise that modern managers claim. Christian Smith's What Is
+      a Person? proposes a critical-realist, personalist foundation for sociology. Gaudium et Spes (Part I,
+      chapter 1) gives the Church's account of the human person, a text Karol Wojtyła helped draft and later
+      cited constantly as John Paul II. The student ends by writing his own account of what the social
+      sciences can and cannot know about a free, rational and embodied person.
+    objectives:
+      - Explain Hayek's distinction between the methods of the natural and the social sciences, and his critique of scientism
+      - Summarize MacIntyre's four sources of systematic unpredictability and his critique of managerial expertise
+      - Explain Smith's personalist and critical-realist alternative to both positivism and social constructionism
+      - Summarize Gaudium et Spes 12–22 on the person as image of God, conscience, freedom and death
+      - Evaluate one major finding from this track in the light of these readings, naming its assumptions about human nature
+      - Write a 4,000-word seminar paper, "The Uses and Limits of Social Science for a Statesman"
+    coreTexts:
+      - title: "The Counter-Revolution of Science: Studies on the Abuse of Reason"
+        author: F. A. Hayek
+        date: "1952"
+        publicDomain: false
+        links:
+          - { label: Mises Institute (free), url: "https://mises.org/library/book/counter-revolution-science" }
+      - title: The Pretence of Knowledge (Nobel Prize lecture)
+        author: F. A. Hayek
+        date: "1974"
+        publicDomain: false
+        links:
+          - { label: NobelPrize.org (free), url: "https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/lecture/" }
+      - title: "After Virtue, ch. 8: The Character of Generalizations in Social Science and Their Lack of Predictive Power"
+        author: Alasdair MacIntyre
+        date: "1981; 3rd ed. 2007"
+        publicDomain: false
+        links:
+          - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
+      - title: "What Is a Person? Rethinking Humanity, Social Life, and the Moral Good from the Person Up"
+        author: Christian Smith
+        date: "2010"
+        publicDomain: false
+        links:
+          - { label: University of Chicago Press, url: "https://press.uchicago.edu/ucp/books/book/chicago/W/bo8697279.html" }
+      - title: Gaudium et Spes, Part I, ch. 1 (The Dignity of the Human Person)
+        author: Second Vatican Council
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_en.html" }
+    historicalPrecedent: >-
+      Hayek's essays first appeared in Economica in 1941–1944, while the planned economies of the war years
+      seemed to vindicate social engineering. MacIntyre wrote chapter 8 as a former Marxist sociologist,
+      against the claims to "managerial expertise" of the 1960s and 1970s.
+    notes: >-
+      This seminar should be run as a Socratic discussion on primary texts, as at St. John's or Thomas
+      Aquinas College. No standard course exists. It overlaps philosophy-13 (MacIntyre) and economics-09
+      (Hayek's "The Use of Knowledge in Society"). Read only chapter 8 of After Virtue here and leave the
+      rest to those rows. Christian Smith is a Catholic sociologist at Notre Dame. A Protestant counterpart
+      is C. S. Lewis's The Abolition of Man (theology-18), which makes the same argument about the
+      "conditioners" who would manage human nature. Natural-science-18 covers the philosophy of the
+      natural sciences; this seminar is its social-science counterpart.

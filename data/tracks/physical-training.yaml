@@ -1,0 +1,487 @@
+track: physical-training
+title: Physical Training
+trackGroup: Arts & Body
+description: >-
+  "A sound mind in a sound body" is the first line of Locke's Some Thoughts Concerning Education, and
+  Jefferson told his nephew that "a strong body makes the mind strong." The track builds hardiness,
+  courage, skill and self-command through the physical arts a founding-era gentleman was expected to
+  have, updated with current pediatric evidence. It begins with swimming, tumbling, running and outdoor
+  play (4–10), adds the traditional accomplishments of archery, horsemanship, woodcraft, marksmanship
+  and team sport (7–16), then the combat arts of wrestling and fencing (10–16), and finally
+  supervised strength training (12–18). Every row stresses safety, discipline and courage over
+  specialization. The end state is a young adult who can swim a mile and save a life, camp and navigate in
+  the backcountry, ride, shoot safely and accurately, defend himself, play on a team, and keep a lifelong
+  strength and conditioning routine.
+rows:
+  - id: physical-training-01
+    title: "Learning to Swim and Water Safety"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 4
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [early-development-09, early-development-19]
+    summary: >-
+      Drowning is a leading cause of death among young children. The AAP recommends swim lessons for most
+      children from age 1, together with barriers, constant supervision and life jackets, since no lesson
+      makes a child "drown-proof." By 4–8 the child should move through formal learn-to-swim levels to
+      water competency: entering deep water, surfacing, floating, turning, swimming 25 yards and exiting.
+    objectives:
+      - Progress through Red Cross Learn-to-Swim Levels 1–3 or an equivalent (breath control, floats, glides, front crawl, treading water)
+      - "Achieve water competency: jump into deep water, return to the surface, float or tread for one minute, turn, swim 25 yards, exit"
+      - Learn water-safety rules, including life jackets in boats and "reach or throw, don't go"
+    curriculumOptions:
+      - name: Learn-to-Swim (Levels 1–6)
+        publisher: American Red Cross
+        tradition: secular
+        url: "https://www.redcross.org/take-a-class/swimming/swim-lessons/kids-swim-lessons"
+        notes: Six-level progression offered at most community pools.
+      - name: USA Swimming clubs (competitive pathway after basic competency)
+        publisher: USA Swimming
+        tradition: secular
+        url: "https://www.usaswimming.org/"
+        notes: Club swimming builds stroke technique and endurance from about 7–8.
+    historicalPrecedent: >-
+      Locke (Thoughts §8): swimming "saves many a man's life; and the Romans thought it so necessary, that
+      they ranked it with letters." Franklin taught himself to swim as a boy, once swam the Thames from
+      Chelsea to Blackfriars, and wrote a letter of swimming advice to Oliver Neave that was widely reprinted.
+    sources:
+      - { label: "AAP: Drowning Prevention and Water Safety", url: "https://www.aap.org/en/patient-care/drowning-prevention-and-water-safety/" }
+      - { label: "AAP Policy (2019): Prevention of Drowning", url: "https://publications.aap.org/pediatrics/article/143/5/e20190850/37134/Prevention-of-Drowning" }
+      - { label: "Franklin to Oliver Neave, on swimming (Founders Online)", url: "https://founders.archives.gov/documents/Franklin/01-15-02-0169" }
+      - { label: "Locke, Some Thoughts Concerning Education §8 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: physical-training-02
+    title: "Tumbling, Gymnastics and Calisthenics Foundations"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 10
+    order: 2
+    prerequisites: []
+    related: []
+    summary: >-
+      Gymnastics develops strength relative to body weight, flexibility, balance, spatial awareness and
+      courage. These are the foundation for every later sport and combat art. Take recreational gymnastics
+      or tumbling classes and do a short daily calisthenics routine at home (bear crawls, hollow holds,
+      push-ups, pull-up progressions, handstands against a wall).
+    objectives:
+      - Forward and backward rolls, cartwheel, bridge, handstand against a wall (30 seconds)
+      - Hang from a bar 30 seconds or more, and progress to one or more strict pull-ups by 10
+      - Balance-beam walking, jumping and landing with control
+      - Ten minutes of daily calisthenics as a habit (paired with morning prayer or before lessons)
+    curriculumOptions:
+      - name: USA Gymnastics member clubs (recreational and developmental programs)
+        publisher: USA Gymnastics
+        tradition: secular
+        url: "https://usagym.org/"
+        notes: Choose a recreational or developmental program rather than an early-specialization competitive track.
+    historicalPrecedent: >-
+      Greek education joined gymnastike to mousike. In America, Charles Beck introduced German Turnen
+      gymnastics at George Bancroft's Round Hill School (Northampton, Mass., 1825), one of the first school
+      gymnasiums in the country.
+
+  - id: physical-training-03
+    title: "Walking, Running and Field Games"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 10
+    order: 3
+    prerequisites: [physical-training-02]
+    related: []
+    summary: >-
+      Daily vigorous activity (the CDC and WHO recommend 60 minutes or more for school-age children) through
+      long walks, running games, tag, relays and field days. Jefferson prescribed two hours of walking a day
+      for his nephew. Build aerobic base gradually. Short sprints and play come first, and steady running
+      distances are added from about 9–10.
+    objectives:
+      - Sixty minutes or more of moderate-to-vigorous activity daily, much of it outdoors
+      - Family hikes of 3–5 miles by age 8, and 8–10 miles by 10
+      - Run a mile continuously by 8, and a 5K by 10–11 if interested
+      - Learn to throw, catch and kick well through playground and field games
+    historicalPrecedent: >-
+      Jefferson to Peter Carr (1785): "Give about two of them, every day, to exercise; for health must not be sacrificed to learning... Walking is the best
+      possible exercise. Habituate yourself to walk very far." He also judged ball games "too violent for the
+      body" and to "stamp no character on the mind," a view later schools like Rugby rejected.
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug. 1785 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+      - { label: "Jefferson to Peter Carr, 19 Aug. 1785 (Wikisource)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
+      - { label: "Monticello: Exercise", url: "https://www.monticello.org/encyclopedia/exercise" }
+
+  - id: physical-training-04
+    title: "Hiking, Camping and Woodcraft"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 13
+    order: 4
+    prerequisites: [physical-training-03]
+    related: [natural-science-11, mathematics-15]
+    summary: >-
+      The student learns to be at home in the wilderness: pack and walk a trail, pitch a tent, build and put out
+      a fire, cook outdoors, purify water, use a knife and axe safely, tie the essential knots, read a map and
+      compass, and give first aid. Advance from family day hikes to overnight and multi-day backpacking
+      trips, ideally through a scouting-type program with the patrol method and rank advancement.
+    objectives:
+      - "Master 10 knots and lashings, knife and axe safety, fire building (including in wet weather), and Leave No Trace"
+      - Navigate a 5-mile cross-country course with map and compass by 12
+      - Complete a 3-night backpacking trip carrying his own gear by 13
+      - Earn first-aid certification and know wilderness responses to cold, heat, sprains and bleeding
+    coreTexts:
+      - title: Boy Scouts Handbook (1911 original edition)
+        author: Boy Scouts of America
+        date: "1911"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29558" }
+      - title: The Book of Camp-Lore and Woodcraft
+        author: Daniel Carter Beard
+        date: "1920"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44215" }
+      - title: Woodcraft and Camping
+        author: George Washington Sears ("Nessmuk")
+        date: "1884"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/34607" }
+    curriculumOptions:
+      - name: Scouts BSA (Scouting America)
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/programs/scouts-bsa/"
+        notes: Patrol method and outdoor rank requirements, ages 11–17 (Cub Scouts younger).
+      - name: Trail Life USA
+        publisher: Trail Life USA
+        tradition: protestant
+        url: "https://www.traillifeusa.com/"
+        notes: Christ-centered outdoor program for boys 5–17, with camping, archery and riflery built in.
+    historicalPrecedent: >-
+      Washington was a trained surveyor who worked in the Virginia backcountry at 16–17. Nessmuk and Dan
+      Beard's woodcraft books formed the generation that founded American Scouting (1910).
+
+  - id: physical-training-05
+    title: "Archery"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 12
+    order: 5
+    prerequisites: [physical-training-02]
+    related: []
+    summary: >-
+      Archery teaches concentration, breath control, consistency and strict range discipline. Begin with a
+      light recurve bow in a certified program that teaches range commands and whistle signals, then progress
+      to scored target rounds. Roger Ascham, tutor to Elizabeth I, wrote the first English book on it.
+    objectives:
+      - Learn and obey range safety commands without exception
+      - Master the steps of the shot (stance, nock, set, draw, anchor, aim, release, follow-through)
+      - Shoot consistent groups at 10–18 meters, and complete a scored round
+      - Read selections of Ascham's Toxophilus on archery as a gentleman's exercise
+    coreTexts:
+      - title: Toxophilus (ed. Edward Arber)
+        author: Roger Ascham
+        date: "1545"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/toxophilus1545ed00aschuoft" }
+    curriculumOptions:
+      - name: Explore Archery
+        publisher: USA Archery
+        tradition: secular
+        url: "https://www.usarchery.org/resource/explore-archery"
+        notes: Beginner curriculum with certified coaches for ages 8 and up.
+      - name: National Archery in the Schools Program (NASP)
+        publisher: NASP
+        tradition: secular
+        url: "https://www.naspschools.org/"
+        notes: School- and co-op-based program for grades 4–12 with standardized equipment and tournaments.
+    historicalPrecedent: >-
+      Ascham's Toxophilus (1545), dedicated to Henry VIII, defended archery as honest recreation and
+      national defense for English youth. Ascham's The Scholemaster (1570) is a founding text of English
+      humanist pedagogy.
+
+  - id: physical-training-06
+    title: "Horsemanship"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 14
+    order: 6
+    prerequisites: [physical-training-02]
+    related: [greek-08]
+    summary: >-
+      Riding was the essential skill of the founding-era gentleman and remains a school of patience, courage
+      and responsibility for another creature. Learn riding and stable management together, including
+      grooming, tacking up, feeding and the horse's health, through Pony Club ratings or 4-H horse projects.
+      Read Xenophon's On Horsemanship, which is still sound on gentle handling.
+    objectives:
+      - Groom, tack and care for a horse independently
+      - Ride at walk, trot and canter with a secure, balanced seat, and jump small fences or ride trails
+      - Earn successive Pony Club ratings (D levels through C) or complete 4-H horse project years
+      - Read Xenophon's On Horsemanship and compare it with modern practice
+    coreTexts:
+      - title: On Horsemanship (trans. H. G. Dakyns)
+        author: Xenophon
+        date: "c. 350 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1176" }
+    curriculumOptions:
+      - name: United States Pony Clubs
+        publisher: United States Pony Clubs
+        tradition: secular
+        url: "https://www.ponyclub.org/"
+        notes: Rated progression in riding and horse management (the "unmounted" knowledge is excellent).
+      - name: 4-H Horse Project
+        publisher: National 4-H Council
+        tradition: secular
+        url: "https://www.4-h.org/"
+        notes: Lower-cost, county-based option in rural areas.
+    historicalPrecedent: >-
+      Locke (§198) notes that riding the great horse was thought a necessary part of a gentleman's breeding.
+      Washington was reckoned the finest horseman of his age. Jefferson, contrarily, warned his nephew that
+      reliance on the horse weakens the body and urged walking instead.
+    sources:
+      - { label: "Locke, Some Thoughts Concerning Education §§198–199 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: physical-training-07
+    title: "Firearm Safety, Hunter Education and Marksmanship"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 15
+    order: 7
+    prerequisites: [physical-training-05]
+    related: [civics-law-05, practical-arts-16]
+    summary: >-
+      This course proceeds in stages. Safety comes first ("Stop! Don't touch. Run away. Tell a grown-up" for
+      young children), then formal hunter-education certification, then supervised marksmanship with air
+      rifle and .22 rimfire in a club or junior program. It teaches respect for lethal tools, precision,
+      breath and trigger control, and the lawful responsibilities of a citizen.
+    objectives:
+      - "Ages 8–9: know and practice the child firearm-safety rules; never handle a firearm without an adult"
+      - "Ages 10–12: pass a state hunter-education course (four rules of firearm safety, ethics, game laws, first aid)"
+      - "Ages 12–15: shoot supervised air rifle or .22 in a junior club, and earn marksmanship qualifications"
+      - Clean, store and transport firearms lawfully and safely
+    curriculumOptions:
+      - name: Eddie Eagle GunSafe Program (pre-K to grade 4)
+        publisher: National Rifle Association
+        tradition: secular
+        url: "https://eddieeagle.nra.org/"
+        notes: Accident-prevention program only, with no firearm handling.
+      - name: Hunter Education
+        publisher: International Hunter Education Association
+        tradition: secular
+        url: "https://www.ihea-usa.org/"
+        notes: State-administered certification, required for a first hunting license in most states.
+      - name: CMP Youth Programs (junior air rifle, marksmanship)
+        publisher: Civilian Marksmanship Program
+        tradition: secular
+        url: "https://thecmp.org/youth/"
+        notes: Congressionally chartered. Junior three-position air rifle and clinics.
+    historicalPrecedent: >-
+      Jefferson to Peter Carr (1785): "As to the species of exercise, I advise the gun. While this gives a
+      moderate exercise to the body, it gives boldness, enterprize, and independance to the mind... Let your
+      gun therefore be the constant companion of your walks."
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug. 1785 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+    notes: >-
+      Firearm safety and marksmanship are standard. Hunting itself is optional: hunter education is kept
+      as the standard safety certification whether or not the family hunts. Laws vary by state. Secure
+      storage is non-negotiable at every age.
+
+  - id: physical-training-08
+    title: "Team Sport: Soccer, Baseball, Rugby and Lacrosse"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 16
+    order: 8
+    prerequisites: [physical-training-03]
+    related: [character-virtue-10]
+    summary: >-
+      Team sport teaches what individual training cannot: subordinating oneself to a common good, obeying a
+      captain and later leading as one, losing well, and playing hard within rules. Play at least one team
+      sport a year, sample widely before 12 (avoid early single-sport specialization), and choose one or two
+      to pursue seriously in the teens, ideally with a captaincy.
+    objectives:
+      - Play one or more seasons a year of a team sport from 8, trying several sports before 12
+      - Learn the rules, positions and basic tactics of the chosen sports
+      - Show sportsmanship (no cheating, gracious in loss and victory) and accept coaching
+      - Serve as captain or assistant coach of a younger team by 15–16
+    coreTexts:
+      - title: Tom Brown's School Days
+        author: Thomas Hughes
+        date: "1857"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1480" }
+    curriculumOptions:
+      - name: US Youth Soccer
+        publisher: US Youth Soccer
+        tradition: secular
+        url: "https://www.usyouthsoccer.org/"
+        notes: Recreational through competitive club soccer.
+      - name: Little League Baseball and Softball
+        publisher: Little League International
+        tradition: secular
+        url: "https://www.littleleague.org/"
+        notes: Local leagues, ages 4–16.
+    historicalPrecedent: >-
+      Thomas Arnold's Rugby School (1828–1842), portrayed in Tom Brown's School Days, made team games a school
+      of "muscular Christianity." The ideal spread through the English public schools and then American
+      prep schools and colleges.
+
+  - id: physical-training-09
+    title: "Advanced Swimming, Lifesaving and Open Water"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 15
+    order: 9
+    prerequisites: [physical-training-01]
+    related: []
+    summary: >-
+      This course builds on basic water competency: all four competitive strokes, endurance, open-water skills
+      (currents, cold water, swimming in clothes), and rescue. It culminates in a lifeguard certification at
+      15, a qualification that is both a life skill and a form of service.
+    objectives:
+      - Complete Red Cross Levels 4–6 or swim-club equivalents (freestyle, backstroke, breaststroke, butterfly)
+      - Swim 1,000 yards or more continuously, and one mile by 14
+      - Learn open-water safety and basic reaching, throwing and rowing rescues
+      - Earn Lifeguarding certification at 15 (minimum age for the Red Cross course)
+    curriculumOptions:
+      - name: Swimming and lifeguarding courses
+        publisher: American Red Cross
+        tradition: secular
+        url: "https://www.redcross.org/take-a-class/swimming/swim-lessons/kids-swim-lessons"
+        notes: Levels 4–6, then the Lifeguarding course.
+      - name: USA Swimming clubs
+        publisher: USA Swimming
+        tradition: secular
+        url: "https://www.usaswimming.org/"
+        notes: For stroke technique and competitive endurance.
+
+  - id: physical-training-10
+    title: "Wrestling and Grappling"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 16
+    order: 10
+    prerequisites: [physical-training-02]
+    related: [character-virtue-07]
+    summary: >-
+      Grappling under good coaching teaches physical courage, composure under pressure, humility and the
+      ability to defend oneself and others without striking. Wrestle folkstyle through a school or club, with
+      judo or Brazilian jiu-jitsu as alternatives or complements. Grappling gives the self-defense and
+      character benefits of combat sport with far less risk of head injury than striking arts.
+    objectives:
+      - Wrestle a full season or more each year with sound technique in takedowns, escapes, reversals and pins
+      - Learn basic self-defense escapes and control holds (judo or jiu-jitsu) as a complement to wrestling
+      - Show self-control in anger, respect for opponents, and willingness to lose and learn
+    coreTexts:
+      - title: Laws (Book VII, on wrestling and gymnastic training)
+        author: Plato (trans. Benjamin Jowett)
+        date: "c. 348 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1750" }
+    historicalPrecedent: >-
+      Locke (§199) preferred wrestling to fencing for a gentleman's son: "I had much rather mine should be a
+      good wrestler than an ordinary fencer." Plato, himself a wrestler, prescribes wrestling in the Laws as
+      training for war. Abraham Lincoln's frontier wrestling record is famous.
+    sources:
+      - { label: "Locke, Some Thoughts Concerning Education §199 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+    notes: >-
+      Boxing is deliberately excluded (family decision), because of the risk of head injury. No USA Wrestling URL
+      could be verified (the site refused automated checks), so none is listed. Local school and club programs
+      are the usual route.
+
+  - id: physical-training-11
+    title: "Fencing"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 16
+    order: 11
+    prerequisites: [physical-training-02]
+    related: [character-virtue-11]
+    summary: >-
+      Fencing is the gentleman's combat art of the 17th and 18th centuries, now an Olympic sport. It
+      sharpens reflexes, footwork, tactical thinking ("physical chess") and courtesy (the salute, the
+      acknowledgment of touches). Train foil first, then épée or sabre, in a club affiliated with the
+      national governing body, and read the classic 18th-century manual.
+    objectives:
+      - Master en garde, advance, retreat, lunge, parries 4 and 6, and the basic riposte
+      - Fence bouts under the rules of foil, and later épée or sabre, and referee a bout
+      - Compete in local and regional youth tournaments if desired
+      - Read selections of Angelo's School of Fencing and compare classical and modern technique
+    coreTexts:
+      - title: The School of Fencing
+        author: Domenico Angelo
+        date: "1763 (English ed. 1787)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/TheSchoolOfFencingByDomenicoAngelo1787" }
+    curriculumOptions:
+      - name: USA Fencing member clubs
+        publisher: USA Fencing
+        tradition: secular
+        url: "https://www.usafencing.org/"
+        notes: National governing body. Use its club finder and youth tournament circuit.
+    historicalPrecedent: >-
+      Locke (§§198–199) records that fencing and riding were "looked upon so necessary parts of breeding"
+      that omitting them would be thought a great fault. Angelo's London academy and treatise (1763) trained
+      generations of Georgian gentlemen.
+
+  - id: physical-training-12
+    title: "Strength Training and Conditioning"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 18
+    order: 12
+    prerequisites: [physical-training-02]
+    related: []
+    summary: >-
+      The AAP's 2020 clinical report finds supervised resistance training safe and beneficial for children
+      and adolescents. It improves strength, bone density, body composition, injury resistance and
+      confidence when technique comes first and loads progress gradually. Move from bodyweight work to
+      barbell basics (squat, deadlift, press, bench press, power clean) under qualified coaching, and build
+      a habit that lasts a lifetime.
+    objectives:
+      - Learn and demonstrate correct technique in the main barbell lifts with an empty bar before loading
+      - Follow a written progressive program 2–3 days a week, with a training log
+      - "Meet conditioning standards by 16: 10+ pull-ups, 40+ push-ups, a sub-8-minute mile, and a bodyweight squat and 1.5× bodyweight deadlift (with coaching)"
+      - Understand the basics of recovery, sleep and nutrition for training
+    coreTexts:
+      - title: "Starting Strength: Basic Barbell Training (3rd ed.)"
+        author: Mark Rippetoe
+        date: "2011"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/starting-strength-mark-rippetoe/1126359839?ean=9780982522738" }
+    sources:
+      - { label: "AAP Clinical Report (2020): Resistance Training for Children and Adolescents", url: "https://publications.aap.org/pediatrics/article/145/6/e20201011/76942/Resistance-Training-for-Children-and-Adolescents" }
+      - { label: "Locke, Some Thoughts Concerning Education §1 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+    historicalPrecedent: >-
+      Locke opens his treatise with "a sound mind in a sound body" (Juvenal's mens sana in corpore sano).
+      Jefferson told Carr "a strong body makes the mind strong." The 19th-century "muscular Christianity" of
+      Kingsley and Hughes made physical vigor a Christian duty.

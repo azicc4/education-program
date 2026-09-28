@@ -1,0 +1,86 @@
+id: harvard
+title: "Harvard College: Admission and Course of Study (1642–1790)"
+category: colonial-college
+people: [Henry Dunster, Charles Chauncy, Henry Flynt, Edward Holyoke]
+date: "1642–1790"
+summary: >-
+  Harvard's first printed rules, in New England's First Fruits (1643), admitted only a boy who could
+  read Cicero "or such like classical Latine Author extempore", speak and write Latin in prose and
+  verse, and decline Greek nouns and verbs. After that came a three-year weekly round of logic,
+  physics, ethics and politics, arithmetic, geometry and astronomy, Greek, Hebrew, Chaldee and
+  Syriac, rhetoric and declamation, catechetical divinity, history and botany, with disputations
+  every week. The degree test was reading the Old and New Testaments in their original languages
+  into Latin and "resolving them logically". By the 1767 laws Virgil and the Greek New Testament
+  had joined Cicero at entrance, each tutor taught one subject, and Locke, Watts, 's Gravesande and
+  Burlamaqui had come into the course. This program keeps that order. Cicero, Virgil and the Greek
+  New Testament are the bar a student must clear before the college years. Hebrew is read in the
+  Psalms and the Hebrew Bible. Weekly disputation and monthly declamation are standing exercises.
+primarySources:
+  - { label: "New England's First Fruits (London, 1643), incl. Rules and Precepts and the order of studies (Internet Archive)", url: "https://archive.org/details/NewEnglandsFirstFruitsInRespectFirstOfTheCounversionOfSome" }
+  - { label: "The Lawes of the Colledge (Chauncy code, 1655), Colonial Society of Massachusetts", url: "https://www.colonialsociety.org/node/429" }
+  - { label: "The Laws of Harvard College (1767), Colonial Society of Massachusetts", url: "https://www.colonialsociety.org/node/432" }
+  - { label: "College Laws and Customs: introduction to the 1655, 1692 and 1767 codes and 1734/5 customs (Colonial Society of Massachusetts)", url: "https://www.colonialsociety.org/node/418" }
+  - { label: "Secondary: G. Stanley Hall, 'On the History of American College Text-Books' (Proc. American Antiquarian Society, 1894), quoting Tutor Flynt's 1726 course", url: "https://www.americanantiquarian.org/proceedings/44769406.pdf" }
+  - { label: "Secondary: 'Harvard College on the Eve of the American Revolution' (Colonial Society of Massachusetts)", url: "https://www.colonialsociety.org/node/1239" }
+  - { label: "Harvard University Archives research guide: Early Curriculum at Harvard", url: "https://guides.library.harvard.edu/hua/earlycurriculum" }
+entries:
+  - text: "Admission (1643): understand Tully (Cicero) or a similar classical Latin author extempore, and make and speak true Latin in verse and prose"
+    search: Cicero
+    tracks: [latin, rhetoric]
+  - text: "Admission (1643): decline perfectly the paradigms of Greek nouns and verbs"
+    search: Greek grammar
+    tracks: [greek]
+  - text: "Admission (1655 laws): read and understand Tully, Virgil, or any such ordinary classical authors, with skill in making Latin verse"
+    search: Virgil
+    tracks: [latin, poetry]
+  - text: "Admission (1767 laws): translate Tully, Virgil, the Greek New Testament and Xenophon; write Latin correctly; good moral character"
+    search: Xenophon
+    tracks: [latin, greek, character-virtue]
+  - text: "Read the Scriptures twice a day and give account of them 'in Theoreticall observations of the Language, and Logick' (Rules and Precepts, 1643)"
+    search: Greek New Testament
+    tracks: [theology, logic, greek, hebrew]
+  - text: "First year: logic for three quarters, then physics; weekly disputations in each class's art"
+    search: Ramus
+    tracks: [logic, natural-science]
+  - text: "Second year: ethics and politics"
+    search: Ethics
+    tracks: [philosophy, civics-law]
+  - text: "Third year: arithmetic and geometry for three quarters, then astronomy"
+    search: Euclid
+    tracks: [mathematics, natural-science]
+  - text: "Greek: etymology and syntax, then prosody and dialects; practice poetry in Nonnus, Duport 'or the like'; then style, composition, imitation and epitome in prose and verse"
+    search: Homer
+    tracks: [greek, poetry, grammar-composition]
+  - text: "Hebrew and the Eastern tongues: Hebrew grammar and practice in the Bible (year 1), Chaldee in Ezra and Daniel (year 2), Syriac in Tremellius's New Testament (year 3)"
+    search: Hebrew Psalter
+    tracks: [hebrew, theology]
+  - text: "Rhetoric lectures for all classes on Fridays, and each scholar declaims once a month"
+    search: Cicero
+    tracks: [rhetoric]
+  - text: "Saturday: catechetical divinity and theological commonplaces; in the afternoon, history in winter and 'the nature of plants' in summer"
+    search: Wollebius
+    tracks: [theology, history, natural-science]
+  - text: "B.A. test: read the originals of the Old and New Testaments into Latin and 'resolve them Logically'. M.A.: write a synopsis of logic, natural and moral philosophy, arithmetic, geometry and astronomy"
+    search: Greek New Testament
+    tracks: [greek, hebrew, latin, logic]
+  - text: "Tutor Flynt's course (1726): freshmen read Virgil, the Greek New Testament, and Dugard's or Farnaby's rhetoric; Ramus's definitions; sophomores Burgersdicius's logic and Heereboord's Meletemata"
+    search: Burgersdicius
+    tracks: [latin, greek, rhetoric, logic]
+  - text: "Divinity: Wollebius's Compendium and Ames's Medulla Theologiae recited, and More's ethics (1726 course; 1728 visitation)"
+    search: Ames
+    tracks: [theology, philosophy]
+  - text: "Revolutionary era: texts by Locke, Isaac Watts (logic and astronomy), Desaguliers and 's Gravesande (natural philosophy), Gordon (geography), and Burlamaqui's Principles of Natural and Political Law"
+    search: Locke
+    tracks: [philosophy, logic, natural-science, civics-law]
+  - text: "1767 laws: one tutor each for Latin, Greek, logic/metaphysics/ethics, and natural philosophy/geography/astronomy/mathematics; weekly and forensic disputations; declamations in the learned languages; Saturday elocution, composition, rhetoric and belles lettres"
+    search: Watts
+    tracks: [latin, greek, logic, rhetoric, grammar-composition]
+notes: >-
+  The 1643 admission rule names only "Tully, or such like classicall Latine Author". Virgil is first
+  named in the 1655 laws. The Greek New Testament and Xenophon appear in the 1767 laws. The
+  1726 Flynt course and 1728 visitation come to us through Hall (1894), who quotes Quincy's History
+  of Harvard, so they are second-hand. The Revolutionary-era textbook list comes from a modern
+  secondary article that summarizes Morison. I could not verify the text of the 1734 laws (some
+  sources say they required parsing Tully and Virgil and knowing prosody) or the 1790 laws' course
+  by class, so neither is used here. Ramus appears as the 1726 freshman logic text. Cotton Mather
+  says Ramist method was preferred to Aristotle's at Harvard.

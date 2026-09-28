@@ -1,0 +1,120 @@
+id: oxford
+title: "University of Oxford: The Laudian Course and the Reformed Examinations (1636–1850)"
+category: british-university
+people: [William Laud, Henry Aldrich, John Eveleigh, William Blackstone]
+date: "1636–1850"
+summary: >-
+  Oxford and Cambridge were the models the colonial colleges copied, and Oxford's rule for most of
+  this period was Archbishop Laud's code of 1636. A student spent four years before the B.A. His
+  first year went to the public lectures in grammar and rhetoric. His second went to logic and
+  moral philosophy. His third and fourth added geometry and Greek. From the end of his first year he
+  disputed "in parviso" on questions of logic, grammar, rhetoric and morals, and he defended them
+  "according to Aristotle, whose authority is to be supreme". The M.A. took three more years of
+  geometry, metaphysics, history, Greek, Hebrew, astronomy and natural philosophy. By the 18th
+  century the professors had mostly stopped lecturing. Aldrich's little logic and the college tutor
+  carried the teaching, and the degree examination had become a farce. John Locke (Christ Church,
+  1652), Blackstone, Johnson, Bentham, Adam Smith and Gibbon all came up under this system, and
+  C. C. Pinckney heard Blackstone's law lectures while at Christ Church. The Examination Statute of 1800
+  brought back real, public, ranked examinations. From 1807 the classical school, Literae
+  Humaniores ("Greats"), became the course of English statesmen. By c. 1830–50 its set books were
+  Aristotle's Ethics with his Rhetoric or Politics, some Plato, Butler, Herodotus, Thucydides, Livy,
+  Tacitus and the Greek and Latin poets. This program takes from Oxford the pairing of logic with
+  the Ethics, disputation as a standing exercise, and the Greats canon of history, philosophy and
+  poetry as the capstone.
+primarySources:
+  - { label: "Statutes of the University of Oxford codified in the year 1636 under the authority of Archbishop Laud, ed. J. Griffiths (1888), Latin text (Internet Archive)", url: "https://archive.org/details/statutesofuniver00univ" }
+  - { label: "Henry Aldrich, Artis Logicae Compendium (Oxford, 1691), the Oxford logic manual (Internet Archive)", url: "https://archive.org/details/bim_early-english-books-1475-1640_artis-logic-compendium_aldrich-henry_1691" }
+  - { label: "Report of Her Majesty's Commissioners ... into the State, Discipline, Studies, and Revenues of the University and Colleges of Oxford (1852), with evidence (Internet Archive)", url: "https://archive.org/details/cu31924030614741" }
+  - { label: "Christopher Wordsworth, Scholae Academicae: Some Account of the Studies at the English Universities in the Eighteenth Century (1877) (Internet Archive)", url: "https://archive.org/details/scholaeacademica00worduoft" }
+  - { label: "Edward Gibbon, Memoirs of My Life and Writings, on his fourteen months at Magdalen, 1752–53 (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/6031" }
+  - { label: "Adam Smith, The Wealth of Nations (1776), Book V, on the Oxford professors (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/3300" }
+  - { label: "National Archives, The Founding Fathers: South Carolina, on C. C. Pinckney at Christ Church hearing Blackstone", url: "https://www.archives.gov/founding-docs/founding-fathers-south-carolina" }
+entries:
+  - text: "Year 1 (Laudian Statutes, 1636): attend the public grammar lecturer, who teaches grammar from Priscian, Linacre or another approved author, or explains Greek and Roman antiquities"
+    search: Latin grammar
+    tracks: [latin, grammar-composition]
+  - text: "Year 1: attend the rhetoric lecturer, who expounds the Rhetoric of Aristotle, Cicero, Quintilian or Hermogenes and gathers their precepts 'into one body'"
+    search: Quintilian
+    tracks: [rhetoric, latin, greek]
+  - text: "Years 2–4: the logic (dialectic) lecturer reads Porphyry's Isagoge or any part of Aristotle's logic, keeping to the text and not to questions of method"
+    search: Aristotle
+    tracks: [logic]
+  - text: "Years 2–4: the moral philosophy lecturer reads Aristotle's Nicomachean Ethics, Politics and Economics, explaining the text and discussing the questions that arise from it"
+    search: Ethics
+    tracks: [philosophy, civics-law, character-virtue]
+  - text: "Years 3–4: geometry under the Savilian professor, whose statute charges him with Euclid's thirteen books of the Elements, Apollonius's Conics and all of Archimedes, plus arithmetic, surveying, music and mechanics"
+    search: Euclid
+    tracks: [mathematics]
+  - text: "Years 3–4 and through the M.A.: the Regius Professor of Greek expounds Homer, Demosthenes, Isocrates, Euripides or another ancient classic, with the grammar and idiom of the language"
+    search: Homer
+    tracks: [greek, poetry, rhetoric]
+  - text: "Disputations in parviso (1636): from the end of the first year, three logical or grammatical questions argued 1–3 p.m.; Monday–Thursday logic 'according to Aristotle, whose authority is to be supreme'; Fridays grammar, rhetoric, politics and ethics"
+    search: Disputation
+    tracks: [logic, rhetoric, civics-law]
+  - text: "Before the B.A.: dispute as opponent and respondent in parviso for three terms and become a 'General Sophister'; answer twice under a determining Bachelor in Lent"
+    search: Disputation
+    tracks: [logic, rhetoric]
+  - text: "M.A. course (three more years): geometry, metaphysics (Aristotle's Metaphysics), history, Greek and Hebrew; then astronomy (Ptolemy's Almagest with Copernicus) and natural philosophy (Aristotle's Physics, De Caelo, Meteorology, De Anima); determine in Lent, answer in Quodlibets and Austins, and read six solemn lectures in natural and moral philosophy"
+    search: Ptolemy
+    tracks: [mathematics, natural-science, philosophy]
+  - text: "Hebrew: B.A.s attend the Regius Professor, who teaches Hebrew grammar and idiom 'from the fountains of Holy Scripture', until a year after the M.A."
+    search: Hebrew Bible
+    tracks: [hebrew, theology]
+  - text: "History: B.A.s attend Camden's professor of history, who reads Lucius Florus or other ancient historians of the better sort"
+    search: Florus
+    tracks: [history, latin]
+  - text: "Henry Aldrich, Artis Logicae Compendium (1691), the Christ Church logic manual that stayed in use into the 1850s, when pass men still read it 'to the end of the Reduction of Syllogisms'"
+    search: Aldrich
+    tracks: [logic]
+  - text: "18th-century college logic: syllogistic 'acts' in college, Smiglecius praised by an Oxford logician (Terrae Filius, 1721), a Brasenose scholar in 1742 'quite taken up with logic', and Christ Church's plan of 1767 to revive the school logic"
+    search: Smiglecius
+    tracks: [logic]
+  - text: "The degree examination in decay: John Scott (Lord Eldon), 1770, was examined only in Hebrew and history ('What is the Hebrew for the place of a skull?' 'Golgotha'), and Vicesimus Knox says candidates memorized handed-down 'schemes' of 40 or 50 questions per science"
+    search: Hebrew
+    tracks: [hebrew, history]
+  - text: "Blackstone's lectures on the laws of England (begun 1753; he became the first Vinerian Professor in 1758), published as the Commentaries on the Laws of England (1765–69); heard by C. C. Pinckney, a Christ Church man and later a signer of the Constitution"
+    search: Blackstone
+    tracks: [civics-law, history]
+  - text: "Examination Statute (1800): public examination for the B.A. in grammar, rhetoric, logic, moral philosophy and the elements of mathematics and physics; at least three Greek and Latin authors 'of the best age'; English into Latin; the rudiments of religion and the Thirty-nine Articles; the best twelve ranked in order of merit"
+    search: Latin composition
+    tracks: [latin, greek, logic, rhetoric, philosophy, mathematics, theology]
+  - text: "1807 statute: Literae Humaniores (Greek and Latin, logic, rhetoric, moral philosophy) is separated from mathematics and physics; the religious examination now covers the Gospels in Greek, the Evidences and the Thirty-nine Articles"
+    search: Greek New Testament
+    tracks: [greek, latin, logic, rhetoric, philosophy, theology]
+  - text: "Responsions (1808): in the second year, all students are examined in the elements of Greek and Latin and in logic or geometry"
+    search: Euclid
+    tracks: [greek, latin, logic, mathematics]
+  - text: "Honours reading, 1807–c. 1827: Homer, Demosthenes, Cicero, Lucretius, Terence, Plutarch, Longinus and Quintilian, with lists of twenty classical authors not unusual as late as 1827"
+    search: Demosthenes
+    tracks: [greek, latin, rhetoric, poetry]
+  - text: "Greats philosophy (c. 1830–50): Aristotle's Ethics (central since Dr Sheppard examined in 1806), with his Rhetoric or Politics, and two or three dialogues of Plato (the Commissioners expected the Republic under the 1850 statute)"
+    search: Aristotle
+    tracks: [philosophy, greek, civics-law, rhetoric]
+  - text: "Greats philosophy: Butler's Analogy of Religion or his Sermons, brought into the examinations by Dr Hampden"
+    search: Butler
+    tracks: [theology, philosophy, character-virtue]
+  - text: "Greats ancient history: Herodotus, Thucydides, the first or second decade of Livy, and the Annals or Histories of Tacitus; from 1830 ancient history with political philosophy, illustrated from modern authors such as Niebuhr and Grote"
+    search: Thucydides
+    tracks: [history, greek, latin, civics-law]
+  - text: "Greats poetry: Aeschylus, Sophocles, Aristophanes, Virgil, Horace and Juvenal, with composition in Greek, Latin and English"
+    search: Sophocles
+    tracks: [greek, latin, poetry, grammar-composition]
+  - text: "Pass degree (c. 1850): four plays of Euripides, four or five books of Herodotus, six books of Livy, half of Horace, four books of Euclid or Aldrich's logic, English into Latin, the Gospels in Greek, and the Thirty-nine Articles with Scripture proofs"
+    search: Euripides
+    tracks: [greek, latin, mathematics, logic, theology]
+  - text: "1850 statute: new Law and Modern History school, with Blackstone for the pass and, for honours, history to 1789, jurisprudence, the law of nations and Adam Smith's Wealth of Nations; Bacon's Novum Organon made a text-book c. 1851"
+    search: Adam Smith
+    tracks: [history, civics-law, economics, philosophy]
+notes: >-
+  The 1636 course, the lectures and the disputations come from the Latin text of the Laudian
+  Statutes (Griffiths, 1888). The English wording here is my translation. The account from 1800 to
+  1850, the Greats and pass-degree lists, and the Eldon and Knox anecdotes come from the 1852
+  Royal Commission Report (pp. 58–67). The Greats books are the Commission's description of what
+  "the most distinguished Students" usually read. Oxford printed no official set-book list, and the
+  list changed with the examiners. The 1850 school of Law and Modern History had not yet been
+  examined when the report was written, so its text-books are the Commissioners' forecast. The
+  18th-century logic evidence is from Wordsworth. Wordsworth dates Aldrich to 1692, but the
+  Internet Archive has a 1691 printing. Locke matriculated at Christ Church in 1652 and was a Student
+  there until the Crown expelled him in 1684. Gibbon (Magdalen) and Adam Smith (Balliol) are the
+  standard hostile witnesses to the idle professors. The Commission quotes Smith's line that most
+  Oxford professors had "given up even the pretence of teaching".

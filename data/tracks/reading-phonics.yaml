@@ -1,0 +1,339 @@
+track: reading-phonics
+title: Reading & Phonics
+trackGroup: English
+description: >-
+  The track runs from a language-rich pre-reading home (read-aloud, rhymes, sound games) to explicit,
+  systematic phonics, then fluent oral reading in the old graded Readers, and finally fast, silent,
+  independent reading with strong comprehension by about age 8. The method is explicit, systematic,
+  spelling-first phonics in the Orton-Gillingham and Spalding tradition. The National Reading Panel
+  and later research support it, and it matches how American children learned to read for two
+  centuries (the New England Primer, Webster's Blue-Back Speller, the McGuffey Readers). Families
+  choose among modern classical, Catholic and Orton-Gillingham programs, and the historical primers
+  and Readers are used alongside them. End-state (about 8): the child decodes any English word, reads
+  aloud expressively at or above grade-3 fluency norms, reads silently for an hour at a time, and can
+  narrate what was read. Literature, grammar-composition and rhetoric take over from there.
+rows:
+  - id: reading-phonics-01
+    title: "Read-Aloud, Rhymes & Dialogic Reading"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 5
+    order: 1
+    prerequisites: []
+    related: [early-development-04, early-development-08, early-development-17]
+    summary: >-
+      Daily read-aloud of good books, Mother Goose and memorized verse builds vocabulary, a sense of
+      story and phonological awareness (rhyme, syllables, first sounds), which are the real foundations
+      of reading. Dialogic reading, in which the adult asks the child questions and expands the answers,
+      measurably boosts oral language.
+    objectives:
+      - Hear at least 20–30 minutes of read-aloud daily from quality picture books and verse
+      - Recognize and produce rhymes; clap syllables; identify the first sound of a word
+      - Retell a familiar story in sequence and answer "what/why" questions about it
+    sources:
+      - { label: "Reading Rockets: Dialogic Reading (Whitehurst)", url: "https://www.readingrockets.org/topics/early-literacy-development/articles/dialogic-reading-effective-way-read-aloud-young-children" }
+      - { label: "National Reading Panel (NICHD, 2000)", url: "https://www.nichd.nih.gov/publications/product/247" }
+    notes: >-
+      This row overlaps with the early-development track. It is kept here as the literacy on-ramp.
+
+  - id: reading-phonics-02
+    title: "Pre-Reading: Phonemic Awareness, Letter Sounds & Letter Formation"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3.5
+    ageEnd: 5.5
+    order: 2
+    prerequisites: [reading-phonics-01]
+    related: [early-development-20]
+    summary: >-
+      When the child shows interest, play oral sound games (blending and segmenting spoken words), teach
+      letter sounds rather than letter names first, and teach correct letter formation with a pencil or
+      in sand. Keep sessions short and playful. The aim is readiness, not early reading for its own sake.
+    objectives:
+      - Blend spoken sounds into words (/c/-/a/-/t/ → cat) and segment simple words into sounds
+      - Know the most common sound of every letter
+      - Form lower-case letters correctly
+    coreTexts:
+      - title: The New England Primer (reprint of the earliest known edition)
+        author: ed. Paul Leicester Ford
+        date: "c. 1690; reprint 1899"
+        publicDomain: true
+        links:
+          - { label: "Archive.org", url: "https://archive.org/details/newenglandprimer00fordiala" }
+    curriculumOptions:
+      - name: Logic of English Foundations A
+        publisher: Logic of English
+        tradition: secular
+        url: "https://logicofenglish.com/pages/foundations"
+        notes: Orton-Gillingham-based. Level A starts with phonemic awareness and handwriting for ages 4–7 and flows straight into reading.
+      - name: Teach Your Child to Read in 100 Easy Lessons
+        publisher: Simon & Schuster
+        tradition: secular
+        url: "https://www.simonandschuster.com/books/Teach-Your-Child-to-Read-in-100-Easy-Lessons/Phyllis-Haddox/9780671631987"
+        notes: Direct Instruction (Engelmann), scripted 15–20 minute lessons. Effective for a ready 4–5-year-old, though it uses a special orthography at first.
+    sources:
+      - { label: "Neuman et al. (2014), Can babies learn to read? A randomized trial of baby media", url: "https://eric.ed.gov/?id=EJ1054471" }
+    historicalPrecedent: >-
+      Colonial children learned letters and syllables from the hornbook and then the New England Primer
+      ("In Adam's fall / We sinned all"), usually at a dame school, often by age 4–6.
+    notes: >-
+      Evidence caveat. "Teach your baby to read" programs (Doman's How to Teach Your Baby to Read, the
+      Your Baby Can Read videos) are not supported. In a randomized trial (Neuman et al., 2014), infants
+      9–18 months old who used a baby-reading program learned no more than controls, although parents
+      believed they had. Reading instruction proper belongs at 4–6, when phonemic awareness is ready.
+
+  - id: reading-phonics-03
+    title: "Explicit Phonics I: Phonograms & Spelling-First Decoding"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 5.5
+    ageEnd: 6.5
+    order: 3
+    prerequisites: [reading-phonics-02]
+    related: [spanish-03]
+    summary: >-
+      The child learns systematically the 70-odd phonograms (letters and letter teams and their sounds)
+      and the rules of English spelling, writing each word from dictation before reading it. This
+      spelling-first, Orton-Gillingham/Spalding approach produces readers who can decode, and spell,
+      nearly any English word.
+    objectives:
+      - Say and write the common phonograms (sh, ch, th, ck, ai, ay, ee, igh, ow, ou…) with all their sounds
+      - Read and spell one- and two-syllable words with blends, digraphs and silent-e
+      - Read decodable sentences and short books aloud
+    coreTexts:
+      - title: The Writing Road to Reading
+        author: Romalda Bishop Spalding
+        date: "1957; 6th ed. 2012"
+        publicDomain: false
+        links:
+          - { label: "Spalding Education (6th ed.)", url: "https://spalding.org/product/writing-road-to-reading-6th-edition-by-romalda-spalding-wrr6/" }
+          - { label: "Archive.org (1969 ed., borrow)", url: "https://archive.org/details/writingroadtorea00spal" }
+    curriculumOptions:
+      - name: "Literacy Essentials: The Journey from Spelling to Reading"
+        publisher: Hillsdale College K-12
+        tradition: classical
+        url: "https://shop.hillsdale.edu/collections/literacy-essentials"
+        notes: Hillsdale's own K-2 literacy program for its classical charter schools. Spelling-first explicit phonics.
+      - name: The Writing Road to Reading (Spalding Method)
+        publisher: Spalding Education International
+        tradition: secular
+        url: "https://spalding.org/the-writing-road-to-reading/"
+        notes: The original spelling-first program. Rigorous, with a steep teacher-learning curve; training is available.
+      - name: Logic of English Foundations B–D
+        publisher: Logic of English
+        tradition: secular
+        url: "https://logicofenglish.com/pages/foundations"
+        notes: Most parent-friendly of the three, with games and scripted lessons.
+
+  - id: reading-phonics-04
+    title: "Explicit Phonics II: Readers from the Classical & Catholic Traditions"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 7
+    order: 4
+    prerequisites: [reading-phonics-03]
+    related: [rhetoric-02]
+    summary: >-
+      The phonics sequence is completed (vowel teams, r-controlled vowels, multi-syllable words, common
+      suffixes) while the child reads connected text daily from graded readers, including the McGuffey
+      Primer and First Reader. Children in the Catholic programs read stories of saints and the
+      Church year.
+    objectives:
+      - Decode multi-syllable words using syllable division and suffix rules
+      - Read the McGuffey Primer and First Reader aloud with accuracy
+      - Read about 60+ words per minute accurately in grade-1 text by the end of the year
+    coreTexts:
+      - title: McGuffey's Eclectic Primer (revised)
+        author: William Holmes McGuffey
+        date: "1836; rev. 1879"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14642" }
+      - title: McGuffey's First Eclectic Reader (revised)
+        author: William Holmes McGuffey
+        date: "1836; rev. 1879"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14640" }
+    curriculumOptions:
+      - name: First Start Reading (Books A–D)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/phonics-and-early-reading/first-start-reading-a-d-set/"
+        notes: Gentle, inexpensive classical phonics with printing practice built in. Pairs with Memoria's readers.
+      - name: Little Stories for Little Folks (Catholic phonics program)
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/little-stories-for-little-folks-catholic-phonics-readers/"
+        notes: Phonics booklets with Catholic content. Warm and low-cost.
+      - name: Seton Phonics (K–3)
+        publisher: Seton Educational Media
+        tradition: catholic
+        url: "https://setonbooks.com/270-phonics"
+        notes: Traditional workbook phonics with Catholic content. Part of Seton's full grade-level program.
+    historicalPrecedent: >-
+      The McGuffey Readers (1836; revised 1879) sold over 100 million copies and taught most 19th-century
+      American children to read, with graded lessons that also carried moral and religious instruction.
+
+  - id: reading-phonics-05
+    title: "Spelling Mastery: Webster's Blue-Back Speller & McGuffey's Speller"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 8.5
+    order: 5
+    prerequisites: [reading-phonics-03]
+    related: [grammar-composition-02]
+    summary: >-
+      Spelling is consolidated through the old spellers' graded word columns, syllabication and
+      accentuation, and weekly dictation. Webster's Blue-Back Speller, the most-used American schoolbook
+      of the founding generation, is used alongside a modern spelling list sequence.
+    objectives:
+      - Spell the 1,000 most common English words correctly in dictation
+      - Divide words into syllables and mark the accented syllable
+      - Apply the major spelling rules (doubling, drop silent-e, y to i) automatically
+    coreTexts:
+      - title: The American Spelling Book (the "Blue-Back Speller")
+        author: Noah Webster
+        date: "1783; 1809 ed."
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1809)", url: "https://archive.org/details/americanspelling00webs" }
+      - title: The Elementary Spelling Book
+        author: Noah Webster
+        date: "1829; 1857 ed."
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1857)", url: "https://archive.org/details/elementaryspelli00websrich" }
+      - title: McGuffey's Eclectic Spelling Book
+        author: Alexander H. McGuffey
+        date: "1846; rev. 1879"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/15456" }
+    curriculumOptions:
+      - name: Spalding spelling lists (The Writing Road to Reading)
+        publisher: Spalding Education International
+        tradition: secular
+        url: "https://spalding.org/the-writing-road-to-reading/"
+        notes: The Ayres-list sequence that continues the phonogram work of reading-phonics-03.
+      - name: Memoria Press phonics and spelling
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/phonics-and-early-reading/"
+        notes: Classical spelling workbooks that follow First Start Reading.
+    historicalPrecedent: >-
+      Webster's speller (1783) sold tens of millions of copies. With the New England Primer and the
+      Bible it formed the basic literacy of the early Republic, and it was consciously designed to
+      create a uniform American English.
+
+  - id: reading-phonics-06
+    title: "Fluent Oral Reading: McGuffey Second & Third Readers"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 8
+    order: 6
+    prerequisites: [reading-phonics-04]
+    related: [rhetoric-02, literature-07]
+    summary: >-
+      Fluency (accuracy, rate and expression) is built through repeated oral reading of graded passages,
+      as the 19th-century schools did with the McGuffey Readers. The child reads aloud daily to a parent
+      and practises a passage until it is smooth and expressive.
+    objectives:
+      - Read grade-2 and grade-3 text aloud accurately with natural phrasing and expression
+      - Reach roughly 90–110 words correct per minute on grade-level passages
+      - Read a prepared poem or passage aloud to the family weekly
+    coreTexts:
+      - title: McGuffey's Second Eclectic Reader
+        author: William Holmes McGuffey
+        date: "1879 ed."
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14668" }
+      - title: McGuffey's Third Eclectic Reader
+        author: William Holmes McGuffey
+        date: "1879 ed."
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14766" }
+    curriculumOptions:
+      - name: All About Reading (Levels 2–4)
+        publisher: All About Learning Press
+        tradition: secular
+        url: "https://www.allaboutlearningpress.com/All-About-Reading-Level-1/"
+        notes: Orton-Gillingham-based modern alternative with built-in fluency sheets and lovely readers. The link is Level 1; later levels follow.
+      - name: Memoria Press phonics & early-reading sequence (after First Start Reading)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/phonics-and-early-reading/"
+        notes: Classical follow-on materials for grades 1–2. Choose from the category page by level.
+    sources:
+      - { label: "Reading Rockets: Hasbrouck–Tindal oral reading fluency norms (2017)", url: "https://www.readingrockets.org/topics/fluency/articles/fluency-norms-chart-2017-update" }
+
+  - id: reading-phonics-07
+    title: "Independent Reading: Speed, Silent Reading & Comprehension"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 8.5
+    order: 7
+    prerequisites: [reading-phonics-06]
+    related: [grammar-composition-02]
+    summary: >-
+      The capstone of the track. The child moves from oral to fast silent reading, reads whole books
+      independently for an hour or more a day, and proves comprehension through oral and written
+      narration (Charlotte Mason), not worksheets. Reading then becomes the child's chief means of
+      learning in every other subject.
+    objectives:
+      - Read silently at 150+ words per minute with full comprehension of grade-4 text
+      - Read chapter books independently (e.g. McGuffey Fourth Reader level and real children's classics)
+      - Narrate a chapter orally in sequence after one reading
+      - Use a dictionary to look up unfamiliar words
+    coreTexts:
+      - title: McGuffey's Fourth Eclectic Reader
+        author: William Holmes McGuffey
+        date: "1879 ed."
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14880" }
+      - title: Home Education (Vol. 1), on narration and reading
+        author: Charlotte M. Mason
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/71087" }
+      - title: McGuffey's Fifth and Sixth Eclectic Readers (look-ahead)
+        author: William Holmes McGuffey
+        date: "1879 ed."
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg: Fifth Reader", url: "https://www.gutenberg.org/ebooks/15040" }
+          - { label: "Project Gutenberg: Sixth Reader", url: "https://www.gutenberg.org/ebooks/16751" }
+    curriculumOptions:
+      - name: Writing With Ease (narration and comprehension strand)
+        publisher: Well-Trained Mind Press
+        tradition: classical
+        url: "https://welltrainedmind.com/c/series/writing-with-ease/"
+        notes: Short daily passages from real books with scripted narration questions. Doubles as the start of grammar-composition-02.
+      - name: Charlotte Mason narration (free, via Home Education)
+        publisher: Project Gutenberg (public domain)
+        tradition: classical
+        url: "https://www.gutenberg.org/ebooks/71087"
+        notes: The child reads once, then tells back. No workbook is needed; the parent uses living books.
+    historicalPrecedent: >-
+      J.S. Mill's Autobiography records that he began Greek at three, read Aesop and Xenophon in Greek
+      before eight, and read English histories for pleasure in early childhood. The McGuffey Fifth and
+      Sixth Readers show that an ordinary 19th-century 10–12-year-old read Shakespeare, Irving and
+      Webster's speeches, which is the literature track's starting line.
+    sources:
+      - { label: "J.S. Mill, Autobiography (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/10378" }

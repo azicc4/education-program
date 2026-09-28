@@ -1,0 +1,84 @@
+id: ratio-studiorum-1599
+title: "The Jesuit Ratio Studiorum (1599)"
+category: treatise
+people: [Claudio Acquaviva, Cyprian Soarez, Emmanuel Alvarez]
+date: "1599"
+summary: >-
+  The Ratio atque Institutio Studiorum Societatis Iesu set out the plan of studies for every Jesuit college: five
+  lower classes (lowest, middle, and highest grammar, then humanities and rhetoric), a three-year Aristotelian
+  philosophy course with Euclid, and a four-year theology course following St. Thomas. It was the curriculum behind
+  St. Omer, where John Carroll and Charles Carroll of Carrollton were schooled, and behind Georgetown, so it is the
+  main Catholic classical precedent in the founding era. This program takes over its sequence (grammar, then
+  humanities, then rhetoric), its canon (Cicero above all, Caesar, Virgil, Horace, Ovid, the Greek orators and
+  Fathers), and its methods: prelection, daily memory work, repetition, emulation, declamation, and academies.
+primarySources:
+  - { label: "The Jesuit Ratio Studiorum of 1599, trans. Allan P. Farrell, S.J., 1970 (PDF, Educate Magis)", url: "https://www.educatemagis.org/wp-content/uploads/documents/2019/09/ratio-studiorum-1599.pdf" }
+  - { label: "Farrell translation record (Loyola eCommons, Ignatian Pedagogy)", url: "https://ecommons.luc.edu/ignatianpedagogy_books/36/" }
+  - { label: "Catholic Encyclopedia (1911): Ratio Studiorum", url: "https://www.newadvent.org/cathen/12654a.htm" }
+entries:
+  - text: "Lowest grammar: rudiments and beginning syntax from Alvarez's grammar; prelection on the easiest letters of Cicero; Greek reading and writing"
+    search: Alvarez
+    tracks: [latin, greek]
+  - text: "Middle grammar: Alvarez Book II through figures of speech; Cicero's Ad Familiares and the simplest poems of Ovid; Greek catechism or the Tablet of Cebes"
+    search: Ovid
+    tracks: [latin, greek]
+  - text: "Highest grammar: full syntax and prosody; Cicero's letters, De Amicitia, De Senectute, Paradoxa; expurgated Ovid, Catullus, Tibullus, Propertius"
+    search: Cicero
+    tracks: [latin, poetry]
+  - text: "Highest grammar poets: Virgil's Eclogues, Georgics IV, Aeneid V and VII; in Greek, Chrysostom, Aesop, and Agapetus"
+    search: Virgil
+    tracks: [latin, greek, poetry]
+  - text: "Humanities: Cicero's moral works, then simpler speeches (Pro Lege Manilia, Pro Archia, Pro Marcello); history from Caesar, Sallust, Livy, Curtius"
+    search: Caesar
+    tracks: [latin, history, rhetoric]
+  - text: "Humanities poetry: Virgil (omitting some eclogues and Aeneid IV) and Horace's selected odes"
+    search: Horace
+    tracks: [latin, poetry]
+  - text: "Humanities Greek: Isocrates, Chrysostom, Basil, letters of Plato and Synesius, Plutarch; poems of Phocylides, Theognis, Gregory Nazianzen; compose in Greek"
+    search: Isocrates
+    tracks: [greek, literature]
+  - text: "Soarez, De Arte Rhetorica (drawn from Aristotle, Cicero, Quintilian), summarized in humanities and taught in rhetoric"
+    search: Soarez
+    tracks: [rhetoric]
+  - text: "Rhetoric: daily prelection on Cicero's orations and Aristotle's Rhetoric (and, if desired, Poetics); 'Cicero is to be the one model of style'"
+    search: Cicero
+    tracks: [rhetoric, latin]
+  - text: "Rhetoric Greek: Demosthenes, Plato, Thucydides, Homer, Hesiod, Pindar, with Gregory Nazianzen, Basil, and Chrysostom"
+    search: Demosthenes
+    tracks: [greek, rhetoric, poetry]
+  - text: "Philosophy, year 1: logic (digest from Toledo or Fonseca; predicables, Interpretation, Prior Analytics, Topics)"
+    search: Aristotle
+    tracks: [logic, philosophy]
+  - text: "Philosophy, year 2: Aristotle's eight books of Physics, On the Heavens, On Generation, Meteorology; mathematics from Euclid with geography and astronomy"
+    search: Euclid
+    tracks: [natural-science, mathematics, philosophy]
+  - text: "Philosophy, year 3: Aristotle's On the Soul and Metaphysics; moral philosophy from the ten books of the Nicomachean Ethics"
+    search: Aristotle
+    tracks: [philosophy, character-virtue]
+  - text: "Scholastic theology over four years following the Summa of St. Thomas Aquinas"
+    search: Aquinas
+    tracks: [theology, philosophy]
+  - text: "Sacred Scripture expounded 'reverently, learnedly, and seriously', with Hebrew taught for a year from rudiments through an easy book of Scripture"
+    search: Hebrew
+    tracks: [theology, hebrew]
+  - text: "Cases of conscience (moral theology) for those training as confessors and pastors"
+    search: Cases of conscience
+    tracks: [theology, character-virtue]
+  - text: "Prelection method: read the passage, give its gist, clear each sentence, then comment; history read faster, poets by oratorical paraphrase"
+    search: Prelection
+    tracks: [latin, literature]
+  - text: "Daily memory recitation of grammar and Cicero to decurions (student monitors); repetition of the previous day's lesson"
+    search: Cicero
+    tracks: [latin, character-virtue]
+  - text: "Concertatio: class contests between rivals and camps, with prizes, to rouse 'rivalry which is a powerful incentive to studies'"
+    search: Concertatio
+    tracks: [character-virtue, latin]
+  - text: "Declamations, plays, and student academies (rhetoric/humanities, grammar, philosophers/theologians) for speaking, disputation, and prelections"
+    search: Declamation
+    tracks: [rhetoric, logic]
+notes: >-
+  Titles, authors, and rules were checked against the Farrell (1970) translation. The rule on concertation is Rule 31
+  of the Common Rules for Teachers of the Lower Classes; the Scripture quotation is Rule 1 of the Professor of Sacred
+  Scripture. The Ratio also prescribes expurgated editions of pagan poets. Fitzpatrick's St. Ignatius and the Ratio
+  Studiorum (1933, trans. A. R. Ball) exists, but no online scan could be confirmed, so it is not linked. The Latin
+  text (Pachtler, Monumenta Germaniae Paedagogica) was not located in this pass.

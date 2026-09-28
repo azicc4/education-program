@@ -1,0 +1,571 @@
+track: economics
+title: Economics
+trackGroup: Founder Skills
+description: >-
+  Economics for a citizen, householder and businessman. The track begins with habits. In early
+  childhood (3–6) the child earns, saves and gives from a real allowance. From 7 to 10 he runs a small
+  business and learns Franklin's maxims in The Way to Wealth. From 10 to 12 Maybury's Uncle Eric letters,
+  Bastiat and Hazlitt teach the "economic way of thinking": scarcity, prices, trade-offs, incentives,
+  money, inflation, and the unseen costs of policy. From 12 to 16 the student adds personal finance,
+  bookkeeping and investing, then reads the great books of political economy in order: Adam Smith's
+  Theory of Moral Sentiments and Wealth of Nations; Say, Ricardo and Mill; Marx, read critically; Hayek,
+  Röpke and Sowell. Catholic social teaching and the distributism of Belloc and Chesterton are read
+  alongside, so that markets are judged by the good of persons, families and communities. College work
+  (17–18) is a rigorous principles course in micro- and macroeconomics. The end state is a young adult who
+  keeps his own books, invests prudently, can reason clearly about economic policy, knows both the
+  free-market and the Catholic social tradition, and can start and run an enterprise.
+rows:
+  - id: economics-01
+    title: "Money Basics: Earning, Saving, Giving and Spending"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6.5
+    order: 1
+    prerequisites: []
+    related: [early-development-14, character-virtue-08, practical-arts-01]
+    summary: >-
+      Children form their basic money habits early, and the Consumer Financial Protection Bureau's Money
+      as You Grow guide sets out age-appropriate milestones from age 3. Use real coins and three jars (Give,
+      Save, Spend) with a small allowance or pay for extra jobs beyond ordinary family chores. Let the child
+      tithe to the parish, save toward a wanted item, and make small spending choices that he can regret
+      and learn from.
+    objectives:
+      - Name and count coins and bills and make change in play-store games
+      - Divide money among Give, Save and Spend jars and explain why
+      - Save for several weeks toward a chosen purchase (delayed gratification)
+      - Understand that money comes from work and that things cost money
+    curriculumOptions:
+      - name: Money as You Grow (free parent guide by age band)
+        publisher: Consumer Financial Protection Bureau
+        tradition: secular
+        url: "https://www.consumerfinance.gov/consumer-tools/money-as-you-grow/"
+        notes: Age-by-age milestones and activities; evidence-based and free.
+    sources:
+      - { label: "CFPB: Money as You Grow", url: "https://www.consumerfinance.gov/consumer-tools/money-as-you-grow/" }
+    notes: >-
+      Many Catholic and Protestant families teach the tithe (a tenth given first) from the start. Catholic
+      practice speaks more broadly of supporting the Church "according to one's means." Either can be
+      practiced with the Give jar.
+
+  - id: economics-02
+    title: "First Enterprise: The Lemonade Stand and Franklin's Way to Wealth"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 9.5
+    order: 2
+    prerequisites: [economics-01]
+    related: [mathematics-04, character-virtue-05]
+    summary: >-
+      The child runs a real small business: a lemonade stand, a bake sale, eggs from the family hens,
+      or a lawn service. He borrows start-up money from a parent at interest, buys supplies, sets a price,
+      keeps a simple ledger, repays the loan and counts the profit. Alongside, he memorizes and discusses
+      Poor Richard's maxims from Franklin's The Way to Wealth (1758) on industry, frugality and debt.
+    objectives:
+      - Plan, run and close out a small business with a written ledger of costs, revenue and profit
+      - Explain costs, revenue, profit, loss, and interest on a loan in simple terms
+      - Memorize ten Poor Richard maxims and apply them to real choices
+      - Give a tithe or share of the profits and save the rest toward a goal
+    coreTexts:
+      - title: "The Way to Wealth; or, Poor Richard Improved"
+        author: Benjamin Franklin
+        date: "1758"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/43855" }
+    curriculumOptions:
+      - name: Lemonade Day (free youth entrepreneurship program)
+        publisher: Lemonade Day
+        tradition: secular
+        url: "https://lemonadeday.org/"
+        notes: A structured program that walks a child through budgeting, a loan and running a stand.
+      - name: The Tuttle Twins books (e.g. The Miraculous Pencil)
+        publisher: Libertas Press / Tuttle Twins
+        tradition: secular
+        url: "https://www.tuttletwins.com/"
+        notes: Picture-book introductions to free-market ideas (from Leonard Read, Bastiat and Hazlitt) for 5–11-year-olds.
+      - name: Junior Achievement elementary programs
+        publisher: Junior Achievement USA
+        tradition: secular
+        url: "https://jausa.ja.org/"
+        notes: Offered through schools and some homeschool groups; availability varies locally.
+    historicalPrecedent: >-
+      Franklin wrote The Way to Wealth (1758) as the preface to the last Poor Richard's Almanack,
+      gathering twenty-five years of maxims into one speech. It became one of the most reprinted American
+      writings of the eighteenth and nineteenth centuries.
+
+  - id: economics-03
+    title: "Whatever Happened to Penny Candy? Money, Inflation and the Business Cycle"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 11
+    order: 3
+    prerequisites: [economics-02]
+    related: [mathematics-06]
+    summary: >-
+      Richard Maybury's "Uncle Eric" letters explain money, the dollar's history, inflation, interest rates
+      and the business cycle in plain language, with examples from ancient Rome to the present. The
+      student keeps a price journal (for example, the price of candy, gas and bread over the year) and
+      compares prices today with those in old newspapers and catalogs.
+    objectives:
+      - Explain what money is and how commodity money differs from fiat money
+      - Define inflation and explain why rising prices can come from an expanding money supply
+      - Describe the boom-and-bust cycle in Maybury's terms
+      - Keep a year-long price journal and graph the results
+    coreTexts:
+      - title: Whatever Happened to Penny Candy?
+        author: Richard J. Maybury
+        date: "1989"
+        publicDomain: false
+        links:
+          - { label: Bluestocking Press, url: "https://bluestockingpress.com/whatever-happened-penny-candy.htm/" }
+    curriculumOptions:
+      - name: Whatever Happened to Penny Candy? with Study Guide
+        publisher: Bluestocking Press
+        tradition: secular
+        url: "https://bluestockingpress.com/whatever-happened-penny-candy.htm/"
+        notes: The companion study guide adds questions and activities; Maybury writes from a libertarian, pro-sound-money standpoint.
+    notes: >-
+      Maybury's views on money and the Federal Reserve are those of the Austrian school. The later rows
+      (economics-08 and -09) set them beside Keynesian and mainstream views.
+
+  - id: economics-04
+    title: "The Economic Way of Thinking: Bastiat and Hazlitt"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12.5
+    order: 4
+    prerequisites: [economics-03]
+    related: [logic-02, civics-law-06]
+    summary: >-
+      Bastiat's "What Is Seen and What Is Not Seen" (the broken-window fallacy) and The Law (1850), and
+      Hazlitt's Economics in One Lesson (1946), teach one lesson in many forms: judge a policy by its
+      effects on all groups and over the long run, not only on one group now. The student learns
+      scarcity, opportunity cost, supply and demand, prices as signals, comparative advantage, and the
+      unintended consequences of price controls, tariffs, subsidies and minimum wages. A Christian
+      economics course runs alongside.
+    objectives:
+      - Explain the broken-window fallacy and find a present-day example
+      - Draw and explain supply and demand curves and the effect of a price ceiling
+      - Define opportunity cost and comparative advantage with worked examples
+      - Summarize Bastiat's argument in The Law about "legal plunder"
+      - Write a short "seen and unseen" analysis of a current policy proposal
+    coreTexts:
+      - title: The Law
+        author: Frédéric Bastiat
+        date: "1850"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44800" }
+          - { label: FEE (free), url: "https://fee.org/resources/the-law/" }
+      - title: "What Is Seen and What Is Not Seen (in Selected Essays on Political Economy)"
+        author: Frédéric Bastiat
+        date: "1850"
+        publicDomain: true
+        links:
+          - { label: Econlib, url: "https://www.econlib.org/library/Bastiat/basEss.html" }
+      - title: Economics in One Lesson
+        author: Henry Hazlitt
+        date: "1946"
+        publicDomain: false
+        links:
+          - { label: FEE (free ebook), url: "https://fee.org/resources/economics-in-one-lesson/" }
+          - { label: Mises Institute (free), url: "https://mises.org/library/book/economics-one-lesson" }
+    curriculumOptions:
+      - name: "TAN Academy: An Introduction to Economics"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/tan-academy-an-introduction-to-economics/"
+        notes: A video course with a workbook from a Catholic publisher.
+      - name: Economics for Everybody (R. C. Sproul Jr.)
+        publisher: Compass Classroom
+        tradition: protestant
+        url: "https://compassclassroom.com/shop/product/economics-for-everybody/"
+        notes: A video course from a Reformed Protestant perspective; also sold by Roman Roads Press.
+      - name: "The Economics of Freedom (Bastiat essays, free)"
+        publisher: Foundation for Economic Education
+        tradition: secular
+        url: "https://fee.org/ebooks/the-economics-of-freedom/"
+
+  - id: economics-05
+    title: "Personal Finance, Bookkeeping and Investing Basics"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 5
+    prerequisites: [economics-04]
+    related: [practical-arts-12, mathematics-07, character-virtue-08]
+    summary: >-
+      The household's economics. The course covers budgeting, a checking account, compound interest, credit
+      and debt, insurance, taxes, and the difference between saving, investing and speculating. It
+      introduces index funds, stocks and bonds, and a simulated portfolio. The student keeps his own books
+      in double entry (see practical-arts-12), files a practice tax return, and reads Bogle's case for
+      low-cost index investing. Graham's Intelligent Investor follows at the end of high school.
+    objectives:
+      - Build and live on a monthly budget for a real income (allowance, job or business)
+      - Calculate compound interest and the true cost of a loan or credit-card balance
+      - Explain stocks, bonds, index funds, diversification and risk
+      - Run a paper portfolio for a year and write an evaluation
+      - Read a simple balance sheet and income statement
+    coreTexts:
+      - title: The Little Book of Common Sense Investing (10th Anniversary Ed.)
+        author: John C. Bogle
+        date: "2017"
+        publicDomain: false
+        links:
+          - { label: Wiley, url: "https://www.wiley.com/en-us/The+Little+Book+of+Common+Sense+Investing%3A+The+Only+Way+to+Guarantee+Your+Fair+Share+of+Stock+Market+Returns%2C+10th+Anniversary+Edition-p-9781119404507" }
+    curriculumOptions:
+      - name: Personal Finance (free online course)
+        publisher: Khan Academy
+        tradition: secular
+        url: "https://www.khanacademy.org/college-careers-more/personal-finance"
+      - name: Personal Management Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/personal-management/"
+        notes: A good checklist of budgeting, saving and investing tasks even outside a troop.
+    notes: >-
+      This row teaches general financial literacy. It is not individualized investment advice; families
+      should consult a qualified advisor for real decisions.
+
+  - id: economics-06
+    title: "Adam Smith: The Theory of Moral Sentiments and The Wealth of Nations"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14.5
+    order: 6
+    prerequisites: [economics-04]
+    related: [philosophy-07, character-virtue-12]
+    summary: >-
+      Smith was a moral philosopher before he was an economist. The student first reads selections from The
+      Theory of Moral Sentiments (1759) on sympathy, the impartial spectator and virtue. He then reads the
+      heart of The Wealth of Nations (1776): the division of labor (the pin factory), the "invisible hand,"
+      natural price and market price, the mercantile system, and the duties of the sovereign (defense,
+      justice, public works, education). Smith is read as the founders read him, in the year they declared
+      independence.
+    objectives:
+      - Explain the division of labor and why it depends on the extent of the market
+      - Summarize Smith's critique of mercantilism and his case for free trade
+      - Explain the impartial spectator and the relation between self-interest and sympathy in Smith
+      - Identify the three duties of the sovereign in Book V and Smith's limits on the market
+    coreTexts:
+      - title: The Theory of Moral Sentiments
+        author: Adam Smith
+        date: "1759"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67363" }
+      - title: An Inquiry into the Nature and Causes of the Wealth of Nations
+        author: Adam Smith
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3300" }
+    curriculumOptions:
+      - name: "Understanding Capitalism (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/capitalism"
+    historicalPrecedent: >-
+      Jefferson wrote to his son-in-law in 1790: "In political oeconomy I think Smith's wealth of nations
+      the best book extant." In the same letter he recommends Locke, Montesquieu (with cautions) and The
+      Federalist for the science of government.
+    sources:
+      - { label: "Jefferson to Thomas Mann Randolph Jr., 30 May 1790 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-16-02-0264" }
+
+  - id: economics-07
+    title: "Catholic Social Teaching on the Economy and Distributism"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15.5
+    order: 7
+    prerequisites: [economics-06]
+    related: [theology-20, civics-law-15]
+    summary: >-
+      The Church's social encyclicals judge every economic system by the dignity of the person and the good
+      of the family. Rerum Novarum (1891) covers private property, the just wage, workers' associations, and
+      the rejection of socialism. Quadragesimo Anno (1931) covers subsidiarity and social justice.
+      Centesimus Annus (1991) weighs the market economy after communism. Belloc's The Servile State and
+      Chesterton's The Outline of Sanity argue for distributism, a society of widely held property: small
+      farms, shops and family firms.
+    objectives:
+      - State Leo XIII's teaching on private property, the just wage and the rights of association
+      - Define subsidiarity, solidarity and the universal destination of goods
+      - Summarize Belloc's argument that capitalism and socialism both tend toward a "servile state"
+      - Summarize John Paul II's qualified endorsement of the "business economy" and "free economy" in Centesimus Annus §42
+      - Write an essay comparing distributism with the free-market arguments of Smith and Hayek
+    coreTexts:
+      - title: Rerum Novarum
+        author: Pope Leo XIII
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
+      - title: Quadragesimo Anno
+        author: Pope Pius XI
+        date: "1931"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html" }
+      - title: Centesimus Annus
+        author: Pope John Paul II
+        date: "1991"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
+      - title: The Servile State
+        author: Hilaire Belloc
+        date: "1912"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/64882" }
+      - title: The Outline of Sanity
+        author: G. K. Chesterton
+        date: "1926"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/theoutlineofsanity" }
+      - title: What's Wrong with the World
+        author: G. K. Chesterton
+        date: "1910"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1717" }
+    curriculumOptions:
+      - name: Compendium of the Social Doctrine of the Church (free)
+        publisher: Pontifical Council for Justice and Peace
+        tradition: catholic
+        url: "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
+        notes: The official synthesis; use chapters 4 (principles) and 7 (economic life) as the reference text.
+      - name: "TAN Academy: An Introduction to Economics"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/tan-academy-an-introduction-to-economics/"
+    notes: >-
+      A Catholic/Protestant note. Protestant readers approach the same questions through the Reformed idea
+      of vocation and "sphere sovereignty" (Kuyper, Lectures on Calvinism) and Weber's thesis on the
+      Protestant ethic. The Catholic encyclicals are more explicit about the just wage and the state's
+      subsidiary role. Catholic thinkers themselves disagree about how far Centesimus Annus endorses market
+      economies versus distributism.
+
+  - id: economics-08
+    title: "Classical Political Economy and Its Critics: Say, Ricardo, Mill and Marx"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 8
+    prerequisites: [economics-06]
+    related: [philosophy-11, philosophy-12]
+    summary: >-
+      The nineteenth-century debate that shaped modern politics. Say's Treatise gives his "law of markets";
+      Jefferson recommended it alongside Smith as shorter and clearer. Ricardo's Principles gives comparative advantage, rent, and the labor theory
+      of value. Mill's Principles of Political Economy is the Victorian synthesis, with its distinction
+      between the laws of production and the laws of distribution. Marx's Communist Manifesto and selections
+      from Capital are read critically as the great challenge to the whole tradition, and his errors about
+      value, class and history are traced to their historical consequences.
+    objectives:
+      - State Say's law and Ricardo's theory of comparative advantage with a numerical example
+      - Explain the labor theory of value and why the marginal revolution replaced it
+      - Summarize Mill on production versus distribution and on the stationary state
+      - Explain Marx's theory of surplus value and class struggle and give the main economic and moral objections to it
+    coreTexts:
+      - title: A Treatise on Political Economy
+        author: Jean-Baptiste Say
+        date: "1803"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1821 English ed.), url: "https://archive.org/details/treatiseonpoliti01sayjuoft" }
+      - title: On the Principles of Political Economy and Taxation
+        author: David Ricardo
+        date: "1817"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33310" }
+      - title: Principles of Political Economy
+        author: John Stuart Mill
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30107" }
+      - title: The Communist Manifesto
+        author: Karl Marx and Friedrich Engels
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
+      - title: "Capital, Volume One (selections)"
+        author: Karl Marx
+        date: "1867"
+        publicDomain: true
+        links:
+          - { label: Marxists Internet Archive, url: "https://www.marxists.org/archive/marx/works/1867-c1/" }
+      - title: "The Marx-Engels Reader (2nd ed.)"
+        author: Karl Marx and Friedrich Engels; Robert C. Tucker (ed.)
+        date: "1972; 2nd ed. 1978"
+        publicDomain: false
+        links:
+          - { label: W. W. Norton, url: "https://wwnorton.com/books/9780393090406" }
+      - title: The National System of Political Economy
+        author: Friedrich List (trans. Sampson S. Lloyd)
+        date: "1841; Eng. 1885"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1904 ed.)", url: "https://archive.org/details/nationalsystemp01nichgoog" }
+      - title: "The Conquest of Bread (elective)"
+        author: Peter Kropotkin
+        date: "1892"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23428" }
+    curriculumOptions:
+      - name: "Marxism, Socialism, and Communism (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/marxism-socialism-communism"
+    historicalPrecedent: >-
+      In 1819, at thirteen, John Stuart Mill was taken by his father through "a complete course of
+      political economy," with Ricardo's newly published Principles read and summarized on their daily
+      walks. Mill describes it in his Autobiography, the classic account of an accelerated classical
+      education.
+      Jefferson wrote to John Norvell in 1807 that Smith's Wealth of Nations is the best book "unless
+      Say's Political economy can be had, which treats the same subjects on the same principles, but in a
+      shorter compass & more lucid manner."
+    sources:
+      - { label: "J. S. Mill, Autobiography (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/10378" }
+      - { label: "Jefferson to John Norvell, 11 June 1807 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/99-01-02-5737" }
+      - { label: "Hamilton, Final Version of the Report on the Subject of Manufactures, 5 December 1791 (Founders Online)", url: "https://founders.archives.gov/documents/Hamilton/01-10-02-0001-0007" }
+    notes: >-
+      Three critics of the free-trade market are read against Smith and Ricardo. Friedrich List
+      lived in Pennsylvania from 1825 to about 1832, wrote Outlines of American Political Economy
+      (1827) for the American protectionists, and drew on Hamilton's Report on Manufactures (1791)
+      and the "American School" (Daniel Raymond, Mathew Carey, and Henry Clay's American System).
+      His National System argues for protecting infant industries until a nation can compete, and
+      should be read beside Hamilton's Report (linked under sources) as the founders' own
+      alternative to laissez-faire. Marx is read critically through Tucker's Marx-Engels Reader,
+      which contains the Manifesto and the key selections from Capital and can replace the
+      separate texts above. Kropotkin's Conquest of Bread is an elective statement of anarchist
+      communism, read as a critic of both the market and the state; the student should test its
+      picture of voluntary cooperation against Aristotle on property (Politics II) and Leo XIII's
+      Rerum Novarum (economics-07).
+
+  - id: economics-09
+    title: "Twentieth-Century Economics: Hayek, Röpke and Sowell"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 9
+    prerequisites: [economics-08, economics-07]
+    related: [civics-law-12]
+    summary: >-
+      This course reads the twentieth-century arguments about planning, knowledge and the humane economy.
+      Hayek's "The Use of Knowledge in Society" (1945) argues that prices convey dispersed knowledge no
+      planner can gather, and The Road to Serfdom (1944) argues that central planning leads to tyranny.
+      Röpke's A Humane Economy (1960) is the German ordoliberal and Christian case for a market "beyond
+      supply and demand," rooted in family, property and community. Sowell's Basic Economics serves as a
+      comprehensive, jargon-free reference. Keynes's ideas are presented fairly through the course
+      lectures and the college principles course.
+    objectives:
+      - Explain Hayek's knowledge problem and its bearing on central planning
+      - Summarize the argument of The Road to Serfdom and its reception
+      - Explain Röpke's claim that the market depends on moral and social preconditions it cannot produce itself
+      - Use Sowell's framework to analyze three current policy debates (housing, minimum wage, trade)
+    coreTexts:
+      - title: The Use of Knowledge in Society
+        author: F. A. Hayek
+        date: "1945"
+        publicDomain: false
+        links:
+          - { label: Econlib (free), url: "https://www.econlib.org/library/Essays/hykKnw.html" }
+      - title: "The Road to Serfdom: Text and Documents, The Definitive Edition"
+        author: F. A. Hayek
+        date: "1944"
+        publicDomain: false
+        links:
+          - { label: University of Chicago Press, url: "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4138549.html" }
+      - title: A Humane Economy
+        author: Wilhelm Röpke
+        date: "1960"
+        publicDomain: false
+        links:
+          - { label: Mises Institute (free), url: "https://mises.org/library/book/humane-economy" }
+      - title: "Basic Economics: A Common Sense Guide to the Economy"
+        author: Thomas Sowell
+        date: "2014 (5th ed.)"
+        publicDomain: false
+        links:
+          - { label: Hachette Book Group, url: "https://www.hachettebookgroup.com/titles/thomas-sowell/basic-economics/9780465060733/" }
+    curriculumOptions:
+      - name: "Economics 101: The Principles of Free Market Economics (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/economics-101-the-principles-of-free-market-economics"
+        notes: Ten lectures by Gary Wolfram and Larry Arnn; covers Hayek's knowledge problem and Keynes.
+      - name: Economics for Everybody
+        publisher: Roman Roads Press
+        tradition: protestant
+        url: "https://romanroadspress.com/store/economics-for-everybody/"
+
+  - id: economics-10
+    title: "College Principles of Microeconomics and Macroeconomics"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 10
+    prerequisites: [economics-09, economics-05]
+    related: [mathematics-18, mathematics-16]
+    summary: >-
+      A college-level principles sequence, with calculus where helpful. Microeconomics covers consumer
+      and producer theory, market structures, externalities, public goods and game theory. Macroeconomics
+      covers national accounts, money and banking, the Federal Reserve, growth, unemployment and
+      inflation, and fiscal and monetary policy, with Keynesian, monetarist and Austrian views presented
+      fairly. Investing matures with Graham's The Intelligent Investor. The capstone is a policy paper
+      that uses real data.
+    objectives:
+      - Solve standard micro problems (elasticity, consumer surplus, profit maximization, monopoly pricing)
+      - Explain GDP, the money multiplier, and how the Federal Reserve conducts monetary policy
+      - Compare Keynesian, monetarist and Austrian accounts of the business cycle
+      - Apply Graham's margin-of-safety principle to evaluate a company's financial statements
+      - Write a data-driven policy paper of 3,000 words
+    coreTexts:
+      - title: The Intelligent Investor (Rev. Ed.)
+        author: Benjamin Graham
+        date: "1949 / 2003"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-intelligent-investor-rev-ed-benjamin-graham" }
+    curriculumOptions:
+      - name: Principles of Microeconomics (free video course)
+        publisher: Marginal Revolution University
+        tradition: secular
+        url: "https://mru.org/principles-economics-microeconomics"
+        notes: Tyler Cowen and Alex Tabarrok's rigorous, free principles course.
+      - name: Principles of Macroeconomics (free video course)
+        publisher: Marginal Revolution University
+        tradition: secular
+        url: "https://mru.org/principles-economics-macroeconomics"
+      - name: "Economics 101 and Understanding Capitalism (free online courses)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/economics-101-the-principles-of-free-market-economics"
+    notes: >-
+      A student who wants college credit can take CLEP Principles of Microeconomics and Macroeconomics
+      after this course.

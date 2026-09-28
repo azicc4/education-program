@@ -1,0 +1,1061 @@
+track: natural-science
+title: Natural Science
+trackGroup: Math & Science
+description: >-
+  Natural science is taught as natural philosophy: first loving attention to the created world, then
+  disciplined experiment, then the great primary sources in which modern science was born. It begins
+  with outdoor play, gardening, animals and collecting (0–6). Charlotte Mason–style nature study with
+  Comstock, Burgess and Fabre, plus naked-eye astronomy, follows (6–10). Middle years bring hands-on
+  physical and life science, Faraday's Candle, electronics and a first programming language (10–12).
+  An accelerated high-school sequence runs from 12 to 16: anatomy and first aid, biology (Mendel and a
+  critical reading of Darwin with Humani Generis), conceptual physics, chemistry with Lavoisier and
+  Dalton, the astronomy of Ptolemy, Copernicus, Kepler and Galileo, algorithms, and calculus-based
+  physics read beside Newton. A philosophy-of-science unit (Duhem, Jaki) shows the Christian roots of
+  science. College (17–18) is a St. John's/Thomas Aquinas College natural-philosophy seminar and
+  laboratory. End state: a Franklin-style natural philosopher and practical inventor. The student
+  observes precisely, designs experiments, reasons mathematically about nature, writes code and builds
+  circuits, reads the founders of science in their own words, and understands how faith and reason
+  bear on scientific claims.
+rows:
+  - id: natural-science-01
+    title: Outdoor Exploration & Sensory Nature Play
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 4
+    order: 1
+    prerequisites: []
+    related: []
+    summary: >-
+      Daily unstructured time outdoors (grass, water, mud, sand, leaves, wind, weather) with an adult who
+      names what the child sees and wonders aloud. Contact with nature in childhood is associated with
+      better attention, mood, physical activity and motor development. Free play is the foundation of
+      scientific curiosity.
+    objectives:
+      - Spend time outdoors every day in all reasonable weather
+      - Handle natural materials and observe animals, plants and weather with an adult naming them
+      - Ask and be asked "what do you notice?" and "what do you wonder?"
+    sources:
+      - { label: "Chawla (2015), Benefits of Nature Contact for Children", url: "https://doi.org/10.1177/0885412215595441" }
+      - { label: "AAP (2018), The Power of Play", url: "https://doi.org/10.1542/peds.2018-2058" }
+    notes: Supervise water play closely. Teach "look, don't touch" for unknown plants, fungi and insects.
+
+  - id: natural-science-02
+    title: Gardening & Caring for Animals
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6
+    order: 2
+    prerequisites: [natural-science-01]
+    related: []
+    summary: >-
+      A child-sized garden plot, seeds sprouting on the windowsill, and responsibility for a pet or
+      backyard animals (chickens, fish, a caterpillar-to-butterfly kit). These teach life cycles,
+      patience, cause and effect, and stewardship, and give children real work that matters.
+    objectives:
+      - Plant, water and harvest a simple crop (beans, radishes, sunflowers)
+      - Observe a life cycle (butterfly, frog, chick) from start to finish
+      - Feed and care for an animal on a daily routine
+    curriculumOptions:
+      - name: "Onions in My Boots: Basic Gardening for Young Sprouts"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/onions-in-my-boots-basic-gardening-for-young-sprouts/"
+        notes: Simple, faith-friendly children's gardening guide.
+    sources:
+      - { label: "Chawla (2015), Benefits of Nature Contact for Children", url: "https://doi.org/10.1177/0885412215595441" }
+
+  - id: natural-science-03
+    title: Collecting, Sky-Watching & First Experiments
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 4
+    ageEnd: 6
+    order: 3
+    prerequisites: [natural-science-01]
+    related: []
+    summary: >-
+      Collections of rocks, shells, leaves and feathers, sorted and labeled. Watching the moon change
+      and finding the Big Dipper. Simple kitchen experiments (sink/float, melting, magnets, shadows)
+      where the child predicts before trying. This is the seed of the scientific method: notice, guess,
+      test, tell.
+    objectives:
+      - Build and sort a nature collection by observable properties
+      - Track the moon's phases for a month on a simple chart
+      - Make a prediction before a simple experiment and describe the result
+    curriculumOptions:
+      - name: "Behold and See K: Exploring Nature with Stories, Activities, and Nature Walks"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/behold-see-k-exploring-nature-with-stories-activities-and-nature-walks/"
+        notes: Gentle Catholic kindergarten nature program.
+      - name: Kindergarten Supplemental Science Enrichment Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-core-curriculum/kindergarten-supplemental-science-enrichment-set/"
+        notes: Read-aloud science picture books for the classical kindergarten.
+
+  - id: natural-science-04
+    title: "Nature Study I: Comstock, Burgess & the Nature Journal"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 8
+    order: 4
+    prerequisites: [natural-science-02, natural-science-03]
+    related: []
+    summary: >-
+      Charlotte Mason–style nature study. There is a weekly nature walk, and the child keeps a nature
+      journal of dated, labeled drawings of birds, trees, flowers, insects and weather. Comstock's
+      Handbook of Nature Study guides the parent. Burgess's Bird Book and Animal Book are read aloud
+      as living books that name and describe North American wildlife.
+    objectives:
+      - Identify 25 local birds, 15 trees and common wildflowers by sight
+      - Keep a weekly illustrated nature journal with dates, places and observations
+      - Narrate a Burgess chapter and connect it to animals seen outdoors
+    coreTexts:
+      - title: Handbook of Nature Study
+        author: Anna Botsford Comstock
+        date: "1911"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/78142" }
+          - { label: Archive.org, url: "https://archive.org/details/handbookofnature00coms" }
+      - title: The Burgess Bird Book for Children
+        author: Thornton W. Burgess
+        date: "1919"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3074" }
+      - title: The Burgess Animal Book for Children
+        author: Thornton W. Burgess
+        date: "1920"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2441" }
+    curriculumOptions:
+      - name: The Book of Birds Set & My Nature Journal
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/science/the-book-of-birds-set/"
+        notes: "Classical nature-study units. Pair with My Nature Journal (https://www.memoriapress.com/curriculum/science/my-nature-journal/)."
+      - name: "Behold and See 3: Beginning Science"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/behold-and-see-3-beginning-science/"
+        notes: Catholic elementary science with a nature-study flavor.
+      - name: "REAL Science Odyssey: Biology 1"
+        publisher: Pandia Press
+        tradition: secular
+        url: "https://pandiapress.com/pages/real-science-odyssey"
+        notes: Hands-on secular elementary life science with lab sheets.
+    historicalPrecedent: >-
+      The Cornell nature-study movement (Liberty Hyde Bailey, Anna Comstock), active from the 1890s,
+      put nature study into American schools. Charlotte Mason's Parents' Union Schools in England made
+      the nature notebook a daily habit.
+
+  - id: natural-science-05
+    title: Naked-Eye Astronomy & Earth Science
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 10
+    order: 5
+    prerequisites: [natural-science-03]
+    related: []
+    summary: >-
+      Learn the constellations, the motions of the sun, moon and planets, the seasons, and how to find
+      north by Polaris, using only the eyes and a star chart. Earth science covers rocks and minerals,
+      weather observation and recording, and landforms. The sky is where natural philosophy began, and
+      these observations prepare for Ptolemy and Kepler later.
+    objectives:
+      - Identify 15+ constellations and 5 bright stars through the seasons
+      - Explain day/night, the seasons and the moon's phases with a model
+      - Keep a weather log and classify common rocks and minerals
+    coreTexts:
+      - title: Find the Constellations
+        author: H. A. Rey
+        date: "1954"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/find-the-constellations-h-a-rey" }
+    curriculumOptions:
+      - name: Book of Astronomy Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/science/book-astronomy/"
+        notes: Constellations and star stories in the classical core.
+      - name: "REAL Science Odyssey: Earth & Environment 1"
+        publisher: Pandia Press
+        tradition: secular
+        url: "https://pandiapress.com/products/real-science-odyssey-earth-environment-1"
+        notes: Hands-on elementary earth science.
+      - name: Apologia Astronomy (Young Explorer series)
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/all-science/astronomy/"
+        notes: Popular Christian elementary astronomy. It is written from a young-earth creationist perspective (see notes on natural-science-12).
+    notes: A planisphere and a pair of 7×50 or 10×50 binoculars are the only equipment needed.
+
+  - id: natural-science-06
+    title: "Nature Study II: Fabre's Insects & Naturalist Observation"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10
+    order: 6
+    prerequisites: [natural-science-04]
+    related: []
+    summary: >-
+      Jean-Henri Fabre, the great French naturalist whom Darwin called "an inimitable observer," shows
+      how patient watching becomes science. Children read Fabre's Book of Insects and The Life of the
+      Spider, keep live insects for observation, and write naturalist's field notes. Fabre's
+      Story-Book of Science introduces everyday physics and chemistry through dialogue.
+    objectives:
+      - Observe and record the behavior of a living insect over several weeks
+      - Write field notes with measurements, sketches and questions
+      - Narrate Fabre chapters and distinguish observation from inference
+    coreTexts:
+      - title: Fabre's Book of Insects
+        author: Jean-Henri Fabre (retold by Mrs. Rodolph Stawell)
+        date: "1921"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67000" }
+      - title: The Life of the Spider
+        author: Jean-Henri Fabre
+        date: "1912 (Eng. trans.)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1887" }
+      - title: The Story-Book of Science
+        author: Jean-Henri Fabre
+        date: "1917 (Eng. trans.)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/56795" }
+    curriculumOptions:
+      - name: The Book of Insects Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/science/book-insects/"
+        notes: Classical insect study with drawing and memory work.
+      - name: Handbook of Nature Study (print)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/science/handbook-of-nature-study/"
+        notes: A print copy of Comstock as the parent's reference.
+      - name: "Behold and See 5"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/behold-and-see-5/"
+        notes: Catholic upper-elementary science.
+
+  - id: natural-science-07
+    title: "Physical Science by Experiment: Faraday's Candle"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 11
+    order: 7
+    prerequisites: [natural-science-06]
+    related: []
+    summary: >-
+      A year of hands-on physical science covering matter, heat, light, sound, simple machines,
+      magnetism and electricity. Every lesson has an experiment and a written lab report (question,
+      hypothesis, procedure, data, conclusion). The crown is Faraday's Chemical History of a Candle,
+      his 1860 Christmas lectures for children, performed as a series of real demonstrations.
+    objectives:
+      - Write a complete lab report with controlled variables and measured data
+      - Perform Faraday's candle demonstrations and explain combustion
+      - Explain simple machines, heat transfer, and basic circuits
+    coreTexts:
+      - title: The Chemical History of a Candle
+        author: Michael Faraday
+        date: "1861"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14474" }
+      - title: The Way Things Work Now
+        author: David Macaulay
+        date: "2016"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-way-things-work-now-david-macaulay" }
+    curriculumOptions:
+      - name: Physical Science (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/physical-science-program-1"
+        notes: Classical Christian, mastery-based. The Memoria Press recommendation for grade 8 (https://www.memoriapress.com/curriculum/science/novare-physical-science/).
+      - name: "REAL Science Odyssey: Chemistry 1 / Physics 1"
+        publisher: Pandia Press
+        tradition: secular
+        url: "https://pandiapress.com/products/real-science-odyssey-chemistry-level-one"
+        notes: Lab-heavy secular option.
+      - name: Intro to Physics and Chemistry (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online option.
+    historicalPrecedent: >-
+      Faraday gave the Candle lectures at the Royal Institution's Christmas Lectures for young people in
+      1848 and 1860. Hillsdale K-12 names Faraday among the scientists studied in the middle grades.
+    sources:
+      - { label: "Hillsdale K-12 Curriculum Overview", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
+
+  - id: natural-science-08
+    title: "Programming I: From Scratch to Python"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 8
+    prerequisites: []
+    related: []
+    summary: >-
+      Computational thinking for the future inventor. Begin with Scratch's block programming (loops,
+      events, variables) through games and animations. Then move to Python and write real programs:
+      calculators, text games, data from science experiments, and small automations. The student learns
+      to break problems into steps, debug patiently, and make tools.
+    objectives:
+      - Build interactive Scratch projects using loops, conditionals and variables
+      - Write Python programs with functions, lists, dictionaries and files
+      - Use Python to record and graph data from a science experiment
+    curriculumOptions:
+      - name: Scratch
+        publisher: MIT Media Lab
+        tradition: secular
+        url: "https://scratch.mit.edu/"
+        notes: Free. Ideal first language at 10.
+      - name: "Python Crash Course, 3rd ed. (Eric Matthes)"
+        publisher: No Starch Press
+        tradition: secular
+        url: "https://nostarch.com/python-crash-course-3rd-edition"
+        notes: Project-based introduction, good for a motivated 11–12 year old.
+      - name: "Think Python, 3rd ed. (Allen Downey)"
+        publisher: Green Tea Press
+        tradition: secular
+        url: "https://greenteapress.com/wp/think-python-3rd-edition/"
+        notes: Free online. More conceptual, teaches thinking like a computer scientist.
+      - name: "Automate the Boring Stuff with Python (Al Sweigart)"
+        publisher: No Starch Press
+        tradition: secular
+        url: "https://automatetheboringstuff.com/"
+        notes: Free online. Practical scripts for real tasks.
+    historicalPrecedent: >-
+      Boole's Laws of Thought (1854) joined logic and algebra, and his algebra later became the basis of
+      digital circuits. The founders' ideal of the practical inventor (Franklin's stove and lightning
+      rod, Jefferson's polygraph and plow) is today served by programming.
+    notes: Keep screen time purposeful and bounded. Programming is making, not consuming.
+
+  - id: natural-science-09
+    title: "Life Science & Linnaean Classification"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 11.5
+    order: 9
+    prerequisites: [natural-science-06]
+    related: []
+    summary: >-
+      Cells and the microscope, the classification of living things, plants, animals, ecology and the
+      basics of heredity. Students learn binomial nomenclature from its inventor, Linnaeus, a devout
+      naturalist who saw classification as reading the order of creation. They prepare microscope
+      slides and dissect a flower.
+    objectives:
+      - Use a compound microscope and prepare wet-mount slides
+      - Classify organisms using kingdom-to-species taxonomy and binomial names
+      - Dissect a flower and label its parts and describe plant and animal cells
+    coreTexts:
+      - title: "Species Plantarum (selections, Latin)"
+        author: Carl Linnaeus
+        date: "1753"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20771" }
+    curriculumOptions:
+      - name: Life Science (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/novare-life-science"
+        notes: Classical Christian middle-school life science.
+      - name: Life Science
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/life-science/"
+        notes: Catholic middle-school option.
+      - name: "REAL Science Odyssey: Biology Level 2"
+        publisher: Pandia Press
+        tradition: secular
+        url: "https://pandiapress.com/products/real-science-odyssey-biology-level-two"
+        notes: Rigorous secular middle-school biology with labs.
+    notes: Latin students can read Linnaeus's genus and species descriptions directly (links well with the Latin track).
+
+  - id: natural-science-10
+    title: "Electronics & Making: Franklin's Workshop"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 13
+    order: 10
+    prerequisites: [natural-science-07, natural-science-08]
+    related: []
+    summary: >-
+      Hands-on electricity and engineering in Franklin's tradition. Students repeat Franklin's Leyden-jar
+      and static experiments, then build circuits on a breadboard (resistors, capacitors, LEDs,
+      transistors, logic gates), solder a small project, and program an Arduino microcontroller to sense
+      and act on the world.
+    objectives:
+      - Measure voltage, current and resistance and apply Ohm's law
+      - Build and debug breadboard circuits and solder a working kit
+      - Program an Arduino to read a sensor and control an output
+      - Read Franklin's letters on electricity and reproduce a safe static experiment
+    coreTexts:
+      - title: Experiments and Observations on Electricity, made at Philadelphia in America
+        author: Benjamin Franklin
+        date: "1751"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/b30783471" }
+      - title: "The Kite Experiment (Franklin to Collinson, Oct. 1752)"
+        author: Benjamin Franklin
+        date: "1752"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Franklin/01-04-02-0138" }
+    curriculumOptions:
+      - name: "Make: Electronics, 3rd ed. (Charles Platt)"
+        publisher: Make Community
+        tradition: secular
+        url: "https://www.makershed.com/products/make-electronics-3rd-edition-print"
+        notes: Learning by discovery with matching component packs.
+      - name: Arduino Starter Kit
+        publisher: Arduino
+        tradition: secular
+        url: "https://store.arduino.cc/products/arduino-starter-kit-multi-language"
+        notes: Official kit with a project book of 15 builds.
+    historicalPrecedent: >-
+      Franklin's electrical experiments (1746–1752), published in London as Experiments and
+      Observations on Electricity, made him the most famous American scientist in Europe and won him
+      the Royal Society's Copley Medal (1753).
+    notes: Never attempt the kite experiment. Franklin was lucky, and others were killed repeating it. Teach mains-voltage safety explicitly.
+
+  - id: natural-science-11
+    title: Human Anatomy, Physiology & First Aid
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 11
+    prerequisites: [natural-science-09]
+    related: []
+    summary: >-
+      The body's systems (skeletal, muscular, circulatory, respiratory, digestive, nervous, endocrine,
+      reproductive) studied with models, drawings and dissection. The course is paired with certified
+      first aid and CPR training. A future leader should be able to act calmly in an emergency and care
+      for his own health.
+    objectives:
+      - Name and explain the function of the major organs and systems
+      - Draw and label the skeleton, heart and major vessels from memory
+      - Earn a first-aid/CPR/AED certification
+    coreTexts:
+      - title: Anatomy of the Human Body (Gray's Anatomy)
+        author: Henry Gray
+        date: "1918 (20th ed.)"
+        publicDomain: true
+        links:
+          - { label: Bartleby.com, url: "https://www.bartleby.com/107/" }
+      - title: The Way We Work
+        author: David Macaulay
+        date: "2008"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-way-we-work-david-macaulay" }
+    curriculumOptions:
+      - name: First Aid / CPR / AED classes
+        publisher: American Red Cross
+        tradition: secular
+        url: "https://www.redcross.org/take-a-class/first-aid"
+        notes: Certification course. Required.
+      - name: First Aid Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/first-aid/"
+        notes: Structured requirements that work well in a troop or family setting.
+      - name: "Behold and See 4: Human Anatomy and Health"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/behold-and-see-4-human-anatomy-and-health/"
+        notes: A gentler Catholic introduction. Use it as a younger-sibling or review text.
+      - name: Apologia Anatomy and Physiology
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/all-science/anatomy-and-physiology/"
+        notes: Popular Christian option (young-earth perspective).
+
+  - id: natural-science-12
+    title: "Biology: Cells, Heredity & Evolution (Mendel, Darwin, Humani Generis)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13.5
+    order: 12
+    prerequisites: [natural-science-09, natural-science-11]
+    related: [theology-14]
+    summary: >-
+      A full lab biology course covering biochemistry, the cell, genetics, molecular biology, evolution,
+      ecology and the diversity of life. Students read Mendel's pea paper (by an Augustinian friar), the
+      first edition of Darwin's Origin of Species read critically as an argument, and Pius XII's
+      encyclical Humani Generis on what Catholic teaching permits and forbids in evolutionary theory.
+    objectives:
+      - Carry out lab work (microscopy, dissection, a Mendelian cross, DNA extraction)
+      - Solve monohybrid and dihybrid genetics problems and explain Mendel's reasoning from his data
+      - Outline Darwin's argument and distinguish its empirical claims from philosophical extrapolations
+      - State the Catholic position in Humani Generis and compare other Christian positions fairly
+    coreTexts:
+      - title: Experiments in Plant Hybridization
+        author: Gregor Mendel
+        date: "1865"
+        publicDomain: true
+        links:
+          - { label: MendelWeb (English), url: "http://www.mendelweb.org/Mendel.html" }
+      - title: On the Origin of Species (1st ed.)
+        author: Charles Darwin
+        date: "1859"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1228" }
+      - title: Humani Generis
+        author: Pope Pius XII
+        date: "1950"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html" }
+      - title: "The Selfish Gene (elective, critical reading)"
+        author: Richard Dawkins
+        date: "1976; 40th anniv. ed. 2016"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-selfish-gene-9780198788607" }
+      - title: "Jurassic Park (elective)"
+        author: Michael Crichton
+        date: "1990"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/33501/jurassic-park-by-michael-crichton/" }
+    curriculumOptions:
+      - name: General Biology, 2nd ed. (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/general-biology-2nd-edition"
+        notes: Classical Christian, mastery-based. Also sold by Memoria Press. Advanced Biology follows.
+      - name: Exploring Creation with Biology, 3rd ed.
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/exploring-creation-with-biology-3rd-edition"
+        notes: Widely used homeschool biology with strong labs. It teaches from a young-earth creationist perspective.
+      - name: Biology with Lab / Honors Biology (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online course.
+      - name: Biology 2e (Campbell-level alternative)
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/biology-2e"
+        notes: Free college-level text comparable in scope to Campbell Biology. Use it for AP-level depth.
+      - name: "Selections from Darwin's Origin of Species: The Shape of the Argument"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/Darwin_GC.html"
+        notes: Guided reading of Darwin's argument.
+    notes: >-
+      Neutral note on differing views. Catholic teaching (Humani Generis, 1950; later papal statements)
+      allows scientific inquiry into the evolution of the human body from pre-existing matter. It holds
+      that each human soul is directly created by God and rejects polygenism and materialist
+      philosophy. Many Protestants hold the same view, while others (e.g., Apologia, Answers in Genesis)
+      hold young-earth creationism. Present the evidence and the arguments honestly, and let parents
+      decide the emphasis. Campbell Biology (Pearson) is the standard AP/college text if a
+      print textbook is preferred. The Selfish Gene is an elective and a critical reading for the
+      end of the course (13+): it is the classic popular statement of the gene's-eye view of
+      evolution and of kin selection, and the student should separate its genuine science from
+      Dawkins's reductionist and materialist gloss ("survival machines"), which Humani Generis
+      and theology-14 answer. Jurassic Park is a light elective for 13+, a thriller about cloning
+      dinosaurs from ancient DNA. Read it for the ethics of science: Ian Malcolm's chaos-theory
+      warnings against the hubris of doing whatever technology makes possible. Parents should know
+      it has thriller violence and some profanity.
+
+  - id: natural-science-13
+    title: "Conceptual Physics & Galileo's Two New Sciences"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 13
+    prerequisites: [natural-science-07]
+    related: []
+    summary: >-
+      Algebra-based physics with understanding before formulas (Hillsdale K-12's ninth-grade course):
+      motion, forces, momentum, energy, gravity, fluids, heat, waves, electricity, magnetism, light and
+      the atom. Students read Galileo's Two New Sciences (Third Day, on naturally accelerated motion)
+      and repeat his inclined-plane experiment, then Feynman's Six Easy Pieces for the modern picture.
+    objectives:
+      - Explain Newton's laws, conservation of momentum and energy conceptually and with algebra
+      - Repeat Galileo's inclined-plane experiment and derive the odd-number rule from data
+      - Explain wave behavior, simple circuits and the basic structure of the atom
+    coreTexts:
+      - title: Dialogues Concerning Two New Sciences
+        author: Galileo Galilei, trans. Crew & de Salvio
+        date: "1638 (trans. 1914)"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences" }
+          - { label: Archive.org, url: "https://archive.org/details/twonewsciences0000gali" }
+      - title: Six Easy Pieces
+        author: Richard P. Feynman
+        date: "1963/1994"
+        publicDomain: false
+        links:
+          - { label: Hachette Book Group, url: "https://www.hachettebookgroup.com/titles/richard-p-feynman/six-easy-pieces/9780465025275/" }
+    curriculumOptions:
+      - name: "Conceptual Physics (Paul Hewitt)"
+        publisher: Pearson / conceptualphysics.com
+        tradition: secular
+        url: "https://www.conceptualphysics.com/"
+        notes: The text Hillsdale K-12 names for 9th grade. Clear and engaging, with minimal math.
+      - name: Introductory Physics (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/introductory-physics-program-1"
+        notes: Classical Christian algebra-based physics for 9th grade.
+      - name: Apologia Physics
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/all-science/physics/"
+        notes: Popular homeschool option.
+    sources:
+      - { label: "Hillsdale K-12 Curriculum Overview (Conceptual Physics, grade 9)", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
+
+  - id: natural-science-14
+    title: "Chemistry: Lavoisier, Dalton & the Laboratory"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 15
+    order: 14
+    prerequisites: [natural-science-07, natural-science-13]
+    related: []
+    summary: >-
+      A full lab chemistry course covering measurement, atomic structure, the periodic table, bonding,
+      stoichiometry, gases, solutions, acids and bases, thermochemistry, kinetics and equilibrium.
+      Students read the founding documents: Lavoisier's Elementary Treatise (1789), which overthrew
+      phlogiston and established conservation of mass, and Dalton's New System (1808), with its atomic
+      theory and weights. A lab notebook is kept to professional standards.
+    objectives:
+      - Perform quantitative labs (titration, gas laws, calorimetry) with error analysis
+      - Solve stoichiometry, gas-law and equilibrium problems
+      - Reconstruct Lavoisier's argument against phlogiston and Dalton's case for atoms
+    coreTexts:
+      - title: Elements of Chemistry
+        author: Antoine Lavoisier, trans. Robert Kerr
+        date: "1789 (trans. 1790)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30775" }
+      - title: A New System of Chemical Philosophy, vol. 1
+        author: John Dalton
+        date: "1808"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/newsystemofchemi01daltuoft" }
+    curriculumOptions:
+      - name: General Chemistry, 3rd ed. / Chemistry for Accelerated Students (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/general-chemistry-3rd-edition"
+        notes: Classical Christian. The accelerated version suits this program (https://classicalacademicpress.com/products/chemistry-for-accelerated-students-3rd-edition).
+      - name: "A New Foundation for Chemistry: Lavoisier's Elementary Treatise"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/LavNewFound.html"
+        notes: St. John's-style guided reading of Lavoisier.
+      - name: Chemistry with Lab / Honors Chemistry (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online option.
+      - name: Chemistry 2e
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/chemistry-2e"
+        notes: Free college-level text for AP depth.
+      - name: Apologia Chemistry
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/all-science/chemistry/"
+        notes: Popular homeschool option.
+    historicalPrecedent: >-
+      Jefferson followed Lavoisier's new chemistry closely while minister in Paris. Joseph Priestley,
+      discoverer of oxygen, emigrated to Pennsylvania in 1794 and corresponded with Jefferson and Adams.
+
+  - id: natural-science-15
+    title: "Astronomy: Ptolemy, Copernicus, Kepler & Galileo"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 15
+    prerequisites: [natural-science-05, natural-science-13]
+    related: []
+    summary: >-
+      The St. John's approach to the Scientific Revolution. Students work through the geocentric models
+      of Ptolemy's Almagest, Copernicus's heliocentric alternative (Book I of De Revolutionibus),
+      Kepler's discovery of elliptical orbits in the Astronomia Nova, and Galileo's telescopic
+      discoveries in the Starry Messenger. They make their own observations with a small telescope
+      and ask what counts as evidence for a cosmology.
+    objectives:
+      - Model retrograde motion with epicycles and with a heliocentric system
+      - Follow Kepler's reasoning to the ellipse and state his three laws
+      - Observe Jupiter's moons and the phases of Venus and record them as Galileo did
+      - Assess the Galileo affair historically and fairly
+    coreTexts:
+      - title: The Sidereal Messenger (Sidereus Nuncius)
+        author: Galileo Galilei, trans. E. S. Carlos
+        date: "1610 (trans. 1880)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46036" }
+      - title: On the Revolutions of the Heavenly Spheres, Book I
+        author: Nicolaus Copernicus
+        date: "1543"
+        publicDomain: true
+      - title: Two Lectures on Comets (Harvard, 1759)
+        author: John Winthrop
+        date: "1759"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/twolecturesoncom00wint_0" }
+    curriculumOptions:
+      - name: "The Almagest: Introduction to the Mathematics of the Heavens (Ptolemy)"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/PtolemyAlmagest.html"
+        notes: Selections prepared for student use.
+      - name: Selections from Kepler's Astronomia Nova
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/Kepler_GC.html"
+        notes: Donahue's translation, abridged for students.
+      - name: Science in the Scientific Revolution (Jay Wile)
+        publisher: Memoria Press (Berean Builders)
+        tradition: protestant
+        url: "https://www.memoriapress.com/curriculum/science/science-in-the-scientific-revolution-set/"
+        notes: Hands-on history-of-science course. Useful for younger siblings or as a lab supplement.
+    historicalPrecedent: >-
+      John Winthrop, Hollis Professor at Harvard (1738–1779), observed the 1761 and 1769 transits of
+      Venus and taught Newtonian astronomy to John Adams's generation. Jefferson's Notes on the State of
+      Virginia praises David Rittenhouse's orrery as proof of American genius.
+    notes: No verified free English Copernicus was found. Book I is in Great Books of the Western World vol. 16 and in Rosen's translation (Johns Hopkins).
+
+  - id: natural-science-16
+    title: "Programming II: Algorithms & Data Structures"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 16
+    order: 16
+    prerequisites: [natural-science-08]
+    related: []
+    summary: >-
+      From programmer to computer scientist: Harvard's CS50 (C, Python, SQL, web), then algorithms and
+      data structures (sorting, searching, recursion, graphs, dynamic programming, complexity)
+      practiced through the USA Computing Olympiad. Strong students read CLRS and SICP. They build a
+      substantial project, such as a tool, a simulation or a scientific-data pipeline.
+    objectives:
+      - Complete CS50x with a final project
+      - Implement and analyze core algorithms and data structures (Big-O)
+      - Compete in USACO Bronze/Silver or equivalent
+      - Build and document a substantial software project
+    curriculumOptions:
+      - name: CS50x Introduction to Computer Science
+        publisher: Harvard University (free online)
+        tradition: secular
+        url: "https://cs50.harvard.edu/x/"
+        notes: The best free introductory CS course.
+      - name: USACO Guide
+        publisher: USACO Guide (community)
+        tradition: secular
+        url: "https://usaco.guide/"
+        notes: Free, structured competitive-programming curriculum from Bronze to Platinum.
+      - name: "Introduction to Algorithms (CLRS), 4th ed."
+        publisher: MIT Press
+        tradition: secular
+        url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+        notes: The standard reference, for the strongest students at 15–16.
+      - name: "Structure and Interpretation of Computer Programs (JS ed.)"
+        publisher: MIT Press
+        tradition: secular
+        url: "https://mitpress.mit.edu/9780262543231/structure-and-interpretation-of-computer-programs/"
+        notes: The classic on abstraction. Free online at https://sicp.sourceacademy.org/.
+    coreTexts:
+      - title: An Investigation of the Laws of Thought
+        author: George Boole
+        date: "1854"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15114" }
+
+  - id: natural-science-17
+    title: "Calculus-Based Physics & Newton's Principia and Opticks"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 17
+    prerequisites: [natural-science-13]
+    related: []
+    summary: >-
+      Mechanics, then electricity and magnetism, with calculus (AP Physics C level; Halliday's
+      Fundamentals). The primary sources are Newton's Principia (Definitions, Axioms and the Laws of
+      Motion, Book I sections on central forces, and Book III's System of the World with the General
+      Scholium) and the Opticks (prism experiments, which students repeat). Requires concurrent
+      calculus (mathematics-18).
+    objectives:
+      - Solve mechanics and E&M problems using derivatives and integrals
+      - Derive Kepler's laws from the inverse-square law (with guidance)
+      - Repeat Newton's experimentum crucis with prisms and explain it
+      - Read the General Scholium and discuss Newton's natural theology
+    coreTexts:
+      - title: "The Mathematical Principles of Natural Philosophy (Principia)"
+        author: Isaac Newton, trans. Andrew Motte
+        date: "1687 (trans. 1729)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
+      - title: Opticks
+        author: Isaac Newton
+        date: "1704"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33504" }
+    curriculumOptions:
+      - name: "Fundamentals of Physics, Extended (Halliday, Resnick, Walker)"
+        publisher: Wiley
+        tradition: secular
+        url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
+        notes: The standard calculus-based text.
+      - name: "Physics: Modeling Nature (Novare)"
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/physics-modeling-nature-2nd-edition"
+        notes: Classical Christian, calculus-ready upper-level physics. Also sold by Memoria Press.
+      - name: University Physics Vol. 1–3
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/university-physics-volume-1"
+        notes: Free calculus-based text.
+      - name: Selections from Newton's Principia
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/Newton_GC.html"
+        notes: Guided student edition.
+    historicalPrecedent: >-
+      Newtonian natural philosophy entered colonial colleges in the 1720s–40s through Isaac Greenwood and
+      John Winthrop at Harvard and William Small at William & Mary. Jefferson said Small "fixed the
+      destinies of my life" by teaching him mathematics and natural philosophy.
+
+  - id: natural-science-18
+    title: "Philosophy of Science & the Catholic Contribution (Duhem, Jaki)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 18
+    prerequisites: [natural-science-12, natural-science-17]
+    related: [logic-08]
+    summary: >-
+      What is a scientific theory, and what can it prove? Students read Pierre Duhem, a Catholic
+      physicist and historian who discovered the medieval roots of mechanics (Buridan, Oresme) and
+      analyzed the structure of physical theory. They read Stanley Jaki, Benedictine priest and
+      physicist, on why science was "stillborn" in other cultures and was born alive in Christian
+      Europe. Then they compare Bacon's induction, Popper's falsification and Kuhn's paradigms.
+    objectives:
+      - Explain the Duhem thesis on testing hypotheses and the aim of physical theory
+      - Summarize Jaki's argument about the Christian origins of science and its critics
+      - Distinguish scientific, philosophical and theological claims in a given debate
+    coreTexts:
+      - title: The Aim and Structure of Physical Theory
+        author: Pierre Duhem
+        date: "1906 (trans. 1954)"
+        publicDomain: false
+        links:
+          - { label: Princeton University Press, url: "https://press.princeton.edu/books/paperback/9780691025247/the-aim-and-structure-of-physical-theory" }
+    curriculumOptions:
+      - name: Stanley Jaki's books (The Savior of Science, Science and Creation, etc.)
+        publisher: Real View Books
+        tradition: catholic
+        url: "https://www.realviewbooks.com/"
+        notes: Publisher of Fr. Jaki's works.
+      - name: "A New Natural Philosophy: Recovering a Natural Science and Christian Pedagogy"
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/a-new-natural-philosophy-recovering-a-natural-science-and-christian-pedagogy"
+        notes: Classical Christian reflection on science education.
+    notes: >-
+      Present the "Christian origins" thesis as an argued historical position with serious scholarly
+      critics, not as settled fact.
+
+  - id: natural-science-19
+    title: "College Seminar: Natural Philosophy & Laboratory (St. John's / TAC Model)"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 19
+    prerequisites: [natural-science-14, natural-science-17, natural-science-18]
+    related: [philosophy-14]
+    summary: >-
+      A great-books natural philosophy seminar joined to a laboratory, modeled on the St. John's College
+      laboratory and the Thomas Aquinas College natural science sequence. Students read Aristotle's
+      Physics (the nature of motion and cause), Archimedes on floating bodies, Galileo, Newton, Lavoisier,
+      Faraday's Experimental Researches in Electricity, Maxwell's Treatise on Electricity and Magnetism,
+      Mendel, and Einstein on relativity. Classic experiments are repeated at the bench. The goal is to
+      see how modern science follows from, and departs from, Aristotelian natural philosophy.
+    objectives:
+      - Discuss Aristotle's definitions of nature, motion and cause in seminar
+      - Repeat Faraday's induction experiments and follow Maxwell's path to the field equations
+      - Write a senior essay on a question in natural philosophy
+    coreTexts:
+      - title: A Treatise on Electricity and Magnetism, vol. 2
+        author: James Clerk Maxwell
+        date: "1873"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/electricandmag02maxwrich" }
+      - title: "Relativity: The Special and General Theory"
+        author: Albert Einstein
+        date: "1916 (trans. 1920)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5001" }
+      - title: Notes on the State of Virginia
+        author: Thomas Jefferson
+        date: "1785"
+        publicDomain: true
+        links:
+          - { label: Documenting the American South, url: "https://docsouth.unc.edu/southlit/jefferson/menu.html" }
+    curriculumOptions:
+      - name: Experimental Researches in Electricity (Faraday)
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/MichaelFaradayExp.html"
+        notes: The St. John's lab edition. A "Guide to a First Reading" is also available.
+      - name: "A Maxwellian Path to Maxwell's Equations"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/MaxPath.html"
+        notes: Chapters from Maxwell's Treatise for seminar use.
+      - name: "Mechanics from Aristotle to Einstein"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/Mechanics.html"
+        notes: A one-volume path through the history of mechanics.
+    historicalPrecedent: >-
+      Harvard's John Winthrop lectured on natural philosophy with experimental apparatus and wrote on
+      earthquakes (1755) and comets (1759). Jefferson's Notes on the State of Virginia (1785) is itself a
+      founder's work of natural history, covering climate, minerals, fossils and a rebuttal of Buffon's
+      theory of American degeneracy.
+    sources:
+      - { label: "St. John's College Great Books Reading List", url: "https://www.sjc.edu/academic-programs/undergraduate/great-books-reading-list" }
+      - { label: "Thomas Aquinas College Syllabus", url: "https://www.thomasaquinas.edu/a-liberating-education/syllabus" }
+      - { label: "Winthrop, A Lecture on Earthquakes (1755)", url: "https://archive.org/details/lectureonearthqu01wint" }
+
+  - id: natural-science-20
+    title: "College Computer Science: SICP & the Theory of Computation"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 20
+    prerequisites: [natural-science-16]
+    related: [mathematics-17, logic-07, philosophy-14]
+    summary: >-
+      The capstone of the computing strand, and a course in thinking rather than in tools. Structure and
+      Interpretation of Computer Programs teaches abstraction, recursion, higher-order procedures, state
+      and interpreters: how a language itself is built. The theory of computation (automata, formal
+      languages, computability, and complexity including P vs NP) then asks what can be computed at all.
+      Students read Turing's founding papers as primary sources: the 1936 paper on computable numbers and
+      the 1950 "Computing Machinery and Intelligence", which opens the philosophical question of machine
+      minds.
+    objectives:
+      - Work through SICP chapters 1–4, including writing a metacircular evaluator (an interpreter for Scheme in Scheme)
+      - Prove results about finite automata, regular and context-free languages, and Turing machines
+      - Explain the halting problem and reproduce Turing's diagonal argument
+      - Define the classes P and NP and explain what NP-completeness means
+      - Write a seminar essay on Turing's 1950 paper in the light of Aristotle and Aquinas on intellect
+    coreTexts:
+      - title: Structure and Interpretation of Computer Programs (2nd ed.)
+        author: Harold Abelson and Gerald Jay Sussman
+        date: "1996"
+        publicDomain: false
+        links:
+          - { label: "Free full text (CC BY-SA HTML edition)", url: "https://sarabander.github.io/sicp/" }
+          - { label: "Free PDF (MIT)", url: "https://web.mit.edu/6.001/6.037/sicp.pdf" }
+      - title: "On Computable Numbers, with an Application to the Entscheidungsproblem"
+        author: Alan M. Turing
+        date: "1936"
+        publicDomain: false
+        links:
+          - { label: "PDF (University of Virginia course copy)", url: "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf" }
+      - title: Computing Machinery and Intelligence
+        author: Alan M. Turing
+        date: "1950"
+        publicDomain: false
+        links:
+          - { label: "PDF (UMBC course copy)", url: "https://redirect.cs.umbc.edu/courses/471/papers/turing.pdf" }
+    curriculumOptions:
+      - name: "6.001 Structure and Interpretation of Computer Programs"
+        publisher: MIT OpenCourseWare
+        tradition: secular
+        url: "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/"
+        notes: "The original MIT course built on SICP, with lecture notes and problem sets. Free."
+      - name: "18.404J Theory of Computation (Sipser)"
+        publisher: MIT OpenCourseWare
+        tradition: secular
+        url: "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/"
+        notes: "Michael Sipser's own course, with full video lectures. It follows his textbook Introduction to the Theory of Computation."
+      - name: How to Design Programs (2nd ed.)
+        publisher: MIT Press / free online
+        tradition: secular
+        url: "https://htdp.org/"
+        notes: "A gentler alternative or bridge to SICP, with the same design-first philosophy. The full text is free online."
+    historicalPrecedent: >-
+      Leibniz, a hero of 18th-century learning, dreamed of a calculus ratiocinator that would settle disputes by
+      calculation. Babbage and Ada Lovelace's Analytical Engine (1830s–40s) made the dream mechanical.
+      Turing's 1936 paper answered Hilbert's decision problem and defined the modern computer in the same stroke.
+    notes: >-
+      Added by family decision as the college-level completion of the programming strand. The texts are
+      copyrighted but freely available from the authors or their institutions. Turing's 1950 paper pairs
+      well with the philosophy of mind in philosophy-14 and with Aquinas on the immateriality of the intellect.

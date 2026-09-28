@@ -1,0 +1,87 @@
+id: yale
+title: "Yale College: Admission and Course of Study (1726–1790)"
+category: colonial-college
+people: [Thomas Clap, Ezra Stiles, Jonathan Edwards]
+date: "1726–1790"
+summary: >-
+  President Clap's laws of 1745 set Yale's entrance bar: read, construe and parse Cicero, Virgil and
+  the Greek New Testament extempore, write true Latin prose, know the rules of prosody, and know
+  common arithmetic. Arithmetic was a new entrance requirement. Inside the college, the tongues and
+  logic came first, then rhetoric, geometry and geography, then natural philosophy and astronomy,
+  and last metaphysics and ethics. Saturdays were for divinity: the Westminster Confession, Wollebius
+  and Ames. Students declaimed in Latin, Greek or Hebrew. When Ezra Stiles became president in 1778,
+  he recorded the books each class recited: Virgil, Cicero, Horace, the Greek Testament, Ward's
+  mathematics, Watts's Logic, Locke's Essay and Clap's Ethics. He also taught Hebrew to whole
+  freshman classes himself. This program keeps Yale's order: languages and logic, then mathematics
+  and natural philosophy, then moral philosophy. It makes Hebrew a Psalter-first discipline, as
+  Stiles did.
+primarySources:
+  - { label: "Yale Laws of 1745 (Clap), printed in Dexter, Biographical Sketches of the Graduates of Yale College, vol. 2 (1896), Annals 1745 (Internet Archive)", url: "https://archive.org/details/biographicalsket02dextuoft" }
+  - { label: "Orders and Appointments of the Collegiate School, as copied by Jonathan Ashley, 1726 (National Humanities Center excerpt of Dexter vol. 1)", url: "https://nationalhumanitiescenter.org/pds/becomingamer/ideas/text4/yaleregulations.pdf" }
+  - { label: "The Literary Diary of Ezra Stiles, vol. 2 (1776–1781), incl. books recited by each class, Nov. 1779 (Internet Archive)", url: "https://archive.org/details/literarydiaryofe02stil" }
+  - { label: "The Literary Diary of Ezra Stiles, vol. 3 (1782–1795): Stiles's Hebrew classes (Internet Archive)", url: "https://archive.org/details/literarydiaryofe03stil" }
+  - { label: "Secondary: G. Stanley Hall, 'On the History of American College Text-Books' (Proc. American Antiquarian Society, 1894), on the Yale MS laws of 1720/1726 and Clap's Ethics", url: "https://www.americanantiquarian.org/proceedings/44769406.pdf" }
+entries:
+  - text: "Admission (1745 laws): read, construe and parse Tully (Cicero), Virgil and the Greek Testament extempore; write true Latin prose; understand the rules of prosody"
+    search: Cicero
+    tracks: [latin, greek, poetry]
+  - text: "Admission (1745): common arithmetic, the first arithmetic entrance requirement at an American college"
+    search: Arithmetic
+    tracks: [mathematics]
+  - text: "Admission (1726 orders): expert in Greek and Latin grammar, able to resolve Latin and Greek authors grammatically, and make good Latin"
+    search: Latin grammar
+    tracks: [latin, greek, grammar-composition]
+  - text: "Daily private reading of Scripture, 'the Fountain of Light and Truth' (1745 laws); chapel with a chapter read morning and evening"
+    search: Bible
+    tracks: [theology, character-virtue]
+  - text: "Recitation exercise (1726): every class but freshmen reads Old Testament Hebrew into Greek in the morning and turns the New Testament into Greek at evening"
+    search: Hebrew Psalter
+    tracks: [hebrew, greek]
+  - text: "Year 1 (1745): chiefly the tongues and logic; the tongues continued through the next two years"
+    search: Logic
+    tracks: [latin, greek, hebrew, logic]
+  - text: "Year 2: rhetoric, geometry and geography. Year 3: natural philosophy, astronomy and other mathematics. Year 4: metaphysics and ethics"
+    search: Euclid
+    tracks: [rhetoric, mathematics, natural-science, philosophy]
+  - text: "Saturday divinity: Westminster Confession, Wollebius's Compendium and Ames's Medulla Theologiae (1745); 1726 orders add the Shorter Catechism in Latin and Ames's Cases of Conscience on the Sabbath"
+    search: Ames
+    tracks: [theology, latin]
+  - text: "Friday declamations in Latin, Greek or Hebrew 'and in no other Language' without leave; the two senior classes dispute twice a week (1745)"
+    search: Declamation
+    tracks: [rhetoric, latin, greek, hebrew]
+  - text: "Speak Latin in chambers; no English among scholars except in public exercises (1726 orders)"
+    search: Latin conversation
+    tracks: [latin]
+  - text: "Freshmen at Stiles's accession (1778): Virgil, Cicero's Orations, the Greek Testament, Ward's Arithmetic"
+    search: Virgil
+    tracks: [latin, greek, mathematics]
+  - text: "Sophomores: Greek Testament, Horace, Lowth's English Grammar, Watts's Logic, Guthrie's Geography, Hammond's Algebra, Holmes's Rhetoric, Ward's Geometry, Vincent's Catechism on Saturdays"
+    search: Horace
+    tracks: [greek, latin, poetry, grammar-composition, logic, mathematics, rhetoric, theology]
+  - text: "Juniors: Ward's and Atkinson/Wilson's Trigonometry, Greek Testament, Cicero's De Oratore, Martin's Philosophical Grammar and Philosophy (3 vols.)"
+    search: De Oratore
+    tracks: [mathematics, greek, rhetoric, natural-science]
+  - text: "Seniors: Locke's Essay Concerning Human Understanding, Wollaston's Religion of Nature Delineated, President Clap's Ethics; on Saturdays Wollebius, Ames's Medulla, Greek Testament (Edwards on the Will used at times)"
+    search: Locke
+    tracks: [philosophy, theology, character-virtue]
+  - text: "Thomas Clap, An Essay on the Nature and Foundation of Moral Virtue and Obligation (1765), 'for the use of the Students of Yale College'"
+    search: Clap
+    tracks: [philosophy, character-virtue]
+  - text: "Hebrew under Stiles: he taught the whole freshman class from the alphabet through translating the first seven Psalms (June 1779), and later kept daily Hebrew recitations and moved on into the Hebrew Bible"
+    search: Hebrew Psalter
+    tracks: [hebrew, theology]
+  - text: "Berkeley Scholar examinations (1780): candidates examined four hours in Horace, Cicero's De Oratore and Tusculan Disputations, the Greek Testament, the Septuagint and Homer's Iliad"
+    search: Homer
+    tracks: [latin, greek, poetry, philosophy]
+  - text: "Forensic disputation on live questions, e.g. seniors dispute 'Whether the present War be lawful on the side of America?' (Nov. 1779)"
+    search: Disputation
+    tracks: [rhetoric, logic, civics-law]
+notes: >-
+  The 1745 laws are quoted from Stiles's manuscript copy as printed by Dexter. The 1726 orders come
+  from the National Humanities Center's modernized excerpt of Dexter vol. 1. The claim that Stiles
+  "made Hebrew required" comes from secondary sources, which also say he made it voluntary around
+  1790. His diary does show him teaching Hebrew to entire freshman classes, and I found no formal
+  Corporation vote in the sources I checked. Stiles's 1779 book list describes the course "at my
+  Accession", so it records the late Clap/Daggett course he inherited. The Hall (1894) summary of
+  the 1720/1726 MS laws says "Wollaston's theology", which is probably a misreading of Wollebius,
+  since the 1726 orders read "Wolebius".

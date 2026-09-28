@@ -1,0 +1,2433 @@
+track: history
+title: History
+trackGroup: History
+description: >-
+  History is taught thoroughly and from primary sources, in three spiral cycles plus a
+  college capstone. Cycle 1 (ages 6–10) is narrative history and heroes. It runs through four
+  chronological units (Ancient, Medieval, Early Modern, American) using the old
+  story-histories (Haaren & Poland's Famous Men, Guerber, H.E. Marshall, Hillyer), a wall
+  timeline, maps and a Book of Centuries, with the first primary sources read aloud (Aesop, Bible
+  narratives, Plutarch retold, the Declaration's preamble). Cycle 2 (ages 10–12) walks the same
+  road again, this time reading the sources themselves with guides. Scripture and Hammurabi,
+  Herodotus and Plutarch, Livy and Caesar, Acts and Eusebius, Bede and Einhard, Luther and Trent,
+  Columbus and Bradford. Cycle 3 (ages 12–16) is a set of rigorous primary-source seminars with
+  essays. The student reads the historians whole or in large part (Herodotus, Thucydides,
+  Polybius, Livy, Tacitus, Josephus, Eusebius, Augustine, Bede, Froissart), the constitutional
+  documents of England and America, the Founders in their own words (Founders Online, Avalon),
+  Lincoln and Douglass, Burke and Tocqueville, Churchill, the popes and Solzhenitsyn. The cycle
+  closes with a historiography unit that reads Hume, Gibbon and Macaulay critically alongside
+  Dawson, Acton and Paul Johnson. The college years (17–18) follow Hillsdale's core: Western
+  Heritage I–II, American Heritage, and a Church-history seminar. The end state is a young
+  statesman who knows the Western and American story in its sequence. He has read the chief
+  sources for himself, can weigh a chronicle against a charter and a partisan against a witness,
+  and writes historical argument that is clear, fair and grounded in evidence, as the Founders did
+  with Plutarch, Polybius, Rollin and Hume open on the desk.
+rows:
+  # ───────────────────────── CYCLE 1: Narrative history & heroes (6–10) ─────────────────────────
+  - id: history-01
+    title: "First Stories of the Past: Bible Narratives, Aesop & the Nation's Words"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 7
+    order: 1
+    prerequisites: []
+    related: [theology-03, literature-01, character-virtue-01]
+    summary: >-
+      The doorway into history is the story heard aloud. The child hears Bible narratives
+      (Creation to the Exodus, David, Daniel; the life of Christ), Aesop's fables, family stories
+      told by grandparents, and short hero tales. He also memorizes the Pledge of Allegiance and
+      the preamble of the Declaration of Independence. The aim is a love of "true stories" and the
+      first sense that the past is real, ordered, and full of people worth imitating.
+    objectives:
+      - Retell in order a Bible narrative or hero story heard the day before (narration)
+      - Recite the Pledge and the Declaration's preamble ("We hold these truths…") from memory
+      - Distinguish "long ago" from "now", and "a true story" from "a fable"
+      - Begin a family timeline (grandparents, parents, child)
+    coreTexts:
+      - title: The Holy Bible (Douay-Rheims)
+        date: "1582–1610 (Challoner rev. 1749–52)"
+        publicDomain: true
+        links:
+          - { label: DRBO.org, url: "https://www.drbo.org/" }
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
+      - title: The Holy Bible (King James Version)
+        date: "1611"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
+      - title: The Aesop for Children
+        author: Aesop (ill. Milo Winter)
+        date: "1919"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19994" }
+      - title: The Declaration of Independence
+        author: Thomas Jefferson et al.
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/declare.asp" }
+    curriculumOptions:
+      - name: Stories of Great Americans for Little Americans
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/stories-of-great-americans-for-little-americans-second-edition/"
+        notes: Edward Eggleston's 1895 hero stories, re-edited with a guide. Good read-aloud at 6–7.
+      - name: Child's Bible History
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/childs-bible-history/"
+        notes: The classic short Catholic Bible history (Knecht), useful as the spine for Bible narratives.
+      - name: "Our Lady of Victory: early-grade history (America My Country)"
+        publisher: Our Lady of Victory School
+        tradition: catholic
+        url: "https://olvs.org/academics/curriculum-courses/"
+        notes: Traditional Catholic program; its first-grade history is a simple workbook on flag, founders, Pilgrims and pioneers.
+    historicalPrecedent: >-
+      Colonial and 19th-century children met history first through Scripture, the catechism,
+      fables and the school reader. The McGuffey Readers mixed Bible stories, fables and short
+      patriotic pieces, and children memorized the Declaration and Washington's words for
+      exhibitions and declamation days.
+    notes: >-
+      Catholic families may prefer the Douay-Rheims or RSV-CE and a Catholic Bible history
+      (Knecht); Protestant families the KJV or ESV and a Bible storybook such as Egermeier or
+      Hurlbut. The narratives read are the same.
+
+  - id: history-02
+    title: "Maps, Timelines & the Book of Centuries"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 10
+    order: 2
+    prerequisites: [history-01]
+    related: []
+    summary: >-
+      This is the running "skeleton" of the whole history track. A wall timeline goes up in the
+      schoolroom, the child learns map work, and a Book of Centuries is started: a hand-kept
+      notebook with one spread per century, into which the child draws and dates people, events,
+      buildings and inventions as he meets them. Memory work pins about 100–160 key dates and
+      events in place by age 10. Everything later hangs on this frame.
+    objectives:
+      - Place the major eras (Creation/Patriarchs, Egypt, Israel, Greece, Rome, Christ, Middle Ages, Renaissance, Reformation, Exploration, America) in order
+      - Memorize a timeline of about 100–160 events with dates
+      - Locate the Mediterranean, Fertile Crescent, Greece, Italy, Holy Land, British Isles, France, Spain and the thirteen colonies on a blank map
+      - Keep a Book of Centuries, adding an entry for every person or event studied
+    coreTexts:
+      - title: A Child's History of the World
+        author: V.M. Hillyer
+        date: "1924"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67149" }
+          - { label: Baldwin Online, url: "https://www.mainlesson.com/display.php?author=hillyer&book=world&story=_contents" }
+    curriculumOptions:
+      - name: Timeline Program (160 events)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/timeline-program/"
+        notes: Timeline cards, composition book and drill for the five eras. A clean backbone for the memorized timeline.
+      - name: History Flashcards & Self-Paced courses
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://veritaspress.com/selfpaced/history"
+        notes: "Five card sets (OT & Egypt → 1815 to Present), 32 events each, sung and drilled. Can be used without the online course."
+      - name: History Timeline Template
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/resources/title-here/"
+        notes: A free printable timeline template from CHC. Pair it with saints' feast days.
+    historicalPrecedent: >-
+      Chronology was taught as a discipline in the 18th and 19th centuries: "chronology and
+      geography are the two eyes of history" was a schoolroom maxim. Charlotte Mason's
+      Book of Centuries (late 19th c.) and the wall charts of Priestley's "Chart of Biography"
+      (1765) are the direct ancestors of this practice.
+    notes: >-
+      The Book of Centuries is kept from about 7 through 16, so the child who reads Thucydides at 13
+      already has a page waiting for 431 BC.
+
+  - id: history-03
+    title: "Cycle 1 · The Ancient World: Egypt, Israel, Greece & Rome"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 8
+    order: 3
+    prerequisites: [history-01]
+    related: [literature-04, literature-05, character-virtue-06, latin-01]
+    summary: >-
+      The first narrative year covers the ancient world through its great men and deeds.
+      Haaren & Poland's Famous Men of Greece and Famous Men of Rome (in the Memoria Press
+      editions) give 30 lives each: Lycurgus, Solon, Leonidas, Pericles, Alexander, Horatius,
+      Cincinnatus, Scipio, Caesar, Constantine. Guerber and Hillyer fill in Egypt and Israel. The
+      Boys' and Girls' Plutarch is read aloud as the child's first taste of the ancient source
+      itself.
+    objectives:
+      - Narrate the lives of about 20 Greek and Roman worthies and state the virtue or vice each shows
+      - Place Egypt, Israel, Persia, Greece and Rome on the timeline and on a map
+      - Hear Plutarch retold and name the difference between a "life" and a "history"
+      - Recite short famous sayings (Leonidas, Horatius, Caesar's "veni, vidi, vici")
+    coreTexts:
+      - title: Famous Men of Greece
+        author: John H. Haaren & Addison B. Poland
+        date: "1904"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/famousmengreece00polagoog" }
+          - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=haaren&book=greece" }
+      - title: Famous Men of Rome
+        author: John H. Haaren & Addison B. Poland
+        date: "1904"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/famousmenofrome00haarrich" }
+          - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=haaren&book=rome" }
+      - title: The Story of the Greeks
+        author: H.A. Guerber
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23495" }
+      - title: The Story of the Romans
+        author: H.A. Guerber
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/storyofromans00guerrich" }
+      - title: The Boys' and Girls' Plutarch
+        author: Plutarch (ed. John S. White)
+        date: "1883"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2484" }
+    curriculumOptions:
+      - name: Famous Men of Greece Set / Famous Men of Rome Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/famous-men-rome/"
+        notes: The standard classical-school edition, with student and teacher guides, maps, drills and videos. Greece set is at /famous-men-greece/.
+      - name: "Old Testament & Ancient Egypt / New Testament, Greece & Rome"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/old-testament-ancient-egypt-self-paced-course.html"
+        notes: "Sung timeline cards plus an online course. Covers biblical history in the context of all history. The companion NT, Greece & Rome cards are at /new-testament-greece-rome-flashcards.html."
+      - name: "The Story of Civilization, Vol. 1: The Ancient World"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/the-story-of-civilization-volume-1-the-ancient-world/"
+        notes: Catholic narrative spine for the elementary years, with activity book and audio. Softer than Famous Men but more complete.
+    historicalPrecedent: >-
+      Haaren & Poland wrote the Famous Men series (1904) for the New York public schools on the
+      old principle that the young learn history best through biography. Plutarch was the most
+      widely read ancient author among the American founders. Hamilton, Adams, Jefferson and
+      Franklin all cite him, and Mill read Langhorne's Plutarch "with great delight" as a small
+      boy.
+    sources:
+      - { label: "J.S. Mill, Autobiography (1873), ch. 1", url: "https://www.gutenberg.org/ebooks/10378" }
+    notes: >-
+      The Famous Men books are by Haaren & Poland, not Guerber. Guerber's Story of the Greeks and
+      Story of the Romans are the companion narratives.
+
+  - id: history-04
+    title: "Cycle 1 · The Middle Ages: Christendom, Kings & Saints"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 9
+    order: 4
+    prerequisites: [history-03]
+    related: [literature-08, character-virtue-07, theology-04]
+    summary: >-
+      The second narrative year runs from the fall of Rome to the eve of the Renaissance, again
+      through lives. Famous Men of the Middle Ages gives Alaric, Clovis, St. Benedict, Charlemagne,
+      Alfred, William the Conqueror, Barbarossa, St. Louis and Joan of Arc. The early chapters of
+      Marshall's Our Island Story give England's story from the Romans to the Wars of the Roses.
+      Saints' lives and the Crusades are told as the living heart of Christendom.
+    objectives:
+      - Narrate the lives of about 20 medieval figures (kings, saints, popes, knights)
+      - Explain in a child's terms what a monastery, a castle, a manor, a cathedral and a crusade were
+      - Retell the story of Alfred, Charlemagne, William I, Magna Carta and St. Louis
+      - Add the medieval centuries to the Book of Centuries
+    coreTexts:
+      - title: Famous Men of the Middle Ages
+        author: John H. Haaren & Addison B. Poland
+        date: "1904"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3725" }
+      - title: Our Island Story
+        author: H.E. Marshall
+        date: "1905"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/ourislandstoryhi00marsuoft" }
+          - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=marshall&book=island" }
+      - title: The Story of the Middle Ages
+        author: Samuel B. Harding
+        date: "1911"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28806" }
+    curriculumOptions:
+      - name: Famous Men of the Middle Ages Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/famous-men-middle-ages/"
+        notes: Text, student and teacher guides, maps and drill.
+      - name: "Middle Ages, Renaissance & Reformation"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/middle-ages-renaissance-reformation-self-paced-course.html"
+        notes: Timeline cards and self-paced course, written from a Reformed perspective.
+      - name: "The Story of Civilization, Vol. 2: The Medieval World"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/the-story-of-civilization-volume-2-the-medieval-world/"
+        notes: A Catholic narrative of Christendom for children.
+    historicalPrecedent: >-
+      Our Island Story (1905) was the history every British child of the Empire era grew up on,
+      and it was reissued in 2005 after a public campaign. In 19th-century schools the Middle Ages
+      came to children through Scott, Froissart "for boys" and lives of the saints and kings.
+    notes: >-
+      Catholic and Protestant tellings differ mainly in emphasis: the papacy, monasticism and the
+      Crusades on one side, Wycliffe and "forerunners of the Reformation" on the other. Reading
+      Famous Men as the spine keeps the child on the shared ground of persons and deeds.
+
+  - id: history-05
+    title: "Cycle 1 · Early Modern: Renaissance, Reformation & the Age of Exploration"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8.5
+    ageEnd: 9.5
+    order: 5
+    prerequisites: [history-04]
+    related: [literature-06]
+    summary: >-
+      The third narrative unit covers Gutenberg, Columbus, Michelangelo, Luther and Loyola,
+      Elizabeth, Drake and the Armada, and Galileo, and runs on to Louis XIV and Peter the Great.
+      Our Island Story continues through the Tudors and Stuarts. Columbus's own account of the
+      first landfall is read aloud, the child's first "explorer's primary source".
+    objectives:
+      - Narrate the lives of the great explorers, artists, reformers and monarchs
+      - Tell the story of the Reformation and the Catholic Reformation fairly, naming Luther, Calvin, Henry VIII, More, Loyola, Teresa and Trent
+      - Trace the voyages of Columbus, da Gama, Magellan and Cartier on a map
+      - Hear extracts of Columbus's journal read aloud and narrate them
+    coreTexts:
+      - title: Our Island Story (Tudors & Stuarts chapters)
+        author: H.E. Marshall
+        date: "1905"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/ourislandstoryhi00marsuoft" }
+      - title: "Christopher Columbus: Extracts from Journal"
+        author: Christopher Columbus
+        date: "1492"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook (Fordham), url: "https://sourcebooks.fordham.edu/source/columbus1.asp" }
+      - title: A Child's History of the World (later chapters)
+        author: V.M. Hillyer
+        date: "1924"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67149" }
+    curriculumOptions:
+      - name: Famous Men of Modern Times Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/famous-men-modern-times/"
+        notes: Continues the Famous Men lives from the Renaissance to the 19th century.
+      - name: "The Story of Civilization, Vol. 3: The Making of the Modern World"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/the-story-of-civilization-volume-3-the-making-of-the-modern-world/"
+        notes: A Catholic account of the Renaissance, Reformation, Catholic Reformation and exploration.
+      - name: "Middle Ages, Renaissance & Reformation"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/middle-ages-renaissance-reformation-self-paced-course.html"
+        notes: Its second half covers this period from a Reformed perspective.
+    historicalPrecedent: >-
+      Nineteenth-century Anglo-American schoolbooks (Marshall, Goodrich's "Peter Parley", the
+      McGuffey Readers) told this period as a drama of discovery and liberty, and Catholic
+      schoolbooks as the story of the Church's renewal and missions. This program tells both.
+    notes: >-
+      Neutral note: Catholics generally present the Reformation as a rupture, with Trent, Loyola
+      and Teresa as the true reform. Protestants present it as the recovery of the Gospel. At this
+      age, tell each figure's story in his own terms and save the argument for Cycles 2 and 3.
+
+  - id: history-06
+    title: "Cycle 1 · The American Story: Colonies, Founding & Nation"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 10
+    order: 6
+    prerequisites: [history-05]
+    related: [literature-10, literature-12, character-virtue-04]
+    summary: >-
+      The last narrative year tells America's story from the Norsemen and Columbus through
+      Jamestown, Plymouth, the Revolution, the Constitution, the frontier, the Civil War and into
+      the 20th century. It uses H.E. Marshall's This Country of Ours and Guerber. The child
+      memorizes the Declaration's preamble and the Gettysburg Address, learns the presidents, and
+      hears Washington's and Lincoln's own words.
+    objectives:
+      - Narrate the founding of Virginia, Plymouth, Massachusetts Bay, Maryland and Pennsylvania
+      - Tell the story of the Revolution, the Declaration and the Constitution in order
+      - Recite the Declaration's preamble and the Gettysburg Address
+      - Name the presidents in order through Lincoln, and the major wars through WWII
+    coreTexts:
+      - title: This Country of Ours
+        author: H.E. Marshall
+        date: "1917"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/thiscountryofour01mars" }
+          - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=marshall&book=country" }
+      - title: The Story of the Thirteen Colonies
+        author: H.A. Guerber
+        date: "1898"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48051" }
+      - title: The Gettysburg Address
+        author: Abraham Lincoln
+        date: "1863"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/19th_century/gettyb.asp" }
+    curriculumOptions:
+      - name: The Hillsdale K-12 American History & Civics Curriculum (1776 Curriculum)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+        notes: Free K-12 lesson plans organized by era, from the Hillsdale network of classical charter schools. Primary-source based even in the lower grades.
+      - name: From Sea to Shining Sea (CHC Grade 5)
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/from-sea-to-shining-sea-the-story-of-america/"
+        notes: Catholic Textbook Project narrative of North America to the early 20th century.
+      - name: The Story of the Thirteen Colonies & the Great Republic Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/american-history/"
+        notes: Guerber's two American volumes with guides.
+    historicalPrecedent: >-
+      The Hillsdale K-12 Program Guide and the Barney Charter School Initiative put American
+      history in the early grades as a story of founding principles and founders, read partly in
+      the founders' own words. That approach descends from the McGuffey Readers and the
+      19th-century "declamation" of the Declaration and Washington's Farewell.
+    sources:
+      - { label: "Hillsdale K-12: Curriculum Overview", url: "https://k12.hillsdale.edu/Curriculum/Overview/" }
+
+  # ───────────────────────── CYCLE 2: Primary sources with guides (10–12) ─────────────────────────
+  - id: history-07
+    title: "Sources I: The Ancient Near East & Israel (Scripture, Hammurabi, Josephus)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 10.5
+    order: 7
+    prerequisites: [history-03, history-02]
+    related: [theology-07]
+    summary: >-
+      The second cycle starts where history starts, with Mesopotamia, Egypt and Israel, now read in
+      the sources. The student reads Genesis 12–50, Exodus, Joshua–Kings in selection, Daniel and
+      Maccabees. Beside them come the Code of Hammurabi and Near Eastern texts from the Ancient
+      History Sourcebook, with excerpts from Josephus's Antiquities to see how an ancient historian
+      retold the same events. Guerber's Story of the Chosen People is the guide.
+    objectives:
+      - Read the Code of Hammurabi and compare it with the Mosaic law (Exodus 20–23)
+      - Trace the history of Israel from Abraham to the Maccabees on the timeline
+      - Write a one-page narration comparing a biblical account with Josephus's retelling
+      - Identify what kind of source a text is (law code, chronicle, prophecy, royal inscription)
+    coreTexts:
+      - title: The Code of Hammurabi
+        date: "c. 1754 BC"
+        publicDomain: true
+        links:
+          - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/ancient/hamcode.asp" }
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/ancient/hamframe.asp" }
+      - title: "Ancient History Sourcebook: Mesopotamia; Israel"
+        publicDomain: true
+        links:
+          - { label: Mesopotamia, url: "https://sourcebooks.fordham.edu/ancient/asbook03.asp" }
+          - { label: Israel, url: "https://sourcebooks.fordham.edu/ancient/asbook06.asp" }
+      - title: Antiquities of the Jews (selections)
+        author: Flavius Josephus (tr. Whiston)
+        date: "c. AD 94"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2848" }
+      - title: The Story of the Chosen People
+        author: H.A. Guerber
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/storyofchosenpeo00guerrich" }
+    curriculumOptions:
+      - name: The Book of the Ancient World Set (Dorothy Mills)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/book-ancient-world/"
+        notes: Mills's 1920s narrative of Egypt, Mesopotamia, Persia and Israel, with a study guide, and quotes the sources often.
+      - name: "Christ the King, Lord of History"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/christ-the-king-lord-of-history-a-catholic-world-history-from-ancient-to-modern-times/"
+        notes: Anne Carroll's Catholic world history, ancient to modern. Serves as a spine for all of Cycle 2 (also sold by Seton).
+      - name: "Old Testament & Ancient Egypt"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/old-testament-ancient-egypt-self-paced-course.html"
+        notes: Reformed classical course that keeps sacred and secular history together.
+    historicalPrecedent: >-
+      Rollin's Ancient History (1730–38) opened with Egypt, Assyria and the Hebrews. It was the
+      standard ancient history of 18th-century schools and gentlemen's libraries on both sides of
+      the Atlantic, and the young J.S. Mill read it. Colonial college students read the Old
+      Testament as the oldest history of the world.
+    sources:
+      - { label: "Rollin, Ancient History, Vol. 1 (Gutenberg)", url: "https://www.gutenberg.org/ebooks/28558" }
+    notes: >-
+      Catholic Bibles include 1–2 Maccabees, which are essential for the Hellenistic period.
+      Protestant readers can find them in the KJV Apocrypha.
+
+  - id: history-08
+    title: "Sources II: Greece in Herodotus, Plutarch & Xenophon"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 11
+    order: 8
+    prerequisites: [history-07]
+    related: [greek-08, character-virtue-06, literature-16]
+    summary: >-
+      Greek history is read in the Greeks' own words. The student reads Herodotus in selection
+      (Croesus and Solon, Marathon, Thermopylae, Salamis), Plutarch's Lives of Lycurgus, Solon,
+      Themistocles, Aristides, Pericles and Alexander, and passages of Xenophon's Anabasis, with
+      Guerber or Mills as the guide. Narration moves to written summaries, and the child begins to
+      ask "how does Herodotus know this?"
+    objectives:
+      - Read about 150 pages of Herodotus in selection and narrate the Persian Wars
+      - Read five Plutarch Lives and write a character sketch of each statesman
+      - Compare Sparta and Athens using Plutarch's Lycurgus and Solon
+      - Distinguish eyewitness report, hearsay and legend in Herodotus
+    coreTexts:
+      - title: The History of Herodotus (Vols. 1–2)
+        author: Herodotus (tr. G.C. Macaulay)
+        date: "c. 430 BC"
+        publicDomain: true
+        links:
+          - { label: Gutenberg Vol. 1, url: "https://www.gutenberg.org/ebooks/2707" }
+          - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/2456" }
+          - { label: Perseus (Godley), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126" }
+      - title: "Plutarch's Lives (Dryden trans., ed. Clough)"
+        author: Plutarch
+        date: "c. AD 100"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
+      - title: Anabasis
+        author: Xenophon
+        date: "c. 370 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1170" }
+    curriculumOptions:
+      - name: The Book of the Ancient Greeks Set (Dorothy Mills)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/book-ancient-greeks/"
+        notes: A narrative guide that quotes Herodotus, Thucydides and Plutarch at length, plus a student guide.
+      - name: Athens and Sparta (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/athens-and-sparta"
+        notes: Free video lectures. Watch them with a parent at this age, then again at 13.
+      - name: "New Testament, Greece & Rome"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/new-testament-greece-rome-flashcards.html"
+        notes: Timeline cards and course for Greece and Rome, with the New Testament woven in.
+    historicalPrecedent: >-
+      Jefferson told his nephew Peter Carr (1785) to read ancient history "in the original" in
+      this order: Herodotus, Thucydides, Xenophon's Hellenica and Anabasis, Quintus Curtius,
+      Justin. This row is the English-language first pass at that list.
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+
+  - id: history-09
+    title: "Sources III: Rome in Livy, Plutarch & Caesar"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 11.5
+    order: 9
+    prerequisites: [history-08]
+    related: [latin-07, latin-05, literature-15]
+    summary: >-
+      Roman history is read in the sources. The student reads Livy Book I (Romulus to the Tarquins,
+      Lucretia and the founding of the Republic), Plutarch's Romans (Numa, Publicola, Coriolanus,
+      Fabius, Cato the Elder, the Gracchi, Marius, Cicero, Caesar, Brutus) and Caesar's Gallic War
+      Books I and IV–V in English. Guerber is the guide. The student meets the Roman idea of
+      virtus and the problem of how republics fall.
+    objectives:
+      - Read Livy Book I entire and narrate the founding and the expulsion of the kings
+      - Read six Roman Lives and write a comparison of two (Plutarch's own method)
+      - Read Caesar on the Helvetians and the invasion of Britain, and map the campaigns
+      - Explain in a paragraph why the Republic fell, citing at least two sources
+    coreTexts:
+      - title: The History of Rome, Books 1–8
+        author: Livy (tr. Spillan)
+        date: "c. 27 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19725" }
+          - { label: Perseus (Roberts), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026" }
+      - title: "Plutarch's Lives, Vol. 1 (Long & Stewart trans.)"
+        author: Plutarch
+        date: "c. AD 100"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14033" }
+      - title: "De Bello Gallico and Other Commentaries"
+        author: Julius Caesar (tr. McDevitte & Bohn)
+        date: "c. 50 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10657" }
+    curriculumOptions:
+      - name: The Book of the Ancient Romans Set (Dorothy Mills)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/book-ancient-romans/"
+        notes: Narrative guide built around quotations from Livy, Plutarch and Caesar.
+      - name: The Rise and Fall of the Roman Republic (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/the-rise-and-fall-of-the-roman-republic"
+        notes: Free lectures. The American founders' preoccupation with the Roman Republic is the subtext.
+      - name: "Mother of Divine Grace: 6th-grade syllabus (The Old World and America)"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/10"
+        notes: Catholic program using Furlong's The Old World and America (TAN) with historical fiction.
+    historicalPrecedent: >-
+      Livy and Caesar were grammar-school Latin authors from Boston Latin to Eton. Here they are
+      read first in English, so the Latin track (Caesar at about 11.5, Livy at about 14) meets
+      familiar ground. The founders drew their pseudonyms from these pages: Publius, Cato,
+      Brutus, Cincinnatus.
+
+  - id: history-10
+    title: "Sources IV: The Early Church (Acts, Pliny, the Martyrs & Eusebius)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 11.5
+    order: 10
+    prerequisites: [history-09]
+    related: [theology-09, theology-12]
+    summary: >-
+      The birth and spread of Christianity is read as history. The student reads the Acts of the
+      Apostles whole, Tacitus and Pliny on the Christians, the Martyrdom of Polycarp, the Passion
+      of Perpetua and Felicity, and selections from Eusebius's Church History (the apostles'
+      successors, the persecutions, Constantine). He learns to use a Christian source and a pagan
+      source side by side.
+    objectives:
+      - Read Acts entire and map Paul's journeys
+      - Compare Pliny's letter to Trajan with the Martyrdom of Polycarp as sources on persecution
+      - Narrate Eusebius's account of Constantine's conversion and the Edict of Milan
+      - Explain why Eusebius is called "the Father of Church History"
+    coreTexts:
+      - title: The Acts of the Apostles
+        publicDomain: true
+        links:
+          - { label: DRBO.org (Douay-Rheims), url: "https://www.drbo.org/chapter/51001.htm" }
+      - title: "Pliny the Younger: Letter to Trajan on the Christians"
+        date: "c. AD 112"
+        publicDomain: true
+        links:
+          - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/source/pliny1.asp" }
+      - title: The Martyrdom of Polycarp; The Passion of Perpetua and Felicity
+        date: "2nd–3rd c."
+        publicDomain: true
+        links:
+          - { label: "New Advent: Polycarp", url: "https://www.newadvent.org/fathers/0102.htm" }
+          - { label: "New Advent: Perpetua", url: "https://www.newadvent.org/fathers/0324.htm" }
+      - title: Church History (selections)
+        author: Eusebius of Caesarea
+        date: "c. 325"
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/fathers/2501.htm" }
+    curriculumOptions:
+      - name: History of the Early Church Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/history-of-early-church-set/"
+        notes: "Guided readings in early Church history for the middle grades, from a broadly Christian perspective."
+      - name: "The Story of the Church: Her Founding, Mission and Progress"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/the-story-of-the-church-her-founding-mission-and-progress/"
+        notes: Classic Catholic school history of the Church. MODG uses it in 8th grade.
+      - name: Ancient Christianity (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/ancient-christianity"
+        notes: Free lectures on the first centuries, good for the parent or an advanced 11-year-old.
+    historicalPrecedent: >-
+      Eusebius's Church History was a standard text in the colonial colleges and the Jesuit
+      colleges alike. The Ratio Studiorum and Harvard's early course both treated sacred history
+      as part of history proper.
+    notes: >-
+      Catholic and Protestant readers agree on the facts of the first three centuries but read
+      them differently. Catholics stress apostolic succession and the Roman primacy that Eusebius
+      and Irenaeus record. Protestants stress the primitive Church as a pattern for reform. Point
+      out the passages each side cites.
+
+  - id: history-11
+    title: "Sources V: Medieval Christendom (Bede, Einhard, Roland, Magna Carta, Joinville)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11.5
+    ageEnd: 12
+    order: 11
+    prerequisites: [history-10, history-04]
+    related: [literature-18, character-virtue-07, latin-16]
+    summary: >-
+      The Middle Ages are read in their chronicles and charters: Bede on Augustine of Canterbury,
+      Caedmon and Whitby; Einhard's Life of Charlemagne; the Song of Roland with Einhard's two-line
+      account of Roncevaux beside it; Urban II at Clermont; Magna Carta; and Joinville's Life of
+      St. Louis. Each source comes with a short guide, and the student starts writing one-page
+      source reports (who wrote it, when, why, and what it tells us).
+    objectives:
+      - Read Einhard's Life of Charlemagne entire
+      - Compare the Song of Roland with Einhard's report of Roncevaux (legend vs. chronicle)
+      - Read Magna Carta and summarize five clauses in plain English
+      - Write four one-page source reports (author, date, purpose, reliability, content)
+    coreTexts:
+      - title: Ecclesiastical History of the English People (Books I–II)
+        author: Bede
+        date: "731"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook (Book I), url: "https://sourcebooks.fordham.edu/basis/bede-book1.asp" }
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
+      - title: Life of Charlemagne
+        author: Einhard
+        date: "c. 830"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/einhard.asp" }
+          - { label: Project Gutenberg (Early Lives of Charlemagne), url: "https://www.gutenberg.org/ebooks/48870" }
+      - title: The Song of Roland
+        author: tr. C.K. Scott-Moncrieff
+        date: "c. 1100"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/391" }
+      - title: "Urban II: Speech at Clermont (five versions)"
+        date: "1095"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/urban2-5vers.asp" }
+      - title: Magna Carta
+        date: "1215"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/magnacarta.asp" }
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/medieval/magframe.asp" }
+      - title: Memoirs of the Lord of Joinville (Life of St. Louis)
+        author: Jean de Joinville
+        date: "1309"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/joinville.asp" }
+    curriculumOptions:
+      - name: "Light to the Nations, Part 1: The History of Christian Civilization"
+        publisher: Catholic Heritage Curricula (Catholic Textbook Project)
+        tradition: catholic
+        url: "https://chcweb.com/product/light-to-the-nations-part-1-the-history-of-christian-civilization/"
+        notes: Well-written Catholic 7th-grade text from Christ to the eve of the Enlightenment. Serves as the guide for rows 10–12.
+      - name: A History of Medieval Europe Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/a-history-of-medieval-europe-set/"
+        notes: Classical narrative with a student guide. It can also serve as the spine in Cycle 3.
+      - name: "Middle Ages, Renaissance & Reformation"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/middle-ages-renaissance-reformation-self-paced-course.html"
+        notes: Reformed classical option. Pair it with the sources above.
+    historicalPrecedent: >-
+      Magna Carta was the founders' touchstone. Its chapter 39 ("no free man shall be taken or
+      imprisoned… except by the lawful judgment of his peers or by the law of the land") passes
+      through Coke into the Fifth and Fourteenth Amendments. Bede was read in the English
+      grammar schools and by King Alfred's own order.
+
+  - id: history-12
+    title: "Sources VI: Renaissance, Reformation & Catholic Reform (Documents from Both Sides)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 12
+    ageEnd: 12.5
+    order: 12
+    prerequisites: [history-11, history-05]
+    related: [theology-19]
+    summary: >-
+      The 16th century is read in the words of the men who made it, and from both sides. Luther's
+      Ninety-Five Theses and Calvin's Reply to Sadoleto are read beside the decrees of the Council
+      of Trent (on Scripture and Tradition, and on Justification). Erasmus's Praise of Folly and
+      More's Utopia come in selection, along with the Act of Supremacy and Elizabeth's Armada
+      speech. The student's task is to state each side's case so fairly that its own adherents
+      would accept it.
+    objectives:
+      - Read the 95 Theses and the Trent decree on justification, and summarize each in one paragraph
+      - Write a two-column comparison of Catholic and Protestant positions on Scripture, grace and the Church, citing the documents
+      - Narrate the English Reformation from Henry VIII to Elizabeth, using the Act of Supremacy
+      - Explain the Catholic Reformation (Trent, the Jesuits, Teresa of Avila) as a response and a renewal
+    coreTexts:
+      - title: The Ninety-Five Theses
+        author: Martin Luther
+        date: "1517"
+        publicDomain: true
+        links:
+          - { label: Fordham Sourcebook, url: "https://sourcebooks.fordham.edu/source/luther95.txt" }
+      - title: Canons and Decrees of the Council of Trent
+        date: "1545–63"
+        publicDomain: true
+        links:
+          - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent.html" }
+      - title: "Modern History Sourcebook: Reformation"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
+      - title: Utopia
+        author: St. Thomas More
+        date: "1516"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2130" }
+      - title: The Praise of Folly
+        author: Erasmus
+        date: "1511"
+        publicDomain: true
+        links:
+          - { label: CCEL, url: "https://www.ccel.org/ccel/erasmus/folly/folly" }
+    curriculumOptions:
+      - name: Renaissance & Reformation Times Set (Dorothy Mills)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/renaissance-and-reformation-times-set/"
+        notes: Mills's narrative with a guide. Even-handed in tone.
+      - name: The Old World and America
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/the-old-world-and-america/"
+        notes: Fr. Furlong's classic Catholic world history for the middle grades, used by MODG.
+      - name: "Middle Ages, Renaissance & Reformation"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://store.veritaspress.com/middle-ages-renaissance-reformation-self-paced-course.html"
+        notes: Presents the Reformation from a Reformed perspective. Use it beside the Trent decrees.
+    historicalPrecedent: >-
+      Colonial American colleges were Protestant foundations, and Reformation history was taught
+      as the origin of their liberties. The Jesuit colleges of the Ratio Studiorum taught the same
+      events as the Church's reform. Reading both sets of documents is the fairer inheritance of
+      each.
+    notes: >-
+      Neutral note: this is the row where Catholic and Protestant accounts diverge most. Read the
+      Theses and Trent in full, not just summaries of them. Catholics will add Loyola's Spiritual
+      Exercises and Teresa, Protestants the Augsburg Confession and Calvin's Institutes. The
+      theology track (theology-19) handles the doctrine; this row handles the events.
+
+  - id: history-13
+    title: "Sources VII: Exploration & Colonial America (Columbus, Bradford, Mayflower, Winthrop)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 12
+    ageEnd: 12.5
+    order: 13
+    prerequisites: [history-12, history-06]
+    related: [literature-27]
+    summary: >-
+      The founding of the Americas is read in its sources. Columbus's letters on the first
+      voyage open the unit. Bradford's Of Plymouth Plantation is read in large part, with the
+      Mayflower Compact, Winthrop's "A Model of Christian Charity" ("a city upon a hill"), and the
+      colonial charters in the Avalon Project. The Catholic colonies (New Spain, New France,
+      Maryland) and the missions are treated as fully as the Puritan ones.
+    objectives:
+      - Read Columbus's letter on the first voyage and describe what he saw and what he sought
+      - Read Bradford Book I and chapters of Book II; narrate the Pilgrims' reasons for leaving
+      - Explain the Mayflower Compact as self-government by covenant
+      - Compare the religious purposes of Plymouth, Massachusetts Bay, Maryland and New France
+    coreTexts:
+      - title: Select Letters of Christopher Columbus
+        author: Christopher Columbus (ed. R.H. Major)
+        date: "1493–1503"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/77820" }
+      - title: History of Plymouth Plantation, 1608–1650
+        author: William Bradford
+        date: "1630–51"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/69871" }
+      - title: The Mayflower Compact
+        date: "1620"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/17th_century/mayflower.asp" }
+      - title: A Model of Christian Charity
+        author: John Winthrop
+        date: "1630"
+        publicDomain: true
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/a-model-of-christian-charity-2/" }
+      - title: "Modern History Sourcebook: Colonial North America"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook07.asp" }
+    curriculumOptions:
+      - name: America's Catholic Heritage
+        publisher: Seton Educational Media
+        tradition: catholic
+        url: "https://setonbooks.com/social-studies/304-america-s-catholic-heritage.html"
+        notes: The Catholic side of the American story (missions, Maryland, Carroll).
+      - name: Christ and the Americas
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/christ-and-the-americas/"
+        notes: Anne Carroll's Catholic history of the Americas for high school. Usable early by strong readers, and used by MODG.
+      - name: The Hillsdale 1776 Curriculum (Colonial unit)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+        notes: Free primary-source lesson plans on the colonial era.
+    historicalPrecedent: >-
+      Bradford's manuscript was treated as a national relic, and Winthrop's "city upon a hill"
+      became a fixed phrase of American rhetoric from Kennedy to Reagan. The Mayflower Compact was
+      read in 19th-century schools as the seed of American self-government.
+
+  - id: history-14
+    title: "Sources VIII: The Founding & the Republic in Documents"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 12
+    ageEnd: 12.5
+    order: 14
+    prerequisites: [history-13]
+    related: [literature-10, rhetoric-08, civics-law-04]
+    summary: >-
+      A guided first reading of the American founding documents, as a bridge into Cycle 3. It
+      covers the Declaration entire, the Constitution and Bill of Rights, Washington's Farewell
+      Address, the Gettysburg Address and Second Inaugural, and short passages of the Federalist
+      (Nos. 1, 10, 51). McClay's Land of Hope or a comparable narrative is the guide. The goal is
+      command of the documents' structure and principal arguments before the seminars at 15–16.
+    objectives:
+      - Outline the Declaration (preamble, grievances, conclusion) and memorize its second paragraph
+      - Summarize each Article of the Constitution and each of the first ten Amendments
+      - Read Washington's Farewell and list his warnings (faction, foreign entanglement, religion and morality)
+      - Read Lincoln's two great speeches and explain how he appeals to the Declaration
+    coreTexts:
+      - title: The Declaration of Independence
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/declare.asp" }
+      - title: The Constitution of the United States
+        date: "1787"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5" }
+      - title: Washington's Farewell Address
+        author: George Washington
+        date: "1796"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Washington/05-20-02-0440-0002" }
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/washing.asp" }
+      - title: The Federalist Papers
+        author: Hamilton, Madison & Jay
+        date: "1787–88"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18" }
+      - title: Second Inaugural Address
+        author: Abraham Lincoln
+        date: "1865"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/19th_century/lincoln2.asp" }
+    curriculumOptions:
+      - name: The Great American Story (free online course, on Land of Hope)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/the-great-american-story"
+        notes: Free lectures by Wilfred McClay on his narrative. The book is below.
+      - name: "Land of Hope: Young Reader's Edition, Vol. 1"
+        publisher: Encounter Books (via Bookshop.org)
+        tradition: secular
+        url: "https://bookshop.org/p/books/land-of-hope-young-reader-s-edition-an-invitation-to-the-great-american-story-volume-1-wilfred-m-mcclay/120cbde64ae7a056"
+        notes: The best recent single narrative of American history, adapted for middle-school readers.
+      - name: A Concise History of the American Republic Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/concise-history-american-republic-set/"
+        notes: Morison, Commager and Leuchtenburg with MP guides. More demanding, and can carry into Cycle 3.
+      - name: "The Story of Civilization, Vol. 4: The History of the United States"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/the-story-of-civilization-volume-4-the-history-of-the-united-states/"
+        notes: Catholic narrative of the United States.
+    historicalPrecedent: >-
+      Nineteenth-century American schoolchildren declaimed Washington's Farewell and the
+      Declaration each year. Lincoln said in 1861, "I have never had a feeling politically that did not spring
+      from the sentiments embodied in the Declaration of Independence."
+
+  # ───────────────────────── CYCLE 3: Primary-source seminars with essays (12–16) ─────────────────────────
+  - id: history-15
+    title: "Seminar: Ancient Greece — Herodotus & Thucydides"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 13.5
+    order: 15
+    prerequisites: [history-08]
+    related: [greek-12, greek-15, philosophy-05]
+    summary: >-
+      This is the first rigorous seminar. The student reads Herodotus substantially (Books I, VI–IX)
+      and Thucydides nearly whole: the Archaeology, the causes of the war, Pericles' Funeral
+      Oration, the plague, Mytilene, the Corcyraean stasis, the Melian Dialogue and Sicily.
+      Xenophon's Hellenica is optional. The student meets the invention of history: inquiry
+      (historia) versus Thucydides' "possession for all time." Weekly Socratic discussion and
+      four argumentative essays.
+    objectives:
+      - Read about 1,200 pages of Herodotus and Thucydides
+      - Contrast the two historians' method, sources and view of causation in a 1,500-word essay
+      - Analyze the Funeral Oration and the Melian Dialogue as statements of Athenian self-understanding
+      - Draw lessons for republics (stasis, empire, demagoguery) and test them against the founders' use of Greek history
+    coreTexts:
+      - title: The History of Herodotus
+        author: Herodotus (tr. G.C. Macaulay)
+        publicDomain: true
+        links:
+          - { label: Gutenberg Vol. 1, url: "https://www.gutenberg.org/ebooks/2707" }
+          - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/2456" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126" }
+      - title: The History of the Peloponnesian War
+        author: Thucydides (tr. Crawley)
+        date: "c. 400 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200" }
+      - title: Hellenica
+        author: Xenophon
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1174" }
+    curriculumOptions:
+      - name: The Landmark Herodotus / The Landmark Thucydides (ed. Strassler)
+        publisher: Free Press / Vintage (via Bookshop.org)
+        tradition: secular
+        url: "https://bookshop.org/p/books/the-landmark-thucydides-a-comprehensive-guide-to-the-peloponnesian-war-victor-davis-hanson/7f5922b1deb66f6d"
+        notes: The best student editions, with maps on every other page, running dates and appendices. Landmark Herodotus is at /the-landmark-herodotus-the-histories-herodotus/f1e630dd0f8b614d.
+      - name: "Mother of Divine Grace: Ancient History & Literature"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/21"
+        notes: Catholic high-school syllabus reading Herodotus, Polybius and Plutarch with Warren Carroll's Founding of Christendom as the spine, with paper topics.
+      - name: Athens and Sparta (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/athens-and-sparta"
+        notes: Hillsdale's free lectures on the Greek city-states and the Peloponnesian War.
+    historicalPrecedent: >-
+      Jefferson's 1785 reading plan for Peter Carr begins "Herodotus. Thucydides." Thomas Arnold
+      of Rugby edited Thucydides (1830–35) and made him central to the Sixth Form. Hobbes's first
+      published work was his translation of Thucydides (1629), made as a warning against
+      democracy.
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug 1785", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+
+  - id: history-16
+    title: "Seminar: The Roman Republic — Polybius, Livy & Sallust"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 13.5
+    order: 16
+    prerequisites: [history-15, history-09]
+    related: [latin-13, rhetoric-10, character-virtue-13]
+    summary: >-
+      The rise and fall of the Republic in its historians. The student reads Polybius Books I, III
+      and VI (the mixed constitution, the founders' favorite ancient text on government) and Livy
+      Books I–V and XXI–XXII (Hannibal). Sallust's Catiline and Jugurtha supply the moralist's
+      view of decline. Essays pair ancient analysis with American application, for example
+      Polybius VI against Federalist 47–51 and John Adams's Defence.
+    objectives:
+      - Explain Polybius's theory of the cycle of constitutions and the mixed constitution
+      - Read Livy on the Second Punic War and assess Hannibal and Fabius as leaders
+      - Analyze Sallust's thesis that wealth and ambition corrupted Rome
+      - Write a 2,000-word essay on Polybius VI and the American separation of powers
+    coreTexts:
+      - title: The Histories of Polybius (Vols. 1–2)
+        author: Polybius (tr. Shuckburgh)
+        date: "c. 150 BC"
+        publicDomain: true
+        links:
+          - { label: Gutenberg Vol. 1, url: "https://www.gutenberg.org/ebooks/44125" }
+          - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/44126" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234" }
+      - title: The History of Rome (Books 1–8; 9–26)
+        author: Livy
+        publicDomain: true
+        links:
+          - { label: Gutenberg Books 1–8, url: "https://www.gutenberg.org/ebooks/19725" }
+          - { label: Gutenberg Books 9–26, url: "https://www.gutenberg.org/ebooks/10907" }
+      - title: The Conspiracy of Catiline and the Jugurthine War
+        author: Sallust
+        date: "c. 42–40 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7990" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0124" }
+      - title: Discourses on the First Decade of Titus Livius
+        author: Niccolò Machiavelli
+        date: "1531"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10827" }
+    curriculumOptions:
+      - name: The Rise and Fall of the Roman Republic (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/the-rise-and-fall-of-the-roman-republic"
+        notes: Lectures by Hillsdale faculty that pair well with the Polybius–Livy–Sallust sequence.
+      - name: "Mother of Divine Grace: Ancient History & Literature"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/21"
+        notes: Its Rome weeks use Polybius and Livy's Early History of Rome and War with Hannibal.
+      - name: Challenge II–III (Classical Conversations)
+        publisher: Classical Conversations
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/"
+        notes: A Protestant community-based high-school program that reads Western history and literature in seminar. Adapt its reading list to these sources.
+    historicalPrecedent: >-
+      Polybius VI was the ancient text the framers cited on mixed government. John Adams's Defence
+      of the Constitutions (1787) quotes it at length. Machiavelli's Discourses on Livy was read by
+      Adams and Jefferson. Livy and Sallust were the standard historians in the upper forms of
+      Boston Latin, Eton and the colonial colleges.
+
+  - id: history-17
+    title: "Seminar: Imperial Rome & Judea — Tacitus, Suetonius & Josephus"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14
+    order: 17
+    prerequisites: [history-16]
+    related: [latin-17]
+    summary: >-
+      The Principate read in its historians: Tacitus's Agricola, Annals I–IV (Tiberius) and XV
+      (the fire and the Christians under Nero); Suetonius on Augustus, Tiberius, Caligula and Nero;
+      and Josephus's Jewish War on the fall of Jerusalem in AD 70. Tacitus's prose portrait of
+      tyranny and flattery is the central lesson for a future statesman. Josephus connects Roman
+      and sacred history.
+    objectives:
+      - Read the Agricola and Annals I–IV, XV, and analyze Tacitus's portrait of Tiberius
+      - Compare Tacitus and Suetonius as sources for the same emperor
+      - Read Jewish War Books V–VI and assess Josephus's reliability and loyalties
+      - Write an essay on how liberty is lost under a republican facade, using Tacitus
+    coreTexts:
+      - title: The Annals
+        author: Tacitus (tr. Church & Brodribb)
+        date: "c. AD 116"
+        publicDomain: true
+        links:
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078" }
+          - { label: "Gutenberg (Annals I–VI)", url: "https://www.gutenberg.org/ebooks/7959" }
+      - title: The Germany and the Agricola
+        author: Tacitus
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7524" }
+      - title: The Lives of the Twelve Caesars
+        author: Suetonius
+        date: "c. AD 121"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6400" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0132" }
+      - title: The Wars of the Jews
+        author: Flavius Josephus (tr. Whiston)
+        date: "c. AD 75"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2850" }
+    curriculumOptions:
+      - name: The Wars of the Jews Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/wars-jews/"
+        notes: Josephus with a student and teacher guide.
+      - name: "Pilgrimage, Vol. 1: A History of Western Civilization"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/pilgrimage-volume-1-a-history-of-western-civilization-from-antiquity-to-the-high-middle-ages/"
+        notes: A Catholic high-school survey from antiquity to the High Middle Ages. Use it as the narrative frame for rows 15–20.
+      - name: Great Books 101 (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/great-books-101"
+        notes: Hillsdale's survey of the ancient-to-medieval great books.
+    historicalPrecedent: >-
+      Tacitus was the Whig historian par excellence. Jefferson called him the first writer in the
+      world, and Gordon's translation (1728–31) with its Discourses was a Revolutionary-era
+      handbook against tyranny. Gibbon's Decline and Fall begins where Tacitus leaves off.
+
+  - id: history-18
+    title: "Seminar: Late Antiquity & the Early Church — Eusebius & Augustine's City of God"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 14.5
+    order: 18
+    prerequisites: [history-17, history-10]
+    related: [theology-16, philosophy-08, literature-18]
+    summary: >-
+      The Christianization of the Empire and the Christian theology of history. The student reads
+      Eusebius's Church History (Books I–III, VIII–X) and Life of Constantine in selection. He
+      reads Augustine's City of God Books I–V, XIV.28, and XIX in excerpt, where Augustine answers
+      the pagan charge that Christianity caused Rome's fall and founds the Western philosophy of
+      history. Gibbon chapters 15–16 are read as the Enlightenment counter-reading.
+    objectives:
+      - Read about 400 pages of Eusebius and 250 pages of the City of God
+      - Explain Augustine's "two cities" and his account of Rome's greatness and fall
+      - Compare Eusebius's providential reading of Constantine with Augustine's more reserved view
+      - Write an essay weighing Gibbon's ch. 15–16 against Eusebius and Augustine
+    coreTexts:
+      - title: Church History; Life of Constantine
+        author: Eusebius of Caesarea
+        date: "c. 325–339"
+        publicDomain: true
+        links:
+          - { label: "New Advent: Church History", url: "https://www.newadvent.org/fathers/2501.htm" }
+          - { label: "New Advent: Life of Constantine", url: "https://www.newadvent.org/fathers/2502.htm" }
+          - { label: "CCEL (NPNF 2.1)", url: "https://www.ccel.org/ccel/schaff/npnf201.html" }
+      - title: The City of God
+        author: St. Augustine
+        date: "413–426"
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/fathers/1201.htm" }
+          - { label: Gutenberg Vol. I, url: "https://www.gutenberg.org/ebooks/45304" }
+          - { label: Gutenberg Vol. II, url: "https://www.gutenberg.org/ebooks/45305" }
+      - title: The History of the Decline and Fall of the Roman Empire (Vol. 1)
+        author: Edward Gibbon
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/731" }
+      - title: "Ancient History Sourcebook: Late Antiquity; Christian Origins"
+        publicDomain: true
+        links:
+          - { label: Late Antiquity, url: "https://sourcebooks.fordham.edu/ancient/asbook10.asp" }
+          - { label: Christian Origins, url: "https://sourcebooks.fordham.edu/ancient/asbook11.asp" }
+    curriculumOptions:
+      - name: City of God Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/city-god/"
+        notes: A guided abridgment for high school.
+      - name: Ancient Christianity (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/ancient-christianity"
+        notes: Hillsdale faculty lectures on the Fathers, councils and Constantine.
+      - name: "Church History: A History of the Catholic Church to 1940 (Laux)"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/church-history-a-history-of-the-catholic-church-to-1940/"
+        notes: Fr. John Laux's standard Catholic high-school Church history, strong on the patristic age.
+    historicalPrecedent: >-
+      Gibbon's Decline and Fall (1776–89) was read by the founding generation as it appeared, and
+      the young J.S. Mill read it in the 1810s. Augustine's City of God was part of the arts and
+      theology curriculum from the Carolingian schools to the Jesuit colleges.
+    notes: >-
+      Gibbon's chapters 15–16 are deliberately ironic about the early Church. Reading them against
+      Eusebius and Augustine is an exercise in detecting a historian's bias, not an endorsement.
+
+  - id: history-19
+    title: "Seminar: The Making of Christendom — Gregory of Tours, Bede, Einhard & the Anglo-Saxon Chronicle"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 14.5
+    order: 19
+    prerequisites: [history-18, history-11]
+    related: [latin-16, literature-18]
+    summary: >-
+      How barbarian kingdoms became Christendom. The student reads Gregory of Tours's History of
+      the Franks (Clovis, Brunhild, the bishop-historian's world), Bede's Ecclesiastical History
+      whole, Einhard's Charlemagne again with Notker for contrast, and the Anglo-Saxon Chronicle
+      from Alfred to the Conquest. Dawson's The Making of Europe is the interpretive frame. The
+      question: what made a "Christian civilization"?
+    objectives:
+      - Read Bede entire and about 200 pages of Gregory of Tours
+      - Compare a monastic historian (Bede) with a court biographer (Einhard) and an annalist (the Chronicle)
+      - Trace the conversion of the English and the Franks on a map
+      - Write an essay on Dawson's thesis that religion is the key to cultural history, tested against these sources
+    coreTexts:
+      - title: History of the Franks
+        author: St. Gregory of Tours
+        date: "c. 594"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/74955" }
+          - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/gregory-hist.asp" }
+      - title: Ecclesiastical History of the English People
+        author: Bede
+        date: "731"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
+      - title: The Anglo-Saxon Chronicle
+        author: tr. J. Ingram & J.A. Giles
+        date: "9th–12th c."
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/657" }
+      - title: Early Lives of Charlemagne (Einhard and the Monk of St Gall)
+        author: ed. A.J. Grant
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48870" }
+      - title: "Medieval Sourcebook: Anglo-Saxons; Carolingians"
+        publicDomain: true
+        links:
+          - { label: Anglo-Saxons, url: "https://sourcebooks.fordham.edu/sbook1ff.asp" }
+          - { label: Carolingians, url: "https://sourcebooks.fordham.edu/sbook1h.asp" }
+      - title: The Making of Europe
+        author: Christopher Dawson
+        date: "1932"
+        publicDomain: false
+        links:
+          - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-making-of-europe-an-introduction-to-the-history-of-european-unity-christopher-dawson/2b2fca378dca22c4" }
+    curriculumOptions:
+      - name: "Mother of Divine Grace: Medieval European History & Literature"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/23"
+        notes: Catholic high-school syllabus using Warren Carroll's History of Christendom volumes, Churchill's History of the English-Speaking Peoples and primary sources.
+      - name: A History of Medieval Europe Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/a-history-of-medieval-europe-set/"
+        notes: Classical narrative with a guide for the high-school medieval year.
+      - name: "The Days of Christendom (two-volume set)"
+        publisher: Seton Educational Media
+        tradition: catholic
+        url: "https://setonbooks.com/history/2629-the-days-of-christendom-two-volume-set.html"
+        notes: Seton's Catholic high-school world history.
+    historicalPrecedent: >-
+      King Alfred had Bede translated into English for his people. Hume's History of England and
+      the 19th-century Whig historians (Stubbs, Freeman) all begin from Bede and the Chronicle.
+      Thomas Jefferson studied Anglo-Saxon because he believed English liberty was Saxon in origin.
+
+  - id: history-20
+    title: "Seminar: Church, Empire & Crusade — Gregory VII, Unam Sanctam, Villehardouin, Joinville & Froissart"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 20
+    prerequisites: [history-19]
+    related: [character-virtue-07, literature-18]
+    summary: >-
+      The High and late Middle Ages in their documents and chronicles. The student reads the
+      Investiture Contest (Gregory VII's Dictatus Papae and Henry IV's letters), Boniface VIII's
+      Unam Sanctam, and Urban II and the Crusade chronicles. Villehardouin tells the Fourth
+      Crusade and the sack of Constantinople, Joinville the life and crusade of St. Louis, and
+      Froissart the Hundred Years' War and chivalry. The theme is the relation of spiritual and
+      temporal power, the root of the Western idea of limited government.
+    objectives:
+      - Read the Gregory VII–Henry IV exchange and Unam Sanctam, and state each side's claim
+      - Read Villehardouin and Joinville entire and compare two crusaders as witnesses
+      - Read Froissart on Crécy, Poitiers and the Peasants' Revolt
+      - Write a 2,000-word essay on church and state from Gelasius to Unam Sanctam, and its legacy for the First Amendment
+    coreTexts:
+      - title: "Gregory VII: Dictatus Papae; Henry IV: Letter to Gregory VII"
+        date: "1075–76"
+        publicDomain: true
+        links:
+          - { label: Dictatus Papae, url: "https://sourcebooks.fordham.edu/source/g7-dictpap.asp" }
+          - { label: Henry IV to Gregory VII, url: "https://sourcebooks.fordham.edu/source/henry4-to-g7a.asp" }
+          - { label: "Medieval Sourcebook: Empire & Papacy", url: "https://sourcebooks.fordham.edu/sbook1l.asp" }
+      - title: Unam Sanctam
+        author: Pope Boniface VIII
+        date: "1302"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/b8-unam.asp" }
+      - title: Memoirs or Chronicle of the Fourth Crusade and the Conquest of Constantinople
+        author: Geoffrey de Villehardouin
+        date: "c. 1207"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6032" }
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/villehardouin.asp" }
+      - title: Memoirs of the Lord of Joinville
+        author: Jean de Joinville
+        date: "1309"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/joinville.asp" }
+      - title: Chronicles of England, France, Spain, etc. (tr. Johnes)
+        author: Jean Froissart
+        date: "c. 1370–1400"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/chroniclesofengl00froi" }
+          - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/froissart-full.asp" }
+      - title: "Medieval Sourcebook: Crusades"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/sbook1k.asp" }
+    curriculumOptions:
+      - name: "Mother of Divine Grace: Medieval European History & Literature"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/23"
+        notes: Catholic syllabus. Carroll's volumes are strongly pro-papal, so balance them with the imperial documents.
+      - name: Religion and the Rise of Western Culture (Dawson)
+        publisher: Image (via Bookshop.org)
+        tradition: catholic
+        url: "https://bookshop.org/p/books/religion-and-the-rise-of-western-culture-the-classic-study-of-medieval-civilization-christopher-dawson/96dcbd4312287e31"
+        notes: Dawson's Gifford Lectures, the best interpretive companion to this seminar.
+      - name: Western Heritage (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/western-heritage"
+        notes: Hillsdale's core course from Genesis to Locke. Its medieval lectures fit here.
+    historicalPrecedent: >-
+      The Boy's Froissart (Lanier, 1879) was a favorite prize-book in Victorian and American
+      schools. Froissart and Joinville were read as manuals of chivalry, and Scott drew on
+      Froissart for his novels. Ages 14–15 can read the full Johnes translation.
+    sources:
+      - { label: "The Boy's Froissart (Archive.org)", url: "https://archive.org/details/boysfroissartbe00froigoog" }
+    notes: >-
+      Neutral note: Catholic readers see the Investiture Contest as the Church's liberation from
+      lay control. Protestant and secular readers often see papal overreach. Both traditions credit
+      the struggle with producing the Western distinction between Church and state.
+
+  - id: history-21
+    title: "Seminar: English Constitutional History — Magna Carta to Burke"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 21
+    prerequisites: [history-20]
+    related: [philosophy-10, civics-law-13]
+    summary: >-
+      The inheritance the American colonists claimed. The student reads Magna Carta closely with
+      Coke's commentary (Second Institute), the Petition of Right (1628), the 1689 Bill of Rights,
+      and selections from Clarendon's History of the Rebellion. Burke's Reflections on the
+      Revolution in France closes the course as the classic defense of the "inheritance" view.
+      Hume's and Macaulay's Histories of England are read in extended selections as models of
+      narrative and as partisan (Tory and Whig) interpretations to be weighed critically.
+    objectives:
+      - Trace chapter 39 of Magna Carta through Coke, the Petition of Right and the Bill of Rights into the U.S. Bill of Rights
+      - Read Clarendon on the outbreak of the Civil War and Macaulay on 1688, and compare their politics
+      - Read Burke's Reflections in substantial part and summarize his argument on prescription and reform
+      - Write a 2,500-word essay on whether the American Revolution was a conservative revolution, citing these sources
+    coreTexts:
+      - title: Magna Carta
+        date: "1215"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/medieval/magframe.asp" }
+      - title: Second Part of the Institutes of the Laws of England (Magna Carta commentary)
+        author: Sir Edward Coke
+        date: "1642"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1797 ed.), url: "https://archive.org/details/bim_eighteenth-century_institutes-of-the-laws-_coke-sir-edward_1797" }
+      - title: The Petition of Right
+        date: "1628"
+        publicDomain: true
+        links:
+          - { label: Wikisource, url: "https://en.wikisource.org/wiki/Petition_of_Right" }
+      - title: The English Bill of Rights
+        date: "1689"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/17th_century/england.asp" }
+          - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1689billofrights.asp" }
+      - title: The History of the Rebellion and Civil Wars in England
+        author: Edward Hyde, Earl of Clarendon
+        date: "1702–04"
+        publicDomain: true
+        links:
+          - { label: Archive.org Vol. 1, url: "https://archive.org/details/england01claruoft" }
+      - title: Reflections on the Revolution in France (in Works, Vol. 3)
+        author: Edmund Burke
+        date: "1790"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
+      - title: The History of England (Vol. I)
+        author: David Hume
+        date: "1754–61"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19211" }
+      - title: The History of England from the Accession of James II (Vol. 1)
+        author: Thomas Babington Macaulay
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1468" }
+      - title: "Modern History Sourcebook: Constitutionalism"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook06.asp" }
+    curriculumOptions:
+      - name: Constitution 101 (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/constitution-101"
+        notes: Its opening lectures trace the English inheritance into the American Constitution.
+      - name: "Mother of Divine Grace: Medieval European History & Literature"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/23"
+        notes: Uses Churchill's History of the English-Speaking Peoples as a narrative companion.
+      - name: A History of the Protestant Reformation in England and Ireland (Cobbett)
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/a-history-of-the-protestant-reformation-in-england-and-ireland/"
+        notes: William Cobbett's polemical 1820s counter-narrative to Hume and the Whigs. Read it as a sharp corrective, not a neutral account.
+    historicalPrecedent: >-
+      Coke's Institutes were how the colonial lawyers (Adams, Jefferson, Otis, Wilson) learned
+      English liberty. Hume's History was the standard English history of the age, and Jefferson
+      warned that it was "so plausible & pleasing" that it disguised Tory principles (to John
+      Norvell, 1807). J.S. Mill read Hume, Robertson and Gibbon as a boy.
+    sources:
+      - { label: "Jefferson to John Norvell, 11 June 1807", url: "https://founders.archives.gov/documents/Jefferson/99-01-02-5737" }
+      - { label: "J.S. Mill, Autobiography", url: "https://www.gutenberg.org/ebooks/10378" }
+
+  - id: history-22
+    title: "Seminar: Renaissance, Reformation & Counter-Reformation"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 22
+    prerequisites: [history-12, history-20]
+    related: [theology-19, philosophy-10, literature-19]
+    summary: >-
+      The 16th century revisited at seminar depth. The student reads Machiavelli's Prince, More's
+      Utopia and Erasmus as the Renaissance humanist debate, then the Reformation documents at
+      length: Luther's 95 Theses and Freedom of a Christian, Calvin's Reply to Sadoleto, and the
+      Augsburg Confession. On the Catholic side come Trent's decrees on Scripture, Justification and
+      the Sacraments and Loyola's Spiritual Exercises (the Rules for Thinking with the Church). The
+      English Reformation is read through More's trial and the Act of Supremacy. Dawson's The
+      Dividing of Christendom frames the whole.
+    objectives:
+      - Read Luther and Trent on justification side by side and write a fair summary of each that its adherents would accept
+      - Analyze The Prince against Erasmus's Education of a Christian Prince or More's Utopia
+      - Explain the political consequences of the Reformation (cuius regio, the wars of religion, toleration)
+      - Write a 2,500-word essay on the Reformation's legacy for liberty and conscience, using both Catholic and Protestant sources
+    coreTexts:
+      - title: "Modern History Sourcebook: Reformation (Luther, Calvin, Zwingli, Trent, Loyola, More)"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
+      - title: The Ninety-Five Theses
+        author: Martin Luther
+        publicDomain: true
+        links:
+          - { label: Fordham Sourcebook, url: "https://sourcebooks.fordham.edu/source/luther95.txt" }
+      - title: The Canons and Decrees of the Council of Trent (tr. Waterworth)
+        publicDomain: true
+        links:
+          - { label: Hanover Historical Texts (full), url: "https://history.hanover.edu/texts/trent/trentall.html" }
+      - title: The Prince
+        author: Niccolò Machiavelli
+        date: "1532"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
+      - title: "Medieval Sourcebook: Renaissance; Reformation; Exploration"
+        publicDomain: true
+        links:
+          - { label: Renaissance, url: "https://sourcebooks.fordham.edu/sbook1x.asp" }
+          - { label: Reformation, url: "https://sourcebooks.fordham.edu/sbook1y.asp" }
+          - { label: Exploration, url: "https://sourcebooks.fordham.edu/sbook1z.asp" }
+      - title: The Dividing of Christendom
+        author: Christopher Dawson
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-dividing-of-christendom-christopher-dawson/733ba12d614e7e72" }
+    curriculumOptions:
+      - name: "Light to the Nations, Part 2: The Making of the Modern World"
+        publisher: Catholic Heritage Curricula (Catholic Textbook Project)
+        tradition: catholic
+        url: "https://chcweb.com/product/light-to-the-nations-part-2-the-making-of-the-modern-world/"
+        notes: Catholic narrative from the 16th century to the 20th. Continues into rows 25–27.
+      - name: "Omnibus III–IV (Veritas Scholars Academy / Veritas Press)"
+        publisher: Veritas Press
+        tradition: protestant
+        url: "https://www.veritasscholars.com/omnibus"
+        notes: The Reformed great-books program. Its Reformation readings come from the Protestant perspective.
+      - name: Great Books 102 (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/great-books-102"
+        notes: Hillsdale lectures from the Renaissance to the modern age, including Machiavelli and the Reformers.
+    historicalPrecedent: >-
+      The founding generation's political theology (toleration, conscience, covenant) grew
+      directly out of Reformation history, which Protestant colleges taught as the origin of
+      liberty. The Jesuit colleges of the Ratio Studiorum, where John Carroll was educated
+      (St. Omer), taught the same era as the Catholic Reformation.
+    notes: >-
+      Neutral note: present both communions' own best self-understanding. On justification,
+      compare the 1999 Joint Declaration on the Doctrine of Justification (Catholic–Lutheran) as
+      a coda for advanced students.
+
+  - id: history-23
+    title: "Seminar: Colonial & Revolutionary America — the Founders in Their Own Words"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 15.5
+    order: 23
+    prerequisites: [history-21, history-14]
+    related: [literature-27, rhetoric-11]
+    summary: >-
+      The American Revolution read almost entirely in primary sources from Founders Online and the
+      Avalon Project: the colonial charters, the Stamp Act resolves, Paine's Common Sense, Adams's
+      Thoughts on Government and his Diary, the Declaration with Jefferson's rough draft,
+      Washington's letters and his Circular to the States (1783), and the Articles of
+      Confederation. The course ends with the Constitutional Convention and the ratification
+      debate (Federalist and Anti-Federalist). This is the heart of forming a "modern founding
+      father."
+    objectives:
+      - Read Common Sense entire and Adams's Thoughts on Government, and compare their plans of government
+      - Compare Jefferson's rough draft of the Declaration with the adopted text, and explain Congress's changes
+      - Read 20 Washington letters (incl. the 1783 Circular and the Newburgh period) and write a character study
+      - Read Federalist 1, 10, 39, 47–51, 70, 78 and two Anti-Federalist replies; write a 2,500-word essay on the ratification debate
+    coreTexts:
+      - title: Common Sense
+        author: Thomas Paine
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/147" }
+      - title: Thoughts on Government
+        author: John Adams
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/06-04-02-0026-0004" }
+      - title: Diary of John Adams (from 1755)
+        author: John Adams
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/01-01-02-0001-0001" }
+      - title: Jefferson's "original Rough draught" of the Declaration
+        author: Thomas Jefferson
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Jefferson/01-01-02-0176-0004" }
+      - title: Circular to the States
+        author: George Washington
+        date: "8 June 1783"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Washington/99-01-02-11404" }
+      - title: "Modern History Sourcebook: American Independence"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook12.asp" }
+      - title: Avalon Project — 18th-Century Documents
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/18th.asp" }
+      - title: The Federalist Papers
+        author: Hamilton, Madison & Jay
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18" }
+    curriculumOptions:
+      - name: American Heritage (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/american-heritage"
+        notes: Hillsdale's core American history course, built on primary documents. Take it here and again at 17.
+      - name: The Federalist (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/the-federalist"
+        notes: Lectures on the Federalist, paper by paper.
+      - name: Teaching American History document collections
+        publisher: Ashland University
+        tradition: classical
+        url: "https://teachingamericanhistory.org/"
+        notes: Free curated primary documents and seminars for the whole of American history. Its Founding-era collections are the best available.
+      - name: "Mother of Divine Grace: US History & American Literature"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/20"
+        notes: Catholic syllabus using Carroll's Christ and the Americas, primary speeches and American literature.
+    historicalPrecedent: >-
+      Adams's diary records a young schoolmaster and law student's program of self-directed reading
+      in exactly the spirit of this course. Adams to Abigail (12 May 1780) sets out the
+      generational order: "I must study Politicks and War that my sons may have liberty to study
+      Mathematicks and Philosophy."
+    sources:
+      - { label: "John Adams to Abigail Adams, 12 May 1780", url: "https://founders.archives.gov/documents/Adams/04-03-02-0258" }
+
+  - id: history-24
+    title: "Seminar: The Early Republic, the Sectional Crisis & the Civil War"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 24
+    prerequisites: [history-23]
+    related: [rhetoric-08, rhetoric-09, literature-27]
+    summary: >-
+      From Washington's Farewell to Lincoln's Second Inaugural, in the words of the actors. The
+      student reads Tocqueville's Democracy in America (Vol. I selections) and Webster's Second
+      Reply to Hayne against Calhoun (the Exposition tradition and the Oregon Bill speech). He reads
+      Douglass's Narrative and "What to the Slave Is the Fourth of July?", the Lincoln–Douglas
+      debates, the House Divided and Cooper Union speeches, and the Gettysburg Address and Second
+      Inaugural. The key question is the meaning of the Declaration's equality principle.
+    objectives:
+      - Read Douglass's Narrative entire and his Fourth of July oration
+      - Stage a debate reproducing Webster vs. Calhoun on union and nullification
+      - Read at least three of the seven Lincoln–Douglas debates and write a judgment between the two on popular sovereignty
+      - Write a 2,500-word essay on Lincoln's interpretation of the Declaration, from the Peoria speech to Gettysburg
+    coreTexts:
+      - title: Democracy in America (Vol. 1)
+        author: Alexis de Tocqueville
+        date: "1835"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/815" }
+      - title: Select Speeches of Daniel Webster, 1817–1845 (incl. Second Reply to Hayne)
+        author: Daniel Webster
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7600" }
+      - title: Speech on the Oregon Bill
+        author: John C. Calhoun
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/speech-on-the-oregon-bill/" }
+      - title: Narrative of the Life of Frederick Douglass
+        author: Frederick Douglass
+        date: "1845"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23" }
+      - title: What to the Slave Is the Fourth of July?
+        author: Frederick Douglass
+        date: "1852"
+        publicDomain: true
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july-2/" }
+      - title: The Lincoln–Douglas Debates (Papers and Writings, Vol. 3)
+        author: Abraham Lincoln & Stephen A. Douglas
+        date: "1858"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2655" }
+          - { label: "Teaching American History: First Debate", url: "https://teachingamericanhistory.org/document/the-lincoln-douglas-debates-1st-debate/" }
+      - title: House Divided; Cooper Union Address
+        author: Abraham Lincoln
+        date: "1858–60"
+        publicDomain: true
+        links:
+          - { label: House Divided (TAH), url: "https://teachingamericanhistory.org/document/house-divided-speech/" }
+          - { label: Cooper Union (TAH), url: "https://teachingamericanhistory.org/document/address-at-cooper-union/" }
+          - { label: "Speeches & Letters of Lincoln (Gutenberg)", url: "https://www.gutenberg.org/ebooks/14721" }
+      - title: "Modern History Sourcebook: US Civil War"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook27.asp" }
+    curriculumOptions:
+      - name: American Heritage (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/american-heritage"
+        notes: Its lectures on the early republic, Lincoln and Reconstruction pair with these readings.
+      - name: "America: Forge of Freedom (two-volume set)"
+        publisher: Seton Educational Media
+        tradition: catholic
+        url: "https://setonbooks.com/social-studies/2373-america-forge-of-freedom-two-volume-set.html"
+        notes: Seton's Catholic high-school U.S. history text.
+      - name: "Land of Hope (adult edition)"
+        publisher: Encounter Books (via Bookshop.org)
+        tradition: secular
+        url: "https://bookshop.org/p/books/land-of-hope-an-invitation-to-the-great-american-story-wilfred-m-mcclay/a2efc39b8a5d0d5c"
+        notes: McClay's full narrative, used by many classical schools for the high-school survey.
+    historicalPrecedent: >-
+      Webster's Reply to Hayne ("Liberty and Union, now and forever, one and inseparable!") was
+      declaimed in American schools for a century and printed in the McGuffey and Elson readers.
+      Lincoln educated himself on Weems's Washington, Plutarch and the Declaration.
+
+  - id: history-25
+    title: "Seminar: Nineteenth-Century Europe & Britain — Revolution, Reaction & Reform"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 25
+    prerequisites: [history-21]
+    related: [philosophy-11, philosophy-12, literature-22, literature-23]
+    summary: >-
+      Europe from 1789 to 1914 in its documents and its interpreters. The student reads the French
+      Revolution documents (the Declaration of the Rights of Man and the Terror), then Carlyle and
+      Burke as contrasting witnesses. Then come the Congress of Vienna and the Conservative Order,
+      1848, and the Communist Manifesto read critically. Leo XIII's Rerum Novarum and Pius IX's
+      Quanta Cura give the Catholic response to modernity. For Britain, Bagehot's English
+      Constitution and the Reform Acts from the 19th-century Britain sourcebook complete the course.
+    objectives:
+      - Compare the French Declaration of the Rights of Man (1789) with the American Declaration
+      - Read the Communist Manifesto and Rerum Novarum, and write a comparison of their accounts of labor and property
+      - Explain the British way of reform (1832, 1867) using Bagehot's "dignified" and "efficient" parts
+      - Trace nationalism from Napoleon to German and Italian unification using the sourcebook
+    coreTexts:
+      - title: "Modern History Sourcebook: French Revolution; Conservative Order; 1848; 19C Britain; Socialism; 19C Religion"
+        publicDomain: true
+        links:
+          - { label: French Revolution, url: "https://sourcebooks.fordham.edu/mod/modsbook13.asp" }
+          - { label: Conservative Order, url: "https://sourcebooks.fordham.edu/mod/modsbook16.asp" }
+          - { label: 1848 Revolutions, url: "https://sourcebooks.fordham.edu/mod/modsbook19.asp" }
+          - { label: 19C Britain, url: "https://sourcebooks.fordham.edu/mod/modsbook20.asp" }
+          - { label: 19C Religion, url: "https://sourcebooks.fordham.edu/mod/modsbook37.asp" }
+      - title: "The French Revolution: A History"
+        author: Thomas Carlyle
+        date: "1837"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1301" }
+      - title: The Communist Manifesto
+        author: Karl Marx & Friedrich Engels
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
+      - title: Rerum Novarum
+        author: Pope Leo XIII
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
+      - title: Quanta Cura
+        author: Pope Pius IX
+        date: "1864"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-ix/en/documents/encyclica-quanta-cura-8-decembris-1864.html" }
+      - title: The English Constitution
+        author: Walter Bagehot
+        date: "1867"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4351" }
+    curriculumOptions:
+      - name: A History of Europe in the Modern World (guide set)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/a-history-of-europe-in-the-modern-world-volume-1-2-guide-set/"
+        notes: Study guides for a standard modern-European narrative text.
+      - name: "Light to the Nations, Part 2: The Making of the Modern World"
+        publisher: Catholic Heritage Curricula (Catholic Textbook Project)
+        tradition: catholic
+        url: "https://chcweb.com/product/light-to-the-nations-part-2-the-making-of-the-modern-world/"
+        notes: Catholic narrative of revolution, liberalism and the Church's response.
+      - name: Marxism, Socialism, and Communism (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/marxism-socialism-communism"
+        notes: Hillsdale's critical introduction to Marx and his heirs, for the Manifesto week.
+    historicalPrecedent: >-
+      Victorian schoolboys at Rugby and Eton read their Macaulay, Carlyle and Burke. Arnold of
+      Rugby, as Regius Professor of Modern History (1841), urged that modern history be taught with
+      the same seriousness as ancient. Mill's Autobiography records the effect of Carlyle's French
+      Revolution on his generation.
+
+  - id: history-26
+    title: "Seminar: The World Wars — Churchill, the Popes & the Documents"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 26
+    prerequisites: [history-25]
+    related: [rhetoric-08]
+    summary: >-
+      The two world wars in the words of statesmen and witnesses. For World War I the student
+      reads Benedict XV's Ad Beatissimi (1914) and Wilson's Fourteen Points, with documents from
+      the sourcebook. For the interwar crisis come Pius XI's Mit brennender Sorge (against Nazism)
+      and Divini Redemptoris (against Communism), both 1937, and the Nazism and Holocaust
+      documents. For World War II the student reads Churchill's great speeches of 1940 and the
+      Atlantic Charter. Churchill is studied as a model statesman-historian.
+    objectives:
+      - Read and deliver one of Churchill's 1940 speeches, and analyze its rhetoric
+      - Read Mit brennender Sorge and Divini Redemptoris, and state the Church's case against both totalitarianisms
+      - Compare the Fourteen Points and the Atlantic Charter as statements of war aims
+      - Write a 2,500-word essay on statesmanship in 1938–40, drawing on Churchill's speeches and the diplomatic documents
+    coreTexts:
+      - title: Churchill's speeches (Their Finest Hour; We Shall Fight on the Beaches; The Sinews of Peace)
+        author: Winston Churchill
+        date: "1940–46"
+        publicDomain: false
+        links:
+          - { label: "International Churchill Society: Speeches", url: "https://winstonchurchill.org/resources/speeches/" }
+          - { label: Their Finest Hour, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/their-finest-hour/" }
+          - { label: We Shall Fight on the Beaches, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
+      - title: Ad Beatissimi Apostolorum
+        author: Pope Benedict XV
+        date: "1914"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html" }
+      - title: Mit brennender Sorge; Divini Redemptoris
+        author: Pope Pius XI
+        date: "1937"
+        links:
+          - { label: Mit brennender Sorge, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html" }
+          - { label: Divini Redemptoris, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html" }
+      - title: The Fourteen Points
+        author: Woodrow Wilson
+        date: "1918"
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/20th_century/wilson14.asp" }
+      - title: The Atlantic Charter; Avalon WWII documents
+        date: "1941"
+        publicDomain: true
+        links:
+          - { label: Atlantic Charter, url: "https://avalon.law.yale.edu/wwii/atlantic.asp" }
+          - { label: Avalon WWII menu, url: "https://avalon.law.yale.edu/subject_menus/wwii.asp" }
+      - title: "Modern History Sourcebook: World War I; Nazism; Holocaust; World War II"
+        publicDomain: true
+        links:
+          - { label: World War I, url: "https://sourcebooks.fordham.edu/mod/modsbook38.asp" }
+          - { label: Nazism, url: "https://sourcebooks.fordham.edu/mod/modsbook43.asp" }
+          - { label: Holocaust, url: "https://sourcebooks.fordham.edu/mod/modsbook44.asp" }
+          - { label: World War II, url: "https://sourcebooks.fordham.edu/mod/modsbook45.asp" }
+    curriculumOptions:
+      - name: Winston Churchill and Statesmanship (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/winston-churchill-and-statesmanship"
+        notes: Hillsdale is home to the Churchill Project and the official biography. This is the natural companion.
+      - name: "Modern Times (Paul Johnson)"
+        publisher: HarperCollins
+        tradition: secular
+        url: "https://www.harpercollins.com/products/modern-times-revised-edition-paul-johnson"
+        notes: Johnson's narrative of 1917–1990s, sharp on the totalitarian regimes. A companion for rows 26–27.
+      - name: TAN Academy High School World History (video)
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/high-school-world-history-streaming-video/"
+        notes: A Catholic video survey course. Use it as the narrative frame alongside the documents.
+    historicalPrecedent: >-
+      Churchill was himself a historian (Marlborough, The World Crisis, The Second World War, A
+      History of the English-Speaking Peoples) who formed his style on Gibbon and Macaulay, read
+      at Bangalore as a young officer. His career is the best modern case of what this track aims
+      at: a statesman formed by history.
+
+  - id: history-27
+    title: "Seminar: Totalitarianism, the Cold War & Civil Rights"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 27
+    prerequisites: [history-26, history-24]
+    related: [rhetoric-08, philosophy-13]
+    summary: >-
+      The second half of the 20th century. The student reads Solzhenitsyn's Gulag Archipelago
+      (abridged) and his Harvard address "A World Split Apart," Kennan's Long Telegram, and
+      Churchill's "Sinews of Peace" (the Iron Curtain), with documents from the Avalon Cold War
+      collection. For civil rights he reads King's "Letter from Birmingham Jail," which argues
+      from Augustine and Aquinas, as the fulfillment of the Declaration–Lincoln–Douglass
+      argument. John Paul II's Centesimus Annus (1991) is the Catholic reading of 1989.
+    objectives:
+      - Read the one-volume Gulag Archipelago and write on how ideology licenses terror
+      - Analyze Kennan's Long Telegram and Churchill's Fulton speech as the founding documents of containment
+      - Read King's Letter entire and trace his use of natural law (Augustine, Aquinas) and the Declaration
+      - Write a 2,500-word essay on Solzhenitsyn's Harvard address as a critique of both East and West
+    coreTexts:
+      - title: The Gulag Archipelago (abridged)
+        author: Aleksandr Solzhenitsyn
+        date: "1973 (abr. 1985)"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-gulag-archipelago-aleksandr-i-solzhenitsyn" }
+      - title: "A World Split Apart (Harvard Commencement Address)"
+        author: Aleksandr Solzhenitsyn
+        date: "1978"
+        publicDomain: false
+        links:
+          - { label: Solzhenitsyn Center, url: "https://www.solzhenitsyncenter.org/a-world-split-apart" }
+      - title: The Long Telegram
+        author: George F. Kennan
+        date: "1946"
+        publicDomain: true
+        links:
+          - { label: Truman Library, url: "https://www.trumanlibrary.gov/library/research-files/telegram-george-kennan-james-byrnes-long-telegram" }
+      - title: The Sinews of Peace ("Iron Curtain")
+        author: Winston Churchill
+        date: "1946"
+        publicDomain: false
+        links:
+          - { label: International Churchill Society, url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
+      - title: Avalon Project — Cold War documents
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/coldwar.asp" }
+      - title: Letter from Birmingham City Jail
+        author: Martin Luther King Jr.
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/letter-from-birmingham-city-jail-excerpts/" }
+      - title: Remarks at the Brandenburg Gate
+        author: Ronald Reagan
+        date: "1987"
+        publicDomain: true
+        links:
+          - { label: Reagan Library, url: "https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin" }
+      - title: Centesimus Annus
+        author: Pope John Paul II
+        date: "1991"
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
+      - title: "Modern History Sourcebook: Bipolar World"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook46.asp" }
+    curriculumOptions:
+      - name: Marxism, Socialism, and Communism (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/marxism-socialism-communism"
+        notes: The theoretical background to the Soviet experience.
+      - name: "Modern Times (Paul Johnson)"
+        publisher: HarperCollins
+        tradition: secular
+        url: "https://www.harpercollins.com/products/modern-times-revised-edition-paul-johnson"
+        notes: The narrative spine for 1917–1990.
+      - name: "The Story of Civilization, Vol. 4: The History of the United States"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/the-story-of-civilization-volume-4-the-history-of-the-united-states/"
+        notes: Catholic narrative of 20th-century America, suited to a lighter treatment.
+    historicalPrecedent: >-
+      King wrote the Letter in the tradition of the Declaration and of Lincoln. He quotes
+      Augustine ("an unjust law is no law at all") and Aquinas. Hillsdale's American Heritage
+      course places the civil-rights movement in that same line of argument from the founding.
+    notes: >-
+      The Birmingham Letter is still under copyright (King Estate). TAH publishes excerpts, and the
+      full text is widely reprinted in anthologies.
+
+  - id: history-28
+    title: "Historiography: How History Is Written — Rollin, Hume, Gibbon, Macaulay, Acton, Dawson & Johnson"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 28
+    prerequisites: [history-21, history-18, history-27]
+    related: [philosophy-13, theology-23]
+    summary: >-
+      The capstone of the high-school cycle is reading the historians as historians. It starts
+      with Rollin's pious-classical Ancient History (the founders' schoolbook), then Hume's
+      skeptical Tory History of England, Gibbon's ironic Decline and Fall, Macaulay's Whig History,
+      and Acton's inaugural Lecture on the Study of History. Dawson's Catholic cultural history and
+      Paul Johnson's popular narrative represent the 20th century. The student learns to detect
+      bias, weigh evidence, understand providential, Whig, Marxist and cultural interpretations,
+      and articulate a Christian view of history that is neither naive nor cynical.
+    objectives:
+      - Read a long passage of each historian and identify his method, sources and assumptions
+      - Compare Hume and Macaulay on the Stuarts, and Gibbon and Dawson on the rise of Christianity
+      - Explain Acton's maxims on the historian's moral judgment
+      - Write a 3,000-word historiographical essay on one event as told by three historians
+    coreTexts:
+      - title: The Ancient History of the Egyptians, Carthaginians, Assyrians… (Vol. 1)
+        author: Charles Rollin
+        date: "1730–38"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28558" }
+      - title: The History of England (Vol. I)
+        author: David Hume
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19211" }
+      - title: The Decline and Fall of the Roman Empire (Vol. 1)
+        author: Edward Gibbon
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/731" }
+      - title: The History of England from the Accession of James II (Vol. 1)
+        author: Thomas Babington Macaulay
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1468" }
+      - title: A Lecture on the Study of History
+        author: Lord Acton
+        date: "1895"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25720" }
+      - title: Religion and the Rise of Western Culture
+        author: Christopher Dawson
+        date: "1950"
+        publicDomain: false
+        links:
+          - { label: Bookshop.org, url: "https://bookshop.org/p/books/religion-and-the-rise-of-western-culture-the-classic-study-of-medieval-civilization-christopher-dawson/96dcbd4312287e31" }
+      - title: A History of the American People
+        author: Paul Johnson
+        date: "1997"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/a-history-of-the-american-people-paul-johnson" }
+      - title: "Modern History Sourcebook: Studying History"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook01.asp" }
+    curriculumOptions:
+      - name: Western Heritage & American Heritage (free online courses)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/western-heritage"
+        notes: Hillsdale's approach of history as the story of liberty under God, taught from sources, is the model for this program.
+      - name: "Christianity and European Culture: Selections from Dawson"
+        publisher: Catholic University of America Press (via Bookshop.org)
+        tradition: catholic
+        url: "https://bookshop.org/p/books/christianity-and-european-culture-selections-from-the-work-of-christopher-dawson-christopher-dawson/92c7e3ae245b86ff"
+        notes: Dawson's essays on the theory of cultural history and on Christian education.
+      - name: "Church History in Plain Language (Shelley)"
+        publisher: Zondervan (via Bookshop.org)
+        tradition: protestant
+        url: "https://bookshop.org/p/books/church-history-in-plain-language-fifth-edition-the-story-of-the-church-for-today-s-readers-bruce-shelley/fb7b9f0bc3c0daa7"
+        notes: A well-regarded evangelical narrative. Read it here as an example of a confessional historian's framing.
+    historicalPrecedent: >-
+      Jefferson warned against Hume's partisan charm and recommended correcting him (to Norvell,
+      1807). Acton's Cambridge lecture (1895) defined the Victorian ideal of the historian as judge.
+      Hillsdale's core curriculum treats the reading of great historians as part of liberal
+      education, not merely a professional skill.
+    sources:
+      - { label: "Jefferson to John Norvell, 11 June 1807", url: "https://founders.archives.gov/documents/Jefferson/99-01-02-5737" }
+
+  # ───────────────────────── COLLEGE (17–18): Hillsdale core ─────────────────────────
+  - id: history-29
+    title: "College: Western Heritage I — From Genesis to the High Middle Ages"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 17.5
+    order: 29
+    prerequisites: [history-28, history-20]
+    related: [literature-31, philosophy-14]
+    summary: >-
+      This course follows Hillsdale College's Western Heritage core: the formation of the West from
+      Israel, Greece and Rome through Christendom, read in primary texts. At college level the
+      student returns to sources read at 12–15 with more maturity. The readings are Genesis and
+      Exodus, Thucydides, Plato's Apology, Aristotle's Politics I, Cicero, Augustine's
+      Confessions and City of God, Benedict's Rule, Magna Carta, and Aquinas on law. Seminar
+      discussion and a 4,000-word research paper using sources in the original language where
+      possible (Latin/Greek).
+    objectives:
+      - Synthesize Jerusalem, Athens and Rome as the sources of Western civilization in a research paper
+      - Read at least one historical source in Latin or Greek (e.g. Livy, Caesar, Thucydides) alongside the translation
+      - Lead a seminar discussion on a primary text
+      - Take the Hillsdale Western Heritage lecture series and pass a comprehensive oral exam on it
+    coreTexts:
+      - title: "Ancient History Sourcebook: Greece; Rome"
+        publicDomain: true
+        links:
+          - { label: Greece, url: "https://sourcebooks.fordham.edu/ancient/asbook07.asp" }
+          - { label: Rome, url: "https://sourcebooks.fordham.edu/ancient/asbook09.asp" }
+      - title: "Medieval Sourcebook: Roman Church; England"
+        publicDomain: true
+        links:
+          - { label: Roman Church, url: "https://sourcebooks.fordham.edu/sbook1e.asp" }
+          - { label: England, url: "https://sourcebooks.fordham.edu/sbook1n.asp" }
+      - title: "The Golden Thread: A History of the Western Tradition, Volume I: The Ancient World and Christendom"
+        author: James Hankins
+        date: "2025"
+        publicDomain: false
+        links:
+          - { label: Encounter Books, url: "https://www.encounterbooks.com/books/golden-thread-history-western-tradition/" }
+    curriculumOptions:
+      - name: "Western Heritage: From the Book of Genesis to John Locke (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/western-heritage"
+        notes: The online version of Hillsdale's required freshman course.
+      - name: Great Books 101 (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/great-books-101"
+        notes: A literary complement to the same span.
+      - name: "Pilgrimage, Vol. 1"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/pilgrimage-volume-1-a-history-of-western-civilization-from-antiquity-to-the-high-middle-ages/"
+        notes: A Catholic narrative of Western civilization to the High Middle Ages. Can serve as the reference text.
+    historicalPrecedent: >-
+      The colonial colleges (Harvard, Yale, William & Mary, King's, the College of New Jersey)
+      taught ancient history through the classical authors themselves in the original. Hillsdale's
+      Western Heritage sequence is the modern descendant, required of every student.
+    notes: >-
+      Hankins's Golden Thread (Encounter Books, 2025) is the narrative spine for the course. A Harvard
+      historian of the Renaissance and the classical tradition, he traces how the Greek, Roman and
+      Judeo-Christian threads were woven together from classical Greece through Christendom to the
+      Renaissance. Read it chapter by chapter alongside the primary sources. Allen Guelzo's Volume II
+      continues the story in history-30.
+
+  - id: history-30
+    title: "College: Western Heritage II — From the Renaissance to the Modern World"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17.5
+    ageEnd: 18
+    order: 30
+    prerequisites: [history-29]
+    related: [literature-32, philosophy-10]
+    summary: >-
+      The second half of the Western Heritage core covers the Renaissance, Reformation, scientific
+      revolution, Enlightenment, the English, American and French revolutions, liberalism and its
+      critics, and the totalitarian century. The primary texts include Machiavelli, Luther and
+      Trent, Hobbes and Locke, Burke and Paine, Tocqueville, Marx, Leo XIII, Churchill and
+      Solzhenitsyn. There is a seminar and a 4,000-word research paper.
+    objectives:
+      - Write a research paper on a modern Western turning point, using at least ten primary sources
+      - Defend in oral examination a thesis about modernity's debt to, and break from, Christendom
+      - Relate the English, American and French revolutions to each other through their founding documents
+    coreTexts:
+      - title: Second Treatise of Government
+        author: John Locke
+        date: "1689"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
+      - title: Leviathan
+        author: Thomas Hobbes
+        date: "1651"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3207" }
+      - title: "Internet Modern History Sourcebook (index)"
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/halsall/mod/modsbook.asp" }
+      - title: "The Golden Thread: A History of the Western Tradition, Volume II: The Modern and Contemporary West"
+        author: Allen C. Guelzo
+        date: "2026"
+        publicDomain: false
+        links:
+          - { label: Encounter Books, url: "https://www.encounterbooks.com/books/golden-thread-history-western-tradition-2/" }
+    curriculumOptions:
+      - name: Great Books 102 (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/great-books-102"
+        notes: Hillsdale lectures from the Renaissance to the modern age.
+      - name: Western Heritage (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/western-heritage"
+        notes: Its later lectures (the Reformation to Locke) open this course.
+      - name: The Dividing of Christendom (Dawson)
+        publisher: Catholic University of America Press (via Bookshop.org)
+        tradition: catholic
+        url: "https://bookshop.org/p/books/the-dividing-of-christendom-christopher-dawson/733ba12d614e7e72"
+        notes: Dawson's Harvard lectures on the Reformation and its aftermath. The Catholic interpretive frame.
+    historicalPrecedent: >-
+      J.S. Mill's father made modern history (Robertson, Hume, Gibbon, Watson) a daily subject from
+      his son's early boyhood. The 19th-century Oxford and Cambridge "Modern History" schools
+      (1850s–1870s) institutionalized the study this course continues.
+    sources:
+      - { label: "J.S. Mill, Autobiography", url: "https://www.gutenberg.org/ebooks/10378" }
+
+  - id: history-31
+    title: "College: American Heritage — From Colonial Settlement to the Present"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 31
+    prerequisites: [history-24, history-27]
+    related: [rhetoric-12, civics-law-17]
+    summary: >-
+      Hillsdale's American Heritage core, taken as the capstone of the American strand. The
+      student makes a documentary study of the whole of American history: the founding
+      principles, their challenge in slavery and the Civil War, the Progressive critique of the
+      founding (Wilson, Croly), the New Deal, and the recovery of constitutionalism. The course
+      reads Constitution 101 and the Federalist in full, Tocqueville Vol. II, and the Teaching
+      American History core documents, and ends in a thesis on an American statesman.
+    objectives:
+      - Read the Federalist entire and Tocqueville Vol. II
+      - Compare the founders' constitutionalism with the Progressive critique, using primary sources
+      - Write a 5,000-word thesis on an American statesman, based on his papers (Founders Online, the Lincoln papers, etc.)
+      - Deliver a 20-minute public lecture on the thesis
+    coreTexts:
+      - title: Democracy in America (Vol. 2)
+        author: Alexis de Tocqueville
+        date: "1840"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
+      - title: Founders Online (papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison, Jay)
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/" }
+      - title: The Papers and Writings of Abraham Lincoln
+        author: Abraham Lincoln
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3253" }
+    curriculumOptions:
+      - name: "American Heritage: From Colonial Settlement to the Current Day (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/american-heritage"
+        notes: The online version of Hillsdale's required American Heritage course.
+      - name: Constitution 101 & 201 (free online courses)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/constitution-201"
+        notes: Constitution 201 covers the Progressive rejection of the founding. Constitution 101 is at /constitution-101.
+      - name: Teaching American History document collections & seminars
+        publisher: Ashland University
+        tradition: classical
+        url: "https://teachingamericanhistory.org/"
+        notes: The core-documents collections are ideal for thesis research.
+    historicalPrecedent: >-
+      The founding-era colleges taught their students the law of nations and the history of free
+      governments so that they could govern (Witherspoon's College of New Jersey produced a
+      president, a vice president and dozens of congressmen). Hillsdale requires American Heritage
+      of every student.
+    sources:
+      - { label: "Hillsdale K-12: Curriculum Overview", url: "https://k12.hillsdale.edu/Curriculum/Overview/" }
+    notes: >-
+      Fold in the John Jay Institute curriculum here when it arrives (see TODO.md).
+
+  - id: history-32
+    title: "College Seminar: Church History from Pentecost to the Present"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17.5
+    ageEnd: 18
+    order: 32
+    prerequisites: [history-18, history-22]
+    related: [theology-23, theology-16]
+    summary: >-
+      A college-level seminar on the history of Christianity. It covers the apostolic and
+      patristic Church, the councils, monasticism, the papacy and empire, the schism of 1054, the
+      mendicants and universities, the Reformation and Catholic Reform, the missions, the Church
+      under revolution and totalitarianism, and Vatican I and II. It is read in documents (Eusebius,
+      conciliar decrees, papal bulls, Reformation confessions, encyclicals) with a Catholic and a
+      Protestant narrative side by side, so the student can explain where and why the traditions'
+      histories diverge.
+    objectives:
+      - Read the decrees of Nicaea, Chalcedon, Trent and Vatican I–II in selection
+      - Compare Catholic (Laux) and Protestant (Shelley) narratives of three contested episodes
+      - Write a 5,000-word research paper on an episode in Church history, using primary sources
+      - Give an account of the development of doctrine (Newman) and its historical use
+    coreTexts:
+      - title: Church History (Eusebius) — Nicene and Post-Nicene Fathers, Ser. 2, Vol. 1
+        author: Eusebius, ed. Schaff & Wace
+        publicDomain: true
+        links:
+          - { label: CCEL, url: "https://www.ccel.org/ccel/schaff/npnf201.html" }
+      - title: Canons and Decrees of the Council of Trent
+        publicDomain: true
+        links:
+          - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent/trentall.html" }
+      - title: "Medieval Sourcebook: Medieval Church; Empire & Papacy"
+        publicDomain: true
+        links:
+          - { label: Empire & Papacy, url: "https://sourcebooks.fordham.edu/sbook1l.asp" }
+    curriculumOptions:
+      - name: "Church History: A History of the Catholic Church to 1940 (Laux)"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/church-history-a-history-of-the-catholic-church-to-1940/"
+        notes: The standard Catholic narrative, with documents.
+      - name: "Church History in Plain Language (Shelley)"
+        publisher: Zondervan (via Bookshop.org)
+        tradition: protestant
+        url: "https://bookshop.org/p/books/church-history-in-plain-language-fifth-edition-the-story-of-the-church-for-today-s-readers-bruce-shelley/fb7b9f0bc3c0daa7"
+        notes: The standard evangelical survey. Read it side by side with Laux.
+      - name: Ancient Christianity & Theology 101 (free online courses)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/theology-101"
+        notes: "Theology 101: The Western Theological Tradition. Pair it with Ancient Christianity (/ancient-christianity)."
+      - name: Kolbe Academy course catalog (Church history & humanities)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic Ignatian classical school with self-paced and live high-school courses. Check the current catalog for its Church history offerings.
+    historicalPrecedent: >-
+      Ecclesiastical history was a standard subject in the colonial colleges, Protestant divinity
+      schools and Jesuit colleges alike, with Eusebius as the first textbook. Newman's Essay on
+      the Development of Christian Doctrine (1845) made the history of the Church a theological
+      question in its own right.
+    notes: >-
+      Neutral note: the seminar deliberately pairs a Catholic and a Protestant narrative. Where
+      they differ (the papacy, the Reformation, the councils), the student states each case from
+      its own sources before judging.

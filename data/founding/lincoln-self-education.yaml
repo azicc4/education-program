@@ -1,0 +1,96 @@
+id: lincoln-self-education
+title: "Abraham Lincoln's Frontier Self-Education (c. 1816–1850s)"
+category: 19th-century-school
+people: [Abraham Lincoln, Mentor Graham, William H. Herndon]
+date: "c. 1816–1850s"
+summary: >-
+  Lincoln reckoned that "the aggregate of all his schooling did not amount to one year." What he learned
+  he "picked up" from a small shelf of books read over and over: the Bible, Aesop, Pilgrim's Progress,
+  Robinson Crusoe and Weems's Life of Washington. To these he added a speller and an arithmetic, then
+  Kirkham's grammar at twenty-three, surveying manuals, the Indiana statutes and Blackstone, and finally
+  Euclid, which he mastered as a congressman and circuit lawyer. His case shows that a few great books,
+  deeply absorbed, can form a statesman's mind and prose. This program adopts his method of rereading,
+  copying and reciting, of self-directed study, and of law and geometry as adult disciplines of reasoning.
+primarySources:
+  - { label: "Lincoln's autobiographies of 1858–60 (to Lanman; to Jesse Fell, 20 Dec. 1859; to John L. Scripps, June 1860), Abraham Lincoln Online", url: "https://www.abrahamlincolnonline.org/lincoln/speeches/autobiog.htm" }
+  - { label: "Address to the New Jersey Senate, Trenton, 21 Feb. 1861 (on Weems's Washington), Abraham Lincoln Online", url: "https://www.abrahamlincolnonline.org/lincoln/speeches/trenton1.htm" }
+  - { label: "Herndon and Weik, Abraham Lincoln: The True Story of a Great Life, vol. 1 (Gutenberg #38483)", url: "https://www.gutenberg.org/ebooks/38483" }
+  - { label: "Herndon and Weik, vol. 2 (Gutenberg #38484)", url: "https://www.gutenberg.org/ebooks/38484" }
+  - { label: "Ida M. Tarbell, The Early Life of Abraham Lincoln (Gutenberg #57555)", url: "https://www.gutenberg.org/ebooks/57555" }
+entries:
+  - text: "Frontier 'A B C schools by littles' (Crawford, Sweeney, Dorsey): teachers needed only 'readin, writin, and cipherin' to the Rule of Three (Fell and Scripps sketches)"
+    search: Lincoln
+    tracks: [reading-phonics, mathematics]
+  - text: "The Bible — kept 'always within reach' with Aesop and read over and over, the source of his figures of speech (Herndon)"
+    search: Bible
+    tracks: [theology, literature, rhetoric]
+  - text: "Aesop's Fables — his other constant book, a store of parables for later speeches"
+    search: Aesop
+    tracks: [literature, character-virtue]
+  - text: "Bunyan, The Pilgrim's Progress"
+    search: Bunyan
+    tracks: [literature, theology]
+  - text: "Defoe, Robinson Crusoe"
+    search: Crusoe
+    tracks: [literature]
+  - text: "Weems, Life of Washington — borrowed from Josiah Crawford, its covers rain-damaged, and paid off by three days of pulling fodder"
+    search: Weems
+    tracks: [history, character-virtue]
+  - text: "Weems again, in 1861: he recalled that nothing 'fixed themselves upon my imagination so deeply' as the struggle at Trenton"
+    search: Washington
+    tracks: [history, civics-law]
+  - text: "A 'History of the United States' (Herndon; unnamed — often identified as Grimshaw's)"
+    search: Grimshaw
+    tracks: [history]
+  - text: "Spellers: Webster's Spelling Book and 'the American Speller' at school (Herndon); Dilworth's speller per other traditions"
+    search: Webster
+    tracks: [reading-phonics]
+  - text: "Pike's Arithmetic — ciphering at school (a page of his boyhood sum-book survives, per Herndon)"
+    search: Pike
+    tracks: [mathematics]
+  - text: "Murray's English Reader — which Lincoln called 'the best school-book ever put into the hands of an American youth' (via Herndon)"
+    search: Murray
+    tracks: [reading-phonics, literature, rhetoric]
+  - text: "Scott's Lessons in Elocution — declamation pieces practiced on stumps and in fields (traditional; not verified here)"
+    search: Scott
+    tracks: [rhetoric]
+  - text: "Franklin's Autobiography (traditional; not verified here)"
+    search: Franklin
+    tracks: [character-virtue, history]
+  - text: "A Louisville newspaper, read as a boy at Gentryville; newspapers remained his daily political education"
+    search: Lincoln
+    tracks: [civics-law, history]
+  - text: "The Revised Statutes of Indiana, borrowed from David Turnham — his first law book, which he 'fairly devoured' (Herndon)"
+    search: Statutes
+    tracks: [civics-law]
+  - text: "Kirkham's English Grammar, fetched on foot on Mentor Graham's advice after he turned twenty-three"
+    search: Kirkham
+    tracks: [grammar-composition]
+  - text: "Surveying: 'procured a compass and chain, studied Flint and Gibson a little' (Scripps sketch)"
+    search: surveying
+    tracks: [mathematics, practical-arts]
+  - text: "Blackstone's Commentaries and Chitty, with law books borrowed from John T. Stuart; 'He studied with nobody' (Scripps sketch)"
+    search: Blackstone
+    tracks: [civics-law, logic]
+  - text: "Euclid: 'studied and nearly mastered the six books of Euclid' as a congressman and circuit lawyer, working by candlelight"
+    search: Euclid
+    tracks: [mathematics, logic]
+  - text: "Shakespeare — a well-worn copy carried on the circuit with his Euclid"
+    search: Shakespeare
+    tracks: [literature, poetry]
+  - text: "Burns and Byron (and Milton) — his favorite poets per Herndon, who otherwise judged his reading in literature narrow"
+    search: Burns
+    tracks: [poetry]
+  - text: "A caution: at New Salem he read Paine, Volney and Voltaire amid local skepticism (Herndon) — early doubts he later outgrew in public faith"
+    search: Paine
+    tracks: [philosophy, theology]
+notes: >-
+  The school count, Kirkham (as "English grammar"), Flint and Gibson, and Euclid come from Lincoln's own
+  1859–60 sketches. The Bible, Aesop, Bunyan, Crusoe, Weems, the United States history, Webster's
+  speller, Pike and Murray, the Indiana statutes, Blackstone and the poets come from Herndon (vols. 1–2)
+  and Tarbell. Dilworth's speller, Scott's Lessons in Elocution, Grimshaw's History, and Franklin's
+  Autobiography are standard in Lincoln scholarship (from Herndon's informant interviews) but were not
+  confirmed in the texts I could check, so treat them as traditional. The last clause of the Paine entry
+  is an interpretive gloss. I could not reach the Collected Works at quod.lib.umich.edu (blocked by a bot
+  check), and did not locate National Park Service or Library of Congress pages on his reading, so none
+  are linked.

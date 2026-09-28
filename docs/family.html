@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family · Formation Program</title>
+  <meta name="description" content="Track each child's progress, see next assignments, keep a Bookshelf of Knowledge, and look ahead to the texts you need.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Formation Program<small>Classical education from birth to the founding of a life</small></a>
+      <nav class="nav" aria-label="Views">
+        <a href="index.html">Curriculum</a>
+        <a href="tree.html">Skill Tree</a>
+        <a href="founding.html">Founding-Era Reading</a>
+        <a href="family.html" aria-current="page">Family</a>
+      </nav>
+      <button type="button" class="theme-toggle">☾ Dark</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="family-top">
+      <div class="chips" id="children" role="tablist" aria-label="Children"></div>
+      <button type="button" class="chip" id="add-child-toggle">+ Add child</button>
+    </div>
+    <form class="panel-card" id="add-child" hidden>
+      <h2>Add a child</h2>
+      <div class="form-row">
+        <label>Name <input name="name" required autocomplete="off"></label>
+        <label>Birthdate <input name="birthdate" type="date" required></label>
+      </div>
+      <label class="check"><input type="checkbox" name="place" checked> Mark every unit that normally ends before this child's current age as completed (you can adjust each track's placement afterward)</label>
+      <div class="form-actions"><button type="submit" class="btn">Add child</button> <button type="button" class="linkish" id="add-child-cancel">Cancel</button></div>
+    </form>
+
+    <div class="tabs" role="tablist" aria-label="Views">
+      <button type="button" role="tab" data-tab="next">Next assignments</button>
+      <button type="button" role="tab" data-tab="shelf">Bookshelf of Knowledge</button>
+      <button type="button" role="tab" data-tab="ahead">Look Ahead</button>
+      <button type="button" role="tab" data-tab="place">Placement &amp; settings</button>
+    </div>
+    <section id="view"></section>
+
+    <details class="panel-card backup">
+      <summary>Backup &amp; move to another device</summary>
+      <p class="desc">Progress is saved in this browser only. Export a backup file regularly, and import it on another device or browser to continue there.</p>
+      <div class="form-actions">
+        <button type="button" class="btn" id="export">Export backup</button>
+        <label class="btn secondary">Import backup <input type="file" id="import" accept="application/json,.json" hidden></label>
+      </div>
+      <p class="desc" id="storage-warning" hidden>This browser is blocking storage, so changes will be lost when you close the page. Export a backup before leaving.</p>
+    </details>
+  </main>
+
+  <script src="data/curriculum.js"></script>
+  <script src="assets/store.js"></script>
+  <script src="assets/common.js"></script>
+  <script src="assets/family.js"></script>
+</body>
+</html>

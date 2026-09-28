@@ -1,0 +1,15 @@
+{
+  "name": "education-program",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A classical, track-based formation program from birth through early college.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

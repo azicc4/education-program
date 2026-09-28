@@ -1,0 +1,120 @@
+id: madison-congress-list-1783
+title: "James Madison's Books for Congress (1783) and His Course of Study (1769–1786)"
+category: founder-letter
+people: [James Madison, John Witherspoon, Thomas Martin, William Bradford, Thomas Jefferson]
+date: "1769–1786"
+summary: >-
+  On 23 January 1783 a committee chaired by James Madison (with Hugh Williamson and Thomas
+  Mifflin) gave Congress a list of books "proper for the use of Congress". It runs from the
+  law of nature and nations (Grotius, Pufendorf, Vattel, Burlamaqui, Wolff) through
+  diplomacy, history of every nation, and politics (Plato, Aristotle, Hooker, Sidney, Locke,
+  Montesquieu, Hume, Smith) to a large collection on America. Congress rejected it as too
+  costly. Madison's letters show where this learning came from: Horace and prosody on
+  entering Princeton, history and moral science with "a little divinity", then his requests
+  to Jefferson in Paris for books on "ancient or modern federal republics". Those books fed
+  his 1786 notes on ancient and modern confederacies, used in preparing for the 1787
+  Convention. This program uses the 1783 list as the model reading shelf for its civics-law
+  and history tracks at the college level.
+primarySources:
+  - { label: "Report on a list of books proper for the use of Congress, 23–24 Jan 1783, printed in Journals of the Continental Congress, vol. 24, pp. 83–92 (Archive.org)", url: "https://archive.org/details/journalsofcontin24unit" }
+  - { label: "The Writings of James Madison, ed. Gaillard Hunt, vol. 1, 1769–1783 (Archive.org): Princeton letters, Bradford letters, Notes of Debates 23 Jan 1783", url: "https://archive.org/details/writingsjames01madirich" }
+  - { label: "The Writings of James Madison, ed. Gaillard Hunt, vol. 2, 1783–1787 (Archive.org): letters to Jefferson; Of Ancient & Modern Confederacies", url: "https://archive.org/details/writingsjames02madirich" }
+entries:
+  # --- The 1783 list ---
+  - text: "Law of nature and nations: Grotius, De Jure Belli ac Pacis, and Mare Liberum (answered by Selden's Mare Clausum)"
+    search: Grotius
+    tracks: [civics-law, philosophy]
+  - text: "Law of nature and nations: Pufendorf's Law of Nature and Nations with Barbeyrac's notes, and De Officio Hominis et Civis"
+    search: Pufendorf
+    tracks: [civics-law, philosophy]
+  - text: "Law of nature and nations: Vattel's Law of Nations and Burlamaqui's Principles of Natural Law"
+    search: Vattel
+    tracks: [civics-law]
+  - text: "Law of nature and nations: Wolff, Cumberland, Cudworth's Intellectual System, Hutcheson's Moral Philosophy, Ferguson, and Rutherforth's Institutes of Natural Law"
+    search: Burlamaqui
+    tracks: [civics-law, philosophy]
+  - text: "Treaties and negotiation: Wicquefort's The Ambassador, Bynkershoek on ambassadors, the Corps diplomatique, Rymer's Foedera, Mably's Public Law of Europe"
+    search: Mably
+    tracks: [civics-law, history]
+  - text: "Universal history: Raleigh's History of the World, Voltaire, Bayle's Dictionary, Mosheim's Ecclesiastical History, Blair's Chronological Tables"
+    search: Raleigh
+    tracks: [history, theology]
+  - text: "Grecian and Roman history: Stanyan's and Goldsmith's Greece, Potter's Grecian Antiquities, Vertot's Revolutions of Rome, Gibbon, Kennet's Roman Antiquities"
+    search: Gibbon
+    tracks: [history]
+  - text: "Plutarch's Lives, filed under Roman history on the 1783 list"
+    search: Plutarch
+    tracks: [history, character-virtue]
+  - text: "Modern republics and states: Guicciardini, Paolo Sarpi on Venice, Grotius on the Low Countries, De Witt's State of Holland, Stanyan's Switzerland"
+    search: Guicciardini
+    tracks: [history]
+  - text: "British history: Hume, Rapin, Clarendon, Ludlow's Memoirs, Rushworth, and the parliamentary history and debates"
+    search: Hume
+    tracks: [history]
+  - text: "Politics, ancient and Renaissance: Plato's Republic (Spens's translation), Aristotle's Politics, More's Utopia, Machiavelli"
+    search: Plato
+    tracks: [philosophy, civics-law]
+  - text: "Politics, English: Hooker's Ecclesiastical Polity, Filmer, Hobbes, Harrington, Sidney and Locke on government"
+    search: Locke
+    tracks: [civics-law, philosophy, theology]
+  - text: "Politics, Enlightenment: Montesquieu, Beccaria, Montagu's Rise and Fall of the Antient Republicks, Hume's political essays, Ferguson's History of Civil Society"
+    search: Montesquieu
+    tracks: [civics-law]
+  - text: "Political economy: Smith's Wealth of Nations, Steuart, Petty's Political Arithmetic, Locke on money, Necker on finance"
+    search: Smith
+    tracks: [economics]
+  - text: "Law: Justinian's Institutes, Domat's Civil Law, Coke's Institutes, Blackstone's Commentaries, Lex Parliamentaria"
+    search: Blackstone
+    tracks: [civics-law]
+  - text: "War and marine: Vauban, Belidor, Falconer's Marine Dictionary, Burchett's Naval History, the Ordinances of Marine of France"
+    search: Vauban
+    tracks: [practical-arts, history]
+  - text: "Languages: the best Latin dictionary, with the best grammar and dictionary of each modern language"
+    search: dictionary
+    tracks: [latin, spanish]
+  - text: "America: Hakluyt, Purchas, Champlain, Charlevoix, Lafitau, Cotton Mather, Hutchinson's Massachusetts, Beverley and Stith on Virginia, Franklin, Colden's Five Nations"
+    search: Hakluyt
+    tracks: [history]
+  - text: "Spanish America: Garcilaso de la Vega on Florida and the Incas, Herrera, Solís's Conquest of Mexico, Las Casas, Ulloa"
+    search: Garcilaso
+    tracks: [history, spanish]
+  - text: "Madison's case for the list (Notes of Debates, 23 Jan 1783): Congress needs the law of nations and treaties to hand, and American records are 'every day becoming extinct'"
+    search: law of nations
+    tracks: [civics-law, history]
+  # --- Madison's own studies ---
+  - text: "Princeton (to Rev. Thomas Martin, 1769): entering Nassau Hall, he has 'read over more than half Horace' and learned prosody"
+    search: Horace
+    tracks: [latin, poetry]
+  - text: "To William Bradford (1772): a 'judicious choice' of history and the science of morals for winter study, seasoned 'with a little divinity'"
+    search: Bradford
+    tracks: [history, philosophy, theology]
+  - text: "To Bradford (1774): poetry, wit, criticism, romances and plays 'deserve but a small portion' of a mature scholar's time, and something more substantial is needed"
+    search: Bradford
+    tracks: [literature, character-virtue]
+  - text: "To Bradford (1774): religious establishments 'tend to great ignorance and corruption'. His early case for religious liberty"
+    search: religious liberty
+    tracks: [civics-law, theology]
+  - text: "To Jefferson (1784): wants anything on 'the general constitution & droit public' of past confederacies (Dutch, German, Helvetic), plus Bynkershoek and Wolff"
+    search: Bynkershoek
+    tracks: [civics-law, history]
+  - text: "To Jefferson (1785): wants treatises on 'ancient or modern federal republics', the law of nations, the New World, Greek and Roman authors beyond school classics, Pascal's Provincial Letters, Ulloa in Spanish"
+    search: Pascal
+    tracks: [civics-law, history, theology]
+  - text: "To Jefferson (1786): receives the 'literary cargo' from Paris, including the Encyclopédie méthodique and Buffon's Histoire naturelle"
+    search: Buffon
+    tracks: [natural-science, history]
+  - text: "Of Ancient and Modern Confederacies (1786): pocket notes on the Lycian, Amphictyonic, Achaean, Helvetic, Belgic and Germanic leagues, drawing on Montesquieu, Strabo, Polybius, Plutarch, Demosthenes, Temple, Mably, Felice and Stanyan"
+    search: Polybius
+    tracks: [history, civics-law, greek]
+notes: >-
+  The 1783 list is quoted from the Journals of the Continental Congress, vol. 24 (1922),
+  whose editors print it from Madison's manuscript (PCC No. 19). Madison's own Notes of
+  Debates record that the report and a narrower fallback motion were both voted down on
+  cost. The Founders Online edition of the report, in The Papers of James Madison vol. 6,
+  could not be verified: the site sits behind a bot challenge and the web search quota ran
+  out. It is left out and should be added once its URL is confirmed. Hunt prints the
+  Confederacies notes under 1787. Modern editors date them to spring 1786. Not verified
+  and left out: Madison's Commonplace Book; direct evidence of Witherspoon's lectures or
+  his post-graduate Hebrew study with Witherspoon (1771–72); and the full list of
+  Princeton texts. Hunt's volume 1 chronology confirms only his schooling under Donald
+  Robertson, then Rev. Thomas Martin, then Princeton 1769–72.

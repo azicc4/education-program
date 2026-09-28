@@ -1,0 +1,812 @@
+track: practical-arts
+title: Practical Arts
+trackGroup: Founder Skills
+description: >-
+  The hands-on competencies of the founders, who were farmers, surveyors, printers, planters, builders
+  and merchants as well as scholars. The track moves from household help in early childhood (2–6) to the
+  domestic and farm arts of the grammar years (6–11): the kitchen garden, cooking, sewing and mending,
+  sloyd woodworking, and keyboarding. Next come the skilled trades and professional arts of the
+  logic and rhetoric years (10–16). These are Spencerian penmanship and correspondence, animal
+  husbandry, surveying and map-making on Washington's model, joinery, first aid, double-entry
+  bookkeeping, running a small enterprise on Franklin's model, celestial navigation and sailing,
+  architecture and drafting on Jefferson's model, and household and automotive mechanics with
+  driving. It closes with public service, apprenticeship under a professional mentor, and a
+  college-level course in estate and household management (15–18). Each row ends in a real product or
+  certification: a garden harvest, a hand-cut dovetail box, a plat of a surveyed field, a balanced
+  ledger, a CPR card, a noon sight, a measured drawing, a driver's license. The end state is a young
+  adult who can feed, clothe, house, doctor, transport and account for himself and a household, run a
+  small enterprise, and serve his community in an emergency.
+rows:
+  - id: practical-arts-01
+    title: "Practical Life at Home: Chores and Household Help"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6.5
+    order: 1
+    prerequisites: []
+    related: [early-development-13, economics-01, character-virtue-01]
+    summary: >-
+      Toddlers want to help, and a child-sized broom, pitcher, trowel and apron let them. Montessori
+      "practical life" work (pouring, sweeping, washing vegetables, folding cloths, watering plants) builds
+      fine-motor control, concentration and order. Real family chores build responsibility. By six a child
+      can set the table, make his bed, help cook, weed, feed animals, and hand tools to a parent doing
+      repairs.
+    objectives:
+      - Carry out daily self-care and tidying without prompting (dressing, bed, toys, dishes to the sink)
+      - Help with food preparation (washing, stirring, spreading, cutting soft foods with a child-safe knife)
+      - Care for a plant or pet on a daily schedule
+      - Hold and pass common hand tools safely while helping an adult
+    notes: >-
+      Pay is not given for ordinary family chores, which are part of belonging to the household. Extra jobs
+      can earn money (see economics-01).
+
+  - id: practical-arts-02
+    title: "The Kitchen Garden"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 9
+    order: 2
+    prerequisites: [practical-arts-01]
+    related: [natural-science-02, natural-science-04]
+    summary: >-
+      The child plants and keeps his own raised bed or plot through a full season. He starts seeds, plans
+      the spacing, waters, weeds, composts, harvests, and saves seed. Like Jefferson, he keeps a garden book
+      recording what was planted, when it came up, and when it was first ready for the table, and each year
+      he compares results with the year before.
+    objectives:
+      - Plan a garden bed on graph paper with spacing and a planting calendar
+      - Grow at least six vegetables and herbs from seed to harvest
+      - Keep a dated garden journal of sowing, germination, harvest and weather
+      - Build and turn a compost pile; save seed from one open-pollinated plant
+    coreTexts:
+      - title: "Thomas Jefferson's Garden Book (manuscript facsimile, 1766–1824)"
+        author: Thomas Jefferson
+        date: 1766–1824
+        publicDomain: true
+        links:
+          - { label: Massachusetts Historical Society, url: "https://www.masshist.org/thomasjeffersonpapers/garden/" }
+    curriculumOptions:
+      - name: Junior Master Gardener
+        publisher: Texas A&M AgriLife Extension
+        tradition: secular
+        url: "https://jmgkids.us/"
+        notes: A youth gardening curriculum with certification levels; run through extension offices or at home.
+      - name: 4-H (local club projects in gardening and plant science)
+        publisher: National 4-H Council
+        tradition: secular
+        url: "https://4-h.org/"
+      - name: Gardening Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/gardening/"
+    historicalPrecedent: >-
+      Jefferson kept his Garden Book for almost sixty years (1766–1824), recording plantings and first
+      harvests at Shadwell and Monticello. In retirement he wrote to Charles Willson Peale (1811), "tho'
+      an old man, I am but a young gardener."
+    sources:
+      - { label: "Jefferson to Charles Willson Peale, 20 Aug. 1811 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/03-04-02-0090" }
+
+  - id: practical-arts-03
+    title: "Cooking and Baking"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 12
+    order: 3
+    prerequisites: [practical-arts-01]
+    related: [mathematics-06]
+    summary: >-
+      A graded kitchen apprenticeship. It begins with knife safety, measuring and following a recipe
+      (fractions in use), then moves to eggs, bread, soups, a roast, vegetables from the garden, preserving,
+      and finally planning, budgeting and cooking a full family dinner. Historic American cookbooks are
+      cooked from alongside modern ones; Mary Randolph's The Virginia House-Wife was written by the sister
+      of Jefferson's son-in-law.
+    objectives:
+      - Use a chef's knife safely and master basic cuts
+      - Measure accurately and double or halve a recipe
+      - Bake a loaf of yeast bread and a pie from scratch
+      - Can or preserve one garden crop safely
+      - Plan, shop for within a budget, and cook a three-course dinner for the family
+    coreTexts:
+      - title: "The Virginia House-Wife; or, Methodical Cook"
+        author: Mary Randolph
+        date: "1824"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12519" }
+      - title: The Boston Cooking-School Cook Book
+        author: Fannie Merritt Farmer
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/65061" }
+      - title: "Miss Beecher's Domestic Receipt Book"
+        author: Catharine Beecher
+        date: "1846"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/54965" }
+    curriculumOptions:
+      - name: Cooking Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/cooking/"
+        notes: Includes meal planning, nutrition and camp cooking requirements.
+    historicalPrecedent: >-
+      Fannie Farmer's cookbook grew out of the Boston Cooking School. It is often credited with bringing
+      level, standardized measurements into American home cooking.
+
+  - id: practical-arts-04
+    title: "Needle and Thread: Sewing, Mending and Knots"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 7.5
+    ageEnd: 10
+    order: 4
+    prerequisites: [practical-arts-01]
+    related: [physical-training-04]
+    summary: >-
+      Every boy and girl should be able to mend his own clothes. The unit runs from threading a needle and
+      the running, back and whip stitches, to sewing on buttons, hemming, darning a sock, patching jeans,
+      and a first sewing-machine project such as an apron or tote bag. Essential knots (square knot,
+      bowline, clove hitch, taut-line hitch, sheet bend) are learned alongside for camping and sailing.
+    objectives:
+      - Sew on a button, repair a seam, and hem a pair of trousers by hand
+      - Darn a sock and patch a hole
+      - Complete a simple machine-sewn project from a pattern
+      - Tie and state the use of six essential knots from memory
+    coreTexts:
+      - title: Encyclopedia of Needlework
+        author: Thérèse de Dillmont
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20776" }
+      - title: "Beeton's Book of Needlework"
+        author: Isabella Beeton
+        date: "1870"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15147" }
+
+  - id: practical-arts-05
+    title: "Sloyd: First Woodworking"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 11
+    order: 5
+    prerequisites: [practical-arts-01]
+    related: [mathematics-04, natural-science-10]
+    summary: >-
+      Sloyd is the Scandinavian system of educational handwork. A graded series of useful wooden objects,
+      each harder than the last (a plant label, a flower stick, a coat hanger, a cutting board, a spoon, a
+      box), teaches knife, saw, plane and chisel skills, accurate measurement, and the habit of finishing
+      work well. It was designed for children and uses real, sharp tools under close supervision.
+    objectives:
+      - Use a sloyd knife, crosscut and rip saws, block plane, chisel, brace and bit, and hand drill safely
+      - Measure and mark to 1/16 inch and cut to a line
+      - Complete a graded series of eight or more sloyd models
+      - Sharpen a knife and a chisel on stones
+    coreTexts:
+      - title: "The Teacher's Handbook of Slöjd, as Practised and Taught at Nääs"
+        author: Otto Salomon
+        date: "1892"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/teachershandbook00salo" }
+    curriculumOptions:
+      - name: Woodwork Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/woodwork/"
+    historicalPrecedent: >-
+      Otto Salomon's teacher-training school at Nääs, Sweden (from 1875), trained teachers from around
+      the world. Sloyd spread into American schools in the 1880s–1890s, notably through Gustaf Larsson's
+      Sloyd Training School in Boston.
+
+  - id: practical-arts-06
+    title: "Typing and Computing Basics"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 11
+    order: 6
+    prerequisites: []
+    related: [natural-science-08]
+    summary: >-
+      Touch typing is the modern clerk's hand, and it should be learned properly once rather than badly
+      forever. The student reaches 40 or more words per minute by touch. He learns file management, word
+      processing and a spreadsheet (used for the garden and business ledgers), and the basics of online
+      safety and privacy. A first taste of programming in Scratch leads into the Programming track.
+    objectives:
+      - Type 40+ words per minute by touch with 95% accuracy
+      - Create, format and save documents and organize files in folders
+      - Build a simple spreadsheet with formulas (a budget or garden log)
+      - Explain basic rules of online safety, passwords and privacy
+      - Complete a small Scratch project
+    curriculumOptions:
+      - name: Typing.com (free)
+        publisher: Typing.com
+        tradition: secular
+        url: "https://www.typing.com/"
+      - name: Scratch (free)
+        publisher: MIT Media Lab
+        tradition: secular
+        url: "https://scratch.mit.edu/"
+    notes: >-
+      Keep screen time purposeful and supervised. The early-development track's screen guidance still
+      applies in spirit.
+
+  - id: practical-arts-07
+    title: "Spencerian Penmanship and the Art of Correspondence"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 9.5
+    ageEnd: 13
+    order: 7
+    prerequisites: []
+    related: [grammar-composition-01, grammar-composition-08, fine-arts-03]
+    summary: >-
+      After ordinary cursive is mastered, the student learns the ornamental American hand, Spencerian
+      script, from the Mott Media reprint copybooks. He then studies the eighteenth-century round hand
+      (copperplate) from Bickham's Universal Penman. Fine penmanship is put to work in real letters:
+      thank-you notes, letters to grandparents, business letters, and letters to a mentor. The models are
+      Chesterfield's letters of advice to his son and Jefferson's to his nephew Peter Carr.
+    objectives:
+      - Write Spencerian lowercase and capitals legibly with correct slant and proportion
+      - Write a page of copperplate with a pointed pen and ink
+      - Write and mail at least one letter a month for a year (personal, business, and to a public official)
+      - Know the conventions of heading, salutation, body, complimentary close and envelope address
+    coreTexts:
+      - title: Spencerian Key to Practical Penmanship
+        author: H. C. Spencer
+        date: "1866"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/cu31924029485467" }
+      - title: The Universal Penman
+        author: George Bickham
+        date: "1743"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_the-universal-penman-en_bickham-george_1743" }
+      - title: Letters to His Son
+        author: Philip Dormer Stanhope, Earl of Chesterfield
+        date: "1774"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3361" }
+      - title: "Thomas Jefferson to Peter Carr, 19 August 1785"
+        author: Thomas Jefferson
+        date: "1785"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+    curriculumOptions:
+      - name: Spencerian Penmanship Set (Theory Book and five copybooks)
+        publisher: Mott Media
+        tradition: classical
+        url: "https://www.mottmedia.com/product-page/spencerian-penmanship-set-six-books"
+        notes: A faithful reprint of the nineteenth-century Spencerian system, suited to ages 9 and up.
+      - name: IAMPETH (free lessons in Spencerian and engrosser's script)
+        publisher: International Association of Master Penmen, Engrossers and Teachers of Handwriting
+        tradition: secular
+        url: "https://www.iampeth.com/"
+    historicalPrecedent: >-
+      Platt Rogers Spencer's system was the standard American business and school hand from the 1850s
+      until the Palmer Method replaced it in the early twentieth century. Bickham's Universal Penman
+      (1733–41) collected the round hands used by English and colonial clerks and merchants in the
+      founders' generation.
+    notes: >-
+      Chesterfield's letters are excellent on manners, style and the use of time, but Samuel Johnson and
+      others criticized some of their moral advice. Read them selectively and discuss.
+
+  - id: practical-arts-08
+    title: "Animal Husbandry and the Small Farm"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 13
+    order: 8
+    prerequisites: [practical-arts-02]
+    related: [natural-science-02, natural-science-09]
+    summary: >-
+      The student takes full responsibility for productive animals: a laying flock of hens, then rabbits,
+      goats, a beehive or a 4-H market animal. He handles feeding, housing, health, breeding, butchering
+      or sale, and keeps records of costs and production on the model of Jefferson's Farm Book. Rural
+      families can add field crops and rotation. Town families can use 4-H, a neighbor's farm or a
+      community garden.
+    objectives:
+      - Raise a laying flock (or equivalent) for a year, keeping records of feed, eggs and costs
+      - Recognize common signs of illness and parasites and know when to call a veterinarian
+      - Explain crop rotation, soil fertility and the farm year
+      - Show an animal or project at a county fair or 4-H event
+    coreTexts:
+      - title: "Thomas Jefferson's Farm Book (manuscript facsimile, 1774–1824)"
+        author: Thomas Jefferson
+        date: 1774–1824
+        publicDomain: true
+        links:
+          - { label: Massachusetts Historical Society, url: "https://www.masshist.org/thomasjeffersonpapers/farm/" }
+    curriculumOptions:
+      - name: 4-H animal science projects
+        publisher: National 4-H Council
+        tradition: secular
+        url: "https://4-h.org/"
+        notes: The standard youth program for livestock projects, run through county extension offices.
+      - name: Animal Science Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/animal-science/"
+    historicalPrecedent: >-
+      Washington and Jefferson were serious experimental farmers who experimented with crop rotation,
+      new plows and livestock breeding and corresponded about them.
+    notes: >-
+      Jefferson's Farm Book is also the record of the enslaved people who worked Monticello: their names,
+      rations and assignments. Read it honestly as both an agricultural record and a primary source on
+      slavery.
+
+  - id: practical-arts-09
+    title: "Surveying, Map-Making and Orienteering"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 14
+    order: 9
+    prerequisites: []
+    related: [mathematics-15, physical-training-04]
+    summary: >-
+      Washington's first profession, and a practical application of geometry and trigonometry. The student
+      learns to use map and compass and competes in orienteering. He reads USGS topographic maps, then
+      surveys a real field with a chain (a 66-foot Gunter's chain, or a tape), a compass or transit, and
+      field notes, following Gibson's Treatise, the colonial surveyor's manual. He computes the area and
+      draws a plat to scale, and compares it with a GPS survey and the county's recorded plat.
+    objectives:
+      - Take and follow bearings with a baseplate compass and complete an orienteering course
+      - Read contour lines and plan a route on a topographic map
+      - Run a closed traverse with chain and compass, keep field notes, and compute the error of closure
+      - Compute the area of an irregular field in acres and draw a plat to scale
+      - Explain Gunter's chain (66 feet, 100 links; 10 square chains = 1 acre) and the rectangular survey system
+    coreTexts:
+      - title: A Treatise of Practical Surveying
+        author: Robert Gibson
+        date: "1789 (Philadelphia ed.)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/treatiseofpracti00gibs" }
+    curriculumOptions:
+      - name: Surveying Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/surveying/"
+      - name: Orienteering Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/orienteering/"
+      - name: Orienteering USA (clubs and meets)
+        publisher: Orienteering USA
+        tradition: secular
+        url: "https://orienteeringusa.org/"
+    historicalPrecedent: >-
+      Washington studied surveying as a teenager, joined a Fairfax survey party in the Shenandoah in 1748,
+      and in 1749, at seventeen, was commissioned by the College of William and Mary as surveyor of the
+      new Culpeper County. He completed his first survey, a 400-acre tract, within two days. Jefferson's
+      father Peter was a surveyor who helped draw the Fry–Jefferson map of Virginia (1751).
+    sources:
+      - { label: "Mount Vernon: Surveying (Digital Encyclopedia)", url: "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/surveying" }
+      - { label: "USGS: Topographic Maps", url: "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps" }
+
+  - id: practical-arts-10
+    title: "Joinery and Carpentry"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11.5
+    ageEnd: 15
+    order: 10
+    prerequisites: [practical-arts-05]
+    related: [mathematics-10]
+    summary: >-
+      From sloyd to real furniture and building. The student learns to flatten and square stock by hand,
+      then cut the classic joints: mortise and tenon, through and half-blind dovetails, rabbets and dados.
+      He builds a tool chest, a bench or bookcase, and a Shaker-style table, and then joins a real
+      carpentry project such as a shed, a deck or a church repair. The Joiner and Cabinet Maker (1839)
+      follows a fictional English apprentice through his first projects and is the model.
+    objectives:
+      - Sharpen and set up a hand plane; flatten, joint and thickness a board by hand
+      - Cut mortise-and-tenon and dovetail joints that fit off the saw
+      - Build a dovetailed tool chest from a drawing
+      - Frame a small structure (shed or playhouse) with a crew, including layout, squaring and roof pitch
+    curriculumOptions:
+      - name: The Joiner and Cabinet Maker (1839 text with modern project commentary)
+        publisher: Lost Art Press
+        tradition: secular
+        url: "https://lostartpress.com/products/the-joiner-and-cabinet-maker-1"
+        notes: An 1839 apprentice's manual, reprinted with step-by-step modern builds of its three projects.
+      - name: The Essential Woodworker (Robert Wearing)
+        publisher: Lost Art Press
+        tradition: secular
+        url: "https://lostartpress.com/products/the-essential-woodworker"
+        notes: A clear English manual of hand-tool technique for the beginner.
+      - name: Woodwork Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/woodwork/"
+
+  - id: practical-arts-11
+    title: "First Aid, CPR and Emergency Readiness"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 14
+    order: 11
+    prerequisites: []
+    related: [natural-science-11, physical-training-09]
+    summary: >-
+      A citizen should be able to help in the first minutes of an emergency. The student earns a
+      certification in first aid, CPR and AED use. He learns to control bleeding (tourniquet use), treat
+      shock, splint fractures, and handle burns, choking, heat and cold injuries, and allergic reactions.
+      He builds a home and car emergency kit and a family emergency plan. Wilderness first aid follows
+      for older teens who camp and hunt.
+    objectives:
+      - Earn a current certification in first aid, CPR and AED (Red Cross or AHA)
+      - Demonstrate bleeding control, including a tourniquet, and the recovery position
+      - Assemble and maintain a home first-aid kit and a family emergency plan
+      - Complete a wilderness first-aid course by age 16 if camping or hunting
+    curriculumOptions:
+      - name: First Aid / CPR / AED courses
+        publisher: American Red Cross
+        tradition: secular
+        url: "https://www.redcross.org/take-a-class/first-aid"
+      - name: CPR and First Aid courses (Heartsaver)
+        publisher: American Heart Association
+        tradition: secular
+        url: "https://cpr.heart.org/"
+      - name: First Aid Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/first-aid/"
+
+  - id: practical-arts-12
+    title: "Double-Entry Bookkeeping"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 12
+    prerequisites: [practical-arts-06]
+    related: [economics-05, mathematics-07]
+    summary: >-
+      The merchant's art since Venice. The student learns journal, ledger and trial balance by hand from
+      the historical texts: Pacioli's 1494 treatise (in translation) and the nineteenth-century American
+      bookkeeping manuals. He then keeps the books of his own enterprise and the family's accounts in a
+      spreadsheet and in accounting software. The course ends with reading and preparing a balance sheet,
+      an income statement and a cash-flow statement.
+    objectives:
+      - Record transactions in a journal, post to a ledger, and take a trial balance by hand
+      - Explain debits, credits, assets, liabilities, equity, revenue and expenses
+      - Prepare a balance sheet and income statement for a small business
+      - Keep the books of a real enterprise (his own or the family's) for at least six months
+    coreTexts:
+      - title: "Ancient Double-Entry Bookkeeping: Lucas Pacioli's Treatise (1494), trans. J. B. Geijsbeek"
+        author: Luca Pacioli
+        date: 1494 / 1914
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/ancientdoubleent00geijuoft" }
+      - title: The Science of Double-Entry Book-Keeping
+        author: C. C. Marsh
+        date: "1841"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/scienceofdoublee00marsrich" }
+      - title: "Duff's Book-Keeping by Single and Double Entry"
+        author: P. Duff
+        date: "1868"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/duffsbookkeeping00duffuoft" }
+    historicalPrecedent: >-
+      Franklin's Autobiography praises the widow of his Charleston printing partner. Born and bred in
+      Holland, "where... the knowledge of accounts makes a part of female education," she sent him clear
+      accounts, ran the business profitably, and bought it for her son. Franklin draws the lesson that
+      accounts should be taught to young women as well as young men.
+    sources:
+      - { label: "Autobiography of Benjamin Franklin (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/20203" }
+
+  - id: practical-arts-13
+    title: "Running a Small Enterprise: Franklin's Apprenticeship and the Junto"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 13
+    prerequisites: [practical-arts-12]
+    related: [economics-05, economics-06, civics-law-07]
+    summary: >-
+      The student starts and runs a real business for at least a year, such as lawn care, tutoring,
+      woodworking commissions, eggs and produce, or web design. He writes a business plan, prices his
+      work, finds customers, keeps double-entry books, files any required paperwork and taxes, and reports
+      to a family board. He reads Franklin's Autobiography as the story of an apprentice who became a
+      master, and he forms a Junto of peers that meets monthly to discuss its standing queries.
+    objectives:
+      - Write a one-page business plan with costs, pricing, market and break-even point
+      - Operate a business for 12 months with books, invoices and a year-end profit and loss statement
+      - Handle customers professionally (quotes, contracts, complaints, collections)
+      - Found or join a peer Junto and lead at least one meeting using the standing queries
+    coreTexts:
+      - title: Autobiography of Benjamin Franklin
+        author: Benjamin Franklin
+        date: 1771–1790
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
+      - title: Standing Queries for the Junto
+        author: Benjamin Franklin
+        date: "1732"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Franklin/01-01-02-0088" }
+    curriculumOptions:
+      - name: Entrepreneurship Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/entrepreneurship/"
+      - name: Junior Achievement (Company Program and entrepreneurship programs)
+        publisher: Junior Achievement USA
+        tradition: secular
+        url: "https://jausa.ja.org/"
+        notes: Availability depends on local chapters and schools.
+    historicalPrecedent: >-
+      Franklin was bound apprentice at twelve to his brother James, a Boston printer, and left at
+      seventeen. By twenty-two he had his own Philadelphia printing house. In 1727 he founded the Junto,
+      a club of young tradesmen for "mutual improvement" that met weekly to debate set questions on
+      morals, politics and natural philosophy. The Junto later gave rise to the Library Company and the
+      American Philosophical Society.
+
+  - id: practical-arts-14
+    title: "Celestial Navigation and Sailing"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 16
+    order: 14
+    prerequisites: [practical-arts-09, practical-arts-04]
+    related: [mathematics-15, natural-science-15, physical-training-09]
+    summary: >-
+      The student learns small-boat sailing (rigging, points of sail, tacking and jibing, capsize
+      recovery, rules of the road) and coastal piloting with charts, then celestial navigation from
+      Bowditch's American Practical Navigator. He learns sextant use, the noon sight for latitude, time
+      and longitude, sight reduction with the Nautical Almanac and tables, and plotting a position. The
+      navigation is practiced ashore with an artificial horizon and afloat where possible.
+    objectives:
+      - Earn a US Sailing small-boat certification (or the Small-Boat Sailing merit badge)
+      - Plot a coastal course with dead reckoning and bearings on a paper chart
+      - Take a noon sight with a sextant and compute latitude within 5 nautical miles
+      - Reduce a star or sun sight and plot a line of position
+    coreTexts:
+      - title: "The American Practical Navigator (Bowditch), Pub. No. 9"
+        author: Nathaniel Bowditch / National Geospatial-Intelligence Agency
+        date: 1802 / current ed.
+        publicDomain: true
+        links:
+          - { label: NGA (free PDF), url: "https://msi.nga.mil/Publications/APN" }
+    curriculumOptions:
+      - name: US Sailing (youth and adult certification courses)
+        publisher: US Sailing
+        tradition: secular
+        url: "https://www.ussailing.org/"
+      - name: Small-Boat Sailing Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/small-boat-sailing/"
+    historicalPrecedent: >-
+      Nathaniel Bowditch of Salem left school at ten and was apprenticed to a ship chandler. He taught
+      himself mathematics and Latin, corrected thousands of errors in the standard British navigation
+      tables, and published The New American Practical Navigator (1802), still issued by the U.S.
+      government. Midshipmen of the founding-era navies learned navigation at sea in their early teens.
+
+  - id: practical-arts-15
+    title: "Architecture and Mechanical Drawing: Jefferson's Palladio"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 16
+    order: 15
+    prerequisites: [practical-arts-10, practical-arts-09]
+    related: [mathematics-10, fine-arts-09]
+    summary: >-
+      Jefferson taught himself architecture from Palladio and designed Monticello, the Virginia State
+      Capitol and the University of Virginia. The student learns drafting by hand and then with CAD:
+      orthographic projection, isometric views, sections, dimensioning and scale. He studies the classical
+      orders from Palladio's Four Books and makes a measured drawing of a real building. His capstone is a
+      set of drawings for a small building, which ideally he later builds (see practical-arts-10).
+    objectives:
+      - Draw orthographic, isometric and section views to scale by hand
+      - Identify and draw the five classical orders with correct proportions
+      - Produce a measured drawing of an existing building or room
+      - Design a small building (shed, cabin or chapel) with plan, elevations and a materials list
+    coreTexts:
+      - title: "The Four Books of Architecture (Isaac Ware trans.)"
+        author: Andrea Palladio
+        date: 1570 / 1738
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/gri_33125011569684" }
+    curriculumOptions:
+      - name: Drafting Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/drafting/"
+    historicalPrecedent: >-
+      Jefferson owned several editions of Palladio and relied on it throughout his building life. He began
+      Monticello in 1768 at twenty-five, redesigned it for decades, and planned the University of Virginia's
+      "academical village" in his seventies.
+    sources:
+      - { label: "Monticello: A House and Home", url: "https://www.monticello.org/what-is-monticello/an-iconic-house/house" }
+
+  - id: practical-arts-16
+    title: "Home and Auto Mechanics, Driving and Field Skills"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 16
+    prerequisites: [practical-arts-10, practical-arts-11]
+    related: [physical-training-07, physical-training-04]
+    summary: >-
+      This course covers keeping a house and a car running and driving safely. Household repairs include
+      plumbing (a faucet, a toilet, a clog), electrical work (a switch, an outlet, a fixture, done safely
+      with the power off), patching drywall, painting, and caulking and weatherproofing. Automotive
+      maintenance includes fluids, tires, brakes, a battery, belts and diagnosis with an OBD reader. The
+      student completes supervised driving practice beyond the state minimum and earns a license.
+      Firearm safety and marksmanship are standard and are taught in physical-training-07. Hunting is optional.
+    objectives:
+      - Fix a leaking faucet, clear a drain, replace an outlet or switch, and patch drywall
+      - Change oil and a tire, check and top up fluids, and replace wiper blades and a battery
+      - Log at least 100 hours of supervised driving across night, highway and bad-weather conditions
+      - Earn a driver's license and maintain a clean record
+    coreTexts:
+      - title: Mechanics of the Household
+        author: E. S. Keene
+        date: "1918"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/50846" }
+    curriculumOptions:
+      - name: Home Repairs Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/home-repairs/"
+      - name: Automotive Maintenance Merit Badge
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/merit-badges/automotive-maintenance/"
+      - name: "Hunter education (state-approved online course plus field day)"
+        publisher: Kalkomey / state wildlife agencies
+        tradition: secular
+        url: "https://www.hunter-ed.com/"
+        notes: Required in most states before a first hunting license. See also Project Appleseed and NRA Eddie Eagle below.
+      - name: "Project Appleseed (optional; rifle marksmanship with Revolutionary War history)"
+        publisher: Revolutionary War Veterans Association
+        tradition: secular
+        url: "https://appleseedinfo.org/"
+    sources:
+      - { label: "NHTSA: Teen Safe Driving", url: "https://www.nhtsa.gov/road-safety/teen-driving" }
+      - { label: "NRA Eddie Eagle GunSafe (gun-safety message for young children)", url: "https://eddieeagle.nra.org/" }
+    notes: >-
+      Firearm safety and marksmanship are standard (see physical-training-07). Hunting is optional and
+      depends on family conviction and local law. Begin with the Eddie Eagle rule for young children (stop,
+      don't touch, run away, tell a grown-up), then hunter education and supervised marksmanship. Keep firearms locked and unloaded when not in use.
+
+  - id: practical-arts-17
+    title: "Public Service, Apprenticeship and Mentorship"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 18
+    order: 17
+    prerequisites: [practical-arts-13]
+    related: [character-virtue-10, civics-law-14]
+    summary: >-
+      The student serves the community and learns a profession under a master, as the founders did.
+      Service means sustained volunteering (at least 100 hours a year) in a parish or civic organization,
+      a hospital, a fire company, or Civil Air Patrol cadets. Apprenticeship means a structured, supervised
+      placement with professionals in law, medicine, engineering, a skilled trade, business or
+      government, where the student keeps a work journal, is evaluated, and asks for a letter of
+      reference. Two placements in different fields are ideal.
+    objectives:
+      - Complete 100+ hours of documented community service per year with one organization
+      - Complete at least one 6–12-week supervised placement with a professional mentor
+      - Keep a daily work journal and write a reflective report on the profession
+      - Earn a written evaluation and letter of reference from the mentor
+    coreTexts:
+      - title: Autobiography of Benjamin Franklin
+        author: Benjamin Franklin
+        date: 1771–1790
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
+    curriculumOptions:
+      - name: Civil Air Patrol Cadet Program (ages 12–21)
+        publisher: Civil Air Patrol (U.S. Air Force Auxiliary)
+        tradition: secular
+        url: "https://www.gocivilairpatrol.com/"
+        notes: Leadership, aerospace education, emergency services and search-and-rescue.
+      - name: Registered Apprenticeship finder
+        publisher: U.S. Department of Labor
+        tradition: secular
+        url: "https://www.apprenticeship.gov/"
+        notes: For trades and technical fields; professional mentorships are usually arranged through family and parish networks.
+    historicalPrecedent: >-
+      Apprenticeship and reading in a practitioner's office were the normal routes into a profession in
+      the eighteenth century. Franklin was apprenticed to a printer, Adams read law under James Putnam,
+      Jefferson under George Wythe, and Hamilton clerked in a St. Croix trading house from his early
+      teens. Washington held public office at seventeen as Culpeper County surveyor.
+
+  - id: practical-arts-18
+    title: "College: Estate and Household Management"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 18
+    prerequisites: [practical-arts-12, practical-arts-16]
+    related: [economics-10, character-virtue-08]
+    summary: >-
+      The capstone of the founder skills: managing a household, and eventually an estate, business or
+      farm, as a steward. The course covers annual budgeting and capital planning, insurance, renting
+      versus buying, property and maintenance schedules, hiring and managing help, contracts, and
+      estate planning (wills, guardianship and trusts, with an attorney). It also covers hospitality and
+      the duties of a householder to parish and neighborhood. The student reads Beecher and Beeton, the
+      nineteenth century's comprehensive household manuals, alongside Washington's and Jefferson's farm
+      and household records.
+    objectives:
+      - Prepare a full annual household budget and 10-year capital plan (roof, car, furnace)
+      - Compare insurance options (health, auto, home or renter's, life, umbrella) and explain each
+      - Draft a household maintenance calendar and inventory
+      - Explain the basic instruments of estate planning and why each adult needs a will
+      - Host a formal dinner for guests, planned, budgeted and cooked by the student
+    coreTexts:
+      - title: A Treatise on Domestic Economy
+        author: Catharine E. Beecher
+        date: "1841"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21829" }
+      - title: The Book of Household Management
+        author: Isabella Beeton
+        date: "1861"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10136" }
+      - title: "Thomas Jefferson's Farm Book (manuscript facsimile)"
+        author: Thomas Jefferson
+        date: 1774–1824
+        publicDomain: true
+        links:
+          - { label: Massachusetts Historical Society, url: "https://www.masshist.org/thomasjeffersonpapers/farm/" }
+    notes: >-
+      This row teaches general principles of household finance and management. It is not legal or
+      financial advice; consult an attorney for wills and trusts and a qualified advisor for investments
+      and insurance.

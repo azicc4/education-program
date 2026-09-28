@@ -1,0 +1,384 @@
+track: hebrew
+title: Biblical Hebrew
+trackGroup: Languages
+description: >-
+  Biblical Hebrew begins at 12–13, after Latin grammar is mastered and Greek is well under way.
+  It completes the three "sacred languages" of the colonial colleges and of the Christian
+  humanist ideal (the trilingual colleges of Alcalá and Louvain). The arc runs from the
+  aleph-bet and vowel points, through a full grammar (Pratico & Van Pelt, Futato, Weingreen or
+  Lambdin, with Gesenius for reference), into graded reading. The reading moves through Genesis
+  1–11, Ruth and Jonah (narrative), the Psalms (poetry) and Isaiah (prophecy), using readers'
+  Bibles, Sefaria and the Leningrad Codex. At college level the student reads Hebrew narrative
+  at sight and compares the Hebrew, the Septuagint and the Vulgate. End state: reads Hebrew prose
+  narrative with a lexicon and can check any translation of the Old Testament against the
+  original. That is the skill the Reformation's ad fontes and the Catholic Divino Afflante
+  Spiritu both prize, and the one the Yale seal (אורים ותמים, Urim and Thummim) commemorates.
+rows:
+  - id: hebrew-01
+    title: "Hebrew I: Aleph-Bet, Vowel Points & First Words"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 12.5
+    order: 1
+    prerequisites: []
+    related: [greek-01]
+    summary: >-
+      Six to ten weeks on the writing system. The student learns the 22 consonants and final
+      forms, the Masoretic vowel points, dagesh, shewa and syllabification, reading right to left
+      aloud. He learns about 100 words and reads Genesis 1:1–5, the Shema (Deut 6:4–9) and Psalm
+      23 aloud.
+    objectives:
+      - Write and name all 22 letters and 5 final forms
+      - Read pointed Hebrew aloud accurately, with correct syllable division
+      - Read Genesis 1:1, the Shema and Psalm 23:1 aloud and know their meaning word by word
+      - Learn about 100 high-frequency Biblical words
+    curriculumOptions:
+      - name: The First Hebrew Primer (Biblical Hebrew)
+        publisher: EKS Publishing
+        tradition: secular
+        url: "https://www.ekspublishing.com/products/first-hebrew-primer"
+        notes: >-
+          A long-standing self-study primer built on Biblical passages. Clear, gentle and widely
+          used by adult beginners and home learners. It is published for a Jewish audience and is
+          non-confessional.
+      - name: Aleph with Beth (free video course)
+        publisher: Aleph with Beth (YouTube)
+        tradition: protestant
+        url: "https://www.youtube.com/@AlephwithBeth"
+        notes: Immersive, picture-based Biblical Hebrew lessons with no English grammar talk. A good companion for building the ear.
+      - name: Hebrew for Christians (free online)
+        publisher: hebrew4christians.com
+        tradition: protestant
+        url: "https://www.hebrew4christians.com/"
+        notes: Free alphabet, vowel and prayer pages. Useful for drill and reading practice.
+    historicalPrecedent: >-
+      Harvard's 1642 timetable (New England's First Fruits) set aside a weekday for "Hebrew, and
+      the Easterne Tongues": Hebrew grammar in the first year, Chaldee (Aramaic) in the second
+      and Syriac in the third. Hebrew was a required study at colonial Harvard and Yale.
+    sources:
+      - { label: "New Englands First Fruits (1643)", url: "https://archive.org/details/NewEnglandsFirstFruitsInRespectFirstOfTheCounversionOfSome" }
+
+  - id: hebrew-02
+    title: "Hebrew II: Grammar I (Nouns, Qal Verb, Syntax)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 13.5
+    order: 2
+    prerequisites: [hebrew-01]
+    summary: >-
+      A standard seminary grammar at a steady pace. It covers nouns, the article, prepositions and
+      pronominal suffixes, the construct chain, and the whole Qal stem of the strong verb (perfect,
+      imperfect, wayyiqtol, imperative, infinitives, participles). Short verses are translated
+      from the first weeks.
+    objectives:
+      - Parse any Qal strong verb form (stem, conjugation, person, gender, number, root)
+      - Read construct chains and pronominal suffixes on nouns and prepositions
+      - Understand the wayyiqtol narrative sequence
+      - Know about 400 words (all words occurring 100+ times)
+    curriculumOptions:
+      - name: "Basics of Biblical Hebrew Grammar (3rd ed.), Pratico & Van Pelt"
+        publisher: Zondervan
+        tradition: protestant
+        url: "https://www.christianbook.com/basics-biblical-hebrew-grammar-third-edition/gary-pratico/9780310533498/pd/0533498"
+        notes: >-
+          The most widely used US grammar, with a workbook, videos, charts and vocabulary cards.
+          The best-supported option for home or self study.
+      - name: Beginning Biblical Hebrew (Mark Futato)
+        publisher: Eisenbrauns
+        tradition: protestant
+        url: "https://www.christianbook.com/beginning-biblical-hebrew-mark-futato/9781575060224/pd/060220"
+        notes: Compact, with readings from Ruth and Jonah built in. Fast, and suits a student who already has Latin and Greek.
+      - name: "A Practical Grammar for Classical Hebrew (2nd ed.), J. Weingreen"
+        publisher: Oxford University Press
+        tradition: secular
+        url: "https://www.christianbook.com/practical-grammar-classical-hebrew-second-edition/j-weingreen/9780198154228/pd/54224"
+        notes: The classic British grammar (Trinity College Dublin). Concise and traditional. Many Catholic seminaries used it.
+    notes: >-
+      Lambdin's Introduction to Biblical Hebrew (1971) is the rigorous alternative used at Harvard
+      and many doctoral programs. It is excellent for a gifted student, but its exercises have no
+      answer key without Williamson's Annotated Key.
+
+  - id: hebrew-03
+    title: "Hebrew III: Grammar II (Derived Stems, Weak Verbs) & Gesenius"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14.5
+    order: 3
+    prerequisites: [hebrew-02]
+    summary: >-
+      Completion of the grammar: Niphal, Piel, Pual, Hiphil, Hophal and Hithpael, and the weak
+      verb classes (I-guttural, III-he, hollow, geminate, I-nun, I-waw/yod). The student learns
+      to use Gesenius as a reference, which is the Hebrew equivalent of Allen & Greenough or
+      Smyth.
+    objectives:
+      - Parse any verb form in all seven major stems, including weak roots
+      - Use the lexicon (BDB/HALOT or a reader's lexicon) to find roots from weak forms
+      - Look up syntax in Gesenius' Hebrew Grammar by section number
+      - Know about 800 words (all words occurring 50+ times)
+    coreTexts:
+      - title: "Gesenius' Hebrew Grammar (Kautzsch–Cowley)"
+        author: Wilhelm Gesenius, ed. E. Kautzsch, trans. A. E. Cowley
+        date: "1910"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/geseniushebrewgr00geseuoft" }
+    curriculumOptions:
+      - name: Basics of Biblical Hebrew Grammar (second half) + Workbook
+        publisher: Zondervan
+        tradition: protestant
+        url: "https://www.christianbook.com/basics-biblical-hebrew-grammar-third-edition/gary-pratico/9780310533498/pd/0533498"
+        notes: Continue the same text through the derived stems and weak verbs.
+      - name: "Graded Reader of Biblical Hebrew (Van Pelt & Pratico)"
+        publisher: Zondervan
+        tradition: protestant
+        url: "https://www.christianbook.com/graded-reader-biblical-hebrew-reading-bible/miles-van-pelt/9780310251576/pd/251575"
+        notes: Graded passages keyed to the grammar. The ideal bridge into unassisted reading.
+
+  - id: hebrew-04
+    title: "Reading I: Genesis 1–11"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14
+    order: 4
+    prerequisites: [hebrew-02]
+    related: [greek-13, latin-10]
+    summary: >-
+      The first sustained reading. The chapters are Creation, the Fall, Cain and Abel, the Flood
+      and Babel, all in simple narrative Hebrew. The student compares key words (bara', tohu
+      wabohu, tselem, ruach) with the Septuagint and Vulgate and sees how translation shapes
+      theology.
+    objectives:
+      - Read Genesis 1–4 and 6–9 in Hebrew with a reader's lexicon
+      - Memorize Genesis 1:1–5 in Hebrew
+      - Compare Gen 1:1–3 and 1:26–27 in Hebrew, LXX and Vulgate
+    coreTexts:
+      - title: Genesis (Bereshit), Hebrew text
+        author: Moses (traditional attribution)
+        publicDomain: true
+        links:
+          - { label: "Sefaria (Hebrew/English, free)", url: "https://www.sefaria.org/Genesis.1" }
+          - { label: "Westminster Leningrad Codex (tanach.us)", url: "https://www.tanach.us/" }
+      - title: "Genesis 1–11: Septuagint and Vulgate with facing vocabulary"
+        author: Geoffrey Steadman
+        publicDomain: false
+        links:
+          - { label: "Steadman (free PDF)", url: "https://geoffreysteadman.com/genesis-1-11/" }
+    curriculumOptions:
+      - name: A Reader's Hebrew Bible (2nd ed.)
+        publisher: Zondervan
+        tradition: protestant
+        url: "https://www.christianbook.com/a-readers-hebrew-bible-2nd-edition/9780310180456/pd/180456"
+        notes: Full Hebrew OT with footnoted glosses for words occurring fewer than 100 times.
+      - name: "Biblia Hebraica Stuttgartensia: A Reader's Edition"
+        publisher: Hendrickson / Deutsche Bibelgesellschaft
+        tradition: secular
+        url: "https://www.christianbook.com/biblia-hebraica-stuttgartensia-a-readers-edition/donald-vance/9781598563429/pd/563429"
+        notes: The standard scholarly BHS text with glosses and parsing of difficult verbs.
+
+  - id: hebrew-05
+    title: "Reading II: Ruth & Jonah"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 14.5
+    order: 5
+    prerequisites: [hebrew-03, hebrew-04]
+    summary: >-
+      Two complete short books of classical Hebrew prose. Ruth deals with hesed (covenant
+      loyalty), kinship law and the line of David. Jonah deals with mercy for the nations and has a
+      psalm embedded in the narrative. Each is read whole and fast, in a few weeks.
+    objectives:
+      - Read the whole of Ruth and Jonah in Hebrew
+      - Trace the word hesed through Ruth and explain its range
+      - Read Jonah 2 as a first taste of Hebrew poetry
+    coreTexts:
+      - title: Ruth (Hebrew)
+        publicDomain: true
+        links:
+          - { label: Sefaria, url: "https://www.sefaria.org/Ruth.1" }
+      - title: Jonah (Hebrew)
+        publicDomain: true
+        links:
+          - { label: Sefaria, url: "https://www.sefaria.org/Jonah.1" }
+    curriculumOptions:
+      - name: Beginning Biblical Hebrew (Futato), Ruth and Jonah readings
+        publisher: Eisenbrauns
+        tradition: protestant
+        url: "https://www.christianbook.com/beginning-biblical-hebrew-mark-futato/9781575060224/pd/060220"
+        notes: Futato's grammar builds its readings around these books.
+
+  - id: hebrew-06
+    title: "Reading III: The Psalms"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 6
+    prerequisites: [hebrew-05]
+    related: [latin-10, greek-13, poetry-06]
+    summary: >-
+      Hebrew poetry: parallelism, terseness, chiasm and acrostics. The student reads about 25
+      Psalms (1, 2, 8, 19, 22, 23, 51, 90, 110, 119 in part, 139 and the Hallel 113–118). They
+      are the prayer book of Israel and the Church, sung in Latin in the Office and quoted
+      throughout the New Testament.
+    objectives:
+      - Read about 25 Psalms in Hebrew and classify their parallelism
+      - Memorize Psalm 1 or 23 in Hebrew
+      - Compare Ps 22 (21 in LXX/Vulgate) in Hebrew, Greek and Latin, and explain the numbering difference
+    coreTexts:
+      - title: Tehillim (Psalms), Hebrew text
+        publicDomain: true
+        links:
+          - { label: Sefaria, url: "https://www.sefaria.org/Psalms.1" }
+    notes: >-
+      Psalm numbering differs. Catholic liturgical books traditionally follow the Greek/Latin
+      numbering (usually one lower from Ps 10 to 147), while Protestant and Jewish Bibles follow
+      the Hebrew. Teach both.
+
+  - id: hebrew-07
+    title: "Reading IV: Isaiah & the Prophets"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 7
+    prerequisites: [hebrew-06]
+    summary: >-
+      Elevated prophetic poetry and prose. The student reads Isaiah 1, 6, 7:10–17, 9:1–7, 11,
+      40, 52:13–53:12 and 61, with Micah 6:8 and Amos 5. Much of the vocabulary is new and the
+      syntax is more demanding. These chapters shape Handel's Messiah, the abolitionists and
+      Martin Luther King's rhetoric.
+    objectives:
+      - Read ten selected chapters of Isaiah in Hebrew
+      - Discuss the translation question of Isaiah 7:14 ('almah / parthenos / virgo) from the texts themselves
+      - Memorize Isaiah 40:1–8 or Micah 6:8 in Hebrew
+    coreTexts:
+      - title: Isaiah (Hebrew)
+        publicDomain: true
+        links:
+          - { label: Sefaria, url: "https://www.sefaria.org/Isaiah.1" }
+    notes: >-
+      Christian (Catholic and Protestant) and Jewish readings of Isaiah 7 and 53 differ sharply.
+      Present the texts and the main interpretations fairly.
+
+  - id: hebrew-08
+    title: "Tools & Texts: Sefaria, BHS, and the Vulgate–Septuagint Question"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 18
+    order: 8
+    prerequisites: [hebrew-04]
+    related: [latin-10, greek-13]
+    summary: >-
+      A standing unit on the scholar's tools and the history of the text. The tools are Sefaria
+      (free Hebrew with Jewish commentary), the Westminster Leningrad Codex, BHS and its apparatus,
+      and readers' Bibles. The history covers the Masoretic Text, the Dead Sea Scrolls, the
+      Septuagint, Jerome's Vulgate made "from the Hebrew truth" (Hebraica veritas), and the
+      Reformation and Catholic returns to the original languages.
+    objectives:
+      - Navigate Sefaria and look up a verse with Rashi's commentary
+      - Read a BHS page and explain the Masoretic notes and critical apparatus in outline
+      - Explain why Jerome translated the OT from Hebrew and how the Vulgate relates to the MT and LXX
+      - Summarize Pius XII's Divino Afflante Spiritu (1943) on original-language study
+    coreTexts:
+      - title: Sefaria Library
+        author: Sefaria
+        publicDomain: false
+        links:
+          - { label: Sefaria, url: "https://www.sefaria.org/texts" }
+      - title: Westminster Leningrad Codex (UXLC)
+        publicDomain: true
+        links:
+          - { label: tanach.us, url: "https://www.tanach.us/" }
+      - title: Divino Afflante Spiritu
+        author: Pope Pius XII
+        date: "1943"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html" }
+      - title: Nova Vulgata
+        author: Holy See
+        date: "1979"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html" }
+    notes: >-
+      A Catholic note. Jerome translated most of the Old Testament directly from the Hebrew, and
+      Trent declared the Vulgate "authentic" for doctrine. Divino Afflante Spiritu (1943) urged
+      Catholic scholars to work from the original languages, and the Nova Vulgata (1979) revised
+      Jerome's Latin against the Hebrew and Greek. A Protestant note. The Reformers' ad fontes
+      ("back to the sources") made the Hebrew and Greek texts the final authority (Westminster
+      Confession I.8), and so Hebrew was required of ministers and taught at Harvard and Yale.
+
+  - id: hebrew-09
+    title: "Optional: Modern Hebrew Exposure"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 9
+    prerequisites: [hebrew-03]
+    summary: >-
+      A short, optional unit on Israeli pronunciation, everyday vocabulary and unpointed script.
+      Reading modern headlines and speaking a little show Hebrew as a living language, and
+      unpointed text builds the fluency needed for rabbinic and modern texts.
+    objectives:
+      - Read short unpointed modern texts (signs, headlines)
+      - Hold a two-minute conversation of greetings and basics
+      - Know the main pronunciation differences between Biblical (Tiberian) reading and Israeli Hebrew
+    curriculumOptions:
+      - name: EKS Publishing, Modern Hebrew titles
+        publisher: EKS Publishing
+        tradition: secular
+        url: "https://www.ekspublishing.com/"
+        notes: The same publisher as the First Hebrew Primer. It has a Modern Hebrew line.
+
+  - id: hebrew-10
+    title: "College Hebrew: Sight Reading & the Trilingual Bible"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 10
+    prerequisites: [hebrew-07, hebrew-08]
+    related: [greek-15, latin-18]
+    summary: >-
+      The capstone. The student reads Hebrew narrative (the Joseph story, Genesis 37–50, and 1–2
+      Samuel selections, David and Saul) at sight or near-sight. He does a "trilingual" study of
+      key passages in Hebrew, Greek and Latin, in the manner of the Complutensian Polyglot and
+      the colonial colleges. He also gets a first taste of Biblical Aramaic (Daniel 2:4–7:28).
+    objectives:
+      - Read Genesis 37–50 in Hebrew with minimal lexicon use
+      - Read 1 Samuel 16–17 in Hebrew
+      - Read Daniel 2:4–13 in Aramaic with a grammar
+      - Produce an annotated comparison of one passage in Hebrew, LXX Greek and Vulgate Latin
+    coreTexts:
+      - title: Genesis 37–50, 1 Samuel, Daniel (Hebrew/Aramaic)
+        publicDomain: true
+        links:
+          - { label: Sefaria, url: "https://www.sefaria.org/texts" }
+    historicalPrecedent: >-
+      Harvard (1642) taught Hebrew, Chaldee (Aramaic) and Syriac across the three years. At Yale,
+      President Ezra Stiles (1778–1795) "obliged all the Freshmen to study Hebrew". His first
+      commencement address (1781) was delivered in Hebrew, Aramaic and Arabic, and the
+      valedictorians of 1785 and 1792 spoke in Hebrew. The Yale arms (adopted 1746) carry the
+      Hebrew words Urim v'Thummim, rendered in Latin as "Lux et Veritas".
+    sources:
+      - { label: "New Englands First Fruits (1643)", url: "https://archive.org/details/NewEnglandsFirstFruitsInRespectFirstOfTheCounversionOfSome" }
+      - { label: "Coat of arms of Yale University (Wikipedia)", url: "https://en.wikipedia.org/wiki/Coat_of_arms_of_Yale_University" }
+      - { label: "Ezra Stiles (Wikipedia)", url: "https://en.wikipedia.org/wiki/Ezra_Stiles" }

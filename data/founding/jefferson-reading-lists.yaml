@@ -1,0 +1,141 @@
+id: jefferson-reading-lists
+title: "Thomas Jefferson's Reading Lists (1771–1814)"
+category: founder-letter
+people: [Thomas Jefferson, Robert Skipwith, Peter Carr, Bernard Moore, John Minor, Martha Jefferson]
+date: "1771–1814"
+summary: >-
+  Jefferson wrote reading lists all his life. There is the 1771 catalogue for a gentleman's
+  private library (Skipwith), the graded course in Greek and Latin originals for his nephew
+  Peter Carr (1785), the 1787 advice to Carr on conscience, Spanish and religion, the law
+  student's day planned hour by hour (Bernard Moore, c. 1773, recopied for John Minor in
+  1814), and the daily timetable for his eleven-year-old daughter Patsy (1783). Taken
+  together they show one pattern: ancient historians, poets and moralists read in the
+  original, then English law and political theory, all built on daily discipline and
+  exercise. This program adopts the order of the Carr course (history, then poetry, then
+  moral philosophy) for the Latin and Greek tracks. It uses the Moore schedule as a model
+  for the college-level day. The Patsy timetable serves as a precedent for a daily rotation
+  of music, drawing, a modern language and letter-writing.
+primarySources:
+  - { label: "Jefferson to Robert Skipwith, with a List of Books for a Private Library, 3 Aug 1771 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-01-02-0056" }
+  - { label: "Skipwith List transcription (Thomas Jefferson's Libraries, Monticello)", url: "https://tjlibraries.monticello.org/transcripts/skipwith/skipwith.html" }
+  - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+  - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Wikisource text)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
+  - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Library of Congress manuscript)", url: "https://www.loc.gov/item/mtjbib001234" }
+  - { label: "Jefferson to Peter Carr, with Enclosure, 10 Aug 1787 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-12-02-0021" }
+  - { label: "Jefferson to Peter Carr, 10 Aug 1787 (Teaching American History text)", url: "https://teachingamericanhistory.org/document/letter-to-peter-carr/" }
+  - { label: "Jefferson to John Minor, 30 Aug 1814, including Jefferson to Bernard Moore [c. 1773] (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/03-07-02-0455" }
+  - { label: "Jefferson to Bernard Moore, c. 1773 (National Constitution Center text)", url: "https://constitutioncenter.org/the-constitution/historic-document-library/detail/thomas-jeffersonletter-to-bernard-moore-ca-1773" }
+  - { label: "Jefferson to John Minor, 30 Aug 1814, with reading list (Library of Congress manuscript)", url: "https://www.loc.gov/item/mtjbib021827" }
+  - { label: "Jefferson to Martha Jefferson, 28 Nov 1783 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-06-02-0286" }
+  - { label: "Jefferson to Martha Jefferson, 28 Nov 1783 (Encyclopedia Virginia text)", url: "https://www.encyclopediavirginia.org/Letter_from_Thomas_Jefferson_to_Martha_Patsy_Jefferson_November_28_1783" }
+  - { label: "Jefferson to Martha Jefferson, 28 Mar 1787 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-11-02-0244" }
+  - { label: "Extract, Jefferson to Martha Jefferson, 28 Mar 1787 (Monticello, Jefferson Quotes & Family Letters)", url: "https://tjrs.monticello.org/letter/88" }
+entries:
+  # --- Skipwith list, 1771 ---
+  - text: "Skipwith list (1771): the fine arts come first. Homer in Pope's translation, Virgil in Dryden's, and Milton"
+    search: Homer
+    tracks: [literature, poetry]
+  - text: "Skipwith list (1771): Shakespeare and the English dramatists, with the novels of Richardson, Fielding, Smollett, Sterne and Goldsmith"
+    search: Shakespeare
+    tracks: [literature]
+  - text: "Skipwith list (1771): criticism and taste, with Kames's Elements of Criticism, Burke on the Sublime, and Smith's Theory of Moral Sentiments"
+    search: Kames
+    tracks: [rhetoric, philosophy]
+  - text: "Skipwith list (1771): politics and trade, with Montesquieu's Spirit of the Laws, Locke on government, Sidney, and Steuart's Political Economy"
+    search: Montesquieu
+    tracks: [civics-law, economics]
+  - text: "Skipwith list (1771): under Religion, the ancient moralists Xenophon, Epictetus, Seneca and Cicero, with Sterne's Sermons"
+    search: Epictetus
+    tracks: [philosophy, character-virtue]
+  - text: "Skipwith list (1771): law, with Blackstone's Commentaries and Kames's Principles of Equity"
+    search: Blackstone
+    tracks: [civics-law]
+  - text: "Skipwith list (1771): ancient history in Livy, Tacitus, Plutarch's Lives and Josephus. Modern history in Hume's History of England and Robertson"
+    search: Plutarch
+    tracks: [history]
+  # --- Peter Carr, 1785 ---
+  - text: "To Peter Carr (1785): the Greek historians first, in the original. Herodotus, Thucydides, Xenophon's Hellenica and Anabasis"
+    search: Thucydides
+    tracks: [greek, history]
+  - text: "To Peter Carr (1785): continue ancient history with Arrian, Quintus Curtius, Diodorus Siculus and Justin"
+    search: Arrian
+    tracks: [greek, latin, history]
+  - text: "To Peter Carr (1785): Latin poets. Virgil, Terence and Horace"
+    search: Virgil
+    tracks: [latin, poetry]
+  - text: "To Peter Carr (1785): Greek poets. Anacreon, Theocritus, Homer, Euripides and Sophocles"
+    search: Homer
+    tracks: [greek, poetry]
+  - text: "To Peter Carr (1785): English poets. Milton's Paradise Lost, Shakespeare, Ossian, Pope and Swift"
+    search: Milton
+    tracks: [literature, poetry]
+  - text: "To Peter Carr (1785): in morality, read Epictetus, Xenophon's Memorabilia, Plato's Socratic dialogues, Cicero's philosophies, Antoninus and Seneca"
+    search: Epictetus
+    tracks: [philosophy, character-virtue]
+  - text: "To Peter Carr (1785): learn Spanish as 'the most necessary of the modern languages, after the French'"
+    search: Spanish
+    tracks: [spanish]
+  - text: "To Peter Carr (1785): give about two hours a day to exercise. Walk far, and take up the gun, which 'gives boldness, enterprise, independence to the mind'"
+    search: exercise
+    tracks: [physical-training]
+  - text: "To Peter Carr (1785): honesty above all. Of lying he writes, 'There is no vice so mean, so pitiful, so contemptible'"
+    search: honesty
+    tracks: [character-virtue]
+  # --- Peter Carr, 1787 ---
+  - text: "To Peter Carr (1787): the moral sense is 'as much a part of man as his leg or arm' and grows stronger with exercise. Read Sterne and the Scriptures to form it"
+    search: Sterne
+    tracks: [character-virtue, philosophy]
+  - text: "To Peter Carr (1787): lay Italian aside and 'bestow great attention' on Spanish, for America's future ties with Spain and Spanish America"
+    search: Spanish
+    tracks: [spanish]
+  - text: "To Peter Carr (1787): on religion, 'Read the Bible, then, as you would read Livy or Tacitus'. Jefferson's own rationalist method, which this program's theology track answers"
+    search: Bible
+    tracks: [theology]
+  - text: "To Peter Carr (1787): against sending youths abroad to travel, which breeds 'a habit of idleness'"
+    search: travel
+    tracks: [character-virtue]
+  # --- Bernard Moore / John Minor law course, c. 1773 / 1814 ---
+  - text: "Law course (Moore/Minor): first acquire Latin, French, mathematics and natural philosophy"
+    search: Latin
+    tracks: [latin, mathematics, natural-science]
+  - text: "Law course, until 8 a.m.: physical studies, ethics, religion and natural law. Locke's Essay and Conduct of the Understanding, Stewart's Philosophy of the Human Mind, Condorcet's Progrès de l'esprit humain, Cicero, Seneca, Hutcheson, Vattel"
+    search: Locke
+    tracks: [philosophy, civics-law]
+  - text: "Law course, 8 a.m. to noon: law. 'Coke's Institutes are a perfect Digest of the law as it stood in his day'"
+    search: Coke
+    tracks: [civics-law]
+  - text: "Law course, 8 a.m. to noon: Blackstone's Commentaries, Bacon's Abridgment and Lord Kames on Equity"
+    search: Blackstone
+    tracks: [civics-law]
+  - text: "Law course, noon to 1 p.m.: politics. Locke on government, Sidney, Priestley, Montesquieu and The Federalist"
+    search: Federalist
+    tracks: [civics-law]
+  - text: "Law course, afternoon: history. Greek and Latin historians in the original, Gibbon, and histories of England, Scotland and America"
+    search: Gibbon
+    tracks: [history]
+  - text: "Law course, dark to bedtime: belles lettres, criticism, rhetoric and oratory. 'Shakespeare must be singled out' to learn the full powers of English"
+    search: Shakespeare
+    tracks: [literature, rhetoric]
+  # --- Martha (Patsy) Jefferson ---
+  - text: "To Patsy, aged 11 (1783): practise music 8–10, dance or draw 10–1, draw or write a letter 1–2, French 3–4, music 4–5, then read English and write"
+    search: music
+    tracks: [music, fine-arts, grammar-composition]
+  - text: "To Patsy (1783): spelling matters. When unsure of a word, 'turn to a dictionary'"
+    search: spelling
+    tracks: [grammar-composition]
+  - text: "To Patsy (1787): industry is the cure for idleness and ennui. 'Music, drawing, books, invention & exercise' are her resources against them"
+    search: industry
+    tracks: [character-virtue, practical-arts]
+notes: >-
+  Founders Online sits behind an automated bot challenge, so its pages could not be fetched.
+  Each founders.archives.gov URL above was instead confirmed from search results that showed
+  the exact document title, and the letter texts were read on the mirrors listed
+  (Wikisource, Monticello, Teaching American History, Constitution Center, Encyclopedia
+  Virginia). The Locke/Stewart/Condorcet moral reading comes from the Moore/Minor law course
+  as Jefferson revised it in 1814, not from the 1785 Carr letter. Stewart's and Condorcet's
+  books postdate 1773, so they reflect Jefferson's 1814 substitutions. The block-by-block
+  author list follows the Constitution Center transcription. The Founders Online text should
+  be checked for exact wording. The 1785 Carr letter's full passage on walking and the gun
+  is paraphrased here from Wikisource. The Skipwith letter's argument that fiction teaches
+  virtue (King Lear and filial duty) is in the Founders Online document but was not
+  confirmed on the mirrors fetched, so it is omitted.

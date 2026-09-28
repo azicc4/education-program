@@ -1,0 +1,637 @@
+track: greek
+title: Greek
+trackGroup: Languages
+description: >-
+  Greek starts at 10–11, once Latin forms are secure, since Latin grammar makes Greek twice as
+  fast. The arc runs from the alphabet and a Koine primer, through a full Attic grammar
+  (Athenaze, Hansen & Quinn or Crosby & Schaeffer) or a New Testament grammar (Machen), to
+  graded reading. The readers are Aesop and Lucian, the Gospel of John, and Xenophon's Anabasis,
+  the historic "first Greek author". The school authors follow: Plato's Apology and Crito,
+  Homer, Herodotus, the Septuagint and the Greek Fathers, and Attic tragedy. Thucydides and
+  more Plato come at college level. Two streams, Classical (Attic and Homeric) and Biblical
+  (Koine: New Testament, Septuagint, Fathers), are braided so that the student reads both. End
+  state: reads the Greek New Testament fluently and reads Homer, Plato and Thucydides with a
+  lexicon and commentary. This meets the old colonial-college expectation of construing the
+  Greek Testament and Homer, and it gives the student direct access to the sources of
+  philosophy, political science and the New Testament.
+rows:
+  - id: greek-01
+    title: "Greek I: The Alphabet & First Words"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 10.5
+    order: 1
+    prerequisites: []
+    related: [latin-03]
+    summary: >-
+      A short, delightful first unit. The student learns to write and pronounce the 24 letters,
+      diphthongs, breathings and accents, and reads and copies simple Koine words and verses
+      (John 1:1, the Lord's Prayer). English derivatives link the new alphabet to words he already
+      knows.
+    objectives:
+      - Write all 24 letters in upper and lower case in correct stroke order
+      - Pronounce diphthongs, breathings and accents (choose Erasmian or restored Koine and stay consistent)
+      - Read aloud John 1:1–5 and the Pater Noster in Greek
+      - Transliterate Greek words and give 30+ English derivatives
+    curriculumOptions:
+      - name: The Greek Alphabet
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/greek/greek-alphabet/"
+        notes: An 80-page letter-a-page workbook for grade 3 to adult. The fastest route.
+      - name: "Hey, Andrew! Teach Me Some Greek! (Levels 1–2)"
+        publisher: Greek 'n' Stuff (Karen Mohs)
+        tradition: protestant
+        url: "https://www.greeknstuff.com/andrew.html"
+        notes: >-
+          Gentle Biblical-Greek workbooks with an 8-level sequence that ends reading the Greek NT.
+          Levels 1–2 are well below an accelerated 10-year-old, so move quickly.
+      - name: Song School Greek
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/collections/song-school-greek"
+        notes: Songs and games around Koine vocabulary. Leads into Greek for Children.
+    historicalPrecedent: >-
+      J. S. Mill began Greek at three (Autobiography). The English public schools and Boston
+      Latin began Greek grammar after about three years of Latin. In 1789 Boston put "Greek
+      Grammar" in the third of four classes, and in the 1880s Greek began in the Fourth Class
+      alongside Caesar.
+    sources:
+      - { label: "J. S. Mill, Autobiography (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/10378" }
+      - { label: "Catalogue of the Boston Public Latin School (1886)", url: "https://archive.org/details/catalogueofbosto00bostuoft" }
+    notes: >-
+      Sequence (family decision): Koine first (the Gospel of John), then Attic (Xenophon, Plato) and
+      Homeric Greek.
+
+  - id: greek-02
+    title: "Greek II: Elementary Koine Greek"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 11.5
+    order: 2
+    prerequisites: [greek-01]
+    summary: >-
+      A first grammar in Koine Greek: the article, first and second declensions, present and
+      future active verbs, and about 200 high-frequency New Testament words, with simple
+      translation from the Gospels. The Latin background lets the student move faster than the
+      book's stated grade level.
+    objectives:
+      - Decline the definite article and 1st/2nd-declension nouns and adjectives
+      - Conjugate present, imperfect and future active indicative of ω-verbs and εἰμί
+      - Translate simple Gospel sentences
+      - Know the 200 most frequent NT words
+    curriculumOptions:
+      - name: Elementary Greek I–III (Christine Gatchell)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/greek/elementary-greek/"
+        notes: Koine. Simple and substantial, and self-teachable for teens. Memoria's own path is Greek Alphabet, then Elementary Greek, then First Form Greek.
+      - name: Greek for Children, Primer A
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/collections/greek-for-children"
+        notes: Chant-based Koine with video and audio support.
+      - name: "Hey, Andrew! Teach Me Some Greek! (Levels 3–5)"
+        publisher: Greek 'n' Stuff
+        tradition: protestant
+        url: "https://www.greeknstuff.com/andrew.html"
+        notes: Continues the workbook series toward reading 1 John and the Gospels.
+
+  - id: greek-03
+    title: "Greek III: Full Grammar I (Attic or New Testament)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12.5
+    order: 3
+    prerequisites: [greek-02]
+    related: [latin-04]
+    summary: >-
+      The first full grammar course. The family chooses the stream to lead with. The Attic stream
+      uses Athenaze, a reading course set in 5th-century Athens, or First Form Greek (Memoria). The
+      New Testament stream uses Machen's New Testament Greek for Beginners, the classic seminary
+      grammar written by a Presbyterian scholar. Both streams cover the whole verb system in
+      outline (aorist, perfect, middle and passive), the third declension, participles, and
+      contract verbs.
+    objectives:
+      - Conjugate ω-verbs in all tenses and voices of the indicative, including first and second aorist
+      - Decline 3rd-declension nouns and the participle
+      - Translate connected adapted passages of 150–300 words
+      - Build vocabulary to about 600 words (DCC Greek Core List)
+    coreTexts:
+      - title: New Testament Greek for Beginners
+        author: J. Gresham Machen
+        date: "1923"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/newtestamentgree00mach" }
+          - { label: "Christianbook (current print ed.)", url: "https://www.christianbook.com/new-testament-greek-for-beginners/j-machen/9781579101800/pd/9101800" }
+      - title: Greek Core Vocabulary
+        author: Dickinson College Commentaries
+        publicDomain: false
+        links:
+          - { label: DCC (free online), url: "https://dcc.dickinson.edu/greek-core-list" }
+    curriculumOptions:
+      - name: "Athenaze, Book I (3rd ed.)"
+        publisher: Oxford University Press
+        tradition: secular
+        url: "https://global.oup.com/ushe/product/athenaze-book-i-an-introduction-to-ancient-greek-9780190607661"
+        notes: >-
+          A reading-method Attic course. The story of the farmer Dikaiopolis gives way to adapted
+          Herodotus and Thucydides in Book II. Widely used in high schools.
+      - name: First Form Greek (and Second Form Greek)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/greek/first-form-greek-complete-set/"
+        notes: Grammar-first, in the same format as First Form Latin. Assumes two years of Latin, which this program provides.
+      - name: New Testament Greek for Beginners (Machen)
+        publisher: "Public domain / reprinted (Christianbook)"
+        tradition: protestant
+        url: "https://www.christianbook.com/new-testament-greek-for-beginners/j-machen/9781579101800/pd/9101800"
+        notes: >-
+          Terse and rigorous. It moves quickly to the Gospels and suits students who want the NT
+          first. A free scan is on Archive.org.
+    historicalPrecedent: >-
+      Colonial schools taught Greek mainly through the Greek New Testament. Boston 1789 put
+      "Greek Testament" in the top class, and Harvard 1642 required entrants to "decline
+      perfectly the Paradigim's of Nounes and Verbes in the Greek tongue".
+    sources:
+      - { label: "New Englands First Fruits (1643)", url: "https://archive.org/details/NewEnglandsFirstFruitsInRespectFirstOfTheCounversionOfSome" }
+
+  - id: greek-04
+    title: "Greek IV: Full Grammar II (Intensive Attic)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 4
+    prerequisites: [greek-03]
+    summary: >-
+      Completion of classical Greek grammar: μι-verbs, the subjunctive and optative, conditions,
+      indirect discourse, the uses of the participle, and the principal parts of the 100 most
+      common irregular verbs. The texts are the rigorous college grammars. Crosby & Schaeffer was
+      written for high-school Greek on the way to the Anabasis.
+    objectives:
+      - Conjugate μι-verbs and all moods including the optative
+      - Classify and translate every type of condition and indirect discourse
+      - Recite the principal parts of the 100 most important irregular verbs
+      - Translate unadapted Xenophon with a vocabulary
+    coreTexts:
+      - title: An Introduction to Greek
+        author: H. Lamar Crosby & John N. Schaeffer
+        date: "1928"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/introductiontogr00cros" }
+      - title: The First Greek Book
+        author: John Williams White
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/firstgreekbook00whituoft" }
+    curriculumOptions:
+      - name: "Greek: An Intensive Course (Hansen & Quinn)"
+        publisher: Fordham University Press
+        tradition: secular
+        url: "https://fordhampress.com/greek-hb-9780823216642.html"
+        notes: The most complete one-volume grammar, designed for the CUNY summer institute. Hard, but it leaves nothing out.
+      - name: "Athenaze, Book II"
+        publisher: Oxford University Press
+        tradition: secular
+        url: "https://global.oup.com/ushe/product/athenaze-book-ii-an-introduction-to-ancient-greek-9780190607678"
+        notes: Continues Book I into adapted Herodotus, Thucydides and Plato.
+      - name: Crosby & Schaeffer, An Introduction to Greek
+        publisher: "Public domain (1928)"
+        tradition: classical
+        url: "https://archive.org/details/introductiontogr00cros"
+        notes: Written for American high schools and built around the Anabasis vocabulary. Free.
+    historicalPrecedent: >-
+      White's First Greek Book (1896) and similar books prepared late-1800s American schoolboys
+      to read "the first four books of Xenophon's Anabasis", which was then the standard
+      college-entrance requirement in Greek.
+
+  - id: greek-05
+    title: "Koine Reading I: The Gospel of John"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 5
+    prerequisites: [greek-03]
+    related: [latin-10]
+    summary: >-
+      The easiest continuous Greek of real literary weight. The student reads John's Gospel
+      through (with 1 John), using a reader's lexicon at first and then without. The simple syntax
+      and small vocabulary build speed and confidence while he meets the Logos theology in its
+      own words.
+    objectives:
+      - Read the whole Gospel of John in Greek
+      - Read 1 John in Greek at sight by the end
+      - Memorize John 1:1–14 in Greek
+      - Compare three key verses in Greek, the Vulgate and the King James/Douay versions
+    coreTexts:
+      - title: Gospel of John (Greek New Testament)
+        author: St. John the Evangelist
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek text)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=John:chapter=1" }
+          - { label: "SBL Greek New Testament (free)", url: "https://sblgnt.com/" }
+          - { label: "STEP Bible (tagged Greek, free)", url: "https://www.stepbible.org/" }
+    curriculumOptions:
+      - name: "A Graded Reader of Biblical Greek (Mounce)"
+        publisher: Zondervan
+        tradition: protestant
+        url: "https://www.christianbook.com/a-graded-reader-of-biblical-greek/william-mounce/9780310205821/pd/20582"
+        notes: Graded NT passages with notes. A good bridge for self-study.
+      - name: A Primer of Biblical Greek
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/greek/a-primer-of-biblical-greek/"
+        notes: A Koine grammar and reader used in Memoria's upper sequence.
+    historicalPrecedent: >-
+      "Greek Testament" was the first Greek author in the Boston Latin School (1789) and at
+      Harvard. New England's First Fruits describes students resolving the Greek Testament
+      logically and grammatically.
+    notes: >-
+      Text-critical note: Protestants usually read the critical text (NA/UBS, SBLGNT) or the
+      Textus Receptus behind the King James. Catholics use the same critical Greek text, and the
+      Nova Vulgata was revised against it. The differences seldom matter at this level.
+
+  - id: greek-06
+    title: "Reference Grammars & Greek Prose Composition"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 18
+    order: 6
+    prerequisites: [greek-03]
+    related: [latin-06]
+    summary: >-
+      The student learns to consult Goodwin (the 19th-century school standard) and Smyth (the
+      comprehensive reference). He writes English-to-Greek sentences and short passages weekly
+      from North & Hillard's Greek Prose Composition, which fixes accents, moods and particles.
+    objectives:
+      - Look up any construction in Smyth or Goodwin by section number
+      - Complete the first 40 exercises of North & Hillard's Greek Prose Composition
+      - Accent correctly any noun or verb form written
+    coreTexts:
+      - title: A Greek Grammar
+        author: William Watson Goodwin
+        date: "1892"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/greekgrammar00gooduoft" }
+      - title: A Greek Grammar for Colleges
+        author: Herbert Weir Smyth
+        date: "1920"
+        publicDomain: true
+        links:
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007" }
+      - title: Greek Prose Composition for Schools
+        author: M. A. North & A. E. Hillard
+        date: "1902"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/greekprosecompos0000nort" }
+    curriculumOptions:
+      - name: "Live online classes and tutors"
+        publisher: Scholé Academy (Classical Academic Press)
+        tradition: classical
+        url: "https://scholeacademy.com/"
+        notes: "Live online classical language courses with expert teachers. Useful if a local tutor is not available."
+    historicalPrecedent: >-
+      English public schools (Eton, Rugby, Shrewsbury) required Greek prose and verse composition
+      in the upper forms. Goodwin's grammar was the American college standard from the 1870s.
+    notes: >-
+      Done with a tutor (the family has tutors available): prose and verse composition need an expert to
+      correct the student's exercises line by line.
+
+  - id: greek-07
+    title: "First Classical Readers: Aesop & Lucian"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 13
+    order: 7
+    prerequisites: [greek-04]
+    related: [latin-05]
+    summary: >-
+      Short, witty classical prose. Aesop's fables in Greek come first, the traditional first
+      Greek book. Lucian's True History, the ancestor of science fiction and of Swift, follows.
+      Both give volume, humour and Attic idiom before the Anabasis.
+    objectives:
+      - Read 30+ Aesopic fables in Greek
+      - Read True History Book I in Greek
+      - Retell a fable in simple Greek (oral or written)
+    coreTexts:
+      - title: Fabulae Aesopicae Collectae (Greek)
+        author: Aesop (ed. C. Halm)
+        date: "1889 ed."
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/fabulaeaesopica00aesogoog" }
+      - title: True History (Vera Historia)
+        author: Lucian of Samosata
+        date: "2nd c."
+        publicDomain: true
+        links:
+          - { label: "Dickinson College Commentaries (notes, vocab)", url: "https://dcc.dickinson.edu/lucian-true/book-1/1-1" }
+    historicalPrecedent: >-
+      J. S. Mill: "Aesop's Fables, the first Greek book which I read. The Anabasis… was the
+      second." Boston Latin's 1880s Fourth Class read "Lucian, Dialogues" alongside the
+      Anabasis.
+    sources:
+      - { label: "J. S. Mill, Autobiography (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/10378" }
+
+  - id: greek-08
+    title: "Xenophon: Anabasis (and Memorabilia)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 8
+    prerequisites: [greek-04, greek-07]
+    related: [latin-07]
+    summary: >-
+      The historic first Attic author, the counterpart of Caesar. The student reads Anabasis
+      Books I–IV, the march of the Ten Thousand, with its lessons in leadership, improvised
+      self-government and courage. Selections from the Memorabilia show Socrates through a
+      soldier's eyes.
+    objectives:
+      - Read Anabasis I–IV (at least I and IV in full)
+      - Read three chapters of the Memorabilia
+      - Analyse Xenophon's portrait of leadership (Cyrus, Clearchus, Xenophon himself)
+    coreTexts:
+      - title: Anabasis
+        author: Xenophon
+        date: "c. 370 BC"
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0201" }
+          - { label: "Goodwin & White school edition, Books I–IV (Archive.org)", url: "https://archive.org/details/firstfourbooksof00xeno" }
+          - { label: "Steadman, Anabasis I (free PDF)", url: "https://geoffreysteadman.com/xenophon-anabasis-i/" }
+    historicalPrecedent: >-
+      Jefferson told Peter Carr (1785) to read "Xenophontis Hellenica, Xenophontis Anabasis" in
+      the original and assigned the "Xenophontis Memorabilia" for morality. The Anabasis (Books
+      I–IV) was the standard American college-entrance Greek text through the late 1800s.
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Wikisource)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
+
+  - id: greek-09
+    title: "Koine Reading II: Luke–Acts"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14.5
+    order: 9
+    prerequisites: [greek-05]
+    summary: >-
+      Luke writes the most literary Koine in the New Testament. The Gospel of Luke and the Acts
+      of the Apostles bridge Koine and classical style. Paul's Areopagus speech (Acts 17) and his
+      defences before Festus and Agrippa give rhetorical models.
+    objectives:
+      - Read Luke 1–2 and 15 and the Passion narrative in Greek
+      - Read Acts 1–2, 9, 17 and 26–28 in Greek
+      - Analyse the periodic prologue of Luke (1:1–4) as classical prose
+    coreTexts:
+      - title: Gospel of Luke & Acts of the Apostles
+        author: St. Luke
+        publicDomain: true
+        links:
+          - { label: "Perseus, Luke", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Luke:chapter=1" }
+          - { label: "Perseus, Acts", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Acts:chapter=1" }
+          - { label: SBLGNT, url: "https://sblgnt.com/" }
+
+  - id: greek-10
+    title: "Plato: Apology & Crito"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 10
+    prerequisites: [greek-08]
+    related: [philosophy-03]
+    summary: >-
+      Socrates on trial and in prison. The Apology and Crito are the first philosophical texts
+      read in the original. The questions are the examined life, obedience to law and conscience,
+      and the citizen's duty. Attic prose at its most natural.
+    objectives:
+      - Read the Apology and Crito complete in Greek
+      - Memorize Apology 38a ("the unexamined life…") in Greek
+      - Write an essay on the Laws' speech in the Crito and civil disobedience (compare King, Thoreau, Aquinas on unjust law)
+    coreTexts:
+      - title: Apology of Socrates
+        author: Plato
+        date: "c. 399–390 BC"
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0169:text=Apol.:section=17a" }
+          - { label: "Steadman, Plato's Apology (free PDF)", url: "https://geoffreysteadman.com/platos-apology/" }
+      - title: Crito
+        author: Plato
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0169:text=Crito:section=43a" }
+          - { label: "Steadman, Plato's Crito (free PDF)", url: "https://geoffreysteadman.com/platos-crito/" }
+    historicalPrecedent: >-
+      Jefferson assigned "Plato's Socratic dialogues" to Peter Carr for morality (1785), though
+      he later disparaged Plato's Republic. Socratic dialogues were standard reading in the
+      colonial colleges and the English universities.
+
+  - id: greek-11
+    title: "Homer: Odyssey & Iliad"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16
+    order: 11
+    prerequisites: [greek-08]
+    related: [latin-12, literature-16]
+    summary: >-
+      Homeric dialect and the dactylic hexameter. The student reads Odyssey Books I and IX–XII
+      (Cyclops to Scylla) and Iliad I, VI (Hector and Andromache), and XXII–XXIV (the death of
+      Hector and Priam's ransom). The rest is read in translation. Homer comes after Virgil in
+      Latin, so the student can see what Virgil imitated.
+    objectives:
+      - Read about 2,500 lines of Homer in Greek
+      - Scan and recite Homeric hexameter; memorize Iliad I.1–7 and Odyssey I.1–10
+      - Know the main features of the Homeric dialect
+      - Write a comparative essay on Achilles, Hector, Odysseus and Aeneas
+    coreTexts:
+      - title: Odyssey
+        author: Homer
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0135" }
+          - { label: "Dickinson College Commentaries, Odyssey", url: "https://dcc.dickinson.edu/homer-odyssey/i-1-43" }
+          - { label: "Steadman, Odyssey 9–12 (free PDF)", url: "https://geoffreysteadman.com/files-odyssey-9-12/" }
+      - title: Iliad
+        author: Homer
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133" }
+          - { label: "Dickinson College Commentaries, Iliad 6", url: "https://dcc.dickinson.edu/homer-iliad/homer-iliad-vi-1-36" }
+          - { label: "Steadman, Iliad 6 & 22 (free PDF)", url: "https://geoffreysteadman.com/iliad-6-22/" }
+    historicalPrecedent: >-
+      Boston 1789, top class: "Greek Testament. Horace. Homer." Otis recalled that the "highest
+      classes dipped into Xenophon and Homer." The 1880s Boston Latin Third Class read "Homer,
+      Iliad." Harvard and Yale examined entrants on Greek grammar and the Greek Testament, and
+      Homer followed in college.
+
+  - id: greek-12
+    title: "Herodotus: The Histories"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 12
+    prerequisites: [greek-10]
+    summary: >-
+      The "Father of History" in Ionic Greek. The student reads Book I (Croesus and Solon, Cyrus)
+      and the Persian War narratives (Thermopylae in Book VII, Salamis in Book VIII). Themes:
+      liberty against despotism, fortune and hubris, and the Greek sense of law ("Law is king").
+    objectives:
+      - Read Herodotus I.1–94 (Croesus logos) in Greek
+      - Read the Thermopylae narrative (VII.201–233) in Greek
+      - Recognize Ionic dialect forms
+      - Explain the Greek idea of freedom under law (Demaratus to Xerxes, VII.104)
+    coreTexts:
+      - title: Histories
+        author: Herodotus
+        date: "c. 430 BC"
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0125" }
+          - { label: "Steadman, Herodotus Book 1 (free PDF)", url: "https://geoffreysteadman.com/files-herodotus/" }
+    historicalPrecedent: >-
+      Jefferson's reading plan for Carr (1785) begins ancient history "in the original" with
+      "Herodotus, Thucydides, Xenophontis Hellenica, Xenophontis Anabasis, Arrian…".
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Wikisource)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
+
+  - id: greek-13
+    title: "Septuagint & the Greek Fathers"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 13
+    prerequisites: [greek-09]
+    related: [hebrew-04, latin-10, latin-16]
+    summary: >-
+      Biblical and patristic Greek. The student reads the Septuagint Genesis 1–11 and selected
+      Psalms, the Old Testament the apostles quoted. He then reads Greek Fathers: St. John
+      Chrysostom (a homily), St. Basil's Address to Young Men on Greek Literature (on how
+      Christians should read the pagan classics), and the Nicene Creed in Greek.
+    objectives:
+      - Read LXX Genesis 1–3 and 6–9 and ten Psalms in Greek
+      - Compare LXX, Hebrew and Vulgate readings of three key passages (e.g. Gen 1:2, Ps 22/21, Isa 7:14)
+      - Read one Chrysostom homily and Basil's Address to Young Men (selections) in Greek
+      - Recite the Nicene–Constantinopolitan Creed in Greek
+    coreTexts:
+      - title: "Genesis 1–11: Septuagint and Vulgate with facing vocabulary"
+        author: Geoffrey Steadman (ed.)
+        publicDomain: false
+        links:
+          - { label: "Steadman (free PDF)", url: "https://geoffreysteadman.com/genesis-1-11/" }
+    curriculumOptions:
+      - name: "Septuaginta: A Reader's Edition"
+        publisher: Hendrickson / Deutsche Bibelgesellschaft
+        tradition: secular
+        url: "https://www.christianbook.com/septuaginta-readers-edition-flexisoft-black-volumes/9781683071853/pd/071853"
+        notes: Rahlfs–Hanhart text with running vocabulary. The best single tool for reading the LXX.
+    notes: >-
+      Catholic and Orthodox Christians, and the Fathers, received the LXX's wider canon, which
+      includes the deuterocanonical books (Wisdom, Sirach, Maccabees, etc.). Protestants follow
+      the shorter Hebrew canon and call these books the Apocrypha. Chrysostom and Basil are
+      honoured by Catholic, Orthodox and many Protestant readers.
+
+  - id: greek-14
+    title: "Attic Tragedy: Sophocles, Aeschylus & Euripides"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 14
+    prerequisites: [greek-11]
+    summary: >-
+      The student reads one tragedy in Greek, Sophocles' Antigone, with selections from
+      Euripides' Medea and the Oresteia, and the rest in translation. He learns the iambic
+      trimeter, the choral lyric and the structure of tragedy. Antigone's clash of divine law and
+      civic decree is the natural-law debate in dramatic form.
+    objectives:
+      - Read Sophocles' Antigone in Greek (dialogue complete, choral odes selectively)
+      - Scan iambic trimeter
+      - Memorize the "Ode to Man" (Antigone 332–375), at least its first strophe
+      - Write an essay on Antigone and natural law (compare Aquinas and Martin Luther King)
+    coreTexts:
+      - title: Antigone
+        author: Sophocles
+        date: "c. 441 BC"
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0185" }
+          - { label: "Steadman, Antigone (free PDF)", url: "https://geoffreysteadman.com/sophocles-antigone/" }
+      - title: Medea
+        author: Euripides
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0113" }
+      - title: Libation Bearers (Oresteia)
+        author: Aeschylus
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0007" }
+    historicalPrecedent: >-
+      Jefferson names "Euripides, Sophocles" among the poets Carr "will read at school" (1785).
+      Tragedy was a set text in the English sixth forms and American colleges.
+
+  - id: greek-15
+    title: "College Greek: Thucydides, Plato & Reading at Sight"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 15
+    prerequisites: [greek-12, greek-14]
+    related: [latin-17]
+    summary: >-
+      The hardest Attic prose and the core texts of political philosophy. Thucydides: the
+      Archaeology, Pericles' Funeral Oration (II.35–46), the Plague, the Mytilene debate, the
+      Corcyraean stasis (III.82–83) and the Melian Dialogue. Then Plato: Republic I and selections
+      from the Phaedo or Gorgias. Sight-reading of the Greek New Testament and Xenophon becomes a
+      daily habit.
+    objectives:
+      - Read the Funeral Oration, the Mytilene debate, the stasis at Corcyra and the Melian Dialogue in Greek
+      - Read Republic I (or Gorgias) in Greek
+      - Read any NT passage at sight
+      - Write a paper connecting Thucydides on faction to Federalist No. 10
+    coreTexts:
+      - title: History of the Peloponnesian War
+        author: Thucydides
+        date: "c. 400 BC"
+        publicDomain: true
+        links:
+          - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0199" }
+          - { label: "Steadman, Thucydides selections (free PDF)", url: "https://geoffreysteadman.com/thucydides/" }
+    historicalPrecedent: >-
+      Thucydides was the second author on Jefferson's list for Carr. Hobbes translated him into
+      English (1629) as a warning against democracy. The founders cited the Greek leagues and
+      factions in the Federalist debates (Federalist 18–20).

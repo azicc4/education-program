@@ -1,0 +1,382 @@
+track: logic
+title: Logic
+trackGroup: Trivium
+description: >-
+  Logic is the art of right reasoning and the second art of the trivium. The track opens at 7–8
+  with deduction puzzles and reasoning games. Around 9–10 it moves to informal fallacies, then to
+  the full Aristotelian system (the three acts of the mind, the categorical syllogism, material
+  logic), and then to modern symbolic logic and truth tables. It closes with the classic textbooks
+  that formed earlier generations (Isaac Watts's Logick at the colonial colleges, Jevons, H.W.B.
+  Joseph) and with Aristotle's Organon at college level. By 18 the student can define terms,
+  classify propositions, test syllogisms and propositional arguments for validity, spot fallacies
+  in real speech, and read Aristotle's logical works in translation. Logic is the discipline
+  underneath rhetoric, philosophy, theology, law and mathematics.
+rows:
+  - id: logic-01
+    title: Puzzles, Games & First Reasoning
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 7.5
+    ageEnd: 9
+    order: 1
+    prerequisites: []
+    related: [philosophy-02]
+    summary: >-
+      Grid deduction puzzles, riddles, strategy games (chess, checkers) and "what follows?" talk
+      at the table build the habit of reasoning step by step before any formal terminology.
+      Children learn to hold several clues in mind, rule out possibilities and explain why an
+      answer must be true.
+    objectives:
+      - Solve grid-style deduction puzzles by recording and eliminating possibilities
+      - Explain an answer aloud with "because" and "therefore"
+      - Distinguish a guess from a conclusion that must follow from clues
+      - Play strategy games while thinking two moves ahead
+    curriculumOptions:
+      - name: Mind Benders (Levels 1–4, plus Verbal)
+        publisher: The Critical Thinking Co.
+        tradition: secular
+        url: "https://www.criticalthinking.com/mind-benders.html"
+        notes: >-
+          Best-selling deductive grid puzzles, graded by level. Short, self-checking, and good for
+          10–15 minutes a day. The Verbal book is read aloud to children who are not yet fluent readers.
+    notes: >-
+      Keep this playful and short. Chess is the classic companion to this unit. Parents can model reasoning aloud:
+      "If it rained, the grass is wet; the grass is dry; so..."
+
+  - id: logic-02
+    title: "Informal Logic: Fallacies & Good Arguments"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 9.5
+    ageEnd: 11
+    order: 2
+    prerequisites: [logic-01]
+    related: [rhetoric-04, philosophy-02]
+    summary: >-
+      Students learn to recognize the common informal fallacies (ad hominem, straw man, red
+      herring, begging the question, false dilemma, slippery slope, and others) in advertisements,
+      speeches, and everyday argument. This is the natural entry point to the "logic stage" of the
+      trivium, and it makes children alert, charitable critics of what they hear.
+    objectives:
+      - Name, define, and give an original example of about 25–35 informal fallacies
+      - Identify fallacies in ads, cartoons, political speeches and editorials
+      - Distinguish relevance, presumption and clarity fallacies
+      - Restate an opponent's argument fairly before criticizing it
+    curriculumOptions:
+      - name: The Art of Argument (Revised Edition)
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-art-of-argument"
+        notes: >-
+          Teaches 28 informal fallacies with dialogues and many real-world ad examples. It has a
+          teacher's edition and a video course, and is aimed at middle school and up.
+      - name: The Fallacy Detective (38 lessons)
+        publisher: Christian Logic (Bluedorn)
+        tradition: protestant
+        url: "https://www.fallacydetective.com/products/item/the-fallacy-detective"
+        notes: >-
+          Light, cartoon-rich lessons from a Christian homeschool family, nominally ages 12 and up.
+          Strong readers can do it at 10. It is short enough to finish in a semester.
+    notes: >-
+      You can use both: Fallacy Detective at 9–10 and Art of Argument at 10–11. Keep a family
+      "fallacy jar" for the ones you catch at dinner.
+
+  - id: logic-03
+    title: "Traditional Logic I: Terms, Propositions & the Syllogism"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12
+    order: 3
+    prerequisites: [logic-02]
+    related: [philosophy-03]
+    summary: >-
+      This is the core of formal Aristotelian logic: the three acts of the mind (simple
+      apprehension, judgment, reasoning), the four categorical propositions (A, E, I, O), the square
+      of opposition, equivalence (conversion, obversion, contraposition), and the rules for the
+      validity of the categorical syllogism. It is the logic that Western schools taught from the
+      medieval universities through the 19th century.
+    objectives:
+      - Classify propositions by quantity and quality (A, E, I, O)
+      - Use the square of opposition to infer truth values
+      - Convert, obvert and contrapose propositions correctly
+      - Determine mood and figure, and test syllogisms against the seven rules of validity
+    coreTexts:
+      - title: Traditional Logic I
+        author: Martin Cothran
+        publicDomain: false
+        links:
+          - { label: Memoria Press, url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/traditional-logic-i/" }
+    curriculumOptions:
+      - name: Traditional Logic I Complete Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/traditional-logic-i/"
+        notes: >-
+          Textbook, workbook, quizzes and tests, a key, and instructional video by Martin Cothran.
+          It is designed for grade 7 and up and takes about one semester.
+      - name: The Discovery of Deduction
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-discovery-of-deduction"
+        notes: >-
+          Categorical logic taught through Socratic dialogue, with more history of logic than
+          Cothran. It is written for grade 8 and up and has a video course.
+      - name: Introductory Logic
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/intrologic"
+        notes: >-
+          The Canon Logic series used in classical Christian (ACCS) schools. It covers terms,
+          propositions and syllogisms, and leads into Canon's Intermediate Logic.
+    historicalPrecedent: >-
+      The Jesuit Ratio Studiorum (1599) and English grammar schools alike assumed a boy would
+      enter university already able to dispute in syllogisms. Harvard's first course of study,
+      described in New England's First Fruits (1643), put logic in the first year.
+
+  - id: logic-04
+    title: "Traditional Logic II & Socratic Logic"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 4
+    prerequisites: [logic-03]
+    related: [philosophy-04]
+    summary: >-
+      This course extends categorical logic to enthymemes, sorites, hypothetical and disjunctive
+      syllogisms, and dilemmas, and applies it to real arguments. Kreeft's Socratic Logic is the
+      reference text: it is the most complete Aristotelian logic in print, written with wit and
+      dialogue, and many exercises come from the great books.
+    objectives:
+      - Reduce enthymemes to full syllogisms by supplying the missing premise
+      - Analyze hypothetical, disjunctive and conjunctive syllogisms and dilemmas
+      - Translate ordinary-language arguments into logical form
+      - Define terms by genus and specific difference and test definitions
+    coreTexts:
+      - title: "Socratic Logic: A Logic Text using Socratic Method, Platonic Questions, and Aristotelian Principles (ed. 3.1)"
+        author: Peter Kreeft
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Socratic-Logic-Questions-Aristotelian-Principles/dp/1587318083" }
+    curriculumOptions:
+      - name: Traditional Logic II Complete Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/traditional-logic-ii-complete-set/"
+        notes: The direct sequel to Traditional Logic I, covering advanced syllogistic forms.
+      - name: Socratic Logic (self-study with a tutor or parent)
+        publisher: St. Augustine's Press
+        tradition: catholic
+        url: "https://www.amazon.com/Socratic-Logic-Questions-Aristotelian-Principles/dp/1587318083"
+        notes: >-
+          College-level but readable. Use its exercises selectively at 12–13 and return to it as a
+          reference through high school.
+
+  - id: logic-05
+    title: "Material Logic & the Liberal Arts of the Trivium"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 5
+    prerequisites: [logic-04]
+    related: [rhetoric-07, philosophy-07]
+    summary: >-
+      Formal logic concerns the shape of reasoning. Material logic concerns its content: the
+      categories and predicables, definition and division, and the modes of knowing and of
+      argumentation (demonstration, dialectic, rhetoric, poetics). Sister Miriam Joseph's The
+      Trivium joins logic, grammar and rhetoric in one Catholic, Aristotelian-Thomist philosophy of
+      language.
+    objectives:
+      - Name and apply Aristotle's ten categories and the five predicables
+      - Distinguish demonstrative, dialectical, rhetorical and poetic argument
+      - Build definitions and divisions that are neither too broad nor too narrow
+      - Explain how grammar, logic and rhetoric correspond to thought, reality and communication
+    coreTexts:
+      - title: "The Trivium: The Liberal Arts of Logic, Grammar, and Rhetoric"
+        author: Sister Miriam Joseph, C.S.C.
+        date: "1940s; Paul Dry Books ed. 2002"
+        publicDomain: false
+        links:
+          - { label: Paul Dry Books, url: "https://www.pauldrybooks.com/products/the-trivium" }
+    curriculumOptions:
+      - name: Material Logic Complete Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/material-logic-third-edition-complete-set/"
+        notes: Modes of being, knowledge and argumentation. A one- or two-semester follow-up to Traditional Logic.
+      - name: "The Trivium (with The Trivium Companion)"
+        publisher: Paul Dry Books
+        tradition: catholic
+        url: "https://www.pauldrybooks.com/products/the-trivium"
+        notes: >-
+          Written for freshmen at Saint Mary's College (Notre Dame) in the 1930s–40s. Dense but
+          beautiful, and best read slowly with a tutor.
+
+  - id: logic-06
+    title: "The Logic Masters: Watts, Jevons & Joseph"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 6
+    prerequisites: [logic-05]
+    related: [rhetoric-11]
+    summary: >-
+      The student reads the textbooks that formed earlier generations of statesmen and scholars.
+      Isaac Watts's Logick (1724) was the standard logic at the colonial colleges; Jevons's
+      Elementary Lessons in Logic (1870) served Victorian schools; and H.W.B. Joseph's Oxford
+      Introduction to Logic (1906) is the fullest traditional treatment in English. Watts also
+      teaches the practical "right use of reason": judgment, prejudice, and method in study.
+    objectives:
+      - Read and summarize Watts's four parts (perception, judgment, reasoning, method)
+      - Work Jevons's exercises, including his introduction to induction
+      - Compare how three centuries of textbooks define the syllogism and fallacies
+      - Write a short essay on a "prejudice" of judgment in the manner of Watts
+    coreTexts:
+      - title: "Logick: or, The Right Use of Reason in the Enquiry after Truth"
+        author: Isaac Watts
+        date: "1724"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1726 ed.)", url: "https://archive.org/details/logickorrightuse00wattuoft" }
+      - title: "Elementary Lessons in Logic: Deductive and Inductive"
+        author: W. Stanley Jevons
+        date: "1870"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/elementarylesson00jevo" }
+      - title: An Introduction to Logic
+        author: H.W.B. Joseph
+        date: "1906 (2nd ed. 1916)"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1916)", url: "https://archive.org/details/introductiontolo00jose" }
+    historicalPrecedent: >-
+      Watts's Logick went through dozens of editions and was the standard logic at Harvard, Yale
+      and Oxford through much of the 18th century, so many of the Founders' teachers learned from
+      it. Jevons's Lessons was the usual English school and university text in the late 19th century.
+    notes: >-
+      This is a reading unit, not a drill course. Assign selected chapters, have the student
+      narrate them, and compare them with Memoria Press or Kreeft.
+
+  - id: logic-07
+    title: "Symbolic Logic: Truth Tables, Proofs & Boolean Reasoning"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16
+    order: 7
+    prerequisites: [logic-04]
+    related: []
+    summary: >-
+      Modern propositional and predicate logic covers symbolization, truth tables, validity and
+      consistency, formal proofs (natural deduction), truth trees, and quantifiers. It links
+      Aristotle to Boole, Frege and computer science, and prepares the student for mathematics
+      proofs, programming and analytic philosophy.
+    objectives:
+      - Symbolize English sentences with connectives and quantifiers
+      - Build truth tables to test validity, equivalence and consistency
+      - Construct natural-deduction proofs using the standard rules of inference
+      - Explain the relation of Boolean algebra to logic gates and circuits
+    coreTexts:
+      - title: "forall x: Calgary. An Introduction to Formal Logic"
+        author: P.D. Magnus, Tim Button, et al.
+        publicDomain: false
+        links:
+          - { label: "Open Logic Project (free, CC BY)", url: "https://forallx.openlogicproject.org/" }
+    curriculumOptions:
+      - name: Intermediate Logic (Mastering Propositional Arguments)
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/new-intermediate-logic-complete-program-with-dvd-course"
+        notes: >-
+          Truth tables, formal proofs, truth trees and argument analysis, with DVD lessons by James
+          Nance. For grade 8 and up, and the most accessible option for home study.
+      - name: A Concise Introduction to Logic (14th ed.)
+        publisher: Cengage (Patrick Hurley)
+        tradition: secular
+        url: "https://www.cengage.com/c/a-concise-introduction-to-logic-14e-hurley/9780357798683/"
+        notes: >-
+          The most widely used college intro text, covering informal, categorical, propositional and
+          predicate logic and induction. It is suitable for dual-credit rigor at 15–16.
+      - name: "forall x: Calgary"
+        publisher: Open Logic Project
+        tradition: secular
+        url: "https://forallx.openlogicproject.org/"
+        notes: A free, rigorous open textbook with solutions. Good for a mathematically minded student.
+
+  - id: logic-08
+    title: "College Seminar: Aristotle's Organon, Induction & Scientific Method"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 8
+    prerequisites: [logic-06, logic-07]
+    related: [philosophy-14]
+    summary: >-
+      The student reads Aristotle's own logical works (Categories, On Interpretation, and
+      selections from the Prior Analytics) with a tutor, as at Thomas Aquinas College and St.
+      John's College. The seminar then follows the argument about method: Bacon's Novum Organum
+      and Mill's System of Logic on induction and the canons of experimental inquiry.
+    objectives:
+      - Read the Categories and On Interpretation closely and explain the key distinctions
+      - Reconstruct Aristotle's proofs of the valid moods in the Prior Analytics
+      - Compare Aristotelian demonstration with Baconian and Millian induction
+      - Apply Mill's methods of agreement and difference to a real causal question
+    coreTexts:
+      - title: Categories
+        author: Aristotle
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2412" }
+          - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/categories.html" }
+      - title: On Interpretation
+        author: Aristotle
+        publicDomain: true
+        links:
+          - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/interpretation.html" }
+      - title: Prior Analytics
+        author: Aristotle
+        publicDomain: true
+        links:
+          - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/prior.html" }
+      - title: Novum Organum
+        author: Francis Bacon
+        date: "1620"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45988" }
+      - title: "A System of Logic, Ratiocinative and Inductive"
+        author: John Stuart Mill
+        date: "1843"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27942" }
+    curriculumOptions:
+      - name: Classical Logic and Rhetoric (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/logic"
+        notes: >-
+          Ten lectures modeled on the logic and rhetoric core course that every Hillsdale student
+          takes. A good capstone overview alongside the primary texts.
+      - name: Thomas Aquinas College syllabus (logic tutorial, freshman year)
+        publisher: Thomas Aquinas College
+        tradition: catholic
+        url: "https://www.thomasaquinas.edu/a-liberating-education/syllabus"
+        notes: A model reading list for pacing the Organon in seminar.
+    historicalPrecedent: >-
+      Aristotle's Organon was the backbone of the medieval arts degree and remained in the
+      curriculum at Oxford and the colonial colleges. J.S. Mill, whose father had him study logic
+      as a boy, wrote the System of Logic that became the standard 19th-century account of induction.

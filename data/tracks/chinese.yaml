@@ -1,0 +1,535 @@
+track: chinese
+title: Chinese (Mandarin & Classical)
+trackGroup: Languages
+description: >-
+  Mandarin is acquired by ear from infancy through a native-speaking caregiver, songs and stories.
+  Infants who hear live Mandarin keep the ability to perceive its sounds, and live input matters more
+  than recordings. Formal study begins about age 7 with pinyin and tones and a steady climb in
+  characters through heritage-style textbooks (Better Chinese, Ma Liping), alongside the traditional
+  recitation primers (Three Character Classic, Thousand Character Classic) and Tang poetry. From about
+  10 the student moves to an adult university sequence (Integrated Chinese, HSK Standard Course), graded
+  readers (Mandarin Companion, Chinese Breeze) and authentic modern texts. The track also covers the
+  Jesuit encounter with China (Matteo Ricci) and the Chinese Bible. From about 15 the student studies
+  Classical Chinese (文言文) with a proper grammar and reads the Analects, Mencius, Dao De Jing and Sunzi
+  in the original at college level, using the Chinese Text Project. End-state (17–18): HSK 5–6 in modern
+  Mandarin (fluent speech, reading newspapers and modern prose) and the ability to read simple
+  Classical Chinese with a dictionary and commentary.
+rows:
+  - id: chinese-01
+    title: "By-Ear Mandarin: Native-Speaker Caregivers"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 3
+    order: 1
+    prerequisites: []
+    related: [early-development-05, spanish-01]
+    summary: >-
+      Mandarin's tones and sounds are learned best in the first year, from live human interaction. Give
+      Mandarin one consistent native-speaking source: a nanny, au pair, grandparent or parent who speaks
+      only Mandarin to the child, or a Mandarin-speaking home daycare. Talk, sing and read with the child
+      daily.
+    objectives:
+      - Hear several hours a week of live, responsive Mandarin from a consistent native speaker
+      - Understand daily routines and simple requests in Mandarin by age 2–3
+      - Produce Mandarin words with native-like tones (no correction needed at this age)
+    sources:
+      - { label: "Kuhl, Tsao & Liu (2003), PNAS: 9-month-olds learned Mandarin phonetics from live speakers but not from video or audio", url: "https://www.pnas.org/doi/10.1073/pnas.1532872100" }
+      - { label: "Hoff et al. (2012), Dual language exposure and early bilingual development", url: "https://pubmed.ncbi.nlm.nih.gov/21418730/" }
+    notes: >-
+      Kuhl's experiment used Mandarin with American infants. Twelve sessions of live play with a
+      Mandarin speaker preserved the infants' ability to discriminate Mandarin sounds, while identical
+      exposure through video or audio had no effect. Three home languages (English, Spanish, Mandarin)
+      can work, but each needs a fixed person or context and real hours of input.
+
+  - id: chinese-02
+    title: "Mandarin Songs, Picture Books & Stories (with Screen Limits)"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6
+    order: 2
+    prerequisites: [chinese-01]
+    related: [early-development-18, early-development-15, spanish-02]
+    summary: >-
+      Build a repertoire of Chinese children's songs (儿歌), nursery rhymes and picture books read aloud
+      by a native speaker. Short, co-viewed Mandarin cartoons or animated stories can supplement from
+      about age 3, but never replace a person.
+    objectives:
+      - Sing 20+ traditional Chinese children's songs and rhymes (e.g. 两只老虎, 小星星)
+      - Listen to and retell simple picture-book stories in Mandarin
+      - Recognize a handful of characters incidentally (人, 大, 小, 口, 山) through play
+    curriculumOptions:
+      - name: "Sing Chinese! Popular Children's Songs & Lullabies"
+        publisher: Tuttle Publishing
+        tradition: secular
+        url: "https://www.amazon.com/Chinese-Popular-Childrens-Songs-Lullabies/dp/0835125874"
+        notes: Songbook with audio, characters and pinyin. Ideal for a non-native parent to sing along.
+      - name: My First Chinese Words (36 books with audio)
+        publisher: Better Chinese
+        tradition: secular
+        url: "https://www.betterchinese.com/products/bk000001m"
+        notes: Tiny board-style readers for ages 2–5 that lead into Better Chinese's school curriculum.
+      - name: Little Fox Chinese (animated stories and songs)
+        publisher: Little Fox
+        tradition: secular
+        url: "https://chinese.littlefox.com/en"
+        notes: Levelled animated stories. Use in short, co-viewed sessions from about age 3.
+    sources:
+      - { label: "AAP (2016), Media and Young Minds", url: "https://publications.aap.org/pediatrics/article/138/5/e20162591/60503/Media-and-Young-Minds" }
+
+  - id: chinese-03
+    title: "Mandarin Immersion Options & First Characters in Play"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 4
+    ageEnd: 6.5
+    order: 3
+    prerequisites: [chinese-02]
+    related: [early-development-20]
+    summary: >-
+      Where possible, enroll in a Mandarin-immersion preschool or kindergarten, a weekend Chinese school,
+      or a Mandarin playgroup. At home, introduce characters as pictures and games through very simple
+      picture readers, without drills. The goal is a child who understands Mandarin easily and enjoys
+      seeing characters.
+    objectives:
+      - Understand a Mandarin-speaking teacher for a full half-day program or weekly class
+      - Recognize about 50–100 common characters through picture readers and games
+      - Hold simple conversations in Mandarin with peers and adults
+    curriculumOptions:
+      - name: Mandarin immersion school list (U.S.)
+        publisher: Mandarin Immersion Parents Council
+        tradition: secular
+        url: "https://miparentscouncil.org/full-mandarin-immersion-school-list/"
+        notes: Directory of U.S. public and private Mandarin-immersion programs, many starting at pre-K or K.
+      - name: Sagebooks Basic Chinese 500 (基礎漢字500)
+        publisher: Sagebooks Hong Kong
+        tradition: secular
+        url: "https://www.sagebookshk.com/programs/basic-chinese-500/"
+        notes: 50 tiny readers introducing 500 characters, 10 per book. A popular home-literacy bridge. Traditional and simplified editions exist.
+
+  - id: chinese-04
+    title: "Chinese I: Pinyin, Tones & First Characters"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 8
+    order: 4
+    prerequisites: [chinese-03]
+    related: [spanish-03, latin-01]
+    summary: >-
+      Formal literacy begins. The student learns Hanyu Pinyin and the four tones systematically, basic
+      strokes and stroke order, radicals, and the first 300 or so characters in a heritage-learner
+      textbook meant for children who already speak some Mandarin. Handwriting practice in 田字格 grids
+      is daily.
+    objectives:
+      - Read and write any syllable in pinyin with correct tone marks
+      - Write about 150 and recognize about 300 characters with correct stroke order
+      - Read short textbook stories aloud with correct tones
+    curriculumOptions:
+      - name: Ma Liping Chinese (马立平中文), Grades 1–2
+        publisher: Heritage Chinese
+        tradition: secular
+        url: "https://heritagechinese.com/"
+        notes: The widely used U.S. weekend-school series designed for heritage learners, with heavy reading.
+      - name: Better Chinese curriculum (e.g. My First Chinese Reader)
+        publisher: Better Chinese
+        tradition: secular
+        url: "https://www.betterchinese.com/collections/curriculum/online"
+        notes: Story-based K–8 curriculum with online practice. Easier for families without a native-speaking parent.
+      - name: Dong Chinese tone trainer (free)
+        publisher: Dong Chinese
+        tradition: secular
+        url: "https://www.dong-chinese.com/learn/sounds/pinyin/toneTrainer"
+        notes: Free online drill for pinyin and tone perception, to supplement either textbook.
+
+  - id: chinese-05
+    title: "Chinese II: Character Literacy & HSK 1–2"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10
+    order: 5
+    prerequisites: [chinese-04]
+    related: []
+    summary: >-
+      Two years of steady character acquisition (to about 800–1,000 recognized) through the continuing
+      heritage series, extensive easy reading, and the first HSK exams as external checkpoints. Weekly
+      dictation (听写) in the traditional Chinese-school manner.
+    objectives:
+      - Recognize about 1,000 and write about 500 characters
+      - Read children's storybooks in characters without pinyin support
+      - Pass HSK 2 (and optionally YCT for younger learners)
+    curriculumOptions:
+      - name: Ma Liping Chinese (马立平中文), Grades 3–4
+        publisher: Heritage Chinese
+        tradition: secular
+        url: "https://www.mlpchinese.com/website/page/jiegou/"
+        notes: The series structure page shows the reading-heavy sequence by grade.
+      - name: HSK Standard Course 1–2
+        publisher: Beijing Language and Culture University Press
+        tradition: secular
+        url: "https://www.blcup.com/EnPInfo/index/77"
+        notes: The official HSK-aligned textbook. Use for exam preparation alongside the heritage series.
+      - name: Better Chinese (upper-elementary levels)
+        publisher: Better Chinese
+        tradition: secular
+        url: "https://www.betterchinese.com/"
+        notes: Alternative continuous sequence.
+    sources:
+      - { label: "Chinese Testing International: About HSK", url: "https://www.chinesetest.cn/HSK" }
+
+  - id: chinese-06
+    title: "Recitation Classics: Three Character Classic & Thousand Character Classic"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 8.5
+    ageEnd: 10
+    order: 6
+    prerequisites: [chinese-04]
+    related: [rhetoric-02]
+    summary: >-
+      These are the traditional first books of Chinese schooling. The Three Character Classic (三字经,
+      13th c.) teaches in rhymed three-character lines about learning, filial piety, history and the
+      classics. The Thousand Character Classic (千字文, 6th c.) uses 1,000 characters with no character
+      repeated. They are memorized by chanting, a close parallel to the child's Latin chants and the
+      New England Primer.
+    objectives:
+      - Recite the Three Character Classic in full from memory
+      - Recite the first half or more of the Thousand Character Classic
+      - Explain the meaning of each couplet and the historical figures it names
+    coreTexts:
+      - title: 三字經 (Three Character Classic)
+        author: attrib. Wang Yinglin
+        date: "13th century"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project (with English)", url: "https://ctext.org/three-character-classic" }
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/12479" }
+      - title: 千字文 (Thousand Character Classic)
+        author: Zhou Xingsi
+        date: "6th century"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project", url: "https://ctext.org/wiki.pl?if=en&res=386897" }
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/24184" }
+    historicalPrecedent: >-
+      For roughly seven centuries, the 三百千 ("Three, Hundred, Thousand": the Three Character Classic,
+      the Hundred Family Surnames and the Thousand Character Classic) were the standard first primers of
+      the Chinese village school (私塾). Children chanted them before beginning the Four Books.
+    notes: >-
+      The Three Character Classic's Confucian content (filial piety, the five relationships) harmonizes
+      well with Christian moral formation. Where it touches on religion, it describes Chinese tradition
+      and does not ask the child to profess it.
+
+  - id: chinese-07
+    title: "Chinese III: Integrated Chinese Level 1 & HSK 3"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 7
+    prerequisites: [chinese-05]
+    related: []
+    summary: >-
+      The student moves into the standard U.S. university sequence to consolidate grammar systematically
+      (了, 过, 把, complements, measure words) and to read and write both simplified and traditional
+      characters. Graded readers add volume.
+    objectives:
+      - Complete Integrated Chinese Level 1 (Parts 1–2) with workbooks
+      - Read five or more Level 1 graded novels (about 300–450 characters) fluently
+      - Pass HSK 3 and write 300-character compositions
+    curriculumOptions:
+      - name: Integrated Chinese (4th ed.), Volumes 1–2
+        publisher: Cheng & Tsui
+        tradition: secular
+        url: "https://ic.cheng-tsui.com/"
+        notes: The most widely used U.S. college and high-school Chinese textbook, with a clear grammar sequence.
+      - name: Mandarin Companion graded readers, Level 1
+        publisher: Mandarin Companion
+        tradition: secular
+        url: "https://mandarincompanion.com/products/"
+        notes: Western classics (e.g. Sherlock Holmes, Journey to the Center of the Earth) and Journey to the West, retold at about 300 characters.
+      - name: HSK Standard Course 3
+        publisher: Beijing Language and Culture University Press
+        tradition: secular
+        url: "https://www.blcup.com/EnPInfo/index/77"
+        notes: Exam-aligned alternative or supplement.
+
+  - id: chinese-08
+    title: "Tang Poetry: Memorizing 唐诗三百首"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 12.5
+    order: 8
+    prerequisites: [chinese-06]
+    related: [rhetoric-02]
+    summary: >-
+      Students memorize a core of Tang poems (Li Bai, Du Fu, Wang Wei, Meng Haoran) from the
+      18th-century anthology Three Hundred Tang Poems, the collection every educated Chinese reader
+      knows. This is the first taste of literary Chinese, and five- and seven-character regulated verse
+      trains ear, tone and memory.
+    objectives:
+      - Memorize and recite 30+ Tang quatrains and regulated poems (e.g. 静夜思, 春晓, 登鹳雀楼)
+      - Explain the classical grammar and imagery of each poem memorized
+      - Identify the forms 五言绝句, 七言绝句 and 律诗 and recognize tonal parallelism
+    coreTexts:
+      - title: 唐詩三百首 (Three Hundred Tang Poems)
+        author: Sun Zhu (Hengtang Tuishi), comp.
+        date: "1763"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/52323" }
+          - { label: "Chinese Text Project", url: "https://ctext.org/wiki.pl?if=gb&res=839520" }
+          - { label: "University of Virginia: 300 Tang Poems (with English)", url: "https://cti.lib.virginia.edu/frame.htm" }
+
+  - id: chinese-09
+    title: "Chinese IV: Integrated Chinese Level 2, Graded Novels & HSK 4"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 14
+    order: 9
+    prerequisites: [chinese-07]
+    related: []
+    summary: >-
+      This is the intermediate university course. It covers more formal written registers (书面语), idioms
+      (成语), and extended discussion of Chinese society and culture. Reading volume grows through
+      Level 2 graded readers and an adapted Journey to the West.
+    objectives:
+      - Complete Integrated Chinese Level 2 (Volumes 3–4)
+      - Learn 200+ 成语 with their stories
+      - Read 10+ Level 2 graded readers and pass HSK 4
+    curriculumOptions:
+      - name: Integrated Chinese (4th ed.), Volumes 3–4
+        publisher: Cheng & Tsui
+        tradition: secular
+        url: "https://ic.cheng-tsui.com/"
+        notes: Continues the Level 1 sequence.
+      - name: Chinese Breeze graded readers (中文天天读), Levels 2–4
+        publisher: Peking University Press
+        tradition: secular
+        url: "https://www.gradedchinesereaders.com/chinese-breeze"
+        notes: Original stories at 500–1,000 word levels.
+      - name: Mandarin Companion graded readers, Level 2
+        publisher: Mandarin Companion
+        tradition: secular
+        url: "https://mandarincompanion.com/"
+        notes: About 450–750 characters per book.
+
+  - id: chinese-10
+    title: "Christianity in China: Matteo Ricci & the Chinese Bible"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 15
+    order: 10
+    prerequisites: [chinese-09]
+    related: [latin-10, theology-16]
+    summary: >-
+      The Jesuit mission to China is the model of evangelizing a high civilization through its own
+      classics. Students read excerpts of Matteo Ricci's 天主實義 (The True Meaning of the Lord of Heaven,
+      1603), a dialogue that argues from the Confucian classics to God, and his 交友論 (On Friendship). They
+      also read the Gospels in Chinese.
+    objectives:
+      - Read selected passages of 天主實義 in Chinese with the facing English translation
+      - Read the Gospel of Mark in Chinese (Sigao or Union Version)
+      - Explain the Chinese Rites Controversy and Ricci's method of accommodation
+    coreTexts:
+      - title: 天主實義 (The True Meaning of the Lord of Heaven)
+        author: Matteo Ricci (利瑪竇)
+        date: "1603"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project (Chinese)", url: "https://ctext.org/wiki.pl?if=en&res=2351032" }
+          - { label: "Archive.org (Chinese–English ed., Lancashire & Hu Kuo-chen)", url: "https://archive.org/details/truemeaningoflor0000ricc" }
+      - title: "On Friendship: One Hundred Maxims for a Chinese Prince (交友論)"
+        author: Matteo Ricci, trans. Timothy Billings
+        date: "1595; trans. 2009"
+        publicDomain: false
+        links:
+          - { label: "Columbia University Press", url: "https://cup.columbia.edu/book/on-friendship/9780231149242/" }
+      - title: 思高聖經 (Studium Biblicum / Sigao Bible, Catholic)
+        author: Studium Biblicum Franciscanum, Hong Kong
+        date: "1968"
+        publicDomain: false
+        links:
+          - { label: "ccreadbible.org (read online)", url: "https://www.ccreadbible.org/chinesebible/sigao" }
+      - title: 和合本 (Chinese Union Version)
+        author: Protestant missionary committee
+        date: "1919"
+        publicDomain: true
+        links:
+          - { label: "Bible Gateway (CUVS)", url: "https://www.biblegateway.com/versions/Chinese-Union-Version-Simplified-CUVS/" }
+    curriculumOptions:
+      - name: "The True Meaning of the Lord of Heaven (bilingual ed.)"
+        publisher: Institute of Jesuit Sources, Boston College
+        tradition: catholic
+        url: "https://jesuitsources.bc.edu/the-true-meaning-of-the-lord-of-heaven/"
+        notes: The standard Chinese–English edition for class use.
+    notes: >-
+      Catholic–Protestant note: Catholics use the Sigao Bible (思高本, 1968), which includes the
+      deuterocanonical books and uses 天主 for God. Most Chinese Protestants use the Chinese Union Version
+      (和合本, 1919), which uses 神 or 上帝. Ricci's accommodation of Confucian rites was later restricted
+      by Rome (1704–1742) and relaxed in 1939. Present it as a live question about inculturation.
+
+  - id: chinese-11
+    title: "Chinese V: Authentic Modern Texts & HSK 5"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 16
+    order: 11
+    prerequisites: [chinese-09]
+    related: []
+    summary: >-
+      The student reads unadapted modern Chinese: Lu Xun's short stories and memoirs, newspaper and
+      magazine articles, and an abridged or original chapter-novel (Journey to the West). Weekly essays
+      and debates in Mandarin build to HSK 5.
+    objectives:
+      - Read Lu Xun's 呐喊 (selected stories) and 朝花夕拾 in the original
+      - Read Chinese news articles daily with a pop-up dictionary
+      - Pass HSK 5 and write 600-character argumentative essays
+    coreTexts:
+      - title: 吶喊 (Call to Arms)
+        author: Lu Xun (魯迅)
+        date: "1923"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/27166" }
+      - title: 朝花夕拾 (Dawn Blossoms Plucked at Dusk)
+        author: Lu Xun (魯迅)
+        date: "1928"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/25271" }
+      - title: 西遊記 (Journey to the West)
+        author: attrib. Wu Cheng'en
+        date: "c. 1592"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/23962" }
+    curriculumOptions:
+      - name: HSK Standard Course 5
+        publisher: Beijing Language and Culture University Press
+        tradition: secular
+        url: "https://www.blcup.com/EnPInfo/index/77"
+        notes: Exam-aligned textbook for this stage. The link opens the series (level 1 page).
+    notes: >-
+      Lu Xun is the founding voice of modern Chinese prose and was highly critical of traditional
+      culture. Pair him with the classics students have already memorized.
+
+  - id: chinese-12
+    title: "Introduction to Classical Chinese (文言文)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 12
+    prerequisites: [chinese-08, chinese-11]
+    related: [latin-06]
+    summary: >-
+      A systematic grammar of Literary Chinese: function words (之, 其, 者, 也, 矣, 焉), word-class
+      flexibility, and parallel prose. Students read graded selections from the Analects, Mencius,
+      Zhuangzi and the historians, in the way a Latin student moves from grammar to Caesar.
+    objectives:
+      - Master the core particles and grammatical patterns of Classical Chinese
+      - Read graded passages from the Analects and Mencius with a dictionary
+      - Translate short 文言 passages into modern Mandarin and English
+    curriculumOptions:
+      - name: A New Practical Primer of Literary Chinese (Paul Rouzer)
+        publisher: Harvard University Asia Center
+        tradition: classical
+        url: "https://www.hup.harvard.edu/books/9780674022706"
+        notes: Graded lessons from easy anecdotes to the philosophers, built on authentic texts.
+      - name: An Introduction to Literary Chinese, 2nd ed. (Michael Fuller)
+        publisher: Harvard University Asia Center
+        tradition: classical
+        url: "https://www.hup.harvard.edu/books/9780674295858"
+        notes: Rigorous grammar-first alternative, with more linguistic explanation.
+    historicalPrecedent: >-
+      In late-imperial China, a schoolboy moved from the 三百千 primers to memorizing the Four Books
+      (Analects, Mencius, Great Learning, Doctrine of the Mean) with Zhu Xi's commentary. This is the
+      same grammar-to-authors path as the Latin schools.
+
+  - id: chinese-13
+    title: "College Classical Chinese: Analects, Mencius, Dao De Jing & Sunzi"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 13
+    prerequisites: [chinese-12]
+    related: [philosophy-13]
+    summary: >-
+      A college seminar reading the foundational Chinese classics in the original, with traditional
+      commentary. The Analects and Mencius (Confucian ethics and politics), the Dao De Jing, and the
+      Sunzi (strategy). The student also sustains modern Mandarin to HSK 6. Readings are compared with
+      Aristotle, Aquinas and the Founders on virtue and government.
+    objectives:
+      - Read the Analects in full and selected books of Mencius in Classical Chinese
+      - Read the Dao De Jing and Sunzi in the original with a reference grammar
+      - Write a comparative essay (e.g. Confucian 仁 and Aristotelian virtue)
+      - Pass HSK 6 (or the equivalent band of the new 9-level HSK)
+    coreTexts:
+      - title: 論語 (Analects)
+        author: Confucius and disciples
+        date: "5th–4th c. BC"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project (Chinese–English)", url: "https://ctext.org/analects" }
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/23839" }
+          - { label: "Project Gutenberg: Legge, Chinese Classics vol. 1", url: "https://www.gutenberg.org/ebooks/4094" }
+      - title: 孟子 (Mencius)
+        author: Mencius
+        date: "4th c. BC"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project", url: "https://ctext.org/mengzi" }
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/24178" }
+      - title: 道德經 (Dao De Jing)
+        author: Laozi
+        date: "c. 4th c. BC"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project", url: "https://ctext.org/dao-de-jing" }
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/7337" }
+          - { label: "Project Gutenberg (English, Legge)", url: "https://www.gutenberg.org/ebooks/216" }
+      - title: 孫子兵法 (The Art of War)
+        author: Sunzi
+        date: "c. 5th c. BC"
+        publicDomain: true
+        links:
+          - { label: "Chinese Text Project", url: "https://ctext.org/art-of-war" }
+          - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/23864" }
+          - { label: "Project Gutenberg (English, Giles)", url: "https://www.gutenberg.org/ebooks/132" }
+    curriculumOptions:
+      - name: "Analects, with Selections from Traditional Commentaries (trans. Slingerland)"
+        publisher: Hackett
+        tradition: classical
+        url: "https://hackettpublishing.com/analects"
+        notes: Gives the traditional commentaries needed to read the Chinese well.
+      - name: "Mengzi, with Selections from Traditional Commentaries (trans. Van Norden)"
+        publisher: Hackett
+        tradition: classical
+        url: "https://hackettpublishing.com/mengzi"
+        notes: Companion volume for Mencius.
+      - name: Outline of Classical Chinese Grammar (Pulleyblank)
+        publisher: UBC Press
+        tradition: classical
+        url: "https://www.ubcpress.ca/outline-of-classical-chinese-grammar"
+        notes: Standard reference grammar, the Classical Chinese counterpart of Allen & Greenough.

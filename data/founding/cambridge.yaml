@@ -1,0 +1,119 @@
+id: cambridge
+title: "University of Cambridge: From the Elizabethan Statutes to the Triposes (1570–1850)"
+category: british-university
+people: [John Whitgift, Isaac Newton, Daniel Waterland, William Paley]
+date: "1570–1850"
+summary: >-
+  Cambridge and Oxford were the models the colonial colleges copied, and Cambridge was the closer
+  model. Harvard's founding generation were Cambridge men. John Harvard was an Emmanuel man,
+  Emmanuel sent more graduates to New England than any other college, and Newtowne took the name
+  Cambridge. The Elizabethan statutes of 1570 set a four-year B.A.: "the first year shall teach
+  rhetoric, the second and third dialectic, the fourth shall add philosophy". Public professors read
+  Quintilian and Cicero, Aristotle's logic, ethics and politics, Euclid and Ptolemy, Homer and
+  Demosthenes, and Hebrew from the Scriptures. Harvard's weekly round of logic, rhetoric, ethics, mathematics, Greek, Hebrew and disputation was built on this plan. In
+  practice the college tutor directed the reading, as Waterland's Advice to a Young Student (1730)
+  shows: Burgersdicius and Euclid, then Locke and Rohault, then Pufendorf and Grotius, then Newton,
+  with the classics and divinity running alongside. After Newton's Principia (1687) Cambridge became
+  a mathematical university. From 1747–48 the Senate House examination printed an order of merit
+  (wranglers and optimes), which became the Mathematical Tripos. Beside the mathematics every
+  candidate faced "Locke, Paley, Clarke, Butler". Paley's Moral Philosophy (1785) and Evidences
+  (1794) became the university's ethics and apologetics, and the Classical Tripos followed in 1824.
+  This program takes from Cambridge the rhetoric → logic → philosophy order, a tutor-set monthly
+  reading plan, and a hard mathematical core joined to moral philosophy.
+primarySources:
+  - { label: "Statutes of Queen Elizabeth for the University of Cambridge (1570), Latin text, in Documents relating to the University and Colleges of Cambridge, vol. 1 (1852) (Internet Archive)", url: "https://archive.org/details/documentsrelatin01univ" }
+  - { label: "Daniel Waterland, Advice to a Young Student, with a Method of Study for the Four First Years (1730) (Internet Archive)", url: "https://archive.org/details/bim_eighteenth-century_advice-to-a-young-studen_waterland-daniel_1730" }
+  - { label: "Christopher Wordsworth, Scholae Academicae: Some Account of the Studies at the English Universities in the Eighteenth Century (1877), incl. Waterland's scheme and the Senate House examination (Internet Archive)", url: "https://archive.org/details/scholaeacademica00worduoft" }
+  - { label: "W. W. Rouse Ball, A History of the Study of Mathematics at Cambridge (1889) (Internet Archive)", url: "https://archive.org/details/historyofstudyof00balluoft" }
+  - { label: "The Cambridge University Calendar for the year 1796 (Internet Archive)", url: "https://archive.org/details/bim_eighteenth-century_the-cambridge-university_1796" }
+  - { label: "William Paley, The Principles of Moral and Political Philosophy (1788 printing, vol. 2) (Internet Archive)", url: "https://archive.org/details/bim_eighteenth-century_the-principles-of-moral-_paley-william_1788_2" }
+  - { label: "Report of Her Majesty's Commissioners ... into the State, Discipline, Studies, and Revenues of the University and Colleges of Cambridge (1852) (HathiTrust)", url: "https://catalog.hathitrust.org/Record/100910620" }
+  - { label: "Secondary: Victoria County History, Cambridgeshire vol. 3, 'The University of Cambridge: The age of reforms (1800–82)' (British History Online)", url: "https://www.british-history.ac.uk/vch/cambs/vol3/pp235-265" }
+  - { label: "Secondary: Cambridge in America, John Harvard (Emmanuel)", url: "https://www.cantab.org/john-harvard-emmanuel-1626" }
+  - { label: "Secondary: Cambridge in America, Thomas Lynch Jr. (Gonville and Caius), signer of the Declaration", url: "https://www.cantab.org/thomas-lynch-jr-gonville-and-caius" }
+entries:
+  - text: "Elizabethan statutes (1570), cap. VI: the first year shall teach rhetoric, the second and third dialectic, and the fourth shall add philosophy; dispute twice in the public schools and respond twice in college; B.A. after four full years"
+    search: Logic
+    tracks: [rhetoric, logic, philosophy]
+  - text: "Rhetoric lecturer (1570): Quintilian, Hermogenes, or one of Cicero's oratorical books, explained in the vernacular for the hearers' capacity"
+    search: Quintilian
+    tracks: [rhetoric, latin]
+  - text: "Dialectic professor (1570): Aristotle's Sophistical Refutations (Elenchi) or Cicero's Topics"
+    search: Aristotle
+    tracks: [logic]
+  - text: "Philosophy lecturer (1570): Aristotle's Problems, Ethics and Politics, Pliny, or Plato"
+    search: Ethics
+    tracks: [philosophy, civics-law, natural-science]
+  - text: "Mathematics professor (1570): cosmography from Mela, Pliny, Strabo or Plato; arithmetic from Tunstall or Cardano; geometry from Euclid; astronomy from Ptolemy"
+    search: Euclid
+    tracks: [mathematics, natural-science, history]
+  - text: "Greek professor (1570): Homer, Isocrates, Demosthenes, Euripides or another ancient author, with the grammar and idiom of the language"
+    search: Homer
+    tracks: [greek, poetry, rhetoric]
+  - text: "Hebrew lecturer (1570): reads only from the fountains of Holy Scripture, teaching Hebrew grammar and idiom together"
+    search: Hebrew Bible
+    tracks: [hebrew, theology]
+  - text: "B.A. to M.A. (1570, cap. VII): three years hearing philosophy, astronomy, perspective (optics) and Greek; attend the masters' disputations; respond three times to a master, twice in college, and declaim once"
+    search: Disputation
+    tracks: [philosophy, natural-science, greek, rhetoric, logic]
+  - text: "Logic manuals: Seton or Ramus brought from school, Keckermann or Molinaeus in the first term (c. 1620s–40s); then Burgersdicius's Institutiones Logicae, 'prescribed at Cambridge in the memory of their forefathers' (Jebb, 1775)"
+    search: Burgersdicius
+    tracks: [logic]
+  - text: "Waterland's scheme, year 1: Wells's Arithmetic, Euclid's Elements, Burgersdicius's Logic, geography and trigonometry; Terence, Xenophon's Cyropaedia, Cicero's Letters, Phaedrus, Lucian, Theophrastus, Justin and Nepos; sermons of Sharp, Calamy, Sprat and South as models of English prose"
+    search: Burgersdicius
+    tracks: [mathematics, logic, latin, greek, grammar-composition]
+  - text: "Waterland, year 2: Locke's Essay Concerning Human Understanding, astronomy (Wells, Whiston), Keill's Introduction, Rohault's Physics; Cicero's Orations, Isocrates, Demosthenes, Caesar, Sallust, Hesiod, Theocritus, Ovid's Fasti, Virgil's Eclogues; Vossius's rhetoric; Tillotson's Sermons"
+    search: Locke
+    tracks: [philosophy, natural-science, rhetoric, latin, greek, theology]
+  - text: "Waterland, year 3: Whitby's Ethics, Pufendorf's Law of Nature and Nations, Grotius's De Jure Belli ac Pacis; Homer's Iliad, Virgil's Georgics, Sophocles, Horace, Euripides, Juvenal and Persius"
+    search: Grotius
+    tracks: [philosophy, civics-law, character-virtue, greek, latin, poetry]
+  - text: "Waterland, year 4 ('the hardest books reserved'): Newton's Opticks, Whiston's mathematical lectures, Gregory's Astronomy, metaphysics; Thucydides, Livy, Diogenes Laertius, Cicero's philosophical works; Clarke's lectures, Grotius on the Truth of the Christian Religion, Pearson on the Creed"
+    search: Newton
+    tracks: [natural-science, mathematics, history, philosophy, theology, greek, latin]
+  - text: "Rohault's Cartesian Physics in Samuel Clarke's edition (1697), whose Newtonian notes refuted the text; read at Cambridge at least until 1730"
+    search: Rohault
+    tracks: [natural-science]
+  - text: "Newton's Principia in the Schools: acts kept 1772–92 on Principia Book I (sections 1–3, 7, 8, 12), Cotes, Halley's solar parallax, fluxions and Maclaurin"
+    search: Newton
+    tracks: [mathematics, natural-science]
+  - text: "Senate House Examination (the Mathematical Tripos): order-of-merit lists printed from 1747–48 (wranglers, senior optimes, junior optimes); by 1800 even the lowest pass required two books of Euclid, simple and quadratic equations, and the early parts of Paley's Moral Philosophy"
+    search: Euclid
+    tracks: [mathematics, philosophy]
+  - text: "Paley, The Principles of Moral and Political Philosophy (1785), from his Christ's College lectures; the usual 'moral question' in the Schools, e.g. 'Recte statuit Paleius de Utilitate'"
+    search: Paley
+    tracks: [philosophy, civics-law, character-virtue, logic]
+  - text: "Locke's Essay: each disputant offered a philosophical question often taken from Locke; freshmen had college lectures in 'Locke and logic' (1802)"
+    search: Locke
+    tracks: [philosophy, logic]
+  - text: "Examination Wednesday: logic, moral philosophy and natural and revealed religion, 'the authors chiefly respected' being Locke, Paley, Clarke and Butler; before 1779 only 'an occasional question or two in Locke, Butler's Analogy, or Clarke's Attributes', after which this part of the examination was given more weight"
+    search: Butler
+    tracks: [philosophy, theology, logic]
+  - text: "Questions disputed in the Schools, 1772–92: Berkeley on sight and touch, Montesquieu's Laws, Locke on faith and reason, Wollaston on happiness, Paley on penalties and promises; free press, imprisonment for debt, duelling, the slave trade, the immateriality of the soul"
+    search: Montesquieu
+    tracks: [philosophy, civics-law, rhetoric, logic]
+  - text: "College classical lectures (Calendar, 1802): an oration of Demosthenes, Lysias or Isocrates, a Greek play, Longinus, Cicero, Quintilian, and selections from Herodotus, Tacitus and Thucydides, with weekly Latin or English compositions"
+    search: Demosthenes
+    tracks: [greek, latin, rhetoric, history, grammar-composition]
+  - text: "Analytical Society (1812; Babbage, Herschel, Peacock): translation of Lacroix's differential calculus (1816), and Leibniz's notation set in the Tripos by Peacock as moderator in 1817"
+    search: Calculus
+    tracks: [mathematics]
+  - text: "Previous Examination ('Little-Go', established 1822): in the fifth term, the Greek Testament, Paley's Evidences of Christianity, and one Greek and one Latin author"
+    search: Paley
+    tracks: [greek, latin, theology]
+  - text: "Classical Tripos (established 1822, first examined 1824): an annual honours examination in classics, open only to men who had first won mathematical honours"
+    search: Thucydides
+    tracks: [greek, latin, grammar-composition, history]
+notes: >-
+  The 1570 lectures and course are translated from the Latin statutes in Documents relating to
+  the University and Colleges of Cambridge, vol. 1. Waterland's four-year table comes through
+  Wordsworth's reprint, Appendix III. Wordsworth prints its months in four yearly blocks, and he
+  notes that later editions put in substitutes such as Wallis's logic for Burgersdicius. I have
+  not checked the 1730 printing against it. The account of the Schools, the 1772–92 questions, and
+  the 1747–48 printed lists come from Ball, who draws on Wordsworth and Mullinger. The
+  Previous Examination and Classical Tripos come from the Victoria County History. I have not
+  checked them against the 1852 Cambridge Commission report on HathiTrust. The Emmanuel link is
+  from Cambridge in America. John Harvard and Thomas Shepard were Emmanuel men, and Henry Dunster,
+  Harvard's first president, came from Magdalene. Founding-era Americans at Cambridge include the
+  Declaration signers Thomas Lynch Jr. (Caius) and Arthur Middleton. Pitt the Younger (Pembroke,
+  1773) is the model English statesman formed by this course.

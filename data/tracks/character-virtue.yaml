@@ -1,0 +1,696 @@
+track: character-virtue
+title: Character & Virtue
+trackGroup: Arts & Body
+description: >-
+  The formation of a good man and citizen, the first aim of classical education. The track moves from
+  story to habit to reasoned understanding. It begins with fables and virtue stories that train the moral
+  imagination (4–9). It continues with manners and self-examination on the founders' model: Washington's
+  Rules of Civility and Franklin's thirteen virtues, alongside the Ignatian Examen (8–11). Plutarch's
+  heroes and the saints then serve as exemplars, and chivalry, stewardship of time and money, and service
+  and leadership are practiced (10–16). Finally the student studies the virtues philosophically in the
+  Catechism and Pieper, Aristotle's Nicomachean Ethics, Cicero's De Officiis, Newman's gentleman, and at
+  college level Aquinas and the moral philosophy taught to the founders (13–18). Reading is always
+  joined to practice: chores, service, a kept rule of life, and a weekly self-examination. The end state
+  is a young man or woman who knows the cardinal and theological virtues, can argue for them from Aristotle,
+  Cicero and Aquinas, and has the habits to act on them.
+rows:
+  - id: character-virtue-01
+    title: "Fables and First Virtue Stories"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 4
+    ageEnd: 7
+    order: 1
+    prerequisites: []
+    related: [early-development-12, early-development-17, literature-01]
+    summary: >-
+      Aesop's fables are the oldest moral curriculum in the West: short, memorable, and each ends with a clear
+      moral. Read them aloud, have the child narrate them back, and name the virtue or vice shown, using the
+      fable's vocabulary ("sour grapes," "slow and steady") as family shorthand in daily correction and praise.
+    objectives:
+      - Hear and retell 50 or more of Aesop's fables and state the moral of each in a sentence
+      - Name the basic virtues and vices shown (honesty, diligence, prudence, gratitude, pride, greed, sloth)
+      - Connect fables to the child's own conduct in daily life, gently and without preaching
+    coreTexts:
+      - title: Aesop's Fables (V. S. Vernon Jones translation, Rackham illus.)
+        author: Aesop
+        date: "1912"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11339" }
+      - title: The Fables of Aesop (Jacobs)
+        author: Aesop, ed. Joseph Jacobs
+        date: "1894"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28" }
+      - title: Fifty Famous Stories Retold
+        author: James Baldwin
+        date: "1896"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18442" }
+    curriculumOptions:
+      - name: Aesop Cursive Copybook Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/penmanship/aesop-cursive-copybook-set/"
+        notes: For 6–7-year-olds, copying the fables' morals doubles as penmanship practice.
+      - name: "Writing & Rhetoric Book 1: Fable"
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/writing-rhetoric-book-1-fable"
+        notes: Progymnasmata-based fable composition, formally grades 3–4 and usable earlier by an advanced child. Links to the rhetoric track.
+    historicalPrecedent: >-
+      Locke (Thoughts §156) names Aesop's Fables as the best first book for a child. The fable was the first
+      exercise of the ancient progymnasmata (Aphthonius), used in grammar schools from Rome through Eton and
+      the colonial Latin schools.
+    sources:
+      - { label: "Locke, Some Thoughts Concerning Education §156 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: character-virtue-02
+    title: "Treasuries of Virtue: Moral Stories and Golden Deeds"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 9
+    order: 2
+    prerequisites: [character-virtue-01]
+    related: [literature-07, poetry-03]
+    summary: >-
+      Anthologies of stories, poems and deeds arranged by virtue (self-discipline, compassion, responsibility,
+      friendship, work, courage, perseverance, honesty, loyalty, faith) give children vivid pictures of
+      good conduct. Use William Bennett's Book of Virtues as the spine, add Charlotte Yonge's Book of Golden
+      Deeds and the moral lessons of the McGuffey Readers, and read Vigen Guroian on why fairy tales form
+      the moral imagination.
+    objectives:
+      - Read or hear one virtue story a day, then discuss who acted well and why
+      - Memorize short virtue poems and proverbs (Proverbs, "If," Longfellow, and others)
+      - Keep a "golden deeds" notebook of brave, honest or generous acts, both historical and observed
+      - Practice one named virtue each month in household duties
+    coreTexts:
+      - title: "The Book of Virtues: A Treasury of Great Moral Stories"
+        author: William J. Bennett (ed.)
+        date: "1993"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Book-Virtues-William-J-Bennett/dp/0684835770" }
+      - title: A Book of Golden Deeds
+        author: Charlotte M. Yonge
+        date: "1864"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6489" }
+      - title: McGuffey's First Eclectic Reader
+        author: William Holmes McGuffey
+        date: "1836 (rev. 1879)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14640" }
+    curriculumOptions:
+      - name: The Book of Virtues (Bennett)
+        publisher: Simon & Schuster
+        tradition: secular
+        url: "https://www.amazon.com/Book-Virtues-William-J-Bennett/dp/0684835770"
+        notes: Broad Western anthology with Bible, classical, and American sources. Use as a read-aloud spine.
+      - name: Tending the Heart of Virtue (Guroian), a parent/teacher guide
+        publisher: Memoria Press (distributor)
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/tending-the-heart-of-virtue/"
+        notes: An Orthodox Christian theologian on how fairy tales (Pinocchio, The Velveteen Rabbit, and others) form virtue.
+      - name: "A Penny's Worth of Character (Jesse Stuart)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/a-pennys-worth-of-character/"
+        notes: Short illustrated story about honesty, suited to 7–9.
+    historicalPrecedent: >-
+      The McGuffey Readers (1836 onward, over 120 million copies sold) joined reading instruction to explicit
+      moral lessons on honesty, industry, kindness and piety, and formed most American schoolchildren of the 19th century.
+
+  - id: character-virtue-03
+    title: "Saints, Heroes and Exemplars"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 10
+    order: 3
+    prerequisites: [character-virtue-02]
+    related: [theology-04, theology-09]
+    summary: >-
+      Children imitate persons, not principles. Read the lives of the saints and of the heroes of Church and
+      national history as models of courage, charity, fidelity and sacrifice. Read the saint of the day,
+      keep patron saints' feasts, and discuss what each hero did and why.
+    objectives:
+      - Know the lives of 50 or more saints and Christian heroes and 20 or more national heroes, and narrate their decisive acts
+      - Identify the virtue each exemplifies (Thomas More for integrity, Francis for poverty, Joan for courage, Washington for self-command)
+      - Choose a patron and write a short life of him or her
+    coreTexts:
+      - title: "Picture Book of Saints"
+        author: Lawrence G. Lovasik, S.V.D.
+        date: "1962 (expanded 2015)"
+        publicDomain: false
+        links:
+          - { label: Catholic Book Publishing, url: "https://catholicbookpublishing.com/products/picture-book-of-saints-illustrated" }
+      - title: "Trial and Triumph: Stories from Church History"
+        author: Richard M. Hannula
+        date: "1999"
+        publicDomain: false
+        links:
+          - { label: Canon Press, url: "https://canonpress.com/products/trial-and-triumph/" }
+      - title: A Book of Golden Deeds
+        author: Charlotte M. Yonge
+        date: "1864"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6489" }
+    curriculumOptions:
+      - name: Picture Book of Saints (Lovasik)
+        publisher: Catholic Book Publishing
+        tradition: catholic
+        url: "https://catholicbookpublishing.com/products/picture-book-of-saints-illustrated"
+        notes: Over 100 short illustrated lives, each with a prayer. Suited to 6–9.
+      - name: Trial and Triumph (Hannula)
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/trial-and-triumph/"
+        notes: 46 church-history biographies from Polycarp and Augustine to Luther, Bunyan and C.S. Lewis.
+    notes: >-
+      Catholic and Protestant note: Catholic practice venerates saints and asks their intercession. Protestant
+      practice honors them as examples ("so great a cloud of witnesses," Hebrews 12:1) without invocation.
+      Using both books gives the child the whole of church history, including the Reformation from both sides.
+
+  - id: character-virtue-04
+    title: "Manners and Civility: Washington's Rules of Civility"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10
+    order: 4
+    prerequisites: [character-virtue-02]
+    related: [grammar-composition-01, fine-arts-03]
+    summary: >-
+      Before sixteen George Washington copied out the 110 Rules of Civility and Decent Behaviour, maxims that
+      go back to a 1595 Jesuit collection. Copy them as penmanship, discuss what each means today, and practice
+      them at table, in conversation and with elders. Add the medieval Babees' Book for comparison.
+      Manners are treated as small daily acts of respect for others, which is the outward side of justice
+      and charity.
+    objectives:
+      - Copy all 110 rules over a year and memorize 20 or more key rules
+      - Explain the principle behind each rule (respect, modesty, self-command) and adapt it to modern situations
+      - Practice introductions, table manners, letter-writing, phone etiquette, and conversation with adults
+      - Write thank-you letters by hand after every gift
+    coreTexts:
+      - title: "George Washington's Rules of Civility (Conway ed.)"
+        author: George Washington; Moncure D. Conway (ed.)
+        date: "c. 1747 (ed. 1890)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12029" }
+      - title: "The Babees' Book: Medieval Manners for the Young"
+        author: Edith Rickert (ed.)
+        date: "1908"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/58985" }
+    curriculumOptions:
+      - name: "George Washington's Rules of Civility and Decent Behavior"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/george-washingtons-rules-of-civility/"
+        notes: Inexpensive edition for copywork and memorization.
+    historicalPrecedent: >-
+      Mount Vernon notes that Washington copied the Rules, derived from maxims compiled by French Jesuits in
+      the 1590s and translated by Francis Hawkins around 1640, probably as penmanship practice, and that his
+      famous poise grew in part from them.
+    sources:
+      - { label: "Mount Vernon: The Rules of Civility and Decent Behaviour", url: "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/the-rules-of-civility-and-decent-behaviour" }
+      - { label: "Locke, Thoughts §67: manners learnt by example (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: character-virtue-05
+    title: "Franklin's Thirteen Virtues and the Daily Examen"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 11
+    order: 5
+    prerequisites: [character-virtue-04]
+    related: [grammar-composition-09, economics-02]
+    summary: >-
+      In his Autobiography Franklin describes his "bold and arduous project of arriving at moral perfection":
+      thirteen virtues (Temperance, Silence, Order, Resolution, Frugality, Industry, Sincerity, Justice,
+      Moderation, Cleanliness, Tranquillity, Chastity, Humility), one practiced each week, with a chart
+      to record faults. Pair his method with the Ignatian Examen, the daily prayerful review of conscience
+      from the Spiritual Exercises. The student learns to set a rule of life and to examine it honestly
+      every evening.
+    objectives:
+      - Read Franklin's account of the thirteen virtues and his daily schedule, and discuss what the method gets right and what it lacks
+      - Keep a weekly virtue chart for a full 13-week cycle
+      - Pray or practice a five-step evening Examen (gratitude, light, review, sorrow, resolve)
+      - Write a personal daily schedule and rule of life, in imitation of Franklin's "order"
+    coreTexts:
+      - title: Autobiography of Benjamin Franklin (Part II, on the virtues)
+        author: Benjamin Franklin
+        date: "1791"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
+    curriculumOptions:
+      - name: "Ben Franklin's Book of Virtues"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/ben-franklins-book-of-virtues/"
+        notes: Franklin's virtue chart and related writings in a student edition.
+      - name: The Daily Examen (Loyola Press)
+        publisher: Loyola Press
+        tradition: catholic
+        url: "https://www.loyolapress.com/catholic-resources/ignatian-spirituality/examen-and-ignatian-prayer/how-can-i-pray-try-the-daily-examen/"
+        notes: Free guide to St. Ignatius's evening review, adaptable for children.
+    notes: >-
+      Catholic and Protestant note: Franklin's scheme is Enlightenment self-improvement by effort. Catholic
+      teaching (and most Protestant teaching) adds that virtue is perfected by grace, and the Examen
+      places self-review within prayer. The Catholic sacrament of confession and the Protestant practice of
+      daily confession both complete the habit.
+
+  - id: character-virtue-06
+    title: "Plutarch's Lives as Moral Exemplars"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 13
+    order: 6
+    prerequisites: [character-virtue-03]
+    related: [civics-law-08]
+    summary: >-
+      Plutarch wrote the Parallel Lives to show character in action: "a slight thing like a phrase or a jest"
+      often reveals more than battles. Read one Life per term, beginning with retellings and moving to
+      North's or Dryden's translation, and discuss each hero's virtues, vices, choices and ends. Plutarch was
+      the favorite book of Franklin's boyhood and the moral reference book of the founding generation.
+    objectives:
+      - Read 8–10 Lives (Solon, Aristides, Themistocles, Pericles, Alexander, Fabius, Cato the Elder, Cicero, Caesar, Brutus) across three years
+      - Narrate each reading, then discuss, "Was this well done? What should he have done?"
+      - Compare paired Greek and Roman lives as Plutarch does
+      - Write short character sketches that explain actions by their motives
+    coreTexts:
+      - title: "The Boys' and Girls' Plutarch"
+        author: Plutarch; John S. White (ed.)
+        date: "1883"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2484" }
+      - title: "Plutarch's Lives (Dryden trans., rev. Clough)"
+        author: Plutarch
+        date: "c. 100 AD (trans. 1683, rev. 1864)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
+    curriculumOptions:
+      - name: AmblesideOnline Plutarch Study Guides (Anne White)
+        publisher: AmblesideOnline
+        tradition: classical
+        url: "https://www.amblesideonline.org/plutarch"
+        notes: Free 12-week guides with lightly edited North/Dryden text, for ages 9–14. Charlotte Mason, Christian.
+      - name: "Plutarch's Lives, Volume 1"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/plutarchs-lives-volume-1/"
+        notes: Student edition used in MP's upper-grammar and logic years.
+    historicalPrecedent: >-
+      Franklin (Autobiography, Part I) records that as a boy he "read abundantly" in Plutarch's Lives, "and I
+      still think that time spent to great advantage." Plutarch was among the most-owned books in
+      18th-century American libraries, and Hamilton's army pay book contains his notes on Plutarch.
+    sources:
+      - { label: "Franklin, Autobiography (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/20203" }
+
+  - id: character-virtue-07
+    title: "Chivalry and the Knightly Ideal"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 13
+    order: 7
+    prerequisites: [character-virtue-03]
+    related: [literature-08]
+    summary: >-
+      Chivalry joined the warrior's courage to Christian charity and courtesy: protecting the weak, keeping
+      faith, generosity, and loyalty to God, lord and lady. Read the Arthurian legends in Lanier's boys'
+      edition of Malory, and Léon Gautier's classic study with its "Ten Commandments of Chivalry." Discuss
+      what a knight owes and how the ideal applies to a modern gentleman or lady.
+    objectives:
+      - Read The Boy's King Arthur and discuss Arthur, Lancelot, Gawain, Galahad and Mordred as studies in virtue and its failure
+      - Learn Gautier's ten commandments of chivalry and relate each to a cardinal or theological virtue
+      - Take a chivalric "vow" for a season (defending the weak, keeping one's word, courtesy to all) and keep a record
+    coreTexts:
+      - title: "The Boy's King Arthur (Malory, ed. Sidney Lanier)"
+        author: Sir Thomas Malory; Sidney Lanier (ed.)
+        date: "1880"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66585" }
+      - title: Chivalry
+        author: Léon Gautier (trans. Henry Frith)
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/chivalry00gautrich" }
+
+  - id: character-virtue-08
+    title: "Stewardship of Time and Money"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 14
+    order: 8
+    prerequisites: [character-virtue-05]
+    related: [economics-01, economics-02, economics-05]
+    summary: >-
+      Frugality and industry were founding-era virtues with practical rules. The student reads Franklin's
+      The Way to Wealth, Jefferson's "Decalogue of Canons for Observation in Practical Life" ("Never put off
+      till to-morrow what you can do to-day. Never spend your money before you have it."), Seneca on the
+      shortness of life, and the parable of the talents. The student then practices: earning, budgeting,
+      saving and giving (tithing), keeping a time log, and planning a week.
+    objectives:
+      - Memorize Jefferson's ten canons and Franklin's key maxims
+      - Keep a written budget with income from chores or work, savings, giving and spending for a full year
+      - Keep a one-week time log, then design and follow a weekly schedule
+      - Discuss the parable of the talents (Matthew 25) and the Christian idea of stewardship
+    coreTexts:
+      - title: "Franklin's Way to Wealth; or, Poor Richard Improved"
+        author: Benjamin Franklin
+        date: "1758"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/43855" }
+      - title: "Jefferson to Thomas Jefferson Smith, 21 February 1825 (A Decalogue of Canons)"
+        author: Thomas Jefferson
+        date: "1825"
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Jefferson/98-01-02-4987" }
+      - title: "Seneca, Minor Dialogues (incl. On the Shortness of Life)"
+        author: Lucius Annaeus Seneca (trans. Aubrey Stewart)
+        date: "c. 49 AD (trans. 1889)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/64576" }
+      - title: "How to Be a Man: A Book for Boys, Containing Useful Hints on the Formation of Character"
+        author: Harvey Newcomb
+        date: "1847"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/56263" }
+    curriculumOptions:
+      - name: "Foundations in Personal Finance: Homeschool Edition"
+        publisher: Ramsey Solutions
+        tradition: protestant
+        url: "https://www.ramseysolutions.com/education/homeschool"
+        notes: Video-based budgeting and debt-avoidance course with optional devotionals. Best at 13–15.
+    notes: >-
+      This row covers the habits. The theory of money, markets and prices belongs to the economics track.
+      Newcomb's How to Be a Man (Boston, 1847) is a 19th-century conduct book for boys of about 11–14, with
+      short chapters on habits, useful labor, indolence, doing one thing at a time, finishing what is begun,
+      company, amusements, the tongue and conversation. Read a chapter a week and turn each into a resolution.
+      Newcomb was a New England Congregationalist, so his chapters on family worship and a strict Sabbath
+      reflect Protestant practice; Catholic families read them alongside Sunday Mass and the family rosary.
+
+  - id: character-virtue-09
+    title: "The Cardinal and Theological Virtues"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 14
+    order: 9
+    prerequisites: [character-virtue-06]
+    related: [theology-14, theology-20, philosophy-04]
+    summary: >-
+      This course brings the stories and habits of the earlier years together into a systematic account.
+      There are four cardinal virtues (prudence, justice, fortitude, temperance), on which all the moral
+      virtues "hinge," and three theological virtues (faith, hope, charity), infused by grace. Read the
+      Catechism's article on the virtues, Josef Pieper's The Four Cardinal Virtues, and C.S. Lewis's chapters
+      on the cardinal and theological virtues in Mere Christianity.
+    objectives:
+      - Define each of the seven virtues and the vices opposed to it (by excess and defect where applicable)
+      - Explain the difference between acquired (human) and infused (theological) virtue
+      - Explain Pieper's thesis that prudence is the "mother" of the virtues and that fortitude presupposes justice
+      - Write an essay applying the virtues to a character from Plutarch or history
+    coreTexts:
+      - title: "Catechism of the Catholic Church, Part III, Art. 7: The Virtues (§§1803–1845)"
+        author: Catholic Church
+        date: "1992"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_one/article_7.html" }
+      - title: The Four Cardinal Virtues
+        author: Josef Pieper
+        date: "1966"
+        publicDomain: false
+        links:
+          - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268001032/the-four-cardinal-virtues/" }
+      - title: Mere Christianity (Book III, chs. 2, 9–12)
+        author: C.S. Lewis
+        date: "1952"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/mere-christianity-c-s-lewis" }
+    curriculumOptions:
+      - name: The Four Cardinal Virtues (Pieper)
+        publisher: University of Notre Dame Press
+        tradition: catholic
+        url: "https://undpress.nd.edu/9780268001032/the-four-cardinal-virtues/"
+        notes: Thomist, short and readable. The core text for the course.
+      - name: Mere Christianity (Lewis)
+        publisher: HarperOne
+        tradition: protestant
+        url: "https://www.harpercollins.com/products/mere-christianity-c-s-lewis"
+        notes: Anglican. Book III, "Christian Behaviour," treats the cardinal and theological virtues.
+    notes: >-
+      Catholic and Protestant note: Catholic teaching (Aquinas, the Catechism) holds that charity, infused by
+      grace, perfects and "forms" the moral virtues, and that virtue grows through the sacraments. Reformed
+      traditions stress that no virtue merits justification, and that sanctification follows justification by
+      faith. Lewis's account is broadly acceptable to both.
+
+  - id: character-virtue-10
+    title: "Service, Leadership and the Education of a Leader"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 10
+    prerequisites: [character-virtue-07, character-virtue-08]
+    related: [civics-law-08, greek-08]
+    summary: >-
+      Leadership is service. Xenophon's Education of Cyrus, the first "mirror for princes," read with
+      Washington's example and Christ's washing of the disciples' feet, sets the ideal. The student
+      practices it in real responsibility: leading a patrol or troop, serving the parish (altar service,
+      choir, works of mercy), organizing a service project, and mentoring younger children.
+    objectives:
+      - Read Xenophon's Cyropaedia (selections) and discuss what makes men willingly obey a leader
+      - Hold a real leadership position for a year or more (patrol leader, team captain, altar-server head, project organizer)
+      - Complete 100 or more hours of direct service (the corporal works of mercy) over the course
+      - Plan and lead a service project from proposal to report
+    coreTexts:
+      - title: "Cyropaedia: The Education of Cyrus"
+        author: Xenophon (trans. Henry Graham Dakyns)
+        date: "c. 370 BC (trans. 1897)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2085" }
+    curriculumOptions:
+      - name: Scouts BSA (Scouting America)
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/programs/scouts-bsa/"
+        notes: Patrol method and advancement to Eagle. Many troops are chartered by Catholic parishes.
+      - name: Trail Life USA
+        publisher: Trail Life USA
+        tradition: protestant
+        url: "https://www.traillifeusa.com/"
+        notes: Christ-centered, boy-focused outdoor and leadership program (ages 5–17), with the Freedom Award as its capstone.
+    notes: >-
+      The Knights of Columbus's Columbian Squires (Catholic boys 10–18) no longer charters new circles and
+      directs youth toward parish programs, so I have not listed it. Catholic families usually combine Scouts
+      or Trail Life with parish service (altar serving, choir, St. Vincent de Paul).
+
+  - id: character-virtue-11
+    title: "The Gentleman and the Courtier: Newman and Castiglione"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 16
+    order: 11
+    prerequisites: [character-virtue-07, character-virtue-09]
+    related: [theology-18, literature-23]
+    summary: >-
+      Newman's famous definition, "it is almost a definition of a gentleman to say he is one who never inflicts
+      pain," from The Idea of a University (Discourse VIII), praises the refined gentleman and also warns that
+      liberal culture without religion yields only a counterfeit of virtue. Read it against Castiglione's
+      Renaissance ideal of the courtier (grace, sprezzatura, arms and letters) and the knightly ideal
+      already studied. Ask what adds to natural refinement to make a Christian gentleman.
+    objectives:
+      - Read Newman's Discourse VIII (Knowledge viewed in relation to Religion) and memorize the gentleman passage
+      - Read selections of The Book of the Courtier (Book I on arms and letters, Book IV on the courtier's end)
+      - Write a comparative essay on the knight, the courtier and the gentleman, and on what each lacks without charity
+    coreTexts:
+      - title: The Idea of a University (Discourse VIII)
+        author: John Henry Newman
+        date: "1852"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/24526" }
+      - title: The Book of the Courtier (trans. Leonard Eckstein Opdycke)
+        author: Baldassare Castiglione
+        date: "1528 (trans. 1901)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67799" }
+    historicalPrecedent: >-
+      The Courtier was the standard English courtesy book from Hoby's translation (1561) onward. Newman
+      delivered the Discourses (1852) to found the Catholic University of Ireland.
+
+  - id: character-virtue-12
+    title: "Aristotle's Nicomachean Ethics: Virtue as a Way of Life"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 12
+    prerequisites: [character-virtue-09]
+    related: [philosophy-07]
+    summary: >-
+      This is the foundational treatise on virtue: happiness as activity of the soul in accordance with
+      virtue, virtue as a habit that lies in a mean, the role of practical wisdom, justice, friendship, and
+      contemplation. The philosophy track treats the argument. Here the emphasis is on use: the student
+      audits his own habits against Aristotle's catalogue of virtues and designs a practice for each.
+    objectives:
+      - Read Books I–IV, VI, VIII–X in full
+      - Explain the doctrine of the mean and why the mean is "relative to us"
+      - Apply Aristotle's account of courage, temperance, liberality, magnanimity and friendship to his own life in a reflective journal
+      - Explain what Aristotle's ethics lacks that Christian teaching supplies (humility, charity, grace)
+    coreTexts:
+      - title: The Nicomachean Ethics (trans. D. P. Chase)
+        author: Aristotle
+        date: "c. 340 BC (trans. 1847)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
+    curriculumOptions:
+      - name: "Introduction to Aristotle's Ethics: How to Lead a Good Life (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/aristotles-ethics"
+        notes: Ten lectures led by Larry Arnn. Free.
+      - name: The Nicomachean Ethics (student edition)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/the-nicomachean-ethics/"
+        notes: Classical Christian edition for MP's upper school.
+    historicalPrecedent: >-
+      Aristotle's Ethics (often through Latin compendia) was the core of the moral-philosophy course taught
+      to seniors at Harvard, Yale and William & Mary. Jefferson's list of moral authors for his nephew Peter
+      Carr (1785) begins with the Socratic writers and Cicero.
+
+  - id: character-virtue-13
+    title: "Cicero's De Officiis: Duties of a Statesman and Citizen"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 17
+    order: 13
+    prerequisites: [character-virtue-12]
+    related: [latin-11, civics-law-09, rhetoric-10]
+    summary: >-
+      Cicero's last philosophical work, written to his son in 44 BC, sets out the honestum (the morally good)
+      under the four cardinal virtues, the useful, and the resolution of their apparent conflicts. It was the
+      most read moral book of the Latin West after the Bible for a millennium and a half, and a fixture of
+      founding-era schooling. Read it in English, and where the Latin track allows, in Latin (Book I).
+    objectives:
+      - Read all three books in English, and Book I chapters 4–17 in Latin if Latin progress allows
+      - Explain Cicero's four sources of the honestum and their relation to the cardinal virtues
+      - Analyze Cicero's cases of conflict between the honorable and the expedient (Regulus, the grain merchant of Rhodes)
+      - Write a letter to a younger sibling on duty, in imitation of Cicero's letter to his son
+    coreTexts:
+      - title: De Officiis (Walter Miller translation, 1913)
+        author: Marcus Tullius Cicero
+        date: "44 BC"
+        publicDomain: true
+        links:
+          - { label: LacusCurtius (Latin and English), url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cicero/de_Officiis/home.html" }
+          - { label: Project Gutenberg (Latin), url: "https://www.gutenberg.org/ebooks/47001" }
+          - { label: "Archive.org: Cicero's Three Books of Offices (Edmonds trans.)", url: "https://archive.org/details/cicerosthreebook00ciceuoft" }
+    curriculumOptions:
+      - name: "Cicero, On Duties (Loeb Classical Library 30)"
+        publisher: Harvard University Press
+        tradition: classical
+        url: "https://www.hup.harvard.edu/books/9780674990333"
+        notes: Facing-page Latin and English (Miller). The standard student edition for reading alongside the Latin track.
+    historicalPrecedent: >-
+      Jefferson to Peter Carr (19 August 1785): "In morality, read Epictetus, Xenophontis memorabilia, Plato's
+      Socratic dialogues, Cicero's philosophies, Antoninus, and Seneca." "Tully's Offices" was standard reading
+      in colonial grammar schools and colleges, and in English translation for those without Latin.
+    sources:
+      - { label: "Jefferson to Peter Carr, 19 Aug. 1785 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+      - { label: "Jefferson to Peter Carr, 19 Aug. 1785 (Wikisource)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
+
+  - id: character-virtue-14
+    title: "College: Aquinas on Virtue and the Moral Philosophy of the Founders"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 14
+    prerequisites: [character-virtue-12, character-virtue-13]
+    related: [philosophy-13, theology-22, economics-06, rhetoric-11]
+    summary: >-
+      A capstone seminar with two parts. The first is Aquinas's treatise on the virtues (Summa Theologiae
+      I-II qq. 55–67, with selected questions of II-II on prudence, justice, fortitude and temperance) as
+      the synthesis of Aristotle, Cicero, Augustine and Scripture. The second is the moral-philosophy course
+      actually taught to the founders, John Witherspoon's Princeton Lectures on Moral Philosophy, heard by
+      James Madison. Close with MacIntyre's After Virtue on why the tradition of the virtues was lost and how
+      it might be recovered.
+    objectives:
+      - "Read ST I-II qq. 55–67 and II-II qq. 47, 58, 123, 141, and outline Aquinas's definition, division and connection of the virtues"
+      - Read Witherspoon's Lectures and identify its Scottish common-sense sources and its account of duties to God, self and others
+      - Read After Virtue and assess its diagnosis of modern moral disagreement
+      - "Write a 3,000-word paper: Is a republic possible without virtue? Draw on Aristotle, Cicero, Aquinas, Witherspoon and the founders"
+    coreTexts:
+      - title: "Summa Theologiae I-II q. 55 (The virtues, as to their essence)"
+        author: Thomas Aquinas
+        date: "1271"
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/summa/2055.htm" }
+          - { label: "New Advent: I-II q. 61 (The cardinal virtues)", url: "https://www.newadvent.org/summa/2061.htm" }
+          - { label: "New Advent: II-II q. 47 (Prudence)", url: "https://www.newadvent.org/summa/3047.htm" }
+      - title: Lectures on Moral Philosophy
+        author: John Witherspoon
+        date: "1772–1794 (pub. 1800; ed. 1912)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/lecturesonmoralp00withrich" }
+      - title: After Virtue (3rd ed.)
+        author: Alasdair MacIntyre
+        date: "1981 (3rd ed. 2007)"
+        publicDomain: false
+        links:
+          - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
+    historicalPrecedent: >-
+      Witherspoon, president of the College of New Jersey (Princeton) and a signer of the Declaration, gave
+      these lectures to seniors, among them James Madison (class of 1771), Aaron Burr and many future
+      legislators and judges. Moral philosophy was the capstone course in every colonial college.
+    notes: >-
+      This overlaps philosophy-13 (Pieper, MacIntyre). Coordinate so that the philosophy seminar covers
+      metaphysics and epistemology and this row covers moral practice. Witherspoon was a Presbyterian minister,
+      and his lectures show the Reformed-Scottish Enlightenment strand of the founding.

@@ -1,0 +1,597 @@
+track: rhetoric
+title: Rhetoric
+trackGroup: Trivium
+description: >-
+  Rhetoric is the art of finding and using the available means of persuasion in speech and
+  writing. It is the capstone of the trivium and the practical art of the statesman. The track
+  starts with recitation and show-and-tell in early childhood and moves to memorized poetry and
+  elocution. From about 8 to 14 it runs through the full classical progymnasmata, the graded
+  composition exercises of Greek and Roman schools, the Renaissance grammar school and the Jesuit
+  colleges. The student then studies rhetorical theory from the sources (Aristotle, Cicero, the
+  Rhetorica ad Herennium, Quintilian) and from the founding-era masters (Blair, Witherspoon,
+  Campbell, Whately), and learns by imitating great speeches from Demosthenes to King. Debate,
+  mock trial and declamation run alongside. By 18 the student can research, compose, memorize and
+  deliver a persuasive speech in any of the three genres (deliberative, forensic, ceremonial),
+  argue either side of a resolution, and critique a speech by the five canons.
+rows:
+  - id: rhetoric-01
+    title: Recitation, Show-and-Tell & Memory Work
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6.5
+    order: 1
+    prerequisites: []
+    related: [theology-01]
+    summary: >-
+      Young children build a store of memorized language (nursery rhymes, short poems, prayers,
+      psalm verses) and practice speaking to a small audience. They tell about an object, retell a
+      story in order, or "narrate" a read-aloud. This oral practice is the soil in which later
+      composition and oratory grow.
+    objectives:
+      - Recite several short poems, rhymes and prayers from memory with expression
+      - Stand, look at the listeners, and speak clearly for 30–60 seconds
+      - Retell a familiar story with a beginning, middle and end
+      - Listen politely and ask a question of another speaker
+    curriculumOptions:
+      - name: Linguistic Development through Poetry Memorization
+        publisher: Institute for Excellence in Writing
+        tradition: classical
+        url: "https://iew.com/shop/products/linguistic-development-through-poetry-memorization-teachers-manual-cds"
+        notes: >-
+          Ninety-six graded poems and speeches with recordings. Level 1 suits ages 4–7. It can be
+          played in the car and at meals.
+    notes: >-
+      Keep it short and joyful: a weekly "family recital" where each child recites or shows
+      something. Charlotte Mason–style narration (the child retells a passage after one hearing)
+      is the simplest daily form.
+
+  - id: rhetoric-02
+    title: "Recitation & Elocution I: Poems, Psalms and the Readers"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 9
+    order: 2
+    prerequisites: [rhetoric-01]
+    related: [theology-06]
+    summary: >-
+      Formal memorization and delivery of graded poems, Scripture passages and short prose
+      selections, on the model of the McGuffey Eclectic Readers, which printed pronunciation and
+      "articulation" exercises before each lesson. Children learn posture, breath, volume, pace and
+      expression, and begin to narrate in writing.
+    objectives:
+      - Memorize and recite 10–20 poems and passages per year
+      - Practice articulation drills and read aloud with proper phrasing and emphasis
+      - Deliver a two-minute oral narration or report
+      - Evaluate a sibling's recitation kindly using simple criteria (loud, clear, slow, expressive)
+    coreTexts:
+      - title: McGuffey's Eclectic Readers (First–Sixth), esp. the Sixth Reader's rules of elocution
+        author: William Holmes McGuffey
+        date: "1836–1879"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Sixth Reader)", url: "https://www.gutenberg.org/ebooks/16751" }
+    curriculumOptions:
+      - name: Linguistic Development through Poetry Memorization (Levels 2–3)
+        publisher: Institute for Excellence in Writing
+        tradition: classical
+        url: "https://iew.com/shop/products/linguistic-development-through-poetry-memorization-teachers-manual-cds"
+        notes: A graded, review-driven memory system with poems and famous speeches.
+    historicalPrecedent: >-
+      American common schools of the 1800s drilled recitation and "declamation" from the McGuffey
+      Readers, whose higher books open with rules of articulation, inflection and emphasis.
+      Friday-afternoon declamations were a school tradition.
+
+  - id: rhetoric-03
+    title: "Progymnasmata I: Fable, Narrative, Chreia & Maxim"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10.5
+    order: 3
+    prerequisites: [rhetoric-02]
+    related: [logic-01]
+    summary: >-
+      These are the first graded exercises of the classical progymnasmata, the composition sequence
+      handed down from Aesop-era schools through Aphthonius (4th century) to the Renaissance grammar
+      schools. Students retell, condense, amplify and re-order fables and narratives, then develop
+      a wise saying (chreia) or proverb (maxim) through the standard "heads of development".
+    objectives:
+      - Paraphrase and amplify a fable and state its moral
+      - Retell a narrative from a different point of view or in a different order
+      - Develop a chreia by praise, paraphrase, cause, contrary, analogy, example, testimony and epilogue
+      - Copy and imitate model sentences (copia) to vary expression
+    coreTexts:
+      - title: Progymnasmata (Latin trans. by Rodolphus Agricola & J.M. Catanaeus)
+        author: Aphthonius of Antioch
+        date: "4th c.; this ed. 1552"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/progymnasmatarhe00apht" }
+    curriculumOptions:
+      - name: "Writing & Rhetoric Books 1–4 (Fable; Narrative I–II; Chreia & Proverb)"
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/writing-rhetoric-book-1-fable"
+        notes: >-
+          Twelve-book progymnasmata series by Paul Kortepeter, starting in grade 3 or 4. It is
+          gentle and well scaffolded, and each book is one semester.
+      - name: "Classical Composition I–III (Fable; Narrative; Chreia & Maxim)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/classical-composition/"
+        notes: >-
+          A more rigorous progymnasmata sequence (Fable at grade 4+, Narrative 5+, Chreia & Maxim
+          6+). Pairs naturally with Memoria Press Latin.
+    historicalPrecedent: >-
+      Aphthonius's Progymnasmata, in Latin translation, was a standard grammar-school text in
+      16th- and 17th-century England (the likely school exercises of Shakespeare and Milton), and
+      Jesuit colleges used it too.
+
+  - id: rhetoric-04
+    title: "Progymnasmata II: Refutation, Confirmation, Commonplace & Encomium"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 12
+    order: 4
+    prerequisites: [rhetoric-03]
+    related: [logic-02]
+    summary: >-
+      The middle exercises teach argument. Students refute or confirm a story as implausible,
+      inconsistent or improper (refutation/confirmation); amplify the case against a vice or crime
+      (commonplace); and praise or blame a person (encomium/invective). This is where logic and
+      rhetoric meet, and the student's first persuasive essays and speeches appear.
+    objectives:
+      - Refute and confirm a narrative using the topics of clarity, plausibility, possibility, consistency and propriety
+      - Write and deliver a commonplace against a vice
+      - Compose an encomium of a historical or biblical figure by the standard heads (origin, upbringing, deeds, comparison)
+      - Revise for arrangement (introduction, statement, proof, conclusion)
+    curriculumOptions:
+      - name: "Writing & Rhetoric Books 5–7 (Refutation & Confirmation; Commonplace; Encomium & Vituperation)"
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/writing-rhetoric-book-7-encomium-vituperation"
+        notes: Continues the CAP series. Each book is a semester.
+      - name: "Classical Composition IV–VI (Refutation/Confirmation; Common Topic; Encomium, Invective & Comparison)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/writing-and-english-grammar/classical-composition-iv-refutation-confirmation/"
+        notes: A rigorous Memoria Press sequence with teacher guides and video.
+
+  - id: rhetoric-05
+    title: "Declamation & Elocution: The 19th-Century Speaker's Training"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 13
+    order: 5
+    prerequisites: [rhetoric-02]
+    related: [poetry-05]
+    summary: >-
+      On the model of 18th- and 19th-century schools, the student memorizes and declaims set
+      pieces of oratory and poetry drawn from the standard "speakers" and readers, and studies
+      voice, gesture, emphasis and pause. Thomas Sheridan's Lectures on Elocution (1762) and Lindley
+      Murray's English Reader, the most widely used American school reader before McGuffey, supply
+      both theory and repertoire.
+    objectives:
+      - Memorize and declaim at least one major speech excerpt per term (e.g. Henry, Webster, Lincoln)
+      - Apply rules of emphasis, inflection and pause, and mark a text for delivery
+      - Use gesture, eye contact and movement purposefully
+      - Deliver a selection before an audience and take structured critique
+    coreTexts:
+      - title: "The English Reader: or, Pieces in Prose and Poetry, Selected from the Best Writers"
+        author: Lindley Murray
+        date: "1799 (this ed. 1841)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/englishreaderorp00murrrich" }
+      - title: A Course of Lectures on Elocution
+        author: Thomas Sheridan
+        date: "1762"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_a-course-of-lectures-on-_sheridan-thomas_1762" }
+      - title: McGuffey's Sixth Eclectic Reader
+        author: William Holmes McGuffey (compiled with Alexander H. McGuffey)
+        date: "1857/1879"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
+    curriculumOptions:
+      - name: Linguistic Development through Poetry Memorization (upper levels, famous speeches)
+        publisher: Institute for Excellence in Writing
+        tradition: classical
+        url: "https://iew.com/shop/products/linguistic-development-through-poetry-memorization-teachers-manual-cds"
+        notes: Includes speeches suitable for declamation.
+    historicalPrecedent: >-
+      Declamation was a weekly exercise at Boston Latin, the academies, and the colleges. Harvard
+      and Yale students declaimed in chapel, and Eton kept formal speech days. Murray's English
+      Reader was one of the most widely used school readers in the early republic.
+
+  - id: rhetoric-06
+    title: "Progymnasmata III: Comparison, Characterization, Description, Thesis & Law"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13.5
+    order: 6
+    prerequisites: [rhetoric-04]
+    related: [logic-04]
+    summary: >-
+      The last progymnasmata. Students compare two persons or things; write in the voice of a
+      historical or literary figure (characterization/ethopoeia); describe vividly (ekphrasis);
+      argue a general question (thesis); and speak for or against a proposed law. The thesis and
+      law exercises lead directly into full deliberative oratory and debate.
+    objectives:
+      - Write a comparison (syncrisis) of two statesmen or saints
+      - Compose a speech in the character of a historical figure at a turning point
+      - Argue a thesis ("Should a man marry?", "Is monarchy the best regime?") by the final headings
+      - Draft and defend or attack a proposed law, using the topics of legality, justice, expediency and possibility
+    curriculumOptions:
+      - name: "Writing & Rhetoric Books 8–11 (Comparison; Description & Impersonation; Thesis Parts 1–2)"
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/writing-rhetoric-book-10-thesis-part-1-student-edition"
+        notes: Completes the CAP series (it has no separate Law book; use Memoria Press IX or a tutor for the law exercise).
+      - name: "Classical Composition VII–IX (Characterization; Description; Thesis & Law)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/writing-and-english-grammar/classical-composition-ix-thesis-law-set/"
+        notes: Completes the Memoria Press sequence.
+
+  - id: rhetoric-07
+    title: "Classical Rhetoric I: Aristotle & the Five Canons"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 7
+    prerequisites: [rhetoric-06]
+    related: [logic-05, philosophy-07]
+    summary: >-
+      The student studies rhetoric as a theory. Aristotle's Rhetoric covers ethos, pathos and
+      logos, the three genres, the topics, the enthymeme, and style and arrangement. The five
+      canons (invention, arrangement, style, memory, delivery) organize the course. Corbett's
+      Classical Rhetoric for the Modern Student is the standard modern bridge, and Kolln's
+      Rhetorical Grammar teaches the rhetoric of the sentence.
+    objectives:
+      - Explain and apply ethos, pathos and logos to a speech
+      - Distinguish deliberative, forensic and epideictic oratory and their ends
+      - Use the common and special topics to invent arguments
+      - Analyze figures of speech (schemes and tropes) and use several deliberately
+      - Deliver a 5–7 minute deliberative speech built by the five canons
+    coreTexts:
+      - title: Rhetoric
+        author: Aristotle (trans. W. Rhys Roberts)
+        publicDomain: true
+        links:
+          - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/rhetoric.html" }
+          - { label: "Archive.org (Freese, Loeb 1926)", url: "https://archive.org/details/artofrhetoric00arisuoft" }
+      - title: Phaedrus and Gorgias
+        author: Plato
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Phaedrus)", url: "https://www.gutenberg.org/ebooks/1636" }
+          - { label: "Project Gutenberg (Gorgias)", url: "https://www.gutenberg.org/ebooks/1672" }
+      - title: Classical Rhetoric for the Modern Student (4th ed.)
+        author: Edward P.J. Corbett & Robert J. Connors
+        date: "1965; 4th ed. 1999"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/classical-rhetoric-for-the-modern-student-9780195115420" }
+    curriculumOptions:
+      - name: Classical Rhetoric with Aristotle
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/classical-rhetoric/"
+        notes: A guided study of Aristotle's Rhetoric in Memoria Press's high-school sequence.
+      - name: Fitting Words — Classical Rhetoric for the Christian Student
+        publisher: Roman Roads Press
+        tradition: protestant
+        url: "https://romanroadspress.com/store/fitting-words/"
+        notes: >-
+          Thirty lessons organized by the five canons, drawing on Aristotle and the Ad Herennium,
+          with model speeches from Scripture, Cicero, Henry and King.
+      - name: Rhetoric Alive! Book 1 — Principles of Persuasion
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/rhetoric-alive-book-1-principles-of-persuasion"
+        notes: A lively modern introduction built on Aristotle. Pairs with CAP's Writing & Rhetoric.
+      - name: Classical Logic and Rhetoric (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/logic"
+        notes: >-
+          Ten 30-minute lectures by Benjamin Beier, modeled on Hillsdale's core course and covering
+          the canons of rhetoric and great orators from Socrates to Churchill.
+    notes: >-
+      Kolln & Gray's Rhetorical Grammar (Pearson,
+      https://www.pearson.com/en-us/subject-catalog/p/rhetorical-grammar-grammatical-choices-rhetorical-effects/P200000002254/9780137518265)
+      works well alongside this course for sentence-level style.
+
+  - id: rhetoric-08
+    title: "Great Speeches as Models: Demosthenes to King"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 15
+    order: 8
+    prerequisites: [rhetoric-05]
+    related: [philosophy-10]
+    summary: >-
+      Classical imitation (imitatio) means reading, analyzing, memorizing and imitating master
+      speeches. The canon runs from Demosthenes' Philippics and Cicero's Catilinarians through
+      Burke on conciliation with America, Patrick Henry, Webster's Reply to Hayne, Lincoln's
+      Gettysburg Address and Second Inaugural, and Churchill in 1940, to King's Letter from
+      Birmingham Jail. Each speech is studied in its historical setting as an act of statesmanship.
+    objectives:
+      - Analyze each speech for situation, audience, purpose, arrangement and figures
+      - Memorize and deliver at least four major passages across the unit
+      - Write an imitation that uses a model's structure on a new subject
+      - Compare the ancient and modern styles of deliberative eloquence
+    coreTexts:
+      - title: The Public Orations of Demosthenes, vol. 1 (Olynthiacs, Philippics)
+        author: Demosthenes (trans. A.W. Pickard-Cambridge)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9060" }
+      - title: Selections from the Speeches and Writings of Edmund Burke
+        author: Edmund Burke
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3286" }
+      - title: Give Me Liberty or Give Me Death
+        author: Patrick Henry
+        date: "1775"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6" }
+      - title: The Great Speeches and Orations of Daniel Webster
+        author: Daniel Webster
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12606" }
+      - title: Speeches & Letters of Abraham Lincoln, 1832–1865
+        author: Abraham Lincoln
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14721" }
+          - { label: "Avalon Project (Gettysburg Address)", url: "https://avalon.law.yale.edu/19th_century/gettyb.asp" }
+      - title: "We Shall Fight on the Beaches (1940) and The Sinews of Peace (1946)"
+        author: Winston Churchill
+        publicDomain: false
+        links:
+          - { label: "International Churchill Society (Beaches)", url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
+          - { label: "International Churchill Society (Sinews of Peace)", url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
+      - title: Letter from Birmingham Jail
+        author: Martin Luther King Jr.
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Stanford King Institute, url: "https://kinginstitute.stanford.edu/letter-birmingham-jail" }
+    historicalPrecedent: >-
+      Boys at the colonial colleges and the English public schools learned eloquence by
+      translating and imitating Demosthenes and Cicero. In the 19th century American schoolbooks
+      added Henry, Webster and Burke as declamation staples.
+    notes: >-
+      Cicero's Catilinarians are read in Latin in the Latin track and can be studied here in
+      translation. Pair Lincoln with the Lincoln–Douglas debates in rhetoric-09.
+
+  - id: rhetoric-09
+    title: "Debate: Lincoln–Douglas, Parliamentary & Mock Trial"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 9
+    prerequisites: [rhetoric-06]
+    related: [logic-04, philosophy-10]
+    summary: >-
+      Competitive and in-home debate trains the student to argue both sides, think on his feet,
+      and cross-examine. The formats are Lincoln–Douglas value debate (one-on-one, modeled on the
+      1858 Senate debates), team parliamentary debate (impromptu), and mock trial or moot court
+      (forensic rhetoric, rules of evidence, direct and cross-examination).
+    objectives:
+      - Research and brief both sides of a resolution with evidence
+      - Construct a value/criterion case and rebuttals for Lincoln–Douglas debate
+      - Cross-examine with short, leading questions
+      - Argue impromptu in parliamentary format with 15–20 minutes of preparation
+      - Play attorney and witness roles in a mock trial
+    coreTexts:
+      - title: The Lincoln–Douglas Debates of 1858
+        author: Abraham Lincoln & Stephen A. Douglas
+        publicDomain: true
+        links:
+          - { label: National Park Service (overview), url: "https://www.nps.gov/liho/learn/historyculture/debates.htm" }
+    curriculumOptions:
+      - name: Everyday Debate & Discussion
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/everyday-debate"
+        notes: An introduction to formal debate formats for home and classroom.
+      - name: The Argument Builder
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/the-argument-builder"
+        notes: Builds persuasive arguments with topics and evidence. It bridges logic and debate.
+      - name: NCFCA homeschool speech & debate league
+        publisher: National Christian Forensics and Communications Association
+        tradition: protestant
+        url: "https://ncfca.org/"
+        notes: A national Christian homeschool league offering Lincoln–Douglas, team policy, parliamentary and individual speech events.
+      - name: National Speech & Debate Association
+        publisher: NSDA
+        tradition: secular
+        url: "https://www.speechanddebate.org/"
+        notes: The main US high-school league, covering Lincoln–Douglas, Congressional debate and others.
+    notes: >-
+      Congressional debate (a model legislature) is excellent training for the future statesman.
+      Mock trial connects to the civics-law track.
+
+  - id: rhetoric-10
+    title: "Roman Rhetoric: Cicero, the Ad Herennium & Quintilian"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15.5
+    order: 10
+    prerequisites: [rhetoric-07]
+    related: [philosophy-06, latin-11]
+    summary: >-
+      This course reads the Roman systematizers who shaped 1,500 years of Western schooling.
+      Students take the doctrine of invention and stasis from Cicero's De Inventione and the
+      Rhetorica ad Herennium, the ideal of the philosopher-statesman-orator from De Oratore, and
+      Quintilian's complete education of "the good man skilled in speaking", from the nursery to
+      the forum.
+    objectives:
+      - Apply stasis theory (fact, definition, quality, procedure) to a legal or political case
+      - Explain the six parts of an oration as taught in the Ad Herennium
+      - Summarize Crassus's and Antonius's positions in De Oratore on the orator's education
+      - Read Quintilian Books 1, 2, 10 and 12 and compare them with this program's own design
+      - Use the memory palace (Ad Herennium III) to memorize a speech
+    coreTexts:
+      - title: De Inventione (On Rhetorical Invention), in The Orations of Marcus Tullius Cicero, vol. 4
+        author: Cicero (trans. C.D. Yonge)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11080" }
+          - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/cicero/inventione.shtml" }
+      - title: De Oratore (in Cicero on Oratory and Orators)
+        author: Cicero (trans. J.S. Watson)
+        date: "55 BC; trans. 1871"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/oratoryandorato00ciceuoft" }
+          - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/cicero/oratore.shtml" }
+      - title: Rhetorica ad Herennium
+        author: Anonymous (formerly attributed to Cicero)
+        date: "c. 80s BC"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (Latin, ed. Marx 1894)", url: "https://archive.org/details/incertiauctorisd00marxuoft" }
+      - title: Institutio Oratoria
+        author: Quintilian (trans. H.E. Butler)
+        date: "c. AD 95"
+        publicDomain: true
+        links:
+          - { label: LacusCurtius, url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/home.html" }
+          - { label: "Archive.org (Watson trans.)", url: "https://archive.org/details/quintiliansinst00watsgoog" }
+    historicalPrecedent: >-
+      Harvard admission (1640s) required reading "Tully" (Cicero) ex tempore. Cicero and the Ad
+      Herennium were the rhetoric of the medieval and Renaissance schools, and the Jesuit Ratio
+      Studiorum (1599) built its rhetoric class on Cicero and Quintilian.
+    notes: >-
+      Harry Caplan's Loeb translation of the Ad Herennium (Harvard, 1954) is the standard English
+      version. An accelerated Latin student should read De Oratore Book I in Latin.
+
+  - id: rhetoric-11
+    title: "Founding-Era Rhetoric: Blair, Witherspoon, Campbell & Whately"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 11
+    prerequisites: [rhetoric-10]
+    related: [logic-06, philosophy-09]
+    summary: >-
+      The student reads the rhetorics that actually trained the founders and the 19th-century
+      American statesmen. Hugh Blair's Lectures on Rhetoric and Belles Lettres (1783) was the most
+      widely used rhetoric text in the United States c. 1790–1850. John Witherspoon's Lectures on
+      Eloquence were delivered at Princeton to James Madison's generation. Campbell's Philosophy of
+      Rhetoric (1776) and Whately's Elements of Rhetoric (1828) set out the new "psychological"
+      rhetoric of evidence and persuasion.
+    objectives:
+      - Summarize Blair on taste, style (perspicuity, precision) and the eloquence of the bar, pulpit and assembly
+      - Read Witherspoon's lectures on eloquence and relate them to Princeton's statesmen
+      - Explain Campbell's four ends of speech (enlighten, please, move, persuade)
+      - Explain Whately's burden of proof and presumption and apply them in debate
+      - Write a critical review of a contemporary speech using Blair's criteria
+    coreTexts:
+      - title: Lectures on Rhetoric and Belles Lettres
+        author: Hugh Blair
+        date: "1783 (this ed. 1829)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/lecturesonrhetor00blai" }
+      - title: Lectures on Eloquence (in The Works of John Witherspoon, vol. 7)
+        author: John Witherspoon
+        date: "delivered c. 1768–1794; this ed. 1815"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/worksofjohnwithe07with" }
+      - title: The Philosophy of Rhetoric
+        author: George Campbell
+        date: "1776 (this ed. 1868)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/philosophyofrhet00campuoft" }
+      - title: Elements of Rhetoric
+        author: Richard Whately
+        date: "1828 (this ed. 1846)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/elementsofrheto00whatuoft" }
+    historicalPrecedent: >-
+      Witherspoon personally taught eloquence at the College of New Jersey (Princeton), where his
+      students included Madison. Blair's Lectures ran to some 130 editions and became the rhetoric
+      textbook of American colleges through the mid-19th century.
+    notes: >-
+      Richard Weaver's The Ethics of Rhetoric (1953; Project Gutenberg
+      https://www.gutenberg.org/ebooks/68421) is an excellent 20th-century coda on rhetoric,
+      truth and the Phaedrus.
+
+  - id: rhetoric-12
+    title: "College Seminar: Oratory, Moot Court & the Rhetoric of Statesmanship"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 12
+    prerequisites: [rhetoric-09, rhetoric-11]
+    related: [logic-08, theology-23]
+    summary: >-
+      This is the capstone of the trivium. The student composes and delivers original speeches in
+      all three genres before public audiences: a deliberative address on a live policy question, a
+      forensic argument in moot court (appellate brief plus oral argument), and a commemorative
+      (epideictic) oration. He critiques recorded speeches of statesmen and revisits Aristotle,
+      Cicero and Quintilian with adult experience.
+    objectives:
+      - Write and argue a moot-court appellate brief before a panel
+      - Deliver a 15-minute deliberative address from notes, then take hostile questions
+      - Deliver a formal commemorative oration (e.g. for a national holiday or a funeral)
+      - Critique speeches by the five canons in a written portfolio
+    curriculumOptions:
+      - name: Classical Logic and Rhetoric (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/logic"
+        notes: Use as a review. Hillsdale requires this as a core course of all undergraduates.
+      - name: The Rhetoric Companion
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/the-rhetoric-companion-package"
+        notes: A rhetoric course in dialogue form from the classical Christian school movement. It can support the senior thesis and speech.
+      - name: Rhetoric Alive! Senior Thesis
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/rhetoric-alive-senior-thesis-student-workbook"
+        notes: Guides a senior thesis researched, written and defended orally.
+    notes: >-
+      Optional homiletics: a student preparing for ministry can add the art of preaching,
+      beginning with Augustine's On Christian Doctrine, Book IV (New Advent,
+      https://www.newadvent.org/fathers/12024.htm), which is the first Christian rhetoric. Catholic and Protestant traditions differ on who preaches (the ordained homily
+      within the Mass versus the central Protestant sermon), but both inherit Augustine's rhetoric.

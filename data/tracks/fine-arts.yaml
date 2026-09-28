@@ -1,0 +1,532 @@
+track: fine-arts
+title: Fine Arts
+trackGroup: Arts & Body
+description: >-
+  Training the eye and the hand, and learning to love the beautiful. Franklin's 1749 plan for an American
+  academy joined "a fair Hand" to "Drawing, by Imitation of Prints, and some of the first Principles of
+  Perspective," and Locke recommended drawing as "a thing very useful to a gentleman." The track runs on
+  two strands. The practical strand moves from picture study and free drawing to nature journaling,
+  penmanship and calligraphy, observational drawing, watercolor, perspective, modeling and sculpture,
+  and the academic rigor of the Bargue plates and cast drawing (6–16). The historical strand studies art
+  and architecture through primary works and writers: Vasari, Ruskin, Vitruvius and Palladio, the
+  classical orders, and a college survey of Western art, architecture and sacred art (12–18). The end state
+  is a graduate who draws accurately from life and in perspective, writes a beautiful hand, paints
+  competently in watercolor, can identify and explain the major works, styles and orders, and can
+  argue, with Vitruvius and Ruskin, what makes a building or painting good.
+rows:
+  - id: fine-arts-01
+    title: "Picture Study and First Drawing"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [early-development-13]
+    summary: >-
+      This is Charlotte Mason's "picture study": look at one great painting at a time, closely and in silence,
+      then describe it from memory. Six works by one artist each term, so the child comes to know
+      Giotto, Fra Angelico, Raphael, Rembrandt, Millet and others as friends. Alongside this, daily free
+      drawing and a first structured method for seeing basic shapes.
+    objectives:
+      - Study 18 or more masterworks a year (six per artist per term) and narrate each from memory
+      - Recognize the works studied by title and artist
+      - Draw daily from observation and imagination, using the five basic "elements of shape" (dot, circle, straight, curved and angle lines)
+      - Handle crayons, colored pencils and watercolor crayons with control
+    curriculumOptions:
+      - name: Art Cards and Posters (by grade)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/art-cards-posters/"
+        notes: Graded sets of masterwork prints for picture study.
+      - name: "Drawing with Children (Mona Brookes)"
+        publisher: TarcherPerigee
+        tradition: secular
+        url: "https://www.barnesandnoble.com/w/drawing-with-children-mona-brookes/1102804393?ean=9780874778274"
+        notes: "The Monart method: shape-based observational drawing for 4-year-olds up to adults."
+      - name: ARTistic Pursuits
+        publisher: ARTistic Pursuits
+        url: "https://www.artisticpursuits.com/"
+        notes: Christian homeschool art program combining art history, technique and picture study by grade.
+    historicalPrecedent: >-
+      Charlotte Mason's PNEU schools (from 1891) made picture study a weekly subject from age six. Comenius's
+      Orbis Pictus (1658) had already made pictures the child's first textbook.
+    sources:
+      - { label: "Mason, Home Education (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/71087" }
+
+  - id: fine-arts-02
+    title: "Nature Journaling"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 12
+    order: 2
+    prerequisites: [fine-arts-01]
+    related: [natural-science-04, natural-science-06, early-development-19]
+    summary: >-
+      The nature journal joins art and science. The student looks closely, draws what is actually there, labels
+      it, and records date, place and weather. Weekly outings (Charlotte Mason's "nature walk") give
+      subjects: leaves, birds, insects, clouds, seasonal change. The journal becomes a record of observation
+      over years and trains the patience and accuracy needed for the drawing courses later in this track.
+    objectives:
+      - Make a dated nature-journal entry at least weekly, with drawing, labels and notes (what I see, what I wonder, what it reminds me of)
+      - Draw 100 or more local species over five years, with growing accuracy of proportion and detail
+      - Use colored pencil and then watercolor for field sketches
+      - Use the Handbook of Nature-Study to research each specimen
+    coreTexts:
+      - title: Handbook of Nature-Study
+        author: Anna Botsford Comstock
+        date: "1911"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/78142" }
+    curriculumOptions:
+      - name: "Keeping a Nature Journal (3rd ed.), Clare Walker Leslie"
+        publisher: Storey Publishing
+        tradition: secular
+        url: "https://www.barnesandnoble.com/w/keeping-a-nature-journal-3rd-edition-clare-walker-leslie/1137253912?ean=9781635862287"
+        notes: The classic month-by-month guide for families.
+      - name: "The Laws Guide to Nature Drawing and Journaling (John Muir Laws)"
+        publisher: Heyday Books
+        tradition: secular
+        url: "https://heydaybooks.com/catalog/the-laws-guide-to-nature-drawing-and-journaling/"
+        notes: Excellent technique book on birds, plants, landscapes and field watercolor. Suited to 10 and up. Free videos at johnmuirlaws.com.
+    historicalPrecedent: >-
+      Comstock's Handbook (1911) grew from the Cornell nature-study movement, which put field observation and
+      drawing into American schools. Jefferson's weather and garden books, and the Lewis and Clark journals,
+      are founding-era models.
+
+  - id: fine-arts-03
+    title: "Penmanship to Calligraphy"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 13
+    order: 3
+    prerequisites: [fine-arts-01]
+    related: [grammar-composition-01, character-virtue-04, practical-arts-07]
+    summary: >-
+      Handwriting is the most used fine art. After print and cursive are secure in the grammar track, the
+      student develops a beautiful and fast hand. That means a practical italic or cursive for daily use, and
+      then the historical scripts as calligraphy: Roman capitals, uncial, Carolingian minuscule, blackletter,
+      the English round hand of Bickham's Universal Penman, and American Spencerian. Copywork from
+      Scripture, poetry and the Rules of Civility joins this row to the character and literature tracks.
+    objectives:
+      - Write a fluent, legible cursive or italic hand at speed for everyday use by 10
+      - Learn broad-edge calligraphy with 3 or more historical hands (Roman capitals, Carolingian, italic)
+      - Learn pointed-pen copperplate or Spencerian from the historical copybooks
+      - Letter and illuminate a finished piece (a psalm, poem or the Declaration's preamble)
+    coreTexts:
+      - title: The Universal Penman
+        author: George Bickham
+        date: "1743"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_the-universal-penman-en_bickham-george_1743" }
+      - title: Theory of Spencerian Penmanship
+        author: Spencerian authors (H. C. Spencer)
+        date: "1874"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/TheoryOfSpencerianPenmanship" }
+    curriculumOptions:
+      - name: Aesop Cursive Copybook Set (and other MP copybooks)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/penmanship/aesop-cursive-copybook-set/"
+        notes: Copybook practice with classic texts, the bridge from cursive to a finished hand.
+    historicalPrecedent: >-
+      Franklin, Proposals Relating to the Education of Youth in Pensilvania (1749): "All should be taught to
+      write a fair Hand, and swift, as that is useful to All." Washington copied his Rules of Civility as
+      penmanship practice. Spencerian script was the standard American hand from about 1850 to 1925.
+    sources:
+      - { label: "Franklin, Proposals Relating to the Education of Youth in Pensilvania (1749), Penn Archives", url: "https://archives.upenn.edu/digitized-resources/docs-pubs/franklin-proposals/" }
+    notes: >-
+      I could not verify a Getty-Dubay italic (Portland State) purchase link; it is a widely used italic
+      option worth checking by hand.
+
+  - id: fine-arts-04
+    title: "Drawing Fundamentals: Seeing, Line, Proportion and Value"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 12
+    order: 4
+    prerequisites: [fine-arts-01]
+    related: []
+    summary: >-
+      This is systematic observational drawing: contour and blind-contour, negative space, sighting and
+      measuring proportion, light and shadow (value), and texture. Betty Edwards's exercises teach students
+      to draw what they see rather than what they "know," and Ruskin's Elements of Drawing (written as
+      letters to beginners) trains patient, faithful looking.
+    objectives:
+      - Complete the core exercises of Drawing on the Right Side of the Brain (contour, negative space, sighting, value, self-portrait)
+      - Work through Ruskin's first letter exercises (graded tones, shading a stone, drawing leaves and branches)
+      - Draw still life, interiors and portraits from life with correct proportion and a full value range
+      - Keep a sketchbook with daily drawing
+    coreTexts:
+      - title: The Elements of Drawing, in Three Letters to Beginners
+        author: John Ruskin
+        date: "1857"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30325" }
+      - title: Drawing on the Right Side of the Brain (4th ed.)
+        author: Betty Edwards
+        date: "1979 (4th ed. 2012)"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/drawing-on-the-right-side-of-the-brain-betty-edwards/1110791142?ean=9781585429202" }
+    curriculumOptions:
+      - name: Drawing on the Right Side of the Brain (Edwards)
+        publisher: TarcherPerigee
+        tradition: secular
+        url: "https://www.barnesandnoble.com/w/drawing-on-the-right-side-of-the-brain-betty-edwards/1110791142?ean=9781585429202"
+        notes: Best-selling observational drawing course. Its brain-hemisphere theory is dated, but the exercises work.
+      - name: Creating Art
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/creating-art/"
+        notes: Color theory, basic technique and early art history, with quizzes.
+    historicalPrecedent: >-
+      Locke (Thoughts §161): once a boy writes well, he should "improve the use of it farther in drawing; a
+      thing very useful to a gentleman in several occasions, but especially if he travel."
+    sources:
+      - { label: "Locke, Some Thoughts Concerning Education §161 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: fine-arts-05
+    title: "Watercolor and Color"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 13
+    order: 5
+    prerequisites: [fine-arts-04]
+    related: []
+    summary: >-
+      Watercolor is portable, cheap and demanding, the traditional medium of travelers, naturalists and
+      architects. The student learns washes, wet-in-wet, glazing, color mixing from a limited palette, and
+      the color wheel, then paints landscapes and botanical studies from life. Ruskin's third letter, on color
+      and composition, and Cennini's medieval handbook give the historical grounding.
+    objectives:
+      - Lay flat and graded washes and use wet-in-wet and glazing deliberately
+      - Mix any observed color from a limited palette of three primaries plus earth colors
+      - Complete 20 or more finished studies from life (landscape, botanical, architectural)
+      - Read Ruskin's Letter III and selections of Cennini on pigments and procedure
+    coreTexts:
+      - title: The Elements of Drawing (Letter III, On Colour and Composition)
+        author: John Ruskin
+        date: "1857"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30325" }
+      - title: "The Book of the Art of Cennino Cennini (trans. Christiana Herringham)"
+        author: Cennino Cennini
+        date: "c. 1400 (trans. 1899)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bookofartofcenni00cennuoft" }
+    curriculumOptions:
+      - name: The Laws Guide to Nature Drawing and Journaling (watercolor chapters)
+        publisher: Heyday Books
+        tradition: secular
+        url: "https://heydaybooks.com/catalog/the-laws-guide-to-nature-drawing-and-journaling/"
+        notes: Field watercolor technique, continuing the nature-journal strand.
+      - name: ARTistic Pursuits (upper-grade books)
+        publisher: ARTistic Pursuits
+        url: "https://www.artisticpursuits.com/"
+        notes: Christian publisher. Graded media instruction including watercolor.
+
+  - id: fine-arts-06
+    title: "Perspective and the Geometry of Seeing"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 13
+    order: 6
+    prerequisites: [fine-arts-04]
+    related: [mathematics-10]
+    summary: >-
+      Linear perspective, rediscovered by Brunelleschi and codified by Alberti and Leonardo, is geometry
+      applied to seeing. The student learns one-, two- and three-point perspective, the horizon line and
+      vanishing points, ellipses and cylinders, cast shadows and reflections, and then draws buildings and
+      interiors from life. Read Leonardo's notes on perspective and light.
+    objectives:
+      - Construct one-, two- and three-point perspective drawings of boxes, rooms and streets
+      - Draw circles in perspective (ellipses), arches and stairs correctly
+      - Project cast shadows from sun and point light sources
+      - Draw a building from life in accurate two-point perspective
+    coreTexts:
+      - title: Perspective Made Easy
+        author: Ernest R. Norling
+        date: "1939"
+        publicDomain: false
+        links:
+          - { label: Dover Publications, url: "https://store.doverpublications.com/products/9780486404738" }
+      - title: The Notebooks of Leonardo da Vinci (Part II, Linear Perspective; Part III, Light and Shade)
+        author: Leonardo da Vinci (trans. J. P. Richter)
+        date: "c. 1490–1519 (trans. 1888)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5000" }
+    historicalPrecedent: >-
+      Franklin's 1749 Proposals called for "some of the first Principles of Perspective" alongside drawing
+      "by Imitation of Prints."
+    sources:
+      - { label: "Franklin, Proposals Relating to the Education of Youth in Pensilvania (1749)", url: "https://archives.upenn.edu/digitized-resources/docs-pubs/franklin-proposals/" }
+
+  - id: fine-arts-07
+    title: "Sculpture and Modeling"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 14
+    order: 7
+    prerequisites: [fine-arts-04]
+    related: []
+    summary: >-
+      Drawing is two-dimensional. Sculpture teaches the student to think in form and volume. Model in clay
+      from life (reliefs, then heads and figures, following the academic method of Édouard Lanteri, who taught
+      modeling in London), try carving in soap, wood or soft stone, and read Cellini's lively
+      Autobiography for a Renaissance sculptor's world. Cast drawing later in the track builds on this work.
+    objectives:
+      - Model a relief (a leaf or rosette, then a copy of a classical relief) in clay
+      - Model a portrait head from life at about half scale using Lanteri's measured method
+      - Complete a small carving in wood or stone
+      - Read Cellini's Autobiography (selections) and describe the lost-wax casting of the Perseus
+    coreTexts:
+      - title: "Modelling: A Guide for Teachers and Students, Vol. I"
+        author: Édouard Lanteri
+        date: "1902"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/modellingguidefo01lantuoft" }
+      - title: The Autobiography of Benvenuto Cellini (trans. J. A. Symonds)
+        author: Benvenuto Cellini
+        date: "c. 1558–1563"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4028" }
+    notes: >-
+      Cellini's Autobiography contains violence and immoral episodes. Assign selections or read it at 14 or older.
+
+  - id: fine-arts-08
+    title: "Art History I: Primary Sources, from Vasari to Ruskin"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 15
+    order: 8
+    prerequisites: [fine-arts-01]
+    related: []
+    summary: >-
+      Study art history as the history track does history, from primary sources. Read Vasari's Lives (Giotto,
+      Brunelleschi, Masaccio, Leonardo, Raphael, Michelangelo) as the founding text of the discipline, and
+      Ruskin's Modern Painters and Stones of Venice as its great Victorian criticism. A good survey (Gombrich)
+      supplies the chronology, and picture study continues at a more analytical level.
+    objectives:
+      - Read 10 or more of Vasari's Lives, including the prefaces, and explain Vasari's idea of the "rebirth" of the arts
+      - Read selections of Ruskin (Modern Painters I on truth to nature, "The Nature of Gothic")
+      - Place 100 or more major works in period, style and context, from ancient Greece to the 19th century
+      - Write formal analyses of works seen in person at a museum
+    coreTexts:
+      - title: "Lives of the Most Eminent Painters, Sculptors and Architects, Vol. 1 (trans. de Vere)"
+        author: Giorgio Vasari
+        date: "1550/1568 (trans. 1912)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg (Vol. 1), url: "https://www.gutenberg.org/ebooks/25326" }
+          - { label: Project Gutenberg (Vol. 2), url: "https://www.gutenberg.org/ebooks/25759" }
+      - title: Modern Painters, Vol. 1
+        author: John Ruskin
+        date: "1843"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29907" }
+      - title: The Story of Art
+        author: E. H. Gombrich
+        date: "1950 (16th ed.)"
+        publicDomain: false
+        links:
+          - { label: Phaidon, url: "https://www.phaidon.com/store/art/the-story-of-art-9780714832470/" }
+    curriculumOptions:
+      - name: A Classical History of Art
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/a-classical-history-of-art-set/"
+        notes: Classical Christian survey with teacher guide and streaming lectures.
+      - name: American Paintings (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/americanpaintings"
+        notes: Free Hillsdale lecture course on American painting, tying art history to the history track.
+      - name: The Story of Art (Gombrich)
+        publisher: Phaidon
+        tradition: secular
+        url: "https://www.phaidon.com/store/art/the-story-of-art-9780714832470/"
+        notes: The standard one-volume narrative survey. Clear and humane.
+
+  - id: fine-arts-09
+    title: "Architecture and the Classical Orders: Vitruvius and Palladio"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 9
+    prerequisites: [fine-arts-06]
+    related: [mathematics-10, civics-law-04, practical-arts-15]
+    summary: >-
+      Vitruvius's three requirements of good building (firmitas, utilitas, venustas: soundness, usefulness,
+      beauty) and his account of the orders are the grammar of Western architecture. Learn to draw
+      the Tuscan, Doric, Ionic, Corinthian and Composite orders from their modules. Read Palladio's Four
+      Books, which Jefferson used to design Monticello and the University of Virginia, and study the
+      classical buildings of the American founding (the Virginia Capitol, the U.S. Capitol, the White House).
+    objectives:
+      - Read Vitruvius Books I, III and IV and explain the orders, proportion and symmetry
+      - Measure and draw the five orders in correct proportion from Palladio's plates
+      - Analyze a Palladian villa and Jefferson's Monticello or Rotunda
+      - Design and draw (plan, elevation, section) a small classical building
+    coreTexts:
+      - title: The Ten Books on Architecture (trans. M. H. Morgan)
+        author: Vitruvius
+        date: "c. 25 BC (trans. 1914)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20239" }
+      - title: The Four Books of Architecture (Ware trans.)
+        author: Andrea Palladio
+        date: "1570 (trans. 1738)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/gri_33125011569684" }
+          - { label: "Archive.org: Leoni edition (1715)", url: "https://archive.org/details/architecturePal00Pall" }
+    curriculumOptions:
+      - name: Institute of Classical Architecture & Art (courses and resources)
+        publisher: ICAA
+        tradition: classical
+        url: "https://www.classicist.org/"
+        notes: Classical drawing, orders and design courses (online and in person) for students and adults.
+    historicalPrecedent: >-
+      Jefferson owned several editions of Palladio (including Leoni's), modeled Monticello and the Rotunda on
+      Palladian and Roman precedents, and based the Virginia State Capitol (1785–1788) on the Maison Carrée at
+      Nîmes. Architecture was the one fine art he practiced seriously.
+
+  - id: fine-arts-10
+    title: "Classical Drawing: The Bargue Plates and Cast Drawing"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 10
+    prerequisites: [fine-arts-04, fine-arts-07]
+    related: []
+    summary: >-
+      This is the academic method of the 19th-century ateliers. The student copies the Bargue lithographs
+      (1866–1871) from outline to fully modeled value, then draws plaster casts of classical sculpture under
+      controlled light, and finally the figure from life. This is the most rigorous training in accuracy and
+      value available, and it is the foundation of today's atelier revival. Van Gogh taught himself from these plates.
+    objectives:
+      - Complete 10 or more Bargue plate copies at sight-size, from block-in to finished value
+      - Complete 2 or more long cast drawings (for example a classical head or foot) in graphite or charcoal
+      - Draw the figure from life in short and long poses if a supervised studio is available
+      - Understand sight-size and comparative measurement methods
+    coreTexts:
+      - title: "Exercices au fusain (Cours de dessin), 60 plates"
+        author: Charles Bargue
+        date: "1871"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/exercices-au-fusain-pour-preparer-a-letude-de-lacademie-dapres-nature-60-planches" }
+      - title: Classical Drawing Atelier
+        author: Juliette Aristides
+        date: "2006"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/classical-drawing-atelier-juliette-aristides/1111612296?ean=9780823006571" }
+    curriculumOptions:
+      - name: "Charles Bargue Drawing Course (ed. Gerald Ackerman)"
+        publisher: ACR Édition
+        tradition: classical
+        url: "https://www.acr-edition.com/"
+        notes: The standard modern reproduction of all 197 plates with commentary. The link is the publisher's home page, since I could not verify the product page.
+      - name: Classical Drawing Atelier (Aristides)
+        publisher: Watson-Guptill
+        tradition: secular
+        url: "https://www.barnesandnoble.com/w/classical-drawing-atelier-juliette-aristides/1111612296?ean=9780823006571"
+        notes: Atelier-method book with Bargue-style exercises and master drawings.
+    historicalPrecedent: >-
+      Bargue's Cours de dessin, produced with Jean-Léon Gérôme for Goupil & Cie (1866–1871), was used in French
+      academies and ateliers. Van Gogh copied the whole set in 1880–1881 while teaching himself to draw.
+
+  - id: fine-arts-11
+    title: "College: History of Art, Architecture and Sacred Art"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 11
+    prerequisites: [fine-arts-08, fine-arts-09]
+    related: [philosophy-14, theology-20]
+    summary: >-
+      A college survey and seminar on the Western tradition of art and architecture from the Parthenon to
+      the 20th century, read through its own theorists and critics: Vitruvius, Vasari, Ruskin's Stones of
+      Venice and The Two Paths, Cennini, and the Church's teaching on beauty and sacred art (John Paul II's
+      Letter to Artists and Benedict XVI's address to artists in the Sistine Chapel). Museum study in person
+      and a research paper complete it.
+    objectives:
+      - Trace architecture from the Greek temple through Roman, Romanesque, Gothic, Renaissance, Baroque and Neoclassical to modernism, and argue its merits and losses
+      - Read "The Nature of Gothic" (Stones of Venice II.6) and The Two Paths, and assess Ruskin's claim that art expresses a society's moral life
+      - Read John Paul II's Letter to Artists and Benedict XVI's 2009 address on the "way of beauty"
+      - Write a 3,000-word research paper on a building or artwork studied in person
+    coreTexts:
+      - title: The Stones of Venice, Vol. 1
+        author: John Ruskin
+        date: "1851–1853"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30754" }
+      - title: The Two Paths
+        author: John Ruskin
+        date: "1859"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7291" }
+      - title: Letter to Artists
+        author: Pope John Paul II
+        date: "1999"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/letters/1999/documents/hf_jp-ii_let_23041999_artists.html" }
+      - title: Meeting with Artists in the Sistine Chapel
+        author: Pope Benedict XVI
+        date: "2009"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/benedict-xvi/en/speeches/2009/november/documents/hf_ben-xvi_spe_20091121_artisti.html" }
+    curriculumOptions:
+      - name: The Story of Art (Gombrich), as the survey spine
+        publisher: Phaidon
+        tradition: secular
+        url: "https://www.phaidon.com/store/art/the-story-of-art-9780714832470/"
+        notes: Pair with primary readings and museum visits.
+      - name: A Classical History of Art (lectures)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/a-classical-history-of-art-set/"
+        notes: For review or if the high-school survey was skipped.
+    notes: >-
+      Catholic and Protestant note: Catholic teaching treats sacred images and beauty as a path to God (the
+      via pulchritudinis), following the Second Council of Nicaea (787). The Reformed tradition was more
+      cautious about images in worship, which is one reason Protestant architecture and painting took
+      different forms, for example the Dutch Golden Age turn to landscape and genre painting. Both deserve study.

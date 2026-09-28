@@ -1,0 +1,1340 @@
+track: theology
+title: Theology & Scripture
+trackGroup: Faith & Philosophy
+description: >-
+  This track is the spine of the program's formation of the whole person. It is Catholic at its
+  core and reads the great Protestant classics with charity. From birth to about 6 the family
+  forms faith by practice: daily prayer, the liturgical year, Bible and saints' stories, and the
+  Catechesis of the Good Shepherd. Formal study begins with a catechism sequence (St. Joseph First
+  Communion Catechism; Baltimore Nos. 1–3; Faith and Life; Fr. Laux's high-school Course in
+  Religion) and ends with the Catechism of the Catholic Church and the Roman Catechism of Trent.
+  Scripture runs alongside, from narrative Bible history to a study-Bible survey of the whole
+  canon. From about 13 the student reads the Church Fathers, the spiritual masters, the modern
+  apologists (Newman, Chesterton, Sheed, Kreeft, Lewis), and the Protestant classics (Bunyan,
+  Wesley, the Westminster Shorter Catechism, Calvin, Bonhoeffer), with short neutral notes where
+  the traditions differ. The track closes with liturgy, moral theology and Catholic social
+  teaching, then a college Aquinas seminar and a Church-history and doctrine seminar. By 18 the
+  student can give a reasoned account of the faith (1 Peter 3:15), knows the Bible's storyline and
+  key texts, has read the major spiritual classics, can state Catholic and Protestant positions
+  fairly, and can read the Summa with a tutor.
+rows:
+  # ---------------- Early development (practice) ----------------
+  - id: theology-01
+    title: Family Prayer & a Sacred Daily Rhythm
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 6.5
+    order: 1
+    prerequisites: []
+    related: [rhetoric-01, early-development-06]
+    summary: >-
+      From infancy the child is prayed over and with: blessings at bedtime, grace at meals, the
+      Sign of the Cross, short morning and night prayers, and Sunday Mass or worship as a
+      fixed family habit. Toddlers memorize the Our Father, Hail Mary and Glory Be (or a
+      Protestant equivalent such as the Lord's Prayer and the Doxology) by daily repetition. A home
+      prayer corner with an icon, crucifix or Bible gives prayer a place.
+    objectives:
+      - Make the Sign of the Cross and fold hands for grace by age 2–3
+      - Know the Our Father, Hail Mary and Glory Be (or equivalent) by heart by about 5
+      - Attend weekly worship with the family and behave reverently for its length by about 6
+      - Offer simple spontaneous prayers of thanks and petition
+    sources:
+      - { label: "Harvard T.H. Chan: Religious upbringing linked to better health and well-being (2018)", url: "https://hsph.harvard.edu/news/religious-upbringing-adult-health/" }
+      - { label: "Chen & VanderWeele, American Journal of Epidemiology 187:11 (2018)", url: "https://academic.oup.com/aje/article/187/11/2355/5094534" }
+    notes: >-
+      In a Harvard cohort study of more than 5,000 youth, those who attended services weekly or
+      prayed daily as children and adolescents reported greater happiness and life satisfaction in
+      their twenties and less depression and substance use. This is observational evidence, but it
+      is large and carefully controlled. Children learn prayer chiefly by watching parents pray.
+
+  - id: theology-02
+    title: Living the Liturgical Year at Home
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 1
+    ageEnd: 6.5
+    order: 2
+    prerequisites: []
+    related: [early-development-16]
+    summary: >-
+      The Church's calendar (Advent, Christmas, Lent, Easter, Pentecost, saints' feast days, name
+      days and baptism anniversaries) gives young children a sensory, story-shaped experience of
+      the faith. Families keep an Advent wreath and a Jesse tree, bless the home at Epiphany, keep
+      Lenten sacrifices, and hold feast-day meals and celebrations.
+    objectives:
+      - Name the liturgical seasons and their colors
+      - Take part in family customs for Advent, Christmas, Lent and Easter
+      - Celebrate their baptism day and patron saint's feast
+      - Connect each season with a Bible story (Annunciation, Nativity, Passion, Resurrection, Pentecost)
+    coreTexts:
+      - title: "Around the Year with the von Trapp Family"
+        author: Maria Augusta von Trapp
+        date: "1955 (Sophia ed. 2018)"
+        publicDomain: false
+        links:
+          - { label: Sophia Institute Press, url: "https://sophiainstitute.com/product/around-the-year-with-the-vontrapp-family/" }
+    curriculumOptions:
+      - name: "Saints & Seasons of the Liturgical Year: A Hands-On Religion Resource"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/saints-seasons-of-the-liturgical-year-a-hands-on-religion-resource/"
+        notes: Crafts, activities and stories keyed to the Church year for young children.
+    notes: >-
+      Liturgical Protestants (Anglican, Lutheran) keep much of the same calendar. Many
+      evangelical churches keep only Christmas and Easter; the Advent wreath and Lenten customs are
+      now widely shared.
+
+  - id: theology-03
+    title: Bible Stories Read Aloud
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 6.5
+    order: 3
+    prerequisites: []
+    related: [philosophy-01]
+    summary: >-
+      Daily read-alouds from a good illustrated children's Bible give the child the whole
+      storyline (Creation, Fall, Noah, Abraham, Moses, David, the prophets, the life of Jesus, the
+      early Church) and the images and names of Scripture that later literature and art assume.
+      Children retell the stories and act them out.
+    objectives:
+      - Retell 30–50 major Bible stories in order
+      - Name the main figures of the Old and New Testaments
+      - Recite short memory verses (e.g. Psalm 23, John 3:16, the Beatitudes)
+      - Connect Bible stories to the liturgical seasons
+    coreTexts:
+      - title: The Golden Children's Bible
+        author: Golden Books (editorial board)
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: Memoria Press, url: "https://www.memoriapress.com/curriculum/christian-studies/golden-childrens-bible/" }
+          - { label: Amazon, url: "https://www.amazon.com/Childrens-Bible-Golden-Books/dp/0307165205" }
+      - title: New Catholic Picture Bible
+        author: Rev. Lawrence G. Lovasik, S.V.D.
+        publicDomain: false
+        links:
+          - { label: Catholic Book Publishing, url: "https://catholicbookpublishing.com/products/new-catholic-picture-bible-illustrated" }
+    notes: >-
+      The Golden Children's Bible was approved by an interfaith (Protestant, Catholic and Jewish)
+      board and is the Bible text of Memoria Press's Christian Studies. Lovasik's Catholic Picture
+      Bible includes Catholic emphases (e.g. Mary, the Eucharist at the Last Supper).
+
+  - id: theology-04
+    title: Saints' Stories & Heroes of the Faith
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6.5
+    order: 4
+    prerequisites: []
+    related: []
+    summary: >-
+      Short illustrated lives of the saints read on their feast days give young children heroes of
+      courage, charity and purity: St. Francis, St. Nicholas, St. Patrick, St. Joan of Arc, St.
+      Thérèse, St. George, and the child's own patron. Stories are told as true adventures and
+      connected to virtues.
+    objectives:
+      - Know the story of their patron saint and 10–20 other saints
+      - Name a virtue each saint shows
+      - Ask a saint's intercession in prayer (Catholic practice)
+    coreTexts:
+      - title: Picture Book of Saints
+        author: Rev. Lawrence G. Lovasik, S.V.D.
+        publicDomain: false
+        links:
+          - { label: Catholic Book Publishing, url: "https://catholicbookpublishing.com/products/picture-book-of-saints-illustrated" }
+    notes: >-
+      Protestant families will omit intercession and emphasize the saints as "a great cloud of
+      witnesses" (Hebrews 12:1). Missionary and Reformation-era biographies (Patrick, Augustine,
+      Bunyan, Hudson Taylor) fill the same role.
+
+  - id: theology-05
+    title: Catechesis of the Good Shepherd (Level I Atrium)
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6.5
+    order: 5
+    prerequisites: []
+    related: [early-development-16]
+    summary: >-
+      The Catechesis of the Good Shepherd was developed in Rome from 1954 by Scripture scholar
+      Sofia Cavalletti and Montessori educator Gianna Gobbi. It offers children aged 3–6 a
+      prepared "atrium" with hands-on materials for the parables (especially the Good Shepherd),
+      the infancy narratives, and the gestures and objects of the Mass and Baptism. It emphasizes
+      the child's own relationship with God, contemplation and wonder over instruction.
+    objectives:
+      - Work independently and reverently with atrium materials (Good Shepherd, altar, baptism)
+      - Know the Good Shepherd parable and that "the sheep know his voice"
+      - Name the articles and gestures of the Mass
+      - Pray in silence and song for short periods
+    coreTexts:
+      - title: "The Religious Potential of the Child: Experiencing Scripture and Liturgy with Young Children"
+        author: Sofia Cavalletti
+        publicDomain: false
+        links:
+          - { label: LTP, url: "https://www.ltp.org/products/details/CHILDK3/religious-potential-of-the-child" }
+    curriculumOptions:
+      - name: Catechesis of the Good Shepherd (find an atrium or train as a catechist)
+        publisher: CGSUSA
+        tradition: catholic
+        url: "https://cgsusa.org/discover/"
+        notes: >-
+          Parish- and school-based atria. Parents can take Level I formation to set up a home
+          atrium. Episcopal and some other Protestant churches also use CGS.
+    sources:
+      - { label: "CGSUSA: Discover the Catechesis", url: "https://cgsusa.org/discover/" }
+
+  # ---------------- Catechism sequence & Scripture (formal) ----------------
+  - id: theology-06
+    title: "First Catechism & First Communion Preparation"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6.5
+    ageEnd: 8
+    order: 6
+    prerequisites: [theology-01, theology-03]
+    related: [rhetoric-02]
+    summary: >-
+      This is formal catechesis for the age of reason (about 7). The child memorizes the basic
+      questions and answers of the faith (God, creation, the Trinity, the Incarnation, sin, the
+      commandments, the sacraments) and prepares for first Confession and first Holy Communion. The
+      Baltimore Catechism's question-and-answer form suits the grammar stage's appetite for
+      memorization.
+    objectives:
+      - Memorize the answers to the core catechism questions (Who made me? Why did God make me?)
+      - Know the Ten Commandments, the Apostles' Creed and an Act of Contrition
+      - Explain simply what happens in Baptism, Confession and the Eucharist
+      - Prepare for and receive first Penance and first Holy Communion
+    coreTexts:
+      - title: "St. Joseph First Communion Catechism (No. 0)"
+        author: Confraternity of Christian Doctrine (rev. Baltimore Catechism)
+        publicDomain: false
+        links:
+          - { label: Catholic Book Publishing, url: "https://catholicbookpublishing.com/products/st-joseph-first-communion-catechism-no-0-illustrated" }
+      - title: "A Catechism of Christian Doctrine, No. 1 (Baltimore Catechism)"
+        author: Third Plenary Council of Baltimore
+        date: "1885 (1891 ed.)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14551" }
+    curriculumOptions:
+      - name: "Faith and Life, Grades 1–2 (Our Heavenly Father; Jesus Our Life)"
+        publisher: Ignatius Press
+        tradition: catholic
+        url: "https://ignatius.com/faith-and-life-grade-1-student-book-31s3p/"
+        notes: >-
+          A doctrinal text with fine classical art, with activity books and teacher guides. See
+          the scope and sequence at https://loc.ignatius.com/faithandlife/scope.htm.
+      - name: "Preparing to Receive Jesus: A Hands-On Religion Resource"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/preparing-to-receive-jesus-a-hands-on-religion-resource/"
+        notes: A gentle, hands-on companion for first-sacraments preparation at home.
+    historicalPrecedent: >-
+      The Baltimore Catechism (1885) was the standard text of American Catholic schools until the
+      late 1960s. Children memorized it question by question, much as colonial Protestant children
+      memorized the New England Primer and the Westminster Shorter Catechism.
+    notes: >-
+      Protestant families would instead use a children's catechism (e.g. the Westminster Shorter
+      Catechism or a Lutheran Small Catechism) and prepare for the Lord's Supper according to
+      their church's practice. Many Protestant churches admit children to communion later, after
+      profession of faith.
+
+  - id: theology-07
+    title: "Bible History I: Salvation History as Real History"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 9.5
+    order: 7
+    prerequisites: [theology-03]
+    related: []
+    summary: >-
+      This is a narrative survey of the Old and New Testaments taught as history: Creation to the
+      Patriarchs, the Exodus and Conquest, Judges and Kings, Exile and Return, and the life of
+      Christ and the early Church. The student memorizes a timeline, key places on a Bible map, and
+      core passages, and learns to see the covenants as the Bible's unifying thread.
+    objectives:
+      - Place 40–60 Bible events and figures on a timeline and a map
+      - Trace the covenants with Adam, Noah, Abraham, Moses, David and the New Covenant in Christ
+      - Memorize Psalm 23, the Ten Commandments (Exodus 20), and the Beatitudes
+      - Narrate a Bible story orally and in writing
+    coreTexts:
+      - title: The Holy Bible, Douay-Rheims Version
+        author: (Challoner revision)
+        date: "1582–1610; rev. 1749–52"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
+    curriculumOptions:
+      - name: "Christian Studies I–III (with The Golden Children's Bible)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/christian-studies-ii-student-book/"
+        notes: >-
+          A three-year reading course that teaches salvation history as real history, with
+          timelines, maps and memory work. It is ecumenical and used by Catholic and Protestant
+          families.
+      - name: "God's Great Covenant (Old Testament 1–2, New Testament 1–2)"
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/gods-great-covenant-old-testament-1"
+        notes: Bible-history curriculum organized around the covenants, for grades 3–6.
+      - name: "Faith and Life, Grade 3 onward"
+        publisher: Ignatius Press / Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/faith-and-life-grade-1-our-heavenly-father/"
+        notes: The Catholic catechism series integrates Bible history. It can be paired with either option above.
+    notes: >-
+      Catholic and Orthodox Bibles include the deuterocanonical books (Tobit, Judith, 1–2
+      Maccabees, Wisdom, Sirach, Baruch, and parts of Esther and Daniel). Protestant Bibles omit
+      them or print them as "Apocrypha". This row uses the Catholic canon and notes the difference
+      without polemic.
+
+  - id: theology-08
+    title: "Baltimore Catechism No. 2 & Faith and Life (Grades 3–5 level)"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10
+    order: 8
+    prerequisites: [theology-06]
+    related: []
+    summary: >-
+      This is the full intermediate catechism, taught in the Confirmation-class tradition: the
+      Creed, the sacraments, the commandments and prayer, with definitions memorized precisely
+      (grace, sin, virtue, sacrament) and explained with Scripture. It is paired with Faith and Life
+      Grades 3–5, which present the same doctrine through narrative and art.
+    objectives:
+      - Memorize and explain the Baltimore No. 2 answers on the Creed, sacraments and commandments
+      - Define sanctifying and actual grace, mortal and venial sin, and the theological and cardinal virtues
+      - Know the seven sacraments, their matter, form and minister
+      - Pray the Rosary and know its mysteries
+    coreTexts:
+      - title: "A Catechism of Christian Doctrine, No. 2 (Baltimore Catechism)"
+        author: Third Plenary Council of Baltimore
+        date: "1885"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14552" }
+    curriculumOptions:
+      - name: "Faith and Life, Grades 3–5 (Our Life with Jesus; Jesus Our Guide; Credo—I Believe)"
+        publisher: Ignatius Press (via Catholic Heritage Curricula)
+        tradition: catholic
+        url: "https://chcweb.com/product/faith-and-life-grade-5-credo-i-believe/"
+        notes: The grade 5 volume walks through the Creed.
+      - name: Our Lady of Victory School (traditional Catholic homeschool)
+        publisher: Our Lady of Victory School
+        tradition: catholic
+        url: "https://olvs.org/"
+        notes: A pre-Vatican II–style curriculum that relies heavily on the Baltimore series.
+
+  - id: theology-09
+    title: "Lives of the Saints & the Early Church for Young Readers"
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 8.5
+    ageEnd: 10.5
+    order: 9
+    prerequisites: [theology-04]
+    related: []
+    summary: >-
+      Chapter-book biographies of saints and heroes of Church history, from the martyrs of the
+      catacombs to modern saints, read independently and narrated. Historical novels such as
+      Wiseman's Fabiola (the Diocletian persecution) bring the early Church alive, and Butler's
+      Lives is used for daily feast-day readings.
+    objectives:
+      - Read 8–12 saint biographies a year and narrate or write a report on each
+      - Place the saints on the history timeline
+      - Explain what martyrdom, sanctity and canonization mean
+      - Read the feast-day entry from Butler's Lives on major feasts
+    coreTexts:
+      - title: "The Lives of the Fathers, Martyrs, and Other Principal Saints"
+        author: Alban Butler
+        date: "1756–1759"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Jan–Mar)", url: "https://www.gutenberg.org/ebooks/20450" }
+          - { label: "Archive.org (1842 ed., vol. 1)", url: "https://archive.org/details/livesoffathersma01butl" }
+      - title: "Fabiola; or, The Church of the Catacombs"
+        author: Cardinal Nicholas Wiseman
+        date: "1854"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/62254" }
+    curriculumOptions:
+      - name: Vision Books (saints' biographies for ages 9–15)
+        publisher: Ignatius Press
+        tradition: catholic
+        url: "https://ignatius.com/kids/series/the-vision-series/"
+        notes: Classic 1950s–60s biographies, reprinted. Well written and historically careful.
+      - name: "Light to the Nations, Part 1: The History of Christian Civilization"
+        publisher: Catholic Heritage Curricula
+        tradition: catholic
+        url: "https://chcweb.com/product/light-to-the-nations-part-1-the-history-of-christian-civilization/"
+        notes: A Catholic-perspective history text for middle grades that pairs well with the biographies.
+
+  - id: theology-10
+    title: "The Pilgrim's Progress & Christian Allegory"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 9.5
+    ageEnd: 11
+    order: 10
+    prerequisites: [theology-07]
+    related: []
+    summary: >-
+      Bunyan's Pilgrim's Progress (1678), which for two centuries stood beside the Bible in
+      English-speaking households, is read in full as a classic of Christian imagination. The
+      student follows Christian's journey from the City of Destruction to the Celestial City and
+      learns to read allegory.
+    objectives:
+      - Read the complete Part I and narrate its main episodes
+      - Identify the allegorical meaning of key places and characters (Slough of Despond, Vanity Fair, Giant Despair)
+      - Memorize a passage (e.g. "Who would true valour see")
+      - Compare Christian's journey with a saint's life read in theology-09
+    coreTexts:
+      - title: The Pilgrim's Progress from This World to That Which Is to Come
+        author: John Bunyan
+        date: "1678"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/131" }
+    curriculumOptions:
+      - name: "Dangerous Journey: The Story of Pilgrim's Progress (for younger readers)"
+        publisher: Memoria Press (distributor)
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/literature-and-poetry/dangerous-journey-the-story-of-pilgrims-progress/"
+        notes: A richly illustrated abridgment. It can be read aloud at 7–9, before the full text.
+      - name: "Pilgrim's Progress (Worldview Edition)"
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/pilgrims-progress-worldview-edition"
+        notes: The full text with a Reformed worldview guide.
+    historicalPrecedent: >-
+      Pilgrim's Progress stood beside the Bible in colonial and 19th-century American homes.
+      Franklin records that it was among the first books he owned and loved as a boy.
+    notes: >-
+      Bunyan was a Puritan Baptist. Catholic readers will notice the book's Reformed account of
+      conversion and assurance and its "Giant Pope"; both are worth discussing calmly. Its account
+      of perseverance, temptation and grace is shared ground.
+
+  - id: theology-11
+    title: "Baltimore Catechism No. 3 & Faith and Life (Grades 6–8 level)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 11
+    prerequisites: [theology-08]
+    related: [logic-02]
+    summary: >-
+      The advanced Baltimore Catechism, with fuller explanations and Scripture proofs, is paired
+      with Faith and Life 6–8 (Following Christ; The Life of Grace; Our Life in the Church). It
+      prepares the student for Confirmation and for apologetics: he learns not only what the Church
+      teaches but where it is found in Scripture and Tradition.
+    objectives:
+      - Master the Baltimore No. 3 answers, including the scriptural references
+      - Explain the four marks of the Church and apostolic succession
+      - Explain grace, justification and merit in Catholic terms
+      - Prepare for and receive Confirmation, choosing a saint's name with a written reason
+    coreTexts:
+      - title: "A Catechism of Christian Doctrine, No. 3 (Baltimore Catechism)"
+        author: Third Plenary Council of Baltimore
+        date: "1885 (1891 ed.)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14553" }
+      - title: An Explanation of the Baltimore Catechism (Baltimore No. 4, teacher's reference)
+        author: Rev. Thomas L. Kinkead
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14554" }
+    curriculumOptions:
+      - name: "Faith and Life, Grades 6–8"
+        publisher: Ignatius Press (via Catholic Heritage Curricula)
+        tradition: catholic
+        url: "https://chcweb.com/product/faith-and-life-grade-8-our-life-in-the-church/"
+        notes: Grade 8 covers the Church, and grade 7 covers grace and the sacraments.
+      - name: Kolbe Academy religion courses
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://www.kolbe.org/"
+        notes: A Jesuit Ratio-inspired Catholic homeschool program with Baltimore-based middle-school religion.
+    notes: >-
+      This is a natural place for a first comparative note. Catholics hold that justification
+      infuses grace and makes one inwardly righteous, cooperating with faith and works done in
+      grace. Lutheran and Reformed Protestants hold that justification is a forensic declaration
+      received by faith alone, with good works following as fruit. The 1999 Joint Declaration on
+      the Doctrine of Justification (Catholic–Lutheran) records significant convergence.
+
+  - id: theology-12
+    title: "Scripture II: The Gospels & Acts with a Study Bible"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12.5
+    order: 12
+    prerequisites: [theology-07]
+    related: [rhetoric-06]
+    summary: >-
+      A close reading of Matthew, Mark, Luke, John and Acts in a modern Catholic translation, using
+      the notes, essays and word studies of the Ignatius Catholic Study Bible (Hahn & Mitch). The
+      student learns to read Scripture in context, use cross-references and commentary, and see
+      how the Old Testament is fulfilled in the New.
+    objectives:
+      - Read all four Gospels and Acts in full
+      - Compare the Synoptic Gospels in parallel passages and explain John's distinct purpose
+      - Trace Old Testament fulfillment (Passover, manna, temple, David's kingdom) in the Gospels
+      - Memorize the Sermon on the Mount (Matthew 5–7), in sections
+    coreTexts:
+      - title: "Ignatius Catholic Study Bible: New Testament (RSV-2CE)"
+        author: Scott Hahn & Curtis Mitch
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/ignatius-catholic-study-bible-2h/" }
+    curriculumOptions:
+      - name: "Ignatius Catholic Study Bible (Old and New Testaments)"
+        publisher: St. Paul Center for Biblical Theology
+        tradition: catholic
+        url: "https://stpaulcenter.com/store/ignatius-catholic-study-bible-old-and-new-testaments"
+        notes: >-
+          Scott Hahn's St. Paul Center also offers free and paid Bible studies and courses that
+          can supplement this row.
+      - name: "Christian Studies (upper levels) / Gospel studies"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/christian-studies-ii-student-book/"
+        notes: Memoria's sequence continues into New Testament study. It is ecumenical.
+
+  # ---------------- High school ----------------
+  - id: theology-13
+    title: "Fr. Laux's Course in Religion (Doctrine, Sacraments, Morality, Apologetics)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 14
+    order: 13
+    prerequisites: [theology-11]
+    related: [philosophy-04]
+    summary: >-
+      Fr. John Laux's four-part high-school course (first published from 1928 and reprinted by
+      TAN) is the pre-conciliar standard. It covers Chief Truths of the Faith, Mass and the
+      Sacraments, Catholic Morality, and Catholic Apologetics, and has companion volumes on the
+      Bible and Church History. It is clear, systematic and thorough, and it moves the student from
+      catechism answers to reasoned theology.
+    objectives:
+      - Outline the proofs for God's existence and the credibility of revelation as Laux presents them
+      - Explain the Mass as sacrifice and the theology of each sacrament
+      - Apply the principles of Catholic morality (object, intention, circumstances; conscience)
+      - Answer common objections to Catholic doctrine in writing
+    coreTexts:
+      - title: A Course in Religion for Catholic High Schools and Academies (Parts I–IV)
+        author: Rev. John Laux, M.A.
+        date: "from 1928 (TAN reprint)"
+        publicDomain: false
+        links:
+          - { label: TAN Books, url: "https://tanbooks.com/a-course-in-religion/" }
+    curriculumOptions:
+      - name: "Fr. Laux's A Course in Religion Series (Set of 4)"
+        publisher: TAN Books / TAN Academy
+        tradition: catholic
+        url: "https://tanacademics.com/products/books/fr-laux-a-course-in-religion-series-set-of-4/"
+        notes: The core four-volume set. TAN Academy uses it in its high-school theology rotation.
+      - name: Mother of Divine Grace School (high-school religion)
+        publisher: Mother of Divine Grace
+        tradition: catholic
+        url: "https://modg.org/"
+        notes: A classical Catholic distance program whose high-school religion syllabi draw on Laux, Sheed and the Catechism.
+    notes: >-
+      Laux predates Vatican II. Use the Catechism of the Catholic Church (theology-21) to update
+      points of emphasis (e.g. ecumenism, religious liberty), but the doctrinal core is unchanged.
+
+  - id: theology-14
+    title: "Apologetics I: Sheed, Kreeft, Karl Adam & Mere Christianity"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 14
+    prerequisites: [theology-11]
+    related: [philosophy-05, logic-04, natural-science-12]
+    summary: >-
+      This is the reasoned defense of the faith. Frank Sheed's Theology for Beginners gives the
+      intellect a map of doctrine (God, Trinity, creation, fall, redemption, Church, sacraments, last
+      things). Kreeft and Tacelli summarize the arguments for God, the soul, the resurrection and
+      the Church. Karl Adam's Spirit of Catholicism explains the Church as a living whole. C.S.
+      Lewis's Mere Christianity, the most widely read modern apologetic, gives the shared
+      Christian ground of all traditions.
+    objectives:
+      - Explain the Trinity and the Incarnation accurately and without heresy
+      - Present and defend three arguments for God's existence and the argument for the resurrection
+      - Summarize Lewis's moral argument and his "liar, lunatic or Lord" trilemma, and evaluate them
+      - Answer five common objections to Christianity in short essays
+    coreTexts:
+      - title: Theology for Beginners
+        author: Frank Sheed
+        date: "1957"
+        publicDomain: false
+        links:
+          - { label: Cenacle Press, url: "https://cenaclepress.com/en-us/products/theology-for-beginners-sheed" }
+      - title: "Handbook of Catholic Apologetics: Reasoned Answers to Questions of Faith"
+        author: Peter Kreeft & Ronald K. Tacelli, S.J.
+        date: "2009"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/handbook-of-catholic-apologetics-hcatap/" }
+      - title: The Spirit of Catholicism
+        author: Karl Adam (trans. Justin McCann)
+        date: "1924; Eng. 1929"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1929 ed.)", url: "https://archive.org/details/in.ernet.dli.2015.51136" }
+      - title: Mere Christianity
+        author: C.S. Lewis
+        date: "1952"
+        publicDomain: false
+        links:
+          - { label: HarperOne, url: "https://www.harpercollins.com/products/mere-christianity-c-s-lewis" }
+      - title: "The God Delusion (elective, the opponent's case)"
+        author: Richard Dawkins
+        date: "2006"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.ca/9780618680009/the-god-delusion/" }
+      - title: "The Last Superstition: A Refutation of the New Atheism (elective, response)"
+        author: Edward Feser
+        date: "2008"
+        publicDomain: false
+        links:
+          - { label: "St. Augustine's Press", url: "https://www.staugustine.net/our-books/books/the-last-superstition/" }
+      - title: "Atheist Delusions: The Christian Revolution and Its Fashionable Enemies (elective, response)"
+        author: David Bentley Hart
+        date: "2009"
+        publicDomain: false
+        links:
+          - { label: Yale University Press, url: "https://yalebooks.yale.edu/book/9780300164299/atheist-delusions/" }
+    curriculumOptions:
+      - name: Handbook of Christian Apologetics (Kreeft & Tacelli, ecumenical edition)
+        publisher: Memoria Press (distributor)
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/handbook-christian-apologetics/"
+        notes: The earlier "mere Christian" edition, without the Catholic chapters. Used in Memoria's apologetics course.
+      - name: "C.S. Lewis on Christianity (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/c-s-lewis-on-christianity"
+        notes: A seven-lecture course tracing Lewis's path from skeptic to believer and his major apologetic works.
+    notes: >-
+      Lewis was an Anglican who deliberately avoided disputed questions ("mere" Christianity).
+      Karl Adam's reputation is complicated by his early accommodation with National Socialism
+      in 1933, which he later abandoned. Read his book for its theology and note the history
+      honestly. The God Delusion is read critically, at the end of the course or up to 15, as the
+      strongest popular statement of the opponent's case: the student summarizes Dawkins fairly
+      (especially his "Ultimate Boeing 747" argument), then answers him from Kreeft and Tacelli,
+      Feser's The Last Superstition (Aristotelian-Thomist philosophy: the Five Ways are not a
+      "God of the gaps") and Hart's Atheist Delusions (the history the New Atheists get wrong).
+      Feser writes polemically and with some sharp language; a parent should preview it.
+
+  - id: theology-15
+    title: "Scripture III: The Whole Canon, Covenant by Covenant"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14.5
+    order: 15
+    prerequisites: [theology-12]
+    related: [rhetoric-08, literature-31]
+    summary: >-
+      The student reads the whole Bible, most of it in a two-year plan, with study-Bible notes and
+      Scott Hahn's covenantal framework: Pentateuch, historical books, wisdom literature and
+      Psalms, prophets, Gospels, Pauline and Catholic epistles, and Revelation. He reads Scripture
+      as the Church reads it, in the literal and spiritual senses (Catechism 115–119), and meets the
+      major critical questions.
+    objectives:
+      - Complete a reading of the entire Bible
+      - Explain the four senses of Scripture (literal, allegorical, moral, anagogical)
+      - Outline each book of the Bible in one sentence and place it in salvation history
+      - Read Romans and Hebrews closely, noting Catholic and Protestant readings
+      - Read Dei Verbum (Vatican II) on revelation and inspiration
+    coreTexts:
+      - title: "Ignatius Catholic Study Bible (RSV-2CE)"
+        author: Scott Hahn & Curtis Mitch (eds.)
+        publicDomain: false
+        links:
+          - { label: St. Paul Center, url: "https://stpaulcenter.com/store/ignatius-catholic-study-bible-old-and-new-testaments" }
+      - title: The Holy Bible, Douay-Rheims Version
+        author: (Challoner revision)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
+      - title: Dei Verbum (Dogmatic Constitution on Divine Revelation)
+        author: Second Vatican Council
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html" }
+    curriculumOptions:
+      - name: "The Genesis Story / The Exodus Story / The David Story (free online courses)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/genesis"
+        notes: >-
+          Literary-historical lectures on the Old Testament narratives. See also
+          https://online.hillsdale.edu/courses/promo/exodus and
+          https://online.hillsdale.edu/courses/promo/the-david-story.
+      - name: St. Paul Center Bible studies
+        publisher: St. Paul Center for Biblical Theology
+        tradition: catholic
+        url: "https://stpaulcenter.com/store/ignatius-catholic-study-bible-old-and-new-testaments"
+        notes: Hahn's covenant-centered Bible studies.
+    notes: >-
+      Catholics read Scripture within Sacred Tradition and the Church's teaching office.
+      Protestants hold sola scriptura, Scripture as the only infallible rule, usually read with the
+      historic creeds. Both affirm divine inspiration. The King James Version (1611) should also be
+      read for its literary and historical importance to English and American culture.
+
+  - id: theology-16
+    title: "The Church Fathers & Monastic Classics"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14.5
+    order: 16
+    prerequisites: [theology-14]
+    related: [philosophy-08, chinese-10]
+    summary: >-
+      The student reads the early Church in its own words. The Apostolic Fathers (Clement,
+      Ignatius of Antioch, Polycarp, the Didache) show the faith of the generation after the
+      apostles. Augustine's Confessions, the first great autobiography, tells of a restless heart
+      finding rest in God. The Rule of St. Benedict shows the ordered life of prayer and work that
+      preserved Western civilization.
+    objectives:
+      - Identify in the Apostolic Fathers early witness to the Eucharist, the episcopate and Roman primacy
+      - Read Confessions I–IX in full, and X–XIII in selection
+      - Explain Augustine's account of evil as privation and of the restless heart
+      - Summarize the Rule of St. Benedict on obedience, humility, prayer and work, and design a personal rule of life
+    coreTexts:
+      - title: The Writings of the Apostolic Fathers
+        author: Clement, Ignatius, Polycarp, Hermas et al.
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/77576" }
+          - { label: New Advent (Fathers), url: "https://www.newadvent.org/fathers/" }
+      - title: The Confessions
+        author: Augustine of Hippo (trans. E.B. Pusey)
+        date: "c. 397–400"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3296" }
+      - title: The Rule of St. Benedict (St. Benedict's Rule for Monasteries)
+        author: Benedict of Nursia
+        date: "c. 530"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/50040" }
+    curriculumOptions:
+      - name: Early Christian Writings (Apostolic Fathers)
+        publisher: Memoria Press (Penguin edition with guide)
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/early-christian-writings/"
+        notes: Clement, Ignatius, Polycarp, Barnabas and the Didache in a readable translation.
+      - name: The Confessions (guided study)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/the-confessions-saint-augustine-of-hippo/"
+        notes: A high-school guide to the Confessions.
+      - name: "Ancient Christianity (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/ancient-christianity"
+        notes: Lectures on how the Gospel spread through the Roman world, persecution, and early controversies.
+    notes: >-
+      Augustine is claimed by both traditions. The Reformers, especially Calvin and Luther,
+      relied heavily on his theology of grace, and Catholics read him as a Doctor of the Church
+      and a witness to sacramental and ecclesial faith.
+
+  - id: theology-17
+    title: "Spiritual Classics: Imitation, de Sales, Teresa, Thérèse"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 17
+    prerequisites: [theology-16]
+    related: [philosophy-06, spanish-09]
+    summary: >-
+      These are the great manuals of the interior life. The Imitation of Christ, perhaps the most
+      widely read Christian devotional book after the Bible, teaches detachment and love of Christ. Francis de
+      Sales's Introduction to the Devout Life shows holiness in lay life. Teresa of Ávila's
+      Interior Castle maps the ascent of prayer. Thérèse of
+      Lisieux's Story of a Soul teaches the "little way".
+    objectives:
+      - Read the Imitation Books I–II and keep a notebook of maxims
+      - Follow de Sales's method of meditation for a month and write a reflection
+      - Describe Teresa's seven mansions of the Interior Castle
+      - Explain Thérèse's "little way" and why she was made a Doctor of the Church
+    coreTexts:
+      - title: The Imitation of Christ
+        author: Thomas à Kempis
+        date: "c. 1418–1427"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1653" }
+      - title: Introduction to the Devout Life
+        author: St. Francis de Sales
+        date: "1609"
+        publicDomain: true
+        links:
+          - { label: CCEL, url: "https://ccel.org/ccel/desales/devout_life" }
+      - title: Interior Castle (The Mansions)
+        author: St. Teresa of Ávila
+        date: "1577"
+        publicDomain: true
+        links:
+          - { label: CCEL, url: "https://ccel.org/ccel/teresa/castle2" }
+      - title: "The Story of a Soul (L'Histoire d'une Âme)"
+        author: St. Thérèse of Lisieux
+        date: "1898"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16772" }
+    notes: >-
+      The Imitation has long been loved by Protestants too; John Wesley published an edition of
+      it. Teresa is best read slowly with a spiritual director or mentor. John of the Cross's
+      mystical theology is deliberately placed at college level (theology-24), because it assumes more
+      spiritual and intellectual maturity.
+
+  - id: theology-18
+    title: "Modern Christian Letters: Newman, Chesterton & Lewis"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15.5
+    order: 18
+    prerequisites: [theology-14]
+    related: [philosophy-13]
+    summary: >-
+      Three great converts and men of letters defend the faith against modern unbelief. Newman's
+      Apologia Pro Vita Sua is the history of his religious opinions from Anglicanism to Rome.
+      Chesterton's Orthodoxy and The Everlasting Man argue with paradox and history. Lewis's
+      Screwtape Letters and The Great Divorce are imaginative works on temptation and on heaven and
+      hell, and The Abolition of Man defends objective value and natural law in education.
+    objectives:
+      - Trace Newman's development and his idea that "to live is to change"
+      - Summarize Chesterton's "Ethics of Elfland" and "The Paradoxes of Christianity"
+      - Explain Lewis's "Tao" and "men without chests" and apply them to modern education
+      - Write a Screwtape-style letter on a modern temptation
+    coreTexts:
+      - title: Apologia Pro Vita Sua
+        author: John Henry Newman
+        date: "1864"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19690" }
+          - { label: Newman Reader, url: "https://www.newmanreader.org/works/apologia65/" }
+      - title: Orthodoxy
+        author: G.K. Chesterton
+        date: "1908"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/130" }
+      - title: The Everlasting Man
+        author: G.K. Chesterton
+        date: "1925"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/65688" }
+      - title: The Screwtape Letters
+        author: C.S. Lewis
+        date: "1942"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.ca/9780060652890/the-screwtape-letters/" }
+      - title: The Abolition of Man
+        author: C.S. Lewis
+        date: "1943"
+        publicDomain: false
+        links:
+          - { label: CSLewis.com (HarperCollins), url: "https://www.cslewis.com/the-abolition-of-man/" }
+          - { label: Hillsdale College shop, url: "https://shop.hillsdale.edu/products/the-abolition-of-man-c-s-lewis" }
+      - title: The Great Divorce
+        author: C.S. Lewis
+        date: "1945"
+        publicDomain: false
+        links:
+          - { label: HarperCollins (C.S. Lewis books), url: "https://www.harpercollins.com/pages/cslewis" }
+    curriculumOptions:
+      - name: "An Introduction to C.S. Lewis: Writings and Significance (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/an-introduction-to-c-s-lewis"
+        notes: Lectures on Lewis's fiction and nonfiction.
+      - name: Orthodoxy (guided study)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mp/orthodoxy/"
+        notes: A high-school guide to Chesterton's Orthodoxy.
+    notes: >-
+      Newman and Chesterton converted from Anglicanism to Catholicism, while Lewis remained an
+      Anglican. The Great Divorce's purgatory-like "refrigerium" is Lewis's imaginative device, but
+      Lewis did personally believe in purgatory, which surprises many Protestant readers.
+
+  - id: theology-19
+    title: "Comparative Theology: The Protestant Classics Read with Charity"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 19
+    prerequisites: [theology-13, theology-15]
+    related: [philosophy-12]
+    summary: >-
+      The founders' America was overwhelmingly Protestant, and a statesman must understand its
+      theology from the inside. The student reads the Westminster Shorter Catechism (1647)
+      alongside the Baltimore Catechism, selections from Calvin's Institutes (Book I on the
+      knowledge of God, Book III on faith and justification), several of John Wesley's standard
+      sermons, and Bonhoeffer's Cost of Discipleship on "cheap" and "costly" grace. He also reads
+      Pascal's Pensées, the work of a Catholic layman close to the Jansenist movement.
+    objectives:
+      - Compare the Westminster Shorter and Baltimore Catechisms answer by answer on God, man, sin, grace, sacraments and the Church
+      - Summarize Calvin on the knowledge of God and self, and on justification by faith
+      - Explain Wesley's teaching on assurance and Christian perfection
+      - Explain Bonhoeffer's distinction between cheap and costly grace and relate it to his martyrdom
+      - State Pascal's wager and his "reasons of the heart", and note where Jansenism diverged from Catholic teaching
+      - Write a comparative essay that states each side in terms its own adherents would accept
+    coreTexts:
+      - title: The Westminster Shorter Catechism
+        author: Westminster Assembly
+        date: "1647"
+        publicDomain: true
+        links:
+          - { label: Orthodox Presbyterian Church, url: "https://www.opc.org/sc.html" }
+          - { label: CCEL, url: "https://ccel.org/ccel/anonymous/westminster1" }
+      - title: Institutes of the Christian Religion (selections)
+        author: John Calvin
+        date: "1536; final ed. 1559"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/45001" }
+          - { label: CCEL, url: "https://ccel.org/ccel/calvin/institutes" }
+      - title: Sermons on Several Occasions (the standard sermons)
+        author: John Wesley
+        publicDomain: true
+        links:
+          - { label: Wesley Center Online, url: "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/" }
+          - { label: CCEL, url: "https://ccel.org/ccel/wesley/sermons" }
+      - title: The Cost of Discipleship
+        author: Dietrich Bonhoeffer
+        date: "1937; Eng. 1948"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/The-Cost-of-Discipleship/Dietrich-Bonhoeffer/9780684815008" }
+      - title: Pensées
+        author: Blaise Pascal (trans. W.F. Trotter)
+        date: "1670"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18269" }
+          - { label: CCEL, url: "https://ccel.org/ccel/pascal/pensees" }
+    curriculumOptions:
+      - name: "Calvin's Institutes (Books I–IV) and A Study Guide to Calvin's Institutes"
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/a-study-guide-to-calvins-institutes"
+        notes: A Reformed publisher's guide, useful for hearing Calvin read sympathetically by his heirs.
+      - name: "Theology 101: The Western Theological Tradition (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/theology-101"
+        notes: A survey of the Western theological tradition from a Protestant-founded, nondenominational college.
+    historicalPrecedent: >-
+      Colonial New England children memorized the Westminster Shorter Catechism, printed in the
+      New England Primer. The colonial colleges (Harvard, Yale, Princeton) were founded largely to
+      train Reformed ministers, and Witherspoon, a Presbyterian minister, signed the Declaration.
+    notes: >-
+      The aim is understanding, not controversy. Read each author as his own tradition reads him.
+      Neutral notes: Calvin's doctrine of predestination and of the Eucharist differs from both
+      Catholic and Lutheran teaching; Wesley was an Anglican priest whose followers became the
+      Methodists; Bonhoeffer was a Lutheran pastor executed by the Nazis in 1945. Pascal remained
+      a Catholic, and his Pensées are admired by Catholics and Protestants alike, though several
+      Jansenist propositions associated with his Port-Royal friends were condemned by Rome.
+
+  - id: theology-20
+    title: "Liturgy, Moral Theology & Catholic Social Teaching"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 20
+    prerequisites: [theology-13]
+    related: [philosophy-10, civics-law-15, economics-07]
+    summary: >-
+      The course has three parts. Liturgy: Guardini's and Ratzinger's Spirit of the Liturgy and
+      Vatican II's Sacrosanctum Concilium on worship as the Church's summit and source. Moral
+      theology: the virtues, natural law, conscience and the moral act, from Aquinas through
+      Veritatis Splendor. Catholic social teaching: the encyclical tradition from Rerum Novarum
+      (1891) on labor and property, through Quadragesimo Anno (subsidiarity), to Centesimus Annus
+      (the free economy within a moral and juridical framework). The statesman needs all three.
+    objectives:
+      - Explain the Mass as sacrifice and as the "source and summit" of Christian life
+      - Define natural law and the principle of double effect, and apply them to cases
+      - State the principles of CST (human dignity, common good, subsidiarity, solidarity, private property)
+      - Compare Catholic social teaching with the American founding's view of property and limited government
+      - Write a policy memo on a current issue using the Compendium of the Social Doctrine
+    coreTexts:
+      - title: "The Spirit of the Liturgy (Commemorative Edition, with Guardini's work of the same title)"
+        author: Joseph Ratzinger & Romano Guardini
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/the-spirit-of-the-liturgy-commemorative-edition-splcep/" }
+      - title: Sacrosanctum Concilium
+        author: Second Vatican Council
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html" }
+      - title: "Moral Theology: A Complete Course Based on St. Thomas Aquinas"
+        author: Charles J. Callan & John A. McHugh, O.P.
+        date: "1929"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35354" }
+      - title: Veritatis Splendor
+        author: Pope John Paul II
+        date: "1993"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html" }
+      - title: Rerum Novarum
+        author: Pope Leo XIII
+        date: "1891"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
+      - title: Quadragesimo Anno
+        author: Pope Pius XI
+        date: "1931"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html" }
+      - title: Centesimus Annus
+        author: Pope John Paul II
+        date: "1991"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
+      - title: Compendium of the Social Doctrine of the Church
+        author: Pontifical Council for Justice and Peace
+        date: "2004"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html" }
+    notes: >-
+      Protestant social thought offers parallels worth noting: Abraham Kuyper's "sphere
+      sovereignty" is close to subsidiarity. Liturgical practice differs widely, from Anglican and
+      Lutheran liturgy to free-church worship, and the student should attend and describe services
+      of at least two other traditions respectfully.
+
+  - id: theology-21
+    title: "The Catechism of the Catholic Church & the Roman Catechism"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 21
+    prerequisites: [theology-13, theology-14]
+    related: [philosophy-09]
+    summary: >-
+      The capstone of high-school catechesis is a complete reading of the Catechism of the Catholic
+      Church (1992/1997), in its four pillars (Creed, Sacraments, Life in Christ, Prayer), set
+      beside its model, the Roman Catechism of the Council of Trent (1566). Frank Sheed's Theology
+      and Sanity serves as a companion that turns doctrine into a way of seeing reality.
+    objectives:
+      - Read the entire Catechism of the Catholic Church over a year, with a written summary of each part
+      - Compare the CCC and the Roman Catechism on the Creed and sacraments
+      - Use the CCC's footnotes to trace a doctrine to Scripture, the Fathers and councils
+      - Explain Sheed's claim that theology is necessary for sanity, that is, for seeing what is there
+    coreTexts:
+      - title: Catechism of the Catholic Church (2nd ed.)
+        author: Catholic Church
+        date: "1992; 2nd ed. 1997"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/archive/ENG0015/_INDEX.HTM" }
+          - { label: Compendium (Vatican.va), url: "https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html" }
+      - title: The Catechism of the Council of Trent (Roman Catechism)
+        author: Council of Trent (trans. McHugh & Callan)
+        date: "1566; trans. 1923"
+        publicDomain: false
+        links:
+          - { label: TAN Books, url: "https://tanbooks.com/products/books/catechism-of-the-council-of-trent/" }
+          - { label: "Archive.org (Donovan trans., 1829, public domain)", url: "https://archive.org/details/thecatechismofth00donouoft" }
+      - title: Theology and Sanity
+        author: Frank Sheed
+        date: "1946"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/theology-and-sanity-thasp/" }
+    historicalPrecedent: >-
+      The Roman Catechism, compiled under St. Charles Borromeo, was the reference for parish
+      preaching from the 16th to the 20th century. Leo XIII recommended it, with the Summa, to all
+      seminarians.
+
+  # ---------------- College ----------------
+  - id: theology-22
+    title: "College Seminar: St. Thomas Aquinas (Summa Theologiae)"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 22
+    prerequisites: [theology-21]
+    related: [philosophy-13, philosophy-14, logic-08, character-virtue-14]
+    summary: >-
+      This is a Thomas Aquinas College–style tutorial in the Summa Theologiae, read article by
+      article (objections, sed contra, respondeo, replies). It covers sacred doctrine (I q.1), the
+      existence and nature of God and the five ways (I qq.2–13), the Trinity (I qq.27–43), man and
+      happiness (I-II qq.1–5), the treatise on law (I-II qq.90–97, including natural law), and
+      Christ and the sacraments (III, selections). Kreeft's Summa of the Summa supplies notes for
+      self-study.
+    objectives:
+      - Read and present a Summa article in its full scholastic structure
+      - Defend and respond to objections to the five ways
+      - Explain eternal, natural, human and divine law and their relation (I-II q.91)
+      - Apply natural-law reasoning to a constitutional or legislative question
+      - Explain the doctrine of the Trinity using Aquinas's terms (procession, relation, person)
+    coreTexts:
+      - title: Summa Theologiae
+        author: Thomas Aquinas (trans. Fathers of the English Dominican Province)
+        date: "1265–1274"
+        publicDomain: true
+        links:
+          - { label: New Advent (full text), url: "https://www.newadvent.org/summa/" }
+          - { label: "New Advent: the five ways (I q.2)", url: "https://www.newadvent.org/summa/1002.htm" }
+          - { label: "New Advent: the essence of law (I-II q.90)", url: "https://www.newadvent.org/summa/2090.htm" }
+          - { label: "New Advent: the natural law (I-II q.94)", url: "https://www.newadvent.org/summa/2094.htm" }
+          - { label: "Project Gutenberg (Prima Pars)", url: "https://www.gutenberg.org/ebooks/17611" }
+      - title: "A Summa of the Summa"
+        author: Peter Kreeft (ed.)
+        date: "1990"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/summa-of-the-summa-sosp/" }
+    curriculumOptions:
+      - name: Thomas Aquinas College senior theology tutorial
+        publisher: Thomas Aquinas College
+        tradition: catholic
+        url: "https://www.thomasaquinas.edu/a-liberating-education/senior-year-4-courses"
+        notes: >-
+          The model for this seminar, covering the Summa on sacred doctrine, God, the Trinity, law,
+          the sacraments and Christ's Passion. See the full syllabus at
+          https://www.thomasaquinas.edu/a-liberating-education/syllabus.
+      - name: "Theology 101: The Western Theological Tradition (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/theology-101"
+        notes: A broader survey that places Aquinas in the tradition.
+    historicalPrecedent: >-
+      Leo XIII's Aeterni Patris (1879) restored Aquinas as the Church's common doctor for
+      philosophy and theology. The Jesuit Ratio Studiorum (1599) had already made him the standard
+      in theology.
+    notes: >-
+      Protestant readers note that Aquinas's natural-law teaching was widely received by
+      Reformed and Anglican scholastics (e.g. Richard Hooker), and through them it reached the
+      founding-era idea of natural law.
+
+  - id: theology-23
+    title: "College Seminar: Church History & the Development of Doctrine"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 23
+    prerequisites: [theology-16, theology-21]
+    related: [rhetoric-12, history-32]
+    summary: >-
+      This seminar covers the history of the Church from Pentecost to the present through primary
+      sources and the question of doctrinal development. It reads Eusebius's Church History (the
+      first), the ecumenical councils and creeds, the Reformation and Counter-Reformation in their
+      own words, and Newman's Essay on the Development of Christian Doctrine, whose tests for a
+      true development are the key to reading the whole story. Warren Carroll's History of
+      Christendom supplies the narrative.
+    objectives:
+      - Read Eusebius Books I–III and VIII–X and assess him as a historian
+      - Summarize the first seven ecumenical councils and the Nicene-Constantinopolitan Creed
+      - Read Luther's 95 Theses and Trent's Decree on Justification side by side
+      - State and apply Newman's seven notes of genuine development
+      - Write a research paper on one council or reform movement from primary sources
+    coreTexts:
+      - title: Church History
+        author: Eusebius of Caesarea
+        date: "c. 324"
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/fathers/2501.htm" }
+      - title: An Essay on the Development of Christian Doctrine
+        author: John Henry Newman
+        date: "1845; rev. 1878"
+        publicDomain: true
+        links:
+          - { label: Newman Reader, url: "https://www.newmanreader.org/works/development/" }
+      - title: "The Founding of Christendom (A History of Christendom, vol. 1)"
+        author: Warren H. Carroll
+        publicDomain: false
+        links:
+          - { label: Sophia Institute Press, url: "https://sophiainstitute.com/product/the-founding-of-christendom/" }
+    curriculumOptions:
+      - name: The History of the Church (Eusebius) with guide
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/the-history-of-the-church/"
+        notes: Eusebius in the Penguin translation with a study guide.
+      - name: "Ancient Christianity (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/ancient-christianity"
+        notes: Lectures on the early Church in the Roman world.
+      - name: "Fr. Laux's Church History"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/a-course-in-religion/"
+        notes: The companion volume to Laux's Course in Religion. A clear one-volume Catholic narrative.
+    notes: >-
+      Where the traditions differ (the papacy, the Reformation, the councils after 1054), the
+      seminar presents the Catholic, Orthodox and Protestant accounts in their own words. The
+      Reformers saw themselves as recovering the early Church; Newman's development thesis is the
+      Catholic answer. Protestant historians such as Philip Schaff (History of the Christian Church)
+      and Jaroslav Pelikan (a Lutheran who later became Orthodox) are valuable counterweights.
+
+  - id: theology-24
+    title: "College Seminar: Mystical Theology of St. John of the Cross"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 24
+    prerequisites: [theology-17]
+    related: [spanish-09, theology-22]
+    summary: >-
+      This is a slow, guided reading of the Carmelite Doctor of the Church. The Ascent of Mount Carmel and
+      the Dark Night of the Soul give his account of the active and passive purifications of sense and
+      spirit, and the poems ("Noche oscura", "Cántico espiritual", "Llama de amor viva") are the summit
+      of Spanish mystical verse. It is read after the Aquinas seminar so that the student can connect
+      mystical theology with Thomist teaching on grace, the virtues and the gifts of the Holy Spirit.
+    objectives:
+      - Read the Ascent of Mount Carmel Book I and the Dark Night Books I–II in full
+      - Explain the active and passive nights of sense and spirit, and why John counsels detachment
+      - Relate John's teaching to Aquinas on the theological virtues and the gifts of the Holy Spirit
+      - Write a seminar paper on the relation of the poem "Noche oscura" to its prose commentary
+    coreTexts:
+      - title: Ascent of Mount Carmel
+        author: St. John of the Cross
+        date: "c. 1578–1585"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (English, 1922)", url: "https://archive.org/details/ascentofmountcar00johnuoft" }
+      - title: Dark Night of the Soul
+        author: St. John of the Cross
+        date: "c. 1578–1585"
+        publicDomain: true
+        links:
+          - { label: CCEL, url: "https://ccel.org/ccel/john_cross/dark_night" }
+    notes: >-
+      Moved here from the age-14 spiritual classics unit by family decision, because John's mystical
+      theology assumes spiritual maturity. The Spanish track reads his poems as literature at 13–14
+      (spanish-09). Read with a spiritual director or mentor. Protestant readers have also valued John
+      (e.g. in the Anglican and Wesleyan traditions of spiritual reading), though his Carmelite and
+      sacramental framework is distinctly Catholic.
+
+  - id: theology-25
+    title: "Daily Spiritual Reading: O'Sullivan, St. Alphonsus & Lectio with a Parent"
+    type: practice
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 16
+    order: 11.5
+    prerequisites: [theology-08]
+    related: [theology-17, character-virtue-05, character-virtue-09]
+    summary: >-
+      Spiritual reading is a daily habit, not a course. For 10–15 minutes a day, ideally with a
+      parent, the student reads a few pages of a devotional book slowly, in the manner of lectio
+      divina: read, pause on a phrase, turn it into a short prayer, and carry one resolution into
+      the day. The first books are short, warm and practical: Fr. Paul O'Sullivan on prayer, the
+      Mass and the Holy Spirit, and St. Alphonsus Liguori on accepting God's will in every event.
+      The habit leads into the great spiritual classics at 14 (theology-17).
+    objectives:
+      - Keep 10–15 minutes of spiritual reading five or more days a week, most days with a parent
+      - Keep a small notebook of one sentence or resolution per reading
+      - Explain in his own words the meaning of the Our Father, the Hail Mary and the Mass from O'Sullivan
+      - Explain St. Alphonsus's teaching that uniformity with God's will is the summit of holiness, with an example from his own life
+    coreTexts:
+      - title: How to Be Happy, How to Be Holy
+        author: Fr. Paul O'Sullivan, O.P.
+        publicDomain: false
+        links:
+          - { label: TAN Books, url: "https://tanbooks.com/products/books/how-to-be-happy-how-to-be-holy/" }
+      - title: Uniformity with God's Will
+        author: St. Alphonsus Liguori
+        date: "c. 1755"
+        publicDomain: true
+        links:
+          - { label: EWTN (free), url: "https://www.ewtn.com/catholicism/library/uniformity-with-gods-will-12644" }
+          - { label: CCEL (free), url: "https://ccel.org/ccel/alphonsus/uniformity" }
+          - { label: TAN Books, url: "https://tanbooks.com/products/books/uniformity-with-gods-will/" }
+      - title: "The Holy Ghost, Our Greatest Friend: He Who Loves Us Best"
+        author: Fr. Paul O'Sullivan, O.P.
+        publicDomain: false
+        links:
+          - { label: TAN Books, url: "https://tanbooks.com/products/books/the-holy-ghost-our-greatest-friend-he-who-loves-us-best/" }
+      - title: "Chicken Soup for the Soul (elective)"
+        author: Jack Canfield and Mark Victor Hansen (eds.)
+        date: "1993"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Chicken-Soup-Soul-Jack-Canfield/dp/1558749209" }
+      - title: "Chicken Soup for the Christian Soul (elective)"
+        author: Jack Canfield, Mark Victor Hansen, Patty Aubery and Nancy Mitchell (eds.)
+        date: "1997"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/Chicken-Soup-for-the-Christian-Soul/Jack-Canfield/9781623610470" }
+    notes: >-
+      This is a standing daily practice that runs alongside the catechism and Scripture courses,
+      not a separate subject. The three TAN books are core. The Chicken Soup books are light
+      inspirational reading, not spiritual reading in the traditional sense: short true stories of
+      kindness, courage and hope, good for a tired evening, a sick day or reading aloud as a family.
+      Chicken Soup for the Christian Soul is ecumenical rather than Catholic in its stories. The
+      TAN books are old-fashioned in tone ("Holy Ghost" is the older name for the Holy Spirit)
+      and full of anecdotes from the saints, which children tend to love. From 14 the same daily slot moves on to the Imitation of Christ
+      and de Sales (theology-17).

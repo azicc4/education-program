@@ -1,0 +1,121 @@
+id: trinity-college-dublin
+title: "Trinity College Dublin: The Undergraduate Course of Swift, Berkeley, Burke and Goldsmith (1637–1793)"
+category: british-university
+people: [William Laud, Narcissus Marsh, St George Ashe, Edmund Burke]
+date: "1637–1793"
+summary: >-
+  Trinity College Dublin, with Oxford and Cambridge, was one of the models the colonial colleges
+  copied. Its early provosts were all Cambridge graduates, and Laud's statutes (1637) gave it the
+  same four classes an American college used: Junior and Senior Freshmen, Junior and Senior
+  Sophisters. The science course ran logic (Porphyry, then Aristotle's Organon), physics,
+  metaphysics and Aristotle's Ethics. Beside it ran daily Greek and Latin, a weekly Latin theme,
+  declamations, syllogistic disputations in Hall, and an examination every term. Swift (1682–86)
+  and Berkeley (from 1700) came through this course. Under Provost Ashe (1692–95) Locke's Essay became
+  a Dublin text-book. The 1736 lists show
+  what Burke (1744–48) and Goldsmith (1744–50) read: Burgersdicius's logic, then Le Clerc's logic and
+  the Port-Royal Art of Thinking, then physics and geography, then Eustachius's Ethics, Pufendorf
+  and metaphysics. In classics they went from Lucian and Sallust through the whole Iliad and Aeneid,
+  Horace and Juvenal, Epictetus, Cicero's Offices and Livy, to Sophocles, Demosthenes On the Crown,
+  Longinus and Tacitus. Burke's own debating club of 1747, the root of the College Historical
+  Society, added what the course lacked: oratory, history and politics. The 1793 revision set
+  Locke on Government and Burlamaqui's Natural Law in the final year, the same books as
+  Revolutionary Harvard. This program takes from Dublin a term-by-term set-book list, examined every
+  term, and a student-run society for declamation and debate.
+primarySources:
+  - { label: "J. W. Stubbs, The History of the University of Dublin ... to the End of the Eighteenth Century (1889), incl. the Laudian course, the 1736, 1759 and 1793 lists, and the Historical Society (Internet Archive)", url: "https://archive.org/details/historyofunivers00stubuoft" }
+  - { label: "The Leadbeater Papers, vol. 2 (1862): Letters from Edmund Burke to Richard Shackleton from 1744, on his entrance examination and college reading (Internet Archive)", url: "https://archive.org/details/leadbeaterpapers02lond" }
+  - { label: "Letters of Edmund Burke: A Selection, ed. H. J. Laski (1922), incl. the 'furor logicus' letter of 1746–7 (Internet Archive)", url: "https://archive.org/details/lettersofedmundb028677mbp" }
+  - { label: "Narcissus Marsh, Institutiones Logicae (Dublin, 1681), written for the Trinity undergraduates (Internet Archive)", url: "https://archive.org/details/bim_early-english-books-1641-1700_institutiones-logicae_marsh-narcissus-abp_1681" }
+  - { label: "Franco Burgersdicius, Institutionum Logicarum Libri Duo (1644 printing) (Internet Archive)", url: "https://archive.org/details/bim_early-english-books-1641-1700_fr-burgersdicii-institu_burgersdijck-franco_1644" }
+  - { label: "Francis Stoughton Sullivan, A Plan for the Study of the Feudal and English Laws in the University of Dublin (1761) (Internet Archive)", url: "https://archive.org/details/bim_eighteenth-century_a-plan-for-the-study-of-_sullivan-francis-stough_1761" }
+  - { label: "Murray's Compendium of Logic, the Dublin logic of the 1793 course, ed. J. Walker (1847) (Internet Archive)", url: "https://archive.org/details/murrayscompendi00murrgoog" }
+  - { label: "Secondary: Stanford Encyclopedia of Philosophy, 'Edmund Burke'", url: "https://plato.stanford.edu/entries/burke/" }
+entries:
+  - text: "Laudian statutes (1637), Freshmen: Junior Freshmen study logic, reading Porphyry's Isagoge through at least twice a year and examined daily; Senior Freshmen hear Aristotle's Organon explained 'as briefly as possible'"
+    search: Aristotle
+    tracks: [logic]
+  - text: "Laudian statutes, Sophisters: Junior Sophisters read Aristotle's Physics; Senior Sophisters his Metaphysics, and the Nicomachean Ethics in Lent term"
+    search: Ethics
+    tracks: [natural-science, philosophy, character-virtue]
+  - text: "Standing exercises (1637): a weekly written commentary on the lecture, a Latin theme or English-into-Latin translation every Saturday, declamations from memory in Hall on Fridays and Saturdays, and Greek lectures three mornings a week"
+    search: Latin composition
+    tracks: [latin, grammar-composition, rhetoric, greek]
+  - text: "Syllogistic disputations in Hall on Monday, Wednesday and Friday, 2–4 p.m.: Freshmen on logic, Sophisters on natural philosophy and metaphysics; at the B.A., declamations in Greek and Latin 'in praise of philosophy' and syllogistic defence of questions in logic, natural and moral philosophy"
+    search: Disputation
+    tracks: [logic, rhetoric, greek, latin]
+  - text: "Term examinations in Hall at the start of every term, judged in Logic, Natural Philosophy, Moral Philosophy, Greek, Latin and Theme; a roll of the 1680s shows Swift (identified by tradition) no better than 'mediocriter'"
+    search: Latin composition
+    tracks: [logic, natural-science, philosophy, greek, latin, grammar-composition]
+  - text: "Narcissus Marsh, Institutiones Logicae (1681), the first text-book written for Trinity students, stating the inductive method 'more akin to Bacon than to the scholastic logic'"
+    search: Logic
+    tracks: [logic, natural-science]
+  - text: "Locke's Essay Concerning Human Understanding: Provost Ashe (1692–95) 'ordered it to be read by Bachelors in the College, and strictly examined them' (Molyneux to Locke); later part of the undergraduate course"
+    search: Locke
+    tracks: [philosophy, logic]
+  - text: "Entrance (Burke, April 1744): construe Horace's Odes, Aeneid VI from line 103, and Iliad III and VI before a Fellow; then examined 'very strictly' by the Senior Lecturer in the Odes, Satires and Epistles of Horace"
+    search: Horace
+    tracks: [latin, greek, poetry]
+  - text: "Junior Freshmen, science (1736): Burgersdicius's Logic; Burke's first-term reading (1744) was 'nine first chapters of Burgersdicius, the six last Aeneids of Virgil, the Enchiridion of Epictetus, with the Tabula Cebetis'"
+    search: Burgersdicius
+    tracks: [logic, latin, greek, character-virtue]
+  - text: "Junior Freshmen, classics (1736): Lucian (Dugard's selection), Sallust, Iliad I–XII, the whole Aeneid, Hero and Leander with Theocritus, and Terence"
+    search: Homer
+    tracks: [greek, latin, poetry, history]
+  - text: "Senior Freshmen (1736): Le Clerc's Logic, the Art of Thinking (Port-Royal Logic), selections from Smiglecius; in classics Iliad XIII–XXIV, Juvenal, Caesar's Commentaries, Epictetus with Cebes, Justin, Odyssey I–VIII and Horace"
+    search: Port-Royal Logic
+    tracks: [logic, greek, latin, poetry, history, character-virtue]
+  - text: "Junior Sophisters (1736): Colbert's General Physics, Le Clerc's Physics, Varenius's Geography and astronomy; in classics the rest of the Odyssey, Virgil's Georgics, Lucian, Cicero's De Officiis (Burke: 'I read for my College course Tully's Offices'), Velleius Paterculus, the Cyropaedia and Livy"
+    search: De Officiis
+    tracks: [natural-science, greek, latin, history, character-virtue]
+  - text: "Senior Sophisters (1736): Eustachius's Ethics, 'small Pufendorf' (On the Duty of Man and Citizen), Sanderson's Prelections on conscience and oaths, Baronius's Metaphysics"
+    search: Pufendorf
+    tracks: [philosophy, civics-law, character-virtue, theology]
+  - text: "Senior Sophisters, classics (1736): Sophocles (Oedipus Tyrannus, Electra, Trachiniae), the rest of Livy, Aeschines and Demosthenes On the Crown, the Philippics, Suetonius, Longinus On the Sublime and the works of Tacitus"
+    search: Demosthenes
+    tracks: [greek, latin, rhetoric, history, poetry]
+  - text: "Scholarship examination (Burke, 1746): two days before the Provost and Senior Fellows 'in all the Roman and Greek authors of note'; Burke was examined in Catiline's speech in Sallust"
+    search: Sallust
+    tracks: [latin, greek, history]
+  - text: "Burke's study 'furors' (letter of 1746–7): natural philosophy, then 'logic and metaphysics' (the furor logicus), then history, then poetry, each 'very violent for a season, and very soon cooled'"
+    search: Sallust
+    tracks: [logic, history, poetry, natural-science]
+  - text: "Burke's Club (first meeting 21 April 1747): an oration every Tuesday; on Fridays a speech 'spoken off with proper emphasis and action' and a paper 'on a given topic in morality', to improve in 'speaking, reading, writing, and arguing in morality, history, criticism, politics'"
+    search: Oratory
+    tracks: [rhetoric, history, civics-law, character-virtue, grammar-composition]
+  - text: "College Historical Society (1770), heir of Burke's Club: each meeting opened with an examination in a set portion of history, followed by a debate with two appointed speakers on each side"
+    search: Debate
+    tracks: [history, rhetoric, civics-law]
+  - text: "1759 revision: twelve of Plutarch's Lives, Xenophon's Anabasis and Memorabilia, Euripides's Hippolytus and Iphigenia in Aulis, more of the Philippics and five orations of Cicero; Euclid entered the course only after 1758; entrance on fixed days in the whole Aeneid and fourteen books of the Iliad"
+    search: Plutarch
+    tracks: [greek, latin, history, mathematics, character-virtue]
+  - text: "Books the College prescribed for Dublin schools preparing boys for entrance (1759): Castalio, Erasmus's Colloquies, Nepos, Justin, Phaedrus, Caesar, Ovid, Sallust, Virgil, Cicero against Catiline, Terence, Horace, Juvenal; St Luke, the Cyropaedia, Iliad I–VIII, Hesiod, Theocritus; no literal translations, Latin verse, double translation, maps, English composition and 'the Common Rules of Arithmetic'"
+    search: Cornelius Nepos
+    tracks: [latin, greek, grammar-composition, history, mathematics, poetry]
+  - text: "1793 course, Junior Freshmen: Murray's Logic, Aeneid VII–XII, Iliad XIII–XXIV, Horace's Odes, Euclid I–III, Virgil's Georgics, the Greek minor poets, Livy and Herodotus"
+    search: Euclid
+    tracks: [logic, mathematics, latin, greek, poetry, history]
+  - text: "1793 course, Senior Freshmen: Euclid V–VI, Locke's Essay (all four books), Livy, Plutarch's Solon and Lycurgus, Xenophon's Cyropaedia and Memorabilia, Caesar's Civil War, Plato's Crito, Apology and Alcibiades, Horace's Satires and Epistles"
+    search: Plato
+    tracks: [mathematics, philosophy, greek, latin, history]
+  - text: "1793 course, Junior Sophisters: astronomy, mechanics, hydrostatics, pneumatics and optics; Juvenal, Persius and Lucian; Cicero's Orations, Demosthenes's Philippics and On the Crown, Aeschines Against Ctesiphon, and Quintilian"
+    search: Quintilian
+    tracks: [natural-science, mathematics, latin, greek, rhetoric]
+  - text: "1793 course, Senior Sophisters: Burlamaqui's Natural Law, Conybeare's Defence of Revealed Religion, Locke on Government, Cicero's Offices; Tacitus, Thucydides, Terence, Sophocles, Plautus, Euripides and Longinus"
+    search: Burlamaqui
+    tracks: [civics-law, philosophy, theology, history, latin, greek]
+notes: >-
+  Nearly everything here comes from Stubbs (1889), who prints the College's own lists of 1736,
+  1759 and 1793. Stubbs's text reads "Singlerius" (probably Smiglecius), "Clerk's Logic" (probably
+  Jean Le Clerc), "Eustathius' Ethics" (probably Eustachius a Sancto Paulo), "Saunderson's
+  Prelections" (probably Robert Sanderson) and "Wall's Astronomy". The identifications are mine,
+  and I left the astronomy text unnamed. Burke's entrance, first reading list and Tully's Offices
+  come from his own letters to Shackleton in the Leadbeater Papers. The furor letter is in Laski's
+  selection. Burke entered on 14 April 1744 and took the B.A. in 1748. Goldsmith entered as a sizar
+  in 1744 and took the B.A. in 1750. Swift entered in 1682 and took the B.A. in 1686. Berkeley entered in 1700.
+  Berkeley's small private philosophical society anticipated Burke's Club. Berkeley later gave books
+  to Yale and Harvard and endowed Yale's Berkeley scholarship, which is the direct Dublin–colonial
+  link. The Club's minutes survive in Burke's hand, but I have not seen them. The quotations come
+  through Stubbs, who took them from Walsh's 1864 address. Sullivan's 1761 plan is the programme
+  of Dublin's first professor of feudal and English law, and I have not read it closely. I found
+  no evidence that "Trinity College" meant Trinity College, Hartford (1823). The Burke, Swift,
+  Berkeley and Goldsmith framing points to Dublin.

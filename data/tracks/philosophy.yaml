@@ -1,0 +1,1052 @@
+track: philosophy
+title: Philosophy
+trackGroup: Faith & Philosophy
+description: >-
+  Philosophy begins in wonder. The track starts with conversation around picture books and
+  children's questions. Around 9 it turns to Socratic dialogue and at 11 to Plato's account of
+  Socrates' trial and death. The student then reads the great conversation in order, from the
+  sources: Plato and Aristotle, the Stoics, the Christian synthesis of Augustine, Boethius and
+  Aquinas, the early moderns (Descartes, Hobbes, Locke, Hume, Kant), the political thinkers who
+  shaped the American founding and its critics (Rousseau, Burke, Tocqueville, J.S. Mill), and the
+  19th-century revolt (Marx, Nietzsche, Kierkegaard). Twentieth-century Catholic and Thomist
+  answers (Pieper, Maritain, Gilson, MacIntyre, John Paul II) close the sequence. Peter Kreeft and
+  Mortimer Adler serve as guides. Modern thinkers are read seriously and critically from within a
+  realist, Aristotelian-Thomist frame. By 18 the student can read a primary philosophical text
+  closely, reconstruct its arguments, place it in the history of ideas, and defend a reasoned
+  position in seminar and in writing.
+rows:
+  - id: philosophy-01
+    title: Wonder & Big Questions at Home
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 4
+    ageEnd: 7
+    order: 1
+    prerequisites: []
+    related: [theology-03]
+    summary: >-
+      Young children ask philosophical questions without prompting: What is real? Is it fair? Why
+      is there something? Parents cultivate this by taking the questions seriously, asking "What do
+      you think? Why?" and discussing picture books and fables that raise questions of
+      friendship, courage, fairness and truth. Nothing is taught formally. The aim is the habit of
+      wondering aloud and giving reasons.
+    objectives:
+      - Ask and answer "why" questions and give a reason for an opinion
+      - Listen to another child's view and say whether they agree and why
+      - Discuss the moral of a fable or picture book
+      - Notice puzzles (e.g. "Is a copy of my toy my toy?") with delight rather than frustration
+    coreTexts:
+      - title: "Big Ideas for Little Kids: Teaching Philosophy through Children's Literature (2nd ed.)"
+        author: Thomas E. Wartenberg
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Big-Ideas-Little-Kids-Philosophy/dp/147580444X" }
+    sources:
+      - { label: "EEF: Philosophy for Children evaluation report (2015), via ERIC", url: "https://eric.ed.gov/?id=ED581147" }
+    notes: >-
+      Evidence on "philosophy for children" (P4C) is mixed. A 2015 Education Endowment Foundation
+      trial found about two months' extra progress in reading and maths, but a larger follow-up
+      trial found no measurable gain. Treat this as formation of the habit of reasoned
+      conversation, not as a test-score intervention.
+
+  - id: philosophy-02
+    title: "Philosophy for Kids: Socratic Conversation"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 11
+    order: 2
+    prerequisites: [philosophy-01]
+    related: [logic-02]
+    summary: >-
+      A weekly guided conversation on the classic questions of values, knowledge, reality and
+      reasoning, framed as short puzzles. Parent or tutor leads by the Socratic method: define the
+      term, test the definition with counterexamples, refine it. This prepares the child to meet
+      Socrates himself.
+    objectives:
+      - Propose and test definitions (e.g. of courage, friendship, justice) with counterexamples
+      - Distinguish opinion, belief and knowledge in simple cases
+      - Keep a philosophy notebook of questions and tentative answers
+      - Conduct a short Socratic dialogue with a sibling or parent
+    coreTexts:
+      - title: "Philosophy for Kids: 40 Fun Questions That Help You Wonder about Everything!"
+        author: David A. White
+        date: "2001"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/Philosophy-for-Kids-40-Fun-Questions-That-Help-You-Wonder-About-Everything/White/p/book/9781041045441" }
+    curriculumOptions:
+      - name: Philosophy for Kids (self-directed, parent-led)
+        publisher: Prufrock Press / Routledge
+        tradition: secular
+        url: "https://www.routledge.com/Philosophy-for-Kids-40-Fun-Questions-That-Help-You-Wonder-About-Everything/White/p/book/9781041045441"
+        notes: >-
+          For ages 10 and up. Each question is tied to a real philosopher, so it previews the
+          great conversation.
+      - name: Socrates Meets Jesus (read aloud and discuss, 10–11)
+        publisher: Memoria Press (distributor; Kreeft, InterVarsity)
+        tradition: catholic
+        url: "https://www.memoriapress.com/curriculum/educational-resources/socrates-meets-jesus/"
+        notes: >-
+          Kreeft's dialogue imagines Socrates as a modern divinity student. A friendly first
+          encounter with Socratic method on questions of faith.
+
+  - id: philosophy-03
+    title: "Socrates: Euthyphro, Apology, Crito, Phaedo"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12.5
+    order: 3
+    prerequisites: [philosophy-02]
+    related: [logic-03, rhetoric-07, greek-10]
+    summary: >-
+      Students read Plato's four dialogues on the trial and death of Socrates: piety (Euthyphro),
+      the philosopher's defense of his life (Apology), justice and the laws (Crito), and the
+      immortality of the soul (Phaedo). Kreeft's Philosophy 101 by Socrates uses the Apology as a
+      guided introduction to what philosophy is.
+    objectives:
+      - Trace the Euthyphro dilemma and state its significance for ethics and theology
+      - Summarize Socrates' defense and his claim that the unexamined life is not worth living
+      - Evaluate the Laws' argument in the Crito for obeying the city
+      - Reconstruct at least two arguments for immortality in the Phaedo
+    coreTexts:
+      - title: Euthyphro
+        author: Plato (trans. Jowett)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1642" }
+      - title: Apology, Crito, and Phaedo of Socrates
+        author: Plato
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13726" }
+      - title: "Philosophy 101 by Socrates: An Introduction to Philosophy via Plato's Apology"
+        author: Peter Kreeft
+        date: "2002"
+        publicDomain: false
+        links:
+          - { label: St. Augustine's Press, url: "https://www.staugustine.net/9781587318306/philosophy-101-by-socrates/" }
+    curriculumOptions:
+      - name: The Last Days of Socrates (student guide)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/the-last-days-of-socrates/"
+        notes: Guided reading of the four dialogues with comprehension and discussion questions.
+      - name: Philosophy 101 by Socrates
+        publisher: St. Augustine's Press (orig. Ignatius Press)
+        tradition: catholic
+        url: "https://www.staugustine.net/9781587318306/philosophy-101-by-socrates/"
+        notes: Kreeft's commentary on the Apology. Short and lively.
+      - name: Introduction to Western Philosophy (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/introduction-to-western-philosophy"
+        notes: Video lectures to accompany the reading. Choose the Socrates and Plato lectures here.
+
+  - id: philosophy-04
+    title: "How to Read a Book & Aristotle for Everybody"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 4
+    prerequisites: [philosophy-03]
+    related: [logic-04]
+    summary: >-
+      Mortimer Adler, architect of the Great Books movement, teaches two things. How to Read a
+      Book covers the levels of reading (elementary, inspectional, analytical, syntopical) that the
+      rest of this program assumes. Aristotle for Everybody introduces Aristotle's common-sense
+      philosophy of nature, action, happiness and knowledge in plain English.
+    objectives:
+      - Apply Adler's rules of analytical reading (classify, outline, find terms and propositions, criticize)
+      - Write a structural outline and a one-paragraph summary of a philosophical work
+      - Explain Aristotle's four causes, his view of happiness, and his distinction between wants and needs
+      - Begin a commonplace book of key passages from the great books
+    coreTexts:
+      - title: How to Read a Book
+        author: Mortimer J. Adler & Charles Van Doren
+        date: "1940; rev. 1972"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/How-to-Read-a-Book/Mortimer-J-Adler/9781476790152" }
+      - title: "Aristotle for Everybody: Difficult Thought Made Easy"
+        author: Mortimer J. Adler
+        date: "1978"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/Aristotle-for-Everybody/Mortimer-J-Adler/9780684838236" }
+    notes: >-
+      Adler was raised Jewish, became an Aristotelian and a friend of the Thomist revival, and
+      late in life was received first as an Episcopalian and then into the Catholic Church. He is
+      a fitting guide for a program that joins the Great Books to the Catholic intellectual
+      tradition.
+
+  - id: philosophy-05
+    title: "Plato's Republic & Meno"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 5
+    prerequisites: [philosophy-04]
+    related: [theology-14, literature-31]
+    summary: >-
+      The Meno asks whether virtue can be taught and introduces recollection and the difference
+      between knowledge and true opinion. The Republic asks what justice is and whether the just
+      life is happier. Its answer includes the tripartite soul, the city in speech, the education
+      of guardians, the philosopher-king, the divided line, the cave, and the decline of regimes.
+      It is the founding text of Western political philosophy and of the theory of education
+      itself.
+    objectives:
+      - Reconstruct the slave-boy demonstration and the Meno's paradox of inquiry
+      - Summarize the definitions of justice in Book I and Socrates' refutations
+      - Explain the tripartite soul and its parallel in the city
+      - Interpret the sun, line and cave, and apply them to the program's own aims
+      - Evaluate Plato's account of the decline from aristocracy to tyranny against American history
+    coreTexts:
+      - title: Meno
+        author: Plato (trans. Jowett)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1643" }
+      - title: The Republic
+        author: Plato (trans. Jowett)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1497" }
+    curriculumOptions:
+      - name: The Republic and The Laws Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/the-republic-and-the-laws-set/"
+        notes: Student and teacher guides for a full-year high-school reading.
+      - name: "Great Books 101: Ancient to Medieval (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/great-books-101"
+        notes: Hillsdale's Great Books lectures, including Plato.
+    historicalPrecedent: >-
+      J.S. Mill read several Platonic dialogues in Greek before age 8. Jefferson, by contrast,
+      disliked the Republic, and the tension between the founders' Lockean politics and classical
+      political philosophy is itself a seminar topic.
+
+  - id: philosophy-06
+    title: "The Stoics: Epictetus, Marcus Aurelius & Seneca"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 6
+    prerequisites: [philosophy-03]
+    related: [rhetoric-10]
+    summary: >-
+      Roman Stoicism covers what is and is not in our power, virtue as the only true good, duty,
+      self-command and providence. It shaped Roman statesmen, early Christian moralists, and the
+      founders, who read Cicero and Seneca as moral philosophy. Students read Epictetus's
+      Enchiridion and selected Discourses, Marcus Aurelius's Meditations, and Seneca's Letters,
+      with attention to where Stoicism anticipates Christian ethics and where it diverges.
+    objectives:
+      - Explain the dichotomy of control and apply it in a personal journal
+      - Compare Marcus Aurelius's private notes on duty with his public role as emperor
+      - Read ten of Seneca's letters and summarize their teaching on time, death, friendship and wealth
+      - Contrast Stoic apatheia with Christian charity and the theological virtues
+    coreTexts:
+      - title: A Selection from the Discourses of Epictetus, with the Encheiridion
+        author: Epictetus (trans. George Long)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10661" }
+      - title: Meditations
+        author: Marcus Aurelius (trans. Meric Casaubon)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2680" }
+      - title: Moral Letters to Lucilius
+        author: Seneca (trans. R.M. Gummere)
+        publicDomain: true
+        links:
+          - { label: Wikisource, url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius" }
+      - title: "Tusculan Disputations (Books I, II and V at least)"
+        author: Cicero (trans. C. D. Yonge)
+        date: "45 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14988" }
+    historicalPrecedent: >-
+      Jefferson's 1771 reading list for Robert Skipwith put Epictetus, Seneca, Cicero's moral
+      works and Marcus Aurelius under moral philosophy, and Washington loved Addison's Cato, a
+      Stoic hero play. Cicero's Tusculan Disputations, his Roman digest of Stoic and Platonic
+      teaching on death, pain, the passions and whether virtue suffices for happiness, was a
+      colonial-college text: King's College (Columbia) set it in the fourth year, and Yale's
+      Berkeley Scholar examinations of 1780 tested candidates on it with Horace and Homer.
+
+  - id: philosophy-07
+    title: "Aristotle: Nicomachean Ethics & Politics"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 7
+    prerequisites: [philosophy-04, philosophy-05]
+    related: [logic-05, rhetoric-07, character-virtue-12, civics-law-09]
+    summary: >-
+      This is the foundation of the ethics of virtue and of political science. The Ethics covers
+      happiness as activity of soul in accordance with virtue, the mean, habituation, voluntary
+      action, justice, prudence, friendship and contemplation. The Politics covers man as the
+      political animal, the household, the classification of regimes, citizenship, the mixed regime
+      (polity), and education for leisure. Together they are the natural-law and statesmanship
+      core of a founder's formation.
+    objectives:
+      - Define happiness, virtue and the mean, with examples from one's own life
+      - Explain how virtue is acquired by habituation and why character is formed young
+      - Summarize Aristotle's six regimes and his case for the mixed regime
+      - Compare Aristotle's polity with the constitutional design of the Federalist
+      - Write a seminar paper on friendship (Ethics VIII–IX) or on education (Politics VII–VIII)
+    coreTexts:
+      - title: The Nicomachean Ethics
+        author: Aristotle
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
+          - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/nicomachaen.html" }
+      - title: "Politics: A Treatise on Government"
+        author: Aristotle (trans. William Ellis)
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6762" }
+    curriculumOptions:
+      - name: The Nicomachean Ethics (guided study)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/mcp/the-nicomachean-ethics/"
+        notes: Memoria Press's high-school edition and support materials.
+      - name: "Introduction to Aristotle's Ethics: How to Lead a Good Life (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/aristotles-ethics"
+        notes: Lectures by Hillsdale faculty that pair with a close reading.
+    historicalPrecedent: >-
+      Jefferson named Aristotle among the sources of "the harmonizing sentiments of the day" behind
+      the Declaration, together with Cicero, Locke and Sidney (letter to Henry Lee, 1825). The
+      Ethics and Politics were core texts at the colonial colleges and Oxford.
+
+  - id: philosophy-08
+    title: "The Christian Synthesis: Augustine, Boethius & Aquinas"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 8
+    prerequisites: [philosophy-06, philosophy-07]
+    related: [theology-16, theology-22]
+    summary: >-
+      The course traces how Christian thinkers took up Greek and Roman philosophy. Readings are
+      Augustine's City of God (the two cities, providence and history, the critique of Roman
+      virtue); Boethius's Consolation of Philosophy (fortune, happiness, evil, providence and free
+      will, among the most-read books of the Middle Ages); and Aquinas on faith and
+      reason, the existence of God, the soul, and natural law.
+    objectives:
+      - Summarize Augustine's two loves and two cities and apply them to the fall of Rome
+      - Explain Lady Philosophy's arguments on fortune, the highest good, and divine foreknowledge
+      - State Aquinas's distinction between truths of reason and truths of revelation (ST I q.1)
+      - Outline the five ways (ST I q.2 a.3) and one objection and reply for each
+    coreTexts:
+      - title: The City of God (selections, Books I, XI–XIV, XIX)
+        author: Augustine of Hippo
+        publicDomain: true
+        links:
+          - { label: New Advent, url: "https://www.newadvent.org/fathers/1201.htm" }
+          - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/45304" }
+      - title: The Consolation of Philosophy
+        author: Boethius
+        date: "c. 524"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14328" }
+      - title: "Summa Theologiae, I q.1–2 (sacred doctrine; the existence of God)"
+        author: Thomas Aquinas
+        publicDomain: true
+        links:
+          - { label: "New Advent (I q.2)", url: "https://www.newadvent.org/summa/1002.htm" }
+    curriculumOptions:
+      - name: The Consolation of Philosophy (guided study)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/classical-studies/the-consolation-of-philosophy/"
+        notes: Study guide for high-school reading.
+      - name: City of God Set
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/christian-studies/city-god/"
+        notes: Abridged reading with a guide.
+      - name: A Summa of the Summa
+        publisher: Ignatius Press (Kreeft)
+        tradition: catholic
+        url: "https://ignatius.com/summa-of-the-summa-sosp/"
+        notes: Kreeft's annotated selections, used again in theology-22.
+    historicalPrecedent: >-
+      King Alfred translated Boethius into Old English, and Chaucer and Queen Elizabeth I also
+      translated him, so a founder-in-training is in good company. See the old-english track.
+
+  - id: philosophy-09
+    title: "Early Modern Philosophy: Descartes, Locke, Hume & Kant"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 9
+    prerequisites: [philosophy-08]
+    related: [logic-07]
+    summary: >-
+      This is the modern "turn to the subject" in theory of knowledge: Descartes' methodical doubt
+      and cogito; Locke's empiricism (Essay, Book II), the mind that more than any other shaped the
+      founders; Hume's skepticism about causation, the self and miracles; and Kant's attempted
+      synthesis and his ethics of duty and autonomy. Kreeft's Socrates Meets… dialogues give a
+      realist critique of each.
+    objectives:
+      - Reconstruct Descartes' path from doubt to the cogito to God in Meditations I–III
+      - Explain Locke's ideas of sensation and reflection and his critique of innate ideas
+      - State Hume's problem of induction and his argument against miracles, and answer them
+      - Explain Kant's categorical imperative in its first two formulations
+      - Evaluate each thinker from the standpoint of Aristotelian-Thomist realism
+    coreTexts:
+      - title: Discourse on Method; Meditations on First Philosophy
+        author: René Descartes (trans. John Veitch)
+        date: "1637; 1641"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (Discourse)", url: "https://www.gutenberg.org/ebooks/59" }
+          - { label: "Archive.org (Everyman ed. with Meditations, 1912)", url: "https://archive.org/details/discourseonmetho1912desc" }
+      - title: An Essay Concerning Human Understanding (Books I–II selections)
+        author: John Locke
+        date: "1690"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/10615" }
+      - title: An Enquiry Concerning Human Understanding
+        author: David Hume
+        date: "1748"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9662" }
+      - title: Fundamental Principles of the Metaphysic of Morals (Groundwork)
+        author: Immanuel Kant (trans. T.K. Abbott)
+        date: "1785"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5682" }
+    curriculumOptions:
+      - name: "Socrates Meets Descartes / Socrates Meets Hume / Socrates Meets Kant"
+        publisher: Ignatius Press (Peter Kreeft)
+        tradition: catholic
+        url: "https://ignatius.com/socrates-meets-descartes-digital-soc05e/"
+        notes: >-
+          Dialogues set in Purgatory in which Socrates cross-examines each thinker on his major
+          book. Read each alongside the primary text. The Kant volume is at
+          https://ignatius.com/socrates-meets-kant-digital-soc07e/.
+      - name: "Great Books 102: Renaissance to Modern (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/great-books-102"
+        notes: Lectures on modern authors.
+    historicalPrecedent: >-
+      Locke's Essay entered the Yale and Harvard curricula in the 18th century and was standard
+      reading for the founding generation. Jefferson counted Locke, Bacon and Newton as his "trinity
+      of the three greatest men".
+
+  - id: philosophy-10
+    title: "Political Philosophy of the Founding and Its Critics: Machiavelli, Hobbes, Locke, Rousseau, Burke, Tocqueville"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 10
+    prerequisites: [philosophy-07]
+    related: [rhetoric-09, theology-20, civics-law-10]
+    summary: >-
+      The modern political tradition is read against the classical and Christian one: Machiavelli's
+      break with the ethics of rule, Hobbes's state of nature and Leviathan, Locke's Second Treatise
+      (natural rights, consent, property, revolution), which is the philosophical vocabulary of the
+      Declaration, Rousseau's general will, Burke's Reflections on prudence, prescription and
+      tradition, and Tocqueville's diagnosis of democracy in America (voluntary associations,
+      religion, soft despotism).
+    objectives:
+      - Compare the state of nature in Hobbes, Locke and Rousseau
+      - Trace Locke's language in the Declaration of Independence
+      - Explain Burke's critique of abstract rights and his defense of prudence and prescription
+      - Summarize Tocqueville on religion, associations, and the danger of soft despotism
+      - Write a seminar paper judging one modern theory by Aristotle's Politics or by natural law
+    coreTexts:
+      - title: The Prince
+        author: Niccolò Machiavelli
+        date: "1532"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
+      - title: Leviathan (Parts I–II selections)
+        author: Thomas Hobbes
+        date: "1651"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3207" }
+      - title: Second Treatise of Government
+        author: John Locke
+        date: "1689"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
+      - title: The Social Contract & Discourses
+        author: Jean-Jacques Rousseau
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46333" }
+      - title: Reflections on the Revolution in France (in Works, vol. 3)
+        author: Edmund Burke
+        date: "1790"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
+      - title: Democracy in America
+        author: Alexis de Tocqueville (trans. Henry Reeve)
+        date: "1835–1840"
+        publicDomain: true
+        links:
+          - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/815" }
+          - { label: "Project Gutenberg (vol. 2)", url: "https://www.gutenberg.org/ebooks/816" }
+    curriculumOptions:
+      - name: "Socrates Meets Machiavelli"
+        publisher: Ignatius Press (Peter Kreeft)
+        tradition: catholic
+        url: "https://ignatius.com/socrates-meets-machiavelli-digital-soc01e/"
+        notes: A Socratic cross-examination of The Prince.
+      - name: Introduction to Western Philosophy (free online course)
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/introduction-to-western-philosophy"
+        notes: Survey lectures for context.
+    notes: >-
+      This row overlaps with civics-law. Tocqueville is treated here as a thinker, and his
+      institutional history belongs there. Catholic readers note Locke's and Hobbes's departure
+      from Thomist natural law; Protestant readers often stress Locke's roots in Reformed
+      resistance theory. Both lines of interpretation are worth presenting.
+
+  - id: philosophy-11
+    title: "J.S. Mill: Liberty, Utility & an Extraordinary Education"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 11
+    prerequisites: [philosophy-09, philosophy-10]
+    related: [logic-08]
+    summary: >-
+      John Stuart Mill is both a model and a warning for this program. His Autobiography describes
+      the most famous accelerated education in history (Greek at three, Latin at eight, logic and
+      political economy before his teens) and the mental crisis at twenty that showed him what his
+      father's purely analytic schooling had left out: feeling, poetry and faith. On Liberty and
+      Utilitarianism are read closely and critically as the charter of modern liberalism.
+    objectives:
+      - Summarize Mill's education and his account of his crisis and recovery through Wordsworth
+      - State the harm principle and test it against hard cases (speech, drugs, family, religion)
+      - Explain Mill's "higher and lower pleasures" and the standard objections to utilitarianism
+      - Compare Mill's liberty with Aristotle's and Aquinas's view of law as a teacher of virtue
+      - Write an essay on what this program should learn and avoid from Mill's upbringing
+    coreTexts:
+      - title: Autobiography
+        author: John Stuart Mill
+        date: "1873"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10378" }
+      - title: On Liberty
+        author: John Stuart Mill
+        date: "1859"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/34901" }
+      - title: Utilitarianism
+        author: John Stuart Mill
+        date: "1863"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11224" }
+    historicalPrecedent: >-
+      James Mill educated his son at home on a deliberately accelerated classical and analytic
+      plan, which is the model this program adapts. The younger Mill judged that it formed his
+      intellect but starved his affections, and this program's poetry, music, faith and friendship
+      tracks answer that defect.
+    notes: >-
+      Mill was not a Protestant theologian. He was raised by his father without any religion,
+      called himself one who had never had religious belief, and late in life allowed only a
+      limited "religion of humanity" or theism (see Three Essays on Religion). Read him as a
+      brilliant secular liberal to be understood before he is criticized.
+
+  - id: philosophy-12
+    title: "Critics of Modernity: Marx, Nietzsche & Kierkegaard"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 12
+    prerequisites: [philosophy-09]
+    related: [theology-19]
+    summary: >-
+      Three 19th-century thinkers attack the bourgeois, rationalist, and nominally Christian world
+      from different directions. Marx offers historical materialism and class struggle, Nietzsche
+      the death of God, the will to power and the genealogy of morals, and Kierkegaard a
+      Christian's protest against "Christendom" and the crowd in the name of the individual before
+      God. They are read critically as the sources of 20th-century revolutions and of much
+      contemporary thought.
+    objectives:
+      - Summarize the Communist Manifesto's theory of history and assess it against 20th-century results
+      - Explain Nietzsche's master and slave moralities and his critique of Christianity, then answer it
+      - Explain Kierkegaard's stages (aesthetic, ethical, religious) and his idea of the "single individual"
+      - Identify each thinker's influence on present-day politics and culture
+    coreTexts:
+      - title: The Communist Manifesto
+        author: Karl Marx & Friedrich Engels
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
+      - title: Beyond Good and Evil
+        author: Friedrich Nietzsche
+        date: "1886"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4363" }
+      - title: The Genealogy of Morals
+        author: Friedrich Nietzsche
+        date: "1887"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/52319" }
+      - title: Selections from the Writings of Kierkegaard (trans. L.M. Hollander)
+        author: Søren Kierkegaard
+        date: "trans. 1923"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/60333" }
+    curriculumOptions:
+      - name: "Marxism, Socialism, and Communism (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/marxism-socialism-communism"
+        notes: Lectures on Marx's thought and its historical outcomes.
+    notes: >-
+      Kreeft's Socrates Meets Marx and Socrates Meets Kierkegaard (Ignatius) continue the series
+      from philosophy-09. Kierkegaard was a Lutheran whose attack on the Danish state church is
+      often read with sympathy by Catholics and Protestants alike.
+
+  - id: philosophy-13
+    title: "College Seminar: 20th-Century Christian Philosophy (Pieper, Maritain, Gilson, MacIntyre, Fides et Ratio)"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 17.5
+    order: 13
+    prerequisites: [philosophy-11, philosophy-12]
+    related: [theology-22]
+    summary: >-
+      This seminar reads the 20th-century recovery of classical and Thomist philosophy in answer to
+      modernity. Pieper defends leisure and contemplation as the basis of culture; Maritain gives a
+      Thomist introduction to philosophy; Gilson argues that there is a "Christian philosophy"; and
+      MacIntyre diagnoses the collapse of moral discourse after the Enlightenment and argues for a
+      return to the virtues. John Paul II's Fides et Ratio (1998) states the Church's charter for
+      the partnership of faith and reason.
+    objectives:
+      - Explain Pieper's distinction between leisure and idleness and its meaning for education
+      - Summarize MacIntyre's account of the failure of the Enlightenment project and his concept of a practice
+      - Discuss Gilson's thesis on Christian philosophy and its critics
+      - Outline Fides et Ratio's account of the relation of philosophy to theology
+      - Write a seminar paper applying MacIntyre or Pieper to the design of this program
+    coreTexts:
+      - title: "Leisure: The Basis of Culture (with The Philosophical Act)"
+        author: Josef Pieper
+        date: "1948; Eng. 1952"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/leisure-lbcp/" }
+      - title: An Introduction to Philosophy
+        author: Jacques Maritain
+        date: "1931"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Introduction-Philosophy-Sheed-Ward-Classic/dp/0742550532" }
+      - title: The Spirit of Mediaeval Philosophy
+        author: Étienne Gilson
+        date: "1932; Eng. 1936"
+        publicDomain: false
+        links:
+          - { label: Amazon (Univ. of Notre Dame Press), url: "https://www.amazon.com/Spirit-Mediaeval-Philosophy-Etienne-Gilson/dp/0268017409" }
+      - title: "After Virtue: A Study in Moral Theory (3rd ed.)"
+        author: Alasdair MacIntyre
+        date: "1981; 3rd ed. 2007"
+        publicDomain: false
+        links:
+          - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
+      - title: Fides et Ratio (encyclical)
+        author: Pope John Paul II
+        date: "1998"
+        publicDomain: false
+        links:
+          - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html" }
+      - title: The Death of Christian Culture
+        author: John Senior
+        date: "1978"
+        publicDomain: false
+        links:
+          - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS001" }
+      - title: The Restoration of Christian Culture
+        author: John Senior
+        date: "1983"
+        publicDomain: false
+        links:
+          - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS002" }
+      - title: "The End of Education: Redefining the Value of School (elective)"
+        author: Neil Postman
+        date: "1995"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/132786/the-end-of-education-by-neil-postman/" }
+    notes: >-
+      Pieper, Maritain, Gilson and MacIntyre were all Catholic, MacIntyre having entered the Church in the
+      early 1980s. Protestant counterparts worth adding are C.S. Lewis's The Abolition of Man (see
+      theology-18) and, for advanced students, Alvin Plantinga's work on faith and reason. John Senior,
+      founder of the Integrated Humanities Program at the University of Kansas, is the classic Catholic
+      case for the kind of education this program attempts: nursery rhymes, fairy tales and "gymnastic"
+      (music and the body) before the great books, then a list of a "thousand good books" as the soil in
+      which the Great Books can grow. The student reads him as the philosophy of his own schooling and
+      tests it against Pieper and MacIntyre. Senior's two books, and Postman's The End of Education, are
+      also recommended reading for parents, ideally before the child starts school. Postman writes as a
+      secular humanist; his "end" means both purpose and death, and his claim that schools need a unifying
+      "narrative" (a god to serve) is read as an elective, set beside Senior's answer that the narrative
+      is the Christian one.
+
+  - id: philosophy-14
+    title: "College Seminar: Metaphysics & the Great Conversation"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 14
+    prerequisites: [philosophy-08, philosophy-09]
+    related: [logic-08, theology-22]
+    summary: >-
+      This is a Great Books seminar in the manner of Thomas Aquinas College and St. John's College.
+      It reads Aristotle's Metaphysics (Books I, IV, VII, XII) on being, substance, first principles
+      and the unmoved mover, alongside Aquinas's commentary tradition and selected modern responses.
+      The student then returns to earlier texts with more maturity, since each great book is meant
+      to be read more than once.
+    objectives:
+      - Explain the principle of non-contradiction (Metaphysics IV) and its defense
+      - Distinguish substance and accident, act and potency, matter and form
+      - Reconstruct Aristotle's argument for the unmoved mover (Metaphysics XII)
+      - Lead a 90-minute seminar with an opening question and sustained follow-up
+    coreTexts:
+      - title: Metaphysics
+        author: Aristotle (trans. W.D. Ross)
+        publicDomain: true
+        links:
+          - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/metaphysics.html" }
+    curriculumOptions:
+      - name: Thomas Aquinas College syllabus (philosophy tutorials)
+        publisher: Thomas Aquinas College
+        tradition: catholic
+        url: "https://www.thomasaquinas.edu/a-liberating-education/syllabus"
+        notes: A model four-year sequence ordered to theology.
+      - name: St. John's College Great Books reading list
+        publisher: St. John's College (Annapolis / Santa Fe)
+        tradition: secular
+        url: "https://www.sjc.edu/academic-programs/undergraduate/great-books-reading-list"
+        notes: A non-denominational all-seminar Great Books program. A good cross-check for the reading order.
+    historicalPrecedent: >-
+      Aristotle's Metaphysics, read with Aquinas's commentary, was the summit of the medieval arts
+      course and remains the center of the Thomas Aquinas College curriculum.
+
+  - id: philosophy-15
+    title: "Natural Law I: From Antigone to Aquinas, the Law of Nations and the Founders"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 12.5
+    prerequisites: [philosophy-08, philosophy-10]
+    related: [civics-law-09, civics-law-10, civics-law-13, civics-law-19, greek-14, literature-16, theology-18, latin-18]
+    summary: >-
+      The natural-law tradition is read as one argument running from the Greeks to the
+      Declaration. Antigone appeals to the unwritten laws of the gods against Creon's decree.
+      Aristotle distinguishes natural from legal justice (Ethics V.7) and cites Antigone for a
+      "common law" of nature (Rhetoric I.13). Cicero defines true law as right reason in agreement
+      with nature (Republic III, Laws I). Aquinas's Treatise on Law (Summa I-II qq. 90–97) gives the
+      classic synthesis. The early moderns (Suárez, Hooker, Grotius, Pufendorf and Burlamaqui)
+      turn it into a science of rights and of the law of nations, and the founders took it from
+      them into the Declaration and James Wilson's law lectures. Budziszewski's Written on the
+      Heart is the guide, and Lewis's Abolition of Man shows the same moral law across cultures.
+    objectives:
+      - Explain Antigone's appeal to the unwritten laws and Aristotle's use of it in Rhetoric I.13
+      - Distinguish natural from legal justice (Ethics V.7) and state Cicero's definition of true law
+      - State Aquinas's four kinds of law and the first precept of practical reason (ST I-II q.94 a.2)
+      - Explain how human law derives from natural law by conclusion and by determination (q.95 a.2), and why an unjust law does not bind in conscience (q.96 a.4)
+      - Trace the move from natural law to natural rights through Suárez, Grotius's Prolegomena, Pufendorf and Burlamaqui
+      - Show how the Declaration's "Laws of Nature and of Nature's God" and Wilson's lecture "Of the Law of Nature" draw on this tradition
+      - Match the precepts in Lewis's appendix ("Illustrations of the Tao") to the Decalogue and to Aquinas q.94
+    coreTexts:
+      - title: "Antigone (in Plays of Sophocles, trans. F. Storr)"
+        author: Sophocles
+        date: c. 441 BC
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31" }
+      - title: "Nicomachean Ethics, Book V (justice)"
+        author: Aristotle
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
+      - title: "Rhetoric, Book I, ch. 13 (particular and common law)"
+        author: Aristotle (trans. W. Rhys Roberts)
+        publicDomain: true
+        links:
+          - { label: "MIT Internet Classics Archive (Book I)", url: "https://classics.mit.edu/Aristotle/rhetoric.1.i.html" }
+      - title: "On the Republic (Book III) and On the Laws (Book I), in The Treatises of M. T. Cicero (Yonge trans.)"
+        author: Marcus Tullius Cicero
+        date: 54–51 BC
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/treatisescicero00ciceuoft" }
+      - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law; q. 94 on the natural law)"
+        author: St. Thomas Aquinas
+        date: c. 1270
+        publicDomain: true
+        links:
+          - { label: "New Advent (q. 90)", url: "https://www.newadvent.org/summa/2090.htm" }
+          - { label: "New Advent (q. 94)", url: "https://www.newadvent.org/summa/2094.htm" }
+      - title: "Selections from Three Works (A Treatise on Laws and God the Lawgiver, 1612)"
+        author: Francisco Suárez
+        date: "1612–1621"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/selections-from-three-works" }
+      - title: Of the Laws of Ecclesiastical Polity (Book I)
+        author: Richard Hooker
+        date: "1594"
+        publicDomain: true
+        links:
+          - { label: Archive.org (Everyman ed.), url: "https://archive.org/details/oflawsofecclesia00hook" }
+      - title: "The Rights of War and Peace, Book I (with the Preliminary Discourse)"
+        author: Hugo Grotius
+        date: "1625"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/grotius-the-rights-of-war-and-peace-2005-ed-vol-1-book-i" }
+      - title: The Whole Duty of Man According to the Law of Nature
+        author: Samuel Pufendorf
+        date: "1673"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/tooke-the-whole-duty-of-man-according-to-the-law-of-nature-1673-2003" }
+      - title: The Principles of Natural and Politic Law (Nugent trans.)
+        author: Jean-Jacques Burlamaqui
+        date: "1747–1751"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/korkman-the-principles-of-natural-and-politic-law" }
+      - title: "The Declaration of Independence: A Transcription"
+        author: Thomas Jefferson et al.
+        date: "1776"
+        publicDomain: true
+        links:
+          - { label: National Archives, url: "https://www.archives.gov/founding-docs/declaration-transcript" }
+      - title: "Lectures on Law (in Collected Works, vol. 1; esp. \"Of the Law of Nature\")"
+        author: James Wilson
+        date: "1790–1791"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/hall-collected-works-of-james-wilson-vol-1" }
+      - title: "Written on the Heart: The Case for Natural Law"
+        author: J. Budziszewski
+        date: "1997"
+        publicDomain: false
+        links:
+          - { label: InterVarsity Press, url: "https://www.ivpress.com/written-on-the-heart" }
+      - title: The Abolition of Man (with the appendix "Illustrations of the Tao")
+        author: C.S. Lewis
+        date: "1943"
+        publicDomain: false
+        links:
+          - { label: CSLewis.com (HarperCollins), url: "https://www.cslewis.com/the-abolition-of-man/" }
+    curriculumOptions:
+      - name: "Natural Law, Natural Rights, and American Constitutionalism (free website)"
+        publisher: The Witherspoon Institute (NEH "We the People" project)
+        tradition: classical
+        url: "https://nlnrac.org/"
+        notes: >-
+          Essays and primary sources arranged as Classical, Early Modern, American, Contemporary
+          and Critics. It follows this row's sequence almost exactly and is the best free
+          companion to it.
+      - name: Aquinas 101 (free video courses)
+        publisher: The Thomistic Institute (Dominican Friars)
+        tradition: catholic
+        url: "https://aquinas101.thomisticinstitute.org/"
+        notes: Short lectures by Dominican friars, including one on the natural law. Use them alongside q.94.
+      - name: Natural Law research and articles
+        publisher: Acton Institute
+        tradition: catholic
+        url: "https://www.acton.org/research/natural-law"
+        notes: >-
+          Essays and lectures on natural law and the free society. Acton is an ecumenical
+          institute founded by a Catholic priest.
+    historicalPrecedent: >-
+      The founders learned natural law as a college subject. King's College's 1763 plan put
+      Grotius or Pufendorf in the fourth year, and John Jay (class of 1764) studied under it.
+      Witherspoon's Princeton lectures sent Madison's generation to Grotius, Pufendorf and
+      Burlamaqui, and Burlamaqui entered the Harvard course in the Revolutionary era. In 1790–91
+      James Wilson, a signer of the Declaration and the Constitution and a Supreme Court justice,
+      gave his law lectures at the College of Philadelphia with President Washington in the
+      audience at the first one. He grounded American law in the law of nature, which he held to
+      be the law of God.
+    sources:
+      - { label: "A History of Columbia University 1754–1904 (1904), Appendix B: the 1763 Plan of Education (Internet Archive)", url: "https://archive.org/details/historyofcolumbi00coluuoft" }
+      - { label: "Witherspoon, Lectures on Moral Philosophy (3rd ed., 1810) (Internet Archive)", url: "https://archive.org/details/lecturesonmoralp00with" }
+      - { label: "John Jay Institute, Learning Together (current seminar modules)", url: "https://www.johnjayfellows.com/learning-together" }
+      - { label: "John Jay Institute curriculum page, archived 23 Feb 2009 (Wayback Machine)", url: "https://web.archive.org/web/20090223104713/http://www.johnjayinstitute.org/index.cfm?get=get.curriculum" }
+    notes: >-
+      To be revised when the user attaches the John Jay Institute curriculum. Publicly, the
+      John Jay Institute (Langhorne, PA; founded 2005 by the Rev. Alan R. Crippen II) lists
+      "Natural Law" as one of five three-week seminar modules in its post-college Fellows Program.
+      An archived 2006–2009 description of the module, then titled "Natural Law and Public Moral
+      Discourse," names Sophocles, Plato, Aristotle, Cicero, Aquinas, Calvin, Hooker, C.S. Lewis
+      and J. Budziszewski, with Kant, Mill, Nietzsche and Peter Singer as challengers. Its aim was
+      to find common moral ground with opponents on politics, technology, sexuality and human
+      life. This row follows that sequence and adds the early-modern jurists the founders read.
+      The current syllabus, editions and page assignments are not public. civics-law-09 reads
+      Cicero and Aquinas at 13–14, and here they are reread as philosophy. A Catholic/Protestant
+      note: Calvin (Institutes II.8.1, on the law "engraved on every heart") and Hooker give the
+      Reformed and Anglican doctrine of natural law. Budziszewski, an evangelical who entered
+      the Catholic Church in 2004, writes for both readerships.
+
+  - id: philosophy-16
+    title: "College Seminar: The Natural Law Revival and Its Critics (Maritain, Grisez, Finnis, George, Budziszewski, Feser; Hume and Hart)"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17.5
+    ageEnd: 18
+    order: 13.5
+    prerequisites: [philosophy-15, philosophy-13]
+    related: [civics-law-18, civics-law-19, civics-law-20, theology-20, theology-22]
+    summary: >-
+      After the totalitarian regimes of the 20th century, philosophers and jurists revived
+      natural law. The seminar reads Maritain's Man and the State on natural law and human
+      rights, and Grisez's 1965 commentary on ST I-II q.94 a.2, which launched the "new natural
+      law theory". It then reads that theory's full statement in Finnis's Natural Law and Natural
+      Rights (basic goods and practical reasonableness) and its public application in Robert
+      George's In Defense of Natural Law. Budziszewski's What We Can't Not Know explains conscience
+      and our evasions of it. Feser's Aquinas answers from the older Aristotelian-Thomist side.
+      The critics get a full hearing: Hume's is-ought problem and H.L.A. Hart's legal positivism,
+      including his "minimum content of natural law".
+    objectives:
+      - State Hume's is-ought objection and reconstruct both the new-natural-law reply (Grisez, Finnis) and the Aristotelian-Thomist reply (Feser)
+      - List Finnis's basic goods and requirements of practical reasonableness and apply them to a legal question
+      - Explain Maritain's account of knowledge of natural law "by inclination" and how it grounds human rights
+      - Summarize Hart's separation of law and morals and his "minimum content of natural law", and give a natural-law answer
+      - Write a seminar paper on a live public controversy that argues from natural law to a reader who rejects it
+    coreTexts:
+      - title: Man and the State
+        author: Jacques Maritain
+        date: "1951"
+        publicDomain: false
+        links:
+          - { label: Catholic University of America Press, url: "https://www.cuapress.org/9780813209050/man-and-the-state/" }
+      - title: "The First Principle of Practical Reason: A Commentary on the Summa Theologiae, 1-2, Question 94, Article 2"
+        author: Germain G. Grisez
+        date: "1965"
+        publicDomain: false
+        links:
+          - { label: "Natural Law Forum, Notre Dame Law School (free PDF)", url: "https://scholarship.law.nd.edu/nd_naturallaw_forum/107/" }
+      - title: "Natural Law and Natural Rights (2nd ed.)"
+        author: John Finnis
+        date: "1980; 2nd ed. 2011"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/natural-law-and-natural-rights-9780199599141" }
+      - title: In Defense of Natural Law
+        author: Robert P. George
+        date: "1999"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/in-defense-of-natural-law-9780199242993" }
+      - title: "What We Can't Not Know: A Guide (rev. ed.)"
+        author: J. Budziszewski
+        date: "2003; rev. 2011"
+        publicDomain: false
+        links:
+          - { label: Ignatius Press, url: "https://ignatius.com/what-we-cant-not-know-wwcnkp/" }
+      - title: "Aquinas: A Beginner's Guide (ch. 5, Ethics)"
+        author: Edward Feser
+        date: "2009"
+        publicDomain: false
+        links:
+          - { label: Oneworld Publications, url: "https://oneworld-publications.com/work/aquinas/" }
+      - title: "A Treatise of Human Nature, Book III, Part I, Section 1 (the is-ought passage)"
+        author: David Hume
+        date: "1739–1740"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4705" }
+      - title: "The Concept of Law (3rd ed.; esp. ch. IX, Laws and Morals)"
+        author: H.L.A. Hart
+        date: "1961; 3rd ed. 2012"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-concept-of-law-9780199644704" }
+    curriculumOptions:
+      - name: "Natural Law, Natural Rights, and American Constitutionalism: Contemporary and Critics sections (free website)"
+        publisher: The Witherspoon Institute
+        tradition: classical
+        url: "https://nlnrac.org/"
+        notes: Essays by leading natural-law scholars on the contemporary revival and its critics, with primary-source excerpts.
+      - name: ISI Honors Program
+        publisher: Intercollegiate Studies Institute
+        tradition: classical
+        url: "https://isi.org/students/honors-program/"
+        notes: >-
+          A competitive year-long fellowship for undergraduates that includes great-books colloquia
+          in political and moral philosophy. The student applies once enrolled in college.
+      - name: Acton University
+        publisher: Acton Institute
+        tradition: catholic
+        url: "https://university.acton.org/"
+        notes: >-
+          An annual conference of lectures on natural law, theology and economics. It is
+          ecumenical and suits a mature 18-year-old attending with a parent.
+    historicalPrecedent: >-
+      The revival had a public purpose from the start. Maritain wrote the introduction to
+      UNESCO's 1948 symposium on the philosophical grounds of human rights, the background to the
+      Universal Declaration. There he observed that nations could agree on a list of rights while
+      disagreeing about why they hold. The Hart–Fuller debate of 1958 over Nazi-era statutes made
+      the natural-law-versus-positivism question a standard part of legal education.
+    notes: >-
+      To be revised when the user attaches the John Jay Institute curriculum. The Institute's
+      archived "Natural Law and Public Moral Discourse" module paired Lewis and Budziszewski with
+      challengers including Peter Singer. Singer's Practical Ethics can be added here as a
+      contemporary utilitarian foil. Budziszewski defends the older Thomist view of natural law
+      and Finnis and George the "new natural law". Feser is sharply critical of the new theory, and
+      the disagreement is itself a good seminar question. Grisez's 1965 article is copyrighted
+      but free on Notre Dame's repository.

@@ -1,0 +1,85 @@
+id: georgetown-1789
+title: "Georgetown: John Carroll's Academy and the Jesuit Plan of Studies (1787–1820)"
+category: colonial-college
+people: [John Carroll, Charles Carroll of Carrollton, William Louis Dubourg, William Gaston]
+date: "1787–1820"
+summary: >-
+  John Carroll, a St. Omer and Liège Jesuit and later the first Catholic bishop in the United States, issued his
+  Proposals in 1787 and bought the Georgetown site in 1789. Classes opened in 1791–92 on the model of the Jesuit
+  colleges he had studied and taught in. The Proposals promised to "unite the means of communicating Science" with
+  guarding "the Morals of Youth": the three Rs, mathematics, and English grammar alongside the learned languages,
+  "open to Students of Every religious Profession". The college later grew into the Ratio's ladder of rudiments,
+  grammar classes, humanities or poetry, rhetoric, and philosophy, with French, Spanish, declamations, and public
+  exhibitions. Georgetown is the program's main Catholic founding-era precedent: classical Latin and Greek with
+  moral formation, the vernacular, and modern languages for a republic, a model already proven in the St. Omer
+  education of Charles Carroll of Carrollton, the only Catholic signer of the Declaration.
+primarySources:
+  - { label: "John Carroll's Proposals for Georgetown, 1787 (Georgetown University Library exhibit)", url: "https://library.georgetown.edu/exhibition/such-plan-education-deserves-public-encouragement-john-carrolls-proposals-georgetown" }
+  - { label: "1787 Proposals broadside, image (Wikimedia Commons)", url: "https://commons.wikimedia.org/wiki/File:Proposal_to_establish_George-Town_Academy_(Georgetown_University)_-_1787.jpg" }
+  - { label: "Georgetown College Prospectuses, 1798–1848 (Georgetown University Library exhibit)", url: "https://library.georgetown.edu/exhibition/georgetown-college-prospectuses-1798-1848" }
+  - { label: "Georgetown in 1816 (University Archives online exhibit)", url: "https://library.georgetown.edu/exhibition/georgetown-1816-online-exhibit-university-archives" }
+  - { label: "Timeline: Georgetown College in the 18th Century (Georgetown Library guide)", url: "https://guides.library.georgetown.edu/c.php?g=1060446&p=7709134" }
+  - { label: "J. G. Shea, Memorial of the First Centenary of Georgetown College (1891), full text (Internet Archive)", url: "https://archive.org/stream/memorialoffirstc00shea/memorialoffirstc00shea_djvu.txt" }
+  - { label: "Catholic Encyclopedia: Charles Carroll of Carrollton", url: "https://www.newadvent.org/cathen/03379c.htm" }
+  - { label: "Charles Carroll of Carrollton, biography (Maryland State Archives)", url: "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/000200/000209/html/209bio.html" }
+entries:
+  - text: "1787 Proposals: admit pupils once they know 'the first Elements of Letters' and carry them through the branches of classical learning"
+    search: Carroll
+    tracks: [latin, greek]
+  - text: "Reading, writing, arithmetic, the easier branches of mathematics, and English grammar 'no less than the learned Languages'"
+    search: Arithmetic
+    tracks: [reading-phonics, grammar-composition, mathematics]
+  - text: "Aim: 'the Cultivation of Virtue and literary Improvement', under a discipline incompatible with indolence and immorality"
+    search: Carroll
+    tracks: [character-virtue]
+  - text: "Open to students of every religious profession, who may attend their parents' church; all under one moral discipline"
+    search: Carroll
+    tracks: [theology, civics-law]
+  - text: "Opening years (1791–92): an English course and a classical course, with 'great attention to instruction in Latin and Greek' (Shea)"
+    search: Latin
+    tracks: [latin, greek, grammar-composition]
+  - text: "1798 prospectus (Dubourg), printed in English, French, and Spanish: the 'dead languages' Greek and Latin first, then English and French in theory and daily practice"
+    search: Greek
+    tracks: [greek, latin]
+  - text: "1798 prospectus: Spanish, valued next to English and French for a country tied by 'neighborhood and trade' to the Spanish territories"
+    search: Spanish
+    tracks: [spanish]
+  - text: "Dubourg added history, moral philosophy, music, dancing, and drawing to the course"
+    search: History
+    tracks: [history, philosophy, music, fine-arts, physical-training]
+  - text: "Jesuit class ladder: rudiments, three grammar classes, humanities (also called poetry), rhetoric, then philosophy, as in the Ratio Studiorum"
+    search: Ratio Studiorum
+    tracks: [latin, greek, rhetoric, philosophy]
+  - text: "1816 course: English, French, Latin, Greek, sacred and profane history, geography and the use of globes"
+    search: Geography
+    tracks: [history, theology]
+  - text: "1816 mathematics: arithmetic, bookkeeping, algebra, geometry, trigonometry, surveying, navigation, astronomy, fluxions (calculus); lectures in natural and experimental philosophy"
+    search: Geometry
+    tracks: [mathematics, natural-science, economics]
+  - text: "Charter of 1815 (signed by Madison); a six-year ordinary course leads to the B.A., with an M.A. for higher mathematics and philosophy (1820 prospectus)"
+    search: Philosophy
+    tracks: [philosophy, mathematics]
+  - text: "Public exhibitions and declamations in Latin, Greek, French, and English; a debate on whether Caesar was justly slain; student-acted tragedy of Caesar's death (1820–21)"
+    search: Caesar
+    tracks: [rhetoric, history, civics-law]
+  - text: "Table exercises recorded in an old diary: students translate the Graeca Minora and explain Virgil at dinner"
+    search: Virgil
+    tracks: [greek, latin, poetry]
+  - text: "John Carroll's own training: six years of classical and modern learning at St. Omer, then philosophy and theology at Liège, where he later taught everything from rudiments to theology"
+    search: St. Omer
+    tracks: [latin, philosophy, theology]
+  - text: "Charles Carroll of Carrollton: Jesuit school at Bohemia Manor, then St. Omer (1749–53), Reims, and Louis-le-Grand in Paris (philosophy)"
+    search: St. Omer
+    tracks: [latin, greek, rhetoric, philosophy]
+  - text: "Charles Carroll's law: civil law at Bourges and Paris, then common law at the Temple, London, before signing the Declaration"
+    search: Carroll
+    tracks: [civics-law]
+notes: >-
+  The brief refers to "1789 proposals", but Carroll's broadside Proposals are dated 1787; 1789 is the year the land
+  was bought and is the traditional founding date. The Georgetown Library timeline puts the start of classes in 1792,
+  while Shea says the doors opened in September 1791, with William Gaston as the first pupil. Quotations from the Proposals follow Shea's 1891
+  transcription, and the 1798 and 1820 prospectus phrases come from the Georgetown Library exhibit. The Proposals do
+  not name specific classical authors, and no surviving 1790s Georgetown list of set texts (for example, which works
+  of Cicero or Virgil were read) was found, so the class ladder is attested through Shea and the later prospectuses.
+  The phrase "Graeca Minora" is from an early diary Shea quotes. No detailed reading list for Charles Carroll at St.
+  Omer, such as his father's letters directing his studies, was verified; his curriculum is assumed to be the Ratio's.

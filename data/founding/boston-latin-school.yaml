@@ -1,0 +1,106 @@
+id: boston-latin-school
+title: "Boston Public Latin School: Course of Study (c. 1770–1860)"
+category: 19th-century-school
+people: [Ezekiel Cheever, John Lovell, Samuel Hunt, Benjamin Apthorp Gould, Charles Knapp Dillaway, Epes Sargent Dixwell]
+date: "1770s–1860"
+summary: >-
+  America's oldest school (1635) prepared Boston boys for Harvard with a ladder of Latin and Greek:
+  Cheever's Accidence and Corderius, then Aesop, Eutropius and Nepos, Ovid and Caesar, and finally
+  Virgil, Cicero's orations, Horace, the Greek Testament and Homer, with "making Latin", memorization
+  and Saturday declamation throughout. The town's 1789 "System of Public Education" and Master Gould's
+  own account of the 1820s course (both printed in Jenks's 1886 catalogue) show the same sequence
+  surviving the Revolution. Its alumni included Franklin (briefly), Hancock, Samuel Adams,
+  Robert Treat Paine and Emerson. This program adopts its graded Latin ladder, its daily memorization
+  of poetry, and its public declamation as the core of the grammar-school years.
+primarySources:
+  - { label: "Jenks, Catalogue of the Boston Public Latin School, with an Historical Sketch (1886), Archive.org", url: "https://archive.org/details/catalogueofbosto00bost" }
+  - { label: "Same catalogue, University of Toronto copy (Archive.org)", url: "https://archive.org/details/catalogueofbosto00bostuoft" }
+  - { label: "Holmes, A Tercentenary History of the Boston Public Latin School, 1635–1935 (HathiTrust record)", url: "https://catalog.hathitrust.org/Record/001452553" }
+  - { label: "Catalogue of Graduates of the Public Latin School in Boston, 1816–1917 (Archive.org full text)", url: "https://archive.org/stream/catalogueofgradu00bost/catalogueofgradu00bost_djvu.txt" }
+entries:
+  - text: "Admission test (Lovell era, to 1775): reading a few verses of the Bible aloud at the master's house"
+    search: Bible
+    tracks: [reading-phonics, theology]
+  - text: "Ezekiel Cheever, 'The Accidence' — the first-form Latin primer; per Jenks it ran through eighteen editions before the Revolution"
+    search: Cheever
+    tracks: [latin]
+  - text: "Nomenclator (Nomenclatura Brevis) — Latin vocabulary lists memorized in the first class"
+    search: Nomenclator
+    tracks: [latin]
+  - text: "Corderius, Colloquies ('quid agis'), Latin with facing English — first-year conversational reading"
+    search: Corderius
+    tracks: [latin]
+  - text: "Aesop's Fables in Latin and English (first class, 1789 System)"
+    search: Aesop
+    tracks: [latin, character-virtue]
+  - text: "Ward's (Lily's) Latin Grammar; from Gould's time Adam's Latin Grammar, memorized entire over six to eight months"
+    search: Grammar
+    tracks: [latin, grammar-composition]
+  - text: "Eutropius, Breviarium of Roman history (first and second classes)"
+    search: Eutropius
+    tracks: [latin, history]
+  - text: "Clarke's Introduction to the Making of Latin and Garretson's Exercises — daily 'making Latin' (English into Latin)"
+    search: Clarke
+    tracks: [latin, grammar-composition]
+  - text: "Selectae e Veteri Testamento Historiae or Castalio's Dialogues — Bible stories in Latin (second class)"
+    search: Bible
+    tracks: [latin, theology]
+  - text: "Viri Romae, Phaedrus's Fables, and Cornelius Nepos (Gould's second year; Nepos still in the 1860 course)"
+    search: Nepos
+    tracks: [latin, history, character-virtue]
+  - text: "Ovid, Metamorphoses — with scansion, prosody, evening memorization and 'capping' verses"
+    search: Ovid
+    tracks: [latin, poetry]
+  - text: "Caesar, Commentaries (third class in 1789; still read in 1860)"
+    search: Caesar
+    tracks: [latin, history]
+  - text: "Cicero ('Tully'): Epistles or De Officiis in the third class; select Orations, De Senectute, De Amicitia in the upper classes"
+    search: Cicero
+    tracks: [latin, rhetoric, philosophy]
+  - text: "Virgil — Aeneid and Eclogues; several books memorized by heart"
+    search: Virgil
+    tracks: [latin, poetry]
+  - text: "Sallust (Catiline) — read with Virgil in Gould's third year and in the 1860 course"
+    search: Sallust
+    tracks: [latin, history]
+  - text: "Horace — the whole first book of the Odes memorized; Juvenal's Third and Tenth Satires entire (expurgated)"
+    search: Horace
+    tracks: [latin, poetry]
+  - text: "Gradus ad Parnassum and original Latin verses and themes — upper-class composition"
+    search: Gradus
+    tracks: [latin, poetry, grammar-composition]
+  - text: "Greek Grammar and Greek Primitives, then the Greek Testament (fourth class, 1789)"
+    search: Greek Testament
+    tracks: [greek, theology]
+  - text: "Graeca Minora and Delectus Sententiarum Graecarum; by 1860 Felton's Greek Reader and Arnold's Greek Prose Composition"
+    search: Greek Reader
+    tracks: [greek]
+  - text: "Xenophon, Anabasis, and Wyttenbach's Greek Historians (upper classes under Gould)"
+    search: Xenophon
+    tracks: [greek, history]
+  - text: "Homer, Iliad (Maittaire's text) — 'many hundreds of verses' committed to memory"
+    search: Homer
+    tracks: [greek, poetry]
+  - text: "Saturday-morning declamation (Gould) and 'Declamation' as a standing subject in every class of the 1860 course"
+    search: declamation
+    tracks: [rhetoric]
+  - text: "Colburn's First Lessons (mental arithmetic), then geometry, trigonometry and algebra in the last two years"
+    search: arithmetic
+    tracks: [mathematics]
+  - text: "Valpy's Chronology of Ancient and English History and Tooke's Pantheon (mythology) — second-year companions"
+    search: Tooke
+    tracks: [history, literature]
+  - text: "Alumni: Cotton Mather, Benjamin Franklin (under a year, before being moved off the Latin track), John Hancock, Samuel Adams, Robert Treat Paine, William Hooper, James Bowdoin, Ralph Waldo Emerson"
+    search: Franklin
+    tracks: [history, civics-law]
+notes: >-
+  Sequence drawn from three documents reprinted in Jenks (1886): Harrison Gray Otis's memory of the
+  school up to April 1775 (seven forms), the town's "System of Public Education" of 15 October 1789
+  (four classes), and Master B. A. Gould's own description of the five-year course (1820s), plus the
+  1860 regulations. Jenks writes that alumni signed about one-ninth of the Declaration. Adam's Latin Grammar
+  was by Alexander Adam of Edinburgh; the brief called it "Adams's". Jacobs' Greek Reader (Everett's
+  Boston edition) is often said to have been used; I could not confirm it in the texts I checked.
+  Graeca Minora (Gould) and Felton's Greek Reader (1860) are attested. Holmes (1935) is listed from its
+  HathiTrust catalogue record only; the record page refused automated fetch, so I could not check its
+  access status. I did not find or verify scans of Barnard's American Journal of Education or of the
+  Boston School Committee reports, so they are not linked.

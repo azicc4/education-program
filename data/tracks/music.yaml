@@ -1,0 +1,614 @@
+track: music
+title: Music
+trackGroup: Arts & Body
+description: >-
+  Music was one of the seven liberal arts, and for Plato and Boethius it was a discipline that orders
+  the soul. This track treats it as both performing art and liberal art. It begins with the singing voice:
+  folk song and solfège in the Kodály tradition, or the Catholic Ward Method built on Gregorian chant
+  (6–10). An instrument follows (piano or violin, with recorder as a first reading instrument), then graded
+  theory, and the great repertories of the Church: Gregorian chant from the Liber Usualis, Catholic and
+  Protestant hymnody, and Renaissance polyphony sung in choir (7–16). Music history and appreciation run
+  alongside, then harmony, species counterpoint and composition (12–16), and a college capstone on music as
+  a liberal art from Boethius's De institutione musica through the Western tradition (17–18). The end state
+  is a graduate who sings at sight, plays one instrument at an intermediate-to-advanced grade, reads and
+  writes four-part harmony, knows chant and the major composers and periods, and can explain why the
+  ancients placed music among the arts of number.
+rows:
+  - id: music-01
+    title: "Singing and Solfège: Kodály Foundations"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [early-development-10, poetry-02]
+    summary: >-
+      Formal music begins with the voice. The Kodály approach teaches pitch through movable-do solfège and
+      hand signs, rhythm through spoken syllables, and repertoire through the child's own folk songs,
+      moving from sound to sign to symbol. By eight the child sings in tune, keeps a steady beat, and reads
+      simple melodies in stick notation and on the staff.
+    objectives:
+      - Sing 50 or more folk songs, rounds and singing games in tune with a light head voice
+      - Use Curwen hand signs and solfège for the pentatonic scale (s-m, l, d-r), then the full diatonic scale
+      - Read and clap quarter, eighth and half notes and rests with rhythm syllables
+      - Sing simple two-part rounds and ostinati
+    curriculumOptions:
+      - name: Kodály-certified teachers and programs (OAKE)
+        publisher: Organization of American Kodály Educators
+        tradition: secular
+        url: "https://www.oake.org/"
+        notes: Find a Kodály-trained teacher or children's choir. Materials are folk-song based.
+      - name: British Kodály Academy (courses and resources)
+        publisher: British Kodály Academy
+        tradition: secular
+        url: "https://www.kodaly.org.uk/"
+        notes: UK counterpart, with good parent and teacher courses.
+      - name: "Discovering Art & Music in the Younger Years, Vol. 1"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/discovering-art-music-in-the-younger-years-set/"
+        notes: Classical Christian introduction to great works of art and music for the early grades.
+    historicalPrecedent: >-
+      Zoltán Kodály's method became the basis of Hungarian national music education after 1945. Its roots are
+      older: Guido of Arezzo's syllables (ut-re-mi, c. 1025) and John Curwen's tonic sol-fa and hand signs
+      (England, 1840s–1870s), which taught millions of Victorian children to sing at sight.
+
+  - id: music-02
+    title: "The Ward Method: Chant-Based Musicianship"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 10
+    order: 2
+    prerequisites: [music-01]
+    related: [theology-02, latin-10]
+    summary: >-
+      Justine Ward's method, developed from about 1910 with Fr. Thomas Shields of the Catholic University of America in response to
+      Pius X's call for the restoration of Gregorian chant, trains children's voices, ear, rhythm and sight
+      reading (numbered notation and then staff) and leads them into singing the chant of the liturgy.
+      It is the Catholic alternative or complement to Kodály, and both use movable do.
+    objectives:
+      - Develop a pure, light vocal tone through Ward's daily vocal exercises
+      - Sight-sing in number notation and then staff notation, and take melodic dictation
+      - Conduct and feel free "chironomic" chant rhythm (arsis and thesis)
+      - Sing the ordinary chants of a simple Mass (for example Mass XVIII) and common Latin hymns (Adoro te, Salve Regina)
+    coreTexts:
+      - title: "Music: First Year (Ward Method)"
+        author: Justine Bayard Ward
+        date: "1914"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/MusicFirstYear" }
+      - title: "Music: Third Year, Teacher's Manual"
+        author: Justine Bayard Ward
+        date: "1919"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/MusicThirdYear" }
+    curriculumOptions:
+      - name: Ward Method (teacher training and contacts)
+        publisher: Church Music Association of America
+        tradition: catholic
+        url: "https://musicasacra.com/ward-method/"
+        notes: CMAA keeps the Ward Method alive through courses and a list of certified teachers.
+      - name: Kodály continuation (OAKE)
+        publisher: Organization of American Kodály Educators
+        tradition: secular
+        url: "https://www.oake.org/"
+        notes: The non-liturgical path, continuing the music-01 sequence.
+    historicalPrecedent: >-
+      Pius X, Tra le sollecitudini (1903), called for the use of Gregorian chant by the people to be restored.
+      Ward's method was taught in thousands of American Catholic schools in the 1920s–1950s and in Europe.
+    sources:
+      - { label: "Pius X, Tra le sollecitudini (1903), English (Adoremus)", url: "https://www.adoremus.org/1903/11/tra-le-sollecitudini/" }
+
+  - id: music-03
+    title: "Instrument I: Piano or Violin Foundations"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 10
+    order: 3
+    prerequisites: []
+    related: []
+    summary: >-
+      Begin a primary instrument at 6–7 with a good private teacher: piano for harmony and keyboard literacy,
+      or violin for ear and ensemble playing. Daily practice (15–30 minutes, rising with age) builds
+      diligence as much as skill. Aim to reach about ABRSM/RCM Grade 3 by 10.
+    objectives:
+      - Practice daily with a written practice plan kept by the student and checked by a parent
+      - "Piano: five-finger positions to hands-together playing, scales and arpeggios in keys to 2 sharps and flats, Grade 1–3 repertoire (Bach Anna Magdalena, Clementi sonatinas)"
+      - "Violin: posture, bow hold, first position, Suzuki Books 1–3 or equivalent"
+      - Perform in a recital two or more times a year
+    curriculumOptions:
+      - name: Suzuki Method
+        publisher: Suzuki Association of the Americas
+        tradition: secular
+        url: "https://suzukiassociation.org/"
+        notes: Ear-first "mother-tongue" method with a parent in lessons. Strong for violin from 4–6. Add note reading early.
+      - name: Piano Adventures
+        publisher: Faber Piano Adventures
+        tradition: secular
+        url: "https://pianoadventures.com/"
+        notes: The most widely used reading-based piano method. Pair with a private teacher.
+      - name: Hoffman Academy (online piano)
+        publisher: Hoffman Academy
+        tradition: secular
+        url: "https://www.hoffmanacademy.com/"
+        notes: Low-cost video piano lessons with solfège and ear training. A bridge where no teacher is available.
+    historicalPrecedent: >-
+      Jefferson played the violin for much of his life, and Franklin invented the glass armonica. Locke (§197),
+      by contrast, thought music took too much time for a gentleman to gain "but a moderate skill" in it.
+      This program sides with the ancients and Jefferson.
+    sources:
+      - { label: "Locke, Some Thoughts Concerning Education §197 (Archive.org)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: music-04
+    title: "Recorder and Reading Music"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 9
+    order: 4
+    prerequisites: [music-01]
+    related: []
+    summary: >-
+      The soprano recorder is a cheap, portable first melodic instrument that makes staff reading concrete.
+      Alongside it, the student learns the rudiments of notation: the staff and clefs, note and rest values,
+      meter, key signatures to one sharp or flat, and basic musical terms. Combined with singing, this gives
+      the student full musical literacy for early grades.
+    objectives:
+      - Play a one-octave diatonic range on soprano recorder (B-A-G first), reading from the staff
+      - Play 30 or more folk tunes, hymn melodies and simple duets
+      - Name notes on treble and bass staves, and read and write simple and compound meters
+      - Know basic Italian tempo and dynamic markings
+    curriculumOptions:
+      - name: "Reading Music: Introduction to Music Theory"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/reading-music/"
+        notes: Rhythm, meter and notation text, workbook and teacher guide for the grammar years.
+      - name: musictheory.net (free lessons and drills)
+        publisher: musictheory.net
+        tradition: secular
+        url: "https://www.musictheory.net/"
+        notes: Free note-reading, key and interval drills. Use as daily practice.
+    notes: >-
+      I did not verify a specific recorder method book. Most Kodály and Orff classroom recorder methods work well.
+
+  - id: music-05
+    title: "Hymnody: The Catholic and Protestant Hymn Traditions"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 12
+    order: 5
+    prerequisites: [music-01]
+    related: [poetry-06, theology-02]
+    summary: >-
+      Memorize one great hymn a month (text and tune) across five years, covering the Latin office hymns of
+      Ambrose and Aquinas, the Lutheran chorale, the metrical psalms, Watts and Wesley, the Victorian hymn
+      writers, and American spirituals. Hymns are among the best poetry most children memorize and the
+      shared song of Christian worship. Learn to sing the parts once voices allow.
+    objectives:
+      - Memorize 60 or more hymns (text and tune), including the major Latin, Lutheran, English and American hymns
+      - Know the author, era and tradition of each hymn and the meter name (Common, Long, 8.7.8.7)
+      - Sing hymns in parts (soprano/alto, then tenor/bass) from a hymnal
+      - Compare a psalm with Watts's paraphrase of it
+    coreTexts:
+      - title: The Psalms of David Imitated in the Language of the New Testament
+        author: Isaac Watts
+        date: "1719"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13166" }
+      - title: Divine Songs for Children
+        author: Isaac Watts
+        date: "1715"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13439" }
+    curriculumOptions:
+      - name: "Adoremus Hymnal (2nd ed.)"
+        publisher: Ignatius Press
+        tradition: catholic
+        url: "https://ignatius.com/adoremus-hymnal-standard-edition-2nd-edition-adh2ch/"
+        notes: Catholic hymnal with Latin chant, the great English hymns and the Mass ordinaries.
+      - name: "Cantus Christi 2020: Psalter & Hymnal"
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/cantus-christi-2020-psalter-hymnal"
+        notes: Reformed psalter-hymnal used by many classical Christian schools, with metrical psalms and hymns in parts.
+    historicalPrecedent: >-
+      The Bay Psalm Book (1640) was the first book printed in British North America. Watts's Psalms and Hymns
+      and the Wesleys' hymns were the most sung texts in 18th- and 19th-century America.
+    notes: >-
+      Catholic and Protestant note: Catholic practice gives pride of place to Gregorian chant and Latin hymns
+      in the liturgy (Sacrosanctum Concilium 116) and also uses vernacular hymns. The Reformed tradition
+      emphasizes metrical psalm-singing, and Lutheran and Anglican/Methodist traditions center on the chorale and
+      the English hymn. Many great hymns are shared by both, and either hymnal serves.
+
+  - id: music-06
+    title: "Music Appreciation I: Composers and the Orchestra"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 11
+    order: 6
+    prerequisites: [music-01]
+    related: []
+    summary: >-
+      Listen closely to one composer a term (Charlotte Mason's "composer study"), with a short biography, the
+      instruments of the orchestra, and the main forms (fugue, sonata, symphony, concerto, opera, mass).
+      Go to live concerts. The aim is familiarity and love: the child knows Bach, Handel, Haydn, Mozart and
+      Beethoven as well as he knows the heroes of his history books.
+    objectives:
+      - Study 12 or more major composers from Palestrina to Dvořák, and recognize their best-known works by ear
+      - Identify the instruments and sections of the orchestra by sight and sound
+      - Attend 4 or more live concerts or services with sacred music a year
+      - Narrate a composer's life and describe a listened-to work in simple musical vocabulary
+    coreTexts:
+      - title: "The World's Great Men of Music: Story-Lives of Master Musicians"
+        author: Harriette Brower
+        date: "1922"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13291" }
+    curriculumOptions:
+      - name: Music Appreciation I Set (book and audio)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/music-appreciation-i-set/"
+        notes: Twenty-six canonical works set in historical context.
+      - name: Zeezok Music Appreciation (composer biographies)
+        publisher: Zeezok Publishing
+        url: "https://www.zeezok.com/"
+        notes: Nondenominational Christian publisher. Uses Opal Wheeler's classic composer biographies with activity books.
+
+  - id: music-07
+    title: "Gregorian Chant and the Liber Usualis"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 13
+    order: 7
+    prerequisites: [music-02]
+    related: [latin-10, theology-02]
+    summary: >-
+      Learn to read square notation on the four-line staff (neumes, clefs, the Solesmes rhythmic signs) and
+      to sing the chant of the Mass and Office: the Ordinaries (Kyriale), seasonal antiphons, sequences
+      (Victimae paschali, Veni Sancte Spiritus), office hymns and psalm tones. Chant is the foundation of
+      Western music and its Latin reinforces the Latin track. The student should end able to sing a simple
+      sung Mass and Vespers.
+    objectives:
+      - Read square notation in do and fa clefs, and sing neumes (podatus, clivis, torculus, porrectus, and others) correctly
+      - Sing the eight psalm tones and chant a psalm with its antiphon
+      - Sing three or more Mass Ordinaries (e.g. I, VIII, XI, XVIII) and the four seasonal Marian antiphons
+      - Translate and explain the Latin texts sung
+    coreTexts:
+      - title: The Parish Book of Chant (2nd ed.)
+        author: Church Music Association of America
+        date: "2012"
+        publicDomain: false
+        links:
+          - { label: CMAA free PDF, url: "https://media.musicasacra.com/books/pbc_2nd.pdf" }
+      - title: Liber Usualis (Solesmes)
+        author: Benedictines of Solesmes
+        date: "1903 (later eds. to 1961)"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1903 ed.)", url: "https://archive.org/details/liberusualismiss00cath" }
+          - { label: "Archive.org (1961 ed.)", url: "https://archive.org/details/TheLiberUsualis1961" }
+    curriculumOptions:
+      - name: The Parish Book of Chant and CMAA resources
+        publisher: Church Music Association of America
+        tradition: catholic
+        url: "https://musicasacra.com/"
+        notes: Free chant books, summer Sacred Music Colloquium, and training in chant and polyphony.
+      - name: "Early Sacred Music: From the Temple Through the Middle Ages"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/early-sacred-music-set/"
+        notes: History-oriented course on psalmody, chant and early polyphony. Complements singing practice.
+    sources:
+      - { label: "Vatican II, Sacrosanctum Concilium (§116, chant's pride of place)", url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html" }
+    notes: >-
+      Protestant families can take this as music history and Latin, or substitute psalm chanting (Anglican
+      chant) using a psalter. The Liber Usualis is large, so the Parish Book of Chant is the practical
+      student book.
+
+  - id: music-08
+    title: "Music Theory I: Graded Rudiments (ABRSM Grades 1–5)"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 12
+    order: 8
+    prerequisites: [music-04]
+    related: []
+    summary: >-
+      A structured theory sequence through the graded exam syllabi: all major and minor keys and scales,
+      intervals, triads and their inversions, cadences, simple and compound time, transposition, the C clefs,
+      ornaments, instruments and terms. Sitting the ABRSM Grade 5 theory exam (or RCM equivalent) by about 12
+      gives an external benchmark.
+    objectives:
+      - Write all major and minor (harmonic and melodic) scales and key signatures
+      - Name and write all intervals and triads, and recognize perfect, imperfect, plagal and interrupted cadences
+      - Transpose a melody by an interval and between clefs
+      - Pass ABRSM Grade 5 theory or RCM Level 6–8 theory
+    curriculumOptions:
+      - name: ABRSM Music Theory graded exams
+        publisher: ABRSM
+        tradition: secular
+        url: "https://www.abrsm.org/en-us"
+        notes: "The UK/international standard. Grade 5 theory is traditionally required before higher practical grades."
+      - name: Royal Conservatory Certificate Program (theory levels)
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/learning/examinations"
+        notes: North American equivalent, with practical and theory levels coordinated.
+      - name: musictheory.net
+        publisher: musictheory.net
+        tradition: secular
+        url: "https://www.musictheory.net/"
+        notes: Free lessons and exercises for self-study and drill.
+
+  - id: music-09
+    title: "Instrument II: Graded Repertoire and Performance"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 14
+    order: 9
+    prerequisites: [music-03]
+    related: []
+    summary: >-
+      Continue the primary instrument through graded exams (to about Grade 6–7 by 14), with serious repertoire
+      across periods (Bach inventions, Classical sonatas, Romantic character pieces, or for violin Vivaldi and
+      Bach concertos). Add chamber music or orchestra and accompany hymns or choir, so that the instrument
+      serves the community.
+    objectives:
+      - Pass graded practical exams in sequence (ABRSM or RCM) to about Grade 6–7
+      - Learn and perform 6 or more substantial pieces a year from contrasting periods
+      - Play in a chamber group, orchestra or church ensemble, or accompany congregational hymns
+      - Sight-read at two grades below the performance level
+    curriculumOptions:
+      - name: ABRSM practical graded exams
+        publisher: ABRSM
+        tradition: secular
+        url: "https://www.abrsm.org/en-us"
+        notes: Graded repertoire lists and sight-reading standards.
+      - name: RCM Certificate Program
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/learning/examinations"
+        notes: North American graded curriculum and exams.
+      - name: Suzuki Method (continuing books)
+        publisher: Suzuki Association of the Americas
+        tradition: secular
+        url: "https://suzukiassociation.org/"
+        notes: For violin students continuing in Suzuki studios. Add orchestra.
+
+  - id: music-10
+    title: "The Choral Tradition: Polyphony and the Choir"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 16
+    order: 10
+    prerequisites: [music-07]
+    related: [latin-10]
+    summary: >-
+      Sing in a serious choir (a parish schola, cathedral or Anglican choir school, or community youth choir)
+      and learn the great a cappella repertoire of the Renaissance: Palestrina, Victoria, Byrd, Tallis, Josquin,
+      alongside Bach chorales and English anthems. Choral singing trains sight reading, blend, Latin
+      diction, and the discipline of rehearsal and service.
+    objectives:
+      - Sing weekly in a choir with a liturgical or classical repertoire for three or more years
+      - Sight-sing a part in four-voice polyphony and hold it against other parts
+      - Learn 20 or more motets and anthems (for example Palestrina's Sicut cervus, Byrd's Ave verum, Tallis's If ye love me, Victoria's O magnum mysterium)
+      - Earn choir awards or take a section-leader role
+    coreTexts:
+      - title: Music in the History of the Western Church
+        author: Edward Dickinson
+        date: "1902"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/43208" }
+    curriculumOptions:
+      - name: Church Music Association of America (chant and polyphony training)
+        publisher: CMAA
+        tradition: catholic
+        url: "https://musicasacra.com/"
+        notes: Resources and courses for Catholic scholas singing chant and Renaissance polyphony.
+      - name: RSCM Voice for Life
+        publisher: Royal School of Church Music
+        tradition: protestant
+        url: "https://www.rscm.org.uk/voice-for-life/"
+        notes: Anglican choir-training scheme with graded awards, used in parish and cathedral choirs worldwide.
+    historicalPrecedent: >-
+      Cathedral choir schools (e.g., Westminster Abbey, King's College Cambridge, the Sistine Chapel) trained
+      boys in singing, Latin and grammar together for centuries. Many English grammar and public schools grew
+      from them.
+
+  - id: music-11
+    title: "Music Theory II: Harmony and Species Counterpoint"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 15
+    order: 11
+    prerequisites: [music-08]
+    related: []
+    summary: >-
+      The grammar of Western art music: four-part chorale harmony (voice leading, diatonic and chromatic
+      chords, modulation, non-chord tones), figured bass, and Fux's five species of counterpoint. Fux's
+      Gradus ad Parnassum (1725) taught Haydn, Mozart and Beethoven. Harmonizing Bach chorales is the
+      traditional proof of mastery.
+    objectives:
+      - Write two- and three-voice counterpoint in all five species (Fux)
+      - Harmonize a melody or figured bass in four parts with correct voice leading, including secondary dominants and modulation to related keys
+      - Analyze Bach chorales and Classical sonata expositions with Roman numerals
+      - Reach ABRSM Grade 6–8 theory or Advanced Placement Music Theory level
+    coreTexts:
+      - title: "The Study of Counterpoint (from Fux's Gradus ad Parnassum)"
+        author: Johann Joseph Fux; trans. Alfred Mann
+        date: "1725 (trans. 1943/1965)"
+        publicDomain: false
+        links:
+          - { label: W. W. Norton, url: "https://wwnorton.com/books/9780393002775" }
+    curriculumOptions:
+      - name: Open Music Theory (free open textbook)
+        publisher: Open Music Theory
+        tradition: secular
+        url: "https://viva.pressbooks.pub/openmusictheory/"
+        notes: Free, college-level. Covers counterpoint, harmony, form and post-tonal theory.
+      - name: ABRSM Grades 6–8 theory
+        publisher: ABRSM
+        tradition: secular
+        url: "https://www.abrsm.org/en-us"
+        notes: External benchmark in harmony, figured bass and analysis.
+
+  - id: music-12
+    title: "Music History II: The Western Tradition from Chant to the Moderns"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 12
+    prerequisites: [music-06]
+    related: []
+    summary: >-
+      A chronological survey of Western music tied to the history track: Greek theory and chant, the Notre Dame
+      school and Ars Nova, Renaissance polyphony, Baroque, Classical, Romantic and the 20th century, with
+      listening, score study and primary-source readings (composers' letters and treatises). Include American
+      music: the Bay Psalm Book, shape-note singing, Gottschalk, Ives, Copland and the spiritual.
+    objectives:
+      - Identify the style period of an unfamiliar work by ear and explain why
+      - Know the major genres and landmark works of each period (Machaut's Messe, Palestrina's Pope Marcellus Mass, Monteverdi's Orfeo, Bach's St Matthew Passion, Mozart's Requiem, Beethoven's Ninth, and others)
+      - Read 10 or more primary sources (Guido of Arezzo, Luther on music, Mozart's letters, Wagner, Stravinsky)
+      - Write a research essay on a composer or work
+    coreTexts:
+      - title: Music in the History of the Western Church
+        author: Edward Dickinson
+        date: "1902"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/43208" }
+    curriculumOptions:
+      - name: "The History of Classical Music: Pythagoras through Beethoven (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/classical-music"
+        notes: Free Hillsdale lecture course. Continue with Part 2, Chopin through Gershwin.
+      - name: "The History of Classical Music: Chopin through Gershwin (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/classical-music-2"
+        notes: Second half of the Hillsdale survey.
+      - name: Discovering Music (2nd ed.)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/art-and-music/discovering-music-set-second/"
+        notes: Upper-school survey of Western music history with listening.
+
+  - id: music-13
+    title: "Composition Basics"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 13
+    prerequisites: [music-11]
+    related: [poetry-08]
+    summary: >-
+      This course puts theory to work. The student writes hymn tunes and harmonizations for texts from the
+      poetry track, chant-style psalm settings, simple binary and ternary piano pieces, a theme and variations,
+      and a short motet or anthem for the choir, and hears the pieces performed. Notation software makes
+      scores clean and playable.
+    objectives:
+      - Compose and harmonize 4 or more hymn tunes in four parts for existing or original texts
+      - Write a binary- or ternary-form keyboard piece and a set of variations
+      - Set a Latin or English text as a short motet for the choir, and rehearse it with singers
+      - Produce clean scores with notation software
+    curriculumOptions:
+      - name: MuseScore (free notation software)
+        publisher: MuseScore
+        tradition: secular
+        url: "https://musescore.org/"
+        notes: Free, full-featured notation and playback.
+      - name: Open Music Theory (form and composition chapters)
+        publisher: Open Music Theory
+        tradition: secular
+        url: "https://viva.pressbooks.pub/openmusictheory/"
+        notes: Free material on phrase, form and model composition.
+
+  - id: music-14
+    title: "College: Music as a Liberal Art, from Boethius to the Western Canon"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 14
+    prerequisites: [music-11, music-12]
+    related: [philosophy-08, mathematics-12, mathematics-21]
+    summary: >-
+      A college seminar on music as the quadrivial art of number in time. Read Plato (Republic III, Timaeus),
+      Aristotle (Politics VIII), Augustine's De musica, Boethius's De institutione musica (musica mundana,
+      humana, instrumentalis) and the treatises and documents in Strunk's Source Readings, through Zarlino,
+      Rameau and the Romantics. Pair the reading with advanced harmony and analysis of major works, and ask
+      what music does to the soul and to the city.
+    objectives:
+      - Read Boethius Book I in full and explain the Pythagorean ratios of the consonances and the threefold division of music
+      - Trace the idea of music's ethical power from Plato to Pius X and Benedict XVI
+      - Complete a harmony-and-analysis sequence equivalent to two college semesters (chromatic harmony, form, analysis of a sonata movement and a fugue)
+      - Write a seminar paper on music and moral formation
+    coreTexts:
+      - title: "Fundamentals of Music (De institutione musica), trans. Calvin M. Bower"
+        author: Boethius
+        date: "c. 510 (trans. 1989)"
+        publicDomain: false
+        links:
+          - { label: Yale University Press, url: "https://yalebooks.yale.edu/book/9780300039436/fundamentals-of-music/" }
+          - { label: "Archive.org: Latin text (Friedlein, 1867)", url: "https://archive.org/details/DeInstitutioneArithmeticaLibriDuoDeInstitutioneMusicaLibriQuinque" }
+      - title: "Strunk's Source Readings in Music History (rev. ed.)"
+        author: Oliver Strunk; Leo Treitler (gen. ed.)
+        date: "1950 (rev. 1998)"
+        publicDomain: false
+        links:
+          - { label: W. W. Norton, url: "https://wwnorton.com/books/9780393966947" }
+      - title: The Consolation of Philosophy
+        author: Boethius
+        date: "c. 524"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14328" }
+    curriculumOptions:
+      - name: "Hillsdale College, The History of Classical Music (Pythagoras through Beethoven)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/classical-music"
+        notes: Its opening lectures on Pythagoras and ancient theory fit this seminar.
+      - name: Open Music Theory (college harmony and form)
+        publisher: Open Music Theory
+        tradition: secular
+        url: "https://viva.pressbooks.pub/openmusictheory/"
+        notes: Free text for the harmony-and-analysis half of the course.
+    historicalPrecedent: >-
+      Boethius's De institutione musica was the standard music text of the medieval quadrivium at Paris,
+      Oxford and every cathedral school for nearly a thousand years.

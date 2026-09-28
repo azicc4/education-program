@@ -1,0 +1,104 @@
+id: mcguffey-readers
+title: "McGuffey's Eclectic Readers (1836–1879)"
+category: 19th-century-school
+people: [William Holmes McGuffey, Alexander Hamilton McGuffey]
+date: "1836–1879"
+summary: >-
+  The McGuffey Readers were the common reading course of nineteenth-century American schoolchildren.
+  They moved from the Primer's phonics and moral tales up to the Fifth and Sixth Readers, which work as
+  an anthology of English and American literature, oratory and Scripture, each piece set up with lessons
+  in articulation, inflection and gesture. The selections below are taken from the 1879 revised
+  edition, the one digitized on Project Gutenberg. They show what the series expected a young citizen
+  to recite and admire: Shakespeare and Milton, Gray and Bryant, Webster and Patrick Henry, and the Bible.
+  This program uses the Fourth to Sixth Readers as a graded source of memory work, elocution practice
+  and short moral essays in the middle years, before the pupil reads the authors whole.
+primarySources:
+  - { label: "McGuffey's Fourth Eclectic Reader, rev. 1879 (Gutenberg #14880)", url: "https://www.gutenberg.org/ebooks/14880" }
+  - { label: "McGuffey's Fifth Eclectic Reader, rev. 1879 (Gutenberg #15040)", url: "https://www.gutenberg.org/ebooks/15040" }
+  - { label: "McGuffey's Sixth Eclectic Reader, rev. 1879 (Gutenberg #16751)", url: "https://www.gutenberg.org/ebooks/16751" }
+  - { label: "McGuffey's Eclectic Primer, rev. (Gutenberg #14642)", url: "https://www.gutenberg.org/ebooks/14642" }
+  - { label: "McGuffey's First Eclectic Reader, rev. (Gutenberg #14640)", url: "https://www.gutenberg.org/ebooks/14640" }
+  - { label: "All McGuffey titles on Project Gutenberg", url: "https://www.gutenberg.org/ebooks/author/5671" }
+entries:
+  - text: "Elocution front matter in every upper Reader: articulation, inflection, accent and emphasis, the voice, gesture (Sixth Reader introduction)"
+    search: McGuffey
+    tracks: [rhetoric, reading-phonics]
+  - text: "Bible: the Sermon on the Mount (Fourth); 'Select Paragraphs' and 'The Goodness of God' (Fifth); Paul on Mars' Hill, 'God's Goodness to Such as Fear Him', and the Death of Absalom (Sixth)"
+    search: Bible
+    tracks: [theology, literature]
+  - text: "Thomas S. Grimké, 'The Bible the Best of Classics' (Fifth)"
+    search: Bible
+    tracks: [theology, character-virtue]
+  - text: "Shakespeare: Hamlet (Fifth); Henry V to his Troops, Fall of Cardinal Wolsey, Brutus and Cassius, Antony over Caesar's Body, Hamlet's Soliloquy, Prince Henry and Falstaff, Dream of Clarence (Sixth)"
+    search: Shakespeare
+    tracks: [literature, poetry, rhetoric]
+  - text: "Milton, 'Death of Samson' from Samson Agonistes (Sixth)"
+    search: Milton
+    tracks: [poetry, literature]
+  - text: "Gray, 'Elegy Written in a Country Church-Yard' (Sixth)"
+    search: Gray
+    tracks: [poetry, literature]
+  - text: "Patrick Henry, Speech before the Virginia Convention (Sixth)"
+    search: Henry
+    tracks: [rhetoric, history, civics-law]
+  - text: "Daniel Webster: 'Supposed Speech of John Adams' (Fifth); 'Massachusetts and South Carolina' (Reply to Hayne), 'Speech on the Trial of a Murderer', 'Importance of the Union' (Sixth)"
+    search: Webster
+    tracks: [rhetoric, civics-law, history]
+  - text: "Walpole's rebuke and Pitt's reply; Grattan on Pitt; Burke's 'Destruction of the Carnatic'; Macaulay on Warren Hastings (Sixth)"
+    search: Burke
+    tracks: [rhetoric, history]
+  - text: "Washington: Jared Sparks, 'Character of Washington', and Henry Lee's 'Eulogy on Washington'; Franklin's own 'Entry into Philadelphia'; Jefferson, 'Political Toleration' (Sixth)"
+    search: Washington
+    tracks: [history, civics-law, character-virtue]
+  - text: "Blackstone, 'Origin of Property', from the Commentaries (Sixth)"
+    search: Blackstone
+    tracks: [civics-law, economics]
+  - text: "Bacon, 'Of Studies'; Addison, 'Discontent: An Allegory' and 'Immortality of the Soul'; Johnson, 'Schemes of Life often Illusory' (Sixth) and 'A Picture of Human Life' (Fifth)"
+    search: Addison
+    tracks: [literature, philosophy, character-virtue]
+  - text: "Bryant: 'Thanatopsis', 'To a Waterfowl', 'The Snow Shower' (Sixth); 'Death of the Flowers', 'Robert of Lincoln' (Fifth)"
+    search: Bryant
+    tracks: [poetry]
+  - text: "Longfellow: 'The Village Blacksmith', 'The Rainy Day' (Fifth); 'A Psalm of Life', Evangeline church scene, 'The Bridge' (Sixth); 'Wreck of the Hesperus' (Fourth)"
+    search: Longfellow
+    tracks: [poetry]
+  - text: "Irving: 'Rip Van Winkle', 'Character of Columbus', 'Sorrow for the Dead' (Sixth); 'Capturing the Wild Horse' (Fifth)"
+    search: Irving
+    tracks: [literature, history]
+  - text: "Scott: 'Marmion and Douglas', 'Lochinvar', 'The Soldier's Rest' (Sixth). Byron: 'Battle of Waterloo', 'Song of the Greek Bard', 'Thunderstorm on the Alps' (Sixth)"
+    search: Scott
+    tracks: [poetry, literature]
+  - text: "Dickens: 'Death of Little Nell', 'The Teacher and Sick Scholar' (Sixth); 'Squeers's Method' (Fifth)"
+    search: Dickens
+    tracks: [literature, character-virtue]
+  - text: "Hawthorne: 'Hugh Idle and Mr. Toil' (Fourth), a parable of work; 'The Town Pump' (Fifth)"
+    search: Hawthorne
+    tracks: [literature, character-virtue]
+  - text: "Whittier: 'The Barefoot Boy', 'Abraham Davenport' (Sixth); 'The Corn Song' (Fifth); 'King Solomon and the Ants' (Fourth)"
+    search: Whittier
+    tracks: [poetry]
+  - text: "Hood, 'Song of the Shirt' (Sixth) — a lesson in pity for exploited labor"
+    search: Hood
+    tracks: [poetry, character-virtue]
+  - text: "Pope, 'Happiness'; Wordsworth, 'The Solitary Reaper'; Coleridge, 'Ode to Mt. Blanc'; Cowper, 'My Mother's Picture'; Poe, 'The Raven'; Tennyson, 'Enoch Arden at the Window' (Sixth)"
+    search: Pope
+    tracks: [poetry]
+  - text: "Defoe, 'Robinson Crusoe's House' and 'Robinson Crusoe's Dress' (Fourth)"
+    search: Defoe
+    tracks: [literature]
+  - text: "Thomas Hughes, 'Dare to do Right' (Fourth) — from the author of Tom Brown's School Days"
+    search: Hughes
+    tracks: [character-virtue, literature]
+  - text: "Moral lessons in the lower Readers: 'Try, Try Again', 'Waste not, Want not', 'True Manliness', 'The Golden Rule', 'Consequences of Idleness' (Fourth)"
+    search: McGuffey
+    tracks: [character-virtue, reading-phonics]
+  - text: "Noah Porter, 'A Definite Aim in Reading' (Sixth) — advice on reading with purpose, fit for the close of the series"
+    search: Porter
+    tracks: [literature, character-virtue]
+notes: >-
+  Lesson numbers and reader placements come from the tables of contents of the Gutenberg texts, which
+  reproduce the 1879 revision (Van Antwerp, Bragg & Co.; later copyrights 1896, 1907, 1920/21). The
+  1836–1857 editions had a stronger Calvinist and devotional content and a different selection, and I
+  did not find or verify a digitized original first edition, so these placements should not be read back
+  onto the 1830s–40s readers. Gutenberg also has The New McGuffey First and Fourth Readers (#1489,
+  #1490), a different, later series not used here.

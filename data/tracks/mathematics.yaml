@@ -1,0 +1,954 @@
+track: mathematics
+title: Mathematics
+trackGroup: Math & Science
+description: >-
+  Mathematics is taught as a liberal art: a training in exact reasoning and in the contemplation of
+  order, and also as the practical tool of the surveyor, the navigator and the inventor. It begins with
+  play-based number sense, pattern and shape (0–6). Formal study (6–10) builds fluent arithmetic from
+  the Singapore/Hillsdale model, with memorized facts, mental arithmetic in the manner of Ray's
+  nineteenth-century series, and rich problem solving (Beast Academy). Pre-algebra and Algebra I are
+  complete by about 12. Demonstrative geometry is learned from Euclid himself, then Algebra II,
+  trigonometry (with Washington-style surveying), probability, statistics and proof writing come by 14.
+  Competition mathematics (MATHCOUNTS, AMC, AIME) runs alongside for problem-solving depth. Calculus
+  is mastered by 15–16, reading Newton alongside a modern text. The college years (17–18) add linear
+  algebra, multivariable calculus, a first course in real analysis, and a St. John's-style tutorial in
+  the great mathematical books (Euclid, Apollonius, Ptolemy, Descartes, Newton, Lobachevsky, Dedekind).
+  End state: the student computes fluently, proves rigorously, models the physical world with calculus,
+  and has read the founding texts of mathematics in the tradition that Jefferson, who gave up
+  newspapers "for Newton & Euclid," loved.
+rows:
+  - id: mathematics-01
+    title: Number Talk, Counting & Finger Patterns
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 0
+    ageEnd: 3
+    order: 1
+    prerequisites: []
+    related: []
+    summary: >-
+      Number sense starts in the home language long before school. Parents who count stairs, grapes and
+      buttons aloud, name small quantities ("two shoes"), and use comparison words (more, fewer, bigger)
+      give children a measurably larger early number vocabulary, and early math knowledge is one of the
+      strongest predictors of later school achievement.
+    objectives:
+      - Hear counting and quantity words in daily routines (meals, stairs, dressing)
+      - Recognize one, two, three objects at a glance (subitizing)
+      - Recite counting songs and rhymes and begin one-to-one counting by about 3
+      - Use comparison words (more, less, same, big, small)
+    curriculumOptions:
+      - name: DREME Family Math resources
+        publisher: Stanford DREME Network
+        tradition: secular
+        url: "https://dreme.stanford.edu/"
+        notes: Free, research-based activities for everyday number talk with babies and toddlers.
+    sources:
+      - { label: "Levine et al. (2010), What counts in the development of young children's number knowledge?", url: "https://doi.org/10.1037/a0019671" }
+      - { label: "Duncan et al. (2007), School readiness and later achievement", url: "https://doi.org/10.1037/0012-1649.43.6.1428" }
+    notes: >-
+      Keep it conversational and joyful. No worksheets or screens are needed at this age; the evidence
+      favors adult talk about quantity during ordinary life.
+
+  - id: mathematics-02
+    title: Pattern, Shape & Spatial Play
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 2
+    ageEnd: 5
+    order: 2
+    prerequisites: [mathematics-01]
+    related: []
+    summary: >-
+      Block building, puzzles, pattern blocks, tangrams and sorting games develop the spatial reasoning
+      and patterning that underlie geometry and algebra. Preschoolers' skill at copying block structures
+      predicts their early mathematics, and linear number board games (like Chutes and Ladders) improve
+      number-line understanding.
+    objectives:
+      - Sort and classify by color, shape and size
+      - Copy and extend simple patterns (AB, ABB, ABC)
+      - Build and copy block structures and complete jigsaw puzzles
+      - Play linear number board games, counting spaces aloud
+    sources:
+      - { label: "Verdine et al. (2014), Deconstructing Building Blocks (Child Development)", url: "https://doi.org/10.1111/cdev.12165" }
+      - { label: "Siegler & Ramani (2008), Playing linear numerical board games", url: "https://doi.org/10.1111/j.1467-7687.2008.00714.x" }
+      - { label: "AAP (2018), The Power of Play", url: "https://doi.org/10.1542/peds.2018-2058" }
+    notes: Use unit blocks, pattern blocks, tangrams and simple board games. Name shapes and positions (above, beside, inside).
+
+  - id: mathematics-03
+    title: Montessori Materials & Concrete Number
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 3
+    ageEnd: 6
+    order: 3
+    prerequisites: [mathematics-02]
+    related: []
+    summary: >-
+      Montessori-style concrete materials (number rods, sandpaper numerals, spindle boxes, golden bead
+      place-value materials) let children handle quantity before they write symbols. Add cooking,
+      measuring, money and calendar play. By 6 the child should count reliably past 100, understand
+      "ten and some more," and compose and decompose small numbers.
+    objectives:
+      - Match numerals to quantities 0–10, then to 100
+      - Compose and decompose numbers to 10 (number bonds) with objects
+      - Explore place value with bead or block materials (units, tens, hundreds)
+      - Measure in the kitchen and handle coins
+    curriculumOptions:
+      - name: Association Montessori Internationale
+        publisher: AMI
+        tradition: secular
+        url: "https://montessori-ami.org/"
+        notes: Source for authentic Montessori training and materials guidance.
+      - name: Numbers books & Counting with Numbers (preschool)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/phonics-and-early-reading/counting-with-numbers/"
+        notes: Gentle classical preschool workbooks. Use them sparingly, alongside hands-on materials.
+    sources:
+      - { label: "Lillard & Else-Quest (2006), Evaluating Montessori Education (Science)", url: "https://doi.org/10.1126/science.1132362" }
+      - { label: "Lillard et al. (2017), Montessori Preschool Elevates and Equalizes Child Outcomes", url: "https://doi.org/10.3389/fpsyg.2017.01783" }
+
+  - id: mathematics-04
+    title: "Arithmetic I: Number Bonds, Place Value & Math Facts"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 8
+    order: 4
+    prerequisites: [mathematics-03]
+    related: []
+    summary: >-
+      Formal arithmetic on the Singapore (concrete–pictorial–abstract) model that Hillsdale K-12 uses:
+      numbers to 1,000, addition and subtraction with regrouping, the beginnings of multiplication,
+      money, time and measurement. Addition and subtraction facts are memorized to automaticity through
+      daily oral drill.
+    objectives:
+      - Master addition and subtraction facts to 20 with instant recall
+      - Understand place value to 1,000 and regroup confidently
+      - Solve one- and two-step word problems with bar models
+      - Tell time, count money and measure length
+    coreTexts:
+      - title: Ray's New Primary Arithmetic for Young Learners
+        author: Joseph Ray
+        date: "1877"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/raysnewprimarya00raygoog" }
+    curriculumOptions:
+      - name: Dimensions Math PK–5 (or Primary Mathematics 2022)
+        publisher: Singapore Math Inc.
+        tradition: secular
+        url: "https://www.singaporemath.com/collections/dimensions-math-pk-5"
+        notes: Hillsdale K-12's math spine. Strong conceptual foundation with bar-model problem solving.
+      - name: RightStart Mathematics
+        publisher: RightStart Math
+        tradition: secular
+        url: "https://rightstartmath.com/"
+        notes: Abacus-based, very hands-on. Excellent for mental math and a natural next step after Montessori.
+      - name: Rod & Staff Grade 3 Math (as sold in Memoria Press core)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/math/rod-staff-grade-3-math-third-edition-set/"
+        notes: Traditional drill-heavy arithmetic (Mennonite author). Rigorous facts practice.
+      - name: "Math for Young Catholics"
+        publisher: Seton Press
+        tradition: catholic
+        url: "https://setonbooks.com/math/241-mathematics-1-for-young-catholics-.html"
+        notes: "Seton's own elementary series (grade 1 shown; later grades on the same site). A Catholic option, not a requirement."
+    historicalPrecedent: >-
+      Nineteenth-century American schools began with Ray's arithmetic series (from the 1830s), a
+      McGuffey-era companion used by millions. Colonial children learned "cyphering" from manuals such as
+      Nicolas Pike's New and Complete System of Arithmetic (1788), the first widely used American arithmetic.
+    sources:
+      - { label: "Hillsdale K-12 Curriculum Overview (Singapore Math sequence)", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
+
+  - id: mathematics-05
+    title: Mental Arithmetic & Fact Mastery (Ray's Intellectual Arithmetic)
+    type: unit
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 10
+    order: 5
+    prerequisites: [mathematics-04]
+    related: []
+    summary: >-
+      Daily oral work in the Pestalozzi–Colburn tradition. Children solve problems "in the head" and
+      explain their reasoning aloud, then memorize the multiplication and division tables through 12×12.
+      This is the nineteenth-century "intellectual arithmetic" that trained quick, confident
+      calculators, and it also trains articulate reasoning.
+    objectives:
+      - Recall all multiplication and division facts through 12×12 instantly
+      - Solve multi-step word problems mentally and explain the steps aloud
+      - Compute with fractions of simple quantities mentally
+    coreTexts:
+      - title: Ray's New Intellectual Arithmetic
+        author: Joseph Ray
+        date: "1877"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/raysnewintellect00rayjrich" }
+    curriculumOptions:
+      - name: Multiplication & Division Flashcards
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/app/flashcards/multiplication-flashcards/"
+        notes: Simple daily drill.
+      - name: Rod & Staff Speed Drill Packet
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/math/rod-staff-speed-drill-packet/"
+        notes: Timed fact sheets.
+    historicalPrecedent: >-
+      Warren Colburn's First Lessons in Intellectual Arithmetic (1821) and Ray's Intellectual Arithmetic
+      made oral mental arithmetic a standard daily exercise in American common schools through the
+      1800s.
+    notes: 10–15 minutes daily, run in parallel with the written arithmetic course.
+
+  - id: mathematics-06
+    title: "Arithmetic II: Multiplication, Fractions, Decimals & Problem Solving"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 10
+    order: 6
+    prerequisites: [mathematics-04, mathematics-05]
+    related: []
+    summary: >-
+      Long multiplication and division, fractions, decimals, percent, ratio, area and volume, and
+      multi-step problems. Pair a solid core text with a harder problem-solving strand (Beast Academy)
+      so that capable children are stretched rather than merely drilled. Ray's Practical Arithmetic
+      provides the classic applications to commerce: interest, measures and business.
+    objectives:
+      - Multiply and divide multi-digit numbers accurately with standard algorithms
+      - Add, subtract, multiply and divide fractions and decimals
+      - Solve ratio, percent and rate problems with bar models
+      - Compute area, perimeter and volume of basic figures
+    coreTexts:
+      - title: Ray's New Practical Arithmetic
+        author: Joseph Ray
+        date: "1877"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/raysnewpractica00raygoog" }
+    curriculumOptions:
+      - name: Beast Academy (levels 2–5)
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://beastacademy.com/"
+        notes: Comic-guided, challenging problem solving for gifted students. Pairs well with Singapore.
+      - name: Dimensions Math 3–5
+        publisher: Singapore Math Inc.
+        tradition: secular
+        url: "https://www.singaporemath.com/collections/dimensions-math-pk-5"
+        notes: Continues the Hillsdale K-12 sequence.
+      - name: Saxon Math (5/4–8/7)
+        publisher: HMH
+        tradition: secular
+        url: "https://www.hmhco.com/programs/saxon-math"
+        notes: Incremental spiral review, used widely by Catholic programs (Mother of Divine Grace, Seton) and classical homeschools. Less conceptual than Singapore.
+      - name: Math Mammoth
+        publisher: Math Mammoth
+        tradition: secular
+        url: "https://www.mathmammoth.com/"
+        notes: Inexpensive, mastery-based, self-teaching worktexts. A good independent option.
+      - name: "Math for Young Catholics"
+        publisher: Seton Press
+        tradition: catholic
+        url: "https://setonbooks.com/math/241-mathematics-1-for-young-catholics-.html"
+        notes: "Seton's own elementary series (grade 1 shown; later grades on the same site). A Catholic option, not a requirement."
+    historicalPrecedent: >-
+      Pike's Arithmetic (1788) and later Ray's Practical Arithmetic were used to teach the "rule of
+      three," interest, exchange and mensuration. That was the practical mathematics a merchant or
+      planter of the founding generation needed.
+    sources:
+      - { label: "Pike, A New and Complete System of Arithmetic (1797 ed.)", url: "https://archive.org/details/newandcompletesy00pikerich" }
+
+  - id: mathematics-07
+    title: Pre-Algebra & Higher Arithmetic
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10
+    ageEnd: 11
+    order: 7
+    prerequisites: [mathematics-06]
+    related: []
+    summary: >-
+      The bridge from arithmetic to algebra: integers and negative numbers, exponents, primes and
+      factorization, variables and simple equations, ratio and proportion, and an introduction to
+      geometric reasoning. AoPS Prealgebra teaches by posing problems before explaining. Ray's Higher
+      Arithmetic shows how far the nineteenth century carried pure arithmetic (roots, progressions,
+      mensuration).
+    objectives:
+      - Work fluently with integers, exponents, and prime factorization
+      - Solve linear equations in one variable and translate words into expressions
+      - Reason with ratio, rate and percent in multi-step problems
+      - Explain why arithmetic rules work, not just how
+    coreTexts:
+      - title: Ray's New Higher Arithmetic
+        author: Joseph Ray
+        date: "1880"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/raysnewhigherari00rayjrich" }
+    curriculumOptions:
+      - name: Prealgebra
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/prealgebra"
+        notes: First choice for strong students. Discovery-based and demanding.
+      - name: Memoria Pre-Algebra
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/math/memoria-pre-algebra-set/"
+        notes: Classical-school sequence with lesson plans.
+      - name: Dimensions Math 6–8
+        publisher: Singapore Math Inc.
+        tradition: secular
+        url: "https://www.singaporemath.com/collections/dimensions-math-6-8"
+        notes: Continues Hillsdale's Singapore sequence into pre-algebra.
+
+  - id: mathematics-08
+    title: "Number Theory & Competition Math I: MATHCOUNTS"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 13
+    order: 8
+    prerequisites: [mathematics-07]
+    related: []
+    summary: >-
+      Divisibility, primes, GCD/LCM, modular arithmetic and number bases, learned through contest
+      problems. MATHCOUNTS (grades 6–8) gives an accelerated student a team, deadlines and a scoreboard.
+      It builds speed and the habit of attacking unfamiliar problems.
+    objectives:
+      - Use divisibility rules, prime factorization, GCD and LCM in problems
+      - Compute in modular arithmetic and convert between number bases
+      - Compete in MATHCOUNTS at school/chapter level
+    curriculumOptions:
+      - name: Introduction to Number Theory
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/intro-number-theory"
+        notes: Standard text for strong middle schoolers.
+      - name: MATHCOUNTS Competition Program
+        publisher: MATHCOUNTS Foundation
+        tradition: secular
+        url: "https://www.mathcounts.org/"
+        notes: National middle-school competition. Free problem archives.
+    coreTexts:
+      - title: Essays on the Theory of Numbers
+        author: Richard Dedekind
+        date: "1872/1888"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21016" }
+    notes: >-
+      Standard for every student (family decision), not optional enrichment. Save Dedekind for later
+      rereading (mathematics-21). It is listed here as the classic foundation of the number concept.
+
+  - id: mathematics-09
+    title: Algebra I
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12
+    order: 9
+    prerequisites: [mathematics-07]
+    related: []
+    summary: >-
+      Linear equations and inequalities, systems, functions and graphs, polynomials and factoring,
+      radicals, and quadratics. Choose a rigorous text: AoPS for the mathematically gifted, Jacobs for
+      a clear and engaging standard course. Dolciani's mid-century Structure and Method, now out of print
+      but available used, is the traditional rigorous alternative.
+    objectives:
+      - Solve and graph linear equations, inequalities and systems
+      - Factor polynomials and solve quadratics by factoring, completing the square and formula
+      - Understand functions and read graphs
+      - Write clear algebraic justifications for each step
+    curriculumOptions:
+      - name: Introduction to Algebra
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/intro-algebra"
+        notes: Covers Algebra I and much of Algebra II. Best for strong students.
+      - name: Elementary Algebra (Harold Jacobs)
+        publisher: Master Books
+        tradition: protestant
+        url: "https://www.masterbooks.com/elementary-algebra-set"
+        notes: Jacobs's classic, clear and witty text. Master Books is an evangelical publisher, but the math content is standard.
+      - name: Memoria Algebra I
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/math/memoria-algebra-i-set/"
+        notes: Classical-school course with lesson plans and video support.
+      - name: Algebra 1 / Honors Algebra 1 (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online school course catalog, for live or self-paced instruction.
+      - name: "Saxon-based course syllabi"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://modg.org/curriculum/syllabi"
+        notes: "MODG publishes Saxon Algebra 1/2, Algebra I, Algebra II and Advanced Math syllabi. A Catholic option, not a requirement."
+
+  - id: mathematics-10
+    title: "Euclid's Elements I: Books I–IV & Demonstrative Geometry"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 10
+    prerequisites: [mathematics-09]
+    related: [logic-03, philosophy-05]
+    summary: >-
+      Geometry learned from the source. Students read, construct (compass and straightedge) and recite
+      the propositions of Euclid Books I–IV, from the definitions and postulates through the
+      Pythagorean theorem and the constructions of polygons. Byrne's colored 1847 edition helps visual
+      learners, and a modern text (Jacobs, Kiselev or AoPS) supplies exercises and coordinate
+      connections. This is the course where the student learns what a proof is.
+    objectives:
+      - State definitions, postulates and common notions and use them in demonstrations
+      - Construct and demonstrate Books I–IV propositions at the board from memory
+      - Prove the Pythagorean theorem (I.47) and its converse
+      - Solve modern geometry problems on congruence, similarity, area and circles
+    coreTexts:
+      - title: "Elements, Books I–VI (Heath translation)"
+        author: Euclid, trans. T. L. Heath
+        date: "c. 300 BC (trans. 1908)"
+        publicDomain: true
+        links:
+          - { label: Perseus Digital Library, url: "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0086" }
+          - { label: "David Joyce's Elements (Clark University)", url: "https://mathcs.clarku.edu/~djoyce/elements/elements.html" }
+      - title: The First Six Books of the Elements of Euclid (colored diagrams)
+        author: Oliver Byrne
+        date: "1847"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/firstsixbooksofe00byrn" }
+      - title: The First Six Books of the Elements of Euclid
+        author: John Casey
+        date: "1880s"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21076" }
+    curriculumOptions:
+      - name: "Euclid's Elements (Densmore ed., Heath trans.)"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/EuclidsElements.html"
+        notes: All thirteen books in one volume, the edition used at St. John's College. A companion "Book One with Questions for Discussion" is also available.
+      - name: "Geometry: Seeing, Doing, Understanding (Harold Jacobs)"
+        publisher: Master Books
+        tradition: protestant
+        url: "https://www.masterbooks.com/geometry-curriculum"
+        notes: Best-loved modern proof-based high-school geometry. Evangelical publisher, standard math.
+      - name: "Kiselev's Geometry, Book I: Planimetry"
+        publisher: Sumizdat
+        tradition: classical
+        url: "https://www.sumizdat.org/pl_ebook.shtml"
+        notes: Kiselev's classic Russian gymnasium text, adapted by A. Givental. Rigorous and elegant.
+      - name: Introduction to Geometry
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/intro-geometry"
+        notes: Problem-heavy. Best for competition-bound students.
+    historicalPrecedent: >-
+      Euclid was the core of geometry at Harvard, Yale and William & Mary, and at Eton and Rugby, into
+      the 1800s. Hillsdale K-12 still teaches "Euclid's principles, constructions and proofs throughout"
+      its geometry course. Jefferson in retirement wrote that he had given up newspapers "for Newton &
+      Euclid."
+    sources:
+      - { label: "Jefferson to John Adams, 21 Jan. 1812 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/03-04-02-0334" }
+      - { label: "Hillsdale K-12 Curriculum Overview", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
+    notes: Plato's Meno (the slave-boy geometry lesson) makes an ideal companion reading.
+
+  - id: mathematics-11
+    title: "Algebra II & Gelfand's Algebra"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 13.5
+    order: 11
+    prerequisites: [mathematics-09]
+    related: []
+    summary: >-
+      Polynomial, rational, exponential and logarithmic functions, complex numbers, sequences and series,
+      and conic sections. Gelfand and Shen's Algebra, written for the Moscow correspondence school, adds
+      the elegant problem-driven perspective of the Russian tradition.
+    objectives:
+      - Analyze polynomial, rational, exponential and logarithmic functions
+      - Work with complex numbers and the binomial theorem
+      - Sum arithmetic and geometric series and use induction informally
+    coreTexts:
+      - title: Algebra
+        author: I. M. Gelfand and A. Shen
+        date: "1993"
+        publicDomain: false
+        links:
+          - { label: Springer (Birkhäuser), url: "https://link.springer.com/book/9780817636777" }
+    curriculumOptions:
+      - name: Intermediate Algebra
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/intermediate-algebra"
+        notes: Demanding. Covers AMC/AIME-level algebra.
+      - name: Memoria Algebra II
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/math/memoria-algebra-ii-set/"
+        notes: Classical-school sequence.
+      - name: Honors Algebra 2/Trig (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online option.
+      - name: "Saxon-based course syllabi"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://modg.org/curriculum/syllabi"
+        notes: "MODG publishes Saxon Algebra 1/2, Algebra I, Algebra II and Advanced Math syllabi. A Catholic option, not a requirement."
+    notes: >-
+      Foerster's Algebra and Trigonometry (Pearson/Prentice Hall) is a widely praised traditional
+      alternative, but no current publisher page was verified.
+
+  - id: mathematics-12
+    title: "Euclid's Elements II: Books V–VI, Nicomachus & Archimedes"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 12
+    prerequisites: [mathematics-10]
+    related: []
+    summary: >-
+      Eudoxus's theory of proportion (Book V) and similar figures (Book VI). This is the ancient answer
+      to incommensurable magnitudes and the root of the real numbers. Read beside Nicomachus's
+      Introduction to Arithmetic (the medieval quadrivium's arithmetic) and Archimedes's Measurement of
+      a Circle and On the Equilibrium of Planes, which show Greek geometry applied to measurement and
+      mechanics.
+    objectives:
+      - Follow Euclid's definition of same ratio (V, Def. 5) and prove key proportion theorems
+      - Demonstrate Book VI similarity theorems
+      - Reproduce Archimedes's bounds for π from inscribed and circumscribed polygons
+      - Explain the Pythagorean/Nicomachean classification of numbers
+    coreTexts:
+      - title: The First Six Books of the Elements of Euclid
+        author: Oliver Byrne
+        date: "1847"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/firstsixbooksofe00byrn" }
+      - title: The Works of Archimedes
+        author: Archimedes, ed. T. L. Heath
+        date: "1897"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/worksofarchimede029517mbp" }
+      - title: Introduction to Arithmetic
+        author: Nicomachus of Gerasa (trans. M. L. D'Ooge)
+        date: "c. AD 100 (trans. 1926)"
+        publicDomain: true
+    curriculumOptions:
+      - name: "Euclid's Elements (Densmore ed.)"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/EuclidsElements.html"
+        notes: Continue in the same edition.
+    historicalPrecedent: >-
+      Nicomachus's Arithmetic, through Boethius's Latin adaptation, was the standard arithmetic of the
+      medieval quadrivium. Archimedes's works were core reading for the mathematicians of the Scientific
+      Revolution.
+    notes: No verified free edition of D'Ooge's Nicomachus translation was found. It is included in Great Books of the Western World vol. 11.
+
+  - id: mathematics-13
+    title: "Precalculus & Trigonometry (with Gelfand's Trigonometry and Method of Coordinates)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 13
+    prerequisites: [mathematics-10, mathematics-11]
+    related: []
+    summary: >-
+      Trigonometric functions and identities, the unit circle, vectors, polar coordinates, complex
+      numbers in polar form, matrices, and limits as a preview of calculus. Gelfand's short books,
+      Trigonometry, Functions and Graphs, and The Method of Coordinates, teach the student to think
+      geometrically about algebra.
+    objectives:
+      - Solve triangles with the laws of sines and cosines
+      - Prove and apply trigonometric identities
+      - Graph and transform functions and use polar and parametric coordinates
+      - Use vectors and matrices for basic geometric problems
+    coreTexts:
+      - title: Trigonometry
+        author: I. M. Gelfand and M. Saul
+        date: "2001"
+        publicDomain: false
+        links:
+          - { label: Springer (Birkhäuser), url: "https://link.springer.com/book/10.1007/978-1-4612-0149-6" }
+      - title: The Method of Coordinates
+        author: I. M. Gelfand, E. G. Glagoleva, A. A. Kirillov
+        date: "1990"
+        publicDomain: false
+        links:
+          - { label: Springer (Birkhäuser), url: "https://link.springer.com/book/9780817635336" }
+      - title: Functions and Graphs
+        author: I. M. Gelfand, E. G. Glagoleva, E. E. Shnol
+        date: "1990"
+        publicDomain: false
+        links:
+          - { label: Springer (Birkhäuser), url: "https://link.springer.com/book/9780817635329" }
+    curriculumOptions:
+      - name: Precalculus
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/precalculus"
+        notes: Rigorous, with complex numbers and linear algebra previews.
+      - name: Precalculus Lesson Plans
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/math/precalculus-lessons/"
+        notes: Classical-school scheduling support.
+      - name: "Saxon-based course syllabi"
+        publisher: Mother of Divine Grace School
+        tradition: catholic
+        url: "https://modg.org/curriculum/syllabi"
+        notes: "MODG publishes Saxon Algebra 1/2, Algebra I, Algebra II and Advanced Math syllabi. A Catholic option, not a requirement."
+
+  - id: mathematics-14
+    title: "Competition Math II: AMC 10/12 & AIME"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 14
+    prerequisites: [mathematics-08, mathematics-11]
+    related: []
+    summary: >-
+      A standing problem-solving seminar alongside the main sequence. Students prepare for the American
+      Mathematics Competitions (AMC 10/12) and the AIME, working through algebra, combinatorics, number
+      theory and geometry problems well beyond the textbook. The aim is resourcefulness, not trophies.
+    objectives:
+      - Sit the AMC 10/12 annually and qualify for the AIME
+      - Write up complete solutions to olympiad-style problems
+      - Build a personal toolkit of problem-solving strategies
+    curriculumOptions:
+      - name: American Mathematics Competitions
+        publisher: Mathematical Association of America
+        tradition: secular
+        url: "https://maa.org/student-programs/amc/"
+        notes: AMC 8/10/12, AIME, USAMO pathway.
+      - name: Introduction to Counting & Probability
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/intro-counting"
+        notes: Core AMC combinatorics text.
+    notes: >-
+      Standard for every student (family decision), not optional enrichment.
+
+  - id: mathematics-15
+    title: "Practical Mathematics: Surveying, Navigation & Measurement"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14.5
+    order: 15
+    prerequisites: [mathematics-13]
+    related: [practical-arts-09, practical-arts-14]
+    summary: >-
+      The founders' applied mathematics. Students survey a field with chain (or tape), compass and a
+      homemade theodolite, compute areas by triangulation, plot the plat, and learn celestial
+      navigation basics (latitude from the sun or Polaris). This is trigonometry made concrete, as
+      Washington learned it at 16.
+    objectives:
+      - Measure distances and angles and compute unknown sides by trigonometry
+      - Survey and plat a real parcel of land, computing its area
+      - Determine latitude by sun or Polaris sighting
+    historicalPrecedent: >-
+      George Washington taught himself surveying from geometry and trigonometry texts and was commissioned
+      county surveyor of Culpeper in 1749 at 17. Jefferson and Franklin both prized practical
+      mathematics for surveying, astronomy and invention.
+    sources:
+      - { label: "Mount Vernon: Surveying (Washington's career)", url: "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/surveying/" }
+    notes: Pairs naturally with practical-arts and natural-science astronomy units.
+
+  - id: mathematics-16
+    title: Counting, Probability & Statistics
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14.5
+    order: 16
+    prerequisites: [mathematics-11]
+    related: []
+    summary: >-
+      Combinatorics and probability (permutations, combinations, expected value, conditional
+      probability), then descriptive and inferential statistics: distributions, sampling, confidence
+      intervals, hypothesis tests and regression. The civic aim is to read polls, studies and economic
+      data critically.
+    objectives:
+      - Count arrangements and selections and compute probabilities
+      - Summarize data and interpret distributions
+      - Construct confidence intervals and conduct basic hypothesis tests
+      - Critique misleading statistics in news and policy debates
+    curriculumOptions:
+      - name: Introduction to Counting & Probability
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/intro-counting"
+        notes: Rigorous probability foundation.
+      - name: OpenIntro Statistics
+        publisher: OpenIntro
+        tradition: secular
+        url: "https://www.openintro.org/book/os/"
+        notes: Free, high-quality introductory statistics (AP level).
+      - name: Introductory Statistics 2e
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/introductory-statistics-2e"
+        notes: Free alternative.
+
+  - id: mathematics-17
+    title: "Proof Writing: How to Prove It"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 17
+    prerequisites: [mathematics-10, mathematics-11]
+    related: [logic-07]
+    summary: >-
+      A bridge from Euclidean demonstration to modern proof. Students study logic, sets, relations,
+      functions, and induction, and write proofs in clear mathematical prose. This prepares them for
+      Spivak-style calculus and for college analysis.
+    objectives:
+      - Write direct, contrapositive, contradiction and induction proofs
+      - Use quantifiers, sets, relations and functions precisely
+      - Critique and revise proofs for rigor and clarity
+    coreTexts:
+      - title: "How to Prove It: A Structured Approach"
+        author: Daniel J. Velleman
+        date: "2019 (3rd ed.)"
+        publicDomain: false
+        links:
+          - { label: Cambridge University Press, url: "https://www.cambridge.org/highereducation/books/how-to-prove-it/6D2965D625C6836CD4A785A2C843B3DA" }
+
+  - id: mathematics-18
+    title: "Calculus (with Thompson, Newton & a Modern Text)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16
+    order: 18
+    prerequisites: [mathematics-13, mathematics-17]
+    related: []
+    summary: >-
+      Single-variable calculus to AP BC level and beyond: limits, derivatives, integrals, the
+      fundamental theorem, series, and differential equations. Begin with Thompson's Calculus Made Easy
+      ("What one fool can do, another can"). Then take a full course in Stewart (standard), Spivak (honors
+      and proof-based) or Apostol. Read Newton's own lemmas on first and last ratios from the Principia
+      to see where the ideas came from.
+    objectives:
+      - Differentiate and integrate elementary functions and apply them to motion, area and optimization
+      - State and prove the fundamental theorem of calculus
+      - Work with sequences, series and Taylor polynomials
+      - Read Newton's Principia Book I, Section 1 (first and last ratios) with understanding
+    coreTexts:
+      - title: Calculus Made Easy
+        author: Silvanus P. Thompson
+        date: "1910"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33283" }
+      - title: "The Mathematical Principles of Natural Philosophy (Principia), Book I §1"
+        author: Isaac Newton, trans. Andrew Motte
+        date: "1687 (trans. 1729)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
+    curriculumOptions:
+      - name: "Calculus, 4th ed. (Michael Spivak)"
+        publisher: Publish or Perish
+        tradition: secular
+        url: "https://www.mathpop.com/products/calculus-4th-edition"
+        notes: The honors choice. Proof-based and beautiful. Take after proof writing.
+      - name: "Calculus, Vol. 1 (Tom Apostol)"
+        publisher: Wiley
+        tradition: secular
+        url: "https://www.wiley.com/en-us/Calculus%2C+Volume+1%2C+2nd+Edition-p-9780471000051"
+        notes: Rigorous, integral-first, with linear algebra. Excellent for the mathematically inclined.
+      - name: Stewart Calculus
+        publisher: Cengage
+        tradition: secular
+        url: "https://www.stewartcalculus.com/"
+        notes: The standard AP/college text, with abundant exercises.
+      - name: Calculus
+        publisher: Art of Problem Solving
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/calculus"
+        notes: Rigorous, concise alternative.
+      - name: Honors Calculus / AP Calculus AB (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online option.
+    historicalPrecedent: >-
+      Newton's natural philosophy was taught at colonial colleges from the 1720s. Isaac Greenwood,
+      Harvard's first Hollis Professor of Mathematics and Natural Philosophy (1727), and his successor
+      John Winthrop brought Newtonian fluxions into American teaching.
+
+  - id: mathematics-19
+    title: Linear Algebra
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 17.5
+    order: 19
+    prerequisites: [mathematics-17, mathematics-18]
+    related: []
+    summary: >-
+      Vectors, matrices, linear systems, vector spaces, linear maps, determinants, eigenvalues and inner
+      products. Strang's MIT course gives the computational and applied view. Axler's Linear Algebra
+      Done Right gives the proof-based, structural view.
+    objectives:
+      - Solve linear systems and interpret them geometrically
+      - Prove basic theorems about vector spaces and linear maps
+      - Compute and apply eigenvalues, eigenvectors and orthogonal projections
+    curriculumOptions:
+      - name: "Introduction to Linear Algebra (Gilbert Strang) + MIT 18.06"
+        publisher: Wellesley-Cambridge Press / MIT OpenCourseWare
+        tradition: secular
+        url: "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/"
+        notes: Free video lectures. The book is at https://math.mit.edu/~gs/linearalgebra/.
+      - name: "Linear Algebra Done Right (Sheldon Axler)"
+        publisher: Springer (open access)
+        tradition: secular
+        url: "https://linear.axler.net/"
+        notes: Free PDF. Proof-based second course.
+
+  - id: mathematics-20
+    title: Multivariable Calculus & Introduction to Real Analysis
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 20
+    prerequisites: [mathematics-18, mathematics-19]
+    related: []
+    summary: >-
+      Partial derivatives, multiple integrals, vector calculus (Green, Stokes, divergence theorems), then
+      a first rigorous course in analysis: the real numbers, sequences, continuity, differentiation and
+      Riemann integration proved from the ground up.
+    objectives:
+      - Compute multiple and line integrals and apply the vector calculus theorems
+      - Construct epsilon-delta proofs about limits and continuity
+      - Prove the main theorems of single-variable analysis (IVT, MVT, FTC)
+    curriculumOptions:
+      - name: MIT 18.02 Multivariable Calculus
+        publisher: MIT OpenCourseWare
+        tradition: secular
+        url: "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/"
+        notes: Free full course.
+      - name: "Vector Calculus, Linear Algebra, and Differential Forms (Hubbard & Hubbard)"
+        publisher: Matrix Editions
+        tradition: secular
+        url: "https://matrixeditions.com/"
+        notes: Unified rigorous treatment, for the strongest students.
+      - name: "Understanding Analysis (Stephen Abbott)"
+        publisher: Springer
+        tradition: secular
+        url: "https://link.springer.com/book/10.1007/978-1-4939-2712-8"
+        notes: The most readable first analysis text.
+
+  - id: mathematics-21
+    title: "College Tutorial: The Great Mathematical Books (St. John's Model)"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 21
+    prerequisites: [mathematics-12, mathematics-18]
+    related: [philosophy-09]
+    summary: >-
+      A St. John's College–style mathematics tutorial. Students read the originals and demonstrate them
+      at the board: Ptolemy's Almagest (chord tables and planetary models), Apollonius's Conics, Descartes's
+      Geometry (the birth of analytic geometry), Newton's Principia, Lobachevsky's non-Euclidean
+      Geometrical Researches, and Dedekind's essays on continuity and number. The aim is to understand
+      how mathematics was discovered and what its first principles are.
+    objectives:
+      - Demonstrate selected propositions of Apollonius and Ptolemy
+      - Reconstruct Descartes's solution of Pappus's problem
+      - Follow Lobachevsky's construction of a geometry without the parallel postulate
+      - Explain Dedekind's construction of the real numbers by cuts
+    coreTexts:
+      - title: The Geometry of René Descartes (Smith & Latham trans.)
+        author: René Descartes
+        date: "1637 (trans. 1925)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/geometryofrenede0000unse_y3h6" }
+          - { label: "Project Gutenberg (French)", url: "https://www.gutenberg.org/ebooks/26400" }
+      - title: Geometrical Researches on the Theory of Parallels
+        author: Nikolai Lobachevsky, trans. G. B. Halsted
+        date: "1840 (trans. 1891)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/geometricalresea00loba" }
+      - title: Essays on the Theory of Numbers
+        author: Richard Dedekind
+        date: "1872/1888"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21016" }
+      - title: Principia
+        author: Isaac Newton, trans. Andrew Motte
+        date: "1687"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
+    curriculumOptions:
+      - name: "Conics: Books I–IV (Apollonius)"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/ApolloniusConics.html"
+        notes: Taliaferro translation used in the St. John's tutorial.
+      - name: "The Almagest: Introduction to the Mathematics of the Heavens (Ptolemy)"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/PtolemyAlmagest.html"
+        notes: Selections prepared for tutorial use.
+      - name: "Newton's Principia: The Central Argument"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/NewtonPrincipia.html"
+        notes: Densmore's guided translation.
+    historicalPrecedent: >-
+      Colonial colleges taught arithmetic, geometry and astronomy (Harvard from 1640s; Isaac
+      Greenwood's and John Winthrop's Hollis professorship from 1727/1738). St. John's College has
+      preserved a great-books mathematics tutorial since 1937, and Thomas Aquinas College's curriculum
+      likewise reads Euclid, Ptolemy, Apollonius and Descartes.
+    sources:
+      - { label: "St. John's College Great Books Reading List", url: "https://www.sjc.edu/academic-programs/undergraduate/great-books-reading-list" }
+      - { label: "Thomas Aquinas College: Why We Study Mathematics", url: "https://www.thomasaquinas.edu/a-liberating-education/why-we-study/why-we-study-mathematics" }

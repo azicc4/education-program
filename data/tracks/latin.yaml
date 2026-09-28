@@ -1,0 +1,1028 @@
+track: latin
+title: Latin
+trackGroup: Languages
+description: >-
+  Latin is the spine of the language program and the gateway to the Western and Catholic
+  intellectual tradition. The arc follows the historical grammar-school sequence (Boston Latin
+  School, 1789: Accidence, Corderius and Aesop, then Eutropius, then Caesar, Cicero, Ovid and
+  Virgil, with "making Latin" throughout). It moves from chants and vocabulary at 7, through
+  complete mastery of forms and syntax by about 12, graded readers, and the school authors
+  (Caesar, Nepos, Ovid, Cicero, Virgil, Livy, Sallust, Horace). Ecclesiastical Latin (Vulgate,
+  hymns, liturgy, Augustine and Aquinas) runs alongside, and prose and verse composition run
+  throughout. At college level (17–18) the student reads Lucretius, Tacitus, Augustine and
+  Aquinas in the original. End state: the old Harvard admission standard. The student reads
+  Cicero and Virgil "ex tempore", writes correct Latin prose, and can pick up any Latin text,
+  classical, patristic, scholastic or Neo-Latin, and read it with a dictionary close at hand but
+  rarely opened.
+rows:
+  - id: latin-01
+    title: "Latin I: Song School & Prima Latina"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [greek-01]
+    summary: >-
+      A gentle, oral-first start. The child chants noun and verb endings, learns about 100–150
+      everyday and Church words, recites Latin prayers (Pater Noster, Ave Maria, Gloria Patri)
+      and picks up English grammar terms along the way. The aim is joy, pronunciation and
+      memory. Translation is kept to a minimum.
+    objectives:
+      - Pronounce Latin correctly in the ecclesiastical (Italianate) pronunciation
+      - Chant first-conjugation verb endings and first- and second-declension noun endings
+      - Know about 100–150 vocabulary words with English derivatives
+      - Recite the Pater Noster, Ave Maria, Gloria Patri and Signum Crucis from memory
+      - Identify nouns, verbs and adjectives in simple English and Latin sentences
+    curriculumOptions:
+      - name: Prima Latina
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/prima-latina-set/"
+        notes: >-
+          Grades 1–4. 25 short lessons with Latin prayers and ecclesiastical pronunciation. Feeds
+          straight into Latina Christiana. Written by a Catholic author, so it has a Christian
+          flavour without being denominational.
+      - name: Song School Latin (Books 1 & 2)
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-song-school-latin"
+        notes: >-
+          The most playful option, with songs, stories and a video teacher. Book 2 leads into
+          Latin for Children. Book 1 alone is enough for an accelerated 7-year-old.
+      - name: "Latin's Not So Tough! (Levels 1–2)"
+        publisher: Greek 'n' Stuff (Karen Mohs)
+        tradition: protestant
+        url: "https://www.greeknstuff.com/latin.html"
+        notes: Inexpensive workbooks built on short daily lessons. Good for independent seat-work.
+    historicalPrecedent: >-
+      Jefferson "was placed at the Latin at 9" under the Rev. William Douglas (Autobiography,
+      1821). In colonial Boston the first-year books were Cheever's Accidence, a small
+      Nomenclator (vocabulary) and Corderius's Colloquies (H. G. Otis's recollection of the early
+      1770s). J. S. Mill began Latin "in my eighth year".
+    sources:
+      - { label: "Jefferson, Autobiography (1821), Avalon Project", url: "https://avalon.law.yale.edu/19th_century/jeffauto.asp" }
+      - { label: "J. S. Mill, Autobiography (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/10378" }
+      - { label: "Hillsdale College, A Proper Understanding of K-12 Education (includes 'Why Learn Latin')", url: "https://online.hillsdale.edu/courses/k-12-education" }
+    notes: >-
+      Pronunciation (family decision): ecclesiastical (Italianate) first, the Catholic and Memoria Press
+      default, which matches chant, the Mass and the Hours. Restored classical pronunciation is
+      introduced later for reading Virgil and the poets aloud (see latin-12), so the student can use
+      both.
+
+  - id: latin-02
+    title: "Latin II: Latina Christiana / Latin for Children"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 9
+    order: 2
+    prerequisites: [latin-01]
+    summary: >-
+      The first real grammar year. The student learns all five declensions in outline, the first
+      and second conjugations in the active indicative, the verb sum, and about 250 more words. He
+      begins translating short sentences both ways. Roman and Church history readings give the
+      vocabulary a setting.
+    objectives:
+      - Decline first-, second- and third-declension nouns and 1st/2nd-declension adjectives
+      - Conjugate first- and second-conjugation verbs in the six active indicative tenses
+      - Translate simple Latin sentences into English and English sentences into Latin
+      - Know about 300–400 cumulative vocabulary words and 100+ English derivatives
+      - Sing or recite a few Latin hymns and sayings (e.g. Adeste Fideles, Veni Creator)
+    curriculumOptions:
+      - name: Latina Christiana I
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/latina-christiana-set/"
+        notes: Cheryl Lowe's classic. Memoria recommends moving straight on to First Form afterwards.
+      - name: Latin for Children, Primer A (and B)
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-latin-for-children"
+        notes: >-
+          Chant-driven, with a video/audio course and a History Reader. Offers both pronunciations.
+          Primers A–C together cover about the same ground as Latina Christiana plus First Form.
+      - name: Latin Primer 1
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/latin-primer-1-package"
+        notes: >-
+          The Douglas Wilson / Logos School tradition. Mostly memorizing vocabulary and endings.
+    historicalPrecedent: >-
+      Boston's 1789 school committee set the youngest Latin class on Cheever's Accidence,
+      Corderius's Colloquies (Latin and English), the Nomenclator and Aesop's Fables (Latin and
+      English), then Ward's Latin Grammar or Eutropius.
+    sources:
+      - { label: "Catalogue of the Boston Public Latin School (1886), incl. 1789 votes & Otis recollection", url: "https://archive.org/details/catalogueofbosto00bostuoft" }
+
+  - id: latin-03
+    title: "Latin III: First & Second Form Latin (Forms Mastery)"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 10.5
+    order: 3
+    prerequisites: [latin-02]
+    summary: >-
+      Grammar-first mastery of the Latin forms: all conjugations in the active and passive, all
+      five declensions, pronouns, and adjectives of the third declension. The work is drilled to
+      automaticity through daily recitation, so that later reading years are spent on meaning and
+      not on paradigms.
+    objectives:
+      - Conjugate any regular verb in all indicative tenses, active and passive
+      - Decline all five declensions, i-stems, and personal, demonstrative and relative pronouns
+      - Parse any regular noun or verb form on sight (person, number, tense, voice, case)
+      - Translate connected sentences of 10–15 words
+      - Write the grammar recitation (all paradigms) from memory in under 20 minutes
+    curriculumOptions:
+      - name: First Form & Second Form Latin
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/first-form-latin-set/"
+        notes: >-
+          "Grammar-first" design. Streaming video lessons are available. Second Form set:
+          https://www.memoriapress.com/curriculum/latin/second-form-latin-set/
+      - name: Latin for Children, Primers B & C
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-latin-for-children"
+        notes: Continues the CAP chant approach. Leads into Latin Alive! for upper grades.
+      - name: Latin Primer 2 & 3
+        publisher: Canon Press
+        tradition: protestant
+        url: "https://canonpress.com/products/latin-primer-2-package"
+        notes: Continuation of the Canon sequence.
+
+  - id: latin-04
+    title: "Latin IV: Grammar Completion (Syntax & the Subjunctive)"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 10
+    ageEnd: 12
+    order: 4
+    prerequisites: [latin-03]
+    summary: >-
+      This year completes the whole of Latin grammar: participles, infinitives and indirect
+      statement, the subjunctive and its uses (purpose, result, cum-clauses, indirect question,
+      conditions), gerunds and gerundives, and deponent verbs. Choose one main text. The three
+      options stand for three pedagogies: the Catholic Jesuit grammar-translation approach
+      (Henle), the university compressed course (Wheelock), and the natural or reading method
+      (Ørberg). Many families pair Ørberg with one of the others.
+    objectives:
+      - Master the subjunctive mood and the sequence of tenses
+      - Translate ablative absolutes, indirect statement, gerunds and gerundives accurately
+      - Read 20–30 lines of adapted connected Latin at a sitting without looking up forms
+      - Command a working vocabulary of about 1,000 words (DCC Latin Core List)
+    coreTexts:
+      - title: Latin Core Vocabulary (1,000 most common words)
+        author: Dickinson College Commentaries
+        publicDomain: false
+        links:
+          - { label: DCC (free online), url: "https://dcc.dickinson.edu/latin-core-list1" }
+    curriculumOptions:
+      - name: Henle Latin, First Year (with Memoria Press guides)
+        publisher: Memoria Press / Loyola Press (Robert J. Henle, S.J.)
+        tradition: catholic
+        url: "https://www.memoriapress.com/curriculum/latin/henle-latin-i-set/"
+        notes: >-
+          The 1945 Jesuit series that descends from the Ratio Studiorum. Its exercises mix Roman,
+          American and Christian content. Memoria's Third and Fourth Form cover the same syntax
+          for younger students. Also sold by Christianbook
+          (https://www.christianbook.com/henle-latin-1-text-first-year/robert-henle/9780829410266/pd/646687).
+      - name: Wheelock's Latin (7th ed.)
+        publisher: HarperCollins
+        tradition: secular
+        url: "https://www.harpercollins.com/products/wheelocks-latin-7th-edition-frederic-m-wheelockrichard-a-lafleur"
+        notes: >-
+          The standard US college text, with every chapter built on real sentences from Cicero,
+          Virgil and others. Too dense for most 10-year-olds unless paced over two years.
+      - name: "Lingua Latina per se Illustrata, Pars I: Familia Romana"
+        publisher: Hackett Publishing (Hans Ørberg)
+        tradition: secular
+        url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series/familia-romana-part-i"
+        notes: >-
+          The whole book is in Latin, and grammar is learned from context. It builds real reading
+          fluency and pairs well with Henle or Wheelock for explicit grammar. Pars II (Roma
+          Aeterna) moves into Livy, Virgil and Cicero.
+      - name: North American Cambridge Latin Course (Units 1–4)
+        publisher: Cambridge University Press
+        tradition: secular
+        url: "https://www.cambridge.org/us/education/subject/classics/latin/north-american-cambridge-latin-course-5th-edition"
+        notes: >-
+          A story-based reading course set in Pompeii, Roman Britain and Rome. Rich in culture
+          but slower on forms. Best used as a supplementary reader, not as the main grammar here.
+      - name: "Ossa Latinitatis Sola: The Mere Bones of Latin (Latinitatis Corpus I)"
+        publisher: Catholic University of America Press (Reginald Foster & Daniel McCarthy)
+        tradition: catholic
+        url: "https://www.cuapress.org/9780813228327/ossa-latinitatis-sola-ad-mentem-reginaldi-rationemque/"
+        notes: >-
+          The method of Fr. Reginald Foster, O.C.D., papal Latinist 1969–2009, set out in 105
+          "encounters" over three "Experiences" and read from real Latin of every age, pagan and
+          Christian, from the start. It is written for adults, so a parent works through it
+          alongside the child or it is used from about 12 as a second pass after Henle or
+          Wheelock. Fr. McCarthy's site (https://thelatinlanguage.org/ossa/) has readings, errata
+          and course listings. The Liturgy Institute (London) teaches two-week online and in-person
+          courses straight from the book, with Pooley's Ossa Ostensa workbook; they admit adults
+          (18+), so they suit a parent learning ahead of the child
+          (https://liturgyinstitute.org/la411/). Ossium Carnes Multae (latin-11) continues the method.
+    historicalPrecedent: >-
+      The Jesuit Ratio Studiorum (1599) set out three grammar classes (lower, middle and upper)
+      before Humanities and Rhetoric. Henle's four-year series is its twentieth-century American
+      heir.
+    notes: >-
+      A Catholic/Protestant difference: Henle's reading content is openly Catholic (saints, the
+      Church, Christian Rome). Protestant classical schools (Classical Conversations Challenge,
+      for example) also use Henle widely and simply read past the confessional material.
+
+  - id: latin-05
+    title: "Graded Readers: Fabulae Faciles, Corderius, Erasmus & Eutropius"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 10.5
+    ageEnd: 12
+    order: 5
+    prerequisites: [latin-03]
+    related: [greek-07]
+    summary: >-
+      Wide, easy, connected reading alongside grammar completion. Ritchie's Fabulae Faciles tells
+      the stories of Perseus, Hercules, the Argonauts and Ulysses in simplified Latin. Corderius's
+      and Erasmus's Colloquies are the school dialogues colonial boys actually read. Eutropius's
+      Breviarium gives the whole of Roman history in plain classical prose. The goal is volume
+      and speed.
+    objectives:
+      - Read Fabulae Faciles through, about 60 pages of Latin
+      - Read 20+ of Corderius's and several of Erasmus's Colloquies, and act out one aloud
+      - Read Eutropius Books I–II (kings and early Republic) as a historical reader
+      - Sustain 15 minutes of reading without stopping to parse every word
+    coreTexts:
+      - title: "Ritchie's Fabulae Faciles: A First Latin Reader"
+        author: Francis Ritchie (ed. J. C. Kirtland)
+        date: "1884 (US ed. 1903)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8997" }
+          - { label: "Steadman edition with facing vocabulary (free PDF)", url: "https://geoffreysteadman.com/ritchies-fabulae-faciles/" }
+      - title: "Colloquiorum Centuria Selecta (Corderius's school colloquies, Willymot ed.)"
+        author: Mathurin Cordier
+        date: "1564 (this ed. 1831)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/maturinicorderi00cordgoog" }
+      - title: Colloquia (Colloquies)
+        author: Desiderius Erasmus
+        date: "1518–1533"
+        publicDomain: true
+        links:
+          - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/erasmus/coll.shtml" }
+          - { label: "Project Gutenberg (English trans., vol. I)", url: "https://www.gutenberg.org/ebooks/14031" }
+      - title: Breviarium ab Urbe Condita
+        author: Eutropius
+        date: "c. 369"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/eutropius.html" }
+          - { label: "Dickinson College Commentaries (notes)", url: "https://dcc.dickinson.edu/eutropius/breviarium-preface" }
+      - title: Fabulae (Aesopic fables in verse)
+        author: Phaedrus
+        date: "1st c."
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/phaedrus.html" }
+    curriculumOptions:
+      - name: Lingua Latina, Familia Romana (reading supplement)
+        publisher: Hackett Publishing
+        tradition: secular
+        url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series"
+        notes: If Ørberg was not the main text in latin-04, use it here as the extensive reader.
+      - name: Latin Alive! (Books 1–3)
+        publisher: Classical Academic Press
+        tradition: classical
+        url: "https://classicalacademicpress.com/pages/series-latin-alive"
+        notes: Upper-school course with many adapted readings from real authors.
+    historicalPrecedent: >-
+      Boston Latin School, 1789: "Corderius's Colloquies — Latin and English… Aesop's Fables —
+      Latin and English… Eutropius". Otis also recalled "Clarke's Introduction" and "making
+      Latin" from Garretson's Exercises in the fourth year. Erasmus's Colloquies were read in
+      English and colonial grammar schools from Milton's day onward.
+    sources:
+      - { label: "Catalogue of the Boston Public Latin School (1886)", url: "https://archive.org/details/catalogueofbosto00bostuoft" }
+
+  - id: latin-06
+    title: "Reference Grammars: Bennett, Allen & Greenough, Gildersleeve"
+    type: unit
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 18
+    order: 6
+    prerequisites: [latin-04]
+    related: [greek-06]
+    summary: >-
+      The student learns to use a full scholarly reference grammar, the habit of the
+      nineteenth-century schoolboy. Bennett is compact enough for daily use. Allen & Greenough is
+      the standard American citation grammar ("A&G §419"). Gildersleeve & Lodge serves the
+      advanced student and composition. From here on, every commentary note is looked up.
+    objectives:
+      - Find any construction in Bennett or A&G by index and section number
+      - Explain a syntax point by citing its grammar section
+      - Read the grammar's sections on prosody (dactylic hexameter) before starting Ovid
+    coreTexts:
+      - title: New Latin Grammar
+        author: Charles E. Bennett
+        date: "1895/1908"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15665" }
+      - title: "Allen and Greenough's New Latin Grammar"
+        author: J. H. Allen & J. B. Greenough
+        date: "1903"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/allengreenoughsn00alleiala" }
+          - { label: "Dickinson College Commentaries (searchable online edition)", url: "https://dcc.dickinson.edu/grammar/latin/credits-and-reuse" }
+      - title: "Gildersleeve's Latin Grammar (Gildersleeve & Lodge)"
+        author: B. L. Gildersleeve & Gonzalez Lodge
+        date: "1895/1903"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/gildersleeveslat00gilduoft" }
+      - title: The Eton Latin Grammar (historical)
+        author: T. W. C. Edwards (ed.)
+        date: "19th c."
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/etonlatingrammar00edwauoft" }
+    curriculumOptions:
+      - name: Henle Latin Grammar
+        publisher: Loyola Press (sold by Memoria Press, Christianbook)
+        tradition: catholic
+        url: "https://www.christianbook.com/henle-latin-grammar-robert-henle/9780829401127/pd/646688"
+        notes: The 250-page reference that goes with all four years of Henle. The friendliest bridge to A&G.
+    historicalPrecedent: >-
+      Eton, Westminster and the American academies taught from a single grammar learned by heart:
+      Lily's grammar, later the Eton Latin Grammar in England, and Ward's revision of Lily in
+      Boston. By the late 1800s Allen & Greenough, Bennett and Gildersleeve were the standard
+      American school and college grammars.
+
+  - id: latin-07
+    title: "Caesar & Nepos: First Real Authors"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11.5
+    ageEnd: 12.5
+    order: 7
+    prerequisites: [latin-04, latin-05]
+    related: [greek-08]
+    summary: >-
+      The traditional first unadapted author. The student reads Caesar's Gallic War (Books I–IV
+      with the Helvetian campaign) and Nepos's Lives (Hannibal, Themistocles, Atticus). The prose
+      is clear, military and political, and it trains accurate construing. It also opens
+      discussion of ambition, command and the fall of the Republic.
+    objectives:
+      - Read at least Bellum Gallicum I and selections from II–VII in Latin
+      - Read three of Nepos's Lives, including Hannibal
+      - Construe periodic sentences with ablative absolutes and indirect speech
+      - Write a one-page English essay judging Caesar as a commander and a statesman
+    coreTexts:
+      - title: Commentarii de Bello Gallico
+        author: Julius Caesar
+        date: "c. 50 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/caes.html" }
+          - { label: "Dickinson College Commentaries (notes, vocab, audio)", url: "https://dcc.dickinson.edu/caesar/book-1/chapter-1-1" }
+          - { label: "Steadman, College Caesar (free PDF with facing vocabulary)", url: "https://geoffreysteadman.com/college-caesar/" }
+      - title: De Viris Illustribus (Lives)
+        author: Cornelius Nepos
+        date: "c. 34 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/nepos.html" }
+          - { label: "Dickinson College Commentaries, Life of Hannibal", url: "https://dcc.dickinson.edu/nepos-hannibal/chapter-1" }
+    curriculumOptions:
+      - name: Henle Latin, Second Year (Caesar)
+        publisher: Memoria Press / Loyola Press
+        tradition: catholic
+        url: "https://www.memoriapress.com/curriculum/latin/henle-latin-second-year-set/"
+        notes: Caesar with a steady grammar review and composition.
+      - name: "Caesar: Selections from De Bello Gallico (Mueller)"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/muellers-caesar-de-bello-gallico-set/"
+        notes: The classic Mueller school edition with running vocabulary.
+      - name: Dickinson College Commentaries, Caesar and Nepos
+        publisher: Dickinson College
+        tradition: secular
+        url: "https://dcc.dickinson.edu/"
+        notes: Free and scholarly, with audio and vocabulary lists. Enough on its own for a strong self-directed student.
+    historicalPrecedent: >-
+      Boston 1789, third class: "Caesar's Commentaries. Tully's Epistles, or Offices. Ovid's
+      Metamorphoses. Virgil." In the Boston Latin course of the 1880s the Fifth Class read
+      "Nepos; Justin" and the Fourth Class "Caesar, De Bello Gallico". Caesar remained the
+      standard college-entrance author well into the 1900s.
+    sources:
+      - { label: "Catalogue of the Boston Public Latin School (1886)", url: "https://archive.org/details/catalogueofbosto00bostuoft" }
+
+  - id: latin-08
+    title: "Latin Composition I: Bradley's Arnold & North and Hillard"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11.5
+    ageEnd: 14
+    order: 8
+    prerequisites: [latin-04]
+    summary: >-
+      "Making Latin": English-to-Latin prose composition done weekly across two to three years.
+      The student starts with single sentences on one construction at a time (Bradley's Arnold)
+      and moves to connected passages in the style of Caesar and Cicero (North & Hillard). Nothing
+      else fixes grammar so permanently.
+    objectives:
+      - Complete the exercises of Bradley's Arnold Parts I–II
+      - Write a correct 100-word Latin paragraph in the style of Caesar
+      - Choose the right idiom for purpose, result, indirect speech and conditions
+      - Keep a personal phrase-book of Ciceronian idioms collected from reading
+    coreTexts:
+      - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold)"
+        author: Thomas Kerchever Arnold, rev. George Granville Bradley
+        date: "1839 / rev. 1884"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/practicalintrod00arnouoft" }
+      - title: Latin Prose Composition for the Middle Forms of Schools
+        author: M. A. North & A. E. Hillard
+        date: "1895"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1913 printing)", url: "https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913" }
+    curriculumOptions:
+      - name: Henle Latin (composition exercises, Years 1–3)
+        publisher: Memoria Press / Loyola Press
+        tradition: catholic
+        url: "https://www.memoriapress.com/curriculum/latin/henle-latin-i-set/"
+        notes: Henle builds English-to-Latin exercises into every unit, so it can stand in for Arnold for younger students.
+    historicalPrecedent: >-
+      The 1789 Boston course prescribes "The making of Latin, from Garretson's Exercises" in the
+      second class and "The making of Latin from King's History of the Heathen Gods" in the third.
+      Bradley's Arnold and North & Hillard were the standard English public-school (Eton, Rugby,
+      Marlborough) and American prep-school composition books c. 1880–1950.
+    notes: >-
+      Done with a tutor (the family has tutors available): prose and verse composition need an expert to
+      correct the student's exercises line by line. The "Arnold" of Bradley's Arnold is Thomas Kerchever
+      Arnold, not Thomas Arnold of Rugby. Bradley was Master of Marlborough and later Dean of
+      Westminster. Answer keys were restricted to teachers, so a Latinist tutor to correct proses is
+      highly desirable.
+
+  - id: latin-09
+    title: "Ovid: Metamorphoses & Tristia (First Latin Verse)"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 9
+    prerequisites: [latin-07]
+    related: [greek-11]
+    summary: >-
+      The first Latin poetry. The student reads selected myths from the Metamorphoses (Creation
+      and Flood, Daedalus and Icarus, Pyramus and Thisbe, Baucis and Philemon, Apollo and Daphne)
+      and some of Ovid's exile elegies, the Tristia. He learns to scan the dactylic hexameter and
+      the elegiac couplet aloud. Ovid is the mythological dictionary of all later Western art and
+      poetry.
+    objectives:
+      - Scan and read aloud dactylic hexameter and elegiac couplets fluently
+      - Read about 600–800 lines of the Metamorphoses in Latin
+      - Memorize and recite the opening of the Metamorphoses (I.1–20)
+      - Trace three Ovidian myths into later English poetry or painting
+    coreTexts:
+      - title: Metamorphoses
+        author: Ovid
+        date: "AD 8"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/ovid.html" }
+          - { label: "Book I, Latin text", url: "https://www.thelatinlibrary.com/ovid/ovid.met1.shtml" }
+    curriculumOptions:
+      - name: Steadman, Ovid selections (free PDF with facing vocabulary)
+        publisher: Geoffrey Steadman
+        tradition: secular
+        url: "https://geoffreysteadman.com/ovids-daphne-apollo-beta/"
+        notes: Pharr-format pages with vocabulary and notes on the same page. Free PDF or cheap paperback.
+      - name: Lingua Latina Pars II, Roma Aeterna (poetry chapters)
+        publisher: Hackett Publishing
+        tradition: secular
+        url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series"
+        notes: Includes Ovid excerpts in its natural-method progression.
+    historicalPrecedent: >-
+      Boston's early course had "Ovid de Tristibus" and the Metamorphoses. In 1789, "Ovid's
+      Metamorphoses" was set in the third class. Boston Latin in the 1880s read the Metamorphoses
+      in the Fourth Class alongside Caesar.
+
+  - id: latin-10
+    title: "Ecclesiastical Latin I: Vulgate, Hymns, Mass & the Hours"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13
+    order: 10
+    prerequisites: [latin-04]
+    related: [hebrew-08, greek-13, music-07]
+    summary: >-
+      Latin as the living language of the Church. The student reads the Vulgate (Genesis 1–11,
+      Gospel of John, Psalms), the great hymns (Veni Creator, Pange Lingua, Dies Irae, Stabat
+      Mater), the Ordinary of the Mass, and Vespers and Compline. He learns where medieval Latin
+      differs from classical usage. Prayer and grammar reinforce each other.
+    objectives:
+      - Read the Vulgate Genesis 1–3 and John 1 without a translation
+      - Follow the Latin Mass (Ordinary) and Compline in Latin with understanding
+      - Memorize and sing or recite four great Latin hymns
+      - List the main differences of ecclesiastical and medieval Latin (quod/quia clauses, vocabulary, orthography)
+    coreTexts:
+      - title: Biblia Sacra Vulgata (Clementine)
+        author: St. Jerome (trans.)
+        date: "c. 405; Clementine ed. 1592"
+        publicDomain: true
+        links:
+          - { label: "DRBO Latin Vulgate", url: "https://www.drbo.org/lvb/" }
+          - { label: "The Latin Library, Bible", url: "https://www.thelatinlibrary.com/bible.html" }
+      - title: Nova Vulgata (official Latin Bible of the Catholic Church)
+        author: Holy See
+        date: "1979"
+        publicDomain: false
+        links:
+          - { label: "Vatican.va (free online)", url: "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html" }
+      - title: Latin Hymns and Carols
+        author: Various
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hymni.html" }
+      - title: Divinum Officium (Breviary and Missal texts in Latin)
+        author: Various
+        publicDomain: true
+        links:
+          - { label: divinumofficium.com, url: "https://www.divinumofficium.com/" }
+    curriculumOptions:
+      - name: Lingua Angelica I & II
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/lingua-angelica/"
+        notes: Translation course built on the great Latin hymns and prayers, with recordings.
+      - name: Selections from the Vulgate
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/selections-from-the-vulgate-set/"
+        notes: Graded Bible passages in Latin with notes.
+      - name: A Primer of Ecclesiastical Latin (John F. Collins)
+        publisher: Catholic University of America Press
+        tradition: catholic
+        url: "https://www.christianbook.com/a-primer-of-ecclesiastical-latin/john-collins/9780813206677/pd/6677"
+        notes: The standard seminary grammar of Church Latin, drawn from the Vulgate and the liturgy. A good second pass for an older student.
+    historicalPrecedent: >-
+      Boston 1789 included "Selectae e Veteri Testamento Historiae" (Latin Bible stories) in the
+      second class. The Ratio Studiorum assumed daily liturgical Latin for all students.
+    notes: >-
+      Catholic and Protestant readers differ here. For Catholics the Vulgate was declared the
+      authentic Latin text by the Council of Trent, and the Nova Vulgata (1979) is the current
+      official edition. Protestants value the Vulgate historically but treat the Hebrew and Greek
+      as the sole authoritative texts. Both traditions read it as the Bible of Western
+      Christendom for a thousand years.
+
+  - id: latin-11
+    title: "Cicero: Orations, Letters, De Amicitia & De Officiis"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 11
+    prerequisites: [latin-07, latin-08]
+    related: [character-virtue-13, rhetoric-10]
+    summary: >-
+      "Tully", the model of Latin prose and of republican statesmanship. The student reads the
+      First Catilinarian and Pro Archia (the defence of liberal letters), a selection of letters,
+      and De Amicitia and De Senectute. He finishes with De Officiis Book I, the moral handbook
+      of the founders' generation, which Boston boys read as "Tully's Offices".
+    objectives:
+      - Read In Catilinam I and Pro Archia in full
+      - Read 15–20 letters to Atticus and to friends
+      - Read De Amicitia and De Officiis Book I (all or large parts)
+      - Memorize and declaim "Quo usque tandem" (Cat. I.1–2)
+      - Analyse the structure of a Ciceronian period and a classical oration (exordium to peroratio)
+    coreTexts:
+      - title: In Catilinam I–IV
+        author: Cicero
+        date: "63 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/cat.shtml" }
+          - { label: "Steadman, Cicero's 1st Catilinarian (free PDF)", url: "https://geoffreysteadman.com/ciceros-1st-catilinarian/" }
+      - title: Pro Archia
+        author: Cicero
+        date: "62 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/arch.shtml" }
+      - title: De Amicitia
+        author: Cicero
+        date: "44 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/amic.shtml" }
+      - title: Epistulae ad Atticum
+        author: Cicero
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/epis.shtml" }
+      - title: De Officiis
+        author: Cicero
+        date: "44 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/off.shtml" }
+          - { label: "Steadman, De Officiis Book 1 (free PDF)", url: "https://geoffreysteadman.com/cicero-de-officiis-book-1/" }
+      - title: "Tusculanae Disputationes (selections, esp. Books I and V)"
+        author: Cicero
+        date: "45 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/tusc.shtml" }
+    curriculumOptions:
+      - name: Henle Latin, Third Year (Cicero)
+        publisher: Memoria Press / Loyola Press
+        tradition: catholic
+        url: "https://www.memoriapress.com/curriculum/latin/henle-latin-third-year-set/"
+        notes: The Catilinarians and Pro Archia with Henle's grammar and composition apparatus.
+      - name: Wheelock's Latin Reader (2nd ed.)
+        publisher: HarperCollins
+        tradition: secular
+        url: "https://www.christianbook.com/wheelocks-reader-2nd-edition-selections-literature/frederic-wheelock/9780060935061/pd/935061"
+        notes: Cicero, Livy, Ovid, Catullus, Pliny, Martial, the Vulgate and more, with notes keyed to Wheelock.
+      - name: Dickinson College Commentaries, Cicero
+        publisher: Dickinson College
+        tradition: secular
+        url: "https://dcc.dickinson.edu/home-page-latin"
+        notes: Free annotated selections from the Verrines, De Imperio and Philippics.
+      - name: "Ossium Carnes Multae: The Bones' Meats Abundant (Cicero's letters, Latinitatis Corpus II)"
+        publisher: Catholic University of America Press (Reginald Foster & Daniel McCarthy)
+        tradition: catholic
+        url: "https://www.cuapress.org/9780813232973/ossium-carnes-multae-e-marci-tullii-ciceronis-epistulis/"
+        notes: The second volume of Foster's method (see latin-04), reading complete letters of Cicero. For families who began with Ossa Latinitatis Sola.
+    historicalPrecedent: >-
+      Harvard's 1642 admission rule: "When any Scholar is able to understand Tully, or such like
+      classicall Latine Author extempore… Let him then and not before be capable of admission." Boston 1789: "Tully's Epistles,
+      or Offices" (third class) and "Tully's Orations" (fourth class). Jefferson recommended
+      "Cicero's philosophies" for morality to his nephew Peter Carr (1785). King's College
+      (Columbia) read the Tusculan Disputations in the fourth year, and Yale examined its Berkeley
+      Scholars on them in 1780 (see the founding lists).
+    sources:
+      - { label: "New Englands First Fruits (1643), Harvard rules", url: "https://archive.org/details/NewEnglandsFirstFruitsInRespectFirstOfTheCounversionOfSome" }
+      - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Wikisource)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
+
+  - id: latin-12
+    title: "Virgil: The Aeneid (and Eclogues)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 15
+    order: 12
+    prerequisites: [latin-09, latin-11]
+    related: [greek-11]
+    summary: >-
+      The summit of the school course. The student reads Aeneid Books I, II, IV and VI in full,
+      the rest selectively and the rest in translation, plus Eclogues I and IV. Pietas, duty,
+      founding a nation and the cost of empire make this the founding father's epic. Large
+      passages are memorized.
+    objectives:
+      - Read Aeneid I, II, IV and VI in Latin (about 3,000 lines)
+      - Scan and read hexameter aloud with expression at sight
+      - Memorize at least 100 lines (e.g. I.1–33, VI.847–853)
+      - Write an essay on pietas in Aeneas compared with Achilles or Odysseus
+      - Read Eclogue IV and know its place in Christian reception (the "Messianic" eclogue)
+    coreTexts:
+      - title: Aeneid
+        author: Virgil (P. Vergilius Maro)
+        date: "19 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/verg.html" }
+          - { label: "Dickinson College Commentaries (notes, audio)", url: "https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-i-1-11" }
+    curriculumOptions:
+      - name: Henle Latin, Fourth Year (Virgil)
+        publisher: Memoria Press / Loyola Press
+        tradition: catholic
+        url: "https://www.memoriapress.com/curriculum/latin/henle-latin-iv-set/"
+        notes: Aeneid selections with the Henle apparatus. Closes the Jesuit four-year cycle.
+      - name: "Vergil's Aeneid: Selected Readings from Books 1, 2, 4 and 6"
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/latin/vergils-aeneid-selected-readings-from-books-1-2-4-and-6/"
+        notes: A student reader of the most-taught books.
+      - name: Dickinson College Commentaries, Aeneid
+        publisher: Dickinson College
+        tradition: secular
+        url: "https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-i-1-11"
+        notes: Free full-scale commentary with audio. Excellent for independent study.
+    historicalPrecedent: >-
+      Harvard's 1642 admission rule named Tully (Cicero); Virgil was added to the requirement by the 1655 laws. In Boston 1789 the upper
+      classes read Virgil, and Otis recalled "the first books of the Aeneid". In the 1880s the
+      Boston Latin Fourth Class read Aeneid I–II and the Third Class Aeneid III–V and the
+      Eclogues. Jefferson listed Virgil first among the poets Carr "will read at school".
+    notes: >-
+      Pronunciation: introduce restored classical pronunciation here, so the quantities and meter of
+      Virgil's hexameter can be heard. Ecclesiastical pronunciation remains the default for Church
+      Latin.
+
+  - id: latin-13
+    title: "Roman Historians: Livy & Sallust"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 13
+    prerequisites: [latin-11]
+    summary: >-
+      Roman history in Roman words. Livy's Preface and Book I (the kings, Lucretia, the founding of
+      liberty) and selections from the Hannibalic war (Books XXI–XXII). Sallust's Bellum
+      Catilinae is read as a study of republican decay beside Cicero's speeches. These were the
+      founders' handbooks on virtue, faction and liberty.
+    objectives:
+      - Read Livy's Praefatio and large parts of Book I in Latin
+      - Read Sallust's Bellum Catilinae (chapters 1–13 and the Caesar–Cato debate, 51–54)
+      - Compare Sallust's Catiline with Cicero's in an essay
+      - Draw three lessons on republican virtue that Adams or Jefferson drew from Roman history
+    coreTexts:
+      - title: Ab Urbe Condita
+        author: Livy
+        date: "c. 27 BC–AD 17"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/liv.html" }
+          - { label: "Steadman, Livy selections (free PDF)", url: "https://geoffreysteadman.com/livy/" }
+      - title: Bellum Catilinae
+        author: Sallust
+        date: "c. 42 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/sall.html" }
+          - { label: "Steadman, Sallust (free PDF)", url: "https://geoffreysteadman.com/sallust/" }
+    curriculumOptions:
+      - name: Lingua Latina Pars II, Roma Aeterna
+        publisher: Hackett Publishing
+        tradition: secular
+        url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series"
+        notes: Its later chapters are lightly adapted Livy, a good lead-in to the unadapted text.
+      - name: Steadman Livy & Sallust editions
+        publisher: Geoffrey Steadman
+        tradition: secular
+        url: "https://geoffreysteadman.com/livy/"
+        notes: Free PDFs with facing vocabulary and notes. Low-cost paperbacks.
+    historicalPrecedent: >-
+      The Boston Latin course of the 1880s set "Sallust, Catiline" in the Third Class. Jefferson
+      told Carr (1785) to read history "in the original and not in translations", and planned for
+      him to move from the Greek historians to "Roman history".
+
+  - id: latin-14
+    title: "Horace: Odes, Satires & Epistles (with the Ars Poetica)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 14
+    prerequisites: [latin-12]
+    related: [old-english-03]
+    summary: >-
+      The poet of the golden mean, contentment and friendship, and the most quoted Latin author
+      in eighteenth-century English letters. The student reads selected Odes (I.9, I.11, II.3,
+      II.10, III.1–6 "Roman Odes", III.30), two Satires and the Ars Poetica. He learns the lyric
+      metres (Alcaic, Sapphic, Asclepiad) and builds a stock of tags for conversation and
+      writing.
+    objectives:
+      - Read 25–30 Odes and scan the Alcaic, Sapphic and Asclepiad metres
+      - Read the Ars Poetica and summarize its precepts on poetry
+      - Memorize five Odes (e.g. I.11 "carpe diem", III.2 "dulce et decorum", III.30 "exegi monumentum")
+      - Imitate one Horatian ode in English verse
+    coreTexts:
+      - title: Carmina, Sermones, Epistulae, Ars Poetica
+        author: Horace
+        date: "c. 35–13 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hor.html" }
+    curriculumOptions:
+      - name: Wheelock's Latin Reader
+        publisher: HarperCollins
+        tradition: secular
+        url: "https://www.christianbook.com/wheelocks-reader-2nd-edition-selections-literature/frederic-wheelock/9780060935061/pd/935061"
+        notes: Contains Horace and Catullus selections with notes.
+    historicalPrecedent: >-
+      Horace was set in Boston's highest class in 1789 ("Greek Testament. Horace. Homer.").
+      Jefferson names Horace among the school poets. Eton and Westminster boys memorized Horace
+      in bulk and composed Latin lyric verse on his model.
+
+  - id: latin-15
+    title: "Latin Composition II: Advanced Prose & Verse"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16.5
+    order: 15
+    prerequisites: [latin-08, latin-12]
+    related: [poetry-10]
+    summary: >-
+      The capstone of "making Latin". The student writes continuous Ciceronian prose from English
+      originals (a Federalist paragraph, a Burke passage, a Washington letter) and composes Latin
+      elegiacs and hexameters with a Gradus ad Parnassum. The aim is to write a Latin letter, speech
+      or dedication with confidence.
+    objectives:
+      - Complete North & Hillard's continuous-prose passages (Part II)
+      - Render a 250-word English passage into periodic Ciceronian Latin
+      - Compose 12 correct elegiac couplets on a set theme
+      - Write and deliver a short Latin oration (3–5 minutes)
+    coreTexts:
+      - title: Latin Prose Composition for the Middle Forms of Schools
+        author: M. A. North & A. E. Hillard
+        date: "1895"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913" }
+      - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold), Part III"
+        author: T. K. Arnold, rev. G. G. Bradley
+        date: "1884"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/practicalintrod00arnouoft" }
+    curriculumOptions:
+      - name: "Live online classes and tutors"
+        publisher: Scholé Academy (Classical Academic Press)
+        tradition: classical
+        url: "https://scholeacademy.com/"
+        notes: "Live online classical language courses with expert teachers. Useful if a local tutor is not available."
+    historicalPrecedent: >-
+      Boston 1789, highest class: "Gradus ad Parnassum. The making of Latin continued." English
+      public schools (Eton, Rugby, Shrewsbury) made Latin verse composition the crown of the Sixth
+      Form. Harvard 1642 required candidates to "make and speake true Latine in Verse and Prose".
+    notes: >-
+      Done with a tutor (the family has tutors available): prose and verse composition need an expert to
+      correct the student's exercises line by line. A tutor able to correct Latin proses is almost
+      essential. Consider an online Latin prose-composition tutor or a university classicist.
+
+  - id: latin-16
+    title: "Ecclesiastical Latin II: Augustine, Bede & Aquinas"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 16
+    prerequisites: [latin-10, latin-11]
+    related: [old-english-02]
+    summary: >-
+      Patristic and medieval Latin prose. The student reads selections from Augustine's
+      Confessions (Book I and the conversion in Book VIII) and Bede's Ecclesiastical History
+      (Caedmon, Gregory and the Angles). He then turns to Thomas Aquinas: the Eucharistic hymns
+      (Pange Lingua, Adoro Te) and the scholastic article form of the Summa (e.g. I q.2 a.3, the
+      Five Ways). He learns how Christian Latin reshaped classical prose.
+    objectives:
+      - Read Confessions I and VIII in Latin
+      - Read Bede HE IV.24 (Caedmon) and II.1 (Gregory and the English slaves)
+      - Read and outline three articles of the Summa Theologiae in Latin (objections, sed contra, respondeo, replies)
+      - Memorize Adoro Te Devote or Pange Lingua
+    coreTexts:
+      - title: Confessiones
+        author: St. Augustine
+        date: "c. 397–400"
+        publicDomain: true
+        links:
+          - { label: "The Latin Library, Book I", url: "https://www.thelatinlibrary.com/augustine/conf1.shtml" }
+          - { label: "The Latin Library, Augustine index", url: "https://www.thelatinlibrary.com/august.html" }
+      - title: Historia Ecclesiastica Gentis Anglorum
+        author: Bede
+        date: "731"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/bede.html" }
+          - { label: "Dickinson College Commentaries (notes)", url: "https://dcc.dickinson.edu/bede-historia-ecclesiastica/book-1/prologus" }
+      - title: Summa Theologiae (and hymns)
+        author: St. Thomas Aquinas
+        date: "1265–1274"
+        publicDomain: true
+        links:
+          - { label: Corpus Thomisticum, url: "https://www.corpusthomisticum.org/sth0000.html" }
+          - { label: "The Latin Library, Aquinas", url: "https://www.thelatinlibrary.com/aquinas.html" }
+    curriculumOptions:
+      - name: Steadman, Medieval Latin (free PDF)
+        publisher: Geoffrey Steadman
+        tradition: secular
+        url: "https://geoffreysteadman.com/medieval-latin/"
+        notes: A graded medieval anthology with facing vocabulary.
+      - name: A Primer of Ecclesiastical Latin (Collins)
+        publisher: Catholic University of America Press
+        tradition: catholic
+        url: "https://www.christianbook.com/a-primer-of-ecclesiastical-latin/john-collins/9780813206677/pd/6677"
+        notes: Use as the grammar of reference for Church-Latin idiom.
+    notes: >-
+      Augustine is a shared Father for Catholics and Protestants (Luther was an Augustinian friar,
+      and Calvin quotes him constantly). Aquinas is the Common Doctor of the Catholic Church. Many
+      Reformed scholastics also read him. Present both receptions briefly.
+
+  - id: latin-17
+    title: "College Latin I: Lucretius & Tacitus"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 17
+    prerequisites: [latin-13, latin-14]
+    related: [greek-15]
+    summary: >-
+      College-level reading of the two hardest "pagan" authors, with a commentary. Lucretius's De
+      Rerum Natura (Books I and III) is Epicurean physics and the ancestor of modern materialism
+      that Jefferson admired. Tacitus's Agricola and Annals I and XV show tyranny, flattery and
+      liberty under the emperors.
+    objectives:
+      - Read De Rerum Natura I and III in Latin and give a Christian and classical critique of Epicureanism
+      - Read the Agricola complete and selections from Annals I, IV and XV
+      - Analyse Tacitean style (brevity, inconcinnity, sententiae)
+      - Write a Latin summary (argumentum) of each book read
+    coreTexts:
+      - title: De Rerum Natura
+        author: Lucretius
+        date: "c. 55 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/lucretius.html" }
+      - title: Agricola, Germania, Annales, Historiae
+        author: Tacitus
+        date: "c. AD 98–120"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/tac.html" }
+          - { label: "Dickinson College Commentaries, Agricola & Annals 15", url: "https://dcc.dickinson.edu/tacitus-agricola/1" }
+    historicalPrecedent: >-
+      Tacitus was a staple of colonial college reading and a favourite of Jefferson and the
+      Whig opposition, as the historian of liberty lost. Colonial colleges read Latin authors
+      through all four years, with Latin as the language of disputations and commencement
+      theses.
+    notes: >-
+      Lucretius should be read with a teacher. His denial of providence and of the soul's
+      immortality is the classical counter-position that Christian authors (Lactantius,
+      Augustine, Aquinas) answer.
+
+  - id: latin-18
+    title: "College Latin II: Augustine & Aquinas in Full, Reading at Sight"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17.5
+    ageEnd: 18.5
+    order: 18
+    prerequisites: [latin-16, latin-17]
+    summary: >-
+      The finishing course. The student reads the whole of the Confessions in Latin and a sequence
+      of Summa questions (e.g. on law, I-II qq.90–97, which is foundational for natural-law
+      political thought). He reads selections of Neo-Latin (Erasmus, Thomas More's Utopia, Grotius)
+      and practises daily sight-reading of unseen passages from any period. The test is the
+      Harvard standard of reading Tully (and, from 1655, Virgil) "ex tempore".
+    objectives:
+      - Read Confessions I–X in Latin
+      - Read Summa Theologiae I-II qq.90–97 (the Treatise on Law) in Latin
+      - Translate an unseen passage of Cicero, Livy or Virgil at sight with minimal help
+      - Read a Neo-Latin political text (More, Erasmus's Institutio Principis Christiani, or Grotius)
+    coreTexts:
+      - title: Confessiones
+        author: St. Augustine
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/august.html" }
+      - title: "Summa Theologiae, I-II (Treatise on Law)"
+        author: St. Thomas Aquinas
+        publicDomain: true
+        links:
+          - { label: Corpus Thomisticum, url: "https://www.corpusthomisticum.org/" }
+      - title: Institutio Principis Christiani
+        author: Desiderius Erasmus
+        date: "1516"
+        publicDomain: true
+        links:
+          - { label: The Latin Library, url: "https://www.thelatinlibrary.com/erasmus.html" }
+    historicalPrecedent: >-
+      Harvard, 1642: admission required reading "Tully, or such like classicall Latine Author
+      extempore". Graduates then defended Latin theses in public. Colonial college libraries and
+      curricula (Harvard, Yale, William & Mary, King's) assumed Latin as a working language for
+      theology, law and natural philosophy. Jefferson's Latin let him read Grotius, Pufendorf and
+      Coke's Latin sources directly.
+    sources:
+      - { label: "New Englands First Fruits (1643)", url: "https://archive.org/details/NewEnglandsFirstFruitsInRespectFirstOfTheCounversionOfSome" }
