@@ -577,7 +577,7 @@ rows:
     ageEnd: 14
     order: 14
     prerequisites: [theology-11]
-    related: [philosophy-05, logic-04, natural-science-12]
+    related: [philosophy-05, logic-04, biology-01]
     summary: >-
       This is the reasoned defense of the faith. Frank Sheed's Theology for Beginners gives the
       intellect a map of doctrine (God, Trinity, creation, fall, redemption, Church, sacraments, last

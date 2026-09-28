@@ -20,14 +20,16 @@ Each track is one file: `data/tracks/<track-id>.yaml`.
 | Group (`trackGroup`) | Track ids |
 |---|---|
 | Early Formation | `early-development` |
-| English | `reading-phonics`, `grammar-composition`, `literature`, `poetry` |
+| English | `reading-phonics`, `grammar-composition`, `literature`, `poetry`, `drama` |
 | Languages | `latin`, `greek`, `hebrew`, `spanish`, `chinese`, `old-english` |
 | Trivium | `logic`, `rhetoric` |
 | History | `history` |
 | Faith & Philosophy | `theology`, `philosophy` |
-| Math & Science | `mathematics`, `natural-science` |
+| Math & Science | `mathematics`, `physics`, `chemistry`, `biology`, `natural-science` |
 | Founder Skills | `civics-law`, `economics`, `social-science`, `practical-arts` |
 | Arts & Body | `music`, `fine-arts`, `character-virtue`, `physical-training` |
+| Extracurriculars | `sports`, `music-lessons` |
+| AP & Exams | `ap-history`, `ap-humanities`, `test-prep` (side tracks: exam preparation that supplements, never replaces, the main tracks) |
 
 ## Track file format
 
@@ -48,6 +50,7 @@ rows:
     order: 1                 # position within track, simple → complex
     prerequisites: []        # ids from THIS SAME TRACK only
     related: []              # optional ids from OTHER tracks (soft links; warnings only if missing)
+    exams: []                # optional exam ids from data/exams.yaml that this unit prepares for
     summary: >-
       2–4 sentences: what is studied and why.
     objectives:
@@ -83,6 +86,29 @@ rows:
 - **Links**: public-domain works → free editions (Project Gutenberg, Archive.org, HathiTrust, Perseus, The Latin Library, Sefaria, CCEL, New Advent, Wikisource, Founders Online, Avalon Project). Copyrighted works → the publisher's (or a major bookseller's) purchase page. Only include URLs you have confirmed exist.
 - `tradition` badges: `catholic` (TAN, Ignatius, Catholic Heritage Curricula, Seton, Our Lady of Victory…), `protestant` (Veritas, Classical Conversations, Canon Press…), `classical` (Memoria Press, Hillsdale, CAP…), `secular`.
 - College (17+) rows use `level: college`, ages 17–18, and live in the track they belong to.
+
+## Exams
+
+`data/exams.yaml` is the catalog of exams the program prepares for by 18 (AP, CLT, SAT/ACT, PSAT/NMSQT, national
+exams, olympiads). Rows point at it with `exams: [id, ...]`; the build rejects unknown ids.
+
+```yaml
+exams:
+  - id: ap-chemistry            # stable id used by rows
+    name: AP Chemistry
+    body: College Board
+    category: ap-stem           # ap-stem | ap-humanities | ap-language | clt | admissions | national-exam | olympiad
+    typicalAge: 15              # age a student on this program's pace normally sits it
+    optional: false             # true = enrichment, not expected of every student
+    month: May                  # when it is given
+    url: "https://..."          # official exam page
+    ced: "https://..."          # official course & exam description / framework (PDF or page)
+    format: >-                  # sections, length, question types, scoring
+    registration: >-            # how a homeschooled student registers (deadlines, finding a test site, fees)
+    resources:                  # prep materials: official practice, review books, free courses
+      - { label: "...", url: "https://..." }
+    notes: >-
+```
 
 ## Founding-era reading lists
 

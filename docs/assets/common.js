@@ -19,11 +19,15 @@
     return Number.isInteger(n) ? String(n) : n.toFixed(1).replace(/\.0$/, '');
   };
   const ageLabel = (r) => (r.ageStart === r.ageEnd ? fmtAge(r.ageStart) : `${fmtAge(r.ageStart)}–${fmtAge(r.ageEnd)}`);
+  // who reads a text, and how long it is
+  const READER = { teacher: 'Teacher reads', together: 'Read together', student: 'Student reads' };
+  const readerBadge = (t) => (t?.reader ? `<span class="badge reader-${esc(t.reader)}">${READER[t.reader] || esc(t.reader)}</span>` : '');
+  const lengthLabel = (t) => (t?.pages ? `${Number(t.pages).toLocaleString()} pp` : t?.words ? `${Math.round(t.words / 1000).toLocaleString()}k words` : '');
   const levelBadge = (id) => `<span class="badge lvl-${esc(id)}">${esc(levelById[id]?.label ?? id)}</span>`;
   const trackTitle = (id) => trackById[id]?.title ?? id;
 
   // ---------- state in URL hash ----------
-  const defaults = { level: [], group: '', track: '', q: '', sort: 'age', dir: 'asc', row: '' };
+  const defaults = { level: [], group: '', track: '', q: '', sort: 'age', dir: 'asc', row: '', at: '' };
   function readState() {
     const p = new URLSearchParams(location.hash.slice(1));
     return {
@@ -34,6 +38,7 @@
       sort: p.get('sort') || defaults.sort,
       dir: p.get('dir') || defaults.dir,
       row: p.get('row') || '',
+      at: p.get('at') || '',
     };
   }
   function writeState(state) {
@@ -239,7 +244,7 @@
         texts.length
           ? `<h3>Core texts</h3>${texts
               .map(
-                (x) => `<div class="text-item"><strong>${esc(x.title.replace(/\s*\(elective\)\s*$/i, ''))}</strong>${/\(elective\)\s*$/i.test(x.title) ? ' <span class="badge elective">elective</span>' : ''}${x.author ? ` <span class="by">— ${esc(x.author)}</span>` : ''}${x.date ? ` <span class="by">(${esc(x.date)})</span>` : ''} ${x.publicDomain ? '<span class="badge pd">Free / public domain</span>' : ''}${linkList(x.links)}</div>`,
+                (x) => `<div class="text-item"><strong>${esc(x.title.replace(/\s*\(elective\)\s*$/i, ''))}</strong>${/\(elective\)\s*$/i.test(x.title) ? ' <span class="badge elective">elective</span>' : ''}${x.author ? ` <span class="by">— ${esc(x.author)}</span>` : ''}${x.date ? ` <span class="by">(${esc(x.date)})</span>` : ''} ${x.publicDomain ? '<span class="badge pd">Free / public domain</span>' : ''} ${readerBadge(x)} ${lengthLabel(x) ? `<span class="by">· ${lengthLabel(x)}</span>` : ''}${linkList(x.links)}</div>`,
               )
               .join('')}`
           : ''
@@ -288,7 +293,7 @@
 
   window.App = {
     DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks,
-    esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge,
+    esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel,
     readState, writeState, matches, renderFilters, showDetail,
   };
 })();

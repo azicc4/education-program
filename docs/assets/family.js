@@ -72,7 +72,7 @@
         ? `<button type="button" class="btn" data-act="done" data-id="${esc(r.id)}">Mark completed</button>`
         : `<button type="button" class="btn" data-act="active" data-id="${esc(r.id)}">Start</button>`;
     return `<article class="unit-card">
-      <div class="meta">${levelBadge(r.level)} <span>${esc(r.trackGroup)} › ${esc(trackTitle(r.track))}</span> · <span>typical age ${esc(ageLabel(r))}</span> <span class="badge pace-${item.pace}">${esc(pace)}</span></div>
+      <div class="meta">${levelBadge(r.level)} <span>${esc(r.trackGroup)} › ${esc(trackTitle(r.track))}</span> · <span>typical age ${esc(ageLabel(r))}</span> <span class="badge pace-${item.pace}">${esc(pace)}</span>${S.inSeason(r) ? ' <span class="badge pace-on">In season now</span>' : ''}</div>
       <h3><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button></h3>
       <p class="desc">${esc(r.summary)}</p>
       ${texts.length ? `<div class="texts"><strong>Texts:</strong> ${texts.map((t) => `${esc(S.cleanTitle(t))}${t.author ? ` <span class="by">(${esc(t.author)})</span>` : ''}`).join('; ')}</div>` : ''}
@@ -81,7 +81,10 @@
   }
 
   function renderNext(c) {
-    const items = P.next(c.id);
+    const all = P.next(c.id);
+    const isExtra = (i) => i.row.trackGroup === 'Extracurriculars';
+    const items = all.filter((i) => !isExtra(i));
+    const extras = all.filter(isExtra);
     const active = items.filter((i) => i.status === 'active');
     const ready = items.filter((i) => i.status !== 'active');
     return `
@@ -90,7 +93,8 @@
       <h2>In progress <small>(${active.length})</small></h2>
       ${active.length ? `<div class="cards">${active.map((i) => unitCard(i, c.id)).join('')}</div>` : '<p class="desc">Nothing in progress yet. Start one of the units below.</p>'}
       <h2>Ready to start <small>(${ready.length})</small></h2>
-      ${ready.length ? `<div class="cards">${ready.map((i) => unitCard(i, c.id)).join('')}</div>` : '<p class="desc">No new units are ready. Complete the units in progress, or check the placement tab.</p>'}`;
+      ${ready.length ? `<div class="cards">${ready.map((i) => unitCard(i, c.id)).join('')}</div>` : '<p class="desc">No new units are ready. Complete the units in progress, or check the placement tab.</p>'}
+      ${extras.length ? `<h2>Extracurriculars <small>(${esc(S.season())} season)</small></h2><div class="cards">${extras.map((i) => unitCard(i, c.id)).join('')}</div>` : ''}`;
   }
   const countStatus = (cid, st) => DATA.rows.filter((r) => S.status(cid, r.id) === st).length;
 

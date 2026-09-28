@@ -1,6 +1,6 @@
 // Skill tree: one swimlane per track on a shared age axis, with prerequisite arrows.
 (function () {
-  const { DATA, esc, ageLabel, fmtAge, readState, writeState, matches, renderFilters, showDetail } = window.App;
+  const { DATA, esc, ageLabel, fmtAge, readState, writeState, matches, renderFilters, showDetail, readerBadge, lengthLabel, trackById } = window.App;
 
   const LABEL_W = 150;
   const PX_PER_YEAR = 110;
@@ -21,6 +21,132 @@
   const tree = document.getElementById('tree');
   const x = (age) => LABEL_W + age * PX_PER_YEAR;
   const width = LABEL_W + MAX_AGE * PX_PER_YEAR;
+
+  // ---------- snapshot bookshelf: a draggable age cursor snapping to quarter-years ----------
+  const layout = document.getElementById('tree-layout');
+  const snapEl = document.getElementById('snapshot');
+  const snapToggle = document.getElementById('snap-toggle');
+  const scroller = document.querySelector('.tree-scroll');
+  let snapAge = state.at !== '' && !isNaN(+state.at) ? +state.at : null;
+  let visibleTracks = [];
+  const ELECTIVE = /\s*\(elective\)\s*$/i;
+  const snapTo = (a) => Math.min(MAX_AGE - 0.25, Math.max(0, Math.round(a * 4) / 4));
+  const quarterLabel = (a) => {
+    const whole = Math.floor(a);
+    const q = Math.round((a - whole) * 4);
+    return `Age ${whole}${['', '¼', '½', '¾'][q]} · Q${q + 1} of year ${whole}`;
+  };
+  const atCursor = (r, a) => !!r && r.ageStart <= a && (a < r.ageEnd || (r.ageStart === r.ageEnd && a === r.ageStart));
+  const READERS = [['teacher', 'Teacher reads'], ['together', 'Read together'], ['student', 'Student reads'], ['', 'Reader not yet marked']];
+
+  function renderSnapshot() {
+    if (snapAge == null) return;
+    const trackIds = new Set(visibleTracks.map((t) => t.id));
+    const order = (r) => visibleTracks.findIndex((t) => t.id === r.track);
+    const rows = DATA.rows.filter((r) => trackIds.has(r.track) && atCursor(r, snapAge)).sort((a, b) => order(a) - order(b) || a.order - b.order);
+    const texts = rows.flatMap((r) => (r.coreTexts || []).map((t) => ({ t, r })));
+    const pages = (list) => list.reduce((n, it) => n + (+it.t.pages || 0), 0);
+    const totals = READERS.map(([k, label]) => {
+      const list = texts.filter((it) => (it.t.reader || '') === k);
+      return list.length ? `<li><strong>${list.length}</strong> ${esc(label.toLowerCase())}${pages(list) ? ` · ${pages(list).toLocaleString()} pp` : ''}</li>` : '';
+    }).join('');
+    let lastTrack = '';
+    const body = rows
+      .map((r) => {
+        const head = r.track !== lastTrack ? `<h3>${esc(trackById[r.track]?.title || r.track)}</h3>` : '';
+        lastTrack = r.track;
+        const items = (r.coreTexts || [])
+          .map((t) => {
+            const elective = ELECTIVE.test(t.title);
+            const len = lengthLabel(t);
+            return `<li class="${elective ? 'elective' : ''}"><span class="t">${esc(t.title.replace(ELECTIVE, ''))}</span>${t.author ? ` <span class="by">${esc(t.author)}</span>` : ''}
+              <div class="meta">${readerBadge(t)}${len ? ` <span class="by">${len}</span>` : ''}${elective ? ' <span class="badge elective">elective</span>' : ''}${t.publicDomain ? ' <span class="badge pd">Free</span>' : ''}</div></li>`;
+          })
+          .join('');
+        return `${head}<div class="snap-unit"><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> <small>(${esc(ageLabel(r))})</small>${items ? `<ul>${items}</ul>` : '<p class="by">No listed texts (practice or skills unit).</p>'}</div>`;
+      })
+      .join('');
+    snapEl.innerHTML = `
+      <div class="snap-head">
+        <h2>Snapshot Bookshelf</h2>
+        <div class="snap-age">${esc(quarterLabel(snapAge))}</div>
+        <div class="snap-nav"><button type="button" class="chip" data-step="-0.25" aria-label="Back one quarter">◀ quarter</button><button type="button" class="chip" data-step="0.25" aria-label="Forward one quarter">quarter ▶</button></div>
+        <p class="by">${rows.length} units in progress across ${new Set(rows.map((r) => r.track)).size} tracks · ${texts.length} texts${pages(texts) ? ` · ${pages(texts).toLocaleString()} pp` : ''}</p>
+        ${totals ? `<ul class="snap-totals">${totals}</ul>` : ''}
+      </div>
+      ${body || '<p class="empty">No units at this point in the visible tracks.</p>'}`;
+  }
+
+  function placeCursor() {
+    const c = tree.querySelector('.snap-cursor');
+    if (!c || snapAge == null) return;
+    c.style.left = `${x(snapAge)}px`;
+    const h = c.querySelector('.snap-handle');
+    h.textContent = quarterLabel(snapAge).split(' · ')[0];
+    h.setAttribute('aria-valuenow', snapAge);
+    h.setAttribute('aria-valuetext', quarterLabel(snapAge));
+    tree.querySelectorAll('.node').forEach((n) => n.classList.toggle('at-cursor', atCursor(rowIndex[n.dataset.id], snapAge)));
+  }
+  const rowIndex = Object.fromEntries(DATA.rows.map((r) => [r.id, r]));
+
+  function setSnap(a, { persist = true } = {}) {
+    snapAge = a == null ? null : snapTo(a);
+    state.at = snapAge == null ? '' : String(snapAge);
+    if (persist) writeState(state);
+    placeCursor();
+    renderSnapshot();
+  }
+
+  function toggleSnapshot(on) {
+    layout.classList.toggle('snap-on', on);
+    snapEl.hidden = !on;
+    snapToggle.setAttribute('aria-pressed', on);
+    if (on && snapAge == null) snapAge = 10;
+    if (!on) snapAge = null;
+    state.at = snapAge == null ? '' : String(snapAge);
+    writeState(state);
+    render();
+    if (on) scroller.scrollLeft = Math.max(0, x(snapAge) - scroller.clientWidth / 2);
+  }
+
+  snapToggle.addEventListener('click', () => toggleSnapshot(snapAge == null));
+  snapEl.addEventListener('click', (e) => {
+    const o = e.target.closest('[data-open]');
+    if (o) return openRow(o.dataset.open);
+    const st = e.target.closest('[data-step]');
+    if (st) setSnap(snapAge + +st.dataset.step);
+  });
+
+  // drag the cursor (or press anywhere on the age axis) to move it
+  let dragging = false;
+  const ageFromEvent = (e) => (e.clientX - tree.getBoundingClientRect().left - LABEL_W) / PX_PER_YEAR;
+  tree.addEventListener('pointerdown', (e) => {
+    if (snapAge == null || !e.target.closest('.snap-handle, .snap-cursor, .tree-axis')) return;
+    dragging = true;
+    tree.setPointerCapture?.(e.pointerId);
+    setSnap(ageFromEvent(e), { persist: false });
+    e.preventDefault();
+  });
+  tree.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    const a = snapTo(ageFromEvent(e));
+    if (a !== snapAge) setSnap(a, { persist: false });
+  });
+  const endDrag = () => {
+    if (!dragging) return;
+    dragging = false;
+    writeState(state);
+  };
+  tree.addEventListener('pointerup', endDrag);
+  tree.addEventListener('pointercancel', endDrag);
+  tree.addEventListener('keydown', (e) => {
+    if (!e.target.closest('.snap-handle')) return;
+    const step = { ArrowLeft: -0.25, ArrowRight: 0.25, PageDown: -1, PageUp: 1 }[e.key];
+    if (step) {
+      e.preventDefault();
+      setSnap(snapAge + step);
+    }
+  });
 
   // greedy interval packing so overlapping units in a track stack instead of colliding
   function layoutTrack(rows) {
@@ -53,6 +179,7 @@
 
   function render() {
     const tracks = DATA.tracks.filter((t) => (!state.group || t.group === state.group) && (!state.track || t.id === state.track));
+    visibleTracks = tracks;
     const shown = new Set(DATA.rows.filter((r) => matches(r, { ...state, group: '', track: '' })).map((r) => r.id));
     const count = DATA.rows.filter((r) => shown.has(r.id) && tracks.some((t) => t.id === r.track)).length;
     filtersEl.querySelector('.count').textContent = `${count} units highlighted in ${tracks.length} track${tracks.length === 1 ? "" : "s"}`;
@@ -89,7 +216,10 @@
           <path d="M0,0 L10,5 L0,10 z" style="fill:var(--ink-2);stroke:none;opacity:.7"/></marker></defs></svg>
       <div class="tree-axis">${bandLabels}${axis}</div>
       ${bands}
-      ${lanes || '<p class="empty">No tracks match these filters.</p>'}`;
+      ${lanes || '<p class="empty">No tracks match these filters.</p>'}
+      ${snapAge != null ? `<div class="snap-cursor"><span class="snap-handle" role="slider" tabindex="0" aria-label="Snapshot age" aria-valuemin="0" aria-valuemax="${MAX_AGE - 0.25}"></span></div>` : ''}`;
+    placeCursor();
+    renderSnapshot();
   }
 
   function openRow(id) {
@@ -112,7 +242,13 @@
   });
 
   renderFilters(filtersEl, state, update);
+  if (snapAge != null) {
+    layout.classList.add('snap-on');
+    snapEl.hidden = false;
+    snapToggle.setAttribute('aria-pressed', 'true');
+  }
   render();
+  if (snapAge != null) scroller.scrollLeft = Math.max(0, x(snapAge) - scroller.clientWidth / 2);
   window.Store?.onChange(render);
   if (state.row) openRow(state.row);
 })();

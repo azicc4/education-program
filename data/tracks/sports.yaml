@@ -1,0 +1,444 @@
+track: sports
+title: Seasonal Sports
+trackGroup: Extracurriculars
+description: >-
+  Seasonal club and team sport, organized by the four seasons of the year. Each seasonal row lists
+  several sports as options, and families choose one or two per season (never all of them): fall offers
+  soccer, sailing, marksmanship and camping; winter offers fencing, ice hockey and bowling; spring offers
+  lacrosse, tennis and rowing; summer offers golf, sailing, beach volleyball and camping. A foundations
+  row (5–8) teaches the entry skills (skating, sailing, ball games, family camping). Each season then has
+  a youth row (about 7–12) for recreational and club play while sampling widely, and a teen row (12–18)
+  for competitive club, school or varsity play, captaincy, coaching younger players, instructor and
+  lifeguard certifications, and, if desired, college recruiting. The Physical Training track covers skill
+  development and fitness (swimming, woodcraft, marksmanship, fencing, team-sport fundamentals, strength);
+  this track covers seasonal participation in organized clubs, teams, leagues and regattas, with each row
+  cross-linked to the matching physical-training row. The end state is a young man who has played several
+  sports well, has competed seriously in one or two, has led a team as captain, has taught younger
+  players, and carries a lifetime sport or two into adulthood.
+rows:
+  - id: sports-01
+    title: "Sport Foundations: Learn to Skate, Learn to Sail, First Ball Games and Family Camping"
+    type: practice
+    level: early-5
+    stage: early-development
+    ageStart: 5
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [physical-training-01, physical-training-02, physical-training-03, physical-training-04]
+    summary: >-
+      Before a child joins a seasonal team he needs a few entry skills that are hard to pick up later: skating
+      (for hockey), basic boat handling in a beginner sailing program (after he can swim), throwing, catching
+      and kicking in tee-ball and small-sided soccer, and sleeping outdoors on family camping trips. Keep it
+      playful and varied. The aim is broad competence and a love of play, not early specialization.
+    objectives:
+      - Skate forward, stop and get up from a fall on ice (a Learn to Skate USA badge course or equivalent)
+      - After passing a swim test, rig and sail a small single-handed dinghy (e.g. an Optimist) in a supervised youth program
+      - Throw, catch, kick and dribble with control in tee-ball or coach-pitch baseball and small-sided soccer
+      - Go on 3 or more family camping trips, helping pitch the tent, gather wood and cook
+    curriculumOptions:
+      - name: Learn to Skate USA
+        publisher: U.S. Figure Skating, USA Hockey and US Speedskating
+        tradition: secular
+        url: "https://www.learntoskateusa.com/"
+        notes: Badge-based learn-to-skate classes at local rinks, the usual path into youth hockey.
+      - name: US Sailing youth programs
+        publisher: US Sailing
+        tradition: secular
+        url: "https://www.ussailing.org/education/youth/"
+        notes: National governing body. Find accredited youth sailing programs and community sailing centers.
+      - name: US Optimist Dinghy Association (USODA)
+        publisher: USODA
+        tradition: secular
+        url: "https://usoda.org/"
+        notes: Class association for the Opti, the standard first racing dinghy for children to about 15.
+      - name: Little League (tee ball and coach pitch)
+        publisher: Little League International
+        tradition: secular
+        url: "https://www.littleleague.org/"
+        notes: Local leagues from about age 4. US Youth Soccer (see sports-02) runs small-sided recreational soccer.
+    sources:
+      - { label: "AAP, Sports Specialization and Intensive Training in Young Athletes (Pediatrics, 2016)", url: "https://publications.aap.org/pediatrics/article/138/3/e20162148/52612/Sports-Specialization-and-Intensive-Training-in" }
+    notes: >-
+      This row is the prerequisite for every seasonal row. Swimming comes first (physical-training-01): no
+      sailing or rowing until the child passes a swim test and wears a life jacket. Pick two or three of these
+      foundations rather than all four.
+
+  - id: sports-02
+    title: "Fall Sports I: Soccer, Sailing, Marksmanship or Camping"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 12
+    order: 2
+    prerequisites: [sports-01]
+    related: [physical-training-08, physical-training-07, physical-training-04, physical-training-01]
+    summary: >-
+      Each fall the child plays one or two of these: recreational or club soccer, a youth sailing team or
+      frostbite program, a junior air-rifle club (from about 10, after firearm-safety training), or a
+      scouting troop's fall campouts. Families choose by temperament, geography and cost. The aim is a full
+      season on a team or in a club: practices, games or regattas, and the discipline of showing up.
+    objectives:
+      - Complete one or two full fall seasons each year with a team, club or troop
+      - "Soccer: play small-sided and then 11-a-side games, and know the positions and the offside rule"
+      - "Sailing: race an Optimist or other youth dinghy in club races and a first regatta"
+      - "Marksmanship (from about 10): shoot supervised junior air rifle and earn club qualification badges"
+      - "Camping: go on the troop's monthly fall campouts and earn early rank advancements"
+    curriculumOptions:
+      - name: US Youth Soccer
+        publisher: US Youth Soccer
+        tradition: secular
+        url: "https://www.usyouthsoccer.org/"
+        notes: Recreational through competitive club soccer through state associations.
+      - name: US Sailing youth programs and Junior Olympic Sailing Festivals
+        publisher: US Sailing
+        tradition: secular
+        url: "https://www.ussailing.org/competition/youth-sailing/junior-olympic-sailing-festival/"
+        notes: Junior Olympic Sailing Festivals are entry-level regattas for young sailors.
+      - name: CMP Youth Programs (junior air rifle)
+        publisher: Civilian Marksmanship Program
+        tradition: secular
+        url: "https://thecmp.org/youth/"
+        notes: Junior three-position air rifle clubs, clinics and matches.
+      - name: Trail Life USA
+        publisher: Trail Life USA
+        tradition: protestant
+        url: "https://www.traillifeusa.com/"
+        notes: Christ-centered outdoor program for boys 5–17, a Christian alternative to Scouting America.
+      - name: Catholic Scouting America (National Catholic Committee on Scouting)
+        publisher: National Catholic Committee on Scouting
+        tradition: catholic
+        url: "https://catholicscoutingamerica.org/"
+        notes: Catholic religious emblems and ministry within Scouting America units, many chartered by parishes.
+      - name: Scouting America (Cub Scouts and Scouts BSA)
+        publisher: Scouting America
+        tradition: secular
+        url: "https://www.scouting.org/"
+        notes: The largest scouting program, with the patrol method and rank advancement.
+    historicalPrecedent: >-
+      At 16 Washington spent a month in the spring of 1748 surveying the Virginia backcountry, sleeping in the
+      open and in rough cabins, and recorded it in "A Journal of my Journey over the Mountains." Throughout his
+      life he rode to hounds at Mount Vernon in the fall and winter with his neighbors.
+    sources:
+      - { label: "Washington, A Journal of my Journey over the Mountains (1748), Founders Online", url: "https://founders.archives.gov/documents/Washington/01-01-02-0001-0002" }
+      - { label: "Mount Vernon: Foxhunting", url: "https://www.mountvernon.org/george-washington/athleticism/foxhunting" }
+    notes: >-
+      Choose one or two, not all four. Physical-training-07 (marksmanship) and physical-training-04
+      (woodcraft) teach the skills and safety; this row is the club or troop season. Firearm safety and a
+      swim test are prerequisites in practice even though they live in another track.
+
+  - id: sports-03
+    title: "Winter Sports I: Fencing, Ice Hockey or Bowling"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 12
+    order: 3
+    prerequisites: [sports-01]
+    related: [physical-training-11, physical-training-02]
+    summary: >-
+      Each winter the child plays one or two of these: youth fencing classes at a club (foil first), youth
+      ice hockey on a small-area, station-based practice plan, or a youth bowling league. Hockey demands
+      skating first (sports-01). Fencing and bowling suit children who are not drawn to contact sports, and
+      bowling is a family-friendly lifetime sport.
+    objectives:
+      - Complete one or two full winter seasons each year with a club, team or league
+      - "Fencing: learn footwork, the lunge and the basic parries, and fence club bouts with a referee"
+      - "Ice hockey: skate, pass and shoot at the 8U–12U level, and learn positions and the rules of play"
+      - "Bowling: keep score by hand, learn a consistent approach and release, and bowl a full league season"
+    curriculumOptions:
+      - name: USA Fencing member clubs
+        publisher: USA Fencing
+        tradition: secular
+        url: "https://www.usafencing.org/"
+        notes: National governing body. Use its club finder, and enter local youth (Y10/Y12) events if desired.
+      - name: USA Hockey American Development Model (ADM)
+        publisher: USA Hockey
+        tradition: secular
+        url: "https://www.admkids.com/"
+        notes: Age-appropriate, station-based youth hockey. Start through Learn to Play or Learn to Skate programs.
+      - name: USBC Youth
+        publisher: United States Bowling Congress
+        tradition: secular
+        url: "https://bowl.com/youth"
+        notes: Youth leagues, awards, tournaments and SMART scholarship savings for youth bowlers.
+    notes: >-
+      Choose one or two. Fencing technique and its history are taught in physical-training-11 (from 11); a
+      younger fencer can start here in a club's youth class. Hockey is the most expensive and time-heavy of
+      the three.
+
+  - id: sports-04
+    title: "Spring Sports I: Lacrosse, Tennis or Rowing"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 12
+    order: 4
+    prerequisites: [sports-01]
+    related: [physical-training-08, physical-training-09]
+    summary: >-
+      Each spring the child plays one or two of these: youth lacrosse, junior tennis (red, orange and green
+      ball stages, then yellow ball), or, from about 12, a learn-to-row program at a junior rowing club.
+      Lacrosse is a fast team game of Native American origin, tennis a lifetime individual sport, and rowing
+      the purest teamwork in sport: eight rowers moving as one.
+    objectives:
+      - Complete one or two full spring seasons each year with a team, club or program
+      - "Lacrosse: cradle, pass, catch and shoot with both hands, and know the positions and the rules of play"
+      - "Tennis: rally with forehand, backhand and serve, keep score, and play junior match play"
+      - "Rowing (from about 12): pass a swim test and complete a learn-to-row course in sculls or sweep boats"
+    curriculumOptions:
+      - name: USA Lacrosse (parents and youth)
+        publisher: USA Lacrosse
+        tradition: secular
+        url: "https://www.usalacrosse.com/athletes/parents-youth"
+        notes: National governing body. Youth rules, age guidelines and a finder for local programs.
+      - name: USTA youth tennis
+        publisher: United States Tennis Association
+        tradition: secular
+        url: "https://www.usta.com/en/home/play/youth-tennis.html"
+        notes: Programs for kids by age and level, from beginner classes to junior tournaments.
+      - name: USRowing youth
+        publisher: USRowing
+        tradition: secular
+        url: "https://usrowing.org/athletes/youth"
+        notes: National governing body. Find junior clubs, camps and youth regattas.
+    historicalPrecedent: >-
+      The Jesuit missionary St. John de Brébeuf, one of the North American Martyrs, recorded in 1637 whole Huron
+      villages playing the stick-and-ball game the French called "crosse," which became modern lacrosse.
+    sources:
+      - { label: "The Canadian Encyclopedia: Lacrosse", url: "https://www.thecanadianencyclopedia.ca/en/article/lacrosse" }
+    notes: >-
+      Choose one or two. Team-sport fundamentals (physical-training-08) and open-water safety
+      (physical-training-09) support this row. Most rowing clubs take juniors from about 12–13.
+
+  - id: sports-05
+    title: "Summer Sports I: Golf, Sailing, Beach Volleyball or Camping"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 7
+    ageEnd: 12
+    order: 5
+    prerequisites: [sports-01]
+    related: [physical-training-04, physical-training-09, physical-training-01]
+    summary: >-
+      Each summer the child does one or two of these: a youth golf program that teaches the game with its
+      etiquette and honor code, a summer sailing program or camp, junior beach volleyball (from about 11–12),
+      or a week or more of troop summer camp. Summer is also the season to add a week-long overnight camp away
+      from home.
+    objectives:
+      - Complete one or two summer programs each year
+      - "Golf: learn grip, stance and swing, play nine holes, and call penalties on himself"
+      - "Sailing: sail and race a youth dinghy, capsize and recover, and learn basic rules and knots"
+      - "Beach volleyball (from about 11): pass, set and serve, and play doubles in a junior event"
+      - "Camping: attend a week of summer camp and earn outdoor skill awards"
+    curriculumOptions:
+      - name: First Tee
+        publisher: First Tee
+        tradition: secular
+        url: "https://firsttee.org/"
+        notes: Youth golf chapters that teach the game alongside character and life skills.
+      - name: US Sailing youth programs
+        publisher: US Sailing
+        tradition: secular
+        url: "https://www.ussailing.org/education/youth/"
+        notes: Summer community-sailing and yacht-club junior programs.
+      - name: USA Volleyball Beach Tour
+        publisher: USA Volleyball
+        tradition: secular
+        url: "https://usavolleyball.org/compete/usavolleyball-beach-tour/"
+        notes: Junior beach tournaments run with the USAV regions, with 12U to 18U national divisions.
+      - name: Trail Life USA or Scouting America summer camp
+        publisher: Trail Life USA / Scouting America
+        tradition: protestant
+        url: "https://www.traillifeusa.com/"
+        notes: A week of summer camp is a standard part of both programs. Catholic families can join a parish-chartered Scouting unit (see sports-02).
+    notes: >-
+      Choose one or two. Swimming and open-water safety (physical-training-01, -09) are required before
+      sailing. Woodcraft skills live in physical-training-04.
+
+  - id: sports-06
+    title: "Fall Sports II: Competitive Soccer, Sailing, Junior Rifle and High Adventure"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 18
+    order: 6
+    prerequisites: [sports-02]
+    related: [physical-training-07, physical-training-08, physical-training-04, character-virtue-10]
+    summary: >-
+      The teen fall season, taken seriously in one or two sports: competitive club or school soccer, high
+      school or club sailing teams and regional regattas, a junior rifle team in three-position air rifle
+      competition, or senior-scout high-adventure trips and leadership in the troop. By the later teens the
+      student leads: captain, patrol leader, or assistant coach of a younger team.
+    objectives:
+      - Play one or two full fall seasons a year at a competitive club, school or varsity level
+      - "Soccer: earn a starting place, and complete a grassroots coaching course to coach a younger team"
+      - "Sailing: race in regional regattas, and crew or skipper in double-handed boats"
+      - "Marksmanship: compete in junior air-rifle matches, working toward Junior Olympic qualification if desired"
+      - "Camping: plan and lead a high-adventure trip, and serve as patrol leader or senior patrol leader"
+    curriculumOptions:
+      - name: US Youth Soccer (competitive club)
+        publisher: US Youth Soccer
+        tradition: secular
+        url: "https://www.usyouthsoccer.org/"
+        notes: State leagues, regional and national championships.
+      - name: U.S. Soccer Learning Center (grassroots coaching courses)
+        publisher: U.S. Soccer
+        tradition: secular
+        url: "https://learning.ussoccer.com/"
+        notes: Entry-level online and in-person coaching courses for older teens who coach younger players.
+      - name: CMP Youth Programs
+        publisher: Civilian Marksmanship Program
+        tradition: secular
+        url: "https://thecmp.org/youth/"
+        notes: Junior rifle clubs and matches, with a path to national junior championships.
+      - name: USA Shooting (junior programs)
+        publisher: USA Shooting
+        tradition: secular
+        url: "https://usashooting.org/"
+        notes: Olympic-discipline governing body. Runs the rifle, pistol and shotgun Junior Olympic championships.
+    notes: >-
+      Physical-training-07 covers firearm safety, hunter education and technique. A homeschooled teen can play
+      for club teams, or in many states for the local school team. Recruiting notes are in sports-09.
+
+  - id: sports-07
+    title: "Winter Sports II: Competitive Fencing, Hockey and Bowling"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 18
+    order: 7
+    prerequisites: [sports-03]
+    related: [physical-training-11, physical-training-12, character-virtue-10]
+    summary: >-
+      The teen winter season: regional and national youth fencing tournaments, travel or high school hockey,
+      or scholastic and tournament bowling. The student trains through a full competitive season, learns to
+      handle losing a bout or a game with grace, and by the later teens helps coach younger club members.
+    objectives:
+      - Compete for one or two full winter seasons a year at a club, school or tournament level
+      - "Fencing: earn a USA Fencing rating in local and regional events, and learn to referee"
+      - "Hockey: play a competitive travel, prep or high school season, and captain or assist with a younger team"
+      - "Bowling: carry a league average and bowl in scholastic or youth tournaments"
+    curriculumOptions:
+      - name: USA Fencing
+        publisher: USA Fencing
+        tradition: secular
+        url: "https://www.usafencing.org/"
+        notes: Youth and cadet tournament circuit, ratings and referee training.
+      - name: USA Hockey
+        publisher: USA Hockey
+        tradition: secular
+        url: "https://www.usahockey.com/"
+        notes: National governing body for youth, high school and junior hockey, and coaching education.
+      - name: USBC Youth
+        publisher: United States Bowling Congress
+        tradition: secular
+        url: "https://bowl.com/youth"
+        notes: Youth tournaments (including Junior Gold), high school bowling and SMART scholarships.
+    notes: >-
+      Strength and conditioning for competitive sport live in physical-training-12. Fencing technique and its
+      history live in physical-training-11.
+
+  - id: sports-08
+    title: "Spring Sports II: Varsity Lacrosse, Tennis and Rowing"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 18
+    order: 8
+    prerequisites: [sports-04]
+    related: [physical-training-08, physical-training-12, physical-training-09, character-virtue-10]
+    summary: >-
+      The teen spring season: club or varsity lacrosse, junior tournament tennis or a school team, or crew at a
+      junior rowing club racing in youth regattas and regional championships. Rowing in particular suits a
+      disciplined teen who starts late, and it is the sport with the deepest roots in the English universities.
+    objectives:
+      - Compete for one or two full spring seasons a year at a club, school or varsity level
+      - "Lacrosse: play a competitive club or school season, and serve as captain in the later teens"
+      - "Tennis: play sanctioned junior tournaments and earn a ranking or a school team place"
+      - "Rowing: race a full regatta season, and pull a competitive 2,000 m ergometer test"
+    coreTexts:
+      - title: Tom Brown at Oxford
+        author: Thomas Hughes
+        date: "1861"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26851" }
+    curriculumOptions:
+      - name: USA Lacrosse (where to play)
+        publisher: USA Lacrosse
+        tradition: secular
+        url: "https://www.usalacrosse.com/where-to-play"
+        notes: Finder for clubs, leagues and teams.
+      - name: USTA youth tennis
+        publisher: United States Tennis Association
+        tradition: secular
+        url: "https://www.usta.com/en/home/play/youth-tennis.html"
+        notes: Junior tournaments and team tennis by age and level.
+      - name: USRowing youth
+        publisher: USRowing
+        tradition: secular
+        url: "https://usrowing.org/athletes/youth"
+        notes: Youth regional championships, Youth Nationals and U19 development camps.
+    historicalPrecedent: >-
+      The first Oxford–Cambridge Boat Race was rowed at Henley on 10 June 1829. Thomas Hughes, the author of
+      Tom Brown's School Days and a champion of "muscular Christianity," sent his hero to Oxford to row in his
+      college eight in Tom Brown at Oxford (1861).
+    sources:
+      - { label: "The Boat Race: Origins", url: "https://www.theboatrace.org/origins" }
+
+  - id: sports-09
+    title: "Summer Sports II: Tournament Play, Lifeguarding and Instructing"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 18
+    order: 9
+    prerequisites: [sports-05]
+    related: [physical-training-09, physical-training-04, character-virtue-10]
+    summary: >-
+      The teen summer: junior golf or beach volleyball tournaments, summer sailing racing, or staff work at a
+      scout camp. From 15 the student turns skill into service and a first job: a Red Cross lifeguard
+      certification, a US Sailing instructor certification, or a camp counselor post. Summer is also when
+      college recruiting camps and showcases run, for the student who wants to compete in college.
+    objectives:
+      - Compete in or work through one or two summer programs a year
+      - "Golf or beach volleyball: play a full junior tournament summer"
+      - Earn a lifeguard certification at 15 or older, or a sailing-instructor certification, and work a season
+      - Coach, instruct or counsel younger children for at least one summer
+      - "If recruiting: learn the NCAA recruiting calendar and eligibility rules, and contact coaches by the junior year"
+    curriculumOptions:
+      - name: American Red Cross Lifeguarding
+        publisher: American Red Cross
+        tradition: secular
+        url: "https://www.redcross.org/take-a-class/lifeguarding"
+        notes: Minimum age 15 by the last day of class, with a swimming skills prerequisite.
+      - name: US Sailing instructor certification
+        publisher: US Sailing
+        tradition: secular
+        url: "https://www.ussailing.org/education/instructor/"
+        notes: The standard certification for summer sailing-program instructors.
+      - name: First Tee
+        publisher: First Tee
+        tradition: secular
+        url: "https://firsttee.org/"
+        notes: Teen programs, leadership roles and coaching opportunities.
+      - name: USA Volleyball Beach Tour
+        publisher: USA Volleyball
+        tradition: secular
+        url: "https://usavolleyball.org/compete/usavolleyball-beach-tour/"
+        notes: 14U, 16U and 18U junior beach divisions with bids to the national championship.
+    sources:
+      - { label: "NCAA: Recruiting", url: "https://www.ncaa.org/eligibility-center/recruiting/" }
+    notes: >-
+      Lifesaving and open-water skills are taught in physical-training-09. Captaincy and coaching younger
+      players are the leadership goals of every teen row (see character-virtue-10). College recruiting is
+      optional; the program values sport for character, not scholarships.

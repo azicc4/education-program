@@ -1,0 +1,181 @@
+# Exams the program prepares for by age 18. Rows reference these ids in their `exams:` field.
+# typicalAge = the age at which a student on this program's pace would normally sit the exam.
+exams:
+  # ---------- AP: math & science ----------
+  - id: ap-calculus-bc
+    name: AP Calculus BC
+    body: College Board
+    category: ap-stem
+    typicalAge: 15
+  - id: ap-statistics
+    name: AP Statistics
+    body: College Board
+    category: ap-stem
+    typicalAge: 15
+  - id: ap-physics-c-mechanics
+    name: "AP Physics C: Mechanics"
+    body: College Board
+    category: ap-stem
+    typicalAge: 16
+  - id: ap-physics-c-em
+    name: "AP Physics C: Electricity and Magnetism"
+    body: College Board
+    category: ap-stem
+    typicalAge: 16
+  - id: ap-physics-1
+    name: "AP Physics 1: Algebra-Based"
+    body: College Board
+    category: ap-stem
+    typicalAge: 14
+    optional: true
+  - id: ap-chemistry
+    name: AP Chemistry
+    body: College Board
+    category: ap-stem
+    typicalAge: 15
+  - id: ap-biology
+    name: AP Biology
+    body: College Board
+    category: ap-stem
+    typicalAge: 14
+  # ---------- AP: humanities & languages ----------
+  - id: ap-english-language
+    name: AP English Language and Composition
+    body: College Board
+    category: ap-humanities
+    typicalAge: 15
+  - id: ap-english-literature
+    name: AP English Literature and Composition
+    body: College Board
+    category: ap-humanities
+    typicalAge: 16
+  - id: ap-us-history
+    name: AP United States History
+    body: College Board
+    category: ap-humanities
+    typicalAge: 16
+  - id: ap-european-history
+    name: AP European History
+    body: College Board
+    category: ap-humanities
+    typicalAge: 16
+  - id: ap-world-history-modern
+    name: "AP World History: Modern"
+    body: College Board
+    category: ap-humanities
+    typicalAge: 17
+  - id: ap-latin
+    name: AP Latin
+    body: College Board
+    category: ap-language
+    typicalAge: 15
+  - id: ap-spanish-language
+    name: AP Spanish Language and Culture
+    body: College Board
+    category: ap-language
+    typicalAge: 15
+  - id: ap-chinese-language
+    name: AP Chinese Language and Culture
+    body: College Board
+    category: ap-language
+    typicalAge: 16
+  - id: ap-music-theory
+    name: AP Music Theory
+    body: College Board
+    category: ap-humanities
+    typicalAge: 15
+  # ---------- Classic Learning Test ----------
+  - id: clt-classical-baccalaureate
+    name: "CLT: Classical Baccalaureate"
+    body: Classic Learning Initiatives
+    category: clt
+    typicalAge: 17
+  - id: clt-american-civics
+    name: "CLT: American Civics Exam"
+    body: Classic Learning Initiatives
+    category: clt
+    typicalAge: 15
+  - id: clt10
+    name: CLT10
+    body: Classic Learning Initiatives
+    category: admissions
+    typicalAge: 13
+  - id: clt
+    name: CLT (college admission)
+    body: Classic Learning Initiatives
+    category: admissions
+    typicalAge: 16
+  # ---------- admissions & credit ----------
+  - id: sat
+    name: SAT
+    body: College Board
+    category: admissions
+    typicalAge: 16
+  - id: act
+    name: ACT
+    body: ACT
+    category: admissions
+    typicalAge: 16
+    optional: true
+  - id: psat-nmsqt
+    name: PSAT/NMSQT (National Merit)
+    body: College Board / National Merit Scholarship Corporation
+    category: admissions
+    typicalAge: 15
+  - id: clep
+    name: CLEP exams
+    body: College Board
+    category: admissions
+    typicalAge: 17
+    optional: true
+  # ---------- national exams & olympiads ----------
+  - id: national-latin-exam
+    name: National Latin Exam
+    body: American Classical League / NJCL
+    category: national-exam
+    typicalAge: 9
+  - id: national-greek-exam
+    name: National Greek Exam
+    body: American Classical League
+    category: national-exam
+    typicalAge: 12
+  - id: national-mythology-exam
+    name: National Mythology Exam
+    body: American Classical League
+    category: national-exam
+    typicalAge: 9
+  - id: national-spanish-exam
+    name: National Spanish Exam
+    body: American Association of Teachers of Spanish and Portuguese
+    category: national-exam
+    typicalAge: 10
+  - id: hsk
+    name: HSK (Chinese Proficiency Test)
+    body: Chinese Testing International
+    category: national-exam
+    typicalAge: 10
+  - id: amc
+    name: AMC 8/10/12 and AIME
+    body: Mathematical Association of America
+    category: olympiad
+    typicalAge: 11
+  - id: physics-olympiad
+    name: "Physics Olympiad (F=ma, USAPhO)"
+    body: American Association of Physics Teachers
+    category: olympiad
+    typicalAge: 15
+  - id: chemistry-olympiad
+    name: U.S. National Chemistry Olympiad (USNCO)
+    body: American Chemical Society
+    category: olympiad
+    typicalAge: 15
+  - id: biology-olympiad
+    name: USA Biology Olympiad (USABO)
+    body: Center for Excellence in Education
+    category: olympiad
+    typicalAge: 14
+  - id: music-graded-exams
+    name: Music graded exams (ABRSM / RCM)
+    body: ABRSM / Royal Conservatory
+    category: national-exam
+    typicalAge: 8

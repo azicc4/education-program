@@ -200,7 +200,7 @@ rows:
         publisher: Apologia
         tradition: protestant
         url: "https://www.apologia.com/shop/all-science/astronomy/"
-        notes: Popular Christian elementary astronomy. It is written from a young-earth creationist perspective (see notes on natural-science-12).
+        notes: Popular Christian elementary astronomy. It is written from a young-earth creationist perspective (see notes on biology-01).
     notes: A planisphere and a pair of 7×50 or 10×50 binoculars are the only equipment needed.
 
   - id: natural-science-06
@@ -506,214 +506,6 @@ rows:
         url: "https://www.apologia.com/shop/all-science/anatomy-and-physiology/"
         notes: Popular Christian option (young-earth perspective).
 
-  - id: natural-science-12
-    title: "Biology: Cells, Heredity & Evolution (Mendel, Darwin, Humani Generis)"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 12
-    ageEnd: 13.5
-    order: 12
-    prerequisites: [natural-science-09, natural-science-11]
-    related: [theology-14]
-    summary: >-
-      A full lab biology course covering biochemistry, the cell, genetics, molecular biology, evolution,
-      ecology and the diversity of life. Students read Mendel's pea paper (by an Augustinian friar), the
-      first edition of Darwin's Origin of Species read critically as an argument, and Pius XII's
-      encyclical Humani Generis on what Catholic teaching permits and forbids in evolutionary theory.
-    objectives:
-      - Carry out lab work (microscopy, dissection, a Mendelian cross, DNA extraction)
-      - Solve monohybrid and dihybrid genetics problems and explain Mendel's reasoning from his data
-      - Outline Darwin's argument and distinguish its empirical claims from philosophical extrapolations
-      - State the Catholic position in Humani Generis and compare other Christian positions fairly
-    coreTexts:
-      - title: Experiments in Plant Hybridization
-        author: Gregor Mendel
-        date: "1865"
-        publicDomain: true
-        links:
-          - { label: MendelWeb (English), url: "http://www.mendelweb.org/Mendel.html" }
-      - title: On the Origin of Species (1st ed.)
-        author: Charles Darwin
-        date: "1859"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1228" }
-      - title: Humani Generis
-        author: Pope Pius XII
-        date: "1950"
-        publicDomain: false
-        links:
-          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html" }
-      - title: "The Selfish Gene (elective, critical reading)"
-        author: Richard Dawkins
-        date: "1976; 40th anniv. ed. 2016"
-        publicDomain: false
-        links:
-          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-selfish-gene-9780198788607" }
-      - title: "Jurassic Park (elective)"
-        author: Michael Crichton
-        date: "1990"
-        publicDomain: false
-        links:
-          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/33501/jurassic-park-by-michael-crichton/" }
-    curriculumOptions:
-      - name: General Biology, 2nd ed. (Novare)
-        publisher: Classical Academic Press / Novare
-        tradition: classical
-        url: "https://classicalacademicpress.com/products/general-biology-2nd-edition"
-        notes: Classical Christian, mastery-based. Also sold by Memoria Press. Advanced Biology follows.
-      - name: Exploring Creation with Biology, 3rd ed.
-        publisher: Apologia
-        tradition: protestant
-        url: "https://www.apologia.com/shop/exploring-creation-with-biology-3rd-edition"
-        notes: Widely used homeschool biology with strong labs. It teaches from a young-earth creationist perspective.
-      - name: Biology with Lab / Honors Biology (online)
-        publisher: Kolbe Academy
-        tradition: catholic
-        url: "https://courses.kolbe.org/"
-        notes: Catholic online course.
-      - name: Biology 2e (Campbell-level alternative)
-        publisher: OpenStax
-        tradition: secular
-        url: "https://openstax.org/details/books/biology-2e"
-        notes: Free college-level text comparable in scope to Campbell Biology. Use it for AP-level depth.
-      - name: "Selections from Darwin's Origin of Species: The Shape of the Argument"
-        publisher: Green Lion Press
-        tradition: classical
-        url: "https://www.greenlion.com/books/Darwin_GC.html"
-        notes: Guided reading of Darwin's argument.
-    notes: >-
-      Neutral note on differing views. Catholic teaching (Humani Generis, 1950; later papal statements)
-      allows scientific inquiry into the evolution of the human body from pre-existing matter. It holds
-      that each human soul is directly created by God and rejects polygenism and materialist
-      philosophy. Many Protestants hold the same view, while others (e.g., Apologia, Answers in Genesis)
-      hold young-earth creationism. Present the evidence and the arguments honestly, and let parents
-      decide the emphasis. Campbell Biology (Pearson) is the standard AP/college text if a
-      print textbook is preferred. The Selfish Gene is an elective and a critical reading for the
-      end of the course (13+): it is the classic popular statement of the gene's-eye view of
-      evolution and of kin selection, and the student should separate its genuine science from
-      Dawkins's reductionist and materialist gloss ("survival machines"), which Humani Generis
-      and theology-14 answer. Jurassic Park is a light elective for 13+, a thriller about cloning
-      dinosaurs from ancient DNA. Read it for the ethics of science: Ian Malcolm's chaos-theory
-      warnings against the hubris of doing whatever technology makes possible. Parents should know
-      it has thriller violence and some profanity.
-
-  - id: natural-science-13
-    title: "Conceptual Physics & Galileo's Two New Sciences"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 13
-    ageEnd: 14
-    order: 13
-    prerequisites: [natural-science-07]
-    related: []
-    summary: >-
-      Algebra-based physics with understanding before formulas (Hillsdale K-12's ninth-grade course):
-      motion, forces, momentum, energy, gravity, fluids, heat, waves, electricity, magnetism, light and
-      the atom. Students read Galileo's Two New Sciences (Third Day, on naturally accelerated motion)
-      and repeat his inclined-plane experiment, then Feynman's Six Easy Pieces for the modern picture.
-    objectives:
-      - Explain Newton's laws, conservation of momentum and energy conceptually and with algebra
-      - Repeat Galileo's inclined-plane experiment and derive the odd-number rule from data
-      - Explain wave behavior, simple circuits and the basic structure of the atom
-    coreTexts:
-      - title: Dialogues Concerning Two New Sciences
-        author: Galileo Galilei, trans. Crew & de Salvio
-        date: "1638 (trans. 1914)"
-        publicDomain: true
-        links:
-          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences" }
-          - { label: Archive.org, url: "https://archive.org/details/twonewsciences0000gali" }
-      - title: Six Easy Pieces
-        author: Richard P. Feynman
-        date: "1963/1994"
-        publicDomain: false
-        links:
-          - { label: Hachette Book Group, url: "https://www.hachettebookgroup.com/titles/richard-p-feynman/six-easy-pieces/9780465025275/" }
-    curriculumOptions:
-      - name: "Conceptual Physics (Paul Hewitt)"
-        publisher: Pearson / conceptualphysics.com
-        tradition: secular
-        url: "https://www.conceptualphysics.com/"
-        notes: The text Hillsdale K-12 names for 9th grade. Clear and engaging, with minimal math.
-      - name: Introductory Physics (Novare)
-        publisher: Classical Academic Press / Novare
-        tradition: classical
-        url: "https://classicalacademicpress.com/products/introductory-physics-program-1"
-        notes: Classical Christian algebra-based physics for 9th grade.
-      - name: Apologia Physics
-        publisher: Apologia
-        tradition: protestant
-        url: "https://www.apologia.com/shop/all-science/physics/"
-        notes: Popular homeschool option.
-    sources:
-      - { label: "Hillsdale K-12 Curriculum Overview (Conceptual Physics, grade 9)", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
-
-  - id: natural-science-14
-    title: "Chemistry: Lavoisier, Dalton & the Laboratory"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 13.5
-    ageEnd: 15
-    order: 14
-    prerequisites: [natural-science-07, natural-science-13]
-    related: []
-    summary: >-
-      A full lab chemistry course covering measurement, atomic structure, the periodic table, bonding,
-      stoichiometry, gases, solutions, acids and bases, thermochemistry, kinetics and equilibrium.
-      Students read the founding documents: Lavoisier's Elementary Treatise (1789), which overthrew
-      phlogiston and established conservation of mass, and Dalton's New System (1808), with its atomic
-      theory and weights. A lab notebook is kept to professional standards.
-    objectives:
-      - Perform quantitative labs (titration, gas laws, calorimetry) with error analysis
-      - Solve stoichiometry, gas-law and equilibrium problems
-      - Reconstruct Lavoisier's argument against phlogiston and Dalton's case for atoms
-    coreTexts:
-      - title: Elements of Chemistry
-        author: Antoine Lavoisier, trans. Robert Kerr
-        date: "1789 (trans. 1790)"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30775" }
-      - title: A New System of Chemical Philosophy, vol. 1
-        author: John Dalton
-        date: "1808"
-        publicDomain: true
-        links:
-          - { label: Archive.org, url: "https://archive.org/details/newsystemofchemi01daltuoft" }
-    curriculumOptions:
-      - name: General Chemistry, 3rd ed. / Chemistry for Accelerated Students (Novare)
-        publisher: Classical Academic Press / Novare
-        tradition: classical
-        url: "https://classicalacademicpress.com/products/general-chemistry-3rd-edition"
-        notes: Classical Christian. The accelerated version suits this program (https://classicalacademicpress.com/products/chemistry-for-accelerated-students-3rd-edition).
-      - name: "A New Foundation for Chemistry: Lavoisier's Elementary Treatise"
-        publisher: Green Lion Press
-        tradition: classical
-        url: "https://www.greenlion.com/books/LavNewFound.html"
-        notes: St. John's-style guided reading of Lavoisier.
-      - name: Chemistry with Lab / Honors Chemistry (online)
-        publisher: Kolbe Academy
-        tradition: catholic
-        url: "https://courses.kolbe.org/"
-        notes: Catholic online option.
-      - name: Chemistry 2e
-        publisher: OpenStax
-        tradition: secular
-        url: "https://openstax.org/details/books/chemistry-2e"
-        notes: Free college-level text for AP depth.
-      - name: Apologia Chemistry
-        publisher: Apologia
-        tradition: protestant
-        url: "https://www.apologia.com/shop/all-science/chemistry/"
-        notes: Popular homeschool option.
-    historicalPrecedent: >-
-      Jefferson followed Lavoisier's new chemistry closely while minister in Paris. Joseph Priestley,
-      discoverer of oxygen, emigrated to Pennsylvania in 1794 and corresponded with Jefferson and Adams.
-
   - id: natural-science-15
     title: "Astronomy: Ptolemy, Copernicus, Kepler & Galileo"
     type: unit
@@ -722,8 +514,8 @@ rows:
     ageStart: 14
     ageEnd: 15
     order: 15
-    prerequisites: [natural-science-05, natural-science-13]
-    related: []
+    prerequisites: [natural-science-05]
+    related: [physics-01]
     summary: >-
       The St. John's approach to the Scientific Revolution. Students work through the geocentric models
       of Ptolemy's Almagest, Copernicus's heliocentric alternative (Book I of De Revolutionibus),
@@ -823,66 +615,6 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15114" }
 
-  - id: natural-science-17
-    title: "Calculus-Based Physics & Newton's Principia and Opticks"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 15
-    ageEnd: 16.5
-    order: 17
-    prerequisites: [natural-science-13]
-    related: []
-    summary: >-
-      Mechanics, then electricity and magnetism, with calculus (AP Physics C level; Halliday's
-      Fundamentals). The primary sources are Newton's Principia (Definitions, Axioms and the Laws of
-      Motion, Book I sections on central forces, and Book III's System of the World with the General
-      Scholium) and the Opticks (prism experiments, which students repeat). Requires concurrent
-      calculus (mathematics-18).
-    objectives:
-      - Solve mechanics and E&M problems using derivatives and integrals
-      - Derive Kepler's laws from the inverse-square law (with guidance)
-      - Repeat Newton's experimentum crucis with prisms and explain it
-      - Read the General Scholium and discuss Newton's natural theology
-    coreTexts:
-      - title: "The Mathematical Principles of Natural Philosophy (Principia)"
-        author: Isaac Newton, trans. Andrew Motte
-        date: "1687 (trans. 1729)"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
-      - title: Opticks
-        author: Isaac Newton
-        date: "1704"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33504" }
-    curriculumOptions:
-      - name: "Fundamentals of Physics, Extended (Halliday, Resnick, Walker)"
-        publisher: Wiley
-        tradition: secular
-        url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
-        notes: The standard calculus-based text.
-      - name: "Physics: Modeling Nature (Novare)"
-        publisher: Classical Academic Press / Novare
-        tradition: classical
-        url: "https://classicalacademicpress.com/products/physics-modeling-nature-2nd-edition"
-        notes: Classical Christian, calculus-ready upper-level physics. Also sold by Memoria Press.
-      - name: University Physics Vol. 1–3
-        publisher: OpenStax
-        tradition: secular
-        url: "https://openstax.org/details/books/university-physics-volume-1"
-        notes: Free calculus-based text.
-      - name: Selections from Newton's Principia
-        publisher: Green Lion Press
-        tradition: classical
-        url: "https://www.greenlion.com/books/Newton_GC.html"
-        notes: Guided student edition.
-    historicalPrecedent: >-
-      Newtonian natural philosophy entered colonial colleges in the 1720s–40s through Isaac Greenwood and
-      John Winthrop at Harvard and William Small at William & Mary. Jefferson said Small "fixed the
-      destinies of my life" by teaching him mathematics and natural philosophy.
-
   - id: natural-science-18
     title: "Philosophy of Science & the Catholic Contribution (Duhem, Jaki)"
     type: unit
@@ -891,8 +623,8 @@ rows:
     ageStart: 15.5
     ageEnd: 16.5
     order: 18
-    prerequisites: [natural-science-12, natural-science-17]
-    related: [logic-08]
+    prerequisites: []
+    related: [logic-08, biology-01, physics-02]
     summary: >-
       What is a scientific theory, and what can it prove? Students read Pierre Duhem, a Catholic
       physicist and historian who discovered the medieval roots of mechanics (Buridan, Oresme) and
@@ -933,8 +665,8 @@ rows:
     ageStart: 17
     ageEnd: 18
     order: 19
-    prerequisites: [natural-science-14, natural-science-17, natural-science-18]
-    related: [philosophy-14]
+    prerequisites: [natural-science-18]
+    related: [philosophy-14, chemistry-01, physics-02]
     summary: >-
       A great-books natural philosophy seminar joined to a laboratory, modeled on the St. John's College
       laboratory and the Thomas Aquinas College natural science sequence. Students read Aristotle's

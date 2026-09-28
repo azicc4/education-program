@@ -27,16 +27,20 @@
   <main>
     <p class="intro">
       Each track is a lane laid out by age, and arrows show prerequisites. Level and search filters highlight matching units.
-      Subject and track filters hide other lanes. Scroll sideways to follow a track to age 18, and click any unit for details.
+      Subject and track filters hide other lanes. Scroll sideways to follow a track to age 18, and click any unit for details. Turn on the Snapshot Bookshelf and drag its cursor (or use the arrow keys) to list every book being studied at a given quarter-year.
     </p>
     <div class="filters" id="filters"></div>
     <div class="legend">
+      <button type="button" class="chip" id="snap-toggle" aria-pressed="false" title="Show a draggable age cursor and the books studied at that point">Snapshot Bookshelf</button>
       <span class="badge lvl-early-5">Early Dev – 5</span>
       <span class="badge lvl-6-8">Grades 6–8</span>
       <span class="badge lvl-9-12">Grades 9–12</span>
       <span class="badge lvl-college">College (17+)</span>
     </div>
-    <div class="tree-scroll"><div class="tree" id="tree"></div></div>
+    <div class="tree-layout" id="tree-layout">
+      <aside class="snapshot" id="snapshot" hidden aria-live="polite"></aside>
+      <div class="tree-scroll"><div class="tree" id="tree"></div></div>
+    </div>
   </main>
 
   <script src="data/curriculum.js"></script>

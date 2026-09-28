@@ -334,6 +334,36 @@ table.ahead tbody tr, table.place tbody tr { cursor: default; }
   .tabs, .family-top, #add-book, .backup, .book .remove, .filters, .panel-card form { display: none !important; }
 }
 
+/* ---------- snapshot bookshelf ---------- */
+.tree-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.tree-layout.snap-on { grid-template-columns: minmax(260px, 340px) minmax(0, 1fr); }
+.snapshot { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; max-height: 80vh; overflow-y: auto; position: sticky; top: 8px; align-self: start; }
+.snapshot h2 { font-size: 1.2rem; margin: 0 0 4px; }
+.snapshot h3 { font: 600 0.75rem var(--sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); margin: 14px 0 4px; border-bottom: 1px solid var(--rule); padding-bottom: 3px; }
+.snap-age { font: 600 0.95rem var(--sans); color: var(--accent); }
+.snap-nav { display: flex; gap: 6px; margin: 6px 0; }
+.snap-totals { list-style: none; padding: 0; margin: 6px 0 0; font: 0.8rem var(--sans); color: var(--ink-2); }
+.snap-unit { margin: 6px 0 8px; font-size: 0.93rem; }
+.snap-unit small { color: var(--ink-2); font: 0.72rem var(--sans); }
+.snap-unit ul { list-style: none; padding: 0 0 0 8px; margin: 4px 0 0; border-left: 2px solid var(--rule); }
+.snap-unit li { margin: 4px 0; }
+.snap-unit li.elective { opacity: 0.75; }
+.snap-unit .t { font-style: italic; }
+.snap-unit .meta { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; font-size: 0.78rem; margin-top: 2px; }
+.snap-cursor { position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px solid var(--accent); z-index: 4; cursor: ew-resize; }
+.snap-cursor::before { content: ""; position: absolute; top: 0; bottom: 0; left: -8px; width: 16px; }
+.snap-handle { position: absolute; top: 2px; left: 0; transform: translateX(-50%); background: var(--accent); color: var(--accent-ink); font: 600 0.72rem var(--sans); padding: 3px 8px; border-radius: 999px; white-space: nowrap; cursor: grab; touch-action: none; user-select: none; }
+.snap-handle:active { cursor: grabbing; }
+.tree-layout.snap-on .tree-axis { cursor: crosshair; }
+.node.at-cursor { box-shadow: 0 0 0 2px var(--accent); z-index: 1; }
+.reader-teacher { color: var(--lvl-college); }
+.reader-together { color: var(--focus); }
+.reader-student { color: var(--lvl-68); }
+@media (max-width: 900px) {
+  .tree-layout.snap-on { grid-template-columns: minmax(0, 1fr); }
+  .snapshot { position: static; max-height: 50vh; }
+}
+
 footer { max-width: 1400px; margin: 24px auto; padding: 0 16px; font: 0.8rem var(--sans); color: var(--ink-2); }
 
 @media print {

@@ -1,0 +1,117 @@
+track: physics
+title: Physics
+trackGroup: Math & Science
+description: >-
+  From Galileo's inclined planes to Maxwell's equations. Honors physics grounded in the primary sources, then AP Physics C: Mechanics and Electricity & Magnetism with calculus. The goal is a student who can model the physical world mathematically and pass both Physics C exams by 16.
+rows:
+  - id: physics-01
+    title: "Conceptual Physics & Galileo's Two New Sciences"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 1
+    prerequisites: []
+    related: [natural-science-07]
+    summary: >-
+      Algebra-based physics with understanding before formulas (Hillsdale K-12's ninth-grade course):
+      motion, forces, momentum, energy, gravity, fluids, heat, waves, electricity, magnetism, light and
+      the atom. Students read Galileo's Two New Sciences (Third Day, on naturally accelerated motion)
+      and repeat his inclined-plane experiment, then Feynman's Six Easy Pieces for the modern picture.
+    objectives:
+      - Explain Newton's laws, conservation of momentum and energy conceptually and with algebra
+      - Repeat Galileo's inclined-plane experiment and derive the odd-number rule from data
+      - Explain wave behavior, simple circuits and the basic structure of the atom
+    coreTexts:
+      - title: Dialogues Concerning Two New Sciences
+        author: Galileo Galilei, trans. Crew & de Salvio
+        date: "1638 (trans. 1914)"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences" }
+          - { label: Archive.org, url: "https://archive.org/details/twonewsciences0000gali" }
+      - title: Six Easy Pieces
+        author: Richard P. Feynman
+        date: "1963/1994"
+        publicDomain: false
+        links:
+          - { label: Hachette Book Group, url: "https://www.hachettebookgroup.com/titles/richard-p-feynman/six-easy-pieces/9780465025275/" }
+    curriculumOptions:
+      - name: "Conceptual Physics (Paul Hewitt)"
+        publisher: Pearson / conceptualphysics.com
+        tradition: secular
+        url: "https://www.conceptualphysics.com/"
+        notes: The text Hillsdale K-12 names for 9th grade. Clear and engaging, with minimal math.
+      - name: Introductory Physics (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/introductory-physics-program-1"
+        notes: Classical Christian algebra-based physics for 9th grade.
+      - name: Apologia Physics
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/all-science/physics/"
+        notes: Popular homeschool option.
+    sources:
+      - { label: "Hillsdale K-12 Curriculum Overview (Conceptual Physics, grade 9)", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
+
+  - id: physics-02
+    title: "Calculus-Based Physics & Newton's Principia and Opticks"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 2
+    prerequisites: [physics-01]
+    related: []
+    summary: >-
+      Mechanics, then electricity and magnetism, with calculus (AP Physics C level; Halliday's
+      Fundamentals). The primary sources are Newton's Principia (Definitions, Axioms and the Laws of
+      Motion, Book I sections on central forces, and Book III's System of the World with the General
+      Scholium) and the Opticks (prism experiments, which students repeat). Requires concurrent
+      calculus (mathematics-18).
+    objectives:
+      - Solve mechanics and E&M problems using derivatives and integrals
+      - Derive Kepler's laws from the inverse-square law (with guidance)
+      - Repeat Newton's experimentum crucis with prisms and explain it
+      - Read the General Scholium and discuss Newton's natural theology
+    coreTexts:
+      - title: "The Mathematical Principles of Natural Philosophy (Principia)"
+        author: Isaac Newton, trans. Andrew Motte
+        date: "1687 (trans. 1729)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
+      - title: Opticks
+        author: Isaac Newton
+        date: "1704"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33504" }
+    curriculumOptions:
+      - name: "Fundamentals of Physics, Extended (Halliday, Resnick, Walker)"
+        publisher: Wiley
+        tradition: secular
+        url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
+        notes: The standard calculus-based text.
+      - name: "Physics: Modeling Nature (Novare)"
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/physics-modeling-nature-2nd-edition"
+        notes: Classical Christian, calculus-ready upper-level physics. Also sold by Memoria Press.
+      - name: University Physics Vol. 1–3
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/university-physics-volume-1"
+        notes: Free calculus-based text.
+      - name: Selections from Newton's Principia
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/Newton_GC.html"
+        notes: Guided student edition.
+    historicalPrecedent: >-
+      Newtonian natural philosophy entered colonial colleges in the 1720s–40s through Isaac Greenwood and
+      John Winthrop at Harvard and William Small at William & Mary. Jefferson said Small "fixed the
+      destinies of my life" by teaching him mathematics and natural philosophy.

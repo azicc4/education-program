@@ -1,0 +1,98 @@
+track: biology
+title: Biology
+trackGroup: Math & Science
+description: >-
+  From Mendel's peas to molecular genetics. Honors biology grounded in the classic papers, then AP Biology. Evolution is read alongside Catholic teaching (Humani Generis). The goal is command of cell biology, genetics, evolution and ecology, and a strong AP Biology exam by about 14.
+rows:
+  - id: biology-01
+    title: "Biology: Cells, Heredity & Evolution (Mendel, Darwin, Humani Generis)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13.5
+    order: 1
+    prerequisites: []
+    related: [theology-14, natural-science-09, natural-science-11]
+    summary: >-
+      A full lab biology course covering biochemistry, the cell, genetics, molecular biology, evolution,
+      ecology and the diversity of life. Students read Mendel's pea paper (by an Augustinian friar), the
+      first edition of Darwin's Origin of Species read critically as an argument, and Pius XII's
+      encyclical Humani Generis on what Catholic teaching permits and forbids in evolutionary theory.
+    objectives:
+      - Carry out lab work (microscopy, dissection, a Mendelian cross, DNA extraction)
+      - Solve monohybrid and dihybrid genetics problems and explain Mendel's reasoning from his data
+      - Outline Darwin's argument and distinguish its empirical claims from philosophical extrapolations
+      - State the Catholic position in Humani Generis and compare other Christian positions fairly
+    coreTexts:
+      - title: Experiments in Plant Hybridization
+        author: Gregor Mendel
+        date: "1865"
+        publicDomain: true
+        links:
+          - { label: MendelWeb (English), url: "http://www.mendelweb.org/Mendel.html" }
+      - title: On the Origin of Species (1st ed.)
+        author: Charles Darwin
+        date: "1859"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1228" }
+      - title: Humani Generis
+        author: Pope Pius XII
+        date: "1950"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html" }
+      - title: "The Selfish Gene (elective, critical reading)"
+        author: Richard Dawkins
+        date: "1976; 40th anniv. ed. 2016"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-selfish-gene-9780198788607" }
+      - title: "Jurassic Park (elective)"
+        author: Michael Crichton
+        date: "1990"
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/33501/jurassic-park-by-michael-crichton/" }
+    curriculumOptions:
+      - name: General Biology, 2nd ed. (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/general-biology-2nd-edition"
+        notes: Classical Christian, mastery-based. Also sold by Memoria Press. Advanced Biology follows.
+      - name: Exploring Creation with Biology, 3rd ed.
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/shop/exploring-creation-with-biology-3rd-edition"
+        notes: Widely used homeschool biology with strong labs. It teaches from a young-earth creationist perspective.
+      - name: Biology with Lab / Honors Biology (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://courses.kolbe.org/"
+        notes: Catholic online course.
+      - name: Biology 2e (Campbell-level alternative)
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/biology-2e"
+        notes: Free college-level text comparable in scope to Campbell Biology. Use it for AP-level depth.
+      - name: "Selections from Darwin's Origin of Species: The Shape of the Argument"
+        publisher: Green Lion Press
+        tradition: classical
+        url: "https://www.greenlion.com/books/Darwin_GC.html"
+        notes: Guided reading of Darwin's argument.
+    notes: >-
+      Neutral note on differing views. Catholic teaching (Humani Generis, 1950; later papal statements)
+      allows scientific inquiry into the evolution of the human body from pre-existing matter. It holds
+      that each human soul is directly created by God and rejects polygenism and materialist
+      philosophy. Many Protestants hold the same view, while others (e.g., Apologia, Answers in Genesis)
+      hold young-earth creationism. Present the evidence and the arguments honestly, and let parents
+      decide the emphasis. Campbell Biology (Pearson) is the standard AP/college text if a
+      print textbook is preferred. The Selfish Gene is an elective and a critical reading for the
+      end of the course (13+): it is the classic popular statement of the gene's-eye view of
+      evolution and of kin selection, and the student should separate its genuine science from
+      Dawkins's reductionist and materialist gloss ("survival machines"), which Humani Generis
+      and theology-14 answer. Jurassic Park is a light elective for 13+, a thriller about cloning
+      dinosaurs from ancient DNA. Read it for the ethics of science: Ian Malcolm's chaos-theory
+      warnings against the hubris of doing whatever technology makes possible. Parents should know
+      it has thriller violence and some profanity.

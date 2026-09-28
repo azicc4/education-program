@@ -124,6 +124,13 @@
     },
   };
 
+  // ---------- seasons (for seasonal extracurriculars) ----------
+  const SEASONS = ['winter', 'winter', 'spring', 'spring', 'spring', 'summer', 'summer', 'summer', 'fall', 'fall', 'fall', 'winter'];
+  Store.season = (d = new Date()) => SEASONS[d.getMonth()];
+  // a row is "seasonal" if its title names a season; in season if that season is now
+  Store.rowSeason = (r) => (/(fall|autumn|winter|spring|summer)/i.exec(r.title)?.[1] || '').toLowerCase().replace('autumn', 'fall');
+  Store.inSeason = (r) => Store.rowSeason(r) === Store.season();
+
   // ---------- pacing logic (needs curriculum data) ----------
   Store.plan = function (DATA) {
     const byId = Object.fromEntries(DATA.rows.map((r) => [r.id, r]));
@@ -138,7 +145,10 @@
       for (const t of DATA.tracks) {
         const rows = DATA.rows.filter((r) => r.track === t.id).sort((a, b) => a.order - b.order);
         const active = rows.filter((r) => Store.status(cid, r.id) === 'active');
-        const ready = rows.filter((r) => !Store.status(cid, r.id) && prereqsMet(cid, r) && r.ageStart <= age + 1);
+        const ready = rows
+          .filter((r) => !Store.status(cid, r.id) && prereqsMet(cid, r) && r.ageStart <= age + 1)
+          .filter((r) => !Store.rowSeason(r) || Store.inSeason(r)) // seasonal rows only surface in their season
+          .sort((a, b) => Store.inSeason(b) - Store.inSeason(a));
         const pick = [...active, ...ready.slice(0, active.length ? 0 : 1)];
         for (const r of pick) {
           const pace = r.ageEnd < age ? 'behind' : r.ageStart > age ? 'ahead' : 'on';

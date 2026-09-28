@@ -10,6 +10,7 @@ import yaml from 'js-yaml';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const tracksDir = path.join(root, 'data', 'tracks');
 const foundingDir = path.join(root, 'data', 'founding');
+const examsFile = path.join(root, 'data', 'exams.yaml');
 const outDir = path.join(root, 'docs', 'data');
 
 export const LEVELS = [
@@ -21,14 +22,16 @@ export const LEVELS = [
 
 export const GROUPS = [
   { name: 'Early Formation', tracks: ['early-development'] },
-  { name: 'English', tracks: ['reading-phonics', 'grammar-composition', 'literature', 'poetry'] },
+  { name: 'English', tracks: ['reading-phonics', 'grammar-composition', 'literature', 'poetry', 'drama'] },
   { name: 'Languages', tracks: ['latin', 'greek', 'hebrew', 'spanish', 'chinese', 'old-english'] },
   { name: 'Trivium', tracks: ['logic', 'rhetoric'] },
   { name: 'History', tracks: ['history'] },
   { name: 'Faith & Philosophy', tracks: ['theology', 'philosophy'] },
-  { name: 'Math & Science', tracks: ['mathematics', 'natural-science'] },
+  { name: 'Math & Science', tracks: ['mathematics', 'physics', 'chemistry', 'biology', 'natural-science'] },
   { name: 'Founder Skills', tracks: ['civics-law', 'economics', 'social-science', 'practical-arts'] },
   { name: 'Arts & Body', tracks: ['music', 'fine-arts', 'character-virtue', 'physical-training'] },
+  { name: 'Extracurriculars', tracks: ['sports', 'music-lessons'] },
+  { name: 'AP & Exams', tracks: ['ap-history', 'ap-humanities', 'test-prep'] },
 ];
 
 const TRACK_ORDER = GROUPS.flatMap((g) => g.tracks);
@@ -36,6 +39,7 @@ const GROUP_OF = Object.fromEntries(GROUPS.flatMap((g) => g.tracks.map((t) => [t
 const TYPES = ['course', 'unit', 'practice'];
 const STAGES = ['early-development', 'formal'];
 const TRADITIONS = ['catholic', 'protestant', 'secular', 'classical'];
+const EXAM_CATEGORIES = ['ap-stem', 'ap-humanities', 'ap-language', 'clt', 'admissions', 'national-exam', 'olympiad'];
 const FOUNDING_CATEGORIES = ['british-university', 'colonial-college', 'founder-letter', '19th-century-school', 'treatise'];
 const REQUIRED = ['id', 'title', 'type', 'level', 'stage', 'ageStart', 'ageEnd', 'order', 'summary'];
 
@@ -98,6 +102,23 @@ function validateTrack(file, doc) {
   return doc;
 }
 
+function validateExams(doc, rows) {
+  const rel = 'data/exams.yaml';
+  const list = doc?.exams;
+  if (!Array.isArray(list)) return err(rel, 'missing exams list'), [];
+  const ids = new Set();
+  for (const e of list) {
+    for (const k of ['id', 'name', 'body', 'category', 'typicalAge']) if (e[k] === undefined || e[k] === '') err(rel, `${e.id ?? '?'}: missing ${k}`);
+    if (ids.has(e.id)) err(rel, `duplicate exam id ${e.id}`);
+    ids.add(e.id);
+    if (e.category && !EXAM_CATEGORIES.includes(e.category)) err(rel, `${e.id}: bad category ${e.category}`);
+    for (const k of ['url', 'ced']) if (e[k]) checkLinks(rel, `${e.id} ${k}`, [{ url: e[k] }]);
+    checkLinks(rel, `${e.id} resources`, e.resources);
+  }
+  for (const r of rows) for (const x of r.exams || []) if (!ids.has(x)) err(r._file, `${r.id}: unknown exam ${x} (add it to data/exams.yaml)`);
+  return list;
+}
+
 function validateGraph(rows) {
   const byId = new Map();
   for (const r of rows) {
@@ -156,17 +177,18 @@ for (const f of trackFiles) {
   for (const r of doc.rows) rows.push({ ...r, track: doc.track, trackGroup: doc.trackGroup, _file: path.relative(root, f) });
 }
 validateGraph(rows);
+const exams = checkOnly ? (fs.existsSync(examsFile) && rows.some((r) => r.exams?.length) ? validateExams(load(examsFile), rows) : []) : validateExams(load(examsFile), rows);
 const founding = foundingFiles.map((f) => validateFounding(f, load(f))).filter(Boolean);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`ERROR ${e}`);
-console.log(`${tracks.length} tracks, ${rows.length} rows, ${founding.length} founding lists — ${errors.length} errors, ${warnings.length} warnings`);
+console.log(`${tracks.length} tracks, ${rows.length} rows, ${exams.length} exams, ${founding.length} founding lists — ${errors.length} errors, ${warnings.length} warnings`);
 if (errors.length) process.exit(1);
 
 if (!checkOnly) {
   tracks.sort((a, b) => TRACK_ORDER.indexOf(a.id) - TRACK_ORDER.indexOf(b.id));
-  const out = rows.map(({ _file, ...r }) => ({ prerequisites: [], related: [], ...r }));
-  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out });
+  const out = rows.map(({ _file, ...r }) => ({ prerequisites: [], related: [], exams: [], ...r }));
+  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams });
   const foundingJson = JSON.stringify({ lists: founding });
   fs.mkdirSync(outDir, { recursive: true });
   // .json for reuse elsewhere; .js so the pages also work opened straight from disk (file://)

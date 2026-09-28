@@ -113,7 +113,7 @@ rows:
     ageEnd: 15
     order: 2
     prerequisites: [social-science-01]
-    related: [natural-science-11, natural-science-12, philosophy-09, rhetoric-11]
+    related: [natural-science-11, biology-01, philosophy-09, rhetoric-11]
     summary: >-
       A full, college-level introductory psychology course in one year, taken at AP or CLEP level. It
       covers the biological bases of behavior, sensation and perception, learning (classical and operant
