@@ -164,3 +164,12 @@ Where to work next. Add items as gaps appear; check them off as they are resolve
 - [ ] setonhome.org would not connect from here, by curl or by browser (6 literature/Spanish options). Check from a normal US connection; if the site has moved, relink.
 - [ ] jcsm.aasm.org (AASM sleep guidelines) returned "Site Currently Unavailable" (503). Recheck later.
 - [ ] 36 bot-blocked URLs are listed by `npm run check-links`. Spot-check them in a browser.
+
+## In progress (as of the 2026-09-28 push)
+- [ ] AP science restructure: math (AP Calc BC, AP Stats), physics (Honors, then Physics C: Mechanics and E&M), chemistry (Honors, then AP Chem), biology (Honors, then AP Bio). Olympiads are standard.
+- [ ] AP side tracks: ap-history (APUSH I–II, AP Euro, AP World Modern), ap-humanities (AP Eng Lang/Lit, Latin, Spanish, Chinese, Music Theory), test-prep (CLT10/CLT, CLT Classical Baccalaureate, CLT Civics, SAT/ACT, PSAT/NMSQT, national exams, olympiads, CLEP). Also complete data/exams.yaml.
+- [ ] Tag existing main-track rows with `exams:`, using the AP agents' coverage lists.
+- [ ] Exams page and exam filter in the table; exam planner on the Family page.
+- [ ] Drama, Voice & Accents track; Seasonal Sports and Music Lessons tracks (Extracurriculars).
+- [ ] **Reader and length pass for every text:** add `reader: teacher | together | student`, plus `pages` (Open Library lookup) or `words`. The Snapshot Bookshelf and Look Ahead already display these fields.
+- [ ] Turn on GitHub Pages (Settings → Pages → Deploy from branch: `main` / `docs`) to publish the site.
