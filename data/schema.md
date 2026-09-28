@@ -125,8 +125,11 @@ summary: >-
 primarySources:
   - { label: "New England's First Fruits (1643)", url: "https://..." }
 entries:                     # the actual reading list / requirements
-  - text: "Read Tully (Cicero) and Virgil ex tempore"
-    search: Cicero           # term used to cross-link into the curriculum table
+  - text: "Read Tully (Cicero) ex tempore"
+    use: [reference, student]  # reference = historical requirement that shaped the curriculum;
+                               # teacher = reading for parents/teachers; student = assigned to the child
+    units: [latin-11]          # the exact curriculum rows that teach or apply this item
+    search: Cicero             # fallback term for a keyword search of the curriculum table
     tracks: [latin, rhetoric]
 notes: Optional.
 ```

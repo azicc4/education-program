@@ -26,84 +26,141 @@ primarySources:
 entries:
   # --- Boyhood copybook and Rules of Civility ---
   - text: "School copybook 'Forms of Writing' (dated 1745): bills of exchange, bonds, receipts and sales copied out as penmanship exercises"
+    use: [reference]
+    units: [practical-arts-07, fine-arts-03]
     search: copybook
     tracks: [practical-arts, grammar-composition]
   - text: "Rules of Civility (copied c. 1745, aged about 14): 110 maxims copied by hand as a writing exercise and a code of conduct"
+    use: [reference, student]
+    units: [character-virtue-04]
     search: Rules of Civility
     tracks: [character-virtue, grammar-composition]
   - text: "Rule 1: 'Every Action done in Company, ought to be with Some Sign of Respect'"
+    use: [student]
+    units: [character-virtue-04]
     search: Rules of Civility
     tracks: [character-virtue]
   - text: "Rule 108: 'When you Speak of God or his Atributes, let it be Seriously & with Reverence'"
+    use: [student]
+    units: [character-virtue-04]
     search: Rules of Civility
     tracks: [character-virtue, theology]
   - text: "Rule 110: 'keep alive in your Breast that Little Spark of Celestial fire Called Conscience'"
+    use: [student]
+    units: [character-virtue-04]
     search: Rules of Civility
     tracks: [character-virtue]
   - text: "Source of the Rules: a Jesuit courtesy book, Bienséance de la Conversation entre les Hommes (La Flèche to Pont-à-Mousson, 1595), probably through Francis Hawkins's English version (Conway)"
+    use: [teacher]
+    units: [character-virtue-04]
     search: Rules of Civility
     tracks: [character-virtue, history]
   # --- Books he owned and read ---
   - text: "Seneca's Morals by Way of Abstract (Roger L'Estrange, 1746 edition). Washington's copy is signed 'at the age of seventeen or thereabouts'"
+    use: [reference, student]
+    units: [philosophy-06, character-virtue-08]
     search: Seneca
     tracks: [philosophy, character-virtue]
   - text: "Addison's Cato. Washington attended a performance with his officers at Valley Forge in 1778"
+    use: [reference, student]
+    units: [literature-10, drama-11]
     search: Addison
     tracks: [literature, character-virtue]
   - text: "Mount Vernon library (executors' inventory at his death): Pope's Homer (Iliad and Odyssey), Pope's Works, The Spectator and Shakespeare"
+    use: [reference, student]
+    units: [poetry-10, literature-20, literature-15]
     search: Homer
     tracks: [literature, poetry]
   - text: "Mount Vernon library: Locke's Essay Concerning Human Understanding"
+    use: [reference, student]
+    units: [philosophy-09]
     search: Locke
     tracks: [philosophy]
   - text: "Mount Vernon library: The Federalist, Smith's Wealth of Nations, and Gibbon's Decline and Fall"
+    use: [reference, student]
+    units: [civics-law-11, economics-06, history-18]
     search: Federalist
     tracks: [civics-law, economics, history]
   - text: "Mount Vernon library: Robertson's History of America and Charles V, and Sully's Memoirs"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Robertson
     tracks: [history]
   - text: "Mount Vernon library: husbandry. Washington made his own digests of Duhamel's and Tull's works on agriculture"
+    use: [reference]
+    units: [practical-arts-08, practical-arts-02]
     search: Tull
     tracks: [practical-arts, natural-science]
   - text: "Mount Vernon library: military treatises, including Simes's Military Course (listed as 'Simms's') and A Treatise of Military Discipline"
+    use: [reference]
+    units: []
     search: military
     tracks: [practical-arts, history]
   - text: "Mount Vernon library: Bibles, including Bishop Wilson's Bible in three volumes, and sermons by Sharp, Jortin and Sterne ('Yorick')"
+    use: [reference]
+    units: []
     search: Bible
     tracks: [theology]
   # --- National university and public education ---
   - text: "First Annual Message (1790): 'Knowledge is in every country the surest basis of publick happiness'. He proposes aid to existing seminaries or a national university"
+    use: [reference]
+    units: []
     search: national university
     tracks: [civics-law]
   - text: "Farewell Address (1796): 'Promote then, as an object of primary importance, institutions for the general diffusion of knowledge'. Religion and morality are 'indispensable supports'"
+    use: [reference, student]
+    units: [civics-law-08, history-14]
     search: Farewell Address
     tracks: [civics-law, character-virtue, theology]
   - text: "Eighth Annual Message (1796): a national university would bring about 'the assimilation of the principles, opinions, and manners' of the country's youth. He also asks for a military academy"
+    use: [reference]
+    units: []
     search: national university
     tracks: [civics-law, physical-training]
   - text: "Will (1799): fifty Potomac Company shares toward a national university, so that youth need not be sent abroad and can outgrow 'local prejudices and habitual jealousies'"
+    use: [reference]
+    units: []
     search: national university
     tracks: [civics-law]
   - text: "Will (1799): James River Company shares to Liberty Hall Academy, and a bequest to the Alexandria Academy to school orphans and poor children"
+    use: [reference]
+    units: []
     search: academy
     tracks: [civics-law]
   - text: "Will (1799): enslaved children to be freed are to be 'taught to read and write' and brought up to a useful occupation"
+    use: [reference]
+    units: []
     search: read and write
     tracks: [reading-phonics, practical-arts]
   # --- Advice to G. W. P. Custis at Princeton ---
   - text: "To G. W. P. Custis at Princeton (1796): 'The more knowledge you acquire', the greater your success and your thirst for more. Obey your tutors and respect the president"
+    use: [teacher, student]
+    units: []
+    gap: true
     search: Custis
     tracks: [character-virtue]
   - text: "To Custis (1796): habits are forming now, and 'as the twig is bent so it will grow'. Guard 'the avenues which lead to idleness and vice'"
+    use: [teacher, student]
+    units: []
+    gap: true
     search: idleness
     tracks: [character-virtue]
   - text: "To Custis (1796): 'True friendship is a plant of slow growth'. Be courteous to all but choose friends slowly, and allow recreation and 'manly exercise'"
+    use: [teacher, student]
+    units: []
+    gap: true
     search: friendship
     tracks: [character-virtue, physical-training]
   - text: "Custis to Washington (Nassau Hall, 1797): he reports reviewing Roman history, translating French, studying Hume and geography, and falling behind in arithmetic"
+    use: [reference]
+    units: []
     search: Hume
     tracks: [history, mathematics]
   - text: "To Custis (1797): keep to the course of study set by President Samuel Stanhope Smith, and aim to be accomplished in 'the useful and polite branches of literature'"
+    use: [teacher, student]
+    units: []
+    gap: true
     search: Custis
     tracks: [character-virtue, literature]
 notes: >-

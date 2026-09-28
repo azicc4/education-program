@@ -21,78 +21,128 @@ primarySources:
   - { label: "All McGuffey titles on Project Gutenberg", url: "https://www.gutenberg.org/ebooks/author/5671" }
 entries:
   - text: "Elocution front matter in every upper Reader: articulation, inflection, accent and emphasis, the voice, gesture (Sixth Reader introduction)"
+    use: [reference, student]
+    units: [rhetoric-02, rhetoric-05, poetry-05]
     search: McGuffey
     tracks: [rhetoric, reading-phonics]
   - text: "Bible: the Sermon on the Mount (Fourth); 'Select Paragraphs' and 'The Goodness of God' (Fifth); Paul on Mars' Hill, 'God's Goodness to Such as Fear Him', and the Death of Absalom (Sixth)"
+    use: [reference, student]
+    units: [literature-07, theology-12]
     search: Bible
     tracks: [theology, literature]
   - text: "Thomas S. Grimké, 'The Bible the Best of Classics' (Fifth)"
+    use: [reference, student]
+    units: [literature-07]
     search: Bible
     tracks: [theology, character-virtue]
   - text: "Shakespeare: Hamlet (Fifth); Henry V to his Troops, Fall of Cardinal Wolsey, Brutus and Cassius, Antony over Caesar's Body, Hamlet's Soliloquy, Prince Henry and Falstaff, Dream of Clarence (Sixth)"
+    use: [reference, student]
+    units: [literature-07, literature-15, literature-17, poetry-05]
     search: Shakespeare
     tracks: [literature, poetry, rhetoric]
   - text: "Milton, 'Death of Samson' from Samson Agonistes (Sixth)"
+    use: [reference, student]
+    units: [literature-07, poetry-09]
     search: Milton
     tracks: [poetry, literature]
   - text: "Gray, 'Elegy Written in a Country Church-Yard' (Sixth)"
+    use: [reference, student]
+    units: [literature-07, poetry-11]
     search: Gray
     tracks: [poetry, literature]
   - text: "Patrick Henry, Speech before the Virginia Convention (Sixth)"
+    use: [reference, student]
+    units: [literature-07, rhetoric-08, rhetoric-05]
     search: Henry
     tracks: [rhetoric, history, civics-law]
   - text: "Daniel Webster: 'Supposed Speech of John Adams' (Fifth); 'Massachusetts and South Carolina' (Reply to Hayne), 'Speech on the Trial of a Murderer', 'Importance of the Union' (Sixth)"
+    use: [reference, student]
+    units: [literature-07, rhetoric-08, history-24]
     search: Webster
     tracks: [rhetoric, civics-law, history]
   - text: "Walpole's rebuke and Pitt's reply; Grattan on Pitt; Burke's 'Destruction of the Carnatic'; Macaulay on Warren Hastings (Sixth)"
+    use: [reference, student]
+    units: [literature-07, rhetoric-08]
     search: Burke
     tracks: [rhetoric, history]
   - text: "Washington: Jared Sparks, 'Character of Washington', and Henry Lee's 'Eulogy on Washington'; Franklin's own 'Entry into Philadelphia'; Jefferson, 'Political Toleration' (Sixth)"
+    use: [reference, student]
+    units: [literature-07, literature-10]
     search: Washington
     tracks: [history, civics-law, character-virtue]
   - text: "Blackstone, 'Origin of Property', from the Commentaries (Sixth)"
+    use: [reference, student]
+    units: [literature-07, civics-law-13]
     search: Blackstone
     tracks: [civics-law, economics]
   - text: "Bacon, 'Of Studies'; Addison, 'Discontent: An Allegory' and 'Immortality of the Soul'; Johnson, 'Schemes of Life often Illusory' (Sixth) and 'A Picture of Human Life' (Fifth)"
+    use: [reference, student]
+    units: [literature-07, literature-19, literature-20]
     search: Addison
     tracks: [literature, philosophy, character-virtue]
   - text: "Bryant: 'Thanatopsis', 'To a Waterfowl', 'The Snow Shower' (Sixth); 'Death of the Flowers', 'Robert of Lincoln' (Fifth)"
+    use: [reference, student]
+    units: [literature-07]
     search: Bryant
     tracks: [poetry]
   - text: "Longfellow: 'The Village Blacksmith', 'The Rainy Day' (Fifth); 'A Psalm of Life', Evangeline church scene, 'The Bridge' (Sixth); 'Wreck of the Hesperus' (Fourth)"
+    use: [reference, student]
+    units: [literature-07, poetry-04]
     search: Longfellow
     tracks: [poetry]
   - text: "Irving: 'Rip Van Winkle', 'Character of Columbus', 'Sorrow for the Dead' (Sixth); 'Capturing the Wild Horse' (Fifth)"
+    use: [reference, student]
+    units: [literature-07, literature-12, literature-27]
     search: Irving
     tracks: [literature, history]
   - text: "Scott: 'Marmion and Douglas', 'Lochinvar', 'The Soldier's Rest' (Sixth). Byron: 'Battle of Waterloo', 'Song of the Greek Bard', 'Thunderstorm on the Alps' (Sixth)"
+    use: [reference, student]
+    units: [literature-07]
     search: Scott
     tracks: [poetry, literature]
   - text: "Dickens: 'Death of Little Nell', 'The Teacher and Sick Scholar' (Sixth); 'Squeers's Method' (Fifth)"
+    use: [reference, student]
+    units: [literature-07]
     search: Dickens
     tracks: [literature, character-virtue]
   - text: "Hawthorne: 'Hugh Idle and Mr. Toil' (Fourth), a parable of work; 'The Town Pump' (Fifth)"
+    use: [reference, student]
+    units: [reading-phonics-07, literature-07]
     search: Hawthorne
     tracks: [literature, character-virtue]
   - text: "Whittier: 'The Barefoot Boy', 'Abraham Davenport' (Sixth); 'The Corn Song' (Fifth); 'King Solomon and the Ants' (Fourth)"
+    use: [reference, student]
+    units: [literature-07]
     search: Whittier
     tracks: [poetry]
   - text: "Hood, 'Song of the Shirt' (Sixth) — a lesson in pity for exploited labor"
+    use: [reference, student]
+    units: [literature-07]
     search: Hood
     tracks: [poetry, character-virtue]
   - text: "Pope, 'Happiness'; Wordsworth, 'The Solitary Reaper'; Coleridge, 'Ode to Mt. Blanc'; Cowper, 'My Mother's Picture'; Poe, 'The Raven'; Tennyson, 'Enoch Arden at the Window' (Sixth)"
+    use: [reference, student]
+    units: [literature-07, poetry-11, literature-20]
     search: Pope
     tracks: [poetry]
   - text: "Defoe, 'Robinson Crusoe's House' and 'Robinson Crusoe's Dress' (Fourth)"
+    use: [reference, student]
+    units: [reading-phonics-07, literature-07, literature-09]
     search: Defoe
     tracks: [literature]
   - text: "Thomas Hughes, 'Dare to do Right' (Fourth) — from the author of Tom Brown's School Days"
+    use: [reference, student]
+    units: [reading-phonics-07, literature-07, physical-training-08]
     search: Hughes
     tracks: [character-virtue, literature]
   - text: "Moral lessons in the lower Readers: 'Try, Try Again', 'Waste not, Want not', 'True Manliness', 'The Golden Rule', 'Consequences of Idleness' (Fourth)"
+    use: [reference, student]
+    units: [reading-phonics-07, literature-07]
     search: McGuffey
     tracks: [character-virtue, reading-phonics]
   - text: "Noah Porter, 'A Definite Aim in Reading' (Sixth) — advice on reading with purpose, fit for the close of the series"
+    use: [reference, student]
+    units: [literature-07]
     search: Porter
     tracks: [literature, character-virtue]
 notes: >-

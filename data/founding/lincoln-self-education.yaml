@@ -19,69 +19,113 @@ primarySources:
   - { label: "Ida M. Tarbell, The Early Life of Abraham Lincoln (Gutenberg #57555)", url: "https://www.gutenberg.org/ebooks/57555" }
 entries:
   - text: "Frontier 'A B C schools by littles' (Crawford, Sweeney, Dorsey): teachers needed only 'readin, writin, and cipherin' to the Rule of Three (Fell and Scripps sketches)"
+    use: [reference]
+    units: [reading-phonics-03, mathematics-06]
     search: Lincoln
     tracks: [reading-phonics, mathematics]
   - text: "The Bible — kept 'always within reach' with Aesop and read over and over, the source of his figures of speech (Herndon)"
+    use: [reference, student]
+    units: [literature-10, theology-07]
     search: Bible
     tracks: [theology, literature, rhetoric]
   - text: "Aesop's Fables — his other constant book, a store of parables for later speeches"
+    use: [reference, student]
+    units: [literature-01, character-virtue-01]
     search: Aesop
     tracks: [literature, character-virtue]
   - text: "Bunyan, The Pilgrim's Progress"
+    use: [reference, student]
+    units: [theology-10, literature-10]
     search: Bunyan
     tracks: [literature, theology]
   - text: "Defoe, Robinson Crusoe"
+    use: [reference, student]
+    units: [literature-09]
     search: Crusoe
     tracks: [literature]
   - text: "Weems, Life of Washington — borrowed from Josiah Crawford, its covers rain-damaged, and paid off by three days of pulling fodder"
+    use: [reference, student]
+    units: [literature-10]
     search: Weems
     tracks: [history, character-virtue]
   - text: "Weems again, in 1861: he recalled that nothing 'fixed themselves upon my imagination so deeply' as the struggle at Trenton"
+    use: [reference]
+    units: [literature-10]
     search: Washington
     tracks: [history, civics-law]
   - text: "A 'History of the United States' (Herndon; unnamed — often identified as Grimshaw's)"
+    use: [reference]
+    units: [history-06]
     search: Grimshaw
     tracks: [history]
   - text: "Spellers: Webster's Spelling Book and 'the American Speller' at school (Herndon); Dilworth's speller per other traditions"
+    use: [reference, student]
+    units: [reading-phonics-05]
     search: Webster
     tracks: [reading-phonics]
   - text: "Pike's Arithmetic — ciphering at school (a page of his boyhood sum-book survives, per Herndon)"
+    use: [reference]
+    units: [mathematics-06]
     search: Pike
     tracks: [mathematics]
   - text: "Murray's English Reader — which Lincoln called 'the best school-book ever put into the hands of an American youth' (via Herndon)"
+    use: [reference, student]
+    units: [rhetoric-05]
     search: Murray
     tracks: [reading-phonics, literature, rhetoric]
   - text: "Scott's Lessons in Elocution — declamation pieces practiced on stumps and in fields (traditional; not verified here)"
+    use: [reference]
+    units: [rhetoric-05, poetry-05]
     search: Scott
     tracks: [rhetoric]
   - text: "Franklin's Autobiography (traditional; not verified here)"
+    use: [reference, student]
+    units: [literature-10, literature-27, character-virtue-05]
     search: Franklin
     tracks: [character-virtue, history]
   - text: "A Louisville newspaper, read as a boy at Gentryville; newspapers remained his daily political education"
+    use: [reference]
+    units: []
     search: Lincoln
     tracks: [civics-law, history]
   - text: "The Revised Statutes of Indiana, borrowed from David Turnham — his first law book, which he 'fairly devoured' (Herndon)"
+    use: [reference]
+    units: []
     search: Statutes
     tracks: [civics-law]
   - text: "Kirkham's English Grammar, fetched on foot on Mentor Graham's advice after he turned twenty-three"
+    use: [reference]
+    units: [grammar-composition-06]
     search: Kirkham
     tracks: [grammar-composition]
   - text: "Surveying: 'procured a compass and chain, studied Flint and Gibson a little' (Scripps sketch)"
+    use: [reference, student]
+    units: [practical-arts-09, mathematics-15]
     search: surveying
     tracks: [mathematics, practical-arts]
   - text: "Blackstone's Commentaries and Chitty, with law books borrowed from John T. Stuart; 'He studied with nobody' (Scripps sketch)"
+    use: [reference, student]
+    units: [civics-law-13]
     search: Blackstone
     tracks: [civics-law, logic]
   - text: "Euclid: 'studied and nearly mastered the six books of Euclid' as a congressman and circuit lawyer, working by candlelight"
+    use: [reference, student]
+    units: [mathematics-10, mathematics-12]
     search: Euclid
     tracks: [mathematics, logic]
   - text: "Shakespeare — a well-worn copy carried on the circuit with his Euclid"
+    use: [reference, student]
+    units: [literature-13, literature-15, literature-17]
     search: Shakespeare
     tracks: [literature, poetry]
   - text: "Burns and Byron (and Milton) — his favorite poets per Herndon, who otherwise judged his reading in literature narrow"
+    use: [reference, student]
+    units: [literature-19, poetry-09]
     search: Burns
     tracks: [poetry]
   - text: "A caution: at New Salem he read Paine, Volney and Voltaire amid local skepticism (Herndon) — early doubts he later outgrew in public faith"
+    use: [reference]
+    units: []
     search: Paine
     tracks: [philosophy, theology]
 notes: >-

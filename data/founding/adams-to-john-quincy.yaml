@@ -32,81 +32,132 @@ primarySources:
 entries:
   # --- Parents' principles ---
   - text: "JA to AA (1775): 'elevate the minds of our children and exalt their courage'. Education makes the great difference between one man and another"
+    use: [reference, teacher]
+    units: []
     search: education
     tracks: [character-virtue]
   - text: "JA to AA (1775): the children's 'bodies must be hardened, as well as their souls exalted'"
+    use: [reference, teacher]
+    units: [physical-training-04, physical-training-12]
     search: hardened
     tracks: [physical-training, character-virtue]
   - text: "AA to JQA (1778): better an early grave than a son grown into a profligate. Virtue ranks above all accomplishment"
+    use: [reference, teacher]
+    units: []
     search: virtue
     tracks: [character-virtue]
   - text: "AA to JQA (1780): 'Great necessities call out great virtues'. Hardship forms the character of 'the Hero and the Statesman'"
+    use: [reference, teacher]
+    units: []
     search: virtue
     tracks: [character-virtue, history]
   - text: "AA to JQA (1780): govern an 'impetuosity of temper' while young, and repay superior advantages with diligence and steady application"
+    use: [reference, teacher]
+    units: [character-virtue-05]
     search: temper
     tracks: [character-virtue]
   # --- John Adams's reading directions ---
   - text: "JA to JQA (1777): Thucydides, 'full of Instruction to the Orator, the Statesman, the General'. Master him in Greek, 'the most perfect of all human Languages'"
+    use: [reference, student]
+    units: [greek-15, history-15]
     search: Thucydides
     tracks: [greek, history]
   - text: "JA to JQA (1777): meanwhile use the translations. Hobbes's 'learned and exact' version, or William Smith's more elegant one"
+    use: [reference, student]
+    units: [history-15, literature-31]
     search: Thucydides
     tracks: [history, literature]
   - text: "JA to JQA (1780): Latin by making Latin and construing Cicero, Erasmus, the Appendix de Diis et Heroibus and Phaedrus"
+    use: [reference, student]
+    units: [latin-05, latin-08, latin-11]
     search: Phaedrus
     tracks: [latin]
   - text: "JA to JQA (1780): never omit the Greek grammar. Move soon to the Greek Testament, then Virgil, Cicero's orations, Ovid and Horace"
+    use: [reference, student]
+    units: [greek-05, latin-09, latin-11, latin-12, latin-14]
     search: Greek Testament
     tracks: [greek, latin, theology]
   - text: "JA to JQA (1780): geometry, fractions and geography can wait. Writing and drawing are 'Relaxations' from the languages"
+    use: [reference, teacher]
+    units: []
     search: geometry
     tracks: [mathematics, fine-arts]
   - text: "JA to JQA (1780): at Leyden, study Latin and Greek with a private master. Honour the Pilgrims, who sailed from that town"
+    use: [reference]
+    units: [history-13]
     search: Leyden
     tracks: [latin, greek, history]
   - text: "JA to JQA (1781): begin Sallust, 'one of the most polished and perfect of the Roman Historians'"
+    use: [reference, student]
+    units: [latin-13, history-16]
     search: Sallust
     tracks: [latin, history]
   - text: "JA to JQA (1781): 'In Company with Sallust, Cicero, Tacitus and Livy, you will learn Wisdom and Virtue'"
+    use: [reference, student]
+    units: [latin-11, latin-13, latin-17, history-16]
     search: Tacitus
     tracks: [latin, history, character-virtue]
   - text: "JA to JQA (1781): 'all the End of study is to make you a good Man and a useful Citizen'"
+    use: [reference, teacher]
+    units: []
     search: citizen
     tracks: [character-virtue, civics-law]
   - text: "JA to JQA (1781): 'I absolutely insist upon it, that you begin upon Demosthenes, and Cicero'"
+    use: [reference, student]
+    units: [rhetoric-08, latin-11, rhetoric-10]
     search: Demosthenes
     tracks: [greek, rhetoric]
   - text: "JA to JQA (1781): learn Greek from Demosthenes and Homer, and Latin from Virgil and Cicero, not only from Isocrates, Lucian, Phaedrus and Nepos"
+    use: [reference, student]
+    units: [greek-11, latin-12, latin-11, rhetoric-08]
     search: Homer
     tracks: [greek, latin, poetry]
   - text: "JA to JQA (1781): in St Petersburg as secretary to Francis Dana, 'loose no Time', the plainest moral precept. Copying diplomatic papers is an education in business"
+    use: [reference, teacher]
+    units: [practical-arts-17]
     search: Dana
     tracks: [character-virtue, practical-arts]
   # --- JQA's preparation for Harvard ---
   - text: "JQA (1785): Harvard junior-class entrance needs Greek grammar, the New Testament, 3–4 books of Xenophon's Cyropaedia, 5–6 books of Homer's Iliad, and Horace"
+    use: [reference, student]
+    units: [greek-05, greek-11, latin-14, character-virtue-10]
     search: Xenophon
     tracks: [greek, latin]
   - text: "JQA (1785–86): under Rev. John Shaw at Haverhill he learned Greek grammar 'by heart' and read the Greek Testament as far as Titus"
+    use: [reference, student]
+    units: [greek-03, greek-05]
     search: Greek Testament
     tracks: [greek, theology]
   - text: "JQA (1786): read six books of the Iliad and four of the Cyropaedia, finished Horace and Terence's Andria"
+    use: [reference, student]
+    units: [greek-11, latin-14, character-virtue-10]
     search: Terence
     tracks: [greek, latin, poetry]
   - text: "JQA (1785–86): English studies for entrance were Watts's Logic, Locke's Essay Concerning Human Understanding, and some astronomy"
+    use: [reference, student]
+    units: [logic-06, philosophy-09, natural-science-15]
     search: Locke
     tracks: [logic, philosophy, natural-science]
   - text: "JQA (1786): oral examination before Harvard's president, professors and tutors on Horace, Homer, logic, geography and Locke, ending with English prose put into Latin"
+    use: [reference]
+    units: [latin-14, greek-11, philosophy-09, latin-08]
     search: Horace
     tracks: [latin, greek, logic]
   # --- John Adams's own legal education, 1758 ---
   - text: "JA diary (1758): reading Justinian's Institutes in Latin with Vinnius's notes. Civil law as a foundation for the bar"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Justinian
     tracks: [civics-law, latin]
   - text: "JA diary (1758), Jeremiah Gridley's advice: the common law 'deserves your first and last Attention', beginning with Coke's Institutes"
+    use: [reference, student]
+    units: [civics-law-13, history-21]
     search: Coke
     tracks: [civics-law]
   - text: "JA diary (1758), Gridley: pursue 'the Study of the Law rather than the Gain of it'. Do not marry early or keep much company"
+    use: [reference, teacher]
+    units: [civics-law-13]
     search: Gridley
     tracks: [civics-law, character-virtue]
 notes: >-

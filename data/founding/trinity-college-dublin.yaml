@@ -32,75 +32,123 @@ primarySources:
   - { label: "Secondary: Stanford Encyclopedia of Philosophy, 'Edmund Burke'", url: "https://plato.stanford.edu/entries/burke/" }
 entries:
   - text: "Laudian statutes (1637), Freshmen: Junior Freshmen study logic, reading Porphyry's Isagoge through at least twice a year and examined daily; Senior Freshmen hear Aristotle's Organon explained 'as briefly as possible'"
+    use: [reference, student]
+    units: [logic-08, logic-03]
     search: Aristotle
     tracks: [logic]
   - text: "Laudian statutes, Sophisters: Junior Sophisters read Aristotle's Physics; Senior Sophisters his Metaphysics, and the Nicomachean Ethics in Lent term"
+    use: [reference, student]
+    units: [natural-science-19, philosophy-14, philosophy-07]
     search: Ethics
     tracks: [natural-science, philosophy, character-virtue]
   - text: "Standing exercises (1637): a weekly written commentary on the lecture, a Latin theme or English-into-Latin translation every Saturday, declamations from memory in Hall on Fridays and Saturdays, and Greek lectures three mornings a week"
+    use: [reference]
+    units: [latin-08, latin-15, rhetoric-05]
     search: Latin composition
     tracks: [latin, grammar-composition, rhetoric, greek]
   - text: "Syllogistic disputations in Hall on Monday, Wednesday and Friday, 2–4 p.m.: Freshmen on logic, Sophisters on natural philosophy and metaphysics; at the B.A., declamations in Greek and Latin 'in praise of philosophy' and syllogistic defence of questions in logic, natural and moral philosophy"
+    use: [reference]
+    units: [logic-03, rhetoric-09]
     search: Disputation
     tracks: [logic, rhetoric, greek, latin]
   - text: "Term examinations in Hall at the start of every term, judged in Logic, Natural Philosophy, Moral Philosophy, Greek, Latin and Theme; a roll of the 1680s shows Swift (identified by tradition) no better than 'mediocriter'"
+    use: [reference]
+    units: []
     search: Latin composition
     tracks: [logic, natural-science, philosophy, greek, latin, grammar-composition]
   - text: "Narcissus Marsh, Institutiones Logicae (1681), the first text-book written for Trinity students, stating the inductive method 'more akin to Bacon than to the scholastic logic'"
+    use: [reference]
+    units: [logic-08]
     search: Logic
     tracks: [logic, natural-science]
   - text: "Locke's Essay Concerning Human Understanding: Provost Ashe (1692–95) 'ordered it to be read by Bachelors in the College, and strictly examined them' (Molyneux to Locke); later part of the undergraduate course"
+    use: [reference, student]
+    units: [philosophy-09]
     search: Locke
     tracks: [philosophy, logic]
   - text: "Entrance (Burke, April 1744): construe Horace's Odes, Aeneid VI from line 103, and Iliad III and VI before a Fellow; then examined 'very strictly' by the Senior Lecturer in the Odes, Satires and Epistles of Horace"
+    use: [reference, student]
+    units: [latin-14, latin-12, greek-11]
     search: Horace
     tracks: [latin, greek, poetry]
   - text: "Junior Freshmen, science (1736): Burgersdicius's Logic; Burke's first-term reading (1744) was 'nine first chapters of Burgersdicius, the six last Aeneids of Virgil, the Enchiridion of Epictetus, with the Tabula Cebetis'"
+    use: [reference, student]
+    units: [latin-12, philosophy-06]
     search: Burgersdicius
     tracks: [logic, latin, greek, character-virtue]
   - text: "Junior Freshmen, classics (1736): Lucian (Dugard's selection), Sallust, Iliad I–XII, the whole Aeneid, Hero and Leander with Theocritus, and Terence"
+    use: [reference, student]
+    units: [greek-07, latin-13, greek-11, latin-12]
     search: Homer
     tracks: [greek, latin, poetry, history]
   - text: "Senior Freshmen (1736): Le Clerc's Logic, the Art of Thinking (Port-Royal Logic), selections from Smiglecius; in classics Iliad XIII–XXIV, Juvenal, Caesar's Commentaries, Epictetus with Cebes, Justin, Odyssey I–VIII and Horace"
+    use: [reference, student]
+    units: [greek-11, latin-07, philosophy-06, latin-14]
     search: Port-Royal Logic
     tracks: [logic, greek, latin, poetry, history, character-virtue]
   - text: "Junior Sophisters (1736): Colbert's General Physics, Le Clerc's Physics, Varenius's Geography and astronomy; in classics the rest of the Odyssey, Virgil's Georgics, Lucian, Cicero's De Officiis (Burke: 'I read for my College course Tully's Offices'), Velleius Paterculus, the Cyropaedia and Livy"
+    use: [reference, student]
+    units: [latin-11, character-virtue-13, character-virtue-10, latin-13]
     search: De Officiis
     tracks: [natural-science, greek, latin, history, character-virtue]
   - text: "Senior Sophisters (1736): Eustachius's Ethics, 'small Pufendorf' (On the Duty of Man and Citizen), Sanderson's Prelections on conscience and oaths, Baronius's Metaphysics"
+    use: [reference, student]
+    units: [philosophy-15]
     search: Pufendorf
     tracks: [philosophy, civics-law, character-virtue, theology]
   - text: "Senior Sophisters, classics (1736): Sophocles (Oedipus Tyrannus, Electra, Trachiniae), the rest of Livy, Aeschines and Demosthenes On the Crown, the Philippics, Suetonius, Longinus On the Sublime and the works of Tacitus"
+    use: [reference, student]
+    units: [greek-14, rhetoric-08, history-17, poetry-14]
     search: Demosthenes
     tracks: [greek, latin, rhetoric, history, poetry]
   - text: "Scholarship examination (Burke, 1746): two days before the Provost and Senior Fellows 'in all the Roman and Greek authors of note'; Burke was examined in Catiline's speech in Sallust"
+    use: [reference, student]
+    units: [latin-13, history-16]
     search: Sallust
     tracks: [latin, greek, history]
   - text: "Burke's study 'furors' (letter of 1746–7): natural philosophy, then 'logic and metaphysics' (the furor logicus), then history, then poetry, each 'very violent for a season, and very soon cooled'"
+    use: [reference]
+    units: []
     search: Sallust
     tracks: [logic, history, poetry, natural-science]
   - text: "Burke's Club (first meeting 21 April 1747): an oration every Tuesday; on Fridays a speech 'spoken off with proper emphasis and action' and a paper 'on a given topic in morality', to improve in 'speaking, reading, writing, and arguing in morality, history, criticism, politics'"
+    use: [reference]
+    units: [civics-law-07, rhetoric-09]
     search: Oratory
     tracks: [rhetoric, history, civics-law, character-virtue, grammar-composition]
   - text: "College Historical Society (1770), heir of Burke's Club: each meeting opened with an examination in a set portion of history, followed by a debate with two appointed speakers on each side"
+    use: [reference]
+    units: [rhetoric-09, civics-law-07]
     search: Debate
     tracks: [history, rhetoric, civics-law]
   - text: "1759 revision: twelve of Plutarch's Lives, Xenophon's Anabasis and Memorabilia, Euripides's Hippolytus and Iphigenia in Aulis, more of the Philippics and five orations of Cicero; Euclid entered the course only after 1758; entrance on fixed days in the whole Aeneid and fourteen books of the Iliad"
+    use: [reference, student]
+    units: [character-virtue-06, greek-08, greek-14, mathematics-10]
     search: Plutarch
     tracks: [greek, latin, history, mathematics, character-virtue]
   - text: "Books the College prescribed for Dublin schools preparing boys for entrance (1759): Castalio, Erasmus's Colloquies, Nepos, Justin, Phaedrus, Caesar, Ovid, Sallust, Virgil, Cicero against Catiline, Terence, Horace, Juvenal; St Luke, the Cyropaedia, Iliad I–VIII, Hesiod, Theocritus; no literal translations, Latin verse, double translation, maps, English composition and 'the Common Rules of Arithmetic'"
+    use: [reference, student]
+    units: [latin-05, latin-07, latin-09, greek-09]
     search: Cornelius Nepos
     tracks: [latin, greek, grammar-composition, history, mathematics, poetry]
   - text: "1793 course, Junior Freshmen: Murray's Logic, Aeneid VII–XII, Iliad XIII–XXIV, Horace's Odes, Euclid I–III, Virgil's Georgics, the Greek minor poets, Livy and Herodotus"
+    use: [reference, student]
+    units: [latin-12, greek-11, mathematics-10, greek-12]
     search: Euclid
     tracks: [logic, mathematics, latin, greek, poetry, history]
   - text: "1793 course, Senior Freshmen: Euclid V–VI, Locke's Essay (all four books), Livy, Plutarch's Solon and Lycurgus, Xenophon's Cyropaedia and Memorabilia, Caesar's Civil War, Plato's Crito, Apology and Alcibiades, Horace's Satires and Epistles"
+    use: [reference, student]
+    units: [mathematics-12, philosophy-09, greek-10, character-virtue-06]
     search: Plato
     tracks: [mathematics, philosophy, greek, latin, history]
   - text: "1793 course, Junior Sophisters: astronomy, mechanics, hydrostatics, pneumatics and optics; Juvenal, Persius and Lucian; Cicero's Orations, Demosthenes's Philippics and On the Crown, Aeschines Against Ctesiphon, and Quintilian"
+    use: [reference, student]
+    units: [physics-02, latin-11, rhetoric-08, rhetoric-10]
     search: Quintilian
     tracks: [natural-science, mathematics, latin, greek, rhetoric]
   - text: "1793 course, Senior Sophisters: Burlamaqui's Natural Law, Conybeare's Defence of Revealed Religion, Locke on Government, Cicero's Offices; Tacitus, Thucydides, Terence, Sophocles, Plautus, Euripides and Longinus"
+    use: [reference, student]
+    units: [philosophy-15, civics-law-10, character-virtue-13, history-17]
     search: Burlamaqui
     tracks: [civics-law, philosophy, theology, history, latin, greek]
 notes: >-

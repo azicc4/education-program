@@ -586,6 +586,7 @@ rows:
     order: 11
     prerequisites: [civics-law-10, civics-law-06]
     related: [rhetoric-11, history-14, history-23]
+    exams: [ap-us-history]
     summary: >-
       The founding debate in the founders' own words. The student reads the core Federalist papers (1,
       10, 14, 39, 47–51, 62–63, 70, 78, 84) against the strongest Anti-Federalist essays (Brutus, Federal

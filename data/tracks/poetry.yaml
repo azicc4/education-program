@@ -498,6 +498,7 @@ rows:
     order: 7
     prerequisites: [poetry-04]
     related: []
+    exams: [ap-english-literature]
     summary: >-
       The formal study of English meter. The student learns stress and syllable, the feet (iamb, trochee,
       anapest, dactyl, spondee), line lengths (trimeter to hexameter), caesura and enjambment, substitution,
@@ -641,6 +642,7 @@ rows:
     order: 9
     prerequisites: [poetry-08]
     related: [literature-18, literature-19, literature-26, old-english-05]
+    exams: [ap-english-literature]
     summary: >-
       Close study of the English poets from the Middle Ages to the Restoration: Chaucer's General Prologue,
       Shakespeare's Sonnets, Sidney, Donne's Songs and Holy Sonnets, Herbert's The Temple, Southwell, Marvell,
@@ -810,6 +812,7 @@ rows:
     order: 11
     prerequisites: [poetry-09]
     related: [literature-21, literature-23]
+    exams: [ap-english-literature]
     summary: >-
       English poetry from the mid-eighteenth century through the Victorians. The course reads Gray's Elegy;
       Wordsworth and Coleridge's Lyrical Ballads and Wordsworth's sonnets and odes; Keats's Odes; Tennyson's In
@@ -908,6 +911,7 @@ rows:
     order: 12
     prerequisites: [poetry-11]
     related: [literature-24, literature-28]
+    exams: [ap-english-literature]
     summary: >-
       Twentieth-century poetry in English. The course reads Frost's early books, Yeats, Housman's A Shropshire
       Lad, Chesterton's "Lepanto" and ballads, Eliot's "Prufrock", The Waste Land and Four Quartets, and Kipling's

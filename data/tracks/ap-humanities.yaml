@@ -1,0 +1,494 @@
+track: ap-humanities
+title: "AP Languages, English & Music (side track)"
+trackGroup: AP & Exams
+description: >-
+  A side track for the AP exams in English, Latin, Spanish, Chinese and music theory. It supplements the main
+  tracks and never replaces them. Rhetoric, grammar and composition, literature, poetry, Latin, Spanish, Chinese
+  and music already teach these subjects more deeply than any AP course. Each row here adds only what is specific
+  to the exam: its format and timing, its required texts or passages, its scoring rubrics and task types, and
+  timed practice on released questions. Each row is a short unit in the school year that ends in the May exam,
+  taken the May the matching main-track course finishes. Check the College Board's current Course and Exam
+  Description (CED) every year. AP Latin was rewritten for 2025–26 (Caesar is out, Pliny is in). The AP world
+  language exams (Spanish, Chinese) were rebuilt around a course project for 2026–27.
+rows:
+  - id: ap-humanities-01
+    title: "AP English Language & Composition: Exam Prep"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 1
+    prerequisites: []
+    related: [rhetoric-07, rhetoric-08, rhetoric-09, rhetoric-10, grammar-composition-10, grammar-composition-11, grammar-composition-12, logic-02]
+    exams: [ap-english-language]
+    summary: >-
+      An AP-specific supplement to the rhetoric track (Aristotle and the canons, great speeches, debate, Cicero
+      and Quintilian) and to grammar-composition (Strunk and the Fowlers, the weekly essay, the research paper).
+      It adds only what the exam requires. The student writes the three timed essays (synthesis, rhetorical
+      analysis, argument) against the College Board's 6-point rubric. He also works the multiple-choice section,
+      whose reading questions use unseen nonfiction and whose writing questions ask how to revise a student
+      draft.
+    objectives:
+      - "Know the exam: 45 multiple-choice questions (23–25 reading, 20–22 writing; 45% of the score) and 3 essays in 2 hours 15 minutes, including a 15-minute reading period (55%)"
+      - Write a synthesis essay that takes a position and cites at least 3 of 6 sources (texts, charts, images) in about 40 minutes
+      - Write a rhetorical analysis of an unseen speech or essay that explains how the writer's choices serve his purpose and audience, not just names devices
+      - Write an argument essay on a set topic from the student's own reading and experience
+      - Score one's own essays with the 6-point rubric (thesis 0–1, evidence and commentary 0–4, sophistication 0–1)
+      - Map the CED skill categories (rhetorical situation, claims and evidence, reasoning and organization, style) onto the classical canons already learned
+      - Sit at least three full timed practice exams from released free-response questions and practice multiple-choice
+    curriculumOptions:
+      - name: AP English Language and Composition (AP Central course and exam pages, CED)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition"
+        notes: The official source. The CED defines the skills, units and rubric. The exam page gives the current format.
+      - name: Past exam questions (free-response questions, rubrics, scored samples, Chief Reader reports)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam/past-exam-questions"
+        notes: Free. The scored sample essays and Chief Reader reports are the best guide to what earns the sophistication point.
+      - name: AP Classroom (topic questions and progress checks)
+        publisher: College Board
+        tradition: secular
+        url: "https://apclassroom.collegeboard.org"
+        notes: Requires enrolment in an AP class section. A homeschooler gets access through the school or online provider that orders his exam.
+      - name: "The Language of Composition, 4th ed. (Shea, Scanlon, Aufses et al.)"
+        publisher: Bedford, Freeman & Worth (Macmillan Learning)
+        tradition: secular
+        url: "https://store.bfwpub.com/hs/us/product/The-Language-of-Composition-4th-Edition/p/1319409253"
+        notes: >-
+          The standard AP Lang textbook. It has chapters on each essay type and a thematic anthology of modern
+          nonfiction. Use the instruction chapters and the synthesis clusters. Skip readings the rhetoric track
+          already covers better.
+      - name: "Everyone's an Author (Lunsford et al.)"
+        publisher: W. W. Norton
+        tradition: secular
+        url: "https://wwnorton.com/books/Everyones-an-Author/"
+        notes: >-
+          A college first-year writing text, strong on argument and on analyzing visual and multimodal sources.
+          Optional. Use it for synthesis practice with charts and images.
+      - name: "Princeton Review AP English Language & Composition Premium Prep, 21st ed."
+        publisher: Princeton Review / Penguin Random House
+        tradition: secular
+        url: "https://www.penguinrandomhouse.com/books/807028/princeton-review-ap-english-language-and-composition-premium-prep-21st-edition-by-the-princeton-review/"
+        notes: Full practice tests for the digital exam. Use it for multiple-choice drill, where released questions are scarce.
+    sources:
+      - { label: "AP English Language and Composition Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf" }
+      - { label: "AP English Language and Composition exam (AP Central)", url: "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam" }
+      - { label: "AP English Language exam overview (AP Students)", url: "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition/assessment" }
+    notes: >-
+      Already covered: rhetorical analysis is the whole method of rhetoric-07 and rhetoric-08. Argument is
+      practiced in the progymnasmata, in debate (rhetoric-09) and in the weekly essays of grammar-composition-11.
+      Style and usage come from grammar-composition-10, and source-based writing from the research paper
+      (grammar-composition-12). The gap is small. It covers the 40-minute timed format, the synthesis essay's
+      convention of citing sources by letter, the exam's preference for modern (20th–21st-century) nonfiction and
+      visual data, the "writing" multiple-choice questions about revising a draft, and the rubric. Allow 6–8 weeks
+      of weekly timed essays in the spring. Use AP terms (e.g. "rhetorical situation", "line of reasoning") next to
+      the classical ones. The classical terms are not wrong on the exam, but readers reward explanation, not
+      labels.
+
+  - id: ap-humanities-02
+    title: "AP English Literature & Composition: Exam Prep"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 2
+    prerequisites: []
+    related: [poetry-07, poetry-09, poetry-11, poetry-12, literature-17, literature-19, literature-21, literature-22, literature-24, literature-27, literature-28, literature-29]
+    exams: [ap-english-literature]
+    summary: >-
+      An AP-specific supplement to the literature track (Shakespeare, the English and American literature
+      sequence) and the poetry track (prosody, the major poets). It adds only what the exam requires. The student
+      writes the three timed essays (poetry analysis, prose fiction analysis, and the literary argument, or "open
+      question") against the 6-point rubric. He also practices multiple-choice questions on unseen poems and
+      prose passages, including 20th- and 21st-century work.
+    objectives:
+      - "Know the exam: 55 multiple-choice questions (45%) and 3 essays (55%), 3 hours in all"
+      - Write a poetry analysis of an unseen poem in about 40 minutes, with a defensible thesis about meaning and how form and figurative language make it
+      - Write a prose fiction analysis of an unseen passage (character, narration, setting, structure)
+      - Write the literary argument, applying the prompt to a novel or play the student knows well
+      - Build a "bank" of 6–8 works, each known in depth, that can answer most open questions (e.g. Hamlet, Macbeth, Great Expectations, Pride and Prejudice, Crime and Punishment, Heart of Darkness, Brideshead Revisited, one modern American novel)
+      - Map the CED big ideas (character, setting, structure, narration, figurative language, literary argumentation) onto the vocabulary already learned
+      - Sit at least three full timed practice exams
+    curriculumOptions:
+      - name: AP English Literature and Composition (AP Central course and exam pages, CED)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition"
+        notes: The official source. The CED defines the big ideas, the skills and the rubric.
+      - name: Past exam questions (free-response questions, rubrics, scored samples, Chief Reader reports)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/exam/past-exam-questions"
+        notes: Free. Each open-question prompt lists suggested titles, a good check on the student's bank of works.
+      - name: AP Classroom (topic questions and progress checks)
+        publisher: College Board
+        tradition: secular
+        url: "https://apclassroom.collegeboard.org"
+        notes: Available through the school or online provider that orders the exam.
+      - name: "Perrine's Literature: Structure, Sound, and Sense (AP edition)"
+        publisher: Cengage / National Geographic Learning
+        tradition: secular
+        url: "https://ngl.cengage.com/products/9781337106542"
+        notes: >-
+          The classic AP Lit textbook on fiction, poetry and drama. Its poetry half ("Sound and Sense") is still
+          the best short course in reading an unseen poem. Use its exercises for timed practice.
+      - name: "How to Read Literature Like a Professor, revised ed. (Thomas C. Foster)"
+        publisher: HarperCollins
+        tradition: secular
+        url: "https://www.harpercollins.ca/9780062301673/how-to-read-literature-like-a-professor-revised-edition/"
+        notes: >-
+          Use with caution. It is popular in AP classes and helps a student notice patterns (quests, communion,
+          weather, Christ-figures). It also encourages mechanical symbol-hunting, which AP readers do not reward.
+          Some chapters treat sexual content frankly. Parents should preview it. It is optional for a student
+          already trained in the poetry and literature tracks.
+      - name: "Princeton Review AP English Literature & Composition Premium Prep, 27th ed."
+        publisher: Princeton Review / Penguin Random House
+        tradition: secular
+        url: "https://www.penguinrandomhouse.com/books/807958/princeton-review-ap-english-literature-and-composition-premium-prep-27th-edition-by-the-princeton-review/"
+        notes: Practice tests for multiple-choice drill.
+    sources:
+      - { label: "AP English Literature and Composition Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf" }
+      - { label: "AP English Literature and Composition exam (AP Central)", url: "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/exam" }
+      - { label: "AP English Literature exam overview (AP Students)", url: "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition/assessment" }
+    notes: >-
+      Already covered: by 16 the student has scanned every poem he memorized (poetry-07), studied the English
+      poets from Chaucer to Eliot (poetry-09, -11, -12), and read Shakespeare's tragedies and the English and
+      American novel. That is far more than the AP course requires. The open question is the student's strength.
+      The gap is contemporary and 20th-century prose and poetry on unseen passages, and the exam uses many of
+      them. Add a weekly unseen modern poem and prose passage for the final semester. The other gaps are the
+      40-minute timed essay and the rubric's demand for a thesis with a line of reasoning. Choose the
+      bank-of-works titles from rows the student has already finished.
+
+  - id: ap-humanities-03
+    title: "AP Latin: Vergil, Pliny & Sight Reading (Exam Prep)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 3
+    prerequisites: []
+    related: [latin-12, latin-07, latin-09, latin-11, latin-13, latin-14, latin-06, latin-08]
+    exams: [ap-latin, national-latin-exam]
+    summary: >-
+      An AP-specific supplement to latin-12 (Virgil) and the prose authors of latin-07, -11 and -13. The AP Latin
+      course was revised for 2025–26 (first exam May 2026). Caesar was dropped. The syllabus is now excerpts of
+      Vergil's Aeneid and ten letters of Pliny the Younger, with teacher's-choice prose and poetry and four
+      "course project" passages. This unit adds the Aeneid passages from Books 7, 11 and 12 that latin-12 does
+      not read in Latin, all the Pliny letters, sight-reading drill, and the exam's short-answer, translation and
+      short-essay formats.
+    objectives:
+      - "Read and translate the required Aeneid lines: 1.1–33, 88–107, 496–508; 2.40–56, 201–249; 4.74–89, 165–197, 305–361; 6.450–476, 788–800, 847–853; 7.45–58, 783–792, 803–817; 11.532–594; 12.791–796, 803–812, 818–828, 919–952"
+      - "Read and translate the required Pliny letters: 6.4, 6.7, 6.16, 6.20 (Vesuvius, Calpurnia); 7.27 (ghosts); 10.5, 10.6, 10.7, 10.37, 10.90 (to Trajan)"
+      - Scan dactylic hexameter and identify figures of speech in syllabus and unseen passages
+      - Read unseen prose and poetry at sight (20 discrete sight questions and sight sets on the exam)
+      - Write the short answer, the 15-segment literal translation and the short essays with Latin citations
+      - Complete the four course-project passages and the two in-class checkpoints (2% of the score)
+    coreTexts:
+      - title: Aeneid
+        author: Vergil (P. Vergilius Maro)
+        date: "19 BC"
+        publicDomain: true
+        links:
+          - { label: "Dickinson College Commentaries, Aeneid XII 919–952", url: "https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-xii-919-952" }
+          - { label: "Dickinson College Commentaries, Aeneid Books V–XII", url: "https://dcc.dickinson.edu/vergils-aeneid-books-v-xii" }
+      - title: Epistulae (Letters)
+        author: Pliny the Younger (C. Plinius Caecilius Secundus)
+        date: "c. AD 97–112"
+        publicDomain: true
+        links:
+          - { label: "Dickinson College Commentaries, Pliny Letter 6.16", url: "https://dcc.dickinson.edu/pliny-letters/6-16" }
+          - { label: "Dickinson College Commentaries, Pliny Letter 10.5", url: "https://dcc.dickinson.edu/pliny-letters/10-5" }
+          - { label: "The Latin Library, Letters Book VI", url: "https://www.thelatinlibrary.com/pliny.ep6.html" }
+    curriculumOptions:
+      - name: AP Latin (AP Central course and exam pages, CED)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-latin"
+        notes: >-
+          The official source for the required lines and letters. Read the CED together with its "Clarifications
+          and Corrections" PDF. Released questions before 2026 were written for the old Caesar–Vergil syllabus.
+      - name: AP Latin past exam questions
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-latin/exam/past-exam-questions"
+        notes: Only the 2026 set fits the revised course. Earlier sets were written for the Caesar–Vergil syllabus but remain good sight and Vergil practice.
+      - name: "Vergil: Selections and Suggested Companion Texts (Barbara Weiden Boyd)"
+        publisher: Bolchazy-Carducci
+        tradition: classical
+        url: "https://www.bolchazy.com/Vergil-Selections-and-Suggested-Companion-Texts"
+        notes: >-
+          Built for the new syllabus. It has every required Aeneid passage with same-page vocabulary and notes,
+          plus companion poems (Catullus, Horace, Ovid) for teacher's-choice poetry. It replaces the older Pharr
+          and Boyd AP editions, which lack Books 7, 11 and 12.
+      - name: "Pliny: 20 Letters and Suggested Companion Texts (Jacqueline M. Carlon)"
+        publisher: Bolchazy-Carducci
+        tradition: classical
+        url: "https://www.bolchazy.com/Pliny-20-Letters-and-Suggested-Companion-Texts"
+        notes: >-
+          Has all the required letters with notes and vocabulary. Matching workbooks exist: A Pliny Workbook
+          (https://www.bolchazy.com/A-Pliny-Workbook-P4092) and A Vergil Workbook
+          (https://www.bolchazy.com/A-Vergil-Workbook-Selections-and-Suggested-Companion-Texts-P4096).
+      - name: "Vergil & Pliny: A Course for AP Latin"
+        publisher: The Paideia Institute
+        tradition: classical
+        url: "https://www.paideiainstitute.org/ap_latin"
+        notes: A self-paced digital and print course for independent learners without a school AP class. A good fit for a homeschooler.
+      - name: Dickinson College Commentaries (Aeneid and Pliny)
+        publisher: Dickinson College
+        tradition: secular
+        url: "https://dcc.dickinson.edu/pliny-letters/6-16"
+        notes: Free. The Pliny edition covers every required letter, and the Aeneid commentary covers the Book 7, 11 and 12 passages.
+      - name: National Latin Exam (Latin IV/V poetry and prose levels)
+        publisher: American Classical League / NJCL
+        tradition: secular
+        url: "https://www.nle.org/"
+        notes: A March exam that makes a good warm-up in sight reading. Its old exams are free practice for unseen passages.
+    sources:
+      - { label: "AP Latin Course and Exam Description (PDF, revised 2025)", url: "https://apcentral.collegeboard.org/media/pdf/ap-latin-course-and-exam-description.pdf" }
+      - { label: "AP Latin CED Clarifications and Corrections (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-latin-course-and-exam-description-clarification.pdf" }
+      - { label: "AP Latin Course Overview (PDF, required readings list)", url: "https://apcentral.collegeboard.org/media/pdf/ap-latin-course-overview.pdf" }
+      - { label: "AP Latin Course at a Glance (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-latin-course-at-a-glance.pdf" }
+      - { label: "AP Latin exam (AP Central)", url: "https://apcentral.collegeboard.org/courses/ap-latin/exam" }
+      - { label: "Bolchazy-Carducci: the new AP Latin curriculum", url: "https://www.bolchazy.com/2025-New-AP-Curriculum/" }
+    notes: >-
+      Already covered: latin-12 reads Aeneid I, II, IV and VI in full. That covers every required line from
+      Books 1, 2, 4 and 6 and all the scansion. Cicero, Livy, Ovid and Horace (latin-09, -11, -13, -14) give far
+      more than the roughly 1,650 words of teacher's-choice prose and 1,350 words of poetry, and they build
+      sight-reading strength. The gap has three parts. (1) About 160 lines of the Aeneid in Latin: 7.45–58,
+      783–792, 803–817; 11.532–594 (Camilla); 12.791–796, 803–812, 818–828, 919–952. Add them to latin-12's
+      final term. (2) All ten Pliny letters, about 3–4 weeks of reading. No main-track row reads Pliny in Latin,
+      though history's early-church sources row reads the letter on the Christians in English. (3) The course
+      project passages (assigned through the AP class and AP Classroom) and timed practice of the exam's
+      question types. Caesar (latin-07) is no longer examined, but it remains the right first author. The exam
+      is 3 hours: 52 multiple-choice questions (65 minutes, 50%) and 5 free-response questions (115 minutes,
+      50%). A homeschooler needs a school or online AP provider that includes him in its course section, so he
+      can do the project checkpoints.
+
+  - id: ap-humanities-04
+    title: "AP Spanish Language & Culture: Exam Prep"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 4
+    prerequisites: []
+    related: [spanish-05, spanish-06, spanish-07, spanish-08, spanish-10, spanish-11]
+    exams: [ap-spanish-language, national-spanish-exam]
+    summary: >-
+      An AP-specific supplement to the Spanish track, which by 15 has taken the student through a full grammar
+      course, Destinos and conversation (spanish-05), and literature from Lazarillo to Don Quijote. The exam
+      tests contemporary language and culture, not literature. The course and exam were revised for 2026–27
+      (first exam May 2027). The email reply, simulated conversation and cultural comparison were replaced by a
+      course project: a recorded Project Presentation and a Project Q&A on a topic released each January. The
+      argumentative essay from sources remains. This unit adds the project, the six themes through authentic
+      modern sources, and timed exam practice.
+    objectives:
+      - "Know the exam (from May 2027): Project Presentation (3 min prep, 3 min speaking; 20%), Project Q&A (four recorded questions, 40 s each; 15%), argumentative essay from print and audio sources (55 min; 15%), and 55 multiple-choice questions (25 listening, 30 reading; 50%)"
+      - Research the January course-project topic in Spanish-language sources and submit the Personalized Project Reference (an outline) through the AP Digital Portfolio by April 30
+      - "Work through the six themes with authentic modern sources: families and communities, language and culture, art and creativity, science and technology, contemporary life, global contexts"
+      - Write a sourced argumentative essay in 55 minutes, citing print, graphic and audio sources
+      - Understand unscripted audio from speakers of different regions (Spain, Mexico, the Caribbean, the Southern Cone) at natural speed
+      - Present and answer questions spontaneously on a cultural topic, comparing it with one's own community
+    curriculumOptions:
+      - name: AP Spanish Language and Culture (AP Central course and exam pages, CED)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-spanish-language-and-culture"
+        notes: The official source. It has the revised CED, the course project details and the 2027 exam format.
+      - name: AP World Language and Culture revisions (overview of the 2026–27 changes)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-world-languages-revisions"
+        notes: Explains the course project, the PPR and which old tasks were retired. The 2026–27 project theme is music, under the Art and Creativity unit.
+      - name: AP Spanish past exam questions
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-spanish-language-and-culture/exam/past-exam-questions"
+        notes: The argumentative essays and listening sources are still good practice. The email, conversation and cultural-comparison tasks from 2023–26 are retired.
+      - name: "Temas: AP Spanish Language and Culture"
+        publisher: Vista Higher Learning
+        tradition: secular
+        url: "https://learn.vistahigherlearning.com/temas/"
+        notes: >-
+          A standard theme-by-theme AP textbook with authentic readings, audio and video. The College Board says
+          current textbooks still cover the revised course. Vista is preparing new editions for 2027–28.
+      - name: Triángulo Aprobado, 5th ed.
+        publisher: Wayside Publishing
+        tradition: secular
+        url: "https://www.waysidepublishing.com/languages/spanish/tri%C3%A1ngulo-aprobado"
+        notes: An all-in-one AP skills-and-practice book organized by the themes. It is strong for listening and reading drill. Its speaking tasks predate the 2027 format.
+      - name: National Spanish Exam (AATSP)
+        publisher: American Association of Teachers of Spanish and Portuguese
+        tradition: secular
+        url: "https://nationalspanishexam.org/exams/national-spanish-exam/"
+        notes: A spring online exam with listening and reading at graded levels. A useful benchmark in the years before AP.
+    sources:
+      - { label: "AP Spanish Language and Culture Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-spanish-language-and-culture-course-and-exam-description.pdf" }
+      - { label: "AP Spanish Language and Culture exam (AP Central)", url: "https://apcentral.collegeboard.org/courses/ap-spanish-language-and-culture/exam" }
+      - { label: "AP Spanish Language exam overview (AP Students)", url: "https://apstudents.collegeboard.org/courses/ap-spanish-language-and-culture/assessment" }
+      - { label: "Vista Higher Learning: AP World Language planning for 2026–2027", url: "https://vhlblog.vistahigherlearning.com/ap-world-language-and-culture-planning-and-alignment-for-2026-2027.html" }
+    notes: >-
+      Already covered: grammar, vocabulary and reading far beyond the AP level. By 15 the student has read Don
+      Quijote in the original (spanish-10). The Hispanic history of spanish-07 gives cultural depth. A student
+      raised with a native-speaking caregiver (spanish-01) may be ready for this exam two or three years early.
+      Sitting it at 13–14 is reasonable. The gap is the present-day Spanish-speaking world: news, podcasts,
+      infographics, interviews, and regional accents at speed. The track is historical and literary. The other
+      gaps are the course project, the PPR deadline, and timed recorded speaking. Plan 10–12 weeks: one theme a
+      week with authentic sources, then the project from January. The exam is fully digital in Bluebook from
+      2027. A homeschooler needs a school or online AP provider that sets up the AP Digital Portfolio for the PPR.
+
+  - id: ap-humanities-05
+    title: "AP Chinese Language & Culture: Exam Prep"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 5
+    prerequisites: []
+    related: [chinese-07, chinese-09, chinese-11, chinese-10]
+    exams: [ap-chinese-language, hsk]
+    summary: >-
+      An AP-specific supplement to chinese-07, -09 and -11, which carry the student through Integrated Chinese
+      and graded readers to authentic modern texts and HSK 4–5. The course and exam were revised for 2026–27
+      (first exam May 2027). The course project (Project Presentation and Q&A) replaces the old conversation and
+      cultural presentation. Story narration from pictures and the email response are kept, and both are typed.
+      This unit adds typing Chinese with a pinyin or bopomofo input method, the project, and timed practice on
+      the task types.
+    objectives:
+      - "Know the exam (from May 2027): Project Presentation (20%), Project Q&A (four recorded questions, 40 s each; 15%), Story Narration from four pictures (7.5%), Email Response (7.5%), and 55 multiple-choice questions (25 listening, 30 reading; 50%)"
+      - "Type fluently with an input method: Pinyin Simplified, Pinyin Traditional or Bopomofo. Choose the right character from the candidate list quickly and accurately."
+      - Read on-screen text in simplified or traditional characters. The display can be switched during the exam, so choose one script and practice in it.
+      - Research the January course-project topic in Chinese-language sources and submit the Personalized Project Reference by April 30
+      - Narrate a four-picture story and answer an email in a coherent, appropriately polite register within the time limit
+      - Understand announcements, conversations and instructions at natural speed, and read signs, notes, ads and short articles
+    curriculumOptions:
+      - name: AP Chinese Language and Culture (AP Central course and exam pages, CED)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture"
+        notes: The official source. It has the revised CED, the course project and the 2027 format. The course is described as roughly an intermediate college course.
+      - name: AP Chinese exam overview (AP Students), including input methods
+        publisher: College Board
+        tradition: secular
+        url: "https://apstudents.collegeboard.org/courses/ap-chinese-language-and-culture/assessment"
+        notes: Confirms the three input methods (Pinyin Simplified, Pinyin Traditional, Bopomofo) and the simplified/traditional display toggle.
+      - name: AP Chinese past exam questions
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture/exam/past-exam-questions"
+        notes: Story narration and email tasks carry over. The conversation and cultural-presentation tasks are retired.
+      - name: "Integrated Chinese, 4th ed., Volumes 3–4"
+        publisher: Cheng & Tsui
+        tradition: secular
+        url: "https://www.cheng-tsui.com/browse/integrated-chinese-4th-edition/integrated-chinese-volume-3-4th-ed-textbook"
+        notes: The intermediate volumes are the textbook level AP assumes. The main track already uses the series, so use it here only for review of the AP themes.
+      - name: "Strive for a 5: AP Chinese Practice Tests"
+        publisher: Cheng & Tsui
+        tradition: secular
+        url: "https://www.amazon.com/Strive-Chinese-Practice-Preparation-English/dp/0887277640"
+        notes: >-
+          Eight full practice tests with free audio downloads from Cheng & Tsui. They were written for the
+          pre-2027 format, so use the listening, reading, story and email sections and skip the conversation and
+          cultural presentation.
+      - name: "Barron's AP Chinese Language and Culture Premium, 4th ed."
+        publisher: Barron's
+        tradition: secular
+        url: "https://www.amazon.com/Chinese-Language-Culture-Premium-Fourth/dp/1506286429"
+        notes: Review book with practice tests and audio. It also predates the 2027 format.
+    sources:
+      - { label: "AP Chinese Language and Culture Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-chinese-language-and-culture-course-and-exam-description.pdf" }
+      - { label: "AP Chinese Language and Culture exam (AP Central)", url: "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture/exam" }
+      - { label: "AP World Language and Culture revisions (2026–27)", url: "https://apcentral.collegeboard.org/courses/ap-world-languages-revisions" }
+    notes: >-
+      Already covered: the track teaches both simplified and traditional characters (chinese-07), intermediate
+      grammar and registers (chinese-09) and unadapted modern prose to HSK 5 (chinese-11). There is no official
+      HSK–AP concordance. As a planning rule, a student with solid HSK 4 listening and reading is near the AP
+      level, and HSK 5 gives a comfortable margin. The student could therefore sit AP after chinese-09 (about 14)
+      rather than wait until 16. The gap is mechanical and cultural. Typing is the biggest one: a handwriting-
+      trained student must practice IME typing weekly for a term, since homophone selection errors cost points.
+      The rest is the course project, timed picture narration and email, and everyday contemporary culture
+      (festivals, school life, social customs, technology) as distinct from the classics. Allow a semester.
+      A homeschooler needs a school or online AP provider that sets up the AP Digital Portfolio for the PPR.
+
+  - id: ap-humanities-06
+    title: "AP Music Theory: Dictation, Sight-Singing & Part-Writing (Exam Prep)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15
+    order: 6
+    prerequisites: []
+    related: [music-11, music-08, music-01, music-02, music-07, music-10]
+    exams: [ap-music-theory, music-graded-exams]
+    summary: >-
+      An AP-specific supplement to music-08 (graded rudiments) and music-11 (harmony, figured bass and species
+      counterpoint), with ear training drawn from the solfège of music-01, the Ward Method (music-02), chant
+      (music-07) and choir (music-10). It adds only what the exam requires: melodic and harmonic dictation,
+      recorded sight-singing, part-writing in the College Board's voice-leading conventions, aural multiple
+      choice, and the eight CED units, including modes and form.
+    objectives:
+      - "Know the exam: 75 multiple-choice questions, most with audio (45%); 7 written free-response questions (2 melodic dictation, 2 harmonic dictation, part-writing from figured bass, part-writing from Roman numerals, harmonizing a melody or composing a bass line; 45%); 2 sight-singing melodies (10%)"
+      - Take down a 4–8 bar diatonic melody (major or minor, simple or compound meter) in 3–4 hearings
+      - Write the outer voices and Roman numerals of a short progression by ear (harmonic dictation), including cadential 6/4, V7, predominants and secondary dominants
+      - Part-write from figured bass and from Roman numerals in four voices without parallels, spacing errors or unresolved tendency tones
+      - Sight-sing two melodies with 75 seconds of study and 30 seconds to perform, recorded
+      - Cover the CED units (fundamentals, chord function and cadence, predominant function, embellishments and motive, secondary function, modes and form) using AP terminology
+    curriculumOptions:
+      - name: AP Music Theory (AP Central course and exam pages, CED)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-music-theory"
+        notes: The official source. The CED sets out the eight units and the voice-leading rules the exam is scored by. It was lightly clarified for 2026–27.
+      - name: AP Music Theory past exam questions (with audio and scoring guidelines)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-music-theory/exam/past-exam-questions"
+        notes: Free. The scoring guidelines show exactly how dictation and part-writing points are awarded.
+      - name: AP Classroom (topic questions and progress checks)
+        publisher: College Board
+        tradition: secular
+        url: "https://apclassroom.collegeboard.org"
+        notes: Available through the school or online provider that orders the exam. It includes aural progress checks.
+      - name: "Tonal Harmony, 9th ed. (Kostka, Payne & Almén)"
+        publisher: McGraw Hill
+        tradition: secular
+        url: "https://www.mheducation.com/highered/product/tonal-harmony-kostka.html"
+        notes: The standard college harmony text, and the reference for the AP course's harmonic content. Use it with its workbook for part-writing drill.
+      - name: "Barron's AP Music Theory Premium, 5th ed. (Nancy Fuller Scoggin)"
+        publisher: Barron's
+        tradition: secular
+        url: "https://www.simonandschuster.com/books/AP-Music-Theory-Premium-Fifth-Edition-2-Practice-Tests-+-Comprehensive-Review-+-Online-Audio/Nancy-Fuller-Scoggin/Barrons-AP-Prep/9781506288031"
+        notes: Exam-focused review with online audio and two practice tests.
+      - name: musictheory.net
+        publisher: musictheory.net
+        tradition: secular
+        url: "https://www.musictheory.net/"
+        notes: Free drills for interval, chord and key identification, and ear-training trainers.
+      - name: teoria.com (melodic and harmonic dictation exercises)
+        publisher: teoria.com
+        tradition: secular
+        url: "https://teoria.com/en/exercises/md.php"
+        notes: Free, configurable melodic dictation and other ear-training exercises. It is the best free source of daily dictation.
+    sources:
+      - { label: "AP Music Theory Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-music-theory-course-and-exam-description.pdf" }
+      - { label: "AP Music Theory exam (AP Central)", url: "https://apcentral.collegeboard.org/courses/ap-music-theory/exam" }
+      - { label: "AP Music Theory exam overview (AP Students)", url: "https://apstudents.collegeboard.org/courses/ap-music-theory/assessment" }
+    notes: >-
+      Already covered: rudiments to ABRSM Grade 5 (music-08), and four-part harmony, figured bass and chorale
+      analysis at AP level or beyond (music-11). Movable-do solfège, the Ward Method and chant give a trained
+      ear and sight-singing, and the schola adds part-singing at sight (music-10). Gregorian chant also covers
+      the modes in CED Unit 8. The gaps are three. (1) Dictation: the main track trains the ear but does not
+      drill writing down melodies and bass lines under time. Do 10 minutes of dictation daily for a year.
+      Start from chant incipits and hymn tunes the student knows, then move to unfamiliar tonal melodies.
+      (2) AP-specific conventions: the scoring guidelines penalize particular voice-leading errors, and some
+      terms differ from ABRSM's (e.g. "imperfect authentic" cadence, "phrase model", Roman-numeral figures).
+      (3) Singing into a recorder with a strict 75-second study time. From May 2027 the exam is in hybrid
+      digital form through Bluebook, with no change to its structure.

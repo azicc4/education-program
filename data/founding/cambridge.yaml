@@ -33,75 +33,125 @@ primarySources:
   - { label: "Secondary: Cambridge in America, Thomas Lynch Jr. (Gonville and Caius), signer of the Declaration", url: "https://www.cantab.org/thomas-lynch-jr-gonville-and-caius" }
 entries:
   - text: "Elizabethan statutes (1570), cap. VI: the first year shall teach rhetoric, the second and third dialectic, and the fourth shall add philosophy; dispute twice in the public schools and respond twice in college; B.A. after four full years"
+    use: [reference]
+    units: [logic-03, rhetoric-07, rhetoric-09]
     search: Logic
     tracks: [rhetoric, logic, philosophy]
   - text: "Rhetoric lecturer (1570): Quintilian, Hermogenes, or one of Cicero's oratorical books, explained in the vernacular for the hearers' capacity"
+    use: [reference, student]
+    units: [rhetoric-10]
     search: Quintilian
     tracks: [rhetoric, latin]
   - text: "Dialectic professor (1570): Aristotle's Sophistical Refutations (Elenchi) or Cicero's Topics"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Aristotle
     tracks: [logic]
   - text: "Philosophy lecturer (1570): Aristotle's Problems, Ethics and Politics, Pliny, or Plato"
+    use: [reference, student]
+    units: [philosophy-07, philosophy-05, character-virtue-12]
     search: Ethics
     tracks: [philosophy, civics-law, natural-science]
   - text: "Mathematics professor (1570): cosmography from Mela, Pliny, Strabo or Plato; arithmetic from Tunstall or Cardano; geometry from Euclid; astronomy from Ptolemy"
+    use: [reference, student]
+    units: [mathematics-10, natural-science-15]
     search: Euclid
     tracks: [mathematics, natural-science, history]
   - text: "Greek professor (1570): Homer, Isocrates, Demosthenes, Euripides or another ancient author, with the grammar and idiom of the language"
+    use: [reference, student]
+    units: [greek-11, greek-14, rhetoric-08]
     search: Homer
     tracks: [greek, poetry, rhetoric]
   - text: "Hebrew lecturer (1570): reads only from the fountains of Holy Scripture, teaching Hebrew grammar and idiom together"
+    use: [reference, student]
+    units: [hebrew-04, hebrew-06, hebrew-10]
     search: Hebrew Bible
     tracks: [hebrew, theology]
   - text: "B.A. to M.A. (1570, cap. VII): three years hearing philosophy, astronomy, perspective (optics) and Greek; attend the masters' disputations; respond three times to a master, twice in college, and declaim once"
+    use: [reference]
+    units: [natural-science-15, physics-01, rhetoric-12]
     search: Disputation
     tracks: [philosophy, natural-science, greek, rhetoric, logic]
   - text: "Logic manuals: Seton or Ramus brought from school, Keckermann or Molinaeus in the first term (c. 1620s–40s); then Burgersdicius's Institutiones Logicae, 'prescribed at Cambridge in the memory of their forefathers' (Jebb, 1775)"
+    use: [reference]
+    units: [logic-03, logic-06]
     search: Burgersdicius
     tracks: [logic]
   - text: "Waterland's scheme, year 1: Wells's Arithmetic, Euclid's Elements, Burgersdicius's Logic, geography and trigonometry; Terence, Xenophon's Cyropaedia, Cicero's Letters, Phaedrus, Lucian, Theophrastus, Justin and Nepos; sermons of Sharp, Calamy, Sprat and South as models of English prose"
+    use: [reference, student]
+    units: [mathematics-10, latin-05, latin-11, greek-07]
     search: Burgersdicius
     tracks: [mathematics, logic, latin, greek, grammar-composition]
   - text: "Waterland, year 2: Locke's Essay Concerning Human Understanding, astronomy (Wells, Whiston), Keill's Introduction, Rohault's Physics; Cicero's Orations, Isocrates, Demosthenes, Caesar, Sallust, Hesiod, Theocritus, Ovid's Fasti, Virgil's Eclogues; Vossius's rhetoric; Tillotson's Sermons"
+    use: [reference, student]
+    units: [philosophy-09, latin-11, rhetoric-08, latin-13]
     search: Locke
     tracks: [philosophy, natural-science, rhetoric, latin, greek, theology]
   - text: "Waterland, year 3: Whitby's Ethics, Pufendorf's Law of Nature and Nations, Grotius's De Jure Belli ac Pacis; Homer's Iliad, Virgil's Georgics, Sophocles, Horace, Euripides, Juvenal and Persius"
+    use: [reference, student]
+    units: [philosophy-15, greek-11, greek-14, latin-14]
     search: Grotius
     tracks: [philosophy, civics-law, character-virtue, greek, latin, poetry]
   - text: "Waterland, year 4 ('the hardest books reserved'): Newton's Opticks, Whiston's mathematical lectures, Gregory's Astronomy, metaphysics; Thucydides, Livy, Diogenes Laertius, Cicero's philosophical works; Clarke's lectures, Grotius on the Truth of the Christian Religion, Pearson on the Creed"
+    use: [reference, student]
+    units: [physics-01, philosophy-14, greek-15, latin-13]
     search: Newton
     tracks: [natural-science, mathematics, history, philosophy, theology, greek, latin]
   - text: "Rohault's Cartesian Physics in Samuel Clarke's edition (1697), whose Newtonian notes refuted the text; read at Cambridge at least until 1730"
+    use: [reference]
+    units: []
     search: Rohault
     tracks: [natural-science]
   - text: "Newton's Principia in the Schools: acts kept 1772–92 on Principia Book I (sections 1–3, 7, 8, 12), Cotes, Halley's solar parallax, fluxions and Maclaurin"
+    use: [reference, student]
+    units: [physics-02, mathematics-18]
     search: Newton
     tracks: [mathematics, natural-science]
   - text: "Senate House Examination (the Mathematical Tripos): order-of-merit lists printed from 1747–48 (wranglers, senior optimes, junior optimes); by 1800 even the lowest pass required two books of Euclid, simple and quadratic equations, and the early parts of Paley's Moral Philosophy"
+    use: [reference]
+    units: [mathematics-10, mathematics-14]
     search: Euclid
     tracks: [mathematics, philosophy]
   - text: "Paley, The Principles of Moral and Political Philosophy (1785), from his Christ's College lectures; the usual 'moral question' in the Schools, e.g. 'Recte statuit Paleius de Utilitate'"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Paley
     tracks: [philosophy, civics-law, character-virtue, logic]
   - text: "Locke's Essay: each disputant offered a philosophical question often taken from Locke; freshmen had college lectures in 'Locke and logic' (1802)"
+    use: [reference, student]
+    units: [philosophy-09]
     search: Locke
     tracks: [philosophy, logic]
   - text: "Examination Wednesday: logic, moral philosophy and natural and revealed religion, 'the authors chiefly respected' being Locke, Paley, Clarke and Butler; before 1779 only 'an occasional question or two in Locke, Butler's Analogy, or Clarke's Attributes', after which this part of the examination was given more weight"
+    use: [reference, student]
+    units: [philosophy-09]
     search: Butler
     tracks: [philosophy, theology, logic]
   - text: "Questions disputed in the Schools, 1772–92: Berkeley on sight and touch, Montesquieu's Laws, Locke on faith and reason, Wollaston on happiness, Paley on penalties and promises; free press, imprisonment for debt, duelling, the slave trade, the immateriality of the soul"
+    use: [reference]
+    units: [rhetoric-09, civics-law-10, philosophy-09]
     search: Montesquieu
     tracks: [philosophy, civics-law, rhetoric, logic]
   - text: "College classical lectures (Calendar, 1802): an oration of Demosthenes, Lysias or Isocrates, a Greek play, Longinus, Cicero, Quintilian, and selections from Herodotus, Tacitus and Thucydides, with weekly Latin or English compositions"
+    use: [reference, student]
+    units: [rhetoric-08, rhetoric-10, poetry-14, greek-12]
     search: Demosthenes
     tracks: [greek, latin, rhetoric, history, grammar-composition]
   - text: "Analytical Society (1812; Babbage, Herschel, Peacock): translation of Lacroix's differential calculus (1816), and Leibniz's notation set in the Tripos by Peacock as moderator in 1817"
+    use: [reference]
+    units: [mathematics-18]
     search: Calculus
     tracks: [mathematics]
   - text: "Previous Examination ('Little-Go', established 1822): in the fifth term, the Greek Testament, Paley's Evidences of Christianity, and one Greek and one Latin author"
+    use: [reference, student]
+    units: [greek-05]
     search: Paley
     tracks: [greek, latin, theology]
   - text: "Classical Tripos (established 1822, first examined 1824): an annual honours examination in classics, open only to men who had first won mathematical honours"
+    use: [reference]
+    units: [greek-15, latin-18]
     search: Thucydides
     tracks: [greek, latin, grammar-composition, history]
 notes: >-

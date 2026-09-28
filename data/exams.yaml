@@ -1,181 +1,858 @@
 # Exams the program prepares for by age 18. Rows reference these ids in their `exams:` field.
 # typicalAge = the age at which a student on this program's pace would normally sit the exam.
+# Facts (dates, fees, formats) were checked against the official pages in September 2026. Fees and
+# deadlines change every year: re-check the official page each autumn before registering.
 exams:
   # ---------- AP: math & science ----------
+  # Every AP entry shares the homeschool registration text defined (as a YAML anchor) on the first entry.
   - id: ap-calculus-bc
     name: AP Calculus BC
     body: College Board
     category: ap-stem
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-calculus-bc/assessment"
+    ced: "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+    format: >-
+      3 hr 10 min, hybrid digital: multiple-choice questions are answered in the Bluebook app, and
+      free-response questions are read in Bluebook but handwritten in a paper booklet. Section I is 42
+      multiple-choice questions in 1 hr 40 min (50%): Part A, 29 questions, no calculator; Part B, 13
+      questions, graphing calculator required for some. Section II is 6 free-response problems in 1 hr 30
+      min (50%): Part A, 2 problems with a calculator; Part B, 4 problems without. Scored 1–5; the report
+      also gives an AB subscore. 2027 exam: Monday, May 10.
+    registration: &ap-registration >-
+      Parents and students cannot order AP Exams directly; a homeschooler tests as an outside student at an
+      authorized school. (1) Search the AP Course Ledger (apstudents "Find Schools That Offer Authorized
+      AP Courses") for schools near you. (2) In September, phone each school and ask its AP coordinator
+      whether it will test homeschooled students this year; schools set their own local deadlines. (3) The
+      coordinator orders the exam, enrolls the student in an "exam only" section in My AP (which also
+      unlocks AP Classroom practice), tells you when and where to report, and collects the fees. College
+      Board's order deadline is November 13, 2026 for May 2027 exams. Orders placed November 14 to March 12
+      add a $40 late fee; a school that adds an outside student late may ask College Board to waive it.
+      2026–27 fees are $99 per exam in the U.S. ($129 outside the U.S.) and $40 for an unused or canceled
+      exam. Ask whether the school adds an administration charge. No AP Course Audit is needed to sit an
+      exam; the audit is needed only to label a homeschool course "AP" on the transcript.
+    resources:
+      - { label: "AP Central: past free-response questions and scoring guidelines", url: "https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions" }
+      - { label: "AP Classroom (topic questions and progress checks; join through the coordinator)", url: "https://apclassroom.collegeboard.org/" }
+      - { label: "Khan Academy: AP/College Calculus BC", url: "https://www.khanacademy.org/math/ap-calculus-bc" }
+    notes: >-
+      Sits at the end of mathematics-18. Free-response scoring rewards written justification, so practice
+      writing complete sentences of reasoning, not just answers.
   - id: ap-statistics
     name: AP Statistics
     body: College Board
     category: ap-stem
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-statistics/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-statistics-course-and-exam-description.pdf"
+    format: >-
+      3 hr, fully digital in Bluebook. Section I: 42 multiple-choice questions in 1 hr 30 min (50%).
+      Section II: 4 free-response questions in 1 hr 30 min (50%). A graphing calculator is permitted
+      throughout, and formula sheets and tables are provided. Scored 1–5. 2027 exam: Tuesday, May 11.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-statistics/exam/past-exam-questions" }
+      - { label: "AP Statistics digital response guidelines (typing work in Bluebook)", url: "https://apcentral.collegeboard.org/media/pdf/ap-statistics-digital-response-guidelines.pdf" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      Pairs with mathematics-16. Free responses are typed, so practice typing statistical explanations
+      before the exam.
   - id: ap-physics-c-mechanics
     name: "AP Physics C: Mechanics"
     body: College Board
     category: ap-stem
     typicalAge: 16
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf"
+    format: >-
+      3 hr, hybrid digital: multiple-choice questions are answered in Bluebook, and free-response answers
+      are handwritten in a paper booklet. Section I: 42 multiple-choice questions in 1 hr 25 min (50%).
+      Section II: 4 free-response questions in 1 hr 35 min (50%). A calculator is permitted and an
+      equation sheet is provided. Scored 1–5. 2027 exam: Monday, May 3.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions (the 2025 revision changed the format)", url: "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      Calculus-based; the student should have finished or be taking AP Calculus BC. The course was revised
+      for 2024–25 (the exam grew to 3 hours), so exams from before 2025 don't match the current format.
   - id: ap-physics-c-em
     name: "AP Physics C: Electricity and Magnetism"
     body: College Board
     category: ap-stem
     typicalAge: 16
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf"
+    format: >-
+      3 hr, hybrid digital: multiple-choice questions are answered in Bluebook, and free-response answers
+      are handwritten in a paper booklet. Section I: 42 multiple-choice questions in 1 hr 25 min (50%).
+      Section II: 4 free-response questions in 1 hr 35 min (50%). A calculator is permitted and an
+      equation sheet is provided. Scored 1–5. 2027 exam: Wednesday, May 5.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      In 2027 this falls on the same day as AP Physics 1 and AP English Literature; check the session times
+      if a student sits more than one of them.
   - id: ap-physics-1
     name: "AP Physics 1: Algebra-Based"
     body: College Board
     category: ap-stem
     typicalAge: 14
     optional: true
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-physics-1/assessment"
+    ced: "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description.pdf"
+    format: >-
+      3 hr, hybrid digital: multiple-choice questions are answered in Bluebook, and free-response answers
+      are handwritten. Section I: 42 multiple-choice questions in 1 hr 25 min (50%). Section II: 4
+      free-response questions in 1 hr 35 min (50%). A calculator is permitted. Scored 1–5. 2027 exam:
+      Wednesday, May 5.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-physics-1/exam/past-exam-questions" }
+      - { label: "Khan Academy: AP/College Physics 1", url: "https://www.khanacademy.org/science/ap-college-physics-1" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      Optional. Worth sitting only if physics-01 is taken at AP depth; otherwise go straight to Physics C.
   - id: ap-chemistry
     name: AP Chemistry
     body: College Board
     category: ap-stem
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-chemistry/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-chemistry-course-and-exam-description.pdf"
+    format: >-
+      3 hr 15 min, hybrid digital. Section I: 60 multiple-choice questions in 1 hr 30 min (50%). Section
+      II: 7 free-response questions (3 long at 10 points, 4 short at 4 points) in 1 hr 45 min (50%),
+      handwritten. A scientific or graphing calculator is recommended for both sections, and a periodic
+      table and equation sheet are provided. Scored 1–5. 2027 exam: Thursday, May 6.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-chemistry/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      The course requires lab work, which homeschoolers must supply themselves (see chemistry-02). Colleges
+      may ask for a lab notebook before granting lab credit.
   - id: ap-biology
     name: AP Biology
     body: College Board
     category: ap-stem
     typicalAge: 14
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-biology/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-biology-course-and-exam-description.pdf"
+    format: >-
+      3 hr, hybrid digital. Section I: 60 multiple-choice questions in 1 hr 30 min (50%). Section II: 6
+      free-response questions (2 long, 4 short, focused on experiments and data analysis) in 1 hr 30 min
+      (50%), handwritten. A calculator is permitted. Scored 1–5. 2027 exam: Monday, May 3.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-biology/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      Keep a lab notebook (biology-02). Pair the exam with the USABO Open Exam the same school year.
   # ---------- AP: humanities & languages ----------
   - id: ap-english-language
     name: AP English Language and Composition
     body: College Board
     category: ap-humanities
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+    format: >-
+      3 hr 15 min, fully digital in Bluebook, with essays typed. Section I: 45 multiple-choice questions
+      (45%): 23–25 on reading and 20–22 on writing and revision. Section II: 3 essays in 2 hr 15 min,
+      including a 15-minute reading period (55%): synthesis, rhetorical analysis and argument. Scored 1–5.
+      2027 exam: Wednesday, May 12.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions and scored samples", url: "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      The classical rhetoric sequence (rhetoric-07 to rhetoric-11) and grammar-composition-11 cover the
+      skills. Practice timed typed essays, because the exam is typed.
   - id: ap-english-literature
     name: AP English Literature and Composition
     body: College Board
     category: ap-humanities
     typicalAge: 16
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-english-literature-and-composition/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-english-literature-and-composition-course-and-exam-description.pdf"
+    format: >-
+      3 hr, fully digital in Bluebook. Section I: 55 multiple-choice questions in five sets of 8–13
+      questions on prose fiction, drama and poetry passages (45%). Section II: 3 typed essays (55%): poetry
+      analysis, prose fiction analysis and a literary argument on a work the student chooses. Scored 1–5.
+      2027 exam: Wednesday, May 5.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions and scored samples", url: "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      For the literary argument, the student should have 4–5 great books (e.g. from literature-17 to
+      literature-26) ready to use.
   - id: ap-us-history
     name: AP United States History
     body: College Board
     category: ap-humanities
     typicalAge: 16
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-united-states-history/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-us-history-course-and-exam-description.pdf"
+    format: >-
+      3 hr 15 min, fully digital in Bluebook. Section IA: 55 source-based multiple-choice questions in 55
+      min (40%). Section IB: 3 short-answer questions in 40 min (20%). Section II: a document-based
+      question (7 documents, 60 min including a 15-minute reading period, 25%) and a long-essay question
+      (40 min, 15%). Scored 1–5. 2027 exam: Friday, May 7.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions (DBQ, LEQ, SAQ)", url: "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam/past-exam-questions" }
+      - { label: "Khan Academy: AP US History", url: "https://www.khanacademy.org/humanities/ap-us-history" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: See the ap-history side track for the course that prepares for this exam.
   - id: ap-european-history
     name: AP European History
     body: College Board
     category: ap-humanities
     typicalAge: 16
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-european-history/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-european-history-course-and-exam-description.pdf"
+    format: >-
+      3 hr 15 min, fully digital in Bluebook. Section IA: 55 source-based multiple-choice questions (40%).
+      Section IB: 3 short-answer questions (20%). Section II: a document-based question (60 min, 25%) and
+      a long-essay question (40 min, 15%). Scored 1–5. 2027 exam: Tuesday, May 4.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-european-history/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: See the ap-history side track.
   - id: ap-world-history-modern
     name: "AP World History: Modern"
     body: College Board
     category: ap-humanities
     typicalAge: 17
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-world-history-modern/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-world-history-modern-course-and-exam-description.pdf"
+    format: >-
+      3 hr 15 min, fully digital in Bluebook. Section IA: 55 multiple-choice questions in 55 min, in
+      source-based sets (40%). Section IB: 3 short-answer questions in 40 min (20%). Section II: a
+      document-based question (60 min including a 15-minute reading period, 25%) and a long-essay question
+      (40 min, 15%). Covers roughly 1200 CE to the present. Scored 1–5. 2027 exam: Thursday, May 6.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-world-history/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: See the ap-history side track.
   - id: ap-latin
     name: AP Latin
     body: College Board
     category: ap-language
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-latin/assessment"
+    ced: "https://apcentral.collegeboard.org/media/pdf/ap-latin-course-and-exam-description-effective-fall-2025.pdf"
+    format: >-
+      3 hr, fully digital in Bluebook. Section I: 52 multiple-choice questions in 1 hr 5 min (50%), on
+      sight passages and syllabus texts. Section II: 5 free-response questions in 1 hr 55 min (50%): one
+      short answer, one translation and three essays drawing on syllabus and course-project passages. Two
+      in-class course-project checkpoint tasks count for 2% of the free-response score. Scored 1–5. 2027
+      exam: Friday, May 14.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-latin/exam/past-exam-questions" }
+      - { label: "College Board AP Latin sample syllabus #1 (lists the revised required readings)", url: "https://apcentral.collegeboard.org/media/pdf/ap-latin-sample-syllabus-1.pdf" }
+      - { label: "Bolchazy-Carducci: texts for the revised AP Latin curriculum", url: "https://www.bolchazy.com/2025-new-ap-curriculum/" }
+    notes: >-
+      The course was revised for 2025–26; the first revised exam was May 2026. Caesar was dropped, and the
+      required reading is now Vergil's Aeneid (selections from Books 1, 2, 4, 6, 7, 11 and 12) and Pliny
+      the Younger's Letters. The College Board sample syllabus lists the required Latin letters as 2.6,
+      6.4, 6.7, 6.16, 6.20, 7.27, 10.5–7, 10.33, 10.37–38 and 10.90, plus teacher's-choice passages. There
+      is also a spring course project on four annually released non-syllabus passages, with in-class
+      checkpoints. Exam-only homeschoolers should ask the AP coordinator how they will get the project
+      passages and complete the checkpoints in AP Classroom. The CED is the authority on line numbers.
+      latin-07 (Caesar) is still good preparation but is no longer exam content.
   - id: ap-spanish-language
     name: AP Spanish Language and Culture
     body: College Board
     category: ap-language
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-spanish-language-and-culture/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-spanish-language-and-culture-course-and-exam-description.pdf"
+    format: >-
+      About 2 hr 30 min, fully digital in Bluebook, with speaking recorded in the app (revised exam, first
+      given May 2027). Section I, free response (50%): Project Presentation, a 3-minute spoken presentation
+      of the student's course project (20%); Project Q&A, 4 recorded follow-up questions answered in 40
+      seconds each (15%); and an argumentative essay from multiple sources in 55 min (15%). Section II,
+      multiple choice (50%): Part A, listening, 25 questions in 40 min (25%); Part B, reading, 30 questions
+      in 40 min (25%). Scored 1–5. 2027 exam: Thursday, May 13.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: AP World Language and Culture revisions (course project, PPR, exam-only students)", url: "https://apcentral.collegeboard.org/courses/ap-world-languages-revisions" }
+      - { label: "AP Central: past free-response questions (pre-2027 format; the reading, listening and essay practice still applies)", url: "https://apcentral.collegeboard.org/courses/ap-spanish-language-and-culture/exam/past-exam-questions" }
+      - { label: "Barron's AP Spanish Language and Culture Premium, 15th ed. (updated for the May 2027 exam)", url: "https://www.simonandschuster.com/books/AP-Spanish-Language-and-Culture-Premium-Fifteenth-Edition-5-Practice-Tests-+-Comprehensive-Review/Daniel-Paolicchi/Barrons-AP-Prep/9798349701627" }
+    notes: >-
+      Revised for 2026–27. A required course project (the 2026–27 topic is music, drawn from Unit 3, Art
+      and Creativity) replaces the old email, conversation and cultural-comparison tasks. Students must
+      upload a Personalized Project Reference (PPR), an outline of the presentation, to the AP Digital
+      Portfolio by April 30. They present on exam day with the printed PPR. College Board says exam-only
+      students keep access to AP Classroom and the Digital Portfolio and must complete every component.
+      The homeschooler must therefore be enrolled by the coordinator well before April. Exams from before
+      2027 are useful only for the listening, reading and essay sections.
   - id: ap-chinese-language
     name: AP Chinese Language and Culture
     body: College Board
     category: ap-language
     typicalAge: 16
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-chinese-language-and-culture/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-chinese-language-and-culture-course-and-exam-description.pdf"
+    format: >-
+      About 2 hr, fully digital in Bluebook (revised exam, first given May 2027). Section I, free response
+      (50%): Project Presentation, 3 min preparation and 3 min speaking (20%); Project Q&A, 4 recorded
+      exchanges of 40 seconds each (15%); and Story Narration and Email Response, 30 min combined (7.5%
+      each), typed with Pinyin (simplified or traditional) or Bopomofo input. Section II, multiple choice
+      (50%): listening, 25 questions in 25 min (25%); reading, 30 questions in 40 min (25%). Scored 1–5.
+      2027 exam: Thursday, May 13.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: AP World Language and Culture revisions", url: "https://apcentral.collegeboard.org/courses/ap-world-languages-revisions" }
+      - { label: "AP Central: past free-response questions (pre-2027 format)", url: "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture/exam/past-exam-questions" }
+      - { label: "Cheng & Tsui: Strive for a 5, AP Chinese Practice Tests", url: "https://www.cheng-tsui.com/browse/language-learning-supplements/strive-for-a-5%E2%80%94ap-practice-text/strive-for-a-5%E2%80%94ap-practice-text" }
+    notes: >-
+      Revised for 2026–27 like AP Spanish. A course project and Personalized Project Reference (due April
+      30 in the AP Digital Portfolio) replace the old conversation and cultural presentation tasks, while
+      story narration and the email reply stay. Practise typing Chinese with a Pinyin or Bopomofo input
+      method; handwriting is not tested. Strive for a 5 was written for the pre-2027 format, so use it for
+      listening, reading and writing practice. HSK 4–5 (chinese-09, chinese-11) is roughly the level
+      needed.
   - id: ap-music-theory
     name: AP Music Theory
     body: College Board
     category: ap-humanities
     typicalAge: 15
+    month: May
+    url: "https://apstudents.collegeboard.org/courses/ap-music-theory/assessment"
+    ced: "https://apcentral.collegeboard.org/pdf/ap-music-theory-course-and-exam-description.pdf"
+    format: >-
+      About 2 hr 40 min, on paper (not Bluebook), with sight-singing recorded on a device the school
+      supplies. Section I: 75 multiple-choice questions (45%), 41–43 on aural stimuli (about 45 min) and
+      32–34 on score analysis (35 min). Section IIA: 7 written free-response questions (45%): 2 melodic
+      dictations, 2 harmonic dictations, figured-bass part writing, Roman-numeral part writing and melody
+      harmonization. Section IIB: 2 sight-singing melodies (10%), with 75 seconds of practice and 30
+      seconds to perform each. Scored 1–5. 2027 exam: Monday, May 10.
+    registration: *ap-registration
+    resources:
+      - { label: "AP Central: past free-response questions, sight-singing and audio", url: "https://apcentral.collegeboard.org/courses/ap-music-theory/exam/past-exam-questions" }
+      - { label: "AP Classroom", url: "https://apclassroom.collegeboard.org/" }
+    notes: >-
+      Prepared by music-08 and music-11 (ABRSM theory Grade 5 is a good checkpoint). Daily dictation and
+      solfège sight-singing (music-01, music-07) matter as much as written harmony.
   # ---------- Classic Learning Test ----------
   - id: clt-classical-baccalaureate
     name: "CLT: Classical Baccalaureate"
     body: Classic Learning Initiatives
     category: clt
     typicalAge: 17
+    optional: true
+    month: "Spring (first two exams planned for spring 2027)"
+    url: "https://www.cltexam.com/classicalbaccalaureate/"
+    format: >-
+      Still in development, and exam formats are not yet published. Classical Baccalaureate (CB) is a
+      classical alternative to AP and IB with two layers. The first is stand-alone, AP-style course exams
+      intended to earn college credit; the first two, Government & Politics and Rhetoric & Composition, are
+      planned for spring 2027, with more subjects added each year. The second is an IB-style diploma
+      program that combines CB courses and exams with a diploma core: a thesis and its defense, regular
+      Socratic seminars on great books, and a classical portfolio covering the arts, physical fitness and
+      civics, with a diploma score.
+    registration: >-
+      Currently school-based. CLT says any school may pilot or give CB exams without authorization, and
+      interested schools sign up on the CB page. Full diploma pilots begin in fall 2027 at selected
+      "Affiliate" schools, with the first diplomas expected around 2030. Nothing yet says how an individual
+      homeschooler registers. Ask CLT, or join through a classical school or co-op that signs up as a pilot.
+      Fees: not yet published.
+    resources:
+      - { label: "CLT: Classical Baccalaureate overview and school sign-up", url: "https://www.cltexam.com/classicalbaccalaureate/" }
+      - { label: "CLT Journal: Classical Baccalaureate, what students, parents and educators need to know", url: "https://blog.cltexam.com/classical-baccalaureate/" }
+      - { label: "Classical Baccalaureate Substack (launch announcement and updates)", url: "https://classiclearningtest.substack.com/p/welcome-to-the-classical-baccalaureate" }
+    notes: >-
+      This exists under this name (announced 2025–26). It is a future offering, not yet a test anyone can
+      book. Marked optional until exam specifications, dates and credit policies appear. CLT says CB
+      exams "should be eligible for college credit" like AP or IB, but no college credit policies were
+      published as of September 2026. Watch the page each year. The Government & Politics exam fits after
+      civics-law-11 and civics-law-12; Rhetoric & Composition fits after rhetoric-10 and rhetoric-11. The
+      student may sit them at 16 if the family can reach a participating school.
   - id: clt-american-civics
     name: "CLT: American Civics Exam"
     body: Classic Learning Initiatives
     category: clt
     typicalAge: 15
+    optional: true
+    month: "Year-round (online, on demand)"
+    url: "https://civicschallenge.com/"
+    format: >-
+      Free online exam of 60 multiple-choice questions on American government, founding history and civic
+      responsibilities, drawing on founding texts such as the Declaration of Independence and the
+      Constitution. Results are instant, with question review and topic breakdowns. There is no official
+      time limit, but a group host can set a timer and limit attempts.
+    registration: >-
+      Create a free account at civicschallenge.com and take it at home. A parent, co-op or teacher can
+      "host" a group, invite students, and set a time limit, an attempt limit and whether question review is
+      shown. There is no fee, test center or registration deadline.
+    resources:
+      - { label: "American Civics Exam (Civics Challenge), powered by CLT", url: "https://civicschallenge.com/" }
+      - { label: "Heartlander News: CLT announces the American Civics Exam (partners and purpose)", url: "https://heartlandernews.com/american-civics-exam-coming-in-2026-classical-learning-test-announces/" }
+    notes: >-
+      This exists under this name. It was announced in July 2025 for the 2026 Semiquincentennial and was
+      live at civicschallenge.com by 2026. It was developed with the Heritage Foundation, the Bill of Rights
+      Institute, PragerU and the Jack Miller Center, and is aimed at high-school students. It is a free
+      knowledge check, not a credentialing or admissions test: no score is reported to colleges and no
+      credit is given. Use it as a checkpoint after civics-law-05/06 and again after civics-law-11.
   - id: clt10
     name: CLT10
     body: Classic Learning Initiatives
     category: admissions
     typicalAge: 13
+    month: "October, November, February, April (2026–27: Oct 8, Nov 5, 2026; Feb 3, Apr 21–22, 2027)"
+    url: "https://www.cltexam.com/tests/clt-10/"
+    format: >-
+      2 hr online: Verbal Reasoning (40 min), Grammar & Writing (35 min) and Quantitative Reasoning (45
+      min), all multiple choice. The passages draw on literature, philosophy and religion, historical
+      documents and science. An optional 30-minute essay is offered only at in-school sittings. Results
+      come within 3 weeks. Fee $69, including student analytics and free score sharing with colleges.
+    registration: >-
+      Designed for 9th and 10th graders. Register the student as a 9th or 10th grader, consistent with the
+      grade on the homeschool transcript. Individuals register at cltexam.com for a remotely proctored date
+      and test at home, between 7 a.m. and 7 p.m. ET on test day. They need a laptop, desktop or tablet
+      (not a phone), a stable connection and LockDown Browser. The session is recorded, not live-proctored,
+      and reviewed by CLT staff afterwards. Only schools can book the in-school dates, but homeschool co-ops
+      can arrange group testing (paper option, group rates) through CLT's homeschool office.
+    resources:
+      - { label: "CLT: free CLT10 practice tests (free account)", url: "https://www.cltexam.com/tests/practice-test/" }
+      - { label: "Official CLT Student Guide, 3rd ed.", url: "https://www.cltexam.com/tests/student-guide/" }
+      - { label: "CLT: understanding the remotely proctored exam", url: "https://www.cltexam.com/tests/remote-proctoring/" }
+    notes: >-
+      Sophomores who take the CLT10 are eligible for CLT's National Award, a $2,500 scholarship to any CLT
+      partner college. Freshmen and sophomores can also win Distinguished and Regional Awards. Plan the
+      scored sitting for the declared sophomore year (about 14 on this program's pace) and use 13 as a
+      practice sitting.
   - id: clt
     name: CLT (college admission)
     body: Classic Learning Initiatives
     category: admissions
     typicalAge: 16
+    month: "About monthly, September–June"
+    url: "https://www.cltexam.com/tests/clt/"
+    format: >-
+      2 hr online: Verbal Reasoning (40 min), Grammar/Writing (35 min) and Quantitative Reasoning (45
+      min). There are 40 multiple-choice questions per section, 120 in all, scored 0–120 with no penalty
+      for guessing. An optional 30-minute essay is offered only at in-school online sittings. Results come
+      within 3 weeks, with concordance to SAT and ACT scores. Fee $112, including analytics and unlimited
+      free score sends.
+    registration: >-
+      Designed for 11th and 12th graders. Individuals register at cltexam.com for a remotely proctored date
+      and test at home, between 7 a.m. and 6 p.m. ET on test day, in one sitting. They need LockDown
+      Browser and a laptop, desktop or tablet. The session is recorded and later reviewed, and CLT lists
+      common reasons remote exams are voided. In-school dates are booked by schools only, so a homeschooler
+      who wants the essay or a proctored room needs a host school or a co-op group sitting. Colleges: CLT
+      lists over 350 partner colleges, including Hillsdale College, Thomas Aquinas College (California and
+      New England), Christendom, the University of Dallas, Franciscan University of Steubenville, West
+      Point, the Naval Academy and the Air Force Academy. Its colleges page lists 7 state university
+      systems (AR, FL, GA, IA, IN, NC, TX), but the CLT test page says 5 (AR, FL, GA, IN, NC). Check the
+      current partner list and each college's own admissions page before relying on it.
+    resources:
+      - { label: "CLT: free official practice tests", url: "https://www.cltexam.com/tests/practice-test/" }
+      - { label: "Official CLT Student Guide, 3rd ed. (3 full practice tests)", url: "https://www.cltexam.com/tests/student-guide/" }
+      - { label: "CLT: partner colleges", url: "https://www.cltexam.com/colleges/" }
+    notes: >-
+      The best fit with this curriculum: its reading passages come from the great books. Sit it at 15–16
+      for admission to classical colleges, and back it with the SAT for colleges and scholarships that
+      don't accept the CLT. The service academies' page doesn't list the Coast Guard or Merchant Marine
+      academies by name.
   # ---------- admissions & credit ----------
   - id: sat
     name: SAT
     body: College Board
     category: admissions
     typicalAge: 16
+    month: "Aug, Sept, Oct, Nov, Dec, Mar, May, Jun (2026–27 weekend dates)"
+    url: "https://satsuite.collegeboard.org/sat"
+    format: >-
+      2 hr 14 min, digital and adaptive by section in the Bluebook app. Reading and Writing: 54 questions
+      in two 32-minute modules. Math: 44 questions in two 35-minute modules, with a calculator allowed
+      throughout. There is a 10-minute break between sections. Scored 400–1600 (200–800 per section).
+    registration: >-
+      Homeschoolers register online at College Board like anyone else, with no school involved, and enter
+      the homeschool code 970000 when asked for a high school. The fee is $68. 2026–27 weekend dates, each
+      with its registration deadline: Aug 22 (Aug 7), Sept 12 (Aug 28), Oct 3 (Sept 18), Nov 7 (Oct 23),
+      Dec 5 (Nov 20), Mar 6, 2027 (Feb 19), May 1 (Apr 16) and Jun 5 (May 21). Test at a weekend test center
+      with a device that runs Bluebook; College Board can lend one if you request it in advance.
+    resources:
+      - { label: "Bluebook: free full-length official practice tests", url: "https://satsuite.collegeboard.org/practice/practice-tests/bluebook" }
+      - { label: "Khan Academy: Official Digital SAT Prep (free)", url: "https://www.khanacademy.org/digital-sat" }
+      - { label: "The Official Digital SAT Study Guide (College Board)", url: "https://www.barnesandnoble.com/w/the-official-digital-sat-study-guide-the-college-board/1143126015" }
+    notes: >-
+      The SAT is also the fallback for National Merit alternate entry and is needed to confirm a National
+      Merit Semifinalist's standing (an SAT or ACT score). Plan one sitting at about 15 for a baseline and
+      one or two at 16.
   - id: act
     name: ACT
     body: ACT
     category: admissions
     typicalAge: 16
     optional: true
+    month: "Several national dates a year (check the current schedule)"
+    url: "https://www.act.org/content/act/en/products-and-services/the-act.html"
+    format: >-
+      The enhanced ACT: English, 50 questions in 35 min; Math, 45 questions in 50 min; Reading, 36
+      questions in 40 min. That is 131 core questions in about 2 hours. Science (40 questions, 40 min) and
+      Writing are optional add-ons. The composite is 1–36, averaged from English, Math and Reading.
+    registration: >-
+      Homeschoolers register online at act.org and use the homeschool high-school code shown during
+      registration. Test dates, deadlines and fees change every year; check the current ACT schedule.
+    resources:
+      - { label: "ACT: official test preparation", url: "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation.html" }
+    notes: >-
+      Optional. Take it only if a target college or scholarship prefers it. The CLT and SAT cover
+      everything else. Some STEM programs still want the Science section, so check before skipping it.
   - id: psat-nmsqt
     name: PSAT/NMSQT (National Merit)
     body: College Board / National Merit Scholarship Corporation
     category: admissions
-    typicalAge: 15
+    typicalAge: 16
+    month: "October (2026 window: October 1–30)"
+    url: "https://satsuite.collegeboard.org/psat-nmsqt"
+    format: >-
+      2 hr 14 min, digital and adaptive, in Bluebook. Reading and Writing: 54 questions in 64 min. Math: 44
+      questions in 70 min. Scored 320–1520. NMSC's Selection Index (48–228) is computed from the section
+      scores.
+    registration: >-
+      Given only in schools. A homeschooler registers as an "away student". (1) Use College Board's
+      in-school assessment search tool to find a school giving it. (2) Contact its testing staff at least 4
+      weeks before the window opens (some districts need earlier notice), say the student is homeschooled,
+      and give name, date of birth and grade. Some states don't allow away students. The 2026 fee is $18,
+      and schools may add an administration fee. NMSC mails any recognition to the home address given
+      during exam setup. If the window closes without a sitting, write to NMSC by April 1 (2027 for this
+      cycle) to request alternate entry, normally with an SAT score.
+    resources:
+      - { label: "College Board: homeschooled and away students (PSAT/NMSQT)", url: "https://satsuite.collegeboard.org/in-school-assessments/homeschooled-away-students" }
+      - { label: "PSAT/NMSQT Student Guide with NMSC entry requirements", url: "https://www.nationalmerit.org/s/1758/images/gid2/editor_documents/student_guide.pdf" }
+      - { label: "Bluebook: free official practice tests", url: "https://satsuite.collegeboard.org/practice/practice-tests/bluebook" }
+      - { label: "College Board: Homeschoolers' Guide to College Board Assessments", url: "https://allaccess.collegeboard.org/homeschoolers-guide-college-board-assessments" }
+    notes: >-
+      typicalAge changed from 15 to 16. National Merit entry depends on the declared high-school years and
+      the year of full-time college entry, not on age or academic level. NMSC requires the qualifying test
+      in "the specified year of the high school program and no later than the third year in grades 9
+      through 12". A 4-year high-school pattern must test in the third year (junior year). A student who
+      leaves after 3 years or less to enroll in college full time may test in the next-to-last or last
+      year. A dual-enrolled student must test in the third year. Scholarship winners must enroll in
+      college full time the following fall. For an accelerated homeschooler who enters college full time
+      at about 18, the qualifying sitting is the October about two years before entry, at roughly 16. If
+      the family instead graduates the student at 16 and enrolls full time at 16–17, test at about 15, in
+      the next-to-last year. Decide the transcript's grade years and the college-entry year before the
+      first PSAT, and keep them consistent on every form. Earlier sittings at 13–14 are practice only
+      (PSAT/NMSQT scores from a non-qualifying year don't count). Home study during "college years" at
+      17–18 while not enrolled full time will not satisfy NMSC's enrollment rule, so plan around it.
   - id: clep
     name: CLEP exams
     body: College Board
     category: admissions
     typicalAge: 17
     optional: true
+    month: Year-round
+    url: "https://clep.collegeboard.org/register-for-an-exam"
+    format: >-
+      34 computer-based exams in introductory college subjects. Most are 90 minutes and mostly multiple
+      choice; some composition exams include essays. Scores run 20–80, and most colleges follow ACE's
+      recommended credit score of 50 (check each college's policy).
+    registration: >-
+      No school is involved. Register and pay in the My CLEP student portal, then schedule separately
+      with a test center or with remote proctoring. The fee is $97 per exam, plus the test center's own
+      administration fee or $30 for remote proctoring. Remote proctoring is available for all 34 exams to
+      test-takers aged 13 or older located in the U.S. (Illinois residents must be 18), using a computer
+      plus a smartphone with a front camera.
+    resources:
+      - { label: "CLEP: registering with remote proctoring", url: "https://clep.collegeboard.org/register-for-an-exam/registering-remote-proctoring" }
+      - { label: "Modern States: free CLEP courses and exam vouchers", url: "https://modernstates.org/" }
+      - { label: "CLEP Information for Test Takers 2026–27 (bulletin)", url: "https://clep.collegeboard.org/clep/pdf/information-test-takers-bulletin.pdf" }
+    notes: >-
+      Optional. Useful at 17 for general-education credit in subjects the program already covers (e.g.
+      Analyzing and Interpreting Literature, American Government, Spanish, Calculus). Many selective and
+      classical colleges (Hillsdale, Thomas Aquinas) have their own core and may not accept CLEP credit, so
+      check before paying.
   # ---------- national exams & olympiads ----------
   - id: national-latin-exam
     name: National Latin Exam
     body: American Classical League / NJCL
     category: national-exam
     typicalAge: 9
+    month: "March (2027 window: March 1–19)"
+    url: "https://www.nle.org/"
+    format: >-
+      40 multiple-choice questions on grammar and vocabulary, Roman culture and history, and reading
+      comprehension of a Latin passage. Exams are leveled from introductory to advanced (see the NLE
+      syllabus flowchart). Online or paper. Awards: certificates, medals (summa and maxima cum laude) and
+      book awards. Each student may take only one exam per year.
+    registration: >-
+      A teacher registers, and a homeschool parent counts as the teacher. Use the standard online
+      registration through Lingco, mark the institution as a homeschool, and name it "c/o" plus the
+      family's last name. The parent may give the exam, but NLE requires someone other than the Latin
+      teacher to receive the exam materials and keep them secure until exam day. 2027 deadlines: paper
+      exams, January 29; online exams, February 20 (registration opened late August). Payment is due within
+      30 days of registration and is not refundable. Fees: see NLE's payment page (check current rules).
+    resources:
+      - { label: "NLE: previous exams and answer keys", url: "https://www.nle.org/previous-exams-and-answer-keys" }
+      - { label: "NLE practice quiz app", url: "https://quiz.nle.org/" }
+      - { label: "NLE for homeschooled students", url: "https://www.nle.org/nle-for-homeschooled-students" }
+      - { label: "NLE syllabus", url: "https://www.nle.org/nle-syllabus" }
+    notes: >-
+      Take it every March from latin-02 onward. Before the first NLE level, ACL's Exploratory Latin Exam
+      (grades 3–8, for students not yet taking the NLE) is a gentler start.
   - id: national-greek-exam
     name: National Greek Exam
     body: American Classical League
     category: national-exam
     typicalAge: 12
+    month: "Late February–March (check the current window)"
+    url: "https://aclclassics.org/acl/exams"
+    format: >-
+      Six leveled exams: Introduction to Greek, Beginning Attic, Intermediate Attic, Attic Greek Prose,
+      Homeric Greek (Odyssey) and Homeric Greek (Iliad). Given online through Lingco or on paper.
+      Introduction and Beginning Attic are for middle- and high-school students only. Intermediate Attic and
+      the two Homeric exams are open to students at any school and cannot be repeated. Attic Prose may be
+      repeated, but only two years in a row.
+    registration: >-
+      Registration opens November 1 through ACL. Homeschoolers can register as a homeschool, with the
+      parent as the registering teacher and proctor. Recent cycles closed registration in mid-January;
+      check the current deadline, fee and exam window.
+    resources:
+      - { label: "American Classical League: exams (registration)", url: "https://aclclassics.org/acl/exams" }
+    notes: >-
+      Start at 12 with Introduction or Beginning Attic (greek-03/04). Move to Attic Prose with Xenophon and
+      Plato (greek-08/10) and Homeric Greek with greek-11. Past exams are sold through ACL.
   - id: national-mythology-exam
     name: National Mythology Exam
     body: American Classical League
     category: national-exam
     typicalAge: 9
+    month: "Late winter–spring (Pegasus about Feb–Mar; Medusa about Mar–Apr; check the current windows)"
+    url: "https://aclclassics.org/acl/exams"
+    format: >-
+      Two exams: Pegasus, for grades 3–8, and Medusa, for grades 9–12. Both are multiple-choice exams on
+      Greek and Roman mythology, online or paper.
+    registration: >-
+      Registration opens November 1 through ACL. Homeschooled students are welcome, with a parent acting as
+      proctor under the same procedures as a classroom teacher. Recent fee schedules list a small
+      per-school registration fee plus a few dollars per student; check current fees and windows.
+    resources:
+      - { label: "American Classical League: exams (Pegasus and Medusa registration and syllabi)", url: "https://aclclassics.org/acl/exams" }
+      - { label: "ACL: Pegasus past exam (store)", url: "https://www.aclclassics.org/Product/pegasus-national-myth-exam-past-exam" }
+    notes: >-
+      Annual from about 9 (after literature-04, D'Aulaires). Switch to Medusa when the student is declared
+      a 9th grader.
   - id: national-spanish-exam
     name: National Spanish Exam
     body: American Association of Teachers of Spanish and Portuguese
     category: national-exam
     typicalAge: 10
+    month: "Late February–early April (2027 window: Feb 22–Apr 2)"
+    url: "https://nationalspanishexam.org/exams/national-spanish-exam/"
+    format: >-
+      Online, on the Lingco platform, with audio. Seven proficiency levels (01 to 6, aligned to ACTFL and
+      CEFR; Level 6 is roughly AP-literature level). Content section (vocabulary and grammar, 40 min) and
+      performance section (reading and listening, 40 min), all multiple choice. Medals: gold (95th
+      percentile and above), silver (85th), bronze (75th) and honorable mention (50th).
+    registration: >-
+      Students cannot register themselves; attempting to do so risks disqualification. A homeschooler
+      needs a sponsoring Spanish teacher who teaches at an accredited institution and holds a current AATSP
+      membership. That teacher (or a nearby school teacher, Spanish tutor or school counselor, per AATSP)
+      registers the student and proctors. Families without a sponsor can apply for an Individualized
+      Student Testing Plan by December 15; remote proctoring is offered on a very limited basis for an
+      extra fee. 2026–27 registration: Oct 15, 2026–Feb 1, 2027 ($6 per student); Feb 2–21 ($7); during the
+      window ($9).
+    resources:
+      - { label: "AATSP: Individualized Student Testing Plans (homeschool route)", url: "https://nationalspanishexam.org/resources/exam-proctoring/individualized-testing-plans/" }
+      - { label: "AATSP: National Spanish Assessment (low-cost diagnostic practice, available all year)", url: "https://nationalspanishexam.org/exams/national-spanish-assessment/" }
+      - { label: "AATSP: exams FAQ", url: "https://nationalspanishexam.org/frequently-asked-questions/" }
+    notes: >-
+      For younger children, AATSP's National Spanish Challenge is a motivational contest for elementary and
+      middle school. Start the NSE at about 10 (spanish-05) and continue yearly. The sponsor requirement is
+      the hard part, so line up a teacher (co-op, parish school, tutor) in the autumn.
   - id: hsk
     name: HSK (Chinese Proficiency Test)
     body: Chinese Testing International
     category: national-exam
     typicalAge: 10
+    month: "Many dates a year (see the test calendar)"
+    url: "https://www.chinesetest.cn/HSK"
+    format: >-
+      Standardized Chinese proficiency test. HSK 3.0 replaces the old six-level HSK with nine levels in
+      three bands: 1–3 beginner, 4–6 intermediate, 7–9 advanced. It tests listening, reading and writing,
+      adds speaking, and adds translation at the upper levels. Trial sittings were held January 31, 2026,
+      and CTI announced the worldwide launch for December 13, 2026. Formats are paper-based at a center,
+      internet-based at a center, or internet-based at home (the home edition).
+    registration: >-
+      Register on chinesetest.cn: choose the level, format and test center or home edition, upload a
+      photo, and pay. Fees vary by level and center. Internet-based tests must be booked at least 10 days
+      before the test date. U.S. centers are usually Confucius Institute successors, universities or
+      language schools; use the test-center search. The home edition needs a Windows computer with a
+      camera, plus a second device set up by an adult as a room camera. Check current home-edition rules
+      and whether a center near you still gives paper tests.
+    resources:
+      - { label: "Chinese Testing International: HSK", url: "https://www.chinesetest.cn/HSK" }
+      - { label: "CTI: find a test center", url: "https://www.chinesetest.cn/test-centers" }
+      - { label: "Beijing government: HSK 3.0 registration and nine-level structure", url: "https://english.beijing.gov.cn/studyinginbeijing/news/202512/t20251222_4355931.html" }
+    notes: >-
+      HSK 3.0 is new, so check which version a center offers and map the track's targets (chinese-05:
+      HSK 1–2; chinese-07: HSK 3; chinese-09: HSK 4; chinese-11: HSK 5) to the new levels. For children,
+      CTI's Youth Chinese Test (YCT, 4 levels) is a gentler alternative.
   - id: amc
     name: AMC 8/10/12 and AIME
     body: Mathematical Association of America
     category: olympiad
     typicalAge: 11
+    month: "November (AMC 10/12), January (AMC 8), February (AIME)"
+    url: "https://maa.org/student-programs/amc/"
+    format: >-
+      AMC 8: 25 questions in 40 min, for grade 8 and below and under 15.5 years old on test day. AMC 10: 25
+      multiple-choice questions in 75 min, grade 10 and below. AMC 12: 25 multiple-choice questions in 75
+      min, grade 12 and below and under 19.5. All are taken online through the AMC student portal. High
+      scorers are invited to the AIME (15 answer-only problems) and then the USAJMO/USAMO (proof olympiads).
+      2026–27 dates: AMC 10A/12A on Nov 5, 2026; AMC 10B/12B on Nov 13; AMC 8 during Jan 21–27, 2027; AIME
+      on Feb 5 or 6, 2027 (invitation only); USAMO/USAJMO on Mar 20–21, 2027. From this cycle the AIME is
+      given at professional testing centers.
+    registration: >-
+      Students can't register with the MAA directly. They test through a competition manager at an
+      eligible site: an accredited school, college or university, math circle or learning center. MAA
+      rules say student competitors and their parents may not register as competition managers, so a
+      homeschool family can't host its own child. Ask a local school, university, math circle or learning
+      center that hosts (a homeschool co-op qualifies only if an eligible non-parent manager registers it).
+      Hosts pay the fees: $75 regular AMC 10/12 registration by October 15, 2026 ($115 late, to October 28)
+      and AMC 8 $55 early bird by Oct 28, $75 by Jan 5, 2027, or $115 late. Hosts may pass a per-student
+      charge on to families.
+    resources:
+      - { label: "MAA: AMC registration and key dates", url: "https://maa.org/amcreg/" }
+      - { label: "AoPS Wiki: AMC problems and solutions (every past contest)", url: "https://artofproblemsolving.com/wiki/index.php/AMC_Problems_and_Solutions" }
+      - { label: "AoPS Wiki: AIME problems and solutions", url: "https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions" }
+    notes: >-
+      Eligibility follows declared grade and age, so an accelerated homeschooler declared a 9th grader at
+      13 loses AMC 8 eligibility at once. Decide grade levels deliberately. Start the AMC 8 at about 11
+      (mathematics-08) and move to the AMC 10/12 and AIME with mathematics-14. The AIME's move to testing
+      centers means booking a seat after qualifying; follow the MAA's instructions.
   - id: physics-olympiad
     name: "Physics Olympiad (F=ma, USAPhO)"
     body: American Association of Physics Teachers
     category: olympiad
     typicalAge: 15
+    month: "February (F=ma), April (USAPhO)"
+    url: "https://www.aapt.org/physicsteam/"
+    format: >-
+      F=ma: 25 multiple-choice mechanics questions in 75 minutes, online, in a fixed afternoon window (2026:
+      February 12, 1–4 p.m. ET). About 400 top scorers are invited to the USAPhO, a 3-hour free-response
+      exam of 6 problems in two 90-minute parts (2026: April 10). Selected students go on to the training
+      camp, the U.S. Physics Team and the International Physics Olympiad.
+    registration: >-
+      A teacher or school representative registers students through AAPT, and a homeschool parent may
+      register the child. The proctor, however, cannot be a parent or relative. AAPT tells homeschoolers to
+      find a proctor at a community college, university or library; the proctor must hold at least a
+      two-year degree and use an institutional email address. Fees (2026): $75 per school ($37.50 for AAPT
+      members) plus $15.50 per student. The 2026 deadline was January 20 (extended to January 21). Students
+      must be U.S. citizens, permanent residents or attending a U.S. school, and must test inside the U.S.
+      Check the 2027 dates when AAPT posts them.
+    resources:
+      - { label: "AAPT: past F=ma and USAPhO exams with solutions", url: "https://aapt.org/physicsteam/PT-exams.cfm" }
+      - { label: "AAPT: 2026 registration rules (proctor requirements)", url: "https://www.aapt.org/physicsteam/2026/Registration.cfm" }
+      - { label: "AAPT: 2026 F=ma exam with solutions", url: "https://aapt.org/physicsteam/2026/upload/2026_FMA_solutions.pdf" }
+    notes: >-
+      Line up the non-relative proctor (a community-college instructor or librarian) by December. Detailed
+      preparation is in physics-04 (F=ma) and physics-06 (USAPhO).
   - id: chemistry-olympiad
     name: U.S. National Chemistry Olympiad (USNCO)
     body: American Chemical Society
     category: olympiad
     typicalAge: 15
+    month: "Spring: local section exam, then national exam (dates set each year)"
+    url: "https://www.acs.org/education/olympiad.html"
+    format: >-
+      Local section exam: a multiple-choice screening exam run by each ACS local section. The top nominees
+      (no more than two per high school per local section) sit the three-part national exam, in person and
+      on paper. Part I: 60 multiple-choice questions in 1 hr 30 min. Part II: 8 free-response problems in 1
+      hr 45 min. Part III: a laboratory practical of 2 problems in 1 hr 30 min. Top scorers go to the study
+      camp and the International Chemistry Olympiad team.
+    registration: >-
+      Run through ACS local sections. A parent or guardian of a homeschooled student registers the student
+      on ACS's USNCO registration platform, and ACS communicates through the parent. Contact your local
+      section's USNCO coordinator early, since each section sets its own exam date, site and fee. Eligible
+      students are high-school students who will graduate no earlier than the spring of the competition
+      year and are under 20 on July 1 of that year. Check current dates and fees with the local section.
+    resources:
+      - { label: "ACS: USNCO exam information and registration", url: "https://www.acs.org/education/olympiad/prepare-for-exams/exam-information.html" }
+      - { label: "ACS: USNCO exam reference page", url: "https://www.acs.org/education/olympiad/prepare-for-exams/reference-page.html" }
+      - { label: "ACS: 2025 USNCO local section exam (past exam)", url: "https://www.acs.org/content/dam/acsorg/education/students/highschool/olympiad/pastexams/2025-usnco-local-exam.pdf?appId=aemshell" }
+    notes: >-
+      The local section is the gatekeeper, so contact it in the autumn. Detailed preparation is in
+      chemistry-04. The national exam's lab practical rewards the lab technique from chemistry-02.
   - id: biology-olympiad
     name: USA Biology Olympiad (USABO)
     body: Center for Excellence in Education
     category: olympiad
     typicalAge: 14
+    month: "Late January–February (Open Exam); Semifinal in spring"
+    url: "https://usabo-trc.org/"
+    format: >-
+      Four rounds. Open Exam: 50-minute online multiple-choice exam with no guessing penalty. The top 10%
+      advance to the Semifinal Exam: 120 minutes online in three parts (multiple choice, multiple
+      true/false, short answer and essay). The National Finals are 12 days at a host university, with
+      about 6 hours of practical exams and a 3-hour theory exam. Four gold medalists go to the
+      International Biology Olympiad (2027: Warsaw, July 18–28).
+    registration: >-
+      Open to students in grades 9–12. The school (or homeschool) registers and pays the $125 school fee by
+      October 23, 2026, then registers each student by the final deadline of November 15, 2026. CEE says
+      homeschooled students may take part but "must make arrangements before the close of registration";
+      they usually test at a local high school and may have to pay the $125 fee themselves. Student IDs are
+      valid for one year only. Confirm the proctoring arrangement with USABO before October.
+    resources:
+      - { label: "USABO: guidelines and eligibility (homeschool arrangements)", url: "https://usabo-trc.org/usabo-guidelines-and-eligibility" }
+      - { label: "USABO: about the exams", url: "https://usabo-trc.org/usabo-about-exams" }
+      - { label: "CEE: 2027 USA Biolympiad registration open", url: "https://www.cee.org/registration-open-2027-usa-biolympiad" }
+    notes: >-
+      Only students declared in grades 9–12 can enter, so the first sitting is at about 13–14. Detailed
+      preparation is in biology-04 (Campbell Biology is the standard text).
   - id: music-graded-exams
     name: Music graded exams (ABRSM / RCM)
     body: ABRSM / Royal Conservatory
     category: national-exam
     typicalAge: 8
+    month: "ABRSM U.S. face-to-face: Apr–Jun and Oct–Dec sessions; digital exams any time. RCM: several sessions a year, and remote exams any time."
+    url: "https://www.rcmusic.com/learning/examinations"
+    format: >-
+      Graded practical exams (pieces, scales, sight-reading and aural) from beginner to diploma level,
+      plus separate theory exams. ABRSM offers face-to-face Practical Grades, Performance Grades assessed
+      from a submitted video, and online Music Theory exams (Grades 1–5 on demand). RCM offers in-person
+      and remote practical exams and online theory exams.
+    registration: >-
+      Either board can be booked by a parent or teacher; no school is needed. ABRSM (U.S.): face-to-face
+      exams are booked online in fixed booking windows (2026: January 21–February 4 for the April–June
+      session and August 19–September 2 for the October–December session), and actual dates vary by
+      region. Performance Grades and online theory can be booked at any time and must be completed within
+      28 days. RCM (U.S.): register through a MyRCM account for a session (for example the Winter 2027
+      session, registration November 10, 2026–January 5, 2027). Remote practical exams have no registration
+      deadline.
+    resources:
+      - { label: "RCM: register for an exam (U.S.)", url: "https://www.rcmusic.com/about-us/rcm-usa/register-for-an-exam" }
+      - { label: "RCM: remote exams", url: "https://www.rcmusic.com/learning/examinations/remote-exams" }
+      - { label: "ABRSM (U.S.): face-to-face exams booking", url: "https://www.abrsm.org/en-us/how-to-book/face-to-face-exams" }
+      - { label: "ABRSM: about Performance Grades (video exams)", url: "https://www.abrsm.org/en-gb/performance-grades/about-performance-grades" }
+    notes: >-
+      Pick one board per instrument and stay with it. RCM has more U.S. centers, while ABRSM's online theory
+      suits a homeschool calendar. ABRSM Grade 5 theory by about 12 sets up AP Music Theory at 15.

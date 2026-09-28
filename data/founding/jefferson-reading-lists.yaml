@@ -33,97 +33,158 @@ primarySources:
 entries:
   # --- Skipwith list, 1771 ---
   - text: "Skipwith list (1771): the fine arts come first. Homer in Pope's translation, Virgil in Dryden's, and Milton"
+    use: [reference, student]
+    units: [poetry-10, literature-19]
     search: Homer
     tracks: [literature, poetry]
   - text: "Skipwith list (1771): Shakespeare and the English dramatists, with the novels of Richardson, Fielding, Smollett, Sterne and Goldsmith"
+    use: [reference, student]
+    units: [literature-17, literature-20]
     search: Shakespeare
     tracks: [literature]
   - text: "Skipwith list (1771): criticism and taste, with Kames's Elements of Criticism, Burke on the Sublime, and Smith's Theory of Moral Sentiments"
+    use: [reference, student]
+    units: [economics-06]
     search: Kames
     tracks: [rhetoric, philosophy]
   - text: "Skipwith list (1771): politics and trade, with Montesquieu's Spirit of the Laws, Locke on government, Sidney, and Steuart's Political Economy"
+    use: [reference, student]
+    units: [civics-law-10, philosophy-10]
     search: Montesquieu
     tracks: [civics-law, economics]
   - text: "Skipwith list (1771): under Religion, the ancient moralists Xenophon, Epictetus, Seneca and Cicero, with Sterne's Sermons"
+    use: [reference, student]
+    units: [philosophy-06, character-virtue-13, greek-08]
     search: Epictetus
     tracks: [philosophy, character-virtue]
   - text: "Skipwith list (1771): law, with Blackstone's Commentaries and Kames's Principles of Equity"
+    use: [reference, student]
+    units: [civics-law-13]
     search: Blackstone
     tracks: [civics-law]
   - text: "Skipwith list (1771): ancient history in Livy, Tacitus, Plutarch's Lives and Josephus. Modern history in Hume's History of England and Robertson"
+    use: [reference, student]
+    units: [history-09, history-17, history-21, character-virtue-06]
     search: Plutarch
     tracks: [history]
   # --- Peter Carr, 1785 ---
   - text: "To Peter Carr (1785): the Greek historians first, in the original. Herodotus, Thucydides, Xenophon's Hellenica and Anabasis"
+    use: [reference, student]
+    units: [greek-08, greek-12, greek-15, history-15]
     search: Thucydides
     tracks: [greek, history]
   - text: "To Peter Carr (1785): continue ancient history with Arrian, Quintus Curtius, Diodorus Siculus and Justin"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Arrian
     tracks: [greek, latin, history]
   - text: "To Peter Carr (1785): Latin poets. Virgil, Terence and Horace"
+    use: [reference, student]
+    units: [latin-12, latin-14]
     search: Virgil
     tracks: [latin, poetry]
   - text: "To Peter Carr (1785): Greek poets. Anacreon, Theocritus, Homer, Euripides and Sophocles"
+    use: [reference, student]
+    units: [greek-11, greek-14]
     search: Homer
     tracks: [greek, poetry]
   - text: "To Peter Carr (1785): English poets. Milton's Paradise Lost, Shakespeare, Ossian, Pope and Swift"
+    use: [reference, student]
+    units: [literature-19, literature-17, literature-20]
     search: Milton
     tracks: [literature, poetry]
   - text: "To Peter Carr (1785): in morality, read Epictetus, Xenophon's Memorabilia, Plato's Socratic dialogues, Cicero's philosophies, Antoninus and Seneca"
+    use: [reference, student]
+    units: [philosophy-06, philosophy-03, greek-10, character-virtue-13]
     search: Epictetus
     tracks: [philosophy, character-virtue]
   - text: "To Peter Carr (1785): learn Spanish as 'the most necessary of the modern languages, after the French'"
+    use: [reference]
+    units: [spanish-03, spanish-05]
     search: Spanish
     tracks: [spanish]
   - text: "To Peter Carr (1785): give about two hours a day to exercise. Walk far, and take up the gun, which 'gives boldness, enterprise, independence to the mind'"
+    use: [reference]
+    units: [physical-training-03, physical-training-07]
     search: exercise
     tracks: [physical-training]
   - text: "To Peter Carr (1785): honesty above all. Of lying he writes, 'There is no vice so mean, so pitiful, so contemptible'"
+    use: [reference, student]
+    units: [practical-arts-07]
     search: honesty
     tracks: [character-virtue]
   # --- Peter Carr, 1787 ---
   - text: "To Peter Carr (1787): the moral sense is 'as much a part of man as his leg or arm' and grows stronger with exercise. Read Sterne and the Scriptures to form it"
+    use: [reference, student]
+    units: [grammar-composition-08]
     search: Sterne
     tracks: [character-virtue, philosophy]
   - text: "To Peter Carr (1787): lay Italian aside and 'bestow great attention' on Spanish, for America's future ties with Spain and Spanish America"
+    use: [reference]
+    units: [spanish-07]
     search: Spanish
     tracks: [spanish]
   - text: "To Peter Carr (1787): on religion, 'Read the Bible, then, as you would read Livy or Tacitus'. Jefferson's own rationalist method, which this program's theology track answers"
+    use: [reference, student]
+    units: [grammar-composition-08, theology-14]
     search: Bible
     tracks: [theology]
   - text: "To Peter Carr (1787): against sending youths abroad to travel, which breeds 'a habit of idleness'"
+    use: [reference, student]
+    units: [grammar-composition-08]
     search: travel
     tracks: [character-virtue]
   # --- Bernard Moore / John Minor law course, c. 1773 / 1814 ---
   - text: "Law course (Moore/Minor): first acquire Latin, French, mathematics and natural philosophy"
+    use: [reference]
+    units: [civics-law-13, civics-law-18]
     search: Latin
     tracks: [latin, mathematics, natural-science]
   - text: "Law course, until 8 a.m.: physical studies, ethics, religion and natural law. Locke's Essay and Conduct of the Understanding, Stewart's Philosophy of the Human Mind, Condorcet's Progrès de l'esprit humain, Cicero, Seneca, Hutcheson, Vattel"
+    use: [reference, student]
+    units: [philosophy-09, philosophy-06, civics-law-10, philosophy-15]
     search: Locke
     tracks: [philosophy, civics-law]
   - text: "Law course, 8 a.m. to noon: law. 'Coke's Institutes are a perfect Digest of the law as it stood in his day'"
+    use: [reference, student]
+    units: [civics-law-13, history-21]
     search: Coke
     tracks: [civics-law]
   - text: "Law course, 8 a.m. to noon: Blackstone's Commentaries, Bacon's Abridgment and Lord Kames on Equity"
+    use: [reference, student]
+    units: [civics-law-13, civics-law-18]
     search: Blackstone
     tracks: [civics-law]
   - text: "Law course, noon to 1 p.m.: politics. Locke on government, Sidney, Priestley, Montesquieu and The Federalist"
+    use: [reference, student]
+    units: [civics-law-10, civics-law-11]
     search: Federalist
     tracks: [civics-law]
   - text: "Law course, afternoon: history. Greek and Latin historians in the original, Gibbon, and histories of England, Scotland and America"
+    use: [reference, student]
+    units: [greek-15, latin-13, history-18, history-21]
     search: Gibbon
     tracks: [history]
   - text: "Law course, dark to bedtime: belles lettres, criticism, rhetoric and oratory. 'Shakespeare must be singled out' to learn the full powers of English"
+    use: [reference, student]
+    units: [rhetoric-11, literature-17]
     search: Shakespeare
     tracks: [literature, rhetoric]
   # --- Martha (Patsy) Jefferson ---
   - text: "To Patsy, aged 11 (1783): practise music 8–10, dance or draw 10–1, draw or write a letter 1–2, French 3–4, music 4–5, then read English and write"
+    use: [reference]
+    units: [music-lessons-07, fine-arts-04, grammar-composition-08]
     search: music
     tracks: [music, fine-arts, grammar-composition]
   - text: "To Patsy (1783): spelling matters. When unsure of a word, 'turn to a dictionary'"
+    use: [reference]
+    units: [reading-phonics-05]
     search: spelling
     tracks: [grammar-composition]
   - text: "To Patsy (1787): industry is the cure for idleness and ennui. 'Music, drawing, books, invention & exercise' are her resources against them"
+    use: [reference, teacher]
+    units: []
     search: industry
     tracks: [character-virtue, practical-arts]
 notes: >-

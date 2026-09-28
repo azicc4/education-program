@@ -173,3 +173,48 @@ Where to work next. Add items as gaps appear; check them off as they are resolve
 - [ ] Drama, Voice & Accents track; Seasonal Sports and Music Lessons tracks (Extracurriculars).
 - [ ] **Reader and length pass for every text:** add `reader: teacher | together | student`, plus `pages` (Open Library lookup) or `words`. The Snapshot Bookshelf and Look Ahead already display these fields.
 - [ ] Turn on GitHub Pages (Settings → Pages → Deploy from branch: `main` / `docs`) to publish the site.
+
+### Track: drama (11), "Drama, Voice & Accents"
+- [ ] No Catholic or Protestant curriculum options were found, so every option is secular. The Catholic link comes through the historical precedents: Jesuit school drama, Wojtyła's Rhapsodic Theatre.
+- [ ] No RSC youth program suits a US family. The Globe programs are in London; BADA Oxford costs about $7,100. No free accent or voice video course has been verified.
+- [ ] Paul Meier's textbook links to his site; no publisher page was found. Granville-Barker's *Prefaces* are left out until their copyright status is clear.
+
+### Extracurriculars: sports (9), music-lessons (10)
+- [x] Fixed: the season check matched "Fall" inside "Fallacies"; it now applies only to Extracurriculars, with word boundaries. Parallel extracurricular strands now all show as ready.
+- [ ] NAfME's All-National Honor Ensembles are suspended, so the rows point to state All-State programs. Whether homeschoolers can enter varies by state.
+- [ ] No verified precedent for fencing or riding at Eton or Oxbridge (only rowing is cited). The Winter and Summer rows have no historicalPrecedent.
+- [ ] Deep links are missing for USA Shooting juniors and USA Fencing youth events (homepages are used).
+
+### AP humanities side track (ap-humanities-01 to -06)
+- Note: **AP Latin was revised for May 2026. Caesar is dropped; Vergil (Books 1, 2, 4, 6, 7, 11, 12) and Pliny's Letters are now required.** latin-12 already covers Books 1, 2, 4 and 6. The extra work is about 160 lines from Books 7, 11 and 12 plus ten Pliny letters, and it is covered in ap-humanities-03.
+- Note: **AP Spanish and AP Chinese are revised for May 2027**, adding a course project (recorded presentation and Q&A, with a Personalized Project Reference due April 30).
+- [ ] Homeschool access: AP Classroom, the Digital Portfolio and the project checkpoints all need an AP provider or school.
+- [ ] Spanish and Chinese could take their AP exams earlier (about 13–14). Consider this once real progress is known.
+
+### AP chemistry (4) & biology (4)
+- [ ] USABO: the Open Exam is for grades 9–12 only, so the student must be registered as a 9th-grader by about 13.5. A registered host school is required. The exam month is not listed on the official page.
+- [ ] Workload at 13–14 is heavy: Honors Chemistry, AP Biology, Honors Physics and precalculus at once. Review against real progress; AP Biology could slide to 14–15.
+- [ ] No classical or Catholic AP Chemistry text exists. Novare Advanced Biology covers the AP Biology syllabus. Khan Academy's AP Chemistry course is still in beta (units 1–7).
+- [ ] Bioethics companion (biology-03): the NCBC course also covers end-of-life questions and gender ideology, so parents may prefer it at 15–16.
+- [ ] Kolbe's specific course pages load by script and are unverified. The Lavoisier guided edition now links to Simon & Schuster.
+
+### AP history side track (ap-history-01 to -06)
+- Note: the APUSH, AP Euro and AP World exams change in May 2027 (three required source-based SAQs, one broad LEQ). The rows use the CEDs effective fall 2026.
+- [ ] APUSH content not in the main track: the West and Native policy, immigration, Gilded Age labor, Populism and Progressivism, the New Deal as economics, 1980 to the present. These are covered only in the side track.
+- [ ] AP Euro content not in the main track: absolutism, the Commercial and Agricultural Revolutions, the Enlightenment as social history, the Russian Revolution, post-1945 Europe.
+- [ ] **AP World is the largest gap:** Islam, Africa, India, the Mongols, pre-Columbian states, colonialism seen from the colonized side, Meiji Japan, China from the Opium Wars to Mao, decolonization. For now this is side-track only. Decide whether the main history track should gain a world-history unit.
+- [ ] No free link found for Tokugawa's 1635 edict.
+
+### AP math & physics
+- [x] Math gap after proof writing (15.5 to 17) closed: Linear Algebra moved to 15.5–16.5 and Multivariable/Real Analysis to 16.5–17.5.
+- [ ] AP Statistics was revised for 2026–27 (5 units, 4 practices). *The Practice of Statistics* 7e still follows the old 9 units.
+- [ ] Calc BC and Physics C multiple-choice counts and timing change in May 2027. Check that exams.yaml reflects this.
+- [ ] No verified Catholic or classical calculus-based physics option (Novare's physics text is algebra-based and sits in Honors). Kolbe offers AP Calc AB, not BC. No Khan Academy course for Physics C: E&M.
+- [ ] F=ma is online from 2026. Homeschoolers need a proctor who isn't a parent or relative.
+
+### Founders' texts not yet in the curriculum (from the founding-list classification)
+- Marked as gaps (student texts with no unit): Justinian's *Institutes* (Vinnius); Aristotle's *Sophistical Refutations* and Cicero's *Topics*; Paley's *Principles of Moral and Political Philosophy*; Wollebius, Ames's *Medulla*, More's ethics; Arrian, Quintus Curtius, Diodorus, Justin.
+- Mentioned but unassigned: Terence, Plautus, Isocrates, Lysias, Aeschines, Theocritus, Anacreon, Lucan, Persius; Paley's *Evidences*; Butler's *Analogy*; Kames; Burke's *Sublime and Beautiful*; Hutcheson; Grotius's *De Veritate*; Chillingworth; Burns; Byron; Hobbes's Thucydides.
+- [ ] **Decision for Adam:** add a pass that places these founders' texts into existing units, as electives or core? Recommendation: yes for Terence, Isocrates, Butler's *Analogy*, Paley's *Evidences* and *Principles*, Grotius's *De Veritate*, Arrian and Curtius (Alexander), and Burns. Leave the rest as references.
+- Batch B gaps: Madison's list (the natural-law writers Wolff, Cumberland, Cudworth, Hutcheson, Ferguson, Rutherforth; universal history from Raleigh, Voltaire, Bayle, Mosheim; the modern republics of Guicciardini, Sarpi, De Witt; Hakluyt, Purchas, Champlain, Cotton Mather, Colden; and Madison's own *Of Ancient and Modern Confederacies*, the source of Federalist 18–20); Webster's 1828 *American Dictionary*; Butler's *Analogy* and *Sermons*; Robertson's histories; Sully's *Memoirs*; Washington's letters to G. W. P. Custis.
+- [ ] Easy wins: add *Of Ancient and Modern Confederacies* to civics-law-11; add Webster's 1828 Dictionary as a reference text in grammar-composition; add Butler's *Analogy* to philosophy or theology.

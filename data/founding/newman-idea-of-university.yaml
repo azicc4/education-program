@@ -21,57 +21,93 @@ primarySources:
   - { label: "University Subjects 4, Elementary Studies (Newman Reader)", url: "https://www.newmanreader.org/works/idea/article4.html" }
 entries:
   - text: "Discourse 1, Introductory: the case for a Catholic University of Ireland, open to the whole range of knowledge"
+    use: [teacher]
+    units: []
     search: Newman
     tracks: [philosophy, theology]
   - text: "Discourse 2, Theology a Branch of Knowledge: 'Religious doctrine is knowledge', and teaching without it is 'simply unphilosophical'"
+    use: [teacher]
+    units: []
     search: Newman
     tracks: [theology, philosophy]
   - text: "Discourses 3–4: the bearing of theology on other knowledge and of other knowledge on theology (the circle of the sciences)"
+    use: [teacher]
+    units: []
     search: Newman
     tracks: [theology, philosophy, natural-science]
   - text: "Discourse 5, Knowledge Its Own End: 'Knowledge is capable of being its own end'; liberal vs. useful knowledge; the 'philosophical habit' of mind"
+    use: [teacher, student]
+    units: [literature-23]
     search: Newman
     tracks: [philosophy, character-virtue]
   - text: "Discourse 6, Knowledge and Learning: enlargement of mind as the power to see things in relation, not the piling up of information"
+    use: [teacher, student]
+    units: [literature-23]
     search: Newman
     tracks: [philosophy, logic]
   - text: "Discourse 7, Knowledge and Professional Skill: answers Locke and the Edinburgh Review; a university trains 'good members of society' in 'the art of social life'"
+    use: [teacher, student]
+    units: [literature-23]
     search: Locke
     tracks: [philosophy, civics-law]
   - text: "Discourse 8, Knowledge and Religious Duty: the 'gentleman' passage ('one who never inflicts pain') and its limits; liberal knowledge alone does not make a Christian"
+    use: [teacher, student]
+    units: [character-virtue-11]
     search: Newman
     tracks: [character-virtue, theology]
   - text: "Discourse 9, Duties of the Church towards Knowledge: 'a sinless Literature of sinful man' is impossible; read the real classics, under the Church's guidance"
+    use: [teacher]
+    units: []
     search: Newman
     tracks: [literature, theology]
   - text: "University Subjects 1, Christianity and Letters: Homer and Aristotle, with their poets and philosophers, as the 'schoolmasters of all generations'"
+    use: [reference, student]
+    units: [greek-11, literature-16, philosophy-07]
     search: Homer
     tracks: [literature, greek, philosophy, history]
   - text: "Latin authors inside that tradition: Terence after Menander, Virgil after Homer, Hesiod, and Theocritus, Cicero after Greek philosophy"
+    use: [reference, student]
+    units: [latin-12, latin-11, literature-31]
     search: Virgil
     tracks: [latin, literature, poetry]
   - text: "University Subjects 2, Literature: literature as the personal use of language by a great author; the classics as models of thought and expression"
+    use: [teacher]
+    units: []
     search: Newman
     tracks: [literature, rhetoric]
   - text: "University Subjects 3, Catholic Literature in the English Tongue: Shakespeare, Milton, Pope, the Protestant Bible and Prayer Book, Hooker, Addison, Swift, Hume, Goldsmith made the language"
+    use: [reference, student]
+    units: [literature-17, literature-19, literature-20]
     search: Shakespeare
     tracks: [literature, poetry]
   - text: "English philosophy: after faulting Locke, Hobbes, Hume, and Bentham, Newman takes comfort in Clarke, Berkeley, Butler, and Reid, and calls Bacon 'the most orthodox of Protestant philosophers'"
+    use: [reference, student]
+    units: [logic-08, social-science-02]
     search: Bacon
     tracks: [philosophy]
   - text: "University Subjects 4, Elementary Studies, §1 Grammar: exact Latin and Greek grammar (etymology and syntax) for university entrance, not a smattering of authors"
+    use: [reference, teacher]
+    units: [latin-04, latin-06, greek-04]
     search: Grammar
     tracks: [latin, greek, grammar-composition]
   - text: "Elementary Studies, §§2–3 Composition and Latin Writing: translating English into Latin is 'the best test' of knowing the language; imitate Cicero, not Tacitus"
+    use: [reference, teacher]
+    units: [latin-08, latin-15]
     search: Cicero
     tracks: [latin, grammar-composition]
   - text: "Books in Newman's entrance-examination dialogue: Homer, Lucian, Demosthenes, Xenophon, Virgil, Horace, Statius, Juvenal, Cicero, with Xenophon and Virgil set"
+    use: [reference, student]
+    units: [greek-08, latin-12, greek-07, latin-14]
     search: Xenophon
     tracks: [greek, latin]
   - text: "Latin Writing (§3): a father's letter tells his son he reached the university knowing Homer, Sophocles, Herodotus, Xenophon, Horace, Virgil, and Cicero, with Addison, Hume, and Johnson as English models"
+    use: [reference, student]
+    units: [greek-11, greek-14, greek-12, literature-20]
     search: Sophocles
     tracks: [greek, latin, literature]
   - text: "Elementary Studies, §4 General Religious Knowledge: the canon of Scripture and its history, St. Jerome, the languages and versions of the Bible"
+    use: [reference, student]
+    units: [theology-15, hebrew-08]
     search: Bible
     tracks: [theology, hebrew]
 notes: >-

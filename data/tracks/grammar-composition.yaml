@@ -391,6 +391,7 @@ rows:
     order: 10
     prerequisites: [grammar-composition-06, grammar-composition-09]
     related: []
+    exams: [ap-english-language]
     summary: >-
       Students learn the rules of plain, vigorous English: omit needless words, prefer the active voice
       and the concrete word, and avoid the common errors of usage. Revision becomes a habit through
@@ -426,6 +427,7 @@ rows:
     order: 11
     prerequisites: [grammar-composition-09, grammar-composition-10]
     related: [rhetoric-07, logic-02]
+    exams: [ap-english-language]
     summary: >-
       Students write a full essay every week or two across genres (definition, comparison, cause and
       effect, literary analysis, and persuasion on a question of justice or policy), using classical
@@ -467,6 +469,7 @@ rows:
     order: 12
     prerequisites: [grammar-composition-11]
     related: []
+    exams: [ap-english-language]
     summary: >-
       Students learn the research process: framing a question, finding and evaluating sources
       (especially primary sources), taking notes, outlining, drafting and documenting in Chicago style.

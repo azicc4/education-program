@@ -1,0 +1,696 @@
+track: ap-history
+title: "AP History (side track)"
+trackGroup: AP & Exams
+description: >-
+  A side track that prepares the student for the three College Board history exams: AP United
+  States History, AP European History and AP World History: Modern. It supplements the main
+  history track and never replaces it. Everything here is AP-specific content, organized by the
+  College Board's Course and Exam Descriptions (CEDs), and is read alongside the primary-source
+  seminars of Cycle 3 (history-13 to history-28), not instead of them. The main track gives the
+  student the documents, the statesmen and the argument of the Western and American story. This
+  track adds what the College Board also expects: the survey coverage of each CED unit, social,
+  economic, Western and immigration history, non-Western history for AP World, the College Board's
+  vocabulary of historical thinking skills and reasoning processes, and drilled practice in the four
+  question types (MCQ, SAQ, DBQ, LEQ). Each exam is taken in the May the relevant course finishes:
+  AP U.S. History and AP European History at about 16, and AP World History: Modern at about 17. The
+  survey textbooks the College Board's framework favors have interpretive slants. The notes on each
+  row name them from both left and right and suggest counterweight texts to read beside them.
+rows:
+  # ───────────────────────── Shared skills (all three exams) ─────────────────────────
+  - id: ap-history-01
+    title: "AP History Writing Workshop: Historical Thinking Skills, SAQ, DBQ & LEQ"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 17
+    order: 1
+    prerequisites: []
+    related: [grammar-composition-11, grammar-composition-12, rhetoric-07, logic-02, history-28, history-23]
+    exams: [ap-us-history, ap-european-history, ap-world-history-modern]
+    summary: >-
+      A running AP-specific writing and skills workshop shared by all three AP history exams. It
+      starts a few months before AP U.S. History and continues until AP World History is sat. The
+      student learns the College Board's six historical thinking skills (developments and processes,
+      sourcing and situation, claims and evidence in sources, contextualization, making connections,
+      argumentation) and three reasoning processes (comparison, causation, continuity and change).
+      He then writes timed short-answer questions (SAQs), document-based questions (DBQs) and long
+      essay questions (LEQs) to the College Board rubrics, using the CED's examples and released free-response questions.
+      The main track's seminar essays teach him to argue from sources. This workshop teaches him to do
+      it in 40 or 60 minutes to a published rubric.
+    objectives:
+      - Source any document by HIPP (historical situation, intended audience, purpose, point of view) and explain how each affects its use as evidence
+      - Write a defensible, analytic thesis and a contextualization paragraph in under ten minutes
+      - Complete a 7-document DBQ in 60 minutes (15-minute reading period), using at least 4 documents plus outside evidence and sourcing at least 2
+      - Answer three source-based SAQs in 40 minutes (secondary text, primary text, non-text source), the format from May 2027
+      - Write a 40-minute LEQ on a single broad prompt using comparison, causation or continuity and change, and earn the "complexity" point on at least one practice essay
+      - Score his own and released sample essays against the College Board rubrics, and agree with the official scores within one point
+    coreTexts:
+      - title: "AP U.S. History Course and Exam Description (effective fall 2026): skills, reasoning processes and rubrics"
+        author: College Board
+        date: "2026"
+        publicDomain: false
+        links:
+          - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
+          - { label: "AP History Exam Updates (May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-history-exam-updates" }
+      - title: "Released free-response questions, scoring guidelines and sample student responses"
+        author: College Board
+        publicDomain: false
+        links:
+          - { label: "AP U.S. History past exam questions", url: "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam/past-exam-questions" }
+          - { label: "AP European History past exam questions", url: "https://apcentral.collegeboard.org/courses/ap-european-history/exam/past-exam-questions" }
+          - { label: "AP World History: Modern past exam questions", url: "https://apcentral.collegeboard.org/courses/ap-world-history/exam/past-exam-questions" }
+    curriculumOptions:
+      - name: AP Classroom (AP Daily videos, topic questions, progress checks, question bank)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/instructional-resources/ap-classroom"
+        notes: >-
+          The official practice platform. A homeschooled student gets access by joining the exam-only
+          section set up by the AP coordinator at the school where he tests. The AP Daily videos on the
+          DBQ and LEQ are the best short explanations of the rubrics.
+      - name: "AP®/College US History (free, includes Writing Coach)"
+        publisher: Khan Academy
+        tradition: secular
+        url: "https://www.khanacademy.org/humanities/us-history/ap-us-history"
+        notes: Free videos, practice and essay prompts. The Writing Coach gives quick feedback on thesis and contextualization drafts.
+      - name: Teaching American History document collections
+        publisher: Ashland University
+        tradition: classical
+        url: "https://teachingamericanhistory.org/"
+        notes: >-
+          A free supply of fuller primary documents for home-made DBQs. Seven excerpts on a single
+          question from its collections make a DBQ drawn from the founders' own words rather than a
+          textbook's selection.
+    historicalPrecedent: >-
+      Written examination on set historical questions entered the Oxford and Cambridge Modern History
+      schools in the 1850s–1870s (see history-30). The document-based question was introduced on the
+      AP U.S. History exam in 1973.
+    sources:
+      - { label: "College Board: AP History Exam Updates (effective May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-history-exam-updates" }
+      - { label: "AP Students: I'm homeschooled. How can I take an AP Exam?", url: "https://apstudents.collegeboard.org/help-center/im-homeschooled-how-can-i-take-ap-exam" }
+    notes: >-
+      AP-specific. From the May 2027 exams all three histories share one format. Section I has 55
+      MCQs in 55 minutes (40%) and 3 required source-based SAQs in 40 minutes (20%). Section II has
+      one DBQ with 7 documents in about 60 minutes (25%) and one LEQ in about 40 minutes (15%). The LEQ
+      is now a single broad prompt with choice built into it, and the DBQ covers a wider chronological
+      range. The exams are digital (Bluebook app). A homeschooled student must find a school whose AP
+      coordinator will order his exams, ideally by the November ordering deadline. The rubrics
+      reward a particular formula (thesis, contextualization, evidence, sourcing, complexity). Teach
+      it as a genre, and keep the main track's longer seminar essays as the real training in
+      historical judgment.
+
+  # ───────────────────────── AP U.S. History (exam at about 16) ─────────────────────────
+  - id: ap-history-02
+    title: "AP U.S. History I: Periods 1–4 (1491–1848)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 15.5
+    order: 2
+    prerequisites: [ap-history-01]
+    related: [history-13, history-14, history-23, history-24, civics-law-11, civics-law-12, literature-27, spanish-07, economics-06]
+    exams: [ap-us-history]
+    summary: >-
+      AP-specific content for the first half of the AP U.S. History CED. It covers Unit 1 (Period 1,
+      1491–1607), Unit 2 (1607–1754), Unit 3 (1754–1800) and Unit 4 (1800–1848), read alongside
+      history-13, history-14, history-23 and history-24. Those seminars already give the founding in
+      the founders' own words. This row adds the survey breadth and the College Board's framing
+      across its eight themes (American and national identity, work and technology, geography,
+      migration, politics and power, America in the world, culture, social structures). It adds
+      Native societies before and after contact, the Columbian Exchange and the Spanish, French and
+      Dutch empires, the Atlantic slave trade, colonial economies and the Market Revolution, and
+      Jacksonian democracy. It is not a replacement for the seminars.
+    objectives:
+      - "Explain the CED key concepts for Periods 1–4 and identify at least 3 specific examples for each"
+      - "Contrast Spanish, French, Dutch and English colonization (labor systems, relations with Native peoples, religion) using the encomienda, the fur trade and the plantation"
+      - Trace the growth of slavery from the Atlantic trade through the Constitution's compromises to the cotton boom, with population and trade data
+      - "Explain the Market Revolution (canals, railroads, the factory system, the Second Bank) and its effects on women, workers and sectional economies"
+      - Explain the Second Great Awakening and the reform movements (temperance, abolition, women's rights at Seneca Falls) that followed from it
+      - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from Periods 1–4
+    coreTexts:
+      - title: "AP U.S. History Course and Exam Description, Units 1–4"
+        author: College Board
+        date: "effective fall 2026"
+        publicDomain: false
+        links:
+          - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
+          - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-united-states-history" }
+      - title: "The American Pageant, AP Edition (18th ed.)"
+        author: David M. Kennedy & Margaret O'Mara
+        date: "2025"
+        publicDomain: false
+        links:
+          - { label: Cengage (National Geographic Learning), url: "https://ngl.cengage.com/products/9798214071107" }
+      - title: "Give Me Liberty! An American History, AP Edition (7th ed.) (alternative survey text)"
+        author: Eric Foner et al.
+        date: "2024"
+        publicDomain: false
+        links:
+          - { label: W. W. Norton, url: "https://wwnorton.com/books/9781324071396" }
+      - title: "Land of Hope: An Invitation to the Great American Story (counterweight survey), with the Teacher's Guide and Student Workbook"
+        author: Wilfred M. McClay
+        date: "2019; rev. ed."
+        publicDomain: false
+        links:
+          - { label: Encounter Books (revised ed.), url: "https://www.encounterbooks.com/books/land-of-hope-revised_edition/" }
+          - { label: "A Teacher's Guide to Land of Hope", url: "https://www.encounterbooks.com/books/teachers-guide-land-hope/" }
+          - { label: "Student Workbook (primary sources per chapter)", url: "https://www.encounterbooks.com/books/student-workbook-land-hope/" }
+          - { label: Land of Hope education site, url: "https://landofhope.education/" }
+      - title: "The American Yawp and The American Yawp Reader (free)"
+        author: Joseph Locke & Ben Wright (eds.)
+        publicDomain: false
+        links:
+          - { label: Text, url: "https://www.americanyawp.com/text/" }
+          - { label: Reader (primary sources), url: "https://www.americanyawp.com/reader/" }
+      - title: "Modern History Sourcebook: Colonial North America; Colonial Latin America; Early US"
+        publicDomain: true
+        links:
+          - { label: Colonial North America, url: "https://sourcebooks.fordham.edu/mod/modsbook07.asp" }
+          - { label: Colonial Latin America, url: "https://sourcebooks.fordham.edu/mod/modsbook08.asp" }
+    curriculumOptions:
+      - name: AP United States History (course page, CED and AP Classroom)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-united-states-history"
+        notes: The official framework. Use its unit guides as the checklist, and AP Classroom's progress checks at the end of each unit.
+      - name: "AMSCO Advanced Placement United States History"
+        publisher: Perfection Learning
+        tradition: secular
+        url: "https://perfectionlearning.com/ap-and-honors/social-studies/advanced-placement-united-states-history"
+        notes: >-
+          A concise text that follows the CED topic by topic. It is the most efficient single book
+          for a student who already has the seminars behind him. It is updated to the current
+          framework.
+      - name: "The Hillsdale K-12 American History & Civics Curriculum (1776 Curriculum)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://k12historyandcivics.hillsdale.edu/"
+        notes: Free primary-source lessons by era. The counterweight framework to the CED's themes.
+    historicalPrecedent: >-
+      AP U.S. History was first offered in 1956. Its framework was rewritten in 2014 and, after
+      public criticism that the new version slighted the founders and American ideals, revised in
+      2015 to add more on founding documents and national identity. The 9-period structure dates
+      from that revision.
+    sources:
+      - { label: "AP U.S. History Exam (format)", url: "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam" }
+      - { label: "AP Students: AP U.S. History", url: "https://apstudents.collegeboard.org/courses/ap-united-states-history" }
+    notes: >-
+      AP-specific content, read alongside the main track. Pace: Units 1–4 carry roughly 30–48% of the
+      exam. The CED's periods overlap (Period 4 ends 1848 and Period 5 begins 1844), so this row runs to 1848.
+      What the main track already covers: the colonial charters, Bradford, Winthrop, the Mayflower
+      Compact (history-13); the Declaration, Constitution, Federalist and Farewell (history-14,
+      history-23, civics-law-11); Tocqueville and the Webster–Calhoun debate (history-24,
+      civics-law-12); New Spain through Bernal Díaz and Las Casas (spanish-07). What the AP adds:
+      pre-contact Native societies and the Columbian Exchange; comparative colonization; the
+      Atlantic economy and slavery as a labor system; colonial social history (indentured servants,
+      women, the Great Awakening); the Market Revolution and early industrialization; Indian
+      removal; and the historiography the CED's secondary-source SAQs expect (e.g. Progressive,
+      consensus and "Atlantic world" readings of the Revolution). Interpretive slants: the American
+      Pageant is a lively, mainstream political narrative written from a broadly liberal-consensus
+      viewpoint. Give Me Liberty! is by Eric Foner, a leading historian of the left. It frames the
+      whole story as a contest over the meaning of freedom and gives heavy weight to race, labor
+      and social movements, and critics on the right find it tilted. The American Yawp is free and
+      written by academic historians. It foregrounds race, gender, class and inequality, and gives
+      comparatively less room to constitutional ideas and religion as motives, so read it as one
+      school of interpretation. Its Reader is excellent for primary sources. Land of Hope and the
+      Hillsdale 1776 Curriculum lean the other way: they are conservative-leaning and emphasize
+      founding ideals and statesmen, and critics on the left find them celebratory. Recommended
+      pairing: one survey (Pageant or AMSCO) plus Land of Hope, with the Yawp Reader for documents.
+      The student should be able to state each school's reading of an event, which is exactly what
+      the SAQ on secondary sources demands.
+
+  - id: ap-history-03
+    title: "AP U.S. History II: Periods 5–9 (1844–present)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 3
+    prerequisites: [ap-history-02]
+    related: [history-24, history-26, history-27, history-28, history-31, civics-law-14, economics-09, social-science-07, literature-28, literature-29]
+    exams: [ap-us-history]
+    summary: >-
+      AP-specific content for the second half of the AP U.S. History CED. It covers Unit 5 (Period 5,
+      1844–1877), Unit 6 (1865–1898), Unit 7 (1890–1945), Unit 8 (1945–1980) and Unit 9 (1980–present),
+      read alongside history-24, history-26 and history-27, and ending in the May exam at about 16. The
+      main track treats the Civil War, the World Wars, the Cold War and civil rights through their
+      great documents. The AP adds what a documents course passes over: Manifest Destiny and the
+      Mexican War, Reconstruction's aftermath, the settlement and conquest of the West, the Gilded
+      Age economy, immigration and nativism, Populism and Progressivism, the Depression and New
+      Deal as economic history, the postwar social movements, the conservative resurgence and the
+      period since 1980.
+    objectives:
+      - "Explain the CED key concepts for Periods 5–9 and identify at least 3 specific examples for each"
+      - Explain Reconstruction and its end, comparing the Dunning, revisionist (Du Bois, Foner) and recent interpretations
+      - Describe the transformation of the West (railroads, the Plains wars, the Dawes Act, mining and ranching) and weigh Turner's frontier thesis against the New Western History
+      - Trace immigration from the 1840s Irish and German waves through Chinese Exclusion (1882), Ellis Island, the 1924 quota law and the 1965 Immigration Act
+      - Explain industrialization, labor conflict, Populism and Progressivism, and the causes and remedies of the Great Depression, using wage, price and output data
+      - Explain the social movements of 1945–1980 (civil rights, women's, Chicano, American Indian) and the conservative movement from Goldwater to Reagan
+      - Sit a full-length released or practice exam under timed conditions before the May exam
+    coreTexts:
+      - title: "AP U.S. History Course and Exam Description, Units 5–9"
+        author: College Board
+        date: "effective fall 2026"
+        publicDomain: false
+        links:
+          - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
+          - { label: "CED clarifications", url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description-clarifications.pdf" }
+      - title: "The American Pageant, AP Edition (18th ed.), or Give Me Liberty!, AP Edition (7th ed.)"
+        author: Kennedy & O'Mara; Foner et al.
+        publicDomain: false
+        links:
+          - { label: "Cengage: The American Pageant", url: "https://ngl.cengage.com/products/9798214071107" }
+          - { label: "Norton: Give Me Liberty!", url: "https://wwnorton.com/books/9781324071396" }
+      - title: "Land of Hope (counterweight survey), with the Teacher's Guide"
+        author: Wilfred M. McClay
+        publicDomain: false
+        links:
+          - { label: Encounter Books, url: "https://www.encounterbooks.com/books/land-of-hope-revised_edition/" }
+          - { label: "A Teacher's Guide to Land of Hope", url: "https://www.encounterbooks.com/books/teachers-guide-land-hope/" }
+      - title: The Frontier in American History (incl. "The Significance of the Frontier in American History," 1893)
+        author: Frederick Jackson Turner
+        date: "1920"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/22994" }
+      - title: How the Other Half Lives
+        author: Jacob A. Riis
+        date: "1890"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45502" }
+      - title: "Modern History Sourcebook: US Immigration; US Power; US Society"
+        publicDomain: true
+        links:
+          - { label: US Immigration, url: "https://sourcebooks.fordham.edu/mod/modsbook28.asp" }
+          - { label: US Power, url: "https://sourcebooks.fordham.edu/mod/modsbook47.asp" }
+          - { label: US Society, url: "https://sourcebooks.fordham.edu/mod/modsbook48.asp" }
+      - title: The American Yawp Reader (Periods 5–9 documents)
+        publicDomain: false
+        links:
+          - { label: American Yawp Reader, url: "https://www.americanyawp.com/reader/" }
+    curriculumOptions:
+      - name: AP United States History (course page, past exam questions and AP Classroom)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-united-states-history"
+        notes: Use the released free-response questions and the CED practice exam in the last six weeks.
+      - name: "Barron's AP U.S. History Premium, 2027"
+        publisher: Barron's (Simon & Schuster)
+        tradition: secular
+        url: "https://www.simonandschuster.com/books/AP-U-S-History-Premium-2027-5-Practice-Tests-+-Comprehensive-Review-+-Online-Practice/Eugene-V-Resnick/Barrons-AP-Prep/9798349701580"
+        notes: >-
+          Five practice tests, updated for the May 2027 SAQ and LEQ changes. The Princeton Review AP
+          U.S. History Premium Prep (26th ed., Penguin Random House) is the alternative. Check that
+          any prep book is labeled for the 2027 format.
+      - name: "American Heritage (free online course)"
+        publisher: Hillsdale College
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/american-heritage"
+        notes: A free, founding-principles counterweight to the survey. Its lectures on Progressivism and the New Deal present the critique the CED gives less room.
+    historicalPrecedent: >-
+      Turner's 1893 frontier address and Beard's Economic Interpretation of the Constitution (1913)
+      began the professional arguments over the meaning of American history that the CED's
+      secondary-source questions still draw on. Du Bois's Black Reconstruction (1935) opened the
+      revision of the Dunning School's account of Reconstruction.
+    sources:
+      - { label: "AP U.S. History Exam (format and May 2027 changes)", url: "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam" }
+      - { label: "Princeton Review AP U.S. History Premium Prep, 26th ed.", url: "https://www.penguinrandomhouse.com/books/807044/princeton-review-ap-us-history-premium-prep-26th-edition-by-the-princeton-review/" }
+    notes: >-
+      AP-specific content, read alongside the main track. Timing: history-27 (Cold War and civil
+      rights) runs 16–16.5 in the main track, so Periods 8–9 are learned here first in survey form
+      and then read in depth in the seminar. Read Kennan's Long Telegram and King's Letter from
+      history-27 early if possible, since both are standard AP documents. What the main track
+      already covers: Tocqueville, Webster–Calhoun, Douglass, Lincoln–Douglas and Lincoln's speeches
+      (history-24); Wilson's Fourteen Points, the Atlantic Charter and the World Wars (history-26);
+      containment, King and Reagan (history-27); landmark cases (civics-law-14); Hayek and Sowell
+      (economics-09). What the AP adds: the West and Native American policy; immigration and
+      nativism; the Gilded Age economy, labor and Populism; Progressivism as a movement (the main
+      track meets it mainly as a critique of the founding at 17, history-31); the New Deal's
+      programs and their economic results; the home fronts of both wars; postwar suburbia,
+      consumer culture and the Great Society; the women's and other rights movements; and 1980 to
+      the present (globalization, the end of the Cold War, 9/11). Historiography expected: the
+      frontier thesis versus the New Western History; Progressive, consensus and New Left readings;
+      and the Dunning School versus the revisionists on Reconstruction. Slants: see ap-history-02.
+      For the 20th century, Foner and the Yawp give the most room to the New Deal order and social
+      movements. Land of Hope and Hillsdale are warmer toward constitutionalism and the
+      conservative revival and more critical of Progressivism. Paul Johnson's A History of the
+      American People (history-28) is a readable right-of-center survey to set against either.
+
+  # ───────────────────────── AP European History (exam at about 16) ─────────────────────────
+  - id: ap-history-04
+    title: "AP European History: c. 1450 to the Present"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 4
+    prerequisites: [ap-history-01]
+    related: [history-21, history-22, history-25, history-26, history-27, history-30, philosophy-09, philosophy-10, philosophy-12, natural-science-15, physics-02, economics-06, economics-08, literature-30]
+    exams: [ap-european-history]
+    summary: >-
+      AP-specific preparation for AP European History, read alongside the main track's European
+      seminars and ending in the May exam at about 16 (16.5 if the family would rather not sit it in the same May as
+      U.S. History). It covers the CED's nine units: Renaissance and Exploration; the Age of
+      Reformation; Absolutism and Constitutionalism; Scientific, Philosophical and Political
+      Developments; Conflict, Crisis and Reaction in the Late 18th Century; Industrialization and Its
+      Effects; 19th-Century Perspectives and Political Developments; 20th-Century Global Conflicts;
+      and the Cold War and Contemporary Europe. It follows the seven themes: interaction of Europe and the world,
+      economic and commercial developments, cultural and intellectual developments, states and other institutions of power,
+      social organization, national and European identity, and technological and scientific innovation.
+    objectives:
+      - "Explain the CED key concepts for all nine units, with attention to the four chronological periods (c. 1450–1648, 1648–1815, 1815–1914, 1914–present)"
+      - Explain the Commercial Revolution, the price revolution and the rise of the Dutch and English Atlantic economies
+      - Compare absolutism (Louis XIV, Peter the Great, the Habsburgs, Prussia) with English and Dutch constitutionalism
+      - Explain the Scientific Revolution and the Enlightenment as historical movements (academies, salons, print, enlightened despots), not only as ideas
+      - Explain the social effects of industrialization (urbanization, the family, class, public health) and the ideologies that answered it
+      - Explain the Russian Revolution, the interwar economy, Stalinism and fascism, decolonization, European integration from the Schuman Declaration to the EU, and the revolutions of 1989
+      - Complete progress checks for Units 1–9, two timed DBQs, and one full practice exam
+    coreTexts:
+      - title: AP European History Course and Exam Description
+        author: College Board
+        publicDomain: false
+        links:
+          - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-european-history-course-and-exam-description.pdf" }
+          - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-european-history" }
+      - title: "A History of Western Society Since 1300 for the AP® Course (13th ed.)"
+        author: John P. McKay et al.
+        publicDomain: false
+        links:
+          - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/A-History-of-Western-Society-Since-1300-for-the-AP-Course/p/1319221637" }
+      - title: A History of Europe in the Modern World (alternative survey text)
+        author: R. R. Palmer, Joel Colton & Lloyd Kramer
+        publicDomain: false
+        links:
+          - { label: McGraw Hill, url: "https://www.mheducation.com/highered/product/a-history-of-europe-in-the-modern-world-kramer.html" }
+      - title: "The Western Heritage (alternative survey text)"
+        author: Donald Kagan, Steven Ozment, Frank M. Turner et al.
+        publicDomain: false
+        links:
+          - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/western-heritage-the-combined-volume/P200000002916/9780137497799" }
+      - title: "The Golden Thread: A History of the Western Tradition (counterweight)"
+        author: Allen C. Guelzo & James Hankins
+        publicDomain: false
+        links:
+          - { label: Encounter Books, url: "https://www.encounterbooks.com/books/golden-thread-history-western-tradition-2/" }
+      - title: "Modern History Sourcebook: Early Modern World; Scientific Revolution; Enlightenment; Enlightened Despots; Industrial Revolution; Western and Eastern Europe Since 1945"
+        publicDomain: true
+        links:
+          - { label: Early Modern World, url: "https://sourcebooks.fordham.edu/mod/modsbook03.asp" }
+          - { label: Scientific Revolution, url: "https://sourcebooks.fordham.edu/mod/modsbook09.asp" }
+          - { label: Enlightenment, url: "https://sourcebooks.fordham.edu/mod/modsbook10.asp" }
+          - { label: Enlightened Despots, url: "https://sourcebooks.fordham.edu/mod/modsbook11.asp" }
+          - { label: Industrial Revolution, url: "https://sourcebooks.fordham.edu/mod/modsbook14.asp" }
+          - { label: Western Europe Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook49.asp" }
+          - { label: Eastern Europe Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook50.asp" }
+      - title: The Schuman Declaration
+        author: Robert Schuman
+        date: "9 May 1950"
+        publicDomain: false
+        links:
+          - { label: European Union, url: "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en" }
+    curriculumOptions:
+      - name: AP European History (course page, CED and AP Classroom)
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-european-history"
+        notes: The official framework and past exam questions. Use the unit progress checks in AP Classroom.
+      - name: "AMSCO Advanced Placement European History (2nd ed.)"
+        publisher: Perfection Learning
+        tradition: secular
+        url: "https://perfectionlearning.com/ap-and-honors/social-studies/advanced-placement-european-history"
+        notes: Concise, CED-aligned, with practice DBQs and exams. The most efficient single book for review.
+      - name: A History of Europe in the Modern World (guide set)
+        publisher: Memoria Press
+        tradition: classical
+        url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/a-history-of-europe-in-the-modern-world-volume-1-2-guide-set/"
+        notes: Classical-school study guides for Palmer, Colton and Kramer. Already listed in history-25, so the same text can carry both rows.
+    historicalPrecedent: >-
+      AP European History was among the first AP subjects (1956). R. R. Palmer's A History of the
+      Modern World (1950) was for decades the standard American college and AP text for modern
+      Europe.
+    sources:
+      - { label: "AP European History Exam (format, May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-european-history/exam" }
+      - { label: "AP Students: AP European History", url: "https://apstudents.collegeboard.org/courses/ap-european-history" }
+      - { label: "Princeton Review AP European History Premium Prep, 25th ed.", url: "https://www.penguinrandomhouse.com/books/807029/princeton-review-ap-european-history-premium-prep-25th-edition-by-the-princeton-review/" }
+    notes: >-
+      AP-specific content, read alongside the main track. Mapping to the main track: Units 1–2
+      (Renaissance, Reformation) use history-22. Unit 3 (constitutionalism) uses history-21, and Unit 4
+      uses philosophy-09 and philosophy-10 for the Enlightenment ideas and natural-science-15 and physics-02 for Copernicus to Newton.
+      Units 5–7 (French Revolution to 1914) use history-25, economics-06 and economics-08. Units 8–9 use
+      history-26 and history-27. Gaps the AP fills: exploration and the Commercial Revolution; absolutism in France, Russia,
+      Austria and Prussia; the Dutch Republic; the Scientific Revolution and Enlightenment as social
+      history; 18th-century wars and Napoleon in detail; the agricultural and industrial
+      revolutions and their social effects; women and the family; the Russian Revolution; and
+      everything after 1945 (decolonization, integration, 1968, the Soviet bloc, 1989, migration),
+      which the main track reaches only through Solzhenitsyn and Centesimus Annus. Slants:
+      McKay puts social history and "everyday life" first. It is strong on women, family and
+      economy and lighter on religion and ideas. Palmer, Colton and Kramer is a classic
+      liberal-internationalist political and intellectual narrative, dense but very authoritative.
+      Kagan's Western Heritage was co-written by a noted defender of teaching Western civilization and
+      is the most traditional of the three. Pair McKay with The Golden Thread, or with Dawson's
+      Dividing of Christendom from history-22, to restore religion and ideas. The Catholic-Protestant
+      balance on the Reformation is handled in history-22.
+
+  # ───────────────────────── AP World History: Modern (exam at about 17) ─────────────────────────
+  - id: ap-history-05
+    title: "AP World History: Modern I: c. 1200–1750 (Units 1–4)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 5
+    prerequisites: [ap-history-01]
+    related: [spanish-07, chinese-10, chinese-12, chinese-13, history-13, history-20, history-22]
+    exams: [ap-world-history-modern]
+    summary: >-
+      AP-specific content that needs the most new reading in this program, because the main track
+      is centered on the West. It covers CED Unit 1 (the Global Tapestry, c. 1200–1450: Song China,
+      Dar al-Islam, South and Southeast Asia, the Americas, Africa and Europe), Unit 2 (Networks of
+      Exchange: the Silk Roads, the Mongol Empire, the Indian Ocean and trans-Saharan trade, with Mali),
+      Unit 3 (Land-Based Empires, 1450–1750: the Ottoman, Safavid and Mughal "gunpowder
+      empires", the Ming and Qing, Tokugawa Japan) and Unit 4 (Transoceanic Interconnections: Zheng He, the Iberian
+      voyages, the Aztec and Inca conquests, the Columbian Exchange and the Atlantic slave trade). The travelers and
+      eyewitnesses (Ibn Battuta, Zheng He, Bernal Díaz, Babur) are read as primary sources, in keeping with the program's method.
+    objectives:
+      - Explain Song China's economy, Neo-Confucianism and technology, and the spread of Islam from the Abbasids to the Delhi Sultanate and Southeast Asia
+      - Read Ibn Battuta on Mali, Delhi and China, and explain the trans-Saharan and Indian Ocean trade networks
+      - Explain Mongol conquest and the Pax Mongolica as a cause of exchange (technology, disease, the Black Death)
+      - Compare how the Ottoman, Safavid, Mughal, Qing and Tokugawa states legitimized and consolidated power
+      - Compare Zheng He's voyages with the Iberian voyages, and the Aztec and Inca states before and after conquest, using the Florentine Codex against Bernal Díaz
+      - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from c. 1200–1750
+    coreTexts:
+      - title: "AP World History: Modern Course and Exam Description, Units 1–4"
+        author: College Board
+        publicDomain: false
+        links:
+          - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf" }
+          - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-world-history" }
+      - title: "Ways of the World for the AP® World History Modern Course Since 1200 C.E. (5th ed.)"
+        author: Robert W. Strayer & Eric W. Nelson
+        publicDomain: false
+        links:
+          - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
+      - title: "Traditions & Encounters: A Global Perspective on the Past, AP Edition (7th ed.) (alternative survey text)"
+        author: Jerry H. Bentley et al.
+        date: "2023"
+        publicDomain: false
+        links:
+          - { label: McGraw Hill, url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
+      - title: Travels in Asia and Africa, 1325–1354 (selections)
+        author: Ibn Battuta (tr. H. A. R. Gibb)
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook (Fordham), url: "https://sourcebooks.fordham.edu/source/1354-ibnbattuta.asp" }
+      - title: Inscriptions of Zheng He (Liujiagang and Changle, 1431)
+        author: Zheng He
+        date: "1431"
+        links:
+          - { label: Oregon State Open Textbook, url: "https://open.oregonstate.education/middleearlymodernages/chapter/inscriptions-of-zheng-he/" }
+      - title: The Memoirs of the Conquistador Bernal Díaz del Castillo (already read in spanish-07)
+        author: Bernal Díaz del Castillo (tr. Lockhart)
+        date: "c. 1568"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32474" }
+      - title: "Florentine Codex, Book XII (the Mexica account of the conquest)"
+        author: Bernardino de Sahagún and Nahua informants
+        date: "c. 1545–1590"
+        publicDomain: true
+        links:
+          - { label: Digital Florentine Codex (Getty), url: "https://florentinecodex.getty.edu/" }
+      - title: The Bābur-nāma in English (Memoirs of Babur)
+        author: Babur (tr. A. S. Beveridge)
+        date: "c. 1530"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44608" }
+      - title: "Internet Islamic, East Asian, Indian and African History Sourcebooks"
+        publicDomain: true
+        links:
+          - { label: Islamic, url: "https://sourcebooks.fordham.edu/islam/islamsbook.asp" }
+          - { label: East Asian, url: "https://sourcebooks.fordham.edu/eastasia/eastasiasbook.asp" }
+          - { label: Indian, url: "https://sourcebooks.fordham.edu/india/indiasbook.asp" }
+          - { label: African, url: "https://sourcebooks.fordham.edu/africa/africasbook.asp" }
+    curriculumOptions:
+      - name: "AP World History: Modern (course page, CED and AP Classroom)"
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-world-history"
+        notes: The official framework and past exam questions. The CED's unit guides are the checklist for the non-Western material.
+      - name: "OER Project World History AP (free; also on Khan Academy)"
+        publisher: OER Project / Khan Academy
+        tradition: secular
+        url: "https://www.oerproject.com/World-History-AP"
+        notes: >-
+          A free full course aligned to the CED topic by topic, with readings, videos and source
+          collections. The same course is on Khan Academy at /humanities/world-history-project-ap
+          with practice. It is heavy on frameworks and "big history" framing.
+      - name: "AMSCO AP World History: Modern (1200–Present), 2nd ed."
+        publisher: Perfection Learning
+        tradition: secular
+        url: "https://perfectionlearning.com/ap-and-honors/social-studies/advanced-placement-world-history-modern"
+        notes: Concise and CED-aligned. The most efficient review text, but thin on primary sources.
+    historicalPrecedent: >-
+      Jefferson told Peter Carr to learn Spanish because the ancient history of the Americas "is
+      written in that language" (see spanish-07). The Jesuit colleges trained missionaries such as
+      Ricci (chinese-10) in the languages and classics of Asia. Serious study of the great non-Western
+      civilizations belongs to the older learning too, not only to the modern survey.
+    sources:
+      - { label: "AP World History: Modern Exam (format, May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-world-history/exam" }
+      - { label: "AP Students: AP World History: Modern", url: "https://apstudents.collegeboard.org/courses/ap-world-history-modern" }
+      - { label: "Khan Academy: AP®/College World History", url: "https://www.khanacademy.org/humanities/world-history-project-ap" }
+    notes: >-
+      AP-specific content, read alongside the main track. What the curriculum already touches:
+      Bernal Díaz and Las Casas on the conquest of Mexico (spanish-07); Ricci and the Ming–Qing Jesuit
+      mission (chinese-10); the Confucian classics in the original (chinese-12, chinese-13); Columbus
+      and the European side of exploration (history-13, history-22); the Crusades from the Latin side
+      (history-20). Everything else here is new: the program nowhere else treats Islamic
+      civilization, sub-Saharan Africa, India, the Mongols, the steppe or the pre-Columbian states as
+      subjects in their own right. Slants: Strayer and Bentley are both explicitly global and
+      comparative. They treat Europe as one civilization among several, favor social, economic and
+      environmental history, and are often critical of Western expansion. Readers on the right find
+      them short on the religious and intellectual sources of Western distinctiveness. Readers on
+      the left find older Western-civ texts Eurocentric. Recommended counterweights are Thomas
+      Sowell's Conquests and Cultures, an economist's comparative account of how conquest spread and
+      destroyed cultural capital, and Anne Carroll's Christ the King, Lord of History for a Catholic
+      frame (see ap-history-06). Chinese and Spanish readers should read the Zheng He inscription and
+      Bernal Díaz in the original where possible.
+
+  - id: ap-history-06
+    title: "AP World History: Modern II: c. 1750–Present (Units 5–9)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 16.5
+    ageEnd: 17
+    order: 6
+    prerequisites: [ap-history-05]
+    related: [history-25, history-26, history-27, economics-08, economics-09, chinese-11, civics-law-15, theology-20]
+    exams: [ap-world-history-modern]
+    summary: >-
+      The second half of AP World History: Modern, ending in the May exam at about 17. It covers CED Unit 5
+      (Revolutions: the Atlantic revolutions including Haiti and Latin American independence, and the
+      Industrial Revolution), Unit 6 (Consequences of Industrialization: imperialism in Africa and Asia,
+      industrialization outside Europe in Meiji Japan, Russia and the Ottoman reforms, migration and
+      indentured labor), Unit 7 (Global Conflict: the world wars as global wars, the Russian and
+      Chinese revolutions), Unit 8 (Cold War and Decolonization: India, Africa, Vietnam, the
+      non-aligned movement) and Unit 9 (Globalization: technology, disease, economics, human rights,
+      global culture). The main track's European seminars supply the European half. This row supplies the world.
+    objectives:
+      - Compare the American, French, Haitian and Latin American revolutions, using the Declaration of the Rights of Man, the Haitian constitution and Bolívar
+      - Explain imperialism (the Opium Wars, the Scramble for Africa, the British Raj) and resistance to it, reading Commissioner Lin's letter to Queen Victoria
+      - Compare state-led industrialization in Meiji Japan, Russia and the Ottoman Tanzimat with the British model
+      - Explain decolonization in India, Africa and Southeast Asia, reading the Vietnamese Declaration of Independence (1945) against the American Declaration it quotes
+      - Explain globalization since 1945 (trade, technology, disease, the environment, rights movements and their critics)
+      - Sit a full-length released or practice exam under timed conditions before the May exam
+    coreTexts:
+      - title: "AP World History: Modern Course and Exam Description, Units 5–9"
+        author: College Board
+        publicDomain: false
+        links:
+          - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf" }
+      - title: "Ways of the World for the AP® Modern Course (5th ed.), or Traditions & Encounters, AP Edition (7th ed.)"
+        author: Strayer & Nelson; Bentley et al.
+        publicDomain: false
+        links:
+          - { label: "BFW: Ways of the World", url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
+          - { label: "McGraw Hill: Traditions & Encounters", url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
+      - title: Letter to the King of England (George III)
+        author: Qianlong Emperor
+        date: "1793"
+        publicDomain: true
+        links:
+          - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1793qianlong.asp" }
+      - title: Letter to Queen Victoria
+        author: Lin Zexu
+        date: "1839"
+        publicDomain: true
+        links:
+          - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1839lin2.asp" }
+      - title: Declaration of Independence of the Democratic Republic of Vietnam
+        author: Ho Chi Minh
+        date: "1945"
+        links:
+          - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1945vietnam.asp" }
+      - title: "Modern History Sourcebook: 19C Latin America; Imperialism; Industrial Revolution II; Decolonization; Asia Since 1900; Africa Since 1945"
+        publicDomain: true
+        links:
+          - { label: 19C Latin America, url: "https://sourcebooks.fordham.edu/mod/modsbook32.asp" }
+          - { label: Imperialism, url: "https://sourcebooks.fordham.edu/mod/modsbook34.asp" }
+          - { label: Industrial Revolution II, url: "https://sourcebooks.fordham.edu/mod/modsbook35.asp" }
+          - { label: Decolonization, url: "https://sourcebooks.fordham.edu/mod/modsbook51.asp" }
+          - { label: Asia Since 1900, url: "https://sourcebooks.fordham.edu/mod/modsbook52.asp" }
+          - { label: Africa Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook53.asp" }
+      - title: "Conquests and Cultures: An International History (counterweight)"
+        author: Thomas Sowell
+        publicDomain: false
+        links:
+          - { label: Basic Books (Hachette), url: "https://www.basicbooks.com/titles/thomas-sowell/conquests-and-cultures/9780465014002/" }
+    curriculumOptions:
+      - name: "AP World History: Modern (course page, past exam questions and AP Classroom)"
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-world-history"
+        notes: Use the released free-response questions and the CED practice exam in the last six weeks.
+      - name: "Barron's AP World History: Modern Premium, 2027"
+        publisher: Barron's (Simon & Schuster)
+        tradition: secular
+        url: "https://www.simonandschuster.com/books/AP-World-History-Modern-Premium-2027-Prep-Book-With-5-Practice-Tests-+-Comprehensive-Review-+/John-McCannon/Barrons-AP-Prep/9798349701399"
+        notes: >-
+          Five practice tests, updated for the May 2027 SAQ and LEQ changes. The Princeton Review AP
+          World History: Modern Premium Prep (8th ed.) is the alternative.
+      - name: "Christ the King, Lord of History"
+        publisher: TAN Books
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/christ-the-king-lord-of-history-a-catholic-world-history-from-ancient-to-modern-times/"
+        notes: >-
+          Anne Carroll's Catholic world history (also the Cycle 2 spine, history-07). An explicitly
+          Catholic interpretive counterweight to the secular surveys. It is thin on Asia and Africa,
+          so it cannot serve as the AP text.
+    historicalPrecedent: >-
+      Leo XIII's Rerum Novarum (history-25) and the 20th-century popes' encyclicals on development and
+      peace read the industrial and colonial world from Rome, a global perspective older than the
+      AP course. Ho Chi Minh opened Vietnam's 1945 declaration by quoting Jefferson, a sign of how far
+      the American founding traveled.
+    sources:
+      - { label: "AP World History: Modern Exam (format, May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-world-history/exam" }
+      - { label: "Princeton Review AP World History: Modern Premium Prep, 8th ed.", url: "https://www.penguinrandomhouse.com/books/807045/princeton-review-ap-world-history-modern-premium-prep-8th-edition-by-the-princeton-review/" }
+    notes: >-
+      AP-specific content, read alongside the main track. What the main track covers: the French
+      Revolution, 1848, Marx and Rerum Novarum (history-25); the World Wars and totalitarianism
+      (history-26, history-27); Smith, Marx, Hayek and Sowell (economics-06, economics-08,
+      economics-09). What the AP adds: the Haitian and Latin American revolutions; imperialism from
+      the colonized side; industrialization outside Europe; Chinese history from the Opium Wars to Mao
+      and Deng; decolonization and the Cold War in the Global South; and globalization. The Chinese
+      track (chinese-11) can supply modern Chinese texts for Units 7–9. Slants: see ap-history-05.
+      The surveys tend to explain imperialism mainly through economic exploitation and racism. Sowell
+      and the papal documents stress culture, institutions and religion. Have the student write one
+      LEQ each way. A student sitting this at 17 overlaps the college Western Heritage and American
+      Heritage courses (history-30, history-31). Keep this row to the AP survey and its practice
+      tests, and let the college seminars carry the reading.

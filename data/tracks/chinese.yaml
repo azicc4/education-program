@@ -238,6 +238,7 @@ rows:
     order: 7
     prerequisites: [chinese-05]
     related: []
+    exams: [ap-chinese-language]
     summary: >-
       The student moves into the standard U.S. university sequence to consolidate grammar systematically
       (了, 过, 把, complements, measure words) and to read and write both simplified and traditional
@@ -302,6 +303,7 @@ rows:
     order: 9
     prerequisites: [chinese-07]
     related: []
+    exams: [ap-chinese-language]
     summary: >-
       This is the intermediate university course. It covers more formal written registers (书面语), idioms
       (成语), and extended discussion of Chinese society and culture. Reading volume grows through
@@ -394,6 +396,7 @@ rows:
     order: 11
     prerequisites: [chinese-09]
     related: []
+    exams: [ap-chinese-language]
     summary: >-
       The student reads unadapted modern Chinese: Lu Xun's short stories and memoirs, newspaper and
       magazine articles, and an abridged or original chapter-novel (Journey to the West). Weekly essays

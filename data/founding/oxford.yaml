@@ -31,78 +31,129 @@ primarySources:
   - { label: "National Archives, The Founding Fathers: South Carolina, on C. C. Pinckney at Christ Church hearing Blackstone", url: "https://www.archives.gov/founding-docs/founding-fathers-south-carolina" }
 entries:
   - text: "Year 1 (Laudian Statutes, 1636): attend the public grammar lecturer, who teaches grammar from Priscian, Linacre or another approved author, or explains Greek and Roman antiquities"
+    use: [reference]
+    units: [latin-06]
     search: Latin grammar
     tracks: [latin, grammar-composition]
   - text: "Year 1: attend the rhetoric lecturer, who expounds the Rhetoric of Aristotle, Cicero, Quintilian or Hermogenes and gathers their precepts 'into one body'"
+    use: [reference, student]
+    units: [rhetoric-07, rhetoric-10]
     search: Quintilian
     tracks: [rhetoric, latin, greek]
   - text: "Years 2–4: the logic (dialectic) lecturer reads Porphyry's Isagoge or any part of Aristotle's logic, keeping to the text and not to questions of method"
+    use: [reference, student]
+    units: [logic-08, logic-03]
     search: Aristotle
     tracks: [logic]
   - text: "Years 2–4: the moral philosophy lecturer reads Aristotle's Nicomachean Ethics, Politics and Economics, explaining the text and discussing the questions that arise from it"
+    use: [reference, student]
+    units: [philosophy-07, character-virtue-12, civics-law-09]
     search: Ethics
     tracks: [philosophy, civics-law, character-virtue]
   - text: "Years 3–4: geometry under the Savilian professor, whose statute charges him with Euclid's thirteen books of the Elements, Apollonius's Conics and all of Archimedes, plus arithmetic, surveying, music and mechanics"
+    use: [reference, student]
+    units: [mathematics-10, mathematics-12]
     search: Euclid
     tracks: [mathematics]
   - text: "Years 3–4 and through the M.A.: the Regius Professor of Greek expounds Homer, Demosthenes, Isocrates, Euripides or another ancient classic, with the grammar and idiom of the language"
+    use: [reference, student]
+    units: [greek-11, rhetoric-08, greek-14]
     search: Homer
     tracks: [greek, poetry, rhetoric]
   - text: "Disputations in parviso (1636): from the end of the first year, three logical or grammatical questions argued 1–3 p.m.; Monday–Thursday logic 'according to Aristotle, whose authority is to be supreme'; Fridays grammar, rhetoric, politics and ethics"
+    use: [reference]
+    units: [logic-03, rhetoric-09]
     search: Disputation
     tracks: [logic, rhetoric, civics-law]
   - text: "Before the B.A.: dispute as opponent and respondent in parviso for three terms and become a 'General Sophister'; answer twice under a determining Bachelor in Lent"
+    use: [reference]
+    units: [rhetoric-09]
     search: Disputation
     tracks: [logic, rhetoric]
   - text: "M.A. course (three more years): geometry, metaphysics (Aristotle's Metaphysics), history, Greek and Hebrew; then astronomy (Ptolemy's Almagest with Copernicus) and natural philosophy (Aristotle's Physics, De Caelo, Meteorology, De Anima); determine in Lent, answer in Quodlibets and Austins, and read six solemn lectures in natural and moral philosophy"
+    use: [reference, student]
+    units: [philosophy-14, natural-science-15, natural-science-19, social-science-01]
     search: Ptolemy
     tracks: [mathematics, natural-science, philosophy]
   - text: "Hebrew: B.A.s attend the Regius Professor, who teaches Hebrew grammar and idiom 'from the fountains of Holy Scripture', until a year after the M.A."
+    use: [reference, student]
+    units: [hebrew-03, hebrew-04]
     search: Hebrew Bible
     tracks: [hebrew, theology]
   - text: "History: B.A.s attend Camden's professor of history, who reads Lucius Florus or other ancient historians of the better sort"
+    use: [reference, student]
+    units: [latin-13, history-16]
     search: Florus
     tracks: [history, latin]
   - text: "Henry Aldrich, Artis Logicae Compendium (1691), the Christ Church logic manual that stayed in use into the 1850s, when pass men still read it 'to the end of the Reduction of Syllogisms'"
+    use: [reference]
+    units: [logic-03, logic-06]
     search: Aldrich
     tracks: [logic]
   - text: "18th-century college logic: syllogistic 'acts' in college, Smiglecius praised by an Oxford logician (Terrae Filius, 1721), a Brasenose scholar in 1742 'quite taken up with logic', and Christ Church's plan of 1767 to revive the school logic"
+    use: [reference]
+    units: [logic-03, logic-06]
     search: Smiglecius
     tracks: [logic]
   - text: "The degree examination in decay: John Scott (Lord Eldon), 1770, was examined only in Hebrew and history ('What is the Hebrew for the place of a skull?' 'Golgotha'), and Vicesimus Knox says candidates memorized handed-down 'schemes' of 40 or 50 questions per science"
+    use: [reference]
+    units: []
     search: Hebrew
     tracks: [hebrew, history]
   - text: "Blackstone's lectures on the laws of England (begun 1753; he became the first Vinerian Professor in 1758), published as the Commentaries on the Laws of England (1765–69); heard by C. C. Pinckney, a Christ Church man and later a signer of the Constitution"
+    use: [reference, student]
+    units: [civics-law-13, civics-law-18, civics-law-20]
     search: Blackstone
     tracks: [civics-law, history]
   - text: "Examination Statute (1800): public examination for the B.A. in grammar, rhetoric, logic, moral philosophy and the elements of mathematics and physics; at least three Greek and Latin authors 'of the best age'; English into Latin; the rudiments of religion and the Thirty-nine Articles; the best twelve ranked in order of merit"
+    use: [reference]
+    units: [latin-08, latin-15]
     search: Latin composition
     tracks: [latin, greek, logic, rhetoric, philosophy, mathematics, theology]
   - text: "1807 statute: Literae Humaniores (Greek and Latin, logic, rhetoric, moral philosophy) is separated from mathematics and physics; the religious examination now covers the Gospels in Greek, the Evidences and the Thirty-nine Articles"
+    use: [reference]
+    units: [greek-05, greek-09]
     search: Greek New Testament
     tracks: [greek, latin, logic, rhetoric, philosophy, theology]
   - text: "Responsions (1808): in the second year, all students are examined in the elements of Greek and Latin and in logic or geometry"
+    use: [reference]
+    units: [greek-04, latin-04, logic-03, mathematics-10]
     search: Euclid
     tracks: [greek, latin, logic, mathematics]
   - text: "Honours reading, 1807–c. 1827: Homer, Demosthenes, Cicero, Lucretius, Terence, Plutarch, Longinus and Quintilian, with lists of twenty classical authors not unusual as late as 1827"
+    use: [reference, student]
+    units: [rhetoric-08, latin-17, poetry-14, rhetoric-10]
     search: Demosthenes
     tracks: [greek, latin, rhetoric, poetry]
   - text: "Greats philosophy (c. 1830–50): Aristotle's Ethics (central since Dr Sheppard examined in 1806), with his Rhetoric or Politics, and two or three dialogues of Plato (the Commissioners expected the Republic under the 1850 statute)"
+    use: [reference, student]
+    units: [philosophy-07, rhetoric-07, philosophy-05]
     search: Aristotle
     tracks: [philosophy, greek, civics-law, rhetoric]
   - text: "Greats philosophy: Butler's Analogy of Religion or his Sermons, brought into the examinations by Dr Hampden"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Butler
     tracks: [theology, philosophy, character-virtue]
   - text: "Greats ancient history: Herodotus, Thucydides, the first or second decade of Livy, and the Annals or Histories of Tacitus; from 1830 ancient history with political philosophy, illustrated from modern authors such as Niebuhr and Grote"
+    use: [reference, student]
+    units: [history-15, latin-13, history-17, latin-17]
     search: Thucydides
     tracks: [history, greek, latin, civics-law]
   - text: "Greats poetry: Aeschylus, Sophocles, Aristophanes, Virgil, Horace and Juvenal, with composition in Greek, Latin and English"
+    use: [reference, student]
+    units: [greek-14, latin-12, latin-14, poetry-10]
     search: Sophocles
     tracks: [greek, latin, poetry, grammar-composition]
   - text: "Pass degree (c. 1850): four plays of Euripides, four or five books of Herodotus, six books of Livy, half of Horace, four books of Euclid or Aldrich's logic, English into Latin, the Gospels in Greek, and the Thirty-nine Articles with Scripture proofs"
+    use: [reference, student]
+    units: [greek-14, greek-12, latin-13, mathematics-10]
     search: Euripides
     tracks: [greek, latin, mathematics, logic, theology]
   - text: "1850 statute: new Law and Modern History school, with Blackstone for the pass and, for honours, history to 1789, jurisprudence, the law of nations and Adam Smith's Wealth of Nations; Bacon's Novum Organon made a text-book c. 1851"
+    use: [reference, student]
+    units: [civics-law-13, economics-06, logic-08]
     search: Adam Smith
     tracks: [history, civics-law, economics, philosophy]
 notes: >-

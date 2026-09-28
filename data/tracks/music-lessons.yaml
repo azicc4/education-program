@@ -1,0 +1,501 @@
+track: music-lessons
+title: "Music Lessons: Piano, Voice & Ensemble"
+trackGroup: Extracurriculars
+description: >-
+  Year-round private lessons in three strands, each moving from simple to complex with its own
+  prerequisites. Piano (5–18) runs from early method books through the graded levels of the RCM
+  Certificate Program or ABRSM to advanced repertoire (Bach, Clementi and Kuhlau, Beethoven, Chopin),
+  with sight-reading and accompanying throughout and church organ as an option. Voice (6–18) begins in a
+  children's choir with healthy, chant-based singing, adds private voice lessons from about 12 (handling
+  the boy's changing voice with care), and ends in classical voice, art song, sacred music and cantoring.
+  The ensemble instrument of choice (8–18), a string, woodwind or brass instrument, runs from beginning
+  method books through band or orchestra and chamber music to youth symphony and All-State auditions.
+  The Music track (Arts & Body) covers the liberal-art side: solfège, chant, theory, harmony, history,
+  choir and composition. This track is the weekly lesson and daily practice that makes those studies
+  audible. The end state is a graduate who plays piano at an advanced level and can accompany a hymn or a
+  singer, sings with a trained voice and can cantor at Mass, and has held a chair in a serious orchestra
+  or band.
+rows:
+  - id: music-lessons-01
+    title: "Piano I: First Lessons and Method Books"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 5
+    ageEnd: 8
+    order: 1
+    prerequisites: []
+    related: [music-01, music-03]
+    summary: >-
+      Weekly private piano lessons begin at 5–6 with a method series: note names, rhythm, reading on the grand
+      staff, five-finger positions, then hands together. Daily practice starts short (10–15 minutes) and a parent
+      sits in. Piano comes first because it makes harmony visible and serves every later strand as accompanist.
+    objectives:
+      - Take a weekly lesson and practice daily from a written assignment, with a parent supervising
+      - Read treble and bass clef on the grand staff and count simple rhythms aloud
+      - Play hands-together pieces in C, G and F five-finger positions with correct posture and hand shape
+      - Complete a primer and first level of a method series and play in a studio recital
+    coreTexts:
+      - title: "Piano Adventures: Primer Level Lesson Book (2nd ed.)"
+        author: Nancy and Randall Faber
+        publicDomain: false
+        links:
+          - { label: Faber Piano Adventures, url: "https://pianoadventures.com/product/piano-adventures-primer-level-lesson-book-2nd-edition/" }
+    curriculumOptions:
+      - name: Faber Piano Adventures
+        publisher: Faber Piano Adventures
+        tradition: secular
+        url: "https://pianoadventures.com/"
+        notes: The most widely used reading-based method, with lesson, theory, technique and performance books at each level.
+      - name: "Alfred's Basic Piano Library"
+        publisher: Alfred Music
+        tradition: secular
+        url: "https://www.alfred.com/products/alfred-s-basic-piano-library-lesson-book-1a-00-20656"
+        notes: A traditional, step-by-step method (Levels 1A, 1B, 2, and on) with interval reading.
+      - name: Music for Little Mozarts
+        publisher: Alfred Music
+        tradition: secular
+        url: "https://www.alfred.com/pages/music-for-little-mozarts"
+        notes: Pre-piano course for ages 4–6 with singing and listening. Continue in a regular method afterward.
+      - name: Suzuki Piano (find a Suzuki teacher)
+        publisher: Suzuki Association of the Americas
+        tradition: secular
+        url: "https://suzukiassociation.org/parents/find-a-suzuki-teacher/"
+        notes: Ear-first method with a parent at lessons. Add note reading early.
+    notes: >-
+      A good teacher matters more than the method book. The Music track (music-01, music-03) supplies the
+      solfège, practice habits and musicianship that complement these lessons.
+
+  - id: music-lessons-02
+    title: "Voice I: Children's Choir and the Singing Voice"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 11
+    order: 2
+    prerequisites: []
+    related: [music-01, music-02, music-05]
+    summary: >-
+      A child's voice is trained in a good children's choir, not in solo lessons. Sing weekly in a parish,
+      cathedral or community children's choir that uses a light, healthy head voice, together with the Ward
+      Method or Kodály singing of the Music track. From about grade 4 the choir can join Catholic youth
+      festivals. The goals are in-tune singing, a pure tone, part-singing, and the habit of singing at Mass.
+    objectives:
+      - Sing weekly in a children's or treble choir for three or more years
+      - Sing in tune with a light, free head voice, and hold a harmony part in a round or two-part piece
+      - Learn the chant ordinaries and 30 or more hymns and motets for services
+      - Sing a short solo or psalm verse in a service or concert
+    curriculumOptions:
+      - name: American Federation Pueri Cantores
+        publisher: American Federation Pueri Cantores
+        tradition: catholic
+        url: "https://www.pcchoirs.org/"
+        notes: The Church's official student choral organization. Festival Masses for parish and school choirs, grades 4–12 (treble festivals 4–8).
+      - name: Ward Method (CMAA)
+        publisher: Church Music Association of America
+        tradition: catholic
+        url: "https://musicasacra.com/ward-method/"
+        notes: Chant-based vocal training for children. Find a Ward-trained teacher or choir.
+      - name: RSCM Voice for Life
+        publisher: Royal School of Church Music
+        tradition: protestant
+        url: "https://www.rscm.org.uk/voice-for-life/"
+        notes: Graded chorister training scheme used in parish and cathedral choirs.
+    notes: >-
+      Most voice teachers do not take private students before 10–12. Until then, choir is the lesson. This row
+      runs alongside music-01 and music-02.
+
+  - id: music-lessons-03
+    title: "Piano II: Graded Levels, Sight-Reading and Hymn Playing"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 12
+    order: 3
+    prerequisites: [music-lessons-01]
+    related: [music-03, music-04, music-05, music-08]
+    summary: >-
+      After the method books, the student moves onto a graded syllabus (RCM Certificate Program Levels 1–6 or
+      ABRSM Grades 1–5) with repertoire, technique (scales, chords, arpeggios), ear training and sight-reading
+      at each level, and optional external exams. Repertoire begins with the Anna Magdalena Bach Notebook and
+      Clementi's Sonatinas. The student learns to play a hymn from the hymnal in four parts.
+    objectives:
+      - Pass graded levels in sequence to about RCM Level 6 or ABRSM Grade 5 by 12
+      - Play scales and arpeggios in all major and minor keys to four sharps and flats, hands together
+      - Sight-read a new piece daily at two levels below the current performance level
+      - Play 10 or more hymns from the hymnal in four parts at a steady congregational tempo
+    coreTexts:
+      - title: Notebooks for Anna Magdalena Bach
+        author: Johann Sebastian Bach and others
+        date: "1722–1725"
+        publicDomain: true
+        links:
+          - { label: IMSLP, url: "https://imslp.org/wiki/Notebooks_for_Anna_Magdalena_Bach_(Bach,_Johann_Sebastian)" }
+      - title: "Six Sonatinas, Op. 36"
+        author: Muzio Clementi
+        date: "1797"
+        publicDomain: true
+        links:
+          - { label: IMSLP, url: "https://imslp.org/wiki/6_Sonatinas,_Op.36_(Clementi,_Muzio)" }
+      - title: "Improve Your Sight-Reading! Piano (graded series)"
+        author: Paul Harris
+        publicDomain: false
+        links:
+          - { label: Faber Music, url: "https://www.fabermusic.com/shop/improve-your-sight-reading-piano-grade-1-p96" }
+    curriculumOptions:
+      - name: RCM Certificate Program (piano)
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/learning/examinations"
+        notes: North American graded curriculum and exams, with free syllabi.
+      - name: ABRSM graded exams (piano)
+        publisher: ABRSM
+        tradition: secular
+        url: "https://www.abrsm.org/en-us"
+        notes: The UK and international standard. Graded repertoire lists and sight-reading tests.
+      - name: Faber Piano Adventures (Levels 2A–5)
+        publisher: Faber Piano Adventures
+        tradition: secular
+        url: "https://pianoadventures.com/"
+        notes: Continue the method through its upper levels if the teacher prefers it to a graded syllabus.
+
+  - id: music-lessons-04
+    title: "Ensemble Instrument I: Choosing and Beginning a String, Woodwind or Brass Instrument"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 8
+    ageEnd: 11
+    order: 4
+    prerequisites: []
+    related: [music-03, music-04, music-06]
+    summary: >-
+      Around 8–10 the child chooses a second, ensemble instrument, one that plays a single line in an orchestra
+      or band: violin, viola, cello or bass; flute, clarinet, oboe or bassoon; trumpet, horn, trombone or
+      euphonium. Strings can start earlier (Suzuki violin or cello from 5–6). Wind and brass usually start at
+      9–11 when the teeth and lungs are ready. Weekly private lessons plus a beginning method book lead to a
+      first string orchestra or beginning band.
+    objectives:
+      - Choose an instrument after hearing and trying several, with the teacher's advice on build and temperament
+      - Take weekly private lessons and practice daily from a written assignment
+      - Complete a beginning method book (Suzuki Book 1 or Essential Elements Book 1) with good tone and posture
+      - Play in a beginning string orchestra, band or group class by the end of the row
+    coreTexts:
+      - title: "Suzuki Violin School, Volume 1 (rev. ed.)"
+        author: Shinichi Suzuki
+        publicDomain: false
+        links:
+          - { label: Alfred Music, url: "https://www.alfred.com/suzuki-violin-school-volume-1/p/00-0144S/" }
+      - title: Essential Elements for Strings, Book 1
+        author: Michael Allen, Robert Gillespie and Pamela Tellejohn Hayes
+        publicDomain: false
+        links:
+          - { label: Hal Leonard, url: "https://www.halleonard.com/ee/strings/book1.jsp" }
+      - title: Essential Elements for Band, Book 1
+        author: Tim Lautzenheiser and others
+        publicDomain: false
+        links:
+          - { label: Hal Leonard, url: "https://www.halleonard.com/ee/band/book1.jsp" }
+    curriculumOptions:
+      - name: Suzuki Method (violin, viola, cello, bass, flute)
+        publisher: Suzuki Association of the Americas
+        tradition: secular
+        url: "https://suzukiassociation.org/parents/find-a-suzuki-teacher/"
+        notes: Ear-first, parent-involved method with group classes. Strong for strings from 5–6.
+      - name: Essential Elements (strings and band)
+        publisher: Hal Leonard
+        tradition: secular
+        url: "https://www.halleonard.com/series/EESMTH"
+        notes: The most widely used beginning band and orchestra method, suited to private or group lessons.
+      - name: American String Teachers Association
+        publisher: ASTA
+        tradition: secular
+        url: "https://www.astastrings.org/"
+        notes: Professional association for string teachers. Useful for finding teachers and youth programs.
+    notes: >-
+      Pick the instrument the family can sustain for ten years. Cello, viola, bassoon, oboe and horn are always
+      in short supply in youth orchestras, which helps at audition time.
+
+  - id: music-lessons-05
+    title: "Ensemble Instrument II: Band, Orchestra and Chamber Music"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 14
+    order: 5
+    prerequisites: [music-lessons-04]
+    related: [music-08, music-09]
+    summary: >-
+      With the basics secure, the student plays in a community or school band or orchestra (or a junior youth
+      orchestra) every week, keeps up private lessons on a graded syllabus, and joins a small chamber group:
+      a string quartet, woodwind quintet or brass quintet. Ensemble playing teaches counting, listening, blend
+      and the discipline of the rehearsal.
+    objectives:
+      - Rehearse weekly in a band or orchestra and perform in its concerts
+      - Pass graded levels on the instrument to about RCM Level 5–6 or ABRSM Grade 4–5
+      - Play in a chamber group for at least one season and perform a movement in public
+      - Sight-read an ensemble part at the group's level
+    curriculumOptions:
+      - name: RCM Certificate Program (strings, woodwinds, brass)
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/learning/examinations"
+        notes: Graded syllabi and exams for orchestral instruments.
+      - name: ABRSM graded exams
+        publisher: ABRSM
+        tradition: secular
+        url: "https://www.abrsm.org/en-us"
+        notes: Graded repertoire and exams for every orchestral instrument.
+      - name: Essential Elements Books 2–3 and Excellence
+        publisher: Hal Leonard
+        tradition: secular
+        url: "https://www.halleonard.com/series/EESMTH"
+        notes: Continuation books for band and string players.
+    notes: >-
+      Homeschooled students can usually find a community youth band or orchestra, a homeschool band, or a
+      junior string orchestra attached to a youth symphony.
+
+  - id: music-lessons-06
+    title: "Voice II: Private Voice Lessons and the Changing Voice"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 15
+    order: 6
+    prerequisites: [music-lessons-02]
+    related: [music-08, music-10]
+    summary: >-
+      Private voice lessons begin around 12 with breath, posture, resonance and diction, using classic
+      vocalises and simple songs. For boys this coincides with the voice change: keep singing through it in a
+      comfortable, limited range, avoid pushing for the lost high notes or forcing the new low ones, and let
+      the teacher and choir director reassign the part as the voice settles. Choir continues alongside.
+    objectives:
+      - Take weekly private voice lessons and practice vocalises daily
+      - Sing with supported breath, open resonance and clear Latin, Italian and English diction
+      - "Boys: sing through the voice change in a comfortable range (cambiata, then baritone or tenor) without strain"
+      - Learn 6 or more simple art songs or early Italian arias and perform in a studio recital
+    coreTexts:
+      - title: "Fifty Lessons, Op. 9"
+        author: Giuseppe Concone
+        publicDomain: true
+        links:
+          - { label: IMSLP, url: "https://imslp.org/wiki/50_Le%C3%A7ons_de_chant,_Op.9_(Concone,_Giuseppe)" }
+      - title: "24 Italian Songs and Arias of the 17th and 18th Centuries"
+        author: G. Schirmer (ed.)
+        publicDomain: false
+        links:
+          - { label: Hal Leonard, url: "https://www.halleonard.com/product/50481592/24-italian-songs-arias-of-the-17th-18th-centuries" }
+    curriculumOptions:
+      - name: RCM Certificate Program (voice)
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/about-us/rcm-publishing/voice-series-2025-edition"
+        notes: Graded voice repertoire books and exams (Preparatory to Level 10).
+      - name: National Association of Teachers of Singing (NATS)
+        publisher: NATS
+        tradition: secular
+        url: "https://www.nats.org/"
+        notes: Find a qualified classical voice teacher.
+    sources:
+      - { label: "Cambiata Institute (Univ. of North Texas): Approaches to Teaching Boys with Changing Voices", url: "https://cambiata.music.unt.edu/approaches-teaching-boys-changing-voices" }
+    notes: >-
+      Girls' voices also change in adolescence (breathiness, cracking), less dramatically. Choose a teacher
+      experienced with adolescent voices, and never force range or volume during the change.
+
+  - id: music-lessons-07
+    title: "Piano III: Advanced Repertoire and Accompanying"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 18
+    order: 7
+    prerequisites: [music-lessons-03]
+    related: [music-09, music-10, music-11]
+    summary: >-
+      The advanced pianist works through RCM Levels 7–10 (or ABRSM Grades 6–8 and a diploma) and the core
+      repertoire: Bach Inventions and Preludes and Fugues, Clementi and Kuhlau sonatinas leading to the
+      Beethoven sonatas, and Chopin's nocturnes and preludes. He also learns to accompany: hymns and Mass
+      settings, a choir rehearsal, and a singer or instrumentalist in recital.
+    objectives:
+      - Pass RCM Level 8–10 or ABRSM Grade 7–8 by 16–18
+      - Perform all 15 two-part Inventions or a comparable Bach set, 2 or more Beethoven sonatas and several Chopin works over the row
+      - Accompany the choir or a soloist in a public performance, and play for a service
+      - Sight-read hymns, accompaniments and simple choral scores fluently
+    coreTexts:
+      - title: "Inventions and Sinfonias, BWV 772–801"
+        author: Johann Sebastian Bach
+        date: "1723"
+        publicDomain: true
+        links:
+          - { label: IMSLP, url: "https://imslp.org/wiki/15_Inventions,_BWV_772-786_(Bach,_Johann_Sebastian)" }
+      - title: "Sonatinas, Op. 20 and Op. 55"
+        author: Friedrich Kuhlau
+        date: "1820–1823"
+        publicDomain: true
+        links:
+          - { label: "IMSLP (Op. 20)", url: "https://imslp.org/wiki/3_Sonatinas,_Op.20_(Kuhlau,_Friedrich)" }
+          - { label: "IMSLP (Op. 55)", url: "https://imslp.org/wiki/6_Sonatinas,_Op.55_(Kuhlau,_Friedrich)" }
+      - title: 32 Piano Sonatas
+        author: Ludwig van Beethoven
+        date: "1795–1822"
+        publicDomain: true
+        links:
+          - { label: IMSLP, url: "https://imslp.org/wiki/Piano_Sonatas_(Beethoven,_Ludwig_van)" }
+      - title: "Preludes, Op. 28, and Nocturnes, Op. 9"
+        author: Frédéric Chopin
+        date: "1832–1839"
+        publicDomain: true
+        links:
+          - { label: "IMSLP (Preludes)", url: "https://imslp.org/wiki/Preludes,_Op.28_(Chopin,_Fr%C3%A9d%C3%A9ric)" }
+          - { label: "IMSLP (Nocturnes)", url: "https://imslp.org/wiki/Nocturnes,_Op.9_(Chopin,_Fr%C3%A9d%C3%A9ric)" }
+    curriculumOptions:
+      - name: RCM Certificate Program (piano, Levels 7–10 and ARCT)
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/learning/examinations"
+        notes: Advanced levels and the ARCT diploma.
+      - name: ABRSM (Grades 6–8 and diplomas)
+        publisher: ABRSM
+        tradition: secular
+        url: "https://www.abrsm.org/en-us"
+        notes: Grade 5 theory is required before Grades 6–8 practical exams (see music-08).
+    historicalPrecedent: >-
+      Bach wrote the Inventions (1723) as teaching pieces, "for lovers of the clavier" who wished to learn to
+      play cleanly in two and three parts and to compose. Jefferson set his daughter Martha a daily schedule in
+      1783 that set aside two periods of the day for music (8 to 10 in the morning and 4 to 5 in the afternoon).
+    sources:
+      - { label: "Jefferson to Martha Jefferson, 28 Nov. 1783 (Founders Online)", url: "https://founders.archives.gov/documents/Jefferson/01-06-02-0286" }
+
+  - id: music-lessons-08
+    title: "Church Organ and Service Playing (option)"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 18
+    order: 8
+    prerequisites: [music-lessons-03]
+    related: [music-05, music-07, music-10]
+    summary: >-
+      An optional branch for the solid pianist (about RCM Level 6 or higher): lessons on the pipe organ with a
+      parish or cathedral organist. The student learns pedal technique, registration and legato organ touch,
+      then the craft of service playing: hymns with introductions, chant accompaniment, and short voluntaries.
+      A young organist is a real gift to a parish, and the Church holds the pipe organ in high esteem.
+    objectives:
+      - Learn pedal technique and play hymns with independent pedal
+      - Play Bach's Eight Little Preludes and Fugues (attrib.) or comparable voluntaries
+      - Accompany congregational hymns and a chant Mass ordinary
+      - Attend a Pipe Organ Encounter or similar summer course, and play for a parish Mass
+    coreTexts:
+      - title: "Eight Short Preludes and Fugues, BWV 553–560 (attrib. Bach)"
+        author: Johann Sebastian Bach (attrib.)
+        publicDomain: true
+        links:
+          - { label: IMSLP, url: "https://imslp.org/wiki/8_Short_Preludes_and_Fugues,_BWV_553-560_(Bach,_Johann_Sebastian)" }
+    curriculumOptions:
+      - name: Pipe Organ Encounters (POE)
+        publisher: American Guild of Organists
+        tradition: secular
+        url: "https://agohq.org/Ago/Ago/Education/Pipe-Organ-Encounters.aspx"
+        notes: Week-long summer organ courses for teens run by local AGO chapters, including an advanced POE for grades 9–12.
+      - name: Church Music Association of America
+        publisher: CMAA
+        tradition: catholic
+        url: "https://musicasacra.com/"
+        notes: Chant accompaniment, liturgical repertoire and summer training in sacred music.
+    sources:
+      - { label: "Vatican II, Sacrosanctum Concilium §120 (the pipe organ)", url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html" }
+
+  - id: music-lessons-09
+    title: "Ensemble Instrument III: Youth Symphony, Chamber Music and All-State"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 18
+    order: 9
+    prerequisites: [music-lessons-05]
+    related: [music-09, music-11, music-12]
+    summary: >-
+      The top of the ensemble strand: audition into a regional youth symphony or wind ensemble, play serious
+      chamber music, and prepare the audition excerpts and solos for district and All-State ensembles run by
+      the state music educators' association. The strongest players can apply to national youth orchestras. A
+      concerto movement or a senior recital is the capstone.
+    objectives:
+      - Win a place in a youth symphony or wind ensemble by audition and play there for two or more seasons
+      - Pass RCM Level 8–10 or ABRSM Grade 7–8 on the instrument
+      - Prepare and take district and All-State auditions, and perform a concerto movement or senior recital
+      - Coach or lead sectionals for younger players
+    curriculumOptions:
+      - name: "National Youth Orchestra of the USA (Carnegie Hall)"
+        publisher: Carnegie Hall
+        tradition: secular
+        url: "https://www.carnegiehall.org/Education/Programs/National-Youth-Ensembles/NYO-USA"
+        notes: Free, highly selective summer orchestra for ages 16–19, with a residency and international tour.
+      - name: League of American Orchestras
+        publisher: League of American Orchestras
+        tradition: secular
+        url: "https://americanorchestras.org/"
+        notes: Network of US orchestras, including many youth orchestras. Use it to locate a regional youth symphony.
+      - name: RCM Certificate Program
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/learning/examinations"
+        notes: Advanced levels on orchestral instruments.
+    notes: >-
+      All-State ensembles are run by each state's music education association, and eligibility for homeschooled
+      students varies by state. Check early. NAfME's All-National Honor Ensembles are currently suspended.
+
+  - id: music-lessons-10
+    title: "Voice III: Classical Voice, Art Song, Sacred Music and Cantoring"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 18
+    order: 10
+    prerequisites: [music-lessons-06]
+    related: [music-07, music-10, latin-10]
+    summary: >-
+      With the adult voice settling, the student studies classical voice seriously: Italian arias, German
+      Lieder, French mélodie and English and American art song, oratorio arias (Handel, Bach), and sacred solo
+      repertoire. He learns to cantor at Mass: the responsorial psalm, chant intonations, and the Exsultet or
+      Passion parts where the parish allows. NATS student auditions give external feedback.
+    objectives:
+      - Pass RCM Voice Levels 6–8 or higher, or compete in NATS student auditions
+      - Sing art songs in Italian, German, French and English with correct diction
+      - Learn and perform two oratorio or sacred arias and a set of art songs in a recital
+      - Cantor regularly at Mass, including the psalm and chant intonations from the Parish Book of Chant
+    coreTexts:
+      - title: The Parish Book of Chant (2nd ed.)
+        author: Church Music Association of America
+        date: "2012"
+        publicDomain: false
+        links:
+          - { label: CMAA free PDF, url: "https://media.musicasacra.com/books/pbc_2nd.pdf" }
+    curriculumOptions:
+      - name: NATS Student Auditions
+        publisher: National Association of Teachers of Singing
+        tradition: secular
+        url: "https://www.nats.org/"
+        notes: Chapter, regional and national auditions with high-school categories (ages 14–19) for students of NATS members.
+      - name: RCM Certificate Program (voice)
+        publisher: The Royal Conservatory of Music
+        tradition: secular
+        url: "https://www.rcmusic.com/about-us/rcm-publishing/voice-series-2025-edition"
+        notes: Upper voice levels and repertoire.
+      - name: American Federation Pueri Cantores (high school festivals)
+        publisher: American Federation Pueri Cantores
+        tradition: catholic
+        url: "https://www.pcchoirs.org/festivals"
+        notes: High school and mixed-voice festival Masses with chant and polyphony.
+    historicalPrecedent: >-
+      Cantors and scholas have led the chant of the liturgy since the Roman Schola Cantorum. Pius X's Tra le
+      sollecitudini (1903) asked that singers be trained so the chant could be restored to the people.
+    sources:
+      - { label: "Pius X, Tra le sollecitudini (1903), English (Adoremus)", url: "https://www.adoremus.org/1903/11/tra-le-sollecitudini/" }

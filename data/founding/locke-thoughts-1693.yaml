@@ -19,63 +19,103 @@ primarySources:
   - { label: "Franklin's Proposals (1749), which cite Locke in the footnotes (Penn University Archives)", url: "https://archives.upenn.edu/digitized-resources/docs-pubs/franklin-proposals/" }
 entries:
   - text: "'A sound mind in a sound body' (§1): hardiness through plain diet, open air, cold washing of the feet, thin shoes, hard beds (§§1–30)"
+    use: [reference, teacher]
+    units: [early-development-03, early-development-09, early-development-11, physical-training-12]
     search: Locke
     tracks: [early-development, physical-training]
   - text: "Learn to swim (§8), which Locke says the Romans ranked with letters"
+    use: [reference, teacher]
+    units: [physical-training-01, early-development-09]
     search: Swimming
     tracks: [physical-training]
   - text: "Virtue founded on self-denial: the power to deny one's own desires and follow reason (§33); habits over rules; esteem and disgrace rather than the rod"
+    use: [reference, teacher]
+    units: [early-development-12]
     search: Locke
     tracks: [character-virtue, early-development]
   - text: "Reason with children, who 'love to be treated as rational creatures' (§81); cherish their curiosity and answer their questions (§108)"
+    use: [reference, teacher]
+    units: [early-development-12, philosophy-01]
     search: Locke
     tracks: [early-development, character-virtue]
   - text: "Order of aims: virtue, wisdom, breeding, learning, with virtue first and learning last (§§134–135)"
+    use: [reference, teacher]
+    units: [early-development-12]
     search: Locke
     tracks: [character-virtue]
   - text: "Learn to read by play (lettered dice, games); first books Aesop's Fables, preferably with pictures, and Reynard the Fox (§§148–156)"
+    use: [reference, student]
+    units: [early-development-17, literature-01, character-virtue-01]
     search: Aesop
     tracks: [reading-phonics, literature, early-development]
   - text: "Learn the Lord's Prayer, the Creeds, and the Ten Commandments by heart, by hearing them repeated, even before reading (§157)"
+    use: [reference]
+    units: [theology-01, theology-06]
     search: Lord's Prayer
     tracks: [theology, early-development]
   - text: "Bible stories chosen for children (Joseph and his brethren, David and Goliath, David and Jonathan) rather than reading straight through (§§158–159)"
+    use: [reference]
+    units: [theology-03, history-01]
     search: Bible
     tracks: [theology, reading-phonics]
   - text: "Writing, beginning with how to hold the pen (§160); then drawing (§161); shorthand as an optional art"
+    use: [reference]
+    units: [grammar-composition-01, fine-arts-04]
     search: Drawing
     tracks: [practical-arts, fine-arts]
   - text: "French first, learned by constant conversation; then Latin 'by talking and reading', with Aesop in interlinear translation (§§162–167)"
+    use: [reference]
+    units: [early-development-05, spanish-01, latin-05]
     search: Latin
     tracks: [latin, spanish]
   - text: "Geography first (globes), then arithmetic, astronomy, the first six books of Euclid, and chronology (§§178–183)"
+    use: [reference, student]
+    units: [mathematics-10, mathematics-12, history-02, natural-science-05]
     search: Euclid
     tracks: [mathematics, natural-science, history]
   - text: "History as 'the great mistress of prudence' (§182): Latin historians first (Justin, Eutropius, Curtius), rising at last to Cicero, Virgil, and Horace (§184)"
+    use: [reference, student]
+    units: [latin-05, latin-11, latin-12, latin-14]
     search: Cicero
     tracks: [history, latin]
   - text: "Ethics from the Bible and Cicero's Offices, then Pufendorf's De Officio Hominis et Civis, Grotius' De Jure Belli ac Pacis, and Pufendorf's De Jure Naturae et Gentium (§§185–186)"
+    use: [reference, student]
+    units: [character-virtue-13, philosophy-15]
     search: Pufendorf
     tracks: [philosophy, civics-law, character-virtue]
   - text: "Grotius, De Jure Belli ac Pacis: the natural rights of men and the foundations of society (§186)"
+    use: [reference, student]
+    units: [philosophy-15]
     search: Grotius
     tracks: [civics-law]
   - text: "The law of one's own country: English history and the ancient constitution (§187)"
+    use: [reference, student]
+    units: [history-21, civics-law-13]
     search: Locke
     tracks: [civics-law, history]
   - text: "Rhetoric and logic: Locke is skeptical of formal disputation and prefers Chillingworth and Cicero as models of reasoning and style (§§188–189)"
+    use: [reference, student]
+    units: [rhetoric-10, latin-11]
     search: Cicero
     tracks: [rhetoric, logic]
   - text: "Natural philosophy with doubts about its systems; still read Boyle, Newton's Principia, and Scripture on creation (§§190–194)"
+    use: [reference, student]
+    units: [physics-02, mathematics-18]
     search: Newton
     tracks: [natural-science]
   - text: "Dancing (§196), fencing and riding (§§198–199); music thought to waste too much time (§197)"
+    use: [reference]
+    units: [physical-training-06, physical-training-11]
     search: Dancing
     tracks: [physical-training, music]
   - text: "A manual trade, even two or three: gardening, husbandry, carpentry, turning (§§201–209)"
+    use: [reference]
+    units: [practical-arts-02, practical-arts-05, practical-arts-08, practical-arts-10]
     search: Gardening
     tracks: [practical-arts]
   - text: "Merchants' accounts to preserve an estate (§§210–211); travel to finish, but later and with a tutor (§§212–216)"
+    use: [reference]
+    units: [practical-arts-12]
     search: Accounts
     tracks: [economics, practical-arts]
 notes: >-

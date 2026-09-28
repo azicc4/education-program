@@ -382,3 +382,25 @@ footer { max-width: 1400px; margin: 24px auto; padding: 0 16px; font: 0.8rem var
   .theme-toggle { padding: 3px 8px; font-size: 0.78rem; }
   .intro { font-size: 0.95rem; }
 }
+
+/* ---------- exams ---------- */
+.exam-list { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); }
+.exam-card .plan { font: 0.9rem var(--sans); background: var(--surface-2); border-radius: 6px; padding: 6px 10px; }
+.exam-card details { margin: 6px 0; }
+.exam-card details p, .exam-card details ul { font-size: 0.93rem; margin: 6px 0; }
+.exam-card li small { color: var(--ink-2); font: 0.75rem var(--sans); }
+.badge.exam-badge { color: var(--lvl-912); text-decoration: none; }
+
+/* ---------- founding entries: use & unit links ---------- */
+.use-legend { display: grid; gap: 4px; font: 0.85rem var(--sans); color: var(--ink-2); }
+.use-student { color: var(--lvl-68); }
+.use-teacher { color: var(--lvl-college); }
+.use-reference { color: var(--trad-classical); }
+.badge.gap { color: var(--accent); border-style: dashed; }
+.chip-sep { width: 1px; align-self: stretch; background: var(--rule); margin: 0 4px; }
+.list-counts { font: 0.8rem var(--sans); color: var(--ink-2); margin: 0 0 6px; }
+ol.entries li { margin: 8px 0; }
+.entry-meta { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin-top: 3px; }
+.unit-links { display: flex; flex-wrap: wrap; gap: 4px; }
+.unit-chip { font: 0.78rem var(--sans); border: 1px solid var(--rule); border-radius: 6px; padding: 2px 7px; text-decoration: none; background: var(--bg); }
+.unit-chip small { color: var(--ink-2); }

@@ -18,69 +18,113 @@ primarySources:
   - { label: "Autobiography, HTML text (Gutenberg)", url: "https://www.gutenberg.org/cache/epub/10378/pg10378.html" }
 entries:
   - text: "Greek from about age three: memorizing 'vocables' (common Greek words with English meanings), then straight to translation"
+    use: [reference]
+    units: [greek-01]
     search: Greek
     tracks: [greek, early-development]
   - text: "Aesop's Fables — his first Greek book; Xenophon's Anabasis the second"
+    use: [reference, student]
+    units: [greek-07, greek-08]
     search: Aesop
     tracks: [greek, character-virtue]
   - text: "Before eight: all of Herodotus; Xenophon's Cyropaedia and Memorabilia ('Memorials of Socrates')"
+    use: [reference, student]
+    units: [greek-12, history-08, greek-08, character-virtue-10]
     search: Herodotus
     tracks: [greek, history, philosophy]
   - text: "Diogenes Laertius (some Lives of the Philosophers), part of Lucian, Isocrates To Demonicus and To Nicocles"
+    use: [reference, student]
+    units: [greek-07]
     search: Isocrates
     tracks: [greek, philosophy, rhetoric]
   - text: "Plato's first six dialogues, Euthyphro through Theaetetus (1813, at seven); later Gorgias, Protagoras, and the Republic"
+    use: [reference, student]
+    units: [philosophy-03, greek-10, philosophy-05, rhetoric-07]
     search: Plato
     tracks: [greek, philosophy]
   - text: "Arithmetic in the evenings with his father; Euclid, then algebra; later some differential calculus"
+    use: [reference, student]
+    units: [mathematics-09, mathematics-10, mathematics-18]
     search: Euclid
     tracks: [mathematics]
   - text: "Narration on morning walks: notes on slips of paper, then telling his father the story of what he had read"
+    use: [reference]
+    units: [grammar-composition-02]
     search: Mill
     tracks: [rhetoric, grammar-composition, physical-training]
   - text: "History: Robertson, Hume, Gibbon; favorites Watson's Philip II and Philip III and Hooke's Roman History"
+    use: [reference, student]
+    units: [history-18, history-21, history-28]
     search: Gibbon
     tracks: [history]
   - text: "Rollin's Ancient History, Langhorne's Plutarch ('great delight'), Burnet's History of His Own Time, the Annual Register, the Ancient Universal History, Millar's Historical View of the English Government"
+    use: [reference, student]
+    units: [character-virtue-06, history-28]
     search: Plutarch
     tracks: [history, character-virtue]
   - text: "Latin from eight while teaching it to a younger sister: Virgil's Bucolics and Aeneid I–VI, all Horace except the Epodes, Phaedrus"
+    use: [reference, student]
+    units: [latin-05, latin-12, latin-14]
     search: Virgil
     tracks: [latin, poetry]
   - text: "Livy (first decade), all Sallust, much of Ovid's Metamorphoses, some Terence, two or three books of Lucretius"
+    use: [reference, student]
+    units: [latin-09, latin-13, latin-17]
     search: Livy
     tracks: [latin, history, poetry]
   - text: "Cicero: several Orations, the rhetorical works, and the Letters to Atticus"
+    use: [reference, student]
+    units: [latin-11, rhetoric-10]
     search: Cicero
     tracks: [latin, rhetoric]
   - text: "Homer's Iliad and Odyssey entire in Greek (Pope's Iliad his first English verse love); some Sophocles, Euripides, Aristophanes"
+    use: [reference, student]
+    units: [greek-11, greek-14, poetry-10]
     search: Homer
     tracks: [greek, poetry]
   - text: "All Thucydides, Xenophon's Hellenica, much of Demosthenes (orations analyzed in writing), Aeschines, Lysias, Theocritus, Polybius"
+    use: [reference, student]
+    units: [greek-15, history-15, history-16, rhetoric-08]
     search: Thucydides
     tracks: [greek, history, rhetoric]
   - text: "Aristotle's Rhetoric, analyzed into synoptic tables — 'the first expressly scientific treatise' on a moral subject he read"
+    use: [reference, student]
+    units: [rhetoric-07]
     search: Aristotle
     tracks: [greek, rhetoric, philosophy]
   - text: "Writing 'histories' as boyhood exercises: a Roman history from Livy and Dionysius; verse practice turning Horace into English verse and imitating Thomson's Winter"
+    use: [reference]
+    units: [poetry-10, grammar-composition-09]
     search: Horace
     tracks: [grammar-composition, poetry, history]
   - text: "Logic at about twelve: Aristotle's Organon through the Analytics, then Hobbes's Computatio sive Logica"
+    use: [reference, student]
+    units: [logic-08]
     search: Aristotle
     tracks: [logic]
   - text: "Political economy at thirteen (1819): Ricardo, explained on walks and written up daily; then Adam Smith, read critically against Ricardo"
+    use: [reference, student]
+    units: [economics-06, economics-08]
     search: Smith
     tracks: [economics]
   - text: "Few children's books: Robinson Crusoe, the Arabian Nights, Don Quixote, Edgeworth's Popular Tales; later Scott's metrical romances"
+    use: [reference, student]
+    units: [literature-09, literature-30, poetry-04]
     search: Crusoe
     tracks: [literature]
   - text: "Teaching younger siblings from age eight — a duty he 'greatly disliked'; it made him learn thoroughly, though he judged it poor teaching and poor moral discipline"
+    use: [reference, teacher]
+    units: []
     search: Mill
     tracks: [character-virtue, practical-arts]
   - text: "The crisis of 1826 (ch. V): he concluded that 'the habit of analysis' wears away the feelings when nothing else is cultivated"
+    use: [reference, teacher, student]
+    units: [philosophy-11]
     search: Mill
     tracks: [character-virtue, philosophy]
   - text: "Cure through Wordsworth's poems (autumn 1828) and the Intimations Ode; he now held 'the cultivation of the feelings' a cardinal point"
+    use: [reference, student]
+    units: [poetry-11, philosophy-11]
     search: Wordsworth
     tracks: [poetry, character-virtue]
 notes: >-

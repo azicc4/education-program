@@ -24,54 +24,88 @@ primarySources:
   - { label: "Charles Carroll of Carrollton, biography (Maryland State Archives)", url: "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/000200/000209/html/209bio.html" }
 entries:
   - text: "1787 Proposals: admit pupils once they know 'the first Elements of Letters' and carry them through the branches of classical learning"
+    use: [reference]
+    units: []
     search: Carroll
     tracks: [latin, greek]
   - text: "Reading, writing, arithmetic, the easier branches of mathematics, and English grammar 'no less than the learned Languages'"
+    use: [reference]
+    units: [grammar-composition-04, grammar-composition-06, mathematics-06]
     search: Arithmetic
     tracks: [reading-phonics, grammar-composition, mathematics]
   - text: "Aim: 'the Cultivation of Virtue and literary Improvement', under a discipline incompatible with indolence and immorality"
+    use: [reference]
+    units: []
     search: Carroll
     tracks: [character-virtue]
   - text: "Open to students of every religious profession, who may attend their parents' church; all under one moral discipline"
+    use: [reference]
+    units: []
     search: Carroll
     tracks: [theology, civics-law]
   - text: "Opening years (1791–92): an English course and a classical course, with 'great attention to instruction in Latin and Greek' (Shea)"
+    use: [reference]
+    units: []
     search: Latin
     tracks: [latin, greek, grammar-composition]
   - text: "1798 prospectus (Dubourg), printed in English, French, and Spanish: the 'dead languages' Greek and Latin first, then English and French in theory and daily practice"
+    use: [reference]
+    units: []
     search: Greek
     tracks: [greek, latin]
   - text: "1798 prospectus: Spanish, valued next to English and French for a country tied by 'neighborhood and trade' to the Spanish territories"
+    use: [reference]
+    units: [spanish-03, spanish-05]
     search: Spanish
     tracks: [spanish]
   - text: "Dubourg added history, moral philosophy, music, dancing, and drawing to the course"
+    use: [reference]
+    units: []
     search: History
     tracks: [history, philosophy, music, fine-arts, physical-training]
   - text: "Jesuit class ladder: rudiments, three grammar classes, humanities (also called poetry), rhetoric, then philosophy, as in the Ratio Studiorum"
+    use: [reference]
+    units: [latin-04, rhetoric-10]
     search: Ratio Studiorum
     tracks: [latin, greek, rhetoric, philosophy]
   - text: "1816 course: English, French, Latin, Greek, sacred and profane history, geography and the use of globes"
+    use: [reference]
+    units: [history-02]
     search: Geography
     tracks: [history, theology]
   - text: "1816 mathematics: arithmetic, bookkeeping, algebra, geometry, trigonometry, surveying, navigation, astronomy, fluxions (calculus); lectures in natural and experimental philosophy"
+    use: [reference]
+    units: [practical-arts-09, practical-arts-14, practical-arts-12, mathematics-18]
     search: Geometry
     tracks: [mathematics, natural-science, economics]
   - text: "Charter of 1815 (signed by Madison); a six-year ordinary course leads to the B.A., with an M.A. for higher mathematics and philosophy (1820 prospectus)"
+    use: [reference]
+    units: []
     search: Philosophy
     tracks: [philosophy, mathematics]
   - text: "Public exhibitions and declamations in Latin, Greek, French, and English; a debate on whether Caesar was justly slain; student-acted tragedy of Caesar's death (1820–21)"
+    use: [reference]
+    units: [rhetoric-09, poetry-05, literature-15, drama-10]
     search: Caesar
     tracks: [rhetoric, history, civics-law]
   - text: "Table exercises recorded in an old diary: students translate the Graeca Minora and explain Virgil at dinner"
+    use: [reference, student]
+    units: [greek-07, latin-12]
     search: Virgil
     tracks: [greek, latin, poetry]
   - text: "John Carroll's own training: six years of classical and modern learning at St. Omer, then philosophy and theology at Liège, where he later taught everything from rudiments to theology"
+    use: [reference]
+    units: [history-22]
     search: St. Omer
     tracks: [latin, philosophy, theology]
   - text: "Charles Carroll of Carrollton: Jesuit school at Bohemia Manor, then St. Omer (1749–53), Reims, and Louis-le-Grand in Paris (philosophy)"
+    use: [reference]
+    units: []
     search: St. Omer
     tracks: [latin, greek, rhetoric, philosophy]
   - text: "Charles Carroll's law: civil law at Bourges and Paris, then common law at the Temple, London, before signing the Declaration"
+    use: [reference]
+    units: [civics-law-13]
     search: Carroll
     tracks: [civics-law]
 notes: >-

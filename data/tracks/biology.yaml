@@ -2,26 +2,28 @@ track: biology
 title: Biology
 trackGroup: Math & Science
 description: >-
-  From Mendel's peas to molecular genetics. Honors biology grounded in the classic papers, then AP Biology. Evolution is read alongside Catholic teaching (Humani Generis). The goal is command of cell biology, genetics, evolution and ecology, and a strong AP Biology exam by about 14.
+  From Mendel's peas to molecular genetics, following the recognized AP sequence with the classic papers as companions. Honors Biology at 12–13 is grounded in Mendel, Darwin read critically, and Humani Generis. AP Biology follows at 13–14, aligned to the College Board Course and Exam Description and taken alongside Honors Chemistry, with the exam in May at about 14. A Catholic bioethics companion (Donum Vitae, Dignitas Personae) reads the new biotechnology in the light of the Church's teaching on the human person. Every student sits the USA Biology Olympiad (USABO) from the AP year on. The end state is command of cell biology, genetics, evolution, physiology and ecology, the ability to design and analyze experiments, and a principled, informed view of the ethics of the life sciences.
 rows:
   - id: biology-01
-    title: "Biology: Cells, Heredity & Evolution (Mendel, Darwin, Humani Generis)"
+    title: "Honors Biology: Cells, Heredity & Evolution (Mendel, Darwin, Humani Generis)"
     type: course
     level: 9-12
     stage: formal
     ageStart: 12
-    ageEnd: 13.5
+    ageEnd: 13
     order: 1
     prerequisites: []
-    related: [theology-14, natural-science-09, natural-science-11]
+    related: [theology-14, natural-science-09, natural-science-11, mathematics-09]
     summary: >-
-      A full lab biology course covering biochemistry, the cell, genetics, molecular biology, evolution,
-      ecology and the diversity of life. Students read Mendel's pea paper (by an Augustinian friar), the
-      first edition of Darwin's Origin of Species read critically as an argument, and Pius XII's
-      encyclical Humani Generis on what Catholic teaching permits and forbids in evolutionary theory.
+      A full lab honors biology course covering biochemistry, the cell, genetics, molecular biology,
+      evolution, ecology and the diversity of life. Students read Mendel's pea paper (by an Augustinian
+      friar), the first edition of Darwin's Origin of Species read critically as an argument, and Pius
+      XII's encyclical Humani Generis on what Catholic teaching permits and forbids in evolutionary theory.
+      It lays the foundation for AP Biology (biology-02) the following year.
     objectives:
       - Carry out lab work (microscopy, dissection, a Mendelian cross, DNA extraction)
       - Solve monohybrid and dihybrid genetics problems and explain Mendel's reasoning from his data
+      - Describe cell structure, membranes, enzymes, photosynthesis and respiration at the level AP Biology assumes
       - Outline Darwin's argument and distinguish its empirical claims from philosophical extrapolations
       - State the Catholic position in Humani Generis and compare other Christian positions fairly
     coreTexts:
@@ -37,6 +39,7 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1228" }
+          - { label: "Green Lion Press guided selections (The Shape of the Argument)", url: "https://www.greenlion.com/books/Darwin_GC.html" }
       - title: Humani Generis
         author: Pope Pius XII
         date: "1950"
@@ -60,35 +63,32 @@ rows:
         publisher: Classical Academic Press / Novare
         tradition: classical
         url: "https://classicalacademicpress.com/products/general-biology-2nd-edition"
-        notes: Classical Christian, mastery-based. Also sold by Memoria Press. Advanced Biology follows.
-      - name: Exploring Creation with Biology, 3rd ed.
-        publisher: Apologia
-        tradition: protestant
-        url: "https://www.apologia.com/shop/exploring-creation-with-biology-3rd-edition"
-        notes: Widely used homeschool biology with strong labs. It teaches from a young-earth creationist perspective.
+        notes: Classical Christian, mastery-based. Also sold by Memoria Press. Novare's Advanced Biology (see biology-02) follows it.
       - name: Biology with Lab / Honors Biology (online)
         publisher: Kolbe Academy
         tradition: catholic
         url: "https://courses.kolbe.org/"
         notes: Catholic online course.
-      - name: Biology 2e (Campbell-level alternative)
-        publisher: OpenStax
-        tradition: secular
-        url: "https://openstax.org/details/books/biology-2e"
-        notes: Free college-level text comparable in scope to Campbell Biology. Use it for AP-level depth.
-      - name: "Selections from Darwin's Origin of Species: The Shape of the Argument"
-        publisher: Green Lion Press
-        tradition: classical
-        url: "https://www.greenlion.com/books/Darwin_GC.html"
-        notes: Guided reading of Darwin's argument.
+      - name: Exploring Creation with Biology, 3rd ed.
+        publisher: Apologia
+        tradition: protestant
+        url: "https://www.apologia.com/subject/science/biology/"
+        notes: Widely used homeschool biology with strong labs. It teaches from a young-earth creationist perspective.
+    historicalPrecedent: >-
+      Benjamin Smith Barton of Philadelphia published Elements of Botany (1803), the first American
+      botany textbook, illustrated by William Bartram. Natural history of this kind, with plants and
+      animals observed, collected and classified, was the biology of the founding generation.
+    sources:
+      - { label: "The Online Books Page: Benjamin Smith Barton", url: "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Barton%2C+Benjamin+Smith%2C+1766-1815" }
     notes: >-
       Neutral note on differing views. Catholic teaching (Humani Generis, 1950; later papal statements)
       allows scientific inquiry into the evolution of the human body from pre-existing matter. It holds
       that each human soul is directly created by God and rejects polygenism and materialist
       philosophy. Many Protestants hold the same view, while others (e.g., Apologia, Answers in Genesis)
       hold young-earth creationism. Present the evidence and the arguments honestly, and let parents
-      decide the emphasis. Campbell Biology (Pearson) is the standard AP/college text if a
-      print textbook is preferred. The Selfish Gene is an elective and a critical reading for the
+      decide the emphasis. Because this course feeds straight into AP Biology, cover the biochemistry,
+      cell-energetics and genetics chapters thoroughly even if some diversity-of-life material is
+      shortened. The Selfish Gene is an elective and a critical reading for the
       end of the course (13+): it is the classic popular statement of the gene's-eye view of
       evolution and of kin selection, and the student should separate its genuine science from
       Dawkins's reductionist and materialist gloss ("survival machines"), which Humani Generis
@@ -96,3 +96,242 @@ rows:
       dinosaurs from ancient DNA. Read it for the ethics of science: Ian Malcolm's chaos-theory
       warnings against the hubris of doing whatever technology makes possible. Parents should know
       it has thriller violence and some profanity.
+
+  - id: biology-02
+    title: AP Biology
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 2
+    prerequisites: [biology-01]
+    related: [chemistry-01, chemistry-02, natural-science-11, mathematics-16, social-science-03, theology-14]
+    exams: [ap-biology]
+    summary: >-
+      A college-level introductory biology course aligned to the College Board AP Biology Course and
+      Exam Description (CED), sat in May at about 14. It follows Honors Biology and runs concurrently
+      with Honors Chemistry, which supplies the chemistry of life and cellular energetics. It covers the
+      eight CED units and the lab investigations, with heavy practice in experimental design, data
+      analysis and statistics (chi-square, Hardy-Weinberg). Mendel and Darwin return as the historical
+      roots of Units 5 and 7, and the ethics of biotechnology is taken up in biology-03.
+    objectives:
+      - "Unit 1, Chemistry of Life: water, macromolecules, structure and function of nucleic acids and proteins"
+      - "Unit 2, Cells: organelles, membranes, transport, surface-area-to-volume, compartmentalization and endosymbiosis"
+      - "Unit 3, Cellular Energetics: enzymes, photosynthesis, cellular respiration"
+      - "Unit 4, Cell Communication and Cell Cycle: signal transduction, feedback, mitosis and its regulation"
+      - "Unit 5, Heredity: meiosis, Mendelian and non-Mendelian inheritance, chi-square analysis"
+      - "Unit 6, Gene Expression and Regulation: replication, transcription, translation, regulation, mutation, biotechnology"
+      - "Unit 7, Natural Selection: evidence for evolution, Hardy-Weinberg, speciation, phylogeny, origins of life"
+      - "Unit 8, Ecology: responses to the environment, energy flow, population and community ecology, biodiversity"
+      - Complete a full set of lab investigations (e.g., diffusion and osmosis, enzyme activity, photosynthesis, cellular respiration, artificial selection, bacterial transformation) with written reports
+      - Answer released free-response questions under time, including experimental design and graphing questions
+    coreTexts:
+      - title: Campbell Biology, 12th ed.
+        author: Lisa A. Urry, Michael L. Cain, Steven A. Wasserman, Peter V. Minorsky & Rebecca B. Orr
+        date: "2020"
+        publicDomain: false
+        links:
+          - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/campbell-biology/P200000007019/9780135988046" }
+      - title: "Biology for AP Courses (free)"
+        author: OpenStax
+        date: "2018"
+        publicDomain: false
+        links:
+          - { label: OpenStax, url: "https://openstax.org/details/books/biology-ap-courses" }
+      - title: "Miller & Levine Biology (companion high-school text)"
+        author: Kenneth R. Miller & Joseph S. Levine
+        date: current ed.
+        publicDomain: false
+        links:
+          - { label: Savvas Homeschool, url: "https://homeschool.savvas.com/discipline/science/programs/miller-and-levine-biology" }
+      - title: AP Biology Lab Manual (student investigations)
+        author: College Board
+        date: current ed.
+        publicDomain: false
+        links:
+          - { label: College Board (AP Students), url: "https://apstudents.collegeboard.org/courses/ap-biology/lab-manual" }
+      - title: Princeton Review AP Biology Premium Prep (review book)
+        author: The Princeton Review
+        date: annual
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/807024/princeton-review-ap-biology-premium-prep-29th-edition-by-the-princeton-review/" }
+    curriculumOptions:
+      - name: Advanced Biology (Novare)
+        publisher: Classical Academic Press / Novare
+        tradition: classical
+        url: "https://classicalacademicpress.com/products/advanced-biology-program"
+        notes: >-
+          Classical Christian. It covers the whole AP Biology syllabus with a biochemical emphasis and
+          assumes chemistry, which Honors Chemistry supplies concurrently here. Use it with AP
+          Classroom practice.
+      - name: AP Biology (live online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://www.kolbe.org/academics/honors-ap-and-dual-credit/online-honors-ap-courses-1"
+        notes: >-
+          Catholic live online AP course, nominally for upper grades, so ask about placing a younger
+          accelerated student. The family arranges the exam with a local test site.
+      - name: AP Biology (free course) and AP Classroom
+        publisher: Khan Academy / College Board
+        tradition: secular
+        url: "https://www.khanacademy.org/science/ap-biology"
+        notes: >-
+          Khan Academy's free course follows the CED units. AP Classroom (https://apclassroom.collegeboard.org/)
+          holds the official Topic Questions and Progress Checks, available through the school or test
+          site where the exam is ordered.
+    historicalPrecedent: >-
+      In 1803 Jefferson sent Meriwether Lewis to Philadelphia to be tutored before the western
+      expedition: botany and natural history with Benjamin Smith Barton, anatomy and fossils with Caspar
+      Wistar, and medicine with Benjamin Rush. A founder's science education was meant to be put to use.
+    sources:
+      - { label: "College Board: AP Biology course page", url: "https://apcentral.collegeboard.org/courses/ap-biology" }
+      - { label: "College Board: AP Biology Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf" }
+      - { label: "College Board: AP Biology Lab Manual Resource Center", url: "https://apcentral.collegeboard.org/courses/ap-biology/course/lab-manual-resource-center" }
+      - { label: "Monticello: Lewis Prepares for the Journey", url: "https://www.monticello.org/lewis-and-clark/preparing-for-the-expedition/lewis-prepares" }
+    notes: >-
+      Campbell is the standard college and AP text and the core text for the USA Biology Olympiad
+      (biology-04). OpenStax Biology for AP Courses is a free alternative written to the AP framework.
+      Miller & Levine is an easier high-school text, useful for review and for a student who needs a
+      bridge from Honors Biology. The CED unit weightings favor cellular energetics, gene expression and
+      natural selection, so budget time accordingly. Several investigations (transformation,
+      electrophoresis) need kits or a co-op or college lab day; see also chemistry-02 for lab safety and
+      notebook standards. Bioethics: Units 6 and 7 raise IVF, embryo research, cloning, gene editing and
+      human origins. Read them with biology-03 (Donum Vitae, Dignitas Personae) and with Humani Generis
+      from biology-01.
+
+  - id: biology-03
+    title: "Bioethics Companion: The Human Person and the New Biology (Donum Vitae, Dignitas Personae)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 14.5
+    order: 3
+    prerequisites: [biology-01]
+    related: [theology-13, theology-20, philosophy-07]
+    summary: >-
+      A short companion to AP Biology that reads the biotechnology of Unit 6 (DNA technology, cloning,
+      stem cells, gene editing) and the questions of human origins and life's beginning in the light of
+      Catholic teaching on the dignity of the human person. Students read the Hippocratic Oath, the
+      Congregation for the Doctrine of the Faith's instructions Donum Vitae (1987) and Dignitas Personae
+      (2008), and selections of Evangelium Vitae (1995), with Fr. Nicanor Austriaco's Biomedicine and
+      Beatitude, written by a Dominican who is a professor of both biology and theology, as a guide.
+    objectives:
+      - State the biological facts of fertilization and embryonic development accurately, using the AP text
+      - Summarize the principles of Donum Vitae and Dignitas Personae on IVF, embryo freezing, preimplantation diagnosis, cloning, embryonic stem cells and gene therapy
+      - Distinguish therapeutic from enhancement uses of genetic engineering, and somatic from germ-line interventions, as Dignitas Personae does
+      - Explain why the Church encourages research using adult and umbilical-cord stem cells
+      - Present opposing arguments fairly and answer them in a short written disputation
+    coreTexts:
+      - title: The Oath
+        author: Hippocrates, trans. W. H. S. Jones
+        date: "c. 400 BC (trans. 1923)"
+        publicDomain: true
+        links:
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0251%3Atext%3DJusj." }
+      - title: "Donum Vitae: Instruction on Respect for Human Life in Its Origin and on the Dignity of Procreation"
+        author: Congregation for the Doctrine of the Faith
+        date: "1987"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19870222_respect-for-human-life_en.html" }
+      - title: "Dignitas Personae: On Certain Bioethical Questions"
+        author: Congregation for the Doctrine of the Faith
+        date: "2008"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20081208_dignitas-personae_en.html" }
+      - title: Evangelium Vitae (selections)
+        author: Pope John Paul II
+        date: "1995"
+        publicDomain: false
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html" }
+      - title: "Biomedicine and Beatitude: An Introduction to Catholic Bioethics, 2nd ed."
+        author: Nicanor Pier Giorgio Austriaco, OP
+        date: "2021"
+        publicDomain: false
+        links:
+          - { label: Catholic University of America Press, url: "https://www.cuapress.org/9780813233901/biomedicine-and-beatitude/" }
+    curriculumOptions:
+      - name: High School Program (online bioethics course)
+        publisher: The National Catholic Bioethics Center
+        tradition: catholic
+        url: "https://www.ncbcenter.org/highschoolprogram"
+        notes: >-
+          A 16-week, asynchronous, undergraduate-level course for Catholic high schools and homeschool
+          networks, using Austriaco and the magisterial documents above. Three college credits are
+          available through Catholic International University. It also covers end-of-life questions and
+          gender ideology, so parents may prefer to take it at 15–16 with theology-20.
+      - name: "Making Sense of Bioethics (Fr. Tadeusz Pacholczyk's columns)"
+        publisher: The National Catholic Bioethics Center / FatherTad.com
+        tradition: catholic
+        url: "https://www.fathertad.com/writings/making-sense-bioethics/"
+        notes: Short, clear monthly columns by an NCBC ethicist with a Yale PhD in neuroscience. They work well as weekly discussion starters alongside AP Biology.
+    notes: >-
+      Keep it light while AP Biology is under way, about one reading and one discussion a week, and pair
+      each document with the AP topic it addresses. Protestant families will find much common ground on
+      the dignity of embryonic human life, though Christian traditions differ on IVF and contraception;
+      present those differences fairly.
+
+  - id: biology-04
+    title: "Biology Olympiad (USABO)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13.5
+    ageEnd: 16
+    order: 4
+    prerequisites: [biology-02]
+    related: [chemistry-04, natural-science-11, mathematics-14]
+    exams: [biology-olympiad]
+    summary: >-
+      Standard for every student. The USA Biology Olympiad (Center for Excellence in Education) begins
+      with a 50-minute online multiple-choice Open Exam, proctored at a registered school or USABO
+      center. The top 10% (U.S. citizens and permanent residents) sit a 120-minute Semifinal Exam, and
+      the top 20 attend the National Finals, a residential training program from which the U.S. team for
+      the International Biology Olympiad is chosen. Students first sit the Open Exam during the AP
+      Biology year (about 13.5–14) and every year after, extending Campbell into the olympiad syllabus of
+      plant and animal physiology, ethology and biosystematics.
+    objectives:
+      - Sit the USABO Open Exam every year from the AP Biology year, registered through a participating host school or USABO center
+      - Master Campbell Biology beyond the AP selection, especially the plant and animal form-and-function units
+      - Study to the IBO topic weights USABO publishes (animal anatomy and physiology 25%, cell and molecular 20%, genetics and evolution 20%, plant 15%, ecology 10%, ethology 5%, biosystematics 5%)
+      - Work the released Open and Semifinal exams (2003–2018, and 2020 Semifinal) under time
+    coreTexts:
+      - title: Campbell Biology, 12th ed. (full text, all units)
+        author: Urry, Cain, Wasserman, Minorsky & Orr
+        date: "2020"
+        publicDomain: false
+        links:
+          - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/campbell-biology/P200000007019/9780135988046" }
+      - title: USABO Open and Semifinal exams with keys, 2003–2018
+        author: Center for Excellence in Education
+        date: "2003–2018"
+        publicDomain: false
+        links:
+          - { label: USABO (PDF), url: "https://usabo-trc.org/sites/default/files/allfiles/USABO%20Past%20Exams_0.pdf" }
+    curriculumOptions:
+      - name: "USABO: About the Exams"
+        publisher: Center for Excellence in Education
+        tradition: secular
+        url: "https://usabo-trc.org/usabo-about-exams"
+        notes: Official description of the Open, Semifinal, National Finals and IBO rounds, formats and scoring.
+      - name: "USABO Content Information & How to Study"
+        publisher: Center for Excellence in Education
+        tradition: secular
+        url: "https://usabo-trc.org/src-content-information"
+        notes: Official study resources organized by the IBO syllabus, with links to past exams and supplementary reading.
+    sources:
+      - { label: "USA Biology Olympiad (CEE)", url: "https://www.usabo-trc.org/" }
+    notes: >-
+      The Open Exam is limited to high-school students (grades 9–12), so an accelerated student should be
+      enrolled as a 9th-grader in the family's homeschool records by the AP Biology year. Homeschooled
+      students need a registered host school or USABO center: schools register in the fall (a $125
+      school fee), and students then register themselves once the test administrator confirms. Ask a
+      local school or co-op early, or ask CEE for a host. The Semifinal and Finals require U.S.
+      citizenship or permanent residency. National Finalists agree not to take part in other national
+      olympiads or summer programs that conflict with training, so a student strong in both chemistry
+      and biology should plan which olympiad to pursue at the top level.

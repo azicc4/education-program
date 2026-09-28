@@ -21,63 +21,103 @@ primarySources:
   - { label: "Penn in the 18th Century: The Academy (Penn University Archives)", url: "https://archives.upenn.edu/exhibits/penn-history/18th-century/academy/" }
 entries:
   - text: "Write a fair hand, and swift; with it learn some drawing by imitating prints, and the first principles of perspective"
+    use: [reference]
+    units: [fine-arts-03, fine-arts-04, fine-arts-06]
     search: Drawing
     tracks: [practical-arts, fine-arts]
   - text: "Arithmetic, accounts (bookkeeping), and the first principles of geometry and astronomy"
+    use: [reference]
+    units: [mathematics-06, practical-arts-12, mathematics-10, natural-science-05]
     search: Arithmetic
     tracks: [mathematics, economics, natural-science]
   - text: "English taught by grammar, with Tillotson, Addison, Pope, Algernon Sidney, and Cato's Letters as 'Classicks'; clear and concise styles cultivated"
+    use: [reference, student]
+    units: [grammar-composition-06, literature-20, civics-law-10]
     search: Addison
     tracks: [grammar-composition, literature, civics-law]
   - text: "Reading aloud and pronouncing properly, distinctly, and emphatically; writing letters, abstracts, and stories in the pupils' own words"
+    use: [reference]
+    units: [rhetoric-05, grammar-composition-08, grammar-composition-11]
     search: Spectator
     tracks: [reading-phonics, grammar-composition, rhetoric]
   - text: "History at the center: Greek and Roman history, Rollin's Ancient and Roman histories, the new Universal History, then England and the Colonies"
+    use: [reference, student]
+    units: [history-13, history-21, history-28]
     search: Rollin
     tracks: [history]
   - text: "Geography with maps and globes; chronology by Helvicus or a similar writer"
+    use: [reference]
+    units: [history-02]
     search: Helvicus
     tracks: [history]
   - text: "Morality taught from history (temperance, order, frugality, industry); also 'the Necessity of a Publick Religion' and the excellency of Christianity"
+    use: [reference]
+    units: [character-virtue-06]
     search: Franklin
     tracks: [character-virtue, theology]
   - text: "Oratory: learn its principles after history shows its power, and practise speaking and debating"
+    use: [reference]
+    units: [rhetoric-07, rhetoric-09]
     search: Oratory
     tracks: [rhetoric]
   - text: "First principles of politics from history (liberty, good laws, justice); questions of right and wrong debated; logic; Grotius and Pufendorf on natural law"
+    use: [reference, student]
+    units: [philosophy-15, rhetoric-09, logic-03]
     search: Pufendorf
     tracks: [civics-law, logic, philosophy]
   - text: "Natural history, health (Arbuthnot on Air and Aliment, Sanctorius, Lemery), with gardening, planting, grafting, and visits to the best farms"
+    use: [reference]
+    units: [natural-science-09, natural-science-11, practical-arts-02, practical-arts-08]
     search: Arbuthnot
     tracks: [natural-science, practical-arts]
   - text: "History of commerce, inventions, and manufactures; mechanics, with prints and models of machines"
+    use: [reference]
+    units: [natural-science-07, natural-science-10]
     search: Commerce
     tracks: [economics, practical-arts, natural-science]
   - text: "Languages by vocation: Latin and Greek for divinity; Latin, Greek, and French for medicine; Latin and French for law; French, German, and Spanish for merchants"
+    use: [reference]
+    units: [latin-04, greek-03, spanish-05]
     search: Latin
     tracks: [latin, greek, spanish]
   - text: "Running, leaping, wrestling, and swimming to keep the body healthy and active"
+    use: [reference]
+    units: [physical-training-01, physical-training-03, physical-training-10]
     search: Swimming
     tracks: [physical-training]
   - text: "Aim of all learning: 'an Inclination join'd with an Ability to serve Mankind', one's country, friends, and family"
+    use: [reference, teacher]
+    units: [practical-arts-17]
     search: Franklin
     tracks: [character-virtue, civics-law]
   - text: "Footnoted authorities: Milton's Of Education, Locke's Some Thoughts Concerning Education, Dialogues on Education (credited to Hutcheson), Obadiah Walker, Rollin's Belles Lettres, Turnbull's Observations on Liberal Education"
+    use: [teacher]
+    units: [early-development-12]
     search: Locke
     tracks: [philosophy, character-virtue]
   - text: "English School, classes 1–2: English grammar and spelling contests; Croxall's Fables; then reading easier Spectator papers for grammar, meaning, and expression"
+    use: [reference, student]
+    units: [reading-phonics-05, character-virtue-01, grammar-composition-09]
     search: Croxall
     tracks: [reading-phonics, grammar-composition, literature]
   - text: "English School, class 3: elements of rhetoric (tropes and figures), speeches from Roman history and Parliament learned by heart; Rollin's history; Spectacle de la Nature"
+    use: [reference, student]
+    units: [rhetoric-05, poetry-05, history-28]
     search: Rollin
     tracks: [rhetoric, history, natural-science]
   - text: "English School, classes 4–5: letter-writing on Temple's and Pope's letters; Samuel Johnson's Ethices Elementa, then his Noetica (logic); prose essays and some verse"
+    use: [reference, student]
+    units: [grammar-composition-08, grammar-composition-11, poetry-08]
     search: Johnson
     tracks: [grammar-composition, character-virtue, logic, poetry]
   - text: "English School, class 6: Tillotson, Milton, Locke, Addison, Pope, Swift, the Spectator and Guardian, translations of Homer, Virgil, Horace, Telemachus"
+    use: [reference, student]
+    units: [literature-19, literature-20, poetry-10, philosophy-09]
     search: Milton
     tracks: [literature, poetry]
   - text: "Annual public exercises in the hall, with gilt books given as prizes to excite emulation"
+    use: [reference]
+    units: [poetry-05, rhetoric-12]
     search: Franklin
     tracks: [rhetoric, character-virtue]
 notes: >-

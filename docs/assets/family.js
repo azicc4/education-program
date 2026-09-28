@@ -88,6 +88,7 @@
     const active = items.filter((i) => i.status === 'active');
     const ready = items.filter((i) => i.status !== 'active');
     return `
+      <p class="desc"><a href="exams.html">Exam planner →</a> projected dates for every exam ${esc(c.name)} is preparing for.</p>
       <p class="desc">Age ${esc(fmtYears(S.age(c)))} · ${countStatus(c.id, 'done')} units completed · ${countStatus(c.id, 'active')} in progress · ${S.shelf(c.id).length} books on the shelf.
       Ready units are the next unit in each track whose prerequisites are complete and whose typical age is within a year of ${esc(c.name)}'s age.</p>
       <h2>In progress <small>(${active.length})</small></h2>

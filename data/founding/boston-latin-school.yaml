@@ -19,78 +19,128 @@ primarySources:
   - { label: "Catalogue of Graduates of the Public Latin School in Boston, 1816–1917 (Archive.org full text)", url: "https://archive.org/stream/catalogueofgradu00bost/catalogueofgradu00bost_djvu.txt" }
 entries:
   - text: "Admission test (Lovell era, to 1775): reading a few verses of the Bible aloud at the master's house"
+    use: [reference]
+    units: [reading-phonics-06, rhetoric-02]
     search: Bible
     tracks: [reading-phonics, theology]
   - text: "Ezekiel Cheever, 'The Accidence' — the first-form Latin primer; per Jenks it ran through eighteen editions before the Revolution"
+    use: [reference]
+    units: [latin-02, latin-03]
     search: Cheever
     tracks: [latin]
   - text: "Nomenclator (Nomenclatura Brevis) — Latin vocabulary lists memorized in the first class"
+    use: [reference]
+    units: [latin-02, latin-04]
     search: Nomenclator
     tracks: [latin]
   - text: "Corderius, Colloquies ('quid agis'), Latin with facing English — first-year conversational reading"
+    use: [reference, student]
+    units: [latin-05]
     search: Corderius
     tracks: [latin]
   - text: "Aesop's Fables in Latin and English (first class, 1789 System)"
+    use: [reference, student]
+    units: [latin-05, character-virtue-01]
     search: Aesop
     tracks: [latin, character-virtue]
   - text: "Ward's (Lily's) Latin Grammar; from Gould's time Adam's Latin Grammar, memorized entire over six to eight months"
+    use: [reference]
+    units: [latin-03, latin-06]
     search: Grammar
     tracks: [latin, grammar-composition]
   - text: "Eutropius, Breviarium of Roman history (first and second classes)"
+    use: [reference, student]
+    units: [latin-05]
     search: Eutropius
     tracks: [latin, history]
   - text: "Clarke's Introduction to the Making of Latin and Garretson's Exercises — daily 'making Latin' (English into Latin)"
+    use: [reference]
+    units: [latin-05, latin-08]
     search: Clarke
     tracks: [latin, grammar-composition]
   - text: "Selectae e Veteri Testamento Historiae or Castalio's Dialogues — Bible stories in Latin (second class)"
+    use: [reference]
+    units: [latin-10]
     search: Bible
     tracks: [latin, theology]
   - text: "Viri Romae, Phaedrus's Fables, and Cornelius Nepos (Gould's second year; Nepos still in the 1860 course)"
+    use: [reference, student]
+    units: [latin-05, latin-07]
     search: Nepos
     tracks: [latin, history, character-virtue]
   - text: "Ovid, Metamorphoses — with scansion, prosody, evening memorization and 'capping' verses"
+    use: [reference, student]
+    units: [latin-09]
     search: Ovid
     tracks: [latin, poetry]
   - text: "Caesar, Commentaries (third class in 1789; still read in 1860)"
+    use: [reference, student]
+    units: [latin-07, history-09]
     search: Caesar
     tracks: [latin, history]
   - text: "Cicero ('Tully'): Epistles or De Officiis in the third class; select Orations, De Senectute, De Amicitia in the upper classes"
+    use: [reference, student]
+    units: [latin-11, character-virtue-13]
     search: Cicero
     tracks: [latin, rhetoric, philosophy]
   - text: "Virgil — Aeneid and Eclogues; several books memorized by heart"
+    use: [reference, student]
+    units: [latin-12]
     search: Virgil
     tracks: [latin, poetry]
   - text: "Sallust (Catiline) — read with Virgil in Gould's third year and in the 1860 course"
+    use: [reference, student]
+    units: [latin-13]
     search: Sallust
     tracks: [latin, history]
   - text: "Horace — the whole first book of the Odes memorized; Juvenal's Third and Tenth Satires entire (expurgated)"
+    use: [reference, student]
+    units: [latin-14, poetry-10]
     search: Horace
     tracks: [latin, poetry]
   - text: "Gradus ad Parnassum and original Latin verses and themes — upper-class composition"
+    use: [reference]
+    units: [latin-15]
     search: Gradus
     tracks: [latin, poetry, grammar-composition]
   - text: "Greek Grammar and Greek Primitives, then the Greek Testament (fourth class, 1789)"
+    use: [reference, student]
+    units: [greek-03, greek-05]
     search: Greek Testament
     tracks: [greek, theology]
   - text: "Graeca Minora and Delectus Sententiarum Graecarum; by 1860 Felton's Greek Reader and Arnold's Greek Prose Composition"
+    use: [reference]
+    units: [greek-06, greek-07]
     search: Greek Reader
     tracks: [greek]
   - text: "Xenophon, Anabasis, and Wyttenbach's Greek Historians (upper classes under Gould)"
+    use: [reference, student]
+    units: [greek-08, greek-12]
     search: Xenophon
     tracks: [greek, history]
   - text: "Homer, Iliad (Maittaire's text) — 'many hundreds of verses' committed to memory"
+    use: [reference, student]
+    units: [greek-11]
     search: Homer
     tracks: [greek, poetry]
   - text: "Saturday-morning declamation (Gould) and 'Declamation' as a standing subject in every class of the 1860 course"
+    use: [reference]
+    units: [rhetoric-05, poetry-05]
     search: declamation
     tracks: [rhetoric]
   - text: "Colburn's First Lessons (mental arithmetic), then geometry, trigonometry and algebra in the last two years"
+    use: [reference]
+    units: [mathematics-05, mathematics-09, mathematics-10, mathematics-13]
     search: arithmetic
     tracks: [mathematics]
   - text: "Valpy's Chronology of Ancient and English History and Tooke's Pantheon (mythology) — second-year companions"
+    use: [reference]
+    units: [history-02, literature-04]
     search: Tooke
     tracks: [history, literature]
   - text: "Alumni: Cotton Mather, Benjamin Franklin (under a year, before being moved off the Latin track), John Hancock, Samuel Adams, Robert Treat Paine, William Hooper, James Bowdoin, Ralph Waldo Emerson"
+    use: [reference]
+    units: []
     search: Franklin
     tracks: [history, civics-law]
 notes: >-

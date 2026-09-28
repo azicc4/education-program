@@ -128,7 +128,8 @@
   const SEASONS = ['winter', 'winter', 'spring', 'spring', 'spring', 'summer', 'summer', 'summer', 'fall', 'fall', 'fall', 'winter'];
   Store.season = (d = new Date()) => SEASONS[d.getMonth()];
   // a row is "seasonal" if its title names a season; in season if that season is now
-  Store.rowSeason = (r) => (/(fall|autumn|winter|spring|summer)/i.exec(r.title)?.[1] || '').toLowerCase().replace('autumn', 'fall');
+  Store.rowSeason = (r) =>
+    r.trackGroup === 'Extracurriculars' ? (/\b(fall|autumn|winter|spring|summer)\b/i.exec(r.title)?.[1] || '').toLowerCase().replace('autumn', 'fall') : '';
   Store.inSeason = (r) => Store.rowSeason(r) === Store.season();
 
   // ---------- pacing logic (needs curriculum data) ----------
@@ -149,7 +150,9 @@
           .filter((r) => !Store.status(cid, r.id) && prereqsMet(cid, r) && r.ageStart <= age + 1)
           .filter((r) => !Store.rowSeason(r) || Store.inSeason(r)) // seasonal rows only surface in their season
           .sort((a, b) => Store.inSeason(b) - Store.inSeason(a));
-        const pick = [...active, ...ready.slice(0, active.length ? 0 : 1)];
+        // extracurricular strands run in parallel, so every ready one shows; academic tracks show the next one
+        const parallel = t.group === 'Extracurriculars';
+        const pick = [...active, ...(parallel ? ready : ready.slice(0, active.length ? 0 : 1))];
         for (const r of pick) {
           const pace = r.ageEnd < age ? 'behind' : r.ageStart > age ? 'ahead' : 'on';
           out.push({ row: r, status: Store.status(cid, r.id) || 'ready', pace });

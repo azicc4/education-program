@@ -7,11 +7,13 @@ description: >-
   play-based number sense, pattern and shape (0–6). Formal study (6–10) builds fluent arithmetic from
   the Singapore/Hillsdale model, with memorized facts, mental arithmetic in the manner of Ray's
   nineteenth-century series, and rich problem solving (Beast Academy). Pre-algebra and Algebra I are
-  complete by about 12. Demonstrative geometry is learned from Euclid himself, then Algebra II,
-  trigonometry (with Washington-style surveying), probability, statistics and proof writing come by 14.
-  Competition mathematics (MATHCOUNTS, AMC, AIME) runs alongside for problem-solving depth. Calculus
-  is mastered by 15–16, reading Newton alongside a modern text. The college years (17–18) add linear
-  algebra, multivariable calculus, a first course in real analysis, and a St. John's-style tutorial in
+  complete by about 12. Demonstrative geometry is learned from Euclid himself, then Algebra II and
+  precalculus with trigonometry (and Washington-style surveying) come by 14. From 14 to 15 the
+  student takes AP Calculus BC and AP Statistics, following the College Board course and exam
+  descriptions, and sits both exams in May at about 15. Thompson and Newton's Principia are read as
+  companions to the calculus. Proof writing follows at 15. Competition mathematics (MATHCOUNTS, AMC,
+  AIME) runs alongside for problem-solving depth and is standard for every student. The college
+  years (17–18) add linear algebra, multivariable calculus, a first course in real analysis, and a St. John's-style tutorial in
   the great mathematical books (Euclid, Apollonius, Ptolemy, Descartes, Newton, Lobachevsky, Dedekind).
   End state: the student computes fluently, proves rigorously, models the physical world with calculus,
   and has read the founding texts of mathematics in the tradition that Jefferson, who gave up
@@ -324,6 +326,7 @@ rows:
     order: 8
     prerequisites: [mathematics-07]
     related: []
+    exams: [amc]
     summary: >-
       Divisibility, primes, GCD/LCM, modular arithmetic and number bases, learned through contest
       problems. MATHCOUNTS (grades 6–8) gives an accelerated student a team, deadlines and a scoreboard.
@@ -332,6 +335,7 @@ rows:
       - Use divisibility rules, prime factorization, GCD and LCM in problems
       - Compute in modular arithmetic and convert between number bases
       - Compete in MATHCOUNTS at school/chapter level
+      - Sit the AMC 8 each year from about 11
     curriculumOptions:
       - name: Introduction to Number Theory
         publisher: Art of Problem Solving
@@ -639,6 +643,7 @@ rows:
     order: 14
     prerequisites: [mathematics-08, mathematics-11]
     related: []
+    exams: [amc]
     summary: >-
       A standing problem-solving seminar alongside the main sequence. Students prepare for the American
       Mathematics Competitions (AMC 10/12) and the AIME, working through algebra, combinatorics, number
@@ -689,56 +694,108 @@ rows:
     notes: Pairs naturally with practical-arts and natural-science astronomy units.
 
   - id: mathematics-16
-    title: Counting, Probability & Statistics
+    title: "AP Statistics (with Counting & Probability)"
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 14.5
+    ageStart: 14
+    ageEnd: 15
     order: 16
     prerequisites: [mathematics-11]
-    related: []
+    related: [social-science-03, social-science-04, economics-10]
+    exams: [ap-statistics]
     summary: >-
-      Combinatorics and probability (permutations, combinations, expected value, conditional
-      probability), then descriptive and inferential statistics: distributions, sampling, confidence
-      intervals, hypothesis tests and regression. The civic aim is to read polls, studies and economic
-      data critically.
+      A full AP Statistics course following the College Board's revised course and exam description
+      (effective fall 2026), taken alongside AP Calculus BC and finished with the AP exam in May at
+      about 15. The course runs through the five CED units, from exploring and collecting data to
+      inference and regression, and every investigation is written up in the question, collect,
+      analyze, interpret cycle. AoPS counting and probability supplies the combinatorics the AP course
+      treats lightly. The civic aim is to read polls, studies and economic data critically.
     objectives:
-      - Count arrangements and selections and compute probabilities
-      - Summarize data and interpret distributions
-      - Construct confidence intervals and conduct basic hypothesis tests
+      - "Unit 1, Exploring One-Variable Data and Collecting Data: describe and compare distributions, random sampling, experimental design"
+      - "Unit 2, Probability, Random Variables, and Probability Distributions: two-way tables, simulation, probability rules, binomial and normal distributions, the central limit theorem"
+      - "Unit 3, Inference for Categorical Data (Proportions): confidence intervals and tests for one and two proportions, errors, chi-square tests for homogeneity and independence"
+      - "Unit 4, Inference for Quantitative Data (Means): t-procedures for one and two samples and paired data"
+      - "Unit 5, Regression Analysis: scatterplots, correlation, least-squares lines and residuals"
+      - "The four CED practices (the revised course's organizing ideas): Formulate Questions, Collect Data, Analyze Data, Interpret Results"
+      - Count arrangements and selections and compute probabilities beyond the AP scope (AoPS)
+      - Write complete free-response answers in context to AP scoring standards, then sit the AP Statistics exam in May at about 15
       - Critique misleading statistics in news and policy debates
     curriculumOptions:
+      - name: "The Practice of Statistics for the AP Course, 7th ed. (Starnes & Tabor)"
+        publisher: BFW / Macmillan Learning
+        tradition: secular
+        url: "https://www.bfwpub.com/high-school/us/product/The-Practice-of-Statistics-for-the-AP-Course/p/1319409342"
+        notes: >-
+          The most widely used AP text (TPS). The 7th edition (2024) follows the previous nine-unit CED,
+          so map its chapters onto the five revised units. Kolbe Academy's Catholic bookstore also
+          carries TPS (https://books.kolbe.org/products/the-practice-of-statistics).
+      - name: "Stats: Modeling the World, AP Edition (Bock, Velleman, De Veaux, Bullard)"
+        publisher: Savvas
+        tradition: secular
+        url: "https://www.savvas.com/index.cfm?locator=PS38Yg&PMDbSiteId=2781&PMDbSolutionId=6724&PMDbCategoryId=806&PMDbSubCategoryId=24788&PMDbProgramId=154969"
+        notes: Readable alternative with the Think, Show, Tell method for writing solutions.
+      - name: AP Statistics (online, live)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://www.kolbe.org/academics/honors-ap-and-dual-credit/online-honors-ap-courses-1"
+        notes: Catholic online AP course with a live teacher. Kolbe does not arrange exam sites; the family books the exam.
+      - name: AP/College Statistics
+        publisher: Khan Academy
+        tradition: secular
+        url: "https://www.khanacademy.org/math/ap-statistics"
+        notes: Free videos and practice aligned to the CED. Good for self-study and review.
+      - name: Advanced High School Statistics (OpenIntro)
+        publisher: OpenIntro
+        tradition: secular
+        url: "https://www.openintro.org/book/ahss/"
+        notes: Free text written for AP Statistics. OpenIntro Statistics (https://www.openintro.org/book/os/) is its college sibling.
       - name: Introduction to Counting & Probability
         publisher: Art of Problem Solving
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intro-counting"
-        notes: Rigorous probability foundation.
-      - name: OpenIntro Statistics
-        publisher: OpenIntro
+        notes: Rigorous combinatorics and probability. Shared with the AMC seminar (mathematics-14).
+      - name: AP Classroom and released free-response questions
+        publisher: College Board
         tradition: secular
-        url: "https://www.openintro.org/book/os/"
-        notes: Free, high-quality introductory statistics (AP level).
-      - name: Introductory Statistics 2e
-        publisher: OpenStax
+        url: "https://apcentral.collegeboard.org/courses/ap-statistics/exam/past-exam-questions"
+        notes: >-
+          Official FRQs with scoring guidelines (past three years). AP Classroom
+          (https://apclassroom.collegeboard.org/) has the unit Progress Checks; access comes through a
+          class section set up by an AP teacher or coordinator.
+      - name: "Prep books: Princeton Review AP Statistics Premium Prep (22nd ed.) / Barron's AP Statistics Premium 2027"
+        publisher: Penguin Random House / Simon & Schuster
         tradition: secular
-        url: "https://openstax.org/details/books/introductory-statistics-2e"
-        notes: Free alternative.
+        url: "https://www.penguinrandomhouse.com/books/807960/princeton-review-ap-statistics-premium-prep-22nd-edition-by-the-princeton-review/"
+        notes: >-
+          Both editions are updated for the 2026–27 revised course. Use them for timed practice exams in
+          the spring. Barron's: https://www.simonandschuster.com/books/AP-Statistics-Premium-2027-9-Practice-Tests-+-Comprehensive-Review-+-Online-Practice/Martin-Sternstein/Barrons-AP-Prep/9798349701566
+    sources:
+      - { label: "AP Central: AP Statistics (course page; revised for 2026–27)", url: "https://apcentral.collegeboard.org/courses/ap-statistics" }
+      - { label: "AP Statistics Course and Exam Description (effective fall 2026)", url: "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description.pdf" }
+      - { label: "AP Students: AP Statistics", url: "https://apstudents.collegeboard.org/courses/ap-statistics" }
+    notes: >-
+      Family decision: STEM follows the recognized AP curriculum, and the exam is sat in the May the
+      course finishes. The revised CED (fall 2026) regrouped the old nine units into five and replaced
+      the old "big ideas" with four statistical practices. Check that any textbook or prep book is
+      mapped to the new units. Skew the Script (https://skewthescript.org/ap-stats-curriculum) offers
+      free, real-data AP lessons.
 
   - id: mathematics-17
     title: "Proof Writing: How to Prove It"
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 15
+    ageEnd: 15.5
     order: 17
     prerequisites: [mathematics-10, mathematics-11]
     related: [logic-07]
     summary: >-
-      A bridge from Euclidean demonstration to modern proof. Students study logic, sets, relations,
-      functions, and induction, and write proofs in clear mathematical prose. This prepares them for
-      Spivak-style calculus and for college analysis.
+      A bridge from Euclidean demonstration to modern proof, taken right after the AP Calculus BC exam.
+      Students study logic, sets, relations, functions, and induction, and write proofs in clear
+      mathematical prose. This prepares them to revisit calculus rigorously (Spivak) and for college
+      analysis.
     objectives:
       - Write direct, contrapositive, contradiction and induction proofs
       - Use quantifiers, sets, relations and functions precisely
@@ -752,26 +809,33 @@ rows:
           - { label: Cambridge University Press, url: "https://www.cambridge.org/highereducation/books/how-to-prove-it/6D2965D625C6836CD4A785A2C843B3DA" }
 
   - id: mathematics-18
-    title: "Calculus (with Thompson, Newton & a Modern Text)"
+    title: "AP Calculus BC (with Thompson & Newton)"
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 16
-    order: 18
-    prerequisites: [mathematics-13, mathematics-17]
-    related: []
+    ageStart: 14
+    ageEnd: 15
+    order: 16.5
+    prerequisites: [mathematics-13]
+    related: [physics-02, physics-05]
+    exams: [ap-calculus-bc]
     summary: >-
-      Single-variable calculus to AP BC level and beyond: limits, derivatives, integrals, the
-      fundamental theorem, series, and differential equations. Begin with Thompson's Calculus Made Easy
-      ("What one fool can do, another can"). Then take a full course in Stewart (standard), Spivak (honors
-      and proof-based) or Apostol. Read Newton's own lemmas on first and last ratios from the Principia
-      to see where the ideas came from.
+      A full AP Calculus BC course following the College Board course and exam description (all ten
+      units), finished with the AP exam in May at about 15. It covers limits, derivatives, integrals and
+      the fundamental theorem, differential equations, parametric, polar and vector functions, and
+      infinite series. Begin with Thompson's Calculus Made Easy ("What one fool can do, another can"),
+      then work through a standard AP text. Read Newton's own lemmas on first and last ratios from the
+      Principia to see where the ideas came from. The course is the mathematical engine of AP Physics C,
+      which follows at 15.
     objectives:
-      - Differentiate and integrate elementary functions and apply them to motion, area and optimization
-      - State and prove the fundamental theorem of calculus
-      - Work with sequences, series and Taylor polynomials
+      - "Big ideas of the CED: Change (CHA), Limits (LIM), Analysis of Functions (FUN)"
+      - "Units 1–4: Limits and Continuity; Differentiation: Definition and Fundamental Properties; Differentiation: Composite, Implicit, and Inverse Functions; Contextual Applications of Differentiation"
+      - "Units 5–8: Analytical Applications of Differentiation; Integration and Accumulation of Change; Differential Equations; Applications of Integration"
+      - "BC-only Units 9–10: Parametric Equations, Polar Coordinates, and Vector-Valued Functions; Infinite Sequences and Series (Taylor and Maclaurin series)"
+      - "The four mathematical practices: Implementing Mathematical Processes, Connecting Representations, Justification, Communication and Notation"
+      - State the fundamental theorem of calculus and justify free-response answers with theorems (MVT, IVT, EVT)
       - Read Newton's Principia Book I, Section 1 (first and last ratios) with understanding
+      - Sit the AP Calculus BC exam in May at about 15
     coreTexts:
       - title: Calculus Made Easy
         author: Silvanus P. Thompson
@@ -786,43 +850,75 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
     curriculumOptions:
-      - name: "Calculus, 4th ed. (Michael Spivak)"
-        publisher: Publish or Perish
-        tradition: secular
-        url: "https://www.mathpop.com/products/calculus-4th-edition"
-        notes: The honors choice. Proof-based and beautiful. Take after proof writing.
-      - name: "Calculus, Vol. 1 (Tom Apostol)"
-        publisher: Wiley
-        tradition: secular
-        url: "https://www.wiley.com/en-us/Calculus%2C+Volume+1%2C+2nd+Edition-p-9780471000051"
-        notes: Rigorous, integral-first, with linear algebra. Excellent for the mathematically inclined.
-      - name: Stewart Calculus
+      - name: Stewart Calculus (Calculus / Early Transcendentals)
         publisher: Cengage
         tradition: secular
         url: "https://www.stewartcalculus.com/"
-        notes: The standard AP/college text, with abundant exercises.
-      - name: Calculus
-        publisher: Art of Problem Solving
+        notes: The standard AP/college text, with abundant exercises. Covers every BC unit.
+      - name: "Calculus for AP, 2nd ed. (Larson & Battaglia)"
+        publisher: Cengage / National Geographic Learning
         tradition: secular
-        url: "https://artofproblemsolving.com/store/book/calculus"
-        notes: Rigorous, concise alternative.
+        url: "https://www.cengage.com/c/calculus-for-ap-2e-larson-battaglia/9780357431948/"
+        notes: Written to the AP Calculus AB/BC framework, in the unit order AP teachers prefer.
+      - name: "Calculus: Single Variable, 8th ed. (Hughes-Hallett et al.)"
+        publisher: Wiley
+        tradition: secular
+        url: "https://www.wiley.com/en-us/Calculus%3A+Single+Variable%2C+8th+Edition-p-00099309"
+        notes: Harvard Consortium "rule of four" (graphical, numerical, symbolic, verbal), which matches the CED's Connecting Representations practice.
+      - name: AP/College Calculus BC
+        publisher: Khan Academy
+        tradition: secular
+        url: "https://www.khanacademy.org/math/ap-calculus-bc"
+        notes: Free videos and practice in the CED unit order. Good for self-study and review.
+      - name: AP Calculus BC (adaptive online course)
+        publisher: Math Academy
+        tradition: secular
+        url: "https://mathacademy.com/courses/ap-calculus-bc"
+        notes: Paid, self-paced, mastery-based. Popular with accelerated homeschoolers.
+      - name: AP Classroom and released free-response questions
+        publisher: College Board
+        tradition: secular
+        url: "https://apcentral.collegeboard.org/courses/ap-calculus-bc/exam/past-exam-questions"
+        notes: >-
+          Official FRQs with scoring guidelines (past three years). Work them under time from the
+          spring. AP Classroom (https://apclassroom.collegeboard.org/) has the unit Progress Checks;
+          access comes through a class section set up by an AP teacher or coordinator.
+      - name: "Prep books: Princeton Review AP Calculus BC Premium Prep (13th ed.) / Barron's AP Calculus Premium 2027"
+        publisher: Penguin Random House / Simon & Schuster
+        tradition: secular
+        url: "https://www.penguinrandomhouse.com/books/807026/princeton-review-ap-calculus-bc-premium-prep-13th-edition-by-the-princeton-review-and-david-khan/"
+        notes: >-
+          Full practice exams for the spring. Barron's (AB and BC in one book):
+          https://www.simonandschuster.com/books/AP-Calculus-Premium-2027-Prep-Book-with-12-Practice-Tests-+-Comprehensive-Review-+-Online-AP/David-Bock/Barrons-AP-Prep/9798349700750
       - name: Honors Calculus / AP Calculus AB (online)
         publisher: Kolbe Academy
         tradition: catholic
         url: "https://courses.kolbe.org/"
-        notes: Catholic online option.
+        notes: Catholic online option. Kolbe lists AP Calculus AB, not BC, so add Units 9–10 (parametric/polar and series) from Khan Academy or a prep book.
     historicalPrecedent: >-
       Newton's natural philosophy was taught at colonial colleges from the 1720s. Isaac Greenwood,
       Harvard's first Hollis Professor of Mathematics and Natural Philosophy (1727), and his successor
       John Winthrop brought Newtonian fluxions into American teaching.
+    sources:
+      - { label: "AP Central: AP Calculus BC (course page)", url: "https://apcentral.collegeboard.org/courses/ap-calculus-bc" }
+      - { label: "AP Calculus AB and BC Course and Exam Description", url: "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf" }
+      - { label: "AP Students: AP Calculus BC", url: "https://apstudents.collegeboard.org/courses/ap-calculus-bc" }
+    notes: >-
+      Family decision: STEM follows the recognized AP curriculum, and the exam is sat in the May the
+      course finishes. BC is taken directly (not AB first). The CED content is unchanged for 2026–27,
+      but the number of multiple-choice questions and the section timing change from the May 2027 exam,
+      so use current practice materials. AP Physics C (physics-02, physics-05) depends on this course.
+      For the strongest students, revisit calculus rigorously after proof writing (mathematics-17)
+      with Spivak's Calculus (https://www.mathpop.com/products/calculus-4th-edition), Apostol's
+      Calculus Vol. 1, or AoPS Calculus (https://artofproblemsolving.com/store/book/calculus).
 
   - id: mathematics-19
     title: Linear Algebra
     type: course
-    level: college
+    level: 9-12
     stage: formal
-    ageStart: 17
-    ageEnd: 17.5
+    ageStart: 15.5
+    ageEnd: 16.5
     order: 19
     prerequisites: [mathematics-17, mathematics-18]
     related: []
@@ -845,14 +941,17 @@ rows:
         tradition: secular
         url: "https://linear.axler.net/"
         notes: Free PDF. Proof-based second course.
+    notes: >-
+      Moved to 15.5–16.5 (after AP Calculus BC and proof writing) so the math sequence has no gap before
+      college work.
 
   - id: mathematics-20
     title: Multivariable Calculus & Introduction to Real Analysis
     type: course
     level: college
     stage: formal
-    ageStart: 17
-    ageEnd: 18
+    ageStart: 16.5
+    ageEnd: 17.5
     order: 20
     prerequisites: [mathematics-18, mathematics-19]
     related: []
@@ -880,6 +979,8 @@ rows:
         tradition: secular
         url: "https://link.springer.com/book/10.1007/978-1-4939-2712-8"
         notes: The most readable first analysis text.
+    notes: >-
+      Begins at 16.5, right after linear algebra.
 
   - id: mathematics-21
     title: "College Tutorial: The Great Mathematical Books (St. John's Model)"

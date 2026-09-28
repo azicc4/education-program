@@ -25,54 +25,89 @@ primarySources:
   - { label: "Harvard University Archives research guide: Early Curriculum at Harvard", url: "https://guides.library.harvard.edu/hua/earlycurriculum" }
 entries:
   - text: "Admission (1643): understand Tully (Cicero) or a similar classical Latin author extempore, and make and speak true Latin in verse and prose"
+    use: [reference, student]
+    units: [latin-11, latin-15, rhetoric-10]
     search: Cicero
     tracks: [latin, rhetoric]
   - text: "Admission (1643): decline perfectly the paradigms of Greek nouns and verbs"
+    use: [reference]
+    units: [greek-03, greek-04]
     search: Greek grammar
     tracks: [greek]
   - text: "Admission (1655 laws): read and understand Tully, Virgil, or any such ordinary classical authors, with skill in making Latin verse"
+    use: [reference, student]
+    units: [latin-11, latin-12, latin-15]
     search: Virgil
     tracks: [latin, poetry]
   - text: "Admission (1767 laws): translate Tully, Virgil, the Greek New Testament and Xenophon; write Latin correctly; good moral character"
+    use: [reference, student]
+    units: [latin-11, latin-12, greek-05, greek-08]
     search: Xenophon
     tracks: [latin, greek, character-virtue]
   - text: "Read the Scriptures twice a day and give account of them 'in Theoreticall observations of the Language, and Logick' (Rules and Precepts, 1643)"
+    use: [reference, student]
+    units: [greek-05, hebrew-06, theology-15]
     search: Greek New Testament
     tracks: [theology, logic, greek, hebrew]
   - text: "First year: logic for three quarters, then physics; weekly disputations in each class's art"
+    use: [reference]
+    units: [logic-03, rhetoric-09, physics-01]
     search: Ramus
     tracks: [logic, natural-science]
   - text: "Second year: ethics and politics"
+    use: [reference, student]
+    units: [philosophy-07, character-virtue-12]
     search: Ethics
     tracks: [philosophy, civics-law]
   - text: "Third year: arithmetic and geometry for three quarters, then astronomy"
+    use: [reference, student]
+    units: [mathematics-10, natural-science-15]
     search: Euclid
     tracks: [mathematics, natural-science]
   - text: "Greek: etymology and syntax, then prosody and dialects; practice poetry in Nonnus, Duport 'or the like'; then style, composition, imitation and epitome in prose and verse"
+    use: [reference]
+    units: [greek-06, greek-11]
     search: Homer
     tracks: [greek, poetry, grammar-composition]
   - text: "Hebrew and the Eastern tongues: Hebrew grammar and practice in the Bible (year 1), Chaldee in Ezra and Daniel (year 2), Syriac in Tremellius's New Testament (year 3)"
+    use: [reference, student]
+    units: [hebrew-04, hebrew-06, hebrew-10]
     search: Hebrew Psalter
     tracks: [hebrew, theology]
   - text: "Rhetoric lectures for all classes on Fridays, and each scholar declaims once a month"
+    use: [reference]
+    units: [rhetoric-05, rhetoric-07]
     search: Cicero
     tracks: [rhetoric]
   - text: "Saturday: catechetical divinity and theological commonplaces; in the afternoon, history in winter and 'the nature of plants' in summer"
+    use: [reference]
+    units: [theology-21, natural-science-09]
     search: Wollebius
     tracks: [theology, history, natural-science]
   - text: "B.A. test: read the originals of the Old and New Testaments into Latin and 'resolve them Logically'. M.A.: write a synopsis of logic, natural and moral philosophy, arithmetic, geometry and astronomy"
+    use: [reference]
+    units: [hebrew-10, latin-10]
     search: Greek New Testament
     tracks: [greek, hebrew, latin, logic]
   - text: "Tutor Flynt's course (1726): freshmen read Virgil, the Greek New Testament, and Dugard's or Farnaby's rhetoric; Ramus's definitions; sophomores Burgersdicius's logic and Heereboord's Meletemata"
+    use: [reference, student]
+    units: [latin-12, greek-05, logic-03]
     search: Burgersdicius
     tracks: [latin, greek, rhetoric, logic]
   - text: "Divinity: Wollebius's Compendium and Ames's Medulla Theologiae recited, and More's ethics (1726 course; 1728 visitation)"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Ames
     tracks: [theology, philosophy]
   - text: "Revolutionary era: texts by Locke, Isaac Watts (logic and astronomy), Desaguliers and 's Gravesande (natural philosophy), Gordon (geography), and Burlamaqui's Principles of Natural and Political Law"
+    use: [reference, student]
+    units: [philosophy-09, logic-06, philosophy-15]
     search: Locke
     tracks: [philosophy, logic, natural-science, civics-law]
   - text: "1767 laws: one tutor each for Latin, Greek, logic/metaphysics/ethics, and natural philosophy/geography/astronomy/mathematics; weekly and forensic disputations; declamations in the learned languages; Saturday elocution, composition, rhetoric and belles lettres"
+    use: [reference]
+    units: [rhetoric-05, rhetoric-09, rhetoric-11]
     search: Watts
     tracks: [latin, greek, logic, rhetoric, grammar-composition]
 notes: >-

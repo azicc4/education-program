@@ -490,6 +490,7 @@ rows:
     order: 9
     prerequisites: [latin-07]
     related: [greek-11]
+    exams: [ap-latin]
     summary: >-
       The first Latin poetry. The student reads selected myths from the Metamorphoses (Creation
       and Flood, Daedalus and Icarus, Pyramus and Thisbe, Baucis and Philemon, Apollo and Daphne)
@@ -605,6 +606,7 @@ rows:
     order: 11
     prerequisites: [latin-07, latin-08]
     related: [character-virtue-13, rhetoric-10]
+    exams: [ap-latin]
     summary: >-
       "Tully", the model of Latin prose and of republican statesmanship. The student reads the
       First Catilinarian and Pro Archia (the defence of liberal letters), a selection of letters,
@@ -696,6 +698,7 @@ rows:
     order: 12
     prerequisites: [latin-09, latin-11]
     related: [greek-11]
+    exams: [ap-latin]
     summary: >-
       The summit of the school course. The student reads Aeneid Books I, II, IV and VI in full,
       the rest selectively and the rest in translation, plus Eclogues I and IV. Pietas, duty,
@@ -750,6 +753,7 @@ rows:
     ageEnd: 15
     order: 13
     prerequisites: [latin-11]
+    exams: [ap-latin]
     summary: >-
       Roman history in Roman words. Livy's Preface and Book I (the kings, Lucretia, the founding of
       liberty) and selections from the Hannibalic war (Books XXI–XXII). Sallust's Bellum
@@ -801,6 +805,7 @@ rows:
     order: 14
     prerequisites: [latin-12]
     related: [old-english-03]
+    exams: [ap-latin]
     summary: >-
       The poet of the golden mean, contentment and friendship, and the most quoted Latin author
       in eighteenth-century English letters. The student reads selected Odes (I.9, I.11, II.3,

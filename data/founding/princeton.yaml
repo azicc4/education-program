@@ -27,60 +27,98 @@ primarySources:
   - { label: "Secondary: Miller Center, James Madison: Life Before the Presidency", url: "https://millercenter.org/president/madison/life-before-the-presidency" }
 entries:
   - text: "Admission (1764 Account): compose grammatical Latin; translate Virgil, Cicero's Orations and the four Evangelists in Greek; know the principal rules of vulgar arithmetic"
+    use: [reference, student]
+    units: [latin-12, latin-11, greek-05, mathematics-06]
     search: Virgil
     tracks: [latin, greek, mathematics]
   - text: "Freshman year (1764): Horace, Cicero's Orations, the Greek Testament, Lucian's Dialogues, Xenophon's Cyropaedia"
+    use: [reference, student]
+    units: [latin-14, greek-07, character-virtue-10, greek-05]
     search: Xenophon
     tracks: [latin, greek, poetry]
   - text: "Sophomore year (1764): Homer and Longinus; geography, rhetoric, logic and mathematics begun"
+    use: [reference, student]
+    units: [greek-11, poetry-14]
     search: Homer
     tracks: [greek, rhetoric, logic, mathematics]
   - text: "Junior and senior years (1764): natural and moral philosophy, metaphysics and chronology; Hebrew for most, especially future ministers; seniors review the classics and part of the Hebrew Bible, with weekly syllogistic and forensic disputation"
+    use: [reference]
+    units: [hebrew-04, character-virtue-14, rhetoric-09]
     search: Hebrew Psalter
     tracks: [natural-science, philosophy, history, hebrew, logic]
   - text: "Witherspoon's course (1772): first year Latin and Greek 'with the Roman and Grecian antiquities, and Rhetoric'"
+    use: [reference]
+    units: [latin-11, greek-08, rhetoric-10]
     search: Cicero
     tracks: [latin, greek, history, rhetoric]
   - text: "Second year: a complete system of geography with the use of the globes, the first principles of philosophy, and elements of mathematics"
+    use: [reference]
+    units: [history-02, mathematics-10]
     search: Geography
     tracks: [history, philosophy, mathematics]
   - text: "Third year: chiefly mathematics and natural philosophy; astronomy taught on David Rittenhouse's orrery"
+    use: [reference]
+    units: [natural-science-15, physics-02]
     search: Newton
     tracks: [mathematics, natural-science]
   - text: "Senior year: 'the higher classics', more mathematics and natural philosophy, and a course of moral philosophy"
+    use: [reference]
+    units: [character-virtue-14]
     search: Witherspoon
     tracks: [latin, greek, philosophy, character-virtue]
   - text: "President's lectures to juniors and seniors: chronology and history, then composition and criticism (every student hears both twice)"
+    use: [reference]
+    units: [rhetoric-11, history-28]
     search: Chronology
     tracks: [history, grammar-composition, rhetoric]
   - text: "Evening orations: the three younger classes speak from a stage in the hall after prayers; seniors give their own orations every five or six weeks"
+    use: [reference]
+    units: [rhetoric-05, poetry-05, rhetoric-12]
     search: Oratory
     tracks: [rhetoric, character-virtue]
   - text: "Prizes (commencement 1771): reading English with propriety and answering questions on its orthography and grammar; reading Latin and Greek with 'true quantity'; speaking Latin; Latin versions; English orations"
+    use: [reference]
+    units: [grammar-composition-06, latin-15, rhetoric-05]
     search: Latin prose composition
     tracks: [reading-phonics, grammar-composition, latin, greek, rhetoric]
   - text: "French taught by the President to all who desire it (winter 1771–72); grammar school attached for Latin, Greek, writing and arithmetic"
+    use: [reference]
+    units: []
     search: French
     tracks: [spanish, latin, greek]
   - text: "Hebrew (Trustees, Sept. 1772): 'of great importance' especially for divinity students; a tutor appointed to teach volunteers and the President to recommend it to all"
+    use: [reference]
+    units: [hebrew-01]
     search: Hebrew Psalter
     tracks: [hebrew, theology]
   - text: "Lectures on Moral Philosophy, reading list on the foundation of virtue: Leibniz's Theodicy, Clarke's Demonstration, Hutcheson's Inquiry and System, Wollaston's Religion of Nature, Butler's Analogy and Sermons, Reid's Inquiry, Smith's Theory of Moral Sentiments, Beattie on Truth"
+    use: [reference, student]
+    units: [character-virtue-14, economics-06, social-science-02]
     search: Hutcheson
     tracks: [philosophy, character-virtue, theology]
   - text: "Lectures on Moral Philosophy, writers on government and politics: Grotius, Pufendorf, Barbeyrac, Cumberland, Selden, Burlamaqui, Hobbes, Machiavelli, Harrington, Locke, Sidney"
+    use: [reference, student]
+    units: [character-virtue-14, philosophy-15, civics-law-10, philosophy-10]
     search: Grotius
     tracks: [civics-law, philosophy, history]
   - text: "Recent political works: Montesquieu's Spirit of Laws, Ferguson's History of Civil Society, Kames's political essays, 'Grandeur and decay of the Roman empire' (Montesquieu's Considerations), Montagu's Rise and Fall of Ancient Republics, Goguet's Origin of Laws, Arts and Sciences"
+    use: [reference, student]
+    units: [civics-law-10]
     search: Montesquieu
     tracks: [civics-law, history, economics]
   - text: "Lectures on Eloquence, ancient models: Demosthenes 'simple, close, nervous', Cicero 'flowing, fervent, ornate', Livy's narrative, Sallust's characters, Tacitus's observations, and Xenophon's 'dignity, elegance, and sweetness'"
+    use: [reference, student]
+    units: [rhetoric-11, rhetoric-08, latin-11, latin-13]
     search: Demosthenes
     tracks: [rhetoric, latin, greek, history]
   - text: "Lectures on Eloquence, English models: Addison for elegance and simplicity, Swift's political pieces for strength, Tillotson; critics Aristotle, Longinus, Quintilian and Rollin"
+    use: [reference, student]
+    units: [rhetoric-11, literature-20, poetry-14, rhetoric-10]
     search: Addison
     tracks: [rhetoric, grammar-composition, literature]
   - text: "Madison at Nassau Hall (1769–71, B.A. 1771): wrote home of commencement orations, disputes and dialogues; stayed a further year (1771–72) to study under Witherspoon"
+    use: [reference]
+    units: [character-virtue-14]
     search: Madison
     tracks: [history, civics-law, rhetoric]
 notes: >-

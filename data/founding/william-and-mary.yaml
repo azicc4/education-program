@@ -26,57 +26,93 @@ primarySources:
   - { label: "Secondary: Herbert B. Adams, The College of William and Mary (U.S. Bureau of Education, 1887) (Internet Archive)", url: "https://archive.org/details/collegeofwilliam00adam" }
 entries:
   - text: "Charter (1693): a college 'for Divinity, Philosophy, Languages, and other good Arts and Sciences', to supply a seminary of ministers; the Transfer (printed with it in 1758) restates the aim that youth be educated 'in good Manners and Learning'"
+    use: [reference]
+    units: []
     search: William and Mary charter
     tracks: [history, civics-law, theology]
   - text: "Grammar school: Latin and Greek well taught, using the rudiments, grammars and classical authors 'used in the Schools of England'; the master must skip any passage against religion and good morals"
+    use: [reference]
+    units: [latin-06, latin-07, greek-04]
     search: Latin grammar
     tracks: [latin, greek, character-virtue]
   - text: "Grammar school: all scholars learn the Church of England catechism in English, and the more advanced learn it in Latin"
+    use: [reference]
+    units: [theology-08, theology-11]
     search: Catechism
     tracks: [theology, latin]
   - text: "Examination in Latin and Greek before promotion from the grammar school to the philosophy school"
+    use: [reference]
+    units: []
     search: Latin
     tracks: [latin, greek]
   - text: "Philosophy school: Aristotle's logic and physics no longer 'reigned alone'; the masters choose the systems of logic, physics, ethics and mathematics to teach"
+    use: [reference]
+    units: [logic-06, natural-science-19]
     search: Aristotle
     tracks: [logic, natural-science, philosophy, mathematics]
   - text: "One philosophy master teaches rhetoric, logic and ethics; the other physics, metaphysics and mathematics; four years to the B.A., seven to the M.A."
+    use: [reference]
+    units: []
     search: Rhetoric
     tracks: [rhetoric, logic, philosophy, natural-science, mathematics]
   - text: "Exercises: disputations, plus declamations and themes on various subjects (not taken from the Bible)"
+    use: [reference]
+    units: [rhetoric-05, rhetoric-09, grammar-composition-11]
     search: Declamation
     tracks: [rhetoric, grammar-composition]
   - text: "Divinity school: one professor teaches Hebrew and critically expounds the literal sense of Scripture in both Testaments; the other teaches the commonplaces of divinity and the controversies with heretics"
+    use: [reference]
+    units: [hebrew-03, hebrew-04, theology-14]
     search: Hebrew Psalter
     tracks: [hebrew, theology]
   - text: "Indian (Brafferton) school: reading, writing, vulgar arithmetic, and the catechism and principles of Christianity"
+    use: [reference]
+    units: []
     search: Brafferton
     tracks: [reading-phonics, mathematics, theology]
   - text: "Jefferson under William Small (1760–62): mathematics and natural philosophy, and the college's first regular lectures in ethics, rhetoric and belles lettres"
+    use: [reference]
+    units: [physics-02]
     search: Small
     tracks: [mathematics, natural-science, philosophy, rhetoric]
   - text: "Law under George Wythe: Jefferson read law under Wythe's direction after Small left in 1762. After 1779 Wythe held the new chair of law, and John Marshall attended his lectures"
+    use: [reference]
+    units: [civics-law-13]
     search: Wythe
     tracks: [civics-law]
   - text: "1779 professorship of Law and Police"
+    use: [reference]
+    units: [civics-law-13, civics-law-18]
     search: Blackstone
     tracks: [civics-law]
   - text: "1779 professorship of Anatomy and Medicine (Jefferson's autobiography adds chemistry)"
+    use: [reference]
+    units: [natural-science-11, chemistry-01]
     search: Anatomy
     tracks: [natural-science]
   - text: "1779 professorship of Natural Philosophy and Mathematics, with natural history added"
+    use: [reference]
+    units: [physics-02, natural-science-19, natural-science-09]
     search: Newton
     tracks: [natural-science, mathematics]
   - text: "1779 professorship of Moral Philosophy, the Law of Nature and Nations, and the Fine Arts (architecture explicitly included)"
+    use: [reference]
+    units: [philosophy-15, civics-law-10, fine-arts-09, practical-arts-15]
     search: Vattel
     tracks: [philosophy, civics-law, fine-arts]
   - text: "1779 professorship of Modern Languages"
+    use: [reference]
+    units: [spanish-13]
     search: French
     tracks: [spanish]
   - text: "Jefferson's proposal: a future chair for 'the antient languages and literature of the North' (Anglo-Saxon and Old Norse), for their bearing on English language, law and history"
+    use: [reference]
+    units: [old-english-01, old-english-02]
     search: Anglo-Saxon
     tracks: [old-english, history, civics-law]
   - text: "Jefferson's Bill for Amending the Constitution of the College (1779, Revisal of the Laws): to enlarge the college's 'sphere of science, and to make it in fact an University'"
+    use: [reference]
+    units: []
     search: Jefferson
     tracks: [civics-law, history]
 notes: >-

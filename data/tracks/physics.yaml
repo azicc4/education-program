@@ -2,10 +2,18 @@ track: physics
 title: Physics
 trackGroup: Math & Science
 description: >-
-  From Galileo's inclined planes to Maxwell's equations. Honors physics grounded in the primary sources, then AP Physics C: Mechanics and Electricity & Magnetism with calculus. The goal is a student who can model the physical world mathematically and pass both Physics C exams by 16.
+  From Galileo's inclined planes to Maxwell's equations, following the recognized AP physics
+  curriculum with the founders of the science read alongside. Honors Physics (13–14) is algebra-based
+  and read with Galileo's Two New Sciences and Newton's Opticks. The Physics Olympiad track begins at
+  14 and is standard for every student: the F=ma exam each year, and USAPhO for those who qualify.
+  From 15 the student takes AP Physics C: Mechanics with Newton's Principia, then AP Physics C:
+  Electricity and Magnetism with Franklin, Faraday and Maxwell, and sits both exams in May at about 16.
+  A running lab strand keeps measurement and experimental design in hand. The AP Physics 1 exam is
+  skipped by family decision. The goal is a student who can model the physical world mathematically,
+  design and analyze an experiment, and has read how the science was discovered.
 rows:
   - id: physics-01
-    title: "Conceptual Physics & Galileo's Two New Sciences"
+    title: "Honors Physics (Algebra-Based) with Galileo & Newton's Opticks"
     type: course
     level: 9-12
     stage: formal
@@ -13,16 +21,21 @@ rows:
     ageEnd: 14
     order: 1
     prerequisites: []
-    related: [natural-science-07]
+    related: [mathematics-11, mathematics-13, natural-science-07]
+    exams: [ap-physics-1]
     summary: >-
-      Algebra-based physics with understanding before formulas (Hillsdale K-12's ninth-grade course):
-      motion, forces, momentum, energy, gravity, fluids, heat, waves, electricity, magnetism, light and
-      the atom. Students read Galileo's Two New Sciences (Third Day, on naturally accelerated motion)
-      and repeat his inclined-plane experiment, then Feynman's Six Easy Pieces for the modern picture.
+      A full algebra- and trigonometry-based honors course. The mechanics core follows the scope of AP
+      Physics 1: kinematics, forces, work and energy, momentum, rotation, oscillations and fluids. It
+      then adds waves and sound, simple circuits and light, so that nothing in AP Physics C is met
+      for the first time. Students read Galileo's Two New Sciences (Third Day, on naturally accelerated
+      motion) and repeat his inclined-plane experiment. They read Newton's Opticks (Book I) and repeat
+      the prism experiments. Feynman's Six Easy Pieces gives the modern picture.
     objectives:
-      - Explain Newton's laws, conservation of momentum and energy conceptually and with algebra
+      - Solve kinematics, dynamics, energy, momentum and rotation problems with algebra, trigonometry and vectors
+      - Analyze oscillations, fluids, waves and sound, and simple DC circuits
       - Repeat Galileo's inclined-plane experiment and derive the odd-number rule from data
-      - Explain wave behavior, simple circuits and the basic structure of the atom
+      - Repeat Newton's experimentum crucis with prisms and explain what it shows about white light
+      - Explain the basic structure of the atom and the modern picture of matter (Feynman)
     coreTexts:
       - title: Dialogues Concerning Two New Sciences
         author: Galileo Galilei, trans. Crew & de Salvio
@@ -31,6 +44,12 @@ rows:
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences" }
           - { label: Archive.org, url: "https://archive.org/details/twonewsciences0000gali" }
+      - title: Opticks
+        author: Isaac Newton
+        date: "1704"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33504" }
       - title: Six Easy Pieces
         author: Richard P. Feynman
         date: "1963/1994"
@@ -38,45 +57,165 @@ rows:
         links:
           - { label: Hachette Book Group, url: "https://www.hachettebookgroup.com/titles/richard-p-feynman/six-easy-pieces/9780465025275/" }
     curriculumOptions:
-      - name: "Conceptual Physics (Paul Hewitt)"
-        publisher: Pearson / conceptualphysics.com
-        tradition: secular
-        url: "https://www.conceptualphysics.com/"
-        notes: The text Hillsdale K-12 names for 9th grade. Clear and engaging, with minimal math.
-      - name: Introductory Physics (Novare)
+      - name: "Physics: Modeling Nature, 2nd ed. (Novare)"
         publisher: Classical Academic Press / Novare
         tradition: classical
-        url: "https://classicalacademicpress.com/products/introductory-physics-program-1"
-        notes: Classical Christian algebra-based physics for 9th grade.
-      - name: Apologia Physics
-        publisher: Apologia
-        tradition: protestant
-        url: "https://www.apologia.com/shop/all-science/physics/"
-        notes: Popular homeschool option.
+        url: "https://classicalacademicpress.com/products/physics-modeling-nature-2nd-edition"
+        notes: >-
+          Classical Christian upper-level text. Not calculus-based, but it assumes trigonometry, and the
+          publisher says it covers the AP Physics 1/2 curriculum with few exceptions. Run it alongside
+          Precalculus (mathematics-13). Novare's Introductory Physics
+          (https://classicalacademicpress.com/products/introductory-physics-program-1) is the gentler,
+          Algebra I-level alternative.
+      - name: College Physics for AP Courses 2e
+        publisher: OpenStax
+        tradition: secular
+        url: "https://openstax.org/details/books/college-physics-ap-courses-2e"
+        notes: >-
+          Free, complete algebra-based text organized for AP. Giancoli's Physics: Principles with
+          Applications (https://www.pearson.com/en-us/subject-catalog/p/physics-principles-with-applications/P200000006936)
+          is the classic purchased alternative, and Hewitt's Conceptual Physics
+          (https://www.conceptualphysics.com/) is a good light companion for intuition.
+      - name: Honors Physics (course plan & tests) / AP Physics 1 (online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://books.kolbe.org/products/honors-physics-course-plan"
+        notes: >-
+          Catholic option. The digital course plan supports home instruction. Kolbe also teaches AP
+          Physics 1 live online (https://www.kolbe.org/academics/honors-ap-and-dual-credit/online-honors-ap-courses-1).
+    historicalPrecedent: >-
+      Galileo's Two New Sciences (1638) founded the science of motion that Newton completed. Hillsdale
+      K-12 teaches physics in ninth grade, putting understanding before formulas.
     sources:
       - { label: "Hillsdale K-12 Curriculum Overview (Conceptual Physics, grade 9)", url: "https://k12.hillsdale.edu/getmedia/2cb68a3e-9ca4-467d-9cfa-03f069335028/curriculum-overview_interactive__1.pdf" }
+      - { label: "AP Central: AP Physics 1 (units and exam weighting)", url: "https://apcentral.collegeboard.org/courses/ap-physics-1" }
+      - { label: "AP Students: AP Physics 1", url: "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based" }
+    notes: >-
+      Family decision: this is an Honors course, and the student does NOT sit the AP Physics 1 exam
+      (the ap-physics-1 tag is optional and kept only for families who choose to). The course still
+      covers the AP Physics 1 scope, so the exam remains possible in May at about 14. Take it
+      concurrently with Precalculus. Since 2024 the AP Physics 1 course no longer includes waves or
+      circuits; this course keeps them because AP Physics C: E&M builds on circuits.
+
+  - id: physics-03
+    title: "Physics Lab & Measurement"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 16
+    order: 1.5
+    prerequisites: []
+    related: [natural-science-07, mathematics-16]
+    summary: >-
+      A lab strand that runs beside every physics course from 13 to 16. Students keep a bound lab
+      notebook, measure with uncertainty, linearize data and fit graphs, and design their own
+      procedures. Smartphone sensors and free video analysis make a home lab possible without a school
+      laboratory. The AP Physics C exams include an experimental design and analysis free-response
+      question, which this strand prepares for.
+    objectives:
+      - Keep a lab notebook with procedure, raw data, uncertainty and conclusions
+      - Estimate and propagate measurement uncertainty and judge whether results agree
+      - Linearize data, fit lines and read physical quantities from slopes and intercepts
+      - Design an experiment to test a stated relationship and defend the design in writing
+      - Use phone sensors and video analysis to measure motion, oscillations and sound
+    curriculumOptions:
+      - name: phyphox (free smartphone physics lab)
+        publisher: RWTH Aachen University
+        tradition: secular
+        url: "https://phyphox.org/"
+        notes: Free, open-source app that turns a phone's accelerometer, gyroscope, microphone, magnetometer and pressure sensors into lab instruments.
+      - name: Tracker video analysis and modeling tool
+        publisher: Open Source Physics (ComPADRE)
+        tradition: secular
+        url: "https://www.compadre.org/osp/items/detail.cfm?ID=7365"
+        notes: Free. Film a motion, track it frame by frame, and overlay a model. Excellent for projectile, collision and pendulum labs.
+      - name: Physics with Vernier
+        publisher: Vernier
+        tradition: secular
+        url: "https://www.vernier.com/product/physics-with-vernier/"
+        notes: Standard lab manual for probeware (motion detector, force sensor). Worth it if the family buys sensors.
+    notes: >-
+      Optional as a separate row, but the lab habits are expected. Log roughly one lab a week during
+      Honors Physics and the Physics C courses, and include at least one student-designed experiment per
+      unit.
+
+  - id: physics-04
+    title: "Physics Olympiad I: F=ma"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 16
+    order: 1.8
+    prerequisites: [physics-01]
+    related: [mathematics-14, mathematics-18]
+    exams: [physics-olympiad]
+    summary: >-
+      A standing problem-solving seminar in mechanics, like the AMC seminar in mathematics. Students
+      prepare for the F=ma exam, the multiple-choice mechanics exam that is the first round of the U.S.
+      Physics Team selection (AAPT). They sit it every year from about 14. The problems reward insight
+      over formula-matching: dimensional analysis, limiting cases, symmetry, conservation laws and clever
+      choices of reference frame.
+    objectives:
+      - Sit the F=ma exam each year from about 14 and aim to qualify for USAPhO
+      - Use dimensional analysis, limiting cases and symmetry to check and shortcut solutions
+      - Solve multi-step mechanics problems (rotation, collisions, oscillations, orbits) under time
+      - Work every past F=ma exam in the AAPT archive and write clean solutions
+    curriculumOptions:
+      - name: Kevin Zhou's physics olympiad handouts
+        publisher: Kevin Zhou (free online)
+        tradition: secular
+        url: "https://knzhou.github.io/"
+        notes: >-
+          Free, carefully graded handouts with solutions. Start with the preliminary problems
+          (https://knzhou.github.io/handouts/Prelim.pdf), then Problem Solving I and Mechanics I.
+      - name: U.S. Physics Team past exams (F=ma and USAPhO)
+        publisher: American Association of Physics Teachers
+        tradition: secular
+        url: "https://aapt.org/physicsteam/PT-exams.cfm"
+        notes: Official past exams and solutions. Older years are at https://www.aapt.org/physicsteam/exams.cfm.
+      - name: "Physics Olympiad: Basic to Advanced Exercises"
+        publisher: World Scientific (Committee of Japan Physics Olympiad)
+        tradition: secular
+        url: "https://www.worldscientific.com/worldscibooks/10.1142/8887"
+        notes: Problems from Japan's olympiad selection, graded from junior-high level upward. A good bridge from Honors Physics.
+    sources:
+      - { label: "AAPT: U.S. Physics Team program", url: "https://www.aapt.org/physicsteam/" }
+      - { label: "AAPT: F=ma registration, dates and homeschool proctoring (2026)", url: "https://aapt.org/physicsteam/2026/Registration.cfm" }
+    notes: >-
+      Standard for every student (family decision), not optional enrichment. F=ma is given once, in
+      February (12 February in 2026), and registration closes in late January. From 2026 both F=ma and
+      USAPhO are taken online. AAPT does not accept a parent or relative as proctor, so homeschooled
+      students must arrange one early. Ask a community college, university or library whether it
+      offers proctoring. Calculus is not needed for F=ma, so the seminar can start in the Honors
+      Physics year.
 
   - id: physics-02
-    title: "Calculus-Based Physics & Newton's Principia and Opticks"
+    title: "AP Physics C: Mechanics with Newton's Principia"
     type: course
     level: 9-12
     stage: formal
     ageStart: 15
-    ageEnd: 16.5
+    ageEnd: 16
     order: 2
     prerequisites: [physics-01]
-    related: []
+    related: [mathematics-18, mathematics-21]
+    exams: [ap-physics-c-mechanics]
     summary: >-
-      Mechanics, then electricity and magnetism, with calculus (AP Physics C level; Halliday's
-      Fundamentals). The primary sources are Newton's Principia (Definitions, Axioms and the Laws of
-      Motion, Book I sections on central forces, and Book III's System of the World with the General
-      Scholium) and the Opticks (prism experiments, which students repeat). Requires concurrent
-      calculus (mathematics-18).
+      Calculus-based mechanics following the College Board course and exam description (Units 1–7),
+      taken in the first half of the year from 15. The course ends with the AP exam in May at about 16.
+      The primary source is Newton's Principia: the Definitions and the Axioms or Laws of Motion, the
+      Book I sections on central forces, and Book III's System of the World with the General Scholium.
+      Students derive Kepler's laws from the inverse-square law and discuss Newton's natural theology.
     objectives:
-      - Solve mechanics and E&M problems using derivatives and integrals
+      - "Units 1–4: Kinematics; Force and Translational Dynamics; Work, Energy, and Power; Linear Momentum"
+      - "Units 5–7: Torque and Rotational Dynamics; Energy and Momentum of Rotating Systems; Oscillations"
+      - "Science practices of the CED: Creating Representations, Mathematical Routines, Scientific Questioning and Argumentation"
+      - Set up and solve mechanics problems with derivatives, integrals and simple differential equations
       - Derive Kepler's laws from the inverse-square law (with guidance)
-      - Repeat Newton's experimentum crucis with prisms and explain it
-      - Read the General Scholium and discuss Newton's natural theology
+      - Read the Definitions, Laws of Motion and General Scholium and discuss Newton's natural theology
+      - "Sit the AP Physics C: Mechanics exam in May at about 16"
     coreTexts:
       - title: "The Mathematical Principles of Natural Philosophy (Principia)"
         author: Isaac Newton, trans. Andrew Motte
@@ -84,34 +223,164 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
-      - title: Opticks
-        author: Isaac Newton
-        date: "1704"
-        publicDomain: true
+      - title: Selections from Newton's Principia
+        author: Isaac Newton, ed. Green Lion Press
+        date: "1687 (student edition)"
+        publicDomain: false
         links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33504" }
+          - { label: Green Lion Press, url: "https://www.greenlion.com/books/Newton_GC.html" }
     curriculumOptions:
-      - name: "Fundamentals of Physics, Extended (Halliday, Resnick, Walker)"
+      - name: "Fundamentals of Physics, Extended, 12th ed. (Halliday, Resnick, Walker)"
         publisher: Wiley
         tradition: secular
         url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
-        notes: The standard calculus-based text.
-      - name: "Physics: Modeling Nature (Novare)"
-        publisher: Classical Academic Press / Novare
-        tradition: classical
-        url: "https://classicalacademicpress.com/products/physics-modeling-nature-2nd-edition"
-        notes: Classical Christian, calculus-ready upper-level physics. Also sold by Memoria Press.
-      - name: University Physics Vol. 1–3
-        publisher: OpenStax
+        notes: The standard calculus-based text for Physics C. One book serves both Mechanics and E&M. Serway's Physics for Scientists and Engineers is an equivalent alternative.
+      - name: "University Physics Vol. 1 + MIT OCW 8.01SC Classical Mechanics"
+        publisher: OpenStax / MIT OpenCourseWare
         tradition: secular
         url: "https://openstax.org/details/books/university-physics-volume-1"
-        notes: Free calculus-based text.
-      - name: Selections from Newton's Principia
-        publisher: Green Lion Press
-        tradition: classical
-        url: "https://www.greenlion.com/books/Newton_GC.html"
-        notes: Guided student edition.
+        notes: >-
+          Free text plus a free full MIT course (https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/).
+          Khan Academy's free AP Physics C: Mechanics course (https://www.khanacademy.org/science/ap-physics-c-mechanics)
+          follows the CED units.
+      - name: "An Introduction to Mechanics, 2nd ed. (Kleppner & Kolenkow)"
+        publisher: Cambridge University Press
+        tradition: secular
+        url: "https://www.cambridge.org/gb/universitypress/subjects/physics/general-and-classical-physics/introduction-mechanics-2nd-edition"
+        notes: MIT's honors mechanics text. For strong students, and the best bridge to USAPhO. Use it after or beside a standard text.
     historicalPrecedent: >-
       Newtonian natural philosophy entered colonial colleges in the 1720s–40s through Isaac Greenwood and
       John Winthrop at Harvard and William Small at William & Mary. Jefferson said Small "fixed the
       destinies of my life" by teaching him mathematics and natural philosophy.
+    sources:
+      - { label: "AP Central: AP Physics C: Mechanics (course page)", url: "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics" }
+      - { label: "AP Physics C: Mechanics Course and Exam Description", url: "https://apcentral.collegeboard.org/media/pdf/ap-physics-c-mechanics-course-and-exam-description.pdf" }
+      - { label: "AP Central: AP Physics C: Mechanics released free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-physics-c-mechanics/exam/past-exam-questions" }
+      - { label: "AP Students: AP Physics C: Mechanics", url: "https://apstudents.collegeboard.org/courses/ap-physics-c-mechanics" }
+    notes: >-
+      Requires Honors Physics (physics-01). AP Calculus BC (mathematics-18) must be completed or run
+      concurrently: Physics C uses derivatives from the first unit and integrals by Unit 3. Family
+      decision: the exam is sat in the May the course finishes. The number of multiple-choice
+      questions and the section timing change from the May 2027 exam, so use current practice
+      materials. Prep books: Princeton Review AP Physics C Premium Prep
+      (https://www.penguinrandomhouse.com/books/797226/princeton-review-ap-physics-c-premium-prep-19th-edition-by-the-princeton-review/)
+      or Barron's AP Physics C Premium. Flipping Physics has free AP Physics C review videos
+      (https://www.flippingphysics.com/ap-physics-c-review.html).
+
+  - id: physics-05
+    title: "AP Physics C: Electricity & Magnetism with Franklin, Faraday & Maxwell"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16
+    order: 3
+    prerequisites: [physics-02]
+    related: [mathematics-18, natural-science-07]
+    exams: [ap-physics-c-em]
+    summary: >-
+      Calculus-based electricity and magnetism following the College Board course and exam description
+      (Units 8–13), taken in the second half of the year, with the AP exam in May at about 16 (usually
+      the same May as Mechanics). The primary sources trace the science from an American founder to its
+      mathematical completion. Franklin's letters from Philadelphia are the first, then Faraday's
+      Experimental Researches (the discovery of induction, 1831), then Maxwell's Treatise.
+    objectives:
+      - "Units 8–10: Electric Charges, Fields, and Gauss's Law; Electric Potential; Conductors and Capacitors"
+      - "Units 11–13: Electric Circuits (including RC circuits); Magnetic Fields and Electromagnetism; Electromagnetic Induction"
+      - Use Gauss's and Ampère's laws with symmetry and integrate to find fields and potentials
+      - Solve RC and RL circuits with differential equations
+      - Read Franklin's account of the Leyden jar and the lightning experiment and repeat his safe electrostatic demonstrations
+      - Follow Faraday's First Series and repeat his induction experiment with a coil and magnet
+      - "Sit the AP Physics C: Electricity and Magnetism exam in May at about 16"
+    coreTexts:
+      - title: Experiments and Observations on Electricity, Made at Philadelphia in America
+        author: Benjamin Franklin
+        date: "1751"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45515" }
+      - title: Experimental Researches in Electricity, Vol. 1
+        author: Michael Faraday
+        date: "1839 (papers of 1831–1838)"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14986" }
+      - title: A Treatise on Electricity and Magnetism, Vol. 1
+        author: James Clerk Maxwell
+        date: "1873"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/electricandmagne01maxwrich" }
+    curriculumOptions:
+      - name: "Fundamentals of Physics, Extended, 12th ed. (Halliday, Resnick, Walker)"
+        publisher: Wiley
+        tradition: secular
+        url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
+        notes: Continue in the same text used for Mechanics.
+      - name: "University Physics Vol. 2 + MIT OCW 8.02 Electricity and Magnetism"
+        publisher: OpenStax / MIT OpenCourseWare
+        tradition: secular
+        url: "https://openstax.org/details/books/university-physics-volume-2"
+        notes: Free text plus a free full MIT course (https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
+      - name: "Electricity and Magnetism, 3rd ed. (Purcell & Morin)"
+        publisher: Cambridge University Press
+        tradition: secular
+        url: "https://www.cambridge.org/us/titles/electricity-and-magnetism-3rd-edition"
+        notes: The honors classic, in SI units. It treats magnetism as a consequence of relativity. For strong students and USAPhO preparation.
+    historicalPrecedent: >-
+      Franklin's electrical experiments in Philadelphia, sent as letters to Peter Collinson and printed
+      in London in 1751, made him the most famous American natural philosopher of his age. Faraday
+      announced electromagnetic induction in 1831, and Maxwell gave the field its mathematical form in
+      his Treatise of 1873.
+    sources:
+      - { label: "AP Central: AP Physics C: Electricity and Magnetism (course page)", url: "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism" }
+      - { label: "AP Physics C: Electricity and Magnetism Course and Exam Description", url: "https://apcentral.collegeboard.org/media/pdf/ap-physics-c-electricity-and-magnetism-course-and-exam-description.pdf" }
+      - { label: "AP Central: AP Physics C: E&M released free-response questions", url: "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam/past-exam-questions" }
+      - { label: "AP Students: AP Physics C: Electricity and Magnetism", url: "https://apstudents.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism" }
+    notes: >-
+      Requires AP Physics C: Mechanics (physics-02). AP Calculus BC (mathematics-18) must be completed
+      or run concurrently; E&M uses integration over lines, surfaces and volumes throughout. Khan Academy
+      has no Physics C: E&M course, so use MIT 8.02 and the released FRQs for free practice. Never
+      repeat Franklin's kite experiment; use a Van de Graaff generator or Leyden jar demonstrations
+      instead.
+
+  - id: physics-06
+    title: "Physics Olympiad II: USAPhO & Advanced Problem Solving"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 16.5
+    order: 4
+    prerequisites: [physics-04, physics-02]
+    related: [mathematics-17, mathematics-20]
+    exams: [physics-olympiad]
+    summary: >-
+      After both Physics C exams, the olympiad seminar moves to free-response problems across
+      mechanics, electromagnetism, thermodynamics, waves and modern physics, at the level of the USA
+      Physics Olympiad (USAPhO). Students who qualify through F=ma sit USAPhO. Everyone else works the
+      same problems as the capstone of the physics track.
+    objectives:
+      - Write full free-response olympiad solutions with clear physical reasoning
+      - Extend mechanics and E&M to thermodynamics, waves, relativity and basic modern physics
+      - Sit USAPhO if qualified through F=ma
+    curriculumOptions:
+      - name: "Introduction to Classical Mechanics: With Problems and Solutions (David Morin)"
+        publisher: Cambridge University Press
+        tradition: secular
+        url: "https://www.amazon.com/Introduction-Classical-Mechanics-Problems-Solutions/dp/0521876222"
+        notes: Harvard's honors mechanics text with over 250 solved problems. The standard next step after Kleppner.
+      - name: Jaan Kalda's study guides for IPhO
+        publisher: Jaan Kalda (free online)
+        tradition: secular
+        url: "https://www.ioc.ee/~kalda/ipho/"
+        notes: Free, idea-by-idea handouts in English (kinematics, mechanics, electrical circuits, thermodynamics, optics, relativity) by an Estonian olympiad coach.
+      - name: Kevin Zhou's handouts and past USAPhO exams
+        publisher: Kevin Zhou / AAPT
+        tradition: secular
+        url: "https://knzhou.github.io/"
+        notes: Continue the handouts (E&M, thermodynamics, waves, relativity, modern physics) and work the past USAPhO exams (https://aapt.org/physicsteam/PT-exams.cfm).
+    notes: >-
+      The F=ma exam (physics-04) is standard for every student. USAPhO is taken only by students who
+      qualify, but the problem-solving seminar continues for all. It can also run in the college years
+      alongside multivariable calculus.

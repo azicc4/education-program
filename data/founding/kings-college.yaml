@@ -22,57 +22,93 @@ primarySources:
   - { label: "A History of Columbia University 1754–1904 (1904), Appendix A: Johnson's Advertisement (1754); Appendix B: Laws of 1755 and the 1763 Plan of Education (Internet Archive)", url: "https://archive.org/details/historyofcolumbi00coluuoft" }
 entries:
   - text: "Admission (1754): read well, write a good legible hand, and know the first five rules of arithmetic, 'as far as Division and Reduction'"
+    use: [reference]
+    units: [fine-arts-03, mathematics-06]
     search: Arithmetic
     tracks: [reading-phonics, mathematics, practical-arts]
   - text: "Admission (1754): know the Latin and Greek grammars and make grammatical Latin; construe and parse two or three of Tully's (Cicero's) first Select Orations"
+    use: [reference, student]
+    units: [latin-04, latin-11]
     search: Cicero
     tracks: [latin, grammar-composition]
   - text: "Admission (1754): the first books of Virgil's Aeneid and part of the first chapter of St. John's Gospel in Greek"
+    use: [reference, student]
+    units: [latin-12, greek-05]
     search: Virgil
     tracks: [latin, greek, poetry]
   - text: "Laws of 1755: Tully's first three Select Orations, the first three books of the Aeneid, and the first ten chapters of St. John in Greek, turned into Latin; the rules of Clarke's Introduction to making Latin"
+    use: [reference, student]
+    units: [latin-11, latin-12, greek-05, latin-08]
     search: Greek New Testament
     tracks: [latin, greek]
   - text: "Aim (1754): teach the children to know God in Jesus Christ and train them in virtuous habits to be 'Ornaments to their Country'"
+    use: [reference]
+    units: []
     search: Virtue
     tracks: [character-virtue, theology]
   - text: "Planned course (1754): the learned languages, and the arts of reasoning exactly, writing correctly and speaking eloquently"
+    use: [reference]
+    units: [logic-05]
     search: Rhetoric
     tracks: [logic, grammar-composition, rhetoric, latin, greek]
   - text: "Planned course (1754): numbering and measuring, surveying and navigation, geography and history, husbandry, commerce and government"
+    use: [reference]
+    units: [practical-arts-08, practical-arts-09, practical-arts-14]
     search: Surveying
     tracks: [mathematics, practical-arts, history, economics, civics-law]
   - text: "Planned course (1754): the knowledge of all nature (heavens, air, water, earth, minerals, plants and animals), leading 'from the Study of Nature' to knowledge of God and duty"
+    use: [reference]
+    units: []
     search: Natural history
     tracks: [natural-science, theology]
   - text: "First year (1763): Sallust, Caesar's Commentaries, Ovid's Metamorphoses, Virgil's Eclogues, Aesop's Fables, Lucian's Dialogues, Greek Testament, Grotius's De Veritate; Latin and English themes and translation"
+    use: [reference, student]
+    units: [latin-07, latin-09, latin-13, greek-07]
     search: Caesar
     tracks: [latin, greek, history, theology, grammar-composition]
   - text: "Second year: Cicero's De Officiis, Quintus Curtius, Terence, Ovid's Epistles, Virgil's Aeneid and Georgics, Epictetus's Enchiridion, Xenophon's Cyropaedia and Anabasis, Farnaby's epigrams"
+    use: [reference, student]
+    units: [latin-11, latin-12, philosophy-06, greek-08]
     search: Xenophon
     tracks: [latin, greek, philosophy, poetry, character-virtue]
   - text: "Second year: Wallis's Logic, Sanderson's Compendium, Johnson's Noetica; rhetoric, recitations to learn the art of speaking, Latin and English verse"
+    use: [reference]
+    units: [logic-03, logic-06, rhetoric-05]
     search: Logic
     tracks: [logic, rhetoric, poetry]
   - text: "Third year: Cicero's Orations and De Oratore, Quintilian's Institutes, Pliny's Letters, Catullus, Tibullus, Propertius, Horace"
+    use: [reference, student]
+    units: [latin-11, latin-14, rhetoric-10, ap-humanities-03]
     search: Quintilian
     tracks: [latin, rhetoric, poetry]
   - text: "Third year: Aristotle's Ethics and Poetics, Plato's Dialogues, Xenophon's Memorabilia, Theocritus, Homer's Iliad; Hutcheson's ethics and metaphysics; syllogistic disputations in Latin"
+    use: [reference, student]
+    units: [philosophy-07, poetry-14, greek-10, greek-11]
     search: Homer
     tracks: [greek, philosophy, poetry, logic, character-virtue]
   - text: "Fourth year: Cicero's Tusculan Disputations, Livy and Tacitus, Lucan, Juvenal and Persius, Plautus"
+    use: [reference, student]
+    units: [philosophy-06, latin-11, latin-13, latin-17]
     search: Livy
     tracks: [latin, history, poetry, philosophy]
   - text: "Fourth year: Homer's Odyssey, Sophocles, Euripides, Aeschylus, Thucydides, Herodotus, Longinus On the Sublime, Demosthenes, Dionysius of Halicarnassus, Isocrates"
+    use: [reference, student]
+    units: [greek-11, greek-14, greek-15, poetry-14]
     search: Thucydides
     tracks: [greek, literature, history, rhetoric]
   - text: "Fourth year: Hebrew grammar and the Hebrew Bible"
+    use: [reference, student]
+    units: [hebrew-03, hebrew-04, hebrew-06]
     search: Hebrew Psalter
     tracks: [hebrew, theology]
   - text: "Fourth year: Grotius's De Jure Belli ac Pacis or Pufendorf; Hutcheson's Moral Philosophy; philosophical essays in English and Latin; disputations in the hall"
+    use: [reference, student]
+    units: [philosophy-15]
     search: Grotius
     tracks: [civics-law, philosophy, grammar-composition]
   - text: "Admission from 1786 (statutes of 1785): Caesar's Gallic War, the four Catilinarian Orations, the first four books of the Aeneid, and the Gospels from the Greek; arithmetic through the rule of three"
+    use: [reference, student]
+    units: [latin-07, latin-11, latin-12, greek-05]
     search: Caesar
     tracks: [latin, greek, mathematics]
 notes: >-

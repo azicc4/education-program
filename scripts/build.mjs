@@ -40,6 +40,7 @@ const TYPES = ['course', 'unit', 'practice'];
 const STAGES = ['early-development', 'formal'];
 const TRADITIONS = ['catholic', 'protestant', 'secular', 'classical'];
 const EXAM_CATEGORIES = ['ap-stem', 'ap-humanities', 'ap-language', 'clt', 'admissions', 'national-exam', 'olympiad'];
+const FOUNDING_USES = ['reference', 'teacher', 'student'];
 const FOUNDING_CATEGORIES = ['british-university', 'colonial-college', 'founder-letter', '19th-century-school', 'treatise'];
 const REQUIRED = ['id', 'title', 'type', 'level', 'stage', 'ageStart', 'ageEnd', 'order', 'summary'];
 
@@ -156,8 +157,15 @@ function validateFounding(file, doc) {
   for (const e of doc.entries || []) {
     if (!e.text) err(rel, 'entry missing text');
     for (const t of e.tracks || []) if (!TRACK_ORDER.includes(t)) warn(rel, `entry "${e.text}": unknown track ${t}`);
+    for (const u of e.use || []) if (!FOUNDING_USES.includes(u)) err(rel, `entry "${e.text}": bad use ${u}`);
   }
   return doc;
+}
+
+// founding entries point at real curriculum units; checked once all rows are loaded
+function validateFoundingUnits(lists, rows) {
+  const ids = new Set(rows.map((r) => r.id));
+  for (const l of lists) for (const e of l.entries || []) for (const u of e.units || []) if (!ids.has(u)) warn(`data/founding/${l.id}.yaml`, `entry "${e.text}": unit ${u} not found`);
 }
 
 const yamlFiles = (dir) =>
@@ -179,6 +187,7 @@ for (const f of trackFiles) {
 validateGraph(rows);
 const exams = checkOnly ? (fs.existsSync(examsFile) && rows.some((r) => r.exams?.length) ? validateExams(load(examsFile), rows) : []) : validateExams(load(examsFile), rows);
 const founding = foundingFiles.map((f) => validateFounding(f, load(f))).filter(Boolean);
+if (!checkOnly) validateFoundingUnits(founding, rows);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`ERROR ${e}`);

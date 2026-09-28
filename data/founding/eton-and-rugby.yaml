@@ -21,66 +21,108 @@ primarySources:
   - { label: "Thomas Hughes, Tom Brown's School Days (Gutenberg #1480)", url: "https://www.gutenberg.org/ebooks/1480" }
 entries:
   - text: "The Eton Latin Grammar (used until replaced by the Public School Latin Primer in the 1860s)"
+    use: [reference, student]
+    units: [latin-06]
     search: Grammar
     tracks: [latin, grammar-composition]
   - text: "Construing: boys translated set passages aloud in school and parsed them, quoting grammar rules and parallel passages; Sixth Form turned Homer into Latin (Lyte)"
+    use: [reference]
+    units: [latin-07, latin-15]
     search: construing
     tracks: [latin, greek]
   - text: "Fourth Form (1861): Greek Testament, Farnaby's Epigrams, Aesop, Ovid's Epistles and Metamorphoses, Caesar"
+    use: [reference, student]
+    units: [greek-05, latin-05, latin-07, latin-09]
     search: Ovid
     tracks: [latin, greek, poetry]
   - text: "Remove (1861): Poetae Graeci, Scriptores Graeci, Cornelius Nepos, Virgil, Horace — the Eton house anthologies"
+    use: [reference, student]
+    units: [latin-07, latin-12, latin-14]
     search: Nepos
     tracks: [latin, greek]
   - text: "Scriptores Romani — Eton's Latin prose selection, construed alongside Homer, Lucian and Virgil in the eighteenth-century routine"
+    use: [reference]
+    units: [greek-07, greek-11, latin-12]
     search: Scriptores
     tracks: [latin, history]
   - text: "Fifth Form (1861): four books of the Iliad, extracts of Herodotus and Thucydides, Theocritus, two books of the Aeneid, Horace's Satires and Epistles and Odes, extracts of Livy"
+    use: [reference, student]
+    units: [greek-11, greek-12, latin-12, latin-14]
     search: Homer
     tracks: [greek, latin, poetry, history]
   - text: "Sixth Form and First Division (1861): Odyssey, Aeschylus, Euripides, Theocritus, Thucydides, Demosthenes, Virgil's Georgics, Lucretius, Tacitus, Cicero's Letters"
+    use: [reference, student]
+    units: [greek-14, greek-15, latin-17, rhetoric-08]
     search: Thucydides
     tracks: [greek, latin, rhetoric]
   - text: "Horace's Odes construed and repeated by heart in summer; Selecta ex Ovidio and Epigrammatum Delectus as repetition books"
+    use: [reference, student]
+    units: [latin-14, latin-09]
     search: Horace
     tracks: [latin, poetry]
   - text: "Weekly Latin theme, elegiac verses and lyrics — Latin verse composition as the mark of an Eton scholar"
+    use: [reference]
+    units: [latin-15, poetry-08]
     search: Latin verse
     tracks: [latin, poetry, grammar-composition]
   - text: "Greek plays from Burton's Pentalogia or Aristophanes, construed in extra hours by the Sixth and upper Fifth"
+    use: [reference, student]
+    units: [greek-14]
     search: Sophocles
     tracks: [greek, literature]
   - text: "Scripture history and the Greek Testament in every public school; Sunday religious teaching (Clarendon Report)"
+    use: [reference, student]
+    units: [greek-05, theology-07]
     search: Greek Testament
     tracks: [theology, greek]
   - text: "Arnold's priorities, told to the Sixth: 'religious and moral principle; 2ndly, gentlemanly conduct; 3rdly, intellectual ability'"
+    use: [reference, teacher]
+    units: []
     search: Arnold
     tracks: [character-virtue, theology]
   - text: "Arnold's aim, told to the assembled school: that Rugby be 'a school of Christian gentlemen'"
+    use: [reference, teacher]
+    units: [character-virtue-11]
     search: Arnold
     tracks: [character-virtue]
   - text: "Sixth Form and praepostors as the school's governors: prefects with authority, backed by the head master, 'like officers' in an army"
+    use: [reference]
+    units: [character-virtue-10]
     search: praepostor
     tracks: [civics-law, character-virtue]
   - text: "Thucydides — Arnold's lifelong author (his edition and lexicon); he read the Corcyrean sedition as a lesson for modern politics"
+    use: [reference, student]
+    units: [greek-15, history-15]
     search: Thucydides
     tracks: [greek, history, civics-law]
   - text: "Aristotle's Ethics, Rhetoric and Politics, whose maxims Arnold 'cited ... as oracles'; Herodotus and Homer as his other loves"
+    use: [reference, student]
+    units: [philosophy-07, rhetoric-07, character-virtue-12, greek-12]
     search: Aristotle
     tracks: [philosophy, rhetoric, greek]
   - text: "Modern history, modern languages and mathematics made regular school subjects at Rugby (with Russell's Modern Europe, Hallam and Guizot as the history texts)"
+    use: [reference]
+    units: [history-25]
     search: history
     tracks: [history, mathematics]
   - text: "Divinity lessons, Scripture read with the Praepostors, and the Greek Testament taught on weekdays so Sunday stayed for English religious reading"
+    use: [reference, student]
+    units: [greek-05, theology-12]
     search: Bible
     tracks: [theology]
   - text: "Arnold's chapel sermons to the boys (published as his Sermons) and his introduction of regular Communion for older boys"
+    use: [reference, teacher]
+    units: []
     search: Arnold
     tracks: [theology, rhetoric, character-virtue]
   - text: "Arnold on classics: language study seems 'given for the very purpose of forming the human mind in youth'"
+    use: [reference, teacher]
+    units: []
     search: Latin
     tracks: [latin, greek]
   - text: "Thomas Hughes, Tom Brown's School Days (1857) — the novel of Arnold's Rugby: fagging, football, the Doctor's sermons, and Tom's charge over young Arthur"
+    use: [student]
+    units: [physical-training-08]
     search: Hughes
     tracks: [literature, character-virtue, physical-training]
 notes: >-

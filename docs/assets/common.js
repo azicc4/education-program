@@ -5,6 +5,7 @@
   const trackById = Object.fromEntries(DATA.tracks.map((t) => [t.id, t]));
   const rowById = Object.fromEntries(DATA.rows.map((r) => [r.id, r]));
   const levelById = Object.fromEntries(DATA.levels.map((l) => [l.id, l]));
+  const examById = Object.fromEntries((DATA.exams || []).map((x) => [x.id, x]));
   const levelOrder = DATA.levels.map((l) => l.id);
 
   // rows that list this row as a prerequisite
@@ -27,7 +28,7 @@
   const trackTitle = (id) => trackById[id]?.title ?? id;
 
   // ---------- state in URL hash ----------
-  const defaults = { level: [], group: '', track: '', q: '', sort: 'age', dir: 'asc', row: '', at: '' };
+  const defaults = { level: [], group: '', track: '', exam: '', q: '', sort: 'age', dir: 'asc', row: '', at: '' };
   function readState() {
     const p = new URLSearchParams(location.hash.slice(1));
     return {
@@ -39,6 +40,7 @@
       dir: p.get('dir') || defaults.dir,
       row: p.get('row') || '',
       at: p.get('at') || '',
+      exam: p.get('exam') || '',
     };
   }
   function writeState(state) {
@@ -55,6 +57,7 @@
     if (s.level.length && !s.level.includes(r.level)) return false;
     if (s.group && r.trackGroup !== s.group) return false;
     if (s.track && r.track !== s.track) return false;
+    if (s.exam && !(r.exams || []).includes(s.exam)) return false;
     if (s.q) {
       const hay = [
         r.title, r.summary, r.notes, r.historicalPrecedent, trackTitle(r.track), r.trackGroup,
@@ -84,6 +87,9 @@
       </div>
       <label>Subject <select data-f="group"><option value="">All subjects</option>${groupOpts}</select></label>
       <label>Track <select data-f="track"><option value="">All tracks</option>${trackOpts}</select></label>
+      ${(DATA.exams || []).length ? `<label>Prepares for <select data-f="exam"><option value="">Any exam</option>${DATA.exams
+        .map((x) => `<option value="${esc(x.id)}"${x.id === state.exam ? ' selected' : ''}>${esc(x.name)}</option>`)
+        .join('')}</select></label>` : ''}
       ${search ? `<input type="search" data-f="q" placeholder="Search titles, authors, texts…" value="${esc(state.q)}" aria-label="Search">` : ''}
       ${childSelect()}
       <button type="button" class="linkish" data-f="reset">Reset</button>
@@ -105,6 +111,10 @@
       if (state.track && trackById[state.track]?.group !== state.group && state.group) state.track = '';
       onChange(true);
     });
+    el.querySelector('[data-f="exam"]')?.addEventListener('change', (e) => {
+      state.exam = e.target.value;
+      onChange(false);
+    });
     el.querySelector('[data-f="track"]').addEventListener('change', (e) => {
       state.track = e.target.value;
       onChange(false);
@@ -121,7 +131,7 @@
       });
     }
     el.querySelector('[data-f="reset"]').addEventListener('click', () => {
-      Object.assign(state, { level: [], group: '', track: '', q: '' });
+      Object.assign(state, { level: [], group: '', track: '', exam: '', q: '' });
       onChange(true);
     });
   }
@@ -258,6 +268,11 @@
               .join('')}`
           : ''
       }
+      ${r.exams?.length ? `<h3>Prepares for</h3><div class="navlinks">${r.exams
+        .map((id) => examById[id])
+        .filter(Boolean)
+        .map((x) => `<a class="badge exam-badge" href="exams.html#${esc(x.id)}">${esc(x.name)}</a>`)
+        .join(' ')}</div>` : ''}
       ${r.historicalPrecedent ? `<h3>Historical precedent</h3><p class="precedent">${esc(r.historicalPrecedent)}</p>` : ''}
       ${r.notes ? `<h3>Notes</h3><p>${esc(r.notes)}</p>` : ''}
       ${r.sources?.length ? `<h3>Sources</h3>${linkList(r.sources)}` : ''}
@@ -292,7 +307,7 @@
   initTheme();
 
   window.App = {
-    DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks,
+    DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks, examById,
     esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel,
     readState, writeState, matches, renderFilters, showDetail,
   };

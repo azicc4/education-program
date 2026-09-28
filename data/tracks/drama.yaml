@@ -1,0 +1,930 @@
+track: drama
+title: "Drama, Voice & Accents"
+trackGroup: English
+description: >-
+  The performance side of the English curriculum. The literature track reads Shakespeare, the poetry
+  track scans and recites verse, and the rhetoric track trains the orator. This track trains the actor
+  and the trained ear. It begins with dramatic play and short children's Shakespeare (6–9) and moves
+  to scene study in a children's company. Then comes the voice (breath, resonance, articulation, after
+  Berry, Rodenburg and Linklater and the older elocutionists), speaking Shakespeare's verse on its own
+  terms (Barton, Berry, Tucker's First Folio cue-script approach), and phonetics with the International
+  Phonetic Alphabet. From there the student learns the standard accents of English (General American,
+  RP and Standard Southern British) and the major regional ones (Scottish, Irish, Southern US, New
+  England, Cockney and London, Australian). They study how accent has marked class, nation and region
+  from Sheridan and Walker to Webster, Daniel Jones and Shaw's Pygmalion, and they reconstruct
+  Shakespeare's Original Pronunciation. The track ends with a full production and a college director's
+  seminar. End state: the student acts and speaks Shakespeare's verse well on a stage, transcribes
+  speech in IPA, commands a range of English accents and can explain their features, and understands
+  accent as linguistic, social and historical knowledge. The model is the Jesuit colleges and the
+  English grammar schools, which treated the school play as training in memory, eloquence and virtue.
+rows:
+  - id: drama-01
+    title: "Dramatic Play & Children's Theatre"
+    type: course
+    level: early-5
+    stage: formal
+    ageStart: 6
+    ageEnd: 9
+    order: 1
+    prerequisites: []
+    related: [literature-06, rhetoric-02, poetry-02]
+    summary: >-
+      The child learns to play a part: theater games, story dramatization, simple costume, and short
+      "melodramatic" Shakespeare scripts in which the real lines are kept for the key moments. Stories
+      come from the Lambs' Tales and Lois Burdett's rhyming children's versions. Speeches memorized in
+      the literature track (Ken Ludwig's method) are now staged. The aims are courage before an
+      audience, a loud clear voice, listening to fellow players, and a first delight in Shakespeare's
+      words.
+    objectives:
+      - Play Spolin-style theater games weekly (mirror, "where", gibberish, freeze) to build focus, imagination and ensemble
+      - Act out at least four Lamb tales as family or co-op scenes, speaking Shakespeare's own lines at the key moments
+      - Perform a short children's version of A Midsummer Night's Dream or The Tempest before an audience
+      - Speak so the back row can hear, face the audience, and stay in character while others speak
+      - Take a bow, receive applause graciously, and praise a fellow player's work
+    coreTexts:
+      - title: Tales from Shakespeare
+        author: Charles & Mary Lamb
+        date: "1807"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/573" }
+      - title: "A Midsummer Night's Dream for Kids (Shakespeare Can Be Fun!)"
+        author: Lois Burdett
+        date: "1997"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Midsummer-Nights-Dream-Kids-Shakespeare/dp/1552091244" }
+      - title: "Theater Games for the Classroom: A Teacher's Handbook"
+        author: Viola Spolin
+        date: "1986"
+        publicDomain: false
+        links:
+          - { label: Northwestern University Press, url: "https://nupress.northwestern.edu/9780810140042/theater-games-for-the-classroom/" }
+      - title: How to Teach Your Children Shakespeare
+        author: Ken Ludwig
+        date: "2013"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/how-to-teach-your-children-shakespeare-ken-ludwig/1113507776?ean=9780307951502" }
+    curriculumOptions:
+      - name: Playing With Plays (Shakespeare for Kids scripts)
+        publisher: Playing With Plays
+        tradition: secular
+        url: "https://playingwithplays.com/"
+        notes: >-
+          Short comic scripts of the plays with three versions per title (for ages about 6–7, 8–14 and
+          14+) and flexible cast sizes. Shakespeare's real lines are highlighted and should be spoken
+          verbatim. Ideal for a sibling troupe or co-op.
+      - name: "Shakespeare Can Be Fun! series, Lois Burdett"
+        publisher: Firefly Books
+        tradition: secular
+        url: "https://www.amazon.com/Midsummer-Nights-Dream-Kids-Shakespeare/dp/1552091244"
+        notes: >-
+          A Stratford, Ontario primary teacher's rhyming-couplet versions, illustrated by her pupils.
+          They read aloud well and can be staged as class plays.
+      - name: "Theater Games for the Classroom (Spolin)"
+        publisher: Northwestern University Press
+        tradition: secular
+        url: "https://nupress.northwestern.edu/9780810140042/theater-games-for-the-classroom/"
+        notes: Over 130 graded games. Use one or two as the warm-up to every drama session through age 12.
+    historicalPrecedent: >-
+      Home and school theatricals were a normal part of an educated childhood. The Lambs wrote their
+      Tales (1807) for children, and the Austen children staged plays in the family barn at Steventon
+      in the 1780s. The Jesuit colleges and the English grammar schools brought boys onto the stage
+      young (see drama-02).
+    notes: >-
+      Keep this playful and never a chore. One short show per term is plenty. Coordinate with
+      literature-06, where the tales are read and the passages memorized; this row stages them. Parents
+      need no theater background: Spolin's games and Kelso's scripts are written for non-specialists.
+
+  - id: drama-02
+    title: "Shakespeare Performance I: Scene Study & the Children's Company"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 9.5
+    ageEnd: 12
+    order: 2
+    prerequisites: [drama-01]
+    related: [literature-13, literature-15, poetry-05, rhetoric-05]
+    summary: >-
+      The student acts in Shakespeare's own words, cut but not rewritten. The work uses the Folger
+      Method's performance-based practices (tossing lines, two-line scenes, 20-minute plays, cutting a
+      text, promptbooks) and joins or forms a children's Shakespeare company. Scenes come from the
+      comedies and histories being read in the literature track. The craft taught is blocking, stage
+      geography, projection, entrances and exits, finding the stage directions embedded in the lines,
+      and playing to and with a scene partner.
+    objectives:
+      - Perform at least three scenes of 40–80 lines from the comedies and histories, off book
+      - Use stage vocabulary (upstage, downstage, stage left/right, cross, cheat out) and write blocking in a promptbook
+      - Project to the back of a hall without shouting, and keep the ends of lines up
+      - Find and play the implied stage directions in a speech (e.g. "Kneel", "Give me thy hand", "Look here")
+      - Cut a scene to a set length and justify the cuts
+      - Play a role in a 20-minute or one-hour abridged play with a company
+    coreTexts:
+      - title: The Folger Guide to Teaching A Midsummer Night's Dream
+        author: Peggy O'Brien (general editor), Folger Shakespeare Library
+        date: "2025"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/The-Folger-Guide-to-Teaching-A-Midsummer-Nights-Dream/Peggy-OBrien/Folger-Shakespeare-Library/9781982105662" }
+      - title: "Shakespeare Set Free: Teaching Romeo & Juliet, Macbeth & Midsummer Night"
+        author: Peggy O'Brien (ed.), Folger Shakespeare Library
+        date: "1993; 2006 ed."
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Shakespeare-Set-Free-Teaching-Midsummer/dp/0743288505" }
+      - title: "Shakespeare on Toast: Getting a Taste for the Bard"
+        author: Ben Crystal
+        date: "2008; rev. 2016"
+        publicDomain: false
+        links:
+          - { label: Icon Books, url: "https://www.iconbooks.com/ib-title/shakespeare-on-toast/" }
+      - title: A Midsummer Night's Dream (Folger text)
+        author: William Shakespeare
+        date: "c. 1595"
+        publicDomain: true
+        links:
+          - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/" }
+    curriculumOptions:
+      - name: The Folger Method (free teaching resources and guides)
+        publisher: Folger Shakespeare Library
+        tradition: secular
+        url: "https://www.folger.edu/teach/the-folger-method/"
+        notes: >-
+          Nine language-first, on-your-feet practices, including Tone & Stress, Tossing Words and Lines,
+          Two-line Scenes, 20-Minute Plays, Choral Reading, 3-D Shakespeare, Cutting a Text, Promptbooks
+          and Group Scenes. They work well for a homeschool co-op, and the Folger Guides give lesson
+          sequences for the most-taught plays.
+      - name: Homeschool Shakespeare classes (e.g. Chesapeake Shakespeare Company)
+        publisher: Chesapeake Shakespeare Company
+        tradition: secular
+        url: "https://www.chesapeakeshakespeare.com/education-community/camps-classes/classes/"
+        notes: >-
+          An example of a year-long homeschool ensemble class that ends in a staged play. Look for the
+          equivalent at your nearest Shakespeare festival or youth company, or start a family co-op
+          company.
+      - name: Homeschool Days at the Blackfriars Playhouse
+        publisher: American Shakespeare Center
+        tradition: secular
+        url: "https://americanshakespearecenter.com/homeschool-days/"
+        notes: >-
+          Workshops and performances in the Blackfriars Playhouse, a re-creation of Shakespeare's indoor
+          theatre in Staunton, Virginia. Useful for seeing "original practices" staging (lights on,
+          doubling, direct address).
+    historicalPrecedent: >-
+      The Jesuit colleges staged plays from the 1550s, and the Ratio Studiorum of 1599 made an annual
+      Latin tragedy or comedy part of the course, to train memory, Latin, eloquence and piety. Calderón,
+      Corneille and Molière first met the stage at Jesuit schools. In England, Nicholas Udall, sometime headmaster
+      of Eton, wrote Ralph Roister Doister (c. 1552), the first English comedy, probably for schoolboys to act.
+      Boys' companies such as the Children of the Chapel rivalled the adult players in Shakespeare's own
+      London.
+    sources:
+      - { label: "Jesuit Educational Quarterly: 'The Enduring Pedagogical Aims of Jesuit School Theater'", url: "https://jesuitsourcesdigital.bc.edu/jeq_2025v1n3_p421/" }
+      - { label: "Udall, Roister Doister (Project Gutenberg)", url: "https://www.gutenberg.org/ebooks/21350" }
+    notes: >-
+      This row supplies the stagecraft. The literature track (literature-13 and -15) handles reading and
+      interpretation, and poetry-05 handles solo declamation. A Catholic co-op can revive the Jesuit
+      custom of an end-of-year play with a prize-giving. For children, the Folger's cut texts and its
+      "20-minute play" are more fruitful than modern-language adaptations.
+
+  - id: drama-03
+    title: "Voice & Speech Foundations: Breath, Resonance & Articulation"
+    type: course
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 12.5
+    order: 3
+    prerequisites: [drama-02]
+    related: [rhetoric-05, poetry-05, music-10]
+    summary: >-
+      A daily voice practice on the method of the modern British voice teachers. Cicely Berry (RSC),
+      Patsy Rodenburg (National Theatre, Guildhall) and Kristin Linklater (RSC, then American
+      conservatories) cover relaxation and alignment, breath support, resonance, range, and crisp
+      articulation of consonants. The student also reads selections from the 18th-century
+      elocutionists who began the discipline, Sheridan and Walker, both of them actors before they
+      became teachers. The aim is a voice that is free, strong, flexible and clear, which the orator
+      needs as much as the actor.
+    objectives:
+      - Keep a 15–20 minute daily voice warm-up (alignment, breath, humming and resonance, range, tongue-twisters)
+      - Sustain a controlled out-breath of 20+ seconds and speak a 4–6 line sentence on one breath
+      - Fill a large hall at conversational effort, and speak quietly yet audibly
+      - Articulate consonant clusters and final consonants cleanly at speed
+      - Recognize vocal strain and hoarseness, and know the habits of vocal health (hydration, rest, no shouting)
+      - Compare Walker's rules on emphasis and inflection with Berry's modern approach, and say what each gets right
+    coreTexts:
+      - title: Voice and the Actor
+        author: Cicely Berry
+        date: "1973"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Voice-Actor-Cicely-Berry/dp/0020415559" }
+      - title: "Freeing the Natural Voice: Imagery and Art in the Practice of Voice and Language"
+        author: Kristin Linklater
+        date: "1976; rev. 2006"
+        publicDomain: false
+        links:
+          - { label: Nick Hern Books, url: "https://www.nickhernbooks.co.uk/freeing-the-natural-voice" }
+      - title: "The Actor Speaks: Voice and the Performer"
+        author: Patsy Rodenburg
+        date: "1997"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Actor-Speaks-Voice-Performer-Performance/dp/1350027138" }
+      - title: "Elements of Elocution (with a copious selection of passages from Shakespeare)"
+        author: John Walker
+        date: "1781 (Boston ed. 1810)"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1810 ed.)", url: "https://archive.org/details/elementsofelocut00walkiala" }
+          - { label: "Archive.org (1781, vol. 2)", url: "https://archive.org/details/elementsofelocut02walkiala" }
+    curriculumOptions:
+      - name: "Linklater progression (Freeing the Natural Voice)"
+        publisher: Nick Hern Books
+        tradition: secular
+        url: "https://www.nickhernbooks.co.uk/freeing-the-natural-voice"
+        notes: >-
+          A logical sequence of exercises, from the spine and breath up through resonance and
+          articulation, that a parent and child can work through in about a year. Use it as the spine
+          of the daily warm-up.
+      - name: "Rodenburg, The Actor Speaks"
+        publisher: Bloomsbury Methuen Drama
+        tradition: secular
+        url: "https://www.amazon.com/Actor-Speaks-Voice-Performer-Performance/dp/1350027138"
+        notes: >-
+          A complete voice workshop in book form, with practical sections on breath, range, power and
+          speaking in different spaces. Rodenburg's The Right to Speak is gentler for a shy child.
+      - name: "Berry, Voice and the Actor"
+        publisher: Virgin Books / Macmillan
+        tradition: secular
+        url: "https://www.amazon.com/Voice-Actor-Cicely-Berry/dp/0020415559"
+        notes: The classic RSC manual. It is concise and exercise-driven and pairs well with choir work (music-10).
+    historicalPrecedent: >-
+      The "elocution movement" began with actors. Thomas Sheridan, an Irish actor-manager, lectured on
+      elocution at Oxford and Cambridge and published his Course of Lectures (1762). John Walker, formerly
+      of Garrick's Drury Lane company, delivered his Elements of Elocution (1781) as lectures at Oxford
+      colleges. American academies and the McGuffey Readers took up their rules for breath, emphasis and
+      inflection. The modern voice teachers inherit the aims and reject the mechanical rules.
+    sources:
+      - { label: "Sheridan, A Course of Lectures on Elocution (1762), Archive.org", url: "https://archive.org/details/bim_eighteenth-century_a-course-of-lectures-on-_sheridan-thomas_1762" }
+    notes: >-
+      The rhetoric track (rhetoric-05) reads Sheridan and Murray for declamation. This row supplies the
+      physical technique beneath it. A child who sings in a choir (music-10) will progress faster. Avoid
+      forcing volume before breath support is secure, and consult a doctor or speech-language
+      pathologist for persistent hoarseness.
+
+  - id: drama-04
+    title: "Phonetics & the International Phonetic Alphabet"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 13.5
+    order: 4
+    prerequisites: [drama-03]
+    related: [poetry-07, old-english-01, reading-phonics-01]
+    summary: >-
+      The science beneath accent work. The student learns the vocal tract and the places and manners of
+      articulation, voicing, vowel height, backness and rounding, and the IPA symbols for every sound of
+      English. They transcribe their own speech and others'. Two traditions are taught side by side.
+      Edith Skinner's Speak with Distinction is the rigorous classic of stage-speech transcription. The
+      newer Knight-Thompson Speechwork is descriptive: it trains the ability to make any sound rather
+      than one "correct" sound.
+    objectives:
+      - Label the articulators (lips, teeth, alveolar ridge, hard and soft palate, uvula, glottis) on a diagram and in one's own mouth
+      - Classify every English consonant by voicing, place and manner, and every vowel by height, backness and rounding
+      - Read and write the IPA for all phonemes of the student's own accent, including diphthongs and weak forms
+      - Transcribe a one-minute recording broadly (phonemic) and a short passage narrowly (with diacritics)
+      - Produce, on demand, sounds not used in English (e.g. [x], [ɬ], [y], [ɸ]) from their IPA description
+      - Explain the difference between a phoneme and an allophone, with English examples (e.g. aspirated [pʰ] vs [p])
+    coreTexts:
+      - title: The International Phonetic Alphabet (full chart)
+        author: International Phonetic Association
+        date: "rev. 2020"
+        publicDomain: false
+        links:
+          - { label: "IPA (free, CC BY-SA)", url: "https://www.internationalphoneticassociation.org/content/full-ipa-chart" }
+      - title: "Seeing Speech: interactive IPA charts with ultrasound and MRI video"
+        author: University of Glasgow and partners
+        publicDomain: false
+        links:
+          - { label: Seeing Speech (free), url: "https://www.seeingspeech.ac.uk/" }
+      - title: "Speak with Distinction: The Classic Skinner Method to Speech on the Stage"
+        author: Edith Skinner (rev. Timothy Monich & Lilene Mansell)
+        date: "1942; rev. 1990"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Speak-Distinction-Classic-Skinner-Method/dp/1557830479" }
+      - title: "Speaking with Skill: An Introduction to Knight-Thompson Speech Work"
+        author: Dudley Knight
+        date: "2012"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/speaking-with-skill-dudley-knight/1147800257" }
+      - title: An Outline of English Phonetics
+        author: Daniel Jones
+        date: "1918"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/cu31924027389505" }
+    curriculumOptions:
+      - name: Knight-Thompson Speechwork (workshops and teacher network)
+        publisher: Knight-Thompson Speechwork
+        tradition: secular
+        url: "https://ktspeechwork.org/"
+        notes: >-
+          The leading current approach in American actor training. It is skills-based and descriptive,
+          and it treats IPA as a tool for any accent. The book Speaking with Skill, with its audio
+          tracks, works for home study, and KTS runs workshops.
+      - name: Seeing Speech (free)
+        publisher: University of Glasgow / Queen Margaret University
+        tradition: secular
+        url: "https://www.seeingspeech.ac.uk/"
+        notes: Click any IPA symbol to hear it and watch the tongue move on ultrasound and MRI. It is the best free way to learn the chart by ear and eye.
+      - name: "Skinner, Speak with Distinction"
+        publisher: Applause Theatre & Cinema Books
+        tradition: secular
+        url: "https://www.amazon.com/Speak-Distinction-Classic-Skinner-Method/dp/1557830479"
+        notes: >-
+          The strictest drill book for transcription and for a heightened classical stage accent. Use it
+          for the drills and the transcription discipline, but treat its "Good Speech" as one accent
+          among others, not as a correction of the student's own.
+    historicalPrecedent: >-
+      Alexander Melville Bell's Visible Speech (1867), Henry Sweet's Handbook of Phonetics (1877) and
+      Daniel Jones at University College London founded modern phonetics. Shaw modeled Professor Higgins
+      in Pygmalion partly on Sweet. Jones's Outline of English Phonetics (1918) was the first full
+      description of what came to be called Received Pronunciation. The IPA itself dates from 1886–88.
+    notes: >-
+      The student's Latin, Greek and modern-language work (Spanish, Chinese tones) gives ready contrasts
+      for sounds that English lacks, and Old English (old-english-01) will reuse the skill. The accent
+      rows that follow assume fluent IPA reading.
+
+  - id: drama-05
+    title: "Speaking Shakespeare's Verse: Pentameter, Antithesis & the First Folio"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 12.5
+    ageEnd: 14
+    order: 5
+    prerequisites: [drama-02, drama-03]
+    related: [literature-15, literature-17, poetry-07, rhetoric-07]
+    summary: >-
+      How the verse tells the actor what to do. Covered: iambic pentameter as the heartbeat and its
+      irregularities as signals (feminine endings, initial trochees, short and shared lines); keeping
+      the line ending and the thought moving; antithesis as the engine of argument; monosyllabic lines;
+      alliteration and assonance; the shift between verse and prose, and between "thou" and "you". The
+      student also meets the First Folio as an actors' text and cue-script rehearsal. The main texts are
+      John Barton's Playing Shakespeare (the RSC workshop series with Dench, McKellen, Stewart and
+      others), Berry's The Actor and the Text, and Patrick Tucker's Secrets of Acting Shakespeare.
+      Poetry-07 teaches scansion on the page; this course teaches speaking it on the stage.
+    objectives:
+      - Scan a speech, then speak it so the meter is felt but never sing-song, keeping the energy to the end of each line
+      - Mark and play every antithesis in a speech (e.g. Brutus' "Not that I loved Caesar less, but that I loved Rome more")
+      - Use shared lines, short lines and feminine endings as clues to cue-pickup, pause and emotion
+      - Rehearse a scene from cue scripts (one's own lines plus cues only), in the Elizabethan manner
+      - Compare a speech in the First Folio and a modern edition, and argue from punctuation, capitals and lineation for a playing choice
+      - Perform two contrasting speeches (verse and prose) and one soliloquy spoken directly to the audience
+    coreTexts:
+      - title: The Actor and the Text
+        author: Cicely Berry
+        date: "1987; rev. 2000"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Actor-Text-Applause-Acting/dp/1557831386" }
+      - title: "Playing Shakespeare: An Actor's Guide"
+        author: John Barton
+        date: "1984; rev. 2009"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Playing-Shakespeare-Performance-Books-Barton/dp/0713687738" }
+      - title: "Secrets of Acting Shakespeare: The Original Approach (2nd ed.)"
+        author: Patrick Tucker
+        date: "2002; 2nd ed. 2016"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/Secrets-of-Acting-Shakespeare-The-Original-Approach/Tucker/p/book/9781138678521" }
+      - title: "Freeing Shakespeare's Voice: The Actor's Guide to Talking the Text"
+        author: Kristin Linklater
+        date: "1992; 2009 ed."
+        publicDomain: false
+        links:
+          - { label: Nick Hern Books, url: "https://www.nickhernbooks.co.uk/freeing-shakespeares-voice" }
+      - title: "Hamlet (Act 3, Scene 2: the advice to the players)"
+        author: William Shakespeare
+        date: "c. 1600"
+        publicDomain: true
+        links:
+          - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/hamlet/" }
+    curriculumOptions:
+      - name: "Barton, Playing Shakespeare (book, with the 1984 RSC television workshops)"
+        publisher: Methuen Drama / Bloomsbury
+        tradition: secular
+        url: "https://www.amazon.com/Playing-Shakespeare-Performance-Books-Barton/dp/0713687738"
+        notes: >-
+          The book transcribes the nine workshops. Watch an episode, then work the same speech. The
+          episodes on "Using the Verse" and "Set Speeches and Soliloquies" are essential.
+      - name: "Tucker, Secrets of Acting Shakespeare (cue-script method)"
+        publisher: Routledge
+        tradition: secular
+        url: "https://www.routledge.com/Secrets-of-Acting-Shakespeare-The-Original-Approach/Tucker/p/book/9781138678521"
+        notes: Practical First Folio and cue-script technique from the Original Shakespeare Company. Excellent for a small co-op cast.
+      - name: "Rodenburg, Speaking Shakespeare"
+        publisher: Palgrave / Bloomsbury
+        tradition: secular
+        url: "https://www.amazon.com/Speaking-Shakespeare-Patsy-Rodenburg/dp/1403965404"
+        notes: A workbook that joins voice technique to verse, speech by speech.
+    historicalPrecedent: >-
+      Hamlet's advice to the players ("Speak the speech, I pray you... trippingly on the tongue") is the
+      oldest acting lesson in English and still the best. Elizabethan actors learned from "parts" (their
+      own lines plus cues), and Heminges and Condell, fellow actors of Shakespeare's company, compiled the
+      First Folio of 1623.
+    notes: >-
+      Coordinate with literature-17, where the soliloquies are explicated. Here they are performed. With
+      the ESU Shakespeare Competition in view (drama-10), start a repertoire of five or six audition
+      speeches now.
+
+  - id: drama-06
+    title: "Accents I: General American, RP & Standard Southern British"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14.5
+    order: 6
+    prerequisites: [drama-04]
+    related: [literature-19, literature-27]
+    summary: >-
+      The two reference accents of the English-speaking world, learned as systems. General American is
+      rhotic and has the flapped t, the LOT–PALM merger and the unrounded LOT vowel. Received
+      Pronunciation is non-rhotic, with the TRAP–BATH split, rounded LOT and centring diphthongs; its
+      present-day successor, Standard Southern British, is also covered. The tool is John Wells's lexical
+      sets (KIT, DRESS, TRAP, LOT, STRUT, FOOT, BATH, CLOTH, NURSE, FLEECE, FACE…), the standard way of
+      comparing any two accents. The student learns to hear, transcribe and speak each accent and to
+      switch between them inside a Shakespeare speech.
+    objectives:
+      - Name Wells's 24 standard lexical sets and give the GA and RP vowel for each in IPA
+      - Explain rhoticity, the TRAP–BATH split, t-flapping, yod-dropping and linking/intrusive r with examples
+      - Speak a 20-line Shakespeare speech convincingly in both GA and RP/SSB, and switch mid-speech on cue
+      - Describe the changes from "traditional" RP (1950s BBC) to current SSB (e.g. the GOOSE vowel moving forward, TRAP opening, glottal stops)
+      - Transcribe short broadcast samples of each accent and identify at least five diagnostic features
+    coreTexts:
+      - title: "Accents of English, Vol. 1: An Introduction"
+        author: J. C. Wells
+        date: "1982"
+        publicDomain: false
+        links:
+          - { label: Cambridge University Press, url: "https://www.cambridge.org/9780521297196" }
+      - title: "English After RP: Standard British Pronunciation Today"
+        author: Geoff Lindsey
+        date: "2019"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/English-After-RP-Standard-Pronunciation/dp/3030043568" }
+      - title: "Accents & Dialects for Stage and Screen"
+        author: Paul Meier
+        publicDomain: false
+        links:
+          - { label: Paul Meier Dialect Services, url: "https://www.paulmeier.com/" }
+      - title: "Dissertations on the English Language (on an American standard)"
+        author: Noah Webster
+        date: "1789"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45738" }
+    curriculumOptions:
+      - name: Paul Meier Dialect Services (courses, Zoom coaching, certification)
+        publisher: Paul Meier Dialect Services
+        tradition: secular
+        url: "https://www.paulmeier.com/training/"
+        notes: >-
+          Meier's textbook, courses and one-on-one Zoom sessions teach each accent by its "signature
+          sounds" in seven steps, and he offers a Certificate of Proficiency. Use the RP and General
+          American units here.
+      - name: International Dialects of English Archive (IDEA, free)
+        publisher: Paul Meier / IDEA
+        tradition: secular
+        url: "https://www.dialectsarchive.com/"
+        notes: About 1,800 recorded speakers from 135 countries and territories, many reading the same passage. Use the England and US samples as models.
+      - name: Dynamic Dialects (free)
+        publisher: University of Glasgow
+        tradition: secular
+        url: "https://www.dynamicdialects.ac.uk/accent-chart/"
+        notes: Ultrasound tongue and lip video of speakers of world Englishes saying the same reference words, so you can compare accents as mouth movements.
+    historicalPrecedent: >-
+      The founders argued over whose English was standard. Noah Webster's Dissertations (1789) urged
+      Americans to have "a system of our own, in language as well as government," and his spellers set an
+      American norm. In Britain, Walker's Pronouncing Dictionary (1791) and later Daniel Jones and the
+      BBC fixed a London-and-public-school norm. The two reference accents grew from that divergence.
+    notes: >-
+      American students should learn RP/SSB as their first "other" accent, since it is the traditional
+      accent of classical theater. British students should learn GA first. Wells's vols. 2–3 (the
+      British Isles; beyond the British Isles) are the reference for the next row.
+
+  - id: drama-07
+    title: "Accents II: Scottish, Irish, Southern, New England, Cockney & Australian"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15.5
+    order: 7
+    prerequisites: [drama-06]
+    related: [literature-11, literature-21, literature-29, history-23]
+    summary: >-
+      The major regional accents of English, learned for the stage and as linguistic knowledge. For each,
+      the student studies native-speaker recordings, the lexical-set vowels in IPA, consonant features,
+      rhythm and intonation, and its history. Scottish Standard English is rhotic, with monophthongal FACE
+      and GOAT, no FOOT–GOOSE contrast and the velar fricative. Irish English is rhotic, with dental stops
+      for "th". The Southern US accent has the PRICE monophthong, the pin–pen merger and the drawl.
+      Eastern New England is non-rhotic, as in Boston. Cockney and London have th-fronting, h-dropping,
+      glottal stops and shifted diphthongs. Australian has wide diphthongs and is non-rhotic. Each accent
+      is then used in performance.
+    objectives:
+      - For each of six accents, write a one-page IPA "accent breakdown" (lexical-set vowels, key consonants, rhythm/intonation, signature words)
+      - Perform a monologue or scene in each accent, recorded, and self-correct against IDEA models
+      - Identify the accent of an unknown IDEA speaker by region, citing three features heard
+      - Read aloud passages of dialect literature (Burns, Scott's Scots dialogue, Irish Literary Revival dialogue, Twain's Southern and Dickens's Cockney speakers) in accent
+      - Distinguish an authentic accent from a stage caricature, and explain why caricature fails as art and as charity
+    coreTexts:
+      - title: "Accents: A Manual for Actors (rev. & expanded)"
+        author: Robert Blumenfeld
+        date: "1998; rev. 2004"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Accents-Manual-Actors-Revised-Expanded/dp/087910967X" }
+      - title: "Accents & Dialects for Stage and Screen"
+        author: Paul Meier
+        publicDomain: false
+        links:
+          - { label: Paul Meier Dialect Services, url: "https://www.paulmeier.com/" }
+      - title: International Dialects of English Archive (recordings)
+        author: Paul Meier (founder) and contributors
+        date: "1998–"
+        publicDomain: false
+        links:
+          - { label: dialectsarchive.com (free), url: "https://www.dialectsarchive.com/" }
+      - title: "Dynamic Dialects: Accent Chart"
+        author: University of Glasgow
+        publicDomain: false
+        links:
+          - { label: dynamicdialects.ac.uk (free), url: "https://www.dynamicdialects.ac.uk/accent-chart/" }
+    curriculumOptions:
+      - name: Paul Meier Dialect Services (dialect courses and certification)
+        publisher: Paul Meier Dialect Services
+        tradition: secular
+        url: "https://www.paulmeier.com/training/"
+        notes: >-
+          The textbook covers 24 accents with audio. The certificate gives a dialect credential for an
+          actor's résumé. A Zoom check-in with a certified coach per accent is worth the cost.
+      - name: "Blumenfeld, Accents: A Manual for Actors"
+        publisher: Limelight Editions
+        tradition: secular
+        url: "https://www.amazon.com/Accents-Manual-Actors-Revised-Expanded/dp/087910967X"
+        notes: A reference of over 100 accents with audio. Wider than Meier, less step-by-step, and good for later self-study.
+      - name: International Dialects of English Archive (free)
+        publisher: IDEA
+        tradition: secular
+        url: "https://www.dialectsarchive.com/"
+        notes: The indispensable primary source. Always learn an accent from real speakers, not from other actors.
+    historicalPrecedent: >-
+      Shakespeare himself wrote accents for the stage: the Welsh Fluellen, the Scottish Jamy, the Irish
+      Macmorris and the English Gower in Henry V (3.2), and Edgar's West Country dialect in King Lear.
+      Walker's Pronouncing Dictionary (1791) printed "rules to be observed by the natives of Scotland,
+      Ireland, and London" for correcting their accents. The modern actor learns those same accents to
+      portray people faithfully.
+    sources:
+      - { label: "Walker, A Critical Pronouncing Dictionary (1791), Archive.org", url: "https://archive.org/details/bim_eighteenth-century_a-critical-pronouncing-d_walker-john_1791" }
+    notes: >-
+      Add further accents as roles demand: Welsh, Yorkshire, Northern Irish, New York, South African and
+      Canadian are all in IDEA and in Meier. Use Henry V 3.2 (the four captains) as a capstone scene. A
+      family on a budget can do this row with IDEA, Dynamic Dialects and Wells alone.
+
+  - id: drama-08
+    title: "Accent & Society: The History and Sociology of Speech"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 15.5
+    order: 8
+    prerequisites: [drama-06]
+    related: [rhetoric-05, rhetoric-11, history-23, literature-24]
+    summary: >-
+      Why accents carry social meaning. The student reads the primary sources that created "standard"
+      English pronunciation. Sheridan's General Dictionary (1780) aimed to "establish a plain and
+      permanent standard pronunciation", and Walker's Critical Pronouncing Dictionary (1791) set out to
+      correct the provinces. Against these stand Webster's argument for an American standard, and after
+      them come Daniel Jones and the BBC. Shaw's Pygmalion supplies the drama and Lynda Mugglestone's
+      Talking Proper the history. Modern sociolinguistics (Wolfram and Schilling, Labov's New York
+      department-store study) then shows that accents are systematic, that prestige is social rather
+      than linguistic, and how accents change. The unit also treats the moral side: judging persons by
+      their speech, and the duty to be understood in public life.
+    objectives:
+      - Read the prefaces of Sheridan (1780) and Walker (1791) and summarize their arguments for a standard
+      - Read Pygmalion with its preface and afterword, and write an essay on accent, class and identity in the play
+      - Explain the difference between accent and dialect, standard and non-standard, prestige and correctness
+      - Summarize one classic sociolinguistic study (e.g. Labov on New York r-dropping) and its method
+      - Debate the resolution "A public man should speak a standard accent" using founding-era and modern sources
+    coreTexts:
+      - title: "Talking Proper: The Rise of Accent as Social Symbol (2nd ed.)"
+        author: Lynda Mugglestone
+        date: "1995; 2nd ed. 2003"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://academic.oup.com/book/10612" }
+      - title: Pygmalion
+        author: George Bernard Shaw
+        date: "1913"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3825" }
+      - title: A General Dictionary of the English Language (with a Rhetorical Grammar)
+        author: Thomas Sheridan
+        date: "1780"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/generaldictionar02sher" }
+      - title: A Critical Pronouncing Dictionary and Expositor of the English Language
+        author: John Walker
+        date: "1791"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_a-critical-pronouncing-d_walker-john_1791" }
+      - title: Dissertations on the English Language
+        author: Noah Webster
+        date: "1789"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_dissertations-on-the-eng_webster-noah-lld_1789" }
+      - title: "American English: Dialects and Variation (3rd ed.)"
+        author: Walt Wolfram & Natalie Schilling
+        date: "2015"
+        publicDomain: false
+        links:
+          - { label: Wiley, url: "https://www.wiley.com/en-us/American+English:+Dialects+and+Variation,+3rd+Edition-p-9781118390221" }
+    curriculumOptions:
+      - name: "Do You Speak American? (PBS documentary and educator site)"
+        publisher: PBS / MacNeil-Lehrer Productions
+        tradition: secular
+        url: "https://www.pbs.org/speak/seatosea/americanvarieties/"
+        notes: >-
+          Robert MacNeil's 2005 series on American speech, with essays by Walt Wolfram and others and
+          free curriculum materials. A good documentary spine for this unit.
+      - name: "Wolfram & Schilling, American English (with companion audio)"
+        publisher: Wiley-Blackwell
+        tradition: secular
+        url: "https://www.wiley.com/en-us/American+English:+Dialects+and+Variation,+3rd+Edition-p-9781118390221"
+        notes: The standard college text on American dialects. Read selected chapters (regional varieties, dialect and education).
+    historicalPrecedent: >-
+      Sheridan, an Irishman, and Walker, a provincial, were both actors who built careers teaching the
+      English how to speak "properly." Their dictionaries made pronunciation a badge of class for a
+      century. Webster answered from the new republic, and the fight between a British and an American
+      standard shaped the founders' generation. In 1912 Shaw put the phonetician on stage.
+    notes: >-
+      This unit can double as a rhetoric (rhetoric-11) or history seminar paper. In the program's frame:
+      the gentleman or statesman speaks clearly and correctly and adapts to his hearers, as St. Paul was
+      "all things to all men". He never despises a man for his speech, and he does not imagine that an
+      accent guarantees virtue or learning.
+
+  - id: drama-09
+    title: "Original Pronunciation: Shakespeare's Sounds & the History of English"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16
+    order: 9
+    prerequisites: [drama-05, drama-07]
+    related: [old-english-05, old-english-01, literature-26, poetry-09]
+    summary: >-
+      Shakespeare's plays in the accent of 1600, reconstructed by David Crystal for Shakespeare's Globe.
+      The student learns how the reconstruction was made (rhymes, puns, spellings, and the Elizabethan
+      spelling reformers and orthoepists) and places OP in the long history of English sounds: Old
+      English, Chaucer's Middle English, the Great Vowel Shift, Early Modern English, and the split
+      into the modern accents. OP is rhotic, with unshifted or half-shifted vowels, and it sounds
+      closer to some regional and American accents than to RP. The student performs a scene and a sonnet
+      in OP and hears the rhymes and puns come back to life.
+    objectives:
+      - Explain the Great Vowel Shift and trace five words from Middle English through OP to GA and RP in IPA
+      - Use the Oxford Dictionary of Original Shakespearean Pronunciation to transcribe a sonnet and a 30-line speech
+      - Perform a sonnet and a scene in OP, recorded, and compare them with modern-accent performances
+      - Identify "lost" rhymes and puns restored by OP (e.g. "love/prove", "loins/lines", "reason/raisin")
+      - Explain the evidence and the uncertainty in any historical reconstruction of pronunciation
+    coreTexts:
+      - title: "Pronouncing Shakespeare: The Globe Experiment"
+        author: David Crystal
+        date: "2005"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/pronouncing-shakespeare-david-crystal/1111107935" }
+      - title: The Oxford Dictionary of Original Shakespearean Pronunciation
+        author: David Crystal
+        date: "2016"
+        publicDomain: false
+        links:
+          - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-oxford-dictionary-of-original-shakespearean-pronunciation-9780199668427" }
+          - { label: OUP companion site (sound files), url: "https://global.oup.com/booksites/content/9780199668427/" }
+      - title: "Original Pronunciation (website: productions, recordings, resources)"
+        author: David Crystal & Ben Crystal
+        publicDomain: false
+        links:
+          - { label: originalpronunciation.com, url: "http://originalpronunciation.com/" }
+      - title: "Shakespeare's Sonnets"
+        author: William Shakespeare
+        date: "1609"
+        publicDomain: true
+        links:
+          - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/" }
+    curriculumOptions:
+      - name: "Crystal, Oxford Dictionary of OP with companion sound files"
+        publisher: Oxford University Press
+        tradition: secular
+        url: "https://global.oup.com/booksites/content/9780199668427/"
+        notes: The working tool. The introduction is a full course in OP phonology, and the companion site has audio.
+      - name: Original Pronunciation resources (free)
+        publisher: David & Ben Crystal
+        tradition: secular
+        url: "http://originalpronunciation.com/"
+        notes: Recordings, productions and practitioner notes. Listen before attempting.
+    historicalPrecedent: >-
+      In June 2004 Shakespeare's Globe staged Romeo and Juliet in original pronunciation for one weekend,
+      with David Crystal as linguistic adviser. Troilus and Cressida followed in 2005, and OP productions
+      have since spread to other theaters. The first scholarly reconstructions came from A. J. Ellis and
+      Henry Sweet in the Victorian era.
+    sources:
+      - { label: "OUPblog: David Crystal, 'Original pronunciation: the state of the art in 2016'", url: "https://blog.oup.com/2016/03/original-pronunciation-shakespeare/" }
+      - { label: "Wikipedia: Shakespeare in Original Pronunciation", url: "https://en.wikipedia.org/wiki/Shakespeare_in_Original_Pronunciation" }
+    notes: >-
+      The bridge row between the old-english track and the stage. old-english-05 teaches Chaucer aloud
+      and the Great Vowel Shift in outline, and this unit continues the story to 1600 and on to modern
+      accents. If old-english-05 has not yet been done, teach the vowel shift here from Crystal's
+      introduction.
+
+  - id: drama-10
+    title: "Full Production: The Performance Craft"
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 15.5
+    ageEnd: 16.5
+    order: 10
+    prerequisites: [drama-05, drama-07]
+    related: [literature-26, rhetoric-09]
+    summary: >-
+      The craft side of the full student production that literature-26 requires. That row covers the
+      reading and the production concept; this one covers making the show. The student takes a principal
+      role or directs, and also serves in one production job (stage management, text cutting, verse
+      coaching or dialect coaching). Topics: auditions and casting; the rehearsal process (table work,
+      blocking, working rehearsals, run-throughs, technical and dress rehearsals); ensemble verse-speaking;
+      stage combat and movement basics; the promptbook; and Shakespeare's "original practices" of shared
+      light, doubling and direct address. The student also directs one scene with younger players and
+      enters a recognized Shakespeare competition.
+    objectives:
+      - Take a principal role (200+ lines) or direct the production, and hold one production job
+      - Cut a full play to a two-hour playing text and prepare a promptbook with blocking, cues and notes
+      - Direct a 10-minute scene with younger students (drama-02 level), coaching verse, blocking and projection
+      - Serve as verse or dialect coach for the cast, using the IPA and lexical-set skills of drama-04 to drama-07
+      - Compete in the ESU National Shakespeare Competition school round (one monologue plus one sonnet)
+    coreTexts:
+      - title: The Folger Method (Cutting a Text; Promptbooks; Group Scenes)
+        author: Folger Shakespeare Library
+        publicDomain: false
+        links:
+          - { label: Folger Shakespeare Library, url: "https://www.folger.edu/teach/the-folger-method/" }
+      - title: "The Director's Craft: A Handbook for the Theatre"
+        author: Katie Mitchell
+        date: "2009"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/The-Directors-Craft-A-Handbook-for-the-Theatre/Mitchell/p/book/9780415404396" }
+      - title: "Secrets of Acting Shakespeare: The Original Approach (cue scripts and staging)"
+        author: Patrick Tucker
+        date: "2nd ed. 2016"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/Secrets-of-Acting-Shakespeare-The-Original-Approach/Tucker/p/book/9781138678521" }
+    curriculumOptions:
+      - name: ESU National Shakespeare Competition
+        publisher: English-Speaking Union of the United States
+        tradition: secular
+        url: "https://www.esuus.org/what-we-do/shakespeare-competition/national-shakespeare-competition-rules-and-eligibility/"
+        notes: >-
+          Open to students in grades 9–12 "or an equivalent for home school students". Homeschoolers
+          must advance from a school-level round of at least three students, judged by a panel of three.
+          Contestants perform a monologue from the year's packet, plus a sonnet at the branch and
+          national levels. Organize a co-op round to qualify.
+      - name: ASC Theatre Camp (residential, Blackfriars Playhouse)
+        publisher: American Shakespeare Center / Mary Baldwin University
+        tradition: secular
+        url: "https://americanshakespearecenter.com/asc-theatre-camp/"
+        notes: >-
+          A three-week residential camp for rising 8th graders through rising college freshmen (ages
+          about 13–19). Campers rehearse with professional directors and perform in the re-created
+          Blackfriars Playhouse under original-practices conditions. Admission by application.
+      - name: Globe Young Company / Globe Youth Theatre (London)
+        publisher: Shakespeare's Globe
+        tradition: secular
+        url: "https://www.shakespearesglobe.com/learn/courses/young-company/"
+        notes: >-
+          An intensive training and performance company (ages 14–19) that rehearses with a Globe director
+          and voice and movement coaches and performs on Globe stages. Most practical for families in or
+          visiting London. The Youth Theatre runs termly groups by age band.
+    historicalPrecedent: >-
+      The Jesuit college play was a public event. It was staged at Carnival or at the year-end
+      prize-giving, and the whole school turned out as cast, chorus, musicians and crew. English grammar
+      schools and the universities staged Latin and English plays in the same way, and Elizabethan boys'
+      companies performed at court.
+    sources:
+      - { label: "ESU National Shakespeare Competition", url: "https://www.esuus.org/what-we-do/shakespeare-competition/" }
+    notes: >-
+      Do not duplicate literature-26: the literary study, the production concept and the essay stay
+      there, and the rehearsal room and stage live here. Budget a full term. A small family or co-op
+      company should choose a play that doubles well (Twelfth Night, The Tempest, Julius Caesar) and
+      use cue-script rehearsal.
+
+  - id: drama-11
+    title: "College: Director's Seminar & Advanced Performance"
+    type: course
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 11
+    prerequisites: [drama-09, drama-10]
+    related: [rhetoric-12, poetry-14, literature-31, civics-law-08]
+    summary: >-
+      A college-level seminar and practicum in directing and advanced performance. It covers theories
+      of theater (Aristotle's Poetics, Peter Brook's deadly, holy, rough and immediate theatre, Katie
+      Mitchell's rehearsal method) and Karol Wojtyła's "theatre of the word". In practice, the student
+      directs a full production and plays a major classical role, ideally including a founding-era
+      production of Addison's Cato. They also attend or apply to a serious summer Shakespeare program.
+      The student leaves able to lead a company, coach verse and accent, and speak any English text in
+      public with authority.
+    objectives:
+      - Direct a full-length production (Shakespeare or Addison's Cato) from concept and casting through performance
+      - Play a major classical role (e.g. Brutus, Prospero, Portia, Cato) in verse, with a chosen accent where apt
+      - Write a 3,000-word director's essay on a play, engaging Brook, Mitchell and Wojtyła
+      - Coach a younger actor through an audition speech, including verse and dialect notes
+      - Attend a residential Shakespeare intensive or perform in a public Shakespeare festival or competition
+    coreTexts:
+      - title: "The Empty Space: A Book About the Theatre: Deadly, Holy, Rough, Immediate"
+        author: Peter Brook
+        date: "1968"
+        publicDomain: false
+        links:
+          - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/The-Empty-Space/Peter-Brook/9780684829579" }
+      - title: "The Director's Craft: A Handbook for the Theatre"
+        author: Katie Mitchell
+        date: "2009"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/The-Directors-Craft-A-Handbook-for-the-Theatre/Mitchell/p/book/9780415404396" }
+      - title: The Collected Plays and Writings on Theater
+        author: Karol Wojtyła (Pope John Paul II), trans. Bolesław Taborski
+        date: "1987"
+        publicDomain: false
+        links:
+          - { label: Amazon, url: "https://www.amazon.com/Collected-Plays-Writings-Theater/dp/0520052897" }
+      - title: "Cato: A Tragedy, and Selected Essays"
+        author: Joseph Addison (ed. Christine Dunn Henderson & Mark E. Yellin)
+        date: "1713"
+        publicDomain: true
+        links:
+          - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/henderson-cato-a-tragedy-and-selected-essays" }
+    curriculumOptions:
+      - name: BADA Midsummer Conservatory Programme (Oxford)
+        publisher: British American Drama Academy
+        tradition: secular
+        url: "https://www.bada.org.uk/programmes/midsummer-conservatory-programme"
+        notes: >-
+          A three-week residential Shakespeare acting program at St Hilda's College, Oxford, for ages
+          16–18, with acting, voice and movement classes and visits to the RSC and the Globe. BADA's
+          Midsummer in Oxford program is for those over 18.
+      - name: Shakespeare's Globe summer schools and Young Company
+        publisher: Shakespeare's Globe
+        tradition: secular
+        url: "https://www.shakespearesglobe.com/learn/courses/online-courses-for-young-people-2020/summer-schools-faqs/"
+        notes: Globe summer schools take participants aged 16 and up and are led by Globe Education practitioners. The Young Company takes ages 14–19.
+      - name: ASC Theatre Camp (to age 19)
+        publisher: American Shakespeare Center
+        tradition: secular
+        url: "https://americanshakespearecenter.com/asc-theatre-camp/"
+        notes: The American residential option. It admits students through the summer before college.
+    historicalPrecedent: >-
+      Two precedents frame the seminar. In May 1778, at the end of the Valley Forge winter, Washington
+      had Addison's Cato performed for his officers. Congress had resolved in 1774 to "discourage" plays,
+      so this was a deliberate use of drama to teach republican virtue. Under Nazi occupation in 1941,
+      the young Karol Wojtyła co-founded the clandestine Rhapsodic Theatre in Kraków. It was a "theatre
+      of the word", in which the actor served the text, and it kept Polish culture alive. The future
+      pope and saint was first an actor.
+    sources:
+      - { label: "Mount Vernon: Joseph Addison's Cato (1713)", url: "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/cato" }
+      - { label: "Continental Association, Oct. 20, 1774 (Avalon Project)", url: "https://avalon.law.yale.edu/18th_century/contcong_10-20-74.asp" }
+      - { label: "Critical Stages: 'The Pope as Playwright: Karol Wojtyla'", url: "https://www.critical-stages.org/4/the-pope-as-playwright-karol-wojtyla/" }
+    notes: >-
+      Pair with the rhetoric capstone (rhetoric-12): the statesman and the actor share the delivery canon.
+      Cato is best staged as a founding-era "reading performance" with a talk on Washington, Plutarch
+      (civics-law-08) and Stoic virtue. If the student is still doing grade-12-equivalent work at 17, they
+      may remain eligible for the ESU competition (see drama-10); confirm with the local ESU branch.

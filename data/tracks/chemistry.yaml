@@ -2,28 +2,34 @@ track: chemistry
 title: Chemistry
 trackGroup: Math & Science
 description: >-
-  From Lavoisier's balance to the modern atom. Honors chemistry with real laboratory work and the founding papers of the science, then AP Chemistry. The goal is fluency in stoichiometry, equilibrium, thermodynamics and bonding, and a strong AP Chemistry exam by about 15.
+  From Lavoisier's balance to the modern atom, following the recognized AP sequence with the founding papers as companions. Honors Chemistry at 13–14 (lab-based, with Lavoisier's Elements and Dalton's New System) runs alongside a laboratory-practice unit on safety, quantitative technique and the lab notebook. AP Chemistry follows at 14–15, aligned to the College Board Course and Exam Description, with the exam in May at about 15. Every student also sits the U.S. National Chemistry Olympiad (USNCO) local exam from 14. The end state is fluency in stoichiometry, bonding, kinetics, equilibrium, acids and bases, thermodynamics and electrochemistry, plus lab skill that meets college standards.
 rows:
   - id: chemistry-01
-    title: "Chemistry: Lavoisier, Dalton & the Laboratory"
+    title: "Honors Chemistry: Lavoisier, Dalton & the Laboratory"
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 15
+    ageStart: 13
+    ageEnd: 14
     order: 1
     prerequisites: []
-    related: [natural-science-07, physics-01]
+    related: [natural-science-07, physics-01, mathematics-09, mathematics-11, biology-02]
     summary: >-
-      A full lab chemistry course covering measurement, atomic structure, the periodic table, bonding,
-      stoichiometry, gases, solutions, acids and bases, thermochemistry, kinetics and equilibrium.
-      Students read the founding documents: Lavoisier's Elementary Treatise (1789), which overthrew
-      phlogiston and established conservation of mass, and Dalton's New System (1808), with its atomic
-      theory and weights. A lab notebook is kept to professional standards.
+      A full lab-based honors chemistry course: measurement and significant figures, atomic structure,
+      the periodic table, bonding and molecular shape, the mole and stoichiometry, gases, solutions,
+      acids and bases, and first looks at thermochemistry, kinetics and equilibrium. Students read the
+      founding documents: Lavoisier's Elementary Treatise (1789), which overthrew phlogiston and
+      established conservation of mass, and Dalton's New System (1808), with its atomic theory and
+      relative weights. It runs concurrently with AP Biology (biology-02) and prepares directly for AP
+      Chemistry (chemistry-03).
     objectives:
-      - Perform quantitative labs (titration, gas laws, calorimetry) with error analysis
-      - Solve stoichiometry, gas-law and equilibrium problems
-      - Reconstruct Lavoisier's argument against phlogiston and Dalton's case for atoms
+      - Use SI units, dimensional analysis and significant figures fluently
+      - Explain atomic structure, electron configuration and periodic trends
+      - Draw Lewis structures and predict molecular shape and polarity (VSEPR)
+      - Solve mole, stoichiometry, limiting-reactant, percent-yield, gas-law and solution problems
+      - Classify and balance precipitation, acid-base and redox reactions, including net ionic equations
+      - Perform quantitative labs (titration, gas laws, calorimetry) with error analysis in a bound notebook
+      - Reconstruct Lavoisier's argument against phlogiston and Dalton's case for atoms and relative weights
     coreTexts:
       - title: Elements of Chemistry
         author: Antoine Lavoisier, trans. Robert Kerr
@@ -31,38 +37,280 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30775" }
+          - { label: "Green Lion Press guided edition (A New Foundation for Chemistry, Simon & Schuster)", url: "https://www.simonandschuster.com/books/A-New-Foundation-for-Chemistry/Antoine-Lavoisier/9781888009545" }
       - title: A New System of Chemical Philosophy, vol. 1
         author: John Dalton
         date: "1808"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/newsystemofchemi01daltuoft" }
+      - title: "Chemistry: Atoms First 2e (free reference text)"
+        author: OpenStax
+        date: "2019"
+        publicDomain: false
+        links:
+          - { label: OpenStax, url: "https://openstax.org/details/books/chemistry-atoms-first-2e" }
     curriculumOptions:
-      - name: General Chemistry, 3rd ed. / Chemistry for Accelerated Students (Novare)
+      - name: Chemistry for Accelerated Students, 3rd ed. (Novare)
         publisher: Classical Academic Press / Novare
         tradition: classical
-        url: "https://classicalacademicpress.com/products/general-chemistry-3rd-edition"
-        notes: Classical Christian. The accelerated version suits this program (https://classicalacademicpress.com/products/chemistry-for-accelerated-students-3rd-edition).
-      - name: "A New Foundation for Chemistry: Lavoisier's Elementary Treatise"
-        publisher: Green Lion Press
-        tradition: classical
-        url: "https://www.greenlion.com/books/LavNewFound.html"
-        notes: St. John's-style guided reading of Lavoisier.
+        url: "https://classicalacademicpress.com/products/chemistry-for-accelerated-students-3rd-edition"
+        notes: >-
+          Classical Christian, mastery-based, written for strong students with algebra. The best fit
+          for this program. The standard-pace General Chemistry, 3rd ed.
+          (https://classicalacademicpress.com/products/general-chemistry-3rd-edition) is the alternative.
       - name: Chemistry with Lab / Honors Chemistry (online)
         publisher: Kolbe Academy
         tradition: catholic
         url: "https://courses.kolbe.org/"
-        notes: Catholic online option.
-      - name: Chemistry 2e
-        publisher: OpenStax
-        tradition: secular
-        url: "https://openstax.org/details/books/chemistry-2e"
-        notes: Free college-level text for AP depth.
+        notes: Catholic online option. Check the catalog for the current honors section and lab requirements.
       - name: Apologia Chemistry
         publisher: Apologia
         tradition: protestant
         url: "https://www.apologia.com/shop/all-science/chemistry/"
-        notes: Popular homeschool option.
+        notes: >-
+          Popular homeschool option with good lab support. Apologia writes from a young-earth
+          creationist perspective (see the notes on biology-01), which touches the chemistry content
+          very little. It is written below honors level, so add the AP-style problem sets.
     historicalPrecedent: >-
       Jefferson followed Lavoisier's new chemistry closely while minister in Paris. Joseph Priestley,
       discoverer of oxygen, emigrated to Pennsylvania in 1794 and corresponded with Jefferson and Adams.
+    notes: >-
+      Algebra II (mathematics-11) should be finished or under way; logarithms for pH can be taught as
+      needed. Keep the Lavoisier and Dalton readings short and argument-focused (Lavoisier's Preface and
+      Part I chapters on the composition of air and water; Dalton's chapter on chemical synthesis).
+      Pair each reading with a lab that repeats the reasoning, for example mass conservation in a closed
+      vessel, or combining ratios.
+
+  - id: chemistry-02
+    title: "Chemistry Laboratory Practice: Safety, Quantitative Technique & the Lab Notebook"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 15
+    order: 2
+    prerequisites: []
+    related: [natural-science-07, natural-science-10, biology-02]
+    summary: >-
+      The bench skills behind Honors and AP Chemistry, taught deliberately rather than picked up along
+      the way. Students learn hazard recognition and risk assessment (the ACS RAMP framework), read
+      safety data sheets, handle and dispose of chemicals properly, and keep a bound, dated lab notebook
+      to professional standards. They then practice the quantitative techniques the AP labs assume:
+      analytical balance, volumetric glassware, titration, gravimetric analysis, calorimetry and
+      Beer's-law spectrophotometry. It runs across both chemistry years and also serves the AP Biology
+      investigations.
+    objectives:
+      - Apply RAMP (Recognize, Assess, Minimize, Prepare) to every experiment before starting it
+      - Read a safety data sheet and choose PPE, ventilation, storage and waste disposal accordingly
+      - Keep a bound notebook with purpose, procedure, raw data, observations, calculations and conclusions, written in ink as the work happens
+      - Use an analytical balance, burets, pipets and volumetric flasks with correct technique
+      - Report results with significant figures, percent error and a discussion of sources of error
+      - Complete the six guided-inquiry labs required for AP Chemistry, plus traditional labs, before the May exam
+    coreTexts:
+      - title: "Illustrated Guide to Home Chemistry Experiments: All Lab, No Lecture"
+        author: Robert Bruce Thompson
+        date: "2008"
+        publicDomain: false
+        links:
+          - { label: Bookshop.org, url: "https://bookshop.org/p/books/illustrated-guide-to-home-chemistry-experiments-all-lab-no-lecture-robert-bruce-thompson/fc1f229972bdf620" }
+      - title: Guidelines for Chemical Laboratory Safety in Secondary Schools
+        author: American Chemical Society, Committee on Chemical Safety
+        date: current ed.
+        publicDomain: false
+        links:
+          - { label: ACS (free PDF), url: "https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/publications/acs-secondary-safety-guidelines.pdf" }
+      - title: "AP Chemistry Guided-Inquiry Experiments: Applying the Science Practices (student manual)"
+        author: College Board
+        date: current ed.
+        publicDomain: false
+        links:
+          - { label: College Board Store, url: "https://store.collegeboard.org/product/detail?sku=160082715" }
+    curriculumOptions:
+      - name: CHEM C3000 Advanced Chemistry Set
+        publisher: Thames & Kosmos
+        tradition: secular
+        url: "https://thamesandkosmos.com/products/chem-c3000"
+        notes: >-
+          The most complete consumer chemistry set, with more than 330 experiments. It is good for the
+          first year of technique. A few reagents (dilute HCl, NaOH, silver nitrate, ammonia) must be
+          bought separately.
+      - name: "Illustrated Guide to Home Chemistry Experiments (Thompson) with a self-assembled kit"
+        publisher: Make / O'Reilly
+        tradition: secular
+        url: "https://bookshop.org/p/books/illustrated-guide-to-home-chemistry-experiments-all-lab-no-lecture-robert-bruce-thompson/fc1f229972bdf620"
+        notes: >-
+          A serious home-lab manual that covers setting up a lab, glassware, safety and quantitative
+          experiments at high-school and AP level. Better than a boxed set for the second year.
+    historicalPrecedent: >-
+      Lavoisier gave the whole of Part III of his Elements of Chemistry (1789) to describing instruments
+      and laboratory operations: balances, gasometers, calorimeters, and how to weigh and measure. He
+      held that a chemist's conclusions are only as good as his measurements, which is the principle of
+      the bound lab notebook.
+    sources:
+      - { label: "ACS: Guidelines for Chemical Laboratory Safety in Secondary Schools", url: "https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/publications/acs-secondary-safety-guidelines.pdf" }
+      - { label: "College Board: AP Chemistry Lab Manual", url: "https://apcentral.collegeboard.org/courses/ap-chemistry/classroom-resources/lab-manual" }
+    notes: >-
+      Home labs need an adult who knows the safety guidelines, eye protection, a fire extinguisher, good
+      ventilation and a plan for waste. Several AP labs (spectrophotometry, some kinetics and
+      electrochemistry) are easier with borrowed equipment. A local college, co-op or homeschool lab day
+      can fill that gap, or an inexpensive colorimeter can. The USNCO National Exam also includes a
+      laboratory-practical part, so this unit serves chemistry-04 too.
+
+  - id: chemistry-03
+    title: AP Chemistry
+    type: course
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 15
+    order: 3
+    prerequisites: [chemistry-01]
+    related: [mathematics-11, mathematics-13, physics-01, biology-02]
+    exams: [ap-chemistry]
+    summary: >-
+      A college-level general chemistry course aligned to the College Board AP Chemistry Course and Exam
+      Description (CED), sat in May at about 15. It covers all nine CED units, with emphasis on the
+      quantitative reasoning (equilibrium, kinetics, thermodynamics, electrochemistry) and the
+      particulate-level explanations the exam rewards. Labs continue in chemistry-02. Lavoisier and
+      Dalton remain companions: students revisit them when they meet thermodynamics and atomic theory.
+    objectives:
+      - "Unit 1, Atomic Structure and Properties: moles, mass spectra, electron configuration, photoelectron spectroscopy, periodic trends"
+      - "Unit 2, Compound Structure and Properties: bond types, Lewis diagrams, VSEPR, hybridization, resonance, formal charge"
+      - "Unit 3, Properties of Substances and Mixtures: intermolecular forces, gases, solutions, chromatography, spectroscopy and Beer's law"
+      - "Unit 4, Chemical Reactions: net ionic equations, stoichiometry, titration, acid-base and redox reactions"
+      - "Unit 5, Kinetics: rate laws, reaction mechanisms, collision theory, catalysis"
+      - "Unit 6, Thermochemistry: enthalpy, calorimetry, bond enthalpies, Hess's law"
+      - "Unit 7, Equilibrium: K and Q, Le Chatelier's principle, solubility equilibria (Ksp)"
+      - "Unit 8, Acids and Bases: pH, weak acids and bases, buffers, titration curves, pKa"
+      - "Unit 9, Thermodynamics and Electrochemistry: entropy, Gibbs free energy, the relation of ΔG° to K, galvanic and electrolytic cells"
+      - Practice the CED's science practices on released free-response questions until the full exam can be done under time
+    coreTexts:
+      - title: Chemistry, AP Edition, 10th ed.
+        author: Steven S. Zumdahl, Susan A. Zumdahl & Donald J. DeCoste
+        date: "2018"
+        publicDomain: false
+        links:
+          - { label: Cengage, url: "https://www.cengage.com/c/chemistry-ap-edition-10e-zumdahl-zumdahl/9781305957732/" }
+      - title: "Chemistry: The Central Science, 15th ed. (alternative spine)"
+        author: Brown, LeMay, Bursten, Murphy, Woodward & Stoltzfus
+        date: "2021"
+        publicDomain: false
+        links:
+          - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/chemistry-the-central-science/P200000006933/9780137542970" }
+      - title: "Chemistry: A Molecular Approach, 6th ed. (alternative spine)"
+        author: Nivaldo J. Tro
+        date: "2022"
+        publicDomain: false
+        links:
+          - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/chemistry-a-molecular-approach/P200000006770/9780137832217" }
+      - title: "Chemistry: Atoms First 2e (free)"
+        author: OpenStax
+        date: "2019"
+        publicDomain: false
+        links:
+          - { label: OpenStax, url: "https://openstax.org/details/books/chemistry-atoms-first-2e" }
+          - { label: "Chemistry 2e (topics-first order)", url: "https://openstax.org/details/books/chemistry-2e" }
+      - title: Princeton Review AP Chemistry Premium Prep (review book)
+        author: The Princeton Review
+        date: annual
+        publicDomain: false
+        links:
+          - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/807027/princeton-review-ap-chemistry-premium-prep-28th-edition-by-the-princeton-review/" }
+    curriculumOptions:
+      - name: AP Chemistry (live online)
+        publisher: Kolbe Academy
+        tradition: catholic
+        url: "https://www.kolbe.org/academics/honors-ap-and-dual-credit/online-honors-ap-courses-1"
+        notes: >-
+          Catholic live online AP course, nominally for upper grades, so ask about placing a younger
+          accelerated student. Kolbe does not arrange the exam: the family registers with a local test
+          site.
+      - name: AP Chemistry (free course)
+        publisher: Khan Academy
+        tradition: secular
+        url: "https://www.khanacademy.org/science/ap-chemistry-beta"
+        notes: Free videos and practice organized by the CED units. Use it for review and reteaching.
+      - name: AP Classroom (Topic Questions, Progress Checks, released FRQs)
+        publisher: College Board
+        tradition: secular
+        url: "https://apclassroom.collegeboard.org/"
+        notes: >-
+          The official practice. A student gets access by joining a class section through the school or
+          test site where the exam is ordered.
+    historicalPrecedent: >-
+      Benjamin Rush, signer of the Declaration, was appointed professor of chemistry at the College of
+      Philadelphia in 1769, the first such chair in America. The next year he published his Syllabus of a
+      Course of Lectures on Chemistry (1770), the first American chemistry textbook.
+    sources:
+      - { label: "College Board: AP Chemistry course page", url: "https://apcentral.collegeboard.org/courses/ap-chemistry" }
+      - { label: "College Board: AP Chemistry Course and Exam Description (PDF)", url: "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf" }
+      - { label: "Penn University Archives: Benjamin Rush", url: "https://archives.upenn.edu/exhibits/penn-people/biography/benjamin-rush/" }
+    notes: >-
+      Pace it to finish the content by mid-April, leaving three to four weeks for full timed practice
+      exams. Zumdahl's AP Edition matches the course most closely. Brown/LeMay and Tro are equally good
+      college texts, and OpenStax is free. Precalculus (mathematics-13) runs concurrently and supplies
+      the logarithms and exponentials used in kinetics and pH. The USNCO local exam (chemistry-04) falls
+      in March of this year and is excellent AP preparation.
+
+  - id: chemistry-04
+    title: "Chemistry Olympiad (USNCO)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14
+    ageEnd: 16
+    order: 4
+    prerequisites: [chemistry-01]
+    related: [mathematics-14, physics-02, biology-04]
+    exams: [chemistry-olympiad]
+    summary: >-
+      Standard for every student. The U.S. National Chemistry Olympiad begins with a local exam in March,
+      given through ACS local sections. Nominees sit the three-part National Exam in April (multiple
+      choice, written problems and a laboratory practical). The top 20 go to a two-week Study Camp in
+      June, from which four are chosen for the International Chemistry Olympiad. Students sit the local
+      exam in March of the AP Chemistry year (about 14.75) and again the next year, working from past
+      exams and going beyond AP into organic chemistry, biochemistry and descriptive chemistry.
+    objectives:
+      - Sit the USNCO local exam each year from 14, arranged through the nearest ACS local section coordinator
+      - Work every released local and national exam under time and review the annotated solutions
+      - Extend AP content into organic reactions, stereochemistry, biochemistry, coordination and descriptive inorganic chemistry
+      - Prepare for the National Exam laboratory practical with timed technique drills (see chemistry-02)
+    coreTexts:
+      - title: USNCO past local and national exams, with keys
+        author: American Chemical Society
+        date: "annual"
+        publicDomain: false
+        links:
+          - { label: ACS past exams, url: "https://www.acs.org/education/students/highschool/olympiad/pastexams.html" }
+      - title: "Organic Chemistry: A Tenth Edition (free, for olympiad organic)"
+        author: John McMurry (OpenStax)
+        date: "2023"
+        publicDomain: false
+        links:
+          - { label: OpenStax, url: "https://openstax.org/details/books/organic-chemistry" }
+    curriculumOptions:
+      - name: USNCO past exams
+        publisher: American Chemical Society
+        tradition: secular
+        url: "https://www.acs.org/education/students/highschool/olympiad/pastexams.html"
+        notes: The core preparation. Start with the local exams, then national Part I and Parts II–III with the annotated solutions.
+      - name: "Prepare for Olympiad Exams: USNCO Teacher Training Course and USNCO Coaching"
+        publisher: American Chemical Society
+        tradition: secular
+        url: "https://www.acs.org/education/olympiad/prepare-for-exams.html"
+        notes: >-
+          ACS's self-paced online course (10 units on olympiad topics beyond typical high-school
+          chemistry, open to students) and small-group Zoom coaching sessions in January and February.
+    historicalPrecedent: >-
+      The ACS has run the U.S. National Chemistry Olympiad since 1984; the 2020 competition was the
+      37th.
+    sources:
+      - { label: "ACS: U.S. National Chemistry Olympiad", url: "https://www.acs.org/education/students/highschool/olympiad.html" }
+      - { label: "ACS: USNCO Rules & Eligibility", url: "https://www.acs.org/education/olympiad/rules-and-eligibility.html" }
+      - { label: "ACS: 2020 USNCO Summary Report", url: "https://www.acs.org/content/dam/acsorg/education/students/highschool/olympiad/2020-usnco-summary-report.pdf" }
+    notes: >-
+      Homeschooled students take part through their ACS local section. Contact the section's USNCO
+      coordinator in the fall, because each section sets its own local exam date and nominates a limited
+      number of students to the National Exam. Check the rules and eligibility page each year. A student
+      who reaches the Study Camp must be free for two weeks in June.

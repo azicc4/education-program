@@ -23,57 +23,93 @@ primarySources:
   - { label: "Secondary: G. Stanley Hall, 'On the History of American College Text-Books' (Proc. American Antiquarian Society, 1894), on the Yale MS laws of 1720/1726 and Clap's Ethics", url: "https://www.americanantiquarian.org/proceedings/44769406.pdf" }
 entries:
   - text: "Admission (1745 laws): read, construe and parse Tully (Cicero), Virgil and the Greek Testament extempore; write true Latin prose; understand the rules of prosody"
+    use: [reference, student]
+    units: [latin-11, latin-12, greek-05, latin-08]
     search: Cicero
     tracks: [latin, greek, poetry]
   - text: "Admission (1745): common arithmetic, the first arithmetic entrance requirement at an American college"
+    use: [reference]
+    units: [mathematics-06, mathematics-07]
     search: Arithmetic
     tracks: [mathematics]
   - text: "Admission (1726 orders): expert in Greek and Latin grammar, able to resolve Latin and Greek authors grammatically, and make good Latin"
+    use: [reference]
+    units: [latin-04, greek-04, latin-08]
     search: Latin grammar
     tracks: [latin, greek, grammar-composition]
   - text: "Daily private reading of Scripture, 'the Fountain of Light and Truth' (1745 laws); chapel with a chapter read morning and evening"
+    use: [reference]
+    units: [theology-25]
     search: Bible
     tracks: [theology, character-virtue]
   - text: "Recitation exercise (1726): every class but freshmen reads Old Testament Hebrew into Greek in the morning and turns the New Testament into Greek at evening"
+    use: [reference]
+    units: [greek-13, hebrew-04, hebrew-06]
     search: Hebrew Psalter
     tracks: [hebrew, greek]
   - text: "Year 1 (1745): chiefly the tongues and logic; the tongues continued through the next two years"
+    use: [reference]
+    units: []
     search: Logic
     tracks: [latin, greek, hebrew, logic]
   - text: "Year 2: rhetoric, geometry and geography. Year 3: natural philosophy, astronomy and other mathematics. Year 4: metaphysics and ethics"
+    use: [reference]
+    units: []
     search: Euclid
     tracks: [rhetoric, mathematics, natural-science, philosophy]
   - text: "Saturday divinity: Westminster Confession, Wollebius's Compendium and Ames's Medulla Theologiae (1745); 1726 orders add the Shorter Catechism in Latin and Ames's Cases of Conscience on the Sabbath"
+    use: [reference, student]
+    units: [theology-19]
     search: Ames
     tracks: [theology, latin]
   - text: "Friday declamations in Latin, Greek or Hebrew 'and in no other Language' without leave; the two senior classes dispute twice a week (1745)"
+    use: [reference]
+    units: [rhetoric-05, rhetoric-09]
     search: Declamation
     tracks: [rhetoric, latin, greek, hebrew]
   - text: "Speak Latin in chambers; no English among scholars except in public exercises (1726 orders)"
+    use: [reference]
+    units: []
     search: Latin conversation
     tracks: [latin]
   - text: "Freshmen at Stiles's accession (1778): Virgil, Cicero's Orations, the Greek Testament, Ward's Arithmetic"
+    use: [reference, student]
+    units: [latin-12, latin-11, greek-05]
     search: Virgil
     tracks: [latin, greek, mathematics]
   - text: "Sophomores: Greek Testament, Horace, Lowth's English Grammar, Watts's Logic, Guthrie's Geography, Hammond's Algebra, Holmes's Rhetoric, Ward's Geometry, Vincent's Catechism on Saturdays"
+    use: [reference, student]
+    units: [latin-14, logic-06, greek-09]
     search: Horace
     tracks: [greek, latin, poetry, grammar-composition, logic, mathematics, rhetoric, theology]
   - text: "Juniors: Ward's and Atkinson/Wilson's Trigonometry, Greek Testament, Cicero's De Oratore, Martin's Philosophical Grammar and Philosophy (3 vols.)"
+    use: [reference, student]
+    units: [rhetoric-10, mathematics-13]
     search: De Oratore
     tracks: [mathematics, greek, rhetoric, natural-science]
   - text: "Seniors: Locke's Essay Concerning Human Understanding, Wollaston's Religion of Nature Delineated, President Clap's Ethics; on Saturdays Wollebius, Ames's Medulla, Greek Testament (Edwards on the Will used at times)"
+    use: [reference, student]
+    units: [philosophy-09]
     search: Locke
     tracks: [philosophy, theology, character-virtue]
   - text: "Thomas Clap, An Essay on the Nature and Foundation of Moral Virtue and Obligation (1765), 'for the use of the Students of Yale College'"
+    use: [reference]
+    units: [character-virtue-14]
     search: Clap
     tracks: [philosophy, character-virtue]
   - text: "Hebrew under Stiles: he taught the whole freshman class from the alphabet through translating the first seven Psalms (June 1779), and later kept daily Hebrew recitations and moved on into the Hebrew Bible"
+    use: [reference, student]
+    units: [hebrew-01, hebrew-06]
     search: Hebrew Psalter
     tracks: [hebrew, theology]
   - text: "Berkeley Scholar examinations (1780): candidates examined four hours in Horace, Cicero's De Oratore and Tusculan Disputations, the Greek Testament, the Septuagint and Homer's Iliad"
+    use: [reference, student]
+    units: [latin-14, latin-11, greek-13, greek-11]
     search: Homer
     tracks: [latin, greek, poetry, philosophy]
   - text: "Forensic disputation on live questions, e.g. seniors dispute 'Whether the present War be lawful on the side of America?' (Nov. 1779)"
+    use: [reference]
+    units: [rhetoric-09, rhetoric-12]
     search: Disputation
     tracks: [rhetoric, logic, civics-law]
 notes: >-

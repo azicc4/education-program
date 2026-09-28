@@ -1265,6 +1265,7 @@ rows:
     order: 17
     prerequisites: [literature-15, literature-16]
     related: [poetry-09]
+    exams: [ap-english-literature]
     summary: >-
       Macbeth, Hamlet, King Lear and Othello, with Romeo and Juliet as the lyric prelude. The student reads each
       play twice (once for story, once for language), studies the soliloquies closely, and reads a critical
@@ -1438,6 +1439,7 @@ rows:
     order: 19
     prerequisites: [literature-17, literature-18]
     related: [poetry-09]
+    exams: [ap-english-literature]
     summary: >-
       Spenser's Faerie Queene Book I, Marlowe's Doctor Faustus, Bacon's Essays and the King James Bible as English
       prose, then Milton's Paradise Lost complete. The prose of Walton, Browne and Bunyan round out the term. This
@@ -1621,6 +1623,7 @@ rows:
     order: 21
     prerequisites: [literature-19]
     related: [poetry-11]
+    exams: [ap-english-literature]
     summary: >-
       The novel of manners and the Romantic revolution. The course reads Austen's Pride and Prejudice, Emma
       and Persuasion; Scott's Waverley and The Heart of Mid-Lothian; Mary Shelley's Frankenstein; and the prose
@@ -1711,6 +1714,7 @@ rows:
     order: 22
     prerequisites: [literature-21, literature-14]
     related: []
+    exams: [ap-english-literature]
     summary: >-
       The great Victorian novels of the 1840s–60s. The course reads Charlotte Brontë's Jane Eyre, Emily Brontë's
       Wuthering Heights, Dickens's David Copperfield, A Tale of Two Cities and Bleak House, Thackeray's Vanity
@@ -1889,6 +1893,7 @@ rows:
     order: 24
     prerequisites: [literature-22]
     related: [poetry-12]
+    exams: [ap-english-literature]
     summary: >-
       Literature of the turn of the twentieth century. The course reads Conrad's Heart of Darkness and Lord Jim;
       Chesterton's Orthodoxy, The Everlasting Man, The Man Who Was Thursday and the Father Brown stories;
@@ -2146,6 +2151,7 @@ rows:
     order: 27
     prerequisites: [literature-12, literature-14]
     related: []
+    exams: [ap-english-literature]
     summary: >-
       American letters from Franklin to Melville. The course reads Franklin's Autobiography complete, Irving's
       Sketch-Book, Cooper's Deerslayer, Poe's tales and poems, Hawthorne's Scarlet Letter, Melville's Moby-Dick,
@@ -2245,6 +2251,7 @@ rows:
     order: 28
     prerequisites: [literature-27]
     related: [poetry-12]
+    exams: [ap-english-literature]
     summary: >-
       Post-Civil War American literature. The course reads Twain's Huckleberry Finn, the two great American
       poets Dickinson and Whitman, Henry James's Daisy Miller and The Portrait of a Lady, Crane's Red Badge of

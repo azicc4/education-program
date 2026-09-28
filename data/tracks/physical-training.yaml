@@ -122,7 +122,7 @@ rows:
     ageEnd: 13
     order: 4
     prerequisites: [physical-training-03]
-    related: [natural-science-11, mathematics-15]
+    related: [natural-science-11, mathematics-15, sports-02, sports-05]
     summary: >-
       The student learns to be at home in the wilderness: pack and walk a trail, pitch a tent, build and put out
       a fire, cook outdoors, purify water, use a knife and axe safely, tie the essential knots, read a map and
@@ -263,7 +263,7 @@ rows:
     ageEnd: 15
     order: 7
     prerequisites: [physical-training-05]
-    related: [civics-law-05, practical-arts-16]
+    related: [civics-law-05, practical-arts-16, sports-02, sports-06]
     summary: >-
       This course proceeds in stages. Safety comes first ("Stop! Don't touch. Run away. Tell a grown-up" for
       young children), then formal hunter-education certification, then supervised marksmanship with air
@@ -310,7 +310,7 @@ rows:
     ageEnd: 16
     order: 8
     prerequisites: [physical-training-03]
-    related: [character-virtue-10]
+    related: [character-virtue-10, sports-02, sports-04, sports-06, sports-08]
     summary: >-
       Team sport teaches what individual training cannot: subordinating oneself to a common good, obeying a
       captain and later leading as one, losing well, and playing hard within rules. Play at least one team
@@ -353,7 +353,7 @@ rows:
     ageEnd: 15
     order: 9
     prerequisites: [physical-training-01]
-    related: []
+    related: [sports-01, sports-09]
     summary: >-
       This course builds on basic water competency: all four competitive strokes, endurance, open-water skills
       (currents, cold water, swimming in clothes), and rescue. It culminates in a lifeguard certification at
@@ -421,7 +421,7 @@ rows:
     ageEnd: 16
     order: 11
     prerequisites: [physical-training-02]
-    related: [character-virtue-11]
+    related: [character-virtue-11, sports-03, sports-07]
     summary: >-
       Fencing is the gentleman's combat art of the 17th and 18th centuries, now an Olympic sport. It
       sharpens reflexes, footwork, tactical thinking ("physical chess") and courtesy (the salute, the

@@ -17,63 +17,103 @@ primarySources:
   - { label: "Catholic Encyclopedia (1911): Ratio Studiorum", url: "https://www.newadvent.org/cathen/12654a.htm" }
 entries:
   - text: "Lowest grammar: rudiments and beginning syntax from Alvarez's grammar; prelection on the easiest letters of Cicero; Greek reading and writing"
+    use: [reference, student]
+    units: [latin-04, latin-11, greek-01]
     search: Alvarez
     tracks: [latin, greek]
   - text: "Middle grammar: Alvarez Book II through figures of speech; Cicero's Ad Familiares and the simplest poems of Ovid; Greek catechism or the Tablet of Cebes"
+    use: [reference, student]
+    units: [latin-11, latin-09]
     search: Ovid
     tracks: [latin, greek]
   - text: "Highest grammar: full syntax and prosody; Cicero's letters, De Amicitia, De Senectute, Paradoxa; expurgated Ovid, Catullus, Tibullus, Propertius"
+    use: [reference, student]
+    units: [latin-11, latin-09, latin-06]
     search: Cicero
     tracks: [latin, poetry]
   - text: "Highest grammar poets: Virgil's Eclogues, Georgics IV, Aeneid V and VII; in Greek, Chrysostom, Aesop, and Agapetus"
+    use: [reference, student]
+    units: [latin-12, greek-07, greek-13]
     search: Virgil
     tracks: [latin, greek, poetry]
   - text: "Humanities: Cicero's moral works, then simpler speeches (Pro Lege Manilia, Pro Archia, Pro Marcello); history from Caesar, Sallust, Livy, Curtius"
+    use: [reference, student]
+    units: [latin-11, latin-07, latin-13]
     search: Caesar
     tracks: [latin, history, rhetoric]
   - text: "Humanities poetry: Virgil (omitting some eclogues and Aeneid IV) and Horace's selected odes"
+    use: [reference, student]
+    units: [latin-12, latin-14]
     search: Horace
     tracks: [latin, poetry]
   - text: "Humanities Greek: Isocrates, Chrysostom, Basil, letters of Plato and Synesius, Plutarch; poems of Phocylides, Theognis, Gregory Nazianzen; compose in Greek"
+    use: [reference, student]
+    units: [greek-13]
     search: Isocrates
     tracks: [greek, literature]
   - text: "Soarez, De Arte Rhetorica (drawn from Aristotle, Cicero, Quintilian), summarized in humanities and taught in rhetoric"
+    use: [reference]
+    units: [rhetoric-07, rhetoric-10]
     search: Soarez
     tracks: [rhetoric]
   - text: "Rhetoric: daily prelection on Cicero's orations and Aristotle's Rhetoric (and, if desired, Poetics); 'Cicero is to be the one model of style'"
+    use: [reference, student]
+    units: [latin-11, rhetoric-07, poetry-14]
     search: Cicero
     tracks: [rhetoric, latin]
   - text: "Rhetoric Greek: Demosthenes, Plato, Thucydides, Homer, Hesiod, Pindar, with Gregory Nazianzen, Basil, and Chrysostom"
+    use: [reference, student]
+    units: [rhetoric-08, greek-11, greek-15, greek-13]
     search: Demosthenes
     tracks: [greek, rhetoric, poetry]
   - text: "Philosophy, year 1: logic (digest from Toledo or Fonseca; predicables, Interpretation, Prior Analytics, Topics)"
+    use: [reference, student]
+    units: [logic-08, logic-03]
     search: Aristotle
     tracks: [logic, philosophy]
   - text: "Philosophy, year 2: Aristotle's eight books of Physics, On the Heavens, On Generation, Meteorology; mathematics from Euclid with geography and astronomy"
+    use: [reference, student]
+    units: [natural-science-19, mathematics-10, natural-science-15]
     search: Euclid
     tracks: [natural-science, mathematics, philosophy]
   - text: "Philosophy, year 3: Aristotle's On the Soul and Metaphysics; moral philosophy from the ten books of the Nicomachean Ethics"
+    use: [reference, student]
+    units: [social-science-01, philosophy-14, philosophy-07, character-virtue-12]
     search: Aristotle
     tracks: [philosophy, character-virtue]
   - text: "Scholastic theology over four years following the Summa of St. Thomas Aquinas"
+    use: [reference, student]
+    units: [theology-22]
     search: Aquinas
     tracks: [theology, philosophy]
   - text: "Sacred Scripture expounded 'reverently, learnedly, and seriously', with Hebrew taught for a year from rudiments through an easy book of Scripture"
+    use: [reference, student]
+    units: [hebrew-01, hebrew-04, theology-15]
     search: Hebrew
     tracks: [theology, hebrew]
   - text: "Cases of conscience (moral theology) for those training as confessors and pastors"
+    use: [reference]
+    units: [theology-20]
     search: Cases of conscience
     tracks: [theology, character-virtue]
   - text: "Prelection method: read the passage, give its gist, clear each sentence, then comment; history read faster, poets by oratorical paraphrase"
+    use: [reference, teacher]
+    units: []
     search: Prelection
     tracks: [latin, literature]
   - text: "Daily memory recitation of grammar and Cicero to decurions (student monitors); repetition of the previous day's lesson"
+    use: [reference, teacher]
+    units: [latin-03, latin-11]
     search: Cicero
     tracks: [latin, character-virtue]
   - text: "Concertatio: class contests between rivals and camps, with prizes, to rouse 'rivalry which is a powerful incentive to studies'"
+    use: [reference, teacher]
+    units: []
     search: Concertatio
     tracks: [character-virtue, latin]
   - text: "Declamations, plays, and student academies (rhetoric/humanities, grammar, philosophers/theologians) for speaking, disputation, and prelections"
+    use: [reference]
+    units: [rhetoric-05, drama-10, rhetoric-09]
     search: Declamation
     tracks: [rhetoric, logic]
 notes: >-

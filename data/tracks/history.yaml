@@ -865,6 +865,7 @@ rows:
     order: 13
     prerequisites: [history-12, history-06]
     related: [literature-27]
+    exams: [ap-us-history]
     summary: >-
       The founding of the Americas is read in its sources. Columbus's letters on the first
       voyage open the unit. Bradford's Of Plymouth Plantation is read in large part, with the
@@ -935,6 +936,7 @@ rows:
     order: 14
     prerequisites: [history-13]
     related: [literature-10, rhetoric-08, civics-law-04]
+    exams: [ap-us-history]
     summary: >-
       A guided first reading of the American founding documents, as a bridge into Cycle 3. It
       covers the Declaration entire, the Constitution and Bill of Rights, Washington's Farewell
@@ -1456,6 +1458,7 @@ rows:
     order: 21
     prerequisites: [history-20]
     related: [philosophy-10, civics-law-13]
+    exams: [ap-european-history]
     summary: >-
       The inheritance the American colonists claimed. The student reads Magna Carta closely with
       Coke's commentary (Second Institute), the Petition of Right (1628), the 1689 Bill of Rights,
@@ -1554,6 +1557,7 @@ rows:
     order: 22
     prerequisites: [history-12, history-20]
     related: [theology-19, philosophy-10, literature-19]
+    exams: [ap-european-history]
     summary: >-
       The 16th century revisited at seminar depth. The student reads Machiavelli's Prince, More's
       Utopia and Erasmus as the Renaissance humanist debate, then the Reformation documents at
@@ -1635,6 +1639,7 @@ rows:
     order: 23
     prerequisites: [history-21, history-14]
     related: [literature-27, rhetoric-11]
+    exams: [ap-us-history]
     summary: >-
       The American Revolution read almost entirely in primary sources from Founders Online and the
       Avalon Project: the colonial charters, the Stamp Act resolves, Paine's Common Sense, Adams's
@@ -1730,6 +1735,7 @@ rows:
     order: 24
     prerequisites: [history-23]
     related: [rhetoric-08, rhetoric-09, literature-27]
+    exams: [ap-us-history]
     summary: >-
       From Washington's Farewell to Lincoln's Second Inaugural, in the words of the actors. The
       student reads Tocqueville's Democracy in America (Vol. I selections) and Webster's Second
@@ -1822,6 +1828,7 @@ rows:
     order: 25
     prerequisites: [history-21]
     related: [philosophy-11, philosophy-12, literature-22, literature-23]
+    exams: [ap-european-history, ap-world-history-modern]
     summary: >-
       Europe from 1789 to 1914 in its documents and its interpreters. The student reads the French
       Revolution documents (the Declaration of the Rights of Man and the Terror), then Carlyle and
@@ -1905,6 +1912,7 @@ rows:
     order: 26
     prerequisites: [history-25]
     related: [rhetoric-08]
+    exams: [ap-us-history, ap-european-history, ap-world-history-modern]
     summary: >-
       The two world wars in the words of statesmen and witnesses. For World War I the student
       reads Benedict XV's Ad Beatissimi (1914) and Wilson's Fourteen Points, with documents from
@@ -1989,6 +1997,7 @@ rows:
     order: 27
     prerequisites: [history-26, history-24]
     related: [rhetoric-08, philosophy-13]
+    exams: [ap-us-history, ap-european-history, ap-world-history-modern]
     summary: >-
       The second half of the 20th century. The student reads Solzhenitsyn's Gulag Archipelago
       (abridged) and his Harvard address "A World Split Apart," Kennan's Long Telegram, and

@@ -23,57 +23,94 @@ primarySources:
   - { label: "Dissertations on the English Language (1789), Gutenberg #45738", url: "https://www.gutenberg.org/ebooks/45738" }
 entries:
   - text: "The American Spelling Book ('Blue-backed Speller'; Grammatical Institute Part I, 1783) — syllable tables and 'An Easy Standard of Pronunciation'"
+    use: [reference, student]
+    units: [reading-phonics-05]
     search: Webster
     tracks: [reading-phonics, early-development]
   - text: "Speller fables: 'Of the Boy that stole Apples', 'The Country Maid and her Milk Pail', 'The Fox and the Swallow' (Aesop via Aristotle)"
+    use: [reference, student]
+    units: [reading-phonics-05, character-virtue-01]
     search: Aesop
     tracks: [reading-phonics, character-virtue]
   - text: "Speller 'Moral Catechism': moral virtue is 'honest upright conduct'; its rule is God's word, summed up in the Sermon on the Mount"
+    use: [reference, student]
+    units: [reading-phonics-05, theology-12]
     search: Bible
     tracks: [character-virtue, theology]
   - text: "Speller catechism topics (1809): humility, mercy, purity of heart, anger, justice, generosity, gratitude, charity and almsgiving, avarice, frugality and economy, industry, cheerfulness"
+    use: [reference, student]
+    units: [reading-phonics-05]
     search: Webster
     tracks: [character-virtue]
   - text: "Speller 'Precepts concerning the social relations' — on marriage, parenthood and filial duty"
+    use: [reference, student]
+    units: [reading-phonics-05]
     search: Webster
     tracks: [character-virtue]
   - text: "Grammatical Institute Part II (1784): an English grammar with 'an essay towards investigating the rules of English verse'"
+    use: [reference]
+    units: [grammar-composition-06]
     search: Webster
     tracks: [grammar-composition, poetry]
   - text: "An American Selection (Part III, 1785–): 'rules of elocution' and readings to 'instruct them in the geography, history, and politics of the United States'"
+    use: [reference]
+    units: [rhetoric-05, poetry-05]
     search: Webster
     tracks: [reading-phonics, rhetoric, history]
   - text: "American Selection speaking pieces: Warren's and Hancock's Boston Massacre orations, Barlow's July 4 oration, the Declaration of Independence"
+    use: [reference, student]
+    units: [civics-law-04, rhetoric-05]
     search: Declaration
     tracks: [rhetoric, history, civics-law]
   - text: "American Selection readings: Franklin's 'The Whistle', a history of Columbus, Webster's own sketch of the late war (including Washington's appointment to command), Chesterfield's rules for behavior"
+    use: [reference, student]
+    units: [grammar-composition-08, history-13]
     search: Franklin
     tracks: [history, character-virtue]
   - text: "'On the Education of Youth in America' (1788): education must 'implant ... the principles of virtue and of liberty'"
+    use: [reference, teacher]
+    units: []
     search: Webster
     tracks: [civics-law, character-virtue]
   - text: "Same essay: every child 'should rehearse the history of his own country' and 'lisp the praise of liberty'"
+    use: [reference, teacher]
+    units: [history-06, civics-law-04]
     search: Webster
     tracks: [history, civics-law]
   - text: "Same essay, a caution: too much time given to the dead languages; Latin and Greek to be pressed hardest on young men 'designed for the learned professions'"
+    use: [reference, teacher]
+    units: []
     search: Latin
     tracks: [latin, greek]
   - text: "Same essay: colleges neglect the ancient historians — Herodotus, Thucydides, Xenophon, Polybius, Livy, Tacitus"
+    use: [reference, student]
+    units: [history-15, history-16, history-17]
     search: Thucydides
     tracks: [history, greek, latin]
   - text: "Same essay: against using the Bible as a common school reader, lest careless reading breed irreverence"
+    use: [reference, teacher]
+    units: []
     search: Bible
     tracks: [theology]
   - text: "Same essay: female education, so that mothers can 'implant' virtue in their children; a good education rather than a 'showy' one"
+    use: [reference, teacher]
+    units: []
     search: Webster
     tracks: [character-virtue]
   - text: "Dissertations on the English Language (1789): 'our honor requires us to have a system of our own, in language as well as government'"
+    use: [reference, student]
+    units: [drama-06, drama-08]
     search: Webster
     tracks: [grammar-composition, civics-law]
   - text: "American Dictionary (1828): definitions with moral and scriptural illustrations; under Education, a religious education is 'indispensable'"
+    use: [reference, student]
+    units: []
+    gap: true
     search: Webster
     tracks: [grammar-composition, theology]
   - text: "American Dictionary introduction: a dissertation on the origin and connection of the languages of Western Asia and Europe (Hebrew, Greek, Latin and Teutonic roots)"
+    use: [reference]
+    units: []
     search: Webster
     tracks: [grammar-composition, hebrew, old-english]
 notes: >-

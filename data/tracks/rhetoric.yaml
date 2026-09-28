@@ -257,6 +257,7 @@ rows:
     order: 7
     prerequisites: [rhetoric-06]
     related: [logic-05, philosophy-07]
+    exams: [ap-english-language]
     summary: >-
       The student studies rhetoric as a theory. Aristotle's Rhetoric covers ethos, pathos and
       logos, the three genres, the topics, the enthymeme, and style and arrangement. The five
@@ -328,6 +329,7 @@ rows:
     order: 8
     prerequisites: [rhetoric-05]
     related: [philosophy-10]
+    exams: [ap-english-language]
     summary: >-
       Classical imitation (imitatio) means reading, analyzing, memorizing and imitating master
       speeches. The canon runs from Demosthenes' Philippics and Cicero's Catilinarians through
@@ -397,6 +399,7 @@ rows:
     order: 9
     prerequisites: [rhetoric-06]
     related: [logic-04, philosophy-10]
+    exams: [ap-english-language]
     summary: >-
       Competitive and in-home debate trains the student to argue both sides, think on his feet,
       and cross-examine. The formats are Lincoln–Douglas value debate (one-on-one, modeled on the
@@ -449,6 +452,7 @@ rows:
     order: 10
     prerequisites: [rhetoric-07]
     related: [philosophy-06, latin-11]
+    exams: [ap-english-language]
     summary: >-
       This course reads the Roman systematizers who shaped 1,500 years of Western schooling.
       Students take the doctrine of invention and stasis from Cicero's De Inventione and the
