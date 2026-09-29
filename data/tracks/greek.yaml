@@ -547,6 +547,7 @@ rows:
     ageEnd: 16
     order: 12
     prerequisites: [greek-10]
+    related: [history-15]
     summary: >-
       The "Father of History" in Ionic Greek. The student reads Book I (Croesus and Solon, Cyrus)
       and the Persian War narratives (Thermopylae in Book VII, Salamis in Book VIII). Themes:
@@ -667,7 +668,7 @@ rows:
     ageEnd: 18
     order: 15
     prerequisites: [greek-12, greek-14]
-    related: [latin-17]
+    related: [latin-17, history-15]
     summary: >-
       The hardest Attic prose and the core texts of political philosophy. Thucydides: the
       Archaeology, Pericles' Funeral Oration (II.35–46), the Plague, the Mytilene debate, the

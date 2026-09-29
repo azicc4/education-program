@@ -167,6 +167,11 @@ rows:
         tradition: catholic
         url: "https://languagearts.loyolapress.com/voyages-in-english/"
         notes: Jesuit-published successor to the classic Catholic-school grammar series, with diagramming.
+      - name: "Essentials (English grammar and writing)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/essentials/"
+        notes: "Community program for ages 9–12. It covers English grammar and sentence analysis, IEW writing and arithmetic drill."
 
   - id: grammar-composition-05
     title: "Sentence Diagramming: Reed & Kellogg"

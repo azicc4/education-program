@@ -77,7 +77,7 @@ rows:
     ageEnd: 11
     order: 2
     prerequisites: []
-    related: [music-01, music-02, music-05]
+    related: [music-01, music-02, music-05, music-10]
     summary: >-
       A child's voice is trained in a good children's choir, not in solo lessons. Sing weekly in a parish,
       cathedral or community children's choir that uses a light, healthy head voice, together with the Ward
@@ -314,8 +314,6 @@ rows:
         tradition: secular
         url: "https://www.nats.org/"
         notes: Find a qualified classical voice teacher.
-    sources:
-      - { label: "Cambiata Institute (Univ. of North Texas): Approaches to Teaching Boys with Changing Voices", url: "https://cambiata.music.unt.edu/approaches-teaching-boys-changing-voices" }
     notes: >-
       Girls' voices also change in adolescence (breathiness, cracking), less dramatically. Choose a teacher
       experienced with adolescent voices, and never force range or volume during the change.

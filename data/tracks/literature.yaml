@@ -799,7 +799,7 @@ rows:
     ageEnd: 11
     order: 10
     prerequisites: [literature-03, literature-07]
-    related: [poetry-05]
+    related: [poetry-05, history-23]
     summary: >-
       A unit built on the actual boyhood reading of Franklin, Washington's generation and Lincoln. It covers the
       King James Bible, Bunyan's Pilgrim's Progress in full, Plutarch's Lives, Weems' Life of Washington,
@@ -1094,7 +1094,7 @@ rows:
     ageEnd: 11.5
     order: 13
     prerequisites: [literature-06]
-    related: [poetry-05]
+    related: [poetry-05, drama-02]
     summary: >-
       The first plays read in full: A Midsummer Night's Dream, then Twelfth Night, As You Like It, Much Ado
       About Nothing and The Comedy of Errors. The student reads aloud in parts, memorizes speeches, and stages

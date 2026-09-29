@@ -281,7 +281,7 @@ rows:
     ageEnd: 11
     order: 7
     prerequisites: [natural-science-06]
-    related: []
+    related: [chemistry-01]
     summary: >-
       A year of hands-on physical science covering matter, heat, light, sound, simple machines,
       magnetism and electricity. Every lesson has an experiment and a written lab report (question,

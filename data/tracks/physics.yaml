@@ -134,7 +134,7 @@ rows:
       - name: Tracker video analysis and modeling tool
         publisher: Open Source Physics (ComPADRE)
         tradition: secular
-        url: "https://www.compadre.org/osp/items/detail.cfm?ID=7365"
+        url: "https://opensourcephysics.github.io/tracker-website/"
         notes: Free. Film a motion, track it frame by frame, and overlay a model. Excellent for projectile, collision and pendulum labs.
       - name: Physics with Vernier
         publisher: Vernier
@@ -206,7 +206,7 @@ rows:
     ageEnd: 16
     order: 2
     prerequisites: [physics-01]
-    related: [mathematics-18, mathematics-21]
+    related: [mathematics-18, mathematics-21, natural-science-19]
     exams: [ap-physics-c-mechanics]
     summary: >-
       Calculus-based mechanics following the College Board course and exam description (Units 1–7),

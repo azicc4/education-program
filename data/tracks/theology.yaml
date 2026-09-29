@@ -788,7 +788,7 @@ rows:
     ageEnd: 14.5
     order: 16
     prerequisites: [theology-14]
-    related: [philosophy-08, chinese-10]
+    related: [philosophy-08, chinese-10, history-18]
     summary: >-
       The student reads the early Church in its own words. The Apostolic Fathers (Clement,
       Ignatius of Antioch, Polycarp, the Didache) show the faith of the generation after the
@@ -1122,7 +1122,7 @@ rows:
     ageEnd: 16
     order: 20
     prerequisites: [theology-13]
-    related: [philosophy-10, civics-law-15, economics-07]
+    related: [philosophy-10, civics-law-15, economics-07, biology-03, history-26]
     summary: >-
       The course has three parts. Liturgy: Guardini's and Ratzinger's Spirit of the Liturgy and
       Vatican II's Sacrosanctum Concilium on worship as the Church's summit and source. Moral

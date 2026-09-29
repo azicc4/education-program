@@ -312,6 +312,16 @@ rows:
         tradition: protestant
         url: "https://compassclassroom.com/shop/product/civics-with-dave-raymond/"
         notes: A live class aimed at high schoolers; suits an advanced 11–12-year-old.
+      - name: "Create Your Own Country and Constitution (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1532372680"
+        notes: "Middle- and high-school project course. Students design a nation and write a simple constitution, using the U.S. Constitution as a blueprint."
+      - name: "Teaching American History, Grades 6–8 (free online course for parents)"
+        publisher: "Hillsdale College"
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/teaching-american-history-grades-6-8"
+        notes: "Parent-teacher course that accompanies the 1776 Curriculum at this level."
     historicalPrecedent: >-
       Story, a sitting Supreme Court justice and Harvard law professor, condensed his three-volume
       Commentaries (1833) into the Familiar Exposition (1840) for use in schools and by general readers.
@@ -704,6 +714,16 @@ rows:
         tradition: catholic
         url: "https://tanbooks.com/products/declaration-statesmanship-a-course-in-american-government-set/"
         notes: A high-school American government course from a Catholic publisher, organized around the Declaration's principles.
+      - name: "American Democracy and Government (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1581238891"
+        notes: "Semester high-school course (grades 9–12) with a detailed study of the founding documents and a mock-committee exercise."
+      - name: "Challenge I (American government strand)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-i/"
+        notes: "A semester of original documents on American government, then policy debate."
     sources:
       - { label: "ConSource: The Constitutional Sources Project", url: "https://www.consource.org/" }
     notes: >-
@@ -960,6 +980,21 @@ rows:
         publisher: TAN Books
         tradition: catholic
         url: "https://tanbooks.com/products/declaration-statesmanship-a-course-in-american-government-set/"
+      - name: "U.S. Government for Catholic Students"
+        publisher: "Seton Press (Paul Clark)"
+        tradition: catholic
+        url: "https://setonbooks.com/social-studies/2593-us-government-for-catholic-students.html"
+        notes: "Seton's grade-12 government text. It judges American institutions by Catholic social teaching and Aquinas, with attention to the Founders' intent."
+      - name: "Introduction to Catholic Social Teaching (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1263509459"
+        notes: "Phillip Campbell's short course (4 classes, grades 11–12) on the Church's teaching on man, economy and the state."
+      - name: "Course Plan & Tests: Government"
+        publisher: "Kolbe Academy"
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plans-tests-u-s-government"
+        notes: "Kolbe's high-school homeschool government course plan. Check the sample for the texts used."
     notes: >-
       A Catholic/Protestant note. Leo XIII's ideal of a confessional Catholic state (Immortale Dei) and
       Vatican II's Dignitatis Humanae (1965) on religious liberty are read side by side, and Catholics
@@ -1024,6 +1059,11 @@ rows:
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/promo/the-presidency-and-the-constitution"
+      - name: "College Level United States Government and Politics (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1949712335"
+        notes: "Advanced two-semester high-school course (Part Two follows), taught by Paul Hyatt."
 
   - id: civics-law-17
     title: "College Seminar: American Political Thought"

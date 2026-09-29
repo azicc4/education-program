@@ -163,6 +163,11 @@ rows:
         tradition: catholic
         url: "https://setonbooks.com/math/241-mathematics-1-for-young-catholics-.html"
         notes: "Seton's own elementary series (grade 1 shown; later grades on the same site). A Catholic option, not a requirement."
+      - name: "Course Plan & Tests: Progress in Math 2"
+        publisher: "Kolbe Academy"
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plan-tests-progress-in-math-2"
+        notes: "Kolbe's lesson plans for Sadlier's Progress in Mathematics (grades 1–6 available). A Catholic option, not a requirement."
     historicalPrecedent: >-
       Nineteenth-century American schools began with Ray's arithmetic series (from the 1830s), a
       McGuffey-era companion used by millions. Colonial children learned "cyphering" from manuals such as
@@ -209,6 +214,11 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/math/rod-staff-speed-drill-packet/"
         notes: Timed fact sheets.
+      - name: "Catholic Word Problems (Levels C–E)"
+        publisher: "Seton Press"
+        tradition: catholic
+        url: "https://setonbooks.com/math/470-catholic-word-problems-level-c.html"
+        notes: "Short Seton workbooks of word problems with Catholic settings for grades 3–5 (Levels D and E on the same site). They suit oral, Ray's-style mental problems."
     historicalPrecedent: >-
       Warren Colburn's First Lessons in Intellectual Arithmetic (1821) and Ray's Intellectual Arithmetic
       made oral mental arithmetic a standard daily exercise in American common schools through the
@@ -268,8 +278,13 @@ rows:
       - name: "Math for Young Catholics"
         publisher: Seton Press
         tradition: catholic
-        url: "https://setonbooks.com/math/241-mathematics-1-for-young-catholics-.html"
-        notes: "Seton's own elementary series (grade 1 shown; later grades on the same site). A Catholic option, not a requirement."
+        url: "https://setonbooks.com/math/723-mathematics-4-for-young-catholics.html"
+        notes: "Seton's own elementary series (grade 4 shown; Math 3 and Math 5 are on the same site). A Catholic option, not a requirement."
+      - name: "Course Plan & Tests: Progress in Math 4"
+        publisher: "Kolbe Academy"
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plan-tests-progress-in-math-4"
+        notes: "Kolbe's lesson plans for Sadlier's Progress in Mathematics. Plans for grades 3 and 5 are also sold."
     historicalPrecedent: >-
       Pike's Arithmetic (1788) and later Ray's Practical Arithmetic were used to teach the "rule of
       three," interest, exchange and mensuration. That was the practical mathematics a merchant or
@@ -323,6 +338,11 @@ rows:
         tradition: secular
         url: "https://www.singaporemath.com/collections/dimensions-math-6-8"
         notes: Continues Hillsdale's Singapore sequence into pre-algebra.
+      - name: "Saxon Math 8/7 (recorded weekly lessons)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/65539010"
+        notes: "Recorded Catholic online class with weekly Saxon 8/7 lessons, in two semesters. A Catholic option, not a requirement."
 
   - id: mathematics-08
     title: "Number Theory & Competition Math I: MATHCOUNTS"

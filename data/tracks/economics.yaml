@@ -203,6 +203,11 @@ rows:
         publisher: Foundation for Economic Education
         tradition: secular
         url: "https://fee.org/ebooks/the-economics-of-freedom/"
+      - name: "Economics 101: The Principles of Free Market Economics (free online course)"
+        publisher: "Hillsdale College"
+        tradition: classical
+        url: "https://online.hillsdale.edu/courses/promo/economics-101-the-principles-of-free-market-economics"
+        notes: "Hillsdale faculty lectures in the Bastiat and Hazlitt tradition. Best watched with a parent at this age."
 
   - id: economics-05
     title: "Personal Finance, Bookkeeping and Investing Basics"
@@ -293,6 +298,11 @@ rows:
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/promo/capitalism"
+      - name: "Challenge I (free-market economics strand)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-i/"
+        notes: "A semester of original sources on free-market economics, with group projects."
     historicalPrecedent: >-
       Jefferson wrote to his son-in-law in 1790: "In political oeconomy I think Smith's wealth of nations
       the best book extant." In the same letter he recommends Locke, Montesquieu (with cautions) and The
@@ -382,6 +392,16 @@ rows:
         publisher: TAN Books
         tradition: catholic
         url: "https://tanbooks.com/tan-academy-an-introduction-to-economics/"
+      - name: "Economics as if People Matter (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/339875173"
+        notes: "Phillip Campbell's high-school micro and macro course. It looks at economic problems from a Catholic perspective and includes personal finance."
+      - name: "Introduction to Catholic Social Teaching (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1263509459"
+        notes: "Short course (4 classes) on the Church's social teaching on man, economy and the state."
     notes: >-
       A Catholic/Protestant note. Protestant readers approach the same questions through the Reformed idea
       of vocation and "sphere sovereignty" (Kuyper, Lectures on Calvinism) and Weber's thesis on the
@@ -620,6 +640,11 @@ rows:
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/promo/economics-101-the-principles-of-free-market-economics"
+      - name: "Principles of Microeconomics and Catholic Perspectives (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1858099724"
+        notes: "David Harris's 12-class high-school microeconomics course, joined to Catholic social teaching. It is a primer before college-level texts."
     notes: >-
       A student who wants college credit can take CLEP Principles of Microeconomics and Macroeconomics
       after this course.

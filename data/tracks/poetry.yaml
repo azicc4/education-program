@@ -373,7 +373,7 @@ rows:
     ageEnd: 12
     order: 5
     prerequisites: [poetry-03]
-    related: [literature-07, literature-10, literature-13, literature-15, rhetoric-05]
+    related: [literature-07, literature-10, literature-13, literature-15, rhetoric-05, drama-03]
     summary: >-
       The nineteenth-century art of declamation: speaking a memorized poem or speech before an audience with
       trained voice, posture and gesture. Texts come from the Columbian Orator, McGuffey's Sixth Reader,
@@ -551,6 +551,16 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/penmanship/copybook-cursive-scripture-poems/"
         notes: Copywork of Scripture and poems. Useful for fixing psalms in memory.
+      - name: "Adoremus Hymnal (2nd ed.)"
+        publisher: "Ignatius Press"
+        tradition: catholic
+        url: "https://ignatius.com/adoremus-hymnal-standard-edition-2nd-edition-adh2ch/"
+        notes: "Catholic hymnal of traditional English hymns, Latin chant and metrical psalms, for reading hymns as poetry. The melody edition includes the tunes."
+      - name: "Shorter Christian Prayer (Four-Week Psalter of the Liturgy of the Hours)"
+        publisher: "Catholic Book Publishing"
+        tradition: catholic
+        url: "https://catholicbookpublishing.com/products/shorter-christian-prayer-burgundy"
+        notes: "Morning and Evening Prayer from the Church's psalter. Praying it daily is the Catholic way to learn the Psalms as poetry."
     historicalPrecedent: >-
       The Bay Psalm Book (1640) was the first book printed in British North America. Watts's Psalms and Divine
       Songs were among the most-memorized texts of colonial and early-republic childhood, and Franklin printed
@@ -1247,11 +1257,17 @@ rows:
         publisher: Dappled Things
         tradition: catholic
         url: "https://www.dappledthings.org/contests"
-        notes: >-
-          A Catholic "journal of ideas, art, and faith" (print and digital since 2005) that publishes poetry,
-          fiction and essays. Every poem submitted in a year is
-          also considered for its Jane Greer Memorial Poetry Contest. It has no separate student or young-writer
-          contest; the student submits alongside adults, which suits a finished capstone portfolio.
+        notes: "Catholic literary journal. Its Jane Greer Memorial Poetry Contest is an adult contest with no youth division, so treat it as a stretch goal."
+      - name: "Alleluia Contest (LUX division, grades 7–12)"
+        publisher: "Catholic Literary Arts"
+        tradition: catholic
+        url: "https://www.catholicliteraryarts.org/2026-alleluia-contest"
+        notes: "Annual Catholic poetry contest. The LUX division is for homeschool and independent Catholic school students, with poems on St. Francis's Canticle of the Creatures. Check the page each year for the new theme and deadline."
+      - name: "Teen Writers Mentorship Program"
+        publisher: "Catholic Literary Arts"
+        tradition: catholic
+        url: "https://www.catholicliteraryarts.org/teen-writers-mentorship-program"
+        notes: "Year-long online writing mentorship for high-school students, open worldwide, with live sessions and revision feedback. It could supply the capstone mentor."
     historicalPrecedent: >-
       English public schools and universities awarded prizes for original verse (Oxford's Newdigate Prize from
       1806; Cambridge's Chancellor's Medal from 1813, won by Tennyson). Nineteenth-century educated men and women

@@ -309,7 +309,7 @@ rows:
     ageEnd: 13
     order: 6
     prerequisites: [character-virtue-03]
-    related: [civics-law-08]
+    related: [civics-law-08, history-08]
     summary: >-
       Plutarch wrote the Parallel Lives to show character in action: "a slight thing like a phrase or a jest"
       often reveals more than battles. Read one Life per term, beginning with retellings and moving to

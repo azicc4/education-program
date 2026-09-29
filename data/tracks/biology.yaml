@@ -228,7 +228,7 @@ rows:
     ageEnd: 14.5
     order: 3
     prerequisites: [biology-01]
-    related: [theology-13, theology-20, philosophy-07]
+    related: [theology-13, theology-20, philosophy-07, philosophy-15]
     summary: >-
       A short companion to AP Biology that reads the biotechnology of Unit 6 (DNA technology, cloning,
       stem cells, gene editing) and the questions of human origins and life's beginning in the light of

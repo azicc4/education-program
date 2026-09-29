@@ -150,6 +150,11 @@ rows:
         tradition: catholic
         url: "https://chcweb.com/resources/title-here/"
         notes: A free printable timeline template from CHC. Pair it with saints' feast days.
+      - name: "Foundations (history timeline memory work)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/foundations/"
+        notes: "Community memory program for ages 4+ with a sung timeline and a three-year history cycle."
     historicalPrecedent: >-
       Chronology was taught as a discipline in the 18th and 19th centuries: "chronology and
       geography are the two eyes of history" was a schoolroom maxim. Charlotte Mason's
@@ -234,7 +239,7 @@ rows:
         publisher: Veritas Press
         tradition: protestant
         url: "https://store.veritaspress.com/old-testament-ancient-egypt-self-paced-course.html"
-        notes: "Sung timeline cards plus an online course. Covers biblical history in the context of all history. The companion NT, Greece & Rome cards are at /new-testament-greece-rome-flashcards.html."
+        notes: "Sung timeline cards plus an online course. Covers biblical history in the context of all history. The companion New Testament, Greece & Rome course is at https://store.veritaspress.com/new-testament-greece-rome-self-paced-course.html."
       - name: "The Story of Civilization, Vol. 1: The Ancient World"
         publisher: TAN Books
         tradition: catholic
@@ -457,6 +462,11 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/american-and-modern-studies/american-history/"
         notes: Guerber's two American volumes with guides.
+      - name: "Explorers to 1815 – Self-Paced Course"
+        publisher: "Veritas Press"
+        tradition: protestant
+        url: "https://store.veritaspress.com/explorers-to-1815-self-paced-course.html"
+        notes: "32 events from Prince Henry the Navigator to the Missouri Compromise, with timeline cards. Written from a Reformed perspective."
     historicalPrecedent: >-
       The Hillsdale K-12 Program Guide and the Barney Charter School Initiative put American
       history in the early grades as a story of founding principles and founders, read partly in
@@ -606,7 +616,7 @@ rows:
       - name: "New Testament, Greece & Rome"
         publisher: Veritas Press
         tradition: protestant
-        url: "https://store.veritaspress.com/new-testament-greece-rome-flashcards.html"
+        url: "https://store.veritaspress.com/new-testament-greece-rome-self-paced-course.html"
         notes: Timeline cards and course for Greece and Rome, with the New Testament woven in.
     historicalPrecedent: >-
       Jefferson told his nephew Peter Carr (1785) to read ancient history "in the original" in
@@ -1189,6 +1199,11 @@ rows:
         tradition: classical
         url: "https://online.hillsdale.edu/courses/athens-and-sparta"
         notes: Hillsdale's free lectures on the Greek city-states and the Peloponnesian War.
+      - name: "Omnibus I Self-Paced Complete"
+        publisher: "Veritas Press"
+        tradition: protestant
+        url: "https://store.veritaspress.com/omnibus-i-self-paced-complete.html"
+        notes: "Great books of the ancient world (Gilgamesh, Hammurabi, Herodotus and the early biblical books), from a Reformed perspective. For grades 7–12."
     historicalPrecedent: >-
       Jefferson's 1785 reading plan for Peter Carr begins "Herodotus. Thucydides." Thomas Arnold
       of Rugby edited Thucydides (1830–35) and made him central to the Sixth Form. Hobbes's first
@@ -1315,7 +1330,7 @@ rows:
       - name: Challenge II–III (Classical Conversations)
         publisher: Classical Conversations
         tradition: protestant
-        url: "https://classicalconversations.com/programs/challenge/"
+        url: "https://classicalconversations.com/programs/challenge/challenge-ii/"
         notes: A Protestant community-based high-school program that reads Western history and literature in seminar. Adapt its reading list to these sources.
       - name: The Wars of the Jews Set
         publisher: Memoria Press
@@ -1433,7 +1448,7 @@ rows:
     ageEnd: 15
     order: 18
     prerequisites: [history-18, history-11]
-    related: [latin-16, literature-18, character-virtue-07]
+    related: [latin-16, literature-18, character-virtue-07, old-english-02]
     summary: >-
       A year-long seminar on how the barbarian kingdoms became Christendom and how Christendom
       argued over the relation of spiritual and temporal power. The student reads Bede's
@@ -1801,11 +1816,11 @@ rows:
         tradition: catholic
         url: "https://chcweb.com/product/light-to-the-nations-part-2-the-making-of-the-modern-world/"
         notes: Catholic narrative from the 16th century to the 20th. Continues into history-25 and history-26.
-      - name: "Omnibus III–IV (Veritas Scholars Academy / Veritas Press)"
+      - name: "Omnibus II Self-Paced Complete (or Omnibus V at the rhetoric level)"
         publisher: Veritas Press
         tradition: protestant
-        url: "https://www.veritasscholars.com/omnibus"
-        notes: The Reformed great-books program. Its Reformation readings come from the Protestant perspective.
+        url: "https://store.veritaspress.com/omnibus-ii-self-paced-complete.html"
+        notes: "The Reformed great-books program. Omnibus II covers the Middle Ages through the Reformation; Omnibus V (https://store.veritaspress.com/omnibus-v-text-and-teacher-cd-i.html) repeats the period for 11th grade. Its Reformation readings come from the Protestant perspective."
       - name: Great Books 102 (free online course)
         publisher: Hillsdale College
         tradition: classical
@@ -1830,7 +1845,7 @@ rows:
     ageEnd: 16
     order: 21
     prerequisites: [history-21, history-14]
-    related: [literature-27, rhetoric-08, rhetoric-09, rhetoric-11]
+    related: [literature-27, rhetoric-08, rhetoric-09, rhetoric-11, civics-law-11, literature-10]
     exams: [ap-us-history]
     summary: >-
       A year-long seminar on the American story from the Revolution to Lincoln's Second Inaugural,
@@ -2003,6 +2018,11 @@ rows:
         tradition: secular
         url: "https://bookshop.org/p/books/land-of-hope-an-invitation-to-the-great-american-story-wilfred-m-mcclay/a2efc39b8a5d0d5c"
         notes: McClay's full narrative, used by many classical schools for the high-school survey.
+      - name: "Challenge III (American history strand)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-iii/"
+        notes: "A year of American history with essays, forensics and a timeline, in Socratic seminar."
     historicalPrecedent: >-
       Adams's diary records a young schoolmaster and law student's program of self-directed reading
       in exactly the spirit of this course. Adams to Abigail (12 May 1780) sets out the
@@ -2107,6 +2127,11 @@ rows:
         tradition: classical
         url: "https://online.hillsdale.edu/courses/marxism-socialism-communism"
         notes: Hillsdale's critical introduction to Marx and his heirs, for the Manifesto week.
+      - name: "Omnibus III Self-Paced Complete"
+        publisher: "Veritas Press"
+        tradition: protestant
+        url: "https://store.veritaspress.com/omnibus-iii-self-paced-complete.html"
+        notes: "Great books of modern times, including A Tale of Two Cities, from a Reformed perspective. For grades 7–12."
     historicalPrecedent: >-
       Victorian schoolboys at Rugby and Eton read their Macaulay, Carlyle and Burke. Arnold of
       Rugby, as Regius Professor of Modern History (1841), urged that modern history be taught with
@@ -2122,7 +2147,7 @@ rows:
     ageEnd: 17
     order: 23
     prerequisites: [history-25, history-23]
-    related: [rhetoric-08, philosophy-13]
+    related: [rhetoric-08, philosophy-13, theology-20]
     exams: [ap-us-history, ap-european-history, ap-world-history-modern]
     summary: >-
       The 20th century in the words of statesmen and witnesses. For World War I the student reads

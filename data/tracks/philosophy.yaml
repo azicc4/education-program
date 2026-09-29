@@ -876,7 +876,7 @@ rows:
     ageEnd: 16.5
     order: 12.5
     prerequisites: [philosophy-08, philosophy-10]
-    related: [civics-law-09, civics-law-10, civics-law-13, civics-law-19, greek-14, literature-16, theology-18, latin-18]
+    related: [civics-law-09, civics-law-10, civics-law-13, civics-law-19, greek-14, literature-16, theology-18, latin-18, biology-03]
     summary: >-
       The natural-law tradition is read as one argument running from the Greeks to the
       Declaration. Antigone appeals to the unwritten laws of the gods against Creon's decree.

@@ -83,7 +83,7 @@ rows:
     ageEnd: 15
     order: 2
     prerequisites: [old-english-01]
-    related: [latin-16, latin-05]
+    related: [latin-16, latin-05, history-19]
     summary: >-
       Easy, humane prose. Ælfric's Colloquy is a schoolroom dialogue of monk, ploughman,
       fisherman and merchant, written to teach Latin, with an Old English gloss. It is the English

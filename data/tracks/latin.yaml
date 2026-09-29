@@ -57,6 +57,16 @@ rows:
         tradition: protestant
         url: "https://www.greeknstuff.com/latin.html"
         notes: Inexpensive workbooks built on short daily lessons. Good for independent seat-work.
+      - name: "Little Latin Readers, Classic Series"
+        publisher: "Little Latin Readers"
+        tradition: catholic
+        url: "https://littlelatinreaders.com/for-homeschools/"
+        notes: "Catholic reader-based Latin for grades 2–5, with Latin prayers and audio. Seton also sells the sets. A Catholic option, not a requirement."
+      - name: "Foundations (Latin memory work)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/foundations/"
+        notes: "Community memory program for ages 4+. Its Latin strand chants noun endings and verb conjugations and ends with John 1 from the Vulgate."
     historicalPrecedent: >-
       Jefferson "was placed at the Latin at 9" under the Rev. William Douglas (Autobiography,
       1821). In colonial Boston the first-year books were Cheever's Accidence, a small
@@ -111,6 +121,21 @@ rows:
         url: "https://canonpress.com/products/latin-primer-1-package"
         notes: >-
           The Douglas Wilson / Logos School tradition. Mostly memorizing vocabulary and endings.
+      - name: "Beginning Latin I (MODG)"
+        publisher: "Mother of Divine Grace School"
+        tradition: catholic
+        url: "https://books.modg.org/beginning-latin-i-bundle"
+        notes: "MODG's own rules-based course for third grade. It starts with the third declension. Graded enrolment is also offered. A Catholic option, not a requirement."
+      - name: "Course Plan & Tests: Latina Christiana"
+        publisher: "Kolbe Academy"
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plan-tests-latina-christiana-1"
+        notes: "Kolbe's Catholic lesson plan and tests for Memoria's Latina Christiana (its Intro to Elementary Latin course)."
+      - name: "Introductory Latin (Latina Christiana)"
+        publisher: "Our Lady of Victory School"
+        tradition: catholic
+        url: "https://olvs.org/academics/curriculum-courses/"
+        notes: "OLVS's traditional Catholic homeschool course on Latina Christiana. It can be taken as a single-course enrolment."
     historicalPrecedent: >-
       Boston's 1789 school committee set the youngest Latin class on Cheever's Accidence,
       Corderius's Colloquies (Latin and English), the Nomenclator and Aesop's Fables (Latin and
@@ -156,6 +181,21 @@ rows:
         tradition: protestant
         url: "https://canonpress.com/products/latin-primer-2-package"
         notes: Continuation of the Canon sequence.
+      - name: "Beginning Latin II & III (MODG)"
+        publisher: "Mother of Divine Grace School"
+        tradition: catholic
+        url: "https://books.modg.org/beginning-latin-ii-bundle"
+        notes: "Grades 4–5 of MODG's own sequence (Beginning Latin III at https://books.modg.org/beginning-latin-iii-bundle). It continues with Fundamentals of Latin Grammar I–II in grades 6–7. A Catholic option, not a requirement."
+      - name: "Course Plan & Tests: First Form Latin"
+        publisher: "Kolbe Academy"
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plans-tests-form-latin-1"
+        notes: "Kolbe's Catholic lesson plan and tests for Memoria's First Form Latin."
+      - name: "TRV-221 Latin Grammar I (Alvarez)"
+        publisher: "Classical Liberal Arts Academy"
+        tradition: catholic
+        url: "https://classicalliberalarts.com/catalog/online-courses/trivium/trv-221-latin-grammar-i/"
+        notes: "Online course in the forms (orthography and etymology) from the 16th-century Jesuit grammar of Emmanuel Alvarez. Self-paced. The site blocks automated checks; the link was confirmed in search results."
 
   - id: latin-04
     title: "Latin IV: Grammar Completion (Syntax & the Subjunctive)"
@@ -231,6 +271,26 @@ rows:
           courses straight from the book, with Pooley's Ossa Ostensa workbook; they admit adults
           (18+), so they suit a parent learning ahead of the child
           (https://liturgyinstitute.org/la411/). Ossium Carnes Multae (latin-11) continues the method.
+      - name: "Latin 1 (Henle): Books, Tests, Keys & CD"
+        publisher: "Seton Home Study School"
+        tradition: catholic
+        url: "https://setonbooks.com/foreign-language/1891-latin-1-books-tests-keys-cd.html"
+        notes: "Seton's high-school Latin 1 set: Henle First Year text and key, grammar, tests and a pronunciation CD."
+      - name: "Course Plan & Tests: Henle Latin I"
+        publisher: "Kolbe Academy"
+        tradition: catholic
+        url: "https://books.kolbe.org/products/course-plans-tests-henle-latin-i"
+        notes: "Kolbe also teaches Henle Latin I–IV as self-paced and live online courses."
+      - name: "Henle Latin: First Year (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/1676748838"
+        notes: "Recorded Catholic online class for middle and high school, in two semesters (Part Two follows). Optional graded instructor access."
+      - name: "Latin I – Live Online Course (Wheelock)"
+        publisher: "Veritas Press (Veritas Scholars Academy)"
+        tradition: protestant
+        url: "https://store.veritaspress.com/latin-i-live-online-course.html"
+        notes: "Live online class covering Wheelock's Latin, chapters 1–22. Latin II covers chapters 23–40."
     historicalPrecedent: >-
       The Jesuit Ratio Studiorum (1599) set out three grammar classes (lower, middle and upper)
       before Humanities and Rhetoric. Henle's four-year series is its twentieth-century American
@@ -316,6 +376,11 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/pages/series-latin-alive"
         notes: Upper-school course with many adapted readings from real authors.
+      - name: "Little Latin Readers, Premium Series"
+        publisher: "Little Latin Readers"
+        tradition: catholic
+        url: "https://littlelatinreaders.com/for-homeschools/"
+        notes: "Catholic graded readers for grades 6–8 with drills, Latin prayers and liturgical quotations. Gentler than Fabulae Faciles, so it is a bridge or a supplement."
     historicalPrecedent: >-
       Boston Latin School, 1789: "Corderius's Colloquies — Latin and English… Aesop's Fables —
       Latin and English… Eutropius". Otis also recalled "Clarke's Introduction" and "making
@@ -382,6 +447,11 @@ rows:
         tradition: catholic
         url: "https://www.christianbook.com/henle-latin-grammar-robert-henle/9780829401127/pd/646688"
         notes: The 250-page reference that goes with all four years of Henle. The friendliest bridge to A&G.
+      - name: "Alvarez, Latin Grammar, Book I (free)"
+        publisher: "Classical Liberal Arts Academy"
+        tradition: catholic
+        url: "https://classicalliberalarts.com/library/alvarez-latin-grammar-book-i/"
+        notes: "The Jesuit schools' standard grammar for three centuries, in the CLAA library. The site blocks automated checks; the link was confirmed in search results."
     historicalPrecedent: >-
       Eton, Westminster and the American academies taught from a single grammar learned by heart:
       Lily's grammar, later the Eton Latin Grammar in England, and Ward's revision of Lily in
@@ -453,6 +523,11 @@ rows:
         tradition: secular
         url: "https://dcc.dickinson.edu/"
         notes: Free and scholarly, with audio and vocabulary lists. Enough on its own for a strong self-directed student.
+      - name: "Challenge II (Latin strand: Caesar)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-ii/"
+        notes: "Advanced grammar, then a second semester reading and translating the conquests of Caesar in seminar."
     historicalPrecedent: >-
       Boston 1789, third class: "Caesar's Commentaries. Tully's Epistles, or Offices. Ovid's
       Metamorphoses. Virgil." In the Boston Latin course of the 1880s the Fifth Class read
@@ -628,6 +703,16 @@ rows:
         tradition: catholic
         url: "https://www.christianbook.com/a-primer-of-ecclesiastical-latin/john-collins/9780813206677/pd/6677"
         notes: The standard seminary grammar of Church Latin, drawn from the Vulgate and the liturgy. A good second pass for an older student.
+      - name: "Ecclesiastical Latin: First Year (recorded course)"
+        publisher: "Homeschool Connections"
+        tradition: catholic
+        url: "https://caravel.homeschoolconnections.com/catalog/784146938"
+        notes: "High-school course on Collins's Primer of Ecclesiastical Latin, in two semesters. HSC's shorter \"Prayers, Hymns, History: Introduction to Ecclesiastical Latin\" is a gentler start."
+      - name: "Latin Grammar: For the Reading of the Missal and Breviary (Scanlon)"
+        publisher: "TAN Books"
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/latin-grammar-for-the-reading-of-the-missal-and-breviary/"
+        notes: "The 1944 Herder text. Its readings come from the Missal, Breviary and Vulgate, and its glossary covers the whole Missal and Breviary."
     historicalPrecedent: >-
       Boston 1789 included "Selectae e Veteri Testamento Historiae" (Latin Bible stories) in the
       second class. The Ratio Studiorum assumed daily liturgical Latin for all students.
@@ -731,6 +816,11 @@ rows:
         tradition: catholic
         url: "https://www.cuapress.org/9780813232973/ossium-carnes-multae-e-marci-tullii-ciceronis-epistulis/"
         notes: The second volume of Foster's method (see latin-04), reading complete letters of Cicero. For families who began with Ossa Latinitatis Sola.
+      - name: "Challenge III (Latin strand: Caesar & Cicero)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-iii/"
+        notes: "Finishes Caesar, then reads Cicero's orations with attention to rhetorical devices."
     historicalPrecedent: >-
       Harvard's 1642 admission rule: "When any Scholar is able to understand Tully, or such like
       classicall Latine Author extempore… Let him then and not before be capable of admission." Boston 1789: "Tully's Epistles,
@@ -790,6 +880,11 @@ rows:
         tradition: secular
         url: "https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-i-1-11"
         notes: Free full-scale commentary with audio. Excellent for independent study.
+      - name: "Challenge IV (Latin strand: Virgil)"
+        publisher: "Classical Conversations"
+        tradition: protestant
+        url: "https://classicalconversations.com/programs/challenge/challenge-iv/"
+        notes: "Translates hymns and the Vulgate, then Virgil in the second semester, alongside Henle Latin."
     historicalPrecedent: >-
       Harvard's 1642 admission rule named Tully (Cicero); Virgil was added to the requirement by the 1655 laws. In Boston 1789 the upper
       classes read Virgil, and Otis recalled "the first books of the Aeneid". In the 1880s the
@@ -809,6 +904,7 @@ rows:
     ageEnd: 15
     order: 13
     prerequisites: [latin-11]
+    related: [history-16]
     exams: [ap-latin]
     summary: >-
       Roman history in Roman words. Livy's Preface and Book I (the kings, Lucretia, the founding of
@@ -998,7 +1094,7 @@ rows:
     ageEnd: 16.5
     order: 16
     prerequisites: [latin-10, latin-11]
-    related: [old-english-02]
+    related: [old-english-02, history-19]
     summary: >-
       Patristic and medieval Latin prose. The student reads selections from Augustine's
       Confessions (Book I and the conversion in Book VIII) and Bede's Ecclesiastical History
@@ -1049,6 +1145,11 @@ rows:
         tradition: catholic
         url: "https://www.christianbook.com/a-primer-of-ecclesiastical-latin/john-collins/9780813206677/pd/6677"
         notes: Use as the grammar of reference for Church-Latin idiom.
+      - name: "Second Latin: Preparation for the Reading of Philosophy, Theology and Canon Law (Scanlon)"
+        publisher: "TAN Books"
+        tradition: catholic
+        url: "https://tanbooks.com/products/books/second-latin-preparation-for-the-reading-of-philosophy-theology-and-canon-law/"
+        notes: "Sequel to Scanlon's Latin Grammar. Readings move from scholastic philosophy to theology and canon law, with a 3,000-word glossary."
     notes: >-
       Augustine is a shared Father for Catholics and Protestants (Luther was an Augustinian friar,
       and Calvin quotes him constantly). Aquinas is the Common Doctor of the Catholic Church. Many

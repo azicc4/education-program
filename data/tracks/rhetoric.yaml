@@ -175,7 +175,7 @@ rows:
     ageEnd: 13
     order: 5
     prerequisites: [rhetoric-02]
-    related: [poetry-05]
+    related: [poetry-05, drama-03]
     summary: >-
       On the model of 18th- and 19th-century schools, the student memorizes and declaims set
       pieces of oratory and poetry drawn from the standard "speakers" and readers, and studies

@@ -20,9 +20,10 @@ and has a page count where one is known.
 - [ ] Bioethics companion (biology-03): keep it at 13.5, or move it to 15–16? It touches end-of-life questions and gender ideology.
 
 ## Next up
-- [ ] Rerun the link check after the latest additions and fix dead links.
-- [ ] Wire the remaining cross-track `related` links for overlapping units (see "Reconcile overlaps" items in the log).
-- [ ] Thin curriculum options: more Catholic providers (Latin, math, civics); product-level Veritas and Classical Conversations links; relink Seton, which did not load from here.
+- [x] Link check rerun (2,395 URLs: 2,294 OK, 34 flagged, 67 bot-blocked). Fixed: the AASM sleep paper (now on PMC), the Tracker tool (new site), and the dead Cambiata link (removed). The other flags were transient or bot walls (Green Lion, Cengage, IMSLP, ABRSM, Archive.org timeouts, vatican.va), all rechecked OK.
+- [x] Cross-track links wired: 73 pairs total; 372 of 462 units link to related units.
+- [x] Thin curriculum options filled on 36 rows: Catholic Latin (MODG, Kolbe, OLVS, Seton Henle, CLAA, Homeschool Connections, TAN Scanlon), Catholic math and civics, product-level Veritas and CC links, the Adoremus hymnal and Liturgy of the Hours for poetry-06, and the Catholic Literary Arts youth contest for poetry-13. All Seton links load.
+- [ ] Still thin: no Catholic option for civics-law-13 (common law) or economics-04 to -06; no MODG elementary math page; the Homeschool Connections and Alleluia contest URLs change yearly, so recheck annually.
 - [ ] Verify the soft historical facts: Founders Online letters, and precedent claims that rest on general knowledge.
 - [ ] Longer-term: sync family progress across devices; let hand-added Bookshelf books be proposed for the curriculum.
 
@@ -146,7 +147,7 @@ and has a page count where one is known.
 
 ### Literature/poetry revision pass
 - [x] Chaucer split, mature-text notes, core/elective split for literature-19 to 30, Great Books note, and competitions added (Poetry Out Loud, Scholastic, Dappled Things).
-- [ ] *Dappled Things* has no youth contest: poems submitted are considered for its adult Jane Greer prize. Find a Catholic youth poetry outlet.
+- [x] (Catholic Literary Arts Alleluia Contest added for youth) *Dappled Things* has no youth contest: poems submitted are considered for its adult Jane Greer prize. Find a Catholic youth poetry outlet.
 - [ ] Poetry Out Loud is for grades 9–12 only (about ages 12–13+ in this program's pacing), so it is noted on poetry-05.
 
 ## Family tools (built)
