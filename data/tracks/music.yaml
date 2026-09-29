@@ -34,6 +34,11 @@ rows:
       - Use Curwen hand signs and solfège for the pentatonic scale (s-m, l, d-r), then the full diatonic scale
       - Read and clap quarter, eighth and half notes and rests with rhythm syllables
       - Sing simple two-part rounds and ostinati
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 35, note: "Kodály lessons or children's choir: solfège, hand signs and rhythm syllables, 72 wk x ~30 min" }
+        - { kind: practice, hours: 35, note: "singing folk songs, rounds and singing games at home, 72 wk x 3 x ~10 min" }
     curriculumOptions:
       - name: Kodály-certified teachers and programs (OAKE)
         publisher: Organization of American Kodály Educators
@@ -75,6 +80,11 @@ rows:
       - Sight-sing in number notation and then staff notation, and take melodic dictation
       - Conduct and feel free "chironomic" chant rhythm (arsis and thesis)
       - Sing the ordinary chants of a simple Mass (for example Mass XVIII) and common Latin hymns (Adoro te, Salve Regina)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "Ward lessons: vocal exercises, number and staff sight-singing, dictation and chironomy, 3 yr x 36 wk x 2 x 20 min" }
+        - { kind: practice, hours: 25, note: "singing Mass XVIII and the common Latin hymns, 3 yr x 36 wk x ~14 min" }
     coreTexts:
       - title: "Music: First Year (Ward Method)"
         kind: instructional
@@ -133,6 +143,11 @@ rows:
       - "Piano: five-finger positions to hands-together playing, scales and arpeggios in keys to 2 sharps and flats, Grade 1–3 repertoire (Bach Anna Magdalena, Clementi sonatinas)"
       - "Violin: posture, bow hold, first position, Suzuki Books 1–3 or equivalent"
       - Perform in a recital two or more times a year
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 35, note: "musicianship tying his pieces to solfège and notation, and keeping the written practice plan, 4 yr x 36 wk x 15 min" }
+        - { kind: practice, hours: 45, note: "listening to recordings of the repertoire, 4 yr x 36 wk x 15 min (36 h), plus 8 or more recitals with dress rehearsals (~10 h); daily instrument practice and lessons are counted in the Music Lessons track" }
     curriculumOptions:
       - name: Suzuki Method
         publisher: Suzuki Association of the Americas
@@ -180,6 +195,11 @@ rows:
       - Play 30 or more folk tunes, hymn melodies and simple duets
       - Name notes on treble and bass staves, and read and write simple and compound meters
       - Know basic Italian tempo and dynamic markings
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 50, note: "recorder, ~4 x 10 min a week x 72 wk, toward 30 or more tunes and duets" }
+        - { kind: exercises, hours: 30, note: "notation rudiments (Reading Music) and musictheory.net drills, 72 wk x 25 min" }
     curriculumOptions:
       - name: "Reading Music: Introduction to Music Theory"
         publisher: Memoria Press
@@ -214,6 +234,14 @@ rows:
       - Know the author, era and tradition of each hymn and the meter name (Common, Long, 8.7.8.7)
       - Sing hymns in parts (soprano/alto, then tenor/bass) from a hymnal
       - Compare a psalm with Watts's paraphrase of it
+    workload:
+      readingHours: 9
+      readingBasis: "132 pp of Watts (psalm paraphrases and Divine Songs) read together at ~15 pp/h (verse)"
+      work:
+        - { kind: memorization, hours: 60, note: "60 hymns, text and tune, ~1 h each over a month of daily repetition" }
+        - { kind: practice, hours: 18, note: "singing in parts from a hymnal once voices allow, ~2 yr x 36 wk x 15 min" }
+        - { kind: exercises, hours: 10, note: "author, era, tradition and meter name for each hymn, 60 x 10 min" }
+        - { kind: writing, hours: 3, note: "a psalm compared with Watts's paraphrase of it" }
     coreTexts:
       - title: The Psalms of David Imitated in the Language of the New Testament
         kind: primary
@@ -274,6 +302,12 @@ rows:
       - Identify the instruments and sections of the orchestra by sight and sound
       - Attend 4 or more live concerts or services with sacred music a year
       - Narrate a composer's life and describe a listened-to work in simple musical vocabulary
+    workload:
+      readingHours: 10
+      readingBasis: "240 pp of Brower's story-lives of composers at ~25 pp/h"
+      work:
+        - { kind: exercises, hours: 80, note: "composer study: guided listening and lessons on instruments and forms, 108 wk x 30 min (54 h), plus 12 or more live concerts or services x 2 h" }
+        - { kind: discussion, hours: 18, note: "narrating composers' lives and describing works heard, 108 wk x 10 min" }
     coreTexts:
       - title: "The World's Great Men of Music: Story-Lives of Master Musicians"
         kind: secondary
@@ -316,6 +350,12 @@ rows:
       - Sing the eight psalm tones and chant a psalm with its antiphon
       - Sing three or more Mass Ordinaries (e.g. I, VIII, XI, XVIII) and the four seasonal Marian antiphons
       - Translate and explain the Latin texts sung
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "square notation, neumes, clefs and the eight psalm tones, 4 yr x 36 wk x 30 min" }
+        - { kind: practice, hours: 50, note: "singing Mass Ordinaries, Marian antiphons, sequences and Vespers, 4 yr x 36 wk x 20 min; the Parish Book of Chant is sung, not counted as reading" }
+        - { kind: translation, hours: 15, note: "translating and explaining the Latin texts sung, ~30 texts x 30 min" }
     coreTexts:
       - title: The Parish Book of Chant (2nd ed.)
         kind: primary
@@ -375,6 +415,11 @@ rows:
       - Name and write all intervals and triads, and recognize perfect, imperfect, plagal and interrupted cadences
       - Transpose a melody by an interval and between clefs
       - Pass ABRSM Grade 5 theory or RCM Level 6–8 theory
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 100, note: "graded theory workbooks and musictheory.net drill through ABRSM Grades 1–5, 3 yr x 36 wk x ~55 min" }
+        - { kind: exam-prep, hours: 15, note: "past Grade 5 (or RCM) theory papers under time and the exam itself" }
     curriculumOptions:
       - name: ABRSM Music Theory graded exams
         publisher: ABRSM
@@ -412,6 +457,12 @@ rows:
       - Learn and perform 6 or more substantial pieces a year from contrasting periods
       - Play in a chamber group, orchestra or church ensemble, or accompany congregational hymns
       - Sight-read at two grades below the performance level
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 50, note: "studying his repertoire as music history and analysis, 6 or more pieces a year, 4 yr x 36 wk x 20 min" }
+        - { kind: practice, hours: 60, note: "sight-reading drill, 4 yr x 36 wk x 15 min (36 h), plus service playing (hymns, choir or church ensemble), ~24 x 1 h; daily practice, lessons and ensemble rehearsals are counted in the Music Lessons track" }
+        - { kind: exam-prep, hours: 15, note: "aural tests, scales and mock exams for ~4 graded practical exams" }
     curriculumOptions:
       - name: ABRSM practical graded exams
         publisher: ABRSM
@@ -453,6 +504,12 @@ rows:
       - Sight-sing a part in four-voice polyphony and hold it against other parts
       - Learn 20 or more motets and anthems (for example Palestrina's Sicut cervus, Byrd's Ave verum, Tallis's If ye love me, Victoria's O magnum mysterium)
       - Earn choir awards or take a section-leader role
+    workload:
+      readingHours: 20
+      readingBasis: "426 pp of Dickinson's Music in the History of the Western Church at ~20 pp/h"
+      work:
+        - { kind: practice, hours: 300, note: "weekly rehearsal and sung service, 3 yr x 36 wk x 2.5 h (270 h), plus learning parts of 20 or more motets at home, ~20 x 1.5 h" }
+        - { kind: exercises, hours: 20, note: "sight-singing drill toward choir awards (RSCM Voice for Life or similar), ~40 x 30 min" }
     coreTexts:
       - title: Music in the History of the Western Church
         kind: secondary
@@ -501,6 +558,12 @@ rows:
       - Harmonize a melody or figured bass in four parts with correct voice leading, including secondary dominants and modulation to related keys
       - Analyze Bach chorales and Classical sonata expositions with Roman numerals
       - Reach ABRSM Grade 6–8 theory or Advanced Placement Music Theory level
+    workload:
+      readingHours: 16
+      readingBasis: "156 pp of Fux's Gradus (Mann) at ~10 pp/h (dialogue with musical examples)"
+      work:
+        - { kind: exercises, hours: 110, note: "five-species counterpoint, four-part chorale harmony, figured bass and Roman-numeral analysis, 3 yr x 36 wk x 1 h" }
+        - { kind: exam-prep, hours: 20, note: "ABRSM Grade 6–8 theory or AP Music Theory practice papers" }
     coreTexts:
       - title: "The Study of Counterpoint (from Fux's Gradus ad Parnassum)"
         kind: primary
@@ -544,6 +607,12 @@ rows:
       - Know the major genres and landmark works of each period (Machaut's Messe, Palestrina's Pope Marcellus Mass, Monteverdi's Orfeo, Bach's St Matthew Passion, Mozart's Requiem, Beethoven's Ninth, and others)
       - Read 10 or more primary sources (Guido of Arezzo, Luther on music, Mozart's letters, Wagner, Stravinsky)
       - Write a research essay on a composer or work
+    workload:
+      readingHours: 5
+      readingBasis: "10 or more primary-source excerpts (Guido, Luther, Mozart's letters, Wagner, Stravinsky), not listed as texts: ~80 pp estimated at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 80, note: "Hillsdale survey lectures (~12 h) and weekly guided listening and score study, 108 wk x 40 min" }
+        - { kind: writing, hours: 15, note: "a research essay on a composer or work" }
     coreTexts:
       - title: Music in the History of the Western Church
         kind: secondary
@@ -593,6 +662,11 @@ rows:
       - Write a binary- or ternary-form keyboard piece and a set of variations
       - Set a Latin or English text as a short motet for the choir, and rehearse it with singers
       - Produce clean scores with notation software
+    workload:
+      readingHours: 0
+      work:
+        - { kind: project, hours: 65, note: "4 or more four-part hymn tunes (~16 h), a chant-style psalm setting (~4 h), a binary or ternary keyboard piece (~10 h), a theme and variations (~15 h), and a short motet rehearsed with singers (~18 h)" }
+        - { kind: exercises, hours: 20, note: "model-composition exercises on phrase and form, and MuseScore engraving, ~27 x 45 min" }
     curriculumOptions:
       - name: MuseScore (free notation software)
         publisher: MuseScore
@@ -626,6 +700,13 @@ rows:
       - Trace the idea of music's ethical power from Plato to Pius X and Benedict XVI
       - Complete a harmony-and-analysis sequence equivalent to two college semesters (chromatic harmony, form, analysis of a sonata movement and a fugue)
       - Write a seminar paper on music and moral formation
+    workload:
+      readingHours: 40
+      readingBasis: "710 pp: Boethius Book I ~77 pp at ~12 pp/h (6 h), Strunk selections ~517 pp at ~20 pp/h (26 h), Consolation 116 pp at ~20 pp/h (6 h); Plato, Aristotle and Augustine are named but have no counted texts"
+      work:
+        - { kind: exercises, hours: 150, note: "chromatic harmony, form and analysis of a sonata movement and a fugue, equivalent to two college semesters, ~30 wk x 5 h" }
+        - { kind: discussion, hours: 45, note: "seminar on music's ethical power from Plato to Benedict XVI, 30 wk x 1.5 h" }
+        - { kind: writing, hours: 20, note: "a seminar paper on music and moral formation" }
     coreTexts:
       - title: "Fundamentals of Music (De institutione musica), trans. Calvin M. Bower"
         kind: primary

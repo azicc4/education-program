@@ -26,6 +26,13 @@ rows:
       - Describe cell structure, membranes, enzymes, photosynthesis and respiration at the level AP Biology assumes
       - Outline Darwin's argument and distinguish its empirical claims from philosophical extrapolations
       - State the Catholic position in Humani Generis and compare other Christian positions fairly
+    workload:
+      readingHours: 30
+      readingBasis: "569 pp: Darwin's Origin 502 pp at ~20 pp/h (25 h), Mendel and Humani Generis 67 pp at ~15 pp/h (4 h)"
+      work:
+        - { kind: exercises, hours: 90, note: "honors biology lessons and genetics problem sets, 36 wk x 3 x 50 min" }
+        - { kind: lab, hours: 30, note: "microscopy, dissection, a Mendelian cross and DNA extraction among ~20 labs x 1.5 h" }
+        - { kind: writing, hours: 8, note: "two short papers: Darwin's argument, and Humani Generis compared with other Christian positions" }
     coreTexts:
       - title: Experiments in Plant Hybridization
         kind: primary
@@ -142,6 +149,13 @@ rows:
       - "Unit 8, Ecology: responses to the environment, energy flow, population and community ecology, biodiversity"
       - Complete a full set of lab investigations (e.g., diffusion and osmosis, enzyme activity, photosynthesis, cellular respiration, artificial selection, bacterial transformation) with written reports
       - Answer released free-response questions under time, including experimental design and graphing questions
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 140, note: "Campbell (a textbook, not counted as reading) through the eight CED units with notes and data problems (chi-square, Hardy-Weinberg), 36 wk x 5 x ~47 min" }
+        - { kind: lab, hours: 35, note: "the AP investigations (osmosis, enzymes, photosynthesis, respiration, transformation and others), ~12 x 3 h incl. set-up" }
+        - { kind: writing, hours: 15, note: "written lab reports, ~12 x 75 min" }
+        - { kind: exam-prep, hours: 30, note: "review book, released FRQs under time and full practice exams in April and May" }
     coreTexts:
       - title: Campbell Biology, 12th ed.
         kind: instructional
@@ -259,6 +273,12 @@ rows:
       - Distinguish therapeutic from enhancement uses of genetic engineering, and somatic from germ-line interventions, as Dignitas Personae does
       - Explain why the Church encourages research using adult and umbilical-cord stem cells
       - Present opposing arguments fairly and answer them in a short written disputation
+    workload:
+      readingHours: 25
+      readingBasis: "471 pp: the Oath, Donum Vitae, Dignitas Personae and Evangelium Vitae selections 135 pp at ~15 pp/h (9 h), Austriaco's Biomedicine and Beatitude 336 pp (a readable guide) at ~20 pp/h (17 h)"
+      work:
+        - { kind: discussion, hours: 18, note: "one discussion a week paired with the AP topic, 36 x 30 min" }
+        - { kind: writing, hours: 5, note: "a short written disputation stating and answering opposing arguments" }
     coreTexts:
       - title: The Oath
         kind: primary
@@ -352,6 +372,11 @@ rows:
       - Master Campbell Biology beyond the AP selection, especially the plant and animal form-and-function units
       - Study to the IBO topic weights USABO publishes (animal anatomy and physiology 25%, cell and molecular 20%, genetics and evolution 20%, plant 15%, ecology 10%, ethology 5%, biosystematics 5%)
       - Work the released Open and Semifinal exams (2003–2018, and 2020 Semifinal) under time
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 90, note: "Campbell beyond the AP selection (a textbook, not counted as reading), esp. plant and animal form and function, to the IBO topic weights, ~30 chapters x 3 h" }
+        - { kind: exam-prep, hours: 60, note: "released USABO Open and Semifinal exams under time with review, ~24 x 2.5 h, plus sitting the Open each year" }
     coreTexts:
       - title: Campbell Biology, 12th ed. (full text, all units)
         kind: instructional

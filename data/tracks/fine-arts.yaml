@@ -34,6 +34,11 @@ rows:
       - Recognize the works studied by title and artist
       - Draw daily from observation and imagination, using the five basic "elements of shape" (dot, circle, straight, curved and angle lines)
       - Handle crayons, colored pencils and watercolor crayons with control
+    workload:
+      readingHours: 0
+      work:
+        - { kind: discussion, hours: 18, note: "picture study: silent looking and narration from memory, 18+ works a year, 72 wk x 15 min" }
+        - { kind: practice, hours: 60, note: "free and shape-based drawing (Monart), ~4 sessions x 12–15 min a week x 72 wk" }
     curriculumOptions:
       - name: Art Cards and Posters (by grade)
         publisher: Memoria Press
@@ -75,6 +80,11 @@ rows:
       - Draw 100 or more local species over five years, with growing accuracy of proportion and detail
       - Use colored pencil and then watercolor for field sketches
       - Use the Handbook of Nature-Study to research each specimen
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 90, note: "weekly nature-journal entry with drawing, labels and notes, 180 wk x 30 min" }
+        - { kind: exercises, hours: 35, note: "technique lessons from Leslie and Laws, colored pencil then field watercolor (~27 x 45 min), plus researching ~100 species in the Handbook of Nature-Study (100 x 10 min)" }
     coreTexts:
       - title: Handbook of Nature-Study
         kind: instructional
@@ -123,6 +133,11 @@ rows:
       - Learn broad-edge calligraphy with 3 or more historical hands (Roman capitals, Carolingian, italic)
       - Learn pointed-pen copperplate or Spencerian from the historical copybooks
       - Letter and illuminate a finished piece (a psalm, poem or the Declaration's preamble)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 140, note: "copywork and calligraphy, 6 yr x 36 wk x ~2 x 20 min: an everyday italic or cursive, then broad-edge hands and pointed-pen copperplate or Spencerian from the Bickham and Spencer copybooks" }
+        - { kind: project, hours: 10, note: "a lettered and illuminated finished piece (psalm, poem or the Declaration's preamble)" }
     coreTexts:
       - title: The Universal Penman
         kind: instructional
@@ -178,6 +193,11 @@ rows:
       - Work through Ruskin's first letter exercises (graded tones, shading a stone, drawing leaves and branches)
       - Draw still life, interiors and portraits from life with correct proportion and a full value range
       - Keep a sketchbook with daily drawing
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 30, note: "the core Edwards exercises (~20 x 1 h) and Ruskin's first-letter exercises (~10 x 1 h); the 397 pp of Edwards and Ruskin are teacher instruction, not counted as reading" }
+        - { kind: practice, hours: 110, note: "daily sketchbook, ~4 x 10 min a week x 108 wk (72 h), and ~50 sessions x 45 min of still life, interiors and portraits from life (38 h)" }
     coreTexts:
       - title: The Elements of Drawing, in Three Letters to Beginners
         kind: instructional
@@ -237,6 +257,12 @@ rows:
       - Mix any observed color from a limited palette of three primaries plus earth colors
       - Complete 20 or more finished studies from life (landscape, botanical, architectural)
       - Read Ruskin's Letter III and selections of Cennini on pigments and procedure
+    workload:
+      readingHours: 13
+      readingBasis: "200 pp read together (Ruskin's Letter III and Cennini on pigments and procedure) at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 19, note: "washes, wet-in-wet, glazing, the color wheel and limited-palette mixing, ~25 x 45 min" }
+        - { kind: practice, hours: 60, note: "20 or more finished studies from life x ~2 h (40 h) plus ~27 practice sessions x 45 min" }
     coreTexts:
       - title: The Elements of Drawing (Letter III, On Colour and Composition)
         kind: instructional
@@ -292,6 +318,12 @@ rows:
       - Draw circles in perspective (ellipses), arches and stairs correctly
       - Project cast shadows from sun and point light sources
       - Draw a building from life in accurate two-point perspective
+    workload:
+      readingHours: 7
+      readingBasis: "100 pp of Leonardo's notebooks on perspective, light and shade at ~15 pp/h; Norling is a workbook counted as exercises"
+      work:
+        - { kind: exercises, hours: 25, note: "Norling's constructions: one-, two- and three-point perspective, ellipses, arches, stairs and cast shadows, ~32 x 45 min" }
+        - { kind: practice, hours: 12, note: "drawing buildings and interiors from life in perspective, ~12 x 1 h" }
     coreTexts:
       - title: Perspective Made Easy
         kind: instructional
@@ -340,6 +372,12 @@ rows:
       - Model a portrait head from life at about half scale using Lanteri's measured method
       - Complete a small carving in wood or stone
       - Read Cellini's Autobiography (selections) and describe the lost-wax casting of the Perseus
+    workload:
+      readingHours: 8
+      readingBasis: "~153 pp of Cellini's Autobiography (Symonds) at ~20 pp/h; Lanteri is the teacher's manual and has no page count"
+      work:
+        - { kind: practice, hours: 30, note: "clay modeling sessions from life, ~30 x 1 h" }
+        - { kind: project, hours: 45, note: "a leaf or rosette relief and a classical relief copy (~10 h), a half-scale portrait head by Lanteri's measured method (~25 h), and a small wood or stone carving (~10 h)" }
     coreTexts:
       - title: "Modelling: A Guide for Teachers and Students, Vol. I"
         kind: instructional
@@ -383,6 +421,13 @@ rows:
       - Read selections of Ruskin (Modern Painters I on truth to nature, "The Nature of Gothic")
       - Place 100 or more major works in period, style and context, from ancient Greece to the 19th century
       - Write formal analyses of works seen in person at a museum
+    workload:
+      readingHours: 40
+      readingBasis: "~1,080 pp: Vasari's prefaces and 10 Lives (no page count listed; ~250 pp in de Vere) at ~20 pp/h (12 h), Ruskin ~140 pp at ~15 pp/h (9 h), Gombrich 688 pp (heavily illustrated) at ~35 pp/h (20 h)"
+      work:
+        - { kind: discussion, hours: 35, note: "analytical picture study and discussion of the readings, 108 wk x 20 min" }
+        - { kind: exercises, hours: 25, note: "survey lessons and art-card drill placing 100+ works in period and style, ~50 x 30 min" }
+        - { kind: writing, hours: 18, note: "~6 museum visits, each with a written formal analysis, 6 x 3 h" }
     coreTexts:
       - title: "Lives of the Most Eminent Painters, Sculptors and Architects, Vol. 1 (trans. de Vere)"
         kind: primary
@@ -454,6 +499,14 @@ rows:
       - Measure and draw the five orders in correct proportion from Palladio's plates
       - Analyze a Palladian villa and Jefferson's Monticello or Rotunda
       - Design and draw (plan, elevation, section) a small classical building
+    workload:
+      readingHours: 14
+      readingBasis: "~220 pp: Vitruvius Books I, III and IV ~110 pp at ~15 pp/h (7 h), Palladio's Four Books (no page count listed; ~110 pp of Ware's text besides the plates) at ~15 pp/h (7 h)"
+      work:
+        - { kind: exercises, hours: 20, note: "measuring and drawing the five orders from Palladio's modules, 5 x 3 h, plus proportion exercises (~5 h)" }
+        - { kind: project, hours: 25, note: "plan, elevation and section of a small classical building" }
+        - { kind: writing, hours: 6, note: "analysis of a Palladian villa and Monticello or the Rotunda" }
+        - { kind: discussion, hours: 8, note: "Vitruvius's three requirements and the buildings of the founding, ~10 x 45 min" }
     coreTexts:
       - title: The Ten Books on Architecture (trans. M. H. Morgan)
         kind: primary
@@ -506,6 +559,11 @@ rows:
       - Complete 2 or more long cast drawings (for example a classical head or foot) in graphite or charcoal
       - Draw the figure from life in short and long poses if a supervised studio is available
       - Understand sight-size and comparative measurement methods
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 200, note: "10 Bargue plate copies at sight-size x ~12 h (120 h), 2 long cast drawings x ~30 h (60 h), and figure drawing if a supervised studio is available (~20 h)" }
+        - { kind: exercises, hours: 10, note: "sight-size and comparative measurement from Aristides (144 pp, an instruction book, not counted as reading)" }
     coreTexts:
       - title: "Exercices au fusain (Cours de dessin), 60 plates"
         kind: instructional
@@ -561,6 +619,13 @@ rows:
       - Read "The Nature of Gothic" (Stones of Venice II.6) and The Two Paths, and assess Ruskin's claim that art expresses a society's moral life
       - Read John Paul II's Letter to Artists and Benedict XVI's 2009 address on the "way of beauty"
       - Write a 3,000-word research paper on a building or artwork studied in person
+    workload:
+      readingHours: 30
+      readingBasis: "645 pp: Stones of Venice I 400 pp at ~20 pp/h (20 h), The Two Paths 217 pp at ~22 pp/h (10 h), John Paul II and Benedict XVI 28 pp (1 h)"
+      work:
+        - { kind: discussion, hours: 60, note: "survey lectures and seminar from the Parthenon to modernism, 30 wk x 2 h" }
+        - { kind: project, hours: 15, note: "museum study in person, ~5 visits x 3 h" }
+        - { kind: writing, hours: 25, note: "a 3,000-word research paper on a building or artwork studied in person" }
     coreTexts:
       - title: The Stones of Venice, Vol. 1
         kind: primary

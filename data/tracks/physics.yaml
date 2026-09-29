@@ -36,6 +36,12 @@ rows:
       - Repeat Galileo's inclined-plane experiment and derive the odd-number rule from data
       - Repeat Newton's experimentum crucis with prisms and explain what it shows about white light
       - Explain the basic structure of the atom and the modern picture of matter (Feynman)
+    workload:
+      readingHours: 20
+      readingBasis: "369 pp: Galileo's Third Day ~96 pp (geometric) at ~12 pp/h (8 h), Opticks Book I ~127 pp at ~15 pp/h (8 h), Feynman's Six Easy Pieces 146 pp at ~25 pp/h (6 h)"
+      work:
+        - { kind: exercises, hours: 120, note: "algebra-based physics lessons and problem sets from kinematics to circuits and light, 36 wk x 4 x 50 min" }
+        - { kind: lab, hours: 6, note: "Galileo's inclined plane and Newton's prism experiments, ~3 x 2 h; weekly labs are counted in physics-03" }
     coreTexts:
       - title: Dialogues Concerning Two New Sciences
         kind: primary
@@ -132,6 +138,11 @@ rows:
       - Linearize data, fit lines and read physical quantities from slopes and intercepts
       - Design an experiment to test a stated relationship and defend the design in writing
       - Use phone sensors and video analysis to measure motion, oscillations and sound
+    workload:
+      readingHours: 0
+      work:
+        - { kind: lab, hours: 100, note: "about one lab a week in the bound notebook during Honors Physics and the Physics C year, ~65 x 1.5 h" }
+        - { kind: writing, hours: 15, note: "uncertainty analysis and a written defense of one student-designed experiment per unit, ~15 x 1 h" }
     curriculumOptions:
       - name: phyphox (free smartphone physics lab)
         publisher: RWTH Aachen University
@@ -175,6 +186,11 @@ rows:
       - Use dimensional analysis, limiting cases and symmetry to check and shortcut solutions
       - Solve multi-step mechanics problems (rotation, collisions, oscillations, orbits) under time
       - Work every past F=ma exam in the AAPT archive and write clean solutions
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "weekly mechanics problem seminar, 2 yr x 36 wk x 1 h" }
+        - { kind: exam-prep, hours: 30, note: "every past F=ma exam worked under time with clean written solutions, ~20 x 1.5 h" }
     curriculumOptions:
       - name: Kevin Zhou's physics olympiad handouts
         publisher: Kevin Zhou (free online)
@@ -229,6 +245,13 @@ rows:
       - Derive Kepler's laws from the inverse-square law (with guidance)
       - Read the Definitions, Laws of Motion and General Scholium and discuss Newton's natural theology
       - "Sit the AP Physics C: Mechanics exam in May at about 16"
+    workload:
+      readingHours: 35
+      readingBasis: "~220 pp of Principia (Definitions, Laws, Book I on central forces, Book III and the General Scholium) read together at ~6 pp/h; the reading load counts the whole 680 pp"
+      work:
+        - { kind: exercises, hours: 100, note: "calculus-based mechanics lessons and problem sets through Units 1–7, ~20 wk x 5 x 1 h, incl. the guided derivation of Kepler's laws" }
+        - { kind: discussion, hours: 4, note: "Newton's natural theology in the General Scholium" }
+        - { kind: exam-prep, hours: 20, note: "released FRQs and timed practice exams before May" }
     coreTexts:
       - title: "The Mathematical Principles of Natural Philosophy (Principia)"
         kind: primary
@@ -314,6 +337,13 @@ rows:
       - Read Franklin's account of the Leyden jar and the lightning experiment and repeat his safe electrostatic demonstrations
       - Follow Faraday's First Series and repeat his induction experiment with a coil and magnet
       - "Sit the AP Physics C: Electricity and Magnetism exam in May at about 16"
+    workload:
+      readingHours: 40
+      readingBasis: "528 pp: Franklin ~165 pp at ~15 pp/h (11 h), Faraday's First Series ~193 pp at ~20 pp/h (10 h), Maxwell vol. 1 ~170 pp (mathematical) at ~8 pp/h (21 h)"
+      work:
+        - { kind: exercises, hours: 90, note: "E&M lessons and problem sets through Units 8–13 with MIT 8.02, ~18 wk x 5 x 1 h" }
+        - { kind: lab, hours: 6, note: "Franklin's electrostatic demonstrations and Faraday's coil-and-magnet induction, ~3 x 2 h" }
+        - { kind: exam-prep, hours: 25, note: "released FRQs and full practice exams in April and May" }
     coreTexts:
       - title: Experiments and Observations on Electricity, Made at Philadelphia in America
         kind: primary
@@ -403,6 +433,10 @@ rows:
       - Write full free-response olympiad solutions with clear physical reasoning
       - Extend mechanics and E&M to thermodynamics, waves, relativity and basic modern physics
       - Sit USAPhO if qualified through F=ma
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 50, note: "free-response olympiad problems across mechanics, E&M, thermodynamics, waves and modern physics, written up in full, ~20 wk x 2.5 h" }
     curriculumOptions:
       - name: "Introduction to Classical Mechanics: With Problems and Solutions (David Morin)"
         publisher: Cambridge University Press
