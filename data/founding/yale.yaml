@@ -89,7 +89,7 @@ entries:
     tracks: [mathematics, greek, rhetoric, natural-science]
   - text: "Seniors: Locke's Essay Concerning Human Understanding, Wollaston's Religion of Nature Delineated, President Clap's Ethics; on Saturdays Wollebius, Ames's Medulla, Greek Testament (Edwards on the Will used at times)"
     use: [reference, student]
-    units: [philosophy-09]
+    units: [philosophy-09, theology-19]
     search: Locke
     tracks: [philosophy, theology, character-virtue]
   - text: "Thomas Clap, An Essay on the Nature and Foundation of Moral Virtue and Obligation (1765), 'for the use of the Students of Yale College'"

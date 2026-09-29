@@ -428,6 +428,15 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/nepos.html" }
           - { label: "Dickinson College Commentaries, Life of Hannibal", url: "https://dcc.dickinson.edu/nepos-hannibal/chapter-1" }
+      - title: "Historiae Philippicae (Epitome of Trogus) (elective)"
+        reader: student
+        pages: 300
+        author: Justin (Marcus Junianus Justinus)
+        date: "c. AD 200"
+        publicDomain: true
+        links:
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/justin.html" }
+          - { label: "Archive.org (tr. J. S. Watson, 1853)", url: "https://archive.org/details/justincorneliusn00watsuoft" }
     curriculumOptions:
       - name: Henle Latin, Second Year (Caesar)
         publisher: Memoria Press / Loyola Press
@@ -830,6 +839,15 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/sall.html" }
           - { label: "Steadman, Sallust (free PDF)", url: "https://geoffreysteadman.com/sallust/" }
+      - title: "Historiae Alexandri Magni (elective)"
+        reader: student
+        pages: 400
+        author: Quintus Curtius Rufus
+        date: "c. AD 50"
+        publicDomain: true
+        links:
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/curtius.html" }
+          - { label: "Archive.org (Crosby school ed., 1854)", url: "https://archive.org/details/quintuscurtiusr00cellgoog" }
     curriculumOptions:
       - name: Lingua Latina Pars II, Roma Aeterna
         publisher: Hackett Publishing
@@ -877,6 +895,33 @@ rows:
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hor.html" }
+      - title: "Comedies: Andria and Adelphoe (with the other four plays)"
+        reader: student
+        pages: 150
+        author: Terence
+        date: "166–160 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/ter.html" }
+          - { label: "Gutenberg (tr. George Colman, 1765)", url: "https://www.gutenberg.org/ebooks/22695" }
+      - title: "Captivi and Mostellaria (elective)"
+        reader: student
+        pages: 130
+        author: Plautus
+        date: "c. 200 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg (tr. Riley), url: "https://www.gutenberg.org/ebooks/7282" }
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/plautus.html" }
+      - title: "Satires (elective)"
+        reader: student
+        pages: 60
+        author: Persius
+        date: "c. AD 62"
+        publicDomain: true
+        links:
+          - { label: Gutenberg (Latin), url: "https://www.gutenberg.org/ebooks/22119" }
+          - { label: "Gutenberg (tr. Evans, with Juvenal)", url: "https://www.gutenberg.org/ebooks/50657" }
     curriculumOptions:
       - name: Wheelock's Latin Reader
         publisher: HarperCollins
@@ -887,6 +932,11 @@ rows:
       Horace was set in Boston's highest class in 1789 ("Greek Testament. Horace. Homer.").
       Jefferson names Horace among the school poets. Eton and Westminster boys memorized Horace
       in bulk and composed Latin lyric verse on his model.
+    notes: >-
+      Terence is core: Jefferson named him with Virgil and Horace as the Latin poets, and John
+      Quincy Adams finished the Andria with his Horace. Read the Andria and the Adelphoe in Latin
+      and the other plays in Colman's translation if time allows. Choose 1 of the 2 electives
+      (Plautus or Persius).
 
   - id: latin-15
     title: "Latin Composition II: Advanced Prose & Verse"
@@ -1042,6 +1092,15 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/tac.html" }
           - { label: "Dickinson College Commentaries, Agricola & Annals 15", url: "https://dcc.dickinson.edu/tacitus-agricola/1" }
+      - title: "Pharsalia (De Bello Civili) (elective)"
+        reader: student
+        pages: 450
+        author: Lucan
+        date: "AD 61–65"
+        publicDomain: true
+        links:
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/lucan.html" }
+          - { label: Project Gutenberg (tr. Ridley), url: "https://www.gutenberg.org/ebooks/602" }
     historicalPrecedent: >-
       Tacitus was a staple of colonial college reading and a favourite of Jefferson and the
       Whig opposition, as the historian of liberty lost. Colonial colleges read Latin authors

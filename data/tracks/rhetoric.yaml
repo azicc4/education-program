@@ -303,6 +303,15 @@ rows:
         publicDomain: false
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/classical-rhetoric-for-the-modern-student-9780195115420" }
+      - title: "Discourses: To Demonicus, Panegyricus, Against the Sophists and Antidosis"
+        reader: student
+        pages: 180
+        author: Isocrates (tr. Norlin)
+        date: "c. 390–353 BC"
+        publicDomain: true
+        links:
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0144" }
+          - { label: "Archive.org (Loeb vol. 2, Norlin)", url: "https://archive.org/details/isocrateswitheng02isocuoft" }
     curriculumOptions:
       - name: Classical Rhetoric with Aristotle
         publisher: Memoria Press
@@ -331,7 +340,9 @@ rows:
     notes: >-
       Kolln & Gray's Rhetorical Grammar (Pearson,
       https://www.pearson.com/en-us/subject-catalog/p/rhetorical-grammar-grammatical-choices-rhetorical-effects/P200000002254/9780137518265)
-      works well alongside this course for sentence-level style.
+      works well alongside this course for sentence-level style. Isocrates is core: read To
+      Demonicus, the Panegyricus and Against the Sophists whole, and the Antidosis in selections,
+      as the third Greek account of rhetoric beside Plato's and Aristotle's.
 
   - id: rhetoric-08
     title: "Great Speeches as Models: Demosthenes to King"
@@ -408,6 +419,23 @@ rows:
         publicDomain: false
         links:
           - { label: Stanford King Institute, url: "https://kinginstitute.stanford.edu/letter-birmingham-jail" }
+      - title: "Orations: Against Eratosthenes and On the Murder of Eratosthenes (elective)"
+        reader: student
+        pages: 60
+        author: Lysias
+        date: "c. 403–380 BC"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6969" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0154" }
+      - title: "Against Ctesiphon (elective)"
+        reader: student
+        pages: 80
+        author: Aeschines (tr. C. D. Adams)
+        date: "330 BC"
+        publicDomain: true
+        links:
+          - { label: Perseus (Speeches), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0002" }
     historicalPrecedent: >-
       Boys at the colonial colleges and the English public schools learned eloquence by
       translating and imitating Demosthenes and Cicero. In the 19th century American schoolbooks
@@ -592,6 +620,24 @@ rows:
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/elementsofrheto00whatuoft" }
+      - title: "Elements of Criticism (elective)"
+        reader: student
+        pages: 800
+        author: Henry Home, Lord Kames
+        date: "1762"
+        publicDomain: true
+        links:
+          - { label: Gutenberg Vol. I, url: "https://www.gutenberg.org/ebooks/57678" }
+          - { label: Gutenberg Vol. II, url: "https://www.gutenberg.org/ebooks/57679" }
+          - { label: Gutenberg Vol. III, url: "https://www.gutenberg.org/ebooks/57680" }
+      - title: "A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful (elective)"
+        reader: student
+        pages: 200
+        author: Edmund Burke
+        date: "1757"
+        publicDomain: true
+        links:
+          - { label: "Gutenberg (Works, vol. 1)", url: "https://www.gutenberg.org/ebooks/15043" }
     historicalPrecedent: >-
       Witherspoon personally taught eloquence at the College of New Jersey (Princeton), where his
       students included Madison. Blair's Lectures ran to some 130 editions and became the rhetoric

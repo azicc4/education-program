@@ -75,7 +75,7 @@ entries:
     tracks: [mathematics, natural-science, history]
   - text: "History as 'the great mistress of prudence' (§182): Latin historians first (Justin, Eutropius, Curtius), rising at last to Cicero, Virgil, and Horace (§184)"
     use: [reference, student]
-    units: [latin-05, latin-11, latin-12, latin-14]
+    units: [latin-05, latin-11, latin-12, latin-14, latin-07, latin-13]
     search: Cicero
     tracks: [history, latin]
   - text: "Ethics from the Bible and Cicero's Offices, then Pufendorf's De Officio Hominis et Civis, Grotius' De Jure Belli ac Pacis, and Pufendorf's De Jure Naturae et Gentium (§§185–186)"
@@ -95,7 +95,7 @@ entries:
     tracks: [civics-law, history]
   - text: "Rhetoric and logic: Locke is skeptical of formal disputation and prefers Chillingworth and Cicero as models of reasoning and style (§§188–189)"
     use: [reference, student]
-    units: [rhetoric-10, latin-11]
+    units: [rhetoric-10, latin-11, theology-19]
     search: Cicero
     tracks: [rhetoric, logic]
   - text: "Natural philosophy with doubts about its systems; still read Boyle, Newton's Principia, and Scripture on creation (§§190–194)"

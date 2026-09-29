@@ -38,8 +38,7 @@ entries:
     tracks: [civics-law]
   - text: "Law of nature and nations: Wolff, Cumberland, Cudworth's Intellectual System, Hutcheson's Moral Philosophy, Ferguson, and Rutherforth's Institutes of Natural Law"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [philosophy-15, character-virtue-14]
     search: Burlamaqui
     tracks: [civics-law, philosophy]
   - text: "Treaties and negotiation: Wicquefort's The Ambassador, Bynkershoek on ambassadors, the Corps diplomatique, Rymer's Foedera, Mably's Public Law of Europe"
@@ -49,8 +48,7 @@ entries:
     tracks: [civics-law, history]
   - text: "Universal history: Raleigh's History of the World, Voltaire, Bayle's Dictionary, Mosheim's Ecclesiastical History, Blair's Chronological Tables"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [history-28]
     search: Raleigh
     tracks: [history, theology]
   - text: "Grecian and Roman history: Stanyan's and Goldsmith's Greece, Potter's Grecian Antiquities, Vertot's Revolutions of Rome, Gibbon, Kennet's Roman Antiquities"
@@ -65,8 +63,7 @@ entries:
     tracks: [history, character-virtue]
   - text: "Modern republics and states: Guicciardini, Paolo Sarpi on Venice, Grotius on the Low Countries, De Witt's State of Holland, Stanyan's Switzerland"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [history-22]
     search: Guicciardini
     tracks: [history]
   - text: "British history: Hume, Rapin, Clarendon, Ludlow's Memoirs, Rushworth, and the parliamentary history and debates"
@@ -111,8 +108,7 @@ entries:
     tracks: [latin, spanish]
   - text: "America: Hakluyt, Purchas, Champlain, Charlevoix, Lafitau, Cotton Mather, Hutchinson's Massachusetts, Beverley and Stith on Virginia, Franklin, Colden's Five Nations"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [history-31]
     search: Hakluyt
     tracks: [history]
   - text: "Spanish America: Garcilaso de la Vega on Florida and the Incas, Herrera, Solís's Conquest of Mexico, Las Casas, Ulloa"
@@ -163,8 +159,7 @@ entries:
     tracks: [natural-science, history]
   - text: "Of Ancient and Modern Confederacies (1786): pocket notes on the Lycian, Amphictyonic, Achaean, Helvetic, Belgic and Germanic leagues, drawing on Montesquieu, Strabo, Polybius, Plutarch, Demosthenes, Temple, Mably, Felice and Stanyan"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [civics-law-11]
     search: Polybius
     tracks: [history, civics-law, greek]
 notes: >-

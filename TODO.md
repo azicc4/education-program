@@ -1,22 +1,41 @@
 # Running To-Do List
 
-Where to work next. Add items as gaps appear; check them off as they are resolved.
+Where to work next. Add items as gaps appear, and check them off as they are resolved. The detailed research log
+from each agent pass is under **Research gaps log** below.
+
+## Status (2026-09-28)
+35 tracks, about 460 units, 34 exams and 23 founding-era lists. Site views: Curriculum table, Skill Tree (with
+Snapshot Bookshelf), Radial Tree, Founding-Era Reading, Exams planner and Family (progress, next assignments,
+Bookshelf of Knowledge, Look Ahead, demo family). Every text is marked by who reads it (teacher / together / student)
+and has a page count where one is known.
 
 ## Pending input from Adam
-- [ ] **John Jay Institute curriculum.** Adam will attach it later. Once it arrives, fold it into the College (17+) rows (civics-law, philosophy, theology, history) and add a `data/founding/john-jay-institute.yaml` reference entry.
+- [ ] **John Jay Institute curriculum.** Adam will attach it. Fold it into the college rows (philosophy-15/16,
+  civics-law-19/20, history-31, theology) and add a `data/founding/john-jay-institute.yaml` reference entry.
+- [ ] **GitHub Pages:** turn on Settings → Pages → Deploy from branch `main` / `docs` to publish the site.
 
-## Content
-- [ ] Initial research pass for all 25 tracks (parallel agents)
-- [ ] Founding-era and 1800s reading lists (`data/founding/`)
-- [ ] Review research-agent gap reports (logged below)
+## Open decisions for Adam
+- [ ] The workload at 13–14 is Honors Chemistry, AP Biology, Honors Physics and precalculus together. Keep it, or move AP Biology to 14–15?
+- [ ] Add a non-Western world-history unit to the main history track? For now AP World is covered only in the side track.
+- [ ] Bioethics companion (biology-03): keep it at 13.5, or move it to 15–16? It touches end-of-life questions and gender ideology.
 
-## Site
-- [x] Table view + detail panel
-- [x] Skill-tree view
-- [x] Founding-era reading list page
-- [ ] Link check pass
+## Next up
+- [ ] Rerun the link check after the latest additions and fix dead links.
+- [ ] Wire the remaining cross-track `related` links for overlapping units (see "Reconcile overlaps" items in the log).
+- [ ] Thin curriculum options: more Catholic providers (Latin, math, civics); product-level Veritas and Classical Conversations links; relink Seton, which did not load from here.
+- [ ] Verify the soft historical facts: Founders Online letters, and precedent claims that rest on general knowledge.
+- [ ] Longer-term: sync family progress across devices; let hand-added Bookshelf books be proposed for the curriculum.
 
-## Research gaps (from agents)
+## Done
+- [x] Research pass for every track; founding-era, 19th-century and British/Irish university lists
+- [x] Site: table and detail panel, skill tree, snapshot bookshelf, radial tree, founding page, exams page, family tools
+- [x] First link check (1,961 URLs) and fixes
+- [x] AP/STEM restructure, AP side tracks, test prep, exam catalog and exam tags
+- [x] Reader and page-count pass for every text
+- [x] History Cycle 3 consolidated (14 → 10 seminars)
+- [x] Founding-era entries marked by use (reference / teacher / student) and linked to units
+
+## Research gaps log
 
 ### Founding lists: Catholic & treatises (georgetown-1789, ratio-studiorum-1599, franklin-proposals-1749, locke-thoughts-1693, newman-idea-of-university)
 - [ ] Carroll's Georgetown proposals are dated 1787 (land bought 1789). The file is named georgetown-1789 for the founding year, so it is not wrong, but note the discrepancy.
@@ -165,15 +184,6 @@ Where to work next. Add items as gaps appear; check them off as they are resolve
 - [ ] jcsm.aasm.org (AASM sleep guidelines) returned "Site Currently Unavailable" (503). Recheck later.
 - [ ] 36 bot-blocked URLs are listed by `npm run check-links`. Spot-check them in a browser.
 
-## In progress (as of the 2026-09-28 push)
-- [ ] AP science restructure: math (AP Calc BC, AP Stats), physics (Honors, then Physics C: Mechanics and E&M), chemistry (Honors, then AP Chem), biology (Honors, then AP Bio). Olympiads are standard.
-- [ ] AP side tracks: ap-history (APUSH I–II, AP Euro, AP World Modern), ap-humanities (AP Eng Lang/Lit, Latin, Spanish, Chinese, Music Theory), test-prep (CLT10/CLT, CLT Classical Baccalaureate, CLT Civics, SAT/ACT, PSAT/NMSQT, national exams, olympiads, CLEP). Also complete data/exams.yaml.
-- [ ] Tag existing main-track rows with `exams:`, using the AP agents' coverage lists.
-- [ ] Exams page and exam filter in the table; exam planner on the Family page.
-- [ ] Drama, Voice & Accents track; Seasonal Sports and Music Lessons tracks (Extracurriculars).
-- [ ] **Reader and length pass for every text:** add `reader: teacher | together | student`, plus `pages` (Open Library lookup) or `words`. The Snapshot Bookshelf and Look Ahead already display these fields.
-- [ ] Turn on GitHub Pages (Settings → Pages → Deploy from branch: `main` / `docs`) to publish the site.
-
 ### Track: drama (11), "Drama, Voice & Accents"
 - [ ] No Catholic or Protestant curriculum options were found, so every option is secular. The Catholic link comes through the historical precedents: Jesuit school drama, Wojtyła's Rhapsodic Theatre.
 - [ ] No RSC youth program suits a US family. The Globe programs are in London; BADA Oxford costs about $7,100. No free accent or voice video course has been verified.
@@ -219,8 +229,3 @@ Where to work next. Add items as gaps appear; check them off as they are resolve
 - Batch B gaps: Madison's list (the natural-law writers Wolff, Cumberland, Cudworth, Hutcheson, Ferguson, Rutherforth; universal history from Raleigh, Voltaire, Bayle, Mosheim; the modern republics of Guicciardini, Sarpi, De Witt; Hakluyt, Purchas, Champlain, Cotton Mather, Colden; and Madison's own *Of Ancient and Modern Confederacies*, the source of Federalist 18–20); Webster's 1828 *American Dictionary*; Butler's *Analogy* and *Sermons*; Robertson's histories; Sully's *Memoirs*; Washington's letters to G. W. P. Custis.
 - [ ] Easy wins: add *Of Ancient and Modern Confederacies* to civics-law-11; add Webster's 1828 Dictionary as a reference text in grammar-composition; add Butler's *Analogy* to philosophy or theology.
 
-## Resume here (paused at usage limit, 2026-09-28)
-- [x] **Radial Skill Tree** built and tested, with demo family (Load demo family button on Family page). Was: Still to do: add CSS (.wedge, .rnode, .redge, .hub, .rlabel, .track-label, .ring-guide), add a "Radial Tree" nav link to the other pages, add a "Load demo family" button on the Family page (Demo.loadIntoStore), then test in the browser.
-- [x] **Reader and page pass** applied (1,251 texts: 1,060 student, 127 together, 64 teacher; 1,125 with page counts). About 280 counts are estimates. Was: four agents are writing scratchpad mapping-1..4.json. Once done, merge them and run `node scripts/annotate-texts.mjs apply <merged.json>`, then do test-prep texts separately.
-- [x] **Test-prep track and exam catalog** done. Was: an agent is completing data/tracks/test-prep.yaml and data/exams.yaml. Review its report, then rebuild.
-- [ ] Open questions for Adam: merge history Cycle 3 pairs? Add the missing founders' texts (Terence, Isocrates, Butler, Paley, etc.)?

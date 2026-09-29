@@ -1006,6 +1006,18 @@ rows:
         publicDomain: false
         links:
           - { label: CSLewis.com (HarperCollins), url: "https://www.cslewis.com/the-abolition-of-man/" }
+      - title: "Madison's shelf on natural law: Wolff, Cumberland, Cudworth, Ferguson and Rutherforth. Dip in (elective)"
+        reader: student
+        pages: 300
+        author: Christian Wolff; Richard Cumberland; Ralph Cudworth; Adam Ferguson; Thomas Rutherforth
+        date: "1672–1769"
+        publicDomain: true
+        links:
+          - { label: "Wolff, Law of Nations (Archive.org)", url: "https://archive.org/details/the-law-of-nations-treated-according-to-the-scientific-method" }
+          - { label: "Cumberland, Laws of Nature (Archive.org)", url: "https://archive.org/details/treatiseoflawsof00cumbuoft" }
+          - { label: "Cudworth, True Intellectual System (Archive.org, vol. 1)", url: "https://archive.org/details/trueintellectual01cudwuoft" }
+          - { label: "Ferguson, Institutes of Moral Philosophy (Archive.org, 1769)", url: "https://archive.org/details/bub_gb_HroIAAAAQAAJ" }
+          - { label: "Rutherforth, Institutes of Natural Law (Archive.org, vol. 1)", url: "https://archive.org/details/institutesofnatu01ruth" }
     curriculumOptions:
       - name: "Natural Law, Natural Rights, and American Constitutionalism (free website)"
         publisher: The Witherspoon Institute (NEH "We the People" project)

@@ -48,7 +48,7 @@ entries:
     tracks: [latin, poetry]
   - text: "Humanities Greek: Isocrates, Chrysostom, Basil, letters of Plato and Synesius, Plutarch; poems of Phocylides, Theognis, Gregory Nazianzen; compose in Greek"
     use: [reference, student]
-    units: [greek-13]
+    units: [greek-13, rhetoric-07]
     search: Isocrates
     tracks: [greek, literature]
   - text: "Soarez, De Arte Rhetorica (drawn from Aristotle, Cicero, Quintilian), summarized in humanities and taught in rhetoric"

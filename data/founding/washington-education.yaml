@@ -83,8 +83,7 @@ entries:
     tracks: [civics-law, economics, history]
   - text: "Mount Vernon library: Robertson's History of America and Charles V, and Sully's Memoirs"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [history-22, history-31]
     search: Robertson
     tracks: [history]
   - text: "Mount Vernon library: husbandry. Washington made his own digests of Duhamel's and Tull's works on agriculture"
@@ -136,20 +135,17 @@ entries:
   # --- Advice to G. W. P. Custis at Princeton ---
   - text: "To G. W. P. Custis at Princeton (1796): 'The more knowledge you acquire', the greater your success and your thirst for more. Obey your tutors and respect the president"
     use: [teacher, student]
-    units: []
-    gap: true
+    units: [character-virtue-11]
     search: Custis
     tracks: [character-virtue]
   - text: "To Custis (1796): habits are forming now, and 'as the twig is bent so it will grow'. Guard 'the avenues which lead to idleness and vice'"
     use: [teacher, student]
-    units: []
-    gap: true
+    units: [character-virtue-11]
     search: idleness
     tracks: [character-virtue]
   - text: "To Custis (1796): 'True friendship is a plant of slow growth'. Be courteous to all but choose friends slowly, and allow recreation and 'manly exercise'"
     use: [teacher, student]
-    units: []
-    gap: true
+    units: [character-virtue-11]
     search: friendship
     tracks: [character-virtue, physical-training]
   - text: "Custis to Washington (Nassau Hall, 1797): he reports reviewing Roman history, translating French, studying Hume and geography, and falling behind in arithmetic"
@@ -159,8 +155,7 @@ entries:
     tracks: [history, mathematics]
   - text: "To Custis (1797): keep to the course of study set by President Samuel Stanhope Smith, and aim to be accomplished in 'the useful and polite branches of literature'"
     use: [teacher, student]
-    units: []
-    gap: true
+    units: [character-virtue-11]
     search: Custis
     tracks: [character-virtue, literature]
 notes: >-

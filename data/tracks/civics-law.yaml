@@ -682,6 +682,14 @@ rows:
         publicDomain: false
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/resource/antifederalist/" }
+      - title: "Of Ancient and Modern Confederacies"
+        reader: student
+        pages: 25
+        author: James Madison
+        date: "1786"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (Writings, ed. Hunt, vol. 2)", url: "https://archive.org/details/writingsjames02madirich" }
     curriculumOptions:
       - name: The Federalist Papers
         publisher: Memoria Press
@@ -698,6 +706,9 @@ rows:
         notes: A high-school American government course from a Catholic publisher, organized around the Declaration's principles.
     sources:
       - { label: "ConSource: The Constitutional Sources Project", url: "https://www.consource.org/" }
+    notes: >-
+      Madison's Of Ancient and Modern Confederacies is short and core: read it before Federalist
+      18–20, which Madison built from these notes.
 
   - id: civics-law-12
     title: "Burke and Tocqueville: Tradition, Liberty and Democracy in America"
@@ -1112,6 +1123,15 @@ rows:
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/blackstone.asp" }
+      - title: "The Institutes of Justinian (elective)"
+        reader: student
+        pages: 250
+        author: Justinian (tr. J. B. Moyle)
+        date: "AD 533"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5983" }
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/justinian.html" }
     curriculumOptions:
       - name: "The U.S. Supreme Court (free online course)"
         publisher: Hillsdale College

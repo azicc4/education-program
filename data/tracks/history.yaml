@@ -1156,6 +1156,23 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1174" }
+      - title: "The Anabasis of Alexander"
+        reader: student
+        pages: 420
+        author: Arrian (tr. Chinnock)
+        date: "c. AD 130–150"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46976" }
+      - title: "The Historical Library, Books XVI–XVII (Philip and Alexander) (elective)"
+        reader: student
+        pages: 200
+        author: Diodorus Siculus
+        date: "c. 30 BC"
+        publicDomain: true
+        links:
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0084" }
+          - { label: "Archive.org (tr. Booth, 1814)", url: "https://archive.org/details/historicallibra00bootgoog" }
     curriculumOptions:
       - name: The Landmark Herodotus / The Landmark Thucydides (ed. Strassler)
         publisher: Free Press / Vintage (via Bookshop.org)
@@ -1179,6 +1196,12 @@ rows:
       democracy.
     sources:
       - { label: "Jefferson to Peter Carr, 19 Aug 1785", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
+    notes: >-
+      Arrian is core: Jefferson told Peter Carr to go on from Thucydides and Xenophon to Arrian,
+      and Alexander carries the Greek story to its end. Diodorus is an optional elective; Quintus
+      Curtius and Justin are read in Latin in latin-13 and latin-07. For Thucydides, John Adams
+      urged Hobbes's "learned and exact" 1629 translation on his son; a student who wants the
+      founders' own English Thucydides can read Hobbes in place of Crawley.
 
   - id: history-16
     title: "Seminar: Rome from Republic to Empire — Polybius, Livy, Tacitus & Josephus"
@@ -1746,6 +1769,32 @@ rows:
         publicDomain: false
         links:
           - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-dividing-of-christendom-christopher-dawson/733ba12d614e7e72" }
+      - title: "The History of the Reign of the Emperor Charles V (elective)"
+        reader: student
+        pages: 1100
+        author: William Robertson
+        date: "1769"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1777 ed.), url: "https://archive.org/details/historyofreignof1777robe" }
+      - title: "Memoirs of the Duke of Sully (elective)"
+        reader: student
+        pages: 1400
+        author: Maximilien de Béthune, Duke of Sully (tr. Charlotte Lennox)
+        date: "1638"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (1810 ed., vol. 1)", url: "https://archive.org/details/memoirsofdukeofs01sulliala" }
+      - title: "Madison's shelf on the modern republics: Guicciardini's History of Italy, Sarpi's History of the Council of Trent, De Witt's True Interest of Holland. Dip in (elective)"
+        reader: student
+        pages: 300
+        author: Francesco Guicciardini; Paolo Sarpi; Johan de Witt and Pieter de la Court
+        date: "1561–1662"
+        publicDomain: true
+        links:
+          - { label: "Guicciardini (Archive.org, John Adams's copy)", url: "https://archive.org/details/historyofitaly01guic" }
+          - { label: "Sarpi (Archive.org, tr. Brent, 1676)", url: "https://archive.org/details/india.history.resource.77994" }
+          - { label: "De Witt (Archive.org, 1702)", url: "https://archive.org/details/trueinterestpoli00witt" }
     curriculumOptions:
       - name: "Light to the Nations, Part 2: The Making of the Modern World"
         publisher: Catholic Heritage Curricula (Catholic Textbook Project)
@@ -2321,6 +2370,17 @@ rows:
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook01.asp" }
+      - title: "Madison's shelf of universal history: Raleigh's History of the World, Voltaire's Age of Louis XIV, Bayle's Dictionary, Mosheim's Ecclesiastical History. Dip in (elective)"
+        reader: student
+        pages: 300
+        author: Walter Raleigh; Voltaire; Pierre Bayle; Johann Lorenz von Mosheim
+        date: "1614–1755"
+        publicDomain: true
+        links:
+          - { label: "Raleigh (Archive.org, 1736 ed.)", url: "https://archive.org/details/TheHistoryOfTheWorldInFiveBooks1736" }
+          - { label: "Voltaire (Archive.org, 1779 trans.)", url: "https://archive.org/details/agelouisxivtowh00grifgoog" }
+          - { label: "Bayle (Archive.org, vol. 1)", url: "https://archive.org/details/dictionaryhi_bayl_1738_01" }
+          - { label: "Mosheim (Archive.org, Murdock trans., vol. 1)", url: "https://archive.org/details/institutesofeccl01moshuoft" }
     curriculumOptions:
       - name: Western Heritage & American Heritage (free online courses)
         publisher: Hillsdale College
@@ -2530,6 +2590,26 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3253" }
+      - title: "The History of America (elective)"
+        reader: student
+        pages: 900
+        author: William Robertson
+        date: "1777"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1845 ed.), url: "https://archive.org/details/histdiscoverysett00roberich" }
+      - title: "Madison's shelf on American colonization: Hakluyt, Purchas, Champlain, Cotton Mather's Magnalia, Colden's Five Nations. Dip in (elective)"
+        reader: student
+        pages: 400
+        author: Richard Hakluyt; Samuel Purchas; Samuel de Champlain; Cotton Mather; Cadwallader Colden
+        date: "1589–1747"
+        publicDomain: true
+        links:
+          - { label: "Hakluyt, America (Gutenberg vol. 13)", url: "https://www.gutenberg.org/ebooks/25645" }
+          - { label: "Purchas (Archive.org, vol. 1)", url: "https://archive.org/details/hakluytusposthum01purcuoft" }
+          - { label: Champlain (Gutenberg vol. 1), url: "https://www.gutenberg.org/ebooks/6653" }
+          - { label: "Mather, Magnalia (Archive.org, vol. 1)", url: "https://archive.org/details/magnaliachristia01math" }
+          - { label: Colden (Gutenberg), url: "https://www.gutenberg.org/ebooks/35719" }
     curriculumOptions:
       - name: "American Heritage: From Colonial Settlement to the Current Day (free online course)"
         publisher: Hillsdale College

@@ -63,12 +63,12 @@ entries:
     tracks: [natural-science, theology]
   - text: "First year (1763): Sallust, Caesar's Commentaries, Ovid's Metamorphoses, Virgil's Eclogues, Aesop's Fables, Lucian's Dialogues, Greek Testament, Grotius's De Veritate; Latin and English themes and translation"
     use: [reference, student]
-    units: [latin-07, latin-09, latin-13, greek-07]
+    units: [latin-07, latin-09, latin-13, greek-07, theology-14]
     search: Caesar
     tracks: [latin, greek, history, theology, grammar-composition]
   - text: "Second year: Cicero's De Officiis, Quintus Curtius, Terence, Ovid's Epistles, Virgil's Aeneid and Georgics, Epictetus's Enchiridion, Xenophon's Cyropaedia and Anabasis, Farnaby's epigrams"
     use: [reference, student]
-    units: [latin-11, latin-12, philosophy-06, greek-08]
+    units: [latin-11, latin-12, philosophy-06, greek-08, latin-13, latin-14]
     search: Xenophon
     tracks: [latin, greek, philosophy, poetry, character-virtue]
   - text: "Second year: Wallis's Logic, Sanderson's Compendium, Johnson's Noetica; rhetoric, recitations to learn the art of speaking, Latin and English verse"
@@ -83,17 +83,17 @@ entries:
     tracks: [latin, rhetoric, poetry]
   - text: "Third year: Aristotle's Ethics and Poetics, Plato's Dialogues, Xenophon's Memorabilia, Theocritus, Homer's Iliad; Hutcheson's ethics and metaphysics; syllogistic disputations in Latin"
     use: [reference, student]
-    units: [philosophy-07, poetry-14, greek-10, greek-11]
+    units: [philosophy-07, poetry-14, greek-10, greek-11, character-virtue-14]
     search: Homer
     tracks: [greek, philosophy, poetry, logic, character-virtue]
   - text: "Fourth year: Cicero's Tusculan Disputations, Livy and Tacitus, Lucan, Juvenal and Persius, Plautus"
     use: [reference, student]
-    units: [philosophy-06, latin-11, latin-13, latin-17]
+    units: [philosophy-06, latin-11, latin-13, latin-17, latin-14]
     search: Livy
     tracks: [latin, history, poetry, philosophy]
   - text: "Fourth year: Homer's Odyssey, Sophocles, Euripides, Aeschylus, Thucydides, Herodotus, Longinus On the Sublime, Demosthenes, Dionysius of Halicarnassus, Isocrates"
     use: [reference, student]
-    units: [greek-11, greek-14, greek-15, poetry-14]
+    units: [greek-11, greek-14, greek-15, poetry-14, rhetoric-07]
     search: Thucydides
     tracks: [greek, literature, history, rhetoric]
   - text: "Fourth year: Hebrew grammar and the Hebrew Bible"
@@ -103,7 +103,7 @@ entries:
     tracks: [hebrew, theology]
   - text: "Fourth year: Grotius's De Jure Belli ac Pacis or Pufendorf; Hutcheson's Moral Philosophy; philosophical essays in English and Latin; disputations in the hall"
     use: [reference, student]
-    units: [philosophy-15]
+    units: [philosophy-15, character-virtue-14]
     search: Grotius
     tracks: [civics-law, philosophy, grammar-composition]
   - text: "Admission from 1786 (statutes of 1785): Caesar's Gallic War, the four Catilinarian Orations, the first four books of the Aeneid, and the Gospels from the Greek; arithmetic through the rule of three"

@@ -109,7 +109,7 @@ entries:
     tracks: [greek, rhetoric]
   - text: "JA to JQA (1781): learn Greek from Demosthenes and Homer, and Latin from Virgil and Cicero, not only from Isocrates, Lucian, Phaedrus and Nepos"
     use: [reference, student]
-    units: [greek-11, latin-12, latin-11, rhetoric-08]
+    units: [greek-11, latin-12, latin-11, rhetoric-08, rhetoric-07]
     search: Homer
     tracks: [greek, latin, poetry]
   - text: "JA to JQA (1781): in St Petersburg as secretary to Francis Dana, 'loose no Time', the plainest moral precept. Copying diplomatic papers is an education in business"
@@ -146,8 +146,7 @@ entries:
   # --- John Adams's own legal education, 1758 ---
   - text: "JA diary (1758): reading Justinian's Institutes in Latin with Vinnius's notes. Civil law as a foundation for the bar"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [civics-law-18]
     search: Justinian
     tracks: [civics-law, latin]
   - text: "JA diary (1758), Jeremiah Gridley's advice: the common law 'deserves your first and last Attention', beginning with Coke's Institutes"

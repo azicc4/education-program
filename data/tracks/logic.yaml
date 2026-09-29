@@ -387,6 +387,24 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27942" }
+      - title: "On Sophistical Refutations (elective)"
+        reader: student
+        pages: 80
+        author: Aristotle
+        date: "c. 350 BC"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (Organon, tr. Owen, vol. 2)", url: "https://archive.org/details/organonorlogical02arisuoft" }
+          - { label: "Archive.org (ed. Poste, 1866)", url: "https://archive.org/details/aristotleonfalla00aris" }
+      - title: "Topica (elective)"
+        reader: student
+        pages: 50
+        author: Cicero
+        date: "44 BC"
+        publicDomain: true
+        links:
+          - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/cicero/topica.shtml" }
+          - { label: "Gutenberg (tr. Yonge, in Orations vol. 4)", url: "https://www.gutenberg.org/ebooks/11080" }
     curriculumOptions:
       - name: Classical Logic and Rhetoric (free online course)
         publisher: Hillsdale College

@@ -120,7 +120,7 @@ entries:
     tracks: [literature, poetry]
   - text: "Burns and Byron (and Milton) — his favorite poets per Herndon, who otherwise judged his reading in literature narrow"
     use: [reference, student]
-    units: [literature-19, poetry-09]
+    units: [literature-19, poetry-09, poetry-11]
     search: Burns
     tracks: [poetry]
   - text: "A caution: at New Salem he read Paine, Volney and Voltaire amid local skepticism (Herndon) — early doubts he later outgrew in public faith"

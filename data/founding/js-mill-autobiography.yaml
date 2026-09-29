@@ -34,7 +34,7 @@ entries:
     tracks: [greek, history, philosophy]
   - text: "Diogenes Laertius (some Lives of the Philosophers), part of Lucian, Isocrates To Demonicus and To Nicocles"
     use: [reference, student]
-    units: [greek-07]
+    units: [greek-07, rhetoric-07]
     search: Isocrates
     tracks: [greek, philosophy, rhetoric]
   - text: "Plato's first six dialogues, Euthyphro through Theaetetus (1813, at seven); later Gorgias, Protagoras, and the Republic"
@@ -54,7 +54,7 @@ entries:
     tracks: [rhetoric, grammar-composition, physical-training]
   - text: "History: Robertson, Hume, Gibbon; favorites Watson's Philip II and Philip III and Hooke's Roman History"
     use: [reference, student]
-    units: [history-18, history-21, history-28]
+    units: [history-18, history-21, history-28, history-22]
     search: Gibbon
     tracks: [history]
   - text: "Rollin's Ancient History, Langhorne's Plutarch ('great delight'), Burnet's History of His Own Time, the Annual Register, the Ancient Universal History, Millar's Historical View of the English Government"
@@ -69,7 +69,7 @@ entries:
     tracks: [latin, poetry]
   - text: "Livy (first decade), all Sallust, much of Ovid's Metamorphoses, some Terence, two or three books of Lucretius"
     use: [reference, student]
-    units: [latin-09, latin-13, latin-17]
+    units: [latin-09, latin-13, latin-17, latin-14]
     search: Livy
     tracks: [latin, history, poetry]
   - text: "Cicero: several Orations, the rhetorical works, and the Letters to Atticus"

@@ -554,6 +554,15 @@ rows:
         publicDomain: true
         links:
           - { label: "Archive.org", url: "https://archive.org/details/dli.ernet.15684" }
+      - title: "An American Dictionary of the English Language (elective)"
+        reader: student
+        pages: 1900
+        author: Noah Webster
+        date: "1828"
+        publicDomain: true
+        links:
+          - { label: Archive.org vol. 1, url: "https://archive.org/details/americandictiona01websrich" }
+          - { label: Archive.org vol. 2, url: "https://archive.org/details/americandictiona02websrich" }
     curriculumOptions:
       - name: "Style: Lessons in Clarity and Grace (Joseph M. Williams & Joseph Bizup)"
         publisher: Pearson

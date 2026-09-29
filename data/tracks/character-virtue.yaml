@@ -605,9 +605,20 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67799" }
+      - title: "Letters to George Washington Parke Custis at Princeton"
+        reader: student
+        pages: 20
+        author: George Washington
+        date: "1796–1797"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (in Custis, Recollections, 1860)", url: "https://archive.org/details/recollectionpriv00cust" }
     historicalPrecedent: >-
       The Courtier was the standard English courtesy book from Hoby's translation (1561) onward. Newman
       delivered the Discourses (1852) to found the Catholic University of Ireland.
+    notes: >-
+      Washington's letters to his step-grandson at Princeton (1796–97) are short and core: habits,
+      slow friendship, courtesy and obedience to tutors, written to a boy of this row's age.
 
   - id: character-virtue-12
     title: "Aristotle's Nicomachean Ethics: Virtue as a Way of Life"
@@ -748,6 +759,31 @@ rows:
         publicDomain: false
         links:
           - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
+      - title: "The Principles of Moral and Political Philosophy (elective)"
+        reader: student
+        pages: 450
+        author: William Paley
+        date: "1785"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1810 ed.), url: "https://archive.org/details/principlesofmora00pale" }
+      - title: "Fifteen Sermons Preached at the Rolls Chapel (Human Nature, and Other Sermons) (elective)"
+        reader: student
+        pages: 200
+        author: Joseph Butler
+        date: "1726"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3150" }
+      - title: "A Short Introduction to Moral Philosophy (elective)"
+        reader: student
+        pages: 350
+        author: Francis Hutcheson
+        date: "1747"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1753 ed.), url: "https://archive.org/details/shortintroductio00hutc" }
+          - { label: "A System of Moral Philosophy (Archive.org, vol. 1)", url: "https://archive.org/details/systemmoralphilo01hutc" }
     historicalPrecedent: >-
       Witherspoon, president of the College of New Jersey (Princeton) and a signer of the Declaration, gave
       these lectures to seniors, among them James Madison (class of 1771), Aaron Burr and many future

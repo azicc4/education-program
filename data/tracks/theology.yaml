@@ -674,6 +674,22 @@ rows:
         publicDomain: false
         links:
           - { label: Yale University Press, url: "https://yalebooks.yale.edu/book/9780300164299/atheist-delusions/" }
+      - title: "A View of the Evidences of Christianity"
+        reader: student
+        pages: 400
+        author: William Paley
+        date: "1794"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14780" }
+      - title: "The Truth of the Christian Religion (De Veritate Religionis Christianae) (elective)"
+        reader: student
+        pages: 330
+        author: Hugo Grotius (tr. John Clarke)
+        date: "1627"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1809 ed.), url: "https://archive.org/details/thetruthofthechr00grotuoft" }
     curriculumOptions:
       - name: Handbook of Christian Apologetics (Kreeft & Tacelli, ecumenical edition)
         publisher: Memoria Press (distributor)
@@ -695,6 +711,9 @@ rows:
       Feser's The Last Superstition (Aristotelian-Thomist philosophy: the Five Ways are not a
       "God of the gaps") and Hart's Atheist Delusions (the history the New Atheists get wrong).
       Feser writes polemically and with some sharp language; a parent should preview it.
+      Paley's Evidences is core: it was set for Cambridge's Previous Examination from 1822 and
+      is the classic historical case for the Gospels. Grotius's De Veritate (read by King's
+      College freshmen in 1763) is an optional further elective.
 
   - id: theology-15
     title: "Scripture III: The Whole Canon, Covenant by Covenant"
@@ -1043,6 +1062,31 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18269" }
           - { label: CCEL, url: "https://ccel.org/ccel/pascal/pensees" }
+      - title: "The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature"
+        reader: student
+        pages: 350
+        author: Joseph Butler
+        date: "1736"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/53346" }
+      - title: "The Religion of Protestants a Safe Way to Salvation (elective)"
+        reader: student
+        pages: 460
+        author: William Chillingworth
+        date: "1638"
+        publicDomain: true
+        links:
+          - { label: Archive.org (1870 ed.), url: "https://archive.org/details/religionofprotes00chiluoft" }
+      - title: "Colonial-college divinity: Wollebius's Compendium and Ames's Marrow of Sacred Divinity. Dip in (elective)"
+        reader: student
+        pages: 250
+        author: Johannes Wollebius; William Ames
+        date: "1626–1627"
+        publicDomain: true
+        links:
+          - { label: "Wollebius, Abridgment of Christian Divinity (Archive.org, tr. Ross, 1656)", url: "https://archive.org/details/per_the-abridgment-of-christian-divinity_alexander-ross-harr_1656_ia40331218-21" }
+          - { label: "Ames, Marrow (Archive.org, 1639)", url: "https://archive.org/details/marrowsacdi00ames" }
     curriculumOptions:
       - name: "Calvin's Institutes (Books I–IV) and A Study Guide to Calvin's Institutes"
         publisher: Canon Press
@@ -1065,6 +1109,9 @@ rows:
       Methodists; Bonhoeffer was a Lutheran pastor executed by the Nazis in 1945. Pascal remained
       a Catholic, and his Pensées are admired by Catholics and Protestants alike, though several
       Jansenist propositions associated with his Port-Royal friends were condemned by Rome.
+      Butler's Analogy is core: the founders' colleges and Oxford Greats set it as the answer to
+      deism, and Newman credited it with shaping his thought. Choose 1 of the 2 electives
+      (Chillingworth, or the Wollebius and Ames divinity recited at Harvard and Yale).
 
   - id: theology-20
     title: "Liturgy, Moral Theology & Catholic Social Teaching"

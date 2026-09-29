@@ -515,6 +515,23 @@ rows:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133" }
           - { label: "Dickinson College Commentaries, Iliad 6", url: "https://dcc.dickinson.edu/homer-iliad/homer-iliad-vi-1-36" }
           - { label: "Steadman, Iliad 6 & 22 (free PDF)", url: "https://geoffreysteadman.com/iliad-6-22/" }
+      - title: "Idylls (elective)"
+        reader: student
+        pages: 150
+        author: Theocritus
+        date: "c. 270 BC"
+        publicDomain: true
+        links:
+          - { label: "Gutenberg (tr. Andrew Lang, prose)", url: "https://www.gutenberg.org/ebooks/4775" }
+          - { label: "Gutenberg (tr. Calverley, verse)", url: "https://www.gutenberg.org/ebooks/11533" }
+      - title: "Odes (Anacreontea) (elective)"
+        reader: student
+        pages: 100
+        author: Anacreon
+        date: "6th century BC and later"
+        publicDomain: true
+        links:
+          - { label: "Gutenberg (tr. Thomas Moore, 1800)", url: "https://www.gutenberg.org/ebooks/38230" }
     historicalPrecedent: >-
       Boston 1789, top class: "Greek Testament. Horace. Homer." Otis recalled that the "highest
       classes dipped into Xenophon and Homer." The 1880s Boston Latin Third Class read "Homer,

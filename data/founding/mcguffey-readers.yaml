@@ -97,7 +97,7 @@ entries:
     tracks: [literature, history]
   - text: "Scott: 'Marmion and Douglas', 'Lochinvar', 'The Soldier's Rest' (Sixth). Byron: 'Battle of Waterloo', 'Song of the Greek Bard', 'Thunderstorm on the Alps' (Sixth)"
     use: [reference, student]
-    units: [literature-07]
+    units: [literature-07, poetry-11]
     search: Scott
     tracks: [poetry, literature]
   - text: "Dickens: 'Death of Little Nell', 'The Teacher and Sick Scholar' (Sixth); 'Squeers's Method' (Fifth)"

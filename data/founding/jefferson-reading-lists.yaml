@@ -44,7 +44,7 @@ entries:
     tracks: [literature]
   - text: "Skipwith list (1771): criticism and taste, with Kames's Elements of Criticism, Burke on the Sublime, and Smith's Theory of Moral Sentiments"
     use: [reference, student]
-    units: [economics-06]
+    units: [economics-06, rhetoric-11]
     search: Kames
     tracks: [rhetoric, philosophy]
   - text: "Skipwith list (1771): politics and trade, with Montesquieu's Spirit of the Laws, Locke on government, Sidney, and Steuart's Political Economy"
@@ -64,7 +64,7 @@ entries:
     tracks: [civics-law]
   - text: "Skipwith list (1771): ancient history in Livy, Tacitus, Plutarch's Lives and Josephus. Modern history in Hume's History of England and Robertson"
     use: [reference, student]
-    units: [history-09, history-16, history-21, character-virtue-06]
+    units: [history-09, history-16, history-21, character-virtue-06, history-22]
     search: Plutarch
     tracks: [history]
   # --- Peter Carr, 1785 ---
@@ -75,8 +75,7 @@ entries:
     tracks: [greek, history]
   - text: "To Peter Carr (1785): continue ancient history with Arrian, Quintus Curtius, Diodorus Siculus and Justin"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [history-15, latin-13, latin-07]
     search: Arrian
     tracks: [greek, latin, history]
   - text: "To Peter Carr (1785): Latin poets. Virgil, Terence and Horace"

@@ -1019,6 +1019,22 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/22403" }
+      - title: "Poems and Songs (Tam o' Shanter, To a Mouse, The Cotter's Saturday Night, A Man's a Man)"
+        reader: student
+        pages: 300
+        author: Robert Burns
+        date: "1786–1796"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1279" }
+      - title: "Childe Harold's Pilgrimage (elective)"
+        reader: student
+        pages: 200
+        author: George Gordon, Lord Byron
+        date: "1812–1818"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5131" }
     curriculumOptions:
       - name: "Poetry Book III: The Romantic to the Victorian Age (set)"
         publisher: Memoria Press
@@ -1040,6 +1056,8 @@ rows:
       he became a Jesuit. His poems were published posthumously in 1918 by his Anglican friend Robert Bridges.
       Keble (The Christian Year) and Rossetti represent the Anglican High Church. Newman's Gerontius (set by
       Elgar) is a Catholic poem of purgatory that Protestant readers may treat as a dramatic vision.
+      Burns is core (Lincoln's favorite poet, with Byron): read the four named poems and a handful
+      of songs aloud in Scots. Byron's Childe Harold is an elective; read Cantos III–IV at least.
 
   - id: poetry-12
     title: "Major Poets III: Frost, Yeats, Eliot & the Moderns"

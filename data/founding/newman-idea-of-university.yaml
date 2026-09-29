@@ -67,7 +67,7 @@ entries:
     tracks: [literature, greek, philosophy, history]
   - text: "Latin authors inside that tradition: Terence after Menander, Virgil after Homer, Hesiod, and Theocritus, Cicero after Greek philosophy"
     use: [reference, student]
-    units: [latin-12, latin-11, literature-31]
+    units: [latin-12, latin-11, literature-31, latin-14]
     search: Virgil
     tracks: [latin, literature, poetry]
   - text: "University Subjects 2, Literature: literature as the personal use of language by a great author; the classics as models of thought and expression"
@@ -82,7 +82,7 @@ entries:
     tracks: [literature, poetry]
   - text: "English philosophy: after faulting Locke, Hobbes, Hume, and Bentham, Newman takes comfort in Clarke, Berkeley, Butler, and Reid, and calls Bacon 'the most orthodox of Protestant philosophers'"
     use: [reference, student]
-    units: [logic-08, social-science-02]
+    units: [logic-08, social-science-02, theology-19]
     search: Bacon
     tracks: [philosophy]
   - text: "University Subjects 4, Elementary Studies, §1 Grammar: exact Latin and Greek grammar (etymology and syntax) for university entrance, not a smattering of authors"

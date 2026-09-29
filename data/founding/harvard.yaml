@@ -96,8 +96,7 @@ entries:
     tracks: [latin, greek, rhetoric, logic]
   - text: "Divinity: Wollebius's Compendium and Ames's Medulla Theologiae recited, and More's ethics (1726 course; 1728 visitation)"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [theology-19]
     search: Ames
     tracks: [theology, philosophy]
   - text: "Revolutionary era: texts by Locke, Isaac Watts (logic and astronomy), Desaguliers and 's Gravesande (natural philosophy), Gordon (geography), and Burlamaqui's Principles of Natural and Political Law"

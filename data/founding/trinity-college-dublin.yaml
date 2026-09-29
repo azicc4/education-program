@@ -78,7 +78,7 @@ entries:
     tracks: [logic, latin, greek, character-virtue]
   - text: "Junior Freshmen, classics (1736): Lucian (Dugard's selection), Sallust, Iliad I–XII, the whole Aeneid, Hero and Leander with Theocritus, and Terence"
     use: [reference, student]
-    units: [greek-07, latin-13, greek-11, latin-12]
+    units: [greek-07, latin-13, greek-11, latin-12, latin-14]
     search: Homer
     tracks: [greek, latin, poetry, history]
   - text: "Senior Freshmen (1736): Le Clerc's Logic, the Art of Thinking (Port-Royal Logic), selections from Smiglecius; in classics Iliad XIII–XXIV, Juvenal, Caesar's Commentaries, Epictetus with Cebes, Justin, Odyssey I–VIII and Horace"
@@ -128,7 +128,7 @@ entries:
     tracks: [greek, latin, history, mathematics, character-virtue]
   - text: "Books the College prescribed for Dublin schools preparing boys for entrance (1759): Castalio, Erasmus's Colloquies, Nepos, Justin, Phaedrus, Caesar, Ovid, Sallust, Virgil, Cicero against Catiline, Terence, Horace, Juvenal; St Luke, the Cyropaedia, Iliad I–VIII, Hesiod, Theocritus; no literal translations, Latin verse, double translation, maps, English composition and 'the Common Rules of Arithmetic'"
     use: [reference, student]
-    units: [latin-05, latin-07, latin-09, greek-09]
+    units: [latin-05, latin-07, latin-09, greek-09, latin-14]
     search: Cornelius Nepos
     tracks: [latin, greek, grammar-composition, history, mathematics, poetry]
   - text: "1793 course, Junior Freshmen: Murray's Logic, Aeneid VII–XII, Iliad XIII–XXIV, Horace's Odes, Euclid I–III, Virgil's Georgics, the Greek minor poets, Livy and Herodotus"
@@ -143,12 +143,12 @@ entries:
     tracks: [mathematics, philosophy, greek, latin, history]
   - text: "1793 course, Junior Sophisters: astronomy, mechanics, hydrostatics, pneumatics and optics; Juvenal, Persius and Lucian; Cicero's Orations, Demosthenes's Philippics and On the Crown, Aeschines Against Ctesiphon, and Quintilian"
     use: [reference, student]
-    units: [physics-02, latin-11, rhetoric-08, rhetoric-10]
+    units: [physics-02, latin-11, rhetoric-08, rhetoric-10, latin-14]
     search: Quintilian
     tracks: [natural-science, mathematics, latin, greek, rhetoric]
   - text: "1793 course, Senior Sophisters: Burlamaqui's Natural Law, Conybeare's Defence of Revealed Religion, Locke on Government, Cicero's Offices; Tacitus, Thucydides, Terence, Sophocles, Plautus, Euripides and Longinus"
     use: [reference, student]
-    units: [philosophy-15, civics-law-10, character-virtue-13, history-16]
+    units: [philosophy-15, civics-law-10, character-virtue-13, history-16, latin-14]
     search: Burlamaqui
     tracks: [civics-law, philosophy, theology, history, latin, greek]
 notes: >-

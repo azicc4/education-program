@@ -104,8 +104,7 @@ entries:
     tracks: [grammar-composition, civics-law]
   - text: "American Dictionary (1828): definitions with moral and scriptural illustrations; under Education, a religious education is 'indispensable'"
     use: [reference, student]
-    units: []
-    gap: true
+    units: [grammar-composition-13]
     search: Webster
     tracks: [grammar-composition, theology]
   - text: "American Dictionary introduction: a dissertation on the origin and connection of the languages of Western Asia and Europe (Hebrew, Greek, Latin and Teutonic roots)"

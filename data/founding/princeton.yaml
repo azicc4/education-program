@@ -93,7 +93,7 @@ entries:
     tracks: [hebrew, theology]
   - text: "Lectures on Moral Philosophy, reading list on the foundation of virtue: Leibniz's Theodicy, Clarke's Demonstration, Hutcheson's Inquiry and System, Wollaston's Religion of Nature, Butler's Analogy and Sermons, Reid's Inquiry, Smith's Theory of Moral Sentiments, Beattie on Truth"
     use: [reference, student]
-    units: [character-virtue-14, economics-06, social-science-02]
+    units: [character-virtue-14, economics-06, social-science-02, theology-19]
     search: Hutcheson
     tracks: [philosophy, character-virtue, theology]
   - text: "Lectures on Moral Philosophy, writers on government and politics: Grotius, Pufendorf, Barbeyrac, Cumberland, Selden, Burlamaqui, Hobbes, Machiavelli, Harrington, Locke, Sidney"
