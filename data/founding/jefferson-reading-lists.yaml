@@ -187,8 +187,8 @@ entries:
     search: industry
     tracks: [character-virtue, practical-arts]
 notes: >-
-  Founders Online sits behind an automated bot challenge, so its pages could not be fetched.
-  Each founders.archives.gov URL above was instead confirmed from search results that showed
+  The Founders Online pages were not consulted directly.
+  Each founders.archives.gov URL above was confirmed from search listings that showed
   the exact document title, and the letter texts were read on the mirrors listed
   (Wikisource, Monticello, Teaching American History, Constitution Center, Encyclopedia
   Virginia). The Locke/Stewart/Condorcet moral reading comes from the Moore/Minor law course
@@ -198,4 +198,4 @@ notes: >-
   be checked for exact wording. The 1785 Carr letter's full passage on walking and the gun
   is paraphrased here from Wikisource. The Skipwith letter's argument that fiction teaches
   virtue (King Lear and filial duty) is in the Founders Online document but was not
-  confirmed on the mirrors fetched, so it is omitted.
+  confirmed on the mirrors consulted, so it is omitted.

@@ -2815,8 +2815,6 @@ rows:
       of every student.
     sources:
       - { label: "Hillsdale K-12: Curriculum Overview", url: "https://k12.hillsdale.edu/Curriculum/Overview/" }
-    notes: >-
-      Fold in the John Jay Institute curriculum here when it arrives (see TODO.md).
 
   - id: history-32
     title: "College Seminar: Church History from Pentecost to the Present"
