@@ -73,6 +73,10 @@ rows:
       - Hang from a bar 30 seconds or more, and progress to one or more strict pull-ups by 10
       - Balance-beam walking, jumping and landing with control
       - Ten minutes of daily calisthenics as a habit (paired with morning prayer or before lessons)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 240, note: "recreational gymnastics or tumbling class, ~3 yr x 36 wk x 1 h (108 h), plus ten minutes of calisthenics on ~200 days a year x 4 yr (133 h)" }
     curriculumOptions:
       - name: USA Gymnastics member clubs (recreational and developmental programs)
         publisher: USA Gymnastics
@@ -104,6 +108,10 @@ rows:
       - Family hikes of 3–5 miles by age 8, and 8–10 miles by 10
       - Run a mile continuously by 8, and a 5K by 10–11 if interested
       - Learn to throw, catch and kick well through playground and field games
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 240, note: "organized walks, hikes, runs and field games, ~4 yr x 40 wk x 1.5 h; the rest of the daily 60 minutes is free play and not counted" }
     historicalPrecedent: >-
       Jefferson to Peter Carr (1785): "Give about two of them, every day, to exercise; for health must not be sacrificed to learning... Walking is the best
       possible exercise. Habituate yourself to walk very far." He also judged ball games "too violent for the
@@ -133,6 +141,11 @@ rows:
       - Navigate a 5-mile cross-country course with map and compass by 12
       - Complete a 3-night backpacking trip carrying his own gear by 13
       - Earn first-aid certification and know wilderness responses to cold, heat, sprains and bleeding
+    workload:
+      readingHours: 25
+      readingBasis: "807 pp of the 1911 Scout Handbook, Beard and Nessmuk (plain how-to prose) at ~30 pp/h"
+      work:
+        - { kind: practice, hours: 310, note: "skills sessions (knots and lashings, knife and axe, fire, outdoor cooking, water, map and compass), ~100 x 1 h, plus day hikes and camping trips, ~6 yr x 35 h, building to a 3-night backpacking trip; first-aid certification is counted in practical-arts-11" }
     coreTexts:
       - title: Boy Scouts Handbook (1911 original edition)
         kind: instructional
@@ -196,6 +209,11 @@ rows:
       - Master the steps of the shot (stance, nock, set, draw, anchor, aim, release, follow-through)
       - Shoot consistent groups at 10–18 meters, and complete a scored round
       - Read selections of Ascham's Toxophilus on archery as a gentleman's exercise
+    workload:
+      readingHours: 5
+      readingBasis: "selections of Ascham's Toxophilus (16th-c. English dialogue), ~60 pp at ~12 pp/h; the reading load counts all 169 pp"
+      work:
+        - { kind: practice, hours: 120, note: "certified program sessions and range practice, ~4 yr x 20 x 1.5 h, through a scored round" }
     coreTexts:
       - title: Toxophilus (ed. Edward Arber)
         kind: primary
@@ -242,6 +260,12 @@ rows:
       - Ride at walk, trot and canter with a secure, balanced seat, and jump small fences or ride trails
       - Earn successive Pony Club ratings (D levels through C) or complete 4-H horse project years
       - Read Xenophon's On Horsemanship and compare it with modern practice
+    workload:
+      readingHours: 3
+      readingBasis: "45 pp of Xenophon's On Horsemanship at ~15 pp/h"
+      work:
+        - { kind: practice, hours: 325, note: "a weekly riding lesson with grooming, tacking and stable care, 6 yr x 36 wk x 1.5 h" }
+        - { kind: exercises, hours: 30, note: "unmounted horse-management study for Pony Club ratings or 4-H record books, ~40 x 45 min" }
     coreTexts:
       - title: On Horsemanship (trans. H. G. Dakyns)
         kind: primary
@@ -290,6 +314,11 @@ rows:
       - "Ages 10–12: pass a state hunter-education course (four rules of firearm safety, ethics, game laws, first aid)"
       - "Ages 12–15: shoot supervised air rifle or .22 in a junior club, and earn marksmanship qualifications"
       - Clean, store and transport firearms lawfully and safely
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 14, note: "child safety rules (Eddie Eagle, ~2 h) and a state hunter-education course, online plus field day (~12 h)" }
+        - { kind: practice, hours: 140, note: "supervised junior air-rifle or .22 club, ~3 yr x 30 x 1.5 h, with cleaning, storage and transport drills" }
     curriculumOptions:
       - name: Eddie Eagle GunSafe Program (pre-K to grade 4)
         publisher: National Rifle Association
@@ -337,6 +366,12 @@ rows:
       - Learn the rules, positions and basic tactics of the chosen sports
       - Show sportsmanship (no cheating, gracious in loss and victory) and accept coaching
       - Serve as captain or assistant coach of a younger team by 15–16
+    workload:
+      readingHours: 11
+      readingBasis: "336 pp of Tom Brown's School Days (Victorian novel) at ~30 pp/h"
+      work:
+        - { kind: practice, hours: 120, note: "team-sport fundamentals (throwing, catching, footwork, drills) outside team practice, ~8 yr x 30 wk x 30 min; league seasons are counted in the Seasonal Sports track" }
+        - { kind: exercises, hours: 8, note: "rules, positions and basic tactics of the chosen sports" }
     coreTexts:
       - title: Tom Brown's School Days
         kind: primary
@@ -382,6 +417,10 @@ rows:
       - Swim 1,000 yards or more continuously, and one mile by 14
       - Learn open-water safety and basic reaching, throwing and rowing rescues
       - Earn Lifeguarding certification at 15 (minimum age for the Red Cross course)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 185, note: "stroke lessons and lap swimming, ~5 yr x 30 wk x 1 h (150 h), open-water and rescue sessions (~10 h), and the Red Cross Lifeguarding course (~27 h)" }
     curriculumOptions:
       - name: Swimming and lifeguarding courses
         publisher: American Red Cross
@@ -413,6 +452,11 @@ rows:
       - Wrestle a full season or more each year with sound technique in takedowns, escapes, reversals and pins
       - Learn basic self-defense escapes and control holds (judo or jiu-jitsu) as a complement to wrestling
       - Show self-control in anger, respect for opponents, and willingness to lose and learn
+    workload:
+      readingHours: 3
+      readingBasis: "50 pp of Plato's Laws Book VII at ~15 pp/h"
+      work:
+        - { kind: practice, hours: 380, note: "a folkstyle season each year, 6 yr x 14 wk x 3 x 1.5 h, with judo or jiu-jitsu escapes and holds folded in" }
     coreTexts:
       - title: Laws (Book VII, on wrestling and gymnastic training)
         kind: primary
@@ -457,6 +501,11 @@ rows:
       - Fence bouts under the rules of foil, and later épée or sabre, and referee a bout
       - Compete in local and regional youth tournaments if desired
       - Read selections of Angelo's School of Fencing and compare classical and modern technique
+    workload:
+      readingHours: 7
+      readingBasis: "105 pp of Angelo's School of Fencing (18th-c. manual) at ~15 pp/h"
+      work:
+        - { kind: practice, hours: 270, note: "one club session a week, 5 yr x 36 wk x 1.5 h, incl. bouting and refereeing; tournaments and extra sessions are counted in the Seasonal Sports track" }
     coreTexts:
       - title: The School of Fencing
         kind: instructional
@@ -499,6 +548,12 @@ rows:
       - Follow a written progressive program 2–3 days a week, with a training log
       - "Meet conditioning standards by 16: 10+ pull-ups, 40+ push-ups, a sub-8-minute mile, and a bodyweight squat and 1.5× bodyweight deadlift (with coaching)"
       - Understand the basics of recovery, sleep and nutrition for training
+    workload:
+      readingHours: 17
+      readingBasis: "347 pp of Rippetoe's Starting Strength (technical manual) at ~20 pp/h"
+      work:
+        - { kind: practice, hours: 560, note: "a written progressive program with a training log, 2–3 days a week, ~6 yr x 45 wk x 2.5 x 50 min" }
+        - { kind: exercises, hours: 6, note: "recovery, sleep and nutrition for training" }
     coreTexts:
       - title: "Starting Strength: Basic Barbell Training (3rd ed.)"
         kind: instructional

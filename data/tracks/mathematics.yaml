@@ -133,6 +133,11 @@ rows:
       - Understand place value to 1,000 and regroup confidently
       - Solve one- and two-step word problems with bar models
       - Tell time, count money and measure length
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 120, note: "daily arithmetic lessons (Dimensions Math or similar, with Ray's Primary Arithmetic), 2 yr x 36 wk x 5 x 20 min" }
+        - { kind: memorization, hours: 30, note: "daily oral drill of addition and subtraction facts to 20, 360 days x 5 min" }
     coreTexts:
       - title: Ray's New Primary Arithmetic for Young Learners
         kind: instructional
@@ -196,6 +201,11 @@ rows:
       - Recall all multiplication and division facts through 12×12 instantly
       - Solve multi-step word problems mentally and explain the steps aloud
       - Compute with fractions of simple quantities mentally
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "oral mental problems from Ray's Intellectual Arithmetic, explained aloud, 3 yr x 180 days x 8 min" }
+        - { kind: memorization, hours: 35, note: "multiplication and division tables through 12x12 with flashcards and speed drills, 3 yr x 180 days x 4 min" }
     coreTexts:
       - title: Ray's New Intellectual Arithmetic
         kind: instructional
@@ -249,6 +259,10 @@ rows:
       - Add, subtract, multiply and divide fractions and decimals
       - Solve ratio, percent and rate problems with bar models
       - Compute area, perimeter and volume of basic figures
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 200, note: "core arithmetic lessons (Dimensions, Saxon or similar, with Ray's Practical applications), 360 days x 25 min (150 h), plus a weekly Beast Academy problem session, 72 x 40 min (48 h)" }
     coreTexts:
       - title: Ray's New Practical Arithmetic
         kind: instructional
@@ -319,6 +333,10 @@ rows:
       - Solve linear equations in one variable and translate words into expressions
       - Reason with ratio, rate and percent in multi-step problems
       - Explain why arithmetic rules work, not just how
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 130, note: "AoPS Prealgebra or equivalent, 36 wk x 4 x 45 min (108 h), plus a weekly session in Ray's Higher Arithmetic, 36 x 40 min (24 h)" }
     coreTexts:
       - title: Ray's New Higher Arithmetic
         kind: instructional
@@ -372,6 +390,12 @@ rows:
       - Compute in modular arithmetic and convert between number bases
       - Compete in MATHCOUNTS at school/chapter level
       - Sit the AMC 8 each year from about 11
+    workload:
+      readingHours: 14
+      readingBasis: "115 pp of Dedekind's essays read together at ~8 pp/h (mathematical argument)"
+      work:
+        - { kind: exercises, hours: 95, note: "AoPS Introduction to Number Theory, ~15 chapters x 3 h (45 h), plus weekly MATHCOUNTS problem sessions, ~2 seasons x 25 wk x 1 h (50 h)" }
+        - { kind: exam-prep, hours: 20, note: "AMC 8 each year with timed past papers, and MATHCOUNTS chapter competitions" }
     curriculumOptions:
       - name: Introduction to Number Theory
         publisher: Art of Problem Solving
@@ -417,6 +441,10 @@ rows:
       - Factor polynomials and solve quadratics by factoring, completing the square and formula
       - Understand functions and read graphs
       - Write clear algebraic justifications for each step
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 130, note: "Algebra I lessons and problem sets (AoPS or Jacobs), ~170 lessons x 45 min" }
     curriculumOptions:
       - name: Introduction to Algebra
         publisher: Art of Problem Solving
@@ -465,6 +493,12 @@ rows:
       - Construct and demonstrate Books I–IV propositions at the board from memory
       - Prove the Pythagorean theorem (I.47) and its converse
       - Solve modern geometry problems on congruence, similarity, area and circles
+    workload:
+      readingHours: 40
+      readingBasis: "250 pp of Euclid (Heath) at ~6 pp/h, reading each proposition with its figure"
+      work:
+        - { kind: exercises, hours: 80, note: "compass-and-straightedge constructions and modern problems (Jacobs, Kiselev or AoPS), 36 wk x 3 x 45 min" }
+        - { kind: recitation, hours: 25, note: "demonstrating Books I–IV propositions at the board from memory, 36 wk x 2 x 20 min" }
     coreTexts:
       - title: "Elements, Books I–VI (Heath translation)"
         kind: primary
@@ -549,6 +583,10 @@ rows:
       - Analyze polynomial, rational, exponential and logarithmic functions
       - Work with complex numbers and the binomial theorem
       - Sum arithmetic and geometric series and use induction informally
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 130, note: "Algebra II lessons and problem sets, ~150 x 45 min (112 h), plus Gelfand and Shen's Algebra problems, ~25 x 45 min (19 h)" }
     coreTexts:
       - title: Algebra
         kind: instructional
@@ -606,6 +644,12 @@ rows:
       - Demonstrate Book VI similarity theorems
       - Reproduce Archimedes's bounds for π from inscribed and circumscribed polygons
       - Explain the Pythagorean/Nicomachean classification of numbers
+    workload:
+      readingHours: 55
+      readingBasis: "484 pp: Byrne's Books V–VI ~89 pp at ~6 pp/h (15 h), Archimedes ~109 pp at ~5 pp/h (22 h), Nicomachus 286 pp at ~15 pp/h (19 h)"
+      work:
+        - { kind: exercises, hours: 20, note: "proportion theorems and Archimedes's polygon bounds for pi worked out, ~20 x 1 h" }
+        - { kind: recitation, hours: 8, note: "Book V–VI demonstrations at the board, ~15 x 30 min" }
     coreTexts:
       - title: The First Six Books of the Elements of Euclid
         kind: primary
@@ -668,6 +712,10 @@ rows:
       - Prove and apply trigonometric identities
       - Graph and transform functions and use polar and parametric coordinates
       - Use vectors and matrices for basic geometric problems
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 140, note: "precalculus lessons and problem sets (AoPS or equivalent) with Gelfand's Trigonometry, Functions and Graphs and Method of Coordinates, ~170 x 50 min" }
     coreTexts:
       - title: Trigonometry
         kind: instructional
@@ -732,6 +780,12 @@ rows:
       - Sit the AMC 10/12 annually and qualify for the AIME
       - Write up complete solutions to olympiad-style problems
       - Build a personal toolkit of problem-solving strategies
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 110, note: "weekly problem-solving seminar in algebra, combinatorics, number theory and geometry, 3 yr x 36 wk x 1 h" }
+        - { kind: writing, hours: 15, note: "complete written solutions to olympiad-style problems, ~30 x 30 min" }
+        - { kind: exam-prep, hours: 30, note: "AMC 10/12 and AIME each year: timed past papers, ~3 yr x 10 h" }
     curriculumOptions:
       - name: American Mathematics Competitions
         publisher: Mathematical Association of America
@@ -765,6 +819,12 @@ rows:
       - Measure distances and angles and compute unknown sides by trigonometry
       - Survey and plat a real parcel of land, computing its area
       - Determine latitude by sun or Polaris sighting
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 15, note: "trigonometric computation of unknown sides, angles and areas, ~15 x 1 h" }
+        - { kind: project, hours: 17, note: "building a homemade theodolite (~4 h), surveying a parcel over ~3 field days x 3 h, and computing its area and drawing the plat (~4 h)" }
+        - { kind: lab, hours: 5, note: "latitude from noon-sun and Polaris sightings, ~5 x 1 h" }
     historicalPrecedent: >-
       George Washington taught himself surveying from geometry and trigonometry texts and was commissioned
       county surveyor of Culpeper in 1749 at 17. Jefferson and Franklin both prized practical
@@ -801,6 +861,12 @@ rows:
       - Count arrangements and selections and compute probabilities beyond the AP scope (AoPS)
       - Write complete free-response answers in context to AP scoring standards, then sit the AP Statistics exam in May at about 15
       - Critique misleading statistics in news and policy debates
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 150, note: "AP Statistics lessons and problem sets through the five CED units, 36 wk x 4 x 50 min (120 h), plus AoPS Counting and Probability (~30 h)" }
+        - { kind: project, hours: 20, note: "written investigations in the question, collect, analyze, interpret cycle, ~4 x 5 h" }
+        - { kind: exam-prep, hours: 25, note: "released FRQs and timed full practice exams in April and May" }
     curriculumOptions:
       - name: "The Practice of Statistics for the AP Course, 7th ed. (Starnes & Tabor)"
         publisher: BFW / Macmillan Learning
@@ -880,6 +946,10 @@ rows:
       - Write direct, contrapositive, contradiction and induction proofs
       - Use quantifiers, sets, relations and functions precisely
       - Critique and revise proofs for rigor and clarity
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 80, note: "Velleman's How to Prove It, chapters and proof exercises with critique and revision, ~16 wk x 5 x 1 h" }
     coreTexts:
       - title: "How to Prove It: A Structured Approach"
         kind: instructional
@@ -920,6 +990,12 @@ rows:
       - State the fundamental theorem of calculus and justify free-response answers with theorems (MVT, IVT, EVT)
       - Read Newton's Principia Book I, Section 1 (first and last ratios) with understanding
       - Sit the AP Calculus BC exam in May at about 15
+    workload:
+      readingHours: 3
+      readingBasis: "12 pp of Newton's Principia Book I §1 read together at ~4 pp/h; Thompson and the AP text are counted as exercises"
+      work:
+        - { kind: exercises, hours: 170, note: "Thompson's Calculus Made Easy, then an AP text through all ten units, 36 wk x 5 x ~55 min" }
+        - { kind: exam-prep, hours: 30, note: "timed FRQs and ~4 full practice exams in April and May" }
     coreTexts:
       - title: Calculus Made Easy
         kind: instructional
@@ -1023,6 +1099,10 @@ rows:
       - Solve linear systems and interpret them geometrically
       - Prove basic theorems about vector spaces and linear maps
       - Compute and apply eigenvalues, eigenvectors and orthogonal projections
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 145, note: "MIT 18.06 lectures (~34 x 50 min) and Strang's problem sets, then Axler's proof-based chapters, 36 wk x ~4 h" }
     curriculumOptions:
       - name: "Introduction to Linear Algebra (Gilbert Strang) + MIT 18.06"
         publisher: Wellesley-Cambridge Press / MIT OpenCourseWare
@@ -1056,6 +1136,10 @@ rows:
       - Compute multiple and line integrals and apply the vector calculus theorems
       - Construct epsilon-delta proofs about limits and continuity
       - Prove the main theorems of single-variable analysis (IVT, MVT, FTC)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 260, note: "MIT 18.02 lectures and problem sets (~120 h), then Abbott's Understanding Analysis with its proof exercises (~140 h)" }
     curriculumOptions:
       - name: MIT 18.02 Multivariable Calculus
         publisher: MIT OpenCourseWare
@@ -1096,6 +1180,13 @@ rows:
       - Reconstruct Descartes's solution of Pappus's problem
       - Follow Lobachevsky's construction of a geometry without the parallel postulate
       - Explain Dedekind's construction of the real numbers by cuts
+    workload:
+      readingHours: 85
+      readingBasis: "~520 pp at ~5–8 pp/h: Descartes's Geometry (245 pp with facing French facsimile, ~120 pp of English) 25 h, Principia ~227 pp 38 h, Lobachevsky 52 pp 10 h, Dedekind 115 pp 14 h"
+      work:
+        - { kind: recitation, hours: 45, note: "demonstrating propositions at the board in tutorial, 30 wk x 2 x 45 min" }
+        - { kind: exercises, hours: 30, note: "Apollonius and Ptolemy selections from the Green Lion editions (no counted pages) and the reconstruction of Pappus's problem, ~30 x 1 h" }
+        - { kind: writing, hours: 10, note: "a tutorial paper, e.g. on Dedekind's cuts or Lobachevsky's parallels" }
     coreTexts:
       - title: The Geometry of René Descartes (Smith & Latham trans.)
         kind: primary

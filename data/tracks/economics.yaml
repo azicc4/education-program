@@ -69,6 +69,13 @@ rows:
       - Explain costs, revenue, profit, loss, and interest on a loan in simple terms
       - Memorize ten Poor Richard maxims and apply them to real choices
       - Give a tithe or share of the profits and save the rest toward a goal
+    workload:
+      readingHours: 2
+      readingBasis: "30 pp of The Way to Wealth read together at ~20 pp/h (18th-c. prose)"
+      work:
+        - { kind: project, hours: 20, note: "plan, run and close a small business: planning and shopping 4 h, ~5 selling days x 3 h, ledger and close-out 1 h" }
+        - { kind: memorization, hours: 3, note: "ten Poor Richard maxims, 10 x 15 min" }
+        - { kind: discussion, hours: 6, note: "costs, revenue, profit, interest and the maxims applied to real choices, ~24 x 15 min" }
     coreTexts:
       - title: "The Way to Wealth; or, Poor Richard Improved"
         kind: primary
@@ -120,6 +127,13 @@ rows:
       - Define inflation and explain why rising prices can come from an expanding money supply
       - Describe the boom-and-bust cycle in Maybury's terms
       - Keep a year-long price journal and graph the results
+    workload:
+      readingHours: 5
+      readingBasis: "158 pp of Penny Candy (plain-language letters) at ~30 pp/h"
+      work:
+        - { kind: exercises, hours: 9, note: "study-guide questions and activities, ~18 chapters x 30 min" }
+        - { kind: project, hours: 8, note: "year-long price journal, 36 wk x 10 min, plus graphing and comparison with old catalogs (2 h)" }
+        - { kind: discussion, hours: 5, note: "money, inflation and the boom-bust cycle, ~10 x 30 min" }
     coreTexts:
       - title: Whatever Happened to Penny Candy?
         kind: instructional
@@ -163,6 +177,13 @@ rows:
       - Define opportunity cost and comparative advantage with worked examples
       - Summarize Bastiat's argument in The Law about "legal plunder"
       - Write a short "seen and unseen" analysis of a current policy proposal
+    workload:
+      readingHours: 13
+      readingBasis: "325 pp: Bastiat's The Law and Seen and Unseen 120 pp at ~20 pp/h (6 h), Hazlitt 205 pp at ~30 pp/h (7 h)"
+      work:
+        - { kind: exercises, hours: 30, note: "a video economics course with workbook (e.g. Economics for Everybody, 12 lessons x 1.5 h) plus supply-demand, price-ceiling and comparative-advantage problems, ~12 x 1 h" }
+        - { kind: discussion, hours: 12, note: "Hazlitt's chapters and Bastiat, ~24 x 30 min" }
+        - { kind: writing, hours: 6, note: "a summary of The Law and a 'seen and unseen' analysis of a current policy" }
     coreTexts:
       - title: The Law
         kind: primary
@@ -236,6 +257,13 @@ rows:
       - Explain stocks, bonds, index funds, diversification and risk
       - Run a paper portfolio for a year and write an evaluation
       - Read a simple balance sheet and income statement
+    workload:
+      readingHours: 10
+      readingBasis: "304 pp of Bogle at ~30 pp/h"
+      work:
+        - { kind: exercises, hours: 30, note: "Khan Academy personal finance plus compound-interest, loan-cost and balance-sheet problems, ~40 x 45 min" }
+        - { kind: practice, hours: 18, note: "living on and recording a real monthly budget, 18 months x 1 h" }
+        - { kind: project, hours: 16, note: "a paper portfolio run for a year, 36 wk x 15 min, with a written evaluation (4 h) and a practice tax return (3 h)" }
     coreTexts:
       - title: The Little Book of Common Sense Investing (10th Anniversary Ed.)
         kind: primary
@@ -282,6 +310,12 @@ rows:
       - Summarize Smith's critique of mercantilism and his case for free trade
       - Explain the impartial spectator and the relation between self-interest and sympathy in Smith
       - Identify the three duties of the sovereign in Book V and Smith's limits on the market
+    workload:
+      readingHours: 30
+      readingBasis: "490 pp: Theory of Moral Sentiments ~123 pp at ~15 pp/h (8 h), Wealth of Nations ~367 pp at ~17 pp/h (22 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "Hillsdale lectures (~6 h) and ~25 seminar sessions x 45 min" }
+        - { kind: writing, hours: 12, note: "four short explanatory essays (division of labor, mercantilism, impartial spectator, duties of the sovereign), 4 x 3 h" }
     coreTexts:
       - title: The Theory of Moral Sentiments
         kind: primary
@@ -347,6 +381,12 @@ rows:
       - Summarize Belloc's argument that capitalism and socialism both tend toward a "servile state"
       - Summarize John Paul II's qualified endorsement of the "business economy" and "free economy" in Centesimus Annus §42
       - Write an essay comparing distributism with the free-market arguments of Smith and Hayek
+    workload:
+      readingHours: 40
+      readingBasis: "793 pp: three encyclicals 186 pp at ~15 pp/h (12 h), Belloc 188 pp and Chesterton 419 pp at ~20 pp/h (30 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "seminar on property, the just wage, subsidiarity and distributism, ~33 x 45 min" }
+        - { kind: writing, hours: 15, note: "short summaries of Leo XIII, Belloc and Centesimus Annus §42 (5 h) and a comparative essay on distributism, Smith and Hayek (10 h)" }
     coreTexts:
       - title: Rerum Novarum
         kind: primary
@@ -451,6 +491,13 @@ rows:
       - Explain the labor theory of value and why the marginal revolution replaced it
       - Summarize Mill on production versus distribution and on the stationary state
       - Explain Marx's theory of surplus value and class struggle and give the main economic and moral objections to it
+    workload:
+      readingHours: 120
+      readingBasis: "~2,090 pp: Say 488 pp at ~20 pp/h (24 h), Ricardo 450 pp at ~15 pp/h (30 h), Mill ~333 pp at ~20 pp/h (17 h), Manifesto 38 pp (2 h), Capital counted at a third, ~367 pp on surplus value, at ~15 pp/h (24 h; the reading load counts all 1,100 pp), List 414 pp at ~20 pp/h (21 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, ~36 x 50 min" }
+        - { kind: exercises, hours: 5, note: "numerical comparative-advantage and rent examples" }
+        - { kind: writing, hours: 15, note: "three short papers: Say and Ricardo, the labor theory of value and the marginal revolution, objections to Marx" }
     coreTexts:
       - title: A Treatise on Political Economy
         kind: primary
@@ -589,6 +636,12 @@ rows:
       - Summarize the argument of The Road to Serfdom and its reception
       - Explain Röpke's claim that the market depends on moral and social preconditions it cannot produce itself
       - Use Sowell's framework to analyze three current policy debates (housing, minimum wage, trade)
+    workload:
+      readingHours: 25
+      readingBasis: "624 pp: Hayek's essay and Road to Serfdom 312 pp at ~25 pp/h (12 h), Röpke 312 pp at ~22 pp/h (14 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "Hillsdale's ten lectures (~6 h) and ~25 discussions x 45 min" }
+        - { kind: writing, hours: 18, note: "summaries of Hayek and Röpke (6 h) and three policy analyses in Sowell's framework (3 x 4 h)" }
     coreTexts:
       - title: The Use of Knowledge in Society
         kind: primary
@@ -661,6 +714,12 @@ rows:
       - Compare Keynesian, monetarist and Austrian accounts of the business cycle
       - Apply Graham's margin-of-safety principle to evaluate a company's financial statements
       - Write a data-driven policy paper of 3,000 words
+    workload:
+      readingHours: 25
+      readingBasis: "640 pp of The Intelligent Investor (with commentary) at ~25 pp/h"
+      work:
+        - { kind: exercises, hours: 150, note: "college micro and macro principles (e.g. MRU), 2 x 30 wk x 2.5 h of lectures, notes and problem sets, including Graham's financial-statement exercises" }
+        - { kind: writing, hours: 25, note: "a 3,000-word data-driven policy paper, research and revision" }
     coreTexts:
       - title: The Intelligent Investor (Rev. Ed.)
         kind: primary

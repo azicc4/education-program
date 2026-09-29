@@ -103,6 +103,13 @@ rows:
       - Memorize short virtue poems and proverbs (Proverbs, "If," Longfellow, and others)
       - Keep a "golden deeds" notebook of brave, honest or generous acts, both historical and observed
       - Practice one named virtue each month in household duties
+    workload:
+      readingHours: 60
+      readingBasis: "1,387 pp read aloud: Book of Virtues at ~25 pp/h (33 h), Golden Deeds (Victorian prose) at ~20 pp/h (23 h), McGuffey at ~30 pp/h (3 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "talk after the daily story on who acted well and why, 108 wk x ~17 min" }
+        - { kind: memorization, hours: 18, note: "short virtue poems and proverbs, 108 wk x 10 min" }
+        - { kind: writing, hours: 12, note: "golden-deeds notebook entries, ~72 x 10 min" }
     coreTexts:
       - title: "The Book of Virtues: A Treasury of Great Moral Stories"
         kind: secondary
@@ -170,6 +177,12 @@ rows:
       - Know the lives of 50 or more saints and Christian heroes and 20 or more national heroes, and narrate their decisive acts
       - Identify the virtue each exemplifies (Thomas More for integrity, Francis for poverty, Joan for courage, Washington for self-command)
       - Choose a patron and write a short life of him or her
+    workload:
+      readingHours: 16
+      readingBasis: "412 pp read aloud (Lovasik, Hannula) at ~25 pp/h"
+      work:
+        - { kind: discussion, hours: 18, note: "saint-of-the-day narration and talk on the virtue shown, 108 wk x 10 min" }
+        - { kind: writing, hours: 4, note: "a short life of a chosen patron, drafted and copied fair" }
     coreTexts:
       - title: "Picture Book of Saints"
         kind: secondary
@@ -237,6 +250,14 @@ rows:
       - Explain the principle behind each rule (respect, modesty, self-command) and adapt it to modern situations
       - Practice introductions, table manners, letter-writing, phone etiquette, and conversation with adults
       - Write thank-you letters by hand after every gift
+    workload:
+      readingHours: 18
+      readingBasis: "323 pp: Rules of Civility (student, 18th-c. maxims) 63 pp at ~12 pp/h (5 h), Babees' Book read together at ~20 pp/h (13 h)"
+      work:
+        - { kind: writing, hours: 25, note: "copying the 110 rules as penmanship, 110 x 10 min (18 h), plus ~20 hand-written thank-you letters x 20 min (7 h)" }
+        - { kind: memorization, hours: 7, note: "20 or more key rules, ~20 x 20 min" }
+        - { kind: discussion, hours: 12, note: "what each rule means and how it applies now, 72 wk x 10 min" }
+        - { kind: practice, hours: 8, note: "role-played introductions, table, phone and conversation drills, ~24 x 20 min" }
     coreTexts:
       - title: "George Washington's Rules of Civility (Conway ed.)"
         kind: primary
@@ -292,6 +313,13 @@ rows:
       - Keep a weekly virtue chart for a full 13-week cycle
       - Pray or practice a five-step evening Examen (gratitude, light, review, sorrow, resolve)
       - Write a personal daily schedule and rule of life, in imitation of Franklin's "order"
+    workload:
+      readingHours: 2
+      readingBasis: "25 pp of Franklin's Autobiography (Part II) at ~15 pp/h"
+      work:
+        - { kind: practice, hours: 20, note: "13-week virtue chart and nightly five-step Examen, ~91 days x 13 min" }
+        - { kind: writing, hours: 3, note: "a personal daily schedule and written rule of life" }
+        - { kind: discussion, hours: 5, note: "Franklin's method and its limits, then weekly check-ins during the cycle, ~15 x 20 min" }
     coreTexts:
       - title: Autobiography of Benjamin Franklin (Part II, on the virtues)
         kind: primary
@@ -342,6 +370,12 @@ rows:
       - Narrate each reading, then discuss, "Was this well done? What should he have done?"
       - Compare paired Greek and Roman lives as Plutarch does
       - Write short character sketches that explain actions by their motives
+    workload:
+      readingHours: 35
+      readingBasis: "589 pp: Boys' and Girls' Plutarch ~156 pp at ~25 pp/h (6 h), Dryden's Lives ~433 pp at ~15 pp/h (29 h)"
+      work:
+        - { kind: discussion, hours: 35, note: "narration and 'was this well done?' discussion, 108 wk x ~20 min" }
+        - { kind: writing, hours: 20, note: "a character sketch or Greek-Roman comparison for each of ~10 Lives, 10 x 2 h" }
     coreTexts:
       - title: "The Boys' and Girls' Plutarch"
         kind: secondary
@@ -403,6 +437,13 @@ rows:
       - Read The Boy's King Arthur and discuss Arthur, Lancelot, Gawain, Galahad and Mordred as studies in virtue and its failure
       - Learn Gautier's ten commandments of chivalry and relate each to a cardinal or theological virtue
       - Take a chivalric "vow" for a season (defending the weak, keeping one's word, courtesy to all) and keep a record
+    workload:
+      readingHours: 30
+      readingBasis: "793 pp: Boy's King Arthur 371 pp (student, archaic prose) at ~25 pp/h (15 h), Gautier's Chivalry 422 pp (teacher-led, read with the student) at ~30 pp/h (14 h)"
+      work:
+        - { kind: discussion, hours: 18, note: "Arthur, Lancelot, Gawain, Galahad and Mordred as studies in virtue, ~36 x 30 min" }
+        - { kind: memorization, hours: 3, note: "Gautier's ten commandments of chivalry, each tied to a virtue" }
+        - { kind: practice, hours: 4, note: "a season's chivalric vow with a weekly written record, ~12 x 20 min" }
     coreTexts:
       - title: "The Boy's King Arthur (Malory, ed. Sidney Lanier)"
         kind: secondary
@@ -444,6 +485,14 @@ rows:
       - Keep a written budget with income from chores or work, savings, giving and spending for a full year
       - Keep a one-week time log, then design and follow a weekly schedule
       - Discuss the parable of the talents (Matthew 25) and the Christian idea of stewardship
+    workload:
+      readingHours: 19
+      readingBasis: "311 pp: Way to Wealth and Jefferson's canons 22 pp at ~15 pp/h (1 h), Seneca ~147 pp at ~15 pp/h (10 h), Newcomb 142 pp at ~20 pp/h (7 h)"
+      work:
+        - { kind: memorization, hours: 6, note: "Jefferson's ten canons and Franklin's key maxims" }
+        - { kind: practice, hours: 17, note: "a written budget kept for a year, 52 wk x 15 min (13 h), plus a one-week time log and a planned weekly schedule (4 h)" }
+        - { kind: exercises, hours: 30, note: "Foundations in Personal Finance, ~10 chapters x 3 h of video and workbook" }
+        - { kind: discussion, hours: 10, note: "a Newcomb chapter a week turned into a resolution, plus the parable of the talents, ~30 x 20 min" }
     coreTexts:
       - title: "Franklin's Way to Wealth; or, Poor Richard Improved"
         kind: primary
@@ -518,6 +567,13 @@ rows:
       - Explain the difference between acquired (human) and infused (theological) virtue
       - Explain Pieper's thesis that prudence is the "mother" of the virtues and that fortitude presupposes justice
       - Write an essay applying the virtues to a character from Plutarch or history
+    workload:
+      readingHours: 16
+      readingBasis: "251 pp: Pieper 206 pp at ~15 pp/h (14 h), Catechism §§1803–1845 and Lewis Book III 45 pp at ~20 pp/h (2 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "seminar on the seven virtues, acquired vs infused virtue and Pieper's theses, ~50 x 30 min" }
+        - { kind: writing, hours: 10, note: "written definitions of each virtue and its opposed vices (4 h) and one essay applying the virtues to a character (6 h)" }
+        - { kind: memorization, hours: 4, note: "the seven virtues with their definitions and opposed vices" }
     coreTexts:
       - title: "Catechism of the Catholic Church, Part III, Art. 7: The Virtues (§§1803–1845)"
         kind: primary
@@ -589,6 +645,13 @@ rows:
       - Hold a real leadership position for a year or more (patrol leader, team captain, altar-server head, project organizer)
       - Complete 100 or more hours of direct service (the corporal works of mercy) over the course
       - Plan and lead a service project from proposal to report
+    workload:
+      readingHours: 5
+      readingBasis: "~109 pp of Cyropaedia selections (Dakyns) at ~20 pp/h"
+      work:
+        - { kind: practice, hours: 135, note: "100 or more hours of direct service (objective) plus a year in a leadership post, ~36 wk x 1 h of planning and leading" }
+        - { kind: project, hours: 20, note: "plan and lead a service project from proposal to written report" }
+        - { kind: discussion, hours: 5, note: "Cyropaedia on why men willingly obey a leader, ~6 x 45 min" }
     coreTexts:
       - title: "Cyropaedia: The Education of Cyrus"
         kind: primary
@@ -636,6 +699,13 @@ rows:
       - Read Newman's Discourse VIII (Knowledge viewed in relation to Religion) and memorize the gentleman passage
       - Read selections of The Book of the Courtier (Book I on arms and letters, Book IV on the courtier's end)
       - Write a comparative essay on the knight, the courtier and the gentleman, and on what each lacks without charity
+    workload:
+      readingHours: 9
+      readingBasis: "169 pp: Newman Discourse VIII 30 pp at ~15 pp/h (2 h), Castiglione ~119 pp and Washington's letters 20 pp at ~20 pp/h (7 h)"
+      work:
+        - { kind: memorization, hours: 3, note: "Newman's gentleman passage" }
+        - { kind: writing, hours: 8, note: "comparative essay on the knight, the courtier and the gentleman, with revision" }
+        - { kind: discussion, hours: 6, note: "Newman against Castiglione and the knightly ideal, ~8 x 45 min" }
     coreTexts:
       - title: The Idea of a University (Discourse VIII)
         kind: primary
@@ -696,6 +766,12 @@ rows:
       - Explain the doctrine of the mean and why the mean is "relative to us"
       - Apply Aristotle's account of courage, temperance, liberality, magnanimity and friendship to his own life in a reflective journal
       - Explain what Aristotle's ethics lacks that Christian teaching supplies (humility, charity, grace)
+    workload:
+      readingHours: 13
+      readingBasis: "~200 pp at ~15 pp/h: the objectives assign Books I–IV, VI, VIII–X of Chase's Ethics in full (the reading load counts ~93 pp)"
+      work:
+        - { kind: writing, hours: 18, note: "reflective journal auditing his own habits, 36 wk x 20 min (12 h), plus one essay on what Christian teaching adds (6 h)" }
+        - { kind: discussion, hours: 25, note: "Hillsdale's ten lectures (~6 h) and ~25 discussions x 45 min on the mean, courage, liberality, magnanimity and friendship" }
     coreTexts:
       - title: The Nicomachean Ethics (trans. D. P. Chase)
         kind: primary
@@ -745,6 +821,13 @@ rows:
       - Explain Cicero's four sources of the honestum and their relation to the cardinal virtues
       - Analyze Cicero's cases of conflict between the honorable and the expedient (Regulus, the grain merchant of Rhodes)
       - Write a letter to a younger sibling on duty, in imitation of Cicero's letter to his son
+    workload:
+      readingHours: 10
+      readingBasis: "210 pp of De Officiis (Miller) at ~20 pp/h"
+      work:
+        - { kind: translation, hours: 12, note: "Book I chs. 4–17 in Latin if the Latin track allows, ~25 Loeb pages at ~2 pp/h" }
+        - { kind: discussion, hours: 20, note: "the four sources of the honestum and the conflict cases (Regulus, the Rhodes grain merchant), ~27 x 45 min" }
+        - { kind: writing, hours: 6, note: "a letter on duty to a younger sibling, in imitation of Cicero" }
     coreTexts:
       - title: De Officiis (Walter Miller translation, 1913)
         kind: primary
@@ -794,6 +877,12 @@ rows:
       - Read Witherspoon's Lectures and identify its Scottish common-sense sources and its account of duties to God, self and others
       - Read After Virtue and assess its diagnosis of modern moral disagreement
       - "Write a 3,000-word paper: Is a republic possible without virtue? Draw on Aristotle, Cicero, Aquinas, Witherspoon and the founders"
+    workload:
+      readingHours: 35
+      readingBasis: "~600 pp: Aquinas ST I-II qq. 55–67 and four II-II questions ~130 pp at ~12 pp/h (11 h; the reading load counts only q. 55), Witherspoon 182 pp at ~20 pp/h (9 h), MacIntyre 286 pp at ~20 pp/h (14 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly capstone seminar, ~30 x 1 h" }
+        - { kind: writing, hours: 25, note: "outline of Aquinas on the virtues (5 h) and a 3,000-word paper on virtue and the republic (20 h)" }
     coreTexts:
       - title: "Summa Theologiae I-II q. 55 (The virtues, as to their essence)"
         kind: primary

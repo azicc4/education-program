@@ -62,6 +62,12 @@ rows:
       - Grow at least six vegetables and herbs from seed to harvest
       - Keep a dated garden journal of sowing, germination, harvest and weather
       - Build and turn a compost pile; save seed from one open-pollinated plant
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 60, note: "sowing, watering, weeding and harvesting his own bed, ~3 seasons x 20 wk x 1 h" }
+        - { kind: project, hours: 6, note: "bed plan on graph paper with a planting calendar, a compost pile, and seed saving" }
+        - { kind: writing, hours: 10, note: "dated garden journal, ~3 seasons x 20 wk x 10 min" }
     coreTexts:
       - title: "Thomas Jefferson's Garden Book (manuscript facsimile, 1766–1824)"
         kind: primary
@@ -115,6 +121,11 @@ rows:
       - Bake a loaf of yeast bread and a pie from scratch
       - Can or preserve one garden crop safely
       - Plan, shop for within a budget, and cook a three-course dinner for the family
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 150, note: "graded kitchen apprenticeship from knife skills and measuring to bread, pie and roasts, 5 yr x ~30 sessions x 1 h" }
+        - { kind: project, hours: 12, note: "preserving a garden crop (~4 h) and planning, budgeting, shopping for and cooking a three-course family dinner (~8 h)" }
     coreTexts:
       - title: "The Virginia House-Wife; or, Methodical Cook"
         kind: instructional
@@ -176,6 +187,12 @@ rows:
       - Darn a sock and patch a hole
       - Complete a simple machine-sewn project from a pattern
       - Tie and state the use of six essential knots from memory
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 20, note: "hand stitches, buttons, seams, hems, darning and patching, ~27 x 45 min" }
+        - { kind: memorization, hours: 5, note: "six essential knots tied and their uses stated from memory, ~10 x 30 min" }
+        - { kind: project, hours: 6, note: "a machine-sewn apron or tote bag from a pattern" }
     coreTexts:
       - title: Encyclopedia of Needlework
         kind: instructional
@@ -218,6 +235,11 @@ rows:
       - Measure and mark to 1/16 inch and cut to a line
       - Complete a graded series of eight or more sloyd models
       - Sharpen a knife and a chisel on stones
+    workload:
+      readingHours: 0
+      work:
+        - { kind: project, hours: 45, note: "a graded series of 8–10 sloyd models x ~5 h" }
+        - { kind: practice, hours: 12, note: "tool drills, measuring and marking to 1/16 in., and sharpening on stones, ~16 x 45 min" }
     coreTexts:
       - title: "The Teacher's Handbook of Slöjd, as Practised and Taught at Nääs"
         kind: instructional
@@ -259,6 +281,12 @@ rows:
       - Build a simple spreadsheet with formulas (a budget or garden log)
       - Explain basic rules of online safety, passwords and privacy
       - Complete a small Scratch project
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 35, note: "touch-typing drills to 40 wpm, ~4 x 15 min a week for ~35 weeks" }
+        - { kind: exercises, hours: 11, note: "file management, word processing, a spreadsheet with formulas, and online safety, ~15 x 45 min" }
+        - { kind: project, hours: 5, note: "a small Scratch project" }
     curriculumOptions:
       - name: Typing.com (free)
         publisher: Typing.com
@@ -293,6 +321,13 @@ rows:
       - Write a page of copperplate with a pointed pen and ink
       - Write and mail at least one letter a month for a year (personal, business, and to a public official)
       - Know the conventions of heading, salutation, body, complimentary close and envelope address
+    workload:
+      readingHours: 9
+      readingBasis: "137 pp: Chesterfield's letters (selections) and Jefferson to Peter Carr at ~15 pp/h; the Spencer and Bickham copybooks are practice, not reading"
+      work:
+        - { kind: practice, hours: 60, note: "Spencerian copybooks, then Bickham's round hand with a pointed pen, ~150 sessions x 25 min" }
+        - { kind: writing, hours: 10, note: "a letter a month for a year (personal, business, to a public official) plus thank-you notes, ~14 x 45 min" }
+        - { kind: discussion, hours: 4, note: "reading Chesterfield selectively: his manners and style against Johnson's criticism" }
     coreTexts:
       - title: Spencerian Key to Practical Penmanship
         kind: instructional
@@ -373,6 +408,13 @@ rows:
       - Recognize common signs of illness and parasites and know when to call a veterinarian
       - Explain crop rotation, soil fertility and the farm year
       - Show an animal or project at a county fair or 4-H event
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 150, note: "daily feeding, housing and care of the flock and later animals, ~3 yr x 300 days x 10 min" }
+        - { kind: writing, hours: 20, note: "Farm Book records of feed, production and costs, ~100 wk x 12 min" }
+        - { kind: exercises, hours: 15, note: "4-H project study of animal health, parasites, crop rotation and the farm year, ~20 x 45 min" }
+        - { kind: project, hours: 15, note: "preparing and showing an animal or project at a county fair or 4-H event" }
     coreTexts:
       - title: "Thomas Jefferson's Farm Book (manuscript facsimile, 1774–1824)"
         kind: primary
@@ -423,6 +465,12 @@ rows:
       - Run a closed traverse with chain and compass, keep field notes, and compute the error of closure
       - Compute the area of an irregular field in acres and draw a plat to scale
       - Explain Gunter's chain (66 feet, 100 links; 10 square chains = 1 acre) and the rectangular survey system
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 30, note: "working through Gibson's Treatise (a 288-pp manual, not counted as reading) and topographic-map, contour and route exercises, ~30 x 1 h" }
+        - { kind: practice, hours: 30, note: "compass bearings and ~8 orienteering meets x 3 h" }
+        - { kind: project, hours: 25, note: "surveying a real field: closed traverse with chain and compass, ~4 field days x 4 h, then area, error of closure, a scaled plat and comparison with GPS and the county plat (~9 h)" }
     coreTexts:
       - title: A Treatise of Practical Surveying
         kind: instructional
@@ -477,6 +525,11 @@ rows:
       - Cut mortise-and-tenon and dovetail joints that fit off the saw
       - Build a dovetailed tool chest from a drawing
       - Frame a small structure (shed or playhouse) with a crew, including layout, squaring and roof pitch
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 40, note: "sharpening, plane setup, flattening and squaring stock, and joint drills, ~40 x 1 h" }
+        - { kind: project, hours: 130, note: "a dovetailed tool chest (~40 h), a bench or bookcase (~30 h), a Shaker-style table (~30 h), and framing a shed or playhouse with a crew (~30 h)" }
     curriculumOptions:
       - name: The Joiner and Cabinet Maker (1839 text with modern project commentary)
         publisher: Lost Art Press
@@ -514,6 +567,12 @@ rows:
       - Demonstrate bleeding control, including a tourniquet, and the recovery position
       - Assemble and maintain a home first-aid kit and a family emergency plan
       - Complete a wilderness first-aid course by age 16 if camping or hunting
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 30, note: "Red Cross or AHA first aid/CPR/AED course (~6 h), bleeding-control and splinting drills (~6 h), and a wilderness first-aid course (~16 h) where the family camps or hunts" }
+        - { kind: exercises, hours: 9, note: "study of shock, fractures, burns, choking, heat and cold injuries and allergic reactions, ~12 x 45 min" }
+        - { kind: project, hours: 5, note: "home and car emergency kits and a written family emergency plan" }
     curriculumOptions:
       - name: First Aid / CPR / AED courses
         publisher: American Red Cross
@@ -549,6 +608,12 @@ rows:
       - Explain debits, credits, assets, liabilities, equity, revenue and expenses
       - Prepare a balance sheet and income statement for a small business
       - Keep the books of a real enterprise (his own or the family's) for at least six months
+    workload:
+      readingHours: 13
+      readingBasis: "190 pp of Pacioli's treatise (in translation) at ~15 pp/h; Marsh and Duff are manuals worked as exercises"
+      work:
+        - { kind: exercises, hours: 40, note: "journal, ledger, trial balance and financial statements worked from Marsh and Duff, ~40 x 1 h" }
+        - { kind: practice, hours: 16, note: "keeping the books of a real enterprise for six months or more, ~26 wk x 30 min, plus setting up a spreadsheet and software (3 h)" }
     coreTexts:
       - title: "Ancient Double-Entry Bookkeeping: Lucas Pacioli's Treatise (1494), trans. J. B. Geijsbeek"
         kind: primary
@@ -608,6 +673,14 @@ rows:
       - Operate a business for 12 months with books, invoices and a year-end profit and loss statement
       - Handle customers professionally (quotes, contracts, complaints, collections)
       - Found or join a peer Junto and lead at least one meeting using the standing queries
+    workload:
+      readingHours: 9
+      readingBasis: "183 pp: Franklin's Autobiography and the Junto queries at ~20 pp/h"
+      work:
+        - { kind: practice, hours: 150, note: "running the business for 12 months or more, ~50 wk x 3 h, incl. quotes, contracts, complaints and collections" }
+        - { kind: exercises, hours: 25, note: "double-entry books and invoices for the business, ~50 wk x 30 min" }
+        - { kind: writing, hours: 10, note: "one-page business plan with break-even, reports to the family board, and a year-end P&L" }
+        - { kind: discussion, hours: 35, note: "monthly Junto meetings on the standing queries, ~24 x 1.5 h" }
     coreTexts:
       - title: Autobiography of Benjamin Franklin
         kind: primary
@@ -665,6 +738,11 @@ rows:
       - Plot a coastal course with dead reckoning and bearings on a paper chart
       - Take a noon sight with a sextant and compute latitude within 5 nautical miles
       - Reduce a star or sun sight and plot a line of position
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 50, note: "US Sailing small-boat course (~24 h), ~16 h more sailing, and ~10 sextant sessions with an artificial horizon" }
+        - { kind: exercises, hours: 30, note: "coastal piloting and dead reckoning on paper charts, the noon sight, and sight reduction with the Nautical Almanac, ~40 x 45 min" }
     coreTexts:
       - title: "The American Practical Navigator (Bowditch), Pub. No. 9"
         kind: instructional
@@ -711,6 +789,12 @@ rows:
       - Identify and draw the five classical orders with correct proportions
       - Produce a measured drawing of an existing building or room
       - Design a small building (shed, cabin or chapel) with plan, elevations and a materials list
+    workload:
+      readingHours: 2
+      readingBasis: "Palladio's Book I on the orders has no page count listed: ~30 pp of Ware's text (the book is mostly plates) at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 50, note: "hand drafting then CAD (orthographic, isometric, sections, dimensioning), ~40 x 1 h, plus the five orders drawn in proportion, 5 x 2 h" }
+        - { kind: project, hours: 35, note: "a measured drawing of a real building or room (~12 h) and a capstone set of plans, elevations and materials list for a small building (~23 h)" }
     coreTexts:
       - title: "The Four Books of Architecture (Isaac Ware trans.)"
         kind: primary
@@ -756,6 +840,12 @@ rows:
       - Change oil and a tire, check and top up fluids, and replace wiper blades and a battery
       - Log at least 100 hours of supervised driving across night, highway and bad-weather conditions
       - Earn a driver's license and maintain a clean record
+    workload:
+      readingHours: 12
+      readingBasis: "234 pp of Keene's Mechanics of the Household (explanatory manual) at ~20 pp/h"
+      work:
+        - { kind: practice, hours: 125, note: "100 h of logged supervised driving (objective), household repairs ~8 x 2 h, and car maintenance ~6 x 1.5 h" }
+        - { kind: exam-prep, hours: 10, note: "state driver's manual, permit test and road test" }
     coreTexts:
       - title: Mechanics of the Household
         kind: instructional
@@ -814,6 +904,11 @@ rows:
       - Complete at least one 6–12-week supervised placement with a professional mentor
       - Keep a daily work journal and write a reflective report on the profession
       - Earn a written evaluation and letter of reference from the mentor
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 370, note: "100+ documented service hours a year x 2.5 yr (250 h) plus one 6–12-week professional placement, ~8 wk x 15 h (120 h)" }
+        - { kind: writing, hours: 18, note: "daily work journal during the placement, ~40 x 15 min, and a reflective report on the profession (~8 h)" }
     coreTexts:
       - title: Autobiography of Benjamin Franklin
         kind: primary
@@ -867,6 +962,12 @@ rows:
       - Draft a household maintenance calendar and inventory
       - Explain the basic instruments of estate planning and why each adult needs a will
       - Host a formal dinner for guests, planned, budgeted and cooked by the student
+    workload:
+      readingHours: 15
+      readingBasis: "369 pp of Beecher's Treatise on Domestic Economy at ~25 pp/h; Beeton and the Washington and Jefferson records are not counted"
+      work:
+        - { kind: exercises, hours: 16, note: "insurance comparison, contracts, hiring help, and the instruments of estate planning, ~16 x 1 h" }
+        - { kind: project, hours: 30, note: "annual budget and 10-year capital plan (~10 h), maintenance calendar and inventory (~6 h), a formal dinner planned, budgeted and cooked (~10 h), renting-versus-buying analysis (~4 h)" }
     coreTexts:
       - title: A Treatise on Domestic Economy
         kind: instructional
