@@ -49,7 +49,9 @@ npm run build
 npm run serve
 ```
 
-and open http://localhost:8080. To publish on GitHub Pages, go to Settings → Pages and set the source to `main` / `docs`.
+and open http://localhost:8080.
+
+The site is published at **https://azicc4.github.io/education-program/**. The workflow in `.github/workflows/pages.yml` runs `npm run build` and deploys `docs/` on every push to `main` (it can also be run by hand from the Actions tab). It needs Settings → Pages → Build and deployment → Source set to **GitHub Actions**, once.
 
 ### Editing the content
 
