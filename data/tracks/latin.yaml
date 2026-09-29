@@ -36,6 +36,11 @@ rows:
       - Know about 100–150 vocabulary words with English derivatives
       - Recite the Pater Noster, Ave Maria, Gloria Patri and Signum Crucis from memory
       - Identify nouns, verbs and adjectives in simple English and Latin sentences
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 30, note: "Prima Latina or Song School, about 30 lessons over 32 weeks, 3 x 20 min a week" }
+        - { kind: memorization, hours: 15, note: "daily chants, 100–150 words and four prayers, about 5 min x 180 days" }
     curriculumOptions:
       - name: Prima Latina
         publisher: Memoria Press
@@ -102,6 +107,11 @@ rows:
       - Translate simple Latin sentences into English and English sentences into Latin
       - Know about 300–400 cumulative vocabulary words and 100+ English derivatives
       - Sing or recite a few Latin hymns and sayings (e.g. Adeste Fideles, Veni Creator)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 40, note: "Latina Christiana, 25 lessons x 4 sessions x 25 min" }
+        - { kind: memorization, hours: 20, note: "vocabulary drill, chants and hymns, about 7 min x 180 days" }
     curriculumOptions:
       - name: Latina Christiana I
         publisher: Memoria Press
@@ -163,6 +173,11 @@ rows:
       - Parse any regular noun or verb form on sight (person, number, tense, voice, case)
       - Translate connected sentences of 10–15 words
       - Write the grammar recitation (all paradigms) from memory in under 20 minutes
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 90, note: "First and Second Form, about 54 weeks x 4 sessions x 25 min" }
+        - { kind: memorization, hours: 35, note: "daily grammar recitation of all paradigms, 54 weeks x 4 x 10 min" }
     curriculumOptions:
       - name: First Form & Second Form Latin
         publisher: Memoria Press
@@ -218,6 +233,11 @@ rows:
       - Translate ablative absolutes, indirect statement, gerunds and gerundives accurately
       - Read 20–30 lines of adapted connected Latin at a sitting without looking up forms
       - Command a working vocabulary of about 1,000 words (DCC Latin Core List)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 190, note: "one main grammar (Henle I, Wheelock or Ørberg) over 2 years, 72 weeks x 4 sessions x 40 min" }
+        - { kind: memorization, hours: 40, note: "DCC core list to about 1,000 words, flashcards 72 weeks x 4 x 8 min" }
     coreTexts:
       - title: Latin Core Vocabulary (1,000 most common words)
         kind: instructional
@@ -322,6 +342,11 @@ rows:
       - Read 20+ of Corderius's and several of Erasmus's Colloquies, and act out one aloud
       - Read Eutropius Books I–II (kings and early Republic) as a historical reader
       - Sustain 15 minutes of reading without stopping to parse every word
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 50, note: "about 200 pp of Latin text (Fabulae Faciles ~60, Corderius and Erasmus ~45, Eutropius I–II ~15, Phaedrus ~80) read for speed at ~4 pp/h; the counted 547 pp include notes, vocabularies and a third of the whole Colloquia" }
+        - { kind: recitation, hours: 4, note: "acting out a colloquy aloud, with rehearsal" }
     coreTexts:
       - title: "Ritchie's Fabulae Faciles: A First Latin Reader"
         kind: instructional
@@ -420,6 +445,10 @@ rows:
       - Find any construction in Bennett or A&G by index and section number
       - Explain a syntax point by citing its grammar section
       - Read the grammar's sections on prosody (dactylic hexameter) before starting Ovid
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 12, note: "about 8 one-hour lessons on using Bennett and A&G by index and section, plus 4 h on the prosody sections before Ovid; later look-ups are counted in the reading units" }
     coreTexts:
       - title: New Latin Grammar
         kind: instructional
@@ -498,6 +527,12 @@ rows:
       - Read three of Nepos's Lives, including Hannibal
       - Construe periodic sentences with ablative absolutes and indirect speech
       - Write a one-page English essay judging Caesar as a commander and a statesman
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 80, note: "about 80 pp of Latin actually construed (BG I ~30, selections II–VII ~25, three Lives of Nepos ~22; counted 133 pp) with the tutor at ~1 pp/h, 36 weeks x 3 x 45 min" }
+        - { kind: writing, hours: 4, note: "one-page English essay on Caesar as commander and statesman, with revision" }
+        - { kind: discussion, hours: 9, note: "weekly discussion of ambition, command and the Republic, 36 x 15 min" }
     coreTexts:
       - title: Commentarii de Bello Gallico
         kind: primary
@@ -582,6 +617,11 @@ rows:
       - Write a correct 100-word Latin paragraph in the style of Caesar
       - Choose the right idiom for purpose, result, indirect speech and conditions
       - Keep a personal phrase-book of Ciceronian idioms collected from reading
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 115, note: "about 90 weekly proses over 2.5 years (Arnold I–II, then North & Hillard) x ~75 min, including writing out corrections; the two books are workbooks, not reading" }
+        - { kind: discussion, hours: 30, note: "tutor correction of each prose, 90 x 20 min" }
     coreTexts:
       - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold)"
         kind: instructional
@@ -647,6 +687,13 @@ rows:
       - Read about 600–800 lines of the Metamorphoses in Latin
       - Memorize and recite the opening of the Metamorphoses (I.1–20)
       - Trace three Ovidian myths into later English poetry or painting
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 45, note: "about 700 lines of the Metamorphoses at ~20 lines/h (35 h) and ~150 lines of the Tristia (8 h); the counted 131 pp agree" }
+        - { kind: exercises, hours: 8, note: "scansion drill in hexameter and elegiac couplets, 16 x 30 min" }
+        - { kind: memorization, hours: 3, note: "Metamorphoses I.1–20" }
+        - { kind: project, hours: 6, note: "tracing three Ovidian myths into English poetry or painting" }
     coreTexts:
       - title: Metamorphoses
         kind: primary
@@ -696,6 +743,12 @@ rows:
       - Follow the Latin Mass (Ordinary) and Compline in Latin with understanding
       - Memorize and sing or recite four great Latin hymns
       - List the main differences of ecclesiastical and medieval Latin (quod/quia clauses, vocabulary, orthography)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "Vulgate Genesis 1–11, John and about 20 Psalms (~55 pp at ~2.5 pp/h, 22 h), plus hymns, the Ordinary, Vespers and Compline (~12 pp at ~1.5 pp/h, 8 h); the counted 1,400 pp is the whole Bible, not the assignment" }
+        - { kind: exercises, hours: 20, note: "lessons on ecclesiastical and medieval usage (e.g. Lingua Angelica), about 20 x 1 h" }
+        - { kind: memorization, hours: 8, note: "four great hymns, sung or recited" }
     coreTexts:
       - title: Biblia Sacra Vulgata (Clementine)
         kind: primary
@@ -795,6 +848,12 @@ rows:
       - Read De Amicitia and De Officiis Book I (all or large parts)
       - Memorize and declaim "Quo usque tandem" (Cat. I.1–2)
       - Analyse the structure of a Ciceronian period and a classical oration (exordium to peroratio)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 130, note: "about 155 pp of Latin actually assigned (Cat. I, Pro Archia, De Amicitia, 15–20 letters, Off. I, Tusculan selections) at ~1.2 pp/h; the counted 553 pp include a third of the complete letters" }
+        - { kind: discussion, hours: 15, note: "structure of the period and the oration, and the moral works, about 30 x 30 min" }
+        - { kind: memorization, hours: 4, note: "Quo usque tandem (Cat. I.1–2), learned and declaimed" }
     coreTexts:
       - title: In Catilinam I–IV
         kind: primary
@@ -918,6 +977,14 @@ rows:
       - Memorize at least 100 lines (e.g. I.1–33, VI.847–853)
       - Write an essay on pietas in Aeneas compared with Achilles or Odysseus
       - Read Eclogue IV and know its place in Christian reception (the "Messianic" eclogue)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 125, note: "Aeneid I, II, IV and VI, about 3,000 lines at ~25 lines/h (120 h), and Eclogues I and IV (6 h)" }
+        - { kind: memorization, hours: 10, note: "at least 100 lines of the Aeneid" }
+        - { kind: exercises, hours: 8, note: "scansion and expressive reading of hexameter at sight, 16 x 30 min" }
+        - { kind: writing, hours: 8, note: "essay on pietas in Aeneas compared with Achilles or Odysseus" }
+        - { kind: discussion, hours: 10, note: "weekly discussion of the poem, 40 x 15 min" }
     coreTexts:
       - title: Aeneid
         kind: primary
@@ -984,6 +1051,12 @@ rows:
       - Read Sallust's Bellum Catilinae (chapters 1–13 and the Caesar–Cato debate, 51–54)
       - Compare Sallust's Catiline with Cicero's in an essay
       - Draw three lessons on republican virtue that Adams or Jefferson drew from Roman history
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 60, note: "about 75 pp of Latin actually assigned (Livy Praefatio and most of Book I ~45, XXI–XXII selections ~15, Sallust ch. 1–13 and 51–54 ~12) at ~1.2 pp/h; the counted 886 pp are a third of the complete Livy" }
+        - { kind: writing, hours: 10, note: "essay comparing Sallust's and Cicero's Catiline (7 h) and a short piece on three lessons the founders drew (3 h)" }
+        - { kind: discussion, hours: 10, note: "republican virtue, faction and liberty, about 20 x 30 min" }
     coreTexts:
       - title: Ab Urbe Condita
         kind: primary
@@ -1057,6 +1130,13 @@ rows:
       - Read the Ars Poetica and summarize its precepts on poetry
       - Memorize five Odes (e.g. I.11 "carpe diem", III.2 "dulce et decorum", III.30 "exegi monumentum")
       - Imitate one Horatian ode in English verse
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 130, note: "Horace: 25–30 Odes, two Satires and the Ars Poetica, about 1,450 lines at ~22 lines/h (65 h); Terence Andria and Adelphoe, about 2,000 lines at ~30 lines/h (65 h); counted 167 pp" }
+        - { kind: memorization, hours: 8, note: "five Odes" }
+        - { kind: exercises, hours: 6, note: "Alcaic, Sapphic and Asclepiad scansion drill" }
+        - { kind: writing, hours: 5, note: "one Horatian ode imitated in English verse" }
     coreTexts:
       - title: Carmina, Sermones, Epistulae, Ars Poetica
         kind: primary
@@ -1141,6 +1221,13 @@ rows:
       - Render a 250-word English passage into periodic Ciceronian Latin
       - Compose 12 correct elegiac couplets on a set theme
       - Write and deliver a short Latin oration (3–5 minutes)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 110, note: "weekly continuous prose (North & Hillard Part II, Arnold Part III) over 2 years, 72 x ~90 min including fair copy" }
+        - { kind: writing, hours: 25, note: "Latin verse: 12 elegiac couplets and hexameter practice with a Gradus (15 h), and writing a 3–5 minute Latin oration (10 h)" }
+        - { kind: recitation, hours: 3, note: "rehearsing and delivering the oration" }
+        - { kind: discussion, hours: 25, note: "tutor correction of proses and verses, 72 x 20 min" }
     coreTexts:
       - title: Latin Prose Composition for the Middle Forms of Schools
         kind: instructional
@@ -1201,6 +1288,13 @@ rows:
       - Read Bede HE IV.24 (Caedmon) and II.1 (Gregory and the English slaves)
       - Read and outline three articles of the Summa Theologiae in Latin (objections, sed contra, respondeo, replies)
       - Memorize Adoro Te Devote or Pange Lingua
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "about 50 pp of Latin actually assigned: Confessions I and VIII (~38 pp) at ~1.5 pp/h (25 h), Bede IV.24 and II.1 and three Summa articles with two hymns (~12 pp) at ~2.5 pp/h (5 h); the counted 1,267 pp are thirds of the complete works" }
+        - { kind: exercises, hours: 4, note: "outlining three Summa articles (objections, sed contra, respondeo, replies)" }
+        - { kind: memorization, hours: 3, note: "Adoro Te Devote or Pange Lingua" }
+        - { kind: discussion, hours: 8, note: "Christian Latin and the Catholic and Protestant reception of Augustine and Aquinas, 16 x 30 min" }
     coreTexts:
       - title: Confessiones
         kind: primary
@@ -1282,6 +1376,12 @@ rows:
       - Read the Agricola complete and selections from Annals I, IV and XV
       - Analyse Tacitean style (brevity, inconcinnity, sententiae)
       - Write a Latin summary (argumentum) of each book read
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 165, note: "Lucretius I and III, about 2,200 lines at ~20 lines/h (110 h); Agricola and Annals selections, about 55 pp at ~1 pp/h (55 h); counted 363 pp" }
+        - { kind: writing, hours: 20, note: "Latin argumentum for each book read (10 h) and a Christian and classical critique of Epicureanism (10 h)" }
+        - { kind: discussion, hours: 15, note: "weekly tutorial on Epicureanism and Tacitean style, 30 x 30 min" }
     coreTexts:
       - title: De Rerum Natura
         kind: primary
@@ -1346,6 +1446,12 @@ rows:
       - Read Summa Theologiae I-II qq.90–97 (the Treatise on Law) in Latin
       - Translate an unseen passage of Cicero, Livy or Virgil at sight with minimal help
       - Read a Neo-Latin political text (More, Erasmus's Institutio Principis Christiani, or Grotius)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 95, note: "Confessions I–X (~160 pp of Latin) and Erasmus Institutio (~100 pp) at ~3 pp/h, and Summa I-II qq.90–97 (~40 pp) at ~4 pp/h; counted 810 pp include editions with apparatus" }
+        - { kind: practice, hours: 60, note: "daily sight-reading of unseen Cicero, Livy, Virgil and Neo-Latin, 36 weeks x 5 x 20 min" }
+        - { kind: discussion, hours: 15, note: "natural law and the Christian prince, 30 x 30 min" }
     coreTexts:
       - title: Confessiones
         kind: primary

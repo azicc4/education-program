@@ -34,6 +34,11 @@ rows:
       - Decline strong and weak nouns and adjectives and the demonstratives se/sēo/þæt
       - Recognize the seven strong verb classes and conjugate weak verbs
       - Translate simple prose sentences with a glossary
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 40, note: "Sweet's Primer (128 pp, a grammar) or Baker with Old English Aerobics, 18 weeks x 3 x 45 min" }
+        - { kind: memorization, hours: 6, note: "paradigms of nouns, adjectives and se/sēo/þæt, and the Lord's Prayer" }
     coreTexts:
       - title: Anglo-Saxon Primer, with Grammar, Notes, and Glossary
         kind: instructional
@@ -97,6 +102,11 @@ rows:
       - Read the Old English Bede's account of Cædmon
       - Read two Anglo-Saxon Chronicle entries (755 and 1087) in Old English
       - Explain the comitatus ideal of lord and retainer from the Cynewulf and Cyneheard episode
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "Colloquy, Cædmon and the Chronicle entries (18 pp) and Sweet's Reader selections (~30 pp of Old English within the counted 103 pp), about 48 pp at ~1.5 pp/h" }
+        - { kind: discussion, hours: 4, note: "the comitatus ideal and the Latin of the Colloquy, 8 x 30 min" }
     coreTexts:
       - title: Ælfric's Colloquy (Old English gloss)
         kind: primary
@@ -163,6 +173,13 @@ rows:
       - Read selections of The Seafarer and The Battle of Maldon (lines 309–319, "Hige sceal þē heardra")
       - Memorize and recite Cædmon's Hymn
       - Write an original poem in modern English alliterative verse
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 25, note: "about 380 lines of verse (14 counted pp) at ~15 lines/h" }
+        - { kind: exercises, hours: 4, note: "scansion of half-lines, stress and alliteration" }
+        - { kind: memorization, hours: 2, note: "Cædmon's Hymn" }
+        - { kind: writing, hours: 4, note: "an original poem in modern English alliterative verse" }
     coreTexts:
       - title: The Dream of the Rood
         kind: primary
@@ -229,6 +246,13 @@ rows:
       - Memorize and perform the opening lines ("Hwæt! Wē Gār-Dena in geār-dagum…")
       - Read Tolkien's "The Monsters and the Critics" and summarize its argument
       - Compare Beowulf with Achilles and Aeneas as heroic ideals, and with Christian virtue
+    workload:
+      readingHours: 10
+      readingBasis: "222 pp in English: Tolkien's lecture (~80 pp) at ~20 pp/h (4 h) and his prose translation of the whole poem (~142 pp) at ~25 pp/h (6 h)"
+      work:
+        - { kind: translation, hours: 35, note: "about 400 lines of Beowulf in Old English at ~12 lines/h" }
+        - { kind: memorization, hours: 3, note: "the opening lines, learned and performed" }
+        - { kind: writing, hours: 9, note: "summary of Tolkien's argument (3 h) and comparative essay on heroic ideals (6 h)" }
     coreTexts:
       - title: "Bēowulf: an Anglo-Saxon poem; The Fight at Finnsburh (Old English text)"
         kind: primary
@@ -290,6 +314,12 @@ rows:
       - Read the General Prologue and the Nun's Priest's Tale in Middle English with glosses
       - Trace five words from Old English through Middle English to modern English
       - Explain in outline the Norman Conquest's effect on English vocabulary and grammar
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 19, note: "General Prologue and Nun's Priest's Tale, about 1,550 lines of Middle English (counted 142 pp) at ~80 lines/h with glosses" }
+        - { kind: memorization, hours: 5, note: "the first 42 lines of the General Prologue with Chaucerian pronunciation" }
+        - { kind: exercises, hours: 6, note: "history of the language: five words traced from Old to modern English, the Norman Conquest and the vowel shift" }
     coreTexts:
       - title: "The Canterbury Tales (Skeat edition, Middle English)"
         kind: primary

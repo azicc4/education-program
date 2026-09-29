@@ -111,6 +111,12 @@ rows:
       - Read aloud any Spanish text with correct pronunciation and stress, including accent rules
       - Chant present-tense conjugations of ser, estar, tener and regular -ar/-er/-ir verbs
       - Master about 300 high-frequency words and write simple dictated sentences
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 40, note: "Spanish for Children Primer A, 32 weeks x 3 x 25 min" }
+        - { kind: practice, hours: 15, note: "reading aloud and dictation for Spanish literacy, about 5 min x 180 days" }
+        - { kind: memorization, hours: 10, note: "conjugation chants and about 300 words" }
     curriculumOptions:
       - name: Spanish for Children Primer A
         publisher: Classical Academic Press
@@ -149,6 +155,12 @@ rows:
       - Narrate past events using preterite vs. imperfect correctly
       - Read four or more short Spanish novellas independently for pleasure
       - Write a half-page composition in Spanish without a dictionary
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 55, note: "Spanish for Children Primer B over 1.5 years, 54 weeks x 3 x 20 min" }
+        - { kind: translation, hours: 55, note: "reading in Spanish: the two graded readers read together (558 counted pp, much of it notes and vocabulary) at ~12 pp/h (47 h), plus four comprehensible-input novellas at ~2 h each" }
+        - { kind: writing, hours: 6, note: "half-page compositions, about 12 x 30 min" }
     coreTexts:
       - title: Spanish Tales for Beginners
         kind: instructional
@@ -205,6 +217,11 @@ rows:
       - Follow Destinos episodes and summarize each one orally in Spanish
       - Hold a 20-minute conversation on everyday and school topics
       - Reach about ACTFL Intermediate-Mid in reading and speaking
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 95, note: "a full course such as ¡Avancemos! 1–2 or Seton Spanish I, 54 weeks x 3 x 35 min" }
+        - { kind: practice, hours: 60, note: "Destinos, 52 episodes x 40 min with an oral summary (35 h), and weekly native-speaker conversation, 50 x 30 min (25 h)" }
     coreTexts:
       - title: "Destinos: An Introduction to Spanish (video series)"
         kind: instructional
@@ -252,6 +269,13 @@ rows:
       - Read an adapted Lazarillo and an adapted Quijote in full, in Spanish
       - Narrate each tratado or chapter orally and in writing
       - Explain the picaresque and the chivalric romance that Cervantes parodies
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 40, note: "reading in Spanish: the RAE school Quijote (376 pp) at ~10 pp/h (38 h) and a graded Lazarillo (~60 pp, not counted) at ~15 pp/h (4 h)" }
+        - { kind: writing, hours: 15, note: "written narration of each tratado or chapter, about 45 x 20 min" }
+        - { kind: discussion, hours: 10, note: "oral narration and the picaresque and chivalric genres, 40 x 15 min" }
+        - { kind: memorization, hours: 3, note: "famous passages such as En un lugar de la Mancha" }
     coreTexts:
       - title: "Don Quijote de la Mancha: edición escolar (RAE, adapted by Arturo Pérez-Reverte)"
         kind: primary
@@ -305,6 +329,13 @@ rows:
       - Read selected chapters of Bernal Díaz and the Brevísima relación in the original Spanish
       - Compare the two witnesses on the same events and judge their reliability and purpose
       - Explain the Valladolid debate (1550–51) and the natural-law arguments of Las Casas and Vitoria
+    workload:
+      readingHours: 13
+      readingBasis: "~440 pp read in English: Bernal Díaz and Las Casas as narrative history at ~35 pp/h"
+      work:
+        - { kind: translation, hours: 18, note: "the Spanish excerpts, about 140 of the counted 578 pp, at ~8 pp/h" }
+        - { kind: writing, hours: 8, note: "essay comparing the two witnesses" }
+        - { kind: discussion, hours: 8, note: "the Valladolid debate and natural law, 16 x 30 min" }
     coreTexts:
       - title: Historia verdadera de la conquista de la Nueva España
         kind: primary
@@ -355,6 +386,12 @@ rows:
       - Read the original 1554 Lazarillo with a glossary
       - Memorize and recite at least ten Golden Age poems
       - Scan Spanish verse and identify sonnet, lira, romance and redondilla forms
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 75, note: "reading in Spanish: Lazarillo (100 pp) at ~6 pp/h (17 h), Garcilaso (~110 pp) at ~5 pp/h (22 h), Buscón (216 pp) at ~6 pp/h (36 h)" }
+        - { kind: memorization, hours: 10, note: "ten or more Golden Age poems, learned and recited" }
+        - { kind: exercises, hours: 8, note: "Spanish metrics: scansion of endecasílabo, octosílabo, sonnet, lira and romance" }
     coreTexts:
       - title: Vida de Lazarillo de Tormes y de sus fortunas y adversidades
         kind: primary
@@ -412,6 +449,12 @@ rows:
       - Read Teresa's Vida (selected chapters) and Las moradas I and VII in Spanish
       - Memorize "Noche oscura" and read it closely as poetry (his prose commentaries are read at college level in theology-24)
       - Write a short essay in Spanish on prayer as Teresa describes it
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "reading in Spanish: Vida and Moradas selections (182 pp) at ~8 pp/h (23 h), and the three poems (20 pp) read closely at ~3 pp/h (7 h)" }
+        - { kind: memorization, hours: 4, note: "Noche oscura" }
+        - { kind: writing, hours: 8, note: "short essay in Spanish on prayer in Teresa" }
     coreTexts:
       - title: Libro de la vida
         kind: primary
@@ -473,6 +516,12 @@ rows:
       - Read both parts of the Quijote in Spanish, about 20 pages a day
       - Keep a commonplace book of refranes (proverbs) and memorable passages
       - Discuss the novel's themes (madness and reason, fiction and reality, Christian charity, honor) in Spanish seminar
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 90, note: "reading in Spanish: the complete Quijote, 819 pp at ~9 pp/h in the annotated Rico edition" }
+        - { kind: writing, hours: 8, note: "commonplace book of refranes and passages" }
+        - { kind: discussion, hours: 25, note: "weekly seminar in Spanish, 36 x 40 min" }
     coreTexts:
       - title: El ingenioso hidalgo don Quijote de la Mancha
         kind: primary
@@ -510,6 +559,13 @@ rows:
       - Read La vida es sueño in full and memorize Segismundo's soliloquy ("¿Qué es la vida? Un frenesí…")
       - Read and recite a selection of Bécquer's Rimas
       - Read one Galdós novel and write a Spanish essay comparing its view of faith and society with Calderón's
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 60, note: "reading in Spanish: La vida es sueño (184 pp) at ~6 pp/h (30 h), Bécquer (~100 pp) at ~6 pp/h (17 h), one Galdós novel (~150 pp) at ~12 pp/h (13 h)" }
+        - { kind: memorization, hours: 6, note: "Segismundo's soliloquy and several Rimas" }
+        - { kind: writing, hours: 10, note: "essay in Spanish comparing Galdós and Calderón" }
+        - { kind: discussion, hours: 10, note: "drama, lyric and the novel, 20 x 30 min" }
     coreTexts:
       - title: La vida es sueño
         kind: primary
@@ -569,6 +625,13 @@ rows:
       - Read San Manuel Bueno, mártir and one Unamuno essay collection in Spanish
       - Analyze selected Neruda odes and Borges stories (e.g. "El Sur", "La muerte y la brújula")
       - Write timed literary-analysis essays in Spanish (AP format)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 45, note: "reading in Spanish: San Manuel (84 pp) at ~12 pp/h (7 h), Unamuno selections (~183 pp) at ~10 pp/h (18 h), Borges (~60 pp) at ~6 pp/h (10 h), Neruda (~27 pp) at ~4 pp/h (7 h)" }
+        - { kind: writing, hours: 25, note: "about ten timed AP-format analysis essays with review, 10 x 2.5 h" }
+        - { kind: discussion, hours: 20, note: "close reading and AP themes, 36 x 35 min" }
+        - { kind: exam-prep, hours: 25, note: "AP Spanish Literature and Culture: required-list review and practice exams" }
     coreTexts:
       - title: San Manuel Bueno, mártir
         kind: primary
@@ -640,6 +703,12 @@ rows:
       - Read college-level Spanish prose and verse without translation aids
       - Write a 3,000-word research essay in Spanish on a Hispanic text or historical question
       - Discuss philosophical and theological texts orally in Spanish at an educated register
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "reading in Spanish: Del sentimiento trágico de la vida (304 pp) at ~10 pp/h; the other works named in the summary are re-reads or self-chosen and not counted" }
+        - { kind: writing, hours: 30, note: "3,000-word research essay in Spanish, from research to final draft" }
+        - { kind: discussion, hours: 35, note: "seminar conducted in Spanish, 36 x 1 h" }
     coreTexts:
       - title: Del sentimiento trágico de la vida
         kind: primary

@@ -32,6 +32,10 @@ rows:
       - Explain an answer aloud with "because" and "therefore"
       - Distinguish a guess from a conclusion that must follow from clues
       - Play strategy games while thinking two moves ahead
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 40, note: "Mind Benders puzzles 2 x 15 min a week and one strategy game a week, over about 54 weeks" }
     curriculumOptions:
       - name: Mind Benders (Levels 1–4, plus Verbal)
         publisher: The Critical Thinking Co.
@@ -64,6 +68,12 @@ rows:
       - Identify fallacies in ads, cartoons, political speeches and editorials
       - Distinguish relevance, presumption and clarity fallacies
       - Restate an opponent's argument fairly before criticizing it
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 45, note: "Fallacy Detective, 38 lessons x 30 min (19 h), and Art of Argument, about 26 lessons x 1 h (26 h)" }
+        - { kind: practice, hours: 8, note: "finding fallacies in ads, cartoons and speeches" }
+        - { kind: discussion, hours: 8, note: "restating and criticizing arguments, fallacy jar at the table" }
     curriculumOptions:
       - name: The Art of Argument (Revised Edition)
         publisher: Classical Academic Press
@@ -104,6 +114,10 @@ rows:
       - Use the square of opposition to infer truth values
       - Convert, obvert and contrapose propositions correctly
       - Determine mood and figure, and test syllogisms against the seven rules of validity
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 50, note: "Traditional Logic I (the 110-pp text is a textbook, not reading), 17 chapters x 4 lessons x 40 min, plus quizzes and tests" }
     coreTexts:
       - title: Traditional Logic I
         kind: instructional
@@ -161,6 +175,10 @@ rows:
       - Analyze hypothetical, disjunctive and conjunctive syllogisms and dilemmas
       - Translate ordinary-language arguments into logical form
       - Define terms by genus and specific difference and test definitions
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 65, note: "Traditional Logic II, about 16 chapters x 4 x 45 min (48 h), and selected Socratic Logic exercises (15 h); Kreeft is a textbook, not reading" }
     coreTexts:
       - title: "Socratic Logic: A Logic Text using Socratic Method, Platonic Questions, and Aristotelian Principles (ed. 3.1)"
         kind: instructional
@@ -206,6 +224,11 @@ rows:
       - Distinguish demonstrative, dialectical, rhetorical and poetic argument
       - Build definitions and divisions that are neither too broad nor too narrow
       - Explain how grammar, logic and rhetoric correspond to thought, reality and communication
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 60, note: "Material Logic, about 30 lessons x 1 h, and The Trivium (292 pp, a textbook) studied slowly at ~10 pp/h (30 h)" }
+        - { kind: discussion, hours: 12, note: "weekly tutor session, 36 x 20 min" }
     coreTexts:
       - title: "The Trivium: The Liberal Arts of Logic, Grammar, and Rhetoric"
         kind: instructional
@@ -252,6 +275,13 @@ rows:
       - Work Jevons's exercises, including his introduction to induction
       - Compare how three centuries of textbooks define the syllogism and fallacies
       - Write a short essay on a "prejudice" of judgment in the manner of Watts
+    workload:
+      readingHours: 25
+      readingBasis: "365 pp: Watts's Logick as 18th-century English prose at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 35, note: "Jevons (~113 pp) at ~12 pp/h with his exercises (17 h) and Joseph (~203 pp) at ~10 pp/h (20 h); both are textbooks" }
+        - { kind: discussion, hours: 10, note: "narration of assigned chapters, 20 x 30 min" }
+        - { kind: writing, hours: 10, note: "essay on a prejudice of judgment (5 h) and a comparison of three textbooks (5 h)" }
     coreTexts:
       - title: "Logick: or, The Right Use of Reason in the Enquiry after Truth"
         kind: primary
@@ -310,6 +340,10 @@ rows:
       - Build truth tables to test validity, equivalence and consistency
       - Construct natural-deduction proofs using the standard rules of inference
       - Explain the relation of Boolean algebra to logic gates and circuits
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 95, note: "forall x or Intermediate Logic, about 54 weeks x 2 x 50 min of chapters and problem sets (90 h), plus Boolean algebra and gates (5 h)" }
     coreTexts:
       - title: "forall x: Calgary. An Introduction to Formal Logic"
         kind: instructional
@@ -361,6 +395,13 @@ rows:
       - Reconstruct Aristotle's proofs of the valid moods in the Prior Analytics
       - Compare Aristotelian demonstration with Baconian and Millian induction
       - Apply Mill's methods of agreement and difference to a real causal question
+    workload:
+      readingHours: 40
+      readingBasis: "750 pp: Aristotle (183 pp) at ~15 pp/h (12 h), Bacon (360 pp) at ~20 pp/h (18 h), Mill (~207 pp) at ~20 pp/h (10 h)"
+      work:
+        - { kind: discussion, hours: 55, note: "tutorial seminar, 36 x 90 min" }
+        - { kind: exercises, hours: 20, note: "reconstructing the Prior Analytics proofs and applying Mill's methods" }
+        - { kind: writing, hours: 25, note: "two seminar papers" }
     coreTexts:
       - title: Categories
         kind: primary
