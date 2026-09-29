@@ -74,6 +74,13 @@ rows:
         reviewOf: spanish-07 # optional, with role: review — the unit where it was first read
         links:
           - { label: Archive.org, url: "https://archive.org/details/..." }
+    workload:                # estimated total effort for the whole unit, for formal academic units
+      readingHours: 45       # hours of reading the counted texts (student reading plus read-aloud/together time)
+      readingBasis: "1,180 pp: novels at ~35 pp/h, Plutarch at ~20 pp/h"   # how the reading hours were reached
+      work:                  # everything else, by kind: exercises | writing | translation | memorization | recitation
+                             #   | discussion | lab | practice | project | exam-prep
+        - { kind: writing, hours: 30, note: "six 2–3 page essays with revision" }
+        - { kind: discussion, hours: 18, note: "weekly narration and Socratic discussion" }
     curriculumOptions:       # 2–3 real, purchasable/available programs where they exist
       - name: Latina Christiana I
         publisher: Memoria Press
@@ -92,6 +99,21 @@ rows:
 
 - **Required**: `id, title, type, level, stage, ageStart, ageEnd, order, summary`. Everything else optional but strongly encouraged.
 - `prerequisites` only reference rows in the same track. Cross-track links go in `related`.
+- **Workload** (`workload`) is the estimated total effort for the whole unit, not a weekly figure; when in the year a
+  unit runs is decided separately. Reading hours count the same texts as the reading load (core texts, one per choice
+  group, `readPages` or about a third of `pages` for selections; no electives, reference works or re-reads) at these
+  typical rates, adjusted for the text:
+
+  | Pages per hour | Ages 6–9 | 10–12 | 13–15 | 16+ |
+  |---|---|---|---|---|
+  | Read aloud or together (children's books, novels) | 25–30 | 30 | 30 | 30 |
+  | Student: stories, novels, narrative history | 20–25 | 30–35 | 35–40 | 40–45 |
+  | Student: older English, poetry, dense primary sources, philosophy, theology | 10–15 | 15 | 15–20 | 20–25 |
+  | Student: textbooks and grammars | (count the lessons as `exercises`, not reading) | | | |
+
+  Reading in the target language of a language course is `translation` work at a few pages an hour, not reading.
+  Work hours come from the unit's objectives: exercises and problem sets, compositions, memorization and recitation,
+  discussion or narration, labs, practice, projects, and exam preparation.
 - **Reading plan fields** (`order`, `role`, `group`, `portion`, `readPages`, `pace`, `reviewOf`) tell a family what must actually be read.
   Put the role in these fields, not in the title: no "(selections)", "(alternative …)" or "(already read in …)" in titles.
   `(elective)` stays in the title. The site's weekly reading load counts core texts, one text per choice group, and

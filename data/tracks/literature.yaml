@@ -38,6 +38,12 @@ rows:
       - State the moral of an Aesop fable in one sentence and apply it to a real situation
       - Recognize stock characters and patterns (the youngest son, the trickster, the three trials)
       - Sit attentively through 20–30 minutes of read-aloud of an unabridged text
+    workload:
+      readingHours: 65
+      readingBasis: "2,003 pp read aloud: Potter's small picture books at ~50 pp/h (8 h), Aesop, Grimm, Andersen, Lang and Kipling (1,603 pp) at ~27 pp/h (59 h)"
+      work:
+        - { kind: discussion, hours: 18, note: "narration and moral of the story after readings, 2 x 10 min a week over 54 weeks" }
+        - { kind: exercises, hours: 6, note: "Memoria Press Blue Fairy Book guide questions if used, ~24 lessons x 15 min" }
     coreTexts:
       - title: The Aesop for Children
         kind: primary
@@ -146,6 +152,12 @@ rows:
       - Narrate a chapter orally and draw a scene from it
       - Discuss a character's choice (e.g. Toad's boasting, Pinocchio's lies) in terms of virtue and vice
       - Begin reading shorter chapters independently by age 7–8
+    workload:
+      readingHours: 60
+      readingBasis: "1,713 pp read aloud at ~28 pp/h (Winnie-the-Pooh and Alice go faster, MacDonald and Kingsley slower)"
+      work:
+        - { kind: discussion, hours: 18, note: "chapter narration and virtue/vice discussion, 2 x 10 min a week over 54 weeks" }
+        - { kind: project, hours: 9, note: "narration drawings of a scene, ~36 x 15 min" }
     coreTexts:
       - title: The Wind in the Willows
         kind: primary
@@ -260,6 +272,12 @@ rows:
       - Retell the journey structure of Pilgrim's Progress from the City of Destruction to the Celestial City
       - Read all seven Narnia books, at least the later ones independently
       - Connect episodes to Scripture stories already known
+    workload:
+      readingHours: 50
+      readingBasis: "1,202 pp read aloud or, for the later Narnia books, read by the child: dense one-volume Narnia (768 pp), Little Pilgrim's Progress and Curdie at ~25 pp/h"
+      work:
+        - { kind: discussion, hours: 18, note: "narration and allegory/Scripture discussion, 72 weeks x 15 min" }
+        - { kind: exercises, hours: 5, note: "Memoria Press Lion, Witch and Wardrobe or Dangerous Journey guide questions if used, ~20 lessons x 15 min" }
     coreTexts:
       - title: Little Pilgrim's Progress
         kind: secondary
@@ -343,6 +361,13 @@ rows:
       - Retell the labors of Heracles and the stories of Perseus, Theseus and Jason
       - Recognize mythological allusions in everyday language (panic, echo, Achilles' heel)
       - Contrast the Greek gods with the God of Scripture
+    workload:
+      readingHours: 45
+      readingBasis: "1,234 pp read aloud at ~27 pp/h (D'Aulaires, Hawthorne, Kingsley, Colum)"
+      work:
+        - { kind: exercises, hours: 10, note: "Memoria Press D'Aulaires guide, 30 lessons x 20 min (facts, vocabulary, comprehension)" }
+        - { kind: memorization, hours: 5, note: "Olympians, attributes and Roman names by flashcard, ~30 x 10 min" }
+        - { kind: discussion, hours: 14, note: "narration of the hero tales and Greek gods vs God of Scripture, 54 weeks x 15 min" }
     coreTexts:
       - title: D'Aulaires' Book of Greek Myths
         kind: secondary
@@ -433,6 +458,13 @@ rows:
       - Trace Odysseus' voyage episode by episode and map it
       - Compare Achilles, Hector, Odysseus and Aeneas as types of heroism (wrath, duty, cunning, piety)
       - Memorize the opening invocation of the Iliad or Odyssey in English
+    workload:
+      readingHours: 55
+      readingBasis: "1,164 pp of prose retellings read by the student at ~22 pp/h (Church, Colum, Lang); Church's Odyssey for Boys and Girls has no page count and is left out"
+      work:
+        - { kind: discussion, hours: 18, note: "narration and hero comparisons, 54 weeks x 20 min" }
+        - { kind: project, hours: 3, note: "map of Odysseus' voyage, episode by episode" }
+        - { kind: memorization, hours: 2, note: "opening invocation of the Iliad or Odyssey in English" }
     coreTexts:
       - title: The Iliad for Boys and Girls
         kind: secondary
@@ -527,6 +559,13 @@ rows:
       - Memorize and recite three short Shakespeare passages (e.g. "I know a bank where the wild thyme blows")
       - Retell the Redcrosse Knight's quest from Faerie Queene Book I
       - Watch or attend one live or filmed family-friendly production
+    workload:
+      readingHours: 20
+      readingBasis: "497 pp read together: Lambs' Tales (320 pp) and Jean Lang's Faerie Queene stories (94 pp) at ~25 pp/h (17 h), Midsummer passages (~83 pp) at ~20 pp/h (4 h); Ludwig's 368-pp method book is parent preparation and not counted"
+      work:
+        - { kind: memorization, hours: 12, note: "three or more Shakespeare passages by Ludwig's method, 36 weeks x 2 x 10 min" }
+        - { kind: discussion, hours: 9, note: "retelling the plots of eight plays and the Redcrosse quest, 36 x 15 min" }
+        - { kind: project, hours: 3, note: "one live or filmed family-friendly production" }
     coreTexts:
       - title: Tales from Shakespeare
         kind: secondary
@@ -603,6 +642,13 @@ rows:
       - Complete the questions and definitions for weekly lessons in the Fourth and Fifth Readers
       - Keep a commonplace book of memorable sentences from the selections
       - Identify at least 30 authors the Readers introduce and note which to read in full later
+    workload:
+      readingHours: 75
+      readingBasis: "1,178 pp of Reader selections read aloud by the student: Fourth Reader (262 pp) at ~20 pp/h (13 h), Fifth and Sixth Readers and Columbian Orator selections (916 pp of older English) at ~15 pp/h (61 h)"
+      work:
+        - { kind: exercises, hours: 18, note: "McGuffey's questions and definitions, ~54 weekly lessons x 20 min" }
+        - { kind: writing, hours: 9, note: "commonplace book of memorable sentences, 54 weeks x 10 min" }
+        - { kind: recitation, hours: 6, note: "about six declamations from the Readers or the Columbian Orator, ~1 h preparation each" }
     coreTexts:
       - title: McGuffey's Fourth Eclectic Reader
         kind: instructional
@@ -685,6 +731,13 @@ rows:
       - Explain the code of chivalry and where knights keep or betray it
       - Read Malory's own prose (via Lanier) and note archaic words and style
       - Write a short narrative imitating Pyle's archaic style
+    workload:
+      readingHours: 75
+      readingBasis: "1,450 pp read by the student: Pyle's Robin Hood and Arthur and Lanier's Malory (1,008 pp of archaic prose) at ~18 pp/h (56 h), Otto of the Silver Hand and Men of Iron (442 pp) at ~25 pp/h (18 h)"
+      work:
+        - { kind: exercises, hours: 10, note: "Memoria Press Robin Hood / King Arthur guide questions and vocabulary, ~40 chapters x 15 min" }
+        - { kind: writing, hours: 6, note: "one Pyle-style narrative drafted and revised, plus a few written narrations" }
+        - { kind: discussion, hours: 12, note: "narration and chivalry discussion, 36 weeks x 20 min" }
     coreTexts:
       - title: The Merry Adventures of Robin Hood
         kind: secondary
@@ -772,6 +825,12 @@ rows:
       - Write a one-paragraph narrative summary and a one-paragraph character sketch for each
       - Discuss providence and repentance in Robinson Crusoe
       - Compare Bilbo's and Jim Hawkins' growth in courage
+    workload:
+      readingHours: 65
+      readingBasis: "1,756 pp of novels read by the student: Robinson Crusoe (274 pp, 18th-century prose) at ~20 pp/h (14 h), the other six novels (1,482 pp) at ~30 pp/h (49 h)"
+      work:
+        - { kind: writing, hours: 10, note: "a summary paragraph and a character sketch for each of 7 novels, ~14 x 45 min" }
+        - { kind: discussion, hours: 18, note: "weekly discussion (providence in Crusoe, Bilbo and Jim), 36 x 30 min" }
     coreTexts:
       - title: Treasure Island
         kind: primary
@@ -877,6 +936,12 @@ rows:
       - Read Franklin's Autobiography Part I, noting the books Franklin names and his method of imitating the Spectator
       - Distinguish legend (Weems' cherry tree) from history, and explain why Weems wrote as he did
       - Memorize a speech from Addison's Cato (e.g. "'Tis not in mortals to command success")
+    workload:
+      readingHours: 130
+      readingBasis: "2,120 pp read by the student: KJV Bible (1,200 pp) at ~15 pp/h (80 h), Bunyan Part I, White's Plutarch and Cato (640 pp) at ~16 pp/h (38 h), Weems and Franklin (280 pp) at ~25 pp/h (11 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "weekly discussion of the Lives, Weems vs history, and Franklin's reading, 54 x 30 min" }
+        - { kind: memorization, hours: 3, note: "one speech from Addison's Cato" }
     coreTexts:
       - title: The Holy Bible, King James Version
         kind: primary
@@ -996,6 +1061,12 @@ rows:
       - Analyze Scrooge's conversion as a moral structure (past, present, future; repentance and amendment)
       - Write a comparison essay between two historical novels and the history they fictionalize
       - Identify the conventions of romance (disguise, tournament, rescue, recognition)
+    workload:
+      readingHours: 110
+      readingBasis: "2,601 pp of novels read by the student: Scott and Cooper (1,278 pp) at ~20 pp/h (64 h), Carol and Black Arrow (383 pp) at ~25 pp/h (16 h), Dumas and Orczy (940 pp) at ~31 pp/h (30 h)"
+      work:
+        - { kind: writing, hours: 8, note: "one comparison essay on two historical novels and their history, drafted and revised" }
+        - { kind: discussion, hours: 25, note: "weekly discussion of romance conventions and Scrooge's conversion, 54 x 30 min" }
     coreTexts:
       - title: A Christmas Carol
         kind: primary
@@ -1100,6 +1171,12 @@ rows:
       - Identify Twain's humor and satire, and Irving's gentle Gothic
       - Connect Johnny Tremain to the history of Boston 1773–1775
       - Write a book review with a thesis statement
+    workload:
+      readingHours: 50
+      readingBasis: "1,622 pp of novels read by the student: Sleepy Hollow (39 pp) at ~20 pp/h (2 h), the other six (1,583 pp) at ~32 pp/h (49 h)"
+      work:
+        - { kind: writing, hours: 5, note: "a book review with a thesis statement, drafted and revised" }
+        - { kind: discussion, hours: 18, note: "discussion of American character, Twain and Irving, 54 weeks x 20 min" }
     coreTexts:
       - title: The Legend of Sleepy Hollow
         kind: primary
@@ -1201,6 +1278,14 @@ rows:
       - Memorize and perform at least 40 lines per play, with attention to meter and sense
       - Distinguish verse from prose speeches and explain why a character shifts between them
       - Stage one scene for family or co-op, with blocking and simple costume
+    workload:
+      readingHours: 40
+      readingBasis: "688 pp (Folger-style editions with facing notes) read by the student, largely aloud in parts, at ~18 pp/h"
+      work:
+        - { kind: memorization, hours: 13, note: "40+ lines per play x 5 plays, ~200 lines at ~15 lines/h" }
+        - { kind: exercises, hours: 8, note: "Memoria Press play guides (vocabulary, quote analysis, verse vs prose), ~5 x 1.5 h" }
+        - { kind: project, hours: 12, note: "staging one scene: ~8 rehearsals x 1.5 h, costume and performance" }
+        - { kind: discussion, hours: 12, note: "Socratic discussion of the comedies, 36 weeks x 20 min" }
     coreTexts:
       - title: A Midsummer Night's Dream
         kind: primary
@@ -1295,6 +1380,12 @@ rows:
       - Explain the targets of Swift's satire in each of Gulliver's four voyages
       - Write a 3–5 paragraph analytical essay with thesis, textual evidence and conclusion
       - Identify narrator, point of view and irony
+    workload:
+      readingHours: 80
+      readingBasis: "2,036 pp read by the student: Great Expectations and Oliver Twist (896 pp) at ~25 pp/h (36 h), Gulliver (278 pp) at ~18 pp/h (15 h), Kim at ~25 pp/h (11 h), Hound and Verne (576 pp) at ~32 pp/h (18 h)"
+      work:
+        - { kind: writing, hours: 16, note: "four 3–5 paragraph analytical essays with revision, ~4 h each" }
+        - { kind: discussion, hours: 25, note: "discussion of narrator, irony and Swift's targets, 54 weeks x 30 min" }
     coreTexts:
       - title: Great Expectations
         kind: primary
@@ -1388,6 +1479,14 @@ rows:
       - Analyze Antony's funeral oration as rhetoric (ethos, pathos, irony, repetition)
       - Trace the legitimacy question from Richard II to Henry V (the Henriad)
       - Memorize and declaim one full speech per play (e.g. St. Crispin's Day, Friends Romans countrymen)
+    workload:
+      readingHours: 40
+      readingBasis: "602 pp of history and Roman plays read by the student at ~16 pp/h"
+      work:
+        - { kind: memorization, hours: 10, note: "one full speech per play x 4 (~30–40 lines each)" }
+        - { kind: recitation, hours: 4, note: "declaiming the four speeches, with rehearsal" }
+        - { kind: exercises, hours: 8, note: "Memoria Press play guides (vocabulary, rhetorical devices), 4 plays x 2 h" }
+        - { kind: discussion, hours: 18, note: "rhetorical analysis and the Henriad legitimacy question, 36 x 30 min" }
     coreTexts:
       - title: Julius Caesar
         kind: primary
@@ -1471,6 +1570,13 @@ rows:
       - Analyze the tragic hero, hamartia, and the chorus with reference to Aristotle's Poetics
       - Write a 1,000-word seminar essay comparing Achilles, Odysseus and Aeneas
       - Memorize the proem of each epic (in English; in Latin for the Aeneid)
+    workload:
+      readingHours: 115
+      readingBasis: "1,999 pp of verse and drama in translation at ~15–20 pp/h: Fagles Iliad (564 pp) at ~20 (28 h), Lattimore Odyssey and Fitzgerald Aeneid (794 pp) at ~18 (45 h), Aeschylus, Sophocles and Euripides in Victorian verse (558 pp) at ~15 (37 h), Ovid selections at ~20 (4 h)"
+      work:
+        - { kind: writing, hours: 15, note: "one 1,000-word seminar essay plus ~6 short response papers" }
+        - { kind: discussion, hours: 40, note: "weekly seminar, 54 x 45 min" }
+        - { kind: memorization, hours: 5, note: "the proem of each epic (Aeneid in Latin)" }
     coreTexts:
       - title: The Iliad (trans. Robert Fagles)
         kind: primary
@@ -1592,6 +1698,14 @@ rows:
       - Write a 1,500-word critical essay on a tragedy with engagement of one critic
       - Memorize and perform a soliloquy of 20+ lines
       - Discuss Shakespeare's religious world (Catholic recusancy, Protestant England) as critics debate it
+    workload:
+      readingHours: 50
+      readingBasis: "864 pp of the tragedies (annotated editions) at ~17 pp/h; the second reading of one play is a re-read and not counted"
+      work:
+        - { kind: writing, hours: 12, note: "one 1,500-word critical essay engaging a critic, with drafts" }
+        - { kind: exercises, hours: 10, note: "soliloquy explications and study-guide work, 5 plays x 2 h" }
+        - { kind: memorization, hours: 5, note: "one soliloquy of 20+ lines, memorized and performed" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Romeo and Juliet
         kind: primary
@@ -1689,6 +1803,13 @@ rows:
       - "Read the Canterbury Tales in modern verse translation: the General Prologue and at least eight tales (e.g. Knight's, Man of Law's, Wife of Bath's, Clerk's, Franklin's, Pardoner's, Second Nun's, and the Parson's Prologue with the Retraction), leaving the Nun's Priest's Tale for old-english-05"
       - Compare the heroic ideal in Beowulf with the Christian knight in Gawain
       - Trace the pilgrimage frame and the "quiting" of tale against tale across the Canterbury Tales
+    workload:
+      readingHours: 95
+      readingBasis: "1,697 pp at ~15–25 pp/h: Esolen Dante (~500 pp with notes) at ~15 (33 h), Confessions I–X (~131 pp) at ~15 (9 h), Heaney Beowulf (facing-page, 256 pp) at ~25 (10 h), Gawain, Chaucer, Everyman and Malory (810 pp) at ~20 (41 h)"
+      work:
+        - { kind: writing, hours: 10, note: "two 2–3 page essays with revision (e.g. Beowulf vs Gawain)" }
+        - { kind: project, hours: 4, note: "a chart or map of Dante's moral architecture" }
+        - { kind: discussion, hours: 40, note: "weekly seminar, 54 x 45 min" }
     coreTexts:
       - title: The Confessions
         kind: primary
@@ -1815,6 +1936,13 @@ rows:
       - Read Paradise Lost complete (12 books) and discuss Milton's theodicy and his Satan
       - Imitate one of Bacon's essays in form and length
       - Memorize the opening 26 lines of Paradise Lost
+    workload:
+      readingHours: 70
+      readingBasis: "991 pp of older English at ~12–15 pp/h: Faerie Queene I (253 pp) at ~12 (21 h), Bacon's Essays (405 pp) and Paradise Lost (333 pp) at ~15 (49 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 10, note: "one Bacon-style imitation essay and one critical essay" }
+        - { kind: memorization, hours: 3, note: "the opening 26 lines of Paradise Lost" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: "The Faerie Queene, Book I"
         kind: primary
@@ -1929,6 +2057,12 @@ rows:
       - Imitate a Spectator essay by Franklin's method (notes, then rewrite, then compare)
       - Analyze Swift's irony in A Modest Proposal
       - Explicate a passage of Pope's heroic couplets
+    workload:
+      readingHours: 45
+      readingBasis: "873 pp at ~15–22 pp/h: Pope's Essay on Man (~63 pp) at ~15 (4 h), Spectator selections (~500 pp) at ~20 (25 h), Boswell (300 pp) at ~22 (14 h), A Modest Proposal (1 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 15, note: "four Spectator imitations by Franklin's method (~3 h each) and a Johnson commonplace" }
+        - { kind: discussion, hours: 25, note: "weekly seminar (Swift's irony, couplet explication), 36 x 45 min" }
     coreTexts:
       - title: "The Poetical Works of John Dryden, Vol. 1 (elective)"
         kind: primary
@@ -2056,6 +2190,12 @@ rows:
       - Explain the Romantic shift in the idea of the poet and of nature, using the Prelude (and the Biographia if chosen)
       - If Frankenstein is chosen, read it as a response to Paradise Lost and to Enlightenment science
       - Write a 2,000-word comparative essay (e.g. Austen's Elizabeth and Anne Elliot)
+    workload:
+      readingHours: 60
+      readingBasis: "1,493 pp: Pride and Prejudice and Persuasion (619 pp) at ~35 pp/h (18 h), Waverley (500 pp) at ~25 pp/h (20 h), The Prelude (374 pp) at ~17 pp/h (22 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 15, note: "one 2,000-word comparative essay with drafts" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Pride and Prejudice
         kind: primary
@@ -2171,6 +2311,13 @@ rows:
       - Analyze how Victorian novels treat class, industry, law and religion
       - Compare Jane Eyre's passion and the moral frame that judges it with Heathcliff's (if Wuthering Heights is chosen) or Becky Sharp's (if Vanity Fair is chosen)
       - Present a 15-minute seminar introduction on one novel
+    workload:
+      readingHours: 55
+      readingBasis: "1,685 pp of novels: Jane Eyre (480 pp) at ~35 pp/h (14 h), A Tale of Two Cities and Bleak House (1,205 pp) at ~30 pp/h (40 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 8, note: "one 3–4 page essay on class, law or religion, with revision" }
+        - { kind: project, hours: 5, note: "a 15-minute seminar introduction, prepared and delivered" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Jane Eyre
         kind: primary
@@ -2276,6 +2423,12 @@ rows:
       - Read Newman's Idea of a University (Discourses V–VII) and state his definition of liberal knowledge
       - Compare Hardy's fatalism with Eliot's humanism and Newman's faith
       - Write a 2,500-word research essay using at least two secondary sources
+    workload:
+      readingHours: 65
+      readingBasis: "1,727 pp: Middlemarch (793 pp) at ~30 pp/h (26 h), Mayor of Casterbridge (363 pp) at ~35 pp/h (10 h), Newman's Apologia and Idea of a University (571 pp) at ~19 pp/h (30 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 20, note: "one 2,500-word research essay with two secondary sources, drafts and revision" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Middlemarch
         kind: primary
@@ -2397,6 +2550,12 @@ rows:
       - Summarize the argument of Orthodoxy chapter by chapter
       - Read The Waste Land with notes and identify its sources (Dante, Shakespeare, the Upanishads, the Grail)
       - Write an essay setting Chesterton's paradox against Conrad's darkness
+    workload:
+      readingHours: 30
+      readingBasis: "591 pp: Heart of Darkness (136 pp) at ~25 pp/h (5 h), Orthodoxy and The Everlasting Man (430 pp) at ~20 pp/h (22 h), The Waste Land with notes (25 pp) at ~10 pp/h (3 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 15, note: "chapter-by-chapter summaries of Orthodoxy (9 x 45 min) and one 3–4 page essay with revision" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Heart of Darkness
         kind: primary
@@ -2506,6 +2665,12 @@ rows:
       - Compare the Catholic novels of Waugh and Greene (grace working through sinful men)
       - Analyze Orwell's treatment of language and power, with "Politics and the English Language"
       - Explicate one of the Four Quartets (here if chosen, otherwise in poetry-12)
+    workload:
+      readingHours: 55
+      readingBasis: "2,111 pp of novels at ~35–40 pp/h: The Lord of the Rings (1,193 pp) at ~40 (30 h), Brideshead, The Power and the Glory and 1984 (918 pp) at ~37 (25 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 12, note: "two 3–4 page essays (Waugh and Greene; Orwell on language)" }
+        - { kind: discussion, hours: 35, note: "weekly seminar, 36 x 60 min" }
     coreTexts:
       - title: The Lord of the Rings
         kind: primary
@@ -2633,6 +2798,14 @@ rows:
       - Analyze Portia's "quality of mercy" speech alongside Shylock's claim of justice
       - Write a production concept (cuts, setting, casting) with justification from the text
       - Mount or take a principal part in a staged production, or give a 200-line recital
+    workload:
+      readingHours: 25
+      readingBasis: "443 pp of plays at ~18 pp/h; the elective is not counted"
+      work:
+        - { kind: writing, hours: 8, note: "a production concept (cuts, setting, casting) justified from the text" }
+        - { kind: memorization, hours: 15, note: "a principal part or a 200-line recital, ~15 lines/h with review" }
+        - { kind: project, hours: 30, note: "staged production or recital: ~20 rehearsals x 1.5 h, including performance" }
+        - { kind: discussion, hours: 18, note: "discussion of mercy, justice and restoration, 24 x 45 min" }
     coreTexts:
       - title: The Tempest
         kind: primary
@@ -2723,6 +2896,12 @@ rows:
       - Contrast Hawthorne's Puritan conscience with Emerson's self-reliance
       - Analyze Douglass's Narrative as rhetoric and as an argument from natural rights
       - Write a thesis-driven essay on an American Renaissance text
+    workload:
+      readingHours: 65
+      readingBasis: "1,327 pp: Franklin and Scarlet Letter (422 pp) at ~25 pp/h (17 h), Moby-Dick (452 pp) at ~20 pp/h (23 h), Emerson's Essays (326 pp) at ~15 pp/h (22 h), Douglass (127 pp) at ~30 pp/h (4 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 10, note: "one thesis-driven essay with drafts and revision" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Autobiography of Benjamin Franklin
         kind: primary
@@ -2848,6 +3027,12 @@ rows:
       - Explicate five Dickinson poems and five sections of Song of Myself
       - Contrast Cather's frontier with James's international theme (if a James novel is chosen)
       - Write a comparative essay on American realism and naturalism
+    workload:
+      readingHours: 35
+      readingBasis: "821 pp: Huckleberry Finn and My Ántonia (610 pp) at ~35 pp/h (17 h), Dickinson selections (~83 pp) at ~10 pp/h (8 h), Whitman selections (~128 pp) at ~15 pp/h (9 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 18, note: "ten short poem explications (~45 min each) and one comparative essay (~10 h)" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Adventures of Huckleberry Finn
         kind: primary
@@ -2968,6 +3153,12 @@ rows:
       - Read five O'Connor stories and explain her "moment of grace" through violence
       - Compare Hemingway's code hero with Percy's searching Binx Bolling
       - Write a 2,500-word research essay on one author
+    workload:
+      readingHours: 20
+      readingBasis: "749 pp: Gatsby, The Old Man and the Sea and The Moviegoer (557 pp) at ~40 pp/h (14 h), O'Connor stories (~192 pp) at ~30 pp/h (6 h); the two electives are not counted"
+      work:
+        - { kind: writing, hours: 20, note: "one 2,500-word research essay on one author, drafts and revision" }
+        - { kind: discussion, hours: 30, note: "seminar, 30 x 60 min" }
     coreTexts:
       - title: The Great Gatsby
         kind: primary
@@ -3105,6 +3296,12 @@ rows:
       - Discuss the Grand Inquisitor chapter as a seminar text
       - Compare Manzoni's providence with Cervantes' idealism, or with Tolstoy's philosophy of history if War and Peace is chosen
       - Compare two translations of one passage and judge their fidelity and style
+    workload:
+      readingHours: 70
+      readingBasis: "2,362 pp: Don Quixote and The Betrothed (1,495 pp) at ~35 pp/h (43 h), The Brothers Karamazov (867 pp) at ~30 pp/h (29 h); the elective is not counted"
+      work:
+        - { kind: writing, hours: 10, note: "a translation-comparison paper and one 3–4 page essay" }
+        - { kind: discussion, hours: 35, note: "weekly seminar incl. the Grand Inquisitor, 36 x 60 min" }
     coreTexts:
       - title: Don Quixote (trans. John Ormsby)
         kind: primary
@@ -3223,6 +3420,14 @@ rows:
       - Write a 3,000-word seminar paper and defend it orally (St. John's "don rag" / oral examination)
       - Read at least one work (e.g. Iliad I or Aeneid I) in the original language
       - Trace the dialogue between Athens and Jerusalem across the term
+    workload:
+      readingHours: 135
+      readingBasis: "3,130 pp in a half year at ~20–30 pp/h: Republic, Ethics and Lucretius (930 pp) at ~20 (47 h), Iliad, Hesiod, Thucydides and Genesis–Exodus–Job (1,800 pp) at ~25 (73 h), Herodotus (400 pp) at ~30 (13 h); the Iliad is a second reading after literature-16 but is counted"
+      work:
+        - { kind: discussion, hours: 70, note: "two 2-hour seminars a week x 18 weeks" }
+        - { kind: writing, hours: 25, note: "one 3,000-word seminar paper, drafts and revision" }
+        - { kind: exam-prep, hours: 5, note: "preparing for the oral examination on the paper" }
+        - { kind: translation, hours: 20, note: "Iliad I or Aeneid I in the original, ~600 lines at ~30 lines/h" }
     coreTexts:
       - title: The Iliad of Homer (trans. Richmond Lattimore)
         kind: primary
@@ -3348,6 +3553,13 @@ rows:
       - Discuss Montaigne's and Pascal's rival accounts of the self
       - Write and defend a senior-style essay (5,000 words) on a text of the student's choosing
       - Present a public lecture or a seminar-leader's opening question to an audience
+    workload:
+      readingHours: 135
+      readingBasis: "3,502 pp in a half year at ~20–40 pp/h: Longfellow's Dante (650 pp) at ~20 (33 h), Pascal, Paradise Lost, Faust and Montaigne (1,142 pp) at ~21 (54 h), Four Quartets at ~10 (5 h), Don Quixote and Karamazov (1,662 pp) at ~38 (44 h); about 2,000 pp are re-reads of literature-18, -19 and -30 but are counted"
+      work:
+        - { kind: discussion, hours: 70, note: "two 2-hour seminars a week x 18 weeks" }
+        - { kind: writing, hours: 35, note: "one 5,000-word senior essay with drafts, revision and defense" }
+        - { kind: project, hours: 8, note: "a public lecture or seminar-leader's opening question, prepared and delivered" }
     coreTexts:
       - title: "The Divine Comedy (Longfellow translation, complete)"
         kind: primary

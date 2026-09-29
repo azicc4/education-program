@@ -1,6 +1,6 @@
 // Skill tree: one swimlane per track on a shared age axis, with prerequisite arrows.
 (function () {
-  const { DATA, esc, ageLabel, fmtAge, readState, writeState, matches, renderFilters, showDetail, readerBadge, lengthLabel, trackById } = window.App;
+  const { DATA, esc, ageLabel, fmtAge, readState, writeState, matches, renderFilters, showDetail, readerBadge, lengthLabel, trackById, levelBadge } = window.App;
 
   const LABEL_W = 150;
   const PX_PER_YEAR = 110;
@@ -197,6 +197,152 @@
     nowBtn.setAttribute('aria-pressed', String(nowOn()));
   }
 
+
+  // ---------- "One track": a condensed, linear view of a single track ----------
+  const linearEl = document.getElementById('tree-linear');
+  const viewBtns = document.querySelectorAll('[data-view]');
+  const groupIdx = Object.fromEntries(DATA.groups.map((g, i) => [g.name, i]));
+  const opened = new Set(); // folded sections the reader has opened, e.g. "latin:done"
+  const rowsOf = (id) => DATA.rows.filter((r) => r.track === id).sort((a, b) => a.order - b.order || a.ageStart - b.ageStart);
+  const firstSentence = (s) => (s || '').split(/(?<=[.!?])\s+/)[0] || '';
+  const hoursLabel = (n) => (n == null ? '' : `~${Math.round(n).toLocaleString()} h`);
+
+  // consecutive units that run side by side (overlapping ages, neither a prerequisite of the other) share a step
+  function steps(rows) {
+    const out = [];
+    for (const r of rows) {
+      const step = out[out.length - 1];
+      const fits = step && step.length < 3 && step.every((u) => u.ageStart < r.ageEnd && r.ageStart < u.ageEnd && !(r.prerequisites || []).includes(u.id));
+      if (fits) step.push(r);
+      else out.push([r]);
+    }
+    return out;
+  }
+
+  function renderLinear(w, list, match) {
+    if (!list.length) {
+      linearEl.innerHTML = '<p class="empty">No tracks match these filters.</p>';
+      return;
+    }
+    const sel = list.find((t) => t.id === state.track) || list.find((t) => t.id === state.lt) || list[0];
+    const statusOf = (rows) => {
+      const now = window.App.nowUnits(rows, w);
+      return { now, done: rows.filter((r) => w.status(r.id) === 'done').length, next: window.App.nextUnits(rows, now, w) };
+    };
+
+    // left: every track folded to its title, grouped by subject
+    let lastGroup = '';
+    const items = list
+      .map((t) => {
+        const rows = rowsOf(t.id);
+        const st = statusOf(rows);
+        const open = rows.filter((r) => w.status(r.id) !== 'done');
+        const note = !open.length ? '✓ done' : st.now.length ? `${st.now.length} now` : `from ${fmtAge(Math.min(...open.map((r) => r.ageStart)))}`;
+        const head = t.group !== lastGroup ? `<li class="lt-group">${esc(t.group)}</li>` : '';
+        lastGroup = t.group;
+        return `${head}<li><button type="button" class="lt-item gcol-${groupIdx[t.group] ?? 0}" data-lt="${esc(t.id)}"${t === sel ? ' aria-current="true"' : ''}><span class="lt-name">${esc(t.title)}</span><span class="lt-note">${esc(note)}</span></button></li>`;
+      })
+      .join('');
+
+    // right: the selected track as a path of steps
+    const rows = rowsOf(sel.id);
+    const st = statusOf(rows);
+    const nowIds = new Set(st.now.map((r) => r.id));
+    const nextIds = new Set(st.next.map((r) => r.id));
+    const phase = (r) => (w.status(r.id) === 'done' ? 'done' : nowIds.has(r.id) ? 'now' : nextIds.has(r.id) ? 'next' : r.ageStart <= w.age ? 'open' : 'later');
+    const PHASE = { done: '✓ Done', now: 'Now', next: 'Next', open: 'Not started', later: 'Later' };
+    const card = (r) => {
+      const ph = phase(r);
+      const texts = (r.coreTexts || []).length;
+      const meta = [levelBadge(r.level), `<span class="pill ph-${ph}">${PHASE[ph]}</span>`, texts ? `<span>${texts} text${texts === 1 ? '' : 's'}</span>` : '', r.workload ? `<span title="Estimated total reading and work for the unit">${hoursLabel(window.App.workloadTotal(r))}</span>` : ''].filter(Boolean).join('');
+      return `<button type="button" class="lcard ph-${ph}${match.has(r.id) ? '' : ' dim'}${r.id === state.row ? ' selected' : ''}" data-id="${esc(r.id)}">
+        <span class="lcard-age">${esc(ageLabel(r))}</span>
+        <span class="lcard-title">${esc(r.title)}</span>
+        <span class="lcard-meta">${meta}</span>
+        <span class="lcard-sum">${esc(r.summary || '')}</span>
+      </button>`;
+    };
+    const stepPhase = (step) => (step.every((r) => phase(r) === 'done') ? 'done' : step.every((r) => phase(r) === 'later') ? 'later' : 'mid');
+    const all = steps(rows);
+    const parts = [];
+    // with Current Age on, finished steps and steps well ahead fold into one line each
+    const fold = (kind, group) => {
+      const units = group.flat();
+      const key = `${sel.id}:${kind}`;
+      const ages = `${fmtAge(Math.min(...units.map((r) => r.ageStart)))}–${fmtAge(Math.max(...units.map((r) => r.ageEnd)))}`;
+      const label = kind === 'done' ? `✓ ${units.length} finished unit${units.length === 1 ? '' : 's'}` : `Later: ${units.length} unit${units.length === 1 ? '' : 's'}`;
+      if (opened.has(key)) {
+        parts.push(`<li class="lfold open"><button type="button" data-fold="${esc(key)}" aria-expanded="true">${label} <span class="by">ages ${ages}</span> <span class="lfold-act">Hide</span></button></li>`);
+        group.forEach((s) => parts.push(stepHtml(s)));
+      } else parts.push(`<li class="lfold"><button type="button" data-fold="${esc(key)}" aria-expanded="false">${label} <span class="by">ages ${ages}</span> <span class="lfold-act">Show</span></button></li>`);
+    };
+    const stepHtml = (step) => `<li class="lstep ls-${stepPhase(step)}${step.length > 1 ? ' fork' : ''}">${step.length > 1 ? '<span class="lfork-label">side by side</span>' : ''}<div class="lstep-units">${step.map(card).join('')}</div></li>`;
+    if (nowOn()) {
+      let i = 0;
+      const done = [];
+      while (i < all.length && stepPhase(all[i]) === 'done') done.push(all[i++]);
+      let j = all.length;
+      const later = [];
+      while (j > i && stepPhase(all[j - 1]) === 'later') later.unshift(all[--j]);
+      const middle = all.slice(i, j);
+      // when nothing is current, keep the first upcoming step open so the path never looks empty
+      if (!middle.length && later.length) middle.push(later.shift());
+      if (done.length) fold('done', done);
+      middle.forEach((s) => parts.push(stepHtml(s)));
+      if (later.length) fold('later', later);
+    } else all.forEach((s) => parts.push(stepHtml(s)));
+
+    const total = rows.reduce((n, r) => n + (window.App.workloadTotal(r) || 0), 0);
+    const pct = (n) => `${Math.round((100 * n) / Math.max(1, rows.length))}%`;
+    const span = `${fmtAge(Math.min(...rows.map((r) => r.ageStart)))}–${fmtAge(Math.max(...rows.map((r) => r.ageEnd)))}`;
+    linearEl.innerHTML = `
+      <nav class="lt-list" aria-label="Tracks"><ul>${items}</ul></nav>
+      <label class="lt-select">Track <select id="lt-select">${list.map((t) => `<option value="${esc(t.id)}"${t === sel ? ' selected' : ''}>${esc(t.title)}</option>`).join('')}</select></label>
+      <section class="lt-track gcol-${groupIdx[sel.group] ?? 0}" aria-label="${esc(sel.title)} track">
+        <header class="lhead">
+          <div class="eyebrow">${esc(sel.group)}</div>
+          <h2>${esc(sel.title)}</h2>
+          <p class="desc">${esc(firstSentence(sel.description))}</p>
+          <p class="lstats">${rows.length} units · ages ${span}${total ? ` · ${hoursLabel(total)} estimated in all` : ''} · for ${esc(w.name)}: ${st.done} done, ${st.now.length} now</p>
+          <div class="lprog" aria-hidden="true"><i class="p-done" style="width:${pct(st.done)}"></i><i class="p-now" style="width:${pct(st.now.length)}"></i></div>
+        </header>
+        <ol class="lpath">${parts.join('')}</ol>
+      </section>`;
+  }
+
+  linearEl.addEventListener('click', (e) => {
+    const t = e.target.closest('[data-lt]');
+    if (t) {
+      state.lt = t.dataset.lt;
+      if (state.track && state.track !== state.lt) state.track = '';
+      update(true);
+      linearEl.querySelector('.lt-track')?.scrollIntoView({ block: 'nearest' });
+      return;
+    }
+    const f = e.target.closest('[data-fold]');
+    if (f) {
+      opened.has(f.dataset.fold) ? opened.delete(f.dataset.fold) : opened.add(f.dataset.fold);
+      render();
+      linearEl.querySelector(`[data-fold="${CSS.escape(f.dataset.fold)}"]`)?.focus();
+      return;
+    }
+    const c = e.target.closest('.lcard[data-id]');
+    if (c) openRow(c.dataset.id);
+  });
+  linearEl.addEventListener('change', (e) => {
+    if (e.target.id !== 'lt-select') return;
+    state.lt = e.target.value;
+    if (state.track && state.track !== state.lt) state.track = '';
+    update(true);
+  });
+  viewBtns.forEach((b) =>
+    b.addEventListener('click', () => {
+      state.view = b.dataset.view;
+      if (state.view === 'linear' && snapAge != null) toggleSnapshot(false);
+      update(false);
+    }),
+  );
+
   function render() {
     const w = who();
     syncChild(w);
@@ -218,6 +364,16 @@
     const shown_ = new Set(DATA.rows.filter((r) => matches(r, { ...state, group: '', track: '' })).map((r) => r.id));
     const count = current.filter((r) => shown_.has(r.id)).length;
     const hidden = inFilter.length - tracks.length;
+    // "One track": a single track as a path, the rest folded to their titles
+    const linear = state.view === 'linear';
+    layout.hidden = linear;
+    linearEl.hidden = !linear;
+    snapToggle.hidden = linear;
+    viewBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === (linear ? 'linear' : 'table'))));
+    if (linear) {
+      filtersEl.querySelector('.count').textContent = `${tracks.length} track${tracks.length === 1 ? '' : 's'}${nowOn() && hidden ? ` · ${hidden} finished or not begun hidden` : ''}`;
+      return renderLinear(w, nowOn() ? tracks : inFilter, shown_);
+    }
     filtersEl.querySelector('.count').textContent = `${count} ${nowOn() ? `current unit${count === 1 ? '' : 's'} for ${w.name}` : `unit${count === 1 ? '' : 's'} highlighted`} in ${tracks.length} track${tracks.length === 1 ? '' : 's'}${nowOn() && hidden ? ` · ${hidden} finished or not begun hidden` : ''}`;
 
     const axis = Array.from({ length: MAX_AGE }, (_, a) => `<span style="left:${x(a)}px">${a === 0 ? 'Birth' : fmtAge(a)}</span>`).join('');
@@ -234,7 +390,7 @@
             const p = pos[r.id];
             const st = w.status(r.id);
             const cls = ['node', `lvl-${r.level}`, shown_.has(r.id) ? '' : 'dim', r.id === state.row ? 'selected' : '', st ? `st-${st}` : ''].join(' ');
-            return `<button type="button" class="${cls}" data-id="${esc(r.id)}" style="left:${p.left}px;top:${p.top}px;width:${p.w}px" title="${esc(r.title)} (age ${esc(ageLabel(r))})"><span>${st === 'done' ? '✓ ' : st === 'active' ? '● ' : ''}${esc(r.title)}</span></button>`;
+            return `<button type="button" class="${cls}" data-id="${esc(r.id)}" style="left:${p.left}px;top:${p.top}px;width:${p.w}px" title="${esc(r.title)} (age ${esc(ageLabel(r))}${r.workload ? `, about ${Math.round(window.App.workloadTotal(r))} h of reading and work` : ''})"><span>${st === 'done' ? '✓ ' : st === 'active' ? '● ' : ''}${esc(r.title)}</span></button>`;
           })
           .join('');
         return `<section class="lane" style="height:${height}px" aria-label="${esc(t.title)} track">

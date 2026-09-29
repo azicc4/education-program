@@ -43,6 +43,8 @@ const EXAM_CATEGORIES = ['ap-stem', 'ap-humanities', 'ap-language', 'clt', 'admi
 // how a core text is used within its unit (see data/schema.md)
 const TEXT_ROLES = ['core', 'choice', 'selections', 'reference', 'review'];
 const TEXT_PACES = ['long'];
+// kinds of non-reading work in a unit's workload estimate (see data/schema.md)
+const WORK_KINDS = ['exercises', 'writing', 'translation', 'memorization', 'recitation', 'discussion', 'lab', 'practice', 'project', 'exam-prep'];
 const FOUNDING_USES = ['reference', 'teacher', 'student'];
 const FOUNDING_CATEGORIES = ['british-university', 'colonial-college', 'founder-letter', '19th-century-school', 'treatise'];
 const REQUIRED = ['id', 'title', 'type', 'level', 'stage', 'ageStart', 'ageEnd', 'order', 'summary'];
@@ -112,6 +114,22 @@ function validateTrack(file, doc) {
       if (t.reviewOf !== undefined && t.role !== 'review') warn(rel, `${tw}: reviewOf is meant for role review`);
     }
     for (const [g, n] of Object.entries(groups)) if (n < 2) warn(rel, `${where}: choice group ${g} has only one text`);
+    if (r.workload !== undefined) {
+      const w = r.workload;
+      const num = (v) => typeof v === 'number' && v >= 0 && Number.isFinite(v);
+      if (!w || typeof w !== 'object') err(rel, `${where}: workload must be a mapping`);
+      else {
+        if (!num(w.readingHours)) err(rel, `${where}: workload.readingHours must be a number of hours (0 or more)`);
+        if (w.readingHours > 0 && !w.readingBasis) warn(rel, `${where}: workload.readingBasis should say how the reading hours were reached`);
+        if (!Array.isArray(w.work)) err(rel, `${where}: workload.work must be a list (it may be empty)`);
+        else
+          for (const item of w.work) {
+            if (!WORK_KINDS.includes(item?.kind)) err(rel, `${where}: workload.work kind ${item?.kind} (${WORK_KINDS.join(' | ')})`);
+            if (!(num(item?.hours) && item.hours > 0)) err(rel, `${where}: workload.work ${item?.kind} needs hours > 0`);
+            if (!item?.note) warn(rel, `${where}: workload.work ${item?.kind} should have a note`);
+          }
+      }
+    }
     for (const c of r.curriculumOptions || []) {
       if (!c.name) err(rel, `${where}: curriculumOption missing name`);
       if (c.tradition && !TRADITIONS.includes(c.tradition)) err(rel, `${where}: bad tradition ${c.tradition}`);

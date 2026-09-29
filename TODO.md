@@ -12,7 +12,7 @@ and has a page count where one is known.
 ## Pending input from Adam
 - [ ] **John Jay Institute curriculum.** Adam will attach it. Fold it into the college rows (philosophy-15/16,
   civics-law-19/20, history-31, theology) and add a `data/founding/john-jay-institute.yaml` reference entry.
-- [ ] **GitHub Pages:** turn on Settings → Pages → Deploy from branch `main` / `docs` to publish the site.
+- [x] **GitHub Pages:** live at https://azicc4.github.io/education-program/, deployed by `.github/workflows/pages.yml` on every push to `main`.
 
 ## Open decisions for Adam
 - [ ] The workload at 13–14 is Honors Chemistry, AP Biology, Honors Physics and precalculus together. Keep it, or move AP Biology to 14–15?
@@ -20,6 +20,10 @@ and has a page count where one is known.
 - [ ] Bioethics companion (biology-03): keep it at 13.5, or move it to 15–16? It touches end-of-life questions and gender ideology.
 
 ## Next up
+- [ ] **Scheduling the workload.** Each formal unit now carries total reading and work hours (`workload` in the track YAML).
+  Next: decide when in the school year each unit runs (whole year, a term, a summer, a few weeks), then turn the totals
+  into hours per week or minutes per school day, and show each child's combined weekly load in Family Progress and the
+  trees. Check the totals against the pace a family can sustain at each age, and flag any year that is overloaded.
 - [x] Link check rerun (2,395 URLs: 2,294 OK, 34 flagged, 67 bot-blocked). Fixed: the AASM sleep paper (now on PMC), the Tracker tool (new site), and the dead Cambiata link (removed). The other flags were transient or bot walls (Green Lion, Cengage, IMSLP, ABRSM, Archive.org timeouts, vatican.va), all rechecked OK.
 - [x] Cross-track links wired: 73 pairs total; 372 of 462 units link to related units.
 - [x] Thin curriculum options filled on 36 rows: Catholic Latin (MODG, Kolbe, OLVS, Seton Henle, CLAA, Homeschool Connections, TAN Scanlon), Catholic math and civics, product-level Veritas and CC links, the Adoremus hymnal and Liturgy of the Hours for poetry-06, and the Catholic Literary Arts youth contest for poetry-13. All Seton links load.
