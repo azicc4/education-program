@@ -15,6 +15,12 @@ and has a page count where one is known.
 - [x] **GitHub Pages:** live at https://azicc4.github.io/education-program/, deployed by `.github/workflows/pages.yml` on every push to `main`.
 
 ## Open decisions for Adam
+- [ ] **Total workload is several times a school year.** With every formal unit estimated (7,858 h of reading and
+  33,108 h of work in all) and each unit spread evenly over its ages, the program asks roughly 2,700 h in the year from
+  age 10, 3,700 h from 12, and 5,000–6,000 h a year at 13–15, against about 1,000 h in a full school year. Decide which
+  tracks are core, which are optional or seasonal (physical training, practical arts, AP side tracks, test prep), and
+  which concurrent units to shorten, merge or move (history seminars at 13–15, theology at 12.5–14.5 and 15–16, the
+  five languages at 12–14, the sciences and two APs at 13–15). Part of the scheduling task under Next up.
 - [ ] The workload at 13–14 is Honors Chemistry, AP Biology, Honors Physics and precalculus together. Keep it, or move AP Biology to 14–15?
 - [ ] Add a non-Western world-history unit to the main history track? For now AP World is covered only in the side track.
 - [ ] Bioethics companion (biology-03): keep it at 13.5, or move it to 15–16? It touches end-of-life questions and gender ideology.
