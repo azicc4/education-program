@@ -27,12 +27,28 @@
 
   const uid = () => Math.random().toString(36).slice(2, 10);
   const today = () => new Date().toISOString().slice(0, 10);
-  const textKey = (t) => `${(t.title || '').replace(/\s*\(elective\)\s*$/i, '').trim().toLowerCase()}|${(t.author || '').trim().toLowerCase()}`;
-  const isElective = (t) => /\(elective\)\s*$/i.test(t.title || '');
-  const cleanTitle = (t) => (t.title || '').replace(/\s*\(elective\)\s*$/i, '');
+  // "(elective)" or "(elective, …)" at the end of a title marks an optional text
+  const ELECTIVE = /\s*\(elective[^)]*\)\s*$/i;
+  const textKey = (t) => `${(t.title || '').replace(ELECTIVE, '').trim().toLowerCase()}|${(t.author || '').trim().toLowerCase()}`;
+  const isElective = (t) => ELECTIVE.test(t.title || '');
+  const cleanTitle = (t) => (t.title || '').replace(ELECTIVE, '');
+
+  // the texts a finished unit puts on the shelf: what was actually read, so no electives, reference works or
+  // re-reads, and only the first (default) text of each "choose one" group
+  function requiredTexts(r) {
+    const seen = new Set();
+    return (r.coreTexts || []).filter((t) => {
+      if (isElective(t) || t.role === 'reference' || t.role === 'review') return false;
+      if (t.role !== 'choice') return true;
+      if (seen.has(t.group)) return false;
+      seen.add(t.group);
+      return true;
+    });
+  }
 
   const Store = {
     get memoryOnly() { return memoryOnly; },
+    requiredTexts,
     onChange(fn) { listeners.add(fn); },
     textKey, isElective, cleanTitle, today,
 
@@ -48,7 +64,7 @@
       save();
       return c;
     },
-    updateChild(id, patch) { Object.assign(Store.child(id), patch); save(); },
+    updateChild(id, patch, { quiet = false } = {}) { Object.assign(Store.child(id), patch); if (!quiet) save(); },
     removeChild(id) {
       state.children = state.children.filter((c) => c.id !== id);
       delete state.progress[id];
@@ -86,7 +102,7 @@
     // ---------- bookshelf ----------
     shelf: (childId) => state.shelf[childId] || [],
     onShelf: (childId, key) => (state.shelf[childId] || []).some((b) => b.key === key),
-    addBook(childId, book) {
+    addBook(childId, book, { quiet = false } = {}) {
       const list = (state.shelf[childId] ||= []);
       const entry = {
         id: uid(),
@@ -104,8 +120,15 @@
       entry.key = textKey(entry);
       if (!entry.title || list.some((b) => b.key === entry.key)) return null;
       list.push(entry);
-      save();
+      if (!quiet) save();
       return entry;
+    },
+    // add many books with a single save; returns how many were new
+    addBooks(childId, books) {
+      let n = 0;
+      for (const b of books) if (Store.addBook(childId, b, { quiet: true })) n++;
+      if (n) save();
+      return n;
     },
     removeBook(childId, bookId) {
       state.shelf[childId] = (state.shelf[childId] || []).filter((b) => b.id !== bookId && b.key !== bookId);

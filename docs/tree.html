@@ -21,7 +21,7 @@
         <a href="radial.html">Radial Tree</a>
         <a href="founding.html">Founding-Era Reading</a>
         <a href="exams.html">Exams</a>
-        <a href="family.html">Family</a>
+        <a href="family.html">Family Progress</a>
       </nav>
       <button type="button" class="theme-toggle">☾ Dark</button>
     </div>
@@ -34,6 +34,9 @@
     </p>
     <div class="filters" id="filters"></div>
     <div class="legend">
+      <label>Child <select id="tree-child"></select></label>
+      <button type="button" class="chip now-toggle" id="now-toggle" aria-pressed="true" title="Show only the units that fit the child's age now; hide finished units, units not begun yet, and empty tracks">Current Age</button>
+      <button type="button" class="chip" id="tree-print">Print booklist</button>
       <button type="button" class="chip" id="snap-toggle" aria-pressed="false" title="Show a draggable age cursor and the books studied at that point">Snapshot Bookshelf</button>
       <span class="badge lvl-early-5">Early Dev – 5</span>
       <span class="badge lvl-6-8">Grades 6–8</span>
@@ -48,6 +51,7 @@
 
   <script src="data/curriculum.js"></script>
   <script src="assets/store.js"></script>
+  <script src="assets/demo.js"></script>
   <script src="assets/common.js"></script>
   <script src="assets/tree.js"></script>
 </body>
