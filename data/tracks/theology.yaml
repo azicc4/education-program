@@ -236,6 +236,12 @@ rows:
       - Know the Ten Commandments, the Apostles' Creed and an Act of Contrition
       - Explain simply what happens in Baptism, Confession and the Eucharist
       - Prepare for and receive first Penance and first Holy Communion
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 30, note: "catechism lessons (St. Joseph No. 0, Baltimore No. 1, Faith and Life 1–2), 45 lessons x 40 min" }
+        - { kind: memorization, hours: 18, note: "catechism answers, Commandments, Creed and Act of Contrition, 54 weeks x 4 x 5 min" }
+        - { kind: practice, hours: 10, note: "first Confession and Communion preparation: CHC activities and parish sessions" }
     coreTexts:
       - title: "St. Joseph First Communion Catechism (No. 0)"
         kind: instructional
@@ -298,6 +304,14 @@ rows:
       - Trace the covenants with Adam, Noah, Abraham, Moses, David and the New Covenant in Christ
       - Memorize Psalm 23, the Ten Commandments (Exodus 20), and the Beatitudes
       - Narrate a Bible story orally and in writing
+    workload:
+      readingHours: 95
+      readingBasis: "1,408 pp: the Douay-Rheims Bible read together at ~15 pp/h (dense two-column older English)"
+      work:
+        - { kind: exercises, hours: 35, note: "Christian Studies timeline, map and workbook lessons, 75 x 30 min" }
+        - { kind: memorization, hours: 30, note: "timeline, Bible places, Psalm 23, the Commandments and the Beatitudes, 90 weeks x 2 x 10 min" }
+        - { kind: discussion, hours: 15, note: "oral narration of Bible stories, 90 x 10 min" }
+        - { kind: writing, hours: 10, note: "written narrations, 20 x 30 min" }
     coreTexts:
       - title: The Holy Bible, Douay-Rheims Version
         kind: primary
@@ -354,6 +368,12 @@ rows:
       - Define sanctifying and actual grace, mortal and venial sin, and the theological and cardinal virtues
       - Know the seven sacraments, their matter, form and minister
       - Pray the Rosary and know its mysteries
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 45, note: "Faith and Life 3–5 and Baltimore No. 2 lessons, 60 chapters x 45 min" }
+        - { kind: memorization, hours: 35, note: "Baltimore No. 2 answers and definitions, 72 weeks x 3 x 10 min" }
+        - { kind: practice, hours: 12, note: "learning the Rosary and its mysteries, 36 x 20 min" }
     coreTexts:
       - title: "A Catechism of Christian Doctrine, No. 2 (Baltimore Catechism)"
         kind: instructional
@@ -396,6 +416,13 @@ rows:
       - Place the saints on the history timeline
       - Explain what martyrdom, sanctity and canonization mean
       - Read the feast-day entry from Butler's Lives on major feasts
+    workload:
+      readingHours: 30
+      readingBasis: "571 pp: Fabiola at ~20 pp/h (21 h), Butler's feast-day entries read together at ~20 pp/h (8 h); the saint biographies are not among the counted texts"
+      work:
+        - { kind: writing, hours: 10, note: "reports or written narrations on 20 biographies x 30 min" }
+        - { kind: discussion, hours: 6, note: "oral narration, 24 x 15 min" }
+        - { kind: project, hours: 5, note: "placing the saints on the history timeline, 20 x 15 min" }
     coreTexts:
       - title: "The Lives of the Fathers, Martyrs, and Other Principal Saints"
         kind: secondary
@@ -450,6 +477,13 @@ rows:
       - Identify the allegorical meaning of key places and characters (Slough of Despond, Vanity Fair, Giant Despair)
       - Memorize a passage (e.g. "Who would true valour see")
       - Compare Christian's journey with a saint's life read in theology-09
+    workload:
+      readingHours: 8
+      readingBasis: "120 pp: Pilgrim's Progress Part I at ~15 pp/h"
+      work:
+        - { kind: discussion, hours: 8, note: "narrating the main episodes and their allegory, 24 x 20 min" }
+        - { kind: memorization, hours: 3, note: "Who would true valour see, 4 weeks x 5 x 10 min" }
+        - { kind: writing, hours: 2, note: "short comparison of Christian's journey with a saint's life" }
     coreTexts:
       - title: The Pilgrim's Progress from This World to That Which Is to Come
         kind: primary
@@ -501,6 +535,13 @@ rows:
       - Explain the four marks of the Church and apostolic succession
       - Explain grace, justification and merit in Catholic terms
       - Prepare for and receive Confirmation, choosing a saint's name with a written reason
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 60, note: "Faith and Life 6–8 and Baltimore No. 3 lessons, 60 x 1 h" }
+        - { kind: memorization, hours: 35, note: "Baltimore No. 3 answers with Scripture references, 72 weeks x 3 x 10 min" }
+        - { kind: practice, hours: 10, note: "Confirmation preparation: parish sessions and retreat" }
+        - { kind: writing, hours: 6, note: "saint's-name essay and short written answers" }
     coreTexts:
       - title: "A Catechism of Christian Doctrine, No. 3 (Baltimore Catechism)"
         kind: instructional
@@ -558,6 +599,13 @@ rows:
       - Compare the Synoptic Gospels in parallel passages and explain John's distinct purpose
       - Trace Old Testament fulfillment (Passover, manna, temple, David's kingdom) in the Gospels
       - Memorize the Sermon on the Mount (Matthew 5–7), in sections
+    workload:
+      readingHours: 14
+      readingBasis: "207 pp: the Gospels and Acts with study notes at ~15 pp/h"
+      work:
+        - { kind: memorization, hours: 25, note: "Sermon on the Mount in sections, 54 weeks x 3 x 10 min" }
+        - { kind: exercises, hours: 18, note: "synoptic parallels and Old Testament fulfillment study, 30 x 35 min" }
+        - { kind: discussion, hours: 18, note: "discussion, 36 x 30 min" }
     coreTexts:
       - title: "Ignatius Catholic Study Bible: New Testament (RSV-2CE)"
         kind: primary
@@ -606,6 +654,12 @@ rows:
       - Explain the Mass as sacrifice and the theology of each sacrament
       - Apply the principles of Catholic morality (object, intention, circumstances; conscience)
       - Answer common objections to Catholic doctrine in writing
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 65, note: "Laux Parts I–IV read and studied as lessons with review questions, 64 weeks x 1 h" }
+        - { kind: writing, hours: 20, note: "written answers to objections, 10 x 2 h" }
+        - { kind: discussion, hours: 20, note: "weekly discussion, 64 x 20 min" }
     coreTexts:
       - title: A Course in Religion for Catholic High Schools and Academies (Parts I–IV)
         kind: instructional
@@ -653,6 +707,12 @@ rows:
       - Present and defend three arguments for God's existence and the argument for the resurrection
       - Summarize Lewis's moral argument and his "liar, lunatic or Lord" trilemma, and evaluate them
       - Answer five common objections to Christianity in short essays
+    workload:
+      readingHours: 90
+      readingBasis: "1,553 pp: Sheed and Kreeft-Tacelli (712 pp) at ~18 pp/h (40 h), Adam and Paley (650 pp) at ~15 pp/h (43 h), Mere Christianity at ~25 pp/h (8 h)"
+      work:
+        - { kind: writing, hours: 25, note: "five objection essays x 2.5 h and three argument papers x 4 h" }
+        - { kind: discussion, hours: 40, note: "weekly discussion over 1.5 years, 54 x 45 min" }
     coreTexts:
       - title: Theology for Beginners
         kind: secondary
@@ -783,6 +843,13 @@ rows:
       - Outline each book of the Bible in one sentence and place it in salvation history
       - Read Romans and Hebrews closely, noting Catholic and Protestant readings
       - Read Dei Verbum (Vatican II) on revelation and inspiration
+    workload:
+      readingHours: 75
+      readingBasis: "whole Bible (no page count; about 1,500 ordinary pages, some 880,000 words) at ~20 pp/h (75 h); Dei Verbum 15 pp (1 h)"
+      work:
+        - { kind: writing, hours: 25, note: "one-sentence outline of each of the 73 books and close notes on Romans and Hebrews" }
+        - { kind: discussion, hours: 20, note: "fortnightly discussion, 27 x 45 min" }
+        - { kind: exercises, hours: 16, note: "Hillsdale Genesis, Exodus and David lectures, 24 x 40 min" }
     coreTexts:
       - title: "Ignatius Catholic Study Bible (RSV-2CE)"
         kind: primary
@@ -855,6 +922,13 @@ rows:
       - Read Confessions I–IX in full, and X–XIII in selection
       - Explain Augustine's account of evil as privation and of the restless heart
       - Summarize the Rule of St. Benedict on obedience, humility, prayer and work, and design a personal rule of life
+    workload:
+      readingHours: 18
+      readingBasis: "317 pp: Apostolic Fathers at ~18 pp/h (6 h), Confessions at ~15 pp/h (7 h), Rule of St. Benedict at ~20 pp/h (5 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "weekly seminar, 32 x 45 min" }
+        - { kind: exercises, hours: 15, note: "Memoria study-guide questions, 30 x 30 min" }
+        - { kind: writing, hours: 12, note: "personal rule of life and three short papers, 4 x 3 h" }
     coreTexts:
       - title: The Writings of the Apostolic Fathers
         kind: primary
@@ -929,6 +1003,13 @@ rows:
       - Follow de Sales's method of meditation for a month and write a reflection
       - Describe Teresa's seven mansions of the Interior Castle
       - Explain Thérèse's "little way" and why she was made a Doctor of the Church
+    workload:
+      readingHours: 45
+      readingBasis: "831 pp: Imitation and Interior Castle (339 pp) at ~15 pp/h (23 h), de Sales at ~18 pp/h (16 h), Story of a Soul at ~25 pp/h (8 h)"
+      work:
+        - { kind: practice, hours: 10, note: "de Sales's method of meditation for a month, 30 x 20 min" }
+        - { kind: writing, hours: 12, note: "maxims notebook, meditation reflection and two short papers" }
+        - { kind: discussion, hours: 14, note: "fortnightly discussion, 18 x 45 min" }
     coreTexts:
       - title: The Imitation of Christ
         kind: primary
@@ -997,6 +1078,13 @@ rows:
       - Summarize Chesterton's "Ethics of Elfland" and "The Paradoxes of Christianity"
       - Explain Lewis's "Tao" and "men without chests" and apply them to modern education
       - Write a Screwtape-style letter on a modern temptation
+    workload:
+      readingHours: 65
+      readingBasis: "1,230 pp: Newman at ~15 pp/h (26 h), Chesterton and Abolition of Man (547 pp) at ~20 pp/h (27 h), Screwtape and Great Divorce (288 pp) at ~30 pp/h (10 h)"
+      work:
+        - { kind: writing, hours: 20, note: "Screwtape-style letter and four essays, 5 x 4 h" }
+        - { kind: discussion, hours: 20, note: "fortnightly discussion, 27 x 45 min" }
+        - { kind: exercises, hours: 11, note: "Hillsdale Lewis lectures (8 x 40 min) and Memoria Orthodoxy guide (12 x 30 min)" }
     coreTexts:
       - title: Apologia Pro Vita Sua
         kind: primary
@@ -1094,6 +1182,12 @@ rows:
       - Explain Bonhoeffer's distinction between cheap and costly grace and relate it to his martyrdom
       - State Pascal's wager and his "reasons of the heart", and note where Jansenism diverged from Catholic teaching
       - Write a comparative essay that states each side in terms its own adherents would accept
+    workload:
+      readingHours: 100
+      readingBasis: "1,712 pp: Calvin, Wesley and Pascal (1,019 pp) at ~18 pp/h (57 h), Butler and the Shorter Catechism (374 pp) at ~15 pp/h (25 h), Bonhoeffer at ~20 pp/h (16 h)"
+      work:
+        - { kind: writing, hours: 30, note: "comparative essay (6–8 pp) with revision 12 h, catechism comparison chart 6 h, 5 short papers x 2 h" }
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
     coreTexts:
       - title: The Westminster Shorter Catechism
         kind: primary
@@ -1228,6 +1322,14 @@ rows:
       - State the principles of CST (human dignity, common good, subsidiarity, solidarity, private property)
       - Compare Catholic social teaching with the American founding's view of property and limited government
       - Write a policy memo on a current issue using the Compendium of the Social Doctrine
+    workload:
+      readingHours: 30
+      readingBasis: "631 pp at ~20 pp/h: Spirit of the Liturgy (350 pp), Sacrosanctum Concilium and four encyclicals (281 pp); Callan and McHugh's manual is counted as lessons under exercises"
+      work:
+        - { kind: exercises, hours: 50, note: "Callan and McHugh's Moral Theology (824 pp) as 32 lessons x 90 min" }
+        - { kind: writing, hours: 19, note: "policy memo using the Compendium 8 h, 8 double-effect cases x 1 h, two service descriptions x 1.5 h" }
+        - { kind: discussion, hours: 25, note: "weekly discussion, 32 x 45 min" }
+        - { kind: practice, hours: 4, note: "attending services of two other traditions" }
     coreTexts:
       - title: "The Spirit of the Liturgy (Commemorative Edition, with Guardini's work of the same title)"
         kind: primary
@@ -1327,6 +1429,12 @@ rows:
       - Compare the CCC and the Roman Catechism on the Creed and sacraments
       - Use the CCC's footnotes to trace a doctrine to Scripture, the Fathers and councils
       - Explain Sheed's claim that theology is necessary for sanity, that is, for seeing what is there
+    workload:
+      readingHours: 70
+      readingBasis: "1,438 pp: the Catechism (856 pp) and the Roman Catechism selections (200 pp) at ~20 pp/h (53 h), Sheed at ~22 pp/h (17 h)"
+      work:
+        - { kind: writing, hours: 30, note: "written summaries of the four parts (4 x 5 h), CCC and Roman Catechism comparison 8 h, footnote-tracing exercise 4 h" }
+        - { kind: discussion, hours: 14, note: "fortnightly discussion, 18 x 45 min" }
     coreTexts:
       - title: Catechism of the Catholic Church (2nd ed.)
         kind: primary
@@ -1389,6 +1497,12 @@ rows:
       - Explain eternal, natural, human and divine law and their relation (I-II q.91)
       - Apply natural-law reasoning to a constitutional or legislative question
       - Explain the doctrine of the Trinity using Aquinas's terms (procession, relation, person)
+    workload:
+      readingHours: 65
+      readingBasis: "~1,000 pp of the Summa read article by article at ~15 pp/h"
+      work:
+        - { kind: discussion, hours: 90, note: "tutorial, 30 weeks x 2 x 90 min" }
+        - { kind: writing, hours: 50, note: "eight article presentations in scholastic form x 3 h and two 8-page papers x 12 h" }
     coreTexts:
       - title: Summa Theologiae
         kind: primary
@@ -1462,6 +1576,12 @@ rows:
       - Read Luther's 95 Theses and Trent's Decree on Justification side by side
       - State and apply Newman's seven notes of genuine development
       - Write a research paper on one council or reform movement from primary sources
+    workload:
+      readingHours: 50
+      readingBasis: "1,277 pp: Eusebius at ~25 pp/h (9 h), Newman's Essay at ~18 pp/h (25 h), Carroll at ~40 pp/h (15 h); the councils, creeds, 95 Theses and Trent decrees are not counted"
+      work:
+        - { kind: writing, hours: 50, note: "research paper (12–15 pp) from primary sources ~40 h, plus 6 short papers x 2 h" }
+        - { kind: discussion, hours: 60, note: "30 seminars x 2 h" }
     coreTexts:
       - title: Church History
         kind: primary
@@ -1536,6 +1656,12 @@ rows:
       - Explain the active and passive nights of sense and spirit, and why John counsels detachment
       - Relate John's teaching to Aquinas on the theological virtues and the gifts of the Holy Spirit
       - Write a seminar paper on the relation of the poem "Noche oscura" to its prose commentary
+    workload:
+      readingHours: 25
+      readingBasis: "351 pp: Ascent Book I and the Dark Night read slowly at ~15 pp/h"
+      work:
+        - { kind: discussion, hours: 18, note: "fortnightly sessions with a mentor, 18 x 1 h" }
+        - { kind: writing, hours: 20, note: "seminar paper on Noche oscura and its prose commentary" }
     coreTexts:
       - title: Ascent of Mount Carmel
         kind: primary
@@ -1588,6 +1714,11 @@ rows:
       - Keep a small notebook of one sentence or resolution per reading
       - Explain in his own words the meaning of the Our Father, the Hail Mary and the Mass from O'Sullivan
       - Explain St. Alphonsus's teaching that uniformity with God's will is the summit of holiness, with an example from his own life
+    workload:
+      readingHours: 7
+      readingBasis: "106 pp read together at lectio pace, ~15 pp/h; How to Be Happy, How to Be Holy has no page count and is not counted"
+      work:
+        - { kind: practice, hours: 135, note: "daily lectio slot with resolution notebook, 5 x 12 min x 36 weeks x 4 years (10–14, before theology-17 takes it over), less the reading" }
     coreTexts:
       - title: How to Be Happy, How to Be Holy
         kind: primary

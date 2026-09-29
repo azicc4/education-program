@@ -74,6 +74,12 @@ rows:
       - Distinguish opinion, belief and knowledge in simple cases
       - Keep a philosophy notebook of questions and tentative answers
       - Conduct a short Socratic dialogue with a sibling or parent
+    workload:
+      readingHours: 8
+      readingBasis: "211 pp: Philosophy for Kids read together at ~25 pp/h"
+      work:
+        - { kind: discussion, hours: 35, note: "weekly Socratic conversation, 72 x 30 min" }
+        - { kind: writing, hours: 7, note: "philosophy notebook, 40 entries x 10 min" }
     coreTexts:
       - title: "Philosophy for Kids: 40 Fun Questions That Help You Wonder about Everything!"
         kind: instructional
@@ -121,6 +127,13 @@ rows:
       - Summarize Socrates' defense and his claim that the unexamined life is not worth living
       - Evaluate the Laws' argument in the Crito for obeying the city
       - Reconstruct at least two arguments for immortality in the Phaedo
+    workload:
+      readingHours: 14
+      readingBasis: "309 pp: the four dialogues read together at ~20 pp/h (8 h), Kreeft at ~25 pp/h (6 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "weekly discussion, 54 x 30 min" }
+        - { kind: exercises, hours: 19, note: "Memoria Last Days of Socrates guide, 30 x 30 min, and 6 Hillsdale lectures x 40 min" }
+        - { kind: writing, hours: 9, note: "argument reconstructions and short essays, 6 x 1.5 h" }
     coreTexts:
       - title: Euthyphro
         kind: primary
@@ -187,6 +200,13 @@ rows:
       - Write a structural outline and a one-paragraph summary of a philosophical work
       - Explain Aristotle's four causes, his view of happiness, and his distinction between wants and needs
       - Begin a commonplace book of key passages from the great books
+    workload:
+      readingHours: 25
+      readingBasis: "604 pp at ~25 pp/h: How to Read a Book (16 h), Aristotle for Everybody (8 h)"
+      work:
+        - { kind: exercises, hours: 12, note: "analytical-reading practice on set works, 12 x 1 h" }
+        - { kind: writing, hours: 9, note: "structural outlines, summaries and a commonplace book, 6 x 1.5 h" }
+        - { kind: discussion, hours: 12, note: "fortnightly discussion, 18 x 40 min" }
     coreTexts:
       - title: How to Read a Book
         kind: instructional
@@ -235,6 +255,13 @@ rows:
       - Explain the tripartite soul and its parallel in the city
       - Interpret the sun, line and cave, and apply them to the program's own aims
       - Evaluate Plato's account of the decline from aristocracy to tyranny against American history
+    workload:
+      readingHours: 25
+      readingBasis: "456 pp: Meno and Republic (Jowett) at ~18 pp/h"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 16, note: "four short papers (2–3 pp) x 4 h" }
+        - { kind: exercises, hours: 15, note: "Memoria Republic guide questions, 30 x 30 min" }
     coreTexts:
       - title: Meno
         kind: primary
@@ -290,6 +317,12 @@ rows:
       - Compare Marcus Aurelius's private notes on duty with his public role as emperor
       - Read ten of Seneca's letters and summarize their teaching on time, death, friendship and wealth
       - Contrast Stoic apatheia with Christian charity and the theological virtues
+    workload:
+      readingHours: 35
+      readingBasis: "600 pp: Epictetus and Seneca (314 pp) at ~20 pp/h (16 h), Marcus Aurelius (Casaubon) at ~15 pp/h (14 h), Tusculan Disputations at ~18 pp/h (5 h)"
+      work:
+        - { kind: writing, hours: 11, note: "dichotomy-of-control journal (30 x 10 min) and two short essays x 3 h" }
+        - { kind: discussion, hours: 14, note: "fortnightly discussion, 18 x 45 min" }
     coreTexts:
       - title: A Selection from the Discourses of Epictetus, with the Encheiridion
         kind: primary
@@ -359,6 +392,13 @@ rows:
       - Summarize Aristotle's six regimes and his case for the mixed regime
       - Compare Aristotle's polity with the constitutional design of the Federalist
       - Write a seminar paper on friendship (Ethics VIII–IX) or on education (Politics VII–VIII)
+    workload:
+      readingHours: 35
+      readingBasis: "529 pp: Nicomachean Ethics and Politics at ~15 pp/h"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 20, note: "seminar paper (6–8 pp) ~12 h and 4 short responses x 2 h" }
+        - { kind: exercises, hours: 15, note: "Memoria Ethics guide and Hillsdale lectures, 30 x 30 min" }
     coreTexts:
       - title: The Nicomachean Ethics
         kind: primary
@@ -416,6 +456,13 @@ rows:
       - Explain Lady Philosophy's arguments on fortune, the highest good, and divine foreknowledge
       - State Aquinas's distinction between truths of reason and truths of revelation (ST I q.1)
       - Outline the five ways (ST I q.2 a.3) and one objection and reply for each
+    workload:
+      readingHours: 30
+      readingBasis: "498 pp: City of God selections at ~18 pp/h (20 h), Consolation and Summa I qq. 1–2 (131 pp) at ~15 pp/h (9 h)"
+      work:
+        - { kind: discussion, hours: 25, note: "weekly seminar, 32 x 45 min" }
+        - { kind: writing, hours: 12, note: "three short papers x 4 h" }
+        - { kind: exercises, hours: 12, note: "five-ways objection-and-reply chart and Memoria guide questions, 24 x 30 min" }
     coreTexts:
       - title: The City of God
         kind: primary
@@ -490,6 +537,12 @@ rows:
       - State Hume's problem of induction and his argument against miracles, and answer them
       - Explain Kant's categorical imperative in its first two formulations
       - Evaluate each thinker from the standpoint of Aristotelian-Thomist realism
+    workload:
+      readingHours: 35
+      readingBasis: "609 pp: Descartes, Locke and Hume (529 pp) at ~18 pp/h (29 h), Kant's Groundwork at ~12 pp/h (7 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 15, note: "five argument reconstructions with realist critiques x 3 h" }
     coreTexts:
       - title: Discourse on Method; Meditations on First Philosophy
         kind: primary
@@ -572,6 +625,12 @@ rows:
       - Explain Burke's critique of abstract rights and his defense of prudence and prescription
       - Summarize Tocqueville on religion, associations, and the danger of soft despotism
       - Write a seminar paper judging one modern theory by Aristotle's Politics or by natural law
+    workload:
+      readingHours: 35
+      readingBasis: "723 pp: The Prince at ~25 pp/h (6 h), Leviathan at ~15 pp/h (11 h), Rousseau at ~20 pp/h (20 h); Locke, Burke and Tocqueville are not counted here"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 20, note: "seminar paper (6–8 pp) ~12 h and 4 short responses x 2 h" }
     coreTexts:
       - title: The Prince
         kind: primary
@@ -674,6 +733,12 @@ rows:
       - Explain Mill's "higher and lower pleasures" and the standard objections to utilitarianism
       - Compare Mill's liberty with Aristotle's and Aquinas's view of law as a teacher of virtue
       - Write an essay on what this program should learn and avoid from Mill's upbringing
+    workload:
+      readingHours: 25
+      readingBasis: "528 pp: Autobiography at ~25 pp/h (10 h), On Liberty and Utilitarianism (288 pp) at ~22 pp/h (13 h)"
+      work:
+        - { kind: writing, hours: 12, note: "essay on Mill's upbringing (4–5 pp) ~8 h and harm-principle hard cases 4 h" }
+        - { kind: discussion, hours: 14, note: "weekly discussion, 18 x 45 min" }
     coreTexts:
       - title: Autobiography
         kind: primary
@@ -735,6 +800,12 @@ rows:
       - Explain Nietzsche's master and slave moralities and his critique of Christianity, then answer it
       - Explain Kierkegaard's stages (aesthetic, ethical, religious) and his idea of the "single individual"
       - Identify each thinker's influence on present-day politics and culture
+    workload:
+      readingHours: 45
+      readingBasis: "752 pp: Manifesto at ~25 pp/h (2 h), Genealogy at ~18 pp/h (13 h), Beyond Good and Evil and Kierkegaard (484 pp) at ~15 pp/h (32 h)"
+      work:
+        - { kind: writing, hours: 8, note: "two short papers x 4 h" }
+        - { kind: discussion, hours: 14, note: "weekly discussion, 18 x 45 min" }
     coreTexts:
       - title: The Communist Manifesto
         kind: primary
@@ -806,6 +877,12 @@ rows:
       - Discuss Gilson's thesis on Christian philosophy and its critics
       - Outline Fides et Ratio's account of the relation of philosophy to theology
       - Write a seminar paper applying MacIntyre or Pieper to the design of this program
+    workload:
+      readingHours: 75
+      readingBasis: "1,638 pp: Pieper, Maritain and Fides et Ratio (425 pp) at ~22 pp/h (19 h), Gilson at ~20 pp/h (25 h), MacIntyre at ~18 pp/h (16 h), Senior (437 pp) at ~30 pp/h (15 h)"
+      work:
+        - { kind: writing, hours: 40, note: "seminar paper (10–12 pp) ~25 h and 15 weekly responses x 1 h" }
+        - { kind: discussion, hours: 35, note: "18 seminars x 2 h" }
     coreTexts:
       - title: "Leisure: The Basis of Culture (with The Philosophical Act)"
         kind: primary
@@ -916,6 +993,12 @@ rows:
       - Distinguish substance and accident, act and potency, matter and form
       - Reconstruct Aristotle's argument for the unmoved mover (Metaphysics XII)
       - Lead a 90-minute seminar with an opening question and sustained follow-up
+    workload:
+      readingHours: 9
+      readingBasis: "139 pp: Metaphysics I, IV, VII and XII at ~15 pp/h; re-reads of earlier texts are not counted"
+      work:
+        - { kind: discussion, hours: 60, note: "30 seminars x 2 h, including leading one 90-minute seminar" }
+        - { kind: writing, hours: 20, note: "two papers x 10 h" }
     coreTexts:
       - title: Metaphysics
         kind: primary
@@ -971,6 +1054,12 @@ rows:
       - Trace the move from natural law to natural rights through Suárez, Grotius's Prolegomena, Pufendorf and Burlamaqui
       - Show how the Declaration's "Laws of Nature and of Nature's God" and Wilson's lecture "Of the Law of Nature" draw on this tradition
       - Match the precepts in Lewis's appendix ("Illustrations of the Tao") to the Decalogue and to Aquinas q.94
+    workload:
+      readingHours: 90
+      readingBasis: "1,783 pp: Suárez at ~15 pp/h (24 h), Pufendorf at ~20 pp/h (17 h), Burlamaqui, Wilson and Budziszewski (1,015 pp) at ~22 pp/h (46 h), Antigone and Rhetoric I.13 at ~25 pp/h (3 h); Grotius has no page count and is not counted"
+      work:
+        - { kind: writing, hours: 15, note: "seminar paper and the Tao, Decalogue and q.94 matching exercise" }
+        - { kind: discussion, hours: 18, note: "weekly seminar, 18 x 1 h" }
     coreTexts:
       - title: "Antigone (in Plays of Sophocles, trans. F. Storr)"
         kind: primary
@@ -1206,6 +1295,12 @@ rows:
       - Explain Maritain's account of knowledge of natural law "by inclination" and how it grounds human rights
       - Summarize Hart's separation of law and morals and his "minimum content of natural law", and give a natural-law answer
       - Write a seminar paper on a live public controversy that argues from natural law to a reader who rejects it
+    workload:
+      readingHours: 80
+      readingBasis: "1,621 pp: Finnis at ~18 pp/h (24 h), George, Hart and Feser (651 pp) at ~20 pp/h (33 h), Maritain at ~22 pp/h (10 h), Budziszewski at ~30 pp/h (9 h), Grisez and Hume (54 pp) at ~15 pp/h (4 h)"
+      work:
+        - { kind: writing, hours: 40, note: "seminar paper (10–12 pp) ~25 h and 15 weekly responses x 1 h" }
+        - { kind: discussion, hours: 35, note: "18 seminars x 2 h" }
     coreTexts:
       - title: Man and the State
         kind: primary
