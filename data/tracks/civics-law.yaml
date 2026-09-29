@@ -128,6 +128,13 @@ rows:
       - Answer 50 or more catechism-style questions on American history and government
       - Tell the story of Washington, Franklin, Jefferson and Lincoln in their own words
       - Copy and recite short lines (for example "Liberty and Union, now and forever, one and inseparable!")
+    workload:
+      readingHours: 0
+      work:
+        - { kind: memorization, hours: 14, note: "200 Questions catechism drill and short lines, 54 weeks x 2 x 8 min" }
+        - { kind: exercises, hours: 12, note: "Hillsdale 1776 K-2 holiday and hero lessons, 24 x 30 min" }
+        - { kind: discussion, hours: 6, note: "narrating the hero and holiday stories, 24 x 15 min" }
+        - { kind: writing, hours: 6, note: "copywork of memorized lines, 24 x 15 min" }
     curriculumOptions:
       - name: 200 Questions About American History
         publisher: Memoria Press
@@ -168,6 +175,14 @@ rows:
       - Explain in one's own words "all men are created equal," "unalienable Rights," and "consent of the governed"
       - Name the six purposes of government in the Preamble
       - Identify Jefferson, Adams, Franklin and the Second Continental Congress as authors and signers
+    workload:
+      readingHours: 1
+      readingBasis: "5 pp read together (Declaration, Preamble) at ~10 pp/h with explanation, about 0.5 h"
+      work:
+        - { kind: memorization, hours: 18, note: "Declaration paragraphs 1–2 and the Preamble word-perfect, 36 weeks x 3 x 10 min" }
+        - { kind: writing, hours: 9, note: "copywork of the first sentences as penmanship, 36 x 15 min" }
+        - { kind: discussion, hours: 6, note: "explaining equality, rights, consent and the six purposes, 18 x 20 min" }
+        - { kind: exercises, hours: 5, note: "Hillsdale 1776 Declaration lessons, 10 x 30 min" }
     coreTexts:
       - title: "The Declaration of Independence: A Transcription"
         kind: primary
@@ -227,6 +242,13 @@ rows:
       - Name the subject of each of the first ten amendments and each of the seven Articles
       - Explain separation of powers, federalism and checks and balances with examples
       - Connect the Gettysburg Address to the Declaration ("four score and seven years ago")
+    workload:
+      readingHours: 18
+      readingBasis: "266 pp: Hillsdale Reader selections read together (~263 pp counted) at ~15 pp/h (18 h); Bill of Rights and Gettysburg Address under 1 h"
+      work:
+        - { kind: memorization, hours: 17, note: "Gettysburg Address, First Amendment, subjects of the amendments and Articles, 50 weeks x 2 x 10 min" }
+        - { kind: exercises, hours: 15, note: "Hillsdale Introduction to the Constitution, 10 lectures x 45 min, and 200 Questions drill, 30 x 15 min" }
+        - { kind: discussion, hours: 12, note: "separation of powers, federalism and the Reader documents, 36 x 20 min" }
     coreTexts:
       - title: "The Bill of Rights: A Transcription"
         kind: primary
@@ -297,6 +319,14 @@ rows:
       - Describe the structure of one's own state government and name one's governor, legislators, mayor and county officials
       - Attend and write a report on a local government meeting and a court session
       - Write a respectful letter to an elected official about a real issue
+    workload:
+      readingHours: 25
+      readingBasis: "372 pp: Story's Familiar Exposition at ~15 pp/h; the House's Legislative Process has no page count and is not counted"
+      work:
+        - { kind: exercises, hours: 30, note: "civics lessons (Hillsdale 1776 middle school) with Story chapter questions, 45 x 40 min" }
+        - { kind: discussion, hours: 18, note: "fortnightly discussion over two years, 36 x 30 min" }
+        - { kind: project, hours: 12, note: "visits to a town council, a court session and the state capitol, with preparation, 4 x 3 h" }
+        - { kind: writing, hours: 6, note: "two visit reports and a letter to an elected official, 3 x 2 h" }
     coreTexts:
       - title: A Familiar Exposition of the Constitution of the United States
         kind: instructional
@@ -366,6 +396,14 @@ rows:
       - Make, second, amend, and table a motion correctly; know the order of precedence of the common motions
       - Draft a bill with findings and enacting clauses and argue for it in a mock legislative session
       - Deliver a three-minute persuasive speech and answer cross-examination
+    workload:
+      readingHours: 13
+      readingBasis: "188 pp: Jefferson's Manual at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 15, note: "Robert's Rules and Everyday Debate lessons, 20 x 45 min" }
+        - { kind: practice, hours: 36, note: "Junto-style club meetings run under Robert's Rules, 24 x 1.5 h over three years" }
+        - { kind: project, hours: 25, note: "one model-legislature or Congressional Debate season: bill research, sessions and tournament days" }
+        - { kind: writing, hours: 12, note: "drafting two bills and persuasive speeches, 6 x 2 h" }
     coreTexts:
       - title: "Robert's Rules of Order (1915 edition)"
         kind: instructional
@@ -432,6 +470,14 @@ rows:
       - Explain Lincoln's argument in the Lyceum Address for "reverence for the laws" as the political religion
       - Memorize the closing paragraph of the Second Inaugural and a passage from "Their Finest Hour"
       - Write an essay on what makes a statesman, as distinct from a politician
+    workload:
+      readingHours: 30
+      readingBasis: "475 pp: Plutarch (Dryden) at ~17 pp/h (25 h), Washington, Lincoln and Churchill speeches (42 pp) at ~15 pp/h (3 h)"
+      work:
+        - { kind: writing, hours: 25, note: "eight paired-Lives comparisons and a statesman essay, about 9 x 3 h" }
+        - { kind: discussion, hours: 25, note: "narration and discussion of the Lives and speeches, 50 x 30 min" }
+        - { kind: exercises, hours: 6, note: "Hillsdale Churchill and Statesmanship lectures, 8 x 45 min" }
+        - { kind: memorization, hours: 5, note: "Second Inaugural closing and a Finest Hour passage, 10 weeks x 3 x 10 min" }
     coreTexts:
       - title: "Plutarch: Lives of the Noble Grecians and Romans (Dryden/Clough)"
         kind: primary
@@ -520,6 +566,13 @@ rows:
       - Summarize Cicero's definition of a commonwealth and of true law
       - State Aquinas's definition of law (an ordinance of reason for the common good, made by whoever has care of the community, and promulgated) and the four kinds of law
       - Write a comparative essay on natural law in Cicero and Aquinas
+    workload:
+      readingHours: 25
+      readingBasis: "445 pp: Aristotle's Politics at ~15 pp/h (5 h), Cicero at ~18 pp/h (10 h), Summa qq. 90–97 at ~15 pp/h (7 h), De Regno at ~18 pp/h (5 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly Socratic seminar, 30 x 1 h" }
+        - { kind: exercises, hours: 18, note: "Memoria Cicero study-guide questions, 24 x 45 min" }
+        - { kind: writing, hours: 20, note: "comparative natural-law essay (4–5 pp) with revision 8 h, plus 8 one-page responses x 1.5 h" }
     coreTexts:
       - title: "Politics: A Treatise on Government (Jowett trans.)"
         kind: primary
@@ -606,6 +659,12 @@ rows:
       - Explain Montesquieu's separation of powers and its use in Federalist No. 47
       - Compare Sidney's and Locke's accounts of the right to resist tyranny
       - Identify Vattel's influence on the Declaration's language and on early American diplomacy
+    workload:
+      readingHours: 95
+      readingBasis: "1,732 pp: Hooker and Rutherford (352 pp) at ~15 pp/h (24 h), Sidney at ~18 pp/h (25 h), Locke, Montesquieu and Vattel (937 pp) at ~20 pp/h (47 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 20, note: "three analytical essays (3–4 pp) with revision, 3 x ~7 h" }
     coreTexts:
       - title: Of the Laws of Ecclesiastical Polity (Book I)
         kind: primary
@@ -713,6 +772,14 @@ rows:
       - State the principal Anti-Federalist objections (consolidation, the missing bill of rights, the judiciary, a large republic)
       - Follow the Great Compromise and the Electoral College through Madison's Notes
       - Take either side in a mock ratifying convention and argue it from the sources
+    workload:
+      readingHours: 20
+      readingBasis: "431 pp: Federalist selections and Madison's Notes (406 pp) at ~20 pp/h (20 h), Of Ancient and Modern Confederacies at ~15 pp/h (2 h); Elliot's Debates and the Anti-Federalist selections have no page count and are not counted"
+      work:
+        - { kind: writing, hours: 20, note: "debate briefs for each unit and two essays" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 32 x 45 min" }
+        - { kind: practice, hours: 18, note: "formal debates and a mock ratifying convention, 6 x 3 h with preparation" }
+        - { kind: exercises, hours: 8, note: "Hillsdale Federalist Papers lectures, 10 x 45 min" }
     coreTexts:
       - title: The Federalist Papers
         kind: primary
@@ -818,6 +885,13 @@ rows:
       - Contrast the American and French revolutions using Burke and the Declaration
       - Summarize Tocqueville on township government, voluntary associations and "self-interest rightly understood"
       - Write an essay testing Tocqueville's warnings about soft despotism against present-day America
+    workload:
+      readingHours: 45
+      readingBasis: "1,012 pp: Burke at ~18 pp/h (19 h), Tocqueville (674 pp) at ~25 pp/h (27 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 17, note: "soft-despotism essay (5 pp) with revision 8 h, plus 6 short responses x 1.5 h" }
+        - { kind: exercises, hours: 8, note: "Hillsdale American Citizenship lectures, 10 x 45 min" }
     coreTexts:
       - title: "Reflections on the Revolution in France (in Works, vol. 3)"
         kind: primary
@@ -876,6 +950,12 @@ rows:
       - Explain the "absolute rights of individuals" (personal security, personal liberty, private property)
       - Brief five classic common-law cases in the standard format (facts, issue, holding, reasoning)
       - Trace the line from Magna Carta through Coke to the Fifth, Sixth and Seventh Amendments
+    workload:
+      readingHours: 35
+      readingBasis: "667 pp: Blackstone selections at ~18 pp/h (37 h); Coke's Institutes has no page count and is not counted"
+      work:
+        - { kind: writing, hours: 25, note: "five case briefs x 3 h and a Magna Carta-to-Bill-of-Rights paper ~10 h" }
+        - { kind: discussion, hours: 40, note: "weekly discussion over 1.5 years, 54 x 45 min" }
     coreTexts:
       - title: Commentaries on the Laws of England
         kind: primary
@@ -936,6 +1016,13 @@ rows:
       - Explain why Dred Scott is now regarded as a grave constitutional error, using Lincoln's and Curtis's arguments
       - Compete in at least one mock-trial season (attorney and witness roles)
       - Write an appellate brief and deliver a timed oral argument before a moot-court panel
+    workload:
+      readingHours: 16
+      readingBasis: "314 pp of opinions (Dred Scott alone 240 pp) at ~20 pp/h; the modern cases have no page count and are not counted"
+      work:
+        - { kind: practice, hours: 50, note: "one mock-trial season, 16 practices x 2 h and 2 competition days x 6 h, plus moot-court rehearsals ~6 h" }
+        - { kind: writing, hours: 25, note: "four case briefs x 3 h and an appellate brief ~13 h" }
+        - { kind: discussion, hours: 18, note: "case discussion, 24 x 45 min" }
     coreTexts:
       - title: Marbury v. Madison
         kind: primary
@@ -1009,6 +1096,13 @@ rows:
       - Explain Leo XIII's teaching on the origin of political authority and the limits of state power
       - Summarize Murray's argument about the American "public consensus" and the First Amendment's religion clauses
       - Write an essay comparing the Catholic principle of subsidiarity with American federalism
+    workload:
+      readingHours: 25
+      readingBasis: "463 pp at ~20 pp/h: Leo XIII, Pius XI and Kuyper (127 pp, 6 h), Murray (336 pp, 17 h)"
+      work:
+        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 18, note: "subsidiarity and federalism essay (5 pp) with revision 8 h, plus 5 short papers x 2 h" }
+        - { kind: exercises, hours: 5, note: "Homeschool Connections Catholic Social Teaching course, 4 classes x 75 min" }
     coreTexts:
       - title: Immortale Dei (On the Christian Constitution of States)
         kind: primary
@@ -1117,6 +1211,13 @@ rows:
       - Analyze the Progressive critique of the founding (Wilson, Goodnow) and the founders' likely response
       - Trace the growth of the presidency and the administrative state from primary sources
       - Write a seminar paper of 3,000 words on a constitutional question
+    workload:
+      readingHours: 35
+      readingBasis: "790 pp: the whole Hillsdale Constitution Reader at ~22 pp/h"
+      work:
+        - { kind: exercises, hours: 16, note: "Hillsdale Constitution 101 and 201 lectures, 24 x 40 min" }
+        - { kind: discussion, hours: 35, note: "18 weekly seminars x 2 h" }
+        - { kind: writing, hours: 35, note: "3,000-word seminar paper ~20 h, plus 15 one-page responses x 1 h" }
     coreTexts:
       - title: "The U.S. Constitution: A Reader"
         kind: primary
@@ -1188,6 +1289,13 @@ rows:
       - Explain the Lincoln–Douglas dispute over popular sovereignty and the Declaration
       - Compare the founders' idea of natural rights with the Progressive idea of historical rights
       - Write a capstone essay on a perennial American political question
+    workload:
+      readingHours: 0
+      readingBasis: "the Teaching American History documents have no page count and are not counted"
+      work:
+        - { kind: writing, hours: 55, note: "12 seminar reports x 3 h and a capstone essay ~20 h" }
+        - { kind: discussion, hours: 60, note: "30 weekly seminars x 2 h" }
+        - { kind: exercises, hours: 13, note: "Hillsdale American Heritage and Congress lectures, 20 x 40 min" }
     coreTexts:
       - title: Teaching American History document library and collections
         kind: primary
@@ -1246,6 +1354,14 @@ rows:
       - Explain originalism and its critics, citing majority and dissenting opinions
       - Draft a personal reading plan in the law on the model of Jefferson's letter to Bernard Moore
       - Deliver a moot-court argument on a live constitutional question
+    workload:
+      readingHours: 1
+      readingBasis: "22 pp: Holmes's Path of the Law at ~20 pp/h; the paired Supreme Court opinions have no page count and are not counted"
+      work:
+        - { kind: discussion, hours: 25, note: "18 seminars x 90 min" }
+        - { kind: writing, hours: 25, note: "a personal legal reading plan and two 5-page papers" }
+        - { kind: practice, hours: 15, note: "moot-court argument: brief, three rehearsals and the argument" }
+        - { kind: exercises, hours: 7, note: "Hillsdale Supreme Court lectures, 10 x 40 min" }
     coreTexts:
       - title: The Path of the Law
         kind: primary
@@ -1330,6 +1446,12 @@ rows:
       - Outline Calvin's three parts of civil government (magistrate, laws, people) and his teaching on the "lesser magistrates" (IV.20.31), and trace it into Rutherford
       - Summarize Berman's thesis on the Papal Revolution and the origin of the Western legal tradition
       - Write a paper on Romans 13 and Acts 5:29 as read by Augustine, Aquinas, Calvin and Rutherford
+    workload:
+      readingHours: 35
+      readingBasis: "735 pp: Bible, Augustine and Calvin (105 pp) at ~22 pp/h (5 h), Aquinas (130 pp) at ~18 pp/h (7 h), Althusius at ~20 pp/h (13 h), Berman at ~25 pp/h (10 h)"
+      work:
+        - { kind: writing, hours: 35, note: "Romans 13 and Acts 5:29 paper (8–10 pp) ~20 h, plus 15 weekly responses x 1 h" }
+        - { kind: discussion, hours: 35, note: "18 seminars x 2 h" }
     coreTexts:
       - title: "The Bible: Exodus 19–24; Deuteronomy 16–17; 1 Samuel 8; Jeremiah 29; Matthew 22; Romans 2 and 13; Acts 5"
         kind: primary
@@ -1489,6 +1611,13 @@ rows:
       - Summarize Benedict XVI's critique of a purely positivist concept of law and his appeal to an "ecology of man"
       - Explain Berman's claim that law and religion share ritual, tradition, authority and universality, and Cover's claim that law lives within a community's narratives
       - Brief Employment Division v. Smith, Hosanna-Tabor and Kennedy v. Bremerton, and argue a moot religious-liberty case from the Memorial and Remonstrance and Dignitatis Humanae
+    workload:
+      readingHours: 35
+      readingBasis: "740 pp: Witte and Alexander (400 pp) at ~25 pp/h (16 h), Berman, Pacem in Terris, Benedict XVI, King and Madison (275 pp) at ~22 pp/h (13 h), Cover at ~15 pp/h (4 h); the three religious-liberty cases have no page count and are not counted"
+      work:
+        - { kind: writing, hours: 30, note: "three case briefs x 3 h, a moot-court brief ~10 h and 12 weekly responses x 1 h" }
+        - { kind: discussion, hours: 35, note: "18 seminars x 2 h" }
+        - { kind: practice, hours: 8, note: "moot religious-liberty argument with rehearsals" }
     coreTexts:
       - title: "Commentaries on the Laws of England: Introduction, Section 2 (Of the Nature of Laws in General)"
         kind: primary
