@@ -30,7 +30,7 @@
   const trackTitle = (id) => trackById[id]?.title ?? id;
 
   // ---------- state in URL hash ----------
-  const defaults = { level: [], group: '', track: '', exam: '', q: '', sort: 'age', dir: 'asc', row: '', at: '', child: '', now: 'on' };
+  const defaults = { level: [], group: '', track: '', exam: '', q: '', sort: 'age', dir: 'asc', row: '', at: '', child: '', now: 'on', view: 'table', lt: '' };
   function readState() {
     const p = new URLSearchParams(location.hash.slice(1));
     return {
@@ -45,6 +45,8 @@
       exam: p.get('exam') || '',
       child: p.get('child') || '',
       now: p.get('now') || defaults.now,
+      view: p.get('view') || defaults.view,
+      lt: p.get('lt') || '',
     };
   }
   function writeState(state) {
@@ -243,6 +245,28 @@
         return wrap(group.map((x) => item(x, plan)).join(''));
       })
       .join('');
+  }
+
+
+  // ---------- workload estimates: total reading and work hours for a whole unit ----------
+  const WORK_LABEL = { exercises: 'exercises & lessons', writing: 'writing', translation: 'translation', memorization: 'memorization', recitation: 'recitation', discussion: 'discussion', lab: 'labs', practice: 'practice', project: 'projects', 'exam-prep': 'exam prep' };
+  const workHours = (r) => (r.workload?.work || []).reduce((n, w) => n + (w.hours || 0), 0);
+  const workloadTotal = (r) => (r.workload ? (r.workload.readingHours || 0) + workHours(r) : null);
+  const hrs = (n) => `${Math.round(n).toLocaleString()} h`;
+  function workloadHtml(r) {
+    const w = r.workload;
+    if (!w) return '';
+    const total = workloadTotal(r);
+    const work = (w.work || []).slice().sort((a, b) => b.hours - a.hours);
+    const bar = total
+      ? `<div class="effort-bar" aria-hidden="true">${w.readingHours ? `<i class="k-reading" style="flex:${w.readingHours}"></i>` : ''}${work.map((x) => `<i class="k-${esc(x.kind)}" style="flex:${x.hours}" title="${esc(WORK_LABEL[x.kind] || x.kind)}: ${hrs(x.hours)}"></i>`).join('')}</div>`
+      : '';
+    return `<h3>Estimated effort</h3>
+      <div class="effort"><p class="effort-total"><strong>About ${hrs(total)}</strong> for the whole unit: ${hrs(w.readingHours || 0)} reading and ${hrs(workHours(r))} of work.</p>${bar}
+      <ul class="effort-list">${w.readingHours ? `<li><span class="sw k-reading"></span><strong>Reading, ${hrs(w.readingHours)}</strong>${w.readingBasis ? ` <span class="by">${esc(w.readingBasis)}</span>` : ''}</li>` : ''}${work
+        .map((x) => `<li><span class="sw k-${esc(x.kind)}"></span><strong>${esc(WORK_LABEL[x.kind] || x.kind)}, ${hrs(x.hours)}</strong>${x.note ? ` <span class="by">${esc(x.note)}</span>` : ''}</li>`)
+        .join('')}</ul>
+      <p class="by">Estimates for a typical student, as totals for the whole unit (${esc(ageLabel(r))}); how they spread across the school year is set separately.</p></div>`;
   }
 
   // ---------- whose progress a view shows: family children, then demo children not loaded into the family ----------
@@ -457,6 +481,7 @@
       <p>${esc(r.summary)}</p>
       ${progressSection(r)}
       ${r.objectives?.length ? `<h3>Objectives</h3><ul>${r.objectives.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
+      ${workloadHtml(r)}
       ${
         texts.length
           ? `<h3>Core texts</h3>${loadHtml(readingPlan(r))}${textsHtml(
@@ -516,7 +541,7 @@
     DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks, examById,
     esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel,
     readState, writeState, matches, renderFilters, showDetail,
-    isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml,
+    isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml, workloadTotal, workloadHtml, workHours,
     quarterAge, childOptions, childFor, defaultChild, nowUnits, nextUnits, modal, printBooklist,
   };
 })();

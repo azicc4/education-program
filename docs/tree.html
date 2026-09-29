@@ -30,10 +30,12 @@
   <main>
     <p class="intro">
       Each track is a lane laid out by age, and arrows show prerequisites. Level and search filters highlight matching units.
-      Subject and track filters hide other lanes. Scroll sideways to follow a track to age 18, and click any unit for details. Turn on the Snapshot Bookshelf and drag its cursor (or use the arrow keys) to list every book being studied at a given quarter-year.
+      Subject and track filters hide other lanes. Scroll sideways to follow a track to age 18, and click any unit for details.
+      “One track” shows a single track as a simple path, with the others folded to their titles. Turn on the Snapshot Bookshelf and drag its cursor (or use the arrow keys) to list every book being studied at a given quarter-year.
     </p>
     <div class="filters" id="filters"></div>
     <div class="legend">
+      <span class="view-switch" role="group" aria-label="Layout"><button type="button" class="chip" data-view="table" aria-pressed="true">Full table</button><button type="button" class="chip" data-view="linear" aria-pressed="false">One track</button></span>
       <label>Child <select id="tree-child"></select></label>
       <button type="button" class="chip now-toggle" id="now-toggle" aria-pressed="true" title="Show only the units that fit the child's age now; hide finished units, units not begun yet, and empty tracks">Current Age</button>
       <button type="button" class="chip" id="tree-print">Print booklist</button>
@@ -47,6 +49,7 @@
       <aside class="snapshot" id="snapshot" hidden aria-live="polite"></aside>
       <div class="tree-scroll"><div class="tree" id="tree"></div></div>
     </div>
+    <div class="linear" id="tree-linear" hidden></div>
   </main>
 
   <script src="data/curriculum.js"></script>
