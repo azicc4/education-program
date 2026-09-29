@@ -40,6 +40,9 @@ const TYPES = ['course', 'unit', 'practice'];
 const STAGES = ['early-development', 'formal'];
 const TRADITIONS = ['catholic', 'protestant', 'secular', 'classical'];
 const EXAM_CATEGORIES = ['ap-stem', 'ap-humanities', 'ap-language', 'clt', 'admissions', 'national-exam', 'olympiad'];
+// how a core text is used within its unit (see data/schema.md)
+const TEXT_ROLES = ['core', 'choice', 'selections', 'reference', 'review'];
+const TEXT_PACES = ['long'];
 const FOUNDING_USES = ['reference', 'teacher', 'student'];
 const FOUNDING_CATEGORIES = ['british-university', 'colonial-college', 'founder-letter', '19th-century-school', 'treatise'];
 const REQUIRED = ['id', 'title', 'type', 'level', 'stage', 'ageStart', 'ageEnd', 'order', 'summary'];
@@ -89,10 +92,26 @@ function validateTrack(file, doc) {
       if (lvl && (r.ageStart < lvl.min || r.ageStart > lvl.max))
         err(rel, `${where}: ageStart ${r.ageStart} outside level ${r.level} (${lvl.min}–${lvl.max})`);
     }
+    const groups = {};
     for (const t of r.coreTexts || []) {
       if (!t.title) err(rel, `${where}: coreText missing title`);
       checkLinks(rel, `${where} "${t.title}"`, t.links);
+      const tw = `${where} "${t.title}"`;
+      if (t.order !== undefined && !(Number.isInteger(t.order) && t.order > 0)) err(rel, `${tw}: order must be a positive integer`);
+      if (t.role !== undefined && !TEXT_ROLES.includes(t.role)) err(rel, `${tw}: bad role ${t.role} (${TEXT_ROLES.join(' | ')})`);
+      if (t.pace !== undefined && !TEXT_PACES.includes(t.pace)) err(rel, `${tw}: bad pace ${t.pace} (${TEXT_PACES.join(' | ')})`);
+      if (t.role === 'choice') {
+        if (!t.group) err(rel, `${tw}: role choice needs a group`);
+        else groups[t.group] = (groups[t.group] || 0) + 1;
+      } else if (t.group !== undefined) err(rel, `${tw}: group is only for role choice`);
+      if (t.portion !== undefined && t.role !== 'selections') warn(rel, `${tw}: portion is meant for role selections`);
+      if (t.readPages !== undefined) {
+        if (!(typeof t.readPages === 'number' && t.readPages > 0)) err(rel, `${tw}: readPages must be a positive number`);
+        else if (t.pages && t.readPages > t.pages) warn(rel, `${tw}: readPages ${t.readPages} > pages ${t.pages}`);
+      }
+      if (t.reviewOf !== undefined && t.role !== 'review') warn(rel, `${tw}: reviewOf is meant for role review`);
     }
+    for (const [g, n] of Object.entries(groups)) if (n < 2) warn(rel, `${where}: choice group ${g} has only one text`);
     for (const c of r.curriculumOptions || []) {
       if (!c.name) err(rel, `${where}: curriculumOption missing name`);
       if (c.tradition && !TRADITIONS.includes(c.tradition)) err(rel, `${where}: bad tradition ${c.tradition}`);

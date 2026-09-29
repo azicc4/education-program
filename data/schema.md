@@ -64,6 +64,14 @@ rows:
         reader: student      # teacher | together | student — who reads it
         kind: instructional  # primary (original work read directly) | secondary (history, commentary, retelling) | instructional (textbook, grammar, workbook, prep)
         pages: 320           # standard complete edition, when known
+        order: 1             # optional: reading sequence within this unit (1 = first); texts sharing a number run side by side
+        role: core           # optional: core (default, read it) | choice (read ONE text of its group) | selections (read only the assigned part)
+                             #           | reference (consulted, not read through) | review (already read in an earlier unit)
+        group: A             # with role: choice — the alternatives that share a group letter; read one of them
+        portion: "Books I–II"  # optional, with role: selections — what to read
+        readPages: 120       # optional, with role: selections — pages actually assigned
+        pace: long           # optional: long = read slowly across the whole unit (textbooks, long treatises), not in one stretch
+        reviewOf: spanish-07 # optional, with role: review — the unit where it was first read
         links:
           - { label: Archive.org, url: "https://archive.org/details/..." }
     curriculumOptions:       # 2–3 real, purchasable/available programs where they exist
@@ -84,6 +92,10 @@ rows:
 
 - **Required**: `id, title, type, level, stage, ageStart, ageEnd, order, summary`. Everything else optional but strongly encouraged.
 - `prerequisites` only reference rows in the same track. Cross-track links go in `related`.
+- **Reading plan fields** (`order`, `role`, `group`, `portion`, `readPages`, `pace`, `reviewOf`) tell a family what must actually be read.
+  Put the role in these fields, not in the title: no "(selections)", "(alternative …)" or "(already read in …)" in titles.
+  `(elective)` stays in the title. The site's weekly reading load counts core texts, one text per choice group, and
+  `readPages` (or a third of `pages`) for selections; it skips reference, review and elective texts.
 - Prerequisites must start at or before the dependent row's `ageStart`. No cycles.
 - Quote any string containing `:` `#` `'` or starting with a special char. Use `>-` for paragraphs.
 - **Links**: public-domain works → free editions (Project Gutenberg, Archive.org, HathiTrust, Perseus, The Latin Library, Sefaria, CCEL, New Advent, Wikisource, Founders Online, Avalon Project). Copyrighted works → the publisher's (or a major bookseller's) purchase page. Only include URLs you have confirmed exist.
