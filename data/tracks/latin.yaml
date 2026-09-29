@@ -195,7 +195,7 @@ rows:
         publisher: "Classical Liberal Arts Academy"
         tradition: catholic
         url: "https://classicalliberalarts.com/catalog/online-courses/trivium/trv-221-latin-grammar-i/"
-        notes: "Online course in the forms (orthography and etymology) from the 16th-century Jesuit grammar of Emmanuel Alvarez. Self-paced. The site blocks automated checks; the link was confirmed in search results."
+        notes: "Online course in the forms (orthography and etymology) from the 16th-century Jesuit grammar of Emmanuel Alvarez. Self-paced. The link was confirmed from search listings rather than the page itself."
 
   - id: latin-04
     title: "Latin IV: Grammar Completion (Syntax & the Subjunctive)"
@@ -461,7 +461,7 @@ rows:
         publisher: "Classical Liberal Arts Academy"
         tradition: catholic
         url: "https://classicalliberalarts.com/library/alvarez-latin-grammar-book-i/"
-        notes: "The Jesuit schools' standard grammar for three centuries, in the CLAA library. The site blocks automated checks; the link was confirmed in search results."
+        notes: "The Jesuit schools' standard grammar for three centuries, in the CLAA library. The link was confirmed from search listings rather than the page itself."
     historicalPrecedent: >-
       Eton, Westminster and the American academies taught from a single grammar learned by heart:
       Lily's grammar, later the Eton Latin Grammar in England, and Ward's revision of Lily in

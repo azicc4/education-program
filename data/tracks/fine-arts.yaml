@@ -154,8 +154,8 @@ rows:
     sources:
       - { label: "Franklin, Proposals Relating to the Education of Youth in Pensilvania (1749), Penn Archives", url: "https://archives.upenn.edu/digitized-resources/docs-pubs/franklin-proposals/" }
     notes: >-
-      I could not verify a Getty-Dubay italic (Portland State) purchase link; it is a widely used italic
-      option worth checking by hand.
+      The Getty-Dubay italic course (Portland State) is a widely used italic option, but no purchase
+      link has been verified.
 
   - id: fine-arts-04
     title: "Drawing Fundamentals: Seeing, Line, Proportion and Value"
@@ -508,7 +508,7 @@ rows:
         publisher: ACR Édition
         tradition: classical
         url: "https://www.acr-edition.com/"
-        notes: The standard modern reproduction of all 197 plates with commentary. The link is the publisher's home page, since I could not verify the product page.
+        notes: The standard modern reproduction of all 197 plates with commentary. The link is the publisher's home page, because the product page has not been verified.
       - name: Classical Drawing Atelier (Aristides)
         publisher: Watson-Guptill
         tradition: secular
