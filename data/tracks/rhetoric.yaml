@@ -67,6 +67,13 @@ rows:
       - Practice articulation drills and read aloud with proper phrasing and emphasis
       - Deliver a two-minute oral narration or report
       - Evaluate a sibling's recitation kindly using simple criteria (loud, clear, slow, expressive)
+    workload:
+      readingHours: 0
+      readingBasis: "none counted: the McGuffey selections have no page count and are left out"
+      work:
+        - { kind: memorization, hours: 30, note: "10–20 poems and passages a year, 90 wk x 2 x 10 min" }
+        - { kind: exercises, hours: 30, note: "McGuffey articulation drills and phrased reading aloud, 90 wk x 2 x 10 min" }
+        - { kind: recitation, hours: 15, note: "weekly recitation, two-minute narration or report and sibling critique, 90 x 10 min" }
     coreTexts:
       - title: McGuffey's Eclectic Readers (First–Sixth), esp. the Sixth Reader's rules of elocution
         kind: instructional
@@ -109,6 +116,12 @@ rows:
       - Retell a narrative from a different point of view or in a different order
       - Develop a chreia by praise, paraphrase, cause, contrary, analogy, example, testimony and epilogue
       - Copy and imitate model sentences (copia) to vary expression
+    workload:
+      readingHours: 0
+      readingBasis: "none counted: Aphthonius is a teacher text with no page count; the model fables and narratives come inside the program"
+      work:
+        - { kind: exercises, hours: 40, note: "Writing & Rhetoric 1–4 or Classical Composition I–III, ~60 lessons x 40 min of model reading, oral work and copia" }
+        - { kind: writing, hours: 45, note: "fable, narrative and chreia compositions, ~60 lessons x 2 x 22 min" }
     coreTexts:
       - title: Progymnasmata (Latin trans. by Rodolphus Agricola & J.M. Catanaeus)
         kind: primary
@@ -158,6 +171,12 @@ rows:
       - Write and deliver a commonplace against a vice
       - Compose an encomium of a historical or biblical figure by the standard heads (origin, upbringing, deeds, comparison)
       - Revise for arrangement (introduction, statement, proof, conclusion)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 35, note: "Writing & Rhetoric 5–7 or Classical Composition IV–VI, ~45 lessons x 45 min" }
+        - { kind: writing, hours: 45, note: "about 15 finished refutations, confirmations, commonplaces and encomia x 3 h" }
+        - { kind: practice, hours: 9, note: "rehearsing and delivering ~6 commonplace and encomium speeches x 1.5 h" }
     curriculumOptions:
       - name: "Writing & Rhetoric Books 5–7 (Refutation & Confirmation; Commonplace; Encomium & Vituperation)"
         publisher: Classical Academic Press
@@ -191,6 +210,13 @@ rows:
       - Apply rules of emphasis, inflection and pause, and mark a text for delivery
       - Use gesture, eye contact and movement purposefully
       - Deliver a selection before an audience and take structured critique
+    workload:
+      readingHours: 12
+      readingBasis: "240 pp: English Reader and McGuffey's Sixth Reader selections at ~20 pp/h; Sheridan's Lectures (262 pp) is a teacher text and is not counted"
+      work:
+        - { kind: memorization, hours: 25, note: "one major speech excerpt a term, 6 x 4 h" }
+        - { kind: exercises, hours: 25, note: "lessons on emphasis, inflection, pause and gesture, and marking texts for delivery, 72 x 20 min" }
+        - { kind: recitation, hours: 18, note: "coached rehearsal and a termly declamation with critique, 6 x 3 h" }
     coreTexts:
       - title: "The English Reader: or, Pieces in Prose and Poetry, Selected from the Best Writers"
         kind: instructional
@@ -252,6 +278,12 @@ rows:
       - Compose a speech in the character of a historical figure at a turning point
       - Argue a thesis ("Should a man marry?", "Is monarchy the best regime?") by the final headings
       - Draft and defend or attack a proposed law, using the topics of legality, justice, expediency and possibility
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 40, note: "Writing & Rhetoric 8–11 or Classical Composition VII–IX, ~50 lessons x 45 min" }
+        - { kind: writing, hours: 50, note: "about 15 finished comparisons, characterizations, descriptions, theses and law speeches x 3.5 h" }
+        - { kind: practice, hours: 8, note: "delivering the thesis and law speeches, ~4 x 2 h" }
     curriculumOptions:
       - name: "Writing & Rhetoric Books 8–11 (Comparison; Description & Impersonation; Thesis Parts 1–2)"
         publisher: Classical Academic Press
@@ -287,6 +319,14 @@ rows:
       - Use the common and special topics to invent arguments
       - Analyze figures of speech (schemes and tropes) and use several deliberately
       - Deliver a 5–7 minute deliberative speech built by the five canons
+    workload:
+      readingHours: 40
+      readingBasis: "629 pp: Aristotle's Rhetoric, the Phaedrus and Gorgias and Isocrates at ~15 pp/h; Corbett (584 pp) is the course textbook, counted under exercises"
+      work:
+        - { kind: exercises, hours: 45, note: "Corbett worked as the textbook with its exercises on topics and figures, 36 wk x 75 min" }
+        - { kind: discussion, hours: 25, note: "weekly seminar on Aristotle and Plato, 36 x 45 min" }
+        - { kind: writing, hours: 18, note: "speech analyses and speech drafts, ~6 x 3 h" }
+        - { kind: practice, hours: 8, note: "building and delivering a 5–7 minute deliberative speech" }
     coreTexts:
       - title: Rhetoric
         kind: primary
@@ -383,6 +423,14 @@ rows:
       - Memorize and deliver at least four major passages across the unit
       - Write an imitation that uses a model's structure on a new subject
       - Compare the ancient and modern styles of deliberative eloquence
+    workload:
+      readingHours: 30
+      readingBasis: "~515 pp of oratory at ~18 pp/h: Demosthenes, Webster, Lincoln, Churchill, King, and Burke's Conciliation speech estimated at ~50 pp"
+      work:
+        - { kind: writing, hours: 25, note: "analyses of the seven speeches (7 x 2 h), an imitation on a new subject (~5 h) and an ancient-versus-modern comparison (~5 h)" }
+        - { kind: memorization, hours: 16, note: "four major passages x 4 h" }
+        - { kind: recitation, hours: 6, note: "delivering the four passages, 4 x 1.5 h" }
+        - { kind: discussion, hours: 12, note: "each speech in its setting as statesmanship, 16 x 45 min" }
     coreTexts:
       - title: The Public Orations of Demosthenes, vol. 1 (Olynthiacs, Philippics)
         kind: primary
@@ -500,6 +548,13 @@ rows:
       - Cross-examine with short, leading questions
       - Argue impromptu in parliamentary format with 15–20 minutes of preparation
       - Play attorney and witness roles in a mock trial
+    workload:
+      readingHours: 35
+      readingBasis: "699 pp: the Lincoln–Douglas debates at ~20 pp/h"
+      work:
+        - { kind: exercises, hours: 25, note: "formats, case construction and cross-examination lessons (Everyday Debate, Argument Builder), 36 x 45 min" }
+        - { kind: project, hours: 65, note: "briefing both sides of ~3 resolutions (3 x 15 h) and one mock-trial case (~20 h)" }
+        - { kind: practice, hours: 110, note: "weekly practice rounds and impromptu drills, 108 x 40 min (72 h), plus ~5 tournaments x 8 h" }
     coreTexts:
       - title: The Lincoln–Douglas Debates of 1858
         kind: primary
@@ -558,6 +613,14 @@ rows:
       - Summarize Crassus's and Antonius's positions in De Oratore on the orator's education
       - Read Quintilian Books 1, 2, 10 and 12 and compare them with this program's own design
       - Use the memory palace (Ad Herennium III) to memorize a speech
+    workload:
+      readingHours: 65
+      readingBasis: "1,264 pp of Roman rhetorical treatises in translation (De Inventione, De Oratore, Ad Herennium, Quintilian 1, 2, 10, 12) at ~20 pp/h"
+      work:
+        - { kind: discussion, hours: 40, note: "seminar, 54 x 45 min" }
+        - { kind: exercises, hours: 15, note: "stasis analysis and parts-of-the-oration exercises, 15 x 1 h" }
+        - { kind: memorization, hours: 8, note: "memorizing a speech with a memory palace (Ad Herennium III)" }
+        - { kind: writing, hours: 15, note: "De Oratore summary and an essay comparing Quintilian with the program" }
     coreTexts:
       - title: De Inventione (On Rhetorical Invention), in The Orations of Marcus Tullius Cicero, vol. 4
         kind: primary
@@ -630,6 +693,12 @@ rows:
       - Explain Campbell's four ends of speech (enlighten, please, move, persuade)
       - Explain Whately's burden of proof and presumption and apply them in debate
       - Write a critical review of a contemporary speech using Blair's criteria
+    workload:
+      readingHours: 70
+      readingBasis: "1,424 pp of Blair, Campbell and Whately at ~20 pp/h; Witherspoon's lectures have no page count and are left out"
+      work:
+        - { kind: discussion, hours: 25, note: "seminar, 36 x 45 min, incl. applying Whately's presumption in a practice debate" }
+        - { kind: writing, hours: 20, note: "summaries of the four rhetorics (~10 h) and a critical review of a contemporary speech by Blair's criteria (~10 h)" }
     coreTexts:
       - title: Lectures on Rhetoric and Belles Lettres
         kind: primary
@@ -716,6 +785,13 @@ rows:
       - Deliver a 15-minute deliberative address from notes, then take hostile questions
       - Deliver a formal commemorative oration (e.g. for a national holiday or a funeral)
       - Critique speeches by the five canons in a written portfolio
+    workload:
+      readingHours: 0
+      work:
+        - { kind: project, hours: 40, note: "moot court: research and write an appellate brief (~30 h) and prepare the oral argument (~10 h)" }
+        - { kind: writing, hours: 45, note: "deliberative address and commemorative oration (~15 h each) and a critique portfolio of ~8 speeches x 2 h" }
+        - { kind: practice, hours: 15, note: "rehearsal and delivery before audiences with hostile questions, 3 x 5 h" }
+        - { kind: discussion, hours: 30, note: "seminar revisiting Aristotle, Cicero, Quintilian and recorded speeches, 30 x 1 h" }
     curriculumOptions:
       - name: Classical Logic and Rhetoric (free online course)
         publisher: Hillsdale College
