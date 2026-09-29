@@ -35,6 +35,10 @@ rows:
       - Find an AATSP-member sponsoring teacher for the NSE, or apply for an Individualized Student Testing Plan by December 15
       - Work through two previous NLE exams and the NLE quiz app each February
       - Keep every certificate and score report in the portfolio (test-prep-03)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 60, note: "over 7 years: two past NLEs and the quiz app each February (~3.5 h a year, 25 h), a past paper or diagnostic for Mythology, NSE and NGE (~1 h each a year, ~19 h), ~26 sittings of 30–50 min (~15 h)" }
     curriculumOptions:
       - name: "NLE: previous exams and answer keys (official)"
         publisher: National Latin Exam (ACL/NJCL)
@@ -88,6 +92,10 @@ rows:
       - Make the USABO arrangement (host school, $125 fee) before October 23 and register the student by November 15
       - Keep declared grade levels consistent (AMC 8 is grade 8 and below and under 15.5; USABO is grades 9–12)
       - Book an AIME seat at a professional testing center promptly after qualifying
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 25, note: "sittings only (AMC 8 x 3, AMC 10/12 x 4, AIME x 2, F=ma x 3, USNCO local x 3, USABO open x 3); the preparation is counted in the mathematics and science tracks" }
     curriculumOptions:
       - name: "MAA AMC registration and key dates (official)"
         publisher: Mathematical Association of America
@@ -140,6 +148,10 @@ rows:
       - Know that no AP Course Audit is needed to sit an AP Exam; it is needed only to label a homeschool course "AP" on the transcript
       - Keep a transcript (courses, credits, grades), course descriptions with texts used, lab notebooks, and a score and award log
       - Book the SAT and CLT online directly (SAT homeschool code 970000; CLT remote dates)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: project, hours: 10, note: "the student's share of the portfolio (course descriptions, reading lists, score and award log), ~2 h a year x 5 years; the calendar, registrations and transcript are parent work" }
     curriculumOptions:
       - name: "College Board: The Homeschoolers' Guide to College Board Assessments (official)"
         publisher: College Board
@@ -188,6 +200,10 @@ rows:
       - Set up the remote testing environment (LockDown Browser, a laptop or tablet, a quiet room) and read CLT's list of reasons remote tests are voided
       - Review every missed item by type (vocabulary in context, author's intent, grammar rules, algebra and geometry)
       - Sit the CLT10 in the declared 9th and 10th grades and share scores free with target colleges
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 15, note: "two timed official practice tests (4 h), item-by-item error review (4 h), remote-testing setup (1 h), two real sittings (4 h), Student Guide drill (2 h)" }
     curriculumOptions:
       - name: "CLT: free CLT10 practice tests (official)"
         publisher: Classic Learning Initiatives
@@ -234,6 +250,10 @@ rows:
       - Take the full-length official Bluebook practice tests (the PSAT shares the SAT's adaptive format)
       - Treat any earlier PSAT sitting as practice only
       - If the window is missed, write to NMSC for alternate entry by April 1 (usually via the SAT)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 15, note: "three full Bluebook practice tests of ~2 h 15 (7 h) with error review (4 h), and the qualifying sitting plus any practice sitting (4 h)" }
     curriculumOptions:
       - name: "Bluebook official practice tests (official)"
         publisher: College Board
@@ -278,6 +298,10 @@ rows:
       - Create a free account at civicschallenge.com and take the exam once as a baseline after civics-law-06
       - Retake it after civics-law-11 and aim for mastery, reviewing each missed question against the Constitution and The Federalist
       - Optionally host a co-op or family group with a timer and attempt limit to compare results
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 8, note: "two sittings of the 60-question exam (2 h), checking each missed question against the Constitution and the Federalist (3 h), targeted Documents of Freedom lessons (3 h)" }
     curriculumOptions:
       - name: "American Civics Exam (Civics Challenge), official site"
         publisher: Classic Learning Initiatives
@@ -323,6 +347,11 @@ rows:
       - "Sit the CLT once at 15 and again at 16 if needed, and the SAT once or twice at 16"
       - Check each target college's current test policy and CLT acceptance on its own admissions page
       - Send scores; CLT score sharing is free and unlimited
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 35, note: "3–4 full practice tests of each, CLT ~2 h and SAT ~2 h 15 (16 h), error analysis by skill (10 h), 2–4 real sittings (8 h)" }
+        - { kind: exercises, hours: 10, note: "Khan Academy digital SAT skill practice, ~20 x 30 min" }
     curriculumOptions:
       - name: "CLT: free official practice tests"
         publisher: Classic Learning Initiatives
@@ -376,6 +405,10 @@ rows:
       - Ask a local classical school or co-op whether it is piloting CB exams and will admit an outside student
       - Map the thesis and seminar requirements onto existing work (the research paper in grammar-composition-12 and the great-books seminars in literature-31)
       - If available, sit Government & Politics after civics-law-11/12 and Rhetoric & Composition after rhetoric-11
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 10, note: "provisional: if a pilot seat is found, review for and sit the two CB exams, ~5 h each; no format is published yet" }
     curriculumOptions:
       - name: "CLT: Classical Baccalaureate (official overview and school sign-up)"
         publisher: Classic Learning Initiatives
@@ -414,6 +447,10 @@ rows:
       - Take the official practice questions for the chosen exam
       - Register in My CLEP ($97 per exam) and schedule a test center or remote proctoring ($30)
       - Record CLEP credits on the transcript and in the score log
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exam-prep, hours: 13, note: "assuming two exams: official practice questions and targeted review (~5 h each) and two 90-minute sittings (3 h)" }
     curriculumOptions:
       - name: "CLEP: practice questions and examination guides (official)"
         publisher: College Board
