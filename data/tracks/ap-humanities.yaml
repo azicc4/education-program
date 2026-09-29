@@ -37,6 +37,12 @@ rows:
       - Score one's own essays with the 6-point rubric (thesis 0–1, evidence and commentary 0–4, sophistication 0–1)
       - Map the CED skill categories (rhetorical situation, claims and evidence, reasoning and organization, style) onto the classical canons already learned
       - Sit at least three full timed practice exams from released free-response questions and practice multiple-choice
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 10, note: "CED skills mapped onto the canons, Language of Composition instruction chapters and synthesis clusters, ~12 x 50 min" }
+        - { kind: writing, hours: 15, note: "weekly timed essays over 8 weeks plus extras, ~16 essays x 40 min with self-scoring" }
+        - { kind: exam-prep, hours: 20, note: "three full timed practice exams with review (~11 h) and multiple-choice drill (~9 h)" }
     curriculumOptions:
       - name: AP English Language and Composition (AP Central course and exam pages, CED)
         publisher: College Board
@@ -113,6 +119,12 @@ rows:
       - Build a "bank" of 6–8 works, each known in depth, that can answer most open questions (e.g. Hamlet, Macbeth, Great Expectations, Pride and Prejudice, Crime and Punishment, Heart of Darkness, Brideshead Revisited, one modern American novel)
       - Map the CED big ideas (character, setting, structure, narration, figurative language, literary argumentation) onto the vocabulary already learned
       - Sit at least three full timed practice exams
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 14, note: "a weekly unseen modern poem and prose passage in the final semester, 18 x 45 min" }
+        - { kind: writing, hours: 15, note: "~16 timed poetry, prose and open-question essays, 40 min each with self-scoring" }
+        - { kind: exam-prep, hours: 25, note: "three full 3-hour practice exams with review (~13 h), multiple-choice drill (~6 h) and reviewing the 6–8 bank works (~6 h)" }
     curriculumOptions:
       - name: AP English Literature and Composition (AP Central course and exam pages, CED)
         publisher: College Board
@@ -188,6 +200,13 @@ rows:
       - Read unseen prose and poetry at sight (20 discrete sight questions and sight sets on the exam)
       - Write the short answer, the 15-segment literal translation and the short essays with Latin citations
       - Complete the four course-project passages and the two in-class checkpoints (2% of the score)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "~160 new Aeneid lines at ~20 lines/h (8 h), the ten Pliny letters, ~3,000 words at ~150 words/h (20 h), and the course-project passages" }
+        - { kind: practice, hours: 12, note: "weekly unseen prose and verse at sight, 18 x 40 min" }
+        - { kind: writing, hours: 8, note: "short answers, 15-segment literal translations and short essays with Latin citations, ~10 x 45 min" }
+        - { kind: exam-prep, hours: 20, note: "reviewing the Book 1, 2, 4 and 6 lines from latin-12 and scansion (~10 h), two or three full 3-hour practice exams with review (~10 h)" }
     coreTexts:
       - title: Aeneid
         kind: primary
@@ -305,6 +324,13 @@ rows:
       - Write a sourced argumentative essay in 55 minutes, citing print, graphic and audio sources
       - Understand unscripted audio from speakers of different regions (Spain, Mexico, the Caribbean, the Southern Cone) at natural speed
       - Present and answer questions spontaneously on a cultural topic, comparing it with one's own community
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 25, note: "the six themes through authentic news, podcasts and interviews, with recorded speaking drills, ~12 wk x 2 h" }
+        - { kind: project, hours: 12, note: "researching the January topic in Spanish sources, the PPR outline and rehearsing the presentation and Q&A" }
+        - { kind: writing, hours: 8, note: "~6 sourced argumentative essays, 55 min each with review" }
+        - { kind: exam-prep, hours: 12, note: "two full practice exams with review, plus listening and reading drill" }
     curriculumOptions:
       - name: AP Spanish Language and Culture (AP Central course and exam pages, CED)
         publisher: College Board
@@ -378,6 +404,13 @@ rows:
       - Research the January course-project topic in Chinese-language sources and submit the Personalized Project Reference by April 30
       - Narrate a four-picture story and answer an email in a coherent, appropriately polite register within the time limit
       - Understand announcements, conversations and instructions at natural speed, and read signs, notes, ads and short articles
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 25, note: "IME typing weekly for a term, 18 x 40 min (12 h), and listening and reading of everyday modern texts (13 h)" }
+        - { kind: project, hours: 12, note: "researching the January topic in Chinese sources, the PPR outline and rehearsing the presentation and Q&A" }
+        - { kind: writing, hours: 8, note: "timed four-picture narrations and email responses, ~20 x 20 min with review" }
+        - { kind: exam-prep, hours: 12, note: "two full practice exams with review, plus listening and reading drill" }
     curriculumOptions:
       - name: AP Chinese Language and Culture (AP Central course and exam pages, CED)
         publisher: College Board
@@ -451,6 +484,12 @@ rows:
       - Part-write from figured bass and from Roman numerals in four voices without parallels, spacing errors or unresolved tendency tones
       - Sight-sing two melodies with 75 seconds of study and 30 seconds to perform, recorded
       - Cover the CED units (fundamentals, chord function and cadence, predominant function, embellishments and motive, secondary function, modes and form) using AP terminology
+    workload:
+      readingHours: 0
+      work:
+        - { kind: practice, hours: 35, note: "dictation 10 min a day, 5 days x 36 wk over the year the notes ask (30 h), and recorded sight-singing, 2 x 10 min a week for 18 wk (6 h)" }
+        - { kind: exercises, hours: 15, note: "part-writing from figured bass and Roman numerals in the Tonal Harmony workbook and the CED units in AP terms, ~20 x 45 min" }
+        - { kind: exam-prep, hours: 12, note: "two full practice exams with review, plus aural multiple-choice drill" }
     curriculumOptions:
       - name: AP Music Theory (AP Central course and exam pages, CED)
         publisher: College Board

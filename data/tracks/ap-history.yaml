@@ -45,6 +45,11 @@ rows:
       - Answer three source-based SAQs in 40 minutes (secondary text, primary text, non-text source), the format from May 2027
       - Write a 40-minute LEQ on a single broad prompt using comparison, causation or continuity and change, and earn the "complexity" point on at least one practice essay
       - Score his own and released sample essays against the College Board rubrics, and agree with the official scores within one point
+    workload:
+      readingHours: 0
+      work:
+        - { kind: writing, hours: 55, note: "timed practice with self-scoring over 2.5 years: ~15 DBQs x 90 min, ~15 LEQs x 60 min, ~20 SAQ sets x 45 min" }
+        - { kind: exercises, hours: 15, note: "skills lessons: HIPP sourcing, thesis and contextualization drills, AP Daily videos and scoring released samples, ~30 x 30 min" }
     coreTexts:
       - title: "AP U.S. History Course and Exam Description (effective fall 2026): skills, reasoning processes and rubrics"
         kind: instructional
@@ -135,6 +140,13 @@ rows:
       - "Explain the Market Revolution (canals, railroads, the factory system, the Second Bank) and its effects on women, workers and sectional economies"
       - Explain the Second Great Awakening and the reform movements (temperance, abolition, women's rights at Seneca Falls) that followed from it
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from Periods 1–4
+    workload:
+      readingHours: 7
+      readingBasis: "~250 pp: the first half of Land of Hope at ~35 pp/h; the Pageant is a textbook (under exercises) and the Yawp Reader has no page count"
+      work:
+        - { kind: exercises, hours: 35, note: "American Pageant chapters for Periods 1–4 (~575 pp at ~25 pp/h, ~23 h) with notes, plus AP Classroom topic questions and four progress checks (~12 h)" }
+        - { kind: writing, hours: 5, note: "one timed DBQ and LEQ for Periods 1–4 with self-scoring (drills are in ap-history-01)" }
+        - { kind: discussion, hours: 9, note: "weekly review of key concepts and historiography, 18 x 30 min" }
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 1–4"
         role: reference
@@ -282,6 +294,14 @@ rows:
       - Explain industrialization, labor conflict, Populism and Progressivism, and the causes and remedies of the Great Depression, using wage, price and output data
       - Explain the social movements of 1945–1980 (civil rights, women's, Chicano, American Indian) and the conservative movement from Goldwater to Reagan
       - Sit a full-length released or practice exam under timed conditions before the May exam
+    workload:
+      readingHours: 16
+      readingBasis: "~540 pp: the second half of Land of Hope ~254 pp at ~35 pp/h (7 h), Riis 251 pp at ~35 pp/h (7 h), Turner's 1893 essay ~35 pp at ~25 pp/h (1 h; the counted ~125 pp overstates one essay); the Yawp Reader has no page count"
+      work:
+        - { kind: exercises, hours: 35, note: "American Pageant chapters for Periods 5–9 (~575 pp at ~25 pp/h, ~23 h) with notes, plus topic questions and five progress checks (~12 h)" }
+        - { kind: writing, hours: 5, note: "timed DBQ and LEQ for Periods 5–9 with self-scoring" }
+        - { kind: discussion, hours: 9, note: "weekly review of key concepts and historiography, 18 x 30 min" }
+        - { kind: exam-prep, hours: 25, note: "a full timed practice exam, released FRQs and six weeks of unit review before May" }
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 5–9"
         role: reference
@@ -428,6 +448,14 @@ rows:
       - Explain the social effects of industrialization (urbanization, the family, class, public health) and the ideologies that answered it
       - Explain the Russian Revolution, the interwar economy, Stalinism and fascism, decolonization, European integration from the Schuman Declaration to the EU, and the revolutions of 1989
       - Complete progress checks for Units 1–9, two timed DBQs, and one full practice exam
+    workload:
+      readingHours: 0
+      readingBasis: "The Schuman Declaration (2 pp) is under an hour; McKay is a textbook (under exercises) and The Golden Thread has no page count"
+      work:
+        - { kind: exercises, hours: 55, note: "McKay's survey (~1,000 pp at ~25 pp/h, ~40 h) with notes, plus topic questions and nine progress checks (~15 h)" }
+        - { kind: writing, hours: 8, note: "two timed DBQs and an LEQ with self-scoring" }
+        - { kind: discussion, hours: 12, note: "review of key concepts and historiography, 18 x 40 min" }
+        - { kind: exam-prep, hours: 25, note: "a full practice exam, released FRQs and six weeks of review before May" }
     coreTexts:
       - title: AP European History Course and Exam Description
         role: reference
@@ -571,6 +599,13 @@ rows:
       - Compare how the Ottoman, Safavid, Mughal, Qing and Tokugawa states legitimized and consolidated power
       - Compare Zheng He's voyages with the Iberian voyages, and the Aztec and Inca states before and after conquest, using the Florentine Codex against Bernal Díaz
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from c. 1200–1750
+    workload:
+      readingHours: 17
+      readingBasis: "~545 pp: Ibn Battuta ~127 pp and Babur ~293 pp at ~35 pp/h (12 h), the Florentine Codex Book XII 120 pp at ~25 pp/h (5 h), Zheng He's inscriptions 3 pp"
+      work:
+        - { kind: exercises, hours: 25, note: "Ways of the World chapters for Units 1–4 (~450 pp at ~25 pp/h, ~18 h) with notes, plus four progress checks (~8 h)" }
+        - { kind: writing, hours: 5, note: "one timed DBQ and LEQ for c. 1200–1750 with self-scoring" }
+        - { kind: discussion, hours: 9, note: "weekly review of key concepts, 18 x 30 min" }
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 1–4"
         role: reference
@@ -737,6 +772,14 @@ rows:
       - Explain decolonization in India, Africa and Southeast Asia, reading the Vietnamese Declaration of Independence (1945) against the American Declaration it quotes
       - Explain globalization since 1945 (trade, technology, disease, the environment, rights movements and their critics)
       - Sit a full-length released or practice exam under timed conditions before the May exam
+    workload:
+      readingHours: 17
+      readingBasis: "~505 pp: Sowell's Conquests and Cultures 493 pp at ~30 pp/h (16 h), the Qianlong, Lin Zexu and Ho Chi Minh documents 12 pp (1 h)"
+      work:
+        - { kind: exercises, hours: 30, note: "Ways of the World chapters for Units 5–9 (~450 pp at ~25 pp/h, ~18 h) with notes, plus five progress checks (~10 h)" }
+        - { kind: writing, hours: 5, note: "two contrasting LEQs on imperialism and a timed DBQ, with self-scoring" }
+        - { kind: discussion, hours: 9, note: "weekly review of key concepts, 18 x 30 min" }
+        - { kind: exam-prep, hours: 25, note: "a full timed practice exam, released FRQs and six weeks of review before May" }
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 5–9"
         role: reference
