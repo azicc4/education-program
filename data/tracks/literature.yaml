@@ -268,6 +268,8 @@ rows:
         author: Helen L. Taylor (after John Bunyan)
         date: "1947"
         publicDomain: false
+        role: choice
+        group: A
         links:
           - { label: Moody Publishers, url: "https://www.moodypublishers.com/little-pilgrims-progress" }
       - title: The Pilgrim's Progress in Words of One Syllable
@@ -277,6 +279,8 @@ rows:
         author: John Bunyan, adapted by Lucy Aikin
         date: "c. 1870"
         publicDomain: true
+        role: choice
+        group: A
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7088" }
       - title: The Chronicles of Narnia (7 vols., box set)
@@ -558,6 +562,8 @@ rows:
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
+        role: selections
+        portion: "passages for memorization"
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/" }
     curriculumOptions:
@@ -605,6 +611,7 @@ rows:
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
+        order: 1
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14880" }
       - title: McGuffey's Fifth Eclectic Reader
@@ -614,6 +621,7 @@ rows:
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15040" }
       - title: McGuffey's Sixth Eclectic Reader
@@ -623,6 +631,7 @@ rows:
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
+        order: 3
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
       - title: The Columbian Orator
@@ -632,6 +641,7 @@ rows:
         author: Caleb Bingham (ed.)
         date: "1797"
         publicDomain: true
+        role: selections
         links:
           - { label: Archive.org, url: "https://archive.org/details/columbianoratorc00bing" }
     curriculumOptions:
@@ -683,6 +693,7 @@ rows:
         author: Howard Pyle
         date: "1883"
         publicDomain: true
+        order: 1
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10148" }
       - title: The Story of King Arthur and His Knights
@@ -692,6 +703,7 @@ rows:
         author: Howard Pyle
         date: "1903"
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/60184" }
       - title: The Boy's King Arthur (Malory, ed. Lanier)
@@ -701,6 +713,7 @@ rows:
         author: Sir Thomas Malory, ed. Sidney Lanier
         date: "1880"
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66585" }
       - title: Otto of the Silver Hand
@@ -710,6 +723,7 @@ rows:
         author: Howard Pyle
         date: "1888"
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2865" }
       - title: Men of Iron
@@ -719,6 +733,7 @@ rows:
         author: Howard Pyle
         date: "1891"
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1557" }
     curriculumOptions:
@@ -869,6 +884,7 @@ rows:
         pages: 1200
         date: "1611"
         publicDomain: true
+        pace: long
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
       - title: The Pilgrim's Progress
@@ -878,6 +894,8 @@ rows:
         author: John Bunyan
         date: "1678"
         publicDomain: true
+        role: selections
+        portion: "Part I"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/131" }
       - title: The Boys' and Girls' Plutarch
@@ -887,6 +905,8 @@ rows:
         author: Plutarch, ed. John S. White
         date: "1883"
         publicDomain: true
+        role: choice
+        group: A
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2484" }
       - title: Plutarch's Lives (Dryden translation, rev. Clough)
@@ -896,6 +916,8 @@ rows:
         author: Plutarch
         date: "c. 100 AD; trans. 1683/1859"
         publicDomain: true
+        role: choice
+        group: A
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
       - title: The Life of George Washington, with Curious Anecdotes
@@ -914,6 +936,8 @@ rows:
         author: Benjamin Franklin
         date: "1791"
         publicDomain: true
+        role: selections
+        portion: "Part I"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: "Cato: A Tragedy"
@@ -1185,6 +1209,7 @@ rows:
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
+        order: 1
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/" }
       - title: Twelfth Night
@@ -1194,6 +1219,7 @@ rows:
         author: William Shakespeare
         date: "c. 1601"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/twelfth-night/" }
       - title: As You Like It
@@ -1203,6 +1229,7 @@ rows:
         author: William Shakespeare
         date: "c. 1599"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/as-you-like-it/" }
       - title: Much Ado About Nothing
@@ -1212,6 +1239,7 @@ rows:
         author: William Shakespeare
         date: "c. 1598"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/much-ado-about-nothing/" }
       - title: The Comedy of Errors
@@ -1221,6 +1249,7 @@ rows:
         author: William Shakespeare
         date: "c. 1594"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-comedy-of-errors/" }
     curriculumOptions:
@@ -1376,6 +1405,7 @@ rows:
         author: William Shakespeare
         date: "1599"
         publicDomain: true
+        order: 3
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/henry-v/" }
       - title: Richard II
@@ -1385,6 +1415,7 @@ rows:
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
+        order: 1
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/richard-ii/" }
       - title: Henry IV, Part 1
@@ -1394,6 +1425,7 @@ rows:
         author: William Shakespeare
         date: "c. 1597"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/henry-iv-part-1/" }
     curriculumOptions:
@@ -1505,6 +1537,8 @@ rows:
         author: Ovid (trans. H. T. Riley)
         date: "8 AD"
         publicDomain: true
+        role: selections
+        portion: "Books I–VII"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21765" }
     curriculumOptions:
@@ -1566,6 +1600,7 @@ rows:
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
+        order: 1
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/" }
       - title: Macbeth
@@ -1575,6 +1610,7 @@ rows:
         author: William Shakespeare
         date: "1606"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/macbeth/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-macbeth.htm" }
@@ -1585,6 +1621,7 @@ rows:
         author: William Shakespeare
         date: "c. 1600"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/hamlet/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-hamlet.htm" }
@@ -1595,6 +1632,7 @@ rows:
         author: William Shakespeare
         date: "1606"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/king-lear/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-king-lear.htm" }
@@ -1605,6 +1643,7 @@ rows:
         author: William Shakespeare
         date: "1604"
         publicDomain: true
+        order: 2
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/othello/" }
     curriculumOptions:
@@ -1658,6 +1697,8 @@ rows:
         author: St. Augustine (trans. E. B. Pusey)
         date: "c. 400"
         publicDomain: true
+        role: selections
+        portion: "Books I–X"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3296" }
       - title: Beowulf (trans. Seamus Heaney)
@@ -1688,6 +1729,9 @@ rows:
         author: Dante Alighieri
         date: "1308–1321"
         publicDomain: false
+        role: selections
+        portion: "Inferno and Purgatorio complete; Paradiso complete or in selections"
+        pace: long
         links:
           - { label: "Inferno (Penguin Random House)", url: "https://www.penguinrandomhouse.com/books/36722/inferno-by-dante/" }
           - { label: "Free alt: Longfellow translation (Gutenberg)", url: "https://www.gutenberg.org/ebooks/1004" }
@@ -1698,6 +1742,8 @@ rows:
         author: Geoffrey Chaucer
         date: "c. 1387–1400; trans. 1951"
         publicDomain: false
+        role: selections
+        portion: "General Prologue and at least eight tales (Knight's, Man of Law's, Wife of Bath's, Clerk's, Franklin's, Pardoner's, Second Nun's; Parson's Prologue and the Retraction)"
         links:
           - { label: "Coghill modern verse (Penguin Classics, B&N)", url: "https://www.barnesandnoble.com/w/the-canterbury-tales-geoffrey-chaucer/1116670487?ean=9780140424386" }
           - { label: "Free alt: Middle English text (Gutenberg)", url: "https://www.gutenberg.org/ebooks/2383" }
@@ -1708,6 +1754,8 @@ rows:
         author: Anonymous
         date: "c. 1510"
         publicDomain: true
+        role: selections
+        portion: "Everyman"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19481" }
       - title: "Le Morte d'Arthur, Vol. 1"
@@ -1775,6 +1823,7 @@ rows:
         author: Edmund Spenser
         date: "1590"
         publicDomain: true
+        order: 1
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15272" }
       - title: "The Tragical History of Doctor Faustus (elective)"
@@ -1784,6 +1833,7 @@ rows:
         author: Christopher Marlowe
         date: "c. 1592"
         publicDomain: true
+        order: 1
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/779" }
       - title: The Essays or Counsels, Civil and Moral
@@ -1793,6 +1843,7 @@ rows:
         author: Francis Bacon
         date: "1625"
         publicDomain: true
+        order: 1
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/575" }
       - title: Paradise Lost
@@ -1802,6 +1853,7 @@ rows:
         author: John Milton
         date: "1667/1674"
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26" }
       - title: "Grace Abounding to the Chief of Sinners (elective)"
@@ -1884,6 +1936,7 @@ rows:
         author: John Dryden
         date: "1660–1700"
         publicDomain: true
+        role: selections
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11488" }
       - title: "The Rape of the Lock, and Other Poems (elective)"
@@ -1893,6 +1946,8 @@ rows:
         author: Alexander Pope
         date: "1714"
         publicDomain: true
+        role: selections
+        portion: "The Rape of the Lock"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9800" }
       - title: An Essay on Man; Moral Essays and Satires
@@ -1902,6 +1957,8 @@ rows:
         author: Alexander Pope
         date: "1733–34"
         publicDomain: true
+        role: selections
+        portion: "An Essay on Man"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2428" }
       - title: A Modest Proposal
@@ -1920,6 +1977,7 @@ rows:
         author: Joseph Addison & Richard Steele
         date: "1711–1712"
         publicDomain: true
+        role: selections
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12030" }
       - title: "Rasselas, Prince of Abyssinia (elective)"
@@ -1947,6 +2005,9 @@ rows:
         author: James Boswell
         date: "1791"
         publicDomain: true
+        role: selections
+        portion: "abridged or selections of 300+ pages"
+        readPages: 300
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1564" }
     curriculumOptions:
@@ -2277,6 +2338,8 @@ rows:
         author: John Henry Newman
         date: "1852/1873"
         publicDomain: true
+        role: selections
+        portion: "Discourses V–VII"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/24526" }
       - title: "Loss and Gain: The Story of a Convert (elective)"
@@ -2613,6 +2676,7 @@ rows:
         pages: 1300
         author: William Shakespeare
         publicDomain: true
+        role: reference
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/100" }
     curriculumOptions:
@@ -2801,6 +2865,7 @@ rows:
         author: Emily Dickinson
         date: "1890–1896"
         publicDomain: true
+        role: selections
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12242" }
       - title: Leaves of Grass
@@ -2810,6 +2875,8 @@ rows:
         author: Walt Whitman
         date: "1855–1892"
         publicDomain: true
+        role: selections
+        portion: "Song of Myself and the Lincoln elegies"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1322" }
       - title: "Daisy Miller (elective)"
@@ -2954,6 +3021,8 @@ rows:
         author: Flannery O'Connor
         date: "1971"
         publicDomain: false
+        role: selections
+        portion: "at least five stories"
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-complete-stories-flannery-oconnor/1103271862?ean=9780374515362" }
       - title: The Moviegoer
@@ -3170,6 +3239,8 @@ rows:
         author: Hesiod (trans. H. G. Evelyn-White)
         date: "c. 700 BC"
         publicDomain: true
+        role: selections
+        portion: "Hesiod"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/348" }
       - title: "The History of Herodotus, Vol. 1"
@@ -3222,6 +3293,8 @@ rows:
         reader: student
         pages: 1600
         publicDomain: true
+        role: selections
+        portion: "Genesis, Exodus and Job"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
     curriculumOptions:
@@ -3299,6 +3372,7 @@ rows:
         author: Michel de Montaigne
         date: "1580–1595"
         publicDomain: true
+        role: selections
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3600" }
       - title: The Thoughts of Blaise Pascal (Pensées)

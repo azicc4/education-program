@@ -212,6 +212,7 @@ rows:
         author: attrib. Wang Yinglin
         date: "13th century"
         publicDomain: true
+        order: 1
         links:
           - { label: "Chinese Text Project (with English)", url: "https://ctext.org/three-character-classic" }
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/12479" }
@@ -222,6 +223,9 @@ rows:
         author: Zhou Xingsi
         date: "6th century"
         publicDomain: true
+        order: 2
+        role: selections
+        portion: "the first half or more"
         links:
           - { label: "Chinese Text Project", url: "https://ctext.org/wiki.pl?if=en&res=386897" }
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/24184" }
@@ -297,6 +301,8 @@ rows:
         author: Sun Zhu (Hengtang Tuishi), comp.
         date: "1763"
         publicDomain: true
+        role: selections
+        portion: "30+ quatrains and regulated poems (e.g. 静夜思, 春晓, 登鹳雀楼)"
         links:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/52323" }
           - { label: "Chinese Text Project", url: "https://ctext.org/wiki.pl?if=gb&res=839520" }
@@ -365,6 +371,7 @@ rows:
         author: Matteo Ricci (利瑪竇)
         date: "1603"
         publicDomain: true
+        role: selections
         links:
           - { label: "Chinese Text Project (Chinese)", url: "https://ctext.org/wiki.pl?if=en&res=2351032" }
           - { label: "Archive.org (Chinese–English ed., Lancashire & Hu Kuo-chen)", url: "https://archive.org/details/truemeaningoflor0000ricc" }
@@ -384,6 +391,10 @@ rows:
         author: Studium Biblicum Franciscanum, Hong Kong
         date: "1968"
         publicDomain: false
+        role: choice
+        group: A
+        portion: "the Gospel of Mark"
+        readPages: 60
         links:
           - { label: "ccreadbible.org (read online)", url: "https://www.ccreadbible.org/chinesebible/sigao" }
       - title: 和合本 (Chinese Union Version)
@@ -393,6 +404,10 @@ rows:
         author: Protestant missionary committee
         date: "1919"
         publicDomain: true
+        role: choice
+        group: A
+        portion: "the Gospel of Mark"
+        readPages: 60
         links:
           - { label: "Bible Gateway (CUVS)", url: "https://www.biblegateway.com/versions/Chinese-Union-Version-Simplified-CUVS/" }
     curriculumOptions:
@@ -434,6 +449,7 @@ rows:
         author: Lu Xun (魯迅)
         date: "1923"
         publicDomain: true
+        role: selections
         links:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/27166" }
       - title: 朝花夕拾 (Dawn Blossoms Plucked at Dusk)
@@ -452,6 +468,7 @@ rows:
         author: attrib. Wu Cheng'en
         date: "c. 1592"
         publicDomain: true
+        role: selections
         links:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/23962" }
     curriculumOptions:
@@ -526,6 +543,7 @@ rows:
         author: Confucius and disciples
         date: "5th–4th c. BC"
         publicDomain: true
+        pace: long
         links:
           - { label: "Chinese Text Project (Chinese–English)", url: "https://ctext.org/analects" }
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/23839" }
@@ -537,6 +555,8 @@ rows:
         author: Mencius
         date: "4th c. BC"
         publicDomain: true
+        role: selections
+        portion: "selected books"
         links:
           - { label: "Chinese Text Project", url: "https://ctext.org/mengzi" }
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/24178" }

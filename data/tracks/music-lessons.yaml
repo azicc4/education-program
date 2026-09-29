@@ -40,6 +40,7 @@ rows:
         kind: instructional
         reader: student
         pages: 41
+        pace: long
         author: Nancy and Randall Faber
         publicDomain: false
         links:
@@ -150,6 +151,7 @@ rows:
       - title: "Improve Your Sight-Reading! Piano (graded series)"
         kind: instructional
         reader: student
+        pace: long
         author: Paul Harris
         publicDomain: false
         links:
@@ -197,6 +199,9 @@ rows:
         kind: instructional
         reader: student
         pages: 48
+        role: choice
+        group: A
+        pace: long
         author: Shinichi Suzuki
         publicDomain: false
         links:
@@ -205,6 +210,9 @@ rows:
         kind: instructional
         reader: student
         pages: 48
+        role: choice
+        group: A
+        pace: long
         author: Michael Allen, Robert Gillespie and Pamela Tellejohn Hayes
         publicDomain: false
         links:
@@ -213,6 +221,9 @@ rows:
         kind: instructional
         reader: student
         pages: 48
+        role: choice
+        group: A
+        pace: long
         author: Tim Lautzenheiser and others
         publicDomain: false
         links:
@@ -301,6 +312,7 @@ rows:
       - title: "Fifty Lessons, Op. 9"
         kind: instructional
         reader: student
+        pace: long
         author: Giuseppe Concone
         publicDomain: true
         links:
@@ -308,6 +320,8 @@ rows:
       - title: "24 Italian Songs and Arias of the 17th and 18th Centuries"
         kind: instructional
         reader: student
+        role: selections
+        portion: "6 or more simple art songs or early Italian arias"
         author: G. Schirmer (ed.)
         publicDomain: false
         links:
@@ -352,6 +366,8 @@ rows:
         kind: primary
         reader: student
         pages: 78
+        role: selections
+        portion: "the 15 two-part Inventions"
         author: Johann Sebastian Bach
         date: "1723"
         publicDomain: true
@@ -369,6 +385,8 @@ rows:
       - title: 32 Piano Sonatas
         kind: primary
         reader: student
+        role: selections
+        portion: "2 or more sonatas"
         author: Ludwig van Beethoven
         date: "1795–1822"
         publicDomain: true
@@ -377,6 +395,7 @@ rows:
       - title: "Preludes, Op. 28, and Nocturnes, Op. 9"
         kind: primary
         reader: student
+        role: selections
         author: Frédéric Chopin
         date: "1832–1839"
         publicDomain: true

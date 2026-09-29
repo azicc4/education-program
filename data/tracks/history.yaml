@@ -50,6 +50,8 @@ rows:
         kind: primary
         reader: together
         pages: 1600
+        role: choice
+        group: A
         date: "1582–1610 (Challoner rev. 1749–52)"
         publicDomain: true
         links:
@@ -59,6 +61,8 @@ rows:
         kind: primary
         reader: together
         pages: 1200
+        role: choice
+        group: A
         date: "1611"
         publicDomain: true
         links:
@@ -133,6 +137,7 @@ rows:
         kind: secondary
         reader: together
         pages: 494
+        pace: long
         author: V.M. Hillyer
         date: "1924"
         publicDomain: true
@@ -234,6 +239,7 @@ rows:
         kind: secondary
         reader: together
         pages: 468
+        pace: long
         author: Plutarch (ed. John S. White)
         date: "1883"
         publicDomain: true
@@ -302,6 +308,8 @@ rows:
         kind: secondary
         reader: student
         pages: 540
+        role: selections
+        portion: "the early chapters, from the Romans to the Wars of the Roses"
         author: H.E. Marshall
         date: "1905"
         publicDomain: true
@@ -367,6 +375,9 @@ rows:
         kind: secondary
         reader: student
         pages: 100
+        role: selections
+        portion: "the Tudors & Stuarts chapters"
+        readPages: 100
         author: H.E. Marshall
         date: "1905"
         publicDomain: true
@@ -385,6 +396,9 @@ rows:
         kind: secondary
         reader: student
         pages: 150
+        role: selections
+        portion: "the later chapters"
+        readPages: 150
         author: V.M. Hillyer
         date: "1924"
         publicDomain: true
@@ -441,6 +455,7 @@ rows:
         kind: secondary
         reader: student
         pages: 500
+        pace: long
         author: H.E. Marshall
         date: "1917"
         publicDomain: true
@@ -527,15 +542,17 @@ rows:
           - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/ancient/hamcode.asp" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/ancient/hamframe.asp" }
       - title: "Ancient History Sourcebook: Mesopotamia; Israel"
+        role: reference
         kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Mesopotamia, url: "https://sourcebooks.fordham.edu/ancient/asbook03.asp" }
           - { label: Israel, url: "https://sourcebooks.fordham.edu/ancient/asbook06.asp" }
-      - title: Antiquities of the Jews (selections)
+      - title: Antiquities of the Jews
         kind: primary
         reader: student
+        role: selections
         author: Flavius Josephus (tr. Whiston)
         date: "c. AD 94"
         publicDomain: true
@@ -603,6 +620,9 @@ rows:
         kind: primary
         reader: student
         pages: 800
+        role: selections
+        portion: "Croesus and Solon, Marathon, Thermopylae, Salamis"
+        readPages: 150
         author: Herodotus (tr. G.C. Macaulay)
         date: "c. 430 BC"
         publicDomain: true
@@ -614,6 +634,8 @@ rows:
         kind: primary
         reader: student
         pages: 1300
+        role: selections
+        portion: "the Lives of Lycurgus, Solon, Themistocles, Aristides, Pericles and Alexander"
         author: Plutarch
         date: "c. AD 100"
         publicDomain: true
@@ -623,6 +645,7 @@ rows:
         kind: primary
         reader: student
         pages: 360
+        role: selections
         author: Xenophon
         date: "c. 370 BC"
         publicDomain: true
@@ -677,6 +700,8 @@ rows:
         kind: primary
         reader: student
         pages: 396
+        role: selections
+        portion: "Book I"
         author: Livy (tr. Spillan)
         date: "c. 27 BC"
         publicDomain: true
@@ -687,6 +712,8 @@ rows:
         kind: primary
         reader: student
         pages: 550
+        role: selections
+        portion: "six Roman Lives (Numa, Publicola, Coriolanus, Fabius, Cato the Elder, the Gracchi, Marius, Cicero, Caesar, Brutus)"
         author: Plutarch
         date: "c. AD 100"
         publicDomain: true
@@ -695,6 +722,8 @@ rows:
       - title: "De Bello Gallico and Other Commentaries"
         kind: primary
         reader: student
+        role: selections
+        portion: "Gallic War Books I and IV–V"
         pages: 356
         author: Julius Caesar (tr. McDevitte & Bohn)
         date: "c. 50 BC"
@@ -769,9 +798,11 @@ rows:
         links:
           - { label: "New Advent: Polycarp", url: "https://www.newadvent.org/fathers/0102.htm" }
           - { label: "New Advent: Perpetua", url: "https://www.newadvent.org/fathers/0324.htm" }
-      - title: Church History (selections)
+      - title: Church History
         kind: primary
         reader: student
+        role: selections
+        portion: "the apostles' successors, the persecutions, Constantine"
         author: Eusebius of Caesarea
         date: "c. 325"
         publicDomain: true
@@ -829,6 +860,9 @@ rows:
         kind: primary
         reader: student
         pages: 140
+        role: selections
+        portion: "Books I–II"
+        readPages: 140
         author: Bede
         date: "731"
         publicDomain: true
@@ -938,6 +972,8 @@ rows:
         kind: primary
         reader: student
         pages: 608
+        role: selections
+        portion: "the decrees on Scripture and Tradition, and on Justification"
         date: "1545–63"
         publicDomain: true
         links:
@@ -945,6 +981,7 @@ rows:
       - title: "Modern History Sourcebook: Reformation"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
@@ -952,6 +989,7 @@ rows:
         kind: primary
         reader: student
         pages: 176
+        role: selections
         author: St. Thomas More
         date: "1516"
         publicDomain: true
@@ -961,6 +999,7 @@ rows:
         kind: primary
         reader: student
         pages: 218
+        role: selections
         author: Erasmus
         date: "1511"
         publicDomain: true
@@ -1020,6 +1059,9 @@ rows:
         kind: primary
         reader: student
         pages: 346
+        order: 1
+        role: selections
+        portion: "the letters on the first voyage"
         author: Christopher Columbus (ed. R.H. Major)
         date: "1493–1503"
         publicDomain: true
@@ -1029,6 +1071,9 @@ rows:
         kind: primary
         reader: student
         pages: 450
+        order: 2
+        role: selections
+        portion: "Book I and chapters of Book II"
         author: William Bradford
         date: "1630–51"
         publicDomain: true
@@ -1038,6 +1083,7 @@ rows:
         kind: primary
         reader: student
         pages: 1
+        order: 2
         date: "1620"
         publicDomain: true
         links:
@@ -1046,6 +1092,7 @@ rows:
         kind: primary
         reader: student
         pages: 12
+        order: 2
         author: John Winthrop
         date: "1630"
         publicDomain: true
@@ -1054,6 +1101,8 @@ rows:
       - title: "Modern History Sourcebook: Colonial North America"
         kind: secondary
         reader: student
+        order: 2
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook07.asp" }
@@ -1131,6 +1180,8 @@ rows:
         kind: primary
         reader: student
         pages: 559
+        role: selections
+        portion: "Nos. 1, 10, 51"
         author: Hamilton, Madison & Jay
         date: "1787–88"
         publicDomain: true
@@ -1199,6 +1250,9 @@ rows:
         kind: primary
         reader: student
         pages: 800
+        order: 1
+        role: selections
+        portion: "Books I, VI–IX"
         author: Herodotus (tr. G.C. Macaulay)
         publicDomain: true
         links:
@@ -1209,6 +1263,7 @@ rows:
         kind: primary
         reader: student
         pages: 614
+        order: 2
         author: Thucydides (tr. Crawley)
         date: "c. 400 BC"
         publicDomain: true
@@ -1219,6 +1274,7 @@ rows:
         kind: primary
         reader: student
         pages: 299
+        order: 3
         author: Xenophon
         publicDomain: true
         links:
@@ -1227,6 +1283,7 @@ rows:
         kind: primary
         reader: student
         pages: 420
+        order: 4
         author: Arrian (tr. Chinnock)
         date: "c. AD 130–150"
         publicDomain: true
@@ -1311,6 +1368,9 @@ rows:
         kind: primary
         reader: student
         pages: 1100
+        order: 1
+        role: selections
+        portion: "Books I, III and VI"
         author: Polybius (tr. Shuckburgh)
         date: "c. 150 BC"
         publicDomain: true
@@ -1322,6 +1382,9 @@ rows:
         kind: primary
         reader: student
         pages: 1000
+        order: 1
+        role: selections
+        portion: "Books I–V and XXI–XXII"
         author: Livy
         publicDomain: true
         links:
@@ -1331,6 +1394,9 @@ rows:
         kind: primary
         reader: student
         pages: 451
+        order: 2
+        role: selections
+        portion: "Books I–IV and XV"
         author: Tacitus (tr. Church & Brodribb)
         date: "c. AD 116"
         publicDomain: true
@@ -1341,6 +1407,9 @@ rows:
         kind: primary
         reader: student
         pages: 124
+        order: 2
+        role: selections
+        portion: "the Agricola"
         author: Tacitus
         publicDomain: true
         links:
@@ -1349,6 +1418,9 @@ rows:
         kind: primary
         reader: student
         pages: 500
+        order: 2
+        role: selections
+        portion: "Books V–VI"
         author: Flavius Josephus (tr. Whiston)
         date: "c. AD 75"
         publicDomain: true
@@ -1452,6 +1524,9 @@ rows:
         kind: primary
         reader: student
         pages: 680
+        role: selections
+        portion: "Church History Books I–III and VIII–X; the Life of Constantine in selection"
+        readPages: 400
         author: Eusebius of Caesarea
         date: "c. 325–339"
         publicDomain: true
@@ -1463,6 +1538,9 @@ rows:
         kind: primary
         reader: student
         pages: 1100
+        role: selections
+        portion: "Books I–V, XIV.28 and XIX (in excerpt)"
+        readPages: 250
         author: St. Augustine
         date: "413–426"
         publicDomain: true
@@ -1474,6 +1552,8 @@ rows:
         kind: secondary
         reader: student
         pages: 508
+        role: selections
+        portion: "chapters 15–16"
         author: Edward Gibbon
         date: "1776"
         publicDomain: true
@@ -1482,6 +1562,7 @@ rows:
       - title: "Ancient History Sourcebook: Late Antiquity; Christian Origins"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Late Antiquity, url: "https://sourcebooks.fordham.edu/ancient/asbook10.asp" }
@@ -1543,6 +1624,7 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        order: 1
         author: Bede
         date: "731"
         publicDomain: true
@@ -1552,6 +1634,7 @@ rows:
         kind: primary
         reader: student
         pages: 180
+        order: 1
         author: ed. A.J. Grant
         publicDomain: true
         links:
@@ -1559,6 +1642,8 @@ rows:
       - title: "Medieval Sourcebook: Anglo-Saxons; Carolingians"
         kind: secondary
         reader: student
+        order: 1
+        role: reference
         publicDomain: true
         links:
           - { label: Anglo-Saxons, url: "https://sourcebooks.fordham.edu/sbook1ff.asp" }
@@ -1567,6 +1652,7 @@ rows:
         kind: secondary
         reader: student
         pages: 317
+        order: 1
         author: Christopher Dawson
         date: "1932"
         publicDomain: false
@@ -1576,6 +1662,7 @@ rows:
         kind: primary
         reader: student
         pages: 5
+        order: 2
         date: "1075–76"
         publicDomain: true
         links:
@@ -1586,6 +1673,7 @@ rows:
         kind: primary
         reader: student
         pages: 3
+        order: 2
         author: Pope Boniface VIII
         date: "1302"
         publicDomain: true
@@ -1594,6 +1682,8 @@ rows:
       - title: "Medieval Sourcebook: Crusades"
         kind: secondary
         reader: student
+        order: 2
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/sbook1k.asp" }
@@ -1601,6 +1691,7 @@ rows:
         kind: primary
         reader: student
         pages: 409
+        order: 2
         author: Jean de Joinville
         date: "1309"
         publicDomain: true
@@ -1610,6 +1701,9 @@ rows:
         kind: primary
         reader: student
         pages: 1500
+        order: 2
+        role: selections
+        portion: "Crécy, Poitiers and the Peasants' Revolt"
         author: Jean Froissart
         date: "c. 1370–1400"
         publicDomain: true
@@ -1715,6 +1809,7 @@ rows:
         kind: primary
         reader: student
         pages: 10
+        order: 1
         date: "1215"
         publicDomain: true
         links:
@@ -1722,6 +1817,9 @@ rows:
       - title: Second Part of the Institutes of the Laws of England (Magna Carta commentary)
         kind: primary
         reader: student
+        order: 1
+        role: selections
+        portion: "the Magna Carta commentary"
         author: Sir Edward Coke
         date: "1642"
         publicDomain: true
@@ -1731,6 +1829,7 @@ rows:
         kind: primary
         reader: student
         pages: 4
+        order: 1
         date: "1628"
         publicDomain: true
         links:
@@ -1739,6 +1838,7 @@ rows:
         kind: primary
         reader: student
         pages: 6
+        order: 1
         date: "1689"
         publicDomain: true
         links:
@@ -1747,6 +1847,9 @@ rows:
       - title: The History of the Rebellion and Civil Wars in England
         kind: primary
         reader: student
+        order: 1
+        role: selections
+        portion: "the outbreak of the Civil War"
         author: Edward Hyde, Earl of Clarendon
         date: "1702–04"
         publicDomain: true
@@ -1756,6 +1859,9 @@ rows:
         kind: primary
         reader: student
         pages: 338
+        order: 2
+        role: selections
+        portion: "in substantial part"
         author: Edmund Burke
         date: "1790"
         publicDomain: true
@@ -1765,6 +1871,8 @@ rows:
         kind: secondary
         reader: student
         pages: 582
+        order: 1
+        role: selections
         author: David Hume
         date: "1754–61"
         publicDomain: true
@@ -1774,6 +1882,9 @@ rows:
         kind: secondary
         reader: student
         pages: 650
+        order: 1
+        role: selections
+        portion: "on 1688"
         author: Thomas Babington Macaulay
         date: "1848"
         publicDomain: true
@@ -1782,6 +1893,8 @@ rows:
       - title: "Modern History Sourcebook: Constitutionalism"
         kind: secondary
         reader: student
+        order: 1
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook06.asp" }
@@ -1838,6 +1951,8 @@ rows:
       - title: "Modern History Sourcebook: Reformation (Luther, Calvin, Zwingli, Trent, Loyola, More)"
         kind: secondary
         reader: student
+        order: 2
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
@@ -1845,6 +1960,7 @@ rows:
         kind: primary
         reader: student
         pages: 10
+        order: 2
         author: Martin Luther
         publicDomain: true
         links:
@@ -1853,6 +1969,9 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        order: 2
+        role: selections
+        portion: "the decrees on Scripture, Justification and the Sacraments"
         publicDomain: true
         links:
           - { label: Hanover Historical Texts (full), url: "https://history.hanover.edu/texts/trent/trentall.html" }
@@ -1860,6 +1979,7 @@ rows:
         kind: primary
         reader: student
         pages: 156
+        order: 1
         author: Niccolò Machiavelli
         date: "1532"
         publicDomain: true
@@ -1868,6 +1988,7 @@ rows:
       - title: "Medieval Sourcebook: Renaissance; Reformation; Exploration"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Renaissance, url: "https://sourcebooks.fordham.edu/sbook1x.asp" }
@@ -1975,6 +2096,7 @@ rows:
         kind: primary
         reader: student
         pages: 61
+        order: 1
         author: Thomas Paine
         date: "1776"
         publicDomain: true
@@ -1984,6 +2106,7 @@ rows:
         kind: primary
         reader: student
         pages: 8
+        order: 1
         author: John Adams
         date: "1776"
         publicDomain: true
@@ -1993,6 +2116,7 @@ rows:
         kind: primary
         reader: student
         pages: 4
+        order: 1
         author: Thomas Jefferson
         date: "1776"
         publicDomain: true
@@ -2002,6 +2126,7 @@ rows:
         kind: primary
         reader: student
         pages: 10
+        order: 1
         author: George Washington
         date: "8 June 1783"
         publicDomain: true
@@ -2010,12 +2135,16 @@ rows:
       - title: "Modern History Sourcebook: American Independence"
         kind: secondary
         reader: student
+        order: 1
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook12.asp" }
       - title: Avalon Project — 18th-Century Documents
         kind: primary
         reader: student
+        order: 1
+        role: reference
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/18th.asp" }
@@ -2023,6 +2152,9 @@ rows:
         kind: primary
         reader: student
         pages: 559
+        order: 1
+        role: selections
+        portion: "Nos. 1, 10, 39, 47–51, 70, 78"
         author: Hamilton, Madison & Jay
         publicDomain: true
         links:
@@ -2030,6 +2162,9 @@ rows:
       - title: Select Speeches of Daniel Webster, 1817–1845 (incl. Second Reply to Hayne)
         kind: primary
         reader: student
+        order: 2
+        role: selections
+        portion: "the Second Reply to Hayne"
         author: Daniel Webster
         publicDomain: true
         links:
@@ -2038,6 +2173,7 @@ rows:
         kind: primary
         reader: student
         pages: 25
+        order: 2
         author: John C. Calhoun
         date: "1848"
         publicDomain: true
@@ -2047,6 +2183,7 @@ rows:
         kind: primary
         reader: student
         pages: 127
+        order: 2
         author: Frederick Douglass
         date: "1845"
         publicDomain: true
@@ -2056,6 +2193,7 @@ rows:
         kind: primary
         reader: student
         pages: 20
+        order: 2
         author: Frederick Douglass
         date: "1852"
         publicDomain: true
@@ -2065,6 +2203,9 @@ rows:
         kind: primary
         reader: student
         pages: 330
+        order: 2
+        role: selections
+        portion: "at least three of the seven debates"
         author: Abraham Lincoln & Stephen A. Douglas
         date: "1858"
         publicDomain: true
@@ -2075,6 +2216,7 @@ rows:
         kind: primary
         reader: student
         pages: 20
+        order: 2
         author: Abraham Lincoln
         date: "1858–60"
         publicDomain: true
@@ -2085,6 +2227,8 @@ rows:
       - title: "Modern History Sourcebook: US Civil War"
         kind: secondary
         reader: student
+        order: 2
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook27.asp" }
@@ -2182,6 +2326,7 @@ rows:
       - title: "Modern History Sourcebook: French Revolution; Conservative Order; 1848; 19C Britain; Socialism; 19C Religion"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: French Revolution, url: "https://sourcebooks.fordham.edu/mod/modsbook13.asp" }
@@ -2334,6 +2479,7 @@ rows:
       - title: "Modern History Sourcebook: World War I; Nazism; Holocaust; World War II; Bipolar World"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: World War I, url: "https://sourcebooks.fordham.edu/mod/modsbook38.asp" }
@@ -2353,6 +2499,7 @@ rows:
       - title: Avalon Project — Cold War documents
         kind: primary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/coldwar.asp" }
@@ -2477,6 +2624,7 @@ rows:
         kind: secondary
         reader: student
         pages: 965
+        role: selections
         author: Charles Rollin
         date: "1730–38"
         publicDomain: true
@@ -2486,6 +2634,7 @@ rows:
         kind: secondary
         reader: student
         pages: 582
+        role: selections
         author: David Hume
         publicDomain: true
         links:
@@ -2494,6 +2643,8 @@ rows:
         kind: secondary
         reader: student
         pages: 567
+        role: selections
+        portion: "on the rise of Christianity"
         author: Edward Gibbon
         publicDomain: true
         links:
@@ -2502,6 +2653,8 @@ rows:
         kind: secondary
         reader: student
         pages: 650
+        role: selections
+        portion: "on the Stuarts"
         author: Thomas Babington Macaulay
         publicDomain: true
         links:
@@ -2528,6 +2681,7 @@ rows:
         kind: secondary
         reader: student
         pages: 984
+        role: selections
         author: Paul Johnson
         date: "1997"
         publicDomain: false
@@ -2536,6 +2690,7 @@ rows:
       - title: "Modern History Sourcebook: Studying History"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook01.asp" }
@@ -2603,6 +2758,7 @@ rows:
       - title: "Ancient History Sourcebook: Greece; Rome"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Greece, url: "https://sourcebooks.fordham.edu/ancient/asbook07.asp" }
@@ -2610,6 +2766,7 @@ rows:
       - title: "Medieval Sourcebook: Roman Church; England"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Roman Church, url: "https://sourcebooks.fordham.edu/sbook1e.asp" }
@@ -2617,6 +2774,7 @@ rows:
       - title: "The Golden Thread: A History of the Western Tradition, Volume I: The Ancient World and Christendom"
         kind: secondary
         reader: student
+        pace: long
         author: James Hankins
         date: "2025"
         publicDomain: false
@@ -2691,12 +2849,14 @@ rows:
       - title: "Internet Modern History Sourcebook (index)"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/halsall/mod/modsbook.asp" }
       - title: "The Golden Thread: A History of the Western Tradition, Volume II: The Modern and Contemporary West"
         kind: secondary
         reader: student
+        pace: long
         author: Allen C. Guelzo
         date: "2026"
         publicDomain: false
@@ -2752,6 +2912,7 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        pace: long
         author: Alexis de Tocqueville
         date: "1840"
         publicDomain: true
@@ -2760,12 +2921,14 @@ rows:
       - title: Founders Online (papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison, Jay)
         kind: primary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/" }
       - title: The Papers and Writings of Abraham Lincoln
         kind: primary
         reader: student
+        role: reference
         author: Abraham Lincoln
         publicDomain: true
         links:
@@ -2852,12 +3015,14 @@ rows:
         kind: primary
         reader: student
         pages: 608
+        role: selections
         publicDomain: true
         links:
           - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent/trentall.html" }
       - title: "Medieval Sourcebook: Medieval Church; Empire & Papacy"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Empire & Papacy, url: "https://sourcebooks.fordham.edu/sbook1l.asp" }

@@ -287,6 +287,9 @@ rows:
         kind: primary
         reader: student
         pages: 368
+        order: 1
+        role: selections
+        portion: "on sympathy, the impartial spectator and virtue"
         author: Adam Smith
         date: "1759"
         publicDomain: true
@@ -296,6 +299,9 @@ rows:
         kind: primary
         reader: student
         pages: 1100
+        order: 2
+        role: selections
+        portion: "the division of labor, the invisible hand, natural and market price, the mercantile system, and Book V on the duties of the sovereign"
         author: Adam Smith
         date: "1776"
         publicDomain: true
@@ -450,6 +456,7 @@ rows:
         kind: primary
         reader: student
         pages: 488
+        pace: long
         author: Jean-Baptiste Say
         date: "1803"
         publicDomain: true
@@ -459,6 +466,7 @@ rows:
         kind: primary
         reader: student
         pages: 450
+        pace: long
         author: David Ricardo
         date: "1817"
         publicDomain: true
@@ -468,6 +476,8 @@ rows:
         kind: primary
         reader: student
         pages: 1000
+        role: selections
+        portion: "on production versus distribution and on the stationary state"
         author: John Stuart Mill
         date: "1848"
         publicDomain: true
@@ -482,10 +492,13 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
-      - title: "Capital, Volume One (selections)"
+      - title: "Capital, Volume One"
         kind: primary
         reader: student
         pages: 1100
+        role: choice
+        group: A
+        portion: "selections on surplus value"
         author: Karl Marx
         date: "1867"
         publicDomain: true
@@ -495,6 +508,9 @@ rows:
         kind: primary
         reader: student
         pages: 788
+        role: choice
+        group: A
+        portion: "the Manifesto and the key selections from Capital"
         author: Karl Marx and Friedrich Engels; Robert C. Tucker (ed.)
         date: "1972; 2nd ed. 1978"
         publicDomain: false
@@ -504,6 +520,7 @@ rows:
         kind: primary
         reader: student
         pages: 414
+        pace: long
         author: Friedrich List (trans. Sampson S. Lloyd)
         date: "1841; Eng. 1885"
         publicDomain: true
@@ -604,6 +621,7 @@ rows:
         kind: primary
         reader: student
         pages: 700
+        role: reference
         author: Thomas Sowell
         date: "2014 (5th ed.)"
         publicDomain: false
@@ -648,6 +666,7 @@ rows:
         kind: primary
         reader: student
         pages: 640
+        pace: long
         author: Benjamin Graham
         date: "1949 / 2003"
         publicDomain: false

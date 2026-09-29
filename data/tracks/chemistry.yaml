@@ -35,6 +35,8 @@ rows:
         kind: primary
         reader: student
         pages: 568
+        role: selections
+        portion: "Preface and Part I chapters on the composition of air and water"
         author: Antoine Lavoisier, trans. Robert Kerr
         date: "1789 (trans. 1790)"
         publicDomain: true
@@ -45,6 +47,8 @@ rows:
         kind: primary
         reader: student
         pages: 220
+        role: selections
+        portion: "chapter on chemical synthesis"
         author: John Dalton
         date: "1808"
         publicDomain: true
@@ -54,6 +58,7 @@ rows:
         kind: instructional
         reader: student
         pages: 1326
+        role: reference
         author: OpenStax
         date: "2019"
         publicDomain: false
@@ -129,6 +134,7 @@ rows:
       - title: Guidelines for Chemical Laboratory Safety in Secondary Schools
         kind: instructional
         reader: teacher
+        role: reference
         author: American Chemical Society, Committee on Chemical Safety
         date: current ed.
         publicDomain: false
@@ -206,24 +212,33 @@ rows:
         kind: instructional
         reader: student
         pages: 1200
+        role: choice
+        group: A
+        pace: long
         author: Steven S. Zumdahl, Susan A. Zumdahl & Donald J. DeCoste
         date: "2018"
         publicDomain: false
         links:
           - { label: Cengage, url: "https://www.cengage.com/c/chemistry-ap-edition-10e-zumdahl-zumdahl/9781305957732/" }
-      - title: "Chemistry: The Central Science, 15th ed. (alternative spine)"
+      - title: "Chemistry: The Central Science, 15th ed."
         kind: instructional
         reader: student
         pages: 1200
+        role: choice
+        group: A
+        pace: long
         author: Brown, LeMay, Bursten, Murphy, Woodward & Stoltzfus
         date: "2021"
         publicDomain: false
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/chemistry-the-central-science/P200000006933/9780137542970" }
-      - title: "Chemistry: A Molecular Approach, 6th ed. (alternative spine)"
+      - title: "Chemistry: A Molecular Approach, 6th ed."
         kind: instructional
         reader: student
         pages: 1224
+        role: choice
+        group: A
+        pace: long
         author: Nivaldo J. Tro
         date: "2022"
         publicDomain: false
@@ -233,6 +248,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1326
+        role: choice
+        group: A
+        pace: long
         author: OpenStax
         date: "2019"
         publicDomain: false
@@ -320,6 +338,7 @@ rows:
         kind: instructional
         reader: student
         pages: 1233
+        pace: long
         author: John McMurry (OpenStax)
         date: "2023"
         publicDomain: false

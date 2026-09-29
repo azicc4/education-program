@@ -131,6 +131,7 @@ rows:
         author: J. Gresham Machen
         date: "1923"
         publicDomain: true
+        pace: long
         links:
           - { label: Archive.org, url: "https://archive.org/details/newtestamentgree00mach" }
           - { label: "Christianbook (current print ed.)", url: "https://www.christianbook.com/new-testament-greek-for-beginners/j-machen/9781579101800/pd/9101800" }
@@ -195,6 +196,9 @@ rows:
         author: H. Lamar Crosby & John N. Schaeffer
         date: "1928"
         publicDomain: true
+        role: choice
+        group: A
+        pace: long
         links:
           - { label: Archive.org, url: "https://archive.org/details/introductiontogr00cros" }
       - title: The First Greek Book
@@ -204,6 +208,9 @@ rows:
         author: John Williams White
         date: "1896"
         publicDomain: true
+        role: choice
+        group: A
+        pace: long
         links:
           - { label: Archive.org, url: "https://archive.org/details/firstgreekbook00whituoft" }
     curriculumOptions:
@@ -304,6 +311,7 @@ rows:
         author: William Watson Goodwin
         date: "1892"
         publicDomain: true
+        role: reference
         links:
           - { label: Archive.org, url: "https://archive.org/details/greekgrammar00gooduoft" }
       - title: A Greek Grammar for Colleges
@@ -313,6 +321,7 @@ rows:
         author: Herbert Weir Smyth
         date: "1920"
         publicDomain: true
+        role: reference
         links:
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007" }
       - title: Greek Prose Composition for Schools
@@ -322,6 +331,9 @@ rows:
         author: M. A. North & A. E. Hillard
         date: "1902"
         publicDomain: true
+        role: selections
+        portion: "the first 40 exercises"
+        pace: long
         links:
           - { label: Archive.org, url: "https://archive.org/details/greekprosecompos0000nort" }
     curriculumOptions:
@@ -362,6 +374,9 @@ rows:
         author: Aesop (ed. C. Halm)
         date: "1889 ed."
         publicDomain: true
+        order: 1
+        role: selections
+        portion: "30+ fables"
         links:
           - { label: Archive.org, url: "https://archive.org/details/fabulaeaesopica00aesogoog" }
       - title: True History (Vera Historia)
@@ -371,6 +386,9 @@ rows:
         author: Lucian of Samosata
         date: "2nd c."
         publicDomain: true
+        order: 2
+        role: selections
+        portion: "Book I"
         links:
           - { label: "Dickinson College Commentaries (notes, vocab)", url: "https://dcc.dickinson.edu/lucian-true/book-1/1-1" }
     historicalPrecedent: >-
@@ -407,6 +425,9 @@ rows:
         author: Xenophon
         date: "c. 370 BC"
         publicDomain: true
+        role: selections
+        portion: "Books I–IV (at least I and IV in full)"
+        pace: long
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0201" }
           - { label: "Goodwin & White school edition, Books I–IV (Archive.org)", url: "https://archive.org/details/firstfourbooksof00xeno" }
@@ -442,6 +463,8 @@ rows:
         pages: 130
         author: St. Luke
         publicDomain: true
+        role: selections
+        portion: "Luke 1–2, 15 and the Passion narrative; Acts 1–2, 9, 17 and 26–28"
         links:
           - { label: "Perseus, Luke", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Luke:chapter=1" }
           - { label: "Perseus, Acts", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Acts:chapter=1" }
@@ -517,6 +540,8 @@ rows:
         pages: 400
         author: Homer
         publicDomain: true
+        role: selections
+        portion: "Books I and IX–XII"
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0135" }
           - { label: "Dickinson College Commentaries, Odyssey", url: "https://dcc.dickinson.edu/homer-odyssey/i-1-43" }
@@ -527,6 +552,8 @@ rows:
         pages: 618
         author: Homer
         publicDomain: true
+        role: selections
+        portion: "Books I, VI and XXII–XXIV"
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133" }
           - { label: "Dickinson College Commentaries, Iliad 6", url: "https://dcc.dickinson.edu/homer-iliad/homer-iliad-vi-1-36" }
@@ -583,6 +610,9 @@ rows:
         author: Herodotus
         date: "c. 430 BC"
         publicDomain: true
+        role: selections
+        portion: "Book I (I.1–94, the Croesus logos) and the Persian War narratives (Thermopylae, VII.201–233; Salamis, Book VIII)"
+        pace: long
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0125" }
           - { label: "Steadman, Herodotus Book 1 (free PDF)", url: "https://geoffreysteadman.com/files-herodotus/" }
@@ -618,6 +648,8 @@ rows:
         reader: student
         author: Geoffrey Steadman (ed.)
         publicDomain: false
+        role: selections
+        portion: "LXX Genesis 1–3 and 6–9"
         links:
           - { label: "Steadman (free PDF)", url: "https://geoffreysteadman.com/genesis-1-11/" }
     curriculumOptions:
@@ -668,6 +700,7 @@ rows:
         pages: 122
         author: Euripides
         publicDomain: true
+        role: selections
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0113" }
       - title: Libation Bearers (Oresteia)
@@ -676,6 +709,7 @@ rows:
         pages: 60
         author: Aeschylus
         publicDomain: true
+        role: selections
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0007" }
     historicalPrecedent: >-
@@ -711,6 +745,9 @@ rows:
         author: Thucydides
         date: "c. 400 BC"
         publicDomain: true
+        role: selections
+        portion: "the Archaeology, the Funeral Oration (II.35–46), the Plague, the Mytilene debate, the stasis at Corcyra (III.82–83) and the Melian Dialogue"
+        pace: long
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0199" }
           - { label: "Steadman, Thucydides selections (free PDF)", url: "https://geoffreysteadman.com/thucydides/" }

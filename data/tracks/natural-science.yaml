@@ -123,6 +123,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 938
+        role: reference
         author: Anna Botsford Comstock
         date: "1911"
         publicDomain: true
@@ -405,10 +406,11 @@ rows:
       - Classify organisms using kingdom-to-species taxonomy and binomial names
       - Dissect a flower and label its parts and describe plant and animal cells
     coreTexts:
-      - title: "Species Plantarum (selections, Latin)"
+      - title: "Species Plantarum (Latin)"
         kind: primary
         reader: together
         pages: 1200
+        role: selections
         author: Carl Linnaeus
         date: "1753"
         publicDomain: true
@@ -457,6 +459,7 @@ rows:
         kind: primary
         reader: student
         pages: 496
+        role: selections
         author: Benjamin Franklin
         date: "1751"
         publicDomain: true
@@ -512,6 +515,7 @@ rows:
         kind: instructional
         reader: student
         pages: 1400
+        role: reference
         author: Henry Gray
         date: "1918 (20th ed.)"
         publicDomain: true
@@ -574,6 +578,7 @@ rows:
         kind: primary
         reader: student
         pages: 50
+        order: 2
         author: Galileo Galilei, trans. E. S. Carlos
         date: "1610 (trans. 1880)"
         publicDomain: true
@@ -583,6 +588,10 @@ rows:
         kind: primary
         reader: student
         pages: 40
+        order: 1
+        role: selections
+        portion: "Book I"
+        readPages: 40
         author: Nicolaus Copernicus
         date: "1543"
         publicDomain: true
@@ -663,6 +672,7 @@ rows:
         kind: primary
         reader: student
         pages: 424
+        pace: long
         author: George Boole
         date: "1854"
         publicDomain: true
@@ -694,6 +704,7 @@ rows:
         kind: primary
         reader: student
         pages: 344
+        pace: long
         author: Pierre Duhem
         date: "1906 (trans. 1954)"
         publicDomain: false
@@ -740,6 +751,7 @@ rows:
         kind: primary
         reader: student
         pages: 500
+        role: selections
         author: James Clerk Maxwell
         date: "1873"
         publicDomain: true
@@ -818,6 +830,9 @@ rows:
         kind: instructional
         reader: student
         pages: 660
+        role: selections
+        portion: "Chapters 1–4"
+        pace: long
         author: Harold Abelson and Gerald Jay Sussman
         date: "1996"
         publicDomain: false

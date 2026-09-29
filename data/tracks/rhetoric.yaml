@@ -71,6 +71,8 @@ rows:
       - title: McGuffey's Eclectic Readers (First–Sixth), esp. the Sixth Reader's rules of elocution
         kind: instructional
         reader: together
+        role: selections
+        portion: "graded poems and passages for recitation; the Sixth Reader's rules of elocution"
         author: William Holmes McGuffey
         date: "1836–1879"
         publicDomain: true
@@ -194,6 +196,7 @@ rows:
         kind: instructional
         reader: student
         pages: 254
+        role: selections
         author: Lindley Murray
         date: "1799 (this ed. 1841)"
         publicDomain: true
@@ -212,6 +215,7 @@ rows:
         kind: instructional
         reader: student
         pages: 464
+        role: selections
         author: William Holmes McGuffey (compiled with Alexander H. McGuffey)
         date: "1857/1879"
         publicDomain: true
@@ -288,6 +292,7 @@ rows:
         kind: primary
         reader: student
         pages: 369
+        pace: long
         author: Aristotle (trans. W. Rhys Roberts)
         publicDomain: true
         links:
@@ -306,6 +311,7 @@ rows:
         kind: instructional
         reader: student
         pages: 584
+        pace: long
         author: Edward P.J. Corbett & Robert J. Connors
         date: "1965; 4th ed. 1999"
         publicDomain: false
@@ -315,6 +321,8 @@ rows:
         kind: primary
         reader: student
         pages: 180
+        role: selections
+        portion: "To Demonicus, the Panegyricus and Against the Sophists whole; the Antidosis in selections"
         author: Isocrates (tr. Norlin)
         date: "c. 390–353 BC"
         publicDomain: true
@@ -380,6 +388,8 @@ rows:
         kind: primary
         reader: student
         pages: 280
+        role: selections
+        portion: "Olynthiacs and Philippics"
         author: Demosthenes (trans. A.W. Pickard-Cambridge)
         publicDomain: true
         links:
@@ -387,6 +397,8 @@ rows:
       - title: Selections from the Speeches and Writings of Edmund Burke
         kind: primary
         reader: student
+        role: selections
+        portion: "Speech on Conciliation with America"
         author: Edmund Burke
         publicDomain: true
         links:
@@ -404,6 +416,8 @@ rows:
         kind: primary
         reader: student
         pages: 707
+        role: selections
+        portion: "Reply to Hayne"
         author: Daniel Webster
         publicDomain: true
         links:
@@ -412,6 +426,8 @@ rows:
         kind: primary
         reader: student
         pages: 290
+        role: selections
+        portion: "Gettysburg Address and Second Inaugural"
         author: Abraham Lincoln
         publicDomain: true
         links:
@@ -489,6 +505,7 @@ rows:
         kind: primary
         reader: student
         pages: 699
+        pace: long
         author: Abraham Lincoln & Stephen A. Douglas
         publicDomain: true
         links:
@@ -574,6 +591,8 @@ rows:
         kind: primary
         reader: student
         pages: 1000
+        role: selections
+        portion: "Books 1, 2, 10 and 12"
         author: Quintilian (trans. H.E. Butler)
         date: "c. AD 95"
         publicDomain: true

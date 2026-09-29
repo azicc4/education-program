@@ -46,6 +46,8 @@ rows:
         kind: secondary
         reader: together
         pages: 320
+        role: selections
+        portion: "at least four tales, acted as scenes"
         author: Charles & Mary Lamb
         date: "1807"
         publicDomain: true
@@ -64,6 +66,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 233
+        role: reference
         author: Viola Spolin
         date: "1986"
         publicDomain: false
@@ -137,6 +140,7 @@ rows:
       - title: The Folger Guide to Teaching A Midsummer Night's Dream
         kind: instructional
         reader: teacher
+        role: reference
         author: Peggy O'Brien (general editor), Folger Shakespeare Library
         date: "2025"
         publicDomain: false
@@ -146,6 +150,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 288
+        role: reference
         author: Peggy O'Brien (ed.), Folger Shakespeare Library
         date: "1993; 2006 ed."
         publicDomain: false
@@ -267,6 +272,7 @@ rows:
       - title: "Elements of Elocution (with a copious selection of passages from Shakespeare)"
         kind: instructional
         reader: teacher
+        role: selections
         author: John Walker
         date: "1781 (Boston ed. 1810)"
         publicDomain: true
@@ -336,6 +342,7 @@ rows:
       - title: The International Phonetic Alphabet (full chart)
         kind: instructional
         reader: student
+        role: reference
         author: International Phonetic Association
         date: "rev. 2020"
         publicDomain: false
@@ -344,6 +351,7 @@ rows:
       - title: "Seeing Speech: interactive IPA charts with ultrasound and MRI video"
         kind: instructional
         reader: student
+        role: reference
         author: University of Glasgow and partners
         publicDomain: false
         links:
@@ -352,6 +360,7 @@ rows:
         kind: instructional
         reader: student
         pages: 406
+        pace: long
         author: Edith Skinner (rev. Timothy Monich & Lilene Mansell)
         date: "1942; rev. 1990"
         publicDomain: false
@@ -370,6 +379,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 378
+        role: reference
         author: Daniel Jones
         date: "1918"
         publicDomain: true
@@ -554,6 +564,7 @@ rows:
         kind: instructional
         reader: student
         pages: 426
+        role: selections
         author: Paul Meier
         publicDomain: false
         links:
@@ -562,6 +573,8 @@ rows:
         kind: primary
         reader: teacher
         pages: 310
+        role: selections
+        portion: "on an American standard"
         author: Noah Webster
         date: "1789"
         publicDomain: true
@@ -635,6 +648,7 @@ rows:
         kind: instructional
         reader: student
         pages: 426
+        role: selections
         author: Paul Meier
         publicDomain: false
         links:
@@ -642,6 +656,7 @@ rows:
       - title: International Dialects of English Archive (recordings)
         kind: instructional
         reader: student
+        role: reference
         author: Paul Meier (founder) and contributors
         date: "1998–"
         publicDomain: false
@@ -650,6 +665,7 @@ rows:
       - title: "Dynamic Dialects: Accent Chart"
         kind: instructional
         reader: student
+        role: reference
         author: University of Glasgow
         publicDomain: false
         links:
@@ -733,6 +749,8 @@ rows:
       - title: A General Dictionary of the English Language (with a Rhetorical Grammar)
         kind: primary
         reader: student
+        role: selections
+        portion: "the preface"
         author: Thomas Sheridan
         date: "1780"
         publicDomain: true
@@ -742,6 +760,8 @@ rows:
         kind: primary
         reader: student
         pages: 709
+        role: selections
+        portion: "the preface"
         author: John Walker
         date: "1791"
         publicDomain: true
@@ -751,6 +771,8 @@ rows:
         kind: primary
         reader: student
         pages: 310
+        role: selections
+        portion: "the argument for an American standard"
         author: Noah Webster
         date: "1789"
         publicDomain: true
@@ -826,6 +848,7 @@ rows:
       - title: The Oxford Dictionary of Original Shakespearean Pronunciation
         kind: instructional
         reader: student
+        role: reference
         author: David Crystal
         date: "2016"
         publicDomain: false
@@ -835,6 +858,7 @@ rows:
       - title: "Original Pronunciation (website: productions, recordings, resources)"
         kind: instructional
         reader: student
+        role: reference
         author: David Crystal & Ben Crystal
         publicDomain: false
         links:
@@ -843,6 +867,7 @@ rows:
         kind: primary
         reader: student
         pages: 180
+        role: selections
         author: William Shakespeare
         date: "1609"
         publicDomain: true
@@ -902,6 +927,7 @@ rows:
       - title: The Folger Method (Cutting a Text; Promptbooks; Group Scenes)
         kind: instructional
         reader: teacher
+        role: reference
         author: Folger Shakespeare Library
         publicDomain: false
         links:
@@ -919,6 +945,8 @@ rows:
         kind: instructional
         reader: student
         pages: 389
+        role: review
+        reviewOf: drama-05
         author: Patrick Tucker
         date: "2nd ed. 2016"
         publicDomain: false
@@ -1001,6 +1029,8 @@ rows:
         kind: instructional
         reader: student
         pages: 246
+        role: review
+        reviewOf: drama-10
         author: Katie Mitchell
         date: "2009"
         publicDomain: false
@@ -1010,6 +1040,7 @@ rows:
         kind: primary
         reader: student
         pages: 395
+        role: selections
         author: Karol Wojtyła (Pope John Paul II), trans. Bolesław Taborski
         date: "1987"
         publicDomain: false

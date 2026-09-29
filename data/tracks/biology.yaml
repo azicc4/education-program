@@ -40,6 +40,7 @@ rows:
         kind: primary
         reader: student
         pages: 502
+        pace: long
         author: Charles Darwin
         date: "1859"
         publicDomain: true
@@ -146,6 +147,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1488
+        role: choice
+        group: A
+        pace: long
         author: Lisa A. Urry, Michael L. Cain, Steven A. Wasserman, Peter V. Minorsky & Rebecca B. Orr
         date: "2020"
         publicDomain: false
@@ -155,6 +159,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1500
+        role: choice
+        group: A
+        pace: long
         author: OpenStax
         date: "2018"
         publicDomain: false
@@ -280,10 +287,11 @@ rows:
         publicDomain: false
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20081208_dignitas-personae_en.html" }
-      - title: Evangelium Vitae (selections)
+      - title: Evangelium Vitae
         kind: primary
         reader: student
         pages: 190
+        role: selections
         author: Pope John Paul II
         date: "1995"
         publicDomain: false
@@ -293,6 +301,7 @@ rows:
         kind: instructional
         reader: student
         pages: 336
+        pace: long
         author: Nicanor Pier Giorgio Austriaco, OP
         date: "2021"
         publicDomain: false
@@ -348,6 +357,7 @@ rows:
         kind: instructional
         reader: student
         pages: 1488
+        pace: long
         author: Urry, Cain, Wasserman, Minorsky & Orr
         date: "2020"
         publicDomain: false

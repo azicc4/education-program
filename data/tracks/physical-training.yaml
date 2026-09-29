@@ -138,6 +138,7 @@ rows:
         kind: instructional
         reader: student
         pages: 450
+        pace: long
         author: Boy Scouts of America
         date: "1911"
         publicDomain: true
@@ -417,6 +418,9 @@ rows:
         kind: primary
         reader: student
         pages: 50
+        role: selections
+        portion: "Book VII, on wrestling and gymnastic training"
+        readPages: 50
         author: Plato (trans. Benjamin Jowett)
         date: "c. 348 BC"
         publicDomain: true

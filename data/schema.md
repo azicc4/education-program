@@ -68,7 +68,7 @@ rows:
         role: core           # optional: core (default, read it) | choice (read ONE text of its group) | selections (read only the assigned part)
                              #           | reference (consulted, not read through) | review (already read in an earlier unit)
         group: A             # with role: choice — the alternatives that share a group letter; read one of them
-        portion: "Books I–II"  # optional, with role: selections — what to read
+        portion: "Books I–II"  # optional, with role: selections (or choice) — what to read
         readPages: 120       # optional, with role: selections — pages actually assigned
         pace: long           # optional: long = read slowly across the whole unit (textbooks, long treatises), not in one stretch
         reviewOf: spanish-07 # optional, with role: review — the unit where it was first read

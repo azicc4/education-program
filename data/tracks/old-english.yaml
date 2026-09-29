@@ -105,6 +105,7 @@ rows:
         author: Ælfric of Eynsham
         date: "c. 1000"
         publicDomain: true
+        order: 1
         links:
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/%C3%86lfric%27s_Colloquy" }
       - title: The Story of Cædmon (Old English Bede)
@@ -114,6 +115,7 @@ rows:
         author: Bede (Old English translation)
         date: "9th c."
         publicDomain: true
+        order: 2
         links:
           - { label: "Old English Aerobics Anthology (glossed)", url: "https://oldenglishaerobics.net/caedmon.php" }
       - title: "Anglo-Saxon Chronicle: Cynewulf and Cyneheard; William the Conqueror"
@@ -123,6 +125,7 @@ rows:
         author: Anonymous
         date: "9th–12th c."
         publicDomain: true
+        order: 3
         links:
           - { label: "Old English Aerobics, Cynewulf and Cyneheard", url: "https://oldenglishaerobics.net/cynewulf.php" }
           - { label: "Old English Aerobics, William the Conqueror", url: "https://oldenglishaerobics.net/william.html" }
@@ -134,6 +137,7 @@ rows:
         author: Henry Sweet
         date: "1894 ed."
         publicDomain: true
+        role: selections
         links:
           - { label: Archive.org, url: "https://archive.org/details/anglosaxonreader00swee" }
 
@@ -185,6 +189,8 @@ rows:
         author: Anonymous
         date: "after 991"
         publicDomain: true
+        role: selections
+        portion: "selections, including lines 309–319"
         links:
           - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/maldon.php" }
       - title: The Seafarer
@@ -193,6 +199,7 @@ rows:
         pages: 4
         author: Anonymous (Exeter Book)
         publicDomain: true
+        role: selections
     notes: >-
       Tolkien wrote a verse-drama sequel to Maldon, The Homecoming of Beorhtnoth Beorhthelm's Son
       (1953). It makes a good companion to the Maldon reading
@@ -229,6 +236,8 @@ rows:
         pages: 256
         author: Anonymous (ed. J. A. Harrison & R. Sharp)
         publicDomain: true
+        role: selections
+        portion: "lines 1–52, 702–836, 1345–1382, 2711–2820 and 3137–3182 (about 400 lines)"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9701" }
           - { label: "Old English Aerobics Beowulf (glossed, in progress)", url: "https://oldenglishaerobics.net/beowulf.html" }
@@ -239,6 +248,8 @@ rows:
         author: J. R. R. Tolkien
         date: "1936 lecture; essays 1983"
         publicDomain: false
+        role: selections
+        portion: "the title lecture (1936)"
         links:
           - { label: "Tolkien Estate (about the book)", url: "https://www.tolkienestate.com/scholarship/tom-shippey-the-monsters-and-the-critics-and-other-essays/" }
       - title: "Beowulf: A Translation and Commentary, together with Sellic Spell"
@@ -248,6 +259,8 @@ rows:
         author: J. R. R. Tolkien (ed. Christopher Tolkien)
         date: "2014"
         publicDomain: false
+        role: selections
+        portion: "the translation of the whole poem"
         links:
           - { label: "Tolkien Estate (about the book)", url: "https://www.tolkienestate.com/scholarship/beowulf-a-translation-and-commentary-together-with-sellic-spell/" }
     historicalPrecedent: >-
@@ -285,6 +298,8 @@ rows:
         author: Geoffrey Chaucer
         date: "c. 1387–1400"
         publicDomain: true
+        role: selections
+        portion: "General Prologue and the Nun's Priest's Tale"
         links:
           - { label: "Project Gutenberg (Chaucer's Works, vol. 4, ed. Skeat)", url: "https://www.gutenberg.org/ebooks/22120" }
     notes: >-

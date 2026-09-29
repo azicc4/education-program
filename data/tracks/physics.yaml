@@ -41,6 +41,8 @@ rows:
         kind: primary
         reader: student
         pages: 288
+        role: selections
+        portion: "Third Day, on naturally accelerated motion"
         author: Galileo Galilei, trans. Crew & de Salvio
         date: "1638 (trans. 1914)"
         publicDomain: true
@@ -51,6 +53,8 @@ rows:
         kind: primary
         reader: student
         pages: 382
+        role: selections
+        portion: "Book I"
         author: Isaac Newton
         date: "1704"
         publicDomain: true
@@ -230,6 +234,8 @@ rows:
         kind: primary
         reader: together
         pages: 680
+        role: choice
+        group: A
         author: Isaac Newton, trans. Andrew Motte
         date: "1687 (trans. 1729)"
         publicDomain: true
@@ -238,6 +244,8 @@ rows:
       - title: Selections from Newton's Principia
         kind: primary
         reader: student
+        role: choice
+        group: A
         author: Isaac Newton, ed. Green Lion Press
         date: "1687 (student edition)"
         publicDomain: false
@@ -311,6 +319,9 @@ rows:
         kind: primary
         reader: student
         pages: 496
+        order: 1
+        role: selections
+        portion: "the account of the Leyden jar and the lightning experiment"
         author: Benjamin Franklin
         date: "1751"
         publicDomain: true
@@ -320,6 +331,9 @@ rows:
         kind: primary
         reader: student
         pages: 580
+        order: 2
+        role: selections
+        portion: "First Series (the discovery of induction, 1831)"
         author: Michael Faraday
         date: "1839 (papers of 1831–1838)"
         publicDomain: true
@@ -329,6 +343,8 @@ rows:
         kind: primary
         reader: student
         pages: 510
+        order: 3
+        role: selections
         author: James Clerk Maxwell
         date: "1873"
         publicDomain: true

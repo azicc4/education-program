@@ -129,6 +129,7 @@ rows:
         author: Wilhelm Gesenius, ed. E. Kautzsch, trans. A. E. Cowley
         date: "1910"
         publicDomain: true
+        role: reference
         links:
           - { label: Archive.org, url: "https://archive.org/details/geseniushebrewgr00geseuoft" }
     curriculumOptions:
@@ -169,6 +170,8 @@ rows:
         pages: 90
         author: Moses (traditional attribution)
         publicDomain: true
+        role: selections
+        portion: "Genesis 1–11 (at least chs. 1–4 and 6–9)"
         links:
           - { label: "Sefaria (Hebrew/English, free)", url: "https://www.sefaria.org/Genesis.1" }
           - { label: "Westminster Leningrad Codex (tanach.us)", url: "https://www.tanach.us/" }
@@ -177,6 +180,7 @@ rows:
         reader: student
         author: Geoffrey Steadman
         publicDomain: false
+        role: reference
         links:
           - { label: "Steadman (free PDF)", url: "https://geoffreysteadman.com/genesis-1-11/" }
     curriculumOptions:
@@ -255,6 +259,8 @@ rows:
         reader: student
         pages: 180
         publicDomain: true
+        role: selections
+        portion: "about 25 Psalms: 1, 2, 8, 19, 22, 23, 51, 90, 110, 119 (in part), 139 and the Hallel (113–118)"
         links:
           - { label: Sefaria, url: "https://www.sefaria.org/Psalms.1" }
     notes: >-
@@ -286,6 +292,8 @@ rows:
         reader: student
         pages: 120
         publicDomain: true
+        role: selections
+        portion: "Isaiah 1, 6, 7:10–17, 9:1–7, 11, 40, 52:13–53:12 and 61"
         links:
           - { label: Sefaria, url: "https://www.sefaria.org/Isaiah.1" }
     notes: >-
@@ -319,12 +327,14 @@ rows:
         reader: student
         author: Sefaria
         publicDomain: false
+        role: reference
         links:
           - { label: Sefaria, url: "https://www.sefaria.org/texts" }
       - title: Westminster Leningrad Codex (UXLC)
         kind: primary
         reader: student
         publicDomain: true
+        role: reference
         links:
           - { label: tanach.us, url: "https://www.tanach.us/" }
       - title: Divino Afflante Spiritu
@@ -342,6 +352,7 @@ rows:
         author: Holy See
         date: "1979"
         publicDomain: false
+        role: reference
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html" }
     notes: >-
