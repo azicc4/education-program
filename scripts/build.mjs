@@ -104,7 +104,7 @@ function validateTrack(file, doc) {
         if (!t.group) err(rel, `${tw}: role choice needs a group`);
         else groups[t.group] = (groups[t.group] || 0) + 1;
       } else if (t.group !== undefined) err(rel, `${tw}: group is only for role choice`);
-      if (t.portion !== undefined && t.role !== 'selections') warn(rel, `${tw}: portion is meant for role selections`);
+      if (t.portion !== undefined && t.role !== 'selections' && t.role !== 'choice') warn(rel, `${tw}: portion is meant for role selections or choice`);
       if (t.readPages !== undefined) {
         if (!(typeof t.readPages === 'number' && t.readPages > 0)) err(rel, `${tw}: readPages must be a positive number`);
         else if (t.pages && t.readPages > t.pages) warn(rel, `${tw}: readPages ${t.readPages} > pages ${t.pages}`);

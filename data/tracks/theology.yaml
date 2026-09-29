@@ -115,6 +115,9 @@ rows:
         kind: secondary
         reader: together
         pages: 512
+        role: choice
+        group: A
+        pace: long
         author: Golden Books (editorial board)
         date: "1965"
         publicDomain: false
@@ -125,6 +128,9 @@ rows:
         kind: secondary
         reader: together
         pages: 232
+        role: choice
+        group: A
+        pace: long
         author: Rev. Lawrence G. Lovasik, S.V.D.
         publicDomain: false
         links:
@@ -235,6 +241,7 @@ rows:
         kind: instructional
         reader: together
         pages: 64
+        order: 1
         author: Confraternity of Christian Doctrine (rev. Baltimore Catechism)
         publicDomain: false
         links:
@@ -242,6 +249,7 @@ rows:
       - title: "A Catechism of Christian Doctrine, No. 1 (Baltimore Catechism)"
         kind: instructional
         reader: together
+        order: 2
         author: Third Plenary Council of Baltimore
         date: "1885 (1891 ed.)"
         publicDomain: true
@@ -295,6 +303,7 @@ rows:
         kind: primary
         reader: together
         pages: 1408
+        pace: long
         author: (Challoner revision)
         date: "1582–1610; rev. 1749–52"
         publicDomain: true
@@ -349,6 +358,7 @@ rows:
       - title: "A Catechism of Christian Doctrine, No. 2 (Baltimore Catechism)"
         kind: instructional
         reader: together
+        pace: long
         author: Third Plenary Council of Baltimore
         date: "1885"
         publicDomain: true
@@ -391,6 +401,8 @@ rows:
         kind: secondary
         reader: together
         pages: 458
+        role: selections
+        portion: the feast-day entries for major feasts
         author: Alban Butler
         date: "1756–1759"
         publicDomain: true
@@ -443,6 +455,8 @@ rows:
         kind: primary
         reader: student
         pages: 360
+        role: selections
+        portion: Part I (complete)
         author: John Bunyan
         date: "1678"
         publicDomain: true
@@ -491,6 +505,7 @@ rows:
       - title: "A Catechism of Christian Doctrine, No. 3 (Baltimore Catechism)"
         kind: instructional
         reader: student
+        pace: long
         author: Third Plenary Council of Baltimore
         date: "1885 (1891 ed.)"
         publicDomain: true
@@ -499,6 +514,7 @@ rows:
       - title: An Explanation of the Baltimore Catechism (Baltimore No. 4, teacher's reference)
         kind: instructional
         reader: teacher
+        role: reference
         author: Rev. Thomas L. Kinkead
         date: "1891"
         publicDomain: true
@@ -547,6 +563,9 @@ rows:
         kind: primary
         reader: student
         pages: 620
+        role: selections
+        portion: the four Gospels and Acts, with the study notes
+        pace: long
         author: Scott Hahn & Curtis Mitch
         publicDomain: false
         links:
@@ -591,6 +610,7 @@ rows:
       - title: A Course in Religion for Catholic High Schools and Academies (Parts I–IV)
         kind: instructional
         reader: student
+        pace: long
         author: Rev. John Laux, M.A.
         date: "from 1928 (TAN reprint)"
         publicDomain: false
@@ -647,6 +667,7 @@ rows:
         kind: secondary
         reader: student
         pages: 493
+        pace: long
         author: Peter Kreeft & Ronald K. Tacelli, S.J.
         date: "2009"
         publicDomain: false
@@ -766,6 +787,9 @@ rows:
       - title: "Ignatius Catholic Study Bible (RSV-2CE)"
         kind: primary
         reader: student
+        role: choice
+        group: A
+        pace: long
         author: Scott Hahn & Curtis Mitch (eds.)
         publicDomain: false
         links:
@@ -774,6 +798,9 @@ rows:
         kind: primary
         reader: student
         pages: 1408
+        role: choice
+        group: A
+        pace: long
         author: (Challoner revision)
         publicDomain: true
         links:
@@ -833,6 +860,8 @@ rows:
         kind: primary
         reader: student
         pages: 350
+        role: selections
+        portion: Clement, Ignatius of Antioch, Polycarp and the Didache
         author: Clement, Ignatius, Polycarp, Hermas et al.
         publicDomain: true
         links:
@@ -842,6 +871,8 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        role: selections
+        portion: Books I–IX in full; X–XIII in selection
         author: Augustine of Hippo (trans. E.B. Pusey)
         date: "c. 397–400"
         publicDomain: true
@@ -903,6 +934,9 @@ rows:
         kind: primary
         reader: student
         pages: 266
+        role: selections
+        portion: Books I–II
+        pace: long
         author: Thomas à Kempis
         date: "c. 1418–1427"
         publicDomain: true
@@ -912,6 +946,7 @@ rows:
         kind: primary
         reader: student
         pages: 296
+        pace: long
         author: St. Francis de Sales
         date: "1609"
         publicDomain: true
@@ -1070,10 +1105,12 @@ rows:
         links:
           - { label: Orthodox Presbyterian Church, url: "https://www.opc.org/sc.html" }
           - { label: CCEL, url: "https://ccel.org/ccel/anonymous/westminster1" }
-      - title: Institutes of the Christian Religion (selections)
+      - title: Institutes of the Christian Religion
         kind: primary
         reader: student
         pages: 1500
+        role: selections
+        portion: Book I (the knowledge of God) and Book III (faith and justification)
         author: John Calvin
         date: "1536; final ed. 1559"
         publicDomain: true
@@ -1084,6 +1121,8 @@ rows:
         kind: primary
         reader: student
         pages: 500
+        role: selections
+        portion: several of the standard sermons
         author: John Wesley
         publicDomain: true
         links:
@@ -1121,6 +1160,8 @@ rows:
         kind: primary
         reader: student
         pages: 460
+        role: choice
+        group: A
         author: William Chillingworth
         date: "1638"
         publicDomain: true
@@ -1130,6 +1171,8 @@ rows:
         kind: primary
         reader: student
         pages: 250
+        role: choice
+        group: A
         author: Johannes Wollebius; William Ames
         date: "1626–1627"
         publicDomain: true
@@ -1252,6 +1295,7 @@ rows:
         kind: primary
         reader: student
         pages: 464
+        role: reference
         author: Pontifical Council for Justice and Peace
         date: "2004"
         publicDomain: false
@@ -1288,6 +1332,7 @@ rows:
         kind: primary
         reader: student
         pages: 856
+        pace: long
         author: Catholic Church
         date: "1992; 2nd ed. 1997"
         publicDomain: false
@@ -1298,6 +1343,8 @@ rows:
         kind: primary
         reader: student
         pages: 600
+        role: selections
+        portion: the Creed and the sacraments
         author: Council of Trent (trans. McHugh & Callan)
         date: "1566; trans. 1923"
         publicDomain: false
@@ -1347,6 +1394,9 @@ rows:
         kind: primary
         reader: student
         pages: 3000
+        role: selections
+        portion: "I q. 1; I qq. 2–13; I qq. 27–43; I-II qq. 1–5; I-II qq. 90–97; III (selections)"
+        pace: long
         author: Thomas Aquinas (trans. Fathers of the English Dominican Province)
         date: "1265–1274"
         publicDomain: true
@@ -1360,6 +1410,7 @@ rows:
         kind: secondary
         reader: student
         pages: 550
+        role: reference
         author: Peter Kreeft (ed.)
         date: "1990"
         publicDomain: false
@@ -1416,6 +1467,8 @@ rows:
         kind: primary
         reader: student
         pages: 680
+        role: selections
+        portion: Books I–III and VIII–X
         author: Eusebius of Caesarea
         date: "c. 324"
         publicDomain: true
@@ -1434,6 +1487,7 @@ rows:
         kind: secondary
         reader: student
         pages: 605
+        pace: long
         author: Warren H. Carroll
         publicDomain: false
         links:
@@ -1487,6 +1541,9 @@ rows:
         kind: primary
         reader: student
         pages: 388
+        role: selections
+        portion: Book I
+        pace: long
         author: St. John of the Cross
         date: "c. 1578–1585"
         publicDomain: true
@@ -1496,6 +1553,7 @@ rows:
         kind: primary
         reader: student
         pages: 222
+        pace: long
         author: St. John of the Cross
         date: "c. 1578–1585"
         publicDomain: true

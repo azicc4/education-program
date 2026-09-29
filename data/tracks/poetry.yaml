@@ -160,6 +160,7 @@ rows:
         kind: secondary
         reader: teacher
         pages: 493
+        role: selections
         author: Laura Berquist (ed.)
         date: "1999"
         publicDomain: false
@@ -207,6 +208,7 @@ rows:
         kind: secondary
         reader: student
         pages: 354
+        role: selections
         author: Andrew Lang (ed.)
         date: "1891"
         publicDomain: true
@@ -216,6 +218,7 @@ rows:
         kind: secondary
         reader: student
         pages: 428
+        role: selections
         author: Francis Turner Palgrave (ed.)
         date: "1861"
         publicDomain: true
@@ -225,6 +228,7 @@ rows:
         kind: secondary
         reader: student
         pages: 598
+        role: selections
         author: Helen Ferris (ed.)
         date: "1957"
         publicDomain: false
@@ -234,6 +238,7 @@ rows:
         kind: secondary
         reader: teacher
         pages: 493
+        role: selections
         author: Laura Berquist (ed.)
         date: "1999"
         publicDomain: false
@@ -295,6 +300,7 @@ rows:
         kind: primary
         reader: teacher
         pages: 672
+        role: selections
         author: Francis James Child (ed.)
         date: "1882"
         publicDomain: true
@@ -304,6 +310,7 @@ rows:
         kind: secondary
         reader: student
         pages: 871
+        role: selections
         author: Arthur Quiller-Couch (ed.)
         date: "1910"
         publicDomain: true
@@ -313,6 +320,7 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        role: selections
         author: Thomas Percy (ed.)
         date: "1765"
         publicDomain: true
@@ -367,6 +375,8 @@ rows:
         kind: primary
         reader: student
         pages: 124
+        role: selections
+        portion: "The Pied Piper of Hamelin"
         author: Robert Browning
         date: "1842"
         publicDomain: true
@@ -413,6 +423,7 @@ rows:
         kind: instructional
         reader: student
         pages: 300
+        role: selections
         author: Caleb Bingham (ed.)
         date: "1797"
         publicDomain: true
@@ -422,6 +433,7 @@ rows:
         kind: instructional
         reader: student
         pages: 464
+        role: selections
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
@@ -431,6 +443,8 @@ rows:
         kind: primary
         reader: student
         pages: 340
+        role: selections
+        portion: "If—"
         author: Rudyard Kipling
         date: "1910"
         publicDomain: true
@@ -440,6 +454,8 @@ rows:
         kind: primary
         reader: student
         pages: 145
+        role: review
+        reviewOf: poetry-04
         author: Thomas Babington Macaulay
         date: "1842"
         publicDomain: true
@@ -448,6 +464,8 @@ rows:
       - title: The Complete Works of William Shakespeare (speeches)
         kind: primary
         reader: student
+        role: selections
+        portion: "speeches for declamation"
         author: William Shakespeare
         publicDomain: true
         links:
@@ -510,6 +528,8 @@ rows:
         kind: primary
         reader: student
         pages: 100
+        role: choice
+        group: A
         date: "1611"
         publicDomain: true
         links:
@@ -518,6 +538,8 @@ rows:
         kind: primary
         reader: student
         pages: 100
+        role: choice
+        group: A
         date: "1582–1610; rev. Challoner 1750"
         publicDomain: true
         links:
@@ -526,6 +548,7 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        role: selections
         date: "1640"
         publicDomain: true
         links:
@@ -534,6 +557,7 @@ rows:
         kind: primary
         reader: student
         pages: 312
+        role: selections
         author: Isaac Watts
         date: "1719"
         publicDomain: true
@@ -552,6 +576,7 @@ rows:
         kind: primary
         reader: student
         pages: 348
+        role: selections
         author: John Newton & William Cowper
         date: "1779"
         publicDomain: true
@@ -561,6 +586,7 @@ rows:
         kind: primary
         reader: student
         pages: 493
+        role: selections
         author: John & Charles Wesley
         date: "1779"
         publicDomain: true
@@ -569,6 +595,7 @@ rows:
       - title: Lyra Catholica (breviary and missal hymns)
         kind: primary
         reader: student
+        role: selections
         author: Edward Caswall (trans.)
         date: "1849"
         publicDomain: true
@@ -578,6 +605,7 @@ rows:
         kind: primary
         reader: student
         pages: 316
+        role: selections
         author: John Keble
         date: "1827"
         publicDomain: true
@@ -638,6 +666,7 @@ rows:
         kind: instructional
         reader: student
         pages: 371
+        pace: long
         author: Stephen Fry
         date: "2005"
         publicDomain: false
@@ -665,6 +694,7 @@ rows:
         kind: instructional
         reader: student
         pages: 459
+        role: reference
         author: Raymond Macdonald Alden
         date: "1903"
         publicDomain: true
@@ -674,6 +704,7 @@ rows:
         kind: secondary
         reader: teacher
         pages: 420
+        role: reference
         author: George Saintsbury
         date: "1906"
         publicDomain: true
@@ -721,6 +752,7 @@ rows:
         kind: secondary
         reader: student
         pages: 1083
+        role: selections
         author: Arthur Quiller-Couch (ed.)
         date: "1900"
         publicDomain: true
@@ -730,6 +762,7 @@ rows:
         kind: primary
         reader: student
         pages: 180
+        role: selections
         author: William Shakespeare
         date: "1609"
         publicDomain: true
@@ -739,6 +772,8 @@ rows:
         kind: instructional
         reader: student
         pages: 102
+        role: review
+        reviewOf: poetry-07
         author: John Hollander
         date: "4th ed. 2014"
         publicDomain: false
@@ -748,6 +783,8 @@ rows:
         kind: instructional
         reader: student
         pages: 371
+        role: review
+        reviewOf: poetry-07
         author: Stephen Fry
         date: "2005"
         publicDomain: false
@@ -757,6 +794,7 @@ rows:
         kind: secondary
         reader: student
         pages: 428
+        role: selections
         author: Francis Turner Palgrave (ed.)
         date: "1861"
         publicDomain: true
@@ -810,6 +848,9 @@ rows:
         kind: primary
         reader: student
         pages: 32
+        role: selections
+        portion: "General Prologue"
+        readPages: 32
         author: Geoffrey Chaucer
         date: "c. 1387"
         publicDomain: true
@@ -828,6 +869,7 @@ rows:
         kind: primary
         reader: student
         pages: 192
+        role: selections
         author: Sir Philip Sidney
         date: "1595"
         publicDomain: true
@@ -837,6 +879,8 @@ rows:
         kind: primary
         reader: student
         pages: 470
+        role: selections
+        portion: "Songs and Sonnets; Holy Sonnets"
         author: John Donne
         date: "1633"
         publicDomain: true
@@ -855,6 +899,7 @@ rows:
         kind: primary
         reader: student
         pages: 235
+        role: selections
         author: St. Robert Southwell, S.J.
         date: "1595; ed. 1856"
         publicDomain: true
@@ -864,6 +909,7 @@ rows:
         kind: primary
         reader: student
         pages: 207
+        role: selections
         author: Andrew Marvell
         date: "1681; ed. 1898"
         publicDomain: true
@@ -873,6 +919,8 @@ rows:
         kind: primary
         reader: student
         pages: 559
+        role: selections
+        portion: "the shorter poems: the Nativity Ode, Lycidas, the sonnets"
         author: John Milton
         date: "1645–1673"
         publicDomain: true
@@ -1023,6 +1071,8 @@ rows:
         kind: primary
         reader: student
         pages: 150
+        role: selections
+        portion: "Elegy Written in a Country Churchyard"
         author: Thomas Gray
         date: "1751"
         publicDomain: true
@@ -1041,6 +1091,7 @@ rows:
         kind: primary
         reader: student
         pages: 203
+        role: selections
         author: Samuel Taylor Coleridge
         date: "1796–1834"
         publicDomain: true
@@ -1050,6 +1101,8 @@ rows:
         kind: primary
         reader: student
         pages: 200
+        role: selections
+        portion: "the Odes"
         author: John Keats
         date: "1820"
         publicDomain: true
@@ -1068,6 +1121,8 @@ rows:
         kind: primary
         reader: student
         pages: 334
+        role: selections
+        portion: "the dramatic monologues"
         author: Robert Browning
         date: "1855"
         publicDomain: true
@@ -1077,6 +1132,7 @@ rows:
         kind: primary
         reader: student
         pages: 244
+        role: selections
         author: Christina Rossetti
         date: "1862–66"
         publicDomain: true
@@ -1104,6 +1160,8 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        role: selections
+        portion: "Tam o' Shanter, To a Mouse, The Cotter's Saturday Night, A Man's a Man, and a handful of songs"
         author: Robert Burns
         date: "1786–1796"
         publicDomain: true
@@ -1113,6 +1171,8 @@ rows:
         kind: primary
         reader: student
         pages: 200
+        role: selections
+        portion: "Cantos III–IV at least"
         author: George Gordon, Lord Byron
         date: "1812–1818"
         publicDomain: true
@@ -1195,6 +1255,7 @@ rows:
         kind: primary
         reader: student
         pages: 474
+        role: selections
         author: W. B. Yeats
         date: "1895–1912"
         publicDomain: true
@@ -1213,6 +1274,8 @@ rows:
         kind: primary
         reader: student
         pages: 160
+        role: selections
+        portion: "Lepanto and the ballads"
         author: G. K. Chesterton
         date: "1915"
         publicDomain: true
@@ -1279,6 +1342,8 @@ rows:
         kind: instructional
         reader: student
         pages: 371
+        role: review
+        reviewOf: poetry-07
         author: Stephen Fry
         date: "2005"
         publicDomain: false
@@ -1288,6 +1353,8 @@ rows:
         kind: instructional
         reader: student
         pages: 188
+        role: review
+        reviewOf: poetry-07
         author: Paul Fussell
         date: "rev. 1979"
         publicDomain: false
@@ -1297,6 +1364,8 @@ rows:
         kind: primary
         reader: student
         pages: 25
+        role: review
+        reviewOf: poetry-09
         author: John Milton
         publicDomain: true
         links:
@@ -1305,6 +1374,8 @@ rows:
         kind: primary
         reader: student
         pages: 200
+        role: review
+        reviewOf: poetry-11
         author: John Keats
         date: "1820"
         publicDomain: true
@@ -1314,6 +1385,7 @@ rows:
         kind: secondary
         reader: student
         pages: 1083
+        role: selections
         author: Arthur Quiller-Couch (ed.)
         date: "1900"
         publicDomain: true
@@ -1408,6 +1480,8 @@ rows:
         kind: primary
         reader: student
         pages: 208
+        role: selections
+        portion: "Ars Poetica"
         author: Horace
         date: "c. 19 BC"
         publicDomain: true
@@ -1426,6 +1500,8 @@ rows:
         kind: primary
         reader: student
         pages: 192
+        role: selections
+        portion: "A Defence of Poesie"
         author: Sir Philip Sidney
         date: "1595"
         publicDomain: true
@@ -1444,6 +1520,9 @@ rows:
         kind: primary
         reader: student
         pages: 30
+        role: selections
+        portion: "Preface"
+        readPages: 30
         author: William Wordsworth
         date: "1800"
         publicDomain: true
@@ -1453,6 +1532,8 @@ rows:
         kind: primary
         reader: student
         pages: 56
+        role: selections
+        portion: "A Defence of Poetry"
         author: Percy Bysshe Shelley
         date: "1821"
         publicDomain: true
@@ -1462,6 +1543,8 @@ rows:
         kind: primary
         reader: student
         pages: 170
+        role: selections
+        portion: "Tradition and the Individual Talent"
         author: T. S. Eliot
         date: "1920"
         publicDomain: true

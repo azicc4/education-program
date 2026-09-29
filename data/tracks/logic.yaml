@@ -111,6 +111,7 @@ rows:
         pages: 110
         author: Martin Cothran
         publicDomain: false
+        pace: long
         links:
           - { label: Memoria Press, url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/traditional-logic-i/" }
     curriculumOptions:
@@ -167,6 +168,7 @@ rows:
         pages: 404
         author: Peter Kreeft
         publicDomain: false
+        pace: long
         links:
           - { label: Amazon, url: "https://www.amazon.com/Socratic-Logic-Questions-Aristotelian-Principles/dp/1587318083" }
     curriculumOptions:
@@ -212,6 +214,7 @@ rows:
         author: Sister Miriam Joseph, C.S.C.
         date: "1940s; Paul Dry Books ed. 2002"
         publicDomain: false
+        pace: long
         links:
           - { label: Paul Dry Books, url: "https://www.pauldrybooks.com/products/the-trivium" }
     curriculumOptions:
@@ -266,6 +269,7 @@ rows:
         author: W. Stanley Jevons
         date: "1870"
         publicDomain: true
+        role: selections
         links:
           - { label: Archive.org, url: "https://archive.org/details/elementarylesson00jevo" }
       - title: An Introduction to Logic
@@ -275,6 +279,7 @@ rows:
         author: H.W.B. Joseph
         date: "1906 (2nd ed. 1916)"
         publicDomain: true
+        role: selections
         links:
           - { label: "Archive.org (1916)", url: "https://archive.org/details/introductiontolo00jose" }
     historicalPrecedent: >-
@@ -312,6 +317,7 @@ rows:
         pages: 380
         author: P.D. Magnus, Tim Button, et al.
         publicDomain: false
+        pace: long
         links:
           - { label: "Open Logic Project (free, CC BY)", url: "https://forallx.openlogicproject.org/" }
     curriculumOptions:
@@ -362,6 +368,7 @@ rows:
         pages: 42
         author: Aristotle
         publicDomain: true
+        order: 1
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2412" }
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/categories.html" }
@@ -371,6 +378,7 @@ rows:
         pages: 48
         author: Aristotle
         publicDomain: true
+        order: 2
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/interpretation.html" }
       - title: Prior Analytics
@@ -379,6 +387,8 @@ rows:
         pages: 278
         author: Aristotle
         publicDomain: true
+        order: 3
+        role: selections
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/prior.html" }
       - title: Novum Organum
@@ -388,6 +398,7 @@ rows:
         author: Francis Bacon
         date: "1620"
         publicDomain: true
+        order: 4
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45988" }
       - title: "A System of Logic, Ratiocinative and Inductive"
@@ -397,6 +408,9 @@ rows:
         author: John Stuart Mill
         date: "1843"
         publicDomain: true
+        order: 5
+        role: selections
+        portion: "induction and the canons of experimental inquiry"
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27942" }
       - title: "On Sophistical Refutations (elective)"

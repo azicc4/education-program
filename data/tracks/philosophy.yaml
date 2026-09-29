@@ -41,6 +41,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 185
+        role: reference
         author: Thomas E. Wartenberg
         publicDomain: false
         links:
@@ -78,6 +79,7 @@ rows:
         kind: instructional
         reader: together
         pages: 211
+        pace: long
         author: David A. White
         date: "2001"
         publicDomain: false
@@ -124,6 +126,7 @@ rows:
         kind: primary
         reader: together
         pages: 20
+        order: 1
         author: Plato (trans. Jowett)
         publicDomain: true
         links:
@@ -132,6 +135,7 @@ rows:
         kind: primary
         reader: together
         pages: 140
+        order: 2
         author: Plato
         publicDomain: true
         links:
@@ -140,6 +144,7 @@ rows:
         kind: secondary
         reader: student
         pages: 149
+        order: 2
         author: Peter Kreeft
         date: "2002"
         publicDomain: false
@@ -243,6 +248,7 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        pace: long
         author: Plato (trans. Jowett)
         publicDomain: true
         links:
@@ -305,6 +311,8 @@ rows:
         kind: primary
         reader: student
         pages: 546
+        role: selections
+        portion: ten letters (on time, death, friendship and wealth)
         author: Seneca (trans. R.M. Gummere)
         publicDomain: true
         links:
@@ -313,6 +321,8 @@ rows:
         kind: primary
         reader: student
         pages: 250
+        role: selections
+        portion: Books I, II and V at least
         author: Cicero (trans. C. D. Yonge)
         date: "45 BC"
         publicDomain: true
@@ -354,6 +364,7 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        order: 1
         author: Aristotle
         publicDomain: true
         links:
@@ -363,6 +374,7 @@ rows:
         kind: primary
         reader: student
         pages: 229
+        order: 2
         author: Aristotle (trans. William Ellis)
         publicDomain: true
         links:
@@ -405,10 +417,12 @@ rows:
       - State Aquinas's distinction between truths of reason and truths of revelation (ST I q.1)
       - Outline the five ways (ST I q.2 a.3) and one objection and reply for each
     coreTexts:
-      - title: The City of God (selections, Books I, XI–XIV, XIX)
+      - title: The City of God
         kind: primary
         reader: student
         pages: 1100
+        role: selections
+        portion: Books I, XI–XIV, XIX
         author: Augustine of Hippo
         publicDomain: true
         links:
@@ -427,6 +441,9 @@ rows:
         kind: primary
         reader: student
         pages: 15
+        role: selections
+        portion: "I qq. 1–2 (sacred doctrine; the existence of God)"
+        readPages: 15
         author: Thomas Aquinas
         publicDomain: true
         links:
@@ -484,10 +501,12 @@ rows:
         links:
           - { label: "Project Gutenberg (Discourse)", url: "https://www.gutenberg.org/ebooks/59" }
           - { label: "Archive.org (Everyman ed. with Meditations, 1912)", url: "https://archive.org/details/discourseonmetho1912desc" }
-      - title: An Essay Concerning Human Understanding (Books I–II selections)
+      - title: An Essay Concerning Human Understanding
         kind: primary
         reader: student
         pages: 700
+        role: selections
+        portion: Books I–II
         author: John Locke
         date: "1690"
         publicDomain: true
@@ -563,10 +582,12 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
-      - title: Leviathan (Parts I–II selections)
+      - title: Leviathan
         kind: primary
         reader: student
         pages: 500
+        role: selections
+        portion: Parts I–II
         author: Thomas Hobbes
         date: "1651"
         publicDomain: true
@@ -576,6 +597,8 @@ rows:
         kind: primary
         reader: student
         pages: 115
+        role: review
+        reviewOf: civics-law-10
         author: John Locke
         date: "1689"
         publicDomain: true
@@ -593,6 +616,8 @@ rows:
         kind: primary
         reader: student
         pages: 338
+        role: review
+        reviewOf: civics-law-12
         author: Edmund Burke
         date: "1790"
         publicDomain: true
@@ -602,6 +627,8 @@ rows:
         kind: primary
         reader: student
         pages: 900
+        role: review
+        reviewOf: civics-law-12
         author: Alexis de Tocqueville (trans. Henry Reeve)
         date: "1835–1840"
         publicDomain: true
@@ -829,6 +856,7 @@ rows:
         kind: primary
         reader: student
         pages: 193
+        order: 1
         author: John Senior
         date: "1978"
         publicDomain: false
@@ -838,6 +866,7 @@ rows:
         kind: primary
         reader: student
         pages: 244
+        order: 2
         author: John Senior
         date: "1983"
         publicDomain: false
@@ -892,6 +921,9 @@ rows:
         kind: primary
         reader: student
         pages: 416
+        role: selections
+        portion: Books I, IV, VII and XII
+        pace: long
         author: Aristotle (trans. W.D. Ross)
         publicDomain: true
         links:
@@ -953,6 +985,8 @@ rows:
         kind: primary
         reader: student
         pages: 25
+        role: review
+        reviewOf: philosophy-07
         author: Aristotle
         publicDomain: true
         links:
@@ -961,6 +995,9 @@ rows:
         kind: primary
         reader: student
         pages: 3
+        role: selections
+        portion: Book I, ch. 13
+        readPages: 3
         author: Aristotle (trans. W. Rhys Roberts)
         publicDomain: true
         links:
@@ -969,6 +1006,8 @@ rows:
         kind: primary
         reader: student
         pages: 40
+        role: review
+        reviewOf: civics-law-09
         author: Marcus Tullius Cicero
         date: 54–51 BC
         publicDomain: true
@@ -978,6 +1017,8 @@ rows:
         kind: primary
         reader: student
         pages: 90
+        role: review
+        reviewOf: civics-law-09
         author: St. Thomas Aquinas
         date: c. 1270
         publicDomain: true
@@ -988,6 +1029,8 @@ rows:
         kind: primary
         reader: student
         pages: 1100
+        role: selections
+        portion: A Treatise on Laws and God the Lawgiver (1612)
         author: Francisco Suárez
         date: "1612–1621"
         publicDomain: true
@@ -997,6 +1040,8 @@ rows:
         kind: primary
         reader: student
         pages: 100
+        role: review
+        reviewOf: civics-law-10
         author: Richard Hooker
         date: "1594"
         publicDomain: true
@@ -1005,6 +1050,8 @@ rows:
       - title: "The Rights of War and Peace, Book I (with the Preliminary Discourse)"
         kind: primary
         reader: student
+        role: selections
+        portion: Book I, with the Preliminary Discourse
         author: Hugo Grotius
         date: "1625"
         publicDomain: true
@@ -1032,6 +1079,8 @@ rows:
         kind: primary
         reader: student
         pages: 4
+        role: review
+        reviewOf: civics-law-04
         author: Thomas Jefferson et al.
         date: "1776"
         publicDomain: true
@@ -1041,6 +1090,8 @@ rows:
         kind: primary
         reader: student
         pages: 700
+        role: selections
+        portion: 'the lectures, especially "Of the Law of Nature"'
         author: James Wilson
         date: "1790–1791"
         publicDomain: true
@@ -1059,6 +1110,8 @@ rows:
         kind: primary
         reader: student
         pages: 117
+        role: review
+        reviewOf: theology-18
         author: C.S. Lewis
         date: "1943"
         publicDomain: false
@@ -1203,6 +1256,9 @@ rows:
         kind: secondary
         reader: student
         pages: 45
+        role: selections
+        portion: ch. 5 (Ethics)
+        readPages: 45
         author: Edward Feser
         date: "2009"
         publicDomain: false
@@ -1212,6 +1268,9 @@ rows:
         kind: primary
         reader: student
         pages: 12
+        role: selections
+        portion: Book III, Part I, Section 1 (the is-ought passage)
+        readPages: 12
         author: David Hume
         date: "1739–1740"
         publicDomain: true

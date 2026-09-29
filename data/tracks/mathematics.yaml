@@ -138,6 +138,7 @@ rows:
         kind: instructional
         reader: together
         pages: 102
+        pace: long
         author: Joseph Ray
         date: "1877"
         publicDomain: true
@@ -200,6 +201,7 @@ rows:
         kind: instructional
         reader: together
         pages: 141
+        pace: long
         author: Joseph Ray
         date: "1877"
         publicDomain: true
@@ -252,6 +254,7 @@ rows:
         kind: instructional
         reader: student
         pages: 338
+        pace: long
         author: Joseph Ray
         date: "1877"
         publicDomain: true
@@ -321,6 +324,7 @@ rows:
         kind: instructional
         reader: student
         pages: 408
+        pace: long
         author: Joseph Ray
         date: "1880"
         publicDomain: true
@@ -466,6 +470,8 @@ rows:
         kind: primary
         reader: student
         pages: 250
+        role: choice
+        group: A
         author: Euclid, trans. T. L. Heath
         date: "c. 300 BC (trans. 1908)"
         publicDomain: true
@@ -476,6 +482,8 @@ rows:
         kind: primary
         reader: student
         pages: 268
+        role: choice
+        group: A
         author: Oliver Byrne
         date: "1847"
         publicDomain: true
@@ -485,6 +493,8 @@ rows:
         kind: primary
         reader: student
         pages: 320
+        role: choice
+        group: A
         author: John Casey
         date: "1880s"
         publicDomain: true
@@ -544,6 +554,7 @@ rows:
         kind: instructional
         reader: student
         pages: 153
+        pace: long
         author: I. M. Gelfand and A. Shen
         date: "1993"
         publicDomain: false
@@ -600,6 +611,8 @@ rows:
         kind: primary
         reader: student
         pages: 268
+        role: selections
+        portion: "Books V–VI"
         author: Oliver Byrne
         date: "1847"
         publicDomain: true
@@ -609,6 +622,8 @@ rows:
         kind: primary
         reader: student
         pages: 326
+        role: selections
+        portion: "Measurement of a Circle and On the Equilibrium of Planes"
         author: Archimedes, ed. T. L. Heath
         date: "1897"
         publicDomain: true
@@ -870,6 +885,7 @@ rows:
         kind: instructional
         reader: student
         pages: 480
+        pace: long
         author: Daniel J. Velleman
         date: "2019 (3rd ed.)"
         publicDomain: false
@@ -918,6 +934,9 @@ rows:
         kind: primary
         reader: together
         pages: 12
+        role: selections
+        portion: "Book I, Section 1 (first and last ratios)"
+        readPages: 12
         author: Isaac Newton, trans. Andrew Motte
         date: "1687 (trans. 1729)"
         publicDomain: true
@@ -1110,6 +1129,7 @@ rows:
         kind: primary
         reader: student
         pages: 680
+        role: selections
         author: Isaac Newton, trans. Andrew Motte
         date: "1687"
         publicDomain: true

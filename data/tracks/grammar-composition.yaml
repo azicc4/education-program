@@ -37,6 +37,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 5
+        role: selections
+        portion: "on transcription"
+        readPages: 5
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -83,6 +86,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 15
+        role: selections
+        portion: "on narration and dictation"
+        readPages: 15
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -199,6 +205,8 @@ rows:
         kind: instructional
         reader: student
         pages: 293
+        order: 1
+        pace: long
         author: Alonzo Reed and Brainerd Kellogg
         date: "1877"
         publicDomain: true
@@ -208,6 +216,8 @@ rows:
         kind: instructional
         reader: student
         pages: 264
+        order: 2
+        pace: long
         author: Alonzo Reed and Brainerd Kellogg
         date: "1877; rev. 1885"
         publicDomain: true
@@ -249,6 +259,7 @@ rows:
         kind: instructional
         reader: student
         pages: 334
+        pace: long
         author: Lindley Murray
         date: "1795; 1823 ed."
         publicDomain: true
@@ -258,6 +269,7 @@ rows:
         kind: instructional
         reader: student
         pages: 264
+        pace: long
         author: Thomas W. Harvey
         date: "1868; 1870 ed."
         publicDomain: true
@@ -347,6 +359,7 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        role: selections
         author: Philip Dormer Stanhope, Earl of Chesterfield
         date: "1774"
         publicDomain: true
@@ -392,6 +405,9 @@ rows:
         kind: primary
         reader: student
         pages: 4
+        role: selections
+        portion: "Franklin on teaching himself to write from the Spectator"
+        readPages: 4
         author: Benjamin Franklin
         date: "1771–1790"
         publicDomain: true
@@ -452,6 +468,7 @@ rows:
         kind: instructional
         reader: student
         pages: 383
+        pace: long
         author: H. W. Fowler and F. G. Fowler
         date: "1906"
         publicDomain: true
@@ -528,6 +545,7 @@ rows:
         kind: instructional
         reader: student
         pages: 466
+        role: reference
         author: Kate L. Turabian
         date: "2018"
         publicDomain: false
@@ -569,6 +587,7 @@ rows:
         kind: instructional
         reader: student
         pages: 742
+        role: reference
         author: H. W. Fowler
         date: "1926"
         publicDomain: true
@@ -578,6 +597,7 @@ rows:
         kind: instructional
         reader: student
         pages: 1900
+        role: reference
         author: Noah Webster
         date: "1828"
         publicDomain: true

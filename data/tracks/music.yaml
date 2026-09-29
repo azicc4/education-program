@@ -79,6 +79,8 @@ rows:
       - title: "Music: First Year (Ward Method)"
         kind: instructional
         reader: teacher
+        order: 1
+        pace: long
         author: Justine Bayard Ward
         date: "1914"
         publicDomain: true
@@ -87,6 +89,8 @@ rows:
       - title: "Music: Third Year, Teacher's Manual"
         kind: instructional
         reader: teacher
+        order: 2
+        pace: long
         author: Justine Bayard Ward
         date: "1919"
         publicDomain: true
@@ -215,6 +219,7 @@ rows:
         kind: primary
         reader: together
         pages: 312
+        role: selections
         author: Isaac Watts
         date: "1719"
         publicDomain: true
@@ -324,6 +329,7 @@ rows:
         kind: primary
         reader: teacher
         pages: 1900
+        role: reference
         author: Benedictines of Solesmes
         date: "1903 (later eds. to 1961)"
         publicDomain: true
@@ -452,6 +458,7 @@ rows:
         kind: secondary
         reader: student
         pages: 426
+        pace: long
         author: Edward Dickinson
         date: "1902"
         publicDomain: true
@@ -499,6 +506,7 @@ rows:
         kind: primary
         reader: student
         pages: 156
+        pace: long
         author: Johann Joseph Fux; trans. Alfred Mann
         date: "1725 (trans. 1943/1965)"
         publicDomain: false
@@ -541,6 +549,8 @@ rows:
         kind: secondary
         reader: student
         pages: 426
+        role: review
+        reviewOf: music-10
         author: Edward Dickinson
         date: "1902"
         publicDomain: true
@@ -621,6 +631,8 @@ rows:
         kind: primary
         reader: student
         pages: 230
+        role: selections
+        portion: "Book I"
         author: Boethius
         date: "c. 510 (trans. 1989)"
         publicDomain: false
@@ -631,6 +643,7 @@ rows:
         kind: secondary
         reader: student
         pages: 1550
+        role: selections
         author: Oliver Strunk; Leo Treitler (gen. ed.)
         date: "1950 (rev. 1998)"
         publicDomain: false

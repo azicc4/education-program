@@ -193,6 +193,8 @@ rows:
         kind: primary
         reader: student
         pages: 392
+        role: selections
+        portion: "the AP syllabus lines; new in Latin here: 7.45–58, 783–792, 803–817; 11.532–594; 12.791–796, 803–812, 818–828, 919–952"
         author: Vergil (P. Vergilius Maro)
         date: "19 BC"
         publicDomain: true
@@ -203,6 +205,8 @@ rows:
         kind: primary
         reader: student
         pages: 320
+        role: selections
+        portion: "the ten AP letters: 6.4, 6.7, 6.16, 6.20, 7.27, 10.5, 10.6, 10.7, 10.37, 10.90"
         author: Pliny the Younger (C. Plinius Caecilius Secundus)
         date: "c. AD 97–112"
         publicDomain: true

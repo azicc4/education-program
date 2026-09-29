@@ -49,6 +49,7 @@ rows:
       - title: "AP U.S. History Course and Exam Description (effective fall 2026): skills, reasoning processes and rubrics"
         kind: instructional
         reader: teacher
+        role: reference
         author: College Board
         date: "2026"
         publicDomain: false
@@ -58,6 +59,7 @@ rows:
       - title: "Released free-response questions, scoring guidelines and sample student responses"
         kind: instructional
         reader: student
+        role: reference
         author: College Board
         publicDomain: false
         links:
@@ -135,6 +137,7 @@ rows:
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from Periods 1–4
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 1–4"
+        role: reference
         kind: instructional
         reader: teacher
         author: College Board
@@ -147,15 +150,21 @@ rows:
         kind: secondary
         reader: student
         pages: 1150
+        role: choice
+        group: A
+        pace: long
         author: David M. Kennedy & Margaret O'Mara
         date: "2025"
         publicDomain: false
         links:
           - { label: Cengage (National Geographic Learning), url: "https://ngl.cengage.com/products/9798214071107" }
-      - title: "Give Me Liberty! An American History, AP Edition (7th ed.) (alternative survey text)"
+      - title: "Give Me Liberty! An American History, AP Edition (7th ed.)"
         kind: secondary
         reader: student
         pages: 1350
+        role: choice
+        group: A
+        pace: long
         author: Eric Foner et al.
         date: "2024"
         publicDomain: false
@@ -165,6 +174,7 @@ rows:
         kind: secondary
         reader: student
         pages: 504
+        pace: long
         author: Wilfred M. McClay
         date: "2019; rev. ed."
         publicDomain: false
@@ -176,12 +186,15 @@ rows:
       - title: "The American Yawp and The American Yawp Reader (free)"
         kind: secondary
         reader: student
+        role: selections
+        portion: "the Reader's documents for Periods 1–4"
         author: Joseph Locke & Ben Wright (eds.)
         publicDomain: false
         links:
           - { label: Text, url: "https://www.americanyawp.com/text/" }
           - { label: Reader (primary sources), url: "https://www.americanyawp.com/reader/" }
       - title: "Modern History Sourcebook: Colonial North America; Colonial Latin America; Early US"
+        role: reference
         kind: secondary
         reader: student
         publicDomain: true
@@ -271,6 +284,7 @@ rows:
       - Sit a full-length released or practice exam under timed conditions before the May exam
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 5–9"
+        role: reference
         kind: instructional
         reader: teacher
         author: College Board
@@ -283,6 +297,7 @@ rows:
         kind: secondary
         reader: student
         pages: 1150
+        pace: long
         author: Kennedy & O'Mara; Foner et al.
         publicDomain: false
         links:
@@ -292,6 +307,7 @@ rows:
         kind: secondary
         reader: student
         pages: 504
+        pace: long
         author: Wilfred M. McClay
         publicDomain: false
         links:
@@ -301,6 +317,8 @@ rows:
         kind: primary
         reader: student
         pages: 375
+        role: selections
+        portion: "the 1893 essay, The Significance of the Frontier in American History"
         author: Frederick Jackson Turner
         date: "1920"
         publicDomain: true
@@ -316,6 +334,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45502" }
       - title: "Modern History Sourcebook: US Immigration; US Power; US Society"
+        role: reference
         kind: secondary
         reader: student
         publicDomain: true
@@ -324,6 +343,8 @@ rows:
           - { label: US Power, url: "https://sourcebooks.fordham.edu/mod/modsbook47.asp" }
           - { label: US Society, url: "https://sourcebooks.fordham.edu/mod/modsbook48.asp" }
       - title: The American Yawp Reader (Periods 5–9 documents)
+        role: selections
+        portion: "the documents for Periods 5–9"
         kind: secondary
         reader: student
         publicDomain: false
@@ -409,6 +430,7 @@ rows:
       - Complete progress checks for Units 1–9, two timed DBQs, and one full practice exam
     coreTexts:
       - title: AP European History Course and Exam Description
+        role: reference
         kind: instructional
         reader: teacher
         author: College Board
@@ -420,22 +442,31 @@ rows:
         kind: secondary
         reader: student
         pages: 1000
+        role: choice
+        group: A
+        pace: long
         author: John P. McKay et al.
         publicDomain: false
         links:
           - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/A-History-of-Western-Society-Since-1300-for-the-AP-Course/p/1319221637" }
-      - title: A History of Europe in the Modern World (alternative survey text)
+      - title: A History of Europe in the Modern World
         kind: secondary
         reader: student
         pages: 1100
+        role: choice
+        group: A
+        pace: long
         author: R. R. Palmer, Joel Colton & Lloyd Kramer
         publicDomain: false
         links:
           - { label: McGraw Hill, url: "https://www.mheducation.com/highered/product/a-history-of-europe-in-the-modern-world-kramer.html" }
-      - title: "The Western Heritage (alternative survey text)"
+      - title: "The Western Heritage"
         kind: secondary
         reader: student
         pages: 1100
+        role: choice
+        group: A
+        pace: long
         author: Donald Kagan, Steven Ozment, Frank M. Turner et al.
         publicDomain: false
         links:
@@ -450,6 +481,7 @@ rows:
       - title: "Modern History Sourcebook: Early Modern World; Scientific Revolution; Enlightenment; Enlightened Despots; Industrial Revolution; Western and Eastern Europe Since 1945"
         kind: secondary
         reader: student
+        role: reference
         publicDomain: true
         links:
           - { label: Early Modern World, url: "https://sourcebooks.fordham.edu/mod/modsbook03.asp" }
@@ -541,6 +573,7 @@ rows:
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from c. 1200–1750
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 1–4"
+        role: reference
         kind: instructional
         reader: teacher
         author: College Board
@@ -552,23 +585,31 @@ rows:
         kind: secondary
         reader: student
         pages: 900
+        role: choice
+        group: A
+        pace: long
         author: Robert W. Strayer & Eric W. Nelson
         publicDomain: false
         links:
           - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
-      - title: "Traditions & Encounters: A Global Perspective on the Past, AP Edition (7th ed.) (alternative survey text)"
+      - title: "Traditions & Encounters: A Global Perspective on the Past, AP Edition (7th ed.)"
         kind: secondary
         reader: student
         pages: 1200
+        role: choice
+        group: A
+        pace: long
         author: Jerry H. Bentley et al.
         date: "2023"
         publicDomain: false
         links:
           - { label: McGraw Hill, url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
-      - title: Travels in Asia and Africa, 1325–1354 (selections)
+      - title: Travels in Asia and Africa, 1325–1354
         kind: primary
         reader: student
         pages: 380
+        role: selections
+        portion: "on Mali, Delhi and China"
         author: Ibn Battuta (tr. H. A. R. Gibb)
         publicDomain: true
         links:
@@ -581,10 +622,12 @@ rows:
         date: "1431"
         links:
           - { label: Oregon State Open Textbook, url: "https://open.oregonstate.education/middleearlymodernages/chapter/inscriptions-of-zheng-he/" }
-      - title: The Memoirs of the Conquistador Bernal Díaz del Castillo (already read in spanish-07)
+      - title: The Memoirs of the Conquistador Bernal Díaz del Castillo
         kind: primary
         reader: student
         pages: 800
+        role: review
+        reviewOf: spanish-07
         author: Bernal Díaz del Castillo (tr. Lockhart)
         date: "c. 1568"
         publicDomain: true
@@ -594,6 +637,9 @@ rows:
         kind: primary
         reader: student
         pages: 120
+        role: selections
+        portion: "Book XII"
+        readPages: 120
         author: Bernardino de Sahagún and Nahua informants
         date: "c. 1545–1590"
         publicDomain: true
@@ -603,12 +649,14 @@ rows:
         kind: primary
         reader: student
         pages: 880
+        role: selections
         author: Babur (tr. A. S. Beveridge)
         date: "c. 1530"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44608" }
       - title: "Internet Islamic, East Asian, Indian and African History Sourcebooks"
+        role: reference
         kind: secondary
         reader: student
         publicDomain: true
@@ -691,6 +739,7 @@ rows:
       - Sit a full-length released or practice exam under timed conditions before the May exam
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 5–9"
+        role: reference
         kind: instructional
         reader: teacher
         author: College Board
@@ -701,6 +750,7 @@ rows:
         kind: secondary
         reader: student
         pages: 900
+        pace: long
         author: Strayer & Nelson; Bentley et al.
         publicDomain: false
         links:
@@ -733,6 +783,7 @@ rows:
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1945vietnam.asp" }
       - title: "Modern History Sourcebook: 19C Latin America; Imperialism; Industrial Revolution II; Decolonization; Asia Since 1900; Africa Since 1945"
+        role: reference
         kind: secondary
         reader: student
         publicDomain: true

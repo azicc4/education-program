@@ -66,6 +66,7 @@ rows:
       - title: "Thomas Jefferson's Garden Book (manuscript facsimile, 1766–1824)"
         kind: primary
         reader: teacher
+        role: reference
         author: Thomas Jefferson
         date: 1766–1824
         publicDomain: true
@@ -119,6 +120,7 @@ rows:
         kind: instructional
         reader: together
         pages: 180
+        role: reference
         author: Mary Randolph
         date: "1824"
         publicDomain: true
@@ -128,6 +130,7 @@ rows:
         kind: instructional
         reader: together
         pages: 570
+        role: reference
         author: Fannie Merritt Farmer
         date: "1896"
         publicDomain: true
@@ -137,6 +140,7 @@ rows:
         kind: instructional
         reader: together
         pages: 306
+        role: reference
         author: Catharine Beecher
         date: "1846"
         publicDomain: true
@@ -177,6 +181,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 684
+        role: reference
         author: Thérèse de Dillmont
         date: "1886"
         publicDomain: true
@@ -186,6 +191,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 378
+        role: reference
         author: Isabella Beeton
         date: "1870"
         publicDomain: true
@@ -216,6 +222,7 @@ rows:
       - title: "The Teacher's Handbook of Slöjd, as Practised and Taught at Nääs"
         kind: instructional
         reader: teacher
+        role: reference
         author: Otto Salomon
         date: "1892"
         publicDomain: true
@@ -291,6 +298,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 176
+        order: 1
         author: H. C. Spencer
         date: "1866"
         publicDomain: true
@@ -300,6 +308,7 @@ rows:
         kind: instructional
         reader: student
         pages: 212
+        order: 2
         author: George Bickham
         date: "1743"
         publicDomain: true
@@ -309,6 +318,7 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        role: selections
         author: Philip Dormer Stanhope, Earl of Chesterfield
         date: "1774"
         publicDomain: true
@@ -367,6 +377,7 @@ rows:
       - title: "Thomas Jefferson's Farm Book (manuscript facsimile, 1774–1824)"
         kind: primary
         reader: teacher
+        role: reference
         author: Thomas Jefferson
         date: 1774–1824
         publicDomain: true
@@ -417,6 +428,7 @@ rows:
         kind: instructional
         reader: student
         pages: 288
+        pace: long
         author: Robert Gibson
         date: "1789 (Philadelphia ed.)"
         publicDomain: true
@@ -551,6 +563,7 @@ rows:
         kind: instructional
         reader: student
         pages: 213
+        pace: long
         author: C. C. Marsh
         date: "1841"
         publicDomain: true
@@ -560,6 +573,7 @@ rows:
         kind: instructional
         reader: student
         pages: 400
+        pace: long
         author: P. Duff
         date: "1868"
         publicDomain: true
@@ -655,6 +669,7 @@ rows:
       - title: "The American Practical Navigator (Bowditch), Pub. No. 9"
         kind: instructional
         reader: student
+        role: reference
         author: Nathaniel Bowditch / National Geospatial-Intelligence Agency
         date: 1802 / current ed.
         publicDomain: true
@@ -700,6 +715,8 @@ rows:
       - title: "The Four Books of Architecture (Isaac Ware trans.)"
         kind: primary
         reader: student
+        role: selections
+        portion: "the classical orders"
         author: Andrea Palladio
         date: 1570 / 1738
         publicDomain: true
@@ -802,6 +819,8 @@ rows:
         kind: primary
         reader: student
         pages: 180
+        role: review
+        reviewOf: practical-arts-13
         author: Benjamin Franklin
         date: 1771–1790
         publicDomain: true
@@ -862,6 +881,7 @@ rows:
         kind: instructional
         reader: student
         pages: 1139
+        role: reference
         author: Isabella Beeton
         date: "1861"
         publicDomain: true
@@ -870,6 +890,7 @@ rows:
       - title: "Thomas Jefferson's Farm Book (manuscript facsimile)"
         kind: primary
         reader: student
+        role: reference
         author: Thomas Jefferson
         date: 1774–1824
         publicDomain: true

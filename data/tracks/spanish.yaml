@@ -212,6 +212,7 @@ rows:
         author: WGBH / Annenberg
         date: "1992"
         publicDomain: false
+        pace: long
         links:
           - { label: "Archive.org (full series)", url: "https://archive.org/details/destinos_pbs" }
           - { label: "Annenberg Learner interactive", url: "https://www.learner.org/wp-content/interactive/destinos/mexico/index.html" }
@@ -312,6 +313,7 @@ rows:
         author: Bernal Díaz del Castillo
         date: "c. 1568 (pub. 1632)"
         publicDomain: true
+        pace: long
         links:
           - { label: "Project Gutenberg (Spanish, vol. 1 of 3)", url: "https://www.gutenberg.org/ebooks/64945" }
           - { label: "Project Gutenberg (English, Lockhart trans., vol. 1)", url: "https://www.gutenberg.org/ebooks/32474" }
@@ -371,6 +373,8 @@ rows:
         author: Garcilaso de la Vega
         date: "1543"
         publicDomain: true
+        role: selections
+        portion: "sonnets and églogas"
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/68131" }
       - title: Historia de la vida del Buscón
@@ -416,6 +420,8 @@ rows:
         author: Santa Teresa de Jesús
         date: "1565"
         publicDomain: true
+        role: selections
+        portion: "selected chapters"
         links:
           - { label: "Wikisource (Spanish)", url: "https://es.wikisource.org/wiki/Libro_de_la_vida_de_Santa_Teresa_de_Jes%C3%BAs" }
           - { label: "Project Gutenberg (English, Lewis trans.)", url: "https://www.gutenberg.org/ebooks/8120" }
@@ -426,6 +432,8 @@ rows:
         author: Santa Teresa de Jesús
         date: "1577"
         publicDomain: true
+        role: selections
+        portion: "Moradas I and VII"
         links:
           - { label: "Archive.org (Spanish, 1916)", url: "https://archive.org/details/lasmoradas00tereuoft" }
           - { label: "CCEL (English)", url: "https://ccel.org/ccel/teresa/castle2.toc.html" }
@@ -473,6 +481,7 @@ rows:
         author: Miguel de Cervantes
         date: "1605/1615"
         publicDomain: true
+        pace: long
         links:
           - { label: "Centro Virtual Cervantes (annotated, ed. Rico)", url: "https://cvc.cervantes.es/literatura/clasicos/quijote/" }
           - { label: "Project Gutenberg (Spanish)", url: "https://www.gutenberg.org/ebooks/2000" }
@@ -520,6 +529,8 @@ rows:
         author: Gustavo Adolfo Bécquer
         date: "1871"
         publicDomain: true
+        role: selections
+        portion: "a selection of the Rimas"
         links:
           - { label: "Archive.org: Rimas", url: "https://archive.org/details/rimasbcqu00bcqu" }
           - { label: "Project Gutenberg: Obras escogidas", url: "https://www.gutenberg.org/ebooks/53552" }
@@ -530,6 +541,8 @@ rows:
         author: Benito Pérez Galdós
         date: "1878; 1876"
         publicDomain: true
+        role: selections
+        portion: "one novel: Marianela or Doña Perfecta"
         links:
           - { label: "Project Gutenberg: Marianela", url: "https://www.gutenberg.org/ebooks/17340" }
           - { label: "Project Gutenberg: Doña Perfecta", url: "https://www.gutenberg.org/ebooks/15725" }
@@ -573,6 +586,7 @@ rows:
         author: Miguel de Unamuno
         date: "1917; 1905"
         publicDomain: true
+        role: selections
         links:
           - { label: "Project Gutenberg: Abel Sánchez", url: "https://www.gutenberg.org/ebooks/44512" }
           - { label: "Project Gutenberg: Vida de Don Quijote y Sancho", url: "https://www.gutenberg.org/ebooks/75472" }
@@ -583,6 +597,7 @@ rows:
         author: Pablo Neruda
         date: "1924"
         publicDomain: false
+        role: selections
         links:
           - { label: "Penguin Random House", url: "https://www.penguinrandomhouse.com/books/773270/twenty-love-poems-and-a-song-of-despair-by-pablo-neruda-translated-by-w-s-merwin-introduction-by-cristina-garcia/" }
       - title: Ficciones / Fictions (bilingual)
@@ -592,6 +607,7 @@ rows:
         author: Jorge Luis Borges
         date: "1944"
         publicDomain: false
+        role: selections
         links:
           - { label: "Penguin Random House", url: "https://www.penguinrandomhouse.com/books/224704/ficciones--fictions-by-jorge-luis-borges/" }
     curriculumOptions:
@@ -642,6 +658,7 @@ rows:
         author: Teresa of Ávila
         date: "1577 (trans. 1921)"
         publicDomain: true
+        role: reference
         links:
           - { label: "Archive.org", url: "https://archive.org/details/interiorcastleor00tere" }
     notes: >-

@@ -37,6 +37,8 @@ rows:
         kind: primary
         reader: together
         pages: 224
+        role: choice
+        group: A
         author: Aesop
         date: "1912"
         publicDomain: true
@@ -46,6 +48,8 @@ rows:
         kind: primary
         reader: together
         pages: 216
+        role: choice
+        group: A
         author: Aesop, ed. Joseph Jacobs
         date: "1894"
         publicDomain: true
@@ -104,6 +108,7 @@ rows:
         kind: secondary
         reader: together
         pages: 831
+        pace: long
         author: William J. Bennett (ed.)
         date: "1993"
         publicDomain: false
@@ -188,6 +193,8 @@ rows:
         kind: secondary
         reader: together
         pages: 460
+        role: review
+        reviewOf: character-virtue-02
         author: Charlotte M. Yonge
         date: "1864"
         publicDomain: true
@@ -290,6 +297,9 @@ rows:
         kind: primary
         reader: student
         pages: 25
+        role: selections
+        portion: "Part II, on the virtues"
+        readPages: 25
         author: Benjamin Franklin
         date: "1791"
         publicDomain: true
@@ -337,6 +347,8 @@ rows:
         kind: secondary
         reader: student
         pages: 468
+        order: 1
+        role: selections
         author: Plutarch; John S. White (ed.)
         date: "1883"
         publicDomain: true
@@ -346,6 +358,9 @@ rows:
         kind: primary
         reader: student
         pages: 1300
+        order: 2
+        role: selections
+        portion: "8–10 Lives (Solon, Aristides, Themistocles, Pericles, Alexander, Fabius, Cato the Elder, Cicero, Caesar, Brutus)"
         author: Plutarch
         date: "c. 100 AD (trans. 1683, rev. 1864)"
         publicDomain: true
@@ -452,6 +467,8 @@ rows:
         kind: primary
         reader: student
         pages: 440
+        role: selections
+        portion: "On the Shortness of Life"
         author: Lucius Annaeus Seneca (trans. Aubrey Stewart)
         date: "c. 49 AD (trans. 1889)"
         publicDomain: true
@@ -506,6 +523,9 @@ rows:
         kind: primary
         reader: student
         pages: 10
+        role: selections
+        portion: "Part III, Art. 7: The Virtues (§§1803–1845)"
+        readPages: 10
         author: Catholic Church
         date: "1992"
         publicDomain: false
@@ -524,6 +544,9 @@ rows:
         kind: primary
         reader: student
         pages: 35
+        role: selections
+        portion: "Book III, chs. 2, 9–12"
+        readPages: 35
         author: C.S. Lewis
         date: "1952"
         publicDomain: false
@@ -571,6 +594,7 @@ rows:
         kind: primary
         reader: student
         pages: 326
+        role: selections
         author: Xenophon (trans. Henry Graham Dakyns)
         date: "c. 370 BC (trans. 1897)"
         publicDomain: true
@@ -617,6 +641,9 @@ rows:
         kind: primary
         reader: student
         pages: 30
+        role: selections
+        portion: "Discourse VIII"
+        readPages: 30
         author: John Henry Newman
         date: "1852"
         publicDomain: true
@@ -626,6 +653,8 @@ rows:
         kind: primary
         reader: student
         pages: 356
+        role: selections
+        portion: "Book I on arms and letters, Book IV on the courtier's end"
         author: Baldassare Castiglione
         date: "1528 (trans. 1901)"
         publicDomain: true
@@ -672,6 +701,9 @@ rows:
         kind: primary
         reader: student
         pages: 280
+        role: selections
+        portion: "Books I–IV, VI, VIII–X"
+        pace: long
         author: Aristotle
         date: "c. 340 BC (trans. 1847)"
         publicDomain: true
@@ -718,6 +750,7 @@ rows:
         kind: primary
         reader: student
         pages: 210
+        pace: long
         author: Marcus Tullius Cicero
         date: "44 BC"
         publicDomain: true
@@ -766,6 +799,7 @@ rows:
         kind: primary
         reader: student
         pages: 8
+        order: 1
         author: Thomas Aquinas
         date: "1271"
         publicDomain: true
@@ -777,6 +811,7 @@ rows:
         kind: primary
         reader: student
         pages: 182
+        order: 2
         author: John Witherspoon
         date: "1772–1794 (pub. 1800; ed. 1912)"
         publicDomain: true
@@ -786,6 +821,7 @@ rows:
         kind: primary
         reader: student
         pages: 286
+        order: 3
         author: Alasdair MacIntyre
         date: "1981 (3rd ed. 2007)"
         publicDomain: false

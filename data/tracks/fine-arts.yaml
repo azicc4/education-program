@@ -80,6 +80,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 938
+        role: reference
         author: Anna Botsford Comstock
         date: "1911"
         publicDomain: true
@@ -182,6 +183,8 @@ rows:
         kind: instructional
         reader: teacher
         pages: 230
+        role: selections
+        portion: "the first letter's exercises (graded tones, shading a stone, drawing leaves and branches)"
         author: John Ruskin
         date: "1857"
         publicDomain: true
@@ -191,6 +194,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 320
+        pace: long
         author: Betty Edwards
         date: "1979 (4th ed. 2012)"
         publicDomain: false
@@ -238,6 +242,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 90
+        role: selections
+        portion: "Letter III, On Colour and Composition"
+        readPages: 90
         author: John Ruskin
         date: "1857"
         publicDomain: true
@@ -247,6 +254,8 @@ rows:
         kind: primary
         reader: teacher
         pages: 330
+        role: selections
+        portion: "on pigments and procedure"
         author: Cennino Cennini
         date: "c. 1400 (trans. 1899)"
         publicDomain: true
@@ -297,6 +306,9 @@ rows:
         kind: primary
         reader: student
         pages: 100
+        role: selections
+        portion: "Part II, Linear Perspective; Part III, Light and Shade"
+        readPages: 100
         author: Leonardo da Vinci (trans. J. P. Richter)
         date: "c. 1490–1519 (trans. 1888)"
         publicDomain: true
@@ -341,6 +353,8 @@ rows:
         kind: primary
         reader: student
         pages: 460
+        role: selections
+        portion: "including the lost-wax casting of the Perseus"
         author: Benvenuto Cellini
         date: "c. 1558–1563"
         publicDomain: true
@@ -373,6 +387,8 @@ rows:
       - title: "Lives of the Most Eminent Painters, Sculptors and Architects, Vol. 1 (trans. de Vere)"
         kind: primary
         reader: student
+        role: selections
+        portion: "the prefaces and 10 or more Lives (Giotto, Brunelleschi, Masaccio, Leonardo, Raphael, Michelangelo)"
         author: Giorgio Vasari
         date: "1550/1568 (trans. 1912)"
         publicDomain: true
@@ -383,6 +399,8 @@ rows:
         kind: primary
         reader: student
         pages: 420
+        role: selections
+        portion: "on truth to nature"
         author: John Ruskin
         date: "1843"
         publicDomain: true
@@ -392,6 +410,7 @@ rows:
         kind: secondary
         reader: student
         pages: 688
+        pace: long
         author: E. H. Gombrich
         date: "1950 (16th ed.)"
         publicDomain: false
@@ -440,6 +459,8 @@ rows:
         kind: primary
         reader: student
         pages: 330
+        role: selections
+        portion: "Books I, III and IV"
         author: Vitruvius
         date: "c. 25 BC (trans. 1914)"
         publicDomain: true
@@ -489,6 +510,7 @@ rows:
       - title: "Exercices au fusain (Cours de dessin), 60 plates"
         kind: instructional
         reader: student
+        pace: long
         author: Charles Bargue
         date: "1871"
         publicDomain: true

@@ -159,6 +159,7 @@ rows:
         kind: instructional
         reader: together
         pages: 70
+        order: 1
         author: William Holmes McGuffey
         date: "1836; rev. 1879"
         publicDomain: true
@@ -168,6 +169,7 @@ rows:
         kind: instructional
         reader: together
         pages: 96
+        order: 2
         author: William Holmes McGuffey
         date: "1836; rev. 1879"
         publicDomain: true
@@ -216,6 +218,9 @@ rows:
         kind: instructional
         reader: together
         pages: 170
+        role: choice
+        group: A
+        pace: long
         author: Noah Webster
         date: "1783; 1809 ed."
         publicDomain: true
@@ -225,6 +230,9 @@ rows:
         kind: instructional
         reader: together
         pages: 168
+        role: choice
+        group: A
+        pace: long
         author: Noah Webster
         date: "1829; 1857 ed."
         publicDomain: true
@@ -234,6 +242,7 @@ rows:
         kind: instructional
         reader: together
         pages: 144
+        pace: long
         author: Alexander H. McGuffey
         date: "1846; rev. 1879"
         publicDomain: true
@@ -278,6 +287,7 @@ rows:
         kind: instructional
         reader: together
         pages: 160
+        order: 1
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true
@@ -287,6 +297,7 @@ rows:
         kind: instructional
         reader: together
         pages: 208
+        order: 2
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true
@@ -331,6 +342,7 @@ rows:
         kind: instructional
         reader: student
         pages: 262
+        order: 1
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true
@@ -340,6 +352,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 20
+        role: selections
+        portion: "on narration and reading"
+        readPages: 20
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -349,6 +364,7 @@ rows:
         kind: instructional
         reader: student
         pages: 820
+        order: 2
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true

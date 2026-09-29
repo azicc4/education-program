@@ -457,6 +457,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 408
+        pace: long
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -753,6 +754,8 @@ rows:
         kind: primary
         reader: together
         pages: 157
+        role: review
+        reviewOf: early-development-05
         author: Isaac Taylor Headland (trans.)
         date: "1900"
         publicDomain: true
@@ -797,6 +800,7 @@ rows:
         kind: instructional
         reader: teacher
         pages: 938
+        role: reference
         author: Anna Botsford Comstock
         date: "1911"
         publicDomain: true
@@ -806,6 +810,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 55
+        role: selections
+        portion: "Part II, Out-of-Door Life for the Children"
+        readPages: 55
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -858,6 +865,7 @@ rows:
         kind: instructional
         reader: together
         pages: 160
+        pace: long
         author: William Holmes McGuffey
         date: "1836 (rev. 1879)"
         publicDomain: true

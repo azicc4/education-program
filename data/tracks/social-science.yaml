@@ -99,6 +99,7 @@ rows:
         author: Robert E. Brennan, O.P.
         date: "1941"
         publicDomain: false
+        role: reference
         links:
           - { label: Archive.org (lending library), url: "https://archive.org/details/thomisticpsychol0000robe" }
     curriculumOptions:
@@ -175,13 +176,14 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46677" }
-      - title: An Inquiry into the Human Mind, on the Principles of Common Sense (selections)
+      - title: An Inquiry into the Human Mind, on the Principles of Common Sense
         kind: primary
         reader: student
         pages: 300
         author: Thomas Reid
         date: "1764"
         publicDomain: true
+        role: selections
         links:
           - { label: Archive.org, url: "https://archive.org/details/b30503462" }
       - title: Psychology 2e
@@ -191,6 +193,7 @@ rows:
         author: Rose M. Spielman et al.
         date: "2020"
         publicDomain: false
+        pace: long
         links:
           - { label: OpenStax (free), url: "https://openstax.org/details/books/psychology-2e" }
     curriculumOptions:
@@ -385,6 +388,7 @@ rows:
         author: Amos Tversky and Daniel Kahneman
         date: "1974"
         publicDomain: false
+        order: 1
         links:
           - { label: Science (DOI), url: "https://doi.org/10.1126/science.185.4157.1124" }
       - title: Thinking, Fast and Slow
@@ -394,6 +398,9 @@ rows:
         author: Daniel Kahneman
         date: "2011"
         publicDomain: false
+        order: 1
+        role: selections
+        portion: "Parts I–III and V in full; skim Part IV"
         links:
           - { label: Farrar, Straus and Giroux (Macmillan), url: "https://us.macmillan.com/books/9780374533557/thinkingfastandslow" }
       - title: "Risk Savvy: How to Make Good Decisions"
@@ -403,6 +410,7 @@ rows:
         author: Gerd Gigerenzer
         date: "2014"
         publicDomain: false
+        order: 2
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/309675/risk-savvy-by-gerd-gigerenzer/" }
     curriculumOptions:
@@ -464,6 +472,7 @@ rows:
         author: Peter C. Brown, Henry L. Roediger III and Mark A. McDaniel
         date: "2014"
         publicDomain: false
+        order: 2
         links:
           - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674729018" }
       - title: "Why Don't Students Like School? (2nd ed.)"
@@ -473,6 +482,7 @@ rows:
         author: Daniel T. Willingham
         date: "2021"
         publicDomain: false
+        order: 2
         links:
           - { label: Wiley, url: "https://www.wiley.com/en-us/shop/general-introductory-education/why-don't-students-like-school-a-cognitive-scientist-answers-questions-about-how-the-mind-works-and-what-it-means-for-the-classroom-2nd-edition-p-9781119715665" }
       - title: "Improving Students' Learning With Effective Learning Techniques"
@@ -482,6 +492,7 @@ rows:
         author: John Dunlosky, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan and Daniel T. Willingham
         date: "2013"
         publicDomain: false
+        order: 2
         links:
           - { label: Psychological Science in the Public Interest (DOI), url: "https://doi.org/10.1177/1529100612453266" }
       - title: The Psychology of the Child
@@ -491,6 +502,7 @@ rows:
         author: Jean Piaget and Bärbel Inhelder
         date: "1966; Eng. 1969"
         publicDomain: false
+        order: 1
         links:
           - { label: Basic Books (Hachette), url: "https://www.hachettebookgroup.com/titles/jean-piaget/the-psychology-of-the-child/9780465095001/" }
       - title: "Mind in Society: The Development of Higher Psychological Processes"
@@ -500,6 +512,7 @@ rows:
         author: L. S. Vygotsky
         date: "1930s; Eng. 1978"
         publicDomain: false
+        order: 1
         links:
           - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674576292" }
       - title: "Peak: Secrets from the New Science of Expertise"
@@ -509,6 +522,7 @@ rows:
         author: Anders Ericsson and Robert Pool
         date: "2016"
         publicDomain: false
+        order: 3
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.com/products/peak-anders-ericssonrobert-pool" }
       - title: Talks to Teachers on Psychology; and to Students on Some of Life's Ideals
@@ -687,6 +701,7 @@ rows:
         author: Peter L. Berger
         date: "1963"
         publicDomain: false
+        order: 1
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/12385/invitation-to-sociology-by-peter-l-berger/" }
       - title: Democracy in America, Volume 2 (Part II, on individualism and associations)
@@ -696,6 +711,7 @@ rows:
         author: Alexis de Tocqueville
         date: "1840"
         publicDomain: true
+        order: 2
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
       - title: "Suicide: A Study in Sociology"
@@ -705,6 +721,7 @@ rows:
         author: Émile Durkheim
         date: "1897; Eng. 1951"
         publicDomain: false
+        order: 2
         links:
           - { label: Free Press (Simon & Schuster), url: "https://www.simonandschuster.com/books/Suicide/John-A-Spaulding/9780684836324" }
           - { label: "Project Gutenberg (French original, public domain)", url: "https://www.gutenberg.org/ebooks/40489" }
@@ -715,6 +732,7 @@ rows:
         author: Max Weber (trans. Talcott Parsons)
         date: "1905; Eng. 1930"
         publicDomain: true
+        order: 2
         links:
           - { label: Marxists Internet Archive (full text), url: "https://www.marxists.org/reference/archive/weber/protestant-ethic/" }
       - title: The Quest for Community
@@ -724,6 +742,7 @@ rows:
         author: Robert Nisbet
         date: "1953"
         publicDomain: false
+        order: 2
         links:
           - { label: ISI Books (Simon & Schuster), url: "https://www.simonandschuster.com/books/The-Quest-for-Community/Robert-Nisbet/9781684516360" }
       - title: "Bowling Alone: The Collapse and Revival of American Community (revised and updated)"
@@ -733,6 +752,7 @@ rows:
         author: Robert D. Putnam
         date: "2000; 2020"
         publicDomain: false
+        order: 2
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/Bowling-Alone-Revised-and-Updated/Robert-D-Putnam/9781982130848" }
       - title: Social Capital in the Creation of Human Capital
@@ -742,6 +762,7 @@ rows:
         author: James S. Coleman
         date: "1988"
         publicDomain: false
+        order: 2
         links:
           - { label: American Journal of Sociology (DOI), url: "https://doi.org/10.1086/228943" }
     curriculumOptions:
@@ -816,13 +837,14 @@ rows:
         publicDomain: false
         links:
           - { label: Eerdmans, url: "https://www.eerdmans.com/9780802807250/psychology-as-religion/" }
-      - title: "A Catholic Christian Meta-Model of the Person: Integration with Psychology and Mental Health Practice (selections)"
+      - title: "A Catholic Christian Meta-Model of the Person: Integration with Psychology and Mental Health Practice"
         kind: primary
         reader: student
         pages: 700
         author: Paul C. Vitz, William J. Nordling and Craig Steven Titus (eds.)
         date: "2020"
         publicDomain: false
+        role: selections
         links:
           - { label: Harvard Book Store, url: "https://www.harvard.com/book/9781733123501" }
       - title: "Born Only Once: The Miracle of Affirmation (3rd ed.)"
@@ -900,6 +922,7 @@ rows:
         author: Neil Postman
         date: "1985"
         publicDomain: false
+        order: 1
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/" }
       - title: "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness"
@@ -909,6 +932,7 @@ rows:
         author: Jonathan Haidt
         date: "2024"
         publicDomain: false
+        order: 1
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/729231/the-anxious-generation-by-jonathan-haidt/" }
       - title: "The Shallows: What the Internet Is Doing to Our Brains"
@@ -918,6 +942,7 @@ rows:
         author: Nicholas Carr
         date: "2010; rev. 2020"
         publicDomain: false
+        order: 1
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/The-Shallows" }
       - title: Abuse of Language, Abuse of Power
@@ -927,6 +952,7 @@ rows:
         author: Josef Pieper
         date: "Eng. 1992"
         publicDomain: false
+        order: 2
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/abuse-of-language-abuse-of-power-alapp/" }
       - title: "The Tech-Wise Family: Everyday Steps for Putting Technology in Its Proper Place"
@@ -1098,6 +1124,7 @@ rows:
         author: Christian Smith
         date: "2010"
         publicDomain: false
+        pace: long
         links:
           - { label: University of Chicago Press, url: "https://press.uchicago.edu/ucp/books/book/chicago/W/bo8697279.html" }
       - title: Gaudium et Spes, Part I, ch. 1 (The Dignity of the Human Person)
