@@ -38,6 +38,8 @@ rows:
       - Notice puzzles (e.g. "Is a copy of my toy my toy?") with delight rather than frustration
     coreTexts:
       - title: "Big Ideas for Little Kids: Teaching Philosophy through Children's Literature (2nd ed.)"
+        reader: teacher
+        pages: 185
         author: Thomas E. Wartenberg
         publicDomain: false
         links:
@@ -72,6 +74,8 @@ rows:
       - Conduct a short Socratic dialogue with a sibling or parent
     coreTexts:
       - title: "Philosophy for Kids: 40 Fun Questions That Help You Wonder about Everything!"
+        reader: together
+        pages: 211
         author: David A. White
         date: "2001"
         publicDomain: false
@@ -115,16 +119,22 @@ rows:
       - Reconstruct at least two arguments for immortality in the Phaedo
     coreTexts:
       - title: Euthyphro
+        reader: together
+        pages: 20
         author: Plato (trans. Jowett)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1642" }
       - title: Apology, Crito, and Phaedo of Socrates
+        reader: together
+        pages: 140
         author: Plato
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13726" }
       - title: "Philosophy 101 by Socrates: An Introduction to Philosophy via Plato's Apology"
+        reader: student
+        pages: 149
         author: Peter Kreeft
         date: "2002"
         publicDomain: false
@@ -169,12 +179,16 @@ rows:
       - Begin a commonplace book of key passages from the great books
     coreTexts:
       - title: How to Read a Book
+        reader: student
+        pages: 398
         author: Mortimer J. Adler & Charles Van Doren
         date: "1940; rev. 1972"
         publicDomain: false
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/How-to-Read-a-Book/Mortimer-J-Adler/9781476790152" }
       - title: "Aristotle for Everybody: Difficult Thought Made Easy"
+        reader: student
+        pages: 206
         author: Mortimer J. Adler
         date: "1978"
         publicDomain: false
@@ -211,11 +225,15 @@ rows:
       - Evaluate Plato's account of the decline from aristocracy to tyranny against American history
     coreTexts:
       - title: Meno
+        reader: student
+        pages: 56
         author: Plato (trans. Jowett)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1643" }
       - title: The Republic
+        reader: student
+        pages: 400
         author: Plato (trans. Jowett)
         publicDomain: true
         links:
@@ -259,21 +277,29 @@ rows:
       - Contrast Stoic apatheia with Christian charity and the theological virtues
     coreTexts:
       - title: A Selection from the Discourses of Epictetus, with the Encheiridion
+        reader: student
+        pages: 132
         author: Epictetus (trans. George Long)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10661" }
       - title: Meditations
+        reader: student
+        pages: 203
         author: Marcus Aurelius (trans. Meric Casaubon)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2680" }
       - title: Moral Letters to Lucilius
+        reader: student
+        pages: 546
         author: Seneca (trans. R.M. Gummere)
         publicDomain: true
         links:
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius" }
       - title: "Tusculan Disputations (Books I, II and V at least)"
+        reader: student
+        pages: 250
         author: Cicero (trans. C. D. Yonge)
         date: "45 BC"
         publicDomain: true
@@ -312,12 +338,16 @@ rows:
       - Write a seminar paper on friendship (Ethics VIII–IX) or on education (Politics VII–VIII)
     coreTexts:
       - title: The Nicomachean Ethics
+        reader: student
+        pages: 300
         author: Aristotle
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/nicomachaen.html" }
       - title: "Politics: A Treatise on Government"
+        reader: student
+        pages: 229
         author: Aristotle (trans. William Ellis)
         publicDomain: true
         links:
@@ -361,18 +391,24 @@ rows:
       - Outline the five ways (ST I q.2 a.3) and one objection and reply for each
     coreTexts:
       - title: The City of God (selections, Books I, XI–XIV, XIX)
+        reader: student
+        pages: 1100
         author: Augustine of Hippo
         publicDomain: true
         links:
           - { label: New Advent, url: "https://www.newadvent.org/fathers/1201.htm" }
           - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/45304" }
       - title: The Consolation of Philosophy
+        reader: student
+        pages: 116
         author: Boethius
         date: "c. 524"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14328" }
       - title: "Summa Theologiae, I q.1–2 (sacred doctrine; the existence of God)"
+        reader: student
+        pages: 15
         author: Thomas Aquinas
         publicDomain: true
         links:
@@ -421,6 +457,8 @@ rows:
       - Evaluate each thinker from the standpoint of Aristotelian-Thomist realism
     coreTexts:
       - title: Discourse on Method; Meditations on First Philosophy
+        reader: student
+        pages: 120
         author: René Descartes (trans. John Veitch)
         date: "1637; 1641"
         publicDomain: true
@@ -428,18 +466,24 @@ rows:
           - { label: "Project Gutenberg (Discourse)", url: "https://www.gutenberg.org/ebooks/59" }
           - { label: "Archive.org (Everyman ed. with Meditations, 1912)", url: "https://archive.org/details/discourseonmetho1912desc" }
       - title: An Essay Concerning Human Understanding (Books I–II selections)
+        reader: student
+        pages: 700
         author: John Locke
         date: "1690"
         publicDomain: true
         links:
           - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/10615" }
       - title: An Enquiry Concerning Human Understanding
+        reader: student
+        pages: 176
         author: David Hume
         date: "1748"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9662" }
       - title: Fundamental Principles of the Metaphysic of Morals (Groundwork)
+        reader: student
+        pages: 80
         author: Immanuel Kant (trans. T.K. Abbott)
         date: "1785"
         publicDomain: true
@@ -489,35 +533,47 @@ rows:
       - Write a seminar paper judging one modern theory by Aristotle's Politics or by natural law
     coreTexts:
       - title: The Prince
+        reader: student
+        pages: 156
         author: Niccolò Machiavelli
         date: "1532"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
       - title: Leviathan (Parts I–II selections)
+        reader: student
+        pages: 500
         author: Thomas Hobbes
         date: "1651"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3207" }
       - title: Second Treatise of Government
+        reader: student
+        pages: 115
         author: John Locke
         date: "1689"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
       - title: The Social Contract & Discourses
+        reader: student
+        pages: 400
         author: Jean-Jacques Rousseau
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46333" }
       - title: Reflections on the Revolution in France (in Works, vol. 3)
+        reader: student
+        pages: 338
         author: Edmund Burke
         date: "1790"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
       - title: Democracy in America
+        reader: student
+        pages: 900
         author: Alexis de Tocqueville (trans. Henry Reeve)
         date: "1835–1840"
         publicDomain: true
@@ -565,18 +621,24 @@ rows:
       - Write an essay on what this program should learn and avoid from Mill's upbringing
     coreTexts:
       - title: Autobiography
+        reader: student
+        pages: 240
         author: John Stuart Mill
         date: "1873"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10378" }
       - title: On Liberty
+        reader: student
+        pages: 176
         author: John Stuart Mill
         date: "1859"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/34901" }
       - title: Utilitarianism
+        reader: student
+        pages: 112
         author: John Stuart Mill
         date: "1863"
         publicDomain: true
@@ -617,24 +679,32 @@ rows:
       - Identify each thinker's influence on present-day politics and culture
     coreTexts:
       - title: The Communist Manifesto
+        reader: student
+        pages: 38
         author: Karl Marx & Friedrich Engels
         date: "1848"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
       - title: Beyond Good and Evil
+        reader: student
+        pages: 224
         author: Friedrich Nietzsche
         date: "1886"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4363" }
       - title: The Genealogy of Morals
+        reader: student
+        pages: 230
         author: Friedrich Nietzsche
         date: "1887"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/52319" }
       - title: Selections from the Writings of Kierkegaard (trans. L.M. Hollander)
+        reader: student
+        pages: 260
         author: Søren Kierkegaard
         date: "trans. 1923"
         publicDomain: true
@@ -676,48 +746,64 @@ rows:
       - Write a seminar paper applying MacIntyre or Pieper to the design of this program
     coreTexts:
       - title: "Leisure: The Basis of Culture (with The Philosophical Act)"
+        reader: student
+        pages: 127
         author: Josef Pieper
         date: "1948; Eng. 1952"
         publicDomain: false
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/leisure-lbcp/" }
       - title: An Introduction to Philosophy
+        reader: student
+        pages: 228
         author: Jacques Maritain
         date: "1931"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/Introduction-Philosophy-Sheed-Ward-Classic/dp/0742550532" }
       - title: The Spirit of Mediaeval Philosophy
+        reader: student
+        pages: 490
         author: Étienne Gilson
         date: "1932; Eng. 1936"
         publicDomain: false
         links:
           - { label: Amazon (Univ. of Notre Dame Press), url: "https://www.amazon.com/Spirit-Mediaeval-Philosophy-Etienne-Gilson/dp/0268017409" }
       - title: "After Virtue: A Study in Moral Theory (3rd ed.)"
+        reader: student
+        pages: 286
         author: Alasdair MacIntyre
         date: "1981; 3rd ed. 2007"
         publicDomain: false
         links:
           - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
       - title: Fides et Ratio (encyclical)
+        reader: student
+        pages: 70
         author: Pope John Paul II
         date: "1998"
         publicDomain: false
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html" }
       - title: The Death of Christian Culture
+        reader: student
+        pages: 193
         author: John Senior
         date: "1978"
         publicDomain: false
         links:
           - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS001" }
       - title: The Restoration of Christian Culture
+        reader: student
+        pages: 244
         author: John Senior
         date: "1983"
         publicDomain: false
         links:
           - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS002" }
       - title: "The End of Education: Redefining the Value of School (elective)"
+        reader: student
+        pages: 209
         author: Neil Postman
         date: "1995"
         publicDomain: false
@@ -760,6 +846,8 @@ rows:
       - Lead a 90-minute seminar with an opening question and sustained follow-up
     coreTexts:
       - title: Metaphysics
+        reader: student
+        pages: 416
         author: Aristotle (trans. W.D. Ross)
         publicDomain: true
         links:
@@ -809,28 +897,38 @@ rows:
       - Match the precepts in Lewis's appendix ("Illustrations of the Tao") to the Decalogue and to Aquinas q.94
     coreTexts:
       - title: "Antigone (in Plays of Sophocles, trans. F. Storr)"
+        reader: student
+        pages: 60
         author: Sophocles
         date: c. 441 BC
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31" }
       - title: "Nicomachean Ethics, Book V (justice)"
+        reader: student
+        pages: 25
         author: Aristotle
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
       - title: "Rhetoric, Book I, ch. 13 (particular and common law)"
+        reader: student
+        pages: 3
         author: Aristotle (trans. W. Rhys Roberts)
         publicDomain: true
         links:
           - { label: "MIT Internet Classics Archive (Book I)", url: "https://classics.mit.edu/Aristotle/rhetoric.1.i.html" }
       - title: "On the Republic (Book III) and On the Laws (Book I), in The Treatises of M. T. Cicero (Yonge trans.)"
+        reader: student
+        pages: 40
         author: Marcus Tullius Cicero
         date: 54–51 BC
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/treatisescicero00ciceuoft" }
       - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law; q. 94 on the natural law)"
+        reader: student
+        pages: 90
         author: St. Thomas Aquinas
         date: c. 1270
         publicDomain: true
@@ -838,54 +936,71 @@ rows:
           - { label: "New Advent (q. 90)", url: "https://www.newadvent.org/summa/2090.htm" }
           - { label: "New Advent (q. 94)", url: "https://www.newadvent.org/summa/2094.htm" }
       - title: "Selections from Three Works (A Treatise on Laws and God the Lawgiver, 1612)"
+        reader: student
+        pages: 1100
         author: Francisco Suárez
         date: "1612–1621"
         publicDomain: true
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/selections-from-three-works" }
       - title: Of the Laws of Ecclesiastical Polity (Book I)
+        reader: student
+        pages: 100
         author: Richard Hooker
         date: "1594"
         publicDomain: true
         links:
           - { label: Archive.org (Everyman ed.), url: "https://archive.org/details/oflawsofecclesia00hook" }
       - title: "The Rights of War and Peace, Book I (with the Preliminary Discourse)"
+        reader: student
         author: Hugo Grotius
         date: "1625"
         publicDomain: true
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/grotius-the-rights-of-war-and-peace-2005-ed-vol-1-book-i" }
       - title: The Whole Duty of Man According to the Law of Nature
+        reader: student
+        pages: 338
         author: Samuel Pufendorf
         date: "1673"
         publicDomain: true
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/tooke-the-whole-duty-of-man-according-to-the-law-of-nature-1673-2003" }
       - title: The Principles of Natural and Politic Law (Nugent trans.)
+        reader: student
+        pages: 530
         author: Jean-Jacques Burlamaqui
         date: "1747–1751"
         publicDomain: true
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/korkman-the-principles-of-natural-and-politic-law" }
       - title: "The Declaration of Independence: A Transcription"
+        reader: student
+        pages: 4
         author: Thomas Jefferson et al.
         date: "1776"
         publicDomain: true
         links:
           - { label: National Archives, url: "https://www.archives.gov/founding-docs/declaration-transcript" }
       - title: "Lectures on Law (in Collected Works, vol. 1; esp. \"Of the Law of Nature\")"
+        reader: student
+        pages: 700
         author: James Wilson
         date: "1790–1791"
         publicDomain: true
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/hall-collected-works-of-james-wilson-vol-1" }
       - title: "Written on the Heart: The Case for Natural Law"
+        reader: student
+        pages: 252
         author: J. Budziszewski
         date: "1997"
         publicDomain: false
         links:
           - { label: InterVarsity Press, url: "https://www.ivpress.com/written-on-the-heart" }
       - title: The Abolition of Man (with the appendix "Illustrations of the Tao")
+        reader: student
+        pages: 117
         author: C.S. Lewis
         date: "1943"
         publicDomain: false
@@ -969,48 +1084,64 @@ rows:
       - Write a seminar paper on a live public controversy that argues from natural law to a reader who rejects it
     coreTexts:
       - title: Man and the State
+        reader: student
+        pages: 219
         author: Jacques Maritain
         date: "1951"
         publicDomain: false
         links:
           - { label: Catholic University of America Press, url: "https://www.cuapress.org/9780813209050/man-and-the-state/" }
       - title: "The First Principle of Practical Reason: A Commentary on the Summa Theologiae, 1-2, Question 94, Article 2"
+        reader: student
+        pages: 42
         author: Germain G. Grisez
         date: "1965"
         publicDomain: false
         links:
           - { label: "Natural Law Forum, Notre Dame Law School (free PDF)", url: "https://scholarship.law.nd.edu/nd_naturallaw_forum/107/" }
       - title: "Natural Law and Natural Rights (2nd ed.)"
+        reader: student
+        pages: 425
         author: John Finnis
         date: "1980; 2nd ed. 2011"
         publicDomain: false
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/natural-law-and-natural-rights-9780199599141" }
       - title: In Defense of Natural Law
+        reader: student
+        pages: 343
         author: Robert P. George
         date: "1999"
         publicDomain: false
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/in-defense-of-natural-law-9780199242993" }
       - title: "What We Can't Not Know: A Guide (rev. ed.)"
+        reader: student
+        pages: 272
         author: J. Budziszewski
         date: "2003; rev. 2011"
         publicDomain: false
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/what-we-cant-not-know-wwcnkp/" }
       - title: "Aquinas: A Beginner's Guide (ch. 5, Ethics)"
+        reader: student
+        pages: 45
         author: Edward Feser
         date: "2009"
         publicDomain: false
         links:
           - { label: Oneworld Publications, url: "https://oneworld-publications.com/work/aquinas/" }
       - title: "A Treatise of Human Nature, Book III, Part I, Section 1 (the is-ought passage)"
+        reader: student
+        pages: 12
         author: David Hume
         date: "1739–1740"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4705" }
       - title: "The Concept of Law (3rd ed.; esp. ch. IX, Laws and Morals)"
+        reader: student
+        pages: 263
         author: H.L.A. Hart
         date: "1961; 3rd ed. 2012"
         publicDomain: false

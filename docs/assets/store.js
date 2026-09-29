@@ -97,6 +97,8 @@
         rowId: book.rowId || '',
         track: book.track || '',
         notes: book.notes || '',
+        pages: +book.pages || null,
+        reader: book.reader || '',
         custom: !!book.custom,
       };
       entry.key = textKey(entry);

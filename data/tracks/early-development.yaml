@@ -37,6 +37,8 @@ rows:
       - Track CDC milestones at 2, 4, 6, 9 and 12 months (social smile, babbling, responding to name, first words) and raise concerns early
     coreTexts:
       - title: The Real Mother Goose
+        reader: together
+        pages: 128
         author: Blanche Fisher Wright (illus.)
         date: "1916"
         publicDomain: true
@@ -135,18 +137,24 @@ rows:
       - By 18–24 months the child fills in the last word of familiar rhymes
     coreTexts:
       - title: The Real Mother Goose
+        reader: together
+        pages: 128
         author: Blanche Fisher Wright (illus.)
         date: "1916"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
       - title: Mother Goose's Nursery Rhymes
+        reader: together
+        pages: 320
         author: Walter Crane, John Tenniel et al. (illus.)
         date: "1877"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/39784" }
       - title: Divine Songs Attempted in Easy Language for the Use of Children
+        reader: together
+        pages: 45
         author: Isaac Watts
         date: "1715"
         publicDomain: true
@@ -184,6 +192,8 @@ rows:
       - By age 3 the child understands everyday commands and songs in both languages and begins to answer in them
     coreTexts:
       - title: Chinese Mother Goose Rhymes
+        reader: together
+        pages: 157
         author: Isaac Taylor Headland (trans.)
         date: "1900"
         publicDomain: true
@@ -223,6 +233,8 @@ rows:
       - By age 3 the child knows the Sign of the Cross, a simple grace, and the first lines of the Our Father and Hail Mary
     coreTexts:
       - title: Divine Songs Attempted in Easy Language for the Use of Children
+        reader: together
+        pages: 45
         author: Isaac Watts
         date: "1715"
         publicDomain: true
@@ -292,12 +304,16 @@ rows:
       - Check CDC milestones at 15, 18, 24 and 30 months, since language delay is the most common early concern
     coreTexts:
       - title: The Tale of Peter Rabbit
+        reader: together
+        pages: 32
         author: Beatrix Potter
         date: "1902"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14838" }
       - title: Orbis Pictus (The Visible World in Pictures)
+        reader: together
+        pages: 200
         author: Johann Amos Comenius
         date: "1658"
         publicDomain: true
@@ -430,12 +446,16 @@ rows:
       - Give real chores suited to age (sorting laundry, feeding pets, carrying groceries)
     coreTexts:
       - title: Home Education
+        reader: teacher
+        pages: 408
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/71087" }
       - title: Some Thoughts Concerning Education
+        reader: teacher
+        pages: 325
         author: John Locke
         date: "1693"
         publicDomain: true
@@ -474,12 +494,16 @@ rows:
       - Daily construction play (unit blocks, puzzles), plus clay, scissors and paste
     coreTexts:
       - title: Dr. Montessori's Own Handbook
+        reader: teacher
+        pages: 121
         author: Maria Montessori
         date: "1914"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29635" }
       - title: The Montessori Method
+        reader: teacher
+        pages: 295
         author: Maria Montessori
         date: "1912"
         publicDomain: true
@@ -622,36 +646,48 @@ rows:
       - Know the core fables and fairy tales by name and moral (the Tortoise and the Hare, Cinderella, the Three Bears, and others)
     coreTexts:
       - title: Aesop's Fables (Jones translation, Rackham illus.)
+        reader: together
+        pages: 224
         author: Aesop
         date: "1912"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11339" }
       - title: A Child's Garden of Verses
+        reader: together
+        pages: 116
         author: Robert Louis Stevenson
         date: "1885"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25609" }
       - title: Grimms' Fairy Tales
+        reader: together
+        pages: 408
         author: Jacob and Wilhelm Grimm
         date: "1812"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2591" }
       - title: The Blue Fairy Book
+        reader: together
+        pages: 330
         author: Andrew Lang (ed.)
         date: "1889"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/503" }
       - title: The Burgess Animal Book for Children
+        reader: together
+        pages: 363
         author: Thornton W. Burgess
         date: "1920"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23708" }
       - title: A Wonder Book and Tanglewood Tales
+        reader: together
+        pages: 294
         author: Nathaniel Hawthorne
         date: "1851–1853"
         publicDomain: true
@@ -696,6 +732,8 @@ rows:
       - By 6, the child follows stories and holds simple conversations in both languages
     coreTexts:
       - title: Chinese Mother Goose Rhymes
+        reader: together
+        pages: 157
         author: Isaac Taylor Headland (trans.)
         date: "1900"
         publicDomain: true
@@ -737,12 +775,16 @@ rows:
       - Formal swim lessons (see physical-training-01) and supervised climbing, balancing and rough-and-tumble play
     coreTexts:
       - title: Handbook of Nature-Study
+        reader: teacher
+        pages: 938
         author: Anna Botsford Comstock
         date: "1911"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/78142" }
       - title: Home Education (Part II, Out-of-Door Life for the Children)
+        reader: teacher
+        pages: 55
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -792,6 +834,8 @@ rows:
         notes: The gentler alternative. Delay formal lessons to 6 and keep to read-alouds, nature and habits.
     coreTexts:
       - title: McGuffey's Eclectic Primer and First Reader
+        reader: together
+        pages: 160
         author: William Holmes McGuffey
         date: "1836 (rev. 1879)"
         publicDomain: true

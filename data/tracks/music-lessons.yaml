@@ -37,6 +37,8 @@ rows:
       - Complete a primer and first level of a method series and play in a studio recital
     coreTexts:
       - title: "Piano Adventures: Primer Level Lesson Book (2nd ed.)"
+        reader: student
+        pages: 41
         author: Nancy and Randall Faber
         publicDomain: false
         links:
@@ -128,18 +130,22 @@ rows:
       - Play 10 or more hymns from the hymnal in four parts at a steady congregational tempo
     coreTexts:
       - title: Notebooks for Anna Magdalena Bach
+        reader: student
         author: Johann Sebastian Bach and others
         date: "1722–1725"
         publicDomain: true
         links:
           - { label: IMSLP, url: "https://imslp.org/wiki/Notebooks_for_Anna_Magdalena_Bach_(Bach,_Johann_Sebastian)" }
       - title: "Six Sonatinas, Op. 36"
+        reader: student
+        pages: 36
         author: Muzio Clementi
         date: "1797"
         publicDomain: true
         links:
           - { label: IMSLP, url: "https://imslp.org/wiki/6_Sonatinas,_Op.36_(Clementi,_Muzio)" }
       - title: "Improve Your Sight-Reading! Piano (graded series)"
+        reader: student
         author: Paul Harris
         publicDomain: false
         links:
@@ -184,16 +190,22 @@ rows:
       - Play in a beginning string orchestra, band or group class by the end of the row
     coreTexts:
       - title: "Suzuki Violin School, Volume 1 (rev. ed.)"
+        reader: student
+        pages: 48
         author: Shinichi Suzuki
         publicDomain: false
         links:
           - { label: Alfred Music, url: "https://www.alfred.com/suzuki-violin-school-volume-1/p/00-0144S/" }
       - title: Essential Elements for Strings, Book 1
+        reader: student
+        pages: 48
         author: Michael Allen, Robert Gillespie and Pamela Tellejohn Hayes
         publicDomain: false
         links:
           - { label: Hal Leonard, url: "https://www.halleonard.com/ee/strings/book1.jsp" }
       - title: Essential Elements for Band, Book 1
+        reader: student
+        pages: 48
         author: Tim Lautzenheiser and others
         publicDomain: false
         links:
@@ -280,11 +292,13 @@ rows:
       - Learn 6 or more simple art songs or early Italian arias and perform in a studio recital
     coreTexts:
       - title: "Fifty Lessons, Op. 9"
+        reader: student
         author: Giuseppe Concone
         publicDomain: true
         links:
           - { label: IMSLP, url: "https://imslp.org/wiki/50_Le%C3%A7ons_de_chant,_Op.9_(Concone,_Giuseppe)" }
       - title: "24 Italian Songs and Arias of the 17th and 18th Centuries"
+        reader: student
         author: G. Schirmer (ed.)
         publicDomain: false
         links:
@@ -328,12 +342,15 @@ rows:
       - Sight-read hymns, accompaniments and simple choral scores fluently
     coreTexts:
       - title: "Inventions and Sinfonias, BWV 772–801"
+        reader: student
+        pages: 78
         author: Johann Sebastian Bach
         date: "1723"
         publicDomain: true
         links:
           - { label: IMSLP, url: "https://imslp.org/wiki/15_Inventions,_BWV_772-786_(Bach,_Johann_Sebastian)" }
       - title: "Sonatinas, Op. 20 and Op. 55"
+        reader: student
         author: Friedrich Kuhlau
         date: "1820–1823"
         publicDomain: true
@@ -341,12 +358,14 @@ rows:
           - { label: "IMSLP (Op. 20)", url: "https://imslp.org/wiki/3_Sonatinas,_Op.20_(Kuhlau,_Friedrich)" }
           - { label: "IMSLP (Op. 55)", url: "https://imslp.org/wiki/6_Sonatinas,_Op.55_(Kuhlau,_Friedrich)" }
       - title: 32 Piano Sonatas
+        reader: student
         author: Ludwig van Beethoven
         date: "1795–1822"
         publicDomain: true
         links:
           - { label: IMSLP, url: "https://imslp.org/wiki/Piano_Sonatas_(Beethoven,_Ludwig_van)" }
       - title: "Preludes, Op. 28, and Nocturnes, Op. 9"
+        reader: student
         author: Frédéric Chopin
         date: "1832–1839"
         publicDomain: true
@@ -393,6 +412,7 @@ rows:
       - Attend a Pipe Organ Encounter or similar summer course, and play for a parish Mass
     coreTexts:
       - title: "Eight Short Preludes and Fugues, BWV 553–560 (attrib. Bach)"
+        reader: student
         author: Johann Sebastian Bach (attrib.)
         publicDomain: true
         links:
@@ -473,6 +493,7 @@ rows:
       - Cantor regularly at Mass, including the psalm and chant intonations from the Parish Book of Chant
     coreTexts:
       - title: The Parish Book of Chant (2nd ed.)
+        reader: student
         author: Church Music Association of America
         date: "2012"
         publicDomain: false

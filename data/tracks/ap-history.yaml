@@ -47,6 +47,7 @@ rows:
       - Score his own and released sample essays against the College Board rubrics, and agree with the official scores within one point
     coreTexts:
       - title: "AP U.S. History Course and Exam Description (effective fall 2026): skills, reasoning processes and rubrics"
+        reader: teacher
         author: College Board
         date: "2026"
         publicDomain: false
@@ -54,6 +55,7 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
           - { label: "AP History Exam Updates (May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-history-exam-updates" }
       - title: "Released free-response questions, scoring guidelines and sample student responses"
+        reader: student
         author: College Board
         publicDomain: false
         links:
@@ -110,12 +112,12 @@ rows:
     ageEnd: 15.5
     order: 2
     prerequisites: [ap-history-01]
-    related: [history-13, history-14, history-23, history-24, civics-law-11, civics-law-12, literature-27, spanish-07, economics-06]
+    related: [history-13, history-14, history-23, civics-law-11, civics-law-12, literature-27, spanish-07, economics-06]
     exams: [ap-us-history]
     summary: >-
       AP-specific content for the first half of the AP U.S. History CED. It covers Unit 1 (Period 1,
       1491–1607), Unit 2 (1607–1754), Unit 3 (1754–1800) and Unit 4 (1800–1848), read alongside
-      history-13, history-14, history-23 and history-24. Those seminars already give the founding in
+      history-13, history-14 and history-23. Those seminars already give the founding in
       the founders' own words. This row adds the survey breadth and the College Board's framing
       across its eight themes (American and national identity, work and technology, geography,
       migration, politics and power, America in the world, culture, social structures). It adds
@@ -131,6 +133,7 @@ rows:
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from Periods 1–4
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 1–4"
+        reader: teacher
         author: College Board
         date: "effective fall 2026"
         publicDomain: false
@@ -138,18 +141,24 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
           - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-united-states-history" }
       - title: "The American Pageant, AP Edition (18th ed.)"
+        reader: student
+        pages: 1150
         author: David M. Kennedy & Margaret O'Mara
         date: "2025"
         publicDomain: false
         links:
           - { label: Cengage (National Geographic Learning), url: "https://ngl.cengage.com/products/9798214071107" }
       - title: "Give Me Liberty! An American History, AP Edition (7th ed.) (alternative survey text)"
+        reader: student
+        pages: 1350
         author: Eric Foner et al.
         date: "2024"
         publicDomain: false
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/9781324071396" }
       - title: "Land of Hope: An Invitation to the Great American Story (counterweight survey), with the Teacher's Guide and Student Workbook"
+        reader: student
+        pages: 504
         author: Wilfred M. McClay
         date: "2019; rev. ed."
         publicDomain: false
@@ -159,12 +168,14 @@ rows:
           - { label: "Student Workbook (primary sources per chapter)", url: "https://www.encounterbooks.com/books/student-workbook-land-hope/" }
           - { label: Land of Hope education site, url: "https://landofhope.education/" }
       - title: "The American Yawp and The American Yawp Reader (free)"
+        reader: student
         author: Joseph Locke & Ben Wright (eds.)
         publicDomain: false
         links:
           - { label: Text, url: "https://www.americanyawp.com/text/" }
           - { label: Reader (primary sources), url: "https://www.americanyawp.com/reader/" }
       - title: "Modern History Sourcebook: Colonial North America; Colonial Latin America; Early US"
+        reader: student
         publicDomain: true
         links:
           - { label: Colonial North America, url: "https://sourcebooks.fordham.edu/mod/modsbook07.asp" }
@@ -201,7 +212,7 @@ rows:
       exam. The CED's periods overlap (Period 4 ends 1848 and Period 5 begins 1844), so this row runs to 1848.
       What the main track already covers: the colonial charters, Bradford, Winthrop, the Mayflower
       Compact (history-13); the Declaration, Constitution, Federalist and Farewell (history-14,
-      history-23, civics-law-11); Tocqueville and the Webster–Calhoun debate (history-24,
+      history-23, civics-law-11); Tocqueville and the Webster–Calhoun debate (history-23,
       civics-law-12); New Spain through Bernal Díaz and Las Casas (spanish-07). What the AP adds:
       pre-contact Native societies and the Columbian Exchange; comparative colonization; the
       Atlantic economy and slavery as a labor system; colonial social history (indentured servants,
@@ -230,12 +241,12 @@ rows:
     ageEnd: 16
     order: 3
     prerequisites: [ap-history-02]
-    related: [history-24, history-26, history-27, history-28, history-31, civics-law-14, economics-09, social-science-07, literature-28, literature-29]
+    related: [history-23, history-26, history-28, history-31, civics-law-14, economics-09, social-science-07, literature-28, literature-29]
     exams: [ap-us-history]
     summary: >-
       AP-specific content for the second half of the AP U.S. History CED. It covers Unit 5 (Period 5,
       1844–1877), Unit 6 (1865–1898), Unit 7 (1890–1945), Unit 8 (1945–1980) and Unit 9 (1980–present),
-      read alongside history-24, history-26 and history-27, and ending in the May exam at about 16. The
+      read alongside history-23 and history-26, and ending in the May exam at about 16. The
       main track treats the Civil War, the World Wars, the Cold War and civil rights through their
       great documents. The AP adds what a documents course passes over: Manifest Destiny and the
       Mexican War, Reconstruction's aftermath, the settlement and conquest of the West, the Gilded
@@ -252,6 +263,7 @@ rows:
       - Sit a full-length released or practice exam under timed conditions before the May exam
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 5–9"
+        reader: teacher
         author: College Board
         date: "effective fall 2026"
         publicDomain: false
@@ -259,36 +271,46 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
           - { label: "CED clarifications", url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description-clarifications.pdf" }
       - title: "The American Pageant, AP Edition (18th ed.), or Give Me Liberty!, AP Edition (7th ed.)"
+        reader: student
+        pages: 1150
         author: Kennedy & O'Mara; Foner et al.
         publicDomain: false
         links:
           - { label: "Cengage: The American Pageant", url: "https://ngl.cengage.com/products/9798214071107" }
           - { label: "Norton: Give Me Liberty!", url: "https://wwnorton.com/books/9781324071396" }
       - title: "Land of Hope (counterweight survey), with the Teacher's Guide"
+        reader: student
+        pages: 504
         author: Wilfred M. McClay
         publicDomain: false
         links:
           - { label: Encounter Books, url: "https://www.encounterbooks.com/books/land-of-hope-revised_edition/" }
           - { label: "A Teacher's Guide to Land of Hope", url: "https://www.encounterbooks.com/books/teachers-guide-land-hope/" }
       - title: The Frontier in American History (incl. "The Significance of the Frontier in American History," 1893)
+        reader: student
+        pages: 375
         author: Frederick Jackson Turner
         date: "1920"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/22994" }
       - title: How the Other Half Lives
+        reader: student
+        pages: 251
         author: Jacob A. Riis
         date: "1890"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45502" }
       - title: "Modern History Sourcebook: US Immigration; US Power; US Society"
+        reader: student
         publicDomain: true
         links:
           - { label: US Immigration, url: "https://sourcebooks.fordham.edu/mod/modsbook28.asp" }
           - { label: US Power, url: "https://sourcebooks.fordham.edu/mod/modsbook47.asp" }
           - { label: US Society, url: "https://sourcebooks.fordham.edu/mod/modsbook48.asp" }
       - title: The American Yawp Reader (Periods 5–9 documents)
+        reader: student
         publicDomain: false
         links:
           - { label: American Yawp Reader, url: "https://www.americanyawp.com/reader/" }
@@ -320,13 +342,13 @@ rows:
       - { label: "AP U.S. History Exam (format and May 2027 changes)", url: "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam" }
       - { label: "Princeton Review AP U.S. History Premium Prep, 26th ed.", url: "https://www.penguinrandomhouse.com/books/807044/princeton-review-ap-us-history-premium-prep-26th-edition-by-the-princeton-review/" }
     notes: >-
-      AP-specific content, read alongside the main track. Timing: history-27 (Cold War and civil
+      AP-specific content, read alongside the main track. Timing: history-26 (Cold War and civil
       rights) runs 16–16.5 in the main track, so Periods 8–9 are learned here first in survey form
       and then read in depth in the seminar. Read Kennan's Long Telegram and King's Letter from
-      history-27 early if possible, since both are standard AP documents. What the main track
+      history-26 early if possible, since both are standard AP documents. What the main track
       already covers: Tocqueville, Webster–Calhoun, Douglass, Lincoln–Douglas and Lincoln's speeches
-      (history-24); Wilson's Fourteen Points, the Atlantic Charter and the World Wars (history-26);
-      containment, King and Reagan (history-27); landmark cases (civics-law-14); Hayek and Sowell
+      (history-23); Wilson's Fourteen Points, the Atlantic Charter and the World Wars (history-26);
+      containment, King and Reagan (history-26); landmark cases (civics-law-14); Hayek and Sowell
       (economics-09). What the AP adds: the West and Native American policy; immigration and
       nativism; the Gilded Age economy, labor and Populism; Progressivism as a movement (the main
       track meets it mainly as a critique of the founding at 17, history-31); the New Deal's
@@ -350,7 +372,7 @@ rows:
     ageEnd: 16.5
     order: 4
     prerequisites: [ap-history-01]
-    related: [history-21, history-22, history-25, history-26, history-27, history-30, philosophy-09, philosophy-10, philosophy-12, natural-science-15, physics-02, economics-06, economics-08, literature-30]
+    related: [history-21, history-22, history-25, history-26, history-30, philosophy-09, philosophy-10, philosophy-12, natural-science-15, physics-02, economics-06, economics-08, literature-30]
     exams: [ap-european-history]
     summary: >-
       AP-specific preparation for AP European History, read alongside the main track's European
@@ -372,32 +394,41 @@ rows:
       - Complete progress checks for Units 1–9, two timed DBQs, and one full practice exam
     coreTexts:
       - title: AP European History Course and Exam Description
+        reader: teacher
         author: College Board
         publicDomain: false
         links:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-european-history-course-and-exam-description.pdf" }
           - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-european-history" }
       - title: "A History of Western Society Since 1300 for the AP® Course (13th ed.)"
+        reader: student
+        pages: 1000
         author: John P. McKay et al.
         publicDomain: false
         links:
           - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/A-History-of-Western-Society-Since-1300-for-the-AP-Course/p/1319221637" }
       - title: A History of Europe in the Modern World (alternative survey text)
+        reader: student
+        pages: 1100
         author: R. R. Palmer, Joel Colton & Lloyd Kramer
         publicDomain: false
         links:
           - { label: McGraw Hill, url: "https://www.mheducation.com/highered/product/a-history-of-europe-in-the-modern-world-kramer.html" }
       - title: "The Western Heritage (alternative survey text)"
+        reader: student
+        pages: 1100
         author: Donald Kagan, Steven Ozment, Frank M. Turner et al.
         publicDomain: false
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/western-heritage-the-combined-volume/P200000002916/9780137497799" }
       - title: "The Golden Thread: A History of the Western Tradition (counterweight)"
+        reader: student
         author: Allen C. Guelzo & James Hankins
         publicDomain: false
         links:
           - { label: Encounter Books, url: "https://www.encounterbooks.com/books/golden-thread-history-western-tradition-2/" }
       - title: "Modern History Sourcebook: Early Modern World; Scientific Revolution; Enlightenment; Enlightened Despots; Industrial Revolution; Western and Eastern Europe Since 1945"
+        reader: student
         publicDomain: true
         links:
           - { label: Early Modern World, url: "https://sourcebooks.fordham.edu/mod/modsbook03.asp" }
@@ -408,6 +439,8 @@ rows:
           - { label: Western Europe Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook49.asp" }
           - { label: Eastern Europe Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook50.asp" }
       - title: The Schuman Declaration
+        reader: student
+        pages: 2
         author: Robert Schuman
         date: "9 May 1950"
         publicDomain: false
@@ -442,7 +475,7 @@ rows:
       (Renaissance, Reformation) use history-22. Unit 3 (constitutionalism) uses history-21, and Unit 4
       uses philosophy-09 and philosophy-10 for the Enlightenment ideas and natural-science-15 and physics-02 for Copernicus to Newton.
       Units 5–7 (French Revolution to 1914) use history-25, economics-06 and economics-08. Units 8–9 use
-      history-26 and history-27. Gaps the AP fills: exploration and the Commercial Revolution; absolutism in France, Russia,
+      history-26. Gaps the AP fills: exploration and the Commercial Revolution; absolutism in France, Russia,
       Austria and Prussia; the Dutch Republic; the Scientific Revolution and Enlightenment as social
       history; 18th-century wars and Napoleon in detail; the agricultural and industrial
       revolutions and their social effects; women and the family; the Russian Revolution; and
@@ -466,7 +499,7 @@ rows:
     ageEnd: 16.5
     order: 5
     prerequisites: [ap-history-01]
-    related: [spanish-07, chinese-10, chinese-12, chinese-13, history-13, history-20, history-22]
+    related: [spanish-07, chinese-10, chinese-12, chinese-13, history-13, history-19, history-22]
     exams: [ap-world-history-modern]
     summary: >-
       AP-specific content that needs the most new reading in this program, because the main track
@@ -486,51 +519,67 @@ rows:
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from c. 1200–1750
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 1–4"
+        reader: teacher
         author: College Board
         publicDomain: false
         links:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf" }
           - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-world-history" }
       - title: "Ways of the World for the AP® World History Modern Course Since 1200 C.E. (5th ed.)"
+        reader: student
+        pages: 900
         author: Robert W. Strayer & Eric W. Nelson
         publicDomain: false
         links:
           - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
       - title: "Traditions & Encounters: A Global Perspective on the Past, AP Edition (7th ed.) (alternative survey text)"
+        reader: student
+        pages: 1200
         author: Jerry H. Bentley et al.
         date: "2023"
         publicDomain: false
         links:
           - { label: McGraw Hill, url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
       - title: Travels in Asia and Africa, 1325–1354 (selections)
+        reader: student
+        pages: 380
         author: Ibn Battuta (tr. H. A. R. Gibb)
         publicDomain: true
         links:
           - { label: Medieval Sourcebook (Fordham), url: "https://sourcebooks.fordham.edu/source/1354-ibnbattuta.asp" }
       - title: Inscriptions of Zheng He (Liujiagang and Changle, 1431)
+        reader: student
+        pages: 3
         author: Zheng He
         date: "1431"
         links:
           - { label: Oregon State Open Textbook, url: "https://open.oregonstate.education/middleearlymodernages/chapter/inscriptions-of-zheng-he/" }
       - title: The Memoirs of the Conquistador Bernal Díaz del Castillo (already read in spanish-07)
+        reader: student
+        pages: 800
         author: Bernal Díaz del Castillo (tr. Lockhart)
         date: "c. 1568"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32474" }
       - title: "Florentine Codex, Book XII (the Mexica account of the conquest)"
+        reader: student
+        pages: 120
         author: Bernardino de Sahagún and Nahua informants
         date: "c. 1545–1590"
         publicDomain: true
         links:
           - { label: Digital Florentine Codex (Getty), url: "https://florentinecodex.getty.edu/" }
       - title: The Bābur-nāma in English (Memoirs of Babur)
+        reader: student
+        pages: 880
         author: Babur (tr. A. S. Beveridge)
         date: "c. 1530"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44608" }
       - title: "Internet Islamic, East Asian, Indian and African History Sourcebooks"
+        reader: student
         publicDomain: true
         links:
           - { label: Islamic, url: "https://sourcebooks.fordham.edu/islam/islamsbook.asp" }
@@ -570,7 +619,7 @@ rows:
       Bernal Díaz and Las Casas on the conquest of Mexico (spanish-07); Ricci and the Ming–Qing Jesuit
       mission (chinese-10); the Confucian classics in the original (chinese-12, chinese-13); Columbus
       and the European side of exploration (history-13, history-22); the Crusades from the Latin side
-      (history-20). Everything else here is new: the program nowhere else treats Islamic
+      (history-19). Everything else here is new: the program nowhere else treats Islamic
       civilization, sub-Saharan Africa, India, the Mongols, the steppe or the pre-Columbian states as
       subjects in their own right. Slants: Strayer and Bentley are both explicitly global and
       comparative. They treat Europe as one civilization among several, favor social, economic and
@@ -591,7 +640,7 @@ rows:
     ageEnd: 17
     order: 6
     prerequisites: [ap-history-05]
-    related: [history-25, history-26, history-27, economics-08, economics-09, chinese-11, civics-law-15, theology-20]
+    related: [history-25, history-26, economics-08, economics-09, chinese-11, civics-law-15, theology-20]
     exams: [ap-world-history-modern]
     summary: >-
       The second half of AP World History: Modern, ending in the May exam at about 17. It covers CED Unit 5
@@ -611,34 +660,44 @@ rows:
       - Sit a full-length released or practice exam under timed conditions before the May exam
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 5–9"
+        reader: teacher
         author: College Board
         publicDomain: false
         links:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf" }
       - title: "Ways of the World for the AP® Modern Course (5th ed.), or Traditions & Encounters, AP Edition (7th ed.)"
+        reader: student
+        pages: 900
         author: Strayer & Nelson; Bentley et al.
         publicDomain: false
         links:
           - { label: "BFW: Ways of the World", url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
           - { label: "McGraw Hill: Traditions & Encounters", url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
       - title: Letter to the King of England (George III)
+        reader: student
+        pages: 5
         author: Qianlong Emperor
         date: "1793"
         publicDomain: true
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1793qianlong.asp" }
       - title: Letter to Queen Victoria
+        reader: student
+        pages: 4
         author: Lin Zexu
         date: "1839"
         publicDomain: true
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1839lin2.asp" }
       - title: Declaration of Independence of the Democratic Republic of Vietnam
+        reader: student
+        pages: 3
         author: Ho Chi Minh
         date: "1945"
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1945vietnam.asp" }
       - title: "Modern History Sourcebook: 19C Latin America; Imperialism; Industrial Revolution II; Decolonization; Asia Since 1900; Africa Since 1945"
+        reader: student
         publicDomain: true
         links:
           - { label: 19C Latin America, url: "https://sourcebooks.fordham.edu/mod/modsbook32.asp" }
@@ -648,6 +707,8 @@ rows:
           - { label: Asia Since 1900, url: "https://sourcebooks.fordham.edu/mod/modsbook52.asp" }
           - { label: Africa Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook53.asp" }
       - title: "Conquests and Cultures: An International History (counterweight)"
+        reader: student
+        pages: 493
         author: Thomas Sowell
         publicDomain: false
         links:
@@ -684,7 +745,7 @@ rows:
     notes: >-
       AP-specific content, read alongside the main track. What the main track covers: the French
       Revolution, 1848, Marx and Rerum Novarum (history-25); the World Wars and totalitarianism
-      (history-26, history-27); Smith, Marx, Hayek and Sowell (economics-06, economics-08,
+      (history-26); Smith, Marx, Hayek and Sowell (economics-06, economics-08,
       economics-09). What the AP adds: the Haitian and Latin American revolutions; imperialism from
       the colonized side; industrialization outside Europe; Chinese history from the Opium Wars to Mao
       and Deng; decolonization and the Cold War in the Global South; and globalization. The Chinese

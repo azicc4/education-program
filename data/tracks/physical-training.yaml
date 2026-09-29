@@ -135,18 +135,24 @@ rows:
       - Earn first-aid certification and know wilderness responses to cold, heat, sprains and bleeding
     coreTexts:
       - title: Boy Scouts Handbook (1911 original edition)
+        reader: student
+        pages: 450
         author: Boy Scouts of America
         date: "1911"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29558" }
       - title: The Book of Camp-Lore and Woodcraft
+        reader: student
+        pages: 270
         author: Daniel Carter Beard
         date: "1920"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44215" }
       - title: Woodcraft and Camping
+        reader: student
+        pages: 87
         author: George Washington Sears ("Nessmuk")
         date: "1884"
         publicDomain: true
@@ -188,6 +194,8 @@ rows:
       - Read selections of Ascham's Toxophilus on archery as a gentleman's exercise
     coreTexts:
       - title: Toxophilus (ed. Edward Arber)
+        reader: student
+        pages: 169
         author: Roger Ascham
         date: "1545"
         publicDomain: true
@@ -231,6 +239,8 @@ rows:
       - Read Xenophon's On Horsemanship and compare it with modern practice
     coreTexts:
       - title: On Horsemanship (trans. H. G. Dakyns)
+        reader: student
+        pages: 45
         author: Xenophon
         date: "c. 350 BC"
         publicDomain: true
@@ -323,6 +333,8 @@ rows:
       - Serve as captain or assistant coach of a younger team by 15–16
     coreTexts:
       - title: Tom Brown's School Days
+        reader: student
+        pages: 336
         author: Thomas Hughes
         date: "1857"
         publicDomain: true
@@ -396,6 +408,8 @@ rows:
       - Show self-control in anger, respect for opponents, and willingness to lose and learn
     coreTexts:
       - title: Laws (Book VII, on wrestling and gymnastic training)
+        reader: student
+        pages: 50
         author: Plato (trans. Benjamin Jowett)
         date: "c. 348 BC"
         publicDomain: true
@@ -434,6 +448,8 @@ rows:
       - Read selections of Angelo's School of Fencing and compare classical and modern technique
     coreTexts:
       - title: The School of Fencing
+        reader: student
+        pages: 105
         author: Domenico Angelo
         date: "1763 (English ed. 1787)"
         publicDomain: true
@@ -473,6 +489,8 @@ rows:
       - Understand the basics of recovery, sleep and nutrition for training
     coreTexts:
       - title: "Starting Strength: Basic Barbell Training (3rd ed.)"
+        reader: student
+        pages: 347
         author: Mark Rippetoe
         date: "2011"
         publicDomain: false

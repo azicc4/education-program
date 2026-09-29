@@ -64,7 +64,7 @@ entries:
     tracks: [civics-law]
   - text: "Skipwith list (1771): ancient history in Livy, Tacitus, Plutarch's Lives and Josephus. Modern history in Hume's History of England and Robertson"
     use: [reference, student]
-    units: [history-09, history-17, history-21, character-virtue-06]
+    units: [history-09, history-16, history-21, character-virtue-06]
     search: Plutarch
     tracks: [history]
   # --- Peter Carr, 1785 ---

@@ -135,6 +135,8 @@ rows:
       - Tell time, count money and measure length
     coreTexts:
       - title: Ray's New Primary Arithmetic for Young Learners
+        reader: together
+        pages: 102
         author: Joseph Ray
         date: "1877"
         publicDomain: true
@@ -189,6 +191,8 @@ rows:
       - Compute with fractions of simple quantities mentally
     coreTexts:
       - title: Ray's New Intellectual Arithmetic
+        reader: together
+        pages: 141
         author: Joseph Ray
         date: "1877"
         publicDomain: true
@@ -233,6 +237,8 @@ rows:
       - Compute area, perimeter and volume of basic figures
     coreTexts:
       - title: Ray's New Practical Arithmetic
+        reader: student
+        pages: 338
         author: Joseph Ray
         date: "1877"
         publicDomain: true
@@ -294,6 +300,8 @@ rows:
       - Explain why arithmetic rules work, not just how
     coreTexts:
       - title: Ray's New Higher Arithmetic
+        reader: student
+        pages: 408
         author: Joseph Ray
         date: "1880"
         publicDomain: true
@@ -349,6 +357,8 @@ rows:
         notes: National middle-school competition. Free problem archives.
     coreTexts:
       - title: Essays on the Theory of Numbers
+        reader: together
+        pages: 115
         author: Richard Dedekind
         date: "1872/1888"
         publicDomain: true
@@ -428,6 +438,8 @@ rows:
       - Solve modern geometry problems on congruence, similarity, area and circles
     coreTexts:
       - title: "Elements, Books I–VI (Heath translation)"
+        reader: student
+        pages: 250
         author: Euclid, trans. T. L. Heath
         date: "c. 300 BC (trans. 1908)"
         publicDomain: true
@@ -435,12 +447,16 @@ rows:
           - { label: Perseus Digital Library, url: "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0086" }
           - { label: "David Joyce's Elements (Clark University)", url: "https://mathcs.clarku.edu/~djoyce/elements/elements.html" }
       - title: The First Six Books of the Elements of Euclid (colored diagrams)
+        reader: student
+        pages: 268
         author: Oliver Byrne
         date: "1847"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/firstsixbooksofe00byrn" }
       - title: The First Six Books of the Elements of Euclid
+        reader: student
+        pages: 320
         author: John Casey
         date: "1880s"
         publicDomain: true
@@ -497,6 +513,8 @@ rows:
       - Sum arithmetic and geometric series and use induction informally
     coreTexts:
       - title: Algebra
+        reader: student
+        pages: 153
         author: I. M. Gelfand and A. Shen
         date: "1993"
         publicDomain: false
@@ -550,18 +568,24 @@ rows:
       - Explain the Pythagorean/Nicomachean classification of numbers
     coreTexts:
       - title: The First Six Books of the Elements of Euclid
+        reader: student
+        pages: 268
         author: Oliver Byrne
         date: "1847"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/firstsixbooksofe00byrn" }
       - title: The Works of Archimedes
+        reader: student
+        pages: 326
         author: Archimedes, ed. T. L. Heath
         date: "1897"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/worksofarchimede029517mbp" }
       - title: Introduction to Arithmetic
+        reader: student
+        pages: 286
         author: Nicomachus of Gerasa (trans. M. L. D'Ooge)
         date: "c. AD 100 (trans. 1926)"
         publicDomain: true
@@ -599,18 +623,24 @@ rows:
       - Use vectors and matrices for basic geometric problems
     coreTexts:
       - title: Trigonometry
+        reader: student
+        pages: 229
         author: I. M. Gelfand and M. Saul
         date: "2001"
         publicDomain: false
         links:
           - { label: Springer (Birkhäuser), url: "https://link.springer.com/book/10.1007/978-1-4612-0149-6" }
       - title: The Method of Coordinates
+        reader: student
+        pages: 69
         author: I. M. Gelfand, E. G. Glagoleva, A. A. Kirillov
         date: "1990"
         publicDomain: false
         links:
           - { label: Springer (Birkhäuser), url: "https://link.springer.com/book/9780817635336" }
       - title: Functions and Graphs
+        reader: student
+        pages: 109
         author: I. M. Gelfand, E. G. Glagoleva, E. E. Shnol
         date: "1990"
         publicDomain: false
@@ -802,6 +832,8 @@ rows:
       - Critique and revise proofs for rigor and clarity
     coreTexts:
       - title: "How to Prove It: A Structured Approach"
+        reader: student
+        pages: 480
         author: Daniel J. Velleman
         date: "2019 (3rd ed.)"
         publicDomain: false
@@ -838,12 +870,16 @@ rows:
       - Sit the AP Calculus BC exam in May at about 15
     coreTexts:
       - title: Calculus Made Easy
+        reader: student
+        pages: 265
         author: Silvanus P. Thompson
         date: "1910"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33283" }
       - title: "The Mathematical Principles of Natural Philosophy (Principia), Book I §1"
+        reader: together
+        pages: 12
         author: Isaac Newton, trans. Andrew Motte
         date: "1687 (trans. 1729)"
         publicDomain: true
@@ -1005,6 +1041,8 @@ rows:
       - Explain Dedekind's construction of the real numbers by cuts
     coreTexts:
       - title: The Geometry of René Descartes (Smith & Latham trans.)
+        reader: student
+        pages: 245
         author: René Descartes
         date: "1637 (trans. 1925)"
         publicDomain: true
@@ -1012,18 +1050,24 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/geometryofrenede0000unse_y3h6" }
           - { label: "Project Gutenberg (French)", url: "https://www.gutenberg.org/ebooks/26400" }
       - title: Geometrical Researches on the Theory of Parallels
+        reader: student
+        pages: 52
         author: Nikolai Lobachevsky, trans. G. B. Halsted
         date: "1840 (trans. 1891)"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/geometricalresea00loba" }
       - title: Essays on the Theory of Numbers
+        reader: student
+        pages: 115
         author: Richard Dedekind
         date: "1872/1888"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21016" }
       - title: Principia
+        reader: student
+        pages: 680
         author: Isaac Newton, trans. Andrew Motte
         date: "1687"
         publicDomain: true

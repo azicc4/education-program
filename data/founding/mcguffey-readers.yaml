@@ -57,7 +57,7 @@ entries:
     tracks: [rhetoric, history, civics-law]
   - text: "Daniel Webster: 'Supposed Speech of John Adams' (Fifth); 'Massachusetts and South Carolina' (Reply to Hayne), 'Speech on the Trial of a Murderer', 'Importance of the Union' (Sixth)"
     use: [reference, student]
-    units: [literature-07, rhetoric-08, history-24]
+    units: [literature-07, rhetoric-08, history-23]
     search: Webster
     tracks: [rhetoric, civics-law, history]
   - text: "Walpole's rebuke and Pitt's reply; Grattan on Pitt; Burke's 'Destruction of the Carnatic'; Macaulay on Warren Hastings (Sixth)"

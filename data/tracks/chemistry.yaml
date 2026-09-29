@@ -32,6 +32,8 @@ rows:
       - Reconstruct Lavoisier's argument against phlogiston and Dalton's case for atoms and relative weights
     coreTexts:
       - title: Elements of Chemistry
+        reader: student
+        pages: 568
         author: Antoine Lavoisier, trans. Robert Kerr
         date: "1789 (trans. 1790)"
         publicDomain: true
@@ -39,12 +41,16 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30775" }
           - { label: "Green Lion Press guided edition (A New Foundation for Chemistry, Simon & Schuster)", url: "https://www.simonandschuster.com/books/A-New-Foundation-for-Chemistry/Antoine-Lavoisier/9781888009545" }
       - title: A New System of Chemical Philosophy, vol. 1
+        reader: student
+        pages: 220
         author: John Dalton
         date: "1808"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/newsystemofchemi01daltuoft" }
       - title: "Chemistry: Atoms First 2e (free reference text)"
+        reader: student
+        pages: 1326
         author: OpenStax
         date: "2019"
         publicDomain: false
@@ -109,18 +115,22 @@ rows:
       - Complete the six guided-inquiry labs required for AP Chemistry, plus traditional labs, before the May exam
     coreTexts:
       - title: "Illustrated Guide to Home Chemistry Experiments: All Lab, No Lecture"
+        reader: student
+        pages: 432
         author: Robert Bruce Thompson
         date: "2008"
         publicDomain: false
         links:
           - { label: Bookshop.org, url: "https://bookshop.org/p/books/illustrated-guide-to-home-chemistry-experiments-all-lab-no-lecture-robert-bruce-thompson/fc1f229972bdf620" }
       - title: Guidelines for Chemical Laboratory Safety in Secondary Schools
+        reader: teacher
         author: American Chemical Society, Committee on Chemical Safety
         date: current ed.
         publicDomain: false
         links:
           - { label: ACS (free PDF), url: "https://www.acs.org/content/dam/acsorg/about/governance/committees/chemicalsafety/publications/acs-secondary-safety-guidelines.pdf" }
       - title: "AP Chemistry Guided-Inquiry Experiments: Applying the Science Practices (student manual)"
+        reader: student
         author: College Board
         date: current ed.
         publicDomain: false
@@ -187,24 +197,32 @@ rows:
       - Practice the CED's science practices on released free-response questions until the full exam can be done under time
     coreTexts:
       - title: Chemistry, AP Edition, 10th ed.
+        reader: student
+        pages: 1200
         author: Steven S. Zumdahl, Susan A. Zumdahl & Donald J. DeCoste
         date: "2018"
         publicDomain: false
         links:
           - { label: Cengage, url: "https://www.cengage.com/c/chemistry-ap-edition-10e-zumdahl-zumdahl/9781305957732/" }
       - title: "Chemistry: The Central Science, 15th ed. (alternative spine)"
+        reader: student
+        pages: 1200
         author: Brown, LeMay, Bursten, Murphy, Woodward & Stoltzfus
         date: "2021"
         publicDomain: false
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/chemistry-the-central-science/P200000006933/9780137542970" }
       - title: "Chemistry: A Molecular Approach, 6th ed. (alternative spine)"
+        reader: student
+        pages: 1224
         author: Nivaldo J. Tro
         date: "2022"
         publicDomain: false
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/chemistry-a-molecular-approach/P200000006770/9780137832217" }
       - title: "Chemistry: Atoms First 2e (free)"
+        reader: student
+        pages: 1326
         author: OpenStax
         date: "2019"
         publicDomain: false
@@ -212,6 +230,8 @@ rows:
           - { label: OpenStax, url: "https://openstax.org/details/books/chemistry-atoms-first-2e" }
           - { label: "Chemistry 2e (topics-first order)", url: "https://openstax.org/details/books/chemistry-2e" }
       - title: Princeton Review AP Chemistry Premium Prep (review book)
+        reader: student
+        pages: 650
         author: The Princeton Review
         date: annual
         publicDomain: false
@@ -278,12 +298,15 @@ rows:
       - Prepare for the National Exam laboratory practical with timed technique drills (see chemistry-02)
     coreTexts:
       - title: USNCO past local and national exams, with keys
+        reader: student
         author: American Chemical Society
         date: "annual"
         publicDomain: false
         links:
           - { label: ACS past exams, url: "https://www.acs.org/education/students/highschool/olympiad/pastexams.html" }
       - title: "Organic Chemistry: A Tenth Edition (free, for olympiad organic)"
+        reader: student
+        pages: 1233
         author: John McMurry (OpenStax)
         date: "2023"
         publicDomain: false

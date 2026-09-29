@@ -1,6 +1,6 @@
 // Family page: children, next assignments, Bookshelf of Knowledge, Look Ahead, placement, backup.
 (function () {
-  const { DATA, esc, ageLabel, levelBadge, trackById, rowById, showDetail } = window.App;
+  const { DATA, esc, ageLabel, levelBadge, trackById, rowById, showDetail, readerBadge, lengthLabel } = window.App;
   const S = window.Store;
   const P = S.plan(DATA);
   const groupOf = Object.fromEntries(DATA.tracks.map((t) => [t.id, t.group]));
@@ -42,6 +42,10 @@
     addForm.hidden = !addForm.hidden;
     if (!addForm.hidden) addForm.elements.name.focus();
   });
+  document.getElementById('load-demo').addEventListener('click', () => {
+    const n = window.Demo.loadIntoStore(DATA, S);
+    if (!n) alert('The demo children are already loaded.');
+  });
   document.getElementById('add-child-cancel').addEventListener('click', () => (addForm.hidden = true));
   addForm.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -75,7 +79,7 @@
       <div class="meta">${levelBadge(r.level)} <span>${esc(r.trackGroup)} › ${esc(trackTitle(r.track))}</span> · <span>typical age ${esc(ageLabel(r))}</span> <span class="badge pace-${item.pace}">${esc(pace)}</span>${S.inSeason(r) ? ' <span class="badge pace-on">In season now</span>' : ''}</div>
       <h3><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button></h3>
       <p class="desc">${esc(r.summary)}</p>
-      ${texts.length ? `<div class="texts"><strong>Texts:</strong> ${texts.map((t) => `${esc(S.cleanTitle(t))}${t.author ? ` <span class="by">(${esc(t.author)})</span>` : ''}`).join('; ')}</div>` : ''}
+      ${texts.length ? `<div class="texts"><strong>Texts:</strong> ${texts.map((t) => `${esc(S.cleanTitle(t))}${t.author ? ` <span class="by">(${esc(t.author)})</span>` : ''} ${readerBadge(t)}${lengthLabel(t) ? ` <span class="by">${lengthLabel(t)}</span>` : ''}`).join('; ')}</div>` : ''}
       <div class="form-actions">${actions} <button type="button" class="linkish" data-open="${esc(r.id)}">Details, objectives &amp; resources</button></div>
     </article>`;
   }
@@ -107,7 +111,7 @@
     const trackOpts = DATA.tracks.map((t) => `<option value="${esc(t.id)}">${esc(t.group)} › ${esc(t.title)}</option>`).join('');
     return `
       <div class="shelf-head">
-        <h2>${esc(c.name)}'s Bookshelf of Knowledge <small>(${books.length} ${books.length === 1 ? 'book' : 'books'})</small></h2>
+        <h2>${esc(c.name)}'s Bookshelf of Knowledge <small>(${books.length} ${books.length === 1 ? 'book' : 'books'}${books.some((b) => b.pages) ? ` · ${books.reduce((n, b) => n + (b.pages || 0), 0).toLocaleString()} pages` : ''})</small></h2>
         <button type="button" class="linkish" onclick="window.print()">Print</button>
       </div>
       <p class="desc">Books are added automatically when a unit is marked completed (its required texts), and from the checkboxes in any unit's detail panel. Add anything else ${esc(c.name)} has read below.</p>
@@ -117,6 +121,7 @@
           <label>Title <input name="title" required autocomplete="off"></label>
           <label>Author <input name="author" autocomplete="off"></label>
           <label>Finished <input name="date" type="date" value="${S.today()}"></label>
+          <label>Pages <input name="pages" type="number" min="1" inputmode="numeric" placeholder="optional"></label>
           <label>Subject <select name="track"><option value="">Other reading</option>${trackOpts}</select></label>
         </div>
         <label>Notes <input name="notes" autocomplete="off" placeholder="Optional: narration, favorite passage, who recommended it…"></label>
@@ -131,7 +136,7 @@
                     (b) => `<div class="book g${groupIndex[g] ?? 9}">
                       <div class="book-title">${esc(b.title)}</div>
                       ${b.author ? `<div class="book-author">${esc(b.author)}</div>` : ''}
-                      <div class="book-meta">Finished ${esc(b.date)}${b.published ? ` · pub. ${esc(b.published)}` : ''}${b.track ? ` · ${esc(trackTitle(b.track))}` : ''}${b.custom ? ' · added by hand' : ''}</div>
+                      <div class="book-meta">${b.pages ? `${b.pages.toLocaleString()} pp · ` : ''}Finished ${esc(b.date)}${b.published ? ` · pub. ${esc(b.published)}` : ''}${b.track ? ` · ${esc(trackTitle(b.track))}` : ''}${b.custom ? ' · added by hand' : ''}</div>
                       ${b.notes ? `<div class="book-notes">${esc(b.notes)}</div>` : ''}
                       ${b.rowId && rowById[b.rowId] ? `<button type="button" class="linkish" data-open="${esc(b.rowId)}">${esc(rowById[b.rowId].title)}</button>` : ''}
                       <button type="button" class="remove" data-remove-book="${esc(b.id)}" aria-label="Remove ${esc(b.title)}">×</button>
@@ -183,7 +188,7 @@
               .map(
                 (x) => `<tr class="${x.acquired ? 'acquired' : ''}">
                   <td><input type="checkbox" data-acq="${esc(x.key)}"${x.acquired ? ' checked' : ''} aria-label="Acquired ${esc(S.cleanTitle(x.text))}"></td>
-                  <td><div class="title">${esc(S.cleanTitle(x.text))}</div>${x.text.author ? `<div class="by">${esc(x.text.author)}</div>` : ''}${x.elective ? ' <span class="badge elective">elective</span>' : ''}</td>
+                  <td><div class="title">${esc(S.cleanTitle(x.text))}</div>${x.text.author ? `<div class="by">${esc(x.text.author)}</div>` : ''}${x.elective ? ' <span class="badge elective">elective</span>' : ''} ${readerBadge(x.text)}${lengthLabel(x.text) ? ` <span class="by">${lengthLabel(x.text)}</span>` : ''}</td>
                   <td>${x.uses.map((u) => `<div><strong>${esc(u.child.name)}</strong>: <button type="button" class="linkish" data-open="${esc(u.row.id)}">${esc(u.row.title)}</button> <small>(${S.status(u.child.id, u.row.id) === 'active' ? 'in progress' : `typical age ${esc(ageLabel(u.row))}`})</small></div>`).join('')}</td>
                   <td>${x.text.publicDomain ? '<span class="badge pd">Free</span> ' : ''}${linkList(x.text.links)}</td>
                 </tr>`,
@@ -270,7 +275,7 @@
     const f = e.target.elements;
     const id = e.target.id;
     if (id === 'add-book' && c) {
-      const added = S.addBook(c.id, { title: f.title.value, author: f.author.value, finished: f.date.value, track: f.track.value, notes: f.notes.value, custom: true });
+      const added = S.addBook(c.id, { title: f.title.value, author: f.author.value, finished: f.date.value, pages: f.pages.value, track: f.track.value, notes: f.notes.value, custom: true });
       if (!added) alert('That book is already on the shelf.');
     }
     if (id === 'edit-child' && c) S.updateChild(c.id, { name: f.name.value.trim(), birthdate: f.birthdate.value });

@@ -98,7 +98,7 @@ entries:
     tracks: [philosophy, civics-law, character-virtue, theology]
   - text: "Senior Sophisters, classics (1736): Sophocles (Oedipus Tyrannus, Electra, Trachiniae), the rest of Livy, Aeschines and Demosthenes On the Crown, the Philippics, Suetonius, Longinus On the Sublime and the works of Tacitus"
     use: [reference, student]
-    units: [greek-14, rhetoric-08, history-17, poetry-14]
+    units: [greek-14, rhetoric-08, history-16, poetry-14]
     search: Demosthenes
     tracks: [greek, latin, rhetoric, history, poetry]
   - text: "Scholarship examination (Burke, 1746): two days before the Provost and Senior Fellows 'in all the Roman and Greek authors of note'; Burke was examined in Catiline's speech in Sallust"
@@ -148,7 +148,7 @@ entries:
     tracks: [natural-science, mathematics, latin, greek, rhetoric]
   - text: "1793 course, Senior Sophisters: Burlamaqui's Natural Law, Conybeare's Defence of Revealed Religion, Locke on Government, Cicero's Offices; Tacitus, Thucydides, Terence, Sophocles, Plautus, Euripides and Longinus"
     use: [reference, student]
-    units: [philosophy-15, civics-law-10, character-virtue-13, history-17]
+    units: [philosophy-15, civics-law-10, character-virtue-13, history-16]
     search: Burlamaqui
     tracks: [civics-law, philosophy, theology, history, latin, greek]
 notes: >-

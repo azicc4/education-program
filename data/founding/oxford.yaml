@@ -138,7 +138,7 @@ entries:
     tracks: [theology, philosophy, character-virtue]
   - text: "Greats ancient history: Herodotus, Thucydides, the first or second decade of Livy, and the Annals or Histories of Tacitus; from 1830 ancient history with political philosophy, illustrated from modern authors such as Niebuhr and Grote"
     use: [reference, student]
-    units: [history-15, latin-13, history-17, latin-17]
+    units: [history-15, latin-13, history-16, latin-17]
     search: Thucydides
     tracks: [history, greek, latin, civics-law]
   - text: "Greats poetry: Aeschylus, Sophocles, Aristophanes, Virgil, Horace and Juvenal, with composition in Greek, Latin and English"

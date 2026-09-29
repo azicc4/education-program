@@ -180,6 +180,7 @@ rows:
       - Command a working vocabulary of about 1,000 words (DCC Latin Core List)
     coreTexts:
       - title: Latin Core Vocabulary (1,000 most common words)
+        reader: student
         author: Dickinson College Commentaries
         publicDomain: false
         links:
@@ -262,6 +263,8 @@ rows:
       - Sustain 15 minutes of reading without stopping to parse every word
     coreTexts:
       - title: "Ritchie's Fabulae Faciles: A First Latin Reader"
+        reader: student
+        pages: 134
         author: Francis Ritchie (ed. J. C. Kirtland)
         date: "1884 (US ed. 1903)"
         publicDomain: true
@@ -269,12 +272,16 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8997" }
           - { label: "Steadman edition with facing vocabulary (free PDF)", url: "https://geoffreysteadman.com/ritchies-fabulae-faciles/" }
       - title: "Colloquiorum Centuria Selecta (Corderius's school colloquies, Willymot ed.)"
+        reader: student
+        pages: 122
         author: Mathurin Cordier
         date: "1564 (this ed. 1831)"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/maturinicorderi00cordgoog" }
       - title: Colloquia (Colloquies)
+        reader: student
+        pages: 650
         author: Desiderius Erasmus
         date: "1518–1533"
         publicDomain: true
@@ -282,6 +289,8 @@ rows:
           - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/erasmus/coll.shtml" }
           - { label: "Project Gutenberg (English trans., vol. I)", url: "https://www.gutenberg.org/ebooks/14031" }
       - title: Breviarium ab Urbe Condita
+        reader: student
+        pages: 164
         author: Eutropius
         date: "c. 369"
         publicDomain: true
@@ -289,6 +298,8 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/eutropius.html" }
           - { label: "Dickinson College Commentaries (notes)", url: "https://dcc.dickinson.edu/eutropius/breviarium-preface" }
       - title: Fabulae (Aesopic fables in verse)
+        reader: student
+        pages: 100
         author: Phaedrus
         date: "1st c."
         publicDomain: true
@@ -334,12 +345,16 @@ rows:
       - Read the grammar's sections on prosody (dactylic hexameter) before starting Ovid
     coreTexts:
       - title: New Latin Grammar
+        reader: student
+        pages: 312
         author: Charles E. Bennett
         date: "1895/1908"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15665" }
       - title: "Allen and Greenough's New Latin Grammar"
+        reader: student
+        pages: 516
         author: J. H. Allen & J. B. Greenough
         date: "1903"
         publicDomain: true
@@ -347,12 +362,15 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/allengreenoughsn00alleiala" }
           - { label: "Dickinson College Commentaries (searchable online edition)", url: "https://dcc.dickinson.edu/grammar/latin/credits-and-reuse" }
       - title: "Gildersleeve's Latin Grammar (Gildersleeve & Lodge)"
+        reader: student
+        pages: 550
         author: B. L. Gildersleeve & Gonzalez Lodge
         date: "1895/1903"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/gildersleeveslat00gilduoft" }
       - title: The Eton Latin Grammar (historical)
+        reader: student
         author: T. W. C. Edwards (ed.)
         date: "19th c."
         publicDomain: true
@@ -392,6 +410,8 @@ rows:
       - Write a one-page English essay judging Caesar as a commander and a statesman
     coreTexts:
       - title: Commentarii de Bello Gallico
+        reader: together
+        pages: 250
         author: Julius Caesar
         date: "c. 50 BC"
         publicDomain: true
@@ -400,6 +420,8 @@ rows:
           - { label: "Dickinson College Commentaries (notes, vocab, audio)", url: "https://dcc.dickinson.edu/caesar/book-1/chapter-1-1" }
           - { label: "Steadman, College Caesar (free PDF with facing vocabulary)", url: "https://geoffreysteadman.com/college-caesar/" }
       - title: De Viris Illustribus (Lives)
+        reader: together
+        pages: 150
         author: Cornelius Nepos
         date: "c. 34 BC"
         publicDomain: true
@@ -451,12 +473,16 @@ rows:
       - Keep a personal phrase-book of Ciceronian idioms collected from reading
     coreTexts:
       - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold)"
+        reader: student
+        pages: 440
         author: Thomas Kerchever Arnold, rev. George Granville Bradley
         date: "1839 / rev. 1884"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/practicalintrod00arnouoft" }
       - title: Latin Prose Composition for the Middle Forms of Schools
+        reader: student
+        pages: 299
         author: M. A. North & A. E. Hillard
         date: "1895"
         publicDomain: true
@@ -504,6 +530,8 @@ rows:
       - Trace three Ovidian myths into later English poetry or painting
     coreTexts:
       - title: Metamorphoses
+        reader: student
+        pages: 394
         author: Ovid
         date: "AD 8"
         publicDomain: true
@@ -548,6 +576,8 @@ rows:
       - List the main differences of ecclesiastical and medieval Latin (quod/quia clauses, vocabulary, orthography)
     coreTexts:
       - title: Biblia Sacra Vulgata (Clementine)
+        reader: student
+        pages: 1400
         author: St. Jerome (trans.)
         date: "c. 405; Clementine ed. 1592"
         publicDomain: true
@@ -555,17 +585,20 @@ rows:
           - { label: "DRBO Latin Vulgate", url: "https://www.drbo.org/lvb/" }
           - { label: "The Latin Library, Bible", url: "https://www.thelatinlibrary.com/bible.html" }
       - title: Nova Vulgata (official Latin Bible of the Catholic Church)
+        reader: student
         author: Holy See
         date: "1979"
         publicDomain: false
         links:
           - { label: "Vatican.va (free online)", url: "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html" }
       - title: Latin Hymns and Carols
+        reader: student
         author: Various
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hymni.html" }
       - title: Divinum Officium (Breviary and Missal texts in Latin)
+        reader: student
         author: Various
         publicDomain: true
         links:
@@ -620,6 +653,8 @@ rows:
       - Analyse the structure of a Ciceronian period and a classical oration (exordium to peroratio)
     coreTexts:
       - title: In Catilinam I–IV
+        reader: student
+        pages: 60
         author: Cicero
         date: "63 BC"
         publicDomain: true
@@ -627,23 +662,31 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/cat.shtml" }
           - { label: "Steadman, Cicero's 1st Catilinarian (free PDF)", url: "https://geoffreysteadman.com/ciceros-1st-catilinarian/" }
       - title: Pro Archia
+        reader: student
+        pages: 15
         author: Cicero
         date: "62 BC"
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/arch.shtml" }
       - title: De Amicitia
+        reader: student
+        pages: 50
         author: Cicero
         date: "44 BC"
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/amic.shtml" }
       - title: Epistulae ad Atticum
+        reader: student
+        pages: 900
         author: Cicero
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/epis.shtml" }
       - title: De Officiis
+        reader: student
+        pages: 255
         author: Cicero
         date: "44 BC"
         publicDomain: true
@@ -651,6 +694,8 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/off.shtml" }
           - { label: "Steadman, De Officiis Book 1 (free PDF)", url: "https://geoffreysteadman.com/cicero-de-officiis-book-1/" }
       - title: "Tusculanae Disputationes (selections, esp. Books I and V)"
+        reader: student
+        pages: 250
         author: Cicero
         date: "45 BC"
         publicDomain: true
@@ -712,6 +757,8 @@ rows:
       - Read Eclogue IV and know its place in Christian reception (the "Messianic" eclogue)
     coreTexts:
       - title: Aeneid
+        reader: student
+        pages: 433
         author: Virgil (P. Vergilius Maro)
         date: "19 BC"
         publicDomain: true
@@ -766,6 +813,8 @@ rows:
       - Draw three lessons on republican virtue that Adams or Jefferson drew from Roman history
     coreTexts:
       - title: Ab Urbe Condita
+        reader: student
+        pages: 2500
         author: Livy
         date: "c. 27 BC–AD 17"
         publicDomain: true
@@ -773,6 +822,8 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/liv.html" }
           - { label: "Steadman, Livy selections (free PDF)", url: "https://geoffreysteadman.com/livy/" }
       - title: Bellum Catilinae
+        reader: student
+        pages: 160
         author: Sallust
         date: "c. 42 BC"
         publicDomain: true
@@ -819,6 +870,8 @@ rows:
       - Imitate one Horatian ode in English verse
     coreTexts:
       - title: Carmina, Sermones, Epistulae, Ars Poetica
+        reader: student
+        pages: 350
         author: Horace
         date: "c. 35–13 BC"
         publicDomain: true
@@ -857,12 +910,15 @@ rows:
       - Write and deliver a short Latin oration (3–5 minutes)
     coreTexts:
       - title: Latin Prose Composition for the Middle Forms of Schools
+        reader: student
+        pages: 299
         author: M. A. North & A. E. Hillard
         date: "1895"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913" }
       - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold), Part III"
+        reader: student
         author: T. K. Arnold, rev. G. G. Bradley
         date: "1884"
         publicDomain: true
@@ -906,6 +962,8 @@ rows:
       - Memorize Adoro Te Devote or Pange Lingua
     coreTexts:
       - title: Confessiones
+        reader: student
+        pages: 383
         author: St. Augustine
         date: "c. 397–400"
         publicDomain: true
@@ -913,6 +971,8 @@ rows:
           - { label: "The Latin Library, Book I", url: "https://www.thelatinlibrary.com/augustine/conf1.shtml" }
           - { label: "The Latin Library, Augustine index", url: "https://www.thelatinlibrary.com/august.html" }
       - title: Historia Ecclesiastica Gentis Anglorum
+        reader: student
+        pages: 416
         author: Bede
         date: "731"
         publicDomain: true
@@ -920,6 +980,8 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/bede.html" }
           - { label: "Dickinson College Commentaries (notes)", url: "https://dcc.dickinson.edu/bede-historia-ecclesiastica/book-1/prologus" }
       - title: Summa Theologiae (and hymns)
+        reader: student
+        pages: 3000
         author: St. Thomas Aquinas
         date: "1265–1274"
         publicDomain: true
@@ -964,12 +1026,16 @@ rows:
       - Write a Latin summary (argumentum) of each book read
     coreTexts:
       - title: De Rerum Natura
+        reader: student
+        pages: 289
         author: Lucretius
         date: "c. 55 BC"
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/lucretius.html" }
       - title: Agricola, Germania, Annales, Historiae
+        reader: student
+        pages: 800
         author: Tacitus
         date: "c. AD 98–120"
         publicDomain: true
@@ -1008,16 +1074,22 @@ rows:
       - Read a Neo-Latin political text (More, Erasmus's Institutio Principis Christiani, or Grotius)
     coreTexts:
       - title: Confessiones
+        reader: student
+        pages: 383
         author: St. Augustine
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/august.html" }
       - title: "Summa Theologiae, I-II (Treatise on Law)"
+        reader: student
+        pages: 150
         author: St. Thomas Aquinas
         publicDomain: true
         links:
           - { label: Corpus Thomisticum, url: "https://www.corpusthomisticum.org/" }
       - title: Institutio Principis Christiani
+        reader: student
+        pages: 277
         author: Desiderius Erasmus
         date: "1516"
         publicDomain: true

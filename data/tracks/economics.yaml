@@ -71,6 +71,8 @@ rows:
       - Give a tithe or share of the profits and save the rest toward a goal
     coreTexts:
       - title: "The Way to Wealth; or, Poor Richard Improved"
+        reader: together
+        pages: 30
         author: Benjamin Franklin
         date: "1758"
         publicDomain: true
@@ -119,6 +121,8 @@ rows:
       - Keep a year-long price journal and graph the results
     coreTexts:
       - title: Whatever Happened to Penny Candy?
+        reader: student
+        pages: 158
         author: Richard J. Maybury
         date: "1989"
         publicDomain: false
@@ -159,6 +163,8 @@ rows:
       - Write a short "seen and unseen" analysis of a current policy proposal
     coreTexts:
       - title: The Law
+        reader: student
+        pages: 70
         author: Frédéric Bastiat
         date: "1850"
         publicDomain: true
@@ -166,12 +172,16 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44800" }
           - { label: FEE (free), url: "https://fee.org/resources/the-law/" }
       - title: "What Is Seen and What Is Not Seen (in Selected Essays on Political Economy)"
+        reader: student
+        pages: 50
         author: Frédéric Bastiat
         date: "1850"
         publicDomain: true
         links:
           - { label: Econlib, url: "https://www.econlib.org/library/Bastiat/basEss.html" }
       - title: Economics in One Lesson
+        reader: student
+        pages: 205
         author: Henry Hazlitt
         date: "1946"
         publicDomain: false
@@ -218,6 +228,8 @@ rows:
       - Read a simple balance sheet and income statement
     coreTexts:
       - title: The Little Book of Common Sense Investing (10th Anniversary Ed.)
+        reader: student
+        pages: 304
         author: John C. Bogle
         date: "2017"
         publicDomain: false
@@ -261,12 +273,16 @@ rows:
       - Identify the three duties of the sovereign in Book V and Smith's limits on the market
     coreTexts:
       - title: The Theory of Moral Sentiments
+        reader: student
+        pages: 368
         author: Adam Smith
         date: "1759"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67363" }
       - title: An Inquiry into the Nature and Causes of the Wealth of Nations
+        reader: student
+        pages: 1100
         author: Adam Smith
         date: "1776"
         publicDomain: true
@@ -309,36 +325,48 @@ rows:
       - Write an essay comparing distributism with the free-market arguments of Smith and Hayek
     coreTexts:
       - title: Rerum Novarum
+        reader: student
+        pages: 40
         author: Pope Leo XIII
         date: "1891"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
       - title: Quadragesimo Anno
+        reader: student
+        pages: 46
         author: Pope Pius XI
         date: "1931"
         publicDomain: false
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html" }
       - title: Centesimus Annus
+        reader: student
+        pages: 100
         author: Pope John Paul II
         date: "1991"
         publicDomain: false
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
       - title: The Servile State
+        reader: student
+        pages: 188
         author: Hilaire Belloc
         date: "1912"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/64882" }
       - title: The Outline of Sanity
+        reader: student
+        pages: 245
         author: G. K. Chesterton
         date: "1926"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/theoutlineofsanity" }
       - title: What's Wrong with the World
+        reader: student
+        pages: 174
         author: G. K. Chesterton
         date: "1910"
         publicDomain: true
@@ -385,48 +413,64 @@ rows:
       - Explain Marx's theory of surplus value and class struggle and give the main economic and moral objections to it
     coreTexts:
       - title: A Treatise on Political Economy
+        reader: student
+        pages: 488
         author: Jean-Baptiste Say
         date: "1803"
         publicDomain: true
         links:
           - { label: Archive.org (1821 English ed.), url: "https://archive.org/details/treatiseonpoliti01sayjuoft" }
       - title: On the Principles of Political Economy and Taxation
+        reader: student
+        pages: 450
         author: David Ricardo
         date: "1817"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33310" }
       - title: Principles of Political Economy
+        reader: student
+        pages: 1000
         author: John Stuart Mill
         date: "1848"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30107" }
       - title: The Communist Manifesto
+        reader: student
+        pages: 38
         author: Karl Marx and Friedrich Engels
         date: "1848"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
       - title: "Capital, Volume One (selections)"
+        reader: student
+        pages: 1100
         author: Karl Marx
         date: "1867"
         publicDomain: true
         links:
           - { label: Marxists Internet Archive, url: "https://www.marxists.org/archive/marx/works/1867-c1/" }
       - title: "The Marx-Engels Reader (2nd ed.)"
+        reader: student
+        pages: 788
         author: Karl Marx and Friedrich Engels; Robert C. Tucker (ed.)
         date: "1972; 2nd ed. 1978"
         publicDomain: false
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/9780393090406" }
       - title: The National System of Political Economy
+        reader: student
+        pages: 414
         author: Friedrich List (trans. Sampson S. Lloyd)
         date: "1841; Eng. 1885"
         publicDomain: true
         links:
           - { label: "Archive.org (1904 ed.)", url: "https://archive.org/details/nationalsystemp01nichgoog" }
       - title: "The Conquest of Bread (elective)"
+        reader: student
+        pages: 299
         author: Peter Kropotkin
         date: "1892"
         publicDomain: true
@@ -488,24 +532,32 @@ rows:
       - Use Sowell's framework to analyze three current policy debates (housing, minimum wage, trade)
     coreTexts:
       - title: The Use of Knowledge in Society
+        reader: student
+        pages: 12
         author: F. A. Hayek
         date: "1945"
         publicDomain: false
         links:
           - { label: Econlib (free), url: "https://www.econlib.org/library/Essays/hykKnw.html" }
       - title: "The Road to Serfdom: Text and Documents, The Definitive Edition"
+        reader: student
+        pages: 300
         author: F. A. Hayek
         date: "1944"
         publicDomain: false
         links:
           - { label: University of Chicago Press, url: "https://press.uchicago.edu/ucp/books/book/chicago/R/bo4138549.html" }
       - title: A Humane Economy
+        reader: student
+        pages: 312
         author: Wilhelm Röpke
         date: "1960"
         publicDomain: false
         links:
           - { label: Mises Institute (free), url: "https://mises.org/library/book/humane-economy" }
       - title: "Basic Economics: A Common Sense Guide to the Economy"
+        reader: student
+        pages: 700
         author: Thomas Sowell
         date: "2014 (5th ed.)"
         publicDomain: false
@@ -547,6 +599,8 @@ rows:
       - Write a data-driven policy paper of 3,000 words
     coreTexts:
       - title: The Intelligent Investor (Rev. Ed.)
+        reader: student
+        pages: 640
         author: Benjamin Graham
         date: "1949 / 2003"
         publicDomain: false

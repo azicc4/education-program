@@ -77,12 +77,14 @@ rows:
       - Sing the ordinary chants of a simple Mass (for example Mass XVIII) and common Latin hymns (Adoro te, Salve Regina)
     coreTexts:
       - title: "Music: First Year (Ward Method)"
+        reader: teacher
         author: Justine Bayard Ward
         date: "1914"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/MusicFirstYear" }
       - title: "Music: Third Year, Teacher's Manual"
+        reader: teacher
         author: Justine Bayard Ward
         date: "1919"
         publicDomain: true
@@ -208,12 +210,16 @@ rows:
       - Compare a psalm with Watts's paraphrase of it
     coreTexts:
       - title: The Psalms of David Imitated in the Language of the New Testament
+        reader: together
+        pages: 312
         author: Isaac Watts
         date: "1719"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13166" }
       - title: Divine Songs for Children
+        reader: together
+        pages: 28
         author: Isaac Watts
         date: "1715"
         publicDomain: true
@@ -261,6 +267,8 @@ rows:
       - Narrate a composer's life and describe a listened-to work in simple musical vocabulary
     coreTexts:
       - title: "The World's Great Men of Music: Story-Lives of Master Musicians"
+        reader: student
+        pages: 240
         author: Harriette Brower
         date: "1922"
         publicDomain: true
@@ -300,12 +308,15 @@ rows:
       - Translate and explain the Latin texts sung
     coreTexts:
       - title: The Parish Book of Chant (2nd ed.)
+        reader: together
         author: Church Music Association of America
         date: "2012"
         publicDomain: false
         links:
           - { label: CMAA free PDF, url: "https://media.musicasacra.com/books/pbc_2nd.pdf" }
       - title: Liber Usualis (Solesmes)
+        reader: teacher
+        pages: 1900
         author: Benedictines of Solesmes
         date: "1903 (later eds. to 1961)"
         publicDomain: true
@@ -431,6 +442,8 @@ rows:
       - Earn choir awards or take a section-leader role
     coreTexts:
       - title: Music in the History of the Western Church
+        reader: student
+        pages: 426
         author: Edward Dickinson
         date: "1902"
         publicDomain: true
@@ -475,6 +488,8 @@ rows:
       - Reach ABRSM Grade 6–8 theory or Advanced Placement Music Theory level
     coreTexts:
       - title: "The Study of Counterpoint (from Fux's Gradus ad Parnassum)"
+        reader: student
+        pages: 156
         author: Johann Joseph Fux; trans. Alfred Mann
         date: "1725 (trans. 1943/1965)"
         publicDomain: false
@@ -514,6 +529,8 @@ rows:
       - Write a research essay on a composer or work
     coreTexts:
       - title: Music in the History of the Western Church
+        reader: student
+        pages: 426
         author: Edward Dickinson
         date: "1902"
         publicDomain: true
@@ -591,6 +608,8 @@ rows:
       - Write a seminar paper on music and moral formation
     coreTexts:
       - title: "Fundamentals of Music (De institutione musica), trans. Calvin M. Bower"
+        reader: student
+        pages: 230
         author: Boethius
         date: "c. 510 (trans. 1989)"
         publicDomain: false
@@ -598,12 +617,16 @@ rows:
           - { label: Yale University Press, url: "https://yalebooks.yale.edu/book/9780300039436/fundamentals-of-music/" }
           - { label: "Archive.org: Latin text (Friedlein, 1867)", url: "https://archive.org/details/DeInstitutioneArithmeticaLibriDuoDeInstitutioneMusicaLibriQuinque" }
       - title: "Strunk's Source Readings in Music History (rev. ed.)"
+        reader: student
+        pages: 1550
         author: Oliver Strunk; Leo Treitler (gen. ed.)
         date: "1950 (rev. 1998)"
         publicDomain: false
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/9780393966947" }
       - title: The Consolation of Philosophy
+        reader: student
+        pages: 116
         author: Boethius
         date: "c. 524"
         publicDomain: true

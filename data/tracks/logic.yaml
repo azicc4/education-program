@@ -106,6 +106,8 @@ rows:
       - Determine mood and figure, and test syllogisms against the seven rules of validity
     coreTexts:
       - title: Traditional Logic I
+        reader: student
+        pages: 110
         author: Martin Cothran
         publicDomain: false
         links:
@@ -159,6 +161,8 @@ rows:
       - Define terms by genus and specific difference and test definitions
     coreTexts:
       - title: "Socratic Logic: A Logic Text using Socratic Method, Platonic Questions, and Aristotelian Principles (ed. 3.1)"
+        reader: student
+        pages: 404
         author: Peter Kreeft
         publicDomain: false
         links:
@@ -200,6 +204,8 @@ rows:
       - Explain how grammar, logic and rhetoric correspond to thought, reality and communication
     coreTexts:
       - title: "The Trivium: The Liberal Arts of Logic, Grammar, and Rhetoric"
+        reader: student
+        pages: 292
         author: Sister Miriam Joseph, C.S.C.
         date: "1940s; Paul Dry Books ed. 2002"
         publicDomain: false
@@ -242,18 +248,24 @@ rows:
       - Write a short essay on a "prejudice" of judgment in the manner of Watts
     coreTexts:
       - title: "Logick: or, The Right Use of Reason in the Enquiry after Truth"
+        reader: student
+        pages: 365
         author: Isaac Watts
         date: "1724"
         publicDomain: true
         links:
           - { label: "Archive.org (1726 ed.)", url: "https://archive.org/details/logickorrightuse00wattuoft" }
       - title: "Elementary Lessons in Logic: Deductive and Inductive"
+        reader: student
+        pages: 340
         author: W. Stanley Jevons
         date: "1870"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/elementarylesson00jevo" }
       - title: An Introduction to Logic
+        reader: student
+        pages: 608
         author: H.W.B. Joseph
         date: "1906 (2nd ed. 1916)"
         publicDomain: true
@@ -289,6 +301,8 @@ rows:
       - Explain the relation of Boolean algebra to logic gates and circuits
     coreTexts:
       - title: "forall x: Calgary. An Introduction to Formal Logic"
+        reader: student
+        pages: 380
         author: P.D. Magnus, Tim Button, et al.
         publicDomain: false
         links:
@@ -336,28 +350,38 @@ rows:
       - Apply Mill's methods of agreement and difference to a real causal question
     coreTexts:
       - title: Categories
+        reader: student
+        pages: 42
         author: Aristotle
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2412" }
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/categories.html" }
       - title: On Interpretation
+        reader: student
+        pages: 48
         author: Aristotle
         publicDomain: true
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/interpretation.html" }
       - title: Prior Analytics
+        reader: student
+        pages: 278
         author: Aristotle
         publicDomain: true
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/prior.html" }
       - title: Novum Organum
+        reader: student
+        pages: 360
         author: Francis Bacon
         date: "1620"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45988" }
       - title: "A System of Logic, Ratiocinative and Inductive"
+        reader: student
+        pages: 622
         author: John Stuart Mill
         date: "1843"
         publicDomain: true

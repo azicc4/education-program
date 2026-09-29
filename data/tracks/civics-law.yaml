@@ -42,6 +42,8 @@ rows:
       - Learn basic rules of courtesy toward elders and guests
     coreTexts:
       - title: Compendium of the Social Doctrine of the Church (ch. 5, "The Family, the Vital Cell of Society")
+        reader: teacher
+        pages: 25
         author: Pontifical Council for Justice and Peace
         date: "2004"
         publicDomain: false
@@ -74,12 +76,16 @@ rows:
       - Know basic flag etiquette (don't let it touch the ground; raise it at dawn, lower it at dusk)
     coreTexts:
       - title: "4 U.S. Code § 4: Pledge of Allegiance to the Flag"
+        reader: teacher
+        pages: 1
         author: U.S. Congress
         date: "1942 / 1954"
         publicDomain: true
         links:
           - { label: Cornell LII, url: "https://www.law.cornell.edu/uscode/text/4/4" }
       - title: "4 U.S. Code Chapter 1: The Flag (the Flag Code)"
+        reader: teacher
+        pages: 6
         author: U.S. Congress
         publicDomain: true
         links:
@@ -158,6 +164,8 @@ rows:
       - Identify Jefferson, Adams, Franklin and the Second Continental Congress as authors and signers
     coreTexts:
       - title: "The Declaration of Independence: A Transcription"
+        reader: together
+        pages: 4
         author: Thomas Jefferson et al.
         date: "1776"
         publicDomain: true
@@ -165,6 +173,8 @@ rows:
           - { label: National Archives, url: "https://www.archives.gov/founding-docs/declaration-transcript" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/declare.asp" }
       - title: "The Constitution of the United States: A Transcription"
+        reader: together
+        pages: 20
         date: "1787"
         publicDomain: true
         links:
@@ -208,17 +218,23 @@ rows:
       - Connect the Gettysburg Address to the Declaration ("four score and seven years ago")
     coreTexts:
       - title: "The Bill of Rights: A Transcription"
+        reader: student
+        pages: 2
         date: "1791"
         publicDomain: true
         links:
           - { label: National Archives, url: "https://www.archives.gov/founding-docs/bill-of-rights-transcript" }
       - title: The Gettysburg Address
+        reader: student
+        pages: 1
         author: Abraham Lincoln
         date: "1863"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/19th_century/gettyb.asp" }
       - title: "The U.S. Constitution: A Reader"
+        reader: teacher
+        pages: 790
         author: Hillsdale College Politics Faculty
         date: "2012"
         publicDomain: false
@@ -267,12 +283,15 @@ rows:
       - Write a respectful letter to an elected official about a real issue
     coreTexts:
       - title: A Familiar Exposition of the Constitution of the United States
+        reader: student
+        pages: 372
         author: Joseph Story
         date: "1840"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/familiarexpositi00stor" }
       - title: "The Legislative Process (House of Representatives)"
+        reader: student
         author: U.S. House of Representatives
         publicDomain: true
         links:
@@ -320,12 +339,16 @@ rows:
       - Deliver a three-minute persuasive speech and answer cross-examination
     coreTexts:
       - title: "Robert's Rules of Order (1915 edition)"
+        reader: student
+        pages: 320
         author: Henry M. Robert
         date: "1915"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9097" }
       - title: A Manual of Parliamentary Practice
+        reader: student
+        pages: 188
         author: Thomas Jefferson
         date: "1801"
         publicDomain: true
@@ -379,30 +402,40 @@ rows:
       - Write an essay on what makes a statesman, as distinct from a politician
     coreTexts:
       - title: "Plutarch: Lives of the Noble Grecians and Romans (Dryden/Clough)"
+        reader: student
+        pages: 1300
         author: Plutarch
         date: c. 100
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
       - title: Washington's Farewell Address
+        reader: student
+        pages: 20
         author: George Washington
         date: "1796"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/washing.asp" }
       - title: "The Perpetuation of Our Political Institutions (Lyceum Address)"
+        reader: student
+        pages: 10
         author: Abraham Lincoln
         date: "1838"
         publicDomain: true
         links:
           - { label: Abraham Lincoln Online, url: "https://www.abrahamlincolnonline.org/lincoln/speeches/lyceum.htm" }
       - title: Second Inaugural Address
+        reader: student
+        pages: 2
         author: Abraham Lincoln
         date: "1865"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/19th_century/lincoln2.asp" }
       - title: "Their Finest Hour; We Shall Fight on the Beaches"
+        reader: student
+        pages: 10
         author: Winston Churchill
         date: "1940"
         publicDomain: false
@@ -449,24 +482,32 @@ rows:
       - Write a comparative essay on natural law in Cicero and Aquinas
     coreTexts:
       - title: "Politics: A Treatise on Government (Jowett trans.)"
+        reader: student
+        pages: 229
         author: Aristotle
         date: c. 350 BC
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6762" }
       - title: "The Treatises of M. T. Cicero (includes On the Republic and On the Laws; Yonge trans.)"
+        reader: student
+        pages: 520
         author: Marcus Tullius Cicero
         date: 54–51 BC
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/treatisescicero00ciceuoft" }
       - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law)"
+        reader: student
+        pages: 100
         author: St. Thomas Aquinas
         date: c. 1270
         publicDomain: true
         links:
           - { label: New Advent, url: "https://www.newadvent.org/summa/2090.htm" }
       - title: De Regno (On Kingship)
+        reader: student
+        pages: 96
         author: St. Thomas Aquinas
         date: c. 1267
         publicDomain: false
@@ -516,24 +557,32 @@ rows:
       - Identify Vattel's influence on the Declaration's language and on early American diplomacy
     coreTexts:
       - title: Of the Laws of Ecclesiastical Polity (Book I)
+        reader: student
+        pages: 100
         author: Richard Hooker
         date: "1594"
         publicDomain: true
         links:
           - { label: Archive.org (Everyman ed.), url: "https://archive.org/details/oflawsofecclesia00hook" }
       - title: Second Treatise of Government
+        reader: student
+        pages: 115
         author: John Locke
         date: "1689"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
       - title: Discourses Concerning Government
+        reader: student
+        pages: 443
         author: Algernon Sidney
         date: "1698"
         publicDomain: true
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/sidney-discourses-concerning-government" }
       - title: "The Spirit of Laws (Nugent trans.)"
+        reader: student
+        pages: 750
         author: Montesquieu
         date: "1748"
         publicDomain: true
@@ -541,12 +590,16 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/spiritoflaws01nugguoft" }
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/montesquieu-complete-works-vol-1-the-spirit-of-laws" }
       - title: The Law of Nations
+        reader: student
+        pages: 572
         author: Emer de Vattel
         date: "1758"
         publicDomain: true
         links:
           - { label: Archive.org (1852 ed.), url: "https://archive.org/details/lawofnationsorpr00vatt" }
       - title: Lex, Rex, or The Law and the Prince
+        reader: student
+        pages: 252
         author: Samuel Rutherford
         date: "1644"
         publicDomain: true
@@ -600,6 +653,8 @@ rows:
       - Take either side in a mock ratifying convention and argue it from the sources
     coreTexts:
       - title: The Federalist Papers
+        reader: student
+        pages: 559
         author: Alexander Hamilton, James Madison, John Jay
         date: 1787–1788
         publicDomain: true
@@ -607,18 +662,22 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1404" }
           - { label: Library of Congress full text, url: "https://guides.loc.gov/federalist-papers/full-text" }
       - title: Notes on the Debates in the Federal Convention
+        reader: student
+        pages: 660
         author: James Madison
         date: "1787"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/debcont.asp" }
       - title: The Debates in the Several State Conventions on the Adoption of the Federal Constitution
+        reader: student
         author: Jonathan Elliot (ed.)
         date: "1836"
         publicDomain: true
         links:
           - { label: Archive.org (vol. 1), url: "https://archive.org/details/debatesinseveral01elli" }
       - title: "The Antifederalists (introduction and documents)"
+        reader: student
         author: Gordon Lloyd (ed.)
         publicDomain: false
         links:
@@ -663,18 +722,24 @@ rows:
       - Write an essay testing Tocqueville's warnings about soft despotism against present-day America
     coreTexts:
       - title: "Reflections on the Revolution in France (in Works, vol. 3)"
+        reader: student
+        pages: 338
         author: Edmund Burke
         date: "1790"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
       - title: Democracy in America, Volume 1
+        reader: student
+        pages: 378
         author: Alexis de Tocqueville
         date: "1835"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/815" }
       - title: Democracy in America, Volume 2
+        reader: student
+        pages: 296
         author: Alexis de Tocqueville
         date: "1840"
         publicDomain: true
@@ -710,6 +775,8 @@ rows:
       - Trace the line from Magna Carta through Coke to the Fifth, Sixth and Seventh Amendments
     coreTexts:
       - title: Commentaries on the Laws of England
+        reader: student
+        pages: 2000
         author: William Blackstone
         date: 1765–1769
         publicDomain: true
@@ -717,6 +784,7 @@ rows:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/blackstone.asp" }
           - { label: Project Gutenberg (Book I), url: "https://www.gutenberg.org/ebooks/30802" }
       - title: "The First Part of the Institutes of the Laws of England (Coke upon Littleton)"
+        reader: student
         author: Sir Edward Coke
         date: "1628"
         publicDomain: true
@@ -745,7 +813,7 @@ rows:
     ageEnd: 16.5
     order: 14
     prerequisites: [civics-law-13, civics-law-07]
-    related: [rhetoric-09, rhetoric-12, history-24]
+    related: [rhetoric-09, rhetoric-12, history-23]
     summary: >-
       Constitutional law is learned from the cases. The student reads opinions (edited, then in full)
       starting with Marbury v. Madison (judicial review) and McCulloch v. Maryland (implied powers and
@@ -760,21 +828,29 @@ rows:
       - Write an appellate brief and deliver a timed oral argument before a moot-court panel
     coreTexts:
       - title: Marbury v. Madison
+        reader: student
+        pages: 30
         date: "1803"
         publicDomain: true
         links:
           - { label: National Archives, url: "https://www.archives.gov/milestone-documents/marbury-v-madison" }
       - title: McCulloch v. Maryland
+        reader: student
+        pages: 30
         date: "1819"
         publicDomain: true
         links:
           - { label: National Archives, url: "https://www.archives.gov/milestone-documents/mcculloch-v-maryland" }
       - title: Dred Scott v. Sandford
+        reader: student
+        pages: 240
         date: "1857"
         publicDomain: true
         links:
           - { label: National Archives, url: "https://www.archives.gov/milestone-documents/dred-scott-v-sandford" }
       - title: Brown v. Board of Education
+        reader: student
+        pages: 14
         date: "1954"
         publicDomain: true
         links:
@@ -821,36 +897,48 @@ rows:
       - Write an essay comparing the Catholic principle of subsidiarity with American federalism
     coreTexts:
       - title: Immortale Dei (On the Christian Constitution of States)
+        reader: student
+        pages: 25
         author: Pope Leo XIII
         date: "1885"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_01111885_immortale-dei.html" }
       - title: Libertas (On the Nature of Human Liberty)
+        reader: student
+        pages: 30
         author: Pope Leo XIII
         date: "1888"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html" }
       - title: Rerum Novarum
+        reader: student
+        pages: 40
         author: Pope Leo XIII
         date: "1891"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
       - title: Quadragesimo Anno (§§ 78–80 on subsidiarity)
+        reader: student
+        pages: 2
         author: Pope Pius XI
         date: "1931"
         publicDomain: false
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html" }
       - title: "We Hold These Truths: Catholic Reflections on the American Proposition"
+        reader: student
+        pages: 336
         author: John Courtney Murray, S.J.
         date: "1960"
         publicDomain: false
         links:
           - { label: Georgetown University Library (full text), url: "https://library.georgetown.edu/woodstock/Murray/whtt_index" }
       - title: Lectures on Calvinism (Lecture 3, "Calvinism and Politics")
+        reader: student
+        pages: 30
         author: Abraham Kuyper
         date: "1898"
         publicDomain: true
@@ -890,18 +978,24 @@ rows:
       - Write a seminar paper of 3,000 words on a constitutional question
     coreTexts:
       - title: "The U.S. Constitution: A Reader"
+        reader: student
+        pages: 790
         author: Hillsdale College Politics Faculty
         date: "2012"
         publicDomain: false
         links:
           - { label: Hillsdale College Press, url: "https://shop.hillsdale.edu/products/constitution-em-a-reader-em" }
       - title: Commentaries on the Constitution of the United States
+        reader: student
+        pages: 746
         author: Joseph Story
         date: "1833"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/commentariesonco01storuoft" }
       - title: The Heritage Guide to the Constitution
+        reader: student
+        pages: 475
         author: The Heritage Foundation
         publicDomain: false
         links:
@@ -929,7 +1023,7 @@ rows:
     ageEnd: 18
     order: 17
     prerequisites: [civics-law-12, civics-law-15]
-    related: [philosophy-10, history-31, history-24]
+    related: [philosophy-10, history-31, history-23]
     summary: >-
       A survey of American political argument from the primary sources. It runs from the Puritan covenant
       and the Revolutionary pamphlets through Jefferson and Hamilton, Calhoun and Lincoln (the
@@ -944,16 +1038,19 @@ rows:
       - Write a capstone essay on a perennial American political question
     coreTexts:
       - title: Teaching American History document library and collections
+        reader: student
         author: Ashbrook Center
         publicDomain: false
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/resources/" }
       - title: The Avalon Project (documents in law, history and diplomacy)
+        reader: student
         author: Yale Law School
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/" }
       - title: "Founders Online (the papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison, Jay)"
+        reader: student
         author: National Archives
         publicDomain: true
         links:
@@ -992,18 +1089,24 @@ rows:
       - Deliver a moot-court argument on a live constitutional question
     coreTexts:
       - title: The Path of the Law
+        reader: student
+        pages: 22
         author: Oliver Wendell Holmes Jr.
         date: "1897"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2373" }
       - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law)"
+        reader: student
+        pages: 100
         author: St. Thomas Aquinas
         date: c. 1270
         publicDomain: true
         links:
           - { label: New Advent, url: "https://www.newadvent.org/summa/2090.htm" }
       - title: "Commentaries on the Laws of England: Introduction, Section 2"
+        reader: student
+        pages: 25
         author: William Blackstone
         date: "1765"
         publicDomain: true
@@ -1053,17 +1156,23 @@ rows:
       - Write a paper on Romans 13 and Acts 5:29 as read by Augustine, Aquinas, Calvin and Rutherford
     coreTexts:
       - title: "The Bible: Exodus 19–24; Deuteronomy 16–17; 1 Samuel 8; Jeremiah 29; Matthew 22; Romans 2 and 13; Acts 5"
+        reader: student
+        pages: 20
         publicDomain: true
         links:
           - { label: "USCCB (NABRE), Exodus 20", url: "https://bible.usccb.org/bible/exodus/20" }
           - { label: "Douay-Rheims (DRBO), Exodus 20", url: "https://www.drbo.org/chapter/02020.htm" }
       - title: "The City of God, Book XIX"
+        reader: student
+        pages: 45
         author: Augustine of Hippo
         date: "413–426"
         publicDomain: true
         links:
           - { label: New Advent, url: "https://www.newadvent.org/fathers/120119.htm" }
       - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law) and q. 105 (the judicial precepts)"
+        reader: student
+        pages: 130
         author: St. Thomas Aquinas
         date: c. 1270
         publicDomain: true
@@ -1071,24 +1180,32 @@ rows:
           - { label: "New Advent (q. 90)", url: "https://www.newadvent.org/summa/2090.htm" }
           - { label: "New Advent (q. 105)", url: "https://www.newadvent.org/summa/2105.htm" }
       - title: "Institutes of the Christian Religion, Book IV, ch. 20 (Of Civil Government)"
+        reader: student
+        pages: 40
         author: John Calvin
         date: "1559"
         publicDomain: true
         links:
           - { label: CCEL, url: "https://ccel.org/ccel/calvin/institutes/institutes.vi.xxi.html" }
       - title: Politica (abridged, trans. F.S. Carney)
+        reader: student
+        pages: 250
         author: Johannes Althusius
         date: "1603; 3rd ed. 1614"
         publicDomain: false
         links:
           - { label: Online Library of Liberty (free), url: "https://oll.libertyfund.org/titles/althusius-politica" }
       - title: Lex, Rex, or The Law and the Prince
+        reader: student
+        pages: 252
         author: Samuel Rutherford
         date: "1644"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/lexrexorlawprinc00ruth" }
       - title: "Law and Revolution: The Formation of the Western Legal Tradition (Introduction and Part I)"
+        reader: student
+        pages: 250
         author: Harold J. Berman
         date: "1983"
         publicDomain: false
@@ -1154,7 +1271,7 @@ rows:
     ageEnd: 18
     order: 18.5
     prerequisites: [civics-law-19, civics-law-18]
-    related: [philosophy-16, theology-20, rhetoric-08, history-27, history-31]
+    related: [philosophy-16, theology-20, rhetoric-08, history-26, history-31]
     summary: >-
       Modern Christian jurisprudence and its public uses. Blackstone ranks the law of nature and
       revelation above all human law. Kuyper's sphere sovereignty and Leo XIII's Libertas give the
@@ -1174,72 +1291,95 @@ rows:
       - Brief Employment Division v. Smith, Hosanna-Tabor and Kennedy v. Bremerton, and argue a moot religious-liberty case from the Memorial and Remonstrance and Dignitatis Humanae
     coreTexts:
       - title: "Commentaries on the Laws of England: Introduction, Section 2 (Of the Nature of Laws in General)"
+        reader: student
+        pages: 25
         author: William Blackstone
         date: "1765"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/blackstone_intro.asp" }
       - title: Lectures on Calvinism (Lecture 3, "Calvinism and Politics")
+        reader: student
+        pages: 30
         author: Abraham Kuyper
         date: "1898"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/LecturesOnCalvinism" }
       - title: Libertas (On the Nature of Human Liberty)
+        reader: student
+        pages: 30
         author: Pope Leo XIII
         date: "1888"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html" }
       - title: Pacem in Terris
+        reader: student
+        pages: 61
         author: Pope John XXIII
         date: "1963"
         publicDomain: false
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html" }
       - title: Letter from Birmingham Jail
+        reader: student
+        pages: 24
         author: Martin Luther King Jr.
         date: "1963"
         publicDomain: false
         links:
           - { label: Stanford King Institute, url: "https://kinginstitute.stanford.edu/letter-birmingham-jail" }
       - title: "The Listening Heart: Reflections on the Foundations of Law (Address to the Bundestag)"
+        reader: student
+        pages: 8
         author: Pope Benedict XVI
         date: "2011"
         publicDomain: false
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/benedict-xvi/en/speeches/2011/september/documents/hf_ben-xvi_spe_20110922_reichstag-berlin.html" }
       - title: The Interaction of Law and Religion
+        reader: student
+        pages: 174
         author: Harold J. Berman
         date: "1974"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/interaction-religion-Harold-Joseph-Berman/dp/0687191270" }
       - title: "Christianity and Law: An Introduction"
+        reader: student
+        pages: 400
         author: John Witte Jr. & Frank S. Alexander (eds.)
         date: "2008"
         publicDomain: false
         links:
           - { label: Amazon (Cambridge University Press), url: "https://www.amazon.com/Christianity-Law-Introduction-Cambridge-Companions/dp/0521697492" }
       - title: "The Supreme Court, 1982 Term. Foreword: Nomos and Narrative"
+        reader: student
+        pages: 65
         author: Robert M. Cover
         date: "1983"
         publicDomain: false
         links:
           - { label: Yale Law School repository (free), url: "https://openyls.law.yale.edu/handle/20.500.13051/2047" }
       - title: Memorial and Remonstrance against Religious Assessments
+        reader: student
+        pages: 8
         author: James Madison
         date: "1785"
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Madison/01-08-02-0163" }
       - title: Dignitatis Humanae (Declaration on Religious Freedom)
+        reader: student
+        pages: 20
         author: Second Vatican Council
         date: "1965"
         publicDomain: false
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651207_dignitatis-humanae_en.html" }
       - title: "Religious-liberty cases: Employment Division v. Smith (1990); Hosanna-Tabor v. EEOC (2012); Kennedy v. Bremerton School District (2022)"
+        reader: student
         author: U.S. Supreme Court
         publicDomain: true
         links:

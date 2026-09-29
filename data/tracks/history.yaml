@@ -47,23 +47,31 @@ rows:
       - Begin a family timeline (grandparents, parents, child)
     coreTexts:
       - title: The Holy Bible (Douay-Rheims)
+        reader: together
+        pages: 1600
         date: "1582–1610 (Challoner rev. 1749–52)"
         publicDomain: true
         links:
           - { label: DRBO.org, url: "https://www.drbo.org/" }
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
       - title: The Holy Bible (King James Version)
+        reader: together
+        pages: 1200
         date: "1611"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
       - title: The Aesop for Children
+        reader: together
+        pages: 104
         author: Aesop (ill. Milo Winter)
         date: "1919"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19994" }
       - title: The Declaration of Independence
+        reader: together
+        pages: 4
         author: Thomas Jefferson et al.
         date: "1776"
         publicDomain: true
@@ -118,6 +126,8 @@ rows:
       - Keep a Book of Centuries, adding an entry for every person or event studied
     coreTexts:
       - title: A Child's History of the World
+        reader: together
+        pages: 494
         author: V.M. Hillyer
         date: "1924"
         publicDomain: true
@@ -173,6 +183,8 @@ rows:
       - Recite short famous sayings (Leonidas, Horatius, Caesar's "veni, vidi, vici")
     coreTexts:
       - title: Famous Men of Greece
+        reader: together
+        pages: 265
         author: John H. Haaren & Addison B. Poland
         date: "1904"
         publicDomain: true
@@ -180,6 +192,8 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/famousmengreece00polagoog" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=haaren&book=greece" }
       - title: Famous Men of Rome
+        reader: together
+        pages: 230
         author: John H. Haaren & Addison B. Poland
         date: "1904"
         publicDomain: true
@@ -187,18 +201,24 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/famousmenofrome00haarrich" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=haaren&book=rome" }
       - title: The Story of the Greeks
+        reader: together
+        pages: 288
         author: H.A. Guerber
         date: "1896"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23495" }
       - title: The Story of the Romans
+        reader: together
+        pages: 298
         author: H.A. Guerber
         date: "1896"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/storyofromans00guerrich" }
       - title: The Boys' and Girls' Plutarch
+        reader: together
+        pages: 468
         author: Plutarch (ed. John S. White)
         date: "1883"
         publicDomain: true
@@ -255,12 +275,16 @@ rows:
       - Add the medieval centuries to the Book of Centuries
     coreTexts:
       - title: Famous Men of the Middle Ages
+        reader: student
+        pages: 270
         author: John H. Haaren & Addison B. Poland
         date: "1904"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3725" }
       - title: Our Island Story
+        reader: student
+        pages: 540
         author: H.E. Marshall
         date: "1905"
         publicDomain: true
@@ -268,6 +292,8 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/ourislandstoryhi00marsuoft" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=marshall&book=island" }
       - title: The Story of the Middle Ages
+        reader: student
+        pages: 234
         author: Samuel B. Harding
         date: "1911"
         publicDomain: true
@@ -320,18 +346,24 @@ rows:
       - Hear extracts of Columbus's journal read aloud and narrate them
     coreTexts:
       - title: Our Island Story (Tudors & Stuarts chapters)
+        reader: student
+        pages: 100
         author: H.E. Marshall
         date: "1905"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/ourislandstoryhi00marsuoft" }
       - title: "Christopher Columbus: Extracts from Journal"
+        reader: student
+        pages: 12
         author: Christopher Columbus
         date: "1492"
         publicDomain: true
         links:
           - { label: Medieval Sourcebook (Fordham), url: "https://sourcebooks.fordham.edu/source/columbus1.asp" }
       - title: A Child's History of the World (later chapters)
+        reader: student
+        pages: 150
         author: V.M. Hillyer
         date: "1924"
         publicDomain: true
@@ -385,6 +417,8 @@ rows:
       - Name the presidents in order through Lincoln, and the major wars through WWII
     coreTexts:
       - title: This Country of Ours
+        reader: student
+        pages: 500
         author: H.E. Marshall
         date: "1917"
         publicDomain: true
@@ -392,12 +426,16 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/thiscountryofour01mars" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=marshall&book=country" }
       - title: The Story of the Thirteen Colonies
+        reader: student
+        pages: 356
         author: H.A. Guerber
         date: "1898"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48051" }
       - title: The Gettysburg Address
+        reader: student
+        pages: 1
         author: Abraham Lincoln
         date: "1863"
         publicDomain: true
@@ -451,23 +489,29 @@ rows:
       - Identify what kind of source a text is (law code, chronicle, prophecy, royal inscription)
     coreTexts:
       - title: The Code of Hammurabi
+        reader: student
+        pages: 80
         date: "c. 1754 BC"
         publicDomain: true
         links:
           - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/ancient/hamcode.asp" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/ancient/hamframe.asp" }
       - title: "Ancient History Sourcebook: Mesopotamia; Israel"
+        reader: student
         publicDomain: true
         links:
           - { label: Mesopotamia, url: "https://sourcebooks.fordham.edu/ancient/asbook03.asp" }
           - { label: Israel, url: "https://sourcebooks.fordham.edu/ancient/asbook06.asp" }
       - title: Antiquities of the Jews (selections)
+        reader: student
         author: Flavius Josephus (tr. Whiston)
         date: "c. AD 94"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2848" }
       - title: The Story of the Chosen People
+        reader: student
+        pages: 240
         author: H.A. Guerber
         date: "1896"
         publicDomain: true
@@ -523,6 +567,8 @@ rows:
       - Distinguish eyewitness report, hearsay and legend in Herodotus
     coreTexts:
       - title: The History of Herodotus (Vols. 1–2)
+        reader: student
+        pages: 800
         author: Herodotus (tr. G.C. Macaulay)
         date: "c. 430 BC"
         publicDomain: true
@@ -531,12 +577,16 @@ rows:
           - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/2456" }
           - { label: Perseus (Godley), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126" }
       - title: "Plutarch's Lives (Dryden trans., ed. Clough)"
+        reader: student
+        pages: 1300
         author: Plutarch
         date: "c. AD 100"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
       - title: Anabasis
+        reader: student
+        pages: 360
         author: Xenophon
         date: "c. 370 BC"
         publicDomain: true
@@ -588,6 +638,8 @@ rows:
       - Explain in a paragraph why the Republic fell, citing at least two sources
     coreTexts:
       - title: The History of Rome, Books 1–8
+        reader: student
+        pages: 396
         author: Livy (tr. Spillan)
         date: "c. 27 BC"
         publicDomain: true
@@ -595,12 +647,16 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19725" }
           - { label: Perseus (Roberts), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026" }
       - title: "Plutarch's Lives, Vol. 1 (Long & Stewart trans.)"
+        reader: student
+        pages: 550
         author: Plutarch
         date: "c. AD 100"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14033" }
       - title: "De Bello Gallico and Other Commentaries"
+        reader: student
+        pages: 356
         author: Julius Caesar (tr. McDevitte & Bohn)
         date: "c. 50 BC"
         publicDomain: true
@@ -651,21 +707,28 @@ rows:
       - Explain why Eusebius is called "the Father of Church History"
     coreTexts:
       - title: The Acts of the Apostles
+        reader: student
+        pages: 50
         publicDomain: true
         links:
           - { label: DRBO.org (Douay-Rheims), url: "https://www.drbo.org/chapter/51001.htm" }
       - title: "Pliny the Younger: Letter to Trajan on the Christians"
+        reader: student
+        pages: 2
         date: "c. AD 112"
         publicDomain: true
         links:
           - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/source/pliny1.asp" }
       - title: The Martyrdom of Polycarp; The Passion of Perpetua and Felicity
+        reader: student
+        pages: 25
         date: "2nd–3rd c."
         publicDomain: true
         links:
           - { label: "New Advent: Polycarp", url: "https://www.newadvent.org/fathers/0102.htm" }
           - { label: "New Advent: Perpetua", url: "https://www.newadvent.org/fathers/0324.htm" }
       - title: Church History (selections)
+        reader: student
         author: Eusebius of Caesarea
         date: "c. 325"
         publicDomain: true
@@ -720,6 +783,8 @@ rows:
       - Write four one-page source reports (author, date, purpose, reliability, content)
     coreTexts:
       - title: Ecclesiastical History of the English People (Books I–II)
+        reader: student
+        pages: 140
         author: Bede
         date: "731"
         publicDomain: true
@@ -727,6 +792,8 @@ rows:
           - { label: Medieval Sourcebook (Book I), url: "https://sourcebooks.fordham.edu/basis/bede-book1.asp" }
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
       - title: Life of Charlemagne
+        reader: student
+        pages: 60
         author: Einhard
         date: "c. 830"
         publicDomain: true
@@ -734,23 +801,31 @@ rows:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/einhard.asp" }
           - { label: Project Gutenberg (Early Lives of Charlemagne), url: "https://www.gutenberg.org/ebooks/48870" }
       - title: The Song of Roland
+        reader: student
+        pages: 131
         author: tr. C.K. Scott-Moncrieff
         date: "c. 1100"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/391" }
       - title: "Urban II: Speech at Clermont (five versions)"
+        reader: student
+        pages: 10
         date: "1095"
         publicDomain: true
         links:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/urban2-5vers.asp" }
       - title: Magna Carta
+        reader: student
+        pages: 10
         date: "1215"
         publicDomain: true
         links:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/magnacarta.asp" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/medieval/magframe.asp" }
       - title: Memoirs of the Lord of Joinville (Life of St. Louis)
+        reader: student
+        pages: 409
         author: Jean de Joinville
         date: "1309"
         publicDomain: true
@@ -802,27 +877,36 @@ rows:
       - Explain the Catholic Reformation (Trent, the Jesuits, Teresa of Avila) as a response and a renewal
     coreTexts:
       - title: The Ninety-Five Theses
+        reader: student
+        pages: 10
         author: Martin Luther
         date: "1517"
         publicDomain: true
         links:
           - { label: Fordham Sourcebook, url: "https://sourcebooks.fordham.edu/source/luther95.txt" }
       - title: Canons and Decrees of the Council of Trent
+        reader: student
+        pages: 608
         date: "1545–63"
         publicDomain: true
         links:
           - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent.html" }
       - title: "Modern History Sourcebook: Reformation"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
       - title: Utopia
+        reader: student
+        pages: 176
         author: St. Thomas More
         date: "1516"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2130" }
       - title: The Praise of Folly
+        reader: student
+        pages: 218
         author: Erasmus
         date: "1511"
         publicDomain: true
@@ -879,29 +963,38 @@ rows:
       - Compare the religious purposes of Plymouth, Massachusetts Bay, Maryland and New France
     coreTexts:
       - title: Select Letters of Christopher Columbus
+        reader: student
+        pages: 346
         author: Christopher Columbus (ed. R.H. Major)
         date: "1493–1503"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/77820" }
       - title: History of Plymouth Plantation, 1608–1650
+        reader: student
+        pages: 450
         author: William Bradford
         date: "1630–51"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/69871" }
       - title: The Mayflower Compact
+        reader: student
+        pages: 1
         date: "1620"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/17th_century/mayflower.asp" }
       - title: A Model of Christian Charity
+        reader: student
+        pages: 12
         author: John Winthrop
         date: "1630"
         publicDomain: true
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/a-model-of-christian-charity-2/" }
       - title: "Modern History Sourcebook: Colonial North America"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook07.asp" }
@@ -950,16 +1043,22 @@ rows:
       - Read Lincoln's two great speeches and explain how he appeals to the Declaration
     coreTexts:
       - title: The Declaration of Independence
+        reader: student
+        pages: 4
         date: "1776"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/declare.asp" }
       - title: The Constitution of the United States
+        reader: student
+        pages: 51
         date: "1787"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5" }
       - title: Washington's Farewell Address
+        reader: student
+        pages: 40
         author: George Washington
         date: "1796"
         publicDomain: true
@@ -967,12 +1066,16 @@ rows:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Washington/05-20-02-0440-0002" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/washing.asp" }
       - title: The Federalist Papers
+        reader: student
+        pages: 559
         author: Hamilton, Madison & Jay
         date: "1787–88"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18" }
       - title: Second Inaugural Address
+        reader: student
+        pages: 2
         author: Abraham Lincoln
         date: "1865"
         publicDomain: true
@@ -1029,6 +1132,8 @@ rows:
       - Draw lessons for republics (stasis, empire, demagoguery) and test them against the founders' use of Greek history
     coreTexts:
       - title: The History of Herodotus
+        reader: student
+        pages: 800
         author: Herodotus (tr. G.C. Macaulay)
         publicDomain: true
         links:
@@ -1036,6 +1141,8 @@ rows:
           - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/2456" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126" }
       - title: The History of the Peloponnesian War
+        reader: student
+        pages: 614
         author: Thucydides (tr. Crawley)
         date: "c. 400 BC"
         publicDomain: true
@@ -1043,6 +1150,8 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200" }
       - title: Hellenica
+        reader: student
+        pages: 299
         author: Xenophon
         publicDomain: true
         links:
@@ -1072,28 +1181,38 @@ rows:
       - { label: "Jefferson to Peter Carr, 19 Aug 1785", url: "https://founders.archives.gov/documents/Jefferson/01-08-02-0319" }
 
   - id: history-16
-    title: "Seminar: The Roman Republic — Polybius, Livy & Sallust"
+    title: "Seminar: Rome from Republic to Empire — Polybius, Livy, Tacitus & Josephus"
     type: course
     level: 9-12
     stage: formal
     ageStart: 13
-    ageEnd: 13.5
+    ageEnd: 14
     order: 16
     prerequisites: [history-15, history-09]
-    related: [latin-13, rhetoric-10, character-virtue-13]
+    related: [latin-13, latin-17, rhetoric-10, character-virtue-13]
     summary: >-
-      The rise and fall of the Republic in its historians. The student reads Polybius Books I, III
-      and VI (the mixed constitution, the founders' favorite ancient text on government) and Livy
-      Books I–V and XXI–XXII (Hannibal). Sallust's Catiline and Jugurtha supply the moralist's
-      view of decline. Essays pair ancient analysis with American application, for example
-      Polybius VI against Federalist 47–51 and John Adams's Defence.
+      A year-long seminar on the rise and fall of the Republic and the Principate that replaced it,
+      read in their historians. The student reads Polybius Books I, III and VI (the mixed
+      constitution, the founders' favorite ancient text on government) and Livy Books I–V and
+      XXI–XXII (Hannibal). He then reads Tacitus's Agricola, Annals I–IV (Tiberius) and XV (the fire
+      and the Christians under Nero), and Josephus's Jewish War on the fall of Jerusalem in AD 70,
+      which joins Roman and sacred history. Sallust's moralist view of decline, Suetonius's lives of
+      the Caesars and Machiavelli's Discourses on Livy are electives. Essays pair ancient analysis
+      with American application, for example Polybius VI against Federalist 47–51 and John Adams's
+      Defence. Tacitus's portrait of tyranny and flattery under a republican facade is the central
+      lesson for a future statesman.
     objectives:
       - Explain Polybius's theory of the cycle of constitutions and the mixed constitution
       - Read Livy on the Second Punic War and assess Hannibal and Fabius as leaders
-      - Analyze Sallust's thesis that wealth and ambition corrupted Rome
       - Write a 2,000-word essay on Polybius VI and the American separation of powers
+      - Read the Agricola and Annals I–IV, XV, and analyze Tacitus's portrait of Tiberius
+      - Read Jewish War Books V–VI and assess Josephus's reliability and loyalties
+      - "From the electives: analyze Sallust's thesis that wealth and ambition corrupted Rome, or compare Tacitus and Suetonius as sources for the same emperor"
+      - Write an essay on how liberty is lost under a republican facade, using Tacitus
     coreTexts:
       - title: The Histories of Polybius (Vols. 1–2)
+        reader: student
+        pages: 1100
         author: Polybius (tr. Shuckburgh)
         date: "c. 150 BC"
         publicDomain: true
@@ -1102,19 +1221,58 @@ rows:
           - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/44126" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234" }
       - title: The History of Rome (Books 1–8; 9–26)
+        reader: student
+        pages: 1000
         author: Livy
         publicDomain: true
         links:
           - { label: Gutenberg Books 1–8, url: "https://www.gutenberg.org/ebooks/19725" }
           - { label: Gutenberg Books 9–26, url: "https://www.gutenberg.org/ebooks/10907" }
-      - title: The Conspiracy of Catiline and the Jugurthine War
+      - title: The Annals
+        reader: student
+        pages: 451
+        author: Tacitus (tr. Church & Brodribb)
+        date: "c. AD 116"
+        publicDomain: true
+        links:
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078" }
+          - { label: "Gutenberg (Annals I–VI)", url: "https://www.gutenberg.org/ebooks/7959" }
+      - title: The Germany and the Agricola
+        reader: student
+        pages: 124
+        author: Tacitus
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7524" }
+      - title: The Wars of the Jews
+        reader: student
+        pages: 500
+        author: Flavius Josephus (tr. Whiston)
+        date: "c. AD 75"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2850" }
+      - title: "The Conspiracy of Catiline and the Jugurthine War (elective)"
+        reader: student
+        pages: 230
         author: Sallust
         date: "c. 42–40 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7990" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0124" }
-      - title: Discourses on the First Decade of Titus Livius
+      - title: "The Lives of the Twelve Caesars (elective)"
+        reader: student
+        pages: 360
+        author: Suetonius
+        date: "c. AD 121"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6400" }
+          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0132" }
+      - title: "Discourses on the First Decade of Titus Livius (elective)"
+        reader: student
+        pages: 389
         author: Niccolò Machiavelli
         date: "1531"
         publicDomain: true
@@ -1136,60 +1294,6 @@ rows:
         tradition: protestant
         url: "https://classicalconversations.com/programs/challenge/"
         notes: A Protestant community-based high-school program that reads Western history and literature in seminar. Adapt its reading list to these sources.
-    historicalPrecedent: >-
-      Polybius VI was the ancient text the framers cited on mixed government. John Adams's Defence
-      of the Constitutions (1787) quotes it at length. Machiavelli's Discourses on Livy was read by
-      Adams and Jefferson. Livy and Sallust were the standard historians in the upper forms of
-      Boston Latin, Eton and the colonial colleges.
-
-  - id: history-17
-    title: "Seminar: Imperial Rome & Judea — Tacitus, Suetonius & Josephus"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 13.5
-    ageEnd: 14
-    order: 17
-    prerequisites: [history-16]
-    related: [latin-17]
-    summary: >-
-      The Principate read in its historians: Tacitus's Agricola, Annals I–IV (Tiberius) and XV
-      (the fire and the Christians under Nero); Suetonius on Augustus, Tiberius, Caligula and Nero;
-      and Josephus's Jewish War on the fall of Jerusalem in AD 70. Tacitus's prose portrait of
-      tyranny and flattery is the central lesson for a future statesman. Josephus connects Roman
-      and sacred history.
-    objectives:
-      - Read the Agricola and Annals I–IV, XV, and analyze Tacitus's portrait of Tiberius
-      - Compare Tacitus and Suetonius as sources for the same emperor
-      - Read Jewish War Books V–VI and assess Josephus's reliability and loyalties
-      - Write an essay on how liberty is lost under a republican facade, using Tacitus
-    coreTexts:
-      - title: The Annals
-        author: Tacitus (tr. Church & Brodribb)
-        date: "c. AD 116"
-        publicDomain: true
-        links:
-          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078" }
-          - { label: "Gutenberg (Annals I–VI)", url: "https://www.gutenberg.org/ebooks/7959" }
-      - title: The Germany and the Agricola
-        author: Tacitus
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7524" }
-      - title: The Lives of the Twelve Caesars
-        author: Suetonius
-        date: "c. AD 121"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6400" }
-          - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0132" }
-      - title: The Wars of the Jews
-        author: Flavius Josephus (tr. Whiston)
-        date: "c. AD 75"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2850" }
-    curriculumOptions:
       - name: The Wars of the Jews Set
         publisher: Memoria Press
         tradition: classical
@@ -1199,26 +1303,33 @@ rows:
         publisher: TAN Books
         tradition: catholic
         url: "https://tanbooks.com/products/books/pilgrimage-volume-1-a-history-of-western-civilization-from-antiquity-to-the-high-middle-ages/"
-        notes: A Catholic high-school survey from antiquity to the High Middle Ages. Use it as the narrative frame for rows 15–20.
+        notes: A Catholic high-school survey from antiquity to the High Middle Ages. Use it as the narrative frame for history-15 to history-19.
       - name: Great Books 101 (free online course)
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/great-books-101"
         notes: Hillsdale's survey of the ancient-to-medieval great books.
     historicalPrecedent: >-
-      Tacitus was the Whig historian par excellence. Jefferson called him the first writer in the
-      world, and Gordon's translation (1728–31) with its Discourses was a Revolutionary-era
-      handbook against tyranny. Gibbon's Decline and Fall begins where Tacitus leaves off.
+      Polybius VI was the ancient text the framers cited on mixed government. John Adams's Defence
+      of the Constitutions (1787) quotes it at length. Machiavelli's Discourses on Livy was read by
+      Adams and Jefferson. Livy and Sallust were the standard historians in the upper forms of
+      Boston Latin, Eton and the colonial colleges. Tacitus was the Whig historian par excellence.
+      Jefferson called him the first writer in the world, and Gordon's translation (1728–31) with
+      its Discourses was a Revolutionary-era handbook against tyranny. Gibbon's Decline and Fall
+      begins where Tacitus leaves off.
+    notes: >-
+      Choose 2 of the 3 electives (Sallust, Suetonius, Machiavelli's Discourses). Polybius, Livy and
+      the Annals are read in the selections named above, not entire.
 
   - id: history-18
     title: "Seminar: Late Antiquity & the Early Church — Eusebius & Augustine's City of God"
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
+    ageStart: 13.5
     ageEnd: 14.5
-    order: 18
-    prerequisites: [history-17, history-10]
+    order: 17
+    prerequisites: [history-16, history-10]
     related: [theology-16, philosophy-08, literature-18]
     summary: >-
       The Christianization of the Empire and the Christian theology of history. The student reads
@@ -1233,6 +1344,8 @@ rows:
       - Write an essay weighing Gibbon's ch. 15–16 against Eusebius and Augustine
     coreTexts:
       - title: Church History; Life of Constantine
+        reader: student
+        pages: 680
         author: Eusebius of Caesarea
         date: "c. 325–339"
         publicDomain: true
@@ -1241,6 +1354,8 @@ rows:
           - { label: "New Advent: Life of Constantine", url: "https://www.newadvent.org/fathers/2502.htm" }
           - { label: "CCEL (NPNF 2.1)", url: "https://www.ccel.org/ccel/schaff/npnf201.html" }
       - title: The City of God
+        reader: student
+        pages: 1100
         author: St. Augustine
         date: "413–426"
         publicDomain: true
@@ -1249,12 +1364,15 @@ rows:
           - { label: Gutenberg Vol. I, url: "https://www.gutenberg.org/ebooks/45304" }
           - { label: Gutenberg Vol. II, url: "https://www.gutenberg.org/ebooks/45305" }
       - title: The History of the Decline and Fall of the Roman Empire (Vol. 1)
+        reader: student
+        pages: 508
         author: Edward Gibbon
         date: "1776"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/731" }
       - title: "Ancient History Sourcebook: Late Antiquity; Christian Origins"
+        reader: student
         publicDomain: true
         links:
           - { label: Late Antiquity, url: "https://sourcebooks.fordham.edu/ancient/asbook10.asp" }
@@ -1284,68 +1402,134 @@ rows:
       Eusebius and Augustine is an exercise in detecting a historian's bias, not an endorsement.
 
   - id: history-19
-    title: "Seminar: The Making of Christendom — Gregory of Tours, Bede, Einhard & the Anglo-Saxon Chronicle"
+    title: "Seminar: Christendom — Bede & Einhard to Gregory VII, the Crusades & Froissart"
     type: course
     level: 9-12
     stage: formal
     ageStart: 14
-    ageEnd: 14.5
-    order: 19
+    ageEnd: 15
+    order: 18
     prerequisites: [history-18, history-11]
-    related: [latin-16, literature-18]
+    related: [latin-16, literature-18, character-virtue-07]
     summary: >-
-      How barbarian kingdoms became Christendom. The student reads Gregory of Tours's History of
-      the Franks (Clovis, Brunhild, the bishop-historian's world), Bede's Ecclesiastical History
-      whole, Einhard's Charlemagne again with Notker for contrast, and the Anglo-Saxon Chronicle
-      from Alfred to the Conquest. Dawson's The Making of Europe is the interpretive frame. The
-      question: what made a "Christian civilization"?
+      A year-long seminar on how the barbarian kingdoms became Christendom and how Christendom
+      argued over the relation of spiritual and temporal power. The student reads Bede's
+      Ecclesiastical History whole, Einhard's Charlemagne again with Notker for contrast, and the
+      Carolingian and Anglo-Saxon documents, with Dawson's The Making of Europe as the interpretive
+      frame. The High and late Middle Ages follow in their documents and chronicles: the Investiture
+      Contest (Gregory VII's Dictatus Papae and Henry IV's letters), Boniface VIII's Unam Sanctam,
+      Urban II and the Crusade sources, Joinville's life and crusade of St. Louis, and Froissart on
+      the Hundred Years' War and chivalry. Gregory of Tours, the Anglo-Saxon Chronicle and
+      Villehardouin are electives. The questions are what made a "Christian civilization," and how
+      the struggle of pope and emperor rooted the Western idea of limited government.
     objectives:
-      - Read Bede entire and about 200 pages of Gregory of Tours
-      - Compare a monastic historian (Bede) with a court biographer (Einhard) and an annalist (the Chronicle)
-      - Trace the conversion of the English and the Franks on a map
+      - Read Bede entire and trace the conversion of the English and the Franks on a map
+      - Compare a monastic historian (Bede) with a court biographer (Einhard) and, from the electives, an annalist or a bishop-historian
       - Write an essay on Dawson's thesis that religion is the key to cultural history, tested against these sources
+      - Read the Gregory VII–Henry IV exchange and Unam Sanctam, and state each side's claim
+      - Read Joinville entire and Froissart on Crécy, Poitiers and the Peasants' Revolt, and compare them as witnesses
+      - Write a 2,000-word essay on church and state from Gelasius to Unam Sanctam, and its legacy for the First Amendment
     coreTexts:
-      - title: History of the Franks
+      - title: Ecclesiastical History of the English People
+        reader: student
+        pages: 400
+        author: Bede
+        date: "731"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
+      - title: Early Lives of Charlemagne (Einhard and the Monk of St Gall)
+        reader: student
+        pages: 180
+        author: ed. A.J. Grant
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48870" }
+      - title: "Medieval Sourcebook: Anglo-Saxons; Carolingians"
+        reader: student
+        publicDomain: true
+        links:
+          - { label: Anglo-Saxons, url: "https://sourcebooks.fordham.edu/sbook1ff.asp" }
+          - { label: Carolingians, url: "https://sourcebooks.fordham.edu/sbook1h.asp" }
+      - title: The Making of Europe
+        reader: student
+        pages: 317
+        author: Christopher Dawson
+        date: "1932"
+        publicDomain: false
+        links:
+          - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-making-of-europe-an-introduction-to-the-history-of-european-unity-christopher-dawson/2b2fca378dca22c4" }
+      - title: "Gregory VII: Dictatus Papae; Henry IV: Letter to Gregory VII"
+        reader: student
+        pages: 5
+        date: "1075–76"
+        publicDomain: true
+        links:
+          - { label: Dictatus Papae, url: "https://sourcebooks.fordham.edu/source/g7-dictpap.asp" }
+          - { label: Henry IV to Gregory VII, url: "https://sourcebooks.fordham.edu/source/henry4-to-g7a.asp" }
+          - { label: "Medieval Sourcebook: Empire & Papacy", url: "https://sourcebooks.fordham.edu/sbook1l.asp" }
+      - title: Unam Sanctam
+        reader: student
+        pages: 3
+        author: Pope Boniface VIII
+        date: "1302"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/b8-unam.asp" }
+      - title: "Medieval Sourcebook: Crusades"
+        reader: student
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/sbook1k.asp" }
+      - title: Memoirs of the Lord of Joinville
+        reader: student
+        pages: 409
+        author: Jean de Joinville
+        date: "1309"
+        publicDomain: true
+        links:
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/joinville.asp" }
+      - title: Chronicles of England, France, Spain, etc. (tr. Johnes)
+        reader: student
+        pages: 1500
+        author: Jean Froissart
+        date: "c. 1370–1400"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/chroniclesofengl00froi" }
+          - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/froissart-full.asp" }
+      - title: "History of the Franks (elective)"
+        reader: student
+        pages: 314
         author: St. Gregory of Tours
         date: "c. 594"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/74955" }
           - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/gregory-hist.asp" }
-      - title: Ecclesiastical History of the English People
-        author: Bede
-        date: "731"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
-      - title: The Anglo-Saxon Chronicle
+      - title: "The Anglo-Saxon Chronicle (elective)"
+        reader: student
+        pages: 248
         author: tr. J. Ingram & J.A. Giles
         date: "9th–12th c."
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/657" }
-      - title: Early Lives of Charlemagne (Einhard and the Monk of St Gall)
-        author: ed. A.J. Grant
+      - title: "Memoirs or Chronicle of the Fourth Crusade and the Conquest of Constantinople (elective)"
+        reader: student
+        pages: 112
+        author: Geoffrey de Villehardouin
+        date: "c. 1207"
         publicDomain: true
         links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48870" }
-      - title: "Medieval Sourcebook: Anglo-Saxons; Carolingians"
-        publicDomain: true
-        links:
-          - { label: Anglo-Saxons, url: "https://sourcebooks.fordham.edu/sbook1ff.asp" }
-          - { label: Carolingians, url: "https://sourcebooks.fordham.edu/sbook1h.asp" }
-      - title: The Making of Europe
-        author: Christopher Dawson
-        date: "1932"
-        publicDomain: false
-        links:
-          - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-making-of-europe-an-introduction-to-the-history-of-european-unity-christopher-dawson/2b2fca378dca22c4" }
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6032" }
+          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/villehardouin.asp" }
     curriculumOptions:
       - name: "Mother of Divine Grace: Medieval European History & Literature"
         publisher: Mother of Divine Grace School
         tradition: catholic
         url: "https://www.motherofdivinegrace.org/curriculum/syllabus/23"
-        notes: Catholic high-school syllabus using Warren Carroll's History of Christendom volumes, Churchill's History of the English-Speaking Peoples and primary sources.
+        notes: Catholic high-school syllabus using Warren Carroll's History of Christendom volumes, Churchill's History of the English-Speaking Peoples and primary sources. Carroll's volumes are strongly pro-papal, so balance them with the imperial documents.
       - name: A History of Medieval Europe Set
         publisher: Memoria Press
         tradition: classical
@@ -1356,97 +1540,31 @@ rows:
         tradition: catholic
         url: "https://setonbooks.com/history/2629-the-days-of-christendom-two-volume-set.html"
         notes: Seton's Catholic high-school world history.
-    historicalPrecedent: >-
-      King Alfred had Bede translated into English for his people. Hume's History of England and
-      the 19th-century Whig historians (Stubbs, Freeman) all begin from Bede and the Chronicle.
-      Thomas Jefferson studied Anglo-Saxon because he believed English liberty was Saxon in origin.
-
-  - id: history-20
-    title: "Seminar: Church, Empire & Crusade — Gregory VII, Unam Sanctam, Villehardouin, Joinville & Froissart"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 14.5
-    ageEnd: 15
-    order: 20
-    prerequisites: [history-19]
-    related: [character-virtue-07, literature-18]
-    summary: >-
-      The High and late Middle Ages in their documents and chronicles. The student reads the
-      Investiture Contest (Gregory VII's Dictatus Papae and Henry IV's letters), Boniface VIII's
-      Unam Sanctam, and Urban II and the Crusade chronicles. Villehardouin tells the Fourth
-      Crusade and the sack of Constantinople, Joinville the life and crusade of St. Louis, and
-      Froissart the Hundred Years' War and chivalry. The theme is the relation of spiritual and
-      temporal power, the root of the Western idea of limited government.
-    objectives:
-      - Read the Gregory VII–Henry IV exchange and Unam Sanctam, and state each side's claim
-      - Read Villehardouin and Joinville entire and compare two crusaders as witnesses
-      - Read Froissart on Crécy, Poitiers and the Peasants' Revolt
-      - Write a 2,000-word essay on church and state from Gelasius to Unam Sanctam, and its legacy for the First Amendment
-    coreTexts:
-      - title: "Gregory VII: Dictatus Papae; Henry IV: Letter to Gregory VII"
-        date: "1075–76"
-        publicDomain: true
-        links:
-          - { label: Dictatus Papae, url: "https://sourcebooks.fordham.edu/source/g7-dictpap.asp" }
-          - { label: Henry IV to Gregory VII, url: "https://sourcebooks.fordham.edu/source/henry4-to-g7a.asp" }
-          - { label: "Medieval Sourcebook: Empire & Papacy", url: "https://sourcebooks.fordham.edu/sbook1l.asp" }
-      - title: Unam Sanctam
-        author: Pope Boniface VIII
-        date: "1302"
-        publicDomain: true
-        links:
-          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/b8-unam.asp" }
-      - title: Memoirs or Chronicle of the Fourth Crusade and the Conquest of Constantinople
-        author: Geoffrey de Villehardouin
-        date: "c. 1207"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6032" }
-          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/villehardouin.asp" }
-      - title: Memoirs of the Lord of Joinville
-        author: Jean de Joinville
-        date: "1309"
-        publicDomain: true
-        links:
-          - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/joinville.asp" }
-      - title: Chronicles of England, France, Spain, etc. (tr. Johnes)
-        author: Jean Froissart
-        date: "c. 1370–1400"
-        publicDomain: true
-        links:
-          - { label: Archive.org, url: "https://archive.org/details/chroniclesofengl00froi" }
-          - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/froissart-full.asp" }
-      - title: "Medieval Sourcebook: Crusades"
-        publicDomain: true
-        links:
-          - { label: Fordham, url: "https://sourcebooks.fordham.edu/sbook1k.asp" }
-    curriculumOptions:
-      - name: "Mother of Divine Grace: Medieval European History & Literature"
-        publisher: Mother of Divine Grace School
-        tradition: catholic
-        url: "https://www.motherofdivinegrace.org/curriculum/syllabus/23"
-        notes: Catholic syllabus. Carroll's volumes are strongly pro-papal, so balance them with the imperial documents.
       - name: Religion and the Rise of Western Culture (Dawson)
         publisher: Image (via Bookshop.org)
         tradition: catholic
         url: "https://bookshop.org/p/books/religion-and-the-rise-of-western-culture-the-classic-study-of-medieval-civilization-christopher-dawson/96dcbd4312287e31"
-        notes: Dawson's Gifford Lectures, the best interpretive companion to this seminar.
+        notes: Dawson's Gifford Lectures, the best interpretive companion to the High Middle Ages.
       - name: Western Heritage (free online course)
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/western-heritage"
         notes: Hillsdale's core course from Genesis to Locke. Its medieval lectures fit here.
     historicalPrecedent: >-
+      King Alfred had Bede translated into English for his people. Hume's History of England and
+      the 19th-century Whig historians (Stubbs, Freeman) all begin from Bede and the Chronicle.
+      Thomas Jefferson studied Anglo-Saxon because he believed English liberty was Saxon in origin.
       The Boy's Froissart (Lanier, 1879) was a favorite prize-book in Victorian and American
       schools. Froissart and Joinville were read as manuals of chivalry, and Scott drew on
       Froissart for his novels. Ages 14–15 can read the full Johnes translation.
     sources:
       - { label: "The Boy's Froissart (Archive.org)", url: "https://archive.org/details/boysfroissartbe00froigoog" }
     notes: >-
-      Neutral note: Catholic readers see the Investiture Contest as the Church's liberation from
-      lay control. Protestant and secular readers often see papal overreach. Both traditions credit
-      the struggle with producing the Western distinction between Church and state.
+      Choose 2 of the 3 electives (Gregory of Tours, the Anglo-Saxon Chronicle, Villehardouin).
+      Froissart is read in selection. Neutral note: Catholic readers see the Investiture Contest as
+      the Church's liberation from lay control. Protestant and secular readers often see papal
+      overreach. Both traditions credit the struggle with producing the Western distinction between
+      Church and state.
 
   - id: history-21
     title: "Seminar: English Constitutional History — Magna Carta to Burke"
@@ -1454,9 +1572,9 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 14.5
-    ageEnd: 15.5
-    order: 21
-    prerequisites: [history-20]
+    ageEnd: 15
+    order: 19
+    prerequisites: [history-19]
     related: [philosophy-10, civics-law-13]
     exams: [ap-european-history]
     summary: >-
@@ -1473,52 +1591,67 @@ rows:
       - Write a 2,500-word essay on whether the American Revolution was a conservative revolution, citing these sources
     coreTexts:
       - title: Magna Carta
+        reader: student
+        pages: 10
         date: "1215"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/medieval/magframe.asp" }
       - title: Second Part of the Institutes of the Laws of England (Magna Carta commentary)
+        reader: student
         author: Sir Edward Coke
         date: "1642"
         publicDomain: true
         links:
           - { label: Archive.org (1797 ed.), url: "https://archive.org/details/bim_eighteenth-century_institutes-of-the-laws-_coke-sir-edward_1797" }
       - title: The Petition of Right
+        reader: student
+        pages: 4
         date: "1628"
         publicDomain: true
         links:
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/Petition_of_Right" }
       - title: The English Bill of Rights
+        reader: student
+        pages: 6
         date: "1689"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/17th_century/england.asp" }
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1689billofrights.asp" }
       - title: The History of the Rebellion and Civil Wars in England
+        reader: student
         author: Edward Hyde, Earl of Clarendon
         date: "1702–04"
         publicDomain: true
         links:
           - { label: Archive.org Vol. 1, url: "https://archive.org/details/england01claruoft" }
       - title: Reflections on the Revolution in France (in Works, Vol. 3)
+        reader: student
+        pages: 338
         author: Edmund Burke
         date: "1790"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
       - title: The History of England (Vol. I)
+        reader: student
+        pages: 582
         author: David Hume
         date: "1754–61"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19211" }
       - title: The History of England from the Accession of James II (Vol. 1)
+        reader: student
+        pages: 650
         author: Thomas Babington Macaulay
         date: "1848"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1468" }
       - title: "Modern History Sourcebook: Constitutionalism"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook06.asp" }
@@ -1552,10 +1685,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 15
-    order: 22
-    prerequisites: [history-12, history-20]
+    ageStart: 15
+    ageEnd: 15.5
+    order: 20
+    prerequisites: [history-12, history-19]
     related: [theology-19, philosophy-10, literature-19]
     exams: [ap-european-history]
     summary: >-
@@ -1573,31 +1706,41 @@ rows:
       - Write a 2,500-word essay on the Reformation's legacy for liberty and conscience, using both Catholic and Protestant sources
     coreTexts:
       - title: "Modern History Sourcebook: Reformation (Luther, Calvin, Zwingli, Trent, Loyola, More)"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
       - title: The Ninety-Five Theses
+        reader: student
+        pages: 10
         author: Martin Luther
         publicDomain: true
         links:
           - { label: Fordham Sourcebook, url: "https://sourcebooks.fordham.edu/source/luther95.txt" }
       - title: The Canons and Decrees of the Council of Trent (tr. Waterworth)
+        reader: student
+        pages: 300
         publicDomain: true
         links:
           - { label: Hanover Historical Texts (full), url: "https://history.hanover.edu/texts/trent/trentall.html" }
       - title: The Prince
+        reader: student
+        pages: 156
         author: Niccolò Machiavelli
         date: "1532"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
       - title: "Medieval Sourcebook: Renaissance; Reformation; Exploration"
+        reader: student
         publicDomain: true
         links:
           - { label: Renaissance, url: "https://sourcebooks.fordham.edu/sbook1x.asp" }
           - { label: Reformation, url: "https://sourcebooks.fordham.edu/sbook1y.asp" }
           - { label: Exploration, url: "https://sourcebooks.fordham.edu/sbook1z.asp" }
       - title: The Dividing of Christendom
+        reader: student
+        pages: 295
         author: Christopher Dawson
         date: "1965"
         publicDomain: false
@@ -1608,7 +1751,7 @@ rows:
         publisher: Catholic Heritage Curricula (Catholic Textbook Project)
         tradition: catholic
         url: "https://chcweb.com/product/light-to-the-nations-part-2-the-making-of-the-modern-world/"
-        notes: Catholic narrative from the 16th century to the 20th. Continues into rows 25–27.
+        notes: Catholic narrative from the 16th century to the 20th. Continues into history-25 and history-26.
       - name: "Omnibus III–IV (Veritas Scholars Academy / Veritas Press)"
         publisher: Veritas Press
         tradition: protestant
@@ -1630,78 +1773,162 @@ rows:
       a coda for advanced students.
 
   - id: history-23
-    title: "Seminar: Colonial & Revolutionary America — the Founders in Their Own Words"
+    title: "Seminar: The American Founding to the Civil War — the Founders, Douglass & Lincoln in Their Own Words"
     type: course
     level: 9-12
     stage: formal
     ageStart: 15
-    ageEnd: 15.5
-    order: 23
+    ageEnd: 16
+    order: 21
     prerequisites: [history-21, history-14]
-    related: [literature-27, rhetoric-11]
+    related: [literature-27, rhetoric-08, rhetoric-09, rhetoric-11]
     exams: [ap-us-history]
     summary: >-
-      The American Revolution read almost entirely in primary sources from Founders Online and the
-      Avalon Project: the colonial charters, the Stamp Act resolves, Paine's Common Sense, Adams's
-      Thoughts on Government and his Diary, the Declaration with Jefferson's rough draft,
-      Washington's letters and his Circular to the States (1783), and the Articles of
-      Confederation. The course ends with the Constitutional Convention and the ratification
-      debate (Federalist and Anti-Federalist). This is the heart of forming a "modern founding
-      father."
+      A year-long seminar on the American story from the Revolution to Lincoln's Second Inaugural,
+      read almost entirely in primary sources from Founders Online, the Avalon Project and Teaching
+      American History. The first half covers the Revolution: the colonial charters, the Stamp Act
+      resolves, Paine's Common Sense, Adams's Thoughts on Government, the Declaration with
+      Jefferson's rough draft, Washington's letters and his Circular to the States (1783), the
+      Articles of Confederation, the Constitutional Convention and the ratification debate
+      (Federalist and Anti-Federalist). The second half covers the early republic and the sectional
+      crisis: Webster's Second Reply to Hayne against Calhoun, Douglass's Narrative and "What to the
+      Slave Is the Fourth of July?", the Lincoln–Douglas debates, the House Divided and Cooper Union
+      speeches, and the Gettysburg Address and Second Inaugural. Adams's Diary and Tocqueville's
+      Democracy in America (Vol. I) are electives. This is the heart of forming a "modern founding
+      father," and its key question is the meaning of the Declaration's equality principle.
     objectives:
       - Read Common Sense entire and Adams's Thoughts on Government, and compare their plans of government
       - Compare Jefferson's rough draft of the Declaration with the adopted text, and explain Congress's changes
       - Read 20 Washington letters (incl. the 1783 Circular and the Newburgh period) and write a character study
       - Read Federalist 1, 10, 39, 47–51, 70, 78 and two Anti-Federalist replies; write a 2,500-word essay on the ratification debate
+      - Read Douglass's Narrative entire and his Fourth of July oration
+      - Stage a debate reproducing Webster vs. Calhoun on union and nullification
+      - Read at least three of the seven Lincoln–Douglas debates and write a judgment between the two on popular sovereignty
+      - Write a 2,500-word essay on Lincoln's interpretation of the Declaration, from the Peoria speech to Gettysburg
     coreTexts:
       - title: Common Sense
+        reader: student
+        pages: 61
         author: Thomas Paine
         date: "1776"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/147" }
       - title: Thoughts on Government
+        reader: student
+        pages: 8
         author: John Adams
         date: "1776"
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/06-04-02-0026-0004" }
-      - title: Diary of John Adams (from 1755)
-        author: John Adams
-        publicDomain: true
-        links:
-          - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/01-01-02-0001-0001" }
       - title: Jefferson's "original Rough draught" of the Declaration
+        reader: student
+        pages: 4
         author: Thomas Jefferson
         date: "1776"
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Jefferson/01-01-02-0176-0004" }
       - title: Circular to the States
+        reader: student
+        pages: 10
         author: George Washington
         date: "8 June 1783"
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Washington/99-01-02-11404" }
       - title: "Modern History Sourcebook: American Independence"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook12.asp" }
       - title: Avalon Project — 18th-Century Documents
+        reader: student
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/18th.asp" }
       - title: The Federalist Papers
+        reader: student
+        pages: 559
         author: Hamilton, Madison & Jay
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18" }
+      - title: Select Speeches of Daniel Webster, 1817–1845 (incl. Second Reply to Hayne)
+        reader: student
+        author: Daniel Webster
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7600" }
+      - title: Speech on the Oregon Bill
+        reader: student
+        pages: 25
+        author: John C. Calhoun
+        date: "1848"
+        publicDomain: true
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/speech-on-the-oregon-bill/" }
+      - title: Narrative of the Life of Frederick Douglass
+        reader: student
+        pages: 127
+        author: Frederick Douglass
+        date: "1845"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23" }
+      - title: What to the Slave Is the Fourth of July?
+        reader: student
+        pages: 20
+        author: Frederick Douglass
+        date: "1852"
+        publicDomain: true
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july-2/" }
+      - title: The Lincoln–Douglas Debates (Papers and Writings, Vol. 3)
+        reader: student
+        pages: 330
+        author: Abraham Lincoln & Stephen A. Douglas
+        date: "1858"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2655" }
+          - { label: "Teaching American History: First Debate", url: "https://teachingamericanhistory.org/document/the-lincoln-douglas-debates-1st-debate/" }
+      - title: House Divided; Cooper Union Address
+        reader: student
+        pages: 20
+        author: Abraham Lincoln
+        date: "1858–60"
+        publicDomain: true
+        links:
+          - { label: House Divided (TAH), url: "https://teachingamericanhistory.org/document/house-divided-speech/" }
+          - { label: Cooper Union (TAH), url: "https://teachingamericanhistory.org/document/address-at-cooper-union/" }
+          - { label: "Speeches & Letters of Lincoln (Gutenberg)", url: "https://www.gutenberg.org/ebooks/14721" }
+      - title: "Modern History Sourcebook: US Civil War"
+        reader: student
+        publicDomain: true
+        links:
+          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook27.asp" }
+      - title: "Diary of John Adams (from 1755) (elective)"
+        reader: student
+        author: John Adams
+        publicDomain: true
+        links:
+          - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/01-01-02-0001-0001" }
+      - title: "Democracy in America (Vol. 1) (elective)"
+        reader: student
+        pages: 400
+        author: Alexis de Tocqueville
+        date: "1835"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/815" }
     curriculumOptions:
       - name: American Heritage (free online course)
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/american-heritage"
-        notes: Hillsdale's core American history course, built on primary documents. Take it here and again at 17.
+        notes: Hillsdale's core American history course, built on primary documents. Its lectures on the founding, the early republic, Lincoln and Reconstruction pair with these readings. Take it here and again at 17.
       - name: The Federalist (free online course)
         publisher: Hillsdale College
         tradition: classical
@@ -1717,92 +1944,6 @@ rows:
         tradition: catholic
         url: "https://www.motherofdivinegrace.org/curriculum/syllabus/20"
         notes: Catholic syllabus using Carroll's Christ and the Americas, primary speeches and American literature.
-    historicalPrecedent: >-
-      Adams's diary records a young schoolmaster and law student's program of self-directed reading
-      in exactly the spirit of this course. Adams to Abigail (12 May 1780) sets out the
-      generational order: "I must study Politicks and War that my sons may have liberty to study
-      Mathematicks and Philosophy."
-    sources:
-      - { label: "John Adams to Abigail Adams, 12 May 1780", url: "https://founders.archives.gov/documents/Adams/04-03-02-0258" }
-
-  - id: history-24
-    title: "Seminar: The Early Republic, the Sectional Crisis & the Civil War"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 15
-    ageEnd: 16
-    order: 24
-    prerequisites: [history-23]
-    related: [rhetoric-08, rhetoric-09, literature-27]
-    exams: [ap-us-history]
-    summary: >-
-      From Washington's Farewell to Lincoln's Second Inaugural, in the words of the actors. The
-      student reads Tocqueville's Democracy in America (Vol. I selections) and Webster's Second
-      Reply to Hayne against Calhoun (the Exposition tradition and the Oregon Bill speech). He reads
-      Douglass's Narrative and "What to the Slave Is the Fourth of July?", the Lincoln–Douglas
-      debates, the House Divided and Cooper Union speeches, and the Gettysburg Address and Second
-      Inaugural. The key question is the meaning of the Declaration's equality principle.
-    objectives:
-      - Read Douglass's Narrative entire and his Fourth of July oration
-      - Stage a debate reproducing Webster vs. Calhoun on union and nullification
-      - Read at least three of the seven Lincoln–Douglas debates and write a judgment between the two on popular sovereignty
-      - Write a 2,500-word essay on Lincoln's interpretation of the Declaration, from the Peoria speech to Gettysburg
-    coreTexts:
-      - title: Democracy in America (Vol. 1)
-        author: Alexis de Tocqueville
-        date: "1835"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/815" }
-      - title: Select Speeches of Daniel Webster, 1817–1845 (incl. Second Reply to Hayne)
-        author: Daniel Webster
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7600" }
-      - title: Speech on the Oregon Bill
-        author: John C. Calhoun
-        date: "1848"
-        publicDomain: true
-        links:
-          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/speech-on-the-oregon-bill/" }
-      - title: Narrative of the Life of Frederick Douglass
-        author: Frederick Douglass
-        date: "1845"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23" }
-      - title: What to the Slave Is the Fourth of July?
-        author: Frederick Douglass
-        date: "1852"
-        publicDomain: true
-        links:
-          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july-2/" }
-      - title: The Lincoln–Douglas Debates (Papers and Writings, Vol. 3)
-        author: Abraham Lincoln & Stephen A. Douglas
-        date: "1858"
-        publicDomain: true
-        links:
-          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2655" }
-          - { label: "Teaching American History: First Debate", url: "https://teachingamericanhistory.org/document/the-lincoln-douglas-debates-1st-debate/" }
-      - title: House Divided; Cooper Union Address
-        author: Abraham Lincoln
-        date: "1858–60"
-        publicDomain: true
-        links:
-          - { label: House Divided (TAH), url: "https://teachingamericanhistory.org/document/house-divided-speech/" }
-          - { label: Cooper Union (TAH), url: "https://teachingamericanhistory.org/document/address-at-cooper-union/" }
-          - { label: "Speeches & Letters of Lincoln (Gutenberg)", url: "https://www.gutenberg.org/ebooks/14721" }
-      - title: "Modern History Sourcebook: US Civil War"
-        publicDomain: true
-        links:
-          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook27.asp" }
-    curriculumOptions:
-      - name: American Heritage (free online course)
-        publisher: Hillsdale College
-        tradition: classical
-        url: "https://online.hillsdale.edu/courses/american-heritage"
-        notes: Its lectures on the early republic, Lincoln and Reconstruction pair with these readings.
       - name: "America: Forge of Freedom (two-volume set)"
         publisher: Seton Educational Media
         tradition: catholic
@@ -1814,9 +1955,19 @@ rows:
         url: "https://bookshop.org/p/books/land-of-hope-an-invitation-to-the-great-american-story-wilfred-m-mcclay/a2efc39b8a5d0d5c"
         notes: McClay's full narrative, used by many classical schools for the high-school survey.
     historicalPrecedent: >-
-      Webster's Reply to Hayne ("Liberty and Union, now and forever, one and inseparable!") was
-      declaimed in American schools for a century and printed in the McGuffey and Elson readers.
-      Lincoln educated himself on Weems's Washington, Plutarch and the Declaration.
+      Adams's diary records a young schoolmaster and law student's program of self-directed reading
+      in exactly the spirit of this course. Adams to Abigail (12 May 1780) sets out the
+      generational order: "I must study Politicks and War that my sons may have liberty to study
+      Mathematicks and Philosophy." Webster's Reply to Hayne ("Liberty and Union, now and forever,
+      one and inseparable!") was declaimed in American schools for a century and printed in the
+      McGuffey and Elson readers. Lincoln educated himself on Weems's Washington, Plutarch and the
+      Declaration.
+    sources:
+      - { label: "John Adams to Abigail Adams, 12 May 1780", url: "https://founders.archives.gov/documents/Adams/04-03-02-0258" }
+    notes: >-
+      Choose 1 of the 2 electives (Adams's Diary or Tocqueville's Democracy in America, Vol. I).
+      Tocqueville's Vol. II is read in history-31. The Federalist, Webster's speeches and the
+      Lincoln–Douglas debates are read in the selections named in the objectives.
 
   - id: history-25
     title: "Seminar: Nineteenth-Century Europe & Britain — Revolution, Reaction & Reform"
@@ -1825,7 +1976,7 @@ rows:
     stage: formal
     ageStart: 15.5
     ageEnd: 16
-    order: 25
+    order: 22
     prerequisites: [history-21]
     related: [philosophy-11, philosophy-12, literature-22, literature-23]
     exams: [ap-european-history, ap-world-history-modern]
@@ -1843,6 +1994,7 @@ rows:
       - Trace nationalism from Napoleon to German and Italian unification using the sourcebook
     coreTexts:
       - title: "Modern History Sourcebook: French Revolution; Conservative Order; 1848; 19C Britain; Socialism; 19C Religion"
+        reader: student
         publicDomain: true
         links:
           - { label: French Revolution, url: "https://sourcebooks.fordham.edu/mod/modsbook13.asp" }
@@ -1851,30 +2003,40 @@ rows:
           - { label: 19C Britain, url: "https://sourcebooks.fordham.edu/mod/modsbook20.asp" }
           - { label: 19C Religion, url: "https://sourcebooks.fordham.edu/mod/modsbook37.asp" }
       - title: "The French Revolution: A History"
+        reader: student
+        pages: 800
         author: Thomas Carlyle
         date: "1837"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1301" }
       - title: The Communist Manifesto
+        reader: student
+        pages: 38
         author: Karl Marx & Friedrich Engels
         date: "1848"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
       - title: Rerum Novarum
+        reader: student
+        pages: 40
         author: Pope Leo XIII
         date: "1891"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
       - title: Quanta Cura
+        reader: student
+        pages: 12
         author: Pope Pius IX
         date: "1864"
         publicDomain: true
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/pius-ix/en/documents/encyclica-quanta-cura-8-decembris-1864.html" }
       - title: The English Constitution
+        reader: student
+        pages: 312
         author: Walter Bagehot
         date: "1867"
         publicDomain: true
@@ -1903,30 +2065,40 @@ rows:
       Revolution on his generation.
 
   - id: history-26
-    title: "Seminar: The World Wars — Churchill, the Popes & the Documents"
+    title: "Seminar: The Twentieth Century — World Wars, Totalitarianism, the Cold War & Civil Rights"
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
-    order: 26
-    prerequisites: [history-25]
-    related: [rhetoric-08]
+    ageStart: 16
+    ageEnd: 17
+    order: 23
+    prerequisites: [history-25, history-23]
+    related: [rhetoric-08, philosophy-13]
     exams: [ap-us-history, ap-european-history, ap-world-history-modern]
     summary: >-
-      The two world wars in the words of statesmen and witnesses. For World War I the student
-      reads Benedict XV's Ad Beatissimi (1914) and Wilson's Fourteen Points, with documents from
-      the sourcebook. For the interwar crisis come Pius XI's Mit brennender Sorge (against Nazism)
-      and Divini Redemptoris (against Communism), both 1937, and the Nazism and Holocaust
-      documents. For World War II the student reads Churchill's great speeches of 1940 and the
-      Atlantic Charter. Churchill is studied as a model statesman-historian.
+      The 20th century in the words of statesmen and witnesses. For World War I the student reads
+      Wilson's Fourteen Points with documents from the sourcebook. For the interwar crisis come
+      Pius XI's Mit brennender Sorge (against Nazism) and Divini Redemptoris (against Communism),
+      both 1937, and the Nazism and Holocaust documents. For World War II he reads Churchill's great
+      speeches of 1940 and the Atlantic Charter, and Churchill is studied as a model
+      statesman-historian. The Cold War opens with Kennan's Long Telegram and Churchill's "Sinews
+      of Peace" (the Iron Curtain), with documents from the Avalon Cold War collection, and is judged
+      through Solzhenitsyn's Harvard address "A World Split Apart." For civil rights he reads King's
+      "Letter from Birmingham Jail," which argues from Augustine and Aquinas, as the fulfillment of
+      the Declaration–Lincoln–Douglass argument. Benedict XV's Ad Beatissimi, the abridged Gulag
+      Archipelago, Reagan at the Brandenburg Gate and John Paul II's Centesimus Annus (the Catholic
+      reading of 1989) are electives.
     objectives:
       - Read and deliver one of Churchill's 1940 speeches, and analyze its rhetoric
       - Read Mit brennender Sorge and Divini Redemptoris, and state the Church's case against both totalitarianisms
       - Compare the Fourteen Points and the Atlantic Charter as statements of war aims
-      - Write a 2,500-word essay on statesmanship in 1938–40, drawing on Churchill's speeches and the diplomatic documents
+      - Analyze Kennan's Long Telegram and Churchill's Fulton speech as the founding documents of containment
+      - Read King's Letter entire and trace his use of natural law (Augustine, Aquinas) and the Declaration
+      - Write a 2,500-word essay either on statesmanship in 1938–40, drawing on Churchill's speeches and the diplomatic documents, or on Solzhenitsyn's Harvard address as a critique of both East and West
     coreTexts:
       - title: Churchill's speeches (Their Finest Hour; We Shall Fight on the Beaches; The Sinews of Peace)
+        reader: student
+        pages: 32
         author: Winston Churchill
         date: "1940–46"
         publicDomain: false
@@ -1934,37 +2106,99 @@ rows:
           - { label: "International Churchill Society: Speeches", url: "https://winstonchurchill.org/resources/speeches/" }
           - { label: Their Finest Hour, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/their-finest-hour/" }
           - { label: We Shall Fight on the Beaches, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
-      - title: Ad Beatissimi Apostolorum
-        author: Pope Benedict XV
-        date: "1914"
-        publicDomain: true
-        links:
-          - { label: Vatican.va, url: "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html" }
+          - { label: "The Sinews of Peace (\"Iron Curtain\")", url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
       - title: Mit brennender Sorge; Divini Redemptoris
+        reader: student
+        pages: 50
         author: Pope Pius XI
         date: "1937"
         links:
           - { label: Mit brennender Sorge, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html" }
           - { label: Divini Redemptoris, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html" }
       - title: The Fourteen Points
+        reader: student
+        pages: 5
         author: Woodrow Wilson
         date: "1918"
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/20th_century/wilson14.asp" }
       - title: The Atlantic Charter; Avalon WWII documents
+        reader: student
         date: "1941"
         publicDomain: true
         links:
           - { label: Atlantic Charter, url: "https://avalon.law.yale.edu/wwii/atlantic.asp" }
           - { label: Avalon WWII menu, url: "https://avalon.law.yale.edu/subject_menus/wwii.asp" }
-      - title: "Modern History Sourcebook: World War I; Nazism; Holocaust; World War II"
+      - title: "Modern History Sourcebook: World War I; Nazism; Holocaust; World War II; Bipolar World"
+        reader: student
         publicDomain: true
         links:
           - { label: World War I, url: "https://sourcebooks.fordham.edu/mod/modsbook38.asp" }
           - { label: Nazism, url: "https://sourcebooks.fordham.edu/mod/modsbook43.asp" }
           - { label: Holocaust, url: "https://sourcebooks.fordham.edu/mod/modsbook44.asp" }
           - { label: World War II, url: "https://sourcebooks.fordham.edu/mod/modsbook45.asp" }
+          - { label: Bipolar World, url: "https://sourcebooks.fordham.edu/mod/modsbook46.asp" }
+      - title: The Long Telegram
+        reader: student
+        pages: 20
+        author: George F. Kennan
+        date: "1946"
+        publicDomain: true
+        links:
+          - { label: Truman Library, url: "https://www.trumanlibrary.gov/library/research-files/telegram-george-kennan-james-byrnes-long-telegram" }
+      - title: Avalon Project — Cold War documents
+        reader: student
+        publicDomain: true
+        links:
+          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/coldwar.asp" }
+      - title: "A World Split Apart (Harvard Commencement Address)"
+        reader: student
+        pages: 20
+        author: Aleksandr Solzhenitsyn
+        date: "1978"
+        publicDomain: false
+        links:
+          - { label: Solzhenitsyn Center, url: "https://www.solzhenitsyncenter.org/a-world-split-apart" }
+      - title: Letter from Birmingham City Jail
+        reader: student
+        pages: 20
+        author: Martin Luther King Jr.
+        date: "1963"
+        publicDomain: false
+        links:
+          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/letter-from-birmingham-city-jail-excerpts/" }
+      - title: "Ad Beatissimi Apostolorum (elective)"
+        reader: student
+        pages: 20
+        author: Pope Benedict XV
+        date: "1914"
+        publicDomain: true
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html" }
+      - title: "The Gulag Archipelago (abridged) (elective)"
+        reader: student
+        pages: 470
+        author: Aleksandr Solzhenitsyn
+        date: "1973 (abr. 1985)"
+        publicDomain: false
+        links:
+          - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-gulag-archipelago-aleksandr-i-solzhenitsyn" }
+      - title: "Remarks at the Brandenburg Gate (elective)"
+        reader: student
+        pages: 5
+        author: Ronald Reagan
+        date: "1987"
+        publicDomain: true
+        links:
+          - { label: Reagan Library, url: "https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin" }
+      - title: "Centesimus Annus (elective)"
+        reader: student
+        pages: 110
+        author: Pope John Paul II
+        date: "1991"
+        links:
+          - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
     curriculumOptions:
       - name: Winston Churchill and Statesmanship (free online course)
         publisher: Hillsdale College
@@ -1975,114 +2209,35 @@ rows:
         publisher: HarperCollins
         tradition: secular
         url: "https://www.harpercollins.com/products/modern-times-revised-edition-paul-johnson"
-        notes: Johnson's narrative of 1917–1990s, sharp on the totalitarian regimes. A companion for rows 26–27.
+        notes: Johnson's narrative of 1917–1990s, sharp on the totalitarian regimes. The narrative spine for this seminar.
       - name: TAN Academy High School World History (video)
         publisher: TAN Books
         tradition: catholic
         url: "https://tanbooks.com/products/books/high-school-world-history-streaming-video/"
         notes: A Catholic video survey course. Use it as the narrative frame alongside the documents.
-    historicalPrecedent: >-
-      Churchill was himself a historian (Marlborough, The World Crisis, The Second World War, A
-      History of the English-Speaking Peoples) who formed his style on Gibbon and Macaulay, read
-      at Bangalore as a young officer. His career is the best modern case of what this track aims
-      at: a statesman formed by history.
-
-  - id: history-27
-    title: "Seminar: Totalitarianism, the Cold War & Civil Rights"
-    type: course
-    level: 9-12
-    stage: formal
-    ageStart: 16
-    ageEnd: 16.5
-    order: 27
-    prerequisites: [history-26, history-24]
-    related: [rhetoric-08, philosophy-13]
-    exams: [ap-us-history, ap-european-history, ap-world-history-modern]
-    summary: >-
-      The second half of the 20th century. The student reads Solzhenitsyn's Gulag Archipelago
-      (abridged) and his Harvard address "A World Split Apart," Kennan's Long Telegram, and
-      Churchill's "Sinews of Peace" (the Iron Curtain), with documents from the Avalon Cold War
-      collection. For civil rights he reads King's "Letter from Birmingham Jail," which argues
-      from Augustine and Aquinas, as the fulfillment of the Declaration–Lincoln–Douglass
-      argument. John Paul II's Centesimus Annus (1991) is the Catholic reading of 1989.
-    objectives:
-      - Read the one-volume Gulag Archipelago and write on how ideology licenses terror
-      - Analyze Kennan's Long Telegram and Churchill's Fulton speech as the founding documents of containment
-      - Read King's Letter entire and trace his use of natural law (Augustine, Aquinas) and the Declaration
-      - Write a 2,500-word essay on Solzhenitsyn's Harvard address as a critique of both East and West
-    coreTexts:
-      - title: The Gulag Archipelago (abridged)
-        author: Aleksandr Solzhenitsyn
-        date: "1973 (abr. 1985)"
-        publicDomain: false
-        links:
-          - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-gulag-archipelago-aleksandr-i-solzhenitsyn" }
-      - title: "A World Split Apart (Harvard Commencement Address)"
-        author: Aleksandr Solzhenitsyn
-        date: "1978"
-        publicDomain: false
-        links:
-          - { label: Solzhenitsyn Center, url: "https://www.solzhenitsyncenter.org/a-world-split-apart" }
-      - title: The Long Telegram
-        author: George F. Kennan
-        date: "1946"
-        publicDomain: true
-        links:
-          - { label: Truman Library, url: "https://www.trumanlibrary.gov/library/research-files/telegram-george-kennan-james-byrnes-long-telegram" }
-      - title: The Sinews of Peace ("Iron Curtain")
-        author: Winston Churchill
-        date: "1946"
-        publicDomain: false
-        links:
-          - { label: International Churchill Society, url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
-      - title: Avalon Project — Cold War documents
-        publicDomain: true
-        links:
-          - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/coldwar.asp" }
-      - title: Letter from Birmingham City Jail
-        author: Martin Luther King Jr.
-        date: "1963"
-        publicDomain: false
-        links:
-          - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/letter-from-birmingham-city-jail-excerpts/" }
-      - title: Remarks at the Brandenburg Gate
-        author: Ronald Reagan
-        date: "1987"
-        publicDomain: true
-        links:
-          - { label: Reagan Library, url: "https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin" }
-      - title: Centesimus Annus
-        author: Pope John Paul II
-        date: "1991"
-        links:
-          - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
-      - title: "Modern History Sourcebook: Bipolar World"
-        publicDomain: true
-        links:
-          - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook46.asp" }
-    curriculumOptions:
       - name: Marxism, Socialism, and Communism (free online course)
         publisher: Hillsdale College
         tradition: classical
         url: "https://online.hillsdale.edu/courses/marxism-socialism-communism"
         notes: The theoretical background to the Soviet experience.
-      - name: "Modern Times (Paul Johnson)"
-        publisher: HarperCollins
-        tradition: secular
-        url: "https://www.harpercollins.com/products/modern-times-revised-edition-paul-johnson"
-        notes: The narrative spine for 1917–1990.
       - name: "The Story of Civilization, Vol. 4: The History of the United States"
         publisher: TAN Books
         tradition: catholic
         url: "https://tanbooks.com/products/books/the-story-of-civilization-volume-4-the-history-of-the-united-states/"
         notes: Catholic narrative of 20th-century America, suited to a lighter treatment.
     historicalPrecedent: >-
-      King wrote the Letter in the tradition of the Declaration and of Lincoln. He quotes
-      Augustine ("an unjust law is no law at all") and Aquinas. Hillsdale's American Heritage
-      course places the civil-rights movement in that same line of argument from the founding.
+      Churchill was himself a historian (Marlborough, The World Crisis, The Second World War, A
+      History of the English-Speaking Peoples) who formed his style on Gibbon and Macaulay, read
+      at Bangalore as a young officer. His career is the best modern case of what this track aims
+      at: a statesman formed by history. King wrote the Letter in the tradition of the Declaration
+      and of Lincoln. He quotes Augustine ("an unjust law is no law at all") and Aquinas.
+      Hillsdale's American Heritage course places the civil-rights movement in that same line of
+      argument from the founding.
     notes: >-
-      The Birmingham Letter is still under copyright (King Estate). TAH publishes excerpts, and the
-      full text is widely reprinted in anthologies.
+      Choose 2 of the 4 electives (Ad Beatissimi, the abridged Gulag Archipelago, Reagan's
+      Brandenburg Gate speech, Centesimus Annus). A student who chooses the Gulag should write on
+      how ideology licenses terror. The Birmingham Letter is still under copyright (King Estate).
+      TAH publishes excerpts, and the full text is widely reprinted in anthologies.
 
   - id: history-28
     title: "Historiography: How History Is Written — Rollin, Hume, Gibbon, Macaulay, Acton, Dawson & Johnson"
@@ -2091,8 +2246,8 @@ rows:
     stage: formal
     ageStart: 16
     ageEnd: 16.5
-    order: 28
-    prerequisites: [history-21, history-18, history-27]
+    order: 24
+    prerequisites: [history-21, history-18, history-26]
     related: [philosophy-13, theology-23]
     summary: >-
       The capstone of the high-school cycle is reading the historians as historians. It starts
@@ -2109,45 +2264,60 @@ rows:
       - Write a 3,000-word historiographical essay on one event as told by three historians
     coreTexts:
       - title: The Ancient History of the Egyptians, Carthaginians, Assyrians… (Vol. 1)
+        reader: student
+        pages: 965
         author: Charles Rollin
         date: "1730–38"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28558" }
       - title: The History of England (Vol. I)
+        reader: student
+        pages: 582
         author: David Hume
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19211" }
       - title: The Decline and Fall of the Roman Empire (Vol. 1)
+        reader: student
+        pages: 567
         author: Edward Gibbon
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/731" }
       - title: The History of England from the Accession of James II (Vol. 1)
+        reader: student
+        pages: 650
         author: Thomas Babington Macaulay
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1468" }
       - title: A Lecture on the Study of History
+        reader: student
+        pages: 154
         author: Lord Acton
         date: "1895"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25720" }
       - title: Religion and the Rise of Western Culture
+        reader: student
+        pages: 242
         author: Christopher Dawson
         date: "1950"
         publicDomain: false
         links:
           - { label: Bookshop.org, url: "https://bookshop.org/p/books/religion-and-the-rise-of-western-culture-the-classic-study-of-medieval-civilization-christopher-dawson/96dcbd4312287e31" }
       - title: A History of the American People
+        reader: student
+        pages: 984
         author: Paul Johnson
         date: "1997"
         publicDomain: false
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.com/products/a-history-of-the-american-people-paul-johnson" }
       - title: "Modern History Sourcebook: Studying History"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook01.asp" }
@@ -2184,7 +2354,7 @@ rows:
     ageStart: 17
     ageEnd: 17.5
     order: 29
-    prerequisites: [history-28, history-20]
+    prerequisites: [history-28, history-19]
     related: [literature-31, philosophy-14]
     summary: >-
       This course follows Hillsdale College's Western Heritage core: the formation of the West from
@@ -2201,16 +2371,19 @@ rows:
       - Take the Hillsdale Western Heritage lecture series and pass a comprehensive oral exam on it
     coreTexts:
       - title: "Ancient History Sourcebook: Greece; Rome"
+        reader: student
         publicDomain: true
         links:
           - { label: Greece, url: "https://sourcebooks.fordham.edu/ancient/asbook07.asp" }
           - { label: Rome, url: "https://sourcebooks.fordham.edu/ancient/asbook09.asp" }
       - title: "Medieval Sourcebook: Roman Church; England"
+        reader: student
         publicDomain: true
         links:
           - { label: Roman Church, url: "https://sourcebooks.fordham.edu/sbook1e.asp" }
           - { label: England, url: "https://sourcebooks.fordham.edu/sbook1n.asp" }
       - title: "The Golden Thread: A History of the Western Tradition, Volume I: The Ancient World and Christendom"
+        reader: student
         author: James Hankins
         date: "2025"
         publicDomain: false
@@ -2265,22 +2438,28 @@ rows:
       - Relate the English, American and French revolutions to each other through their founding documents
     coreTexts:
       - title: Second Treatise of Government
+        reader: student
+        pages: 115
         author: John Locke
         date: "1689"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
       - title: Leviathan
+        reader: student
+        pages: 508
         author: Thomas Hobbes
         date: "1651"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3207" }
       - title: "Internet Modern History Sourcebook (index)"
+        reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/halsall/mod/modsbook.asp" }
       - title: "The Golden Thread: A History of the Western Tradition, Volume II: The Modern and Contemporary West"
+        reader: student
         author: Allen C. Guelzo
         date: "2026"
         publicDomain: false
@@ -2317,7 +2496,7 @@ rows:
     ageStart: 17
     ageEnd: 18
     order: 31
-    prerequisites: [history-24, history-27]
+    prerequisites: [history-23, history-26]
     related: [rhetoric-12, civics-law-17]
     summary: >-
       Hillsdale's American Heritage core, taken as the capstone of the American strand. The
@@ -2333,16 +2512,20 @@ rows:
       - Deliver a 20-minute public lecture on the thesis
     coreTexts:
       - title: Democracy in America (Vol. 2)
+        reader: student
+        pages: 400
         author: Alexis de Tocqueville
         date: "1840"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
       - title: Founders Online (papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison, Jay)
+        reader: student
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/" }
       - title: The Papers and Writings of Abraham Lincoln
+        reader: student
         author: Abraham Lincoln
         publicDomain: true
         links:
@@ -2398,15 +2581,20 @@ rows:
       - Give an account of the development of doctrine (Newman) and its historical use
     coreTexts:
       - title: Church History (Eusebius) — Nicene and Post-Nicene Fathers, Ser. 2, Vol. 1
+        reader: student
+        pages: 630
         author: Eusebius, ed. Schaff & Wace
         publicDomain: true
         links:
           - { label: CCEL, url: "https://www.ccel.org/ccel/schaff/npnf201.html" }
       - title: Canons and Decrees of the Council of Trent
+        reader: student
+        pages: 608
         publicDomain: true
         links:
           - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent/trentall.html" }
       - title: "Medieval Sourcebook: Medieval Church; Empire & Papacy"
+        reader: student
         publicDomain: true
         links:
           - { label: Empire & Papacy, url: "https://sourcebooks.fordham.edu/sbook1l.asp" }

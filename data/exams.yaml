@@ -496,7 +496,7 @@ exams:
       the homeschool code 970000 when asked for a high school. The fee is $68. 2026–27 weekend dates, each
       with its registration deadline: Aug 22 (Aug 7), Sept 12 (Aug 28), Oct 3 (Sept 18), Nov 7 (Oct 23),
       Dec 5 (Nov 20), Mar 6, 2027 (Feb 19), May 1 (Apr 16) and Jun 5 (May 21). Test at a weekend test center
-      with a device that runs Bluebook; College Board can lend one if you request it in advance.
+      on a device with Bluebook installed (check the device-lending rules if you have no suitable laptop).
     resources:
       - { label: "Bluebook: free full-length official practice tests", url: "https://satsuite.collegeboard.org/practice/practice-tests/bluebook" }
       - { label: "Khan Academy: Official Digital SAT Prep (free)", url: "https://www.khanacademy.org/digital-sat" }
@@ -572,9 +572,8 @@ exams:
     month: Year-round
     url: "https://clep.collegeboard.org/register-for-an-exam"
     format: >-
-      34 computer-based exams in introductory college subjects. Most are 90 minutes and mostly multiple
-      choice; some composition exams include essays. Scores run 20–80, and most colleges follow ACE's
-      recommended credit score of 50 (check each college's policy).
+      34 computer-based exams in introductory college subjects, mostly multiple choice. Most colleges
+      follow ACE's recommended credit-granting score of 50, but each college sets its own policy (check).
     registration: >-
       No school is involved. Register and pay in the My CLEP student portal, then schedule separately
       with a test center or with remote proctoring. The fee is $97 per exam, plus the test center's own
@@ -587,9 +586,9 @@ exams:
       - { label: "CLEP Information for Test Takers 2026–27 (bulletin)", url: "https://clep.collegeboard.org/clep/pdf/information-test-takers-bulletin.pdf" }
     notes: >-
       Optional. Useful at 17 for general-education credit in subjects the program already covers (e.g.
-      Analyzing and Interpreting Literature, American Government, Spanish, Calculus). Many selective and
-      classical colleges (Hillsdale, Thomas Aquinas) have their own core and may not accept CLEP credit, so
-      check before paying.
+      Analyzing and Interpreting Literature, American Government, Spanish, Calculus). Colleges with a
+      fixed core curriculum may award little or no CLEP credit, so check the target college's policy before
+      paying.
   # ---------- national exams & olympiads ----------
   - id: national-latin-exam
     name: National Latin Exam
@@ -632,14 +631,14 @@ exams:
       the two Homeric exams are open to students at any school and cannot be repeated. Attic Prose may be
       repeated, but only two years in a row.
     registration: >-
-      Registration opens November 1 through ACL. Homeschoolers can register as a homeschool, with the
-      parent as the registering teacher and proctor. Recent cycles closed registration in mid-January;
-      check the current deadline, fee and exam window.
+      Registration opens November 1 through ACL, and homeschooled students can register as homeschoolers.
+      Check ACL's current proctoring rules for a parent-teacher. Recent cycles closed registration in
+      mid-January; check the current deadline, fee and exam window.
     resources:
       - { label: "American Classical League: exams (registration)", url: "https://aclclassics.org/acl/exams" }
     notes: >-
       Start at 12 with Introduction or Beginning Attic (greek-03/04). Move to Attic Prose with Xenophon and
-      Plato (greek-08/10) and Homeric Greek with greek-11. Past exams are sold through ACL.
+      Plato (greek-08/10) and Homeric Greek with greek-11.
   - id: national-mythology-exam
     name: National Mythology Exam
     body: American Classical League
@@ -698,16 +697,15 @@ exams:
     format: >-
       Standardized Chinese proficiency test. HSK 3.0 replaces the old six-level HSK with nine levels in
       three bands: 1–3 beginner, 4–6 intermediate, 7–9 advanced. It tests listening, reading and writing,
-      adds speaking, and adds translation at the upper levels. Trial sittings were held January 31, 2026,
-      and CTI announced the worldwide launch for December 13, 2026. Formats are paper-based at a center,
+      adds speaking, and adds translation at the upper levels. Trial sittings were held January 31, 2026, and
+      a worldwide launch was reported for December 13, 2026 (check). Formats are paper-based at a center,
       internet-based at a center, or internet-based at home (the home edition).
     registration: >-
       Register on chinesetest.cn: choose the level, format and test center or home edition, upload a
-      photo, and pay. Fees vary by level and center. Internet-based tests must be booked at least 10 days
-      before the test date. U.S. centers are usually Confucius Institute successors, universities or
-      language schools; use the test-center search. The home edition needs a Windows computer with a
-      camera, plus a second device set up by an adult as a room camera. Check current home-edition rules
-      and whether a center near you still gives paper tests.
+      photo, and pay. Fees vary by level and center, and internet-based registration closes earlier than
+      paper registration. Use the test-center search to find a U.S. center. The home edition has its own
+      equipment rules (a computer plus a second device as a room camera have been required). Check current
+      home-edition rules and whether a center near you still gives paper tests.
     resources:
       - { label: "Chinese Testing International: HSK", url: "https://www.chinesetest.cn/HSK" }
       - { label: "CTI: find a test center", url: "https://www.chinesetest.cn/test-centers" }
@@ -736,10 +734,11 @@ exams:
       eligible site: an accredited school, college or university, math circle or learning center. MAA
       rules say student competitors and their parents may not register as competition managers, so a
       homeschool family can't host its own child. Ask a local school, university, math circle or learning
-      center that hosts (a homeschool co-op qualifies only if an eligible non-parent manager registers it).
-      Hosts pay the fees: $75 regular AMC 10/12 registration by October 15, 2026 ($115 late, to October 28)
-      and AMC 8 $55 early bird by Oct 28, $75 by Jan 5, 2027, or $115 late. Hosts may pass a per-student
-      charge on to families.
+      center that hosts. Whether a homeschool co-op qualifies as a site depends on MAA vetting (check). Hosts
+      pay the fees. AMC 10/12: $55 by Sept 30, 2026, $75 by Oct 15 (the final deadline for new managers),
+      $115 by Oct 28, plus $30 per 10-student license bundle. AMC 8: $55 by Oct 28, 2026, $75 by Jan 5,
+      2027, $115 by Jan 14, plus $25 per 10-student bundle. Hosts often pass a per-student charge on to
+      families.
     resources:
       - { label: "MAA: AMC registration and key dates", url: "https://maa.org/amcreg/" }
       - { label: "AoPS Wiki: AMC problems and solutions (every past contest)", url: "https://artofproblemsolving.com/wiki/index.php/AMC_Problems_and_Solutions" }
@@ -757,8 +756,8 @@ exams:
     month: "February (F=ma), April (USAPhO)"
     url: "https://www.aapt.org/physicsteam/"
     format: >-
-      F=ma: 25 multiple-choice mechanics questions in 75 minutes, online, in a fixed afternoon window (2026:
-      February 12, 1–4 p.m. ET). About 400 top scorers are invited to the USAPhO, a 3-hour free-response
+      F=ma: 25 multiple-choice mechanics questions in 75 minutes, in a fixed afternoon window (2026:
+      February 12, 1–4 p.m. ET). A few hundred top scorers are invited to the USAPhO, a 3-hour free-response
       exam of 6 problems in two 90-minute parts (2026: April 10). Selected students go on to the training
       camp, the U.S. Physics Team and the International Physics Olympiad.
     registration: >-
@@ -845,14 +844,13 @@ exams:
       exams are booked online in fixed booking windows (2026: January 21–February 4 for the April–June
       session and August 19–September 2 for the October–December session), and actual dates vary by
       region. Performance Grades and online theory can be booked at any time and must be completed within
-      28 days. RCM (U.S.): register through a MyRCM account for a session (for example the Winter 2027
-      session, registration November 10, 2026–January 5, 2027). Remote practical exams have no registration
-      deadline.
+      28 days. RCM (U.S.): register through a MyRCM account within a session's registration window (check
+      the U.S. exam dates page). Remote practical exams have no registration deadline.
     resources:
       - { label: "RCM: register for an exam (U.S.)", url: "https://www.rcmusic.com/about-us/rcm-usa/register-for-an-exam" }
       - { label: "RCM: remote exams", url: "https://www.rcmusic.com/learning/examinations/remote-exams" }
       - { label: "ABRSM (U.S.): face-to-face exams booking", url: "https://www.abrsm.org/en-us/how-to-book/face-to-face-exams" }
       - { label: "ABRSM: about Performance Grades (video exams)", url: "https://www.abrsm.org/en-gb/performance-grades/about-performance-grades" }
     notes: >-
-      Pick one board per instrument and stay with it. RCM has more U.S. centers, while ABRSM's online theory
-      suits a homeschool calendar. ABRSM Grade 5 theory by about 12 sets up AP Music Theory at 15.
+      Pick one board per instrument and stay with it. ABRSM's on-demand online theory and RCM's remote
+      practical exams both suit a homeschool calendar. ABRSM Grade 5 theory by about 12 sets up AP Music Theory at 15.

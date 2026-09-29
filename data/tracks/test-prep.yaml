@@ -1,0 +1,435 @@
+track: test-prep
+title: "Test Preparation & Exam Planning (side track)"
+trackGroup: AP & Exams
+description: >-
+  A side track for the logistics and test-specific practice behind the exams in data/exams.yaml. It
+  teaches no subject matter. The main tracks (mathematics, the sciences, Latin, Greek, Spanish,
+  civics-law, rhetoric, literature) do the teaching; this track covers how to register an accelerated
+  homeschooler for each exam, when to sit it, how to practise its format, and how to document the
+  work on a transcript. It runs from the first national language exams at about 9, through the
+  olympiads and the CLT10 in the early teens, to the CLT, SAT, National Merit and the new Classic
+  Learning Initiatives exams at 15–17, and optional CLEP credit at 17. The end state is a student who
+  has sat every exam the program expects by 18, at the right age and in the right declared grade, with
+  a clean transcript and score record for college admission and credit.
+rows:
+  - id: test-prep-01
+    title: "National Exams in the Classical Languages & Spanish: NLE, NGE, Mythology and NSE"
+    type: practice
+    level: early-5
+    stage: formal
+    ageStart: 9
+    ageEnd: 16
+    order: 1
+    prerequisites: []
+    related: [latin-02, latin-12, greek-03, greek-11, spanish-05, literature-04]
+    exams: [national-latin-exam, national-greek-exam, national-mythology-exam, national-spanish-exam]
+    summary: >-
+      An annual late-winter habit from about 9: the National Latin Exam in March, the National Mythology
+      Exam (Pegasus, then Medusa), the National Greek Exam once Greek begins, and the National Spanish
+      Exam. These low-cost, low-stakes exams give the young student yearly outside benchmarks, medals and
+      practice sitting a timed multiple-choice exam. Each has its own homeschool registration rule, which
+      this row sets out.
+    objectives:
+      - Register each autumn, NLE through Lingco as a homeschool ("c/o" family name), before the January and February deadlines
+      - Arrange a non-teacher to receive and secure NLE materials, as NLE requires
+      - Find an AATSP-member sponsoring teacher for the NSE, or apply for an Individualized Student Testing Plan by December 15
+      - Work through two previous NLE exams and the NLE quiz app each February
+      - Keep every certificate and score report in the portfolio (test-prep-03)
+    curriculumOptions:
+      - name: "NLE: previous exams and answer keys (official)"
+        publisher: National Latin Exam (ACL/NJCL)
+        tradition: classical
+        url: "https://www.nle.org/previous-exams-and-answer-keys"
+        notes: Free past papers, the best NLE preparation. Pair with the quiz app at quiz.nle.org.
+      - name: "ACL exams: National Greek Exam, Pegasus/Medusa Mythology, Exploratory Latin (official)"
+        publisher: American Classical League
+        tradition: classical
+        url: "https://aclclassics.org/acl/exams"
+        notes: Registration opens November 1. Exploratory Latin (grades 3–8) is a gentle first exam before the NLE.
+      - name: "AATSP National Spanish Assessment (official diagnostic practice)"
+        publisher: AATSP
+        tradition: secular
+        url: "https://nationalspanishexam.org/exams/national-spanish-assessment/"
+        notes: Available all year at low cost, and a good dry run for the NSE's online format.
+      - name: "D'Aulaires' Book of Greek Myths"
+        publisher: Penguin Random House
+        tradition: classical
+        url: "https://www.penguinrandomhouse.com/books/36027/daulaires-book-of-greek-myths-by-ingri-daulaire-and-edgar-parin-daulaire/"
+        notes: The standard young reader's text behind Pegasus Mythology preparation (see literature-04).
+    sources:
+      - { label: "NLE for homeschooled students", url: "https://www.nle.org/nle-for-homeschooled-students" }
+      - { label: "AATSP: Individualized Student Testing Plans", url: "https://nationalspanishexam.org/resources/exam-proctoring/individualized-testing-plans/" }
+    notes: >-
+      Each student may take only one NLE per year. Greek levels Introduction and Beginning Attic are open
+      only to middle- and high-school students, so the Greek exam starts at about 12. Switch from Pegasus
+      to Medusa in the declared 9th-grade year.
+
+  - id: test-prep-02
+    title: "Science & Math Olympiads: Registration and Calendar (AMC, F=ma, USNCO, USABO)"
+    type: practice
+    level: 6-8
+    stage: formal
+    ageStart: 11
+    ageEnd: 16
+    order: 2
+    prerequisites: []
+    related: [mathematics-08, mathematics-14, physics-04, physics-06, chemistry-04, biology-04]
+    exams: [amc, physics-olympiad, chemistry-olympiad, biology-olympiad]
+    summary: >-
+      Every student sits the competition-math and science olympiad sequence, but none of the four allows
+      a parent to host or proctor his own child. This row covers only the logistics: finding an eligible
+      host or proctor, the autumn registration deadlines, and the grade and age rules that affect an
+      accelerated homeschooler. The actual preparation lives in the mathematics, physics, chemistry and
+      biology tracks.
+    objectives:
+      - By September, secure an AMC host (school, university, math circle or learning center); parents may not be competition managers
+      - Arrange a non-relative F=ma proctor with at least a two-year degree (community college, university or library) before the January registration deadline
+      - Contact the local ACS section's USNCO coordinator in the autumn; the parent registers the student on the ACS platform
+      - Make the USABO arrangement (host school, $125 fee) before October 23 and register the student by November 15
+      - Keep declared grade levels consistent (AMC 8 is grade 8 and below and under 15.5; USABO is grades 9–12)
+      - Book an AIME seat at a professional testing center promptly after qualifying
+    curriculumOptions:
+      - name: "MAA AMC registration and key dates (official)"
+        publisher: Mathematical Association of America
+        tradition: secular
+        url: "https://maa.org/amcreg/"
+        notes: 2026–27 dates are AMC 10/12 on Nov 5 and 13, AMC 8 during Jan 21–27, and AIME on Feb 5 or 6.
+      - name: "AAPT: past F=ma and USAPhO exams (official)"
+        publisher: American Association of Physics Teachers
+        tradition: secular
+        url: "https://aapt.org/physicsteam/PT-exams.cfm"
+      - name: "USABO: guidelines and eligibility (official)"
+        publisher: Center for Excellence in Education
+        tradition: secular
+        url: "https://usabo-trc.org/usabo-guidelines-and-eligibility"
+      - name: "The Art of Problem Solving, Volume 1: the Basics"
+        publisher: AoPS
+        tradition: secular
+        url: "https://artofproblemsolving.com/store/book/aops-vol1"
+        notes: The classic bridge from MATHCOUNTS to the AMC 10/12. The full sequence is in mathematics-14.
+    sources:
+      - { label: "MAA: Getting started as a new competition manager (parents may not register)", url: "https://maa.org/getting-started-as-a-new-maa-amc-competition-manager/" }
+      - { label: "AAPT: 2026 F=ma registration and proctor rules", url: "https://www.aapt.org/physicsteam/2026/Registration.cfm" }
+      - { label: "ACS: USNCO rules and eligibility", url: "https://www.acs.org/education/olympiad/rules-and-eligibility.html" }
+    notes: >-
+      The proctor rule is the usual stumbling block, so line up hosts a full season ahead. A community
+      college math or physics instructor can often serve for both the F=ma and a USABO sitting.
+
+  - id: test-prep-03
+    title: "Exam Planning, Registration Calendar & the Homeschool Transcript"
+    type: practice
+    level: 9-12
+    stage: formal
+    ageStart: 12
+    ageEnd: 17
+    order: 3
+    prerequisites: []
+    related: [mathematics-18, chemistry-03, biology-02, physics-02]
+    exams: []
+    summary: >-
+      Each summer the parent drafts the coming year's exam calendar: which APs finish in May, which
+      admissions tests and olympiads fall in the year, where each will be taken, and every registration
+      deadline. AP is the hardest to arrange, because homeschoolers must find an authorized school
+      willing to test them before the mid-November order deadline. The same row sets the declared grade
+      levels and keeps the transcript, course descriptions and score portfolio that colleges and National
+      Merit will ask for.
+    objectives:
+      - Fix the transcript's grade years and planned college-entry year once, then use them identically on every College Board, NMSC, CLT, MAA and USABO form
+      - Each August list every exam for the year with its date, site and registration deadline
+      - In September, find AP test sites through the AP Course Ledger and call AP coordinators; confirm the order before the November 13 deadline ($40 late fee after)
+      - Know that no AP Course Audit is needed to sit an AP Exam; it is needed only to label a homeschool course "AP" on the transcript
+      - Keep a transcript (courses, credits, grades), course descriptions with texts used, lab notebooks, and a score and award log
+      - Book the SAT and CLT online directly (SAT homeschool code 970000; CLT remote dates)
+    curriculumOptions:
+      - name: "College Board: The Homeschoolers' Guide to College Board Assessments (official)"
+        publisher: College Board
+        tradition: secular
+        url: "https://allaccess.collegeboard.org/homeschoolers-guide-college-board-assessments"
+        notes: One page covering SAT, PSAT, AP and CLEP logistics for homeschoolers.
+      - name: "AP Course Ledger: find authorized schools near you (official)"
+        publisher: College Board
+        tradition: secular
+        url: "https://apstudents.collegeboard.org/ap-around-the-world/find-schools-that-offer-authorized-ap-courses"
+      - name: "HSLDA high school transcript templates"
+        publisher: Home School Legal Defense Association
+        url: "https://hslda.org/post/high-school-transcript-templates"
+        notes: Free templates. Start the transcript at the first high-school course (about 12 here).
+    sources:
+      - { label: "College Board: I'm homeschooled. How can I take an AP Exam?", url: "https://apstudents.collegeboard.org/help-center/im-homeschooled-how-can-i-take-ap-exam" }
+      - { label: "AP Central: can schools order and administer AP Exams without completing the AP Course Audit?", url: "https://apcentral.collegeboard.org/courses/ap-course-audit/faqs/can-schools-order-exams-without-completing-ap-course-audit" }
+      - { label: "AP Central: AP Course Audit for homeschool providers", url: "https://apcentral.collegeboard.org/courses/ap-course-audit/explore-by-role/homeschool-providers-ap-courses" }
+      - { label: "AP Central: 2026–27 AP Exam fees and deadlines", url: "https://apcentral.collegeboard.org/exam-administration-ordering-scores/ordering-fees/exam-fees" }
+    notes: >-
+      For a typical year at 15, the calendar runs as follows: NLE registration (Jan) and exam (Mar);
+      olympiad hosts (Sept–Nov); AP orders (by Nov 13); AMC 10/12 (Nov); F=ma (Feb); the CLT and SAT
+      (spring); AP Exams (first two weeks of May). The revised AP Spanish and Chinese courses (2027) and
+      AP Latin (2026) add a course project; exam-only students must be enrolled early enough to finish it
+      (see those exams' notes).
+
+  - id: test-prep-04
+    title: "CLT10: Format Practice and the First Admissions-Style Test"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 13
+    ageEnd: 14
+    order: 4
+    prerequisites: [test-prep-03]
+    related: [literature-17, grammar-composition-11, mathematics-13, logic-05]
+    exams: [clt10]
+    summary: >-
+      The CLT10 is the student's first college-preparatory test, built from great-books passages that
+      suit this curriculum. A practice sitting at 13 (declared 9th grade) teaches the format: 40 minutes
+      of Verbal Reasoning, 35 of Grammar & Writing and 45 of Quantitative Reasoning, taken at home under
+      recorded remote proctoring. The scored sitting at 14 (declared 10th grade) makes the student
+      eligible for CLT's $2,500 National Award.
+    objectives:
+      - Take two free official CLT10 practice tests under timed, single-sitting conditions
+      - Set up the remote testing environment (LockDown Browser, a laptop or tablet, a quiet room) and read CLT's list of reasons remote tests are voided
+      - Review every missed item by type (vocabulary in context, author's intent, grammar rules, algebra and geometry)
+      - Sit the CLT10 in the declared 9th and 10th grades and share scores free with target colleges
+    curriculumOptions:
+      - name: "CLT: free CLT10 practice tests (official)"
+        publisher: Classic Learning Initiatives
+        tradition: classical
+        url: "https://www.cltexam.com/tests/practice-test/"
+        notes: Requires a free CLT account. Answer explanations included.
+      - name: "Official CLT Student Guide, 3rd ed."
+        publisher: Classic Learning Initiatives
+        tradition: classical
+        url: "https://www.cltexam.com/tests/student-guide/"
+        notes: Covers the CLT family's question types, with 3 full practice tests.
+      - name: "CLT Secrets Study Guide, 2nd ed."
+        publisher: Mometrix
+        tradition: secular
+        url: "https://store.mometrix.com/products/claslearntest-24017ebook"
+        notes: Third-party review with extra practice questions. Use it after the official material.
+    notes: >-
+      2026–27 CLT10 dates are Oct 8 and Nov 5, 2026, and Feb 3 and Apr 21–22, 2027. The fee is $69. The
+      optional essay is offered only at in-school sittings, which homeschoolers can reach through a co-op
+      group booking.
+
+  - id: test-prep-05
+    title: "PSAT/NMSQT and National Merit: Getting the Qualifying Year Right"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 14.5
+    ageEnd: 16.5
+    order: 5
+    prerequisites: [test-prep-03]
+    related: [mathematics-13, grammar-composition-11]
+    exams: [psat-nmsqt]
+    summary: >-
+      National Merit is the one major scholarship competition keyed to the declared high-school year, not
+      to ability. The PSAT/NMSQT only counts in "the specified year of the high school program": the third
+      year for a four-year pattern, or the next-to-last or last year for a student finishing in three
+      years or less. For an accelerated homeschooler this row first decides the qualifying year (about 16
+      if the student enrolls in college full time at about 18, or about 15 if he graduates at 16 and
+      enrolls at once). It then arranges an "away student" seat at a local school and practises the
+      digital format.
+    objectives:
+      - Decide and write down the high-school years and full-time college-entry year that NMSC will see
+      - Use the in-school assessment search to find a school giving the PSAT/NMSQT, and contact it at least 4 weeks before the October window
+      - Take the full-length official Bluebook practice tests (the PSAT shares the SAT's adaptive format)
+      - Treat any earlier PSAT sitting as practice only
+      - If the window is missed, write to NMSC for alternate entry by April 1 (usually via the SAT)
+    curriculumOptions:
+      - name: "Bluebook official practice tests (official)"
+        publisher: College Board
+        tradition: secular
+        url: "https://satsuite.collegeboard.org/practice/practice-tests/bluebook"
+        notes: Free, adaptive, and identical to the real interface.
+      - name: "PSAT/NMSQT Student Guide with NMSC entry requirements (official)"
+        publisher: College Board / NMSC
+        tradition: secular
+        url: "https://www.nationalmerit.org/s/1758/images/gid2/editor_documents/student_guide.pdf"
+        notes: Read "When to Take the Test" before choosing the qualifying year.
+      - name: "Princeton Review PSAT/NMSQT Prep, 2027"
+        publisher: Princeton Review / Penguin Random House
+        tradition: secular
+        url: "https://www.penguinrandomhouse.com/books/832935/princeton-review-psatnmsqt-prep-2027-by-the-princeton-review/"
+    sources:
+      - { label: "College Board: homeschooled and away students", url: "https://satsuite.collegeboard.org/in-school-assessments/homeschooled-away-students" }
+    notes: >-
+      The 2026 PSAT/NMSQT window was October 1–30 and the fee $18, plus any school charge. National Merit
+      Finalists must also confirm their score with an SAT or ACT, and scholarship winners must enroll in
+      college full time the following fall. Home study during the program's "college years" (17–18) does
+      not count as enrollment.
+
+  - id: test-prep-06
+    title: "CLT: American Civics Exam"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 15.5
+    order: 6
+    prerequisites: []
+    related: [civics-law-04, civics-law-05, civics-law-06, civics-law-11, civics-law-14, history-23]
+    exams: [clt-american-civics]
+    summary: >-
+      Classic Learning Initiatives launched the American Civics Exam for the 2026 Semiquincentennial. It
+      is a free online exam of 60 multiple-choice questions on American government, founding history and
+      civic duties, built around founding texts. It certifies nothing and is not an admissions test, but
+      it is a good public benchmark of the civics-law sequence. The student sits it at about 15, after
+      The Federalist, and the family can host a co-op group.
+    objectives:
+      - Create a free account at civicschallenge.com and take the exam once as a baseline after civics-law-06
+      - Retake it after civics-law-11 and aim for mastery, reviewing each missed question against the Constitution and The Federalist
+      - Optionally host a co-op or family group with a timer and attempt limit to compare results
+    curriculumOptions:
+      - name: "American Civics Exam (Civics Challenge), official site"
+        publisher: Classic Learning Initiatives
+        tradition: classical
+        url: "https://civicschallenge.com/"
+        notes: Free, with instant results and question review. Group hosting is available.
+      - name: "Documents of Freedom"
+        publisher: Bill of Rights Institute
+        tradition: secular
+        url: "https://billofrightsinstitute.org/curricula/documents-of-freedom/"
+        notes: The Institute was a development partner of the exam. A free primary-source government curriculum for review.
+      - name: "Heritage Foundation: civics lessons and resources"
+        publisher: The Heritage Foundation
+        tradition: secular
+        url: "https://www.heritage.org/curricula-resource-initiative/curriculum-library/civics-lessons-and-resources"
+        notes: Another development partner. Free lessons for targeted review.
+    sources:
+      - { label: "Heartlander News: American Civics Exam coming in 2026, Classic Learning Test announces", url: "https://heartlandernews.com/american-civics-exam-coming-in-2026-classical-learning-test-announces/" }
+    notes: >-
+      This row can move earlier (13–14) because the exam is free and repeatable. No score goes to
+      colleges, so record the result in the portfolio yourself.
+
+  - id: test-prep-07
+    title: "The CLT and SAT for College Admission (ACT Optional)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 15
+    ageEnd: 16.5
+    order: 7
+    prerequisites: [test-prep-04]
+    related: [literature-24, rhetoric-11, mathematics-13, mathematics-18]
+    exams: [clt, sat, act]
+    summary: >-
+      At 15–16 the student sits the two admissions tests that matter for this program. The CLT is
+      accepted by over 350 partner colleges, including Hillsdale, Thomas Aquinas College, Christendom,
+      the University of Dallas, Franciscan, West Point, the Naval Academy and the Air Force Academy, and
+      by several state systems. The SAT is accepted everywhere and also confirms National Merit standing.
+      The ACT is optional, taken only if a target college prefers it.
+    objectives:
+      - Take 3–4 full official practice tests of each (CLT practice tests; Bluebook SAT tests) and analyse errors by skill
+      - Register directly (CLT remote proctoring at home; SAT at a weekend test center with homeschool code 970000)
+      - "Sit the CLT once at 15 and again at 16 if needed, and the SAT once or twice at 16"
+      - Check each target college's current test policy and CLT acceptance on its own admissions page
+      - Send scores; CLT score sharing is free and unlimited
+    curriculumOptions:
+      - name: "CLT: free official practice tests"
+        publisher: Classic Learning Initiatives
+        tradition: classical
+        url: "https://www.cltexam.com/tests/practice-test/"
+      - name: "Bluebook full-length SAT practice tests (official)"
+        publisher: College Board
+        tradition: secular
+        url: "https://satsuite.collegeboard.org/practice/practice-tests/bluebook"
+      - name: "Khan Academy: Official Digital SAT Prep"
+        publisher: Khan Academy with College Board
+        tradition: secular
+        url: "https://www.khanacademy.org/digital-sat"
+        notes: Free skill practice at three levels. Full tests are in Bluebook.
+      - name: "The Official Digital SAT Study Guide"
+        publisher: College Board
+        tradition: secular
+        url: "https://www.barnesandnoble.com/w/the-official-digital-sat-study-guide-the-college-board/1143126015"
+      - name: "ACT: official test preparation (only if needed)"
+        publisher: ACT
+        tradition: secular
+        url: "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation.html"
+    sources:
+      - { label: "CLT: partner colleges", url: "https://www.cltexam.com/colleges/" }
+      - { label: "College Board: SAT dates and deadlines", url: "https://satsuite.collegeboard.org/sat/dates-deadlines" }
+    notes: >-
+      CLT pages disagree on state systems: the colleges page lists 7 (AR, FL, GA, IA, IN, NC, TX), while
+      the test page lists 5. Verify with the specific university. The CLT fee is $112 and the SAT fee $68
+      (2026–27). The CLT's optional essay is given only at in-school sittings.
+
+  - id: test-prep-08
+    title: "CLT: Classical Baccalaureate (Pilot Exams and Diploma)"
+    type: unit
+    level: 9-12
+    stage: formal
+    ageStart: 16
+    ageEnd: 17.5
+    order: 8
+    prerequisites: [test-prep-07]
+    related: [civics-law-11, civics-law-12, rhetoric-10, rhetoric-11, grammar-composition-12, literature-31, history-29]
+    exams: [clt-classical-baccalaureate]
+    summary: >-
+      Classical Baccalaureate (CB) is Classic Learning Initiatives' new classical alternative to AP and
+      IB. It offers stand-alone college-credit course exams, the first two (Government & Politics;
+      Rhetoric & Composition) planned for spring 2027, and an IB-style diploma with a thesis and defense,
+      Socratic seminars on great books, and a portfolio covering the arts, fitness and civics. Pilots at
+      affiliate schools begin in fall 2027. This row tracks the offering and, where a participating school
+      or co-op can be found, sits the CB exams that match work already done in civics-law and rhetoric.
+    objectives:
+      - Each autumn, check the CB page for published exam specifications, dates, fees and credit policies
+      - Ask a local classical school or co-op whether it is piloting CB exams and will admit an outside student
+      - Map the thesis and seminar requirements onto existing work (the research paper in grammar-composition-12 and the great-books seminars in literature-31)
+      - If available, sit Government & Politics after civics-law-11/12 and Rhetoric & Composition after rhetoric-11
+    curriculumOptions:
+      - name: "CLT: Classical Baccalaureate (official overview and school sign-up)"
+        publisher: Classic Learning Initiatives
+        tradition: classical
+        url: "https://www.cltexam.com/classicalbaccalaureate/"
+      - name: "CLT Journal: Classical Baccalaureate, what students, parents and educators need to know"
+        publisher: Classic Learning Initiatives
+        tradition: classical
+        url: "https://blog.cltexam.com/classical-baccalaureate/"
+    sources:
+      - { label: "Classical Baccalaureate Substack (announcement)", url: "https://classiclearningtest.substack.com/p/welcome-to-the-classical-baccalaureate" }
+    notes: >-
+      As of September 2026 this is a school-based pilot with no published exam format, fee or
+      individual-registration route, and no college has published a credit policy for it. Keep AP
+      Exams as the credit path and treat CB as a bonus until that changes.
+
+  - id: test-prep-09
+    title: "CLEP for College Credit (Optional)"
+    type: unit
+    level: college
+    stage: formal
+    ageStart: 17
+    ageEnd: 18
+    order: 9
+    prerequisites: [test-prep-03]
+    related: [literature-31, history-31, civics-law-16]
+    exams: [clep]
+    summary: >-
+      CLEP lets a student turn college-level work into credit without any school, by registering directly
+      and testing at a center or at home under remote proctoring (age 13+). At 17 it can convert
+      general-education subjects the program has already covered, such as literature, American government,
+      a language or calculus, into credit at colleges that accept it. It is optional, and worthwhile only
+      after confirming the target college's CLEP policy.
+    objectives:
+      - Check each target college's CLEP credit list and minimum scores before registering
+      - Take the official practice questions for the chosen exam
+      - Register in My CLEP ($97 per exam) and schedule a test center or remote proctoring ($30)
+      - Record CLEP credits on the transcript and in the score log
+    curriculumOptions:
+      - name: "CLEP: practice questions and examination guides (official)"
+        publisher: College Board
+        tradition: secular
+        url: "https://clep.collegeboard.org/prepare-for-an-exam/practice-questions-study-guides"
+      - name: "Modern States: free CLEP courses and exam vouchers"
+        publisher: Modern States Education Alliance
+        tradition: secular
+        url: "https://modernstates.org/"
+      - name: "The College Board CLEP Official Study Guide, 19th ed."
+        publisher: College Board
+        tradition: secular
+        url: "https://www.amazon.com/College-Board-Official-Study-Guide/dp/0874477883"
+        notes: Practice questions for all 34 exams.
+    sources:
+      - { label: "CLEP: registering with remote proctoring", url: "https://clep.collegeboard.org/register-for-an-exam/registering-remote-proctoring" }
+    notes: >-
+      Some colleges award credit for AP but not for CLEP, so check each college's policy. Use CLEP to
+      fill gaps where no AP Exam was taken.

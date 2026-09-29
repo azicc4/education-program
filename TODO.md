@@ -122,7 +122,7 @@ Where to work next. Add items as gaps appear; check them off as they are resolve
 - [ ] Veritas is only partly linked: New Testament, Greece & Rome has flashcards only, and Explorers to 1815 has no product page.
 - [ ] No verified purchase links yet for Warren Carroll's *History of Christendom*, the Canon Press history titles, or Kolbe's specific history courses (the Kolbe catalog is linked instead).
 - [ ] Precedent claims with no citation yet: the Adams family reading Rollin; Jefferson calling Tacitus "the first writer in the world"; Thomas Arnold teaching Thucydides at Rugby; the Churchill, Webster and Lincoln reading notes. Cite them from `data/founding/`.
-- [ ] **Decision for Adam:** Cycle 3 is heavy (about 14 seminars at ages 12.5–16.5). Merge some pairs, e.g. history-19 with -20, or -25 with -26?
+- [x] **Decision for Adam:** Cycle 3 was heavy → **Decided: merge.** Now 10 seminars: 16+17, 19+20, 23+24 and 26+27 merged; the 20th-century seminar runs 16–17.
 - [ ] history-31 (American Heritage) has a placeholder note for the John Jay Institute curriculum.
 
 ### Literature/poetry revision pass
@@ -215,6 +215,12 @@ Where to work next. Add items as gaps appear; check them off as they are resolve
 ### Founders' texts not yet in the curriculum (from the founding-list classification)
 - Marked as gaps (student texts with no unit): Justinian's *Institutes* (Vinnius); Aristotle's *Sophistical Refutations* and Cicero's *Topics*; Paley's *Principles of Moral and Political Philosophy*; Wollebius, Ames's *Medulla*, More's ethics; Arrian, Quintus Curtius, Diodorus, Justin.
 - Mentioned but unassigned: Terence, Plautus, Isocrates, Lysias, Aeschines, Theocritus, Anacreon, Lucan, Persius; Paley's *Evidences*; Butler's *Analogy*; Kames; Burke's *Sublime and Beautiful*; Hutcheson; Grotius's *De Veritate*; Chillingworth; Burns; Byron; Hobbes's Thucydides.
-- [ ] **Decision for Adam:** add a pass that places these founders' texts into existing units, as electives or core? Recommendation: yes for Terence, Isocrates, Butler's *Analogy*, Paley's *Evidences* and *Principles*, Grotius's *De Veritate*, Arrian and Curtius (Alexander), and Burns. Leave the rest as references.
+- [x] **Decided: yes (pass in progress).** Add a pass that places these founders' texts into existing units, as electives or core? Recommendation: yes for Terence, Isocrates, Butler's *Analogy*, Paley's *Evidences* and *Principles*, Grotius's *De Veritate*, Arrian and Curtius (Alexander), and Burns. Leave the rest as references.
 - Batch B gaps: Madison's list (the natural-law writers Wolff, Cumberland, Cudworth, Hutcheson, Ferguson, Rutherforth; universal history from Raleigh, Voltaire, Bayle, Mosheim; the modern republics of Guicciardini, Sarpi, De Witt; Hakluyt, Purchas, Champlain, Cotton Mather, Colden; and Madison's own *Of Ancient and Modern Confederacies*, the source of Federalist 18–20); Webster's 1828 *American Dictionary*; Butler's *Analogy* and *Sermons*; Robertson's histories; Sully's *Memoirs*; Washington's letters to G. W. P. Custis.
 - [ ] Easy wins: add *Of Ancient and Modern Confederacies* to civics-law-11; add Webster's 1828 Dictionary as a reference text in grammar-composition; add Butler's *Analogy* to philosophy or theology.
+
+## Resume here (paused at usage limit, 2026-09-28)
+- [x] **Radial Skill Tree** built and tested, with demo family (Load demo family button on Family page). Was: Still to do: add CSS (.wedge, .rnode, .redge, .hub, .rlabel, .track-label, .ring-guide), add a "Radial Tree" nav link to the other pages, add a "Load demo family" button on the Family page (Demo.loadIntoStore), then test in the browser.
+- [x] **Reader and page pass** applied (1,251 texts: 1,060 student, 127 together, 64 teacher; 1,125 with page counts). About 280 counts are estimates. Was: four agents are writing scratchpad mapping-1..4.json. Once done, merge them and run `node scripts/annotate-texts.mjs apply <merged.json>`, then do test-prep texts separately.
+- [x] **Test-prep track and exam catalog** done. Was: an agent is completing data/tracks/test-prep.yaml and data/exams.yaml. Review its report, then rebuild.
+- [ ] Open questions for Adam: merge history Cycle 3 pairs? Add the missing founders' texts (Terence, Isocrates, Butler, Paley, etc.)?

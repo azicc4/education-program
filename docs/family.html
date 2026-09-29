@@ -17,6 +17,7 @@
       <nav class="nav" aria-label="Views">
         <a href="index.html">Curriculum</a>
         <a href="tree.html">Skill Tree</a>
+        <a href="radial.html">Radial Tree</a>
         <a href="founding.html">Founding-Era Reading</a>
         <a href="exams.html">Exams</a>
         <a href="family.html" aria-current="page">Family</a>
@@ -29,6 +30,7 @@
     <div class="family-top">
       <div class="chips" id="children" role="tablist" aria-label="Children"></div>
       <button type="button" class="chip" id="add-child-toggle">+ Add child</button>
+      <button type="button" class="chip" id="load-demo" title="Adds three example children (about 6½, 11¼ and 15¾) with progress filled in">Load demo family</button>
     </div>
     <form class="panel-card" id="add-child" hidden>
       <h2>Add a child</h2>
@@ -61,6 +63,7 @@
 
   <script src="data/curriculum.js"></script>
   <script src="assets/store.js"></script>
+  <script src="assets/demo.js"></script>
   <script src="assets/common.js"></script>
   <script src="assets/family.js"></script>
 </body>

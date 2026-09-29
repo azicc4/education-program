@@ -36,12 +36,15 @@ rows:
       - Translate simple prose sentences with a glossary
     coreTexts:
       - title: Anglo-Saxon Primer, with Grammar, Notes, and Glossary
+        reader: student
+        pages: 128
         author: Henry Sweet
         date: "1882"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/34316" }
       - title: Old English Aerobics (free online exercises, anthology and glossary)
+        reader: student
         author: Peter S. Baker
         publicDomain: false
         links:
@@ -94,18 +97,24 @@ rows:
       - Explain the comitatus ideal of lord and retainer from the Cynewulf and Cyneheard episode
     coreTexts:
       - title: Ælfric's Colloquy (Old English gloss)
+        reader: student
+        pages: 10
         author: Ælfric of Eynsham
         date: "c. 1000"
         publicDomain: true
         links:
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/%C3%86lfric%27s_Colloquy" }
       - title: The Story of Cædmon (Old English Bede)
+        reader: student
+        pages: 3
         author: Bede (Old English translation)
         date: "9th c."
         publicDomain: true
         links:
           - { label: "Old English Aerobics Anthology (glossed)", url: "https://oldenglishaerobics.net/caedmon.php" }
       - title: "Anglo-Saxon Chronicle: Cynewulf and Cyneheard; William the Conqueror"
+        reader: student
+        pages: 5
         author: Anonymous
         date: "9th–12th c."
         publicDomain: true
@@ -114,6 +123,8 @@ rows:
           - { label: "Old English Aerobics, William the Conqueror", url: "https://oldenglishaerobics.net/william.html" }
           - { label: "Project Gutenberg (English trans., Ingram & Giles)", url: "https://www.gutenberg.org/ebooks/657" }
       - title: An Anglo-Saxon Reader in Prose and Verse
+        reader: student
+        pages: 308
         author: Henry Sweet
         date: "1894 ed."
         publicDomain: true
@@ -144,6 +155,8 @@ rows:
       - Write an original poem in modern English alliterative verse
     coreTexts:
       - title: The Dream of the Rood
+        reader: student
+        pages: 6
         author: Anonymous (Vercelli Book)
         date: "c. 8th–10th c."
         publicDomain: true
@@ -151,17 +164,23 @@ rows:
           - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/dream.php" }
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/The_Dream_of_the_Rood" }
       - title: The Wanderer
+        reader: student
+        pages: 4
         author: Anonymous (Exeter Book)
         publicDomain: true
         links:
           - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/wanderer.php" }
       - title: The Battle of Maldon
+        reader: student
+        pages: 10
         author: Anonymous
         date: "after 991"
         publicDomain: true
         links:
           - { label: "Old English Aerobics (glossed)", url: "https://oldenglishaerobics.net/maldon.php" }
       - title: The Seafarer
+        reader: student
+        pages: 4
         author: Anonymous (Exeter Book)
         publicDomain: true
     notes: >-
@@ -195,18 +214,24 @@ rows:
       - Compare Beowulf with Achilles and Aeneas as heroic ideals, and with Christian virtue
     coreTexts:
       - title: "Bēowulf: an Anglo-Saxon poem; The Fight at Finnsburh (Old English text)"
+        reader: student
+        pages: 256
         author: Anonymous (ed. J. A. Harrison & R. Sharp)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9701" }
           - { label: "Old English Aerobics Beowulf (glossed, in progress)", url: "https://oldenglishaerobics.net/beowulf.html" }
       - title: "Beowulf: The Monsters and the Critics (and Other Essays)"
+        reader: student
+        pages: 240
         author: J. R. R. Tolkien
         date: "1936 lecture; essays 1983"
         publicDomain: false
         links:
           - { label: "Tolkien Estate (about the book)", url: "https://www.tolkienestate.com/scholarship/tom-shippey-the-monsters-and-the-critics-and-other-essays/" }
       - title: "Beowulf: A Translation and Commentary, together with Sellic Spell"
+        reader: student
+        pages: 425
         author: J. R. R. Tolkien (ed. Christopher Tolkien)
         date: "2014"
         publicDomain: false
@@ -241,6 +266,8 @@ rows:
       - Explain in outline the Norman Conquest's effect on English vocabulary and grammar
     coreTexts:
       - title: "The Canterbury Tales (Skeat edition, Middle English)"
+        reader: student
+        pages: 427
         author: Geoffrey Chaucer
         date: "c. 1387–1400"
         publicDomain: true

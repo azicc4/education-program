@@ -69,6 +69,7 @@ rows:
       - Evaluate a sibling's recitation kindly using simple criteria (loud, clear, slow, expressive)
     coreTexts:
       - title: McGuffey's Eclectic Readers (First–Sixth), esp. the Sixth Reader's rules of elocution
+        reader: together
         author: William Holmes McGuffey
         date: "1836–1879"
         publicDomain: true
@@ -107,6 +108,7 @@ rows:
       - Copy and imitate model sentences (copia) to vary expression
     coreTexts:
       - title: Progymnasmata (Latin trans. by Rodolphus Agricola & J.M. Catanaeus)
+        reader: teacher
         author: Aphthonius of Antioch
         date: "4th c.; this ed. 1552"
         publicDomain: true
@@ -187,18 +189,24 @@ rows:
       - Deliver a selection before an audience and take structured critique
     coreTexts:
       - title: "The English Reader: or, Pieces in Prose and Poetry, Selected from the Best Writers"
+        reader: student
+        pages: 254
         author: Lindley Murray
         date: "1799 (this ed. 1841)"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/englishreaderorp00murrrich" }
       - title: A Course of Lectures on Elocution
+        reader: teacher
+        pages: 262
         author: Thomas Sheridan
         date: "1762"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_a-course-of-lectures-on-_sheridan-thomas_1762" }
       - title: McGuffey's Sixth Eclectic Reader
+        reader: student
+        pages: 464
         author: William Holmes McGuffey (compiled with Alexander H. McGuffey)
         date: "1857/1879"
         publicDomain: true
@@ -272,18 +280,24 @@ rows:
       - Deliver a 5–7 minute deliberative speech built by the five canons
     coreTexts:
       - title: Rhetoric
+        reader: student
+        pages: 369
         author: Aristotle (trans. W. Rhys Roberts)
         publicDomain: true
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/rhetoric.html" }
           - { label: "Archive.org (Freese, Loeb 1926)", url: "https://archive.org/details/artofrhetoric00arisuoft" }
       - title: Phaedrus and Gorgias
+        reader: student
+        pages: 200
         author: Plato
         publicDomain: true
         links:
           - { label: "Project Gutenberg (Phaedrus)", url: "https://www.gutenberg.org/ebooks/1636" }
           - { label: "Project Gutenberg (Gorgias)", url: "https://www.gutenberg.org/ebooks/1672" }
       - title: Classical Rhetoric for the Modern Student (4th ed.)
+        reader: student
+        pages: 584
         author: Edward P.J. Corbett & Robert J. Connors
         date: "1965; 4th ed. 1999"
         publicDomain: false
@@ -343,39 +357,52 @@ rows:
       - Compare the ancient and modern styles of deliberative eloquence
     coreTexts:
       - title: The Public Orations of Demosthenes, vol. 1 (Olynthiacs, Philippics)
+        reader: student
+        pages: 280
         author: Demosthenes (trans. A.W. Pickard-Cambridge)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9060" }
       - title: Selections from the Speeches and Writings of Edmund Burke
+        reader: student
         author: Edmund Burke
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3286" }
       - title: Give Me Liberty or Give Me Death
+        reader: student
+        pages: 3
         author: Patrick Henry
         date: "1775"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6" }
       - title: The Great Speeches and Orations of Daniel Webster
+        reader: student
+        pages: 707
         author: Daniel Webster
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12606" }
       - title: Speeches & Letters of Abraham Lincoln, 1832–1865
+        reader: student
+        pages: 290
         author: Abraham Lincoln
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14721" }
           - { label: "Avalon Project (Gettysburg Address)", url: "https://avalon.law.yale.edu/19th_century/gettyb.asp" }
       - title: "We Shall Fight on the Beaches (1940) and The Sinews of Peace (1946)"
+        reader: student
+        pages: 12
         author: Winston Churchill
         publicDomain: false
         links:
           - { label: "International Churchill Society (Beaches)", url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
           - { label: "International Churchill Society (Sinews of Peace)", url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
       - title: Letter from Birmingham Jail
+        reader: student
+        pages: 24
         author: Martin Luther King Jr.
         date: "1963"
         publicDomain: false
@@ -413,6 +440,8 @@ rows:
       - Play attorney and witness roles in a mock trial
     coreTexts:
       - title: The Lincoln–Douglas Debates of 1858
+        reader: student
+        pages: 699
         author: Abraham Lincoln & Stephen A. Douglas
         publicDomain: true
         links:
@@ -467,12 +496,16 @@ rows:
       - Use the memory palace (Ad Herennium III) to memorize a speech
     coreTexts:
       - title: De Inventione (On Rhetorical Invention), in The Orations of Marcus Tullius Cicero, vol. 4
+        reader: student
+        pages: 140
         author: Cicero (trans. C.D. Yonge)
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11080" }
           - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/cicero/inventione.shtml" }
       - title: De Oratore (in Cicero on Oratory and Orators)
+        reader: student
+        pages: 300
         author: Cicero (trans. J.S. Watson)
         date: "55 BC; trans. 1871"
         publicDomain: true
@@ -480,12 +513,16 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/oratoryandorato00ciceuoft" }
           - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/cicero/oratore.shtml" }
       - title: Rhetorica ad Herennium
+        reader: student
+        pages: 491
         author: Anonymous (formerly attributed to Cicero)
         date: "c. 80s BC"
         publicDomain: true
         links:
           - { label: "Archive.org (Latin, ed. Marx 1894)", url: "https://archive.org/details/incertiauctorisd00marxuoft" }
       - title: Institutio Oratoria
+        reader: student
+        pages: 1000
         author: Quintilian (trans. H.E. Butler)
         date: "c. AD 95"
         publicDomain: true
@@ -525,24 +562,31 @@ rows:
       - Write a critical review of a contemporary speech using Blair's criteria
     coreTexts:
       - title: Lectures on Rhetoric and Belles Lettres
+        reader: student
+        pages: 560
         author: Hugh Blair
         date: "1783 (this ed. 1829)"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/lecturesonrhetor00blai" }
       - title: Lectures on Eloquence (in The Works of John Witherspoon, vol. 7)
+        reader: student
         author: John Witherspoon
         date: "delivered c. 1768–1794; this ed. 1815"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/worksofjohnwithe07with" }
       - title: The Philosophy of Rhetoric
+        reader: student
+        pages: 435
         author: George Campbell
         date: "1776 (this ed. 1868)"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/philosophyofrhet00campuoft" }
       - title: Elements of Rhetoric
+        reader: student
+        pages: 429
         author: Richard Whately
         date: "1828 (this ed. 1846)"
         publicDomain: true

@@ -77,6 +77,8 @@ rows:
       - Use the Handbook of Nature-Study to research each specimen
     coreTexts:
       - title: Handbook of Nature-Study
+        reader: teacher
+        pages: 938
         author: Anna Botsford Comstock
         date: "1911"
         publicDomain: true
@@ -121,12 +123,16 @@ rows:
       - Letter and illuminate a finished piece (a psalm, poem or the Declaration's preamble)
     coreTexts:
       - title: The Universal Penman
+        reader: student
+        pages: 212
         author: George Bickham
         date: "1743"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_the-universal-penman-en_bickham-george_1743" }
       - title: Theory of Spencerian Penmanship
+        reader: teacher
+        pages: 60
         author: Spencerian authors (H. C. Spencer)
         date: "1874"
         publicDomain: true
@@ -170,12 +176,16 @@ rows:
       - Keep a sketchbook with daily drawing
     coreTexts:
       - title: The Elements of Drawing, in Three Letters to Beginners
+        reader: teacher
+        pages: 230
         author: John Ruskin
         date: "1857"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30325" }
       - title: Drawing on the Right Side of the Brain (4th ed.)
+        reader: teacher
+        pages: 320
         author: Betty Edwards
         date: "1979 (4th ed. 2012)"
         publicDomain: false
@@ -220,12 +230,16 @@ rows:
       - Read Ruskin's Letter III and selections of Cennini on pigments and procedure
     coreTexts:
       - title: The Elements of Drawing (Letter III, On Colour and Composition)
+        reader: teacher
+        pages: 90
         author: John Ruskin
         date: "1857"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30325" }
       - title: "The Book of the Art of Cennino Cennini (trans. Christiana Herringham)"
+        reader: teacher
+        pages: 330
         author: Cennino Cennini
         date: "c. 1400 (trans. 1899)"
         publicDomain: true
@@ -264,12 +278,16 @@ rows:
       - Draw a building from life in accurate two-point perspective
     coreTexts:
       - title: Perspective Made Easy
+        reader: student
+        pages: 210
         author: Ernest R. Norling
         date: "1939"
         publicDomain: false
         links:
           - { label: Dover Publications, url: "https://store.doverpublications.com/products/9780486404738" }
       - title: The Notebooks of Leonardo da Vinci (Part II, Linear Perspective; Part III, Light and Shade)
+        reader: student
+        pages: 100
         author: Leonardo da Vinci (trans. J. P. Richter)
         date: "c. 1490–1519 (trans. 1888)"
         publicDomain: true
@@ -303,12 +321,15 @@ rows:
       - Read Cellini's Autobiography (selections) and describe the lost-wax casting of the Perseus
     coreTexts:
       - title: "Modelling: A Guide for Teachers and Students, Vol. I"
+        reader: teacher
         author: Édouard Lanteri
         date: "1902"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/modellingguidefo01lantuoft" }
       - title: The Autobiography of Benvenuto Cellini (trans. J. A. Symonds)
+        reader: student
+        pages: 460
         author: Benvenuto Cellini
         date: "c. 1558–1563"
         publicDomain: true
@@ -339,6 +360,7 @@ rows:
       - Write formal analyses of works seen in person at a museum
     coreTexts:
       - title: "Lives of the Most Eminent Painters, Sculptors and Architects, Vol. 1 (trans. de Vere)"
+        reader: student
         author: Giorgio Vasari
         date: "1550/1568 (trans. 1912)"
         publicDomain: true
@@ -346,12 +368,16 @@ rows:
           - { label: Project Gutenberg (Vol. 1), url: "https://www.gutenberg.org/ebooks/25326" }
           - { label: Project Gutenberg (Vol. 2), url: "https://www.gutenberg.org/ebooks/25759" }
       - title: Modern Painters, Vol. 1
+        reader: student
+        pages: 420
         author: John Ruskin
         date: "1843"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29907" }
       - title: The Story of Art
+        reader: student
+        pages: 688
         author: E. H. Gombrich
         date: "1950 (16th ed.)"
         publicDomain: false
@@ -397,12 +423,15 @@ rows:
       - Design and draw (plan, elevation, section) a small classical building
     coreTexts:
       - title: The Ten Books on Architecture (trans. M. H. Morgan)
+        reader: student
+        pages: 330
         author: Vitruvius
         date: "c. 25 BC (trans. 1914)"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20239" }
       - title: The Four Books of Architecture (Ware trans.)
+        reader: student
         author: Andrea Palladio
         date: "1570 (trans. 1738)"
         publicDomain: true
@@ -442,12 +471,15 @@ rows:
       - Understand sight-size and comparative measurement methods
     coreTexts:
       - title: "Exercices au fusain (Cours de dessin), 60 plates"
+        reader: student
         author: Charles Bargue
         date: "1871"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/exercices-au-fusain-pour-preparer-a-letude-de-lacademie-dapres-nature-60-planches" }
       - title: Classical Drawing Atelier
+        reader: student
+        pages: 144
         author: Juliette Aristides
         date: "2006"
         publicDomain: false
@@ -491,24 +523,32 @@ rows:
       - Write a 3,000-word research paper on a building or artwork studied in person
     coreTexts:
       - title: The Stones of Venice, Vol. 1
+        reader: student
+        pages: 400
         author: John Ruskin
         date: "1851–1853"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30754" }
       - title: The Two Paths
+        reader: student
+        pages: 217
         author: John Ruskin
         date: "1859"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7291" }
       - title: Letter to Artists
+        reader: student
+        pages: 22
         author: Pope John Paul II
         date: "1999"
         publicDomain: false
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/letters/1999/documents/hf_jp-ii_let_23041999_artists.html" }
       - title: Meeting with Artists in the Sistine Chapel
+        reader: student
+        pages: 6
         author: Pope Benedict XVI
         date: "2009"
         publicDomain: false

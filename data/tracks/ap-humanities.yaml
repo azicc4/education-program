@@ -190,6 +190,8 @@ rows:
       - Complete the four course-project passages and the two in-class checkpoints (2% of the score)
     coreTexts:
       - title: Aeneid
+        reader: student
+        pages: 392
         author: Vergil (P. Vergilius Maro)
         date: "19 BC"
         publicDomain: true
@@ -197,6 +199,8 @@ rows:
           - { label: "Dickinson College Commentaries, Aeneid XII 919–952", url: "https://dcc.dickinson.edu/vergil-aeneid/vergil-aeneid-xii-919-952" }
           - { label: "Dickinson College Commentaries, Aeneid Books V–XII", url: "https://dcc.dickinson.edu/vergils-aeneid-books-v-xii" }
       - title: Epistulae (Letters)
+        reader: student
+        pages: 320
         author: Pliny the Younger (C. Plinius Caecilius Secundus)
         date: "c. AD 97–112"
         publicDomain: true

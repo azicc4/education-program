@@ -40,42 +40,56 @@ rows:
       - Sit attentively through 20–30 minutes of read-aloud of an unabridged text
     coreTexts:
       - title: The Aesop for Children
+        reader: together
+        pages: 104
         author: Aesop (illus. Milo Winter)
         date: "1919"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19994" }
       - title: Grimms' Fairy Tales
+        reader: together
+        pages: 408
         author: Jacob & Wilhelm Grimm (trans. Edgar Taylor & Marian Edwardes)
         date: "1812–1857"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2591" }
       - title: Andersen's Fairy Tales
+        reader: together
+        pages: 300
         author: Hans Christian Andersen
         date: "1835–1872"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1597" }
       - title: The Blue Fairy Book
+        reader: together
+        pages: 330
         author: Andrew Lang (ed.)
         date: "1889"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/503" }
       - title: The Red Fairy Book
+        reader: together
+        pages: 348
         author: Andrew Lang (ed.)
         date: "1890"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/540" }
       - title: The Tale of Peter Rabbit (and the other Potter tales)
+        reader: together
+        pages: 400
         author: Beatrix Potter
         date: "1902"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14838" }
       - title: Just So Stories
+        reader: together
+        pages: 113
         author: Rudyard Kipling
         date: "1902"
         publicDomain: true
@@ -127,48 +141,64 @@ rows:
       - Begin reading shorter chapters independently by age 7–8
     coreTexts:
       - title: The Wind in the Willows
+        reader: together
+        pages: 192
         author: Kenneth Grahame
         date: "1908"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/289" }
       - title: Heidi
+        reader: together
+        pages: 284
         author: Johanna Spyri
         date: "1881"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1448" }
       - title: Alice's Adventures in Wonderland
+        reader: together
+        pages: 133
         author: Lewis Carroll
         date: "1865"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11" }
       - title: The Adventures of Pinocchio
+        reader: together
+        pages: 186
         author: Carlo Collodi
         date: "1883"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/500" }
       - title: Winnie-the-Pooh
+        reader: together
+        pages: 158
         author: A. A. Milne
         date: "1926"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67098" }
       - title: The Princess and the Goblin
+        reader: together
+        pages: 185
         author: George MacDonald
         date: "1872"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/708" }
       - title: At the Back of the North Wind
+        reader: together
+        pages: 303
         author: George MacDonald
         date: "1871"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/225" }
       - title: The Water-Babies
+        reader: together
+        pages: 272
         author: Charles Kingsley
         date: "1863"
         publicDomain: true
@@ -217,24 +247,32 @@ rows:
       - Connect episodes to Scripture stories already known
     coreTexts:
       - title: Little Pilgrim's Progress
+        reader: together
+        pages: 256
         author: Helen L. Taylor (after John Bunyan)
         date: "1947"
         publicDomain: false
         links:
           - { label: Moody Publishers, url: "https://www.moodypublishers.com/little-pilgrims-progress" }
       - title: The Pilgrim's Progress in Words of One Syllable
+        reader: together
+        pages: 96
         author: John Bunyan, adapted by Lucy Aikin
         date: "c. 1870"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7088" }
       - title: The Chronicles of Narnia (7 vols., box set)
+        reader: together
+        pages: 768
         author: C. S. Lewis
         date: "1950–1956"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-chronicles-of-narnia-box-set-c-s-lewis/1100542419?ean=9780064405379" }
       - title: The Princess and Curdie
+        reader: together
+        pages: 178
         author: George MacDonald
         date: "1883"
         publicDomain: true
@@ -284,36 +322,48 @@ rows:
       - Contrast the Greek gods with the God of Scripture
     coreTexts:
       - title: D'Aulaires' Book of Greek Myths
+        reader: together
+        pages: 192
         author: Ingri & Edgar Parin d'Aulaire
         date: "1962"
         publicDomain: false
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/36027/daulaires-book-of-greek-myths-by-ingri-daulaire-and-edgar-parin-daulaire/" }
       - title: D'Aulaires' Book of Norse Myths
+        reader: together
+        pages: 160
         author: Ingri & Edgar Parin d'Aulaire
         date: "1967"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/daulaires-book-of-norse-myths-ingri-daulaire/1102785143?ean=9781590171257" }
       - title: A Wonder Book for Girls & Boys
+        reader: together
+        pages: 206
         author: Nathaniel Hawthorne
         date: "1851"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32242" }
       - title: Tanglewood Tales
+        reader: together
+        pages: 190
         author: Nathaniel Hawthorne
         date: "1853"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/976" }
       - title: "The Heroes; or, Greek Fairy Tales for My Children"
+        reader: together
+        pages: 215
         author: Charles Kingsley
         date: "1856"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/677" }
       - title: "The Children of Odin: The Book of Northern Myths"
+        reader: together
+        pages: 271
         author: Padraic Colum
         date: "1920"
         publicDomain: true
@@ -356,36 +406,47 @@ rows:
       - Memorize the opening invocation of the Iliad or Odyssey in English
     coreTexts:
       - title: The Iliad for Boys and Girls
+        reader: student
+        pages: 112
         author: Alfred J. Church
         date: "1907"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21584" }
       - title: The Odyssey for Boys and Girls
+        reader: student
         author: Alfred J. Church
         date: "1906"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/odysseyforboysgi00chur" }
       - title: The Aeneid for Boys and Girls
+        reader: student
+        pages: 172
         author: Alfred J. Church
         date: "1908"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/neidforboysgir00virgrich" }
       - title: "The Children's Homer: The Adventures of Odysseus and the Tale of Troy"
+        reader: student
+        pages: 250
         author: Padraic Colum (illus. Willy Pogány)
         date: "1918"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/childrenshomerad00colu" }
       - title: The Golden Fleece and the Heroes Who Lived Before Achilles
+        reader: student
+        pages: 382
         author: Padraic Colum
         date: "1921"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2395" }
       - title: Tales of Troy and Greece
+        reader: student
+        pages: 248
         author: Andrew Lang
         date: "1907"
         publicDomain: true
@@ -433,24 +494,32 @@ rows:
       - Watch or attend one live or filmed family-friendly production
     coreTexts:
       - title: Tales from Shakespeare
+        reader: together
+        pages: 320
         author: Charles & Mary Lamb
         date: "1807"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/573" }
       - title: How to Teach Your Children Shakespeare
+        reader: teacher
+        pages: 368
         author: Ken Ludwig
         date: "2013"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/how-to-teach-your-children-shakespeare-ken-ludwig/1113507776?ean=9780307951502" }
       - title: Stories from the Faerie Queene, Told to the Children
+        reader: together
+        pages: 94
         author: Jean Lang (after Edmund Spenser)
         date: "1906"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/41350" }
       - title: A Midsummer Night's Dream (Folger text, for passages)
+        reader: together
+        pages: 250
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
@@ -495,24 +564,32 @@ rows:
       - Identify at least 30 authors the Readers introduce and note which to read in full later
     coreTexts:
       - title: McGuffey's Fourth Eclectic Reader
+        reader: student
+        pages: 262
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14880" }
       - title: McGuffey's Fifth Eclectic Reader
+        reader: student
+        pages: 352
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15040" }
       - title: McGuffey's Sixth Eclectic Reader
+        reader: student
+        pages: 464
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
       - title: The Columbian Orator
+        reader: student
+        pages: 300
         author: Caleb Bingham (ed.)
         date: "1797"
         publicDomain: true
@@ -561,30 +638,40 @@ rows:
       - Write a short narrative imitating Pyle's archaic style
     coreTexts:
       - title: The Merry Adventures of Robin Hood
+        reader: student
+        pages: 325
         author: Howard Pyle
         date: "1883"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10148" }
       - title: The Story of King Arthur and His Knights
+        reader: student
+        pages: 312
         author: Howard Pyle
         date: "1903"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/60184" }
       - title: The Boy's King Arthur (Malory, ed. Lanier)
+        reader: student
+        pages: 371
         author: Sir Thomas Malory, ed. Sidney Lanier
         date: "1880"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66585" }
       - title: Otto of the Silver Hand
+        reader: student
+        pages: 170
         author: Howard Pyle
         date: "1888"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2865" }
       - title: Men of Iron
+        reader: student
+        pages: 272
         author: Howard Pyle
         date: "1891"
         publicDomain: true
@@ -628,42 +715,56 @@ rows:
       - Compare Bilbo's and Jim Hawkins' growth in courage
     coreTexts:
       - title: Treasure Island
+        reader: student
+        pages: 248
         author: Robert Louis Stevenson
         date: "1883"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/120" }
       - title: Robinson Crusoe
+        reader: student
+        pages: 274
         author: Daniel Defoe
         date: "1719"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/521" }
       - title: The Swiss Family Robinson
+        reader: student
+        pages: 320
         author: Johann David Wyss
         date: "1812"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11703" }
       - title: Kidnapped
+        reader: student
+        pages: 262
         author: Robert Louis Stevenson
         date: "1886"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/421" }
       - title: The Jungle Book
+        reader: student
+        pages: 192
         author: Rudyard Kipling
         date: "1894"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/236" }
       - title: Captains Courageous
+        reader: student
+        pages: 150
         author: Rudyard Kipling
         date: "1897"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2186" }
       - title: The Hobbit
+        reader: student
+        pages: 310
         author: J. R. R. Tolkien
         date: "1937"
         publicDomain: false
@@ -712,41 +813,55 @@ rows:
       - Memorize a speech from Addison's Cato (e.g. "'Tis not in mortals to command success")
     coreTexts:
       - title: The Holy Bible, King James Version
+        reader: student
+        pages: 1200
         date: "1611"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
       - title: The Pilgrim's Progress
+        reader: student
+        pages: 308
         author: John Bunyan
         date: "1678"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/131" }
       - title: The Boys' and Girls' Plutarch
+        reader: student
+        pages: 468
         author: Plutarch, ed. John S. White
         date: "1883"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2484" }
       - title: Plutarch's Lives (Dryden translation, rev. Clough)
+        reader: student
+        pages: 1300
         author: Plutarch
         date: "c. 100 AD; trans. 1683/1859"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
       - title: The Life of George Washington, with Curious Anecdotes
+        reader: student
+        pages: 230
         author: Mason Locke Weems
         date: "1800/1808"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/lifeofgeorgewash00weem" }
       - title: Autobiography of Benjamin Franklin
+        reader: student
+        pages: 150
         author: Benjamin Franklin
         date: "1791"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: "Cato: A Tragedy"
+        reader: student
+        pages: 69
         author: Joseph Addison
         date: "1713"
         publicDomain: true
@@ -801,42 +916,56 @@ rows:
       - Identify the conventions of romance (disguise, tournament, rescue, recognition)
     coreTexts:
       - title: A Christmas Carol
+        reader: student
+        pages: 114
         author: Charles Dickens
         date: "1843"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46" }
       - title: Ivanhoe
+        reader: student
+        pages: 488
         author: Sir Walter Scott
         date: "1819"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/82" }
       - title: The Talisman
+        reader: student
+        pages: 372
         author: Sir Walter Scott
         date: "1825"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1377" }
       - title: The Black Arrow
+        reader: student
+        pages: 269
         author: Robert Louis Stevenson
         date: "1888"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/848" }
       - title: The Last of the Mohicans
+        reader: student
+        pages: 418
         author: James Fenimore Cooper
         date: "1826"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/940" }
       - title: The Three Musketeers
+        reader: student
+        pages: 637
         author: Alexandre Dumas
         date: "1844"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1257" }
       - title: The Scarlet Pimpernel
+        reader: student
+        pages: 303
         author: Baroness Orczy
         date: "1905"
         publicDomain: true
@@ -884,42 +1013,56 @@ rows:
       - Write a book review with a thesis statement
     coreTexts:
       - title: The Legend of Sleepy Hollow
+        reader: student
+        pages: 39
         author: Washington Irving
         date: "1820"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/41" }
       - title: The Adventures of Tom Sawyer
+        reader: student
+        pages: 253
         author: Mark Twain
         date: "1876"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/74" }
       - title: The Prince and the Pauper
+        reader: student
+        pages: 256
         author: Mark Twain
         date: "1881"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1837" }
       - title: Little Women
+        reader: student
+        pages: 423
         author: Louisa May Alcott
         date: "1868–69"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/514" }
       - title: The Call of the Wild
+        reader: student
+        pages: 128
         author: Jack London
         date: "1903"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/215" }
       - title: Johnny Tremain
+        reader: student
+        pages: 272
         author: Esther Forbes
         date: "1943"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/johnny-tremain-esther-hoskins-forbes/1100484579?ean=9780547614328" }
       - title: Carry On, Mr. Bowditch
+        reader: student
+        pages: 251
         author: Jean Lee Latham
         date: "1955"
         publicDomain: false
@@ -964,30 +1107,40 @@ rows:
       - Stage one scene for family or co-op, with blocking and simple costume
     coreTexts:
       - title: A Midsummer Night's Dream
+        reader: student
+        pages: 124
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/" }
       - title: Twelfth Night
+        reader: student
+        pages: 152
         author: William Shakespeare
         date: "c. 1601"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/twelfth-night/" }
       - title: As You Like It
+        reader: student
+        pages: 148
         author: William Shakespeare
         date: "c. 1599"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/as-you-like-it/" }
       - title: Much Ado About Nothing
+        reader: student
+        pages: 160
         author: William Shakespeare
         date: "c. 1598"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/much-ado-about-nothing/" }
       - title: The Comedy of Errors
+        reader: student
+        pages: 104
         author: William Shakespeare
         date: "c. 1594"
         publicDomain: true
@@ -1038,36 +1191,48 @@ rows:
       - Identify narrator, point of view and irony
     coreTexts:
       - title: Great Expectations
+        reader: student
+        pages: 482
         author: Charles Dickens
         date: "1861"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1400" }
       - title: Oliver Twist
+        reader: student
+        pages: 414
         author: Charles Dickens
         date: "1838"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/730" }
       - title: "Gulliver's Travels"
+        reader: student
+        pages: 278
         author: Jonathan Swift
         date: "1726"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/829" }
       - title: Kim
+        reader: student
+        pages: 286
         author: Rudyard Kipling
         date: "1901"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2226" }
       - title: The Hound of the Baskervilles
+        reader: student
+        pages: 207
         author: Arthur Conan Doyle
         date: "1902"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2852" }
       - title: Twenty Thousand Leagues Under the Seas
+        reader: student
+        pages: 369
         author: Jules Verne (trans. F. P. Walter)
         date: "1870"
         publicDomain: true
@@ -1113,24 +1278,32 @@ rows:
       - Memorize and declaim one full speech per play (e.g. St. Crispin's Day, Friends Romans countrymen)
     coreTexts:
       - title: Julius Caesar
+        reader: student
+        pages: 136
         author: William Shakespeare
         date: "1599"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/julius-caesar/" }
       - title: Henry V
+        reader: student
+        pages: 166
         author: William Shakespeare
         date: "1599"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/henry-v/" }
       - title: Richard II
+        reader: student
+        pages: 150
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/richard-ii/" }
       - title: Henry IV, Part 1
+        reader: student
+        pages: 150
         author: William Shakespeare
         date: "c. 1597"
         publicDomain: true
@@ -1181,6 +1354,8 @@ rows:
       - Memorize the proem of each epic (in English; in Latin for the Aeneid)
     coreTexts:
       - title: The Iliad (trans. Robert Fagles)
+        reader: student
+        pages: 564
         author: Homer
         date: "c. 750 BC; trans. 1990"
         publicDomain: false
@@ -1189,6 +1364,8 @@ rows:
           - { label: "Free alt: Butler prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/2199" }
           - { label: "Free alt: Pope verse (Gutenberg)", url: "https://www.gutenberg.org/ebooks/6130" }
       - title: The Odyssey (trans. Richmond Lattimore)
+        reader: student
+        pages: 352
         author: Homer
         date: "c. 725 BC; trans. 1967"
         publicDomain: false
@@ -1196,6 +1373,8 @@ rows:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-odyssey-of-homer-richmond-lattimore/1143267049?ean=9780061244186" }
           - { label: "Free alt: Butler prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/1727" }
       - title: The Aeneid (trans. Robert Fitzgerald)
+        reader: student
+        pages: 442
         author: Virgil
         date: "19 BC; trans. 1983"
         publicDomain: false
@@ -1203,24 +1382,32 @@ rows:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-aeneid-virgil/1116742515?ean=9780679729525" }
           - { label: "Free alt: Dryden verse (Gutenberg)", url: "https://www.gutenberg.org/ebooks/228" }
       - title: "The House of Atreus (Agamemnon, Libation Bearers, Furies)"
+        reader: student
+        pages: 236
         author: Aeschylus (trans. E. D. A. Morshead)
         date: "458 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8604" }
       - title: "Oedipus the King; Oedipus at Colonus; Antigone"
+        reader: student
+        pages: 200
         author: Sophocles (trans. F. Storr)
         date: "c. 441–401 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31" }
       - title: Medea
+        reader: student
+        pages: 122
         author: Euripides (trans. Gilbert Murray)
         date: "431 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35451" }
       - title: The Metamorphoses (Books I–VII)
+        reader: student
+        pages: 250
         author: Ovid (trans. H. T. Riley)
         date: "8 AD"
         publicDomain: true
@@ -1279,12 +1466,16 @@ rows:
       - Discuss Shakespeare's religious world (Catholic recusancy, Protestant England) as critics debate it
     coreTexts:
       - title: Romeo and Juliet
+        reader: student
+        pages: 168
         author: William Shakespeare
         date: "c. 1595"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/" }
       - title: Macbeth
+        reader: student
+        pages: 135
         author: William Shakespeare
         date: "1606"
         publicDomain: true
@@ -1292,6 +1483,8 @@ rows:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/macbeth/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-macbeth.htm" }
       - title: Hamlet
+        reader: student
+        pages: 192
         author: William Shakespeare
         date: "c. 1600"
         publicDomain: true
@@ -1299,6 +1492,8 @@ rows:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/hamlet/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-hamlet.htm" }
       - title: King Lear
+        reader: student
+        pages: 193
         author: William Shakespeare
         date: "1606"
         publicDomain: true
@@ -1306,6 +1501,8 @@ rows:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/king-lear/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-king-lear.htm" }
       - title: Othello
+        reader: student
+        pages: 176
         author: William Shakespeare
         date: "1604"
         publicDomain: true
@@ -1356,12 +1553,16 @@ rows:
       - Trace the pilgrimage frame and the "quiting" of tale against tale across the Canterbury Tales
     coreTexts:
       - title: The Confessions
+        reader: student
+        pages: 392
         author: St. Augustine (trans. E. B. Pusey)
         date: "c. 400"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3296" }
       - title: Beowulf (trans. Seamus Heaney)
+        reader: student
+        pages: 256
         author: Anonymous
         date: "c. 700–1000"
         publicDomain: false
@@ -1370,6 +1571,8 @@ rows:
           - { label: "Tolkien translation (Barnes & Noble)", url: "https://www.barnesandnoble.com/w/beowulf-j-r-r-tolkien/1118935267?ean=9780544570306" }
           - { label: "Free alt: Gummere verse (Gutenberg)", url: "https://www.gutenberg.org/ebooks/981" }
       - title: "Sir Gawain and the Green Knight, Pearl & Sir Orfeo (trans. J. R. R. Tolkien)"
+        reader: student
+        pages: 150
         author: The Pearl Poet
         date: "c. 1390"
         publicDomain: false
@@ -1377,6 +1580,8 @@ rows:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/sir-gawain-and-the-green-knight-pearl-and-sir-orfeo-j-r-r-tolkien/1101964418?ean=9780345277602" }
           - { label: "Free alt: Weston prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/66084" }
       - title: The Divine Comedy (trans. Anthony Esolen)
+        reader: student
+        pages: 1500
         author: Dante Alighieri
         date: "1308–1321"
         publicDomain: false
@@ -1384,6 +1589,8 @@ rows:
           - { label: "Inferno (Penguin Random House)", url: "https://www.penguinrandomhouse.com/books/36722/inferno-by-dante/" }
           - { label: "Free alt: Longfellow translation (Gutenberg)", url: "https://www.gutenberg.org/ebooks/1004" }
       - title: "The Canterbury Tales (fuller reading, trans. Nevill Coghill)"
+        reader: student
+        pages: 520
         author: Geoffrey Chaucer
         date: "c. 1387–1400; trans. 1951"
         publicDomain: false
@@ -1391,12 +1598,16 @@ rows:
           - { label: "Coghill modern verse (Penguin Classics, B&N)", url: "https://www.barnesandnoble.com/w/the-canterbury-tales-geoffrey-chaucer/1116670487?ean=9780140424386" }
           - { label: "Free alt: Middle English text (Gutenberg)", url: "https://www.gutenberg.org/ebooks/2383" }
       - title: Everyman, with Other Interludes
+        reader: student
+        pages: 262
         author: Anonymous
         date: "c. 1510"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19481" }
       - title: "Le Morte d'Arthur, Vol. 1"
+        reader: student
+        pages: 400
         author: Sir Thomas Malory
         date: "1485"
         publicDomain: true
@@ -1452,42 +1663,56 @@ rows:
       - Memorize the opening 26 lines of Paradise Lost
     coreTexts:
       - title: "The Faerie Queene, Book I"
+        reader: student
+        pages: 253
         author: Edmund Spenser
         date: "1590"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15272" }
       - title: "The Tragical History of Doctor Faustus (elective)"
+        reader: student
+        pages: 103
         author: Christopher Marlowe
         date: "c. 1592"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/779" }
       - title: The Essays or Counsels, Civil and Moral
+        reader: student
+        pages: 405
         author: Francis Bacon
         date: "1625"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/575" }
       - title: Paradise Lost
+        reader: student
+        pages: 333
         author: John Milton
         date: "1667/1674"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26" }
       - title: "Grace Abounding to the Chief of Sinners (elective)"
+        reader: student
+        pages: 150
         author: John Bunyan
         date: "1666"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/654" }
       - title: "The Compleat Angler (elective)"
+        reader: student
+        pages: 326
         author: Izaak Walton
         date: "1653"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/683" }
       - title: "Religio Medici, Hydriotaphia, and the Letter to a Friend (elective)"
+        reader: student
+        pages: 156
         author: Sir Thomas Browne
         date: "1643/1658"
         publicDomain: true
@@ -1541,48 +1766,63 @@ rows:
       - Explicate a passage of Pope's heroic couplets
     coreTexts:
       - title: "The Poetical Works of John Dryden, Vol. 1 (elective)"
+        reader: student
         author: John Dryden
         date: "1660–1700"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11488" }
       - title: "The Rape of the Lock, and Other Poems (elective)"
+        reader: student
+        pages: 241
         author: Alexander Pope
         date: "1714"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9800" }
       - title: An Essay on Man; Moral Essays and Satires
+        reader: student
+        pages: 190
         author: Alexander Pope
         date: "1733–34"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2428" }
       - title: A Modest Proposal
+        reader: student
+        pages: 10
         author: Jonathan Swift
         date: "1729"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1080" }
       - title: "The Spectator, Vols. 1–3"
+        reader: student
+        pages: 1500
         author: Joseph Addison & Richard Steele
         date: "1711–1712"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12030" }
       - title: "Rasselas, Prince of Abyssinia (elective)"
+        reader: student
+        pages: 130
         author: Samuel Johnson
         date: "1759"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/652" }
       - title: "The Vicar of Wakefield (elective)"
+        reader: student
+        pages: 225
         author: Oliver Goldsmith
         date: "1766"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2667" }
       - title: "The Life of Samuel Johnson"
+        reader: student
+        pages: 1400
         author: James Boswell
         date: "1791"
         publicDomain: true
@@ -1636,48 +1876,64 @@ rows:
       - Write a 2,000-word comparative essay (e.g. Austen's Elizabeth and Anne Elliot)
     coreTexts:
       - title: Pride and Prejudice
+        reader: student
+        pages: 351
         author: Jane Austen
         date: "1813"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1342" }
       - title: "Emma (elective)"
+        reader: student
+        pages: 457
         author: Jane Austen
         date: "1815"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/158" }
       - title: Persuasion
+        reader: student
+        pages: 268
         author: Jane Austen
         date: "1817"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/105" }
       - title: Waverley
+        reader: student
+        pages: 500
         author: Sir Walter Scott
         date: "1814"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5998" }
       - title: "The Heart of Mid-Lothian (elective)"
+        reader: student
+        pages: 548
         author: Sir Walter Scott
         date: "1818"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6944" }
       - title: "Frankenstein (elective)"
+        reader: student
+        pages: 240
         author: Mary Shelley
         date: "1818"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/84" }
       - title: "The Prelude, or Growth of a Poet's Mind"
+        reader: student
+        pages: 374
         author: William Wordsworth
         date: "1850"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/preludeorgrowtho00worduoft" }
       - title: "Biographia Literaria (elective)"
+        reader: student
+        pages: 336
         author: Samuel Taylor Coleridge
         date: "1817"
         publicDomain: true
@@ -1727,42 +1983,56 @@ rows:
       - Present a 15-minute seminar introduction on one novel
     coreTexts:
       - title: Jane Eyre
+        reader: student
+        pages: 480
         author: Charlotte Brontë
         date: "1847"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1260" }
       - title: "Wuthering Heights (elective)"
+        reader: student
+        pages: 318
         author: Emily Brontë
         date: "1847"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/768" }
       - title: "David Copperfield (elective)"
+        reader: student
+        pages: 742
         author: Charles Dickens
         date: "1850"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/766" }
       - title: A Tale of Two Cities
+        reader: student
+        pages: 388
         author: Charles Dickens
         date: "1859"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/98" }
       - title: Bleak House
+        reader: student
+        pages: 817
         author: Charles Dickens
         date: "1853"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1023" }
       - title: "Vanity Fair (elective)"
+        reader: student
+        pages: 699
         author: William Makepeace Thackeray
         date: "1848"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/599" }
       - title: "North and South (elective)"
+        reader: student
+        pages: 452
         author: Elizabeth Gaskell
         date: "1855"
         publicDomain: true
@@ -1811,48 +2081,64 @@ rows:
       - Write a 2,500-word research essay using at least two secondary sources
     coreTexts:
       - title: Middlemarch
+        reader: student
+        pages: 793
         author: George Eliot
         date: "1871–72"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/145" }
       - title: "The Warden (elective)"
+        reader: student
+        pages: 255
         author: Anthony Trollope
         date: "1855"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/619" }
       - title: "Barchester Towers (elective)"
+        reader: student
+        pages: 502
         author: Anthony Trollope
         date: "1857"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3409" }
       - title: The Mayor of Casterbridge
+        reader: student
+        pages: 363
         author: Thomas Hardy
         date: "1886"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/143" }
       - title: "Idylls of the King (elective)"
+        reader: student
+        pages: 258
         author: Alfred, Lord Tennyson
         date: "1859–1885"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/610" }
       - title: Apologia pro Vita Sua
+        reader: student
+        pages: 395
         author: John Henry Newman
         date: "1864"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19690" }
       - title: The Idea of a University
+        reader: student
+        pages: 527
         author: John Henry Newman
         date: "1852/1873"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/24526" }
       - title: "Loss and Gain: The Story of a Convert (elective)"
+        reader: student
+        pages: 432
         author: John Henry Newman
         date: "1848"
         publicDomain: true
@@ -1906,48 +2192,64 @@ rows:
       - Write an essay setting Chesterton's paradox against Conrad's darkness
     coreTexts:
       - title: Heart of Darkness
+        reader: student
+        pages: 136
         author: Joseph Conrad
         date: "1899"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/219" }
       - title: "Lord Jim (elective)"
+        reader: student
+        pages: 360
         author: Joseph Conrad
         date: "1900"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5658" }
       - title: Orthodoxy
+        reader: student
+        pages: 156
         author: G. K. Chesterton
         date: "1908"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/130" }
       - title: The Everlasting Man
+        reader: student
+        pages: 274
         author: G. K. Chesterton
         date: "1925"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/65688" }
       - title: "The Man Who Was Thursday (elective)"
+        reader: student
+        pages: 162
         author: G. K. Chesterton
         date: "1908"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1695" }
       - title: "The Innocence of Father Brown (elective)"
+        reader: student
+        pages: 208
         author: G. K. Chesterton
         date: "1911"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/204" }
       - title: "The Path to Rome (elective)"
+        reader: student
+        pages: 375
         author: Hilaire Belloc
         date: "1902"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7373" }
       - title: The Waste Land
+        reader: student
+        pages: 25
         author: T. S. Eliot
         date: "1922"
         publicDomain: true
@@ -1991,54 +2293,72 @@ rows:
       - Explicate one of the Four Quartets (here if chosen, otherwise in poetry-12)
     coreTexts:
       - title: The Lord of the Rings
+        reader: student
+        pages: 1193
         author: J. R. R. Tolkien
         date: "1954–55"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-lord-of-the-rings-j-r-r-tolkien/1100188646?ean=9780544003415" }
       - title: "Till We Have Faces (elective)"
+        reader: student
+        pages: 320
         author: C. S. Lewis
         date: "1956"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/till-we-have-faces-c-s-lewis/1102158947?ean=9780062565419" }
       - title: "Out of the Silent Planet (elective)"
+        reader: student
+        pages: 174
         author: C. S. Lewis
         date: "1938"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/out-of-the-silent-planet-c-s-lewis/1100400761?ean=9780743234900" }
       - title: "The Screwtape Letters (elective)"
+        reader: student
+        pages: 160
         author: C. S. Lewis
         date: "1942"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-screwtape-letters-c-s-lewis/1116762579?ean=9780060652937" }
       - title: Brideshead Revisited
+        reader: student
+        pages: 336
         author: Evelyn Waugh
         date: "1945"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/brideshead-revisited-evelyn-waugh/1000151814?ean=9780316216456" }
       - title: The Power and the Glory
+        reader: student
+        pages: 254
         author: Graham Greene
         date: "1940"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0142437301" }
       - title: "Animal Farm (elective)"
+        reader: student
+        pages: 128
         author: George Orwell
         date: "1945"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/animal-farm-george-orwell/1137597358?ean=9780451526342" }
       - title: "1984"
+        reader: student
+        pages: 328
         author: George Orwell
         date: "1949"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/1984-george-orwell/1144554302?ean=9780451524935" }
       - title: "Four Quartets (elective)"
+        reader: student
+        pages: 48
         author: T. S. Eliot
         date: "1943"
         publicDomain: false
@@ -2091,30 +2411,40 @@ rows:
       - Mount or take a principal part in a staged production, or give a 200-line recital
     coreTexts:
       - title: The Tempest
+        reader: student
+        pages: 144
         author: William Shakespeare
         date: "1611"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-tempest/" }
       - title: The Winter's Tale
+        reader: student
+        pages: 152
         author: William Shakespeare
         date: "1611"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-winters-tale/" }
       - title: The Merchant of Venice
+        reader: student
+        pages: 147
         author: William Shakespeare
         date: "c. 1597"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/" }
       - title: "Shakespeare's Sonnets (elective)"
+        reader: student
+        pages: 180
         author: William Shakespeare
         date: "1609"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/" }
       - title: "The Complete Works of William Shakespeare (elective)"
+        reader: student
+        pages: 1300
         author: William Shakespeare
         publicDomain: true
         links:
@@ -2165,54 +2495,71 @@ rows:
       - Write a thesis-driven essay on an American Renaissance text
     coreTexts:
       - title: Autobiography of Benjamin Franklin
+        reader: student
+        pages: 150
         author: Benjamin Franklin
         date: "1791"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: "The Sketch-Book of Geoffrey Crayon (elective)"
+        reader: student
+        pages: 384
         author: Washington Irving
         date: "1819–20"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2048" }
       - title: "The Deerslayer (elective)"
+        reader: student
+        pages: 520
         author: James Fenimore Cooper
         date: "1841"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3285" }
       - title: "The Works of Edgar Allan Poe, Vol. 1 (tales) (elective)"
+        reader: student
         author: Edgar Allan Poe
         date: "1830s–1840s"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2147" }
       - title: The Scarlet Letter
+        reader: student
+        pages: 272
         author: Nathaniel Hawthorne
         date: "1850"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25344" }
       - title: "Moby-Dick; or, The Whale"
+        reader: student
+        pages: 452
         author: Herman Melville
         date: "1851"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2701" }
       - title: "Essays: First Series"
+        reader: student
+        pages: 326
         author: Ralph Waldo Emerson
         date: "1841"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2944" }
       - title: "Walden, and On the Duty of Civil Disobedience (elective)"
+        reader: student
+        pages: 298
         author: Henry David Thoreau
         date: "1854/1849"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/205" }
       - title: Narrative of the Life of Frederick Douglass
+        reader: student
+        pages: 127
         author: Frederick Douglass
         date: "1845"
         publicDomain: true
@@ -2264,48 +2611,64 @@ rows:
       - Write a comparative essay on American realism and naturalism
     coreTexts:
       - title: Adventures of Huckleberry Finn
+        reader: student
+        pages: 346
         author: Mark Twain
         date: "1884"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76" }
       - title: "Poems by Emily Dickinson, Three Series, Complete"
+        reader: student
+        pages: 250
         author: Emily Dickinson
         date: "1890–1896"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12242" }
       - title: Leaves of Grass
+        reader: student
+        pages: 384
         author: Walt Whitman
         date: "1855–1892"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1322" }
       - title: "Daisy Miller (elective)"
+        reader: student
+        pages: 75
         author: Henry James
         date: "1878"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/208" }
       - title: "The Portrait of a Lady, Vol. 1 (elective)"
+        reader: student
+        pages: 350
         author: Henry James
         date: "1881"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2833" }
       - title: "The Red Badge of Courage (elective)"
+        reader: student
+        pages: 174
         author: Stephen Crane
         date: "1895"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/73" }
       - title: My Ántonia
+        reader: student
+        pages: 264
         author: Willa Cather
         date: "1918"
         publicDomain: true
         links:
           - { label: Standard Ebooks, url: "https://standardebooks.org/ebooks/willa-cather/my-antonia" }
       - title: "North of Boston (elective)"
+        reader: student
+        pages: 140
         author: Robert Frost
         date: "1914"
         publicDomain: true
@@ -2357,54 +2720,72 @@ rows:
       - Write a 2,500-word research essay on one author
     coreTexts:
       - title: The Great Gatsby
+        reader: student
+        pages: 185
         author: F. Scott Fitzgerald
         date: "1925"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/64317" }
       - title: "The Sun Also Rises (elective)"
+        reader: student
+        pages: 249
         author: Ernest Hemingway
         date: "1926"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67138" }
       - title: The Old Man and the Sea
+        reader: student
+        pages: 131
         author: Ernest Hemingway
         date: "1952"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-old-man-and-the-sea-ernest-hemingway/1100300820?ean=9780684801223" }
       - title: "The Sound and the Fury (elective)"
+        reader: student
+        pages: 358
         author: William Faulkner
         date: "1929"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/75170" }
       - title: "Death Comes for the Archbishop (elective)"
+        reader: student
+        pages: 299
         author: Willa Cather
         date: "1927"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/69730" }
       - title: The Complete Stories
+        reader: student
+        pages: 576
         author: Flannery O'Connor
         date: "1971"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-complete-stories-flannery-oconnor/1103271862?ean=9780374515362" }
       - title: The Moviegoer
+        reader: student
+        pages: 241
         author: Walker Percy
         date: "1961"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0375701966" }
       - title: "To Kill a Mockingbird (elective)"
+        reader: student
+        pages: 320
         author: Harper Lee
         date: "1960"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/to-kill-a-mockingbird-harper-lee/1100151011?ean=9780060935467" }
       - title: "The Fountainhead (elective, critical reading)"
+        reader: student
+        pages: 700
         author: Ayn Rand
         date: "1943"
         publicDomain: false
@@ -2465,48 +2846,64 @@ rows:
       - Compare two translations of one passage and judge their fidelity and style
     coreTexts:
       - title: Don Quixote (trans. John Ormsby)
+        reader: student
+        pages: 795
         author: Miguel de Cervantes
         date: "1605/1615"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/996" }
       - title: The Betrothed
+        reader: student
+        pages: 700
         author: Alessandro Manzoni
         date: "1827/1842"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35155" }
       - title: "Les Misérables (elective)"
+        reader: student
+        pages: 1460
         author: Victor Hugo
         date: "1862"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/135" }
       - title: "Crime and Punishment (elective)"
+        reader: student
+        pages: 551
         author: Fyodor Dostoevsky
         date: "1866"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2554" }
       - title: The Brothers Karamazov
+        reader: student
+        pages: 867
         author: Fyodor Dostoevsky
         date: "1880"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28054" }
       - title: "War and Peace (elective)"
+        reader: student
+        pages: 1300
         author: Leo Tolstoy
         date: "1869"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2600" }
       - title: "Quo Vadis (elective)"
+        reader: student
+        pages: 477
         author: Henryk Sienkiewicz
         date: "1896"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2853" }
       - title: "Kristin Lavransdatter (trans. Tiina Nunnally) (elective)"
+        reader: student
+        pages: 1065
         author: Sigrid Undset
         date: "1920–22"
         publicDomain: false
@@ -2559,47 +2956,63 @@ rows:
       - Trace the dialogue between Athens and Jerusalem across the term
     coreTexts:
       - title: The Iliad of Homer (trans. Richmond Lattimore)
+        reader: student
+        pages: 440
         author: Homer
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-iliad-of-homer-homer/1116755951?ean=9780226470498" }
       - title: "Hesiod, the Homeric Hymns, and Homerica"
+        reader: student
+        pages: 639
         author: Hesiod (trans. H. G. Evelyn-White)
         date: "c. 700 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/348" }
       - title: "The History of Herodotus, Vol. 1"
+        reader: student
+        pages: 400
         author: Herodotus (trans. G. C. Macaulay)
         date: "c. 430 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2707" }
       - title: The History of the Peloponnesian War
+        reader: student
+        pages: 614
         author: Thucydides (trans. Richard Crawley)
         date: "c. 400 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
       - title: The Republic
+        reader: student
+        pages: 400
         author: Plato (trans. Benjamin Jowett)
         date: "c. 375 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1497" }
       - title: The Nicomachean Ethics
+        reader: student
+        pages: 300
         author: Aristotle
         date: "c. 340 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
       - title: On the Nature of Things
+        reader: student
+        pages: 230
         author: Lucretius
         date: "c. 55 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/785" }
       - title: The Bible (Douay-Rheims)
+        reader: student
+        pages: 1600
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
@@ -2656,44 +3069,60 @@ rows:
       - Present a public lecture or a seminar-leader's opening question to an audience
     coreTexts:
       - title: "The Divine Comedy (Longfellow translation, complete)"
+        reader: student
+        pages: 650
         author: Dante Alighieri
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1004" }
       - title: Don Quixote (trans. Ormsby)
+        reader: student
+        pages: 795
         author: Miguel de Cervantes
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/996" }
       - title: Essays (trans. Charles Cotton)
+        reader: student
+        pages: 1000
         author: Michel de Montaigne
         date: "1580–1595"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3600" }
       - title: The Thoughts of Blaise Pascal (Pensées)
+        reader: student
+        pages: 320
         author: Blaise Pascal
         date: "1670"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46921" }
       - title: Paradise Lost
+        reader: student
+        pages: 333
         author: John Milton
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26" }
       - title: "Faust, Part 1 (trans. Bayard Taylor)"
+        reader: student
+        pages: 156
         author: Johann Wolfgang von Goethe
         date: "1808"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14591" }
       - title: The Brothers Karamazov
+        reader: student
+        pages: 867
         author: Fyodor Dostoevsky
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28054" }
       - title: Four Quartets
+        reader: student
+        pages: 48
         author: T. S. Eliot
         date: "1943"
         publicDomain: false

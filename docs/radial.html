@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Founding-Era Reading · Formation Program</title>
-  <meta name="description" content="What the colonial colleges, the founders, and 19th-century schools actually required students to read.">
+  <title>Radial Tree · Formation Program</title>
+  <meta name="description" content="A child's current place in every track, drawn as a radial tree: current units at the center, the next steps branching outward.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -17,8 +17,8 @@
       <nav class="nav" aria-label="Views">
         <a href="index.html">Curriculum</a>
         <a href="tree.html">Skill Tree</a>
-        <a href="radial.html">Radial Tree</a>
-        <a href="founding.html" aria-current="page">Founding-Era Reading</a>
+        <a href="radial.html" aria-current="page">Radial Tree</a>
+        <a href="founding.html">Founding-Era Reading</a>
         <a href="exams.html">Exams</a>
         <a href="family.html">Family</a>
       </nav>
@@ -28,18 +28,19 @@
 
   <main>
     <p class="intro">
-      What Oxford, Cambridge, Trinity College Dublin and the colonial colleges modeled on them required for admission and study, what Jefferson, Adams, Franklin and Washington told young men to read,
-      and how 19th-century schools in America and Britain taught. Each list cites its primary sources and links into the curriculum units built on it.
+      One child's place in every track at once. Each wedge is a track. The innermost node is the unit in progress now, or the next unit if
+      nothing in that track falls at the child's age. Concurrent units fork, and each branch shows at most the next two steps outward.
+      Click a node for details.
     </p>
-    <div class="canon" id="canon"></div>
-    <div class="filters"><div class="chips" id="categories" role="group" aria-label="Category"></div></div>
-    <div class="lists" id="lists"></div>
+    <div class="filters" id="radial-filters"></div>
+    <div class="radial-wrap"><svg id="radial" role="img" aria-labelledby="radial-title"><title id="radial-title">Radial skill tree</title></svg></div>
+    <div class="legend" id="radial-legend"></div>
   </main>
 
   <script src="data/curriculum.js"></script>
-  <script src="data/founding.js"></script>
   <script src="assets/store.js"></script>
+  <script src="assets/demo.js"></script>
   <script src="assets/common.js"></script>
-  <script src="assets/founding.js"></script>
+  <script src="assets/radial.js"></script>
 </body>
 </html>

@@ -35,24 +35,32 @@ rows:
       - Associate verse with affection and play (sung at bedtime, in the car, at work)
     coreTexts:
       - title: The Real Mother Goose
+        reader: together
+        pages: 128
         author: Blanche Fisher Wright (illus.)
         date: "1916"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
       - title: The Oxford Nursery Rhyme Book
+        reader: together
+        pages: 223
         author: Iona & Peter Opie (eds.)
         date: "1955"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-oxford-nursery-rhyme-book-iona-opie/1100459134?ean=9780198691129" }
       - title: "Sing-Song: A Nursery Rhyme Book"
+        reader: together
+        pages: 130
         author: Christina Rossetti
         date: "1872"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76703" }
       - title: The Book of Nonsense
+        reader: together
+        pages: 109
         author: Edward Lear
         date: "1846"
         publicDomain: true
@@ -100,36 +108,48 @@ rows:
       - Hear and clap the beat of a line; identify rhyming words
     coreTexts:
       - title: "A Child's Garden of Verses"
+        reader: together
+        pages: 116
         author: Robert Louis Stevenson
         date: "1885"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/136" }
       - title: When We Were Very Young
+        reader: together
+        pages: 102
         author: A. A. Milne
         date: "1924"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/70271" }
       - title: "Peacock Pie: A Book of Rhymes"
+        reader: together
+        pages: 121
         author: Walter de la Mare
         date: "1913"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3753" }
       - title: Poems of Childhood
+        reader: together
+        pages: 179
         author: Eugene Field (illus. Maxfield Parrish)
         date: "1904"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/75578" }
       - title: Cautionary Tales for Children
+        reader: together
+        pages: 79
         author: Hilaire Belloc
         date: "1907"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27424" }
       - title: The Harp and Laurel Wreath
+        reader: teacher
+        pages: 493
         author: Laura Berquist (ed.)
         date: "1999"
         publicDomain: false
@@ -174,30 +194,40 @@ rows:
       - Name the poet and approximate century of each memorized poem
     coreTexts:
       - title: The Blue Poetry Book
+        reader: student
+        pages: 354
         author: Andrew Lang (ed.)
         date: "1891"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46515" }
       - title: The Golden Treasury
+        reader: student
+        pages: 428
         author: Francis Turner Palgrave (ed.)
         date: "1861"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19221" }
       - title: Favorite Poems Old and New
+        reader: student
+        pages: 598
         author: Helen Ferris (ed.)
         date: "1957"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/favorite-poems-old-and-new-helen-ferris/1003119005?ean=9780385076968" }
       - title: The Harp and Laurel Wreath
+        reader: teacher
+        pages: 493
         author: Laura Berquist (ed.)
         date: "1999"
         publicDomain: false
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/" }
       - title: Songs of Innocence and of Experience
+        reader: student
+        pages: 142
         author: William Blake
         date: "1789/1794"
         publicDomain: true
@@ -247,54 +277,72 @@ rows:
       - Read aloud a narrative poem with dramatic variation of voice
     coreTexts:
       - title: "The English and Scottish Popular Ballads, Vol. 1"
+        reader: teacher
+        pages: 672
         author: Francis James Child (ed.)
         date: "1882"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44969" }
       - title: The Oxford Book of Ballads
+        reader: student
+        pages: 871
         author: Arthur Quiller-Couch (ed.)
         date: "1910"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44593" }
       - title: "Reliques of Ancient English Poetry, Vol. 1"
+        reader: student
+        pages: 400
         author: Thomas Percy (ed.)
         date: "1765"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45939" }
       - title: Lays of Ancient Rome
+        reader: student
+        pages: 145
         author: Thomas Babington Macaulay
         date: "1842"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/847" }
       - title: The Lady of the Lake
+        reader: student
+        pages: 233
         author: Sir Walter Scott
         date: "1810"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3011" }
       - title: The Rime of the Ancient Mariner
+        reader: student
+        pages: 30
         author: Samuel Taylor Coleridge
         date: "1798"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/151" }
       - title: "Evangeline: A Tale of Acadie"
+        reader: student
+        pages: 110
         author: Henry Wadsworth Longfellow
         date: "1847"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2039" }
       - title: The Song of Hiawatha
+        reader: student
+        pages: 215
         author: Henry Wadsworth Longfellow
         date: "1855"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19" }
       - title: The Pied Piper of Hamelin, and Other Poems
+        reader: student
+        pages: 124
         author: Robert Browning
         date: "1842"
         publicDomain: true
@@ -338,30 +386,39 @@ rows:
       - Recite Kipling's "If—" and one Shakespeare speech from the literature track
     coreTexts:
       - title: The Columbian Orator
+        reader: student
+        pages: 300
         author: Caleb Bingham (ed.)
         date: "1797"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/columbianoratorc00bing" }
       - title: "McGuffey's Sixth Eclectic Reader (with rules for elocution)"
+        reader: student
+        pages: 464
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
       - title: "Rewards and Fairies (contains \"If—\")"
+        reader: student
+        pages: 340
         author: Rudyard Kipling
         date: "1910"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/556" }
       - title: Lays of Ancient Rome
+        reader: student
+        pages: 145
         author: Thomas Babington Macaulay
         date: "1842"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/847" }
       - title: The Complete Works of William Shakespeare (speeches)
+        reader: student
         author: William Shakespeare
         publicDomain: true
         links:
@@ -421,51 +478,68 @@ rows:
       - Write a metrical paraphrase of a short psalm in common meter
     coreTexts:
       - title: "The Book of Psalms (King James Version)"
+        reader: student
+        pages: 100
         date: "1611"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8019" }
       - title: "The Bible, Douay-Rheims (Psalms)"
+        reader: student
+        pages: 100
         date: "1582–1610; rev. Challoner 1750"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
       - title: The Bay Psalm Book (facsimile)
+        reader: student
+        pages: 300
         date: "1640"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/The-Bay-Psalm-Book-wdl-3600" }
       - title: The Psalms of David Imitated in the Language of the New Testament
+        reader: student
+        pages: 312
         author: Isaac Watts
         date: "1719"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13166" }
       - title: Divine Songs for Children
+        reader: student
+        pages: 28
         author: Isaac Watts
         date: "1715"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13439" }
       - title: Olney Hymns
+        reader: student
+        pages: 348
         author: John Newton & William Cowper
         date: "1779"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/olneyhymnsinth00newt" }
       - title: A Collection of Hymns for the Use of the People Called Methodists
+        reader: student
+        pages: 493
         author: John & Charles Wesley
         date: "1779"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/collectionofhym00wesl" }
       - title: Lyra Catholica (breviary and missal hymns)
+        reader: student
         author: Edward Caswall (trans.)
         date: "1849"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/LyraCatholica1849" }
       - title: The Christian Year
+        reader: student
+        pages: 316
         author: John Keble
         date: "1827"
         publicDomain: true
@@ -513,30 +587,40 @@ rows:
       - Complete Fry's exercises in iambic pentameter (write 50+ correct lines)
     coreTexts:
       - title: "The Ode Less Travelled: Unlocking the Poet Within"
+        reader: student
+        pages: 371
         author: Stephen Fry
         date: "2005"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
       - title: "Rhyme's Reason: A Guide to English Verse"
+        reader: student
+        pages: 102
         author: John Hollander
         date: "1981; 4th ed. 2014"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rhymes-reason-john-hollander/1120113755?ean=9780300206296" }
       - title: Poetic Meter and Poetic Form
+        reader: student
+        pages: 188
         author: Paul Fussell
         date: "1965; rev. 1979"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0075536064" }
       - title: "English Verse: Specimens Illustrating its Principles and History"
+        reader: student
+        pages: 459
         author: Raymond Macdonald Alden
         date: "1903"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32262" }
       - title: "A History of English Prosody, Vol. 1"
+        reader: teacher
+        pages: 420
         author: George Saintsbury
         date: "1906"
         publicDomain: true
@@ -581,30 +665,40 @@ rows:
       - Explain why a poet chose a given form, and the effect of the choice, for any studied poem
     coreTexts:
       - title: "The Oxford Book of English Verse, 1250–1900"
+        reader: student
+        pages: 1083
         author: Arthur Quiller-Couch (ed.)
         date: "1900"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66619" }
       - title: "Shakespeare's Sonnets"
+        reader: student
+        pages: 180
         author: William Shakespeare
         date: "1609"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1041" }
       - title: "Rhyme's Reason: A Guide to English Verse"
+        reader: student
+        pages: 102
         author: John Hollander
         date: "4th ed. 2014"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rhymes-reason-john-hollander/1120113755?ean=9780300206296" }
       - title: The Ode Less Travelled
+        reader: student
+        pages: 371
         author: Stephen Fry
         date: "2005"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
       - title: The Golden Treasury
+        reader: student
+        pages: 428
         author: Francis Turner Palgrave (ed.)
         date: "1861"
         publicDomain: true
@@ -655,48 +749,64 @@ rows:
       - Write an imitation of a Herbert pattern poem or a Donne holy sonnet
     coreTexts:
       - title: The Canterbury Tales (General Prologue)
+        reader: student
+        pages: 32
         author: Geoffrey Chaucer
         date: "c. 1387"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2383" }
       - title: "Shakespeare's Sonnets"
+        reader: student
+        pages: 180
         author: William Shakespeare
         date: "1609"
         publicDomain: true
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/" }
       - title: A Defence of Poesie and Poems
+        reader: student
+        pages: 192
         author: Sir Philip Sidney
         date: "1595"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1962" }
       - title: "The Poems of John Donne, Vol. 1 (ed. Grierson)"
+        reader: student
+        pages: 470
         author: John Donne
         date: "1633"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48688" }
       - title: "The Temple: Sacred Poems and Private Ejaculations"
+        reader: student
+        pages: 213
         author: George Herbert
         date: "1633"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/templesacredpoem00herbiala" }
       - title: The Poetical Works of Robert Southwell
+        reader: student
+        pages: 235
         author: St. Robert Southwell, S.J.
         date: "1595; ed. 1856"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/poeticalworksof00sout" }
       - title: The Poems of Andrew Marvell
+        reader: student
+        pages: 207
         author: Andrew Marvell
         date: "1681; ed. 1898"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/poemsandrewmarv00marvgoog" }
       - title: The Poetical Works of John Milton
+        reader: student
+        pages: 559
         author: John Milton
         date: "1645–1673"
         publicDomain: true
@@ -750,36 +860,48 @@ rows:
       - Write a Johnsonian "imitation" of a Latin satire applied to modern life
     coreTexts:
       - title: The Aeneid (trans. John Dryden)
+        reader: student
+        pages: 420
         author: Virgil
         date: "1697"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/228" }
       - title: The Iliad (trans. Alexander Pope)
+        reader: student
+        pages: 564
         author: Homer
         date: "1715–1720"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6130" }
       - title: The Odyssey (trans. Alexander Pope)
+        reader: student
+        pages: 352
         author: Homer
         date: "1725–26"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3160" }
       - title: "Horace: Odes and Epodes (Latin text, ed. Shorey & Laing)"
+        reader: student
+        pages: 310
         author: Horace
         date: "23–13 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9646" }
       - title: The Odes and Carmen Saeculare of Horace (trans. John Conington)
+        reader: student
+        pages: 144
         author: Horace
         date: "trans. 1863"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5432" }
       - title: The Vanity of Human Wishes (imitation of Juvenal X)
+        reader: student
+        pages: 10
         author: Samuel Johnson
         date: "1749"
         publicDomain: true
@@ -826,54 +948,72 @@ rows:
       - Analyze Hopkins' sprung rhythm and inscape in a close reading
     coreTexts:
       - title: Select Poems of Thomas Gray (incl. Elegy Written in a Country Churchyard)
+        reader: student
+        pages: 150
         author: Thomas Gray
         date: "1751"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30357" }
       - title: "Lyrical Ballads, with Other Poems, 1800, Vol. 1"
+        reader: student
+        pages: 136
         author: William Wordsworth & S. T. Coleridge
         date: "1800"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8905" }
       - title: Poems of Coleridge
+        reader: student
+        pages: 203
         author: Samuel Taylor Coleridge
         date: "1796–1834"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8208" }
       - title: "Keats: Poems Published in 1820 (the Odes)"
+        reader: student
+        pages: 200
         author: John Keats
         date: "1820"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23684" }
       - title: In Memoriam A. H. H.
+        reader: student
+        pages: 136
         author: Alfred, Lord Tennyson
         date: "1850"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/70950" }
       - title: Men and Women
+        reader: student
+        pages: 334
         author: Robert Browning
         date: "1855"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/17393" }
       - title: "Goblin Market, The Prince's Progress, and Other Poems"
+        reader: student
+        pages: 244
         author: Christina Rossetti
         date: "1862–66"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16950" }
       - title: The Dream of Gerontius
+        reader: student
+        pages: 71
         author: John Henry Newman
         date: "1865"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48927" }
       - title: Poems of Gerard Manley Hopkins (ed. Robert Bridges)
+        reader: student
+        pages: 156
         author: Gerard Manley Hopkins, S.J.
         date: "1918"
         publicDomain: true
@@ -924,48 +1064,64 @@ rows:
       - Distinguish free verse from loosened accentual verse
     coreTexts:
       - title: A Boy's Will
+        reader: student
+        pages: 63
         author: Robert Frost
         date: "1913"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3021" }
       - title: North of Boston
+        reader: student
+        pages: 140
         author: Robert Frost
         date: "1914"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3026" }
       - title: Mountain Interval
+        reader: student
+        pages: 108
         author: Robert Frost
         date: "1916"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29345" }
       - title: Poems
+        reader: student
+        pages: 474
         author: W. B. Yeats
         date: "1895–1912"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38877" }
       - title: A Shropshire Lad
+        reader: student
+        pages: 95
         author: A. E. Housman
         date: "1896"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5720" }
       - title: Poems (incl. "Lepanto")
+        reader: student
+        pages: 160
         author: G. K. Chesterton
         date: "1915"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31184" }
       - title: Prufrock and Other Observations
+        reader: student
+        pages: 40
         author: T. S. Eliot
         date: "1917"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1459" }
       - title: Four Quartets
+        reader: student
+        pages: 48
         author: T. S. Eliot
         date: "1943"
         publicDomain: false
@@ -1011,29 +1167,39 @@ rows:
       - Submit work to at least one juried poetry competition or publication
     coreTexts:
       - title: The Ode Less Travelled
+        reader: student
+        pages: 371
         author: Stephen Fry
         date: "2005"
         publicDomain: false
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
       - title: Poetic Meter and Poetic Form
+        reader: student
+        pages: 188
         author: Paul Fussell
         date: "rev. 1979"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0075536064" }
       - title: "The Poetical Works of John Milton (sonnets, Lycidas)"
+        reader: student
+        pages: 25
         author: John Milton
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1745" }
       - title: "Keats: Poems Published in 1820 (the Odes)"
+        reader: student
+        pages: 200
         author: John Keats
         date: "1820"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23684" }
       - title: "The Oxford Book of English Verse, 1250–1900"
+        reader: student
+        pages: 1083
         author: Arthur Quiller-Couch (ed.)
         date: "1900"
         publicDomain: true
@@ -1110,54 +1276,72 @@ rows:
       - Write a 4,000-word "Defence of Poetry" of the student's own, citing the tradition
     coreTexts:
       - title: The Poetics (trans. S. H. Butcher)
+        reader: student
+        pages: 80
         author: Aristotle
         date: "c. 335 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1974" }
       - title: "The Satires, Epistles, and Art of Poetry (trans. Conington)"
+        reader: student
+        pages: 208
         author: Horace
         date: "c. 19 BC"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5419" }
       - title: On the Sublime
+        reader: student
+        pages: 163
         author: Longinus (trans. H. L. Havell)
         date: "1st c. AD"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/17957" }
       - title: A Defence of Poesie and Poems
+        reader: student
+        pages: 192
         author: Sir Philip Sidney
         date: "1595"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1962" }
       - title: An Essay on Criticism
+        reader: student
+        pages: 48
         author: Alexander Pope
         date: "1711"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7409" }
       - title: "Lyrical Ballads, 1800, Vol. 1 (Preface)"
+        reader: student
+        pages: 30
         author: William Wordsworth
         date: "1800"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8905" }
       - title: A Defence of Poetry and Other Essays
+        reader: student
+        pages: 56
         author: Percy Bysshe Shelley
         date: "1821"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5428" }
       - title: "The Sacred Wood (incl. \"Tradition and the Individual Talent\")"
+        reader: student
+        pages: 170
         author: T. S. Eliot
         date: "1920"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/57795" }
       - title: An Experiment in Criticism
+        reader: student
+        pages: 142
         author: C. S. Lewis
         date: "1961"
         publicDomain: false

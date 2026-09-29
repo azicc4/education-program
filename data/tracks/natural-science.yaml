@@ -120,6 +120,8 @@ rows:
       - Narrate a Burgess chapter and connect it to animals seen outdoors
     coreTexts:
       - title: Handbook of Nature Study
+        reader: teacher
+        pages: 938
         author: Anna Botsford Comstock
         date: "1911"
         publicDomain: true
@@ -127,12 +129,16 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/78142" }
           - { label: Archive.org, url: "https://archive.org/details/handbookofnature00coms" }
       - title: The Burgess Bird Book for Children
+        reader: together
+        pages: 236
         author: Thornton W. Burgess
         date: "1919"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3074" }
       - title: The Burgess Animal Book for Children
+        reader: together
+        pages: 363
         author: Thornton W. Burgess
         date: "1920"
         publicDomain: true
@@ -180,6 +186,8 @@ rows:
       - Keep a weather log and classify common rocks and minerals
     coreTexts:
       - title: Find the Constellations
+        reader: together
+        pages: 72
         author: H. A. Rey
         date: "1954"
         publicDomain: false
@@ -224,18 +232,24 @@ rows:
       - Narrate Fabre chapters and distinguish observation from inference
     coreTexts:
       - title: Fabre's Book of Insects
+        reader: together
+        pages: 271
         author: Jean-Henri Fabre (retold by Mrs. Rodolph Stawell)
         date: "1921"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67000" }
       - title: The Life of the Spider
+        reader: together
+        pages: 404
         author: Jean-Henri Fabre
         date: "1912 (Eng. trans.)"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1887" }
       - title: The Story-Book of Science
+        reader: together
+        pages: 400
         author: Jean-Henri Fabre
         date: "1917 (Eng. trans.)"
         publicDomain: true
@@ -279,12 +293,16 @@ rows:
       - Explain simple machines, heat transfer, and basic circuits
     coreTexts:
       - title: The Chemical History of a Candle
+        reader: student
+        pages: 104
         author: Michael Faraday
         date: "1861"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14474" }
       - title: The Way Things Work Now
+        reader: student
+        pages: 400
         author: David Macaulay
         date: "2016"
         publicDomain: false
@@ -379,6 +397,8 @@ rows:
       - Dissect a flower and label its parts and describe plant and animal cells
     coreTexts:
       - title: "Species Plantarum (selections, Latin)"
+        reader: together
+        pages: 1200
         author: Carl Linnaeus
         date: "1753"
         publicDomain: true
@@ -424,12 +444,16 @@ rows:
       - Read Franklin's letters on electricity and reproduce a safe static experiment
     coreTexts:
       - title: Experiments and Observations on Electricity, made at Philadelphia in America
+        reader: student
+        pages: 496
         author: Benjamin Franklin
         date: "1751"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/b30783471" }
       - title: "The Kite Experiment (Franklin to Collinson, Oct. 1752)"
+        reader: student
+        pages: 2
         author: Benjamin Franklin
         date: "1752"
         publicDomain: true
@@ -473,12 +497,16 @@ rows:
       - Earn a first-aid/CPR/AED certification
     coreTexts:
       - title: Anatomy of the Human Body (Gray's Anatomy)
+        reader: student
+        pages: 1400
         author: Henry Gray
         date: "1918 (20th ed.)"
         publicDomain: true
         links:
           - { label: Bartleby.com, url: "https://www.bartleby.com/107/" }
       - title: The Way We Work
+        reader: student
+        pages: 336
         author: David Macaulay
         date: "2008"
         publicDomain: false
@@ -529,16 +557,22 @@ rows:
       - Assess the Galileo affair historically and fairly
     coreTexts:
       - title: The Sidereal Messenger (Sidereus Nuncius)
+        reader: student
+        pages: 50
         author: Galileo Galilei, trans. E. S. Carlos
         date: "1610 (trans. 1880)"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46036" }
       - title: On the Revolutions of the Heavenly Spheres, Book I
+        reader: student
+        pages: 40
         author: Nicolaus Copernicus
         date: "1543"
         publicDomain: true
       - title: Two Lectures on Comets (Harvard, 1759)
+        reader: student
+        pages: 44
         author: John Winthrop
         date: "1759"
         publicDomain: true
@@ -609,6 +643,8 @@ rows:
         notes: The classic on abstraction. Free online at https://sicp.sourceacademy.org/.
     coreTexts:
       - title: An Investigation of the Laws of Thought
+        reader: student
+        pages: 424
         author: George Boole
         date: "1854"
         publicDomain: true
@@ -637,6 +673,8 @@ rows:
       - Distinguish scientific, philosophical and theological claims in a given debate
     coreTexts:
       - title: The Aim and Structure of Physical Theory
+        reader: student
+        pages: 344
         author: Pierre Duhem
         date: "1906 (trans. 1954)"
         publicDomain: false
@@ -680,18 +718,24 @@ rows:
       - Write a senior essay on a question in natural philosophy
     coreTexts:
       - title: A Treatise on Electricity and Magnetism, vol. 2
+        reader: student
+        pages: 500
         author: James Clerk Maxwell
         date: "1873"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/electricandmag02maxwrich" }
       - title: "Relativity: The Special and General Theory"
+        reader: student
+        pages: 168
         author: Albert Einstein
         date: "1916 (trans. 1920)"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5001" }
       - title: Notes on the State of Virginia
+        reader: student
+        pages: 336
         author: Thomas Jefferson
         date: "1785"
         publicDomain: true
@@ -749,6 +793,8 @@ rows:
       - Write a seminar essay on Turing's 1950 paper in the light of Aristotle and Aquinas on intellect
     coreTexts:
       - title: Structure and Interpretation of Computer Programs (2nd ed.)
+        reader: student
+        pages: 660
         author: Harold Abelson and Gerald Jay Sussman
         date: "1996"
         publicDomain: false
@@ -756,12 +802,16 @@ rows:
           - { label: "Free full text (CC BY-SA HTML edition)", url: "https://sarabander.github.io/sicp/" }
           - { label: "Free PDF (MIT)", url: "https://web.mit.edu/6.001/6.037/sicp.pdf" }
       - title: "On Computable Numbers, with an Application to the Entscheidungsproblem"
+        reader: student
+        pages: 36
         author: Alan M. Turing
         date: "1936"
         publicDomain: false
         links:
           - { label: "PDF (University of Virginia course copy)", url: "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf" }
       - title: Computing Machinery and Intelligence
+        reader: student
+        pages: 28
         author: Alan M. Turing
         date: "1950"
         publicDomain: false

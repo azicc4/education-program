@@ -64,6 +64,7 @@ rows:
       - Build and turn a compost pile; save seed from one open-pollinated plant
     coreTexts:
       - title: "Thomas Jefferson's Garden Book (manuscript facsimile, 1766–1824)"
+        reader: teacher
         author: Thomas Jefferson
         date: 1766–1824
         publicDomain: true
@@ -114,18 +115,24 @@ rows:
       - Plan, shop for within a budget, and cook a three-course dinner for the family
     coreTexts:
       - title: "The Virginia House-Wife; or, Methodical Cook"
+        reader: together
+        pages: 180
         author: Mary Randolph
         date: "1824"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12519" }
       - title: The Boston Cooking-School Cook Book
+        reader: together
+        pages: 570
         author: Fannie Merritt Farmer
         date: "1896"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/65061" }
       - title: "Miss Beecher's Domestic Receipt Book"
+        reader: together
+        pages: 306
         author: Catharine Beecher
         date: "1846"
         publicDomain: true
@@ -163,12 +170,16 @@ rows:
       - Tie and state the use of six essential knots from memory
     coreTexts:
       - title: Encyclopedia of Needlework
+        reader: teacher
+        pages: 684
         author: Thérèse de Dillmont
         date: "1886"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20776" }
       - title: "Beeton's Book of Needlework"
+        reader: teacher
+        pages: 378
         author: Isabella Beeton
         date: "1870"
         publicDomain: true
@@ -197,6 +208,7 @@ rows:
       - Sharpen a knife and a chisel on stones
     coreTexts:
       - title: "The Teacher's Handbook of Slöjd, as Practised and Taught at Nääs"
+        reader: teacher
         author: Otto Salomon
         date: "1892"
         publicDomain: true
@@ -269,24 +281,32 @@ rows:
       - Know the conventions of heading, salutation, body, complimentary close and envelope address
     coreTexts:
       - title: Spencerian Key to Practical Penmanship
+        reader: teacher
+        pages: 176
         author: H. C. Spencer
         date: "1866"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/cu31924029485467" }
       - title: The Universal Penman
+        reader: student
+        pages: 212
         author: George Bickham
         date: "1743"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_the-universal-penman-en_bickham-george_1743" }
       - title: Letters to His Son
+        reader: student
+        pages: 400
         author: Philip Dormer Stanhope, Earl of Chesterfield
         date: "1774"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3361" }
       - title: "Thomas Jefferson to Peter Carr, 19 August 1785"
+        reader: student
+        pages: 4
         author: Thomas Jefferson
         date: "1785"
         publicDomain: true
@@ -334,6 +354,7 @@ rows:
       - Show an animal or project at a county fair or 4-H event
     coreTexts:
       - title: "Thomas Jefferson's Farm Book (manuscript facsimile, 1774–1824)"
+        reader: teacher
         author: Thomas Jefferson
         date: 1774–1824
         publicDomain: true
@@ -381,6 +402,8 @@ rows:
       - Explain Gunter's chain (66 feet, 100 links; 10 square chains = 1 acre) and the rectangular survey system
     coreTexts:
       - title: A Treatise of Practical Surveying
+        reader: student
+        pages: 288
         author: Robert Gibson
         date: "1789 (Philadelphia ed.)"
         publicDomain: true
@@ -503,18 +526,24 @@ rows:
       - Keep the books of a real enterprise (his own or the family's) for at least six months
     coreTexts:
       - title: "Ancient Double-Entry Bookkeeping: Lucas Pacioli's Treatise (1494), trans. J. B. Geijsbeek"
+        reader: student
+        pages: 190
         author: Luca Pacioli
         date: 1494 / 1914
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/ancientdoubleent00geijuoft" }
       - title: The Science of Double-Entry Book-Keeping
+        reader: student
+        pages: 213
         author: C. C. Marsh
         date: "1841"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/scienceofdoublee00marsrich" }
       - title: "Duff's Book-Keeping by Single and Double Entry"
+        reader: student
+        pages: 400
         author: P. Duff
         date: "1868"
         publicDomain: true
@@ -551,12 +580,16 @@ rows:
       - Found or join a peer Junto and lead at least one meeting using the standing queries
     coreTexts:
       - title: Autobiography of Benjamin Franklin
+        reader: student
+        pages: 180
         author: Benjamin Franklin
         date: 1771–1790
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: Standing Queries for the Junto
+        reader: student
+        pages: 3
         author: Benjamin Franklin
         date: "1732"
         publicDomain: true
@@ -602,6 +635,7 @@ rows:
       - Reduce a star or sun sight and plot a line of position
     coreTexts:
       - title: "The American Practical Navigator (Bowditch), Pub. No. 9"
+        reader: student
         author: Nathaniel Bowditch / National Geospatial-Intelligence Agency
         date: 1802 / current ed.
         publicDomain: true
@@ -645,6 +679,7 @@ rows:
       - Design a small building (shed, cabin or chapel) with plan, elevations and a materials list
     coreTexts:
       - title: "The Four Books of Architecture (Isaac Ware trans.)"
+        reader: student
         author: Andrea Palladio
         date: 1570 / 1738
         publicDomain: true
@@ -686,6 +721,8 @@ rows:
       - Earn a driver's license and maintain a clean record
     coreTexts:
       - title: Mechanics of the Household
+        reader: student
+        pages: 234
         author: E. S. Keene
         date: "1918"
         publicDomain: true
@@ -741,6 +778,8 @@ rows:
       - Earn a written evaluation and letter of reference from the mentor
     coreTexts:
       - title: Autobiography of Benjamin Franklin
+        reader: student
+        pages: 180
         author: Benjamin Franklin
         date: 1771–1790
         publicDomain: true
@@ -789,18 +828,23 @@ rows:
       - Host a formal dinner for guests, planned, budgeted and cooked by the student
     coreTexts:
       - title: A Treatise on Domestic Economy
+        reader: student
+        pages: 369
         author: Catharine E. Beecher
         date: "1841"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21829" }
       - title: The Book of Household Management
+        reader: student
+        pages: 1139
         author: Isabella Beeton
         date: "1861"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10136" }
       - title: "Thomas Jefferson's Farm Book (manuscript facsimile)"
+        reader: student
         author: Thomas Jefferson
         date: 1774–1824
         publicDomain: true

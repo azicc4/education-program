@@ -58,6 +58,8 @@ rows:
       - Form lower-case letters correctly
     coreTexts:
       - title: The New England Primer (reprint of the earliest known edition)
+        reader: together
+        pages: 100
         author: ed. Paul Leicester Ford
         date: "c. 1690; reprint 1899"
         publicDomain: true
@@ -106,6 +108,8 @@ rows:
       - Read decodable sentences and short books aloud
     coreTexts:
       - title: The Writing Road to Reading
+        reader: teacher
+        pages: 272
         author: Romalda Bishop Spalding
         date: "1957; 6th ed. 2012"
         publicDomain: false
@@ -150,12 +154,16 @@ rows:
       - Read about 60+ words per minute accurately in grade-1 text by the end of the year
     coreTexts:
       - title: McGuffey's Eclectic Primer (revised)
+        reader: together
+        pages: 70
         author: William Holmes McGuffey
         date: "1836; rev. 1879"
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14642" }
       - title: McGuffey's First Eclectic Reader (revised)
+        reader: together
+        pages: 96
         author: William Holmes McGuffey
         date: "1836; rev. 1879"
         publicDomain: true
@@ -201,18 +209,24 @@ rows:
       - Apply the major spelling rules (doubling, drop silent-e, y to i) automatically
     coreTexts:
       - title: The American Spelling Book (the "Blue-Back Speller")
+        reader: together
+        pages: 170
         author: Noah Webster
         date: "1783; 1809 ed."
         publicDomain: true
         links:
           - { label: "Archive.org (1809)", url: "https://archive.org/details/americanspelling00webs" }
       - title: The Elementary Spelling Book
+        reader: together
+        pages: 168
         author: Noah Webster
         date: "1829; 1857 ed."
         publicDomain: true
         links:
           - { label: "Archive.org (1857)", url: "https://archive.org/details/elementaryspelli00websrich" }
       - title: McGuffey's Eclectic Spelling Book
+        reader: together
+        pages: 144
         author: Alexander H. McGuffey
         date: "1846; rev. 1879"
         publicDomain: true
@@ -254,12 +268,16 @@ rows:
       - Read a prepared poem or passage aloud to the family weekly
     coreTexts:
       - title: McGuffey's Second Eclectic Reader
+        reader: together
+        pages: 160
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14668" }
       - title: McGuffey's Third Eclectic Reader
+        reader: together
+        pages: 208
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true
@@ -301,18 +319,24 @@ rows:
       - Use a dictionary to look up unfamiliar words
     coreTexts:
       - title: McGuffey's Fourth Eclectic Reader
+        reader: student
+        pages: 262
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14880" }
       - title: Home Education (Vol. 1), on narration and reading
+        reader: teacher
+        pages: 20
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/71087" }
       - title: McGuffey's Fifth and Sixth Eclectic Readers (look-ahead)
+        reader: student
+        pages: 820
         author: William Holmes McGuffey
         date: "1879 ed."
         publicDomain: true

@@ -125,6 +125,8 @@ rows:
       - Build vocabulary to about 600 words (DCC Greek Core List)
     coreTexts:
       - title: New Testament Greek for Beginners
+        reader: student
+        pages: 287
         author: J. Gresham Machen
         date: "1923"
         publicDomain: true
@@ -132,6 +134,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/newtestamentgree00mach" }
           - { label: "Christianbook (current print ed.)", url: "https://www.christianbook.com/new-testament-greek-for-beginners/j-machen/9781579101800/pd/9101800" }
       - title: Greek Core Vocabulary
+        reader: student
         author: Dickinson College Commentaries
         publicDomain: false
         links:
@@ -184,12 +187,16 @@ rows:
       - Translate unadapted Xenophon with a vocabulary
     coreTexts:
       - title: An Introduction to Greek
+        reader: student
+        pages: 349
         author: H. Lamar Crosby & John N. Schaeffer
         date: "1928"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/introductiontogr00cros" }
       - title: The First Greek Book
+        reader: student
+        pages: 292
         author: John Williams White
         date: "1896"
         publicDomain: true
@@ -238,6 +245,8 @@ rows:
       - Compare three key verses in Greek, the Vulgate and the King James/Douay versions
     coreTexts:
       - title: Gospel of John (Greek New Testament)
+        reader: together
+        pages: 60
         author: St. John the Evangelist
         publicDomain: true
         links:
@@ -284,18 +293,24 @@ rows:
       - Accent correctly any noun or verb form written
     coreTexts:
       - title: A Greek Grammar
+        reader: student
+        pages: 451
         author: William Watson Goodwin
         date: "1892"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/greekgrammar00gooduoft" }
       - title: A Greek Grammar for Colleges
+        reader: student
+        pages: 798
         author: Herbert Weir Smyth
         date: "1920"
         publicDomain: true
         links:
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007" }
       - title: Greek Prose Composition for Schools
+        reader: student
+        pages: 272
         author: M. A. North & A. E. Hillard
         date: "1902"
         publicDomain: true
@@ -334,12 +349,15 @@ rows:
       - Retell a fable in simple Greek (oral or written)
     coreTexts:
       - title: Fabulae Aesopicae Collectae (Greek)
+        reader: student
         author: Aesop (ed. C. Halm)
         date: "1889 ed."
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/fabulaeaesopica00aesogoog" }
       - title: True History (Vera Historia)
+        reader: student
+        pages: 40
         author: Lucian of Samosata
         date: "2nd c."
         publicDomain: true
@@ -373,6 +391,8 @@ rows:
       - Analyse Xenophon's portrait of leadership (Cyrus, Clearchus, Xenophon himself)
     coreTexts:
       - title: Anabasis
+        reader: student
+        pages: 350
         author: Xenophon
         date: "c. 370 BC"
         publicDomain: true
@@ -406,6 +426,8 @@ rows:
       - Analyse the periodic prologue of Luke (1:1–4) as classical prose
     coreTexts:
       - title: Gospel of Luke & Acts of the Apostles
+        reader: student
+        pages: 130
         author: St. Luke
         publicDomain: true
         links:
@@ -433,6 +455,8 @@ rows:
       - Write an essay on the Laws' speech in the Crito and civil disobedience (compare King, Thoreau, Aquinas on unjust law)
     coreTexts:
       - title: Apology of Socrates
+        reader: student
+        pages: 30
         author: Plato
         date: "c. 399–390 BC"
         publicDomain: true
@@ -440,6 +464,8 @@ rows:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0169:text=Apol.:section=17a" }
           - { label: "Steadman, Plato's Apology (free PDF)", url: "https://geoffreysteadman.com/platos-apology/" }
       - title: Crito
+        reader: student
+        pages: 15
         author: Plato
         publicDomain: true
         links:
@@ -472,6 +498,8 @@ rows:
       - Write a comparative essay on Achilles, Hector, Odysseus and Aeneas
     coreTexts:
       - title: Odyssey
+        reader: student
+        pages: 400
         author: Homer
         publicDomain: true
         links:
@@ -479,6 +507,8 @@ rows:
           - { label: "Dickinson College Commentaries, Odyssey", url: "https://dcc.dickinson.edu/homer-odyssey/i-1-43" }
           - { label: "Steadman, Odyssey 9–12 (free PDF)", url: "https://geoffreysteadman.com/files-odyssey-9-12/" }
       - title: Iliad
+        reader: student
+        pages: 618
         author: Homer
         publicDomain: true
         links:
@@ -511,6 +541,8 @@ rows:
       - Explain the Greek idea of freedom under law (Demaratus to Xerxes, VII.104)
     coreTexts:
       - title: Histories
+        reader: student
+        pages: 700
         author: Herodotus
         date: "c. 430 BC"
         publicDomain: true
@@ -545,6 +577,7 @@ rows:
       - Recite the Nicene–Constantinopolitan Creed in Greek
     coreTexts:
       - title: "Genesis 1–11: Septuagint and Vulgate with facing vocabulary"
+        reader: student
         author: Geoffrey Steadman (ed.)
         publicDomain: false
         links:
@@ -582,6 +615,8 @@ rows:
       - Write an essay on Antigone and natural law (compare Aquinas and Martin Luther King)
     coreTexts:
       - title: Antigone
+        reader: student
+        pages: 94
         author: Sophocles
         date: "c. 441 BC"
         publicDomain: true
@@ -589,11 +624,15 @@ rows:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0185" }
           - { label: "Steadman, Antigone (free PDF)", url: "https://geoffreysteadman.com/sophocles-antigone/" }
       - title: Medea
+        reader: student
+        pages: 122
         author: Euripides
         publicDomain: true
         links:
           - { label: "Perseus (Greek)", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0113" }
       - title: Libation Bearers (Oresteia)
+        reader: student
+        pages: 60
         author: Aeschylus
         publicDomain: true
         links:
@@ -625,6 +664,8 @@ rows:
       - Write a paper connecting Thucydides on faction to Federalist No. 10
     coreTexts:
       - title: History of the Peloponnesian War
+        reader: student
+        pages: 600
         author: Thucydides
         date: "c. 400 BC"
         publicDomain: true

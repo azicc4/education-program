@@ -84,7 +84,7 @@ entries:
     tracks: [latin, greek]
   - text: "Same essay: colleges neglect the ancient historians — Herodotus, Thucydides, Xenophon, Polybius, Livy, Tacitus"
     use: [reference, student]
-    units: [history-15, history-16, history-17]
+    units: [history-15, history-16]
     search: Thucydides
     tracks: [history, greek, latin]
   - text: "Same essay: against using the Bible as a common school reader, lest careless reading breed irreverence"

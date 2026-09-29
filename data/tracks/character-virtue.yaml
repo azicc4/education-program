@@ -34,18 +34,24 @@ rows:
       - Connect fables to the child's own conduct in daily life, gently and without preaching
     coreTexts:
       - title: Aesop's Fables (V. S. Vernon Jones translation, Rackham illus.)
+        reader: together
+        pages: 224
         author: Aesop
         date: "1912"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11339" }
       - title: The Fables of Aesop (Jacobs)
+        reader: together
+        pages: 216
         author: Aesop, ed. Joseph Jacobs
         date: "1894"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28" }
       - title: Fifty Famous Stories Retold
+        reader: together
+        pages: 150
         author: James Baldwin
         date: "1896"
         publicDomain: true
@@ -92,18 +98,24 @@ rows:
       - Practice one named virtue each month in household duties
     coreTexts:
       - title: "The Book of Virtues: A Treasury of Great Moral Stories"
+        reader: together
+        pages: 831
         author: William J. Bennett (ed.)
         date: "1993"
         publicDomain: false
         links:
           - { label: Amazon, url: "https://www.amazon.com/Book-Virtues-William-J-Bennett/dp/0684835770" }
       - title: A Book of Golden Deeds
+        reader: together
+        pages: 460
         author: Charlotte M. Yonge
         date: "1864"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6489" }
       - title: McGuffey's First Eclectic Reader
+        reader: together
+        pages: 96
         author: William Holmes McGuffey
         date: "1836 (rev. 1879)"
         publicDomain: true
@@ -149,18 +161,24 @@ rows:
       - Choose a patron and write a short life of him or her
     coreTexts:
       - title: "Picture Book of Saints"
+        reader: together
+        pages: 118
         author: Lawrence G. Lovasik, S.V.D.
         date: "1962 (expanded 2015)"
         publicDomain: false
         links:
           - { label: Catholic Book Publishing, url: "https://catholicbookpublishing.com/products/picture-book-of-saints-illustrated" }
       - title: "Trial and Triumph: Stories from Church History"
+        reader: together
+        pages: 294
         author: Richard M. Hannula
         date: "1999"
         publicDomain: false
         links:
           - { label: Canon Press, url: "https://canonpress.com/products/trial-and-triumph/" }
       - title: A Book of Golden Deeds
+        reader: together
+        pages: 460
         author: Charlotte M. Yonge
         date: "1864"
         publicDomain: true
@@ -205,12 +223,16 @@ rows:
       - Write thank-you letters by hand after every gift
     coreTexts:
       - title: "George Washington's Rules of Civility (Conway ed.)"
+        reader: student
+        pages: 63
         author: George Washington; Moncure D. Conway (ed.)
         date: "c. 1747 (ed. 1890)"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12029" }
       - title: "The Babees' Book: Medieval Manners for the Young"
+        reader: together
+        pages: 260
         author: Edith Rickert (ed.)
         date: "1908"
         publicDomain: true
@@ -254,6 +276,8 @@ rows:
       - Write a personal daily schedule and rule of life, in imitation of Franklin's "order"
     coreTexts:
       - title: Autobiography of Benjamin Franklin (Part II, on the virtues)
+        reader: student
+        pages: 25
         author: Benjamin Franklin
         date: "1791"
         publicDomain: true
@@ -298,12 +322,16 @@ rows:
       - Write short character sketches that explain actions by their motives
     coreTexts:
       - title: "The Boys' and Girls' Plutarch"
+        reader: student
+        pages: 468
         author: Plutarch; John S. White (ed.)
         date: "1883"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2484" }
       - title: "Plutarch's Lives (Dryden trans., rev. Clough)"
+        reader: student
+        pages: 1300
         author: Plutarch
         date: "c. 100 AD (trans. 1683, rev. 1864)"
         publicDomain: true
@@ -348,12 +376,16 @@ rows:
       - Take a chivalric "vow" for a season (defending the weak, keeping one's word, courtesy to all) and keep a record
     coreTexts:
       - title: "The Boy's King Arthur (Malory, ed. Sidney Lanier)"
+        reader: student
+        pages: 371
         author: Sir Thomas Malory; Sidney Lanier (ed.)
         date: "1880"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66585" }
       - title: Chivalry
+        reader: teacher
+        pages: 422
         author: Léon Gautier (trans. Henry Frith)
         date: "1891"
         publicDomain: true
@@ -383,24 +415,32 @@ rows:
       - Discuss the parable of the talents (Matthew 25) and the Christian idea of stewardship
     coreTexts:
       - title: "Franklin's Way to Wealth; or, Poor Richard Improved"
+        reader: student
+        pages: 20
         author: Benjamin Franklin
         date: "1758"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/43855" }
       - title: "Jefferson to Thomas Jefferson Smith, 21 February 1825 (A Decalogue of Canons)"
+        reader: student
+        pages: 2
         author: Thomas Jefferson
         date: "1825"
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Jefferson/98-01-02-4987" }
       - title: "Seneca, Minor Dialogues (incl. On the Shortness of Life)"
+        reader: student
+        pages: 440
         author: Lucius Annaeus Seneca (trans. Aubrey Stewart)
         date: "c. 49 AD (trans. 1889)"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/64576" }
       - title: "How to Be a Man: A Book for Boys, Containing Useful Hints on the Formation of Character"
+        reader: student
+        pages: 142
         author: Harvey Newcomb
         date: "1847"
         publicDomain: true
@@ -443,18 +483,24 @@ rows:
       - Write an essay applying the virtues to a character from Plutarch or history
     coreTexts:
       - title: "Catechism of the Catholic Church, Part III, Art. 7: The Virtues (§§1803–1845)"
+        reader: student
+        pages: 10
         author: Catholic Church
         date: "1992"
         publicDomain: false
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_one/article_7.html" }
       - title: The Four Cardinal Virtues
+        reader: student
+        pages: 206
         author: Josef Pieper
         date: "1966"
         publicDomain: false
         links:
           - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268001032/the-four-cardinal-virtues/" }
       - title: Mere Christianity (Book III, chs. 2, 9–12)
+        reader: student
+        pages: 35
         author: C.S. Lewis
         date: "1952"
         publicDomain: false
@@ -499,6 +545,8 @@ rows:
       - Plan and lead a service project from proposal to report
     coreTexts:
       - title: "Cyropaedia: The Education of Cyrus"
+        reader: student
+        pages: 326
         author: Xenophon (trans. Henry Graham Dakyns)
         date: "c. 370 BC (trans. 1897)"
         publicDomain: true
@@ -542,12 +590,16 @@ rows:
       - Write a comparative essay on the knight, the courtier and the gentleman, and on what each lacks without charity
     coreTexts:
       - title: The Idea of a University (Discourse VIII)
+        reader: student
+        pages: 30
         author: John Henry Newman
         date: "1852"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/24526" }
       - title: The Book of the Courtier (trans. Leonard Eckstein Opdycke)
+        reader: student
+        pages: 356
         author: Baldassare Castiglione
         date: "1528 (trans. 1901)"
         publicDomain: true
@@ -579,6 +631,8 @@ rows:
       - Explain what Aristotle's ethics lacks that Christian teaching supplies (humility, charity, grace)
     coreTexts:
       - title: The Nicomachean Ethics (trans. D. P. Chase)
+        reader: student
+        pages: 280
         author: Aristotle
         date: "c. 340 BC (trans. 1847)"
         publicDomain: true
@@ -622,6 +676,8 @@ rows:
       - Write a letter to a younger sibling on duty, in imitation of Cicero's letter to his son
     coreTexts:
       - title: De Officiis (Walter Miller translation, 1913)
+        reader: student
+        pages: 210
         author: Marcus Tullius Cicero
         date: "44 BC"
         publicDomain: true
@@ -667,6 +723,8 @@ rows:
       - "Write a 3,000-word paper: Is a republic possible without virtue? Draw on Aristotle, Cicero, Aquinas, Witherspoon and the founders"
     coreTexts:
       - title: "Summa Theologiae I-II q. 55 (The virtues, as to their essence)"
+        reader: student
+        pages: 8
         author: Thomas Aquinas
         date: "1271"
         publicDomain: true
@@ -675,12 +733,16 @@ rows:
           - { label: "New Advent: I-II q. 61 (The cardinal virtues)", url: "https://www.newadvent.org/summa/2061.htm" }
           - { label: "New Advent: II-II q. 47 (Prudence)", url: "https://www.newadvent.org/summa/3047.htm" }
       - title: Lectures on Moral Philosophy
+        reader: student
+        pages: 182
         author: John Witherspoon
         date: "1772–1794 (pub. 1800; ed. 1912)"
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/lecturesonmoralp00withrich" }
       - title: After Virtue (3rd ed.)
+        reader: student
+        pages: 286
         author: Alasdair MacIntyre
         date: "1981 (3rd ed. 2007)"
         publicDomain: false

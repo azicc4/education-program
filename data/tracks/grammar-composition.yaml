@@ -34,6 +34,8 @@ rows:
       - Notice and reproduce capitalization, punctuation and spelling in models
     coreTexts:
       - title: Home Education (Vol. 1), on transcription
+        reader: teacher
+        pages: 5
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -77,6 +79,8 @@ rows:
       - Take dictation of a studied passage of 2–4 sentences without error
     coreTexts:
       - title: Home Education (Vol. 1), on narration and dictation
+        reader: teacher
+        pages: 15
         author: Charlotte M. Mason
         date: "1886"
         publicDomain: true
@@ -185,12 +189,16 @@ rows:
       - Diagram sentences from the Declaration and the Gettysburg Address
     coreTexts:
       - title: Graded Lessons in English
+        reader: student
+        pages: 293
         author: Alonzo Reed and Brainerd Kellogg
         date: "1877"
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/7010" }
       - title: Higher Lessons in English
+        reader: student
+        pages: 264
         author: Alonzo Reed and Brainerd Kellogg
         date: "1877; rev. 1885"
         publicDomain: true
@@ -229,12 +237,16 @@ rows:
       - Master the rules of punctuation, and scan English verse (prosody)
     coreTexts:
       - title: English Grammar, Adapted to the Different Classes of Learners
+        reader: student
+        pages: 334
         author: Lindley Murray
         date: "1795; 1823 ed."
         publicDomain: true
         links:
           - { label: "Archive.org (1823)", url: "https://archive.org/details/englishgrammarad00murruoft" }
       - title: Harvey's English Grammar
+        reader: student
+        pages: 264
         author: Thomas W. Harvey
         date: "1868; 1870 ed."
         publicDomain: true
@@ -278,12 +290,16 @@ rows:
       - Use commonplace entries as material in essays and speeches
     coreTexts:
       - title: A New Method of Making Common-Place-Books
+        reader: student
+        pages: 25
         author: John Locke
         date: "1706 (Eng. trans.)"
         publicDomain: true
         links:
           - { label: "Archive.org", url: "https://archive.org/details/gu_newmethodmaki00lock" }
       - title: Jefferson's Literary Commonplace Book
+        reader: student
+        pages: 242
         author: Thomas Jefferson, ed. Douglas L. Wilson
         date: "c. 1758–1772; ed. 1989"
         publicDomain: false
@@ -315,12 +331,16 @@ rows:
       - Read and imitate letters of Adams, Jefferson and Franklin found on Founders Online
     coreTexts:
       - title: Letters to His Son
+        reader: student
+        pages: 400
         author: Philip Dormer Stanhope, Earl of Chesterfield
         date: "1774"
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/3361" }
       - title: Letter to Peter Carr, 10 August 1787 (a model letter of advice on education)
+        reader: student
+        pages: 4
         author: Thomas Jefferson
         date: "1787"
         publicDomain: true
@@ -354,6 +374,8 @@ rows:
       - Vary sentence openings and structures deliberately
     coreTexts:
       - title: Autobiography (Franklin on teaching himself to write from the Spectator)
+        reader: student
+        pages: 4
         author: Benjamin Franklin
         date: "1771–1790"
         publicDomain: true
@@ -402,12 +424,16 @@ rows:
       - Revise a draft to cut its length by a quarter without losing content
     coreTexts:
       - title: The Elements of Style (original 1918 edition)
+        reader: student
+        pages: 76
         author: William Strunk Jr.
         date: "1918"
         publicDomain: true
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/37134" }
       - title: The King's English
+        reader: student
+        pages: 383
         author: H. W. Fowler and F. G. Fowler
         date: "1906"
         publicDomain: true
@@ -481,6 +507,8 @@ rows:
       - Defend the paper orally before a small panel
     coreTexts:
       - title: A Manual for Writers of Research Papers, Theses, and Dissertations (9th ed.)
+        reader: student
+        pages: 466
         author: Kate L. Turabian
         date: "2018"
         publicDomain: false
@@ -519,6 +547,8 @@ rows:
       - Write pastiches of three prose masters that a reader can recognize
     coreTexts:
       - title: A Dictionary of Modern English Usage (1st ed.)
+        reader: student
+        pages: 742
         author: H. W. Fowler
         date: "1926"
         publicDomain: true
@@ -557,6 +587,8 @@ rows:
       - Produce a portfolio of revised essays, including one publishable op-ed and one scholarly paper
     coreTexts:
       - title: Politics and the English Language
+        reader: student
+        pages: 18
         author: George Orwell
         date: "1946"
         publicDomain: false
