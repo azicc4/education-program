@@ -366,6 +366,7 @@ rows:
       - "Rowing: race a full regatta season, and pull a competitive 2,000 m ergometer test"
     coreTexts:
       - title: Tom Brown at Oxford
+        kind: primary
         reader: student
         pages: 546
         author: Thomas Hughes

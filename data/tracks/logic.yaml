@@ -106,6 +106,7 @@ rows:
       - Determine mood and figure, and test syllogisms against the seven rules of validity
     coreTexts:
       - title: Traditional Logic I
+        kind: instructional
         reader: student
         pages: 110
         author: Martin Cothran
@@ -161,6 +162,7 @@ rows:
       - Define terms by genus and specific difference and test definitions
     coreTexts:
       - title: "Socratic Logic: A Logic Text using Socratic Method, Platonic Questions, and Aristotelian Principles (ed. 3.1)"
+        kind: instructional
         reader: student
         pages: 404
         author: Peter Kreeft
@@ -204,6 +206,7 @@ rows:
       - Explain how grammar, logic and rhetoric correspond to thought, reality and communication
     coreTexts:
       - title: "The Trivium: The Liberal Arts of Logic, Grammar, and Rhetoric"
+        kind: instructional
         reader: student
         pages: 292
         author: Sister Miriam Joseph, C.S.C.
@@ -248,6 +251,7 @@ rows:
       - Write a short essay on a "prejudice" of judgment in the manner of Watts
     coreTexts:
       - title: "Logick: or, The Right Use of Reason in the Enquiry after Truth"
+        kind: primary
         reader: student
         pages: 365
         author: Isaac Watts
@@ -256,6 +260,7 @@ rows:
         links:
           - { label: "Archive.org (1726 ed.)", url: "https://archive.org/details/logickorrightuse00wattuoft" }
       - title: "Elementary Lessons in Logic: Deductive and Inductive"
+        kind: instructional
         reader: student
         pages: 340
         author: W. Stanley Jevons
@@ -264,6 +269,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/elementarylesson00jevo" }
       - title: An Introduction to Logic
+        kind: instructional
         reader: student
         pages: 608
         author: H.W.B. Joseph
@@ -301,6 +307,7 @@ rows:
       - Explain the relation of Boolean algebra to logic gates and circuits
     coreTexts:
       - title: "forall x: Calgary. An Introduction to Formal Logic"
+        kind: instructional
         reader: student
         pages: 380
         author: P.D. Magnus, Tim Button, et al.
@@ -350,6 +357,7 @@ rows:
       - Apply Mill's methods of agreement and difference to a real causal question
     coreTexts:
       - title: Categories
+        kind: primary
         reader: student
         pages: 42
         author: Aristotle
@@ -358,6 +366,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2412" }
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/categories.html" }
       - title: On Interpretation
+        kind: primary
         reader: student
         pages: 48
         author: Aristotle
@@ -365,6 +374,7 @@ rows:
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/interpretation.html" }
       - title: Prior Analytics
+        kind: primary
         reader: student
         pages: 278
         author: Aristotle
@@ -372,6 +382,7 @@ rows:
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/prior.html" }
       - title: Novum Organum
+        kind: primary
         reader: student
         pages: 360
         author: Francis Bacon
@@ -380,6 +391,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45988" }
       - title: "A System of Logic, Ratiocinative and Inductive"
+        kind: primary
         reader: student
         pages: 622
         author: John Stuart Mill
@@ -388,6 +400,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27942" }
       - title: "On Sophistical Refutations (elective)"
+        kind: primary
         reader: student
         pages: 80
         author: Aristotle
@@ -397,6 +410,7 @@ rows:
           - { label: "Archive.org (Organon, tr. Owen, vol. 2)", url: "https://archive.org/details/organonorlogical02arisuoft" }
           - { label: "Archive.org (ed. Poste, 1866)", url: "https://archive.org/details/aristotleonfalla00aris" }
       - title: "Topica (elective)"
+        kind: primary
         reader: student
         pages: 50
         author: Cicero

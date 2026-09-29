@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Exams · Formation Program</title>
-  <meta name="description" content="The AP, CLT, admissions, national and olympiad exams the program prepares for by 18, with a planner for each child.">
+  <title>Sources · Formation Program</title>
+  <meta name="description" content="Every curriculum, program, primary source, secondary work and textbook in the program, organized by track.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -16,11 +16,11 @@
       <a class="brand" href="index.html">Formation Program<small>Classical education from birth to the founding of a life</small></a>
       <nav class="nav" aria-label="Views">
         <a href="index.html">Curriculum</a>
-        <a href="sources.html">Sources</a>
+        <a href="sources.html" aria-current="page">Sources</a>
         <a href="tree.html">Skill Tree</a>
         <a href="radial.html">Radial Tree</a>
         <a href="founding.html">Founding-Era Reading</a>
-        <a href="exams.html" aria-current="page">Exams</a>
+        <a href="exams.html">Exams</a>
         <a href="family.html">Family</a>
       </nav>
       <button type="button" class="theme-toggle">☾ Dark</button>
@@ -29,18 +29,18 @@
 
   <main>
     <p class="intro">
-      These are the exams the program prepares for by age 18: AP courses (science and math follow the AP curriculum), the Classic Learning Test,
-      admissions tests, national language exams, and olympiads. Exams are taken as each course finishes. Choose a child to see projected exam dates
-      and how far they are through the preparing units. Homeschooled students must arrange a test site. Read each exam's registration notes early,
-      because AP registration closes in the fall.
+      This page shows how each track mixes <strong>curricula and programs</strong> (published courses you can buy or enroll in) with the
+      <strong>primary sources</strong> students read directly. It also lists the <strong>secondary works</strong> (histories, commentaries,
+      retellings) and <strong>instructional texts</strong> (grammars, textbooks, workbooks) that support them. Each item lists the units that use it.
     </p>
-    <div class="filters" id="exam-filters"></div>
-    <div id="exam-list" class="exam-list"></div>
+    <div class="filters" id="src-filters"></div>
+    <section class="panel-card" id="mix"></section>
+    <div id="src-tracks"></div>
   </main>
 
   <script src="data/curriculum.js"></script>
   <script src="assets/store.js"></script>
   <script src="assets/common.js"></script>
-  <script src="assets/exams.js"></script>
+  <script src="assets/sources.js"></script>
 </body>
 </html>

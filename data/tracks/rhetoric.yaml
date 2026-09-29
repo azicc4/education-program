@@ -69,6 +69,7 @@ rows:
       - Evaluate a sibling's recitation kindly using simple criteria (loud, clear, slow, expressive)
     coreTexts:
       - title: McGuffey's Eclectic Readers (First–Sixth), esp. the Sixth Reader's rules of elocution
+        kind: instructional
         reader: together
         author: William Holmes McGuffey
         date: "1836–1879"
@@ -108,6 +109,7 @@ rows:
       - Copy and imitate model sentences (copia) to vary expression
     coreTexts:
       - title: Progymnasmata (Latin trans. by Rodolphus Agricola & J.M. Catanaeus)
+        kind: primary
         reader: teacher
         author: Aphthonius of Antioch
         date: "4th c.; this ed. 1552"
@@ -189,6 +191,7 @@ rows:
       - Deliver a selection before an audience and take structured critique
     coreTexts:
       - title: "The English Reader: or, Pieces in Prose and Poetry, Selected from the Best Writers"
+        kind: instructional
         reader: student
         pages: 254
         author: Lindley Murray
@@ -197,6 +200,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/englishreaderorp00murrrich" }
       - title: A Course of Lectures on Elocution
+        kind: primary
         reader: teacher
         pages: 262
         author: Thomas Sheridan
@@ -205,6 +209,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_a-course-of-lectures-on-_sheridan-thomas_1762" }
       - title: McGuffey's Sixth Eclectic Reader
+        kind: instructional
         reader: student
         pages: 464
         author: William Holmes McGuffey (compiled with Alexander H. McGuffey)
@@ -280,6 +285,7 @@ rows:
       - Deliver a 5–7 minute deliberative speech built by the five canons
     coreTexts:
       - title: Rhetoric
+        kind: primary
         reader: student
         pages: 369
         author: Aristotle (trans. W. Rhys Roberts)
@@ -288,6 +294,7 @@ rows:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/rhetoric.html" }
           - { label: "Archive.org (Freese, Loeb 1926)", url: "https://archive.org/details/artofrhetoric00arisuoft" }
       - title: Phaedrus and Gorgias
+        kind: primary
         reader: student
         pages: 200
         author: Plato
@@ -296,6 +303,7 @@ rows:
           - { label: "Project Gutenberg (Phaedrus)", url: "https://www.gutenberg.org/ebooks/1636" }
           - { label: "Project Gutenberg (Gorgias)", url: "https://www.gutenberg.org/ebooks/1672" }
       - title: Classical Rhetoric for the Modern Student (4th ed.)
+        kind: instructional
         reader: student
         pages: 584
         author: Edward P.J. Corbett & Robert J. Connors
@@ -304,6 +312,7 @@ rows:
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/classical-rhetoric-for-the-modern-student-9780195115420" }
       - title: "Discourses: To Demonicus, Panegyricus, Against the Sophists and Antidosis"
+        kind: primary
         reader: student
         pages: 180
         author: Isocrates (tr. Norlin)
@@ -368,6 +377,7 @@ rows:
       - Compare the ancient and modern styles of deliberative eloquence
     coreTexts:
       - title: The Public Orations of Demosthenes, vol. 1 (Olynthiacs, Philippics)
+        kind: primary
         reader: student
         pages: 280
         author: Demosthenes (trans. A.W. Pickard-Cambridge)
@@ -375,12 +385,14 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9060" }
       - title: Selections from the Speeches and Writings of Edmund Burke
+        kind: primary
         reader: student
         author: Edmund Burke
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3286" }
       - title: Give Me Liberty or Give Me Death
+        kind: primary
         reader: student
         pages: 3
         author: Patrick Henry
@@ -389,6 +401,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6" }
       - title: The Great Speeches and Orations of Daniel Webster
+        kind: primary
         reader: student
         pages: 707
         author: Daniel Webster
@@ -396,6 +409,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12606" }
       - title: Speeches & Letters of Abraham Lincoln, 1832–1865
+        kind: primary
         reader: student
         pages: 290
         author: Abraham Lincoln
@@ -404,6 +418,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14721" }
           - { label: "Avalon Project (Gettysburg Address)", url: "https://avalon.law.yale.edu/19th_century/gettyb.asp" }
       - title: "We Shall Fight on the Beaches (1940) and The Sinews of Peace (1946)"
+        kind: primary
         reader: student
         pages: 12
         author: Winston Churchill
@@ -412,6 +427,7 @@ rows:
           - { label: "International Churchill Society (Beaches)", url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
           - { label: "International Churchill Society (Sinews of Peace)", url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
       - title: Letter from Birmingham Jail
+        kind: primary
         reader: student
         pages: 24
         author: Martin Luther King Jr.
@@ -420,6 +436,7 @@ rows:
         links:
           - { label: Stanford King Institute, url: "https://kinginstitute.stanford.edu/letter-birmingham-jail" }
       - title: "Orations: Against Eratosthenes and On the Murder of Eratosthenes (elective)"
+        kind: primary
         reader: student
         pages: 60
         author: Lysias
@@ -429,6 +446,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6969" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0154" }
       - title: "Against Ctesiphon (elective)"
+        kind: primary
         reader: student
         pages: 80
         author: Aeschines (tr. C. D. Adams)
@@ -468,6 +486,7 @@ rows:
       - Play attorney and witness roles in a mock trial
     coreTexts:
       - title: The Lincoln–Douglas Debates of 1858
+        kind: primary
         reader: student
         pages: 699
         author: Abraham Lincoln & Stephen A. Douglas
@@ -524,6 +543,7 @@ rows:
       - Use the memory palace (Ad Herennium III) to memorize a speech
     coreTexts:
       - title: De Inventione (On Rhetorical Invention), in The Orations of Marcus Tullius Cicero, vol. 4
+        kind: primary
         reader: student
         pages: 140
         author: Cicero (trans. C.D. Yonge)
@@ -532,6 +552,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11080" }
           - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/cicero/inventione.shtml" }
       - title: De Oratore (in Cicero on Oratory and Orators)
+        kind: primary
         reader: student
         pages: 300
         author: Cicero (trans. J.S. Watson)
@@ -541,6 +562,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/oratoryandorato00ciceuoft" }
           - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/cicero/oratore.shtml" }
       - title: Rhetorica ad Herennium
+        kind: primary
         reader: student
         pages: 491
         author: Anonymous (formerly attributed to Cicero)
@@ -549,6 +571,7 @@ rows:
         links:
           - { label: "Archive.org (Latin, ed. Marx 1894)", url: "https://archive.org/details/incertiauctorisd00marxuoft" }
       - title: Institutio Oratoria
+        kind: primary
         reader: student
         pages: 1000
         author: Quintilian (trans. H.E. Butler)
@@ -590,6 +613,7 @@ rows:
       - Write a critical review of a contemporary speech using Blair's criteria
     coreTexts:
       - title: Lectures on Rhetoric and Belles Lettres
+        kind: primary
         reader: student
         pages: 560
         author: Hugh Blair
@@ -598,6 +622,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/lecturesonrhetor00blai" }
       - title: Lectures on Eloquence (in The Works of John Witherspoon, vol. 7)
+        kind: primary
         reader: student
         author: John Witherspoon
         date: "delivered c. 1768–1794; this ed. 1815"
@@ -605,6 +630,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/worksofjohnwithe07with" }
       - title: The Philosophy of Rhetoric
+        kind: primary
         reader: student
         pages: 435
         author: George Campbell
@@ -613,6 +639,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/philosophyofrhet00campuoft" }
       - title: Elements of Rhetoric
+        kind: primary
         reader: student
         pages: 429
         author: Richard Whately
@@ -621,6 +648,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/elementsofrheto00whatuoft" }
       - title: "Elements of Criticism (elective)"
+        kind: primary
         reader: student
         pages: 800
         author: Henry Home, Lord Kames
@@ -631,6 +659,7 @@ rows:
           - { label: Gutenberg Vol. II, url: "https://www.gutenberg.org/ebooks/57679" }
           - { label: Gutenberg Vol. III, url: "https://www.gutenberg.org/ebooks/57680" }
       - title: "A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful (elective)"
+        kind: primary
         reader: student
         pages: 200
         author: Edmund Burke

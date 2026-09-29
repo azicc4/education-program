@@ -40,6 +40,7 @@ rows:
       - Sit attentively through 20–30 minutes of read-aloud of an unabridged text
     coreTexts:
       - title: The Aesop for Children
+        kind: primary
         reader: together
         pages: 104
         author: Aesop (illus. Milo Winter)
@@ -48,6 +49,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19994" }
       - title: Grimms' Fairy Tales
+        kind: primary
         reader: together
         pages: 408
         author: Jacob & Wilhelm Grimm (trans. Edgar Taylor & Marian Edwardes)
@@ -56,6 +58,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2591" }
       - title: Andersen's Fairy Tales
+        kind: primary
         reader: together
         pages: 300
         author: Hans Christian Andersen
@@ -64,6 +67,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1597" }
       - title: The Blue Fairy Book
+        kind: secondary
         reader: together
         pages: 330
         author: Andrew Lang (ed.)
@@ -72,6 +76,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/503" }
       - title: The Red Fairy Book
+        kind: secondary
         reader: together
         pages: 348
         author: Andrew Lang (ed.)
@@ -80,6 +85,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/540" }
       - title: The Tale of Peter Rabbit (and the other Potter tales)
+        kind: primary
         reader: together
         pages: 400
         author: Beatrix Potter
@@ -88,6 +94,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14838" }
       - title: Just So Stories
+        kind: primary
         reader: together
         pages: 113
         author: Rudyard Kipling
@@ -141,6 +148,7 @@ rows:
       - Begin reading shorter chapters independently by age 7–8
     coreTexts:
       - title: The Wind in the Willows
+        kind: primary
         reader: together
         pages: 192
         author: Kenneth Grahame
@@ -149,6 +157,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/289" }
       - title: Heidi
+        kind: primary
         reader: together
         pages: 284
         author: Johanna Spyri
@@ -157,6 +166,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1448" }
       - title: Alice's Adventures in Wonderland
+        kind: primary
         reader: together
         pages: 133
         author: Lewis Carroll
@@ -165,6 +175,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11" }
       - title: The Adventures of Pinocchio
+        kind: primary
         reader: together
         pages: 186
         author: Carlo Collodi
@@ -173,6 +184,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/500" }
       - title: Winnie-the-Pooh
+        kind: primary
         reader: together
         pages: 158
         author: A. A. Milne
@@ -181,6 +193,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67098" }
       - title: The Princess and the Goblin
+        kind: primary
         reader: together
         pages: 185
         author: George MacDonald
@@ -189,6 +202,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/708" }
       - title: At the Back of the North Wind
+        kind: primary
         reader: together
         pages: 303
         author: George MacDonald
@@ -197,6 +211,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/225" }
       - title: The Water-Babies
+        kind: primary
         reader: together
         pages: 272
         author: Charles Kingsley
@@ -247,6 +262,7 @@ rows:
       - Connect episodes to Scripture stories already known
     coreTexts:
       - title: Little Pilgrim's Progress
+        kind: secondary
         reader: together
         pages: 256
         author: Helen L. Taylor (after John Bunyan)
@@ -255,6 +271,7 @@ rows:
         links:
           - { label: Moody Publishers, url: "https://www.moodypublishers.com/little-pilgrims-progress" }
       - title: The Pilgrim's Progress in Words of One Syllable
+        kind: secondary
         reader: together
         pages: 96
         author: John Bunyan, adapted by Lucy Aikin
@@ -263,6 +280,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7088" }
       - title: The Chronicles of Narnia (7 vols., box set)
+        kind: primary
         reader: together
         pages: 768
         author: C. S. Lewis
@@ -271,6 +289,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-chronicles-of-narnia-box-set-c-s-lewis/1100542419?ean=9780064405379" }
       - title: The Princess and Curdie
+        kind: primary
         reader: together
         pages: 178
         author: George MacDonald
@@ -322,6 +341,7 @@ rows:
       - Contrast the Greek gods with the God of Scripture
     coreTexts:
       - title: D'Aulaires' Book of Greek Myths
+        kind: secondary
         reader: together
         pages: 192
         author: Ingri & Edgar Parin d'Aulaire
@@ -330,6 +350,7 @@ rows:
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/36027/daulaires-book-of-greek-myths-by-ingri-daulaire-and-edgar-parin-daulaire/" }
       - title: D'Aulaires' Book of Norse Myths
+        kind: secondary
         reader: together
         pages: 160
         author: Ingri & Edgar Parin d'Aulaire
@@ -338,6 +359,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/daulaires-book-of-norse-myths-ingri-daulaire/1102785143?ean=9781590171257" }
       - title: A Wonder Book for Girls & Boys
+        kind: secondary
         reader: together
         pages: 206
         author: Nathaniel Hawthorne
@@ -346,6 +368,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32242" }
       - title: Tanglewood Tales
+        kind: secondary
         reader: together
         pages: 190
         author: Nathaniel Hawthorne
@@ -354,6 +377,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/976" }
       - title: "The Heroes; or, Greek Fairy Tales for My Children"
+        kind: secondary
         reader: together
         pages: 215
         author: Charles Kingsley
@@ -362,6 +386,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/677" }
       - title: "The Children of Odin: The Book of Northern Myths"
+        kind: secondary
         reader: together
         pages: 271
         author: Padraic Colum
@@ -406,6 +431,7 @@ rows:
       - Memorize the opening invocation of the Iliad or Odyssey in English
     coreTexts:
       - title: The Iliad for Boys and Girls
+        kind: secondary
         reader: student
         pages: 112
         author: Alfred J. Church
@@ -414,6 +440,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21584" }
       - title: The Odyssey for Boys and Girls
+        kind: secondary
         reader: student
         author: Alfred J. Church
         date: "1906"
@@ -421,6 +448,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/odysseyforboysgi00chur" }
       - title: The Aeneid for Boys and Girls
+        kind: secondary
         reader: student
         pages: 172
         author: Alfred J. Church
@@ -429,6 +457,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/neidforboysgir00virgrich" }
       - title: "The Children's Homer: The Adventures of Odysseus and the Tale of Troy"
+        kind: secondary
         reader: student
         pages: 250
         author: Padraic Colum (illus. Willy Pogány)
@@ -437,6 +466,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/childrenshomerad00colu" }
       - title: The Golden Fleece and the Heroes Who Lived Before Achilles
+        kind: secondary
         reader: student
         pages: 382
         author: Padraic Colum
@@ -445,6 +475,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2395" }
       - title: Tales of Troy and Greece
+        kind: secondary
         reader: student
         pages: 248
         author: Andrew Lang
@@ -494,6 +525,7 @@ rows:
       - Watch or attend one live or filmed family-friendly production
     coreTexts:
       - title: Tales from Shakespeare
+        kind: secondary
         reader: together
         pages: 320
         author: Charles & Mary Lamb
@@ -502,6 +534,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/573" }
       - title: How to Teach Your Children Shakespeare
+        kind: instructional
         reader: teacher
         pages: 368
         author: Ken Ludwig
@@ -510,6 +543,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/how-to-teach-your-children-shakespeare-ken-ludwig/1113507776?ean=9780307951502" }
       - title: Stories from the Faerie Queene, Told to the Children
+        kind: secondary
         reader: together
         pages: 94
         author: Jean Lang (after Edmund Spenser)
@@ -518,6 +552,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/41350" }
       - title: A Midsummer Night's Dream (Folger text, for passages)
+        kind: primary
         reader: together
         pages: 250
         author: William Shakespeare
@@ -564,6 +599,7 @@ rows:
       - Identify at least 30 authors the Readers introduce and note which to read in full later
     coreTexts:
       - title: McGuffey's Fourth Eclectic Reader
+        kind: instructional
         reader: student
         pages: 262
         author: William Holmes McGuffey
@@ -572,6 +608,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14880" }
       - title: McGuffey's Fifth Eclectic Reader
+        kind: instructional
         reader: student
         pages: 352
         author: William Holmes McGuffey
@@ -580,6 +617,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15040" }
       - title: McGuffey's Sixth Eclectic Reader
+        kind: instructional
         reader: student
         pages: 464
         author: William Holmes McGuffey
@@ -588,6 +626,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
       - title: The Columbian Orator
+        kind: instructional
         reader: student
         pages: 300
         author: Caleb Bingham (ed.)
@@ -638,6 +677,7 @@ rows:
       - Write a short narrative imitating Pyle's archaic style
     coreTexts:
       - title: The Merry Adventures of Robin Hood
+        kind: secondary
         reader: student
         pages: 325
         author: Howard Pyle
@@ -646,6 +686,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10148" }
       - title: The Story of King Arthur and His Knights
+        kind: secondary
         reader: student
         pages: 312
         author: Howard Pyle
@@ -654,6 +695,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/60184" }
       - title: The Boy's King Arthur (Malory, ed. Lanier)
+        kind: secondary
         reader: student
         pages: 371
         author: Sir Thomas Malory, ed. Sidney Lanier
@@ -662,6 +704,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66585" }
       - title: Otto of the Silver Hand
+        kind: primary
         reader: student
         pages: 170
         author: Howard Pyle
@@ -670,6 +713,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2865" }
       - title: Men of Iron
+        kind: primary
         reader: student
         pages: 272
         author: Howard Pyle
@@ -715,6 +759,7 @@ rows:
       - Compare Bilbo's and Jim Hawkins' growth in courage
     coreTexts:
       - title: Treasure Island
+        kind: primary
         reader: student
         pages: 248
         author: Robert Louis Stevenson
@@ -723,6 +768,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/120" }
       - title: Robinson Crusoe
+        kind: primary
         reader: student
         pages: 274
         author: Daniel Defoe
@@ -731,6 +777,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/521" }
       - title: The Swiss Family Robinson
+        kind: primary
         reader: student
         pages: 320
         author: Johann David Wyss
@@ -739,6 +786,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11703" }
       - title: Kidnapped
+        kind: primary
         reader: student
         pages: 262
         author: Robert Louis Stevenson
@@ -747,6 +795,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/421" }
       - title: The Jungle Book
+        kind: primary
         reader: student
         pages: 192
         author: Rudyard Kipling
@@ -755,6 +804,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/236" }
       - title: Captains Courageous
+        kind: primary
         reader: student
         pages: 150
         author: Rudyard Kipling
@@ -763,6 +813,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2186" }
       - title: The Hobbit
+        kind: primary
         reader: student
         pages: 310
         author: J. R. R. Tolkien
@@ -813,6 +864,7 @@ rows:
       - Memorize a speech from Addison's Cato (e.g. "'Tis not in mortals to command success")
     coreTexts:
       - title: The Holy Bible, King James Version
+        kind: primary
         reader: student
         pages: 1200
         date: "1611"
@@ -820,6 +872,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
       - title: The Pilgrim's Progress
+        kind: primary
         reader: student
         pages: 308
         author: John Bunyan
@@ -828,6 +881,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/131" }
       - title: The Boys' and Girls' Plutarch
+        kind: secondary
         reader: student
         pages: 468
         author: Plutarch, ed. John S. White
@@ -836,6 +890,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2484" }
       - title: Plutarch's Lives (Dryden translation, rev. Clough)
+        kind: primary
         reader: student
         pages: 1300
         author: Plutarch
@@ -844,6 +899,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
       - title: The Life of George Washington, with Curious Anecdotes
+        kind: secondary
         reader: student
         pages: 230
         author: Mason Locke Weems
@@ -852,6 +908,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/lifeofgeorgewash00weem" }
       - title: Autobiography of Benjamin Franklin
+        kind: primary
         reader: student
         pages: 150
         author: Benjamin Franklin
@@ -860,6 +917,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: "Cato: A Tragedy"
+        kind: primary
         reader: student
         pages: 69
         author: Joseph Addison
@@ -916,6 +974,7 @@ rows:
       - Identify the conventions of romance (disguise, tournament, rescue, recognition)
     coreTexts:
       - title: A Christmas Carol
+        kind: primary
         reader: student
         pages: 114
         author: Charles Dickens
@@ -924,6 +983,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46" }
       - title: Ivanhoe
+        kind: primary
         reader: student
         pages: 488
         author: Sir Walter Scott
@@ -932,6 +992,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/82" }
       - title: The Talisman
+        kind: primary
         reader: student
         pages: 372
         author: Sir Walter Scott
@@ -940,6 +1001,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1377" }
       - title: The Black Arrow
+        kind: primary
         reader: student
         pages: 269
         author: Robert Louis Stevenson
@@ -948,6 +1010,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/848" }
       - title: The Last of the Mohicans
+        kind: primary
         reader: student
         pages: 418
         author: James Fenimore Cooper
@@ -956,6 +1019,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/940" }
       - title: The Three Musketeers
+        kind: primary
         reader: student
         pages: 637
         author: Alexandre Dumas
@@ -964,6 +1028,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1257" }
       - title: The Scarlet Pimpernel
+        kind: primary
         reader: student
         pages: 303
         author: Baroness Orczy
@@ -1013,6 +1078,7 @@ rows:
       - Write a book review with a thesis statement
     coreTexts:
       - title: The Legend of Sleepy Hollow
+        kind: primary
         reader: student
         pages: 39
         author: Washington Irving
@@ -1021,6 +1087,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/41" }
       - title: The Adventures of Tom Sawyer
+        kind: primary
         reader: student
         pages: 253
         author: Mark Twain
@@ -1029,6 +1096,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/74" }
       - title: The Prince and the Pauper
+        kind: primary
         reader: student
         pages: 256
         author: Mark Twain
@@ -1037,6 +1105,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1837" }
       - title: Little Women
+        kind: primary
         reader: student
         pages: 423
         author: Louisa May Alcott
@@ -1045,6 +1114,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/514" }
       - title: The Call of the Wild
+        kind: primary
         reader: student
         pages: 128
         author: Jack London
@@ -1053,6 +1123,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/215" }
       - title: Johnny Tremain
+        kind: primary
         reader: student
         pages: 272
         author: Esther Forbes
@@ -1061,6 +1132,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/johnny-tremain-esther-hoskins-forbes/1100484579?ean=9780547614328" }
       - title: Carry On, Mr. Bowditch
+        kind: secondary
         reader: student
         pages: 251
         author: Jean Lee Latham
@@ -1107,6 +1179,7 @@ rows:
       - Stage one scene for family or co-op, with blocking and simple costume
     coreTexts:
       - title: A Midsummer Night's Dream
+        kind: primary
         reader: student
         pages: 124
         author: William Shakespeare
@@ -1115,6 +1188,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/" }
       - title: Twelfth Night
+        kind: primary
         reader: student
         pages: 152
         author: William Shakespeare
@@ -1123,6 +1197,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/twelfth-night/" }
       - title: As You Like It
+        kind: primary
         reader: student
         pages: 148
         author: William Shakespeare
@@ -1131,6 +1206,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/as-you-like-it/" }
       - title: Much Ado About Nothing
+        kind: primary
         reader: student
         pages: 160
         author: William Shakespeare
@@ -1139,6 +1215,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/much-ado-about-nothing/" }
       - title: The Comedy of Errors
+        kind: primary
         reader: student
         pages: 104
         author: William Shakespeare
@@ -1191,6 +1268,7 @@ rows:
       - Identify narrator, point of view and irony
     coreTexts:
       - title: Great Expectations
+        kind: primary
         reader: student
         pages: 482
         author: Charles Dickens
@@ -1199,6 +1277,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1400" }
       - title: Oliver Twist
+        kind: primary
         reader: student
         pages: 414
         author: Charles Dickens
@@ -1207,6 +1286,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/730" }
       - title: "Gulliver's Travels"
+        kind: primary
         reader: student
         pages: 278
         author: Jonathan Swift
@@ -1215,6 +1295,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/829" }
       - title: Kim
+        kind: primary
         reader: student
         pages: 286
         author: Rudyard Kipling
@@ -1223,6 +1304,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2226" }
       - title: The Hound of the Baskervilles
+        kind: primary
         reader: student
         pages: 207
         author: Arthur Conan Doyle
@@ -1231,6 +1313,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2852" }
       - title: Twenty Thousand Leagues Under the Seas
+        kind: primary
         reader: student
         pages: 369
         author: Jules Verne (trans. F. P. Walter)
@@ -1278,6 +1361,7 @@ rows:
       - Memorize and declaim one full speech per play (e.g. St. Crispin's Day, Friends Romans countrymen)
     coreTexts:
       - title: Julius Caesar
+        kind: primary
         reader: student
         pages: 136
         author: William Shakespeare
@@ -1286,6 +1370,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/julius-caesar/" }
       - title: Henry V
+        kind: primary
         reader: student
         pages: 166
         author: William Shakespeare
@@ -1294,6 +1379,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/henry-v/" }
       - title: Richard II
+        kind: primary
         reader: student
         pages: 150
         author: William Shakespeare
@@ -1302,6 +1388,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/richard-ii/" }
       - title: Henry IV, Part 1
+        kind: primary
         reader: student
         pages: 150
         author: William Shakespeare
@@ -1354,6 +1441,7 @@ rows:
       - Memorize the proem of each epic (in English; in Latin for the Aeneid)
     coreTexts:
       - title: The Iliad (trans. Robert Fagles)
+        kind: primary
         reader: student
         pages: 564
         author: Homer
@@ -1364,6 +1452,7 @@ rows:
           - { label: "Free alt: Butler prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/2199" }
           - { label: "Free alt: Pope verse (Gutenberg)", url: "https://www.gutenberg.org/ebooks/6130" }
       - title: The Odyssey (trans. Richmond Lattimore)
+        kind: primary
         reader: student
         pages: 352
         author: Homer
@@ -1373,6 +1462,7 @@ rows:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-odyssey-of-homer-richmond-lattimore/1143267049?ean=9780061244186" }
           - { label: "Free alt: Butler prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/1727" }
       - title: The Aeneid (trans. Robert Fitzgerald)
+        kind: primary
         reader: student
         pages: 442
         author: Virgil
@@ -1382,6 +1472,7 @@ rows:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-aeneid-virgil/1116742515?ean=9780679729525" }
           - { label: "Free alt: Dryden verse (Gutenberg)", url: "https://www.gutenberg.org/ebooks/228" }
       - title: "The House of Atreus (Agamemnon, Libation Bearers, Furies)"
+        kind: primary
         reader: student
         pages: 236
         author: Aeschylus (trans. E. D. A. Morshead)
@@ -1390,6 +1481,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8604" }
       - title: "Oedipus the King; Oedipus at Colonus; Antigone"
+        kind: primary
         reader: student
         pages: 200
         author: Sophocles (trans. F. Storr)
@@ -1398,6 +1490,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31" }
       - title: Medea
+        kind: primary
         reader: student
         pages: 122
         author: Euripides (trans. Gilbert Murray)
@@ -1406,6 +1499,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35451" }
       - title: The Metamorphoses (Books I–VII)
+        kind: primary
         reader: student
         pages: 250
         author: Ovid (trans. H. T. Riley)
@@ -1466,6 +1560,7 @@ rows:
       - Discuss Shakespeare's religious world (Catholic recusancy, Protestant England) as critics debate it
     coreTexts:
       - title: Romeo and Juliet
+        kind: primary
         reader: student
         pages: 168
         author: William Shakespeare
@@ -1474,6 +1569,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/" }
       - title: Macbeth
+        kind: primary
         reader: student
         pages: 135
         author: William Shakespeare
@@ -1483,6 +1579,7 @@ rows:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/macbeth/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-macbeth.htm" }
       - title: Hamlet
+        kind: primary
         reader: student
         pages: 192
         author: William Shakespeare
@@ -1492,6 +1589,7 @@ rows:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/hamlet/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-hamlet.htm" }
       - title: King Lear
+        kind: primary
         reader: student
         pages: 193
         author: William Shakespeare
@@ -1501,6 +1599,7 @@ rows:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/king-lear/" }
           - { label: Ignatius Critical Edition, url: "https://loc.ignatius.com/ignatiuscriticaleditions/shakespeare-king-lear.htm" }
       - title: Othello
+        kind: primary
         reader: student
         pages: 176
         author: William Shakespeare
@@ -1553,6 +1652,7 @@ rows:
       - Trace the pilgrimage frame and the "quiting" of tale against tale across the Canterbury Tales
     coreTexts:
       - title: The Confessions
+        kind: primary
         reader: student
         pages: 392
         author: St. Augustine (trans. E. B. Pusey)
@@ -1561,6 +1661,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3296" }
       - title: Beowulf (trans. Seamus Heaney)
+        kind: primary
         reader: student
         pages: 256
         author: Anonymous
@@ -1571,6 +1672,7 @@ rows:
           - { label: "Tolkien translation (Barnes & Noble)", url: "https://www.barnesandnoble.com/w/beowulf-j-r-r-tolkien/1118935267?ean=9780544570306" }
           - { label: "Free alt: Gummere verse (Gutenberg)", url: "https://www.gutenberg.org/ebooks/981" }
       - title: "Sir Gawain and the Green Knight, Pearl & Sir Orfeo (trans. J. R. R. Tolkien)"
+        kind: primary
         reader: student
         pages: 150
         author: The Pearl Poet
@@ -1580,6 +1682,7 @@ rows:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/sir-gawain-and-the-green-knight-pearl-and-sir-orfeo-j-r-r-tolkien/1101964418?ean=9780345277602" }
           - { label: "Free alt: Weston prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/66084" }
       - title: The Divine Comedy (trans. Anthony Esolen)
+        kind: primary
         reader: student
         pages: 1500
         author: Dante Alighieri
@@ -1589,6 +1692,7 @@ rows:
           - { label: "Inferno (Penguin Random House)", url: "https://www.penguinrandomhouse.com/books/36722/inferno-by-dante/" }
           - { label: "Free alt: Longfellow translation (Gutenberg)", url: "https://www.gutenberg.org/ebooks/1004" }
       - title: "The Canterbury Tales (fuller reading, trans. Nevill Coghill)"
+        kind: primary
         reader: student
         pages: 520
         author: Geoffrey Chaucer
@@ -1598,6 +1702,7 @@ rows:
           - { label: "Coghill modern verse (Penguin Classics, B&N)", url: "https://www.barnesandnoble.com/w/the-canterbury-tales-geoffrey-chaucer/1116670487?ean=9780140424386" }
           - { label: "Free alt: Middle English text (Gutenberg)", url: "https://www.gutenberg.org/ebooks/2383" }
       - title: Everyman, with Other Interludes
+        kind: primary
         reader: student
         pages: 262
         author: Anonymous
@@ -1606,6 +1711,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19481" }
       - title: "Le Morte d'Arthur, Vol. 1"
+        kind: primary
         reader: student
         pages: 400
         author: Sir Thomas Malory
@@ -1663,6 +1769,7 @@ rows:
       - Memorize the opening 26 lines of Paradise Lost
     coreTexts:
       - title: "The Faerie Queene, Book I"
+        kind: primary
         reader: student
         pages: 253
         author: Edmund Spenser
@@ -1671,6 +1778,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15272" }
       - title: "The Tragical History of Doctor Faustus (elective)"
+        kind: primary
         reader: student
         pages: 103
         author: Christopher Marlowe
@@ -1679,6 +1787,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/779" }
       - title: The Essays or Counsels, Civil and Moral
+        kind: primary
         reader: student
         pages: 405
         author: Francis Bacon
@@ -1687,6 +1796,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/575" }
       - title: Paradise Lost
+        kind: primary
         reader: student
         pages: 333
         author: John Milton
@@ -1695,6 +1805,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26" }
       - title: "Grace Abounding to the Chief of Sinners (elective)"
+        kind: primary
         reader: student
         pages: 150
         author: John Bunyan
@@ -1703,6 +1814,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/654" }
       - title: "The Compleat Angler (elective)"
+        kind: primary
         reader: student
         pages: 326
         author: Izaak Walton
@@ -1711,6 +1823,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/683" }
       - title: "Religio Medici, Hydriotaphia, and the Letter to a Friend (elective)"
+        kind: primary
         reader: student
         pages: 156
         author: Sir Thomas Browne
@@ -1766,6 +1879,7 @@ rows:
       - Explicate a passage of Pope's heroic couplets
     coreTexts:
       - title: "The Poetical Works of John Dryden, Vol. 1 (elective)"
+        kind: primary
         reader: student
         author: John Dryden
         date: "1660–1700"
@@ -1773,6 +1887,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11488" }
       - title: "The Rape of the Lock, and Other Poems (elective)"
+        kind: primary
         reader: student
         pages: 241
         author: Alexander Pope
@@ -1781,6 +1896,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9800" }
       - title: An Essay on Man; Moral Essays and Satires
+        kind: primary
         reader: student
         pages: 190
         author: Alexander Pope
@@ -1789,6 +1905,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2428" }
       - title: A Modest Proposal
+        kind: primary
         reader: student
         pages: 10
         author: Jonathan Swift
@@ -1797,6 +1914,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1080" }
       - title: "The Spectator, Vols. 1–3"
+        kind: primary
         reader: student
         pages: 1500
         author: Joseph Addison & Richard Steele
@@ -1805,6 +1923,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12030" }
       - title: "Rasselas, Prince of Abyssinia (elective)"
+        kind: primary
         reader: student
         pages: 130
         author: Samuel Johnson
@@ -1813,6 +1932,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/652" }
       - title: "The Vicar of Wakefield (elective)"
+        kind: primary
         reader: student
         pages: 225
         author: Oliver Goldsmith
@@ -1821,6 +1941,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2667" }
       - title: "The Life of Samuel Johnson"
+        kind: primary
         reader: student
         pages: 1400
         author: James Boswell
@@ -1876,6 +1997,7 @@ rows:
       - Write a 2,000-word comparative essay (e.g. Austen's Elizabeth and Anne Elliot)
     coreTexts:
       - title: Pride and Prejudice
+        kind: primary
         reader: student
         pages: 351
         author: Jane Austen
@@ -1884,6 +2006,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1342" }
       - title: "Emma (elective)"
+        kind: primary
         reader: student
         pages: 457
         author: Jane Austen
@@ -1892,6 +2015,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/158" }
       - title: Persuasion
+        kind: primary
         reader: student
         pages: 268
         author: Jane Austen
@@ -1900,6 +2024,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/105" }
       - title: Waverley
+        kind: primary
         reader: student
         pages: 500
         author: Sir Walter Scott
@@ -1908,6 +2033,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5998" }
       - title: "The Heart of Mid-Lothian (elective)"
+        kind: primary
         reader: student
         pages: 548
         author: Sir Walter Scott
@@ -1916,6 +2042,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6944" }
       - title: "Frankenstein (elective)"
+        kind: primary
         reader: student
         pages: 240
         author: Mary Shelley
@@ -1924,6 +2051,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/84" }
       - title: "The Prelude, or Growth of a Poet's Mind"
+        kind: primary
         reader: student
         pages: 374
         author: William Wordsworth
@@ -1932,6 +2060,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/preludeorgrowtho00worduoft" }
       - title: "Biographia Literaria (elective)"
+        kind: primary
         reader: student
         pages: 336
         author: Samuel Taylor Coleridge
@@ -1983,6 +2112,7 @@ rows:
       - Present a 15-minute seminar introduction on one novel
     coreTexts:
       - title: Jane Eyre
+        kind: primary
         reader: student
         pages: 480
         author: Charlotte Brontë
@@ -1991,6 +2121,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1260" }
       - title: "Wuthering Heights (elective)"
+        kind: primary
         reader: student
         pages: 318
         author: Emily Brontë
@@ -1999,6 +2130,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/768" }
       - title: "David Copperfield (elective)"
+        kind: primary
         reader: student
         pages: 742
         author: Charles Dickens
@@ -2007,6 +2139,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/766" }
       - title: A Tale of Two Cities
+        kind: primary
         reader: student
         pages: 388
         author: Charles Dickens
@@ -2015,6 +2148,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/98" }
       - title: Bleak House
+        kind: primary
         reader: student
         pages: 817
         author: Charles Dickens
@@ -2023,6 +2157,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1023" }
       - title: "Vanity Fair (elective)"
+        kind: primary
         reader: student
         pages: 699
         author: William Makepeace Thackeray
@@ -2031,6 +2166,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/599" }
       - title: "North and South (elective)"
+        kind: primary
         reader: student
         pages: 452
         author: Elizabeth Gaskell
@@ -2081,6 +2217,7 @@ rows:
       - Write a 2,500-word research essay using at least two secondary sources
     coreTexts:
       - title: Middlemarch
+        kind: primary
         reader: student
         pages: 793
         author: George Eliot
@@ -2089,6 +2226,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/145" }
       - title: "The Warden (elective)"
+        kind: primary
         reader: student
         pages: 255
         author: Anthony Trollope
@@ -2097,6 +2235,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/619" }
       - title: "Barchester Towers (elective)"
+        kind: primary
         reader: student
         pages: 502
         author: Anthony Trollope
@@ -2105,6 +2244,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3409" }
       - title: The Mayor of Casterbridge
+        kind: primary
         reader: student
         pages: 363
         author: Thomas Hardy
@@ -2113,6 +2253,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/143" }
       - title: "Idylls of the King (elective)"
+        kind: primary
         reader: student
         pages: 258
         author: Alfred, Lord Tennyson
@@ -2121,6 +2262,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/610" }
       - title: Apologia pro Vita Sua
+        kind: primary
         reader: student
         pages: 395
         author: John Henry Newman
@@ -2129,6 +2271,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19690" }
       - title: The Idea of a University
+        kind: primary
         reader: student
         pages: 527
         author: John Henry Newman
@@ -2137,6 +2280,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/24526" }
       - title: "Loss and Gain: The Story of a Convert (elective)"
+        kind: primary
         reader: student
         pages: 432
         author: John Henry Newman
@@ -2192,6 +2336,7 @@ rows:
       - Write an essay setting Chesterton's paradox against Conrad's darkness
     coreTexts:
       - title: Heart of Darkness
+        kind: primary
         reader: student
         pages: 136
         author: Joseph Conrad
@@ -2200,6 +2345,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/219" }
       - title: "Lord Jim (elective)"
+        kind: primary
         reader: student
         pages: 360
         author: Joseph Conrad
@@ -2208,6 +2354,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5658" }
       - title: Orthodoxy
+        kind: primary
         reader: student
         pages: 156
         author: G. K. Chesterton
@@ -2216,6 +2363,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/130" }
       - title: The Everlasting Man
+        kind: primary
         reader: student
         pages: 274
         author: G. K. Chesterton
@@ -2224,6 +2372,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/65688" }
       - title: "The Man Who Was Thursday (elective)"
+        kind: primary
         reader: student
         pages: 162
         author: G. K. Chesterton
@@ -2232,6 +2381,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1695" }
       - title: "The Innocence of Father Brown (elective)"
+        kind: primary
         reader: student
         pages: 208
         author: G. K. Chesterton
@@ -2240,6 +2390,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/204" }
       - title: "The Path to Rome (elective)"
+        kind: primary
         reader: student
         pages: 375
         author: Hilaire Belloc
@@ -2248,6 +2399,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7373" }
       - title: The Waste Land
+        kind: primary
         reader: student
         pages: 25
         author: T. S. Eliot
@@ -2293,6 +2445,7 @@ rows:
       - Explicate one of the Four Quartets (here if chosen, otherwise in poetry-12)
     coreTexts:
       - title: The Lord of the Rings
+        kind: primary
         reader: student
         pages: 1193
         author: J. R. R. Tolkien
@@ -2301,6 +2454,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-lord-of-the-rings-j-r-r-tolkien/1100188646?ean=9780544003415" }
       - title: "Till We Have Faces (elective)"
+        kind: primary
         reader: student
         pages: 320
         author: C. S. Lewis
@@ -2309,6 +2463,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/till-we-have-faces-c-s-lewis/1102158947?ean=9780062565419" }
       - title: "Out of the Silent Planet (elective)"
+        kind: primary
         reader: student
         pages: 174
         author: C. S. Lewis
@@ -2317,6 +2472,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/out-of-the-silent-planet-c-s-lewis/1100400761?ean=9780743234900" }
       - title: "The Screwtape Letters (elective)"
+        kind: primary
         reader: student
         pages: 160
         author: C. S. Lewis
@@ -2325,6 +2481,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-screwtape-letters-c-s-lewis/1116762579?ean=9780060652937" }
       - title: Brideshead Revisited
+        kind: primary
         reader: student
         pages: 336
         author: Evelyn Waugh
@@ -2333,6 +2490,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/brideshead-revisited-evelyn-waugh/1000151814?ean=9780316216456" }
       - title: The Power and the Glory
+        kind: primary
         reader: student
         pages: 254
         author: Graham Greene
@@ -2341,6 +2499,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0142437301" }
       - title: "Animal Farm (elective)"
+        kind: primary
         reader: student
         pages: 128
         author: George Orwell
@@ -2349,6 +2508,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/animal-farm-george-orwell/1137597358?ean=9780451526342" }
       - title: "1984"
+        kind: primary
         reader: student
         pages: 328
         author: George Orwell
@@ -2357,6 +2517,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/1984-george-orwell/1144554302?ean=9780451524935" }
       - title: "Four Quartets (elective)"
+        kind: primary
         reader: student
         pages: 48
         author: T. S. Eliot
@@ -2411,6 +2572,7 @@ rows:
       - Mount or take a principal part in a staged production, or give a 200-line recital
     coreTexts:
       - title: The Tempest
+        kind: primary
         reader: student
         pages: 144
         author: William Shakespeare
@@ -2419,6 +2581,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-tempest/" }
       - title: The Winter's Tale
+        kind: primary
         reader: student
         pages: 152
         author: William Shakespeare
@@ -2427,6 +2590,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-winters-tale/" }
       - title: The Merchant of Venice
+        kind: primary
         reader: student
         pages: 147
         author: William Shakespeare
@@ -2435,6 +2599,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/" }
       - title: "Shakespeare's Sonnets (elective)"
+        kind: primary
         reader: student
         pages: 180
         author: William Shakespeare
@@ -2443,6 +2608,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/" }
       - title: "The Complete Works of William Shakespeare (elective)"
+        kind: primary
         reader: student
         pages: 1300
         author: William Shakespeare
@@ -2495,6 +2661,7 @@ rows:
       - Write a thesis-driven essay on an American Renaissance text
     coreTexts:
       - title: Autobiography of Benjamin Franklin
+        kind: primary
         reader: student
         pages: 150
         author: Benjamin Franklin
@@ -2503,6 +2670,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: "The Sketch-Book of Geoffrey Crayon (elective)"
+        kind: primary
         reader: student
         pages: 384
         author: Washington Irving
@@ -2511,6 +2679,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2048" }
       - title: "The Deerslayer (elective)"
+        kind: primary
         reader: student
         pages: 520
         author: James Fenimore Cooper
@@ -2519,6 +2688,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3285" }
       - title: "The Works of Edgar Allan Poe, Vol. 1 (tales) (elective)"
+        kind: primary
         reader: student
         author: Edgar Allan Poe
         date: "1830s–1840s"
@@ -2526,6 +2696,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2147" }
       - title: The Scarlet Letter
+        kind: primary
         reader: student
         pages: 272
         author: Nathaniel Hawthorne
@@ -2534,6 +2705,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25344" }
       - title: "Moby-Dick; or, The Whale"
+        kind: primary
         reader: student
         pages: 452
         author: Herman Melville
@@ -2542,6 +2714,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2701" }
       - title: "Essays: First Series"
+        kind: primary
         reader: student
         pages: 326
         author: Ralph Waldo Emerson
@@ -2550,6 +2723,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2944" }
       - title: "Walden, and On the Duty of Civil Disobedience (elective)"
+        kind: primary
         reader: student
         pages: 298
         author: Henry David Thoreau
@@ -2558,6 +2732,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/205" }
       - title: Narrative of the Life of Frederick Douglass
+        kind: primary
         reader: student
         pages: 127
         author: Frederick Douglass
@@ -2611,6 +2786,7 @@ rows:
       - Write a comparative essay on American realism and naturalism
     coreTexts:
       - title: Adventures of Huckleberry Finn
+        kind: primary
         reader: student
         pages: 346
         author: Mark Twain
@@ -2619,6 +2795,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76" }
       - title: "Poems by Emily Dickinson, Three Series, Complete"
+        kind: primary
         reader: student
         pages: 250
         author: Emily Dickinson
@@ -2627,6 +2804,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12242" }
       - title: Leaves of Grass
+        kind: primary
         reader: student
         pages: 384
         author: Walt Whitman
@@ -2635,6 +2813,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1322" }
       - title: "Daisy Miller (elective)"
+        kind: primary
         reader: student
         pages: 75
         author: Henry James
@@ -2643,6 +2822,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/208" }
       - title: "The Portrait of a Lady, Vol. 1 (elective)"
+        kind: primary
         reader: student
         pages: 350
         author: Henry James
@@ -2651,6 +2831,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2833" }
       - title: "The Red Badge of Courage (elective)"
+        kind: primary
         reader: student
         pages: 174
         author: Stephen Crane
@@ -2659,6 +2840,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/73" }
       - title: My Ántonia
+        kind: primary
         reader: student
         pages: 264
         author: Willa Cather
@@ -2667,6 +2849,7 @@ rows:
         links:
           - { label: Standard Ebooks, url: "https://standardebooks.org/ebooks/willa-cather/my-antonia" }
       - title: "North of Boston (elective)"
+        kind: primary
         reader: student
         pages: 140
         author: Robert Frost
@@ -2720,6 +2903,7 @@ rows:
       - Write a 2,500-word research essay on one author
     coreTexts:
       - title: The Great Gatsby
+        kind: primary
         reader: student
         pages: 185
         author: F. Scott Fitzgerald
@@ -2728,6 +2912,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/64317" }
       - title: "The Sun Also Rises (elective)"
+        kind: primary
         reader: student
         pages: 249
         author: Ernest Hemingway
@@ -2736,6 +2921,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/67138" }
       - title: The Old Man and the Sea
+        kind: primary
         reader: student
         pages: 131
         author: Ernest Hemingway
@@ -2744,6 +2930,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-old-man-and-the-sea-ernest-hemingway/1100300820?ean=9780684801223" }
       - title: "The Sound and the Fury (elective)"
+        kind: primary
         reader: student
         pages: 358
         author: William Faulkner
@@ -2752,6 +2939,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/75170" }
       - title: "Death Comes for the Archbishop (elective)"
+        kind: primary
         reader: student
         pages: 299
         author: Willa Cather
@@ -2760,6 +2948,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/69730" }
       - title: The Complete Stories
+        kind: primary
         reader: student
         pages: 576
         author: Flannery O'Connor
@@ -2768,6 +2957,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-complete-stories-flannery-oconnor/1103271862?ean=9780374515362" }
       - title: The Moviegoer
+        kind: primary
         reader: student
         pages: 241
         author: Walker Percy
@@ -2776,6 +2966,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0375701966" }
       - title: "To Kill a Mockingbird (elective)"
+        kind: primary
         reader: student
         pages: 320
         author: Harper Lee
@@ -2784,6 +2975,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/to-kill-a-mockingbird-harper-lee/1100151011?ean=9780060935467" }
       - title: "The Fountainhead (elective, critical reading)"
+        kind: primary
         reader: student
         pages: 700
         author: Ayn Rand
@@ -2846,6 +3038,7 @@ rows:
       - Compare two translations of one passage and judge their fidelity and style
     coreTexts:
       - title: Don Quixote (trans. John Ormsby)
+        kind: primary
         reader: student
         pages: 795
         author: Miguel de Cervantes
@@ -2854,6 +3047,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/996" }
       - title: The Betrothed
+        kind: primary
         reader: student
         pages: 700
         author: Alessandro Manzoni
@@ -2862,6 +3056,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35155" }
       - title: "Les Misérables (elective)"
+        kind: primary
         reader: student
         pages: 1460
         author: Victor Hugo
@@ -2870,6 +3065,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/135" }
       - title: "Crime and Punishment (elective)"
+        kind: primary
         reader: student
         pages: 551
         author: Fyodor Dostoevsky
@@ -2878,6 +3074,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2554" }
       - title: The Brothers Karamazov
+        kind: primary
         reader: student
         pages: 867
         author: Fyodor Dostoevsky
@@ -2886,6 +3083,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28054" }
       - title: "War and Peace (elective)"
+        kind: primary
         reader: student
         pages: 1300
         author: Leo Tolstoy
@@ -2894,6 +3092,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2600" }
       - title: "Quo Vadis (elective)"
+        kind: primary
         reader: student
         pages: 477
         author: Henryk Sienkiewicz
@@ -2902,6 +3101,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2853" }
       - title: "Kristin Lavransdatter (trans. Tiina Nunnally) (elective)"
+        kind: primary
         reader: student
         pages: 1065
         author: Sigrid Undset
@@ -2956,6 +3156,7 @@ rows:
       - Trace the dialogue between Athens and Jerusalem across the term
     coreTexts:
       - title: The Iliad of Homer (trans. Richmond Lattimore)
+        kind: primary
         reader: student
         pages: 440
         author: Homer
@@ -2963,6 +3164,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-iliad-of-homer-homer/1116755951?ean=9780226470498" }
       - title: "Hesiod, the Homeric Hymns, and Homerica"
+        kind: primary
         reader: student
         pages: 639
         author: Hesiod (trans. H. G. Evelyn-White)
@@ -2971,6 +3173,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/348" }
       - title: "The History of Herodotus, Vol. 1"
+        kind: primary
         reader: student
         pages: 400
         author: Herodotus (trans. G. C. Macaulay)
@@ -2979,6 +3182,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2707" }
       - title: The History of the Peloponnesian War
+        kind: primary
         reader: student
         pages: 614
         author: Thucydides (trans. Richard Crawley)
@@ -2987,6 +3191,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
       - title: The Republic
+        kind: primary
         reader: student
         pages: 400
         author: Plato (trans. Benjamin Jowett)
@@ -2995,6 +3200,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1497" }
       - title: The Nicomachean Ethics
+        kind: primary
         reader: student
         pages: 300
         author: Aristotle
@@ -3003,6 +3209,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
       - title: On the Nature of Things
+        kind: primary
         reader: student
         pages: 230
         author: Lucretius
@@ -3011,6 +3218,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/785" }
       - title: The Bible (Douay-Rheims)
+        kind: primary
         reader: student
         pages: 1600
         publicDomain: true
@@ -3069,6 +3277,7 @@ rows:
       - Present a public lecture or a seminar-leader's opening question to an audience
     coreTexts:
       - title: "The Divine Comedy (Longfellow translation, complete)"
+        kind: primary
         reader: student
         pages: 650
         author: Dante Alighieri
@@ -3076,6 +3285,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1004" }
       - title: Don Quixote (trans. Ormsby)
+        kind: primary
         reader: student
         pages: 795
         author: Miguel de Cervantes
@@ -3083,6 +3293,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/996" }
       - title: Essays (trans. Charles Cotton)
+        kind: primary
         reader: student
         pages: 1000
         author: Michel de Montaigne
@@ -3091,6 +3302,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3600" }
       - title: The Thoughts of Blaise Pascal (Pensées)
+        kind: primary
         reader: student
         pages: 320
         author: Blaise Pascal
@@ -3099,6 +3311,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46921" }
       - title: Paradise Lost
+        kind: primary
         reader: student
         pages: 333
         author: John Milton
@@ -3106,6 +3319,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26" }
       - title: "Faust, Part 1 (trans. Bayard Taylor)"
+        kind: primary
         reader: student
         pages: 156
         author: Johann Wolfgang von Goethe
@@ -3114,6 +3328,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14591" }
       - title: The Brothers Karamazov
+        kind: primary
         reader: student
         pages: 867
         author: Fyodor Dostoevsky
@@ -3121,6 +3336,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28054" }
       - title: Four Quartets
+        kind: primary
         reader: student
         pages: 48
         author: T. S. Eliot

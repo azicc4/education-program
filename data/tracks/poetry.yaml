@@ -35,6 +35,7 @@ rows:
       - Associate verse with affection and play (sung at bedtime, in the car, at work)
     coreTexts:
       - title: The Real Mother Goose
+        kind: primary
         reader: together
         pages: 128
         author: Blanche Fisher Wright (illus.)
@@ -43,6 +44,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
       - title: The Oxford Nursery Rhyme Book
+        kind: primary
         reader: together
         pages: 223
         author: Iona & Peter Opie (eds.)
@@ -51,6 +53,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-oxford-nursery-rhyme-book-iona-opie/1100459134?ean=9780198691129" }
       - title: "Sing-Song: A Nursery Rhyme Book"
+        kind: primary
         reader: together
         pages: 130
         author: Christina Rossetti
@@ -59,6 +62,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76703" }
       - title: The Book of Nonsense
+        kind: primary
         reader: together
         pages: 109
         author: Edward Lear
@@ -108,6 +112,7 @@ rows:
       - Hear and clap the beat of a line; identify rhyming words
     coreTexts:
       - title: "A Child's Garden of Verses"
+        kind: primary
         reader: together
         pages: 116
         author: Robert Louis Stevenson
@@ -116,6 +121,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/136" }
       - title: When We Were Very Young
+        kind: primary
         reader: together
         pages: 102
         author: A. A. Milne
@@ -124,6 +130,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/70271" }
       - title: "Peacock Pie: A Book of Rhymes"
+        kind: primary
         reader: together
         pages: 121
         author: Walter de la Mare
@@ -132,6 +139,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3753" }
       - title: Poems of Childhood
+        kind: primary
         reader: together
         pages: 179
         author: Eugene Field (illus. Maxfield Parrish)
@@ -140,6 +148,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/75578" }
       - title: Cautionary Tales for Children
+        kind: primary
         reader: together
         pages: 79
         author: Hilaire Belloc
@@ -148,6 +157,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27424" }
       - title: The Harp and Laurel Wreath
+        kind: secondary
         reader: teacher
         pages: 493
         author: Laura Berquist (ed.)
@@ -194,6 +204,7 @@ rows:
       - Name the poet and approximate century of each memorized poem
     coreTexts:
       - title: The Blue Poetry Book
+        kind: secondary
         reader: student
         pages: 354
         author: Andrew Lang (ed.)
@@ -202,6 +213,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46515" }
       - title: The Golden Treasury
+        kind: secondary
         reader: student
         pages: 428
         author: Francis Turner Palgrave (ed.)
@@ -210,6 +222,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19221" }
       - title: Favorite Poems Old and New
+        kind: secondary
         reader: student
         pages: 598
         author: Helen Ferris (ed.)
@@ -218,6 +231,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/favorite-poems-old-and-new-helen-ferris/1003119005?ean=9780385076968" }
       - title: The Harp and Laurel Wreath
+        kind: secondary
         reader: teacher
         pages: 493
         author: Laura Berquist (ed.)
@@ -226,6 +240,7 @@ rows:
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/the-harp-and-laurel-wreath-hlwp/" }
       - title: Songs of Innocence and of Experience
+        kind: primary
         reader: student
         pages: 142
         author: William Blake
@@ -277,6 +292,7 @@ rows:
       - Read aloud a narrative poem with dramatic variation of voice
     coreTexts:
       - title: "The English and Scottish Popular Ballads, Vol. 1"
+        kind: primary
         reader: teacher
         pages: 672
         author: Francis James Child (ed.)
@@ -285,6 +301,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44969" }
       - title: The Oxford Book of Ballads
+        kind: secondary
         reader: student
         pages: 871
         author: Arthur Quiller-Couch (ed.)
@@ -293,6 +310,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44593" }
       - title: "Reliques of Ancient English Poetry, Vol. 1"
+        kind: primary
         reader: student
         pages: 400
         author: Thomas Percy (ed.)
@@ -301,6 +319,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45939" }
       - title: Lays of Ancient Rome
+        kind: primary
         reader: student
         pages: 145
         author: Thomas Babington Macaulay
@@ -309,6 +328,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/847" }
       - title: The Lady of the Lake
+        kind: primary
         reader: student
         pages: 233
         author: Sir Walter Scott
@@ -317,6 +337,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3011" }
       - title: The Rime of the Ancient Mariner
+        kind: primary
         reader: student
         pages: 30
         author: Samuel Taylor Coleridge
@@ -325,6 +346,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/151" }
       - title: "Evangeline: A Tale of Acadie"
+        kind: primary
         reader: student
         pages: 110
         author: Henry Wadsworth Longfellow
@@ -333,6 +355,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2039" }
       - title: The Song of Hiawatha
+        kind: primary
         reader: student
         pages: 215
         author: Henry Wadsworth Longfellow
@@ -341,6 +364,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19" }
       - title: The Pied Piper of Hamelin, and Other Poems
+        kind: primary
         reader: student
         pages: 124
         author: Robert Browning
@@ -386,6 +410,7 @@ rows:
       - Recite Kipling's "If—" and one Shakespeare speech from the literature track
     coreTexts:
       - title: The Columbian Orator
+        kind: instructional
         reader: student
         pages: 300
         author: Caleb Bingham (ed.)
@@ -394,6 +419,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/columbianoratorc00bing" }
       - title: "McGuffey's Sixth Eclectic Reader (with rules for elocution)"
+        kind: instructional
         reader: student
         pages: 464
         author: William Holmes McGuffey
@@ -402,6 +428,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16751" }
       - title: "Rewards and Fairies (contains \"If—\")"
+        kind: primary
         reader: student
         pages: 340
         author: Rudyard Kipling
@@ -410,6 +437,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/556" }
       - title: Lays of Ancient Rome
+        kind: primary
         reader: student
         pages: 145
         author: Thomas Babington Macaulay
@@ -418,6 +446,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/847" }
       - title: The Complete Works of William Shakespeare (speeches)
+        kind: primary
         reader: student
         author: William Shakespeare
         publicDomain: true
@@ -478,6 +507,7 @@ rows:
       - Write a metrical paraphrase of a short psalm in common meter
     coreTexts:
       - title: "The Book of Psalms (King James Version)"
+        kind: primary
         reader: student
         pages: 100
         date: "1611"
@@ -485,6 +515,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8019" }
       - title: "The Bible, Douay-Rheims (Psalms)"
+        kind: primary
         reader: student
         pages: 100
         date: "1582–1610; rev. Challoner 1750"
@@ -492,6 +523,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
       - title: The Bay Psalm Book (facsimile)
+        kind: primary
         reader: student
         pages: 300
         date: "1640"
@@ -499,6 +531,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/The-Bay-Psalm-Book-wdl-3600" }
       - title: The Psalms of David Imitated in the Language of the New Testament
+        kind: primary
         reader: student
         pages: 312
         author: Isaac Watts
@@ -507,6 +540,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13166" }
       - title: Divine Songs for Children
+        kind: primary
         reader: student
         pages: 28
         author: Isaac Watts
@@ -515,6 +549,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13439" }
       - title: Olney Hymns
+        kind: primary
         reader: student
         pages: 348
         author: John Newton & William Cowper
@@ -523,6 +558,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/olneyhymnsinth00newt" }
       - title: A Collection of Hymns for the Use of the People Called Methodists
+        kind: primary
         reader: student
         pages: 493
         author: John & Charles Wesley
@@ -531,6 +567,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/collectionofhym00wesl" }
       - title: Lyra Catholica (breviary and missal hymns)
+        kind: primary
         reader: student
         author: Edward Caswall (trans.)
         date: "1849"
@@ -538,6 +575,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/LyraCatholica1849" }
       - title: The Christian Year
+        kind: primary
         reader: student
         pages: 316
         author: John Keble
@@ -597,6 +635,7 @@ rows:
       - Complete Fry's exercises in iambic pentameter (write 50+ correct lines)
     coreTexts:
       - title: "The Ode Less Travelled: Unlocking the Poet Within"
+        kind: instructional
         reader: student
         pages: 371
         author: Stephen Fry
@@ -605,6 +644,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
       - title: "Rhyme's Reason: A Guide to English Verse"
+        kind: instructional
         reader: student
         pages: 102
         author: John Hollander
@@ -613,6 +653,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rhymes-reason-john-hollander/1120113755?ean=9780300206296" }
       - title: Poetic Meter and Poetic Form
+        kind: instructional
         reader: student
         pages: 188
         author: Paul Fussell
@@ -621,6 +662,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0075536064" }
       - title: "English Verse: Specimens Illustrating its Principles and History"
+        kind: instructional
         reader: student
         pages: 459
         author: Raymond Macdonald Alden
@@ -629,6 +671,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32262" }
       - title: "A History of English Prosody, Vol. 1"
+        kind: secondary
         reader: teacher
         pages: 420
         author: George Saintsbury
@@ -675,6 +718,7 @@ rows:
       - Explain why a poet chose a given form, and the effect of the choice, for any studied poem
     coreTexts:
       - title: "The Oxford Book of English Verse, 1250–1900"
+        kind: secondary
         reader: student
         pages: 1083
         author: Arthur Quiller-Couch (ed.)
@@ -683,6 +727,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/66619" }
       - title: "Shakespeare's Sonnets"
+        kind: primary
         reader: student
         pages: 180
         author: William Shakespeare
@@ -691,6 +736,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1041" }
       - title: "Rhyme's Reason: A Guide to English Verse"
+        kind: instructional
         reader: student
         pages: 102
         author: John Hollander
@@ -699,6 +745,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rhymes-reason-john-hollander/1120113755?ean=9780300206296" }
       - title: The Ode Less Travelled
+        kind: instructional
         reader: student
         pages: 371
         author: Stephen Fry
@@ -707,6 +754,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
       - title: The Golden Treasury
+        kind: secondary
         reader: student
         pages: 428
         author: Francis Turner Palgrave (ed.)
@@ -759,6 +807,7 @@ rows:
       - Write an imitation of a Herbert pattern poem or a Donne holy sonnet
     coreTexts:
       - title: The Canterbury Tales (General Prologue)
+        kind: primary
         reader: student
         pages: 32
         author: Geoffrey Chaucer
@@ -767,6 +816,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2383" }
       - title: "Shakespeare's Sonnets"
+        kind: primary
         reader: student
         pages: 180
         author: William Shakespeare
@@ -775,6 +825,7 @@ rows:
         links:
           - { label: Folger Shakespeare, url: "https://www.folger.edu/explore/shakespeares-works/shakespeares-sonnets/" }
       - title: A Defence of Poesie and Poems
+        kind: primary
         reader: student
         pages: 192
         author: Sir Philip Sidney
@@ -783,6 +834,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1962" }
       - title: "The Poems of John Donne, Vol. 1 (ed. Grierson)"
+        kind: primary
         reader: student
         pages: 470
         author: John Donne
@@ -791,6 +843,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48688" }
       - title: "The Temple: Sacred Poems and Private Ejaculations"
+        kind: primary
         reader: student
         pages: 213
         author: George Herbert
@@ -799,6 +852,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/templesacredpoem00herbiala" }
       - title: The Poetical Works of Robert Southwell
+        kind: primary
         reader: student
         pages: 235
         author: St. Robert Southwell, S.J.
@@ -807,6 +861,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/poeticalworksof00sout" }
       - title: The Poems of Andrew Marvell
+        kind: primary
         reader: student
         pages: 207
         author: Andrew Marvell
@@ -815,6 +870,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/poemsandrewmarv00marvgoog" }
       - title: The Poetical Works of John Milton
+        kind: primary
         reader: student
         pages: 559
         author: John Milton
@@ -870,6 +926,7 @@ rows:
       - Write a Johnsonian "imitation" of a Latin satire applied to modern life
     coreTexts:
       - title: The Aeneid (trans. John Dryden)
+        kind: primary
         reader: student
         pages: 420
         author: Virgil
@@ -878,6 +935,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/228" }
       - title: The Iliad (trans. Alexander Pope)
+        kind: primary
         reader: student
         pages: 564
         author: Homer
@@ -886,6 +944,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6130" }
       - title: The Odyssey (trans. Alexander Pope)
+        kind: primary
         reader: student
         pages: 352
         author: Homer
@@ -894,6 +953,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3160" }
       - title: "Horace: Odes and Epodes (Latin text, ed. Shorey & Laing)"
+        kind: primary
         reader: student
         pages: 310
         author: Horace
@@ -902,6 +962,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9646" }
       - title: The Odes and Carmen Saeculare of Horace (trans. John Conington)
+        kind: primary
         reader: student
         pages: 144
         author: Horace
@@ -910,6 +971,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5432" }
       - title: The Vanity of Human Wishes (imitation of Juvenal X)
+        kind: primary
         reader: student
         pages: 10
         author: Samuel Johnson
@@ -958,6 +1020,7 @@ rows:
       - Analyze Hopkins' sprung rhythm and inscape in a close reading
     coreTexts:
       - title: Select Poems of Thomas Gray (incl. Elegy Written in a Country Churchyard)
+        kind: primary
         reader: student
         pages: 150
         author: Thomas Gray
@@ -966,6 +1029,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30357" }
       - title: "Lyrical Ballads, with Other Poems, 1800, Vol. 1"
+        kind: primary
         reader: student
         pages: 136
         author: William Wordsworth & S. T. Coleridge
@@ -974,6 +1038,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8905" }
       - title: Poems of Coleridge
+        kind: primary
         reader: student
         pages: 203
         author: Samuel Taylor Coleridge
@@ -982,6 +1047,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8208" }
       - title: "Keats: Poems Published in 1820 (the Odes)"
+        kind: primary
         reader: student
         pages: 200
         author: John Keats
@@ -990,6 +1056,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23684" }
       - title: In Memoriam A. H. H.
+        kind: primary
         reader: student
         pages: 136
         author: Alfred, Lord Tennyson
@@ -998,6 +1065,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/70950" }
       - title: Men and Women
+        kind: primary
         reader: student
         pages: 334
         author: Robert Browning
@@ -1006,6 +1074,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/17393" }
       - title: "Goblin Market, The Prince's Progress, and Other Poems"
+        kind: primary
         reader: student
         pages: 244
         author: Christina Rossetti
@@ -1014,6 +1083,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/16950" }
       - title: The Dream of Gerontius
+        kind: primary
         reader: student
         pages: 71
         author: John Henry Newman
@@ -1022,6 +1092,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48927" }
       - title: Poems of Gerard Manley Hopkins (ed. Robert Bridges)
+        kind: primary
         reader: student
         pages: 156
         author: Gerard Manley Hopkins, S.J.
@@ -1030,6 +1101,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/22403" }
       - title: "Poems and Songs (Tam o' Shanter, To a Mouse, The Cotter's Saturday Night, A Man's a Man)"
+        kind: primary
         reader: student
         pages: 300
         author: Robert Burns
@@ -1038,6 +1110,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1279" }
       - title: "Childe Harold's Pilgrimage (elective)"
+        kind: primary
         reader: student
         pages: 200
         author: George Gordon, Lord Byron
@@ -1092,6 +1165,7 @@ rows:
       - Distinguish free verse from loosened accentual verse
     coreTexts:
       - title: A Boy's Will
+        kind: primary
         reader: student
         pages: 63
         author: Robert Frost
@@ -1100,6 +1174,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3021" }
       - title: North of Boston
+        kind: primary
         reader: student
         pages: 140
         author: Robert Frost
@@ -1108,6 +1183,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3026" }
       - title: Mountain Interval
+        kind: primary
         reader: student
         pages: 108
         author: Robert Frost
@@ -1116,6 +1192,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29345" }
       - title: Poems
+        kind: primary
         reader: student
         pages: 474
         author: W. B. Yeats
@@ -1124,6 +1201,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38877" }
       - title: A Shropshire Lad
+        kind: primary
         reader: student
         pages: 95
         author: A. E. Housman
@@ -1132,6 +1210,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5720" }
       - title: Poems (incl. "Lepanto")
+        kind: primary
         reader: student
         pages: 160
         author: G. K. Chesterton
@@ -1140,6 +1219,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31184" }
       - title: Prufrock and Other Observations
+        kind: primary
         reader: student
         pages: 40
         author: T. S. Eliot
@@ -1148,6 +1228,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1459" }
       - title: Four Quartets
+        kind: primary
         reader: student
         pages: 48
         author: T. S. Eliot
@@ -1195,6 +1276,7 @@ rows:
       - Submit work to at least one juried poetry competition or publication
     coreTexts:
       - title: The Ode Less Travelled
+        kind: instructional
         reader: student
         pages: 371
         author: Stephen Fry
@@ -1203,6 +1285,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-ode-less-travelled-stephen-fry/1100624994?ean=9781592403110" }
       - title: Poetic Meter and Poetic Form
+        kind: instructional
         reader: student
         pages: 188
         author: Paul Fussell
@@ -1211,6 +1294,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/dp/0075536064" }
       - title: "The Poetical Works of John Milton (sonnets, Lycidas)"
+        kind: primary
         reader: student
         pages: 25
         author: John Milton
@@ -1218,6 +1302,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1745" }
       - title: "Keats: Poems Published in 1820 (the Odes)"
+        kind: primary
         reader: student
         pages: 200
         author: John Keats
@@ -1226,6 +1311,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23684" }
       - title: "The Oxford Book of English Verse, 1250–1900"
+        kind: secondary
         reader: student
         pages: 1083
         author: Arthur Quiller-Couch (ed.)
@@ -1310,6 +1396,7 @@ rows:
       - Write a 4,000-word "Defence of Poetry" of the student's own, citing the tradition
     coreTexts:
       - title: The Poetics (trans. S. H. Butcher)
+        kind: primary
         reader: student
         pages: 80
         author: Aristotle
@@ -1318,6 +1405,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1974" }
       - title: "The Satires, Epistles, and Art of Poetry (trans. Conington)"
+        kind: primary
         reader: student
         pages: 208
         author: Horace
@@ -1326,6 +1414,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5419" }
       - title: On the Sublime
+        kind: primary
         reader: student
         pages: 163
         author: Longinus (trans. H. L. Havell)
@@ -1334,6 +1423,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/17957" }
       - title: A Defence of Poesie and Poems
+        kind: primary
         reader: student
         pages: 192
         author: Sir Philip Sidney
@@ -1342,6 +1432,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1962" }
       - title: An Essay on Criticism
+        kind: primary
         reader: student
         pages: 48
         author: Alexander Pope
@@ -1350,6 +1441,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7409" }
       - title: "Lyrical Ballads, 1800, Vol. 1 (Preface)"
+        kind: primary
         reader: student
         pages: 30
         author: William Wordsworth
@@ -1358,6 +1450,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8905" }
       - title: A Defence of Poetry and Other Essays
+        kind: primary
         reader: student
         pages: 56
         author: Percy Bysshe Shelley
@@ -1366,6 +1459,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5428" }
       - title: "The Sacred Wood (incl. \"Tradition and the Individual Talent\")"
+        kind: primary
         reader: student
         pages: 170
         author: T. S. Eliot
@@ -1374,6 +1468,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/57795" }
       - title: An Experiment in Criticism
+        kind: primary
         reader: student
         pages: 142
         author: C. S. Lewis

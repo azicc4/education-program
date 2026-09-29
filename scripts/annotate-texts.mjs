@@ -1,8 +1,10 @@
-// Bulk annotation of coreTexts with `reader` (teacher | together | student) and length (`pages` / `words`).
+// Bulk annotation of coreTexts with `reader` (teacher | together | student), `kind` (primary | secondary | instructional)
+// and length (`pages` / `words`).
 //
 //   node scripts/annotate-texts.mjs export texts.json            list every coreText as { key: "rowId#i", ... }
 //   node scripts/annotate-texts.mjs pages texts.json pages.json   look up page counts on Open Library (cached, resumable)
-//   node scripts/annotate-texts.mjs apply mapping.json           write { "rowId#i": { reader, pages, words } } into the YAML
+//   node scripts/annotate-texts.mjs apply mapping.json           write { "rowId#i": { reader, kind, pages, words } } into the YAML
+//                                                                (only the fields present in each mapping entry are replaced)
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -22,7 +24,7 @@ function exportTexts(out) {
         list.push({
           key: `${r.id}#${i}`, rowId: r.id, track: doc.track, rowTitle: r.title, type: r.type, ageStart: r.ageStart, ageEnd: r.ageEnd,
           title: t.title, author: t.author || '', date: t.date || '', publicDomain: !!t.publicDomain,
-          reader: t.reader || '', pages: t.pages || null, words: t.words || null,
+          reader: t.reader || '', kind: t.kind || '', pages: t.pages || null, words: t.words || null,
         }),
       );
     }
@@ -107,14 +109,16 @@ function apply(mappingFile) {
       if (idm) { rowId = idm[1]; inTexts = false; idx = -1; }
       else if (/^    coreTexts:\s*$/.test(line)) { inTexts = true; idx = -1; }
       else if (inTexts && /^    \S/.test(line)) inTexts = false;
-      // drop existing annotations for entries we are rewriting
-      if (inTexts && /^        (reader|pages|words):/.test(line) && byRow[rowId]?.[idx]) continue;
+      // drop existing values only for the fields this mapping entry rewrites
+      const fm = inTexts && /^        (reader|kind|pages|words):/.exec(line);
+      if (fm && byRow[rowId]?.[idx] && fm[1] in byRow[rowId][idx]) continue;
       out.push(line);
       if (inTexts && /^      - title:/.test(line)) {
         idx++;
         const v = byRow[rowId]?.[idx];
         if (v) {
           if (v.reader) out.push(`        reader: ${v.reader}`);
+          if (v.kind) out.push(`        kind: ${v.kind}`);
           if (v.pages) out.push(`        pages: ${Math.round(v.pages)}`);
           if (v.words) out.push(`        words: ${Math.round(v.words)}`);
           changed++;

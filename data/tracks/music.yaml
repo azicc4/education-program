@@ -77,6 +77,7 @@ rows:
       - Sing the ordinary chants of a simple Mass (for example Mass XVIII) and common Latin hymns (Adoro te, Salve Regina)
     coreTexts:
       - title: "Music: First Year (Ward Method)"
+        kind: instructional
         reader: teacher
         author: Justine Bayard Ward
         date: "1914"
@@ -84,6 +85,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/MusicFirstYear" }
       - title: "Music: Third Year, Teacher's Manual"
+        kind: instructional
         reader: teacher
         author: Justine Bayard Ward
         date: "1919"
@@ -210,6 +212,7 @@ rows:
       - Compare a psalm with Watts's paraphrase of it
     coreTexts:
       - title: The Psalms of David Imitated in the Language of the New Testament
+        kind: primary
         reader: together
         pages: 312
         author: Isaac Watts
@@ -218,6 +221,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13166" }
       - title: Divine Songs for Children
+        kind: primary
         reader: together
         pages: 28
         author: Isaac Watts
@@ -267,6 +271,7 @@ rows:
       - Narrate a composer's life and describe a listened-to work in simple musical vocabulary
     coreTexts:
       - title: "The World's Great Men of Music: Story-Lives of Master Musicians"
+        kind: secondary
         reader: student
         pages: 240
         author: Harriette Brower
@@ -308,6 +313,7 @@ rows:
       - Translate and explain the Latin texts sung
     coreTexts:
       - title: The Parish Book of Chant (2nd ed.)
+        kind: primary
         reader: together
         author: Church Music Association of America
         date: "2012"
@@ -315,6 +321,7 @@ rows:
         links:
           - { label: CMAA free PDF, url: "https://media.musicasacra.com/books/pbc_2nd.pdf" }
       - title: Liber Usualis (Solesmes)
+        kind: primary
         reader: teacher
         pages: 1900
         author: Benedictines of Solesmes
@@ -442,6 +449,7 @@ rows:
       - Earn choir awards or take a section-leader role
     coreTexts:
       - title: Music in the History of the Western Church
+        kind: secondary
         reader: student
         pages: 426
         author: Edward Dickinson
@@ -488,6 +496,7 @@ rows:
       - Reach ABRSM Grade 6–8 theory or Advanced Placement Music Theory level
     coreTexts:
       - title: "The Study of Counterpoint (from Fux's Gradus ad Parnassum)"
+        kind: primary
         reader: student
         pages: 156
         author: Johann Joseph Fux; trans. Alfred Mann
@@ -529,6 +538,7 @@ rows:
       - Write a research essay on a composer or work
     coreTexts:
       - title: Music in the History of the Western Church
+        kind: secondary
         reader: student
         pages: 426
         author: Edward Dickinson
@@ -608,6 +618,7 @@ rows:
       - Write a seminar paper on music and moral formation
     coreTexts:
       - title: "Fundamentals of Music (De institutione musica), trans. Calvin M. Bower"
+        kind: primary
         reader: student
         pages: 230
         author: Boethius
@@ -617,6 +628,7 @@ rows:
           - { label: Yale University Press, url: "https://yalebooks.yale.edu/book/9780300039436/fundamentals-of-music/" }
           - { label: "Archive.org: Latin text (Friedlein, 1867)", url: "https://archive.org/details/DeInstitutioneArithmeticaLibriDuoDeInstitutioneMusicaLibriQuinque" }
       - title: "Strunk's Source Readings in Music History (rev. ed.)"
+        kind: secondary
         reader: student
         pages: 1550
         author: Oliver Strunk; Leo Treitler (gen. ed.)
@@ -625,6 +637,7 @@ rows:
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/9780393966947" }
       - title: The Consolation of Philosophy
+        kind: primary
         reader: student
         pages: 116
         author: Boethius

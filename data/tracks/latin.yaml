@@ -220,6 +220,7 @@ rows:
       - Command a working vocabulary of about 1,000 words (DCC Latin Core List)
     coreTexts:
       - title: Latin Core Vocabulary (1,000 most common words)
+        kind: instructional
         reader: student
         author: Dickinson College Commentaries
         publicDomain: false
@@ -323,6 +324,7 @@ rows:
       - Sustain 15 minutes of reading without stopping to parse every word
     coreTexts:
       - title: "Ritchie's Fabulae Faciles: A First Latin Reader"
+        kind: instructional
         reader: student
         pages: 134
         author: Francis Ritchie (ed. J. C. Kirtland)
@@ -332,6 +334,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8997" }
           - { label: "Steadman edition with facing vocabulary (free PDF)", url: "https://geoffreysteadman.com/ritchies-fabulae-faciles/" }
       - title: "Colloquiorum Centuria Selecta (Corderius's school colloquies, Willymot ed.)"
+        kind: instructional
         reader: student
         pages: 122
         author: Mathurin Cordier
@@ -340,6 +343,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/maturinicorderi00cordgoog" }
       - title: Colloquia (Colloquies)
+        kind: primary
         reader: student
         pages: 650
         author: Desiderius Erasmus
@@ -349,6 +353,7 @@ rows:
           - { label: "The Latin Library (Latin)", url: "https://www.thelatinlibrary.com/erasmus/coll.shtml" }
           - { label: "Project Gutenberg (English trans., vol. I)", url: "https://www.gutenberg.org/ebooks/14031" }
       - title: Breviarium ab Urbe Condita
+        kind: primary
         reader: student
         pages: 164
         author: Eutropius
@@ -358,6 +363,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/eutropius.html" }
           - { label: "Dickinson College Commentaries (notes)", url: "https://dcc.dickinson.edu/eutropius/breviarium-preface" }
       - title: Fabulae (Aesopic fables in verse)
+        kind: primary
         reader: student
         pages: 100
         author: Phaedrus
@@ -410,6 +416,7 @@ rows:
       - Read the grammar's sections on prosody (dactylic hexameter) before starting Ovid
     coreTexts:
       - title: New Latin Grammar
+        kind: instructional
         reader: student
         pages: 312
         author: Charles E. Bennett
@@ -418,6 +425,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15665" }
       - title: "Allen and Greenough's New Latin Grammar"
+        kind: instructional
         reader: student
         pages: 516
         author: J. H. Allen & J. B. Greenough
@@ -427,6 +435,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/allengreenoughsn00alleiala" }
           - { label: "Dickinson College Commentaries (searchable online edition)", url: "https://dcc.dickinson.edu/grammar/latin/credits-and-reuse" }
       - title: "Gildersleeve's Latin Grammar (Gildersleeve & Lodge)"
+        kind: instructional
         reader: student
         pages: 550
         author: B. L. Gildersleeve & Gonzalez Lodge
@@ -435,6 +444,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/gildersleeveslat00gilduoft" }
       - title: The Eton Latin Grammar (historical)
+        kind: instructional
         reader: student
         author: T. W. C. Edwards (ed.)
         date: "19th c."
@@ -480,6 +490,7 @@ rows:
       - Write a one-page English essay judging Caesar as a commander and a statesman
     coreTexts:
       - title: Commentarii de Bello Gallico
+        kind: primary
         reader: together
         pages: 250
         author: Julius Caesar
@@ -490,6 +501,7 @@ rows:
           - { label: "Dickinson College Commentaries (notes, vocab, audio)", url: "https://dcc.dickinson.edu/caesar/book-1/chapter-1-1" }
           - { label: "Steadman, College Caesar (free PDF with facing vocabulary)", url: "https://geoffreysteadman.com/college-caesar/" }
       - title: De Viris Illustribus (Lives)
+        kind: primary
         reader: together
         pages: 150
         author: Cornelius Nepos
@@ -499,6 +511,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/nepos.html" }
           - { label: "Dickinson College Commentaries, Life of Hannibal", url: "https://dcc.dickinson.edu/nepos-hannibal/chapter-1" }
       - title: "Historiae Philippicae (Epitome of Trogus) (elective)"
+        kind: primary
         reader: student
         pages: 300
         author: Justin (Marcus Junianus Justinus)
@@ -557,6 +570,7 @@ rows:
       - Keep a personal phrase-book of Ciceronian idioms collected from reading
     coreTexts:
       - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold)"
+        kind: instructional
         reader: student
         pages: 440
         author: Thomas Kerchever Arnold, rev. George Granville Bradley
@@ -565,6 +579,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/practicalintrod00arnouoft" }
       - title: Latin Prose Composition for the Middle Forms of Schools
+        kind: instructional
         reader: student
         pages: 299
         author: M. A. North & A. E. Hillard
@@ -614,6 +629,7 @@ rows:
       - Trace three Ovidian myths into later English poetry or painting
     coreTexts:
       - title: Metamorphoses
+        kind: primary
         reader: student
         pages: 394
         author: Ovid
@@ -660,6 +676,7 @@ rows:
       - List the main differences of ecclesiastical and medieval Latin (quod/quia clauses, vocabulary, orthography)
     coreTexts:
       - title: Biblia Sacra Vulgata (Clementine)
+        kind: primary
         reader: student
         pages: 1400
         author: St. Jerome (trans.)
@@ -669,6 +686,7 @@ rows:
           - { label: "DRBO Latin Vulgate", url: "https://www.drbo.org/lvb/" }
           - { label: "The Latin Library, Bible", url: "https://www.thelatinlibrary.com/bible.html" }
       - title: Nova Vulgata (official Latin Bible of the Catholic Church)
+        kind: primary
         reader: student
         author: Holy See
         date: "1979"
@@ -676,12 +694,14 @@ rows:
         links:
           - { label: "Vatican.va (free online)", url: "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html" }
       - title: Latin Hymns and Carols
+        kind: primary
         reader: student
         author: Various
         publicDomain: true
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hymni.html" }
       - title: Divinum Officium (Breviary and Missal texts in Latin)
+        kind: primary
         reader: student
         author: Various
         publicDomain: true
@@ -747,6 +767,7 @@ rows:
       - Analyse the structure of a Ciceronian period and a classical oration (exordium to peroratio)
     coreTexts:
       - title: In Catilinam I–IV
+        kind: primary
         reader: student
         pages: 60
         author: Cicero
@@ -756,6 +777,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/cat.shtml" }
           - { label: "Steadman, Cicero's 1st Catilinarian (free PDF)", url: "https://geoffreysteadman.com/ciceros-1st-catilinarian/" }
       - title: Pro Archia
+        kind: primary
         reader: student
         pages: 15
         author: Cicero
@@ -764,6 +786,7 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/arch.shtml" }
       - title: De Amicitia
+        kind: primary
         reader: student
         pages: 50
         author: Cicero
@@ -772,6 +795,7 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/amic.shtml" }
       - title: Epistulae ad Atticum
+        kind: primary
         reader: student
         pages: 900
         author: Cicero
@@ -779,6 +803,7 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/epis.shtml" }
       - title: De Officiis
+        kind: primary
         reader: student
         pages: 255
         author: Cicero
@@ -788,6 +813,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/off.shtml" }
           - { label: "Steadman, De Officiis Book 1 (free PDF)", url: "https://geoffreysteadman.com/cicero-de-officiis-book-1/" }
       - title: "Tusculanae Disputationes (selections, esp. Books I and V)"
+        kind: primary
         reader: student
         pages: 250
         author: Cicero
@@ -856,6 +882,7 @@ rows:
       - Read Eclogue IV and know its place in Christian reception (the "Messianic" eclogue)
     coreTexts:
       - title: Aeneid
+        kind: primary
         reader: student
         pages: 433
         author: Virgil (P. Vergilius Maro)
@@ -918,6 +945,7 @@ rows:
       - Draw three lessons on republican virtue that Adams or Jefferson drew from Roman history
     coreTexts:
       - title: Ab Urbe Condita
+        kind: primary
         reader: student
         pages: 2500
         author: Livy
@@ -927,6 +955,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/liv.html" }
           - { label: "Steadman, Livy selections (free PDF)", url: "https://geoffreysteadman.com/livy/" }
       - title: Bellum Catilinae
+        kind: primary
         reader: student
         pages: 160
         author: Sallust
@@ -936,6 +965,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/sall.html" }
           - { label: "Steadman, Sallust (free PDF)", url: "https://geoffreysteadman.com/sallust/" }
       - title: "Historiae Alexandri Magni (elective)"
+        kind: primary
         reader: student
         pages: 400
         author: Quintus Curtius Rufus
@@ -984,6 +1014,7 @@ rows:
       - Imitate one Horatian ode in English verse
     coreTexts:
       - title: Carmina, Sermones, Epistulae, Ars Poetica
+        kind: primary
         reader: student
         pages: 350
         author: Horace
@@ -992,6 +1023,7 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hor.html" }
       - title: "Comedies: Andria and Adelphoe (with the other four plays)"
+        kind: primary
         reader: student
         pages: 150
         author: Terence
@@ -1001,6 +1033,7 @@ rows:
           - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/ter.html" }
           - { label: "Gutenberg (tr. George Colman, 1765)", url: "https://www.gutenberg.org/ebooks/22695" }
       - title: "Captivi and Mostellaria (elective)"
+        kind: primary
         reader: student
         pages: 130
         author: Plautus
@@ -1010,6 +1043,7 @@ rows:
           - { label: Project Gutenberg (tr. Riley), url: "https://www.gutenberg.org/ebooks/7282" }
           - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/plautus.html" }
       - title: "Satires (elective)"
+        kind: primary
         reader: student
         pages: 60
         author: Persius
@@ -1056,6 +1090,7 @@ rows:
       - Write and deliver a short Latin oration (3–5 minutes)
     coreTexts:
       - title: Latin Prose Composition for the Middle Forms of Schools
+        kind: instructional
         reader: student
         pages: 299
         author: M. A. North & A. E. Hillard
@@ -1064,6 +1099,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913" }
       - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold), Part III"
+        kind: instructional
         reader: student
         author: T. K. Arnold, rev. G. G. Bradley
         date: "1884"
@@ -1108,6 +1144,7 @@ rows:
       - Memorize Adoro Te Devote or Pange Lingua
     coreTexts:
       - title: Confessiones
+        kind: primary
         reader: student
         pages: 383
         author: St. Augustine
@@ -1117,6 +1154,7 @@ rows:
           - { label: "The Latin Library, Book I", url: "https://www.thelatinlibrary.com/augustine/conf1.shtml" }
           - { label: "The Latin Library, Augustine index", url: "https://www.thelatinlibrary.com/august.html" }
       - title: Historia Ecclesiastica Gentis Anglorum
+        kind: primary
         reader: student
         pages: 416
         author: Bede
@@ -1126,6 +1164,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/bede.html" }
           - { label: "Dickinson College Commentaries (notes)", url: "https://dcc.dickinson.edu/bede-historia-ecclesiastica/book-1/prologus" }
       - title: Summa Theologiae (and hymns)
+        kind: primary
         reader: student
         pages: 3000
         author: St. Thomas Aquinas
@@ -1177,6 +1216,7 @@ rows:
       - Write a Latin summary (argumentum) of each book read
     coreTexts:
       - title: De Rerum Natura
+        kind: primary
         reader: student
         pages: 289
         author: Lucretius
@@ -1185,6 +1225,7 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/lucretius.html" }
       - title: Agricola, Germania, Annales, Historiae
+        kind: primary
         reader: student
         pages: 800
         author: Tacitus
@@ -1194,6 +1235,7 @@ rows:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/tac.html" }
           - { label: "Dickinson College Commentaries, Agricola & Annals 15", url: "https://dcc.dickinson.edu/tacitus-agricola/1" }
       - title: "Pharsalia (De Bello Civili) (elective)"
+        kind: primary
         reader: student
         pages: 450
         author: Lucan
@@ -1234,6 +1276,7 @@ rows:
       - Read a Neo-Latin political text (More, Erasmus's Institutio Principis Christiani, or Grotius)
     coreTexts:
       - title: Confessiones
+        kind: primary
         reader: student
         pages: 383
         author: St. Augustine
@@ -1241,6 +1284,7 @@ rows:
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/august.html" }
       - title: "Summa Theologiae, I-II (Treatise on Law)"
+        kind: primary
         reader: student
         pages: 150
         author: St. Thomas Aquinas
@@ -1248,6 +1292,7 @@ rows:
         links:
           - { label: Corpus Thomisticum, url: "https://www.corpusthomisticum.org/" }
       - title: Institutio Principis Christiani
+        kind: primary
         reader: student
         pages: 277
         author: Desiderius Erasmus

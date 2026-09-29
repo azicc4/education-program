@@ -428,3 +428,34 @@ ol.entries li { margin: 8px 0; }
 .unit-links { display: flex; flex-wrap: wrap; gap: 4px; }
 .unit-chip { font: 0.78rem var(--sans); border: 1px solid var(--rule); border-radius: 6px; padding: 2px 7px; text-decoration: none; background: var(--bg); }
 .unit-chip small { color: var(--ink-2); }
+
+/* ---------- sources page ---------- */
+.kind-curricula { --k: #1f5a7a; }
+.kind-primary { --k: #7a1f1f; }
+.kind-secondary { --k: #b8860b; }
+.kind-instructional { --k: #3f6e3a; }
+.chip[data-kind][aria-pressed="true"] { background: var(--k); border-color: var(--k); color: #fff; }
+.mix-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 0.85rem var(--sans); color: var(--ink-2); margin-bottom: 8px; }
+.mix-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: var(--k); margin-right: 6px; vertical-align: -1px; }
+.mix-rows { display: grid; gap: 3px; }
+.mix-row { display: grid; grid-template-columns: minmax(120px, 190px) 1fr minmax(160px, 260px); gap: 10px; align-items: center; text-decoration: none; color: var(--ink); font: 0.85rem var(--sans); padding: 2px 4px; border-radius: 4px; }
+.mix-row:hover { background: var(--surface-2); }
+.mix-bar { display: flex; height: 14px; border-radius: 3px; overflow: hidden; min-width: 4px; }
+.mix-bar i { display: block; background: var(--k); }
+.mix-num { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.src-group { font-size: 1.4rem; margin: 26px 0 6px; }
+.src-track { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; margin: 10px 0; scroll-margin-top: 12px; }
+.src-track h3 { margin: 0 0 8px; font-size: 1.2rem; }
+.src-track h3 small { font: 0.8rem var(--sans); color: var(--ink-2); margin-left: 6px; }
+.src-cols { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.kind-title { font: 600 0.78rem var(--sans); text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 6px; padding-bottom: 4px; border-bottom: 3px solid var(--k); color: var(--ink); }
+.kind-title small { color: var(--ink-2); }
+.src-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.src-list li.elective { opacity: 0.8; }
+.src-head { font-weight: 600; line-height: 1.3; }
+.src-head a { color: var(--ink); text-decoration-color: var(--rule); }
+.src-meta { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; font-size: 0.85rem; margin: 2px 0; }
+.src-list .unit-links { margin-top: 3px; }
+.src-list .unit-chip { cursor: pointer; color: var(--link); }
+@media (max-width: 760px) { .mix-row { grid-template-columns: 1fr; gap: 2px; } }
+.badge.kind-badge { color: var(--k); }

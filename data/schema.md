@@ -61,6 +61,9 @@ rows:
         author: Charles Bennett
         date: "1895"
         publicDomain: true
+        reader: student      # teacher | together | student — who reads it
+        kind: instructional  # primary (original work read directly) | secondary (history, commentary, retelling) | instructional (textbook, grammar, workbook, prep)
+        pages: 320           # standard complete edition, when known
         links:
           - { label: Archive.org, url: "https://archive.org/details/..." }
     curriculumOptions:       # 2–3 real, purchasable/available programs where they exist

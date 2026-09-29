@@ -28,6 +28,7 @@ and has a page count where one is known.
 - [ ] Longer-term: sync family progress across devices; let hand-added Bookshelf books be proposed for the curriculum.
 
 ## Done
+- [x] Sources page: curricula vs primary, secondary and instructional texts by track. Every text is classified by kind (916 primary, 156 secondary, 215 instructional).
 - [x] Research pass for every track; founding-era, 19th-century and British/Irish university lists
 - [x] Site: table and detail panel, skill tree, snapshot bookshelf, radial tree, founding page, exams page, family tools
 - [x] First link check (1,961 URLs) and fixes

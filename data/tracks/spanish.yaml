@@ -36,6 +36,7 @@ rows:
       - Answer in Spanish (single words, then phrases) without being pressured to perform
     coreTexts:
       - title: "Language Strategies for Bilingual Families: The One-Parent-One-Language Approach"
+        kind: instructional
         reader: teacher
         pages: 220
         author: Suzanne Barron-Hauwaert
@@ -150,6 +151,7 @@ rows:
       - Write a half-page composition in Spanish without a dictionary
     coreTexts:
       - title: Spanish Tales for Beginners
+        kind: instructional
         reader: together
         pages: 298
         author: E. C. Hills and Louise Reinhardt (eds.)
@@ -158,6 +160,7 @@ rows:
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/36805" }
       - title: A First Spanish Reader
+        kind: instructional
         reader: together
         pages: 260
         author: Erwin W. Roessler and Alfred Remy
@@ -204,6 +207,7 @@ rows:
       - Reach about ACTFL Intermediate-Mid in reading and speaking
     coreTexts:
       - title: "Destinos: An Introduction to Spanish (video series)"
+        kind: instructional
         reader: student
         author: WGBH / Annenberg
         date: "1992"
@@ -249,6 +253,7 @@ rows:
       - Explain the picaresque and the chivalric romance that Cervantes parodies
     coreTexts:
       - title: "Don Quijote de la Mancha: edición escolar (RAE, adapted by Arturo Pérez-Reverte)"
+        kind: primary
         reader: student
         pages: 376
         author: Miguel de Cervantes
@@ -301,6 +306,7 @@ rows:
       - Explain the Valladolid debate (1550–51) and the natural-law arguments of Las Casas and Vitoria
     coreTexts:
       - title: Historia verdadera de la conquista de la Nueva España
+        kind: primary
         reader: student
         pages: 478
         author: Bernal Díaz del Castillo
@@ -310,6 +316,7 @@ rows:
           - { label: "Project Gutenberg (Spanish, vol. 1 of 3)", url: "https://www.gutenberg.org/ebooks/64945" }
           - { label: "Project Gutenberg (English, Lockhart trans., vol. 1)", url: "https://www.gutenberg.org/ebooks/32474" }
       - title: Brevísima relación de la destrucción de las Indias
+        kind: primary
         reader: student
         pages: 100
         author: Bartolomé de las Casas
@@ -348,6 +355,7 @@ rows:
       - Scan Spanish verse and identify sonnet, lira, romance and redondilla forms
     coreTexts:
       - title: Vida de Lazarillo de Tormes y de sus fortunas y adversidades
+        kind: primary
         reader: student
         pages: 100
         author: Anonymous
@@ -357,6 +365,7 @@ rows:
           - { label: "Project Gutenberg (Spanish)", url: "https://www.gutenberg.org/ebooks/320" }
           - { label: "Project Gutenberg (English)", url: "https://www.gutenberg.org/ebooks/437" }
       - title: Obras
+        kind: primary
         reader: student
         pages: 330
         author: Garcilaso de la Vega
@@ -365,6 +374,7 @@ rows:
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/68131" }
       - title: Historia de la vida del Buscón
+        kind: primary
         reader: student
         pages: 216
         author: Francisco de Quevedo
@@ -400,6 +410,7 @@ rows:
       - Write a short essay in Spanish on prayer as Teresa describes it
     coreTexts:
       - title: Libro de la vida
+        kind: primary
         reader: student
         pages: 298
         author: Santa Teresa de Jesús
@@ -409,6 +420,7 @@ rows:
           - { label: "Wikisource (Spanish)", url: "https://es.wikisource.org/wiki/Libro_de_la_vida_de_Santa_Teresa_de_Jes%C3%BAs" }
           - { label: "Project Gutenberg (English, Lewis trans.)", url: "https://www.gutenberg.org/ebooks/8120" }
       - title: Las moradas (El castillo interior)
+        kind: primary
         reader: student
         pages: 250
         author: Santa Teresa de Jesús
@@ -418,6 +430,7 @@ rows:
           - { label: "Archive.org (Spanish, 1916)", url: "https://archive.org/details/lasmoradas00tereuoft" }
           - { label: "CCEL (English)", url: "https://ccel.org/ccel/teresa/castle2.toc.html" }
       - title: Poesías (Noche oscura, Cántico espiritual, Llama de amor viva)
+        kind: primary
         reader: student
         pages: 20
         author: San Juan de la Cruz
@@ -454,6 +467,7 @@ rows:
       - Discuss the novel's themes (madness and reason, fiction and reality, Christian charity, honor) in Spanish seminar
     coreTexts:
       - title: El ingenioso hidalgo don Quijote de la Mancha
+        kind: primary
         reader: student
         pages: 819
         author: Miguel de Cervantes
@@ -489,6 +503,7 @@ rows:
       - Read one Galdós novel and write a Spanish essay comparing its view of faith and society with Calderón's
     coreTexts:
       - title: La vida es sueño
+        kind: primary
         reader: student
         pages: 184
         author: Pedro Calderón de la Barca
@@ -499,6 +514,7 @@ rows:
           - { label: "Biblioteca Virtual Miguel de Cervantes", url: "https://www.cervantesvirtual.com/obra/la-vida-es-sueno/" }
           - { label: "Project Gutenberg: Teatro selecto, tomo 1", url: "https://www.gutenberg.org/ebooks/54436" }
       - title: Rimas; Obras escogidas
+        kind: primary
         reader: student
         pages: 299
         author: Gustavo Adolfo Bécquer
@@ -508,6 +524,7 @@ rows:
           - { label: "Archive.org: Rimas", url: "https://archive.org/details/rimasbcqu00bcqu" }
           - { label: "Project Gutenberg: Obras escogidas", url: "https://www.gutenberg.org/ebooks/53552" }
       - title: Marianela; Doña Perfecta
+        kind: primary
         reader: student
         pages: 450
         author: Benito Pérez Galdós
@@ -541,6 +558,7 @@ rows:
       - Write timed literary-analysis essays in Spanish (AP format)
     coreTexts:
       - title: San Manuel Bueno, mártir
+        kind: primary
         reader: student
         pages: 84
         author: Miguel de Unamuno
@@ -549,6 +567,7 @@ rows:
         links:
           - { label: "Ediciones Cátedra", url: "https://catedra.com/libro/letras-hispanicas/san-manuel-bueno-martir-miguel-de-unamuno-9788437601854/" }
       - title: Abel Sánchez; Vida de Don Quijote y Sancho
+        kind: primary
         reader: student
         pages: 550
         author: Miguel de Unamuno
@@ -558,6 +577,7 @@ rows:
           - { label: "Project Gutenberg: Abel Sánchez", url: "https://www.gutenberg.org/ebooks/44512" }
           - { label: "Project Gutenberg: Vida de Don Quijote y Sancho", url: "https://www.gutenberg.org/ebooks/75472" }
       - title: "Veinte poemas de amor y una canción desesperada (bilingual)"
+        kind: primary
         reader: student
         pages: 80
         author: Pablo Neruda
@@ -566,6 +586,7 @@ rows:
         links:
           - { label: "Penguin Random House", url: "https://www.penguinrandomhouse.com/books/773270/twenty-love-poems-and-a-song-of-despair-by-pablo-neruda-translated-by-w-s-merwin-introduction-by-cristina-garcia/" }
       - title: Ficciones / Fictions (bilingual)
+        kind: primary
         reader: student
         pages: 180
         author: Jorge Luis Borges
@@ -605,6 +626,7 @@ rows:
       - Discuss philosophical and theological texts orally in Spanish at an educated register
     coreTexts:
       - title: Del sentimiento trágico de la vida
+        kind: primary
         reader: student
         pages: 304
         author: Miguel de Unamuno
@@ -614,6 +636,7 @@ rows:
           - { label: "Project Gutenberg (Spanish)", url: "https://www.gutenberg.org/ebooks/59852" }
           - { label: "Project Gutenberg (English)", url: "https://www.gutenberg.org/ebooks/14636" }
       - title: The Interior Castle (for comparison with the Spanish)
+        kind: primary
         reader: student
         pages: 250
         author: Teresa of Ávila

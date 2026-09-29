@@ -43,6 +43,7 @@ rows:
       - Take a bow, receive applause graciously, and praise a fellow player's work
     coreTexts:
       - title: Tales from Shakespeare
+        kind: secondary
         reader: together
         pages: 320
         author: Charles & Mary Lamb
@@ -51,6 +52,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/573" }
       - title: "A Midsummer Night's Dream for Kids (Shakespeare Can Be Fun!)"
+        kind: secondary
         reader: together
         pages: 64
         author: Lois Burdett
@@ -59,6 +61,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Midsummer-Nights-Dream-Kids-Shakespeare/dp/1552091244" }
       - title: "Theater Games for the Classroom: A Teacher's Handbook"
+        kind: instructional
         reader: teacher
         pages: 233
         author: Viola Spolin
@@ -67,6 +70,7 @@ rows:
         links:
           - { label: Northwestern University Press, url: "https://nupress.northwestern.edu/9780810140042/theater-games-for-the-classroom/" }
       - title: How to Teach Your Children Shakespeare
+        kind: instructional
         reader: teacher
         pages: 368
         author: Ken Ludwig
@@ -131,6 +135,7 @@ rows:
       - Play a role in a 20-minute or one-hour abridged play with a company
     coreTexts:
       - title: The Folger Guide to Teaching A Midsummer Night's Dream
+        kind: instructional
         reader: teacher
         author: Peggy O'Brien (general editor), Folger Shakespeare Library
         date: "2025"
@@ -138,6 +143,7 @@ rows:
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/The-Folger-Guide-to-Teaching-A-Midsummer-Nights-Dream/Peggy-OBrien/Folger-Shakespeare-Library/9781982105662" }
       - title: "Shakespeare Set Free: Teaching Romeo & Juliet, Macbeth & Midsummer Night"
+        kind: instructional
         reader: teacher
         pages: 288
         author: Peggy O'Brien (ed.), Folger Shakespeare Library
@@ -146,6 +152,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Shakespeare-Set-Free-Teaching-Midsummer/dp/0743288505" }
       - title: "Shakespeare on Toast: Getting a Taste for the Bard"
+        kind: secondary
         reader: teacher
         pages: 272
         author: Ben Crystal
@@ -154,6 +161,7 @@ rows:
         links:
           - { label: Icon Books, url: "https://www.iconbooks.com/ib-title/shakespeare-on-toast/" }
       - title: A Midsummer Night's Dream (Folger text)
+        kind: primary
         reader: student
         pages: 256
         author: William Shakespeare
@@ -230,6 +238,7 @@ rows:
       - Compare Walker's rules on emphasis and inflection with Berry's modern approach, and say what each gets right
     coreTexts:
       - title: Voice and the Actor
+        kind: instructional
         reader: teacher
         pages: 149
         author: Cicely Berry
@@ -238,6 +247,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Voice-Actor-Cicely-Berry/dp/0020415559" }
       - title: "Freeing the Natural Voice: Imagery and Art in the Practice of Voice and Language"
+        kind: instructional
         reader: teacher
         pages: 296
         author: Kristin Linklater
@@ -246,6 +256,7 @@ rows:
         links:
           - { label: Nick Hern Books, url: "https://www.nickhernbooks.co.uk/freeing-the-natural-voice" }
       - title: "The Actor Speaks: Voice and the Performer"
+        kind: instructional
         reader: teacher
         pages: 394
         author: Patsy Rodenburg
@@ -254,6 +265,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Actor-Speaks-Voice-Performer-Performance/dp/1350027138" }
       - title: "Elements of Elocution (with a copious selection of passages from Shakespeare)"
+        kind: instructional
         reader: teacher
         author: John Walker
         date: "1781 (Boston ed. 1810)"
@@ -322,6 +334,7 @@ rows:
       - Explain the difference between a phoneme and an allophone, with English examples (e.g. aspirated [pʰ] vs [p])
     coreTexts:
       - title: The International Phonetic Alphabet (full chart)
+        kind: instructional
         reader: student
         author: International Phonetic Association
         date: "rev. 2020"
@@ -329,12 +342,14 @@ rows:
         links:
           - { label: "IPA (free, CC BY-SA)", url: "https://www.internationalphoneticassociation.org/content/full-ipa-chart" }
       - title: "Seeing Speech: interactive IPA charts with ultrasound and MRI video"
+        kind: instructional
         reader: student
         author: University of Glasgow and partners
         publicDomain: false
         links:
           - { label: Seeing Speech (free), url: "https://www.seeingspeech.ac.uk/" }
       - title: "Speak with Distinction: The Classic Skinner Method to Speech on the Stage"
+        kind: instructional
         reader: student
         pages: 406
         author: Edith Skinner (rev. Timothy Monich & Lilene Mansell)
@@ -343,6 +358,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Speak-Distinction-Classic-Skinner-Method/dp/1557830479" }
       - title: "Speaking with Skill: An Introduction to Knight-Thompson Speech Work"
+        kind: instructional
         reader: student
         pages: 192
         author: Dudley Knight
@@ -351,6 +367,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/speaking-with-skill-dudley-knight/1147800257" }
       - title: An Outline of English Phonetics
+        kind: instructional
         reader: teacher
         pages: 378
         author: Daniel Jones
@@ -418,6 +435,7 @@ rows:
       - Perform two contrasting speeches (verse and prose) and one soliloquy spoken directly to the audience
     coreTexts:
       - title: The Actor and the Text
+        kind: instructional
         reader: student
         pages: 303
         author: Cicely Berry
@@ -426,6 +444,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Actor-Text-Applause-Acting/dp/1557831386" }
       - title: "Playing Shakespeare: An Actor's Guide"
+        kind: instructional
         reader: student
         pages: 238
         author: John Barton
@@ -434,6 +453,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Playing-Shakespeare-Performance-Books-Barton/dp/0713687738" }
       - title: "Secrets of Acting Shakespeare: The Original Approach (2nd ed.)"
+        kind: instructional
         reader: student
         pages: 389
         author: Patrick Tucker
@@ -442,6 +462,7 @@ rows:
         links:
           - { label: Routledge, url: "https://www.routledge.com/Secrets-of-Acting-Shakespeare-The-Original-Approach/Tucker/p/book/9781138678521" }
       - title: "Freeing Shakespeare's Voice: The Actor's Guide to Talking the Text"
+        kind: instructional
         reader: student
         pages: 214
         author: Kristin Linklater
@@ -450,6 +471,7 @@ rows:
         links:
           - { label: Nick Hern Books, url: "https://www.nickhernbooks.co.uk/freeing-shakespeares-voice" }
       - title: "Hamlet (Act 3, Scene 2: the advice to the players)"
+        kind: primary
         reader: student
         pages: 2
         author: William Shakespeare
@@ -511,6 +533,7 @@ rows:
       - Transcribe short broadcast samples of each accent and identify at least five diagnostic features
     coreTexts:
       - title: "Accents of English, Vol. 1: An Introduction"
+        kind: instructional
         reader: teacher
         pages: 278
         author: J. C. Wells
@@ -519,6 +542,7 @@ rows:
         links:
           - { label: Cambridge University Press, url: "https://www.cambridge.org/9780521297196" }
       - title: "English After RP: Standard British Pronunciation Today"
+        kind: instructional
         reader: student
         pages: 172
         author: Geoff Lindsey
@@ -527,6 +551,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/English-After-RP-Standard-Pronunciation/dp/3030043568" }
       - title: "Accents & Dialects for Stage and Screen"
+        kind: instructional
         reader: student
         pages: 426
         author: Paul Meier
@@ -534,6 +559,7 @@ rows:
         links:
           - { label: Paul Meier Dialect Services, url: "https://www.paulmeier.com/" }
       - title: "Dissertations on the English Language (on an American standard)"
+        kind: primary
         reader: teacher
         pages: 310
         author: Noah Webster
@@ -597,6 +623,7 @@ rows:
       - Distinguish an authentic accent from a stage caricature, and explain why caricature fails as art and as charity
     coreTexts:
       - title: "Accents: A Manual for Actors (rev. & expanded)"
+        kind: instructional
         reader: student
         pages: 370
         author: Robert Blumenfeld
@@ -605,6 +632,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Accents-Manual-Actors-Revised-Expanded/dp/087910967X" }
       - title: "Accents & Dialects for Stage and Screen"
+        kind: instructional
         reader: student
         pages: 426
         author: Paul Meier
@@ -612,6 +640,7 @@ rows:
         links:
           - { label: Paul Meier Dialect Services, url: "https://www.paulmeier.com/" }
       - title: International Dialects of English Archive (recordings)
+        kind: instructional
         reader: student
         author: Paul Meier (founder) and contributors
         date: "1998–"
@@ -619,6 +648,7 @@ rows:
         links:
           - { label: dialectsarchive.com (free), url: "https://www.dialectsarchive.com/" }
       - title: "Dynamic Dialects: Accent Chart"
+        kind: instructional
         reader: student
         author: University of Glasgow
         publicDomain: false
@@ -683,6 +713,7 @@ rows:
       - Debate the resolution "A public man should speak a standard accent" using founding-era and modern sources
     coreTexts:
       - title: "Talking Proper: The Rise of Accent as Social Symbol (2nd ed.)"
+        kind: secondary
         reader: student
         pages: 361
         author: Lynda Mugglestone
@@ -691,6 +722,7 @@ rows:
         links:
           - { label: Oxford University Press, url: "https://academic.oup.com/book/10612" }
       - title: Pygmalion
+        kind: primary
         reader: student
         pages: 135
         author: George Bernard Shaw
@@ -699,6 +731,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3825" }
       - title: A General Dictionary of the English Language (with a Rhetorical Grammar)
+        kind: primary
         reader: student
         author: Thomas Sheridan
         date: "1780"
@@ -706,6 +739,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/generaldictionar02sher" }
       - title: A Critical Pronouncing Dictionary and Expositor of the English Language
+        kind: primary
         reader: student
         pages: 709
         author: John Walker
@@ -714,6 +748,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_a-critical-pronouncing-d_walker-john_1791" }
       - title: Dissertations on the English Language
+        kind: primary
         reader: student
         pages: 310
         author: Noah Webster
@@ -722,6 +757,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/bim_eighteenth-century_dissertations-on-the-eng_webster-noah-lld_1789" }
       - title: "American English: Dialects and Variation (3rd ed.)"
+        kind: instructional
         reader: student
         pages: 452
         author: Walt Wolfram & Natalie Schilling
@@ -779,6 +815,7 @@ rows:
       - Explain the evidence and the uncertainty in any historical reconstruction of pronunciation
     coreTexts:
       - title: "Pronouncing Shakespeare: The Globe Experiment"
+        kind: secondary
         reader: student
         pages: 188
         author: David Crystal
@@ -787,6 +824,7 @@ rows:
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/pronouncing-shakespeare-david-crystal/1111107935" }
       - title: The Oxford Dictionary of Original Shakespearean Pronunciation
+        kind: instructional
         reader: student
         author: David Crystal
         date: "2016"
@@ -795,12 +833,14 @@ rows:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-oxford-dictionary-of-original-shakespearean-pronunciation-9780199668427" }
           - { label: OUP companion site (sound files), url: "https://global.oup.com/booksites/content/9780199668427/" }
       - title: "Original Pronunciation (website: productions, recordings, resources)"
+        kind: instructional
         reader: student
         author: David Crystal & Ben Crystal
         publicDomain: false
         links:
           - { label: originalpronunciation.com, url: "http://originalpronunciation.com/" }
       - title: "Shakespeare's Sonnets"
+        kind: primary
         reader: student
         pages: 180
         author: William Shakespeare
@@ -860,12 +900,14 @@ rows:
       - Compete in the ESU National Shakespeare Competition school round (one monologue plus one sonnet)
     coreTexts:
       - title: The Folger Method (Cutting a Text; Promptbooks; Group Scenes)
+        kind: instructional
         reader: teacher
         author: Folger Shakespeare Library
         publicDomain: false
         links:
           - { label: Folger Shakespeare Library, url: "https://www.folger.edu/teach/the-folger-method/" }
       - title: "The Director's Craft: A Handbook for the Theatre"
+        kind: instructional
         reader: student
         pages: 246
         author: Katie Mitchell
@@ -874,6 +916,7 @@ rows:
         links:
           - { label: Routledge, url: "https://www.routledge.com/The-Directors-Craft-A-Handbook-for-the-Theatre/Mitchell/p/book/9780415404396" }
       - title: "Secrets of Acting Shakespeare: The Original Approach (cue scripts and staging)"
+        kind: instructional
         reader: student
         pages: 389
         author: Patrick Tucker
@@ -946,6 +989,7 @@ rows:
       - Attend a residential Shakespeare intensive or perform in a public Shakespeare festival or competition
     coreTexts:
       - title: "The Empty Space: A Book About the Theatre: Deadly, Holy, Rough, Immediate"
+        kind: primary
         reader: student
         pages: 141
         author: Peter Brook
@@ -954,6 +998,7 @@ rows:
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/The-Empty-Space/Peter-Brook/9780684829579" }
       - title: "The Director's Craft: A Handbook for the Theatre"
+        kind: instructional
         reader: student
         pages: 246
         author: Katie Mitchell
@@ -962,6 +1007,7 @@ rows:
         links:
           - { label: Routledge, url: "https://www.routledge.com/The-Directors-Craft-A-Handbook-for-the-Theatre/Mitchell/p/book/9780415404396" }
       - title: The Collected Plays and Writings on Theater
+        kind: primary
         reader: student
         pages: 395
         author: Karol Wojtyła (Pope John Paul II), trans. Bolesław Taborski
@@ -970,6 +1016,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Collected-Plays-Writings-Theater/dp/0520052897" }
       - title: "Cato: A Tragedy, and Selected Essays"
+        kind: primary
         reader: student
         pages: 240
         author: Joseph Addison (ed. Christine Dunn Henderson & Mark E. Yellin)

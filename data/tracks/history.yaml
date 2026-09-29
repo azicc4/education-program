@@ -47,6 +47,7 @@ rows:
       - Begin a family timeline (grandparents, parents, child)
     coreTexts:
       - title: The Holy Bible (Douay-Rheims)
+        kind: primary
         reader: together
         pages: 1600
         date: "1582–1610 (Challoner rev. 1749–52)"
@@ -55,6 +56,7 @@ rows:
           - { label: DRBO.org, url: "https://www.drbo.org/" }
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
       - title: The Holy Bible (King James Version)
+        kind: primary
         reader: together
         pages: 1200
         date: "1611"
@@ -62,6 +64,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
       - title: The Aesop for Children
+        kind: secondary
         reader: together
         pages: 104
         author: Aesop (ill. Milo Winter)
@@ -70,6 +73,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19994" }
       - title: The Declaration of Independence
+        kind: primary
         reader: together
         pages: 4
         author: Thomas Jefferson et al.
@@ -126,6 +130,7 @@ rows:
       - Keep a Book of Centuries, adding an entry for every person or event studied
     coreTexts:
       - title: A Child's History of the World
+        kind: secondary
         reader: together
         pages: 494
         author: V.M. Hillyer
@@ -188,6 +193,7 @@ rows:
       - Recite short famous sayings (Leonidas, Horatius, Caesar's "veni, vidi, vici")
     coreTexts:
       - title: Famous Men of Greece
+        kind: secondary
         reader: together
         pages: 265
         author: John H. Haaren & Addison B. Poland
@@ -197,6 +203,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/famousmengreece00polagoog" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=haaren&book=greece" }
       - title: Famous Men of Rome
+        kind: secondary
         reader: together
         pages: 230
         author: John H. Haaren & Addison B. Poland
@@ -206,6 +213,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/famousmenofrome00haarrich" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=haaren&book=rome" }
       - title: The Story of the Greeks
+        kind: secondary
         reader: together
         pages: 288
         author: H.A. Guerber
@@ -214,6 +222,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23495" }
       - title: The Story of the Romans
+        kind: secondary
         reader: together
         pages: 298
         author: H.A. Guerber
@@ -222,6 +231,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/storyofromans00guerrich" }
       - title: The Boys' and Girls' Plutarch
+        kind: secondary
         reader: together
         pages: 468
         author: Plutarch (ed. John S. White)
@@ -280,6 +290,7 @@ rows:
       - Add the medieval centuries to the Book of Centuries
     coreTexts:
       - title: Famous Men of the Middle Ages
+        kind: secondary
         reader: student
         pages: 270
         author: John H. Haaren & Addison B. Poland
@@ -288,6 +299,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3725" }
       - title: Our Island Story
+        kind: secondary
         reader: student
         pages: 540
         author: H.E. Marshall
@@ -297,6 +309,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/ourislandstoryhi00marsuoft" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=marshall&book=island" }
       - title: The Story of the Middle Ages
+        kind: secondary
         reader: student
         pages: 234
         author: Samuel B. Harding
@@ -351,6 +364,7 @@ rows:
       - Hear extracts of Columbus's journal read aloud and narrate them
     coreTexts:
       - title: Our Island Story (Tudors & Stuarts chapters)
+        kind: secondary
         reader: student
         pages: 100
         author: H.E. Marshall
@@ -359,6 +373,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/ourislandstoryhi00marsuoft" }
       - title: "Christopher Columbus: Extracts from Journal"
+        kind: primary
         reader: student
         pages: 12
         author: Christopher Columbus
@@ -367,6 +382,7 @@ rows:
         links:
           - { label: Medieval Sourcebook (Fordham), url: "https://sourcebooks.fordham.edu/source/columbus1.asp" }
       - title: A Child's History of the World (later chapters)
+        kind: secondary
         reader: student
         pages: 150
         author: V.M. Hillyer
@@ -422,6 +438,7 @@ rows:
       - Name the presidents in order through Lincoln, and the major wars through WWII
     coreTexts:
       - title: This Country of Ours
+        kind: secondary
         reader: student
         pages: 500
         author: H.E. Marshall
@@ -431,6 +448,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/thiscountryofour01mars" }
           - { label: Heritage History, url: "https://www.heritage-history.com/index.php?c=read&author=marshall&book=country" }
       - title: The Story of the Thirteen Colonies
+        kind: secondary
         reader: student
         pages: 356
         author: H.A. Guerber
@@ -439,6 +457,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48051" }
       - title: The Gettysburg Address
+        kind: primary
         reader: student
         pages: 1
         author: Abraham Lincoln
@@ -499,6 +518,7 @@ rows:
       - Identify what kind of source a text is (law code, chronicle, prophecy, royal inscription)
     coreTexts:
       - title: The Code of Hammurabi
+        kind: primary
         reader: student
         pages: 80
         date: "c. 1754 BC"
@@ -507,12 +527,14 @@ rows:
           - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/ancient/hamcode.asp" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/ancient/hamframe.asp" }
       - title: "Ancient History Sourcebook: Mesopotamia; Israel"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Mesopotamia, url: "https://sourcebooks.fordham.edu/ancient/asbook03.asp" }
           - { label: Israel, url: "https://sourcebooks.fordham.edu/ancient/asbook06.asp" }
       - title: Antiquities of the Jews (selections)
+        kind: primary
         reader: student
         author: Flavius Josephus (tr. Whiston)
         date: "c. AD 94"
@@ -520,6 +542,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2848" }
       - title: The Story of the Chosen People
+        kind: secondary
         reader: student
         pages: 240
         author: H.A. Guerber
@@ -577,6 +600,7 @@ rows:
       - Distinguish eyewitness report, hearsay and legend in Herodotus
     coreTexts:
       - title: The History of Herodotus (Vols. 1–2)
+        kind: primary
         reader: student
         pages: 800
         author: Herodotus (tr. G.C. Macaulay)
@@ -587,6 +611,7 @@ rows:
           - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/2456" }
           - { label: Perseus (Godley), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126" }
       - title: "Plutarch's Lives (Dryden trans., ed. Clough)"
+        kind: primary
         reader: student
         pages: 1300
         author: Plutarch
@@ -595,6 +620,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/674" }
       - title: Anabasis
+        kind: primary
         reader: student
         pages: 360
         author: Xenophon
@@ -648,6 +674,7 @@ rows:
       - Explain in a paragraph why the Republic fell, citing at least two sources
     coreTexts:
       - title: The History of Rome, Books 1–8
+        kind: primary
         reader: student
         pages: 396
         author: Livy (tr. Spillan)
@@ -657,6 +684,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19725" }
           - { label: Perseus (Roberts), url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026" }
       - title: "Plutarch's Lives, Vol. 1 (Long & Stewart trans.)"
+        kind: primary
         reader: student
         pages: 550
         author: Plutarch
@@ -665,6 +693,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14033" }
       - title: "De Bello Gallico and Other Commentaries"
+        kind: primary
         reader: student
         pages: 356
         author: Julius Caesar (tr. McDevitte & Bohn)
@@ -717,12 +746,14 @@ rows:
       - Explain why Eusebius is called "the Father of Church History"
     coreTexts:
       - title: The Acts of the Apostles
+        kind: primary
         reader: student
         pages: 50
         publicDomain: true
         links:
           - { label: DRBO.org (Douay-Rheims), url: "https://www.drbo.org/chapter/51001.htm" }
       - title: "Pliny the Younger: Letter to Trajan on the Christians"
+        kind: primary
         reader: student
         pages: 2
         date: "c. AD 112"
@@ -730,6 +761,7 @@ rows:
         links:
           - { label: Ancient History Sourcebook, url: "https://sourcebooks.fordham.edu/source/pliny1.asp" }
       - title: The Martyrdom of Polycarp; The Passion of Perpetua and Felicity
+        kind: primary
         reader: student
         pages: 25
         date: "2nd–3rd c."
@@ -738,6 +770,7 @@ rows:
           - { label: "New Advent: Polycarp", url: "https://www.newadvent.org/fathers/0102.htm" }
           - { label: "New Advent: Perpetua", url: "https://www.newadvent.org/fathers/0324.htm" }
       - title: Church History (selections)
+        kind: primary
         reader: student
         author: Eusebius of Caesarea
         date: "c. 325"
@@ -793,6 +826,7 @@ rows:
       - Write four one-page source reports (author, date, purpose, reliability, content)
     coreTexts:
       - title: Ecclesiastical History of the English People (Books I–II)
+        kind: primary
         reader: student
         pages: 140
         author: Bede
@@ -802,6 +836,7 @@ rows:
           - { label: Medieval Sourcebook (Book I), url: "https://sourcebooks.fordham.edu/basis/bede-book1.asp" }
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
       - title: Life of Charlemagne
+        kind: primary
         reader: student
         pages: 60
         author: Einhard
@@ -811,6 +846,7 @@ rows:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/einhard.asp" }
           - { label: Project Gutenberg (Early Lives of Charlemagne), url: "https://www.gutenberg.org/ebooks/48870" }
       - title: The Song of Roland
+        kind: primary
         reader: student
         pages: 131
         author: tr. C.K. Scott-Moncrieff
@@ -819,6 +855,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/391" }
       - title: "Urban II: Speech at Clermont (five versions)"
+        kind: primary
         reader: student
         pages: 10
         date: "1095"
@@ -826,6 +863,7 @@ rows:
         links:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/urban2-5vers.asp" }
       - title: Magna Carta
+        kind: primary
         reader: student
         pages: 10
         date: "1215"
@@ -834,6 +872,7 @@ rows:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/magnacarta.asp" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/medieval/magframe.asp" }
       - title: Memoirs of the Lord of Joinville (Life of St. Louis)
+        kind: primary
         reader: student
         pages: 409
         author: Jean de Joinville
@@ -887,6 +926,7 @@ rows:
       - Explain the Catholic Reformation (Trent, the Jesuits, Teresa of Avila) as a response and a renewal
     coreTexts:
       - title: The Ninety-Five Theses
+        kind: primary
         reader: student
         pages: 10
         author: Martin Luther
@@ -895,6 +935,7 @@ rows:
         links:
           - { label: Fordham Sourcebook, url: "https://sourcebooks.fordham.edu/source/luther95.txt" }
       - title: Canons and Decrees of the Council of Trent
+        kind: primary
         reader: student
         pages: 608
         date: "1545–63"
@@ -902,11 +943,13 @@ rows:
         links:
           - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent.html" }
       - title: "Modern History Sourcebook: Reformation"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
       - title: Utopia
+        kind: primary
         reader: student
         pages: 176
         author: St. Thomas More
@@ -915,6 +958,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2130" }
       - title: The Praise of Folly
+        kind: primary
         reader: student
         pages: 218
         author: Erasmus
@@ -973,6 +1017,7 @@ rows:
       - Compare the religious purposes of Plymouth, Massachusetts Bay, Maryland and New France
     coreTexts:
       - title: Select Letters of Christopher Columbus
+        kind: primary
         reader: student
         pages: 346
         author: Christopher Columbus (ed. R.H. Major)
@@ -981,6 +1026,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/77820" }
       - title: History of Plymouth Plantation, 1608–1650
+        kind: primary
         reader: student
         pages: 450
         author: William Bradford
@@ -989,6 +1035,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/69871" }
       - title: The Mayflower Compact
+        kind: primary
         reader: student
         pages: 1
         date: "1620"
@@ -996,6 +1043,7 @@ rows:
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/17th_century/mayflower.asp" }
       - title: A Model of Christian Charity
+        kind: primary
         reader: student
         pages: 12
         author: John Winthrop
@@ -1004,6 +1052,7 @@ rows:
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/a-model-of-christian-charity-2/" }
       - title: "Modern History Sourcebook: Colonial North America"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -1053,6 +1102,7 @@ rows:
       - Read Lincoln's two great speeches and explain how he appeals to the Declaration
     coreTexts:
       - title: The Declaration of Independence
+        kind: primary
         reader: student
         pages: 4
         date: "1776"
@@ -1060,6 +1110,7 @@ rows:
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/declare.asp" }
       - title: The Constitution of the United States
+        kind: primary
         reader: student
         pages: 51
         date: "1787"
@@ -1067,6 +1118,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/5" }
       - title: Washington's Farewell Address
+        kind: primary
         reader: student
         pages: 40
         author: George Washington
@@ -1076,6 +1128,7 @@ rows:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Washington/05-20-02-0440-0002" }
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/18th_century/washing.asp" }
       - title: The Federalist Papers
+        kind: primary
         reader: student
         pages: 559
         author: Hamilton, Madison & Jay
@@ -1084,6 +1137,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18" }
       - title: Second Inaugural Address
+        kind: primary
         reader: student
         pages: 2
         author: Abraham Lincoln
@@ -1142,6 +1196,7 @@ rows:
       - Draw lessons for republics (stasis, empire, demagoguery) and test them against the founders' use of Greek history
     coreTexts:
       - title: The History of Herodotus
+        kind: primary
         reader: student
         pages: 800
         author: Herodotus (tr. G.C. Macaulay)
@@ -1151,6 +1206,7 @@ rows:
           - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/2456" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126" }
       - title: The History of the Peloponnesian War
+        kind: primary
         reader: student
         pages: 614
         author: Thucydides (tr. Crawley)
@@ -1160,6 +1216,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200" }
       - title: Hellenica
+        kind: primary
         reader: student
         pages: 299
         author: Xenophon
@@ -1167,6 +1224,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1174" }
       - title: "The Anabasis of Alexander"
+        kind: primary
         reader: student
         pages: 420
         author: Arrian (tr. Chinnock)
@@ -1175,6 +1233,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46976" }
       - title: "The Historical Library, Books XVI–XVII (Philip and Alexander) (elective)"
+        kind: primary
         reader: student
         pages: 200
         author: Diodorus Siculus
@@ -1249,6 +1308,7 @@ rows:
       - Write an essay on how liberty is lost under a republican facade, using Tacitus
     coreTexts:
       - title: The Histories of Polybius (Vols. 1–2)
+        kind: primary
         reader: student
         pages: 1100
         author: Polybius (tr. Shuckburgh)
@@ -1259,6 +1319,7 @@ rows:
           - { label: Gutenberg Vol. 2, url: "https://www.gutenberg.org/ebooks/44126" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0234" }
       - title: The History of Rome (Books 1–8; 9–26)
+        kind: primary
         reader: student
         pages: 1000
         author: Livy
@@ -1267,6 +1328,7 @@ rows:
           - { label: Gutenberg Books 1–8, url: "https://www.gutenberg.org/ebooks/19725" }
           - { label: Gutenberg Books 9–26, url: "https://www.gutenberg.org/ebooks/10907" }
       - title: The Annals
+        kind: primary
         reader: student
         pages: 451
         author: Tacitus (tr. Church & Brodribb)
@@ -1276,6 +1338,7 @@ rows:
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078" }
           - { label: "Gutenberg (Annals I–VI)", url: "https://www.gutenberg.org/ebooks/7959" }
       - title: The Germany and the Agricola
+        kind: primary
         reader: student
         pages: 124
         author: Tacitus
@@ -1283,6 +1346,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7524" }
       - title: The Wars of the Jews
+        kind: primary
         reader: student
         pages: 500
         author: Flavius Josephus (tr. Whiston)
@@ -1291,6 +1355,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2850" }
       - title: "The Conspiracy of Catiline and the Jugurthine War (elective)"
+        kind: primary
         reader: student
         pages: 230
         author: Sallust
@@ -1300,6 +1365,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7990" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0124" }
       - title: "The Lives of the Twelve Caesars (elective)"
+        kind: primary
         reader: student
         pages: 360
         author: Suetonius
@@ -1309,6 +1375,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/6400" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0132" }
       - title: "Discourses on the First Decade of Titus Livius (elective)"
+        kind: primary
         reader: student
         pages: 389
         author: Niccolò Machiavelli
@@ -1382,6 +1449,7 @@ rows:
       - Write an essay weighing Gibbon's ch. 15–16 against Eusebius and Augustine
     coreTexts:
       - title: Church History; Life of Constantine
+        kind: primary
         reader: student
         pages: 680
         author: Eusebius of Caesarea
@@ -1392,6 +1460,7 @@ rows:
           - { label: "New Advent: Life of Constantine", url: "https://www.newadvent.org/fathers/2502.htm" }
           - { label: "CCEL (NPNF 2.1)", url: "https://www.ccel.org/ccel/schaff/npnf201.html" }
       - title: The City of God
+        kind: primary
         reader: student
         pages: 1100
         author: St. Augustine
@@ -1402,6 +1471,7 @@ rows:
           - { label: Gutenberg Vol. I, url: "https://www.gutenberg.org/ebooks/45304" }
           - { label: Gutenberg Vol. II, url: "https://www.gutenberg.org/ebooks/45305" }
       - title: The History of the Decline and Fall of the Roman Empire (Vol. 1)
+        kind: secondary
         reader: student
         pages: 508
         author: Edward Gibbon
@@ -1410,6 +1480,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/731" }
       - title: "Ancient History Sourcebook: Late Antiquity; Christian Origins"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -1469,6 +1540,7 @@ rows:
       - Write a 2,000-word essay on church and state from Gelasius to Unam Sanctam, and its legacy for the First Amendment
     coreTexts:
       - title: Ecclesiastical History of the English People
+        kind: primary
         reader: student
         pages: 400
         author: Bede
@@ -1477,6 +1549,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/38326" }
       - title: Early Lives of Charlemagne (Einhard and the Monk of St Gall)
+        kind: primary
         reader: student
         pages: 180
         author: ed. A.J. Grant
@@ -1484,12 +1557,14 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/48870" }
       - title: "Medieval Sourcebook: Anglo-Saxons; Carolingians"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Anglo-Saxons, url: "https://sourcebooks.fordham.edu/sbook1ff.asp" }
           - { label: Carolingians, url: "https://sourcebooks.fordham.edu/sbook1h.asp" }
       - title: The Making of Europe
+        kind: secondary
         reader: student
         pages: 317
         author: Christopher Dawson
@@ -1498,6 +1573,7 @@ rows:
         links:
           - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-making-of-europe-an-introduction-to-the-history-of-european-unity-christopher-dawson/2b2fca378dca22c4" }
       - title: "Gregory VII: Dictatus Papae; Henry IV: Letter to Gregory VII"
+        kind: primary
         reader: student
         pages: 5
         date: "1075–76"
@@ -1507,6 +1583,7 @@ rows:
           - { label: Henry IV to Gregory VII, url: "https://sourcebooks.fordham.edu/source/henry4-to-g7a.asp" }
           - { label: "Medieval Sourcebook: Empire & Papacy", url: "https://sourcebooks.fordham.edu/sbook1l.asp" }
       - title: Unam Sanctam
+        kind: primary
         reader: student
         pages: 3
         author: Pope Boniface VIII
@@ -1515,11 +1592,13 @@ rows:
         links:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/source/b8-unam.asp" }
       - title: "Medieval Sourcebook: Crusades"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/sbook1k.asp" }
       - title: Memoirs of the Lord of Joinville
+        kind: primary
         reader: student
         pages: 409
         author: Jean de Joinville
@@ -1528,6 +1607,7 @@ rows:
         links:
           - { label: Medieval Sourcebook, url: "https://sourcebooks.fordham.edu/basis/joinville.asp" }
       - title: Chronicles of England, France, Spain, etc. (tr. Johnes)
+        kind: primary
         reader: student
         pages: 1500
         author: Jean Froissart
@@ -1537,6 +1617,7 @@ rows:
           - { label: Archive.org, url: "https://archive.org/details/chroniclesofengl00froi" }
           - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/froissart-full.asp" }
       - title: "History of the Franks (elective)"
+        kind: primary
         reader: student
         pages: 314
         author: St. Gregory of Tours
@@ -1546,6 +1627,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/74955" }
           - { label: Medieval Sourcebook (selections), url: "https://sourcebooks.fordham.edu/basis/gregory-hist.asp" }
       - title: "The Anglo-Saxon Chronicle (elective)"
+        kind: primary
         reader: student
         pages: 248
         author: tr. J. Ingram & J.A. Giles
@@ -1554,6 +1636,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/657" }
       - title: "Memoirs or Chronicle of the Fourth Crusade and the Conquest of Constantinople (elective)"
+        kind: primary
         reader: student
         pages: 112
         author: Geoffrey de Villehardouin
@@ -1629,6 +1712,7 @@ rows:
       - Write a 2,500-word essay on whether the American Revolution was a conservative revolution, citing these sources
     coreTexts:
       - title: Magna Carta
+        kind: primary
         reader: student
         pages: 10
         date: "1215"
@@ -1636,6 +1720,7 @@ rows:
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/medieval/magframe.asp" }
       - title: Second Part of the Institutes of the Laws of England (Magna Carta commentary)
+        kind: primary
         reader: student
         author: Sir Edward Coke
         date: "1642"
@@ -1643,6 +1728,7 @@ rows:
         links:
           - { label: Archive.org (1797 ed.), url: "https://archive.org/details/bim_eighteenth-century_institutes-of-the-laws-_coke-sir-edward_1797" }
       - title: The Petition of Right
+        kind: primary
         reader: student
         pages: 4
         date: "1628"
@@ -1650,6 +1736,7 @@ rows:
         links:
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/Petition_of_Right" }
       - title: The English Bill of Rights
+        kind: primary
         reader: student
         pages: 6
         date: "1689"
@@ -1658,6 +1745,7 @@ rows:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/17th_century/england.asp" }
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1689billofrights.asp" }
       - title: The History of the Rebellion and Civil Wars in England
+        kind: primary
         reader: student
         author: Edward Hyde, Earl of Clarendon
         date: "1702–04"
@@ -1665,6 +1753,7 @@ rows:
         links:
           - { label: Archive.org Vol. 1, url: "https://archive.org/details/england01claruoft" }
       - title: Reflections on the Revolution in France (in Works, Vol. 3)
+        kind: primary
         reader: student
         pages: 338
         author: Edmund Burke
@@ -1673,6 +1762,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
       - title: The History of England (Vol. I)
+        kind: secondary
         reader: student
         pages: 582
         author: David Hume
@@ -1681,6 +1771,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19211" }
       - title: The History of England from the Accession of James II (Vol. 1)
+        kind: secondary
         reader: student
         pages: 650
         author: Thomas Babington Macaulay
@@ -1689,6 +1780,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1468" }
       - title: "Modern History Sourcebook: Constitutionalism"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -1744,11 +1836,13 @@ rows:
       - Write a 2,500-word essay on the Reformation's legacy for liberty and conscience, using both Catholic and Protestant sources
     coreTexts:
       - title: "Modern History Sourcebook: Reformation (Luther, Calvin, Zwingli, Trent, Loyola, More)"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook02.asp" }
       - title: The Ninety-Five Theses
+        kind: primary
         reader: student
         pages: 10
         author: Martin Luther
@@ -1756,12 +1850,14 @@ rows:
         links:
           - { label: Fordham Sourcebook, url: "https://sourcebooks.fordham.edu/source/luther95.txt" }
       - title: The Canons and Decrees of the Council of Trent (tr. Waterworth)
+        kind: primary
         reader: student
         pages: 300
         publicDomain: true
         links:
           - { label: Hanover Historical Texts (full), url: "https://history.hanover.edu/texts/trent/trentall.html" }
       - title: The Prince
+        kind: primary
         reader: student
         pages: 156
         author: Niccolò Machiavelli
@@ -1770,6 +1866,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
       - title: "Medieval Sourcebook: Renaissance; Reformation; Exploration"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -1777,6 +1874,7 @@ rows:
           - { label: Reformation, url: "https://sourcebooks.fordham.edu/sbook1y.asp" }
           - { label: Exploration, url: "https://sourcebooks.fordham.edu/sbook1z.asp" }
       - title: The Dividing of Christendom
+        kind: secondary
         reader: student
         pages: 295
         author: Christopher Dawson
@@ -1785,6 +1883,7 @@ rows:
         links:
           - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-dividing-of-christendom-christopher-dawson/733ba12d614e7e72" }
       - title: "The History of the Reign of the Emperor Charles V (elective)"
+        kind: secondary
         reader: student
         pages: 1100
         author: William Robertson
@@ -1793,6 +1892,7 @@ rows:
         links:
           - { label: Archive.org (1777 ed.), url: "https://archive.org/details/historyofreignof1777robe" }
       - title: "Memoirs of the Duke of Sully (elective)"
+        kind: primary
         reader: student
         pages: 1400
         author: Maximilien de Béthune, Duke of Sully (tr. Charlotte Lennox)
@@ -1801,6 +1901,7 @@ rows:
         links:
           - { label: "Archive.org (1810 ed., vol. 1)", url: "https://archive.org/details/memoirsofdukeofs01sulliala" }
       - title: "Madison's shelf on the modern republics: Guicciardini's History of Italy, Sarpi's History of the Council of Trent, De Witt's True Interest of Holland. Dip in (elective)"
+        kind: primary
         reader: student
         pages: 300
         author: Francesco Guicciardini; Paolo Sarpi; Johan de Witt and Pieter de la Court
@@ -1871,6 +1972,7 @@ rows:
       - Write a 2,500-word essay on Lincoln's interpretation of the Declaration, from the Peoria speech to Gettysburg
     coreTexts:
       - title: Common Sense
+        kind: primary
         reader: student
         pages: 61
         author: Thomas Paine
@@ -1879,6 +1981,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/147" }
       - title: Thoughts on Government
+        kind: primary
         reader: student
         pages: 8
         author: John Adams
@@ -1887,6 +1990,7 @@ rows:
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/06-04-02-0026-0004" }
       - title: Jefferson's "original Rough draught" of the Declaration
+        kind: primary
         reader: student
         pages: 4
         author: Thomas Jefferson
@@ -1895,6 +1999,7 @@ rows:
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Jefferson/01-01-02-0176-0004" }
       - title: Circular to the States
+        kind: primary
         reader: student
         pages: 10
         author: George Washington
@@ -1903,16 +2008,19 @@ rows:
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Washington/99-01-02-11404" }
       - title: "Modern History Sourcebook: American Independence"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook12.asp" }
       - title: Avalon Project — 18th-Century Documents
+        kind: primary
         reader: student
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/18th.asp" }
       - title: The Federalist Papers
+        kind: primary
         reader: student
         pages: 559
         author: Hamilton, Madison & Jay
@@ -1920,12 +2028,14 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18" }
       - title: Select Speeches of Daniel Webster, 1817–1845 (incl. Second Reply to Hayne)
+        kind: primary
         reader: student
         author: Daniel Webster
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7600" }
       - title: Speech on the Oregon Bill
+        kind: primary
         reader: student
         pages: 25
         author: John C. Calhoun
@@ -1934,6 +2044,7 @@ rows:
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/speech-on-the-oregon-bill/" }
       - title: Narrative of the Life of Frederick Douglass
+        kind: primary
         reader: student
         pages: 127
         author: Frederick Douglass
@@ -1942,6 +2053,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23" }
       - title: What to the Slave Is the Fourth of July?
+        kind: primary
         reader: student
         pages: 20
         author: Frederick Douglass
@@ -1950,6 +2062,7 @@ rows:
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july-2/" }
       - title: The Lincoln–Douglas Debates (Papers and Writings, Vol. 3)
+        kind: primary
         reader: student
         pages: 330
         author: Abraham Lincoln & Stephen A. Douglas
@@ -1959,6 +2072,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2655" }
           - { label: "Teaching American History: First Debate", url: "https://teachingamericanhistory.org/document/the-lincoln-douglas-debates-1st-debate/" }
       - title: House Divided; Cooper Union Address
+        kind: primary
         reader: student
         pages: 20
         author: Abraham Lincoln
@@ -1969,17 +2083,20 @@ rows:
           - { label: Cooper Union (TAH), url: "https://teachingamericanhistory.org/document/address-at-cooper-union/" }
           - { label: "Speeches & Letters of Lincoln (Gutenberg)", url: "https://www.gutenberg.org/ebooks/14721" }
       - title: "Modern History Sourcebook: US Civil War"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook27.asp" }
       - title: "Diary of John Adams (from 1755) (elective)"
+        kind: primary
         reader: student
         author: John Adams
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/documents/Adams/01-01-02-0001-0001" }
       - title: "Democracy in America (Vol. 1) (elective)"
+        kind: primary
         reader: student
         pages: 400
         author: Alexis de Tocqueville
@@ -2063,6 +2180,7 @@ rows:
       - Trace nationalism from Napoleon to German and Italian unification using the sourcebook
     coreTexts:
       - title: "Modern History Sourcebook: French Revolution; Conservative Order; 1848; 19C Britain; Socialism; 19C Religion"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -2072,6 +2190,7 @@ rows:
           - { label: 19C Britain, url: "https://sourcebooks.fordham.edu/mod/modsbook20.asp" }
           - { label: 19C Religion, url: "https://sourcebooks.fordham.edu/mod/modsbook37.asp" }
       - title: "The French Revolution: A History"
+        kind: secondary
         reader: student
         pages: 800
         author: Thomas Carlyle
@@ -2080,6 +2199,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1301" }
       - title: The Communist Manifesto
+        kind: primary
         reader: student
         pages: 38
         author: Karl Marx & Friedrich Engels
@@ -2088,6 +2208,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
       - title: Rerum Novarum
+        kind: primary
         reader: student
         pages: 40
         author: Pope Leo XIII
@@ -2096,6 +2217,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
       - title: Quanta Cura
+        kind: primary
         reader: student
         pages: 12
         author: Pope Pius IX
@@ -2104,6 +2226,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/pius-ix/en/documents/encyclica-quanta-cura-8-decembris-1864.html" }
       - title: The English Constitution
+        kind: primary
         reader: student
         pages: 312
         author: Walter Bagehot
@@ -2171,6 +2294,7 @@ rows:
       - Write a 2,500-word essay either on statesmanship in 1938–40, drawing on Churchill's speeches and the diplomatic documents, or on Solzhenitsyn's Harvard address as a critique of both East and West
     coreTexts:
       - title: Churchill's speeches (Their Finest Hour; We Shall Fight on the Beaches; The Sinews of Peace)
+        kind: primary
         reader: student
         pages: 32
         author: Winston Churchill
@@ -2182,6 +2306,7 @@ rows:
           - { label: We Shall Fight on the Beaches, url: "https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/we-shall-fight-on-the-beaches/" }
           - { label: "The Sinews of Peace (\"Iron Curtain\")", url: "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/" }
       - title: Mit brennender Sorge; Divini Redemptoris
+        kind: primary
         reader: student
         pages: 50
         author: Pope Pius XI
@@ -2190,6 +2315,7 @@ rows:
           - { label: Mit brennender Sorge, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html" }
           - { label: Divini Redemptoris, url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html" }
       - title: The Fourteen Points
+        kind: primary
         reader: student
         pages: 5
         author: Woodrow Wilson
@@ -2198,6 +2324,7 @@ rows:
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/20th_century/wilson14.asp" }
       - title: The Atlantic Charter; Avalon WWII documents
+        kind: primary
         reader: student
         date: "1941"
         publicDomain: true
@@ -2205,6 +2332,7 @@ rows:
           - { label: Atlantic Charter, url: "https://avalon.law.yale.edu/wwii/atlantic.asp" }
           - { label: Avalon WWII menu, url: "https://avalon.law.yale.edu/subject_menus/wwii.asp" }
       - title: "Modern History Sourcebook: World War I; Nazism; Holocaust; World War II; Bipolar World"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -2214,6 +2342,7 @@ rows:
           - { label: World War II, url: "https://sourcebooks.fordham.edu/mod/modsbook45.asp" }
           - { label: Bipolar World, url: "https://sourcebooks.fordham.edu/mod/modsbook46.asp" }
       - title: The Long Telegram
+        kind: primary
         reader: student
         pages: 20
         author: George F. Kennan
@@ -2222,11 +2351,13 @@ rows:
         links:
           - { label: Truman Library, url: "https://www.trumanlibrary.gov/library/research-files/telegram-george-kennan-james-byrnes-long-telegram" }
       - title: Avalon Project — Cold War documents
+        kind: primary
         reader: student
         publicDomain: true
         links:
           - { label: Avalon Project, url: "https://avalon.law.yale.edu/subject_menus/coldwar.asp" }
       - title: "A World Split Apart (Harvard Commencement Address)"
+        kind: primary
         reader: student
         pages: 20
         author: Aleksandr Solzhenitsyn
@@ -2235,6 +2366,7 @@ rows:
         links:
           - { label: Solzhenitsyn Center, url: "https://www.solzhenitsyncenter.org/a-world-split-apart" }
       - title: Letter from Birmingham City Jail
+        kind: primary
         reader: student
         pages: 20
         author: Martin Luther King Jr.
@@ -2243,6 +2375,7 @@ rows:
         links:
           - { label: Teaching American History, url: "https://teachingamericanhistory.org/document/letter-from-birmingham-city-jail-excerpts/" }
       - title: "Ad Beatissimi Apostolorum (elective)"
+        kind: primary
         reader: student
         pages: 20
         author: Pope Benedict XV
@@ -2251,6 +2384,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html" }
       - title: "The Gulag Archipelago (abridged) (elective)"
+        kind: primary
         reader: student
         pages: 470
         author: Aleksandr Solzhenitsyn
@@ -2259,6 +2393,7 @@ rows:
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.com/products/the-gulag-archipelago-aleksandr-i-solzhenitsyn" }
       - title: "Remarks at the Brandenburg Gate (elective)"
+        kind: primary
         reader: student
         pages: 5
         author: Ronald Reagan
@@ -2267,6 +2402,7 @@ rows:
         links:
           - { label: Reagan Library, url: "https://www.reaganlibrary.gov/archives/speech/remarks-east-west-relations-brandenburg-gate-west-berlin" }
       - title: "Centesimus Annus (elective)"
+        kind: primary
         reader: student
         pages: 110
         author: Pope John Paul II
@@ -2338,6 +2474,7 @@ rows:
       - Write a 3,000-word historiographical essay on one event as told by three historians
     coreTexts:
       - title: The Ancient History of the Egyptians, Carthaginians, Assyrians… (Vol. 1)
+        kind: secondary
         reader: student
         pages: 965
         author: Charles Rollin
@@ -2346,6 +2483,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28558" }
       - title: The History of England (Vol. I)
+        kind: secondary
         reader: student
         pages: 582
         author: David Hume
@@ -2353,6 +2491,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19211" }
       - title: The Decline and Fall of the Roman Empire (Vol. 1)
+        kind: secondary
         reader: student
         pages: 567
         author: Edward Gibbon
@@ -2360,6 +2499,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/731" }
       - title: The History of England from the Accession of James II (Vol. 1)
+        kind: secondary
         reader: student
         pages: 650
         author: Thomas Babington Macaulay
@@ -2367,6 +2507,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1468" }
       - title: A Lecture on the Study of History
+        kind: secondary
         reader: student
         pages: 154
         author: Lord Acton
@@ -2375,6 +2516,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25720" }
       - title: Religion and the Rise of Western Culture
+        kind: secondary
         reader: student
         pages: 242
         author: Christopher Dawson
@@ -2383,6 +2525,7 @@ rows:
         links:
           - { label: Bookshop.org, url: "https://bookshop.org/p/books/religion-and-the-rise-of-western-culture-the-classic-study-of-medieval-civilization-christopher-dawson/96dcbd4312287e31" }
       - title: A History of the American People
+        kind: secondary
         reader: student
         pages: 984
         author: Paul Johnson
@@ -2391,11 +2534,13 @@ rows:
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.com/products/a-history-of-the-american-people-paul-johnson" }
       - title: "Modern History Sourcebook: Studying History"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/mod/modsbook01.asp" }
       - title: "Madison's shelf of universal history: Raleigh's History of the World, Voltaire's Age of Louis XIV, Bayle's Dictionary, Mosheim's Ecclesiastical History. Dip in (elective)"
+        kind: secondary
         reader: student
         pages: 300
         author: Walter Raleigh; Voltaire; Pierre Bayle; Johann Lorenz von Mosheim
@@ -2456,18 +2601,21 @@ rows:
       - Take the Hillsdale Western Heritage lecture series and pass a comprehensive oral exam on it
     coreTexts:
       - title: "Ancient History Sourcebook: Greece; Rome"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Greece, url: "https://sourcebooks.fordham.edu/ancient/asbook07.asp" }
           - { label: Rome, url: "https://sourcebooks.fordham.edu/ancient/asbook09.asp" }
       - title: "Medieval Sourcebook: Roman Church; England"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Roman Church, url: "https://sourcebooks.fordham.edu/sbook1e.asp" }
           - { label: England, url: "https://sourcebooks.fordham.edu/sbook1n.asp" }
       - title: "The Golden Thread: A History of the Western Tradition, Volume I: The Ancient World and Christendom"
+        kind: secondary
         reader: student
         author: James Hankins
         date: "2025"
@@ -2523,6 +2671,7 @@ rows:
       - Relate the English, American and French revolutions to each other through their founding documents
     coreTexts:
       - title: Second Treatise of Government
+        kind: primary
         reader: student
         pages: 115
         author: John Locke
@@ -2531,6 +2680,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
       - title: Leviathan
+        kind: primary
         reader: student
         pages: 508
         author: Thomas Hobbes
@@ -2539,11 +2689,13 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3207" }
       - title: "Internet Modern History Sourcebook (index)"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
           - { label: Fordham, url: "https://sourcebooks.fordham.edu/halsall/mod/modsbook.asp" }
       - title: "The Golden Thread: A History of the Western Tradition, Volume II: The Modern and Contemporary West"
+        kind: secondary
         reader: student
         author: Allen C. Guelzo
         date: "2026"
@@ -2597,6 +2749,7 @@ rows:
       - Deliver a 20-minute public lecture on the thesis
     coreTexts:
       - title: Democracy in America (Vol. 2)
+        kind: primary
         reader: student
         pages: 400
         author: Alexis de Tocqueville
@@ -2605,17 +2758,20 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
       - title: Founders Online (papers of Washington, Adams, Jefferson, Franklin, Hamilton, Madison, Jay)
+        kind: primary
         reader: student
         publicDomain: true
         links:
           - { label: Founders Online, url: "https://founders.archives.gov/" }
       - title: The Papers and Writings of Abraham Lincoln
+        kind: primary
         reader: student
         author: Abraham Lincoln
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3253" }
       - title: "The History of America (elective)"
+        kind: secondary
         reader: student
         pages: 900
         author: William Robertson
@@ -2624,6 +2780,7 @@ rows:
         links:
           - { label: Archive.org (1845 ed.), url: "https://archive.org/details/histdiscoverysett00roberich" }
       - title: "Madison's shelf on American colonization: Hakluyt, Purchas, Champlain, Cotton Mather's Magnalia, Colden's Five Nations. Dip in (elective)"
+        kind: primary
         reader: student
         pages: 400
         author: Richard Hakluyt; Samuel Purchas; Samuel de Champlain; Cotton Mather; Cadwallader Colden
@@ -2686,6 +2843,7 @@ rows:
       - Give an account of the development of doctrine (Newman) and its historical use
     coreTexts:
       - title: Church History (Eusebius) — Nicene and Post-Nicene Fathers, Ser. 2, Vol. 1
+        kind: primary
         reader: student
         pages: 630
         author: Eusebius, ed. Schaff & Wace
@@ -2693,12 +2851,14 @@ rows:
         links:
           - { label: CCEL, url: "https://www.ccel.org/ccel/schaff/npnf201.html" }
       - title: Canons and Decrees of the Council of Trent
+        kind: primary
         reader: student
         pages: 608
         publicDomain: true
         links:
           - { label: Hanover Historical Texts, url: "https://history.hanover.edu/texts/trent/trentall.html" }
       - title: "Medieval Sourcebook: Medieval Church; Empire & Papacy"
+        kind: secondary
         reader: student
         publicDomain: true
         links:

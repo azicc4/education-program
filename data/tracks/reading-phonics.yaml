@@ -58,6 +58,7 @@ rows:
       - Form lower-case letters correctly
     coreTexts:
       - title: The New England Primer (reprint of the earliest known edition)
+        kind: instructional
         reader: together
         pages: 100
         author: ed. Paul Leicester Ford
@@ -108,6 +109,7 @@ rows:
       - Read decodable sentences and short books aloud
     coreTexts:
       - title: The Writing Road to Reading
+        kind: instructional
         reader: teacher
         pages: 272
         author: Romalda Bishop Spalding
@@ -154,6 +156,7 @@ rows:
       - Read about 60+ words per minute accurately in grade-1 text by the end of the year
     coreTexts:
       - title: McGuffey's Eclectic Primer (revised)
+        kind: instructional
         reader: together
         pages: 70
         author: William Holmes McGuffey
@@ -162,6 +165,7 @@ rows:
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14642" }
       - title: McGuffey's First Eclectic Reader (revised)
+        kind: instructional
         reader: together
         pages: 96
         author: William Holmes McGuffey
@@ -209,6 +213,7 @@ rows:
       - Apply the major spelling rules (doubling, drop silent-e, y to i) automatically
     coreTexts:
       - title: The American Spelling Book (the "Blue-Back Speller")
+        kind: instructional
         reader: together
         pages: 170
         author: Noah Webster
@@ -217,6 +222,7 @@ rows:
         links:
           - { label: "Archive.org (1809)", url: "https://archive.org/details/americanspelling00webs" }
       - title: The Elementary Spelling Book
+        kind: instructional
         reader: together
         pages: 168
         author: Noah Webster
@@ -225,6 +231,7 @@ rows:
         links:
           - { label: "Archive.org (1857)", url: "https://archive.org/details/elementaryspelli00websrich" }
       - title: McGuffey's Eclectic Spelling Book
+        kind: instructional
         reader: together
         pages: 144
         author: Alexander H. McGuffey
@@ -268,6 +275,7 @@ rows:
       - Read a prepared poem or passage aloud to the family weekly
     coreTexts:
       - title: McGuffey's Second Eclectic Reader
+        kind: instructional
         reader: together
         pages: 160
         author: William Holmes McGuffey
@@ -276,6 +284,7 @@ rows:
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14668" }
       - title: McGuffey's Third Eclectic Reader
+        kind: instructional
         reader: together
         pages: 208
         author: William Holmes McGuffey
@@ -319,6 +328,7 @@ rows:
       - Use a dictionary to look up unfamiliar words
     coreTexts:
       - title: McGuffey's Fourth Eclectic Reader
+        kind: instructional
         reader: student
         pages: 262
         author: William Holmes McGuffey
@@ -327,6 +337,7 @@ rows:
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/14880" }
       - title: Home Education (Vol. 1), on narration and reading
+        kind: instructional
         reader: teacher
         pages: 20
         author: Charlotte M. Mason
@@ -335,6 +346,7 @@ rows:
         links:
           - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/71087" }
       - title: McGuffey's Fifth and Sixth Eclectic Readers (look-ahead)
+        kind: instructional
         reader: student
         pages: 820
         author: William Holmes McGuffey

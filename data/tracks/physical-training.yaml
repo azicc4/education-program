@@ -135,6 +135,7 @@ rows:
       - Earn first-aid certification and know wilderness responses to cold, heat, sprains and bleeding
     coreTexts:
       - title: Boy Scouts Handbook (1911 original edition)
+        kind: instructional
         reader: student
         pages: 450
         author: Boy Scouts of America
@@ -143,6 +144,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29558" }
       - title: The Book of Camp-Lore and Woodcraft
+        kind: instructional
         reader: student
         pages: 270
         author: Daniel Carter Beard
@@ -151,6 +153,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44215" }
       - title: Woodcraft and Camping
+        kind: instructional
         reader: student
         pages: 87
         author: George Washington Sears ("Nessmuk")
@@ -194,6 +197,7 @@ rows:
       - Read selections of Ascham's Toxophilus on archery as a gentleman's exercise
     coreTexts:
       - title: Toxophilus (ed. Edward Arber)
+        kind: primary
         reader: student
         pages: 169
         author: Roger Ascham
@@ -239,6 +243,7 @@ rows:
       - Read Xenophon's On Horsemanship and compare it with modern practice
     coreTexts:
       - title: On Horsemanship (trans. H. G. Dakyns)
+        kind: primary
         reader: student
         pages: 45
         author: Xenophon
@@ -333,6 +338,7 @@ rows:
       - Serve as captain or assistant coach of a younger team by 15–16
     coreTexts:
       - title: Tom Brown's School Days
+        kind: primary
         reader: student
         pages: 336
         author: Thomas Hughes
@@ -408,6 +414,7 @@ rows:
       - Show self-control in anger, respect for opponents, and willingness to lose and learn
     coreTexts:
       - title: Laws (Book VII, on wrestling and gymnastic training)
+        kind: primary
         reader: student
         pages: 50
         author: Plato (trans. Benjamin Jowett)
@@ -448,6 +455,7 @@ rows:
       - Read selections of Angelo's School of Fencing and compare classical and modern technique
     coreTexts:
       - title: The School of Fencing
+        kind: instructional
         reader: student
         pages: 105
         author: Domenico Angelo
@@ -489,6 +497,7 @@ rows:
       - Understand the basics of recovery, sleep and nutrition for training
     coreTexts:
       - title: "Starting Strength: Basic Barbell Training (3rd ed.)"
+        kind: instructional
         reader: student
         pages: 347
         author: Mark Rippetoe

@@ -37,6 +37,7 @@ rows:
       - Track CDC milestones at 2, 4, 6, 9 and 12 months (social smile, babbling, responding to name, first words) and raise concerns early
     coreTexts:
       - title: The Real Mother Goose
+        kind: primary
         reader: together
         pages: 128
         author: Blanche Fisher Wright (illus.)
@@ -137,6 +138,7 @@ rows:
       - By 18–24 months the child fills in the last word of familiar rhymes
     coreTexts:
       - title: The Real Mother Goose
+        kind: primary
         reader: together
         pages: 128
         author: Blanche Fisher Wright (illus.)
@@ -145,6 +147,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10607" }
       - title: Mother Goose's Nursery Rhymes
+        kind: primary
         reader: together
         pages: 320
         author: Walter Crane, John Tenniel et al. (illus.)
@@ -153,6 +156,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/39784" }
       - title: Divine Songs Attempted in Easy Language for the Use of Children
+        kind: primary
         reader: together
         pages: 45
         author: Isaac Watts
@@ -192,6 +196,7 @@ rows:
       - By age 3 the child understands everyday commands and songs in both languages and begins to answer in them
     coreTexts:
       - title: Chinese Mother Goose Rhymes
+        kind: primary
         reader: together
         pages: 157
         author: Isaac Taylor Headland (trans.)
@@ -233,6 +238,7 @@ rows:
       - By age 3 the child knows the Sign of the Cross, a simple grace, and the first lines of the Our Father and Hail Mary
     coreTexts:
       - title: Divine Songs Attempted in Easy Language for the Use of Children
+        kind: primary
         reader: together
         pages: 45
         author: Isaac Watts
@@ -304,6 +310,7 @@ rows:
       - Check CDC milestones at 15, 18, 24 and 30 months, since language delay is the most common early concern
     coreTexts:
       - title: The Tale of Peter Rabbit
+        kind: primary
         reader: together
         pages: 32
         author: Beatrix Potter
@@ -312,6 +319,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14838" }
       - title: Orbis Pictus (The Visible World in Pictures)
+        kind: instructional
         reader: together
         pages: 200
         author: Johann Amos Comenius
@@ -446,6 +454,7 @@ rows:
       - Give real chores suited to age (sorting laundry, feeding pets, carrying groceries)
     coreTexts:
       - title: Home Education
+        kind: instructional
         reader: teacher
         pages: 408
         author: Charlotte M. Mason
@@ -454,6 +463,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/71087" }
       - title: Some Thoughts Concerning Education
+        kind: primary
         reader: teacher
         pages: 325
         author: John Locke
@@ -494,6 +504,7 @@ rows:
       - Daily construction play (unit blocks, puzzles), plus clay, scissors and paste
     coreTexts:
       - title: Dr. Montessori's Own Handbook
+        kind: instructional
         reader: teacher
         pages: 121
         author: Maria Montessori
@@ -502,6 +513,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/29635" }
       - title: The Montessori Method
+        kind: instructional
         reader: teacher
         pages: 295
         author: Maria Montessori
@@ -646,6 +658,7 @@ rows:
       - Know the core fables and fairy tales by name and moral (the Tortoise and the Hare, Cinderella, the Three Bears, and others)
     coreTexts:
       - title: Aesop's Fables (Jones translation, Rackham illus.)
+        kind: primary
         reader: together
         pages: 224
         author: Aesop
@@ -654,6 +667,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/11339" }
       - title: A Child's Garden of Verses
+        kind: primary
         reader: together
         pages: 116
         author: Robert Louis Stevenson
@@ -662,6 +676,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/25609" }
       - title: Grimms' Fairy Tales
+        kind: primary
         reader: together
         pages: 408
         author: Jacob and Wilhelm Grimm
@@ -670,6 +685,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2591" }
       - title: The Blue Fairy Book
+        kind: secondary
         reader: together
         pages: 330
         author: Andrew Lang (ed.)
@@ -678,6 +694,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/503" }
       - title: The Burgess Animal Book for Children
+        kind: instructional
         reader: together
         pages: 363
         author: Thornton W. Burgess
@@ -686,6 +703,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/23708" }
       - title: A Wonder Book and Tanglewood Tales
+        kind: secondary
         reader: together
         pages: 294
         author: Nathaniel Hawthorne
@@ -732,6 +750,7 @@ rows:
       - By 6, the child follows stories and holds simple conversations in both languages
     coreTexts:
       - title: Chinese Mother Goose Rhymes
+        kind: primary
         reader: together
         pages: 157
         author: Isaac Taylor Headland (trans.)
@@ -775,6 +794,7 @@ rows:
       - Formal swim lessons (see physical-training-01) and supervised climbing, balancing and rough-and-tumble play
     coreTexts:
       - title: Handbook of Nature-Study
+        kind: instructional
         reader: teacher
         pages: 938
         author: Anna Botsford Comstock
@@ -783,6 +803,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/78142" }
       - title: Home Education (Part II, Out-of-Door Life for the Children)
+        kind: instructional
         reader: teacher
         pages: 55
         author: Charlotte M. Mason
@@ -834,6 +855,7 @@ rows:
         notes: The gentler alternative. Delay formal lessons to 6 and keep to read-alouds, nature and habits.
     coreTexts:
       - title: McGuffey's Eclectic Primer and First Reader
+        kind: instructional
         reader: together
         pages: 160
         author: William Holmes McGuffey

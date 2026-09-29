@@ -123,6 +123,7 @@ rows:
       - Know about 800 words (all words occurring 50+ times)
     coreTexts:
       - title: "Gesenius' Hebrew Grammar (Kautzsch–Cowley)"
+        kind: instructional
         reader: student
         pages: 600
         author: Wilhelm Gesenius, ed. E. Kautzsch, trans. A. E. Cowley
@@ -163,6 +164,7 @@ rows:
       - Compare Gen 1:1–3 and 1:26–27 in Hebrew, LXX and Vulgate
     coreTexts:
       - title: Genesis (Bereshit), Hebrew text
+        kind: primary
         reader: together
         pages: 90
         author: Moses (traditional attribution)
@@ -171,6 +173,7 @@ rows:
           - { label: "Sefaria (Hebrew/English, free)", url: "https://www.sefaria.org/Genesis.1" }
           - { label: "Westminster Leningrad Codex (tanach.us)", url: "https://www.tanach.us/" }
       - title: "Genesis 1–11: Septuagint and Vulgate with facing vocabulary"
+        kind: instructional
         reader: student
         author: Geoffrey Steadman
         publicDomain: false
@@ -207,12 +210,14 @@ rows:
       - Read Jonah 2 as a first taste of Hebrew poetry
     coreTexts:
       - title: Ruth (Hebrew)
+        kind: primary
         reader: student
         pages: 8
         publicDomain: true
         links:
           - { label: Sefaria, url: "https://www.sefaria.org/Ruth.1" }
       - title: Jonah (Hebrew)
+        kind: primary
         reader: student
         pages: 5
         publicDomain: true
@@ -246,6 +251,7 @@ rows:
       - Compare Ps 22 (21 in LXX/Vulgate) in Hebrew, Greek and Latin, and explain the numbering difference
     coreTexts:
       - title: Tehillim (Psalms), Hebrew text
+        kind: primary
         reader: student
         pages: 180
         publicDomain: true
@@ -276,6 +282,7 @@ rows:
       - Memorize Isaiah 40:1–8 or Micah 6:8 in Hebrew
     coreTexts:
       - title: Isaiah (Hebrew)
+        kind: primary
         reader: student
         pages: 120
         publicDomain: true
@@ -308,17 +315,20 @@ rows:
       - Summarize Pius XII's Divino Afflante Spiritu (1943) on original-language study
     coreTexts:
       - title: Sefaria Library
+        kind: primary
         reader: student
         author: Sefaria
         publicDomain: false
         links:
           - { label: Sefaria, url: "https://www.sefaria.org/texts" }
       - title: Westminster Leningrad Codex (UXLC)
+        kind: primary
         reader: student
         publicDomain: true
         links:
           - { label: tanach.us, url: "https://www.tanach.us/" }
       - title: Divino Afflante Spiritu
+        kind: primary
         reader: student
         pages: 30
         author: Pope Pius XII
@@ -327,6 +337,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html" }
       - title: Nova Vulgata
+        kind: primary
         reader: student
         author: Holy See
         date: "1979"
@@ -387,6 +398,7 @@ rows:
       - Produce an annotated comparison of one passage in Hebrew, LXX Greek and Vulgate Latin
     coreTexts:
       - title: Genesis 37–50, 1 Samuel, Daniel (Hebrew/Aramaic)
+        kind: primary
         reader: student
         pages: 100
         publicDomain: true

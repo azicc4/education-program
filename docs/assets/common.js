@@ -22,6 +22,8 @@
   const ageLabel = (r) => (r.ageStart === r.ageEnd ? fmtAge(r.ageStart) : `${fmtAge(r.ageStart)}–${fmtAge(r.ageEnd)}`);
   // who reads a text, and how long it is
   const READER = { teacher: 'Teacher reads', together: 'Read together', student: 'Student reads' };
+  const KIND = { primary: 'Primary source', secondary: 'Secondary', instructional: 'Instructional' };
+  const kindBadge = (t) => (t?.kind ? `<span class="badge kind-badge kind-${esc(t.kind)}">${KIND[t.kind] || esc(t.kind)}</span>` : '');
   const readerBadge = (t) => (t?.reader ? `<span class="badge reader-${esc(t.reader)}">${READER[t.reader] || esc(t.reader)}</span>` : '');
   const lengthLabel = (t) => (t?.pages ? `${Number(t.pages).toLocaleString()} pp` : t?.words ? `${Math.round(t.words / 1000).toLocaleString()}k words` : '');
   const levelBadge = (id) => `<span class="badge lvl-${esc(id)}">${esc(levelById[id]?.label ?? id)}</span>`;
@@ -254,7 +256,7 @@
         texts.length
           ? `<h3>Core texts</h3>${texts
               .map(
-                (x) => `<div class="text-item"><strong>${esc(x.title.replace(/\s*\(elective\)\s*$/i, ''))}</strong>${/\(elective\)\s*$/i.test(x.title) ? ' <span class="badge elective">elective</span>' : ''}${x.author ? ` <span class="by">— ${esc(x.author)}</span>` : ''}${x.date ? ` <span class="by">(${esc(x.date)})</span>` : ''} ${x.publicDomain ? '<span class="badge pd">Free / public domain</span>' : ''} ${readerBadge(x)} ${lengthLabel(x) ? `<span class="by">· ${lengthLabel(x)}</span>` : ''}${linkList(x.links)}</div>`,
+                (x) => `<div class="text-item"><strong>${esc(x.title.replace(/\s*\(elective\)\s*$/i, ''))}</strong>${/\(elective\)\s*$/i.test(x.title) ? ' <span class="badge elective">elective</span>' : ''}${x.author ? ` <span class="by">— ${esc(x.author)}</span>` : ''}${x.date ? ` <span class="by">(${esc(x.date)})</span>` : ''} ${x.publicDomain ? '<span class="badge pd">Free / public domain</span>' : ''} ${kindBadge(x)} ${readerBadge(x)} ${lengthLabel(x) ? `<span class="by">· ${lengthLabel(x)}</span>` : ''}${linkList(x.links)}</div>`,
               )
               .join('')}`
           : ''

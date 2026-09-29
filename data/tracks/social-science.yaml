@@ -45,6 +45,7 @@ rows:
       - Keep a two-week log of one's own passions and habits, classified in Thomist terms
     coreTexts:
       - title: On the Soul (De Anima), Books II–III
+        kind: primary
         reader: student
         pages: 60
         author: Aristotle
@@ -53,6 +54,7 @@ rows:
         links:
           - { label: Internet Classics Archive (MIT), url: "https://classics.mit.edu/Aristotle/soul.html" }
       - title: On Memory and Reminiscence
+        kind: primary
         reader: student
         pages: 12
         author: Aristotle
@@ -61,6 +63,7 @@ rows:
         links:
           - { label: Internet Classics Archive (MIT), url: "https://classics.mit.edu/Aristotle/memory.html" }
       - title: "Summa Theologiae I q.75 and q.78 (the soul and its powers)"
+        kind: primary
         reader: student
         pages: 25
         author: Thomas Aquinas
@@ -70,6 +73,7 @@ rows:
           - { label: "New Advent (I q.75)", url: "https://www.newadvent.org/summa/1075.htm" }
           - { label: "New Advent (I q.78)", url: "https://www.newadvent.org/summa/1078.htm" }
       - title: "Summa Theologiae I-II q.22ff. (the passions) and q.49ff. (habits)"
+        kind: primary
         reader: student
         pages: 150
         author: Thomas Aquinas
@@ -79,6 +83,7 @@ rows:
           - { label: "New Advent (I-II q.22)", url: "https://www.newadvent.org/summa/2022.htm" }
           - { label: "New Advent (I-II q.49)", url: "https://www.newadvent.org/summa/2049.htm" }
       - title: Confessions, Book X (memory)
+        kind: primary
         reader: student
         pages: 45
         author: Augustine of Hippo
@@ -88,6 +93,7 @@ rows:
           - { label: New Advent, url: "https://www.newadvent.org/fathers/110110.htm" }
           - { label: Project Gutenberg (Pusey trans.), url: "https://www.gutenberg.org/ebooks/3296" }
       - title: Thomistic Psychology
+        kind: instructional
         reader: student
         pages: 401
         author: Robert E. Brennan, O.P.
@@ -142,6 +148,7 @@ rows:
       - Identify the view of the person assumed by each major school (behaviorist, psychoanalytic, humanistic, cognitive, evolutionary)
     coreTexts:
       - title: "The Principles of Psychology, Vol. 1 (ch. IV Habit, IX The Stream of Thought, XI Attention, XVI Memory)"
+        kind: primary
         reader: student
         pages: 175
         author: William James
@@ -151,6 +158,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/57628" }
           - { label: Classics in the History of Psychology (York Univ.), url: "https://psychclassics.yorku.ca/James/Principles/" }
       - title: "Psychology: Briefer Course"
+        kind: primary
         reader: student
         pages: 478
         author: William James
@@ -159,6 +167,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/55262" }
       - title: An Introduction to Psychology
+        kind: primary
         reader: student
         pages: 198
         author: Wilhelm Wundt
@@ -167,6 +176,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46677" }
       - title: An Inquiry into the Human Mind, on the Principles of Common Sense (selections)
+        kind: primary
         reader: student
         pages: 300
         author: Thomas Reid
@@ -175,6 +185,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/b30503462" }
       - title: Psychology 2e
+        kind: instructional
         reader: student
         pages: 750
         author: Rose M. Spielman et al.
@@ -263,6 +274,7 @@ rows:
       - Write a one-page critical appraisal of a published study and of a news article that reports it
     coreTexts:
       - title: Why Most Published Research Findings Are False
+        kind: primary
         reader: student
         pages: 6
         author: John P. A. Ioannidis
@@ -271,6 +283,7 @@ rows:
         links:
           - { label: PLOS Medicine (open access), url: "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124" }
       - title: Estimating the Reproducibility of Psychological Science
+        kind: primary
         reader: student
         pages: 8
         author: Open Science Collaboration
@@ -280,6 +293,7 @@ rows:
           - { label: Science (DOI), url: "https://doi.org/10.1126/science.aac4716" }
           - { label: OSF project (data and materials), url: "https://osf.io/ezcuj/" }
       - title: "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant"
+        kind: primary
         reader: student
         pages: 11
         author: Joseph P. Simmons, Leif D. Nelson and Uri Simonsohn
@@ -288,6 +302,7 @@ rows:
         links:
           - { label: Psychological Science (DOI), url: "https://doi.org/10.1177/0956797611417632" }
       - title: "The ASA Statement on p-Values: Context, Process, and Purpose"
+        kind: primary
         reader: student
         pages: 5
         author: Ronald L. Wasserstein and Nicole A. Lazar
@@ -296,6 +311,7 @@ rows:
         links:
           - { label: The American Statistician (DOI), url: "https://doi.org/10.1080/00031305.2016.1154108" }
       - title: How to Lie with Statistics
+        kind: primary
         reader: student
         pages: 142
         author: Darrell Huff
@@ -304,6 +320,7 @@ rows:
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/How-to-Lie-with-Statistics" }
       - title: "Science Fictions: How Fraud, Bias, Negligence, and Hype Undermine the Search for Truth"
+        kind: primary
         reader: student
         pages: 361
         author: Stuart Ritchie
@@ -362,6 +379,7 @@ rows:
       - Keep a decision journal with predictions and confidence levels, and score it after three months
     coreTexts:
       - title: "Judgment under Uncertainty: Heuristics and Biases"
+        kind: primary
         reader: student
         pages: 8
         author: Amos Tversky and Daniel Kahneman
@@ -370,6 +388,7 @@ rows:
         links:
           - { label: Science (DOI), url: "https://doi.org/10.1126/science.185.4157.1124" }
       - title: Thinking, Fast and Slow
+        kind: primary
         reader: student
         pages: 528
         author: Daniel Kahneman
@@ -378,6 +397,7 @@ rows:
         links:
           - { label: Farrar, Straus and Giroux (Macmillan), url: "https://us.macmillan.com/books/9780374533557/thinkingfastandslow" }
       - title: "Risk Savvy: How to Make Good Decisions"
+        kind: primary
         reader: student
         pages: 322
         author: Gerd Gigerenzer
@@ -438,6 +458,7 @@ rows:
       - Design, run and evaluate a spaced-retrieval study plan for one subject for a whole term
     coreTexts:
       - title: "Make It Stick: The Science of Successful Learning"
+        kind: primary
         reader: student
         pages: 336
         author: Peter C. Brown, Henry L. Roediger III and Mark A. McDaniel
@@ -446,6 +467,7 @@ rows:
         links:
           - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674729018" }
       - title: "Why Don't Students Like School? (2nd ed.)"
+        kind: primary
         reader: student
         pages: 320
         author: Daniel T. Willingham
@@ -454,6 +476,7 @@ rows:
         links:
           - { label: Wiley, url: "https://www.wiley.com/en-us/shop/general-introductory-education/why-don't-students-like-school-a-cognitive-scientist-answers-questions-about-how-the-mind-works-and-what-it-means-for-the-classroom-2nd-edition-p-9781119715665" }
       - title: "Improving Students' Learning With Effective Learning Techniques"
+        kind: primary
         reader: student
         pages: 55
         author: John Dunlosky, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan and Daniel T. Willingham
@@ -462,6 +485,7 @@ rows:
         links:
           - { label: Psychological Science in the Public Interest (DOI), url: "https://doi.org/10.1177/1529100612453266" }
       - title: The Psychology of the Child
+        kind: primary
         reader: student
         pages: 173
         author: Jean Piaget and Bärbel Inhelder
@@ -470,6 +494,7 @@ rows:
         links:
           - { label: Basic Books (Hachette), url: "https://www.hachettebookgroup.com/titles/jean-piaget/the-psychology-of-the-child/9780465095001/" }
       - title: "Mind in Society: The Development of Higher Psychological Processes"
+        kind: primary
         reader: student
         pages: 167
         author: L. S. Vygotsky
@@ -478,6 +503,7 @@ rows:
         links:
           - { label: Harvard University Press, url: "https://www.hup.harvard.edu/books/9780674576292" }
       - title: "Peak: Secrets from the New Science of Expertise"
+        kind: primary
         reader: student
         pages: 336
         author: Anders Ericsson and Robert Pool
@@ -486,6 +512,7 @@ rows:
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.com/products/peak-anders-ericssonrobert-pool" }
       - title: Talks to Teachers on Psychology; and to Students on Some of Life's Ideals
+        kind: primary
         reader: student
         pages: 301
         author: William James
@@ -555,6 +582,7 @@ rows:
       - Write an essay on the question "Does situationism refute virtue ethics?" drawing on Aristotle, Milgram and Haidt
     coreTexts:
       - title: "Studies of Independence and Conformity: I. A Minority of One Against a Unanimous Majority"
+        kind: primary
         reader: student
         pages: 70
         author: Solomon E. Asch
@@ -563,6 +591,7 @@ rows:
         links:
           - { label: Psychological Monographs (DOI), url: "https://doi.org/10.1037/h0093718" }
       - title: Behavioral Study of Obedience
+        kind: primary
         reader: student
         pages: 8
         author: Stanley Milgram
@@ -571,6 +600,7 @@ rows:
         links:
           - { label: Journal of Abnormal and Social Psychology (DOI), url: "https://doi.org/10.1037/h0040525" }
       - title: Debunking the Stanford Prison Experiment
+        kind: primary
         reader: student
         pages: 17
         author: Thibault Le Texier
@@ -579,6 +609,7 @@ rows:
         links:
           - { label: American Psychologist (DOI), url: "https://doi.org/10.1037/amp0000401" }
       - title: "The Righteous Mind: Why Good People Are Divided by Politics and Religion"
+        kind: primary
         reader: student
         pages: 493
         author: Jonathan Haidt
@@ -587,6 +618,7 @@ rows:
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/73535/the-righteous-mind-by-jonathan-haidt/" }
       - title: "Influence: The Psychology of Persuasion (new and expanded ed.)"
+        kind: primary
         reader: student
         pages: 590
         author: Robert B. Cialdini
@@ -649,6 +681,7 @@ rows:
       - Write a research paper on the state of one mediating institution (parish, family, lodge, local club) in your own town
     coreTexts:
       - title: Invitation to Sociology
+        kind: secondary
         reader: student
         pages: 191
         author: Peter L. Berger
@@ -657,6 +690,7 @@ rows:
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/12385/invitation-to-sociology-by-peter-l-berger/" }
       - title: Democracy in America, Volume 2 (Part II, on individualism and associations)
+        kind: primary
         reader: student
         pages: 80
         author: Alexis de Tocqueville
@@ -665,6 +699,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/816" }
       - title: "Suicide: A Study in Sociology"
+        kind: primary
         reader: student
         pages: 405
         author: Émile Durkheim
@@ -674,6 +709,7 @@ rows:
           - { label: Free Press (Simon & Schuster), url: "https://www.simonandschuster.com/books/Suicide/John-A-Spaulding/9780684836324" }
           - { label: "Project Gutenberg (French original, public domain)", url: "https://www.gutenberg.org/ebooks/40489" }
       - title: The Protestant Ethic and the Spirit of Capitalism
+        kind: primary
         reader: student
         pages: 300
         author: Max Weber (trans. Talcott Parsons)
@@ -682,6 +718,7 @@ rows:
         links:
           - { label: Marxists Internet Archive (full text), url: "https://www.marxists.org/reference/archive/weber/protestant-ethic/" }
       - title: The Quest for Community
+        kind: primary
         reader: student
         pages: 303
         author: Robert Nisbet
@@ -690,6 +727,7 @@ rows:
         links:
           - { label: ISI Books (Simon & Schuster), url: "https://www.simonandschuster.com/books/The-Quest-for-Community/Robert-Nisbet/9781684516360" }
       - title: "Bowling Alone: The Collapse and Revival of American Community (revised and updated)"
+        kind: primary
         reader: student
         pages: 544
         author: Robert D. Putnam
@@ -698,6 +736,7 @@ rows:
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/Bowling-Alone-Revised-and-Updated/Robert-D-Putnam/9781982130848" }
       - title: Social Capital in the Creation of Human Capital
+        kind: primary
         reader: student
         pages: 26
         author: James S. Coleman
@@ -760,6 +799,7 @@ rows:
       - Explain the eleven dimensions of the person in the Catholic Christian Meta-Model and how it relates to secular therapy
     coreTexts:
       - title: Man's Search for Meaning
+        kind: primary
         reader: student
         pages: 165
         author: Viktor E. Frankl
@@ -768,6 +808,7 @@ rows:
         links:
           - { label: Beacon Press, url: "https://www.beacon.org/Mans-Search-for-Meaning-P602.aspx" }
       - title: "Psychology as Religion: The Cult of Self-Worship (2nd ed.)"
+        kind: primary
         reader: student
         pages: 161
         author: Paul C. Vitz
@@ -776,6 +817,7 @@ rows:
         links:
           - { label: Eerdmans, url: "https://www.eerdmans.com/9780802807250/psychology-as-religion/" }
       - title: "A Catholic Christian Meta-Model of the Person: Integration with Psychology and Mental Health Practice (selections)"
+        kind: primary
         reader: student
         pages: 700
         author: Paul C. Vitz, William J. Nordling and Craig Steven Titus (eds.)
@@ -784,6 +826,7 @@ rows:
         links:
           - { label: Harvard Book Store, url: "https://www.harvard.com/book/9781733123501" }
       - title: "Born Only Once: The Miracle of Affirmation (3rd ed.)"
+        kind: primary
         reader: student
         pages: 123
         author: Conrad W. Baars
@@ -851,6 +894,7 @@ rows:
       - Write and keep for one term a personal technology rule, and report on it
     coreTexts:
       - title: "Amusing Ourselves to Death: Public Discourse in the Age of Show Business"
+        kind: primary
         reader: student
         pages: 195
         author: Neil Postman
@@ -859,6 +903,7 @@ rows:
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/" }
       - title: "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness"
+        kind: primary
         reader: student
         pages: 395
         author: Jonathan Haidt
@@ -867,6 +912,7 @@ rows:
         links:
           - { label: Penguin Random House, url: "https://www.penguinrandomhouse.com/books/729231/the-anxious-generation-by-jonathan-haidt/" }
       - title: "The Shallows: What the Internet Is Doing to Our Brains"
+        kind: primary
         reader: student
         pages: 290
         author: Nicholas Carr
@@ -875,6 +921,7 @@ rows:
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/The-Shallows" }
       - title: Abuse of Language, Abuse of Power
+        kind: primary
         reader: student
         pages: 54
         author: Josef Pieper
@@ -883,6 +930,7 @@ rows:
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/abuse-of-language-abuse-of-power-alapp/" }
       - title: "The Tech-Wise Family: Everyday Steps for Putting Technology in Its Proper Place"
+        kind: primary
         reader: student
         pages: 193
         author: Andy Crouch
@@ -941,6 +989,7 @@ rows:
       - Distinguish methodological relativism (suspending judgment in order to understand) from moral relativism
     coreTexts:
       - title: Religion and the Rise of Western Culture
+        kind: secondary
         reader: student
         pages: 242
         author: Christopher Dawson
@@ -949,6 +998,7 @@ rows:
         links:
           - { label: Penguin Random House (Image), url: "https://www.penguinrandomhouse.com/books/37979/religion-and-the-rise-of-western-culture-by-christopher-dawson/" }
       - title: Theories of Primitive Religion
+        kind: secondary
         reader: student
         pages: 132
         author: E. E. Evans-Pritchard
@@ -957,6 +1007,7 @@ rows:
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/theories-of-primitive-religion-9780198231318" }
       - title: "Purity and Danger: An Analysis of Concepts of Pollution and Taboo"
+        kind: primary
         reader: student
         pages: 193
         author: Mary Douglas
@@ -1014,6 +1065,7 @@ rows:
       - Write a 4,000-word seminar paper, "The Uses and Limits of Social Science for a Statesman"
     coreTexts:
       - title: "The Counter-Revolution of Science: Studies on the Abuse of Reason"
+        kind: primary
         reader: student
         pages: 255
         author: F. A. Hayek
@@ -1022,6 +1074,7 @@ rows:
         links:
           - { label: Mises Institute (free), url: "https://mises.org/library/book/counter-revolution-science" }
       - title: The Pretence of Knowledge (Nobel Prize lecture)
+        kind: primary
         reader: student
         pages: 10
         author: F. A. Hayek
@@ -1030,6 +1083,7 @@ rows:
         links:
           - { label: NobelPrize.org (free), url: "https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/lecture/" }
       - title: "After Virtue, ch. 8: The Character of Generalizations in Social Science and Their Lack of Predictive Power"
+        kind: primary
         reader: student
         pages: 20
         author: Alasdair MacIntyre
@@ -1038,6 +1092,7 @@ rows:
         links:
           - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
       - title: "What Is a Person? Rethinking Humanity, Social Life, and the Moral Good from the Person Up"
+        kind: primary
         reader: student
         pages: 520
         author: Christian Smith
@@ -1046,6 +1101,7 @@ rows:
         links:
           - { label: University of Chicago Press, url: "https://press.uchicago.edu/ucp/books/book/chicago/W/bo8697279.html" }
       - title: Gaudium et Spes, Part I, ch. 1 (The Dignity of the Human Person)
+        kind: primary
         reader: student
         pages: 8
         author: Second Vatican Council

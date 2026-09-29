@@ -47,6 +47,7 @@ rows:
       - Score his own and released sample essays against the College Board rubrics, and agree with the official scores within one point
     coreTexts:
       - title: "AP U.S. History Course and Exam Description (effective fall 2026): skills, reasoning processes and rubrics"
+        kind: instructional
         reader: teacher
         author: College Board
         date: "2026"
@@ -55,6 +56,7 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
           - { label: "AP History Exam Updates (May 2027)", url: "https://apcentral.collegeboard.org/courses/ap-history-exam-updates" }
       - title: "Released free-response questions, scoring guidelines and sample student responses"
+        kind: instructional
         reader: student
         author: College Board
         publicDomain: false
@@ -133,6 +135,7 @@ rows:
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from Periods 1–4
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 1–4"
+        kind: instructional
         reader: teacher
         author: College Board
         date: "effective fall 2026"
@@ -141,6 +144,7 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
           - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-united-states-history" }
       - title: "The American Pageant, AP Edition (18th ed.)"
+        kind: secondary
         reader: student
         pages: 1150
         author: David M. Kennedy & Margaret O'Mara
@@ -149,6 +153,7 @@ rows:
         links:
           - { label: Cengage (National Geographic Learning), url: "https://ngl.cengage.com/products/9798214071107" }
       - title: "Give Me Liberty! An American History, AP Edition (7th ed.) (alternative survey text)"
+        kind: secondary
         reader: student
         pages: 1350
         author: Eric Foner et al.
@@ -157,6 +162,7 @@ rows:
         links:
           - { label: W. W. Norton, url: "https://wwnorton.com/books/9781324071396" }
       - title: "Land of Hope: An Invitation to the Great American Story (counterweight survey), with the Teacher's Guide and Student Workbook"
+        kind: secondary
         reader: student
         pages: 504
         author: Wilfred M. McClay
@@ -168,6 +174,7 @@ rows:
           - { label: "Student Workbook (primary sources per chapter)", url: "https://www.encounterbooks.com/books/student-workbook-land-hope/" }
           - { label: Land of Hope education site, url: "https://landofhope.education/" }
       - title: "The American Yawp and The American Yawp Reader (free)"
+        kind: secondary
         reader: student
         author: Joseph Locke & Ben Wright (eds.)
         publicDomain: false
@@ -175,6 +182,7 @@ rows:
           - { label: Text, url: "https://www.americanyawp.com/text/" }
           - { label: Reader (primary sources), url: "https://www.americanyawp.com/reader/" }
       - title: "Modern History Sourcebook: Colonial North America; Colonial Latin America; Early US"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -263,6 +271,7 @@ rows:
       - Sit a full-length released or practice exam under timed conditions before the May exam
     coreTexts:
       - title: "AP U.S. History Course and Exam Description, Units 5–9"
+        kind: instructional
         reader: teacher
         author: College Board
         date: "effective fall 2026"
@@ -271,6 +280,7 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description.pdf" }
           - { label: "CED clarifications", url: "https://apcentral.collegeboard.org/media/pdf/ap-us-history-course-and-exam-description-clarifications.pdf" }
       - title: "The American Pageant, AP Edition (18th ed.), or Give Me Liberty!, AP Edition (7th ed.)"
+        kind: secondary
         reader: student
         pages: 1150
         author: Kennedy & O'Mara; Foner et al.
@@ -279,6 +289,7 @@ rows:
           - { label: "Cengage: The American Pageant", url: "https://ngl.cengage.com/products/9798214071107" }
           - { label: "Norton: Give Me Liberty!", url: "https://wwnorton.com/books/9781324071396" }
       - title: "Land of Hope (counterweight survey), with the Teacher's Guide"
+        kind: secondary
         reader: student
         pages: 504
         author: Wilfred M. McClay
@@ -287,6 +298,7 @@ rows:
           - { label: Encounter Books, url: "https://www.encounterbooks.com/books/land-of-hope-revised_edition/" }
           - { label: "A Teacher's Guide to Land of Hope", url: "https://www.encounterbooks.com/books/teachers-guide-land-hope/" }
       - title: The Frontier in American History (incl. "The Significance of the Frontier in American History," 1893)
+        kind: primary
         reader: student
         pages: 375
         author: Frederick Jackson Turner
@@ -295,6 +307,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/22994" }
       - title: How the Other Half Lives
+        kind: primary
         reader: student
         pages: 251
         author: Jacob A. Riis
@@ -303,6 +316,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45502" }
       - title: "Modern History Sourcebook: US Immigration; US Power; US Society"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -310,6 +324,7 @@ rows:
           - { label: US Power, url: "https://sourcebooks.fordham.edu/mod/modsbook47.asp" }
           - { label: US Society, url: "https://sourcebooks.fordham.edu/mod/modsbook48.asp" }
       - title: The American Yawp Reader (Periods 5–9 documents)
+        kind: secondary
         reader: student
         publicDomain: false
         links:
@@ -394,6 +409,7 @@ rows:
       - Complete progress checks for Units 1–9, two timed DBQs, and one full practice exam
     coreTexts:
       - title: AP European History Course and Exam Description
+        kind: instructional
         reader: teacher
         author: College Board
         publicDomain: false
@@ -401,6 +417,7 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-european-history-course-and-exam-description.pdf" }
           - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-european-history" }
       - title: "A History of Western Society Since 1300 for the AP® Course (13th ed.)"
+        kind: secondary
         reader: student
         pages: 1000
         author: John P. McKay et al.
@@ -408,6 +425,7 @@ rows:
         links:
           - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/A-History-of-Western-Society-Since-1300-for-the-AP-Course/p/1319221637" }
       - title: A History of Europe in the Modern World (alternative survey text)
+        kind: secondary
         reader: student
         pages: 1100
         author: R. R. Palmer, Joel Colton & Lloyd Kramer
@@ -415,6 +433,7 @@ rows:
         links:
           - { label: McGraw Hill, url: "https://www.mheducation.com/highered/product/a-history-of-europe-in-the-modern-world-kramer.html" }
       - title: "The Western Heritage (alternative survey text)"
+        kind: secondary
         reader: student
         pages: 1100
         author: Donald Kagan, Steven Ozment, Frank M. Turner et al.
@@ -422,12 +441,14 @@ rows:
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/western-heritage-the-combined-volume/P200000002916/9780137497799" }
       - title: "The Golden Thread: A History of the Western Tradition (counterweight)"
+        kind: secondary
         reader: student
         author: Allen C. Guelzo & James Hankins
         publicDomain: false
         links:
           - { label: Encounter Books, url: "https://www.encounterbooks.com/books/golden-thread-history-western-tradition-2/" }
       - title: "Modern History Sourcebook: Early Modern World; Scientific Revolution; Enlightenment; Enlightened Despots; Industrial Revolution; Western and Eastern Europe Since 1945"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -439,6 +460,7 @@ rows:
           - { label: Western Europe Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook49.asp" }
           - { label: Eastern Europe Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook50.asp" }
       - title: The Schuman Declaration
+        kind: primary
         reader: student
         pages: 2
         author: Robert Schuman
@@ -519,6 +541,7 @@ rows:
       - Complete progress checks for Units 1–4 and one timed DBQ and LEQ from c. 1200–1750
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 1–4"
+        kind: instructional
         reader: teacher
         author: College Board
         publicDomain: false
@@ -526,6 +549,7 @@ rows:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf" }
           - { label: AP Central course page, url: "https://apcentral.collegeboard.org/courses/ap-world-history" }
       - title: "Ways of the World for the AP® World History Modern Course Since 1200 C.E. (5th ed.)"
+        kind: secondary
         reader: student
         pages: 900
         author: Robert W. Strayer & Eric W. Nelson
@@ -533,6 +557,7 @@ rows:
         links:
           - { label: BFW / Macmillan Learning, url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
       - title: "Traditions & Encounters: A Global Perspective on the Past, AP Edition (7th ed.) (alternative survey text)"
+        kind: secondary
         reader: student
         pages: 1200
         author: Jerry H. Bentley et al.
@@ -541,6 +566,7 @@ rows:
         links:
           - { label: McGraw Hill, url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
       - title: Travels in Asia and Africa, 1325–1354 (selections)
+        kind: primary
         reader: student
         pages: 380
         author: Ibn Battuta (tr. H. A. R. Gibb)
@@ -548,6 +574,7 @@ rows:
         links:
           - { label: Medieval Sourcebook (Fordham), url: "https://sourcebooks.fordham.edu/source/1354-ibnbattuta.asp" }
       - title: Inscriptions of Zheng He (Liujiagang and Changle, 1431)
+        kind: primary
         reader: student
         pages: 3
         author: Zheng He
@@ -555,6 +582,7 @@ rows:
         links:
           - { label: Oregon State Open Textbook, url: "https://open.oregonstate.education/middleearlymodernages/chapter/inscriptions-of-zheng-he/" }
       - title: The Memoirs of the Conquistador Bernal Díaz del Castillo (already read in spanish-07)
+        kind: primary
         reader: student
         pages: 800
         author: Bernal Díaz del Castillo (tr. Lockhart)
@@ -563,6 +591,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/32474" }
       - title: "Florentine Codex, Book XII (the Mexica account of the conquest)"
+        kind: primary
         reader: student
         pages: 120
         author: Bernardino de Sahagún and Nahua informants
@@ -571,6 +600,7 @@ rows:
         links:
           - { label: Digital Florentine Codex (Getty), url: "https://florentinecodex.getty.edu/" }
       - title: The Bābur-nāma in English (Memoirs of Babur)
+        kind: primary
         reader: student
         pages: 880
         author: Babur (tr. A. S. Beveridge)
@@ -579,6 +609,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/44608" }
       - title: "Internet Islamic, East Asian, Indian and African History Sourcebooks"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -660,12 +691,14 @@ rows:
       - Sit a full-length released or practice exam under timed conditions before the May exam
     coreTexts:
       - title: "AP World History: Modern Course and Exam Description, Units 5–9"
+        kind: instructional
         reader: teacher
         author: College Board
         publicDomain: false
         links:
           - { label: CED (PDF), url: "https://apcentral.collegeboard.org/media/pdf/ap-world-history-modern-course-and-exam-description.pdf" }
       - title: "Ways of the World for the AP® Modern Course (5th ed.), or Traditions & Encounters, AP Edition (7th ed.)"
+        kind: secondary
         reader: student
         pages: 900
         author: Strayer & Nelson; Bentley et al.
@@ -674,6 +707,7 @@ rows:
           - { label: "BFW: Ways of the World", url: "https://www.bfwpub.com/high-school/us/product/Ways-of-the-World-for-the-AP-World-History-Modern-Course-Since-1200-C.E./p/131940930X" }
           - { label: "McGraw Hill: Traditions & Encounters", url: "https://www.mheducation.com/prek-12/program/bentley-traditions-encounters-global-perspective-past-ap-edition-2023-7e/MKTSP-GEO12M0.html" }
       - title: Letter to the King of England (George III)
+        kind: primary
         reader: student
         pages: 5
         author: Qianlong Emperor
@@ -682,6 +716,7 @@ rows:
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1793qianlong.asp" }
       - title: Letter to Queen Victoria
+        kind: primary
         reader: student
         pages: 4
         author: Lin Zexu
@@ -690,6 +725,7 @@ rows:
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1839lin2.asp" }
       - title: Declaration of Independence of the Democratic Republic of Vietnam
+        kind: primary
         reader: student
         pages: 3
         author: Ho Chi Minh
@@ -697,6 +733,7 @@ rows:
         links:
           - { label: Modern History Sourcebook, url: "https://sourcebooks.fordham.edu/mod/1945vietnam.asp" }
       - title: "Modern History Sourcebook: 19C Latin America; Imperialism; Industrial Revolution II; Decolonization; Asia Since 1900; Africa Since 1945"
+        kind: secondary
         reader: student
         publicDomain: true
         links:
@@ -707,6 +744,7 @@ rows:
           - { label: Asia Since 1900, url: "https://sourcebooks.fordham.edu/mod/modsbook52.asp" }
           - { label: Africa Since 1945, url: "https://sourcebooks.fordham.edu/mod/modsbook53.asp" }
       - title: "Conquests and Cultures: An International History (counterweight)"
+        kind: secondary
         reader: student
         pages: 493
         author: Thomas Sowell

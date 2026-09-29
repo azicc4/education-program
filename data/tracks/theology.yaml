@@ -71,6 +71,7 @@ rows:
       - Connect each season with a Bible story (Annunciation, Nativity, Passion, Resurrection, Pentecost)
     coreTexts:
       - title: "Around the Year with the von Trapp Family"
+        kind: primary
         reader: teacher
         pages: 256
         author: Maria Augusta von Trapp
@@ -111,6 +112,7 @@ rows:
       - Connect Bible stories to the liturgical seasons
     coreTexts:
       - title: The Golden Children's Bible
+        kind: secondary
         reader: together
         pages: 512
         author: Golden Books (editorial board)
@@ -120,6 +122,7 @@ rows:
           - { label: Memoria Press, url: "https://www.memoriapress.com/curriculum/christian-studies/golden-childrens-bible/" }
           - { label: Amazon, url: "https://www.amazon.com/Childrens-Bible-Golden-Books/dp/0307165205" }
       - title: New Catholic Picture Bible
+        kind: secondary
         reader: together
         pages: 232
         author: Rev. Lawrence G. Lovasik, S.V.D.
@@ -152,6 +155,7 @@ rows:
       - Ask a saint's intercession in prayer (Catholic practice)
     coreTexts:
       - title: Picture Book of Saints
+        kind: secondary
         reader: together
         pages: 118
         author: Rev. Lawrence G. Lovasik, S.V.D.
@@ -186,6 +190,7 @@ rows:
       - Pray in silence and song for short periods
     coreTexts:
       - title: "The Religious Potential of the Child: Experiencing Scripture and Liturgy with Young Children"
+        kind: instructional
         reader: teacher
         pages: 188
         author: Sofia Cavalletti
@@ -227,6 +232,7 @@ rows:
       - Prepare for and receive first Penance and first Holy Communion
     coreTexts:
       - title: "St. Joseph First Communion Catechism (No. 0)"
+        kind: instructional
         reader: together
         pages: 64
         author: Confraternity of Christian Doctrine (rev. Baltimore Catechism)
@@ -234,6 +240,7 @@ rows:
         links:
           - { label: Catholic Book Publishing, url: "https://catholicbookpublishing.com/products/st-joseph-first-communion-catechism-no-0-illustrated" }
       - title: "A Catechism of Christian Doctrine, No. 1 (Baltimore Catechism)"
+        kind: instructional
         reader: together
         author: Third Plenary Council of Baltimore
         date: "1885 (1891 ed.)"
@@ -285,6 +292,7 @@ rows:
       - Narrate a Bible story orally and in writing
     coreTexts:
       - title: The Holy Bible, Douay-Rheims Version
+        kind: primary
         reader: together
         pages: 1408
         author: (Challoner revision)
@@ -339,6 +347,7 @@ rows:
       - Pray the Rosary and know its mysteries
     coreTexts:
       - title: "A Catechism of Christian Doctrine, No. 2 (Baltimore Catechism)"
+        kind: instructional
         reader: together
         author: Third Plenary Council of Baltimore
         date: "1885"
@@ -379,6 +388,7 @@ rows:
       - Read the feast-day entry from Butler's Lives on major feasts
     coreTexts:
       - title: "The Lives of the Fathers, Martyrs, and Other Principal Saints"
+        kind: secondary
         reader: together
         pages: 458
         author: Alban Butler
@@ -388,6 +398,7 @@ rows:
           - { label: "Project Gutenberg (Jan–Mar)", url: "https://www.gutenberg.org/ebooks/20450" }
           - { label: "Archive.org (1842 ed., vol. 1)", url: "https://archive.org/details/livesoffathersma01butl" }
       - title: "Fabiola; or, The Church of the Catacombs"
+        kind: primary
         reader: student
         pages: 418
         author: Cardinal Nicholas Wiseman
@@ -429,6 +440,7 @@ rows:
       - Compare Christian's journey with a saint's life read in theology-09
     coreTexts:
       - title: The Pilgrim's Progress from This World to That Which Is to Come
+        kind: primary
         reader: student
         pages: 360
         author: John Bunyan
@@ -477,6 +489,7 @@ rows:
       - Prepare for and receive Confirmation, choosing a saint's name with a written reason
     coreTexts:
       - title: "A Catechism of Christian Doctrine, No. 3 (Baltimore Catechism)"
+        kind: instructional
         reader: student
         author: Third Plenary Council of Baltimore
         date: "1885 (1891 ed.)"
@@ -484,6 +497,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14553" }
       - title: An Explanation of the Baltimore Catechism (Baltimore No. 4, teacher's reference)
+        kind: instructional
         reader: teacher
         author: Rev. Thomas L. Kinkead
         date: "1891"
@@ -530,6 +544,7 @@ rows:
       - Memorize the Sermon on the Mount (Matthew 5–7), in sections
     coreTexts:
       - title: "Ignatius Catholic Study Bible: New Testament (RSV-2CE)"
+        kind: primary
         reader: student
         pages: 620
         author: Scott Hahn & Curtis Mitch
@@ -574,6 +589,7 @@ rows:
       - Answer common objections to Catholic doctrine in writing
     coreTexts:
       - title: A Course in Religion for Catholic High Schools and Academies (Parts I–IV)
+        kind: instructional
         reader: student
         author: Rev. John Laux, M.A.
         date: "from 1928 (TAN reprint)"
@@ -619,6 +635,7 @@ rows:
       - Answer five common objections to Christianity in short essays
     coreTexts:
       - title: Theology for Beginners
+        kind: secondary
         reader: student
         pages: 219
         author: Frank Sheed
@@ -627,6 +644,7 @@ rows:
         links:
           - { label: Cenacle Press, url: "https://cenaclepress.com/en-us/products/theology-for-beginners-sheed" }
       - title: "Handbook of Catholic Apologetics: Reasoned Answers to Questions of Faith"
+        kind: secondary
         reader: student
         pages: 493
         author: Peter Kreeft & Ronald K. Tacelli, S.J.
@@ -635,6 +653,7 @@ rows:
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/handbook-of-catholic-apologetics-hcatap/" }
       - title: The Spirit of Catholicism
+        kind: primary
         reader: student
         pages: 250
         author: Karl Adam (trans. Justin McCann)
@@ -643,6 +662,7 @@ rows:
         links:
           - { label: "Archive.org (1929 ed.)", url: "https://archive.org/details/in.ernet.dli.2015.51136" }
       - title: Mere Christianity
+        kind: primary
         reader: student
         pages: 191
         author: C.S. Lewis
@@ -651,6 +671,7 @@ rows:
         links:
           - { label: HarperOne, url: "https://www.harpercollins.com/products/mere-christianity-c-s-lewis" }
       - title: "The God Delusion (elective, the opponent's case)"
+        kind: primary
         reader: student
         pages: 420
         author: Richard Dawkins
@@ -659,6 +680,7 @@ rows:
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.ca/9780618680009/the-god-delusion/" }
       - title: "The Last Superstition: A Refutation of the New Atheism (elective, response)"
+        kind: primary
         reader: student
         pages: 306
         author: Edward Feser
@@ -667,6 +689,7 @@ rows:
         links:
           - { label: "St. Augustine's Press", url: "https://www.staugustine.net/our-books/books/the-last-superstition/" }
       - title: "Atheist Delusions: The Christian Revolution and Its Fashionable Enemies (elective, response)"
+        kind: primary
         reader: student
         pages: 272
         author: David Bentley Hart
@@ -675,6 +698,7 @@ rows:
         links:
           - { label: Yale University Press, url: "https://yalebooks.yale.edu/book/9780300164299/atheist-delusions/" }
       - title: "A View of the Evidences of Christianity"
+        kind: primary
         reader: student
         pages: 400
         author: William Paley
@@ -683,6 +707,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14780" }
       - title: "The Truth of the Christian Religion (De Veritate Religionis Christianae) (elective)"
+        kind: primary
         reader: student
         pages: 330
         author: Hugo Grotius (tr. John Clarke)
@@ -739,12 +764,14 @@ rows:
       - Read Dei Verbum (Vatican II) on revelation and inspiration
     coreTexts:
       - title: "Ignatius Catholic Study Bible (RSV-2CE)"
+        kind: primary
         reader: student
         author: Scott Hahn & Curtis Mitch (eds.)
         publicDomain: false
         links:
           - { label: St. Paul Center, url: "https://stpaulcenter.com/store/ignatius-catholic-study-bible-old-and-new-testaments" }
       - title: The Holy Bible, Douay-Rheims Version
+        kind: primary
         reader: student
         pages: 1408
         author: (Challoner revision)
@@ -752,6 +779,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
       - title: Dei Verbum (Dogmatic Constitution on Divine Revelation)
+        kind: primary
         reader: student
         pages: 15
         author: Second Vatican Council
@@ -802,6 +830,7 @@ rows:
       - Summarize the Rule of St. Benedict on obedience, humility, prayer and work, and design a personal rule of life
     coreTexts:
       - title: The Writings of the Apostolic Fathers
+        kind: primary
         reader: student
         pages: 350
         author: Clement, Ignatius, Polycarp, Hermas et al.
@@ -810,6 +839,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/77576" }
           - { label: New Advent (Fathers), url: "https://www.newadvent.org/fathers/" }
       - title: The Confessions
+        kind: primary
         reader: student
         pages: 300
         author: Augustine of Hippo (trans. E.B. Pusey)
@@ -818,6 +848,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3296" }
       - title: The Rule of St. Benedict (St. Benedict's Rule for Monasteries)
+        kind: primary
         reader: student
         pages: 100
         author: Benedict of Nursia
@@ -869,6 +900,7 @@ rows:
       - Explain Thérèse's "little way" and why she was made a Doctor of the Church
     coreTexts:
       - title: The Imitation of Christ
+        kind: primary
         reader: student
         pages: 266
         author: Thomas à Kempis
@@ -877,6 +909,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1653" }
       - title: Introduction to the Devout Life
+        kind: primary
         reader: student
         pages: 296
         author: St. Francis de Sales
@@ -885,6 +918,7 @@ rows:
         links:
           - { label: CCEL, url: "https://ccel.org/ccel/desales/devout_life" }
       - title: Interior Castle (The Mansions)
+        kind: primary
         reader: student
         pages: 250
         author: St. Teresa of Ávila
@@ -893,6 +927,7 @@ rows:
         links:
           - { label: CCEL, url: "https://ccel.org/ccel/teresa/castle2" }
       - title: "The Story of a Soul (L'Histoire d'une Âme)"
+        kind: primary
         reader: student
         pages: 196
         author: St. Thérèse of Lisieux
@@ -929,6 +964,7 @@ rows:
       - Write a Screwtape-style letter on a modern temptation
     coreTexts:
       - title: Apologia Pro Vita Sua
+        kind: primary
         reader: student
         pages: 395
         author: John Henry Newman
@@ -938,6 +974,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19690" }
           - { label: Newman Reader, url: "https://www.newmanreader.org/works/apologia65/" }
       - title: Orthodoxy
+        kind: primary
         reader: student
         pages: 156
         author: G.K. Chesterton
@@ -946,6 +983,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/130" }
       - title: The Everlasting Man
+        kind: primary
         reader: student
         pages: 274
         author: G.K. Chesterton
@@ -954,6 +992,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/65688" }
       - title: The Screwtape Letters
+        kind: primary
         reader: student
         pages: 160
         author: C.S. Lewis
@@ -962,6 +1001,7 @@ rows:
         links:
           - { label: HarperCollins, url: "https://www.harpercollins.ca/9780060652890/the-screwtape-letters/" }
       - title: The Abolition of Man
+        kind: primary
         reader: student
         pages: 117
         author: C.S. Lewis
@@ -971,6 +1011,7 @@ rows:
           - { label: CSLewis.com (HarperCollins), url: "https://www.cslewis.com/the-abolition-of-man/" }
           - { label: Hillsdale College shop, url: "https://shop.hillsdale.edu/products/the-abolition-of-man-c-s-lewis" }
       - title: The Great Divorce
+        kind: primary
         reader: student
         pages: 128
         author: C.S. Lewis
@@ -1020,6 +1061,7 @@ rows:
       - Write a comparative essay that states each side in terms its own adherents would accept
     coreTexts:
       - title: The Westminster Shorter Catechism
+        kind: primary
         reader: student
         pages: 24
         author: Westminster Assembly
@@ -1029,6 +1071,7 @@ rows:
           - { label: Orthodox Presbyterian Church, url: "https://www.opc.org/sc.html" }
           - { label: CCEL, url: "https://ccel.org/ccel/anonymous/westminster1" }
       - title: Institutes of the Christian Religion (selections)
+        kind: primary
         reader: student
         pages: 1500
         author: John Calvin
@@ -1038,6 +1081,7 @@ rows:
           - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/45001" }
           - { label: CCEL, url: "https://ccel.org/ccel/calvin/institutes" }
       - title: Sermons on Several Occasions (the standard sermons)
+        kind: primary
         reader: student
         pages: 500
         author: John Wesley
@@ -1046,6 +1090,7 @@ rows:
           - { label: Wesley Center Online, url: "https://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/" }
           - { label: CCEL, url: "https://ccel.org/ccel/wesley/sermons" }
       - title: The Cost of Discipleship
+        kind: primary
         reader: student
         pages: 319
         author: Dietrich Bonhoeffer
@@ -1054,6 +1099,7 @@ rows:
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/The-Cost-of-Discipleship/Dietrich-Bonhoeffer/9780684815008" }
       - title: Pensées
+        kind: primary
         reader: student
         pages: 352
         author: Blaise Pascal (trans. W.F. Trotter)
@@ -1063,6 +1109,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/18269" }
           - { label: CCEL, url: "https://ccel.org/ccel/pascal/pensees" }
       - title: "The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature"
+        kind: primary
         reader: student
         pages: 350
         author: Joseph Butler
@@ -1071,6 +1118,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/53346" }
       - title: "The Religion of Protestants a Safe Way to Salvation (elective)"
+        kind: primary
         reader: student
         pages: 460
         author: William Chillingworth
@@ -1079,6 +1127,7 @@ rows:
         links:
           - { label: Archive.org (1870 ed.), url: "https://archive.org/details/religionofprotes00chiluoft" }
       - title: "Colonial-college divinity: Wollebius's Compendium and Ames's Marrow of Sacred Divinity. Dip in (elective)"
+        kind: primary
         reader: student
         pages: 250
         author: Johannes Wollebius; William Ames
@@ -1138,6 +1187,7 @@ rows:
       - Write a policy memo on a current issue using the Compendium of the Social Doctrine
     coreTexts:
       - title: "The Spirit of the Liturgy (Commemorative Edition, with Guardini's work of the same title)"
+        kind: primary
         reader: student
         pages: 350
         author: Joseph Ratzinger & Romano Guardini
@@ -1145,6 +1195,7 @@ rows:
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/the-spirit-of-the-liturgy-commemorative-edition-splcep/" }
       - title: Sacrosanctum Concilium
+        kind: primary
         reader: student
         pages: 35
         author: Second Vatican Council
@@ -1153,6 +1204,7 @@ rows:
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html" }
       - title: "Moral Theology: A Complete Course Based on St. Thomas Aquinas"
+        kind: instructional
         reader: student
         pages: 824
         author: Charles J. Callan & John A. McHugh, O.P.
@@ -1161,6 +1213,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/35354" }
       - title: Veritatis Splendor
+        kind: primary
         reader: student
         pages: 110
         author: Pope John Paul II
@@ -1169,6 +1222,7 @@ rows:
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html" }
       - title: Rerum Novarum
+        kind: primary
         reader: student
         pages: 30
         author: Pope Leo XIII
@@ -1177,6 +1231,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html" }
       - title: Quadragesimo Anno
+        kind: primary
         reader: student
         pages: 46
         author: Pope Pius XI
@@ -1185,6 +1240,7 @@ rows:
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html" }
       - title: Centesimus Annus
+        kind: primary
         reader: student
         pages: 60
         author: Pope John Paul II
@@ -1193,6 +1249,7 @@ rows:
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html" }
       - title: Compendium of the Social Doctrine of the Church
+        kind: primary
         reader: student
         pages: 464
         author: Pontifical Council for Justice and Peace
@@ -1228,6 +1285,7 @@ rows:
       - Explain Sheed's claim that theology is necessary for sanity, that is, for seeing what is there
     coreTexts:
       - title: Catechism of the Catholic Church (2nd ed.)
+        kind: primary
         reader: student
         pages: 856
         author: Catholic Church
@@ -1237,6 +1295,7 @@ rows:
           - { label: Vatican.va (free), url: "https://www.vatican.va/archive/ENG0015/_INDEX.HTM" }
           - { label: Compendium (Vatican.va), url: "https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html" }
       - title: The Catechism of the Council of Trent (Roman Catechism)
+        kind: primary
         reader: student
         pages: 600
         author: Council of Trent (trans. McHugh & Callan)
@@ -1246,6 +1305,7 @@ rows:
           - { label: TAN Books, url: "https://tanbooks.com/products/books/catechism-of-the-council-of-trent/" }
           - { label: "Archive.org (Donovan trans., 1829, public domain)", url: "https://archive.org/details/thecatechismofth00donouoft" }
       - title: Theology and Sanity
+        kind: secondary
         reader: student
         pages: 382
         author: Frank Sheed
@@ -1284,6 +1344,7 @@ rows:
       - Explain the doctrine of the Trinity using Aquinas's terms (procession, relation, person)
     coreTexts:
       - title: Summa Theologiae
+        kind: primary
         reader: student
         pages: 3000
         author: Thomas Aquinas (trans. Fathers of the English Dominican Province)
@@ -1296,6 +1357,7 @@ rows:
           - { label: "New Advent: the natural law (I-II q.94)", url: "https://www.newadvent.org/summa/2094.htm" }
           - { label: "Project Gutenberg (Prima Pars)", url: "https://www.gutenberg.org/ebooks/17611" }
       - title: "A Summa of the Summa"
+        kind: secondary
         reader: student
         pages: 550
         author: Peter Kreeft (ed.)
@@ -1351,6 +1413,7 @@ rows:
       - Write a research paper on one council or reform movement from primary sources
     coreTexts:
       - title: Church History
+        kind: primary
         reader: student
         pages: 680
         author: Eusebius of Caesarea
@@ -1359,6 +1422,7 @@ rows:
         links:
           - { label: New Advent, url: "https://www.newadvent.org/fathers/2501.htm" }
       - title: An Essay on the Development of Christian Doctrine
+        kind: primary
         reader: student
         pages: 445
         author: John Henry Newman
@@ -1367,6 +1431,7 @@ rows:
         links:
           - { label: Newman Reader, url: "https://www.newmanreader.org/works/development/" }
       - title: "The Founding of Christendom (A History of Christendom, vol. 1)"
+        kind: secondary
         reader: student
         pages: 605
         author: Warren H. Carroll
@@ -1419,6 +1484,7 @@ rows:
       - Write a seminar paper on the relation of the poem "Noche oscura" to its prose commentary
     coreTexts:
       - title: Ascent of Mount Carmel
+        kind: primary
         reader: student
         pages: 388
         author: St. John of the Cross
@@ -1427,6 +1493,7 @@ rows:
         links:
           - { label: "Archive.org (English, 1922)", url: "https://archive.org/details/ascentofmountcar00johnuoft" }
       - title: Dark Night of the Soul
+        kind: primary
         reader: student
         pages: 222
         author: St. John of the Cross
@@ -1465,12 +1532,14 @@ rows:
       - Explain St. Alphonsus's teaching that uniformity with God's will is the summit of holiness, with an example from his own life
     coreTexts:
       - title: How to Be Happy, How to Be Holy
+        kind: primary
         reader: together
         author: Fr. Paul O'Sullivan, O.P.
         publicDomain: false
         links:
           - { label: TAN Books, url: "https://tanbooks.com/products/books/how-to-be-happy-how-to-be-holy/" }
       - title: Uniformity with God's Will
+        kind: primary
         reader: together
         pages: 34
         author: St. Alphonsus Liguori
@@ -1481,6 +1550,7 @@ rows:
           - { label: CCEL (free), url: "https://ccel.org/ccel/alphonsus/uniformity" }
           - { label: TAN Books, url: "https://tanbooks.com/products/books/uniformity-with-gods-will/" }
       - title: "The Holy Ghost, Our Greatest Friend: He Who Loves Us Best"
+        kind: primary
         reader: together
         pages: 72
         author: Fr. Paul O'Sullivan, O.P.
@@ -1488,6 +1558,7 @@ rows:
         links:
           - { label: TAN Books, url: "https://tanbooks.com/products/books/the-holy-ghost-our-greatest-friend-he-who-loves-us-best/" }
       - title: "Chicken Soup for the Soul (elective)"
+        kind: primary
         reader: student
         pages: 374
         author: Jack Canfield and Mark Victor Hansen (eds.)
@@ -1496,6 +1567,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Chicken-Soup-Soul-Jack-Canfield/dp/1558749209" }
       - title: "Chicken Soup for the Christian Soul (elective)"
+        kind: primary
         reader: student
         pages: 348
         author: Jack Canfield, Mark Victor Hansen, Patty Aubery and Nancy Mitchell (eds.)

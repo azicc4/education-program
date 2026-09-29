@@ -38,6 +38,7 @@ rows:
       - Notice puzzles (e.g. "Is a copy of my toy my toy?") with delight rather than frustration
     coreTexts:
       - title: "Big Ideas for Little Kids: Teaching Philosophy through Children's Literature (2nd ed.)"
+        kind: instructional
         reader: teacher
         pages: 185
         author: Thomas E. Wartenberg
@@ -74,6 +75,7 @@ rows:
       - Conduct a short Socratic dialogue with a sibling or parent
     coreTexts:
       - title: "Philosophy for Kids: 40 Fun Questions That Help You Wonder about Everything!"
+        kind: instructional
         reader: together
         pages: 211
         author: David A. White
@@ -119,6 +121,7 @@ rows:
       - Reconstruct at least two arguments for immortality in the Phaedo
     coreTexts:
       - title: Euthyphro
+        kind: primary
         reader: together
         pages: 20
         author: Plato (trans. Jowett)
@@ -126,6 +129,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1642" }
       - title: Apology, Crito, and Phaedo of Socrates
+        kind: primary
         reader: together
         pages: 140
         author: Plato
@@ -133,6 +137,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/13726" }
       - title: "Philosophy 101 by Socrates: An Introduction to Philosophy via Plato's Apology"
+        kind: secondary
         reader: student
         pages: 149
         author: Peter Kreeft
@@ -179,6 +184,7 @@ rows:
       - Begin a commonplace book of key passages from the great books
     coreTexts:
       - title: How to Read a Book
+        kind: instructional
         reader: student
         pages: 398
         author: Mortimer J. Adler & Charles Van Doren
@@ -187,6 +193,7 @@ rows:
         links:
           - { label: Simon & Schuster, url: "https://www.simonandschuster.com/books/How-to-Read-a-Book/Mortimer-J-Adler/9781476790152" }
       - title: "Aristotle for Everybody: Difficult Thought Made Easy"
+        kind: secondary
         reader: student
         pages: 206
         author: Mortimer J. Adler
@@ -225,6 +232,7 @@ rows:
       - Evaluate Plato's account of the decline from aristocracy to tyranny against American history
     coreTexts:
       - title: Meno
+        kind: primary
         reader: student
         pages: 56
         author: Plato (trans. Jowett)
@@ -232,6 +240,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1643" }
       - title: The Republic
+        kind: primary
         reader: student
         pages: 400
         author: Plato (trans. Jowett)
@@ -277,6 +286,7 @@ rows:
       - Contrast Stoic apatheia with Christian charity and the theological virtues
     coreTexts:
       - title: A Selection from the Discourses of Epictetus, with the Encheiridion
+        kind: primary
         reader: student
         pages: 132
         author: Epictetus (trans. George Long)
@@ -284,6 +294,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10661" }
       - title: Meditations
+        kind: primary
         reader: student
         pages: 203
         author: Marcus Aurelius (trans. Meric Casaubon)
@@ -291,6 +302,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2680" }
       - title: Moral Letters to Lucilius
+        kind: primary
         reader: student
         pages: 546
         author: Seneca (trans. R.M. Gummere)
@@ -298,6 +310,7 @@ rows:
         links:
           - { label: Wikisource, url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius" }
       - title: "Tusculan Disputations (Books I, II and V at least)"
+        kind: primary
         reader: student
         pages: 250
         author: Cicero (trans. C. D. Yonge)
@@ -338,6 +351,7 @@ rows:
       - Write a seminar paper on friendship (Ethics VIII–IX) or on education (Politics VII–VIII)
     coreTexts:
       - title: The Nicomachean Ethics
+        kind: primary
         reader: student
         pages: 300
         author: Aristotle
@@ -346,6 +360,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/nicomachaen.html" }
       - title: "Politics: A Treatise on Government"
+        kind: primary
         reader: student
         pages: 229
         author: Aristotle (trans. William Ellis)
@@ -391,6 +406,7 @@ rows:
       - Outline the five ways (ST I q.2 a.3) and one objection and reply for each
     coreTexts:
       - title: The City of God (selections, Books I, XI–XIV, XIX)
+        kind: primary
         reader: student
         pages: 1100
         author: Augustine of Hippo
@@ -399,6 +415,7 @@ rows:
           - { label: New Advent, url: "https://www.newadvent.org/fathers/1201.htm" }
           - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/45304" }
       - title: The Consolation of Philosophy
+        kind: primary
         reader: student
         pages: 116
         author: Boethius
@@ -407,6 +424,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14328" }
       - title: "Summa Theologiae, I q.1–2 (sacred doctrine; the existence of God)"
+        kind: primary
         reader: student
         pages: 15
         author: Thomas Aquinas
@@ -457,6 +475,7 @@ rows:
       - Evaluate each thinker from the standpoint of Aristotelian-Thomist realism
     coreTexts:
       - title: Discourse on Method; Meditations on First Philosophy
+        kind: primary
         reader: student
         pages: 120
         author: René Descartes (trans. John Veitch)
@@ -466,6 +485,7 @@ rows:
           - { label: "Project Gutenberg (Discourse)", url: "https://www.gutenberg.org/ebooks/59" }
           - { label: "Archive.org (Everyman ed. with Meditations, 1912)", url: "https://archive.org/details/discourseonmetho1912desc" }
       - title: An Essay Concerning Human Understanding (Books I–II selections)
+        kind: primary
         reader: student
         pages: 700
         author: John Locke
@@ -474,6 +494,7 @@ rows:
         links:
           - { label: "Project Gutenberg (vol. 1)", url: "https://www.gutenberg.org/ebooks/10615" }
       - title: An Enquiry Concerning Human Understanding
+        kind: primary
         reader: student
         pages: 176
         author: David Hume
@@ -482,6 +503,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/9662" }
       - title: Fundamental Principles of the Metaphysic of Morals (Groundwork)
+        kind: primary
         reader: student
         pages: 80
         author: Immanuel Kant (trans. T.K. Abbott)
@@ -533,6 +555,7 @@ rows:
       - Write a seminar paper judging one modern theory by Aristotle's Politics or by natural law
     coreTexts:
       - title: The Prince
+        kind: primary
         reader: student
         pages: 156
         author: Niccolò Machiavelli
@@ -541,6 +564,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1232" }
       - title: Leviathan (Parts I–II selections)
+        kind: primary
         reader: student
         pages: 500
         author: Thomas Hobbes
@@ -549,6 +573,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3207" }
       - title: Second Treatise of Government
+        kind: primary
         reader: student
         pages: 115
         author: John Locke
@@ -557,6 +582,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7370" }
       - title: The Social Contract & Discourses
+        kind: primary
         reader: student
         pages: 400
         author: Jean-Jacques Rousseau
@@ -564,6 +590,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46333" }
       - title: Reflections on the Revolution in France (in Works, vol. 3)
+        kind: primary
         reader: student
         pages: 338
         author: Edmund Burke
@@ -572,6 +599,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/15679" }
       - title: Democracy in America
+        kind: primary
         reader: student
         pages: 900
         author: Alexis de Tocqueville (trans. Henry Reeve)
@@ -621,6 +649,7 @@ rows:
       - Write an essay on what this program should learn and avoid from Mill's upbringing
     coreTexts:
       - title: Autobiography
+        kind: primary
         reader: student
         pages: 240
         author: John Stuart Mill
@@ -629,6 +658,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10378" }
       - title: On Liberty
+        kind: primary
         reader: student
         pages: 176
         author: John Stuart Mill
@@ -637,6 +667,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/34901" }
       - title: Utilitarianism
+        kind: primary
         reader: student
         pages: 112
         author: John Stuart Mill
@@ -679,6 +710,7 @@ rows:
       - Identify each thinker's influence on present-day politics and culture
     coreTexts:
       - title: The Communist Manifesto
+        kind: primary
         reader: student
         pages: 38
         author: Karl Marx & Friedrich Engels
@@ -687,6 +719,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/61" }
       - title: Beyond Good and Evil
+        kind: primary
         reader: student
         pages: 224
         author: Friedrich Nietzsche
@@ -695,6 +728,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4363" }
       - title: The Genealogy of Morals
+        kind: primary
         reader: student
         pages: 230
         author: Friedrich Nietzsche
@@ -703,6 +737,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/52319" }
       - title: Selections from the Writings of Kierkegaard (trans. L.M. Hollander)
+        kind: primary
         reader: student
         pages: 260
         author: Søren Kierkegaard
@@ -746,6 +781,7 @@ rows:
       - Write a seminar paper applying MacIntyre or Pieper to the design of this program
     coreTexts:
       - title: "Leisure: The Basis of Culture (with The Philosophical Act)"
+        kind: primary
         reader: student
         pages: 127
         author: Josef Pieper
@@ -754,6 +790,7 @@ rows:
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/leisure-lbcp/" }
       - title: An Introduction to Philosophy
+        kind: secondary
         reader: student
         pages: 228
         author: Jacques Maritain
@@ -762,6 +799,7 @@ rows:
         links:
           - { label: Amazon, url: "https://www.amazon.com/Introduction-Philosophy-Sheed-Ward-Classic/dp/0742550532" }
       - title: The Spirit of Mediaeval Philosophy
+        kind: secondary
         reader: student
         pages: 490
         author: Étienne Gilson
@@ -770,6 +808,7 @@ rows:
         links:
           - { label: Amazon (Univ. of Notre Dame Press), url: "https://www.amazon.com/Spirit-Mediaeval-Philosophy-Etienne-Gilson/dp/0268017409" }
       - title: "After Virtue: A Study in Moral Theory (3rd ed.)"
+        kind: primary
         reader: student
         pages: 286
         author: Alasdair MacIntyre
@@ -778,6 +817,7 @@ rows:
         links:
           - { label: University of Notre Dame Press, url: "https://undpress.nd.edu/9780268035044/after-virtue/" }
       - title: Fides et Ratio (encyclical)
+        kind: primary
         reader: student
         pages: 70
         author: Pope John Paul II
@@ -786,6 +826,7 @@ rows:
         links:
           - { label: Vatican.va (free), url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html" }
       - title: The Death of Christian Culture
+        kind: primary
         reader: student
         pages: 193
         author: John Senior
@@ -794,6 +835,7 @@ rows:
         links:
           - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS001" }
       - title: The Restoration of Christian Culture
+        kind: primary
         reader: student
         pages: 244
         author: John Senior
@@ -802,6 +844,7 @@ rows:
         links:
           - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS002" }
       - title: "The End of Education: Redefining the Value of School (elective)"
+        kind: primary
         reader: student
         pages: 209
         author: Neil Postman
@@ -846,6 +889,7 @@ rows:
       - Lead a 90-minute seminar with an opening question and sustained follow-up
     coreTexts:
       - title: Metaphysics
+        kind: primary
         reader: student
         pages: 416
         author: Aristotle (trans. W.D. Ross)
@@ -897,6 +941,7 @@ rows:
       - Match the precepts in Lewis's appendix ("Illustrations of the Tao") to the Decalogue and to Aquinas q.94
     coreTexts:
       - title: "Antigone (in Plays of Sophocles, trans. F. Storr)"
+        kind: primary
         reader: student
         pages: 60
         author: Sophocles
@@ -905,6 +950,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/31" }
       - title: "Nicomachean Ethics, Book V (justice)"
+        kind: primary
         reader: student
         pages: 25
         author: Aristotle
@@ -912,6 +958,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
       - title: "Rhetoric, Book I, ch. 13 (particular and common law)"
+        kind: primary
         reader: student
         pages: 3
         author: Aristotle (trans. W. Rhys Roberts)
@@ -919,6 +966,7 @@ rows:
         links:
           - { label: "MIT Internet Classics Archive (Book I)", url: "https://classics.mit.edu/Aristotle/rhetoric.1.i.html" }
       - title: "On the Republic (Book III) and On the Laws (Book I), in The Treatises of M. T. Cicero (Yonge trans.)"
+        kind: primary
         reader: student
         pages: 40
         author: Marcus Tullius Cicero
@@ -927,6 +975,7 @@ rows:
         links:
           - { label: Archive.org, url: "https://archive.org/details/treatisescicero00ciceuoft" }
       - title: "Summa Theologiae I-II, qq. 90–97 (Treatise on Law; q. 94 on the natural law)"
+        kind: primary
         reader: student
         pages: 90
         author: St. Thomas Aquinas
@@ -936,6 +985,7 @@ rows:
           - { label: "New Advent (q. 90)", url: "https://www.newadvent.org/summa/2090.htm" }
           - { label: "New Advent (q. 94)", url: "https://www.newadvent.org/summa/2094.htm" }
       - title: "Selections from Three Works (A Treatise on Laws and God the Lawgiver, 1612)"
+        kind: primary
         reader: student
         pages: 1100
         author: Francisco Suárez
@@ -944,6 +994,7 @@ rows:
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/selections-from-three-works" }
       - title: Of the Laws of Ecclesiastical Polity (Book I)
+        kind: primary
         reader: student
         pages: 100
         author: Richard Hooker
@@ -952,6 +1003,7 @@ rows:
         links:
           - { label: Archive.org (Everyman ed.), url: "https://archive.org/details/oflawsofecclesia00hook" }
       - title: "The Rights of War and Peace, Book I (with the Preliminary Discourse)"
+        kind: primary
         reader: student
         author: Hugo Grotius
         date: "1625"
@@ -959,6 +1011,7 @@ rows:
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/grotius-the-rights-of-war-and-peace-2005-ed-vol-1-book-i" }
       - title: The Whole Duty of Man According to the Law of Nature
+        kind: primary
         reader: student
         pages: 338
         author: Samuel Pufendorf
@@ -967,6 +1020,7 @@ rows:
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/tooke-the-whole-duty-of-man-according-to-the-law-of-nature-1673-2003" }
       - title: The Principles of Natural and Politic Law (Nugent trans.)
+        kind: primary
         reader: student
         pages: 530
         author: Jean-Jacques Burlamaqui
@@ -975,6 +1029,7 @@ rows:
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/korkman-the-principles-of-natural-and-politic-law" }
       - title: "The Declaration of Independence: A Transcription"
+        kind: primary
         reader: student
         pages: 4
         author: Thomas Jefferson et al.
@@ -983,6 +1038,7 @@ rows:
         links:
           - { label: National Archives, url: "https://www.archives.gov/founding-docs/declaration-transcript" }
       - title: "Lectures on Law (in Collected Works, vol. 1; esp. \"Of the Law of Nature\")"
+        kind: primary
         reader: student
         pages: 700
         author: James Wilson
@@ -991,6 +1047,7 @@ rows:
         links:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/hall-collected-works-of-james-wilson-vol-1" }
       - title: "Written on the Heart: The Case for Natural Law"
+        kind: secondary
         reader: student
         pages: 252
         author: J. Budziszewski
@@ -999,6 +1056,7 @@ rows:
         links:
           - { label: InterVarsity Press, url: "https://www.ivpress.com/written-on-the-heart" }
       - title: The Abolition of Man (with the appendix "Illustrations of the Tao")
+        kind: primary
         reader: student
         pages: 117
         author: C.S. Lewis
@@ -1007,6 +1065,7 @@ rows:
         links:
           - { label: CSLewis.com (HarperCollins), url: "https://www.cslewis.com/the-abolition-of-man/" }
       - title: "Madison's shelf on natural law: Wolff, Cumberland, Cudworth, Ferguson and Rutherforth. Dip in (elective)"
+        kind: primary
         reader: student
         pages: 300
         author: Christian Wolff; Richard Cumberland; Ralph Cudworth; Adam Ferguson; Thomas Rutherforth
@@ -1096,6 +1155,7 @@ rows:
       - Write a seminar paper on a live public controversy that argues from natural law to a reader who rejects it
     coreTexts:
       - title: Man and the State
+        kind: primary
         reader: student
         pages: 219
         author: Jacques Maritain
@@ -1104,6 +1164,7 @@ rows:
         links:
           - { label: Catholic University of America Press, url: "https://www.cuapress.org/9780813209050/man-and-the-state/" }
       - title: "The First Principle of Practical Reason: A Commentary on the Summa Theologiae, 1-2, Question 94, Article 2"
+        kind: secondary
         reader: student
         pages: 42
         author: Germain G. Grisez
@@ -1112,6 +1173,7 @@ rows:
         links:
           - { label: "Natural Law Forum, Notre Dame Law School (free PDF)", url: "https://scholarship.law.nd.edu/nd_naturallaw_forum/107/" }
       - title: "Natural Law and Natural Rights (2nd ed.)"
+        kind: primary
         reader: student
         pages: 425
         author: John Finnis
@@ -1120,6 +1182,7 @@ rows:
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/natural-law-and-natural-rights-9780199599141" }
       - title: In Defense of Natural Law
+        kind: primary
         reader: student
         pages: 343
         author: Robert P. George
@@ -1128,6 +1191,7 @@ rows:
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/in-defense-of-natural-law-9780199242993" }
       - title: "What We Can't Not Know: A Guide (rev. ed.)"
+        kind: primary
         reader: student
         pages: 272
         author: J. Budziszewski
@@ -1136,6 +1200,7 @@ rows:
         links:
           - { label: Ignatius Press, url: "https://ignatius.com/what-we-cant-not-know-wwcnkp/" }
       - title: "Aquinas: A Beginner's Guide (ch. 5, Ethics)"
+        kind: secondary
         reader: student
         pages: 45
         author: Edward Feser
@@ -1144,6 +1209,7 @@ rows:
         links:
           - { label: Oneworld Publications, url: "https://oneworld-publications.com/work/aquinas/" }
       - title: "A Treatise of Human Nature, Book III, Part I, Section 1 (the is-ought passage)"
+        kind: primary
         reader: student
         pages: 12
         author: David Hume
@@ -1152,6 +1218,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/4705" }
       - title: "The Concept of Law (3rd ed.; esp. ch. IX, Laws and Morals)"
+        kind: primary
         reader: student
         pages: 263
         author: H.L.A. Hart

@@ -28,6 +28,7 @@ rows:
       - State the Catholic position in Humani Generis and compare other Christian positions fairly
     coreTexts:
       - title: Experiments in Plant Hybridization
+        kind: primary
         reader: student
         pages: 42
         author: Gregor Mendel
@@ -36,6 +37,7 @@ rows:
         links:
           - { label: MendelWeb (English), url: "http://www.mendelweb.org/Mendel.html" }
       - title: On the Origin of Species (1st ed.)
+        kind: primary
         reader: student
         pages: 502
         author: Charles Darwin
@@ -45,6 +47,7 @@ rows:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1228" }
           - { label: "Green Lion Press guided selections (The Shape of the Argument)", url: "https://www.greenlion.com/books/Darwin_GC.html" }
       - title: Humani Generis
+        kind: primary
         reader: student
         pages: 25
         author: Pope Pius XII
@@ -53,6 +56,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html" }
       - title: "The Selfish Gene (elective, critical reading)"
+        kind: primary
         reader: student
         pages: 496
         author: Richard Dawkins
@@ -61,6 +65,7 @@ rows:
         links:
           - { label: Oxford University Press, url: "https://global.oup.com/academic/product/the-selfish-gene-9780198788607" }
       - title: "Jurassic Park (elective)"
+        kind: primary
         reader: student
         pages: 455
         author: Michael Crichton
@@ -138,6 +143,7 @@ rows:
       - Answer released free-response questions under time, including experimental design and graphing questions
     coreTexts:
       - title: Campbell Biology, 12th ed.
+        kind: instructional
         reader: student
         pages: 1488
         author: Lisa A. Urry, Michael L. Cain, Steven A. Wasserman, Peter V. Minorsky & Rebecca B. Orr
@@ -146,6 +152,7 @@ rows:
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/campbell-biology/P200000007019/9780135988046" }
       - title: "Biology for AP Courses (free)"
+        kind: instructional
         reader: student
         pages: 1500
         author: OpenStax
@@ -154,6 +161,7 @@ rows:
         links:
           - { label: OpenStax, url: "https://openstax.org/details/books/biology-ap-courses" }
       - title: "Miller & Levine Biology (companion high-school text)"
+        kind: instructional
         reader: student
         author: Kenneth R. Miller & Joseph S. Levine
         date: current ed.
@@ -161,6 +169,7 @@ rows:
         links:
           - { label: Savvas Homeschool, url: "https://homeschool.savvas.com/discipline/science/programs/miller-and-levine-biology" }
       - title: AP Biology Lab Manual (student investigations)
+        kind: instructional
         reader: student
         author: College Board
         date: current ed.
@@ -168,6 +177,7 @@ rows:
         links:
           - { label: College Board (AP Students), url: "https://apstudents.collegeboard.org/courses/ap-biology/lab-manual" }
       - title: Princeton Review AP Biology Premium Prep (review book)
+        kind: instructional
         reader: student
         pages: 700
         author: The Princeton Review
@@ -244,6 +254,7 @@ rows:
       - Present opposing arguments fairly and answer them in a short written disputation
     coreTexts:
       - title: The Oath
+        kind: primary
         reader: student
         pages: 2
         author: Hippocrates, trans. W. H. S. Jones
@@ -252,6 +263,7 @@ rows:
         links:
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0251%3Atext%3DJusj." }
       - title: "Donum Vitae: Instruction on Respect for Human Life in Its Origin and on the Dignity of Procreation"
+        kind: primary
         reader: student
         pages: 40
         author: Congregation for the Doctrine of the Faith
@@ -260,6 +272,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19870222_respect-for-human-life_en.html" }
       - title: "Dignitas Personae: On Certain Bioethical Questions"
+        kind: primary
         reader: student
         pages: 30
         author: Congregation for the Doctrine of the Faith
@@ -268,6 +281,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20081208_dignitas-personae_en.html" }
       - title: Evangelium Vitae (selections)
+        kind: primary
         reader: student
         pages: 190
         author: Pope John Paul II
@@ -276,6 +290,7 @@ rows:
         links:
           - { label: Vatican.va, url: "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html" }
       - title: "Biomedicine and Beatitude: An Introduction to Catholic Bioethics, 2nd ed."
+        kind: instructional
         reader: student
         pages: 336
         author: Nicanor Pier Giorgio Austriaco, OP
@@ -330,6 +345,7 @@ rows:
       - Work the released Open and Semifinal exams (2003–2018, and 2020 Semifinal) under time
     coreTexts:
       - title: Campbell Biology, 12th ed. (full text, all units)
+        kind: instructional
         reader: student
         pages: 1488
         author: Urry, Cain, Wasserman, Minorsky & Orr
@@ -338,6 +354,7 @@ rows:
         links:
           - { label: Pearson, url: "https://www.pearson.com/en-us/subject-catalog/p/campbell-biology/P200000007019/9780135988046" }
       - title: USABO Open and Semifinal exams with keys, 2003–2018
+        kind: instructional
         reader: student
         author: Center for Excellence in Education
         date: "2003–2018"

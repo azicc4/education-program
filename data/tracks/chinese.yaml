@@ -206,6 +206,7 @@ rows:
       - Explain the meaning of each couplet and the historical figures it names
     coreTexts:
       - title: 三字經 (Three Character Classic)
+        kind: primary
         reader: together
         pages: 12
         author: attrib. Wang Yinglin
@@ -215,6 +216,7 @@ rows:
           - { label: "Chinese Text Project (with English)", url: "https://ctext.org/three-character-classic" }
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/12479" }
       - title: 千字文 (Thousand Character Classic)
+        kind: primary
         reader: together
         pages: 10
         author: Zhou Xingsi
@@ -289,6 +291,7 @@ rows:
       - Identify the forms 五言绝句, 七言绝句 and 律诗 and recognize tonal parallelism
     coreTexts:
       - title: 唐詩三百首 (Three Hundred Tang Poems)
+        kind: primary
         reader: student
         pages: 400
         author: Sun Zhu (Hengtang Tuishi), comp.
@@ -356,6 +359,7 @@ rows:
       - Explain the Chinese Rites Controversy and Ricci's method of accommodation
     coreTexts:
       - title: 天主實義 (The True Meaning of the Lord of Heaven)
+        kind: primary
         reader: student
         pages: 485
         author: Matteo Ricci (利瑪竇)
@@ -365,6 +369,7 @@ rows:
           - { label: "Chinese Text Project (Chinese)", url: "https://ctext.org/wiki.pl?if=en&res=2351032" }
           - { label: "Archive.org (Chinese–English ed., Lancashire & Hu Kuo-chen)", url: "https://archive.org/details/truemeaningoflor0000ricc" }
       - title: "On Friendship: One Hundred Maxims for a Chinese Prince (交友論)"
+        kind: primary
         reader: student
         pages: 192
         author: Matteo Ricci, trans. Timothy Billings
@@ -373,6 +378,7 @@ rows:
         links:
           - { label: "Columbia University Press", url: "https://cup.columbia.edu/book/on-friendship/9780231149242/" }
       - title: 思高聖經 (Studium Biblicum / Sigao Bible, Catholic)
+        kind: primary
         reader: student
         pages: 2000
         author: Studium Biblicum Franciscanum, Hong Kong
@@ -381,6 +387,7 @@ rows:
         links:
           - { label: "ccreadbible.org (read online)", url: "https://www.ccreadbible.org/chinesebible/sigao" }
       - title: 和合本 (Chinese Union Version)
+        kind: primary
         reader: student
         pages: 1600
         author: Protestant missionary committee
@@ -421,6 +428,7 @@ rows:
       - Pass HSK 5 and write 600-character argumentative essays
     coreTexts:
       - title: 吶喊 (Call to Arms)
+        kind: primary
         reader: student
         pages: 200
         author: Lu Xun (魯迅)
@@ -429,6 +437,7 @@ rows:
         links:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/27166" }
       - title: 朝花夕拾 (Dawn Blossoms Plucked at Dusk)
+        kind: primary
         reader: student
         pages: 130
         author: Lu Xun (魯迅)
@@ -437,6 +446,7 @@ rows:
         links:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/25271" }
       - title: 西遊記 (Journey to the West)
+        kind: primary
         reader: student
         pages: 1200
         author: attrib. Wu Cheng'en
@@ -510,6 +520,7 @@ rows:
       - Pass HSK 6 (or the equivalent band of the new 9-level HSK)
     coreTexts:
       - title: 論語 (Analects)
+        kind: primary
         reader: student
         pages: 250
         author: Confucius and disciples
@@ -520,6 +531,7 @@ rows:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/23839" }
           - { label: "Project Gutenberg: Legge, Chinese Classics vol. 1", url: "https://www.gutenberg.org/ebooks/4094" }
       - title: 孟子 (Mencius)
+        kind: primary
         reader: student
         pages: 330
         author: Mencius
@@ -529,6 +541,7 @@ rows:
           - { label: "Chinese Text Project", url: "https://ctext.org/mengzi" }
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/24178" }
       - title: 道德經 (Dao De Jing)
+        kind: primary
         reader: student
         pages: 100
         author: Laozi
@@ -539,6 +552,7 @@ rows:
           - { label: "Project Gutenberg (Chinese)", url: "https://www.gutenberg.org/ebooks/7337" }
           - { label: "Project Gutenberg (English, Legge)", url: "https://www.gutenberg.org/ebooks/216" }
       - title: 孫子兵法 (The Art of War)
+        kind: primary
         reader: student
         pages: 100
         author: Sunzi

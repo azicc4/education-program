@@ -38,6 +38,7 @@ rows:
       - Explain the basic structure of the atom and the modern picture of matter (Feynman)
     coreTexts:
       - title: Dialogues Concerning Two New Sciences
+        kind: primary
         reader: student
         pages: 288
         author: Galileo Galilei, trans. Crew & de Salvio
@@ -47,6 +48,7 @@ rows:
           - { label: Online Library of Liberty, url: "https://oll.libertyfund.org/titles/galilei-dialogues-concerning-two-new-sciences" }
           - { label: Archive.org, url: "https://archive.org/details/twonewsciences0000gali" }
       - title: Opticks
+        kind: primary
         reader: student
         pages: 382
         author: Isaac Newton
@@ -55,6 +57,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/33504" }
       - title: Six Easy Pieces
+        kind: instructional
         reader: student
         pages: 146
         author: Richard P. Feynman
@@ -224,6 +227,7 @@ rows:
       - "Sit the AP Physics C: Mechanics exam in May at about 16"
     coreTexts:
       - title: "The Mathematical Principles of Natural Philosophy (Principia)"
+        kind: primary
         reader: together
         pages: 680
         author: Isaac Newton, trans. Andrew Motte
@@ -232,6 +236,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/76404" }
       - title: Selections from Newton's Principia
+        kind: primary
         reader: student
         author: Isaac Newton, ed. Green Lion Press
         date: "1687 (student edition)"
@@ -303,6 +308,7 @@ rows:
       - "Sit the AP Physics C: Electricity and Magnetism exam in May at about 16"
     coreTexts:
       - title: Experiments and Observations on Electricity, Made at Philadelphia in America
+        kind: primary
         reader: student
         pages: 496
         author: Benjamin Franklin
@@ -311,6 +317,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45515" }
       - title: Experimental Researches in Electricity, Vol. 1
+        kind: primary
         reader: student
         pages: 580
         author: Michael Faraday
@@ -319,6 +326,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/14986" }
       - title: A Treatise on Electricity and Magnetism, Vol. 1
+        kind: primary
         reader: student
         pages: 510
         author: James Clerk Maxwell
