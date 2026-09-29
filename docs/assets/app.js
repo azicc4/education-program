@@ -44,7 +44,7 @@
         const key = breakKey(r);
         const brk = key && key !== lastBreak ? `<tr class="group-break"><td colspan="5">${esc(key)}</td></tr>` : '';
         lastBreak = key;
-        const texts = (r.coreTexts || []).slice(0, 3).map((t) => t.title.replace(/\s*\(elective\)\s*$/i, '')).join('; ');
+        const texts = (r.coreTexts || []).slice(0, 3).map((t) => App.cleanTitle(t)).join('; ');
         return `${brk}<tr data-id="${esc(r.id)}" tabindex="0"${r.id === state.row ? ' class="selected"' : ''}>
           <td class="age">${esc(ageLabel(r))}</td>
           <td class="level">${levelBadge(r.level)}</td>

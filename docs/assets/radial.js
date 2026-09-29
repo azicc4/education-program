@@ -1,7 +1,7 @@
 // Radial skill tree as a force-directed graph on a canvas: the child at the hub, one cluster per track,
 // current units nearest the hub and at most two steps outward per branch, with forks for concurrent units.
 (function () {
-  const { DATA, esc, ageLabel, showDetail, trackOrder } = window.App;
+  const { DATA, esc, ageLabel, showDetail, trackOrder, quarterAge: quarter } = window.App;
   const S = window.Store;
   const shell = document.getElementById('radial-shell');
   const stage = document.getElementById('radial-stage');
@@ -11,7 +11,6 @@
   const listEl = document.getElementById('radial-nodes');
   const filtersEl = document.getElementById('radial-filters');
   const legendEl = document.getElementById('radial-legend');
-  const demos = window.Demo.profiles(DATA);
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
   const MAX_PER_RING = 2;
@@ -22,24 +21,18 @@
   const groupIndex = Object.fromEntries(DATA.groups.map((g, i) => [g.name, i]));
   const colorOf = (g) => GROUP_COLORS[groupIndex[g] % GROUP_COLORS.length];
 
-  let selected = S.activeChild ? `store:${S.activeChild}` : `demo:${demos[1].id}`;
+  window.Demo.topUp(DATA, S); // demo children loaded before bookshelves were seeded get their books now
+  let selected = window.App.defaultChild();
   let group = '';
+  let nowOnly = true; // "Current Age": only the tracks that fit the child's age now
 
   // ---------- who are we looking at ----------
   function subject() {
-    if (selected.startsWith('demo:')) {
-      const d = demos.find((x) => `demo:${x.id}` === selected) || demos[0];
-      return { name: d.name, age: d.age, status: (id) => d.progress[id] || '' };
-    }
-    const c = S.child(selected.slice(6));
-    if (!c) return subjectFallback();
-    return { name: c.name, age: S.age(c) ?? 0, status: (id) => S.status(c.id, id) };
+    const who = window.App.childFor(selected);
+    if (who) return (selected = who.key), who;
+    selected = window.App.defaultChild();
+    return window.App.childFor(selected) || window.App.childFor('demo:demo-thomas');
   }
-  function subjectFallback() {
-    selected = `demo:${demos[1].id}`;
-    return subject();
-  }
-  const quarter = (a) => (Math.floor(a * 4) / 4).toFixed(2);
 
   // ---------- which units sit on each ring ----------
   function branch(trackId, who) {
@@ -77,7 +70,10 @@
   function build(fresh) {
     const who = subject();
     const prev = fresh ? new Map() : G.byId;
-    const tracks = DATA.tracks.filter((t) => !group || t.group === group).sort((a, b) => trackOrder.indexOf(a.id) - trackOrder.indexOf(b.id));
+    const inGroup = DATA.tracks.filter((t) => !group || t.group === group).sort((a, b) => trackOrder.indexOf(a.id) - trackOrder.indexOf(b.id));
+    const fits = (t) => window.App.nowUnits(DATA.rows.filter((r) => r.track === t.id), who).length > 0;
+    const tracks = nowOnly ? inGroup.filter(fits) : inGroup;
+    const branches = [];
     const span = (2 * Math.PI) / Math.max(1, tracks.length);
     const fork = Math.min(span * 0.42, 0.3);
     const nodes = [], links = [], byId = new Map();
@@ -101,6 +97,7 @@
       link(hub, tn, 'tree');
       const b = branch(t.id, who);
       if (!b) return;
+      branches.push(b);
       tn.complete = b.complete;
       b.rings.forEach((ring, k) =>
         ring.forEach((r, j) => {
@@ -138,7 +135,7 @@
     }
     for (const n of nodes) n.r = 3 + 1.6 * Math.sqrt(n.deg); // sized by connection count
     for (const l of links) l.dist = RADII[l.t.depth] - RADII[l.s.depth];
-    G = { nodes, links, byId, adj, who, tracks, hub };
+    G = { nodes, links, byId, adj, who, tracks, hub, branches, hidden: inGroup.length - tracks.length };
     wraps = new Map();
   }
 
@@ -572,17 +569,23 @@
     <label>Child <select id="radial-child"></select></label>
     <label>Subject <select id="radial-group"><option value="">All subjects</option>${DATA.groups.map((g) => `<option>${esc(g.name)}</option>`).join('')}</select></label>
     <span class="zoom" role="group" aria-label="Zoom"><button type="button" class="chip" data-zoom="-1" aria-label="Zoom out">−</button><button type="button" class="chip" data-zoom="0" aria-label="Fit the whole tree">Fit</button><button type="button" class="chip" data-zoom="1" aria-label="Zoom in">+</button></span>
+    <button type="button" class="chip now-toggle" id="radial-now" aria-pressed="true" title="Show only the tracks that fit the child's age now; hide finished tracks and tracks not begun yet">Current Age</button>
+    <button type="button" class="chip" id="radial-print">Print booklist</button>
     <button type="button" class="chip" id="radial-fs" aria-pressed="false">⛶ Fullscreen</button>
     <span class="by" id="radial-note"></span>`;
   const childSel = document.getElementById('radial-child');
   const groupSel = document.getElementById('radial-group');
   const fsBtn = document.getElementById('radial-fs');
+  const nowBtn = document.getElementById('radial-now');
   function syncToolbar() {
     const kids = S.children();
-    const opts = [...kids.map((c) => [`store:${c.id}`, c.name]), ...demos.map((d) => [`demo:${d.id}`, `${d.name} · age ${quarter(d.age)}`])];
-    childSel.innerHTML = opts.map(([v, l]) => `<option value="${esc(v)}"${v === selected ? ' selected' : ''}>${esc(l)}</option>`).join('');
+    childSel.innerHTML = window.App.childOptions().map(([v, l]) => `<option value="${esc(v)}"${v === selected ? ' selected' : ''}>${esc(l)}</option>`).join('');
     groupSel.value = group;
-    document.getElementById('radial-note').innerHTML = kids.length ? '' : 'Showing a demo child. <a href="family.html">Add your children</a>, or load the demo family there.';
+    nowBtn.setAttribute('aria-pressed', String(nowOnly));
+    const notes = [];
+    if (nowOnly && G.hidden) notes.push(`Current Age hides ${G.hidden} track${G.hidden === 1 ? '' : 's'} that ${G.who.name} has finished or not begun.`);
+    if (!kids.length) notes.push('Showing a demo child. <a href="family.html">Add your children</a>, or load the demo family there.');
+    document.getElementById('radial-note').innerHTML = notes.join(' ');
   }
 
   function render(fresh) {
@@ -601,6 +604,13 @@
     heat(fresh ? 0.5 : 0.25);
   }
 
+  nowBtn.addEventListener('click', () => {
+    nowOnly = !nowOnly;
+    render(true);
+  });
+  document.getElementById('radial-print').addEventListener('click', () =>
+    window.App.printBooklist({ who: G.who, current: G.branches.flatMap((b) => b.rings[0]), next: G.branches.flatMap((b) => b.rings[1]) }),
+  );
   filtersEl.addEventListener('click', (e) => {
     const z = e.target.closest('[data-zoom]');
     if (!z) return;

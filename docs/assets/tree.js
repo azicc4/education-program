@@ -17,7 +17,19 @@
   ];
 
   const state = readState();
+  const S = window.Store;
+  window.Demo.topUp(DATA, S); // demo children loaded before bookshelves were seeded get their books now
   const filtersEl = document.getElementById('filters');
+  const childSel = document.getElementById('tree-child');
+  const nowBtn = document.getElementById('now-toggle');
+  // whose progress the lanes show; "Current Age" (on unless turned off) keeps only the units that fit that child now
+  const who = () => {
+    const w = window.App.childFor(state.child || window.App.defaultChild()) || window.App.childFor('demo:demo-thomas');
+    state.child = w.key === window.App.defaultChild() ? '' : w.key;
+    return w;
+  };
+  const nowOn = () => state.now !== 'off';
+  let shown = { current: [], next: [], who: null };
   const tree = document.getElementById('tree');
   const x = (age) => LABEL_W + age * PX_PER_YEAR;
   const width = LABEL_W + MAX_AGE * PX_PER_YEAR;
@@ -29,7 +41,7 @@
   const scroller = document.querySelector('.tree-scroll');
   let snapAge = state.at !== '' && !isNaN(+state.at) ? +state.at : null;
   let visibleTracks = [];
-  const ELECTIVE = /\s*\(elective\)\s*$/i;
+  const ELECTIVE = /\s*\(elective[^)]*\)\s*$/i;
   const snapTo = (a) => Math.min(MAX_AGE - 0.25, Math.max(0, Math.round(a * 4) / 4));
   const quarterLabel = (a) => {
     const whole = Math.floor(a);
@@ -55,15 +67,18 @@
       .map((r) => {
         const head = r.track !== lastTrack ? `<h3>${esc(trackById[r.track]?.title || r.track)}</h3>` : '';
         lastTrack = r.track;
-        const items = (r.coreTexts || [])
-          .map((t) => {
+        const items = window.App.textsHtml(
+          r,
+          (t, plan) => {
             const elective = ELECTIVE.test(t.title);
             const len = lengthLabel(t);
             return `<li class="${elective ? 'elective' : ''}"><span class="t">${esc(t.title.replace(ELECTIVE, ''))}</span>${t.author ? ` <span class="by">${esc(t.author)}</span>` : ''}
-              <div class="meta">${readerBadge(t)}${len ? ` <span class="by">${len}</span>` : ''}${elective ? ' <span class="badge elective">elective</span>' : ''}${t.publicDomain ? ' <span class="badge pd">Free</span>' : ''}</div></li>`;
-          })
-          .join('');
-        return `${head}<div class="snap-unit"><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> <small>(${esc(ageLabel(r))})</small>${items ? `<ul>${items}</ul>` : '<p class="by">No listed texts (practice or skills unit).</p>'}</div>`;
+              <div class="meta">${window.App.planBadges(t, plan)} ${readerBadge(t)}${len ? ` <span class="by">${len}</span>` : ''}${elective ? ' <span class="badge elective">elective</span>' : ''}${t.publicDomain ? ' <span class="badge pd">Free</span>' : ''}</div></li>`;
+          },
+          (group) => `<li class="snap-choice"><span class="choice-head">Choose one</span><ul>${group}</ul></li>`,
+        );
+        const load = window.App.loadText(window.App.readingPlan(r));
+        return `${head}<div class="snap-unit"><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> <small>(${esc(ageLabel(r))})</small>${load ? `<p class="load">${esc(load)}</p>` : ''}${items ? `<ul>${items}</ul>` : '<p class="by">No listed texts (practice or skills unit).</p>'}</div>`;
       })
       .join('');
     snapEl.innerHTML = `
@@ -177,12 +192,33 @@
     return `<path d="M${sx},${sy} C${sx},${by} ${sx},${by} ${b.left},${by}" marker-end="url(#arrowhead)"/>`;
   }
 
+  function syncChild(w) {
+    childSel.innerHTML = window.App.childOptions().map(([v, l]) => `<option value="${esc(v)}"${v === w.key ? ' selected' : ''}>${esc(l)}</option>`).join('');
+    nowBtn.setAttribute('aria-pressed', String(nowOn()));
+  }
+
   function render() {
-    const tracks = DATA.tracks.filter((t) => (!state.group || t.group === state.group) && (!state.track || t.id === state.track));
+    const w = who();
+    syncChild(w);
+    const inFilter = DATA.tracks.filter((t) => (!state.group || t.group === state.group) && (!state.track || t.id === state.track));
+    // with Current Age on, each lane keeps only its current units, and lanes with none (finished or not begun) go
+    const laneRows = new Map();
+    const current = [], next = [];
+    for (const t of inFilter) {
+      const rows = DATA.rows.filter((r) => r.track === t.id);
+      const now = window.App.nowUnits(rows, w);
+      if (nowOn() && !now.length) continue;
+      laneRows.set(t.id, nowOn() ? now : rows);
+      current.push(...(nowOn() ? now : rows));
+      next.push(...window.App.nextUnits(rows, now, w));
+    }
+    const tracks = inFilter.filter((t) => laneRows.has(t.id));
+    shown = { current, next, who: w };
     visibleTracks = tracks;
-    const shown = new Set(DATA.rows.filter((r) => matches(r, { ...state, group: '', track: '' })).map((r) => r.id));
-    const count = DATA.rows.filter((r) => shown.has(r.id) && tracks.some((t) => t.id === r.track)).length;
-    filtersEl.querySelector('.count').textContent = `${count} units highlighted in ${tracks.length} track${tracks.length === 1 ? "" : "s"}`;
+    const shown_ = new Set(DATA.rows.filter((r) => matches(r, { ...state, group: '', track: '' })).map((r) => r.id));
+    const count = current.filter((r) => shown_.has(r.id)).length;
+    const hidden = inFilter.length - tracks.length;
+    filtersEl.querySelector('.count').textContent = `${count} ${nowOn() ? `current unit${count === 1 ? '' : 's'} for ${w.name}` : `unit${count === 1 ? '' : 's'} highlighted`} in ${tracks.length} track${tracks.length === 1 ? '' : 's'}${nowOn() && hidden ? ` · ${hidden} finished or not begun hidden` : ''}`;
 
     const axis = Array.from({ length: MAX_AGE }, (_, a) => `<span style="left:${x(a)}px">${a === 0 ? 'Birth' : fmtAge(a)}</span>`).join('');
     const bandLabels = BANDS.map((b) => `<b class="${b.cls}" style="left:${x(b.age)}px">${esc(b.label)}</b>`).join('');
@@ -190,19 +226,19 @@
 
     const lanes = tracks
       .map((t) => {
-        const rows = DATA.rows.filter((r) => r.track === t.id);
+        const rows = laneRows.get(t.id);
         const { pos, height } = layoutTrack(rows);
         const arrows = rows.flatMap((r) => (r.prerequisites || []).filter((p) => pos[p]).map((p) => arrow(pos[p], pos[r.id]))).join('');
         const nodes = rows
           .map((r) => {
             const p = pos[r.id];
-            const st = window.Store?.status(window.Store.activeChild, r.id);
-            const cls = ['node', `lvl-${r.level}`, shown.has(r.id) ? '' : 'dim', r.id === state.row ? 'selected' : '', st ? `st-${st}` : ''].join(' ');
+            const st = w.status(r.id);
+            const cls = ['node', `lvl-${r.level}`, shown_.has(r.id) ? '' : 'dim', r.id === state.row ? 'selected' : '', st ? `st-${st}` : ''].join(' ');
             return `<button type="button" class="${cls}" data-id="${esc(r.id)}" style="left:${p.left}px;top:${p.top}px;width:${p.w}px" title="${esc(r.title)} (age ${esc(ageLabel(r))})"><span>${st === 'done' ? '✓ ' : st === 'active' ? '● ' : ''}${esc(r.title)}</span></button>`;
           })
           .join('');
         return `<section class="lane" style="height:${height}px" aria-label="${esc(t.title)} track">
-          <div class="lane-label">${esc(t.title)}<small>${esc(t.group)} · ${rows.length} units</small></div>
+          <div class="lane-label">${esc(t.title)}<small>${esc(t.group)} · ${rows.length} unit${rows.length === 1 ? '' : 's'}${nowOn() ? ' now' : ''}</small></div>
           <svg width="${width}" height="${height}" aria-hidden="true">${arrows}</svg>
           ${nodes}
         </section>`;
@@ -216,11 +252,18 @@
           <path d="M0,0 L10,5 L0,10 z" style="fill:var(--ink-2);stroke:none;opacity:.7"/></marker></defs></svg>
       <div class="tree-axis">${bandLabels}${axis}</div>
       ${bands}
+      <div class="tree-now" style="left:${x(w.age)}px" aria-hidden="true"><span>${esc(w.name)} · ${esc(window.App.quarterAge(w.age))}</span></div>
       ${lanes || '<p class="empty">No tracks match these filters.</p>'}
       ${snapAge != null ? `<div class="snap-cursor"><span class="snap-handle" role="slider" tabindex="0" aria-label="Snapshot age" aria-valuemin="0" aria-valuemax="${MAX_AGE - 0.25}"></span></div>` : ''}`;
     placeCursor();
     renderSnapshot();
+    // with Current Age on, open the lanes at the child's age instead of at birth (once per child)
+    if (nowOn() && snapAge == null && scrolledFor !== w.key) {
+      scrolledFor = w.key;
+      scroller.scrollLeft = Math.max(0, x(w.age) - scroller.clientWidth / 3);
+    }
   }
+  let scrolledFor = '';
 
   function openRow(id) {
     state.row = id;
@@ -241,7 +284,18 @@
     if (n) openRow(n.dataset.id);
   });
 
-  renderFilters(filtersEl, state, update);
+  childSel.addEventListener('change', () => {
+    state.child = childSel.value;
+    if (state.child.startsWith('store:')) S.setActive(state.child.slice(6));
+    update(false);
+  });
+  nowBtn.addEventListener('click', () => {
+    state.now = nowOn() ? 'off' : 'on';
+    update(false);
+  });
+  document.getElementById('tree-print').addEventListener('click', () => window.App.printBooklist(shown));
+
+  renderFilters(filtersEl, state, update, { child: false });
   if (snapAge != null) {
     layout.classList.add('snap-on');
     snapEl.hidden = false;

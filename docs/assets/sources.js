@@ -12,7 +12,7 @@
     instructional: { label: 'Instructional texts', short: 'Instructional' },
   };
   const TRADITIONS = ['catholic', 'protestant', 'classical', 'secular'];
-  const ELECTIVE = /\s*\(elective\)\s*$/i;
+  const ELECTIVE = /\s*\(elective[^)]*\)\s*$/i;
 
   // fallback until every text carries an explicit `kind`
   const INSTRUCTIONAL = /\b(grammar|primer|readers?|course|textbook|workbook|guide|handbook|manual|lessons?|exercises?|prep|review|introduction to|level [0-9ivx]+|for young catholics|course and exam|syllabus|method|drills?|flashcards?|practice)\b/i;
