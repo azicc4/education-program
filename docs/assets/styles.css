@@ -364,29 +364,50 @@ table.ahead tbody tr, table.place tbody tr { cursor: default; }
   .snapshot { position: static; max-height: 50vh; }
 }
 
-/* ---------- radial skill tree ---------- */
-.radial-wrap { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 8px; overflow: auto; max-height: 90vh; }
+/* ---------- radial skill tree (force-directed graph) ---------- */
+/* the graph canvas is dark in both themes; the toolbar and legend follow the theme */
+.radial-shell { --graph-bg: #1b1916; --graph-ink: #ddd5c6; --graph-rule: #3d362c; }
+.radial-shell .filters { margin-bottom: 8px; }
 .zoom { display: inline-flex; gap: 4px; }
-#radial { display: block; width: 100%; max-width: 1200px; height: auto; margin: 0 auto; font-family: var(--sans); }
-#radial .wedge { fill: var(--wedge); opacity: 0.05; stroke: var(--rule); stroke-width: 1; }
-#radial .wedge.odd { opacity: 0.1; }
-#radial .ring-guide { fill: none; stroke: var(--rule); stroke-dasharray: 3 5; }
-#radial .ring-name { fill: var(--ink-2); font-size: 20px; text-transform: uppercase; letter-spacing: 0.08em; }
-#radial .redge { stroke: var(--wedge); stroke-width: 3; opacity: 0.7; }
-#radial .redge.ring1, #radial .redge.ring2 { stroke-dasharray: 5 4; opacity: 0.5; }
-#radial .rnode { cursor: pointer; }
-#radial .rnode circle { fill: var(--surface); stroke: currentColor; stroke-width: 3; }
-#radial .rnode.current circle { fill: currentColor; }
-#radial .rnode.st-active circle { stroke: var(--focus); stroke-width: 4; }
-#radial .rnode.complete circle { fill: var(--lvl-early); stroke: none; }
-#radial .rnode:hover circle, #radial .rnode:focus circle { stroke-width: 5; outline: none; }
-#radial .rlabel { fill: var(--ink); font-size: 20px; }
-#radial .rlabel.strong { font-weight: 600; font-size: 22px; }
-#radial .rlabel.muted { fill: var(--ink-2); font-style: italic; }
-#radial .track-label { fill: var(--ink-2); font-size: 16px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; paint-order: stroke; stroke: var(--surface); stroke-width: 4px; }
-#radial .hub { fill: var(--accent); }
-#radial .hub-name { fill: var(--accent-ink); font: 600 36px var(--serif); }
-#radial .hub-age { fill: var(--accent-ink); font: 600 30px var(--sans); }
+.radial-stage {
+  position: relative; height: min(78vh, 900px); min-height: 380px; overflow: hidden;
+  background: var(--graph-bg); border: 1px solid var(--graph-rule); border-radius: 10px;
+}
+.radial-stage:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+#radial { display: block; touch-action: none; cursor: grab; }
+.radial-caption {
+  position: absolute; left: 10px; bottom: 10px; right: 10px; margin: 0; width: fit-content; max-width: calc(100% - 20px);
+  font: 0.8rem/1.35 var(--sans); color: var(--graph-ink); background: rgba(27, 25, 22, 0.85);
+  border: 1px solid var(--graph-rule); border-radius: 8px; padding: 5px 9px; pointer-events: none;
+}
+.radial-caption[hidden] { display: none; }
+.radial-caption strong { color: #fff; }
+.radial-shell .legend { align-items: center; gap: 6px 14px; }
+.graph-key { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.graph-key i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25); }
+.graph-key i.ring { background: var(--graph-bg); box-shadow: inset 0 0 0 2px var(--c); }
+.graph-hint { flex-basis: 100%; }
+.visually-hidden {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* fullscreen: the Fullscreen API on the shell, or a fixed overlay where it is missing (iOS Safari) */
+.radial-shell.is-fullscreen {
+  display: flex; flex-direction: column; gap: 8px; width: 100%; height: 100vh; height: 100dvh; margin: 0;
+  padding: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+  background: var(--bg); overflow: hidden;
+}
+.radial-shell.is-fullscreen .filters, .radial-shell.is-fullscreen .legend { flex: none; margin: 0; }
+.radial-shell.is-fullscreen .radial-stage { flex: 1 1 auto; height: auto; min-height: 0; }
+.radial-shell.is-fullscreen .graph-hint, .radial-shell.is-fullscreen #radial-note { display: none; }
+.radial-shell.is-overlay { position: fixed; inset: 0; z-index: 15; }
+.radial-shell::backdrop { background: var(--bg, #16130f); }
+html.radial-locked, html.radial-locked body { overflow: hidden; overscroll-behavior: none; }
+@media (max-width: 600px) {
+  .radial-stage { height: 70vh; min-height: 320px; }
+  .radial-shell.is-fullscreen .legend { display: none; }
+}
 
 footer { max-width: 1400px; margin: 24px auto; padding: 0 16px; font: 0.8rem var(--sans); color: var(--ink-2); }
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Radial Tree · Formation Program</title>
-  <meta name="description" content="A child's current place in every track, drawn as a radial tree: current units at the center, the next steps branching outward.">
+  <meta name="description" content="A child's current place in every track, drawn as a force-directed graph: the child at the center, current units nearest, the next steps branching outward.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -29,13 +29,21 @@
 
   <main>
     <p class="intro">
-      One child's place in every track at once. Each wedge is a track. The innermost node is the unit in progress now, or the next unit if
-      nothing in that track falls at the child's age. Concurrent units fork, and each branch shows at most the next two steps outward.
-      Click a node for details.
+      One child's place in every track at once, drawn as a graph. The child sits at the center; each track is a cluster around its own
+      node, with the unit in progress now (or the next unit, if nothing in that track falls at the child's age) nearest the center.
+      Concurrent units fork, and each branch shows at most the next two steps outward. Hover a node to see its neighbors, and click
+      a unit for details.
     </p>
-    <div class="filters" id="radial-filters"></div>
-    <div class="radial-wrap"><svg id="radial" role="img" aria-labelledby="radial-title"><title id="radial-title">Radial skill tree</title></svg></div>
-    <div class="legend" id="radial-legend"></div>
+    <section class="radial-shell" id="radial-shell" aria-label="Radial skill tree">
+      <div class="filters" id="radial-filters"></div>
+      <div class="radial-stage" id="radial-stage" tabindex="0" role="group" aria-label="Radial skill tree" aria-describedby="radial-help">
+        <canvas id="radial" aria-hidden="true"></canvas>
+        <p class="radial-caption" id="radial-caption" aria-hidden="true"></p>
+        <p class="visually-hidden" id="radial-help">Arrow keys pan, plus and minus zoom, 0 fits the whole tree, F toggles fullscreen. Tab through the units and press Enter for details.</p>
+        <ul class="visually-hidden" id="radial-nodes"></ul>
+      </div>
+      <div class="legend" id="radial-legend"></div>
+    </section>
   </main>
 
   <script src="data/curriculum.js"></script>

@@ -30,7 +30,7 @@ The website is in `docs/` and has three views:
 - **Curriculum**: the master table. You can sort it by age, level, track or title, and filter it by level, subject and track or by search. Click a row to see its texts, curriculum options, and historical precedent.
 - **Skill Tree**: each track as a lane on an age axis, with prerequisite arrows.
 - **Sources**: for each track, the curricula and programs it uses beside its primary sources, secondary works and instructional texts, with a mix bar showing the balance.
-- **Radial Tree**: one child's current place in every track, drawn as a radial tree (demo children included).
+- **Radial Tree**: one child's current place in every track, drawn as a force-directed graph around the child, with fullscreen, zoom and hover highlighting (demo children included).
 - **Founding-Era Reading**: the historical reading lists, cross-linked into the curriculum.
 - **Family**: tools for parents running the program.
   - Add each child, with a birthdate, and place them in each track.
