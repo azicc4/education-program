@@ -107,6 +107,11 @@ rows:
       - Say and write the common phonograms (sh, ch, th, ck, ai, ay, ee, igh, ow, ou…) with all their sounds
       - Read and spell one- and two-syllable words with blends, digraphs and silent-e
       - Read decodable sentences and short books aloud
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 60, note: "daily phonogram and spelling-dictation lessons, 36 wk x 5 x 20 min" }
+        - { kind: practice, hours: 25, note: "reading decodable sentences and books aloud, 36 wk x 4 x 10 min" }
     coreTexts:
       - title: The Writing Road to Reading
         kind: instructional
@@ -154,6 +159,12 @@ rows:
       - Decode multi-syllable words using syllable division and suffix rules
       - Read the McGuffey Primer and First Reader aloud with accuracy
       - Read about 60+ words per minute accurately in grade-1 text by the end of the year
+    workload:
+      readingHours: 11
+      readingBasis: "166 pp: McGuffey Primer and First Reader read aloud by the beginning reader with a parent at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 50, note: "phonics lessons (First Start Reading or similar), 36 wk x 4 x 20 min" }
+        - { kind: practice, hours: 30, note: "daily oral reading from other graded readers, 36 wk x 5 x 10 min" }
     coreTexts:
       - title: McGuffey's Eclectic Primer (revised)
         kind: instructional
@@ -213,6 +224,10 @@ rows:
       - Spell the 1,000 most common English words correctly in dictation
       - Divide words into syllables and mark the accented syllable
       - Apply the major spelling rules (doubling, drop silent-e, y to i) automatically
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "speller lessons (314 pp of word columns worked as exercises), 72 wk x 3 x 15 min, plus weekly dictation, 72 x 15 min" }
     coreTexts:
       - title: The American Spelling Book (the "Blue-Back Speller")
         kind: instructional
@@ -282,6 +297,12 @@ rows:
       - Read grade-2 and grade-3 text aloud accurately with natural phrasing and expression
       - Reach roughly 90–110 words correct per minute on grade-level passages
       - Read a prepared poem or passage aloud to the family weekly
+    workload:
+      readingHours: 18
+      readingBasis: "368 pp: McGuffey Second and Third Readers read aloud by the child to a parent at ~20 pp/h (first readings; repeats are practice)"
+      work:
+        - { kind: practice, hours: 45, note: "repeated oral reading of a passage to smoothness, 54 wk x 5 x 10 min" }
+        - { kind: recitation, hours: 9, note: "a prepared poem or passage read to the family weekly, 54 x 10 min" }
     coreTexts:
       - title: McGuffey's Second Eclectic Reader
         kind: instructional
@@ -337,6 +358,12 @@ rows:
       - Read chapter books independently (e.g. McGuffey Fourth Reader level and real children's classics)
       - Narrate a chapter orally in sequence after one reading
       - Use a dictionary to look up unfamiliar words
+    workload:
+      readingHours: 70
+      readingBasis: "1,082 pp read silently: McGuffey's Fourth Reader at ~20 pp/h (13 h), Fifth and Sixth Readers (older literary English) at ~15 pp/h (55 h); Mason's chapters are for the teacher"
+      work:
+        - { kind: discussion, hours: 25, note: "oral narration of a chapter after one reading, 54 wk x 3 x 10 min" }
+        - { kind: exercises, hours: 7, note: "dictionary and comprehension lessons, 20 x 20 min" }
     coreTexts:
       - title: McGuffey's Fourth Eclectic Reader
         kind: instructional

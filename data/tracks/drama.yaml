@@ -41,6 +41,13 @@ rows:
       - Perform a short children's version of A Midsummer Night's Dream or The Tempest before an audience
       - Speak so the back row can hear, face the audience, and stay in character while others speak
       - Take a bow, receive applause graciously, and praise a fellow player's work
+    workload:
+      readingHours: 7
+      readingBasis: "171 pp read aloud: Lamb tales and Burdett's Midsummer at ~25 pp/h; Ludwig's How to Teach Your Children Shakespeare is a parent's guide and is not counted"
+      work:
+        - { kind: practice, hours: 55, note: "weekly session of Spolin games and scene work, 108 wk x 30 min" }
+        - { kind: memorization, hours: 14, note: "lines for ~9 short termly shows x 1.5 h" }
+        - { kind: project, hours: 18, note: "one short show a term: 9 x 2 h dress run and performance" }
     coreTexts:
       - title: Tales from Shakespeare
         kind: secondary
@@ -136,6 +143,14 @@ rows:
       - Find and play the implied stage directions in a speech (e.g. "Kneel", "Give me thy hand", "Look here")
       - Cut a scene to a set length and justify the cuts
       - Play a role in a 20-minute or one-hour abridged play with a company
+    workload:
+      readingHours: 17
+      readingBasis: "256 pp: the Folger Midsummer Night's Dream at ~15 pp/h; Shakespeare on Toast is teacher background and is not counted"
+      work:
+        - { kind: practice, hours: 70, note: "weekly company session of Folger-method scene work, 90 wk x 45 min" }
+        - { kind: memorization, hours: 18, note: "three 40–80-line scenes and a play role, ~6 x 3 h" }
+        - { kind: exercises, hours: 10, note: "blocking in a promptbook and cutting scenes, 10 x 1 h" }
+        - { kind: project, hours: 15, note: "20-minute or one-hour abridged play: ~6 extra rehearsals x 2 h plus performance" }
     coreTexts:
       - title: The Folger Guide to Teaching A Midsummer Night's Dream
         kind: instructional
@@ -241,6 +256,13 @@ rows:
       - Articulate consonant clusters and final consonants cleanly at speed
       - Recognize vocal strain and hoarseness, and know the habits of vocal health (hydration, rest, no shouting)
       - Compare Walker's rules on emphasis and inflection with Berry's modern approach, and say what each gets right
+    workload:
+      readingHours: 0
+      readingBasis: "none counted: Berry, Linklater and Rodenburg are voice manuals the teacher works from, counted as practice; Walker's Elements of Elocution has no page count and is left out"
+      work:
+        - { kind: practice, hours: 70, note: "daily 15-minute voice warm-up, 54 wk x 5 x 15 min" }
+        - { kind: exercises, hours: 25, note: "weekly guided voice lesson on the Linklater progression, 54 x 30 min" }
+        - { kind: writing, hours: 3, note: "comparison of Walker's rules on emphasis and inflection with Berry's approach" }
     coreTexts:
       - title: Voice and the Actor
         kind: instructional
@@ -338,6 +360,11 @@ rows:
       - Transcribe a one-minute recording broadly (phonemic) and a short passage narrowly (with diacritics)
       - Produce, on demand, sounds not used in English (e.g. [x], [ɬ], [y], [ɸ]) from their IPA description
       - Explain the difference between a phoneme and an allophone, with English examples (e.g. aspirated [pʰ] vs [p])
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "IPA and articulation lessons worked from Knight and Skinner (598 pp of textbook), 54 wk x 2 x 40 min" }
+        - { kind: practice, hours: 18, note: "transcribing recordings and drilling non-English sounds, 54 x 20 min" }
     coreTexts:
       - title: The International Phonetic Alphabet (full chart)
         kind: instructional
@@ -443,6 +470,14 @@ rows:
       - Rehearse a scene from cue scripts (one's own lines plus cues only), in the Elizabethan manner
       - Compare a speech in the First Folio and a modern edition, and argue from punctuation, capitals and lineation for a playing choice
       - Perform two contrasting speeches (verse and prose) and one soliloquy spoken directly to the audience
+    workload:
+      readingHours: 45
+      readingBasis: "1,146 pp: four actors' books on Shakespeare's verse (Berry, Barton, Tucker, Linklater) at ~25 pp/h, plus the advice to the players"
+      work:
+        - { kind: practice, hours: 35, note: "weekly verse-speaking and cue-script rehearsal, 54 x 40 min" }
+        - { kind: memorization, hours: 18, note: "two contrasting speeches, a soliloquy and a start on 5–6 audition speeches, ~6 x 3 h" }
+        - { kind: exercises, hours: 14, note: "scansion, antithesis marking and Folio-versus-modern comparisons, 27 x 30 min" }
+        - { kind: discussion, hours: 14, note: "watching and discussing the nine Playing Shakespeare workshops, 9 x 1.5 h" }
     coreTexts:
       - title: The Actor and the Text
         kind: instructional
@@ -541,6 +576,13 @@ rows:
       - Speak a 20-line Shakespeare speech convincingly in both GA and RP/SSB, and switch mid-speech on cue
       - Describe the changes from "traditional" RP (1950s BBC) to current SSB (e.g. the GOOSE vowel moving forward, TRAP opening, glottal stops)
       - Transcribe short broadcast samples of each accent and identify at least five diagnostic features
+    workload:
+      readingHours: 7
+      readingBasis: "172 pp: Lindsey's English After RP at ~25 pp/h; Meier is worked as a textbook (exercises), and Wells and Webster are teacher texts, not counted"
+      work:
+        - { kind: exercises, hours: 40, note: "lexical sets, IPA and accent-system lessons (Meier's GA and RP units, Wells), 54 x 45 min" }
+        - { kind: practice, hours: 35, note: "accent drilling against IDEA and broadcast samples, 54 wk x 2 x 20 min" }
+        - { kind: memorization, hours: 3, note: "a 20-line Shakespeare speech to speak in both accents" }
     coreTexts:
       - title: "Accents of English, Vol. 1: An Introduction"
         kind: instructional
@@ -634,6 +676,14 @@ rows:
       - Identify the accent of an unknown IDEA speaker by region, citing three features heard
       - Read aloud passages of dialect literature (Burns, Scott's Scots dialogue, Irish Literary Revival dialogue, Twain's Southern and Dickens's Cockney speakers) in accent
       - Distinguish an authentic accent from a stage caricature, and explain why caricature fails as art and as charity
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 30, note: "six accents x ~5 h of study from Meier and Blumenfeld, accent manuals worked as textbooks" }
+        - { kind: writing, hours: 12, note: "one-page IPA accent breakdown for each of six accents, 6 x 2 h" }
+        - { kind: practice, hours: 35, note: "drilling each accent against IDEA speakers, 54 wk x 2 x 20 min" }
+        - { kind: project, hours: 12, note: "recorded monologue or scene in each accent, 6 x 2 h incl. rehearsal" }
+        - { kind: recitation, hours: 6, note: "reading dialect literature aloud in accent (Burns, Scott, Twain, Dickens), 6 x 1 h" }
     coreTexts:
       - title: "Accents: A Manual for Actors (rev. & expanded)"
         kind: instructional
@@ -727,6 +777,12 @@ rows:
       - Explain the difference between accent and dialect, standard and non-standard, prestige and correctness
       - Summarize one classic sociolinguistic study (e.g. Labov on New York r-dropping) and its method
       - Debate the resolution "A public man should speak a standard accent" using founding-era and modern sources
+    workload:
+      readingHours: 40
+      readingBasis: "~1,070 pp: Mugglestone and Wolfram & Schilling at ~25 pp/h (32 h), Pygmalion at ~35 pp/h (4 h), Webster at ~20 pp/h (5 h); Walker is counted as his preface only (~15 pp, 1 h), not a third of the dictionary, and Sheridan's preface has no page count"
+      work:
+        - { kind: writing, hours: 13, note: "Pygmalion essay with revision (~8 h) and summaries of the Sheridan and Walker prefaces and a Labov study (~5 h)" }
+        - { kind: discussion, hours: 25, note: "seminar, 26 x 45 min, plus a prepared debate on the standard-accent resolution (~5 h)" }
     coreTexts:
       - title: "Talking Proper: The Rise of Accent as Social Symbol (2nd ed.)"
         kind: secondary
@@ -835,6 +891,14 @@ rows:
       - Perform a sonnet and a scene in OP, recorded, and compare them with modern-accent performances
       - Identify "lost" rhymes and puns restored by OP (e.g. "love/prove", "loins/lines", "reason/raisin")
       - Explain the evidence and the uncertainty in any historical reconstruction of pronunciation
+    workload:
+      readingHours: 8
+      readingBasis: "248 pp: Crystal's Pronouncing Shakespeare at ~35 pp/h (5 h), Sonnets selections at ~20 pp/h (3 h)"
+      work:
+        - { kind: exercises, hours: 20, note: "OP phonology and Great Vowel Shift lessons (~15 h) and OP transcription of a sonnet and a 30-line speech (~5 h)" }
+        - { kind: practice, hours: 9, note: "rehearsing and recording a sonnet and a scene in OP, 12 x 45 min" }
+        - { kind: memorization, hours: 4, note: "a sonnet and the scene's lines" }
+        - { kind: discussion, hours: 5, note: "comparing OP and modern recordings; evidence and uncertainty in reconstruction" }
     coreTexts:
       - title: "Pronouncing Shakespeare: The Globe Experiment"
         kind: secondary
@@ -923,6 +987,15 @@ rows:
       - Direct a 10-minute scene with younger students (drama-02 level), coaching verse, blocking and projection
       - Serve as verse or dialect coach for the cast, using the IPA and lexical-set skills of drama-04 to drama-07
       - Compete in the ESU National Shakespeare Competition school round (one monologue plus one sonnet)
+    workload:
+      readingHours: 8
+      readingBasis: "246 pp: Mitchell's The Director's Craft at ~30 pp/h"
+      work:
+        - { kind: project, hours: 70, note: "full production: ~10 weeks x 3 rehearsals x 2 h plus ~10 h of tech, dress and performances" }
+        - { kind: memorization, hours: 15, note: "a principal role of 200+ lines" }
+        - { kind: exercises, hours: 15, note: "cutting the play to a two-hour text and building the promptbook" }
+        - { kind: practice, hours: 8, note: "directing a 10-minute scene with younger players, 8 x 1 h" }
+        - { kind: recitation, hours: 8, note: "preparing the ESU monologue and sonnet" }
     coreTexts:
       - title: The Folger Method (Cutting a Text; Promptbooks; Group Scenes)
         kind: instructional
@@ -1015,6 +1088,15 @@ rows:
       - Write a 3,000-word director's essay on a play, engaging Brook, Mitchell and Wojtyła
       - Coach a younger actor through an audition speech, including verse and dialect notes
       - Attend a residential Shakespeare intensive or perform in a public Shakespeare festival or competition
+    workload:
+      readingHours: 20
+      readingBasis: "513 pp: Brook at ~30 pp/h (5 h), Wojtyła's theatre writings at ~20 pp/h (7 h), Cato and Addison's essays at ~25 pp/h (10 h)"
+      work:
+        - { kind: project, hours: 90, note: "directing a full-length production: concept and casting (~15 h), ~9 weeks x 3 x 2.5 h of rehearsal and the performances" }
+        - { kind: memorization, hours: 20, note: "a major classical role (e.g. Brutus, Prospero, Cato)" }
+        - { kind: practice, hours: 45, note: "rehearsing and playing that role (~30 h), coaching a younger actor (~5 h) and a festival or competition (~10 h); a three-week residential intensive would add ~100 h" }
+        - { kind: writing, hours: 20, note: "3,000-word director's essay with revision" }
+        - { kind: discussion, hours: 20, note: "seminar on Aristotle, Brook, Mitchell and Wojtyła, 15 x 80 min" }
     coreTexts:
       - title: "The Empty Space: A Book About the Theatre: Deadly, Holy, Rough, Immediate"
         kind: primary

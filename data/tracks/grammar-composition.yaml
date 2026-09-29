@@ -32,6 +32,11 @@ rows:
       - Copy a 2–4 line passage daily with perfect accuracy and neat handwriting
       - Write fluent, legible cursive by about age 8
       - Notice and reproduce capitalization, punctuation and spelling in models
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 35, note: "print-to-cursive penmanship lessons, 72 wk x 2 x 15 min" }
+        - { kind: writing, hours: 45, note: "copywork of a 2–4 line passage, 72 wk x 3 x 12 min" }
     coreTexts:
       - title: Home Education (Vol. 1), on transcription
         kind: instructional
@@ -81,6 +86,12 @@ rows:
       - Narrate a read-aloud passage orally in sequence, with detail, after one hearing
       - Write a 3–5 sentence narration independently by about age 8–9
       - Take dictation of a studied passage of 2–4 sentences without error
+    workload:
+      readingHours: 0
+      work:
+        - { kind: discussion, hours: 25, note: "oral narration, 90 wk x 2 x 8 min" }
+        - { kind: writing, hours: 20, note: "written narrations from about age 8, ~40 wk x 2 x 15 min" }
+        - { kind: exercises, hours: 25, note: "dictation of studied passages, 90 wk x 2 x 8 min" }
     coreTexts:
       - title: Home Education (Vol. 1), on narration and dictation
         kind: instructional
@@ -124,6 +135,11 @@ rows:
       - Recite definitions of the eight parts of speech and identify them in sentences
       - Identify simple and complete subject and predicate
       - Punctuate declarative, interrogative, imperative and exclamatory sentences correctly
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 45, note: "oral grammar lessons (First Language Lessons or Grammar Recitation), ~140 lessons x 20 min" }
+        - { kind: memorization, hours: 12, note: "definitions and grammar chants, 72 wk x 2 x 5 min" }
     curriculumOptions:
       - name: First Language Lessons for the Well-Trained Mind (Levels 1–4)
         publisher: Well-Trained Mind Press
@@ -159,6 +175,11 @@ rows:
       - Classify every word in a sentence by part of speech and function (parsing)
       - Identify phrases (prepositional, verbal) and clauses (independent, dependent)
       - Write a well-organized paragraph with a topic sentence and support
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 85, note: "~200 grammar lessons at a Rod and Staff 3–5 pace x 25 min" }
+        - { kind: writing, hours: 20, note: "short compositions applying the lessons, ~30 paragraphs x 40 min" }
     curriculumOptions:
       - name: Shurley English (Levels 3–5)
         publisher: Shurley Instructional Materials
@@ -200,6 +221,10 @@ rows:
       - Diagram simple, compound, complex and compound-complex sentences
       - Diagram participles, gerunds, infinitives, appositives and noun clauses
       - Diagram sentences from the Declaration and the Gettysburg Address
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 45, note: "Reed & Kellogg lessons worked as a textbook (557 pp), ~80 lessons x 35 min" }
     coreTexts:
       - title: Graded Lessons in English
         kind: instructional
@@ -254,6 +279,11 @@ rows:
       - Parse any sentence fully in the 19th-century manner (part of speech, inflection, syntax rule)
       - Correct "false syntax" exercises by stating the violated rule
       - Master the rules of punctuation, and scan English verse (prosody)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 80, note: "Murray and Harvey worked as textbooks (598 pp): parsing, false syntax, punctuation and prosody, 54 wk x 3 x 30 min" }
+        - { kind: memorization, hours: 10, note: "Murray's rules of syntax and punctuation" }
     coreTexts:
       - title: English Grammar, Adapted to the Different Classes of Learners
         kind: instructional
@@ -311,6 +341,11 @@ rows:
       - Keep a commonplace book with a Locke-style index, adding entries weekly from all subjects
       - Copy passages accurately with author, work and page
       - Use commonplace entries as material in essays and speeches
+    workload:
+      readingHours: 14
+      readingBasis: "267 pp: Locke's method at ~15 pp/h (2 h), Jefferson's commonplace book at ~20 pp/h (12 h)"
+      work:
+        - { kind: writing, hours: 95, note: "weekly commonplace entries and indexing, 8 yr x 36 wk x 20 min" }
     coreTexts:
       - title: A New Method of Making Common-Place-Books
         kind: instructional
@@ -354,6 +389,13 @@ rows:
       - Write correctly formatted friendly, formal and business letters
       - Sustain a regular handwritten correspondence with at least one person for a year
       - Read and imitate letters of Adams, Jefferson and Franklin found on Founders Online
+    workload:
+      readingHours: 9
+      readingBasis: "137 pp: Chesterfield selections and Jefferson's letter to Peter Carr at ~15 pp/h"
+      work:
+        - { kind: writing, hours: 50, note: "a handwritten letter a week, 90 wk x ~35 min" }
+        - { kind: exercises, hours: 8, note: "the forms of the letter, ~10 x 45 min" }
+        - { kind: discussion, hours: 5, note: "Chesterfield's style and morals, 10 x 30 min" }
     coreTexts:
       - title: Letters to His Son
         kind: primary
@@ -400,6 +442,12 @@ rows:
       - Outline a model essay and reconstruct it in their own words (Franklin's exercise)
       - Write a five-paragraph essay with thesis, ordered support and conclusion
       - Vary sentence openings and structures deliberately
+    workload:
+      readingHours: 0
+      readingBasis: "4 pp of Franklin (a few minutes); the model essays come with the program"
+      work:
+        - { kind: exercises, hours: 50, note: "outlining, Franklin reconstructions and style lessons (IEW or Lost Tools), 72 wk x 40 min" }
+        - { kind: writing, hours: 90, note: "~35 compositions, paragraph to five-paragraph essay, x 2.5 h drafting and revision" }
     coreTexts:
       - title: Autobiography (Franklin on teaching himself to write from the Spectator)
         kind: primary
@@ -454,6 +502,11 @@ rows:
       - Apply Strunk's elementary rules of usage and principles of composition in revision
       - Identify and correct common errors (dangling modifiers, faulty parallelism, vague pronouns)
       - Revise a draft to cut its length by a quarter without losing content
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 40, note: "Strunk and the Fowlers worked as usage manuals (459 pp), 54 wk x 45 min" }
+        - { kind: writing, hours: 40, note: "revising own and peers' essays against the rules, 54 x 45 min" }
     coreTexts:
       - title: The Elements of Style (original 1918 edition)
         kind: instructional
@@ -497,6 +550,12 @@ rows:
       - Write 1,000–1,500-word expository and persuasive essays with a defensible thesis
       - Answer the strongest counter-argument fairly in every persuasive essay
       - Write a well-organized timed essay in 40 minutes
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 55, note: "invention and arrangement lessons (Lost Tools or IEW), 72 wk x 45 min" }
+        - { kind: writing, hours: 145, note: "a full essay every two weeks, ~36 essays x 4 h" }
+        - { kind: exam-prep, hours: 12, note: "timed 40-minute essays with review, 12 x 1 h" }
     curriculumOptions:
       - name: The Lost Tools of Writing (Levels II–III)
         publisher: CiRCE Institute
@@ -540,6 +599,13 @@ rows:
       - Formulate a research question and a working bibliography of primary and secondary sources
       - Write a 3,000–5,000-word research paper with Chicago/Turabian footnotes and bibliography
       - Defend the paper orally before a small panel
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 20, note: "research-process lessons (questions, sources, notes, Chicago style), 30 x 45 min" }
+        - { kind: project, hours: 50, note: "research for two papers: finding, reading and noting sources, 2 x 25 h" }
+        - { kind: writing, hours: 50, note: "outlining, drafting and revising two 3,000–5,000-word papers, 2 x 25 h" }
+        - { kind: practice, hours: 6, note: "preparing and giving the oral defenses, 2 x 3 h" }
     coreTexts:
       - title: A Manual for Writers of Research Papers, Theses, and Dissertations (9th ed.)
         kind: instructional
@@ -582,6 +648,11 @@ rows:
       - Consult Fowler habitually and settle usage questions with reasons
       - Diagnose and revise prose for clarity, cohesion and emphasis (Williams's principles)
       - Write pastiches of three prose masters that a reader can recognize
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 35, note: "Williams's Style exercises and habitual Fowler, 36 wk x 60 min" }
+        - { kind: writing, hours: 35, note: "three pastiches of prose masters (3 x 6 h) and revising own prose, 36 x 30 min" }
     coreTexts:
       - title: A Dictionary of Modern English Usage (1st ed.)
         kind: instructional
@@ -635,6 +706,13 @@ rows:
       - Write argumentative essays of 2,500–5,000 words that meet college-seminar standards
       - Diagnose euphemism, jargon, and dead metaphor in political and academic prose (Orwell's six rules)
       - Produce a portfolio of revised essays, including one publishable op-ed and one scholarly paper
+    workload:
+      readingHours: 1
+      readingBasis: "18 pp: Orwell's essay read closely at ~30 pp/h"
+      work:
+        - { kind: writing, hours: 95, note: "six 2,500–5,000-word essays x ~15 h with revision, plus an op-ed (~5 h)" }
+        - { kind: exercises, hours: 30, note: "They Say / I Say and Style exercises, 30 x 1 h" }
+        - { kind: discussion, hours: 30, note: "seminar and editing conferences, 30 x 1 h" }
     coreTexts:
       - title: Politics and the English Language
         kind: primary

@@ -110,6 +110,14 @@ rows:
       - Recite with clear articulation, natural pauses and eye contact
       - Copy each poem in the poetry notebook (pairs with handwriting and copywork)
       - Hear and clap the beat of a line; identify rhyming words
+    workload:
+      readingHours: 30
+      readingBasis: "761 pp read aloud: children's verse (Stevenson, Milne, de la Mare, Field, Belloc) and Harp and Laurel Wreath selections at ~25 pp/h"
+      work:
+        - { kind: memorization, hours: 30, note: "30–40 short poems over two years, 72 wk x 3 x 8 min incl. review" }
+        - { kind: recitation, hours: 6, note: "weekly recitation of the poem, 72 x 5 min" }
+        - { kind: writing, hours: 18, note: "poetry notebook: copy and illustrate ~35 poems x 30 min" }
+        - { kind: exercises, hours: 6, note: "clapping the beat and finding rhymes, 72 x 5 min" }
     coreTexts:
       - title: "A Child's Garden of Verses"
         kind: primary
@@ -203,6 +211,13 @@ rows:
       - Recite a poem before an audience with appropriate expression, pace and volume
       - Tell iambic from trochaic and anapestic rhythm by ear
       - Name the poet and approximate century of each memorized poem
+    workload:
+      readingHours: 55
+      readingBasis: "766 pp: anthology selections and Blake read by the student at ~13 pp/h (46 h), Harp and Laurel Wreath read aloud at ~25 pp/h (7 h)"
+      work:
+        - { kind: memorization, hours: 35, note: "600+ lines in 25+ poems with rotating review, 72 wk x 3 x 10 min" }
+        - { kind: recitation, hours: 9, note: "weekly home recitation, 72 x 5 min, plus ~6 audience recitations x 30 min" }
+        - { kind: exercises, hours: 12, note: "meter by ear (iamb, trochee, anapest) and poet-and-century drill, 72 x 10 min" }
     coreTexts:
       - title: The Blue Poetry Book
         kind: secondary
@@ -295,6 +310,15 @@ rows:
       - Identify the ballad stanza (4-3-4-3 stresses, abcb rhyme), refrain and incremental repetition
       - Compose an original ballad of 8+ stanzas on a historical or family subject
       - Read aloud a narrative poem with dramatic variation of voice
+    workload:
+      readingHours: 85
+      readingBasis: "1,421 pp: ballads and narrative verse read by the student at ~16 pp/h (75 h), Child ballads read aloud at ~25 pp/h (9 h)"
+      work:
+        - { kind: memorization, hours: 20, note: "Horatius (280 lines) or the Rime Part I, 30 wk x 3 x 15 min with review" }
+        - { kind: exercises, hours: 10, note: "ballad stanza, refrain and incremental repetition, 20 x 30 min" }
+        - { kind: writing, hours: 5, note: "original ballad of 8+ stanzas, drafted and revised, ~6 x 45 min" }
+        - { kind: recitation, hours: 12, note: "dramatic reading aloud of narrative poems, 36 x 20 min" }
+        - { kind: discussion, hours: 18, note: "weekly narration and talk about the poems, 72 x 15 min" }
     coreTexts:
       - title: "The English and Scottish Popular Ballads, Vol. 1"
         kind: primary
@@ -418,6 +442,13 @@ rows:
       - Apply McGuffey's rules of articulation, inflection, accent, emphasis and pause
       - Mark a text for breath, emphasis and pause before memorizing it
       - Recite Kipling's "If—" and one Shakespeare speech from the literature track
+    workload:
+      readingHours: 19
+      readingBasis: "368 pp: Columbian Orator selections at ~15 pp/h (7 h), McGuffey's Sixth Reader selections at ~20 pp/h (8 h), Rewards and Fairies counted at a third of the book at ~30 pp/h (4 h) though only 'If—' is required; the Shakespeare speeches have no page count and are left out"
+      work:
+        - { kind: memorization, hours: 30, note: "about 8 pieces of 40–100 lines (one a term, plus 'If—' and a Shakespeare speech) x ~4 h" }
+        - { kind: recitation, hours: 30, note: "coached rehearsal of each piece (8 x 3 h) and six termly exhibitions (6 x 1 h)" }
+        - { kind: exercises, hours: 18, note: "McGuffey's rules of articulation, inflection and emphasis, and marking texts for breath and pause, 36 x 30 min" }
     coreTexts:
       - title: The Columbian Orator
         kind: instructional
@@ -523,6 +554,13 @@ rows:
       - Identify synonymous, antithetic and synthetic parallelism in Hebrew poetry
       - Scan hymn meters (common meter 8.6.8.6, long meter 8.8.8.8) and match texts to tunes
       - Write a metrical paraphrase of a short psalm in common meter
+    workload:
+      readingHours: 40
+      readingBasis: "717 pp: KJV Psalms at ~15 pp/h (7 h), metrical psalms and hymns (Bay Psalm Book, Watts, Olney, Wesley, Keble) at ~20 pp/h (31 h); Lyra Catholica has no page count and is left out"
+      work:
+        - { kind: memorization, hours: 14, note: "Psalms 1, 23, 51, 90, 121 and a metrical psalm (~90 lines), 36 wk x 2 x 12 min" }
+        - { kind: exercises, hours: 12, note: "parallelism, hymn-meter scansion and matching texts to tunes, 24 x 30 min" }
+        - { kind: writing, hours: 3, note: "metrical paraphrase of a short psalm in common meter, drafted and revised" }
     coreTexts:
       - title: "The Book of Psalms (King James Version)"
         kind: primary
@@ -661,6 +699,12 @@ rows:
       - Identify and explain metrical substitution (initial trochee, feminine ending, spondee) and its expressive effect
       - Distinguish accentual-syllabic, accentual (Old English, Hopkins' sprung rhythm) and syllabic verse
       - Complete Fry's exercises in iambic pentameter (write 50+ correct lines)
+    workload:
+      readingHours: 35
+      readingBasis: "661 pp of prosody books: Fry at ~25 pp/h (15 h), Hollander and Fussell at ~15 pp/h (19 h)"
+      work:
+        - { kind: exercises, hours: 40, note: "scansion of memorized poems and Fry's metrical exercises, 54 wk x 45 min" }
+        - { kind: writing, hours: 10, note: "50+ lines of iambic pentameter and other metrical exercises from Fry" }
     coreTexts:
       - title: "The Ode Less Travelled: Unlocking the Poet Within"
         kind: instructional
@@ -747,6 +791,13 @@ rows:
       - Write two sonnets (one Petrarchan, one Shakespearean) with a true volta
       - Write 30 lines of blank verse on a narrative subject
       - Explain why a poet chose a given form, and the effect of the choice, for any studied poem
+    workload:
+      readingHours: 40
+      readingBasis: "564 pp of anthology selections (Oxford Book of English Verse, Shakespeare's Sonnets, Golden Treasury) read closely at ~15 pp/h"
+      work:
+        - { kind: writing, hours: 40, note: "eight form poems plus two sonnets and 30 lines of blank verse, each drafted and revised twice, ~10 pieces x 4 h" }
+        - { kind: exercises, hours: 25, note: "weekly scan-and-imitate exercises, 54 x 30 min" }
+        - { kind: discussion, hours: 14, note: "why the poet chose the form, 54 x 15 min" }
     coreTexts:
       - title: "The Oxford Book of English Verse, 1250–1900"
         kind: secondary
@@ -843,6 +894,14 @@ rows:
       - Explicate a metaphysical conceit (e.g. Donne's compasses) in a 1,000-word essay
       - Scan the pentameter couplets of the General Prologue's opening (hear it read in Middle English; the student's own reading aloud in the original comes in old-english-05)
       - Write an imitation of a Herbert pattern poem or a Donne holy sonnet
+    workload:
+      readingHours: 65
+      readingBasis: "979 pp of Chaucer-to-Milton verse (the Sonnets, Donne, Herbert, Milton's shorter poems) read closely at ~15 pp/h"
+      work:
+        - { kind: memorization, hours: 15, note: "5 Shakespeare sonnets, 2 Holy Sonnets and 2 Herbert poems (~130 lines), 9 poems x ~1.5 h plus review" }
+        - { kind: writing, hours: 12, note: "1,000-word conceit explication with revision (~8 h) and a Herbert or Donne imitation (~4 h)" }
+        - { kind: exercises, hours: 5, note: "scanning the General Prologue's opening couplets with a Middle English recording, 6 x 45 min" }
+        - { kind: discussion, hours: 40, note: "weekly seminar on the poems, 54 x 45 min" }
     coreTexts:
       - title: The Canterbury Tales (General Prologue)
         kind: primary
@@ -972,6 +1031,13 @@ rows:
       - Translate 6 Horace odes into rhymed English stanzas
       - Translate 50+ lines of Virgil into heroic couplets or blank verse
       - Write a Johnsonian "imitation" of a Latin satire applied to modern life
+    workload:
+      readingHours: 75
+      readingBasis: "1,490 pp read in English: Dryden's Aeneid and Pope's Iliad and Odyssey at ~20 pp/h (67 h), Conington's Horace and Johnson at ~15 pp/h (10 h); the 310-pp Latin Horace is counted as translation"
+      work:
+        - { kind: translation, hours: 40, note: "construing Horace in the Latin text (~6 h), 6 odes into rhymed stanzas (6 x 4 h) and 50+ lines of Virgil into couplets (~10 h)" }
+        - { kind: writing, hours: 16, note: "comparison of three translations of one passage (~6 h) and a Johnsonian imitation of a Latin satire (~10 h)" }
+        - { kind: discussion, hours: 25, note: "comparison seminars on the translations, 54 x ~30 min" }
     coreTexts:
       - title: The Aeneid (trans. John Dryden)
         kind: primary
@@ -1066,6 +1132,13 @@ rows:
       - Explicate one of Keats's odes stanza by stanza
       - Write a dramatic monologue in blank verse after Browning's "My Last Duchess" or "Andrea del Sarto"
       - Analyze Hopkins' sprung rhythm and inscape in a close reading
+    workload:
+      readingHours: 55
+      readingBasis: "976 pp of Romantic and Victorian verse (Lyrical Ballads, In Memoriam, Browning, Hopkins, Newman) at ~17 pp/h"
+      work:
+        - { kind: memorization, hours: 20, note: "Gray's Elegy (or 60 lines), one Keats ode and three Hopkins sonnets, ~200 lines at ~6 min a line incl. review" }
+        - { kind: writing, hours: 20, note: "Keats ode explication (~7 h), a Browning-style dramatic monologue in blank verse (~8 h) and a Hopkins close reading (~5 h)" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: Select Poems of Thomas Gray (incl. Elegy Written in a Country Churchyard)
         kind: primary
@@ -1223,6 +1296,13 @@ rows:
       - Compare Frost's blank-verse dialogues ("Death of the Hired Man") with Browning's monologues
       - Write an essay on the religious turn in Eliot from The Waste Land to Four Quartets
       - Distinguish free verse from loosened accentual verse
+    workload:
+      readingHours: 35
+      readingBasis: "705 pp of modern verse (Frost's first three books, Yeats, Housman, Chesterton, Eliot) at ~20 pp/h"
+      work:
+        - { kind: memorization, hours: 12, note: "two Frost poems, one Yeats poem and a section of Four Quartets (~130 lines)" }
+        - { kind: writing, hours: 13, note: "essay on Eliot's religious turn with revision (~10 h) and a short Frost–Browning comparison (~3 h)" }
+        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
     coreTexts:
       - title: A Boy's Will
         kind: primary
@@ -1337,6 +1417,16 @@ rows:
       - Revise each poem at least three times, keeping drafts to show development
       - Give a public reading of the portfolio from memory
       - Submit work to at least one juried poetry competition or publication
+    workload:
+      readingHours: 18
+      readingBasis: "361 pp of Oxford Book of English Verse selections read as models at ~20 pp/h"
+      work:
+        - { kind: writing, hours: 70, note: "12 sonnets (12 x 3 h), 150+ lines of blank verse (~15 h), two odes (2 x 6 h) and a couplet satire (~6 h), each revised three times" }
+        - { kind: translation, hours: 12, note: "three verse translations from Latin, 3 x 4 h" }
+        - { kind: discussion, hours: 30, note: "line-by-line mentor sessions every week or two (~25 x 1 h) and peer critique (~5 h)" }
+        - { kind: memorization, hours: 15, note: "portfolio poems for the public reading, ~200 lines" }
+        - { kind: recitation, hours: 5, note: "rehearsing and giving the public reading" }
+        - { kind: project, hours: 3, note: "preparing competition and journal submissions" }
     coreTexts:
       - title: The Ode Less Travelled
         kind: instructional
@@ -1466,6 +1556,12 @@ rows:
       - Compare Sidney's and Shelley's defenses of poetry against Plato's charge
       - Evaluate Wordsworth's claim that poetry uses "the real language of men"
       - Write a 4,000-word "Defence of Poetry" of the student's own, citing the tradition
+    workload:
+      readingHours: 30
+      readingBasis: "672 pp: criticism from Aristotle to Eliot at ~20 pp/h (27 h), Lewis's An Experiment in Criticism at ~30 pp/h (5 h)"
+      work:
+        - { kind: writing, hours: 40, note: "4,000-word Defence of Poetry with drafts (~25 h) and three 1,000-word response papers (3 x 5 h)" }
+        - { kind: discussion, hours: 45, note: "seminar, 30 x 90 min" }
     coreTexts:
       - title: The Poetics (trans. S. H. Butcher)
         kind: primary
