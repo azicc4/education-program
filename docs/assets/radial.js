@@ -73,7 +73,6 @@
   // ---------- graph: nodes seeded on the old radial layout ----------
   let G = { nodes: [], links: [], byId: new Map(), adj: new Map(), who: null, tracks: [] };
   const STEP_NAME = ['now', 'next', 'then'];
-  const trunc = (s, n) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
 
   function build(fresh) {
     const who = subject();
@@ -140,6 +139,7 @@
     for (const n of nodes) n.r = 3 + 1.6 * Math.sqrt(n.deg); // sized by connection count
     for (const l of links) l.dist = RADII[l.t.depth] - RADII[l.s.depth];
     G = { nodes, links, byId, adj, who, tracks, hub };
+    wraps = new Map();
   }
 
   // ---------- force simulation (d3-force style: velocity Verlet with decaying alpha) ----------
@@ -391,32 +391,136 @@
 
     // labels: drawn in screen space, fading in with zoom or when highlighted
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'top';
-    ctx.lineJoin = 'round';
-    ctx.lineWidth = 3;
-    ctx.strokeStyle = INK.bg;
     // fewer tracks (a subject filter) means more room, so labels appear at lower zoom
     const z = k / Math.min(1, Math.max(0.45, Math.sqrt(G.tracks.length / 35)));
     const zoomIn = { hub: 1, track: smooth(0.9, 1.25, z), unit: [smooth(1.3, 1.7, z), smooth(1.6, 2.1, z), smooth(1.6, 2.1, z)] };
-    for (let i = 1; i <= G.nodes.length; i++) {
-      const n = G.nodes[i % G.nodes.length]; // the hub (index 0) last, so its label stays on top
+    const items = [], dots = [];
+    for (const n of G.nodes) {
+      const dx = n.x * k + cam.x, dy = n.y * k + cam.y;
+      if (dx > -20 && dx < W + 20 && dy > -20 && dy < H + 20) dots.push({ n, sx: dx, sy: dy, rs: drawR(n) * k });
       const base = n.kind === 'unit' ? zoomIn.unit[n.step] : zoomIn[n.kind];
       const a = lit(n) && set ? Math.max(base, hl) : base * (set ? dim : 1);
       if (a < 0.02) continue;
-      const sx = n.x * k + cam.x, sy = (n.y + drawR(n)) * k + cam.y + 3;
-      if (sx < -150 || sx > W + 150 || sy < -20 || sy > H + 20) continue;
-      let text = n.label;
-      if (n.kind === 'track') text = `${n.complete ? '✓ ' : ''}${text}`;
-      if (n !== hlNode && n.kind !== 'hub') text = trunc(text, 28);
-      ctx.font = n.kind === 'hub' ? '600 13px Inter, system-ui, sans-serif' : n.kind === 'track' ? '600 11px Inter, system-ui, sans-serif' : '11px Inter, system-ui, sans-serif';
-      ctx.globalAlpha = a;
-      ctx.fillStyle = n.kind === 'track' ? n.color : INK.label;
-      ctx.strokeText(text, sx, sy);
-      ctx.fillText(text, sx, sy);
+      const sx = n.x * k + cam.x, sy = n.y * k + cam.y;
+      if (sx < -200 || sx > W + 200 || sy < -100 || sy > H + 100) continue;
+      items.push({ n, a, sx, sy, rs: drawR(n) * k, prio: labelPriority(n, set) });
     }
+    for (const it of placeLabels(items, dots)) drawLabel(it);
     ctx.globalAlpha = 1;
     caption(focusNode());
+  }
+
+  // ---------- labels: wrapped in semi-opaque boxes, placed so that none overlap ----------
+  const LABEL = {
+    hub: { font: '600 13px Inter, system-ui, sans-serif', line: 16, maxW: 220 },
+    track: { font: '600 11px Inter, system-ui, sans-serif', line: 14, maxW: 140 },
+    unit: { font: '11px Inter, system-ui, sans-serif', line: 14, maxW: 150 },
+  };
+  const PAD_X = 5, PAD_Y = 3, GAP = 4;
+  let wraps = new Map(); // node id -> { lines, w, h }, measured once per build (and again once fonts load)
+  function wrapLabel(n) {
+    let c = wraps.get(n.id);
+    if (c) return c;
+    const { font, line: lh, maxW } = LABEL[n.kind];
+    ctx.font = font;
+    const width = (t) => ctx.measureText(t).width;
+    const text = n.kind === 'track' && n.complete ? `✓ ${n.label}` : n.label;
+    const lines = [];
+    let line = '';
+    // break after spaces, hyphens, dashes and slashes; a word wider than the box breaks between characters
+    for (const token of text.match(/[^\s\-–—/]*[\s\-–—/]*/g).filter(Boolean)) {
+      if (width((line + token).trimEnd()) <= maxW) {
+        line += token;
+        continue;
+      }
+      if (line.trim()) lines.push(line.trimEnd());
+      line = '';
+      if (width(token.trimEnd()) <= maxW) line = token;
+      else
+        for (const ch of token) {
+          if (line && width((line + ch).trimEnd()) > maxW) {
+            lines.push(line.trimEnd());
+            line = '';
+          }
+          line += ch;
+        }
+    }
+    if (line.trim()) lines.push(line.trimEnd());
+    const w = Math.max(...lines.map(width));
+    c = { lines, w: w + 2 * PAD_X, h: lines.length * lh + 2 * PAD_Y, lh };
+    wraps.set(n.id, c);
+    return c;
+  }
+  // lower is placed first: the hub, the highlighted node and its neighbors, then tracks, then units by step
+  function labelPriority(n, set) {
+    if (n.kind === 'hub') return 0;
+    if (set && n === hlNode) return 1;
+    if (set && set.has(n.id)) return 2;
+    if (n.id === kbdFocus || n.id === openId) return 2;
+    return n.kind === 'track' ? 3 : 4 + n.step;
+  }
+  let lastPlaced = new Map(); // node id -> candidate side used last frame, so labels do not jump around
+  function placeLabels(items, dots) {
+    items.sort((p, q) => p.prio - q.prio || lastPlaced.has(q.n.id) - lastPlaced.has(p.n.id));
+    // the hover caption sits over the canvas, so its area is taken
+    const boxes = captionEl.hidden ? [] : [{ x: captionEl.offsetLeft - GAP, y: captionEl.offsetTop - GAP, w: captionEl.offsetWidth + 2 * GAP, h: captionEl.offsetHeight + 2 * GAP }];
+    const hits = (b) => boxes.some((o) => b.x < o.x + o.w && o.x < b.x + b.w && b.y < o.y + o.h && o.y < b.y + b.h);
+    // nodes a label would rather not cover
+    const covers = (b, self) =>
+      dots.some((c) => c.n !== self && c.sx + c.rs > b.x && c.sx - c.rs < b.x + b.w && c.sy + c.rs > b.y && c.sy - c.rs < b.y + b.h);
+    const placed = new Map();
+    const out = [];
+    for (const it of items) {
+      const { w, h } = wrapLabel(it.n);
+      const { sx, sy, rs } = it;
+      const sides = {
+        below: { x: sx - w / 2, y: sy + rs + GAP },
+        above: { x: sx - w / 2, y: sy - rs - GAP - h },
+        right: { x: sx + rs + GAP, y: sy - h / 2 },
+        left: { x: sx - rs - GAP - w, y: sy - h / 2 },
+      };
+      const prev = lastPlaced.get(it.n.id);
+      const order = prev ? [prev, ...Object.keys(sides).filter((s) => s !== prev)] : Object.keys(sides);
+      // a side must be wholly inside the view and clear of other labels; prefer one that leaves other nodes
+      // uncovered. A label that fits nowhere waits for more zoom, a pan or a hover, rather than being cut off.
+      const inside = (b) => b.x >= 2 && b.y >= 2 && b.x + w <= W - 2 && b.y + h <= H - 2;
+      let side = null, best = Infinity;
+      for (const s of order) {
+        const b = { ...sides[s], w, h };
+        if (!inside(b) || hits(b)) continue;
+        const score = covers(b, it.n) ? 1 : 0;
+        if (score < best) (side = s), (best = score);
+      }
+      if (!side) continue;
+      const box = { ...sides[side], w, h };
+      boxes.push(box);
+      placed.set(it.n.id, side);
+      out.push({ ...it, box });
+    }
+    lastPlaced = placed;
+    return out;
+  }
+  const roundRect = (x, y, w, h, r) => {
+    ctx.beginPath();
+    if (ctx.roundRect) ctx.roundRect(x, y, w, h, r);
+    else ctx.rect(x, y, w, h);
+  };
+  function drawLabel({ n, a, box }) {
+    const { lines, lh } = wrapLabel(n);
+    ctx.globalAlpha = a;
+    roundRect(box.x, box.y, box.w, box.h, 4);
+    ctx.fillStyle = 'rgba(22, 20, 17, 0.78)';
+    ctx.fill();
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = n.color || INK.hub;
+    if (n.kind === 'unit' && n !== hlNode) ctx.globalAlpha = a * 0.45;
+    ctx.stroke();
+    ctx.globalAlpha = a;
+    ctx.font = LABEL[n.kind].font;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = n.kind === 'track' ? n.color : n.kind === 'hub' ? '#fff' : INK.label;
+    lines.forEach((t, i) => ctx.fillText(t, box.x + box.w / 2, box.y + PAD_Y + lh * (i + 0.5)));
   }
 
   // ---------- caption, legend, accessible node list ----------
@@ -772,6 +876,7 @@
   }
   new ResizeObserver(resize).observe(stage);
   document.fonts?.ready.then(() => {
+    wraps = new Map();
     captionFor = undefined;
     kick();
   });
