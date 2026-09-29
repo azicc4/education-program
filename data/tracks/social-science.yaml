@@ -43,6 +43,13 @@ rows:
       - Explain how habits are formed and lost according to ST I-II q.49–53, and compare with a modern account of habit
       - Summarize Augustine's account of memory and why he finds God "in" memory
       - Keep a two-week log of one's own passions and habits, classified in Thomist terms
+    workload:
+      readingHours: 20
+      readingBasis: "292 pp: Aristotle (72 pp) at ~12 pp/h (6 h), Aquinas (175 pp) at ~15 pp/h (12 h), Augustine (45 pp) at ~20 pp/h (2 h)"
+      work:
+        - { kind: discussion, hours: 12, note: "narration and discussion of the readings, 24 x 30 min" }
+        - { kind: writing, hours: 6, note: "short written explanations of the soul, passions and habit" }
+        - { kind: project, hours: 3, note: "two-week log of passions and habits in Thomist terms" }
     coreTexts:
       - title: On the Soul (De Anima), Books II–III
         kind: primary
@@ -147,6 +154,14 @@ rows:
       - Trace the history of psychology from Reid and the college "mental philosophy" through Wundt, James, behaviorism and the cognitive revolution
       - Read James's chapter "Habit" and compare it with Aquinas on habit (social-science-01)
       - Identify the view of the person assumed by each major school (behaviorist, psychoanalytic, humanistic, cognitive, evolutionary)
+    workload:
+      readingHours: 50
+      readingBasis: "951 pp: James's Principles chapters (175 pp) at ~20 pp/h (9 h), Briefer Course (478 pp) at ~25 pp/h (19 h), Wundt (198 pp) at ~15 pp/h (13 h), Reid (~100 pp) at ~15 pp/h (7 h)"
+      work:
+        - { kind: exercises, hours: 90, note: "Psychology 2e or Myers (a 750-pp textbook, counted as lessons), 36 weeks x 3 x 50 min" }
+        - { kind: writing, hours: 5, note: "James on habit compared with Aquinas" }
+        - { kind: discussion, hours: 10, note: "the schools and their view of the person, 20 x 30 min" }
+        - { kind: exam-prep, hours: 20, note: "AP Psychology or CLEP Introductory Psychology review and practice exams" }
     coreTexts:
       - title: "The Principles of Psychology, Vol. 1 (ch. IV Habit, IX The Stream of Thought, XI Attention, XVI Memory)"
         kind: primary
@@ -275,6 +290,13 @@ rows:
       - Explain p-hacking, publication bias, small samples and low statistical power, and how preregistration addresses them
       - Summarize the main findings of Open Science Collaboration (2015) and Ioannidis (2005)
       - Write a one-page critical appraisal of a published study and of a news article that reports it
+    workload:
+      readingHours: 16
+      readingBasis: "533 pp: four papers (30 pp) at ~15 pp/h (2 h), Huff (142 pp) at ~35 pp/h (4 h), Ritchie (361 pp) at ~35 pp/h (10 h)"
+      work:
+        - { kind: exercises, hours: 25, note: "research-methods lessons from an open text (about 20 h) and dissecting real studies (5 h)" }
+        - { kind: writing, hours: 6, note: "critical appraisal of a study and of the news article on it" }
+        - { kind: discussion, hours: 6, note: "weekly discussion, 12 x 30 min" }
     coreTexts:
       - title: Why Most Published Research Findings Are False
         kind: primary
@@ -380,6 +402,13 @@ rows:
       - Identify which findings in Thinking, Fast and Slow have replicated well and which have not
       - Compare the modern account of bias with the classical account of prudence, and of how passion clouds judgment
       - Keep a decision journal with predictions and confidence levels, and score it after three months
+    workload:
+      readingHours: 16
+      readingBasis: "506 pp: Tversky and Kahneman (8 pp) at ~15 pp/h, Thinking, Fast and Slow (~176 pp) at ~30 pp/h (6 h), Gigerenzer (322 pp) at ~35 pp/h (9 h)"
+      work:
+        - { kind: exercises, hours: 6, note: "base-rate problems in probability and natural-frequency formats" }
+        - { kind: project, hours: 5, note: "decision journal for three months, scored at the end" }
+        - { kind: discussion, hours: 6, note: "Kahneman against Gigerenzer, and bias and prudence, 12 x 30 min" }
     coreTexts:
       - title: "Judgment under Uncertainty: Heuristics and Biases"
         kind: primary
@@ -464,6 +493,13 @@ rows:
       - Explain deliberate practice and assess how much of expert performance it accounts for (Macnamara et al., 2014)
       - Relate the research to classical methods (recitation, memoria, narration, copywork) and to William James's Talks to Teachers
       - Design, run and evaluate a spaced-retrieval study plan for one subject for a whole term
+    workload:
+      readingHours: 60
+      readingBasis: "1,688 pp: Make It Stick, Willingham and Peak (992 pp) at ~40 pp/h (25 h), James's Talks (301 pp) at ~25 pp/h (12 h), Piaget and Vygotsky (340 pp) at ~18 pp/h (19 h), Dunlosky (55 pp) at ~15 pp/h (4 h)"
+      work:
+        - { kind: project, hours: 10, note: "designing, running and evaluating a term-long spaced-retrieval plan" }
+        - { kind: writing, hours: 8, note: "summaries and a ranking of study techniques" }
+        - { kind: discussion, hours: 10, note: "weekly discussion, 20 x 30 min" }
     coreTexts:
       - title: "Make It Stick: The Science of Successful Learning"
         kind: primary
@@ -594,6 +630,13 @@ rows:
       - Summarize Haidt's six moral foundations and his claim that intuition comes first and strategic reasoning second
       - Identify Cialdini's principles of influence in five real advertisements or political appeals
       - Write an essay on the question "Does situationism refute virtue ethics?" drawing on Aristotle, Milgram and Haidt
+    workload:
+      readingHours: 35
+      readingBasis: "1,178 pp: Haidt (493 pp) and Cialdini (590 pp) at ~38 pp/h (29 h), Asch, Milgram and Le Texier (95 pp) at ~18 pp/h (5 h)"
+      work:
+        - { kind: exercises, hours: 3, note: "identifying principles of influence in five real appeals" }
+        - { kind: writing, hours: 8, note: "essay on whether situationism refutes virtue ethics" }
+        - { kind: discussion, hours: 6, note: "weekly discussion, 12 x 30 min" }
     coreTexts:
       - title: "Studies of Independence and Conformity: I. A Minority of One Against a Unanimous Majority"
         kind: primary
@@ -693,6 +736,13 @@ rows:
       - Explain Nisbet's argument about community, the state and the intermediate associations
       - Define social capital (Coleman, Putnam) and assess the evidence for its decline since 1960
       - Write a research paper on the state of one mediating institution (parish, family, lodge, local club) in your own town
+    workload:
+      readingHours: 70
+      readingBasis: "1,849 pp: Berger and Putnam (735 pp) at ~40 pp/h (18 h), Durkheim, Weber and Tocqueville (785 pp) at ~20 pp/h (39 h), Nisbet (303 pp) at ~25 pp/h (12 h), Coleman (26 pp) (1 h)"
+      work:
+        - { kind: exercises, hours: 25, note: "an introductory sociology text (optionally for CLEP), about 18 weeks x 2 x 45 min" }
+        - { kind: writing, hours: 20, note: "research paper on a mediating institution in the home town" }
+        - { kind: discussion, hours: 10, note: "weekly discussion, 18 x 35 min" }
     coreTexts:
       - title: Invitation to Sociology
         kind: secondary
@@ -818,6 +868,13 @@ rows:
       - Explain Frankl's logotherapy and his three sources of meaning (work, love, and the attitude taken to unavoidable suffering)
       - Summarize Vitz's argument that popular psychology became a "religion of the self," and assess it
       - Explain the eleven dimensions of the person in the Catholic Christian Meta-Model and how it relates to secular therapy
+    workload:
+      readingHours: 25
+      readingBasis: "682 pp: Frankl, Vitz and Baars (449 pp) at ~35 pp/h (13 h), the Meta-Model (~233 pp) at ~20 pp/h (12 h)"
+      work:
+        - { kind: exercises, hours: 8, note: "Big Five inventory, signs of anxiety and depression, and the evidence on treatment" }
+        - { kind: writing, hours: 5, note: "summaries of Frankl, Vitz and the Meta-Model" }
+        - { kind: discussion, hours: 6, note: "weekly discussion, 12 x 30 min" }
     coreTexts:
       - title: Man's Search for Meaning
         kind: primary
@@ -914,6 +971,13 @@ rows:
       - Explain attention research on multitasking, notifications and deep reading
       - Explain Pieper's claim that the abuse of language for power is the root of propaganda
       - Write and keep for one term a personal technology rule, and report on it
+    workload:
+      readingHours: 30
+      readingBasis: "1,127 pp: Postman, Haidt, Carr and Crouch (1,073 pp) at ~38 pp/h (28 h), Pieper (54 pp) at ~20 pp/h (3 h)"
+      work:
+        - { kind: writing, hours: 6, note: "weighing Haidt's causal claims against his critics" }
+        - { kind: project, hours: 6, note: "a personal technology rule kept for a term, with a report" }
+        - { kind: discussion, hours: 8, note: "discussion of the arguments, 16 x 30 min" }
     coreTexts:
       - title: "Amusing Ourselves to Death: Public Discourse in the Age of Show Business"
         kind: primary
@@ -1013,6 +1077,13 @@ rows:
       - Explain Evans-Pritchard's critique of intellectualist, emotionalist and sociological theories of religion
       - Explain Douglas's account of purity rules and her reading of the dietary laws of Leviticus
       - Distinguish methodological relativism (suspending judgment in order to understand) from moral relativism
+    workload:
+      readingHours: 25
+      readingBasis: "567 pp: Dawson and Evans-Pritchard (374 pp) at ~25 pp/h (15 h), Douglas (193 pp) at ~20 pp/h (10 h)"
+      work:
+        - { kind: exercises, hours: 10, note: "cultural-anthropology chapters of the survey text and one classic ethnography" }
+        - { kind: writing, hours: 4, note: "short test of Dawson's thesis on a non-Western case" }
+        - { kind: discussion, hours: 5, note: "relativism and understanding from the inside, 10 x 30 min" }
     coreTexts:
       - title: Religion and the Rise of Western Culture
         kind: secondary
@@ -1089,6 +1160,12 @@ rows:
       - Summarize Gaudium et Spes 12–22 on the person as image of God, conscience, freedom and death
       - Evaluate one major finding from this track in the light of these readings, naming its assumptions about human nature
       - Write a 4,000-word seminar paper, "The Uses and Limits of Social Science for a Statesman"
+    workload:
+      readingHours: 40
+      readingBasis: "813 pp: Hayek (265 pp) at ~20 pp/h (13 h), Smith (520 pp) at ~22 pp/h (24 h), MacIntyre and Gaudium et Spes (28 pp) at ~20 pp/h (1 h)"
+      work:
+        - { kind: discussion, hours: 55, note: "Socratic seminar on the primary texts, 36 x 90 min" }
+        - { kind: writing, hours: 30, note: "4,000-word seminar paper, from outline to final draft" }
     coreTexts:
       - title: "The Counter-Revolution of Science: Studies on the Abuse of Reason"
         kind: primary

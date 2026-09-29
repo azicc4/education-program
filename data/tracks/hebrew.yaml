@@ -34,6 +34,11 @@ rows:
       - Read pointed Hebrew aloud accurately, with correct syllable division
       - Read Genesis 1:1, the Shema and Psalm 23:1 aloud and know their meaning word by word
       - Learn about 100 high-frequency Biblical words
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 30, note: "alphabet, points and syllabification, about 10 weeks x 4 x 45 min" }
+        - { kind: memorization, hours: 5, note: "about 100 words and the three set passages" }
     curriculumOptions:
       - name: The First Hebrew Primer (Biblical Hebrew)
         publisher: EKS Publishing
@@ -79,6 +84,11 @@ rows:
       - Read construct chains and pronominal suffixes on nouns and prepositions
       - Understand the wayyiqtol narrative sequence
       - Know about 400 words (all words occurring 100+ times)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 80, note: "first half of Pratico & Van Pelt (or Futato, Weingreen) with workbook, 36 weeks x 3 x 45 min" }
+        - { kind: memorization, hours: 20, note: "about 400 words (all occurring 100+ times) and Qal paradigms" }
     curriculumOptions:
       - name: "Basics of Biblical Hebrew Grammar (3rd ed.), Pratico & Van Pelt"
         publisher: Zondervan
@@ -121,6 +131,11 @@ rows:
       - Use the lexicon (BDB/HALOT or a reader's lexicon) to find roots from weak forms
       - Look up syntax in Gesenius' Hebrew Grammar by section number
       - Know about 800 words (all words occurring 50+ times)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 80, note: "second half of the grammar with workbook and Gesenius look-ups, 36 weeks x 3 x 45 min" }
+        - { kind: memorization, hours: 20, note: "vocabulary to about 800 words and the derived-stem paradigms" }
     coreTexts:
       - title: "Gesenius' Hebrew Grammar (Kautzsch–Cowley)"
         kind: instructional
@@ -163,6 +178,12 @@ rows:
       - Read Genesis 1–4 and 6–9 in Hebrew with a reader's lexicon
       - Memorize Genesis 1:1–5 in Hebrew
       - Compare Gen 1:1–3 and 1:26–27 in Hebrew, LXX and Vulgate
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 25, note: "Genesis 1–11 (~30 counted pp, about 300 verses) at ~12 verses/h with a reader's lexicon" }
+        - { kind: memorization, hours: 2, note: "Genesis 1:1–5" }
+        - { kind: exercises, hours: 3, note: "comparing Gen 1:1–3 and 1:26–27 in Hebrew, LXX and Vulgate" }
     coreTexts:
       - title: Genesis (Bereshit), Hebrew text
         kind: primary
@@ -212,6 +233,11 @@ rows:
       - Read the whole of Ruth and Jonah in Hebrew
       - Trace the word hesed through Ruth and explain its range
       - Read Jonah 2 as a first taste of Hebrew poetry
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 9, note: "Ruth and Jonah (13 pp, about 130 verses) at ~15 verses/h" }
+        - { kind: exercises, hours: 3, note: "word study of hesed through Ruth" }
     coreTexts:
       - title: Ruth (Hebrew)
         kind: primary
@@ -253,6 +279,12 @@ rows:
       - Read about 25 Psalms in Hebrew and classify their parallelism
       - Memorize Psalm 1 or 23 in Hebrew
       - Compare Ps 22 (21 in LXX/Vulgate) in Hebrew, Greek and Latin, and explain the numbering difference
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 40, note: "about 25 Psalms (~60 counted pp, about 400 verses) at ~10 verses/h" }
+        - { kind: memorization, hours: 3, note: "Psalm 1 or 23" }
+        - { kind: exercises, hours: 4, note: "Psalm 22 in Hebrew, Greek and Latin, and the numbering" }
     coreTexts:
       - title: Tehillim (Psalms), Hebrew text
         kind: primary
@@ -286,6 +318,12 @@ rows:
       - Read ten selected chapters of Isaiah in Hebrew
       - Discuss the translation question of Isaiah 7:14 ('almah / parthenos / virgo) from the texts themselves
       - Memorize Isaiah 40:1–8 or Micah 6:8 in Hebrew
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 30, note: "ten Isaiah chapters (~40 counted pp, about 200 verses) at ~8 verses/h (25 h), with Micah 6 and Amos 5 (4 h)" }
+        - { kind: memorization, hours: 3, note: "Isaiah 40:1–8 or Micah 6:8" }
+        - { kind: discussion, hours: 4, note: "Isaiah 7:14 and 53 in Jewish and Christian readings, 8 x 30 min" }
     coreTexts:
       - title: Isaiah (Hebrew)
         kind: primary
@@ -321,6 +359,13 @@ rows:
       - Read a BHS page and explain the Masoretic notes and critical apparatus in outline
       - Explain why Jerome translated the OT from Hebrew and how the Vulgate relates to the MT and LXX
       - Summarize Pius XII's Divino Afflante Spiritu (1943) on original-language study
+    workload:
+      readingHours: 2
+      readingBasis: "30 pp: Divino Afflante Spiritu at ~20 pp/h"
+      work:
+        - { kind: exercises, hours: 10, note: "lessons on Sefaria, the Leningrad Codex, BHS and its apparatus, about 10 x 1 h spread over the years" }
+        - { kind: discussion, hours: 6, note: "history of the text: MT, scrolls, LXX, Vulgate and the Reformation, 12 x 30 min" }
+        - { kind: writing, hours: 2, note: "summary of Divino Afflante Spiritu" }
     coreTexts:
       - title: Sefaria Library
         kind: primary
@@ -380,6 +425,11 @@ rows:
       - Read short unpointed modern texts (signs, headlines)
       - Hold a two-minute conversation of greetings and basics
       - Know the main pronunciation differences between Biblical (Tiberian) reading and Israeli Hebrew
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 20, note: "modern pronunciation, unpointed script and basic vocabulary, about 30 x 40 min" }
+        - { kind: practice, hours: 6, note: "short conversations and reading signs and headlines" }
     curriculumOptions:
       - name: EKS Publishing, Modern Hebrew titles
         publisher: EKS Publishing
@@ -407,6 +457,13 @@ rows:
       - Read 1 Samuel 16–17 in Hebrew
       - Read Daniel 2:4–13 in Aramaic with a grammar
       - Produce an annotated comparison of one passage in Hebrew, LXX Greek and Vulgate Latin
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 25, note: "Genesis 37–50 (about 450 verses) near sight at ~25 verses/h (18 h), 1 Samuel 16–17 (4 h) and Daniel 2:4–13 in Aramaic (5 h); the counted 100 pp include whole books" }
+        - { kind: exercises, hours: 10, note: "first Biblical Aramaic grammar lessons" }
+        - { kind: practice, hours: 15, note: "regular sight-reading of narrative, 36 x 25 min" }
+        - { kind: project, hours: 10, note: "annotated comparison of one passage in Hebrew, LXX and Vulgate" }
     coreTexts:
       - title: Genesis 37–50, 1 Samuel, Daniel (Hebrew/Aramaic)
         kind: primary

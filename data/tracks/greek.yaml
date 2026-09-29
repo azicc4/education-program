@@ -35,6 +35,11 @@ rows:
       - Pronounce diphthongs, breathings and accents (choose Erasmian or restored Koine and stay consistent)
       - Read aloud John 1:1–5 and the Pater Noster in Greek
       - Transliterate Greek words and give 30+ English derivatives
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 25, note: "alphabet workbook, breathings and accents, 18 weeks x 3 x 30 min" }
+        - { kind: memorization, hours: 5, note: "John 1:1–5, the Pater Noster and 30+ derivatives" }
     curriculumOptions:
       - name: The Greek Alphabet
         publisher: Memoria Press
@@ -84,6 +89,11 @@ rows:
       - Conjugate present, imperfect and future active indicative of ω-verbs and εἰμί
       - Translate simple Gospel sentences
       - Know the 200 most frequent NT words
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 75, note: "Elementary Greek or Greek for Children, about 32 lessons x 4 sessions x 35 min" }
+        - { kind: memorization, hours: 12, note: "the 200 most frequent NT words" }
     curriculumOptions:
       - name: Elementary Greek I–III (Christine Gatchell)
         publisher: Memoria Press
@@ -123,6 +133,11 @@ rows:
       - Decline 3rd-declension nouns and the participle
       - Translate connected adapted passages of 150–300 words
       - Build vocabulary to about 600 words (DCC Greek Core List)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 145, note: "Machen (45 lessons), Athenaze I or First Form Greek over 1.5 years, 54 weeks x 4 x 40 min; the grammar is lessons, not reading" }
+        - { kind: memorization, hours: 25, note: "vocabulary to about 600 words and the verb paradigms" }
     coreTexts:
       - title: New Testament Greek for Beginners
         kind: instructional
@@ -188,6 +203,11 @@ rows:
       - Classify and translate every type of condition and indirect discourse
       - Recite the principal parts of the 100 most important irregular verbs
       - Translate unadapted Xenophon with a vocabulary
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 110, note: "Crosby & Schaeffer or Hansen & Quinn, 36 weeks x 4 x 45 min" }
+        - { kind: memorization, hours: 20, note: "principal parts of the 100 most important irregular verbs" }
     coreTexts:
       - title: An Introduction to Greek
         kind: instructional
@@ -254,6 +274,12 @@ rows:
       - Read 1 John in Greek at sight by the end
       - Memorize John 1:1–14 in Greek
       - Compare three key verses in Greek, the Vulgate and the King James/Douay versions
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 35, note: "Gospel of John (60 pp) at ~2 pp/h with a reader's lexicon (30 h) and 1 John at sight (4 h)" }
+        - { kind: memorization, hours: 5, note: "John 1:1–14 in Greek" }
+        - { kind: exercises, hours: 4, note: "comparing three key verses in Greek, Vulgate and English versions" }
     coreTexts:
       - title: Gospel of John (Greek New Testament)
         kind: primary
@@ -303,6 +329,11 @@ rows:
       - Look up any construction in Smyth or Goodwin by section number
       - Complete the first 40 exercises of North & Hillard's Greek Prose Composition
       - Accent correctly any noun or verb form written
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 70, note: "the first 40 North & Hillard exercises x ~1.5 h (60 h), plus Smyth and Goodwin look-up lessons and accent drill (10 h), spread over 5.5 years" }
+        - { kind: discussion, hours: 13, note: "tutor correction of each exercise, 40 x 20 min" }
     coreTexts:
       - title: A Greek Grammar
         kind: instructional
@@ -367,6 +398,11 @@ rows:
       - Read 30+ Aesopic fables in Greek
       - Read True History Book I in Greek
       - Retell a fable in simple Greek (oral or written)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 25, note: "30+ Aesopic fables at ~20 min each (10 h; no page count, about 15 pp) and True History Book I (~13 pp counted, about 18 pp of Greek) at ~1.2 pp/h (15 h)" }
+        - { kind: writing, hours: 3, note: "retelling a fable in simple Greek" }
     coreTexts:
       - title: Fabulae Aesopicae Collectae (Greek)
         kind: primary
@@ -417,6 +453,12 @@ rows:
       - Read Anabasis I–IV (at least I and IV in full)
       - Read three chapters of the Memorabilia
       - Analyse Xenophon's portrait of leadership (Cyrus, Clearchus, Xenophon himself)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 100, note: "Anabasis I–IV, about 90 pp of Greek (counted 117 pp; I and IV in full, II–III in part) at ~1 pp/h, plus three chapters of the Memorabilia (8 h)" }
+        - { kind: writing, hours: 5, note: "analysis of Xenophon's portraits of leadership" }
+        - { kind: discussion, hours: 6, note: "leadership and self-government, 12 x 30 min" }
     coreTexts:
       - title: Anabasis
         kind: primary
@@ -456,6 +498,11 @@ rows:
       - Read Luke 1–2 and 15 and the Passion narrative in Greek
       - Read Acts 1–2, 9, 17 and 26–28 in Greek
       - Analyse the periodic prologue of Luke (1:1–4) as classical prose
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 20, note: "about 43 pp of Luke and Acts at ~2.5 pp/h (17 h), with the Lucan prologue analysed slowly (3 h)" }
+        - { kind: discussion, hours: 5, note: "Paul's speeches as rhetorical models, 10 x 30 min" }
     coreTexts:
       - title: Gospel of Luke & Acts of the Apostles
         kind: primary
@@ -488,6 +535,13 @@ rows:
       - Read the Apology and Crito complete in Greek
       - Memorize Apology 38a ("the unexamined life…") in Greek
       - Write an essay on the Laws' speech in the Crito and civil disobedience (compare King, Thoreau, Aquinas on unjust law)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 45, note: "Apology (30 pp) and Crito (15 pp) at ~1 pp/h" }
+        - { kind: memorization, hours: 2, note: "Apology 38a" }
+        - { kind: writing, hours: 8, note: "essay on the Laws' speech and civil disobedience" }
+        - { kind: discussion, hours: 8, note: "the examined life and obedience to law, 16 x 30 min" }
     coreTexts:
       - title: Apology of Socrates
         kind: primary
@@ -533,6 +587,14 @@ rows:
       - Scan and recite Homeric hexameter; memorize Iliad I.1–7 and Odyssey I.1–10
       - Know the main features of the Homeric dialect
       - Write a comparative essay on Achilles, Hector, Odysseus and Aeneas
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 100, note: "about 2,500 lines of Homer at ~25 lines/h (counted 339 pp)" }
+        - { kind: exercises, hours: 8, note: "Homeric dialect and hexameter scansion drill" }
+        - { kind: memorization, hours: 3, note: "Iliad I.1–7 and Odyssey I.1–10" }
+        - { kind: writing, hours: 8, note: "comparative essay on Achilles, Hector, Odysseus and Aeneas" }
+        - { kind: discussion, hours: 10, note: "weekly discussion, 40 x 15 min" }
     coreTexts:
       - title: Odyssey
         kind: primary
@@ -602,6 +664,13 @@ rows:
       - Read the Thermopylae narrative (VII.201–233) in Greek
       - Recognize Ionic dialect forms
       - Explain the Greek idea of freedom under law (Demaratus to Xerxes, VII.104)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 65, note: "about 100 pp of Greek actually assigned (I.1–94 ~55, Thermopylae ~14, Salamis narrative ~30) at ~1.5 pp/h; the counted 233 pp include a third of the whole Histories" }
+        - { kind: exercises, hours: 4, note: "Ionic dialect forms" }
+        - { kind: writing, hours: 4, note: "short essay on freedom under law (Demaratus to Xerxes)" }
+        - { kind: discussion, hours: 8, note: "liberty, fortune and hubris, 16 x 30 min" }
     coreTexts:
       - title: Histories
         kind: primary
@@ -642,6 +711,13 @@ rows:
       - Compare LXX, Hebrew and Vulgate readings of three key passages (e.g. Gen 1:2, Ps 22/21, Isa 7:14)
       - Read one Chrysostom homily and Basil's Address to Young Men (selections) in Greek
       - Recite the Nicene–Constantinopolitan Creed in Greek
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 25, note: "no page counts; estimated LXX Genesis 1–3 and 6–9 and ten Psalms (~14 pp at ~3 pp/h, 5 h), one Chrysostom homily and Basil's Address in selection (~20 pp at ~1 pp/h, 20 h)" }
+        - { kind: writing, hours: 5, note: "comparison of LXX, Hebrew and Vulgate in three passages" }
+        - { kind: memorization, hours: 2, note: "the Nicene–Constantinopolitan Creed in Greek" }
+        - { kind: discussion, hours: 5, note: "canon and the Fathers on pagan literature, 10 x 30 min" }
     coreTexts:
       - title: "Genesis 1–11: Septuagint and Vulgate with facing vocabulary"
         kind: instructional
@@ -683,6 +759,13 @@ rows:
       - Scan iambic trimeter
       - Memorize the "Ode to Man" (Antigone 332–375), at least its first strophe
       - Write an essay on Antigone and natural law (compare Aquinas and Martin Luther King)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 70, note: "Antigone dialogue complete and odes in part, with selections of Medea and Libation Bearers, about 1,450 lines at ~20 lines/h (counted 155 pp)" }
+        - { kind: exercises, hours: 3, note: "iambic trimeter scansion" }
+        - { kind: memorization, hours: 3, note: "Ode to Man, first strophe or more" }
+        - { kind: writing, hours: 8, note: "essay on Antigone and natural law" }
     coreTexts:
       - title: Antigone
         kind: primary
@@ -737,6 +820,13 @@ rows:
       - Read Republic I (or Gorgias) in Greek
       - Read any NT passage at sight
       - Write a paper connecting Thucydides on faction to Federalist No. 10
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 95, note: "Thucydides set passages, about 50 pp of Greek (counted 200 pp) at ~0.8 pp/h (60 h), and Republic I, about 40 pp at ~1.2 pp/h (35 h)" }
+        - { kind: practice, hours: 50, note: "daily sight-reading of the NT and Xenophon, 36 weeks x 4 x 20 min" }
+        - { kind: writing, hours: 15, note: "paper connecting Thucydides on faction to Federalist No. 10" }
+        - { kind: discussion, hours: 15, note: "tutorial on the political texts, 30 x 30 min" }
     coreTexts:
       - title: History of the Peloponnesian War
         kind: primary

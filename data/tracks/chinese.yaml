@@ -130,6 +130,11 @@ rows:
       - Read and write any syllable in pinyin with correct tone marks
       - Write about 150 and recognize about 300 characters with correct stroke order
       - Read short textbook stories aloud with correct tones
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 45, note: "Ma Liping Grades 1–2 or Better Chinese, 36 weeks x 3 x 25 min" }
+        - { kind: practice, hours: 20, note: "daily 田字格 handwriting and tone drill, about 7 min x 180 days" }
     curriculumOptions:
       - name: Ma Liping Chinese (马立平中文), Grades 1–2
         publisher: Heritage Chinese
@@ -165,6 +170,13 @@ rows:
       - Recognize about 1,000 and write about 500 characters
       - Read children's storybooks in characters without pinyin support
       - Pass HSK 2 (and optionally YCT for younger learners)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 110, note: "Ma Liping Grades 3–4 over 2 years, 72 weeks x 3 x 30 min" }
+        - { kind: memorization, hours: 25, note: "weekly 听写 dictation and character review, 72 x 20 min" }
+        - { kind: translation, hours: 25, note: "extensive easy storybook reading in characters, 72 x 20 min" }
+        - { kind: exam-prep, hours: 8, note: "HSK 1–2 (and optionally YCT) practice tests" }
     curriculumOptions:
       - name: Ma Liping Chinese (马立平中文), Grades 3–4
         publisher: Heritage Chinese
@@ -204,6 +216,11 @@ rows:
       - Recite the Three Character Classic in full from memory
       - Recite the first half or more of the Thousand Character Classic
       - Explain the meaning of each couplet and the historical figures it names
+    workload:
+      readingHours: 0
+      work:
+        - { kind: memorization, hours: 35, note: "chanting the Three Character Classic and half the Thousand Character Classic (15 counted pp, about 1,600 characters), 54 weeks x 4 x 10 min" }
+        - { kind: discussion, hours: 10, note: "meaning of each couplet and the figures it names, 40 x 15 min" }
     coreTexts:
       - title: 三字經 (Three Character Classic)
         kind: primary
@@ -257,6 +274,13 @@ rows:
       - Complete Integrated Chinese Level 1 (Parts 1–2) with workbooks
       - Read five or more Level 1 graded novels (about 300–450 characters) fluently
       - Pass HSK 3 and write 300-character compositions
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 125, note: "Integrated Chinese Level 1 (20 lessons) with workbooks over 2 years, 72 weeks x 3 x 35 min" }
+        - { kind: translation, hours: 15, note: "five or more Level 1 graded novels at ~3 h each" }
+        - { kind: writing, hours: 15, note: "about ten 300-character compositions" }
+        - { kind: exam-prep, hours: 10, note: "HSK 3 practice tests" }
     curriculumOptions:
       - name: Integrated Chinese (4th ed.), Volumes 1–2
         publisher: Cheng & Tsui
@@ -293,6 +317,12 @@ rows:
       - Memorize and recite 30+ Tang quatrains and regulated poems (e.g. 静夜思, 春晓, 登鹳雀楼)
       - Explain the classical grammar and imagery of each poem memorized
       - Identify the forms 五言绝句, 七言绝句 and 律诗 and recognize tonal parallelism
+    workload:
+      readingHours: 0
+      work:
+        - { kind: memorization, hours: 45, note: "30+ Tang poems at about 1.5 h each to learn and keep; the counted 133 pp are a third of the anthology, the assigned poems fill about 15 pp" }
+        - { kind: discussion, hours: 10, note: "the grammar and imagery of each poem, 30 x 20 min" }
+        - { kind: exercises, hours: 5, note: "forms and tonal parallelism of 绝句 and 律诗" }
     coreTexts:
       - title: 唐詩三百首 (Three Hundred Tang Poems)
         kind: primary
@@ -327,6 +357,13 @@ rows:
       - Complete Integrated Chinese Level 2 (Volumes 3–4)
       - Learn 200+ 成语 with their stories
       - Read 10+ Level 2 graded readers and pass HSK 4
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 145, note: "Integrated Chinese Level 2 (Volumes 3–4) over 2 years, 72 weeks x 3 x 40 min" }
+        - { kind: memorization, hours: 20, note: "200+ 成语 with their stories" }
+        - { kind: translation, hours: 30, note: "10+ Level 2 graded readers at ~3 h each" }
+        - { kind: exam-prep, hours: 12, note: "HSK 4 practice tests" }
     curriculumOptions:
       - name: Integrated Chinese (4th ed.), Volumes 3–4
         publisher: Cheng & Tsui
@@ -363,6 +400,13 @@ rows:
       - Read selected passages of 天主實義 in Chinese with the facing English translation
       - Read the Gospel of Mark in Chinese (Sigao or Union Version)
       - Explain the Chinese Rites Controversy and Ricci's method of accommodation
+    workload:
+      readingHours: 4
+      readingBasis: "~120 pp of English introduction and notes in Billings's On Friendship at ~30 pp/h"
+      work:
+        - { kind: translation, hours: 45, note: "reading in Chinese: 天主實義 selections (~162 pp, bilingual) at ~5 pp/h (32 h), the 100 maxims of 交友論 (~25 pp) (5 h), Mark in Chinese (60 pp) at ~6 pp/h (10 h)" }
+        - { kind: writing, hours: 6, note: "short paper on the Chinese Rites Controversy and accommodation" }
+        - { kind: discussion, hours: 6, note: "Ricci's method and inculturation, 12 x 30 min" }
     coreTexts:
       - title: 天主實義 (The True Meaning of the Lord of Heaven)
         kind: primary
@@ -441,6 +485,14 @@ rows:
       - Read Lu Xun's 呐喊 (selected stories) and 朝花夕拾 in the original
       - Read Chinese news articles daily with a pop-up dictionary
       - Pass HSK 5 and write 600-character argumentative essays
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 85, note: "reading in Chinese: Lu Xun (~197 pp) at ~6 pp/h (33 h) and Journey to the West selections (~400 pp) at ~8 pp/h (50 h)" }
+        - { kind: practice, hours: 35, note: "news articles with a pop-up dictionary, 72 weeks x 2 x 15 min" }
+        - { kind: writing, hours: 55, note: "fortnightly 600-character argumentative essays, 36 x 1.5 h" }
+        - { kind: discussion, hours: 25, note: "debates in Mandarin, 50 x 30 min" }
+        - { kind: exam-prep, hours: 20, note: "HSK 5 Standard Course and practice tests" }
     coreTexts:
       - title: 吶喊 (Call to Arms)
         kind: primary
@@ -499,6 +551,11 @@ rows:
       - Master the core particles and grammatical patterns of Classical Chinese
       - Read graded passages from the Analects and Mencius with a dictionary
       - Translate short 文言 passages into modern Mandarin and English
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 110, note: "Rouzer or Fuller, about 30 lessons over 1.5 years, 54 weeks x 3 x 40 min" }
+        - { kind: translation, hours: 30, note: "graded Analects, Mencius, Zhuangzi and historian passages beyond the lesson drills, rendered into Mandarin and English" }
     curriculumOptions:
       - name: A New Practical Primer of Literary Chinese (Paul Rouzer)
         publisher: Harvard University Asia Center
@@ -535,6 +592,13 @@ rows:
       - Read the Dao De Jing and Sunzi in the original with a reference grammar
       - Write a comparative essay (e.g. Confucian 仁 and Aristotelian virtue)
       - Pass HSK 6 (or the equivalent band of the new 9-level HSK)
+    workload:
+      readingHours: 0
+      work:
+        - { kind: translation, hours: 110, note: "reading in Classical Chinese with commentary: Analects (250 pp), Mencius (~110 pp), Dao De Jing and Sunzi (100 pp each), 560 pp at ~5 pp/h" }
+        - { kind: writing, hours: 15, note: "comparative essay (e.g. 仁 and Aristotelian virtue)" }
+        - { kind: discussion, hours: 15, note: "seminar on the classics, 30 x 30 min" }
+        - { kind: exam-prep, hours: 25, note: "HSK 6 preparation and sustained modern reading" }
     coreTexts:
       - title: 論語 (Analects)
         kind: primary
