@@ -58,6 +58,9 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/collections/song-school-greek"
         notes: Songs and games around Koine vocabulary. Leads into Greek for Children.
+        lessons: 32
+        lessonLabel: lesson
+        lessonsNote: "Classical Academic Press product page: 32 weekly lessons"
     historicalPrecedent: >-
       J. S. Mill began Greek at three (Autobiography). The English public schools and Boston
       Latin began Greek grammar after about three years of Latin. In 1789 Boston put "Greek
@@ -100,11 +103,17 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/greek/elementary-greek/"
         notes: Koine. Simple and substantial, and self-teachable for teens. Memoria's own path is Greek Alphabet, then Elementary Greek, then First Form Greek.
+        lessons: 90
+        lessonLabel: week
+        lessonsNote: "Memoria Press product pages: thirty weeks of daily lessons in each of Years 1, 2 and 3"
       - name: Greek for Children, Primer A
         publisher: Classical Academic Press
         tradition: classical
         url: "https://classicalacademicpress.com/collections/greek-for-children"
         notes: Chant-based Koine with video and audio support.
+        lessons: 30
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press, revised edition: 30 chapters incl. 4 on the alphabet and 6 review chapters (first edition had 32)"
       - name: "Hey, Andrew! Teach Me Some Greek! (Levels 3–5)"
         publisher: Greek 'n' Stuff
         tradition: protestant
@@ -143,6 +152,9 @@ rows:
         kind: instructional
         reader: student
         pages: 287
+        lessons: 33
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1923 scan table of contents: Lessons I-XXXIII"
         author: J. Gresham Machen
         date: "1923"
         publicDomain: true
@@ -165,11 +177,17 @@ rows:
         notes: >-
           A reading-method Attic course. The story of the farmer Dikaiopolis gives way to adapted
           Herodotus and Thucydides in Book II. Widely used in high schools.
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "OUP table of contents: chapters 1-16"
       - name: First Form Greek (and Second Form Greek)
         publisher: Memoria Press
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/greek/first-form-greek-complete-set/"
         notes: Grammar-first, in the same format as First Form Latin. Assumes two years of Latin, which this program provides.
+        lessons: 31
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press product page: First Form Greek has 31 two-page lessons (Second Form not counted)"
       - name: New Testament Greek for Beginners (Machen)
         publisher: "Public domain / reprinted (Christianbook)"
         tradition: protestant
@@ -177,6 +195,9 @@ rows:
         notes: >-
           Terse and rigorous. It moves quickly to the Gospels and suits students who want the NT
           first. A free scan is on Archive.org.
+        lessons: 33
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1923 scan table of contents: Lessons I-XXXIII"
     historicalPrecedent: >-
       Colonial schools taught Greek mainly through the Greek New Testament. Boston 1789 put
       "Greek Testament" in the top class, and Harvard 1642 required entrants to "decline
@@ -213,6 +234,9 @@ rows:
         kind: instructional
         reader: student
         pages: 349
+        lessons: 79
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1928 scan: Lessons I-LXXIX"
         author: H. Lamar Crosby & John N. Schaeffer
         date: "1928"
         publicDomain: true
@@ -225,6 +249,9 @@ rows:
         kind: instructional
         reader: student
         pages: 292
+        lessons: 80
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1896 scan: Lessons I-LXXX"
         author: John Williams White
         date: "1896"
         publicDomain: true
@@ -239,16 +266,25 @@ rows:
         tradition: secular
         url: "https://fordhampress.com/greek-hb-9780823216642.html"
         notes: The most complete one-volume grammar, designed for the CUNY summer institute. Hard, but it leaves nothing out.
+        lessons: 20
+        lessonLabel: unit
+        lessonsNote: "Publisher description (Woodslane listing): a Text with twenty Units and an Appendix"
       - name: "Athenaze, Book II"
         publisher: Oxford University Press
         tradition: secular
         url: "https://global.oup.com/ushe/product/athenaze-book-ii-an-introduction-to-ancient-greek-9780190607678"
         notes: Continues Book I into adapted Herodotus, Thucydides and Plato.
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "OUP table of contents: chapters 17-30"
       - name: Crosby & Schaeffer, An Introduction to Greek
         publisher: "Public domain (1928)"
         tradition: classical
         url: "https://archive.org/details/introductiontogr00cros"
         notes: Written for American high schools and built around the Anabasis vocabulary. Free.
+        lessons: 79
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1928 scan: Lessons I-LXXIX"
     historicalPrecedent: >-
       White's First Greek Book (1896) and similar books prepared late-1800s American schoolboys
       to read "the first four books of Xenophon's Anabasis", which was then the standard
@@ -297,11 +333,17 @@ rows:
         tradition: protestant
         url: "https://www.christianbook.com/a-graded-reader-of-biblical-greek/william-mounce/9780310205821/pd/20582"
         notes: Graded NT passages with notes. A good bridge for self-study.
+        lessons: 20
+        lessonLabel: section
+        lessonsNote: "Christianbook description: twenty Greek passages in graded order"
       - name: A Primer of Biblical Greek
         publisher: Memoria Press
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/greek/a-primer-of-biblical-greek/"
         notes: A Koine grammar and reader used in Memoria's upper sequence.
+        lessons: 32
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press product page: 32 lessons plus a glossary of paradigms"
     historicalPrecedent: >-
       "Greek Testament" was the first Greek author in the Boston Latin School (1789) and at
       Harvard. New England's First Fruits describes students resolving the Greek Testament
@@ -359,6 +401,9 @@ rows:
         kind: instructional
         reader: student
         pages: 272
+        lessons: 175
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1902 scan: 175 numbered exercises"
         author: M. A. North & A. E. Hillard
         date: "1902"
         publicDomain: true
