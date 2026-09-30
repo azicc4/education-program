@@ -23,12 +23,15 @@
   const childSel = document.getElementById('tree-child');
   const nowBtn = document.getElementById('now-toggle');
   // whose progress the lanes show; "Current Age" (on unless turned off) keeps only the units that fit that child now
+  // "No child": the curriculum on its own, with no progress, age line or Current Age filter
+  const NO_CHILD = { key: 'none', none: true, name: 'Curriculum', age: 0, status: () => '' };
   const who = () => {
+    if (state.child === 'none') return NO_CHILD;
     const w = window.App.childFor(state.child || window.App.defaultChild()) || window.App.childFor('demo:demo-thomas');
     state.child = w.key === window.App.defaultChild() ? '' : w.key;
     return w;
   };
-  const nowOn = () => state.now !== 'off';
+  const nowOn = () => state.now !== 'off' && state.child !== 'none';
   let shown = { current: [], next: [], who: null };
   const tree = document.getElementById('tree');
   const x = (age) => LABEL_W + age * PX_PER_YEAR;
@@ -193,8 +196,10 @@
   }
 
   function syncChild(w) {
-    childSel.innerHTML = window.App.childOptions().map(([v, l]) => `<option value="${esc(v)}"${v === w.key ? ' selected' : ''}>${esc(l)}</option>`).join('');
+    childSel.innerHTML = [['none', 'No child (curriculum only)'], ...window.App.childOptions()].map(([v, l]) => `<option value="${esc(v)}"${v === w.key ? ' selected' : ''}>${esc(l)}</option>`).join('');
     nowBtn.setAttribute('aria-pressed', String(nowOn()));
+    nowBtn.disabled = !!w.none;
+    nowBtn.title = w.none ? 'Choose a child to filter by their current age' : "Show only the units that fit the child's age now; hide finished units, units not begun yet, and empty tracks";
   }
 
 
@@ -237,7 +242,7 @@
         const rows = rowsOf(t.id);
         const st = statusOf(rows);
         const open = rows.filter((r) => w.status(r.id) !== 'done');
-        const note = !open.length ? '✓ done' : st.now.length ? `${st.now.length} now` : `from ${fmtAge(Math.min(...open.map((r) => r.ageStart)))}`;
+        const note = w.none ? `${rows.length} unit${rows.length === 1 ? '' : 's'}` : !open.length ? '✓ done' : st.now.length ? `${st.now.length} now` : `from ${fmtAge(Math.min(...open.map((r) => r.ageStart)))}`;
         const head = t.group !== lastGroup ? `<li class="lt-group">${esc(t.group)}</li>` : '';
         lastGroup = t.group;
         return `${head}<li><button type="button" class="lt-item gcol-${groupIdx[t.group] ?? 0}" data-lt="${esc(t.id)}"${t === sel ? ' aria-current="true"' : ''}><span class="lt-name">${esc(t.title)}</span><span class="lt-note">${esc(note)}</span></button></li>`;
@@ -249,8 +254,8 @@
     const st = statusOf(rows);
     const nowIds = new Set(st.now.map((r) => r.id));
     const nextIds = new Set(st.next.map((r) => r.id));
-    const phase = (r) => (w.status(r.id) === 'done' ? 'done' : nowIds.has(r.id) ? 'now' : nextIds.has(r.id) ? 'next' : r.ageStart <= w.age ? 'open' : 'later');
-    const PHASE = { done: '✓ Done', now: 'Now', next: 'Next', open: 'Not started', later: 'Later' };
+    const phase = (r) => (w.none ? 'plain' : w.status(r.id) === 'done' ? 'done' : nowIds.has(r.id) ? 'now' : nextIds.has(r.id) ? 'next' : r.ageStart <= w.age ? 'open' : 'later');
+    const PHASE = { done: '✓ Done', now: 'Now', next: 'Next', open: 'Not started', later: 'Later', plain: '' };
     const card = (r) => {
       const ph = phase(r);
       const texts = (r.coreTexts || []).length;
@@ -259,7 +264,7 @@
         const meta = [levelBadge(r.level), '<span class="pill ph-done">✓ Done</span>', texts ? `<span>${texts} text${texts === 1 ? '' : 's'}</span>` : '', r.workload ? `<span title="Estimated total reading and work for the unit">${hoursLabel(window.App.workloadTotal(r))}</span>` : ''].filter(Boolean).join('');
         return `<button type="button" class="lcard lcard-done ph-done${match.has(r.id) ? '' : ' dim'}${r.id === state.row ? ' selected' : ''}" data-id="${esc(r.id)}"><span class="lcard-title">${esc(r.title)}</span><span class="lcard-meta">${meta}</span></button>`;
       }
-      const meta = [levelBadge(r.level), `<span class="pill ph-${ph}">${PHASE[ph]}</span>`, texts ? `<span>${texts} text${texts === 1 ? '' : 's'}</span>` : '', r.workload ? `<span title="Estimated total reading and work for the unit">${hoursLabel(window.App.workloadTotal(r))}</span>` : ''].filter(Boolean).join('');
+      const meta = [levelBadge(r.level), PHASE[ph] ? `<span class="pill ph-${ph}">${PHASE[ph]}</span>` : '', texts ? `<span>${texts} text${texts === 1 ? '' : 's'}</span>` : '', r.workload ? `<span title="Estimated total reading and work for the unit">${hoursLabel(window.App.workloadTotal(r))}</span>` : ''].filter(Boolean).join('');
       return `<button type="button" class="lcard ph-${ph}${match.has(r.id) ? '' : ' dim'}${r.id === state.row ? ' selected' : ''}" data-id="${esc(r.id)}">
         <span class="lcard-age">${esc(ageLabel(r))}</span>
         <span class="lcard-title">${esc(r.title)}</span>
@@ -308,8 +313,8 @@
           <div class="eyebrow">${esc(sel.group)}</div>
           <h2>${esc(sel.title)}</h2>
           <p class="desc">${esc(firstSentence(sel.description))}</p>
-          <p class="lstats">${rows.length} units · ages ${span}${total ? ` · ${hoursLabel(total)} estimated in all` : ''} · for ${esc(w.name)}: ${st.done} done, ${st.now.length} now</p>
-          <div class="lprog" aria-hidden="true"><i class="p-done" style="width:${pct(st.done)}"></i><i class="p-now" style="width:${pct(st.now.length)}"></i></div>
+          <p class="lstats">${rows.length} units · ages ${span}${total ? ` · ${hoursLabel(total)} estimated in all` : ''}${w.none ? '' : ` · for ${esc(w.name)}: ${st.done} done, ${st.now.length} now`}</p>
+          ${w.none ? '' : `<div class="lprog" aria-hidden="true"><i class="p-done" style="width:${pct(st.done)}"></i><i class="p-now" style="width:${pct(st.now.length)}"></i></div>`}
         </header>
         <ol class="lpath">${parts.join('')}</ol>
       </section>`;
@@ -413,7 +418,7 @@
           <path d="M0,0 L10,5 L0,10 z" style="fill:var(--ink-2);stroke:none;opacity:.7"/></marker></defs></svg>
       <div class="tree-axis">${bandLabels}${axis}</div>
       ${bands}
-      <div class="tree-now" style="left:${x(w.age)}px" aria-hidden="true"><span>${esc(w.name)} · ${esc(window.App.quarterAge(w.age))}</span></div>
+      ${w.none ? '' : `<div class="tree-now" style="left:${x(w.age)}px" aria-hidden="true"><span>${esc(w.name)} · ${esc(window.App.quarterAge(w.age))}</span></div>`}
       ${lanes || '<p class="empty">No tracks match these filters.</p>'}
       ${snapAge != null ? `<div class="snap-cursor"><span class="snap-handle" role="slider" tabindex="0" aria-label="Snapshot age" aria-valuemin="0" aria-valuemax="${MAX_AGE - 0.25}"></span></div>` : ''}`;
     placeCursor();

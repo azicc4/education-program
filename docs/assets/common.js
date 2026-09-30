@@ -455,7 +455,7 @@
     const counts = { current: current.length, next: next.length };
     const d = modal(
       `<h2>Print booklist</h2>
-      <p class="desc">For ${esc(who.name)}, age ${esc(quarterAge(who.age))}. Texts are grouped by track, in reading order, with who reads them, their length, and whether they are free.</p>
+      <p class="desc">${who.none ? 'For the curriculum as shown, with no child selected.' : `For ${esc(who.name)}, age ${esc(quarterAge(who.age))}.`} Texts are grouped by track, in reading order, with who reads them, their length, and whether they are free.</p>
       <form method="dialog" class="bl-form">
         <label class="check"><input type="radio" name="which" value="current" checked> The units shown now <small>(${counts.current})</small></label>
         <label class="check"><input type="radio" name="which" value="next"${counts.next ? '' : ' disabled'}> The next units <small>(${counts.next})</small></label>
@@ -475,11 +475,11 @@
           .join('');
       };
       const parts = [];
-      if (which !== 'next') parts.push(`<h2>Now</h2>${byTrack(current, 'now') || '<p>No units.</p>'}`);
+      if (which !== 'next') parts.push(`<h2>${who.none ? 'Units shown' : 'Now'}</h2>${byTrack(current, 'now') || '<p>No units.</p>'}`);
       if (which !== 'current') parts.push(`<h2>Next</h2>${byTrack(next, 'next') || '<p>No units.</p>'}`);
       const el = document.createElement('section');
       el.id = 'print-booklist';
-      el.innerHTML = `<h1>${esc(who.name)}'s booklist</h1><p class="bl-meta">Age ${esc(quarterAge(who.age))} · printed ${esc(new Date().toLocaleDateString())} · Formation Program</p>${parts.join('')}`;
+      el.innerHTML = `<h1>${who.none ? 'Curriculum booklist' : `${esc(who.name)}'s booklist`}</h1><p class="bl-meta">${who.none ? '' : `Age ${esc(quarterAge(who.age))} · `}printed ${esc(new Date().toLocaleDateString())} · Formation Program</p>${parts.join('')}`;
       document.getElementById('print-booklist')?.remove();
       document.body.append(el);
       document.documentElement.classList.add('printing-booklist');
