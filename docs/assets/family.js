@@ -242,7 +242,7 @@
                 (x) => `<tr class="${x.acquired ? 'acquired' : ''}">
                   <td><input type="checkbox" data-acq="${esc(x.key)}"${x.acquired ? ' checked' : ''} aria-label="Acquired ${esc(S.cleanTitle(x.text))}"></td>
                   <td><div class="title">${esc(S.cleanTitle(x.text))}</div>${x.text.author ? `<div class="by">${esc(x.text.author)}</div>` : ''}${x.elective ? ' <span class="badge elective">elective</span>' : ''} ${readerBadge(x.text)}${lengthLabel(x.text) ? ` <span class="by">${lengthLabel(x.text)}</span>` : ''}</td>
-                  <td>${x.uses.map((u) => `<div><strong>${esc(u.child.name)}</strong>: <button type="button" class="linkish" data-open="${esc(u.row.id)}">${esc(u.row.title)}</button> <small>(${S.status(u.child.id, u.row.id) === 'active' ? 'in progress' : `typical age ${esc(ageLabel(u.row))}`})</small>${u.choice ? ' <span class="badge plan-sel" title="Any one text of this group will do">One of a choice</span>' : ''} ${u.badges}</div>`).join('')}</td>
+                  <td>${x.uses.map((u) => `<div><strong>${esc(u.child.name)}</strong>: <a href="index.html#row=${esc(u.row.id)}" data-open="${esc(u.row.id)}">${esc(u.row.title)}</a> <small>(${S.status(u.child.id, u.row.id) === 'active' ? 'in progress' : `typical age ${esc(ageLabel(u.row))}`})</small>${u.choice ? ' <span class="badge plan-sel choice-mark" title="Any one text of this group will do">One of a choice</span>' : ''}${u.badges ? ` ${u.badges}` : ''}</div>`).join('')}</td>
                   <td>${x.text.publicDomain ? '<span class="badge pd">Free</span> ' : ''}${linkList(x.text.links)}</td>
                 </tr>`,
               )
@@ -294,7 +294,10 @@
   view.addEventListener('click', (e) => {
     const c = S.child(S.activeChild);
     const open = e.target.closest('[data-open]');
-    if (open) return openRow(open.dataset.open);
+    if (open) {
+      e.preventDefault();
+      return openRow(open.dataset.open);
+    }
     const act = e.target.closest('[data-act]');
     if (act && c) {
       const r = rowById[act.dataset.id];
