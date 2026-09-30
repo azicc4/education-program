@@ -523,8 +523,8 @@ rows:
     level: 6-8
     stage: formal
     day: saturday
-    ageStart: 11.5
-    ageEnd: 15
+    ageStart: 12
+    ageEnd: 16
     order: 10
     prerequisites: [practical-arts-05]
     related: [mathematics-10]
@@ -563,10 +563,10 @@ rows:
   - id: practical-arts-11
     title: "First Aid, CPR and Emergency Readiness"
     type: course
-    level: 9-12
+    level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 14
+    ageStart: 11.5
+    ageEnd: 11.75
     order: 11
     prerequisites: []
     related: [natural-science-11, physical-training-09]
@@ -742,8 +742,8 @@ rows:
     level: 9-12
     stage: formal
     day: saturday
-    ageStart: 13.5
-    ageEnd: 16
+    ageStart: 14
+    ageEnd: 18
     order: 14
     prerequisites: [practical-arts-09, practical-arts-04]
     related: [mathematics-15, natural-science-15, physical-training-09]
@@ -793,8 +793,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 16
+    ageStart: 14.5
+    ageEnd: 14.75
     order: 15
     prerequisites: [practical-arts-10, practical-arts-09]
     related: [mathematics-10, fine-arts-09]
@@ -846,8 +846,8 @@ rows:
     level: 9-12
     stage: formal
     day: saturday
-    ageStart: 15
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 18
     order: 16
     prerequisites: [practical-arts-10, practical-arts-11]
     related: [physical-training-07, physical-training-04]

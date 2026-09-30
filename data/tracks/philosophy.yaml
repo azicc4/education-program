@@ -115,7 +115,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
+    ageStart: 12.25
     ageEnd: 12.5
     order: 3
     prerequisites: [philosophy-02]
@@ -188,8 +188,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 12.5
+    ageEnd: 12.75
     order: 4
     prerequisites: [philosophy-03]
     related: [logic-04]
@@ -243,8 +243,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 13.5
+    ageEnd: 13.75
     order: 5
     prerequisites: [philosophy-04]
     related: [theology-14, literature-31]
@@ -307,8 +307,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 14.5
+    ageEnd: 14.75
     order: 6
     prerequisites: [philosophy-03]
     related: [rhetoric-10]
@@ -385,8 +385,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 14.25
+    ageEnd: 14.5
     order: 7
     prerequisites: [philosophy-04, philosophy-05]
     related: [logic-05, rhetoric-07, character-virtue-12, civics-law-09]
@@ -451,7 +451,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
+    ageStart: 15.25
     ageEnd: 15.5
     order: 8
     prerequisites: [philosophy-06, philosophy-07]
@@ -531,8 +531,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
-    ageEnd: 17
+    ageStart: 16.5
+    ageEnd: 16.75
     order: 9
     prerequisites: [philosophy-08]
     related: [logic-07]
@@ -734,8 +734,8 @@ rows:
     elective: true
     electiveNote: >-
       Kept as an elective reading in liberalism and education.
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 16.5
+    ageEnd: 17
     order: 11
     prerequisites: [philosophy-09, philosophy-10]
     related: [logic-08]
@@ -801,8 +801,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 16.75
+    ageEnd: 17
     order: 12
     prerequisites: [philosophy-09]
     related: [theology-19]
@@ -886,7 +886,7 @@ rows:
     level: college
     stage: formal
     ageStart: 17
-    ageEnd: 17.5
+    ageEnd: 17.25
     order: 13
     prerequisites: [philosophy-09, philosophy-07, philosophy-12]
     related: [theology-22]
@@ -1014,8 +1014,8 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
-    ageEnd: 18
+    ageStart: 17.25
+    ageEnd: 17.5
     order: 14
     prerequisites: [philosophy-08, philosophy-09]
     related: [logic-08, theology-22]
@@ -1068,7 +1068,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
+    ageStart: 16.25
     ageEnd: 16.5
     order: 12.5
     prerequisites: [philosophy-08, philosophy-07]

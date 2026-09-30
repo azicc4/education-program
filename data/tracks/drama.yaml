@@ -241,8 +241,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 12.5
+    ageStart: 12
+    ageEnd: 12.25
     order: 3
     prerequisites: [drama-02]
     related: [rhetoric-05, poetry-05, music-10]
@@ -460,8 +460,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 14
+    ageStart: 13.25
+    ageEnd: 13.5
     order: 5
     prerequisites: [drama-02, drama-03]
     related: [literature-15, literature-17, poetry-07, rhetoric-07]
@@ -1018,8 +1018,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 16.25
     order: 10
     prerequisites: [drama-05, drama-03]
     related: [literature-26, rhetoric-09]

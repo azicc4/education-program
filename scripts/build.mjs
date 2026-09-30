@@ -17,7 +17,7 @@ const outDir = path.join(root, 'docs', 'data');
 export const LEVELS = [
   { id: 'early-5', label: 'Early Dev – 5', min: 0, max: 10 },
   { id: '6-8', label: 'Grades 6–8', min: 9.5, max: 12.5 },
-  { id: '9-12', label: 'Grades 9–12', min: 12, max: 16.5 },
+  { id: '9-12', label: 'Grades 9–12', min: 12, max: 17.5 },
   { id: 'college', label: 'College (17+)', min: 16, max: 99 },
 ];
 

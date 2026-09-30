@@ -775,3 +775,12 @@ dialog.modal input:not([type="checkbox"]):not([type="radio"]), dialog.modal sele
   .hval { grid-column: 2; text-align: left; font-size: 0.72rem; }
   .hg-table td.track { white-space: normal; }
 }
+.terms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 12px; }
+.term { background: var(--bg); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; }
+.term h4 { margin: 0 0 4px; font: 600 0.9rem var(--sans); }
+.term h4 small { display: block; font-weight: 400; color: var(--ink-2); font-size: 0.75rem; }
+.term ul { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
+.term li { margin: 4px 0; line-height: 1.3; }
+.term li .by { display: block; font: 0.72rem var(--sans); }
+@media (max-width: 900px) { .terms { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .terms { grid-template-columns: minmax(0, 1fr); } }

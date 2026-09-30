@@ -17,8 +17,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 14.5
+    ageEnd: 14.75
     order: 1
     prerequisites: []
     related: [mathematics-11, mathematics-13, natural-science-07]
@@ -183,8 +183,8 @@ rows:
     elective: true
     electiveNote: >-
       Competition preparation, taken on top of the core course.
-    ageStart: 14
-    ageEnd: 16
+    ageStart: 14.5
+    ageEnd: 16.5
     order: 1.8
     prerequisites: [physics-01]
     related: [mathematics-14, mathematics-18]
@@ -242,7 +242,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
+    ageStart: 16.5
     ageEnd: 17
     order: 2
     prerequisites: [physics-01]
@@ -459,8 +459,8 @@ rows:
     elective: true
     electiveNote: >-
       Competition preparation, taken on top of the core course.
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 16.5
+    ageEnd: 17
     order: 4
     prerequisites: [physics-04, physics-02]
     related: [mathematics-17, mathematics-20]

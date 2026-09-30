@@ -313,8 +313,8 @@ rows:
     type: unit
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 13
+    ageStart: 12
+    ageEnd: 12.25
     order: 6
     prerequisites: [fine-arts-04]
     related: [mathematics-10]
@@ -625,7 +625,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
+    ageStart: 17.75
     ageEnd: 18
     order: 11
     prerequisites: [fine-arts-08, fine-arts-06]

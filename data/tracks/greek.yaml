@@ -125,8 +125,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 12.5
+    ageStart: 11.5
+    ageEnd: 13
     order: 3
     prerequisites: [greek-02]
     related: [latin-04]
@@ -212,8 +212,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 13
+    ageEnd: 13.75
     order: 4
     prerequisites: [greek-03]
     summary: >-
@@ -299,8 +299,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 13.75
+    ageEnd: 14.25
     order: 5
     prerequisites: [greek-03]
     related: [latin-10]
@@ -436,8 +436,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 13
+    ageStart: 14.25
+    ageEnd: 14.5
     order: 7
     prerequisites: [greek-04]
     related: [latin-05]
@@ -494,8 +494,8 @@ rows:
     electiveNote: >-
       The core Greek path reads the New Testament and Homer; Xenophon is read in translation in
       history-08.
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 14.25
+    ageEnd: 15.25
     order: 8
     prerequisites: [greek-04, greek-07]
     related: [latin-07]
@@ -541,8 +541,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 14.5
+    ageStart: 14.5
+    ageEnd: 14.75
     order: 9
     prerequisites: [greek-05]
     summary: >-
@@ -581,8 +581,8 @@ rows:
     electiveNote: >-
       The core Greek path reads the New Testament and Homer; the Apology and Crito are read in
       translation in philosophy-03.
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 14.25
+    ageEnd: 15.25
     order: 10
     prerequisites: [greek-08]
     related: [philosophy-03]
@@ -631,7 +631,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
+    ageStart: 14.75
     ageEnd: 16
     order: 11
     prerequisites: [greek-04, greek-07]

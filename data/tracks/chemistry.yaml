@@ -9,8 +9,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 13.5
+    ageEnd: 13.75
     order: 1
     prerequisites: []
     related: [natural-science-07, physics-01, mathematics-09, mathematics-11, biology-02]
@@ -117,8 +117,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 15
+    ageStart: 13.75
+    ageEnd: 14
     order: 2
     prerequisites: []
     related: [natural-science-07, natural-science-10, biology-02]

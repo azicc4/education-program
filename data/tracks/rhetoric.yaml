@@ -156,8 +156,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 12
+    ageStart: 11.25
+    ageEnd: 11.5
     order: 4
     prerequisites: [rhetoric-03]
     related: [logic-02]
@@ -194,8 +194,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 13
+    ageStart: 10.25
+    ageEnd: 10.5
     order: 5
     prerequisites: [rhetoric-02]
     related: [poetry-05, drama-03]
@@ -267,8 +267,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13.5
+    ageStart: 12.75
+    ageEnd: 13
     order: 6
     prerequisites: [rhetoric-04]
     related: [logic-04]
@@ -305,7 +305,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
+    ageStart: 14.25
     ageEnd: 14.5
     order: 7
     prerequisites: [rhetoric-06]
@@ -418,8 +418,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 16
+    ageStart: 13.25
+    ageEnd: 13.5
     order: 8
     prerequisites: [rhetoric-05]
     related: [philosophy-10]
@@ -619,8 +619,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15.5
+    ageStart: 15
+    ageEnd: 15.25
     order: 10
     prerequisites: [rhetoric-07]
     related: [philosophy-06, latin-11]

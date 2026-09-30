@@ -556,7 +556,7 @@ rows:
     level: 6-8
     stage: formal
     ageStart: 10
-    ageEnd: 10.5
+    ageEnd: 10.25
     order: 7
     prerequisites: [history-03, history-02]
     related: [theology-07]
@@ -646,8 +646,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 11
+    ageStart: 10.25
+    ageEnd: 10.5
     order: 8
     prerequisites: [history-07]
     related: [greek-08, character-virtue-06, literature-16]
@@ -734,7 +734,7 @@ rows:
     level: 6-8
     stage: formal
     ageStart: 11
-    ageEnd: 11.5
+    ageEnd: 11.25
     order: 9
     prerequisites: [history-08]
     related: [latin-07, latin-05, literature-15]
@@ -818,7 +818,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
+    ageStart: 11.25
     ageEnd: 11.5
     order: 10
     prerequisites: [history-09]
@@ -908,7 +908,7 @@ rows:
     level: 6-8
     stage: formal
     ageStart: 11.5
-    ageEnd: 12
+    ageEnd: 11.75
     order: 11
     prerequisites: [history-10, history-04]
     related: [literature-18, character-virtue-07, latin-16]
@@ -1016,8 +1016,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 12.5
+    ageStart: 11.75
+    ageEnd: 12
     order: 12
     prerequisites: [history-11, history-05]
     related: [theology-19]
@@ -1118,7 +1118,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 12
+    ageStart: 12.25
     ageEnd: 12.5
     order: 13
     prerequisites: [history-12, history-06]
@@ -1220,8 +1220,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 12.5
+    ageStart: 12.5
+    ageEnd: 12.75
     order: 14
     prerequisites: [history-13]
     related: [literature-10, rhetoric-08, civics-law-04]
@@ -1323,8 +1323,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 13.5
+    ageStart: 12
+    ageEnd: 12.25
     order: 15
     prerequisites: [history-08]
     related: [greek-12, greek-15, philosophy-05]
@@ -1445,7 +1445,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
+    ageStart: 13.75
     ageEnd: 14
     order: 16
     prerequisites: [history-15, history-09]
@@ -1619,8 +1619,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 14.5
+    ageStart: 14
+    ageEnd: 14.25
     order: 17
     prerequisites: [history-16, history-10]
     related: [theology-16, philosophy-08, literature-18]
@@ -1718,7 +1718,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
+    ageStart: 14.75
     ageEnd: 15
     order: 18
     prerequisites: [history-18, history-11]
@@ -1923,8 +1923,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 15
+    ageStart: 15
+    ageEnd: 15.25
     order: 19
     prerequisites: [history-19]
     related: [philosophy-10, civics-law-13]
@@ -2071,7 +2071,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
+    ageStart: 15.25
     ageEnd: 15.5
     order: 20
     prerequisites: [history-12, history-19]
@@ -2212,8 +2212,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 15.5
+    ageEnd: 15.75
     order: 21
     prerequisites: [history-21, history-14]
     related: [literature-27, rhetoric-08, rhetoric-09, rhetoric-11, civics-law-11, literature-10]
@@ -2460,7 +2460,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
+    ageStart: 15.75
     ageEnd: 16
     order: 22
     prerequisites: [history-21]
@@ -2574,8 +2574,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
-    ageEnd: 17
+    ageStart: 16.25
+    ageEnd: 16.5
     order: 23
     prerequisites: [history-25, history-23]
     related: [rhetoric-08, philosophy-13, theology-20]
@@ -2775,8 +2775,8 @@ rows:
     electiveNote: >-
       An elective in historical method; the core seminars already read the historians
       themselves.
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 16.25
+    ageEnd: 16.75
     order: 24
     prerequisites: [history-21, history-18, history-26]
     related: [philosophy-13, theology-23]

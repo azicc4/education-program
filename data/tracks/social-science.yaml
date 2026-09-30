@@ -21,10 +21,10 @@ rows:
   - id: social-science-01
     title: "Human Nature Before Psychology: The Soul, the Passions, Habit and Memory"
     type: unit
-    level: 9-12
+    level: 6-8
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 11.5
+    ageEnd: 11.75
     order: 1
     prerequisites: []
     related: [philosophy-04, philosophy-08, character-virtue-09, early-development-12]
@@ -135,7 +135,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
+    ageStart: 14.75
     ageEnd: 15
     order: 2
     prerequisites: [social-science-01]
@@ -278,7 +278,7 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 14.5
+    ageStart: 15.25
     ageEnd: 15.5
     order: 3
     prerequisites: [social-science-02]
@@ -391,8 +391,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 15.5
+    ageStart: 15.5
+    ageEnd: 15.75
     order: 4
     prerequisites: [social-science-02, social-science-03]
     related: [logic-02, mathematics-16, economics-10, rhetoric-07]
@@ -486,8 +486,8 @@ rows:
     electiveNote: >-
       Elective topic. The core social science keeps psychology, research methods, judgment and
       decision, sociology, and media and the mind.
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 15.25
+    ageEnd: 16.25
     order: 5
     prerequisites: [social-science-02, social-science-03]
     related: [early-development-12, early-development-20, grammar-composition-07, philosophy-11]
@@ -731,8 +731,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 15.75
+    ageEnd: 16
     order: 7
     prerequisites: [social-science-03]
     related: [civics-law-12, civics-law-15, economics-07, philosophy-10, civics-law-01]
@@ -988,7 +988,7 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 15.5
+    ageStart: 16.25
     ageEnd: 16.5
     order: 9
     prerequisites: [social-science-03]
