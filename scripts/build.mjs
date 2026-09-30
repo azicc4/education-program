@@ -11,6 +11,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const tracksDir = path.join(root, 'data', 'tracks');
 const foundingDir = path.join(root, 'data', 'founding');
 const examsFile = path.join(root, 'data', 'exams.yaml');
+const budgetFile = path.join(root, 'data', 'budget.yaml');
 const outDir = path.join(root, 'docs', 'data');
 
 export const LEVELS = [
@@ -56,6 +57,8 @@ function checkLessons(rel, where, o) {
 }
 // kinds of non-reading work in a unit's workload estimate (see data/schema.md)
 const WORK_KINDS = ['exercises', 'writing', 'translation', 'memorization', 'recitation', 'discussion', 'lab', 'practice', 'project', 'exam-prep'];
+// which part of the week a unit runs in (see data/schema.md); weekday is the default
+const DAYS = ['weekday', 'saturday', 'sunday'];
 const FOUNDING_USES = ['reference', 'teacher', 'student'];
 const FOUNDING_CATEGORIES = ['british-university', 'colonial-college', 'founder-letter', '19th-century-school', 'treatise'];
 const REQUIRED = ['id', 'title', 'type', 'level', 'stage', 'ageStart', 'ageEnd', 'order', 'summary'];
@@ -90,6 +93,8 @@ function validateTrack(file, doc) {
   if (doc.trackGroup !== GROUP_OF[trackId]) err(rel, `trackGroup should be "${GROUP_OF[trackId]}"`);
   if (!doc.title) err(rel, 'missing title');
   if (!Array.isArray(doc.rows) || !doc.rows.length) return err(rel, 'no rows'), null;
+  if (doc.elective !== undefined && typeof doc.elective !== 'boolean') err(rel, 'elective must be true or false');
+  if (doc.elective && !doc.electiveNote) warn(rel, 'an elective track should have an electiveNote saying why');
 
   for (const [i, r] of doc.rows.entries()) {
     const where = `row ${r?.id ?? i}`;
@@ -97,6 +102,10 @@ function validateTrack(file, doc) {
     if (r.id && !r.id.startsWith(`${trackId}-`)) err(rel, `${where}: id must start with "${trackId}-"`);
     if (r.type && !TYPES.includes(r.type)) err(rel, `${where}: bad type ${r.type}`);
     if (r.stage && !STAGES.includes(r.stage)) err(rel, `${where}: bad stage ${r.stage}`);
+    if (r.elective !== undefined && typeof r.elective !== 'boolean') err(rel, `${where}: elective must be true or false`);
+    if (r.elective && !r.electiveNote && !doc.electiveNote) warn(rel, `${where}: an elective unit should have an electiveNote saying why`);
+    if (r.electiveNote && !(r.elective || doc.elective)) warn(rel, `${where}: electiveNote without elective: true`);
+    if (r.day !== undefined && !DAYS.includes(r.day)) err(rel, `${where}: bad day ${r.day} (${DAYS.join(' | ')})`);
     const lvl = LEVELS.find((l) => l.id === r.level);
     if (!lvl) err(rel, `${where}: bad level ${r.level}`);
     if (typeof r.ageStart !== 'number' || typeof r.ageEnd !== 'number') err(rel, `${where}: ages must be numbers`);
@@ -140,6 +149,9 @@ function validateTrack(file, doc) {
             if (!(num(item?.hours) && item.hours > 0)) err(rel, `${where}: workload.work ${item?.kind} needs hours > 0`);
             if (!item?.note) warn(rel, `${where}: workload.work ${item?.kind} should have a note`);
           }
+        if (w.electiveHours !== undefined && !(num(w.electiveHours) && w.electiveHours > 0)) err(rel, `${where}: workload.electiveHours must be a number of hours above 0`);
+        if (w.electiveHours && !w.electiveBasis) warn(rel, `${where}: workload.electiveHours should have an electiveBasis saying what the elective part is`);
+        if (w.electiveBasis && !w.electiveHours) warn(rel, `${where}: workload.electiveBasis without electiveHours`);
       }
     }
     for (const c of r.curriculumOptions || []) {
@@ -182,6 +194,7 @@ function validateGraph(rows) {
       if (!pr) err(r._file, `${r.id}: prerequisite ${p} not found`);
       else if (pr.track !== r.track) err(r._file, `${r.id}: prerequisite ${p} is in another track (use related)`);
       else if (pr.ageStart > r.ageStart) err(r._file, `${r.id}: prerequisite ${p} starts later (${pr.ageStart} > ${r.ageStart})`);
+      else if (pr.elective && !r.elective) err(r._file, `${r.id}: core unit needs elective unit ${p} (point it at the nearest core unit instead)`);
     }
     for (const p of r.related || []) if (!byId.has(p)) warn(r._file, `${r.id}: related ${p} not found`);
   }
@@ -195,6 +208,35 @@ function validateGraph(rows) {
     state.set(id, 2);
   };
   for (const id of byId.keys()) visit(id, []);
+}
+
+// Yearly hour budgets per grade: weekday academics, Saturday activities, Sunday theology (data/budget.yaml)
+function buildBudget(doc) {
+  const rel = 'data/budget.yaml';
+  if (!doc) return err(rel, 'missing or empty'), null;
+  const off = doc.gradeAgeOffset;
+  if (typeof off !== 'number') err(rel, 'gradeAgeOffset must be a number');
+  const sources = Object.fromEntries((doc.sources || []).map((s) => [s.id, s]));
+  checkLinks(rel, 'sources', doc.sources);
+  const gradeNo = (g) => (String(g).toUpperCase() === 'K' ? 0 : Number(g));
+  const years = [];
+  for (const b of doc.weekday || []) {
+    const [a, z = a] = String(b.grades).split('-').map(gradeNo);
+    if (!Number.isInteger(a) || !Number.isInteger(z) || z < a) { err(rel, `weekday: bad grades ${b.grades}`); continue; }
+    if (!(b.regularHours > 0 && b.multiplier > 0)) err(rel, `weekday ${b.grades}: regularHours and multiplier must be above 0`);
+    if (b.source && !sources[b.source]) err(rel, `weekday ${b.grades}: unknown source ${b.source}`);
+    for (let g = a; g <= z; g++) years.push({ grade: g, label: g ? `Grade ${g}` : 'Kindergarten', ageStart: g + off, ageEnd: g + off + 1, regularHours: b.regularHours, multiplier: b.multiplier, weekday: Math.round(b.regularHours * b.multiplier), source: b.source || '' });
+  }
+  years.sort((x, y) => x.grade - y.grade);
+  years.forEach((y, i) => i && y.grade !== years[i - 1].grade + 1 && err(rel, `weekday: grades must be continuous (gap before ${y.label})`));
+  const sat = doc.saturday || {};
+  const sun = doc.sunday || {};
+  const overlap = (y, a, z) => Math.max(0, Math.min(y.ageEnd, z) - Math.max(y.ageStart, a));
+  for (const y of years) {
+    y.saturday = Math.round((sat.hoursPerDay || 0) * (sat.weeks || 0));
+    y.sunday = Math.round((sun.bands || []).reduce((s, b) => s + b.hoursPerWeek * (sun.weeks || 0) * overlap(y, b.ageStart, b.ageEnd), 0));
+  }
+  return { gradeAgeOffset: off, saturday: sat, sunday: sun, weekday: doc.weekday, notes: doc.notes || '', sources: doc.sources || [], years };
 }
 
 function validateFounding(file, doc) {
@@ -231,12 +273,17 @@ const rows = [];
 for (const f of trackFiles) {
   const doc = validateTrack(f, load(f));
   if (!doc) continue;
-  tracks.push({ id: doc.track, title: doc.title, group: doc.trackGroup, description: doc.description || '' });
-  for (const r of doc.rows) rows.push({ ...r, track: doc.track, trackGroup: doc.trackGroup, _file: path.relative(root, f) });
+  tracks.push({ id: doc.track, title: doc.title, group: doc.trackGroup, description: doc.description || '', ...(doc.elective ? { elective: true, electiveNote: doc.electiveNote || '' } : {}) });
+  // an elective track makes every unit in it elective, with the track's reason unless the unit gives its own
+  for (const r of doc.rows) {
+    const el = doc.elective ? { elective: true, electiveNote: r.electiveNote || doc.electiveNote || '' } : {};
+    rows.push({ ...r, ...el, track: doc.track, trackGroup: doc.trackGroup, _file: path.relative(root, f) });
+  }
 }
 validateGraph(rows);
 const exams = checkOnly ? (fs.existsSync(examsFile) && rows.some((r) => r.exams?.length) ? validateExams(load(examsFile), rows) : []) : validateExams(load(examsFile), rows);
 const founding = foundingFiles.map((f) => validateFounding(f, load(f))).filter(Boolean);
+const budget = checkOnly ? null : buildBudget(load(budgetFile));
 if (!checkOnly) validateFoundingUnits(founding, rows);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
@@ -247,7 +294,7 @@ if (errors.length) process.exit(1);
 if (!checkOnly) {
   tracks.sort((a, b) => TRACK_ORDER.indexOf(a.id) - TRACK_ORDER.indexOf(b.id));
   const out = rows.map(({ _file, ...r }) => ({ prerequisites: [], related: [], exams: [], ...r }));
-  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams });
+  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams, budget });
   const foundingJson = JSON.stringify({ lists: founding });
   fs.mkdirSync(outDir, { recursive: true });
   // .json for reuse elsewhere; .js so the pages also work opened straight from disk (file://)

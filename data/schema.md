@@ -39,12 +39,19 @@ title: Latin                 # display name
 trackGroup: Languages        # one of the groups above
 description: >-
   One paragraph: aims of the track, how it progresses, the end-state competency.
+elective: true               # optional: the whole track is elective (every unit in it is outside the core)
+electiveNote: >-             # with elective: why, shown on every unit that does not give its own reason
+  Elective third sacred language; the core language load is Latin, Greek and Spanish.
 rows:
   - id: latin-01             # <track-id>-NN, two digits, NN increases with order
     title: "Latin I: Song School & First Forms"
     type: course             # course | unit | practice   (practice = early-development best practice)
     level: early-5
     stage: formal            # early-development (ages 0–6/7) | formal
+    day: saturday            # optional: weekday (default, Monday–Friday) | saturday | sunday — which budget the unit uses
+    elective: true           # optional: the unit is outside the core; it is never assumed in a child's path
+    electiveNote: >-         # with elective: why (e.g. what core unit already covers it)
+      Plutarch's Lives are core in civics-law-08.
     ageStart: 7              # numbers; decimals allowed (e.g. 0.5)
     ageEnd: 8
     order: 1                 # position within track, simple → complex
@@ -84,6 +91,8 @@ rows:
                              #   | discussion | lab | practice | project | exam-prep
         - { kind: writing, hours: 30, note: "six 2–3 page essays with revision" }
         - { kind: discussion, hours: 18, note: "weekly narration and Socratic discussion" }
+      electiveHours: 24      # optional: hours of the unit that are elective (elective texts, extra essays or sessions)
+      electiveBasis: "Kim and Gulliver's Travels (~700 pp, ~24 h)"   # what the elective part is
     curriculumOptions:       # 2–3 real, purchasable/available programs where they exist
       - name: Latina Christiana I
         publisher: Memoria Press
@@ -122,11 +131,38 @@ rows:
   Put the role in these fields, not in the title: no "(selections)", "(alternative …)" or "(already read in …)" in titles.
   `(elective)` stays in the title. The site's weekly reading load counts core texts, one text per choice group, and
   `readPages` (or a third of `pages`) for selections; it skips reference, review and elective texts.
-- Prerequisites must start at or before the dependent row's `ageStart`. No cycles.
+- Prerequisites must start at or before the dependent row's `ageStart`. No cycles. A core unit may not require an
+  elective unit: point it at the nearest core unit instead.
+- **Core and elective.** The core is what every child is expected to do, and it fits the yearly hour budgets in
+  `data/budget.yaml`. An elective unit (`elective: true`, or any unit in an elective track) is taken only by choice:
+  the site leaves it out of placement by age, Next assignments and Look Ahead until a child starts it. Inside a core
+  unit, a text is elective when its title ends in `(elective)`, and `workload` counts only the core; the elective part
+  goes in `electiveHours` and `electiveBasis`. Nothing is removed from the curriculum to shorten it.
+- **Day** (`day`) says which part of the week a unit uses. Weekday units are the Monday–Friday academics; Saturday
+  units are outdoor skills, riding and shooting, sailing, handcrafts and home arts; Sunday units are Scripture, the
+  lives of the saints and spiritual reading.
 - Quote any string containing `:` `#` `'` or starting with a special char. Use `>-` for paragraphs.
 - **Links**: public-domain works → free editions (Project Gutenberg, Archive.org, HathiTrust, Perseus, The Latin Library, Sefaria, CCEL, New Advent, Wikisource, Founders Online, Avalon Project). Copyrighted works → the publisher's (or a major bookseller's) purchase page. Only include URLs you have confirmed exist.
 - `tradition` badges: `catholic` (TAN, Ignatius, Catholic Heritage Curricula, Seton, Our Lady of Victory…), `protestant` (Veritas, Classical Conversations, Canon Press…), `classical` (Memoria Press, Hillsdale, CAP…), `secular`.
 - College (17+) rows use `level: college`, ages 17–18, and live in the track they belong to.
+
+## Hour budgets (`data/budget.yaml`)
+
+```yaml
+gradeAgeOffset: 5            # grade g runs from age g+5 to g+6; kindergarten is grade 0
+weekday:                     # Monday–Friday academics: regular school hours × a multiplier, by grade band
+  - { grades: "1-6", regularHours: 1000, multiplier: 2, source: pew }
+saturday: { hoursPerDay: 8, weeks: 48 }
+sunday:
+  weeks: 52
+  bands: [{ ageStart: 9, ageEnd: 12.75, hoursPerWeek: 1 }, { ageStart: 12.75, ageEnd: 18, hoursPerWeek: 2 }]
+notes: Where the regular hours come from.
+sources:
+  - { id: pew, title: "…", publisher: Pew Research Center, date: "2023", url: "https://…" }
+```
+
+The build turns this into a budget per grade (`budget.years` in `curriculum.json`). The School Hours page compares
+each grade's core units, spread evenly over their ages, with the weekday, Saturday and Sunday budgets.
 
 ## Exams
 

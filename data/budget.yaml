@@ -1,0 +1,47 @@
+# Yearly hour budgets per grade (see data/schema.md).
+#
+# Weekday: academics run Monday to Friday. Each grade band's budget is the regular school hours for
+# that grade times a multiplier. Saturday: activities (outdoor skills, riding, shooting, sailing,
+# handcrafts, home arts). Sunday: Scripture, the lives of the saints and spiritual reading. The
+# Saturday and Sunday hours are on top of the weekday budget.
+gradeAgeOffset: 5 # grade g runs from age g+5 to g+6; kindergarten is grade 0 (ages 5–6)
+
+weekday:
+  - { grades: "K", regularHours: 900, multiplier: 2, source: nces }
+  - { grades: "1-6", regularHours: 1000, multiplier: 2, source: pew }
+  - { grades: "7-10", regularHours: 1035, multiplier: 2.5, source: pew }
+  - { grades: "11-12", regularHours: 1035, multiplier: 1.5, source: pew }
+
+saturday:
+  hoursPerDay: 8
+  weeks: 48
+
+sunday:
+  weeks: 52
+  bands:
+    - { ageStart: 9, ageEnd: 12.75, hoursPerWeek: 1 }
+    - { ageStart: 12.75, ageEnd: 18, hoursPerWeek: 2 }
+
+notes: >-
+  Regular hours are state minimums for the school year. Grades 1–6 use the average 4th-grade
+  minimum (997.8 hours) and grades 7–12 the average 11th-grade minimum (1,034.8 hours) across the
+  39 states that set an annual minimum. Kindergarten uses 900 hours, a common full-day kindergarten
+  minimum. For comparison, OECD countries average 805 hours a year of required instruction in
+  primary school and 916 in lower secondary.
+
+sources:
+  - id: pew
+    title: "In the U.S., 180 days of school is most common, but length of school day varies by state"
+    publisher: Pew Research Center
+    date: "2023"
+    url: "https://pewresearch.org/short-reads/2023/09/07/in-the-u-s-180-days-of-school-is-most-common-but-length-of-school-day-varies-by-state"
+  - id: nces
+    title: "Table 5.14. Number of instructional days and hours in the school year, by state: 2018"
+    publisher: National Center for Education Statistics, State Education Reforms
+    date: "2018"
+    url: "https://nces.ed.gov/programs/statereform/tab5_14.asp"
+  - id: oecd
+    title: "Education at a Glance 2023: How much time do students spend in the classroom?"
+    publisher: OECD
+    date: "2023"
+    url: "https://www.oecd.org/en/publications/education-at-a-glance-2023_e13bef63-en/full-report/how-much-time-do-students-spend-in-the-classroom_258760fe.html"
