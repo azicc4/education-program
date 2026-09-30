@@ -62,6 +62,9 @@ rows:
         tradition: secular
         url: "https://www.wiley.com/en-us/Introduction+to+Old+English%2C+3rd+Edition-p-9780470659847"
         notes: The gentlest modern grammar. It is keyed to the free Old English Aerobics site, which makes it ideal for self-study.
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "Wiley table of contents: 16 chapters plus an anthology of 19 texts"
       - name: "A Guide to Old English (8th ed.), Mitchell & Robinson"
         publisher: Wiley-Blackwell
         tradition: secular

@@ -48,6 +48,9 @@ rows:
           A long-standing self-study primer built on Biblical passages. Clear, gentle and widely
           used by adult beginners and home learners. It is published for a Jewish audience and is
           non-confessional.
+        lessons: 30
+        lessonLabel: lesson
+        lessonsNote: "EKS product page: thirty lessons"
       - name: Aleph with Beth (free video course)
         publisher: Aleph with Beth (YouTube)
         tradition: protestant
@@ -102,6 +105,9 @@ rows:
         tradition: protestant
         url: "https://www.christianbook.com/beginning-biblical-hebrew-mark-futato/9781575060224/pd/060220"
         notes: Compact, with readings from Ruth and Jonah built in. Fast, and suits a student who already has Latin and Greek.
+        lessons: 40
+        lessonLabel: lesson
+        lessonsNote: "Eisenbrauns sample introduction: Lesson 1 to Lesson 40"
       - name: "A Practical Grammar for Classical Hebrew (2nd ed.), J. Weingreen"
         publisher: Oxford University Press
         tradition: secular
@@ -259,6 +265,9 @@ rows:
         tradition: protestant
         url: "https://www.christianbook.com/beginning-biblical-hebrew-mark-futato/9781575060224/pd/060220"
         notes: Futato's grammar builds its readings around these books.
+        lessons: 40
+        lessonLabel: lesson
+        lessonsNote: "Eisenbrauns sample introduction: a Bible reading in every lesson, Lesson 1 to Lesson 40"
 
   - id: hebrew-06
     title: "Reading III: The Psalms"

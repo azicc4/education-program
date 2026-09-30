@@ -50,6 +50,9 @@ rows:
           Grades 1–4. 25 short lessons with Latin prayers and ecclesiastical pronunciation. Feeds
           straight into Latina Christiana. Written by a Catholic author, so it has a Christian
           flavour without being denominational.
+        lessons: 25
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press product page: 25 lessons, with a review and test every 5 lessons"
       - name: Song School Latin (Books 1 & 2)
         publisher: Classical Academic Press
         tradition: classical
@@ -57,6 +60,9 @@ rows:
         notes: >-
           The most playful option, with songs, stories and a video teacher. Book 2 leads into
           Latin for Children. Book 1 alone is enough for an accelerated 7-year-old.
+        lessons: 63
+        lessonLabel: lesson
+        lessonsNote: "Classical Academic Press product pages: Book 1 has 31 weekly lessons, Book 2 has 32 (both incl. review chapters)"
       - name: "Latin's Not So Tough! (Levels 1–2)"
         publisher: Greek 'n' Stuff (Karen Mohs)
         tradition: protestant
@@ -72,6 +78,9 @@ rows:
         tradition: protestant
         url: "https://classicalconversations.com/programs/foundations/"
         notes: "Community memory program for ages 4+. Its Latin strand chants noun endings and verb conjugations and ends with John 1 from the Vulgate."
+        lessons: 24
+        lessonLabel: week
+        lessonsNote: "Classical Conversations: each Foundations cycle is 24 weeks of memory work"
     historicalPrecedent: >-
       Jefferson "was placed at the Latin at 9" under the Rev. William Douglas (Autobiography,
       1821). In colonial Boston the first-year books were Cheever's Accidence, a small
@@ -118,6 +127,9 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/latin/latina-christiana-set/"
         notes: Cheryl Lowe's classic. Memoria recommends moving straight on to First Form afterwards.
+        lessons: 30
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press product page: 25 lessons + 5 review lessons"
       - name: Latin for Children, Primer A (and B)
         publisher: Classical Academic Press
         tradition: classical
@@ -125,6 +137,9 @@ rows:
         notes: >-
           Chant-driven, with a video/audio course and a History Reader. Offers both pronunciations.
           Primers A–C together cover about the same ground as Latina Christiana plus First Form.
+        lessons: 32
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource: Primer A has 32 weekly chapters; Cathy Duffy: 32 lessons in each primer, so Primer B adds 32 more"
       - name: Latin Primer 1
         publisher: Canon Press
         tradition: protestant
@@ -141,11 +156,17 @@ rows:
         tradition: catholic
         url: "https://books.kolbe.org/products/course-plan-tests-latina-christiana-1"
         notes: "Kolbe's Catholic lesson plan and tests for Memoria's Latina Christiana (its Intro to Elementary Latin course)."
+        lessons: 30
+        lessonLabel: lesson
+        lessonsNote: "Follows Latina Christiana I: 25 lessons + 5 review lessons (Memoria Press product page)"
       - name: "Introductory Latin (Latina Christiana)"
         publisher: "Our Lady of Victory School"
         tradition: catholic
         url: "https://olvs.org/academics/curriculum-courses/"
         notes: "OLVS's traditional Catholic homeschool course on Latina Christiana. It can be taken as a single-course enrolment."
+        lessons: 30
+        lessonLabel: lesson
+        lessonsNote: "Follows Latina Christiana I: 25 lessons + 5 review lessons (Memoria Press product page)"
     historicalPrecedent: >-
       Boston's 1789 school committee set the youngest Latin class on Cheever's Accidence,
       Corderius's Colloquies (Latin and English), the Nomenclator and Aesop's Fables (Latin and
@@ -186,11 +207,17 @@ rows:
         notes: >-
           "Grammar-first" design. Streaming video lessons are available. Second Form set:
           https://www.memoriapress.com/curriculum/latin/second-form-latin-set/
+        lessons: 65
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press product pages: First Form 34 two-page lessons, Second Form 31"
       - name: Latin for Children, Primers B & C
         publisher: Classical Academic Press
         tradition: classical
         url: "https://classicalacademicpress.com/pages/series-latin-for-children"
         notes: Continues the CAP chant approach. Leads into Latin Alive! for upper grades.
+        lessons: 64
+        lessonLabel: chapter
+        lessonsNote: "Cathy Duffy review: 32 lessons (chapters) in each primer"
       - name: Latin Primer 2 & 3
         publisher: Canon Press
         tradition: protestant
@@ -206,6 +233,9 @@ rows:
         tradition: catholic
         url: "https://books.kolbe.org/products/course-plans-tests-form-latin-1"
         notes: "Kolbe's Catholic lesson plan and tests for Memoria's First Form Latin."
+        lessons: 34
+        lessonLabel: lesson
+        lessonsNote: "Follows First Form Latin: 34 lessons (Memoria Press product page)"
       - name: "TRV-221 Latin Grammar I (Alvarez)"
         publisher: "Classical Liberal Arts Academy"
         tradition: catholic
@@ -263,6 +293,9 @@ rows:
         notes: >-
           The standard US college text, with every chapter built on real sentences from Cicero,
           Virgil and others. Too dense for most 10-year-olds unless paced over two years.
+        lessons: 40
+        lessonLabel: chapter
+        lessonsNote: "Wikipedia, Wheelock's Latin: the seventh edition has forty chapters (capita)"
       - name: "Lingua Latina per se Illustrata, Pars I: Familia Romana"
         publisher: Hackett Publishing (Hans Ørberg)
         tradition: secular
@@ -271,6 +304,9 @@ rows:
           The whole book is in Latin, and grammar is learned from context. It builds real reading
           fluency and pairs well with Henle or Wheelock for explicit grammar. Pars II (Roma
           Aeterna) moves into Livy, Virgil and Cicero.
+        lessons: 35
+        lessonLabel: chapter
+        lessonsNote: "Hackett product page: thirty-five chapters, each divided into two or three lectiones"
       - name: North American Cambridge Latin Course (Units 1–4)
         publisher: Cambridge University Press
         tradition: secular
@@ -292,6 +328,9 @@ rows:
           courses straight from the book, with Pooley's Ossa Ostensa workbook; they admit adults
           (18+), so they suit a parent learning ahead of the child
           (https://liturgyinstitute.org/la411/). Ossium Carnes Multae (latin-11) continues the method.
+        lessons: 105
+        lessonLabel: lesson
+        lessonsNote: "BMCR 2018.08.31 review: 105 encounters (lessons) over three years of study"
       - name: "Latin 1 (Henle): Books, Tests, Keys & CD"
         publisher: "Seton Home Study School"
         tradition: catholic
@@ -307,11 +346,17 @@ rows:
         tradition: catholic
         url: "https://caravel.homeschoolconnections.com/catalog/1676748838"
         notes: "Recorded Catholic online class for middle and high school, in two semesters (Part Two follows). Optional graded instructor access."
+        lessons: 12
+        lessonLabel: lesson
+        lessonsNote: "Homeschool Connections catalog page: 12 recorded classes"
       - name: "Latin I – Live Online Course (Wheelock)"
         publisher: "Veritas Press (Veritas Scholars Academy)"
         tradition: protestant
         url: "https://store.veritaspress.com/latin-i-live-online-course.html"
         notes: "Live online class covering Wheelock's Latin, chapters 1–22. Latin II covers chapters 23–40."
+        lessons: 22
+        lessonLabel: chapter
+        lessonsNote: "Veritas Press course page: Wheelock's Latin chapters 1-22"
     historicalPrecedent: >-
       The Jesuit Ratio Studiorum (1599) set out three grammar classes (lower, middle and upper)
       before Humanities and Rhetoric. Henle's four-year series is its twentieth-century American
@@ -352,6 +397,9 @@ rows:
         kind: instructional
         reader: student
         pages: 134
+        lessons: 100
+        lessonLabel: section
+        lessonsNote: "Project Gutenberg text: 100 numbered sections (Perseus, Hercules, the Argonauts, Ulysses)"
         author: Francis Ritchie (ed. J. C. Kirtland)
         date: "1884 (US ed. 1903)"
         publicDomain: true
@@ -362,6 +410,9 @@ rows:
         kind: instructional
         reader: student
         pages: 122
+        lessons: 100
+        lessonLabel: section
+        lessonsNote: "Archive.org 1831 scan: a centuria of 100 numbered colloquies"
         author: Mathurin Cordier
         date: "1564 (this ed. 1831)"
         publicDomain: true
@@ -408,6 +459,9 @@ rows:
         tradition: secular
         url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series"
         notes: If Ørberg was not the main text in latin-04, use it here as the extensive reader.
+        lessons: 35
+        lessonLabel: chapter
+        lessonsNote: "Hackett product page: thirty-five chapters, each divided into two or three lectiones"
       - name: Latin Alive! (Books 1–3)
         publisher: Classical Academic Press
         tradition: classical
@@ -627,6 +681,9 @@ rows:
         kind: instructional
         reader: student
         pages: 440
+        lessons: 67
+        lessonLabel: lesson
+        lessonsNote: "Archive.org scan (1899 printing) table of contents: 67 numbered exercises (I-LXVII) plus supplementary exercises"
         author: Thomas Kerchever Arnold, rev. George Granville Bradley
         date: "1839 / rev. 1884"
         publicDomain: true
@@ -640,6 +697,9 @@ rows:
         kind: instructional
         reader: student
         pages: 299
+        lessons: 256
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1913 printing: 256 numbered exercises plus preliminary exercises A-C"
         author: M. A. North & A. E. Hillard
         date: "1895"
         publicDomain: true
@@ -718,6 +778,9 @@ rows:
         tradition: secular
         url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series"
         notes: Includes Ovid excerpts in its natural-method progression.
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource: Roma Aeterna has 21 chapters in all; the poetry chapters are a subset"
     historicalPrecedent: >-
       Boston's early course had "Ovid de Tristibus" and the Metamorphoses. In 1789, "Ovid's
       Metamorphoses" was set in the third class. Boston Latin in the 1880s read the Metamorphoses
@@ -801,16 +864,25 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/latin/selections-from-the-vulgate-set/"
         notes: Graded Bible passages in Latin with notes.
+        lessons: 90
+        lessonLabel: section
+        lessonsNote: "Memoria Press product page: the workbook has ninety prose and poetry passages"
       - name: A Primer of Ecclesiastical Latin (John F. Collins)
         publisher: Catholic University of America Press
         tradition: catholic
         url: "https://www.christianbook.com/a-primer-of-ecclesiastical-latin/john-collins/9780813206677/pd/6677"
         notes: The standard seminary grammar of Church Latin, drawn from the Vulgate and the liturgy. A good second pass for an older student.
+        lessons: 35
+        lessonLabel: unit
+        lessonsNote: "CUA Press description (via search listings): thirty-five instructional units, plus readings"
       - name: "Ecclesiastical Latin: First Year (recorded course)"
         publisher: "Homeschool Connections"
         tradition: catholic
         url: "https://caravel.homeschoolconnections.com/catalog/784146938"
         notes: "High-school course on Collins's Primer of Ecclesiastical Latin, in two semesters. HSC's shorter \"Prayers, Hymns, History: Introduction to Ecclesiastical Latin\" is a gentler start."
+        lessons: 12
+        lessonLabel: lesson
+        lessonsNote: "Homeschool Connections catalog page: 12 recorded classes"
       - name: "Latin Grammar: For the Reading of the Missal and Breviary (Scanlon)"
         publisher: "TAN Books"
         tradition: catholic
@@ -1098,6 +1170,9 @@ rows:
         tradition: secular
         url: "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series"
         notes: Its later chapters are lightly adapted Livy, a good lead-in to the unadapted text.
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource: Roma Aeterna has 21 chapters"
       - name: Steadman Livy & Sallust editions
         publisher: Geoffrey Steadman
         tradition: secular
@@ -1233,6 +1308,9 @@ rows:
         kind: instructional
         reader: student
         pages: 299
+        lessons: 256
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1913 printing: 256 numbered exercises plus preliminary exercises A-C (whole book)"
         author: M. A. North & A. E. Hillard
         date: "1895"
         publicDomain: true
@@ -1346,6 +1424,9 @@ rows:
         tradition: catholic
         url: "https://www.christianbook.com/a-primer-of-ecclesiastical-latin/john-collins/9780813206677/pd/6677"
         notes: Use as the grammar of reference for Church-Latin idiom.
+        lessons: 35
+        lessonLabel: unit
+        lessonsNote: "CUA Press description (via search listings): thirty-five instructional units, plus readings"
       - name: "Second Latin: Preparation for the Reading of Philosophy, Theology and Canon Law (Scanlon)"
         publisher: "TAN Books"
         tradition: catholic
