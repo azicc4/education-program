@@ -26,6 +26,17 @@ and has a page count where one is known.
 - [ ] Bioethics companion (biology-03): keep it at 13.5, or move it to 15–16? It touches end-of-life questions and gender ideology.
 
 ## Next up
+- [ ] **Lesson counts still to confirm** (231 books and programs have one; these use a "Lesson #" box until filled):
+  Henle Latin Years 1–4 and their Seton/Kolbe plans, Latin Primer 1–3 (Canon), MODG Beginning Latin I–III, Latin Alive!,
+  Challenge II–IV, Lingua Angelica, Scanlon's Second Latin and Missal grammar, Hey Andrew! Greek, Basics of Biblical
+  Hebrew and Weingreen; Dimensions Math, RightStart, Beast Academy, Math Mammoth, Stewart and Larson calculus, the Kolbe
+  and Khan Academy online courses, Miller & Levine, Princeton Review AP prep books; Madrigal's Magic Key, ¡Avancemos! 2,
+  Seton Spanish, Better Chinese; Language of God, Well-Ordered Language, Shurley, Voyages, Lost Tools of Writing,
+  They Say / I Say, Art of Argument, Writing Road to Reading, First Start Reading, All About Reading 2 and 4; Berry,
+  Linklater, Rodenburg, Skinner, Knight, Blumenfeld, The Ode Less Travelled, Rhyme's Reason, Laux. The agents' lists
+  with unit ids are in the PR description.
+- [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
+  edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
 - [ ] **Scheduling the workload.** Each formal unit now carries total reading and work hours (`workload` in the track YAML).
   Next: decide when in the school year each unit runs (whole year, a term, a summer, a few weeks), then turn the totals
   into hours per week or minutes per school day, and show each child's combined weekly load in Family Progress and the
