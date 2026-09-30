@@ -126,8 +126,9 @@ rows:
     type: course
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 7
-    ageEnd: 13
+    ageEnd: 16
     order: 4
     prerequisites: [physical-training-03]
     related: [natural-science-11, mathematics-15, sports-02, sports-05]
@@ -204,6 +205,7 @@ rows:
     type: course
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 8
     ageEnd: 12
     order: 5
@@ -254,8 +256,9 @@ rows:
     type: course
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 8
-    ageEnd: 14
+    ageEnd: 16
     order: 6
     prerequisites: [physical-training-02]
     related: [greek-08]
@@ -308,6 +311,7 @@ rows:
     type: course
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 8
     ageEnd: 15
     order: 7
@@ -412,8 +416,9 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    day: saturday
     ageStart: 10
-    ageEnd: 15
+    ageEnd: 16
     order: 9
     prerequisites: [physical-training-01]
     related: [sports-01, sports-09]
@@ -495,6 +500,9 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    elective: true
+    electiveNote: >-
+      Fencing can replace wrestling as the core combat sport; it is kept as an elective.
     ageStart: 11
     ageEnd: 16
     order: 11
@@ -561,8 +569,10 @@ rows:
       readingHours: 17
       readingBasis: "347 pp of Rippetoe's Starting Strength (technical manual) at ~20 pp/h"
       work:
-        - { kind: practice, hours: 560, note: "a written progressive program with a training log, 2–3 days a week, ~6 yr x 45 wk x 2.5 x 50 min" }
+        - { kind: practice, hours: 280, note: "a written progressive program with a training log, 2 days a week, ~6 yr x 40 wk x 2 x 35 min" }
         - { kind: exercises, hours: 6, note: "recovery, sleep and nutrition for training" }
+      electiveHours: 280
+      electiveBasis: "a third weekly session, longer sessions of ~50 min and five more training weeks a year (~280 h)"
     coreTexts:
       - title: "Starting Strength: Basic Barbell Training (3rd ed.)"
         kind: instructional

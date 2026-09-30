@@ -150,10 +150,12 @@ rows:
       readingHours: 17
       readingBasis: "256 pp: the Folger Midsummer Night's Dream at ~15 pp/h; Shakespeare on Toast is teacher background and is not counted"
       work:
-        - { kind: practice, hours: 70, note: "weekly company session of Folger-method scene work, 90 wk x 45 min" }
+        - { kind: practice, hours: 36, note: "weekly company session of Folger-method scene work, 48 wk x 45 min" }
         - { kind: memorization, hours: 18, note: "three 40–80-line scenes and a play role, ~6 x 3 h" }
-        - { kind: exercises, hours: 10, note: "blocking in a promptbook and cutting scenes, 10 x 1 h" }
+        - { kind: exercises, hours: 6, note: "blocking in a promptbook and cutting scenes, 6 x 1 h" }
         - { kind: project, hours: 15, note: "20-minute or one-hour abridged play: ~6 extra rehearsals x 2 h plus performance" }
+      electiveHours: 38
+      electiveBasis: "further weekly company sessions of scene work (~34 h) and further blocking and cutting exercises (~4 h)"
     coreTexts:
       - title: The Folger Guide to Teaching A Midsummer Night's Dream
         kind: instructional
@@ -263,9 +265,11 @@ rows:
       readingHours: 0
       readingBasis: "none counted: Berry, Linklater and Rodenburg are voice manuals the teacher works from, counted as practice; Walker's Elements of Elocution has no page count and is left out"
       work:
-        - { kind: practice, hours: 70, note: "daily 15-minute voice warm-up, 54 wk x 5 x 15 min" }
-        - { kind: exercises, hours: 25, note: "weekly guided voice lesson on the Linklater progression, 54 x 30 min" }
+        - { kind: practice, hours: 36, note: "daily 15-minute voice warm-up, 29 wk x 5 x 15 min" }
+        - { kind: exercises, hours: 12, note: "weekly guided voice lesson on the Linklater progression, 24 x 30 min" }
         - { kind: writing, hours: 3, note: "comparison of Walker's rules on emphasis and inflection with Berry's approach" }
+      electiveHours: 47
+      electiveBasis: "the daily warm-up continued through a further 25 weeks (~34 h) and further guided voice lessons (~13 h)"
     coreTexts:
       - title: Voice and the Actor
         kind: instructional
@@ -344,6 +348,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Specialist voice training. The core drama line keeps scene study, voice, verse speaking
+      and full production.
     ageStart: 12
     ageEnd: 13.5
     order: 4
@@ -465,7 +473,8 @@ rows:
       student also meets the First Folio as an actors' text and cue-script rehearsal. The main texts are
       John Barton's Playing Shakespeare (the RSC workshop series with Dench, McKellen, Stewart and
       others), Berry's The Actor and the Text, and Patrick Tucker's Secrets of Acting Shakespeare.
-      Poetry-07 teaches scansion on the page; this course teaches speaking it on the stage.
+      Poetry-07 teaches scansion on the page; this course teaches speaking it on the stage. Elective:
+      Linklater's Freeing Shakespeare's Voice.
     objectives:
       - Scan a speech, then speak it so the meter is felt but never sing-song, keeping the energy to the end of each line
       - Mark and play every antithesis in a speech (e.g. Brutus' "Not that I loved Caesar less, but that I loved Rome more")
@@ -474,18 +483,23 @@ rows:
       - Compare a speech in the First Folio and a modern edition, and argue from punctuation, capitals and lineation for a playing choice
       - Perform two contrasting speeches (verse and prose) and one soliloquy spoken directly to the audience
     workload:
-      readingHours: 45
-      readingBasis: "1,146 pp: four actors' books on Shakespeare's verse (Berry, Barton, Tucker, Linklater) at ~25 pp/h, plus the advice to the players"
+      readingHours: 20
+      readingBasis: "510 pp: Barton whole and selections from Berry and Tucker at ~25 pp/h, plus the advice to the players"
       work:
-        - { kind: practice, hours: 35, note: "weekly verse-speaking and cue-script rehearsal, 54 x 40 min" }
-        - { kind: memorization, hours: 18, note: "two contrasting speeches, a soliloquy and a start on 5–6 audition speeches, ~6 x 3 h" }
-        - { kind: exercises, hours: 14, note: "scansion, antithesis marking and Folio-versus-modern comparisons, 27 x 30 min" }
-        - { kind: discussion, hours: 14, note: "watching and discussing the nine Playing Shakespeare workshops, 9 x 1.5 h" }
+        - { kind: practice, hours: 22, note: "weekly verse-speaking and cue-script rehearsal, 33 x 40 min" }
+        - { kind: memorization, hours: 12, note: "two contrasting speeches and a soliloquy, ~3 x 3 h plus review" }
+        - { kind: exercises, hours: 7, note: "scansion, antithesis marking and Folio-versus-modern comparisons, 14 x 30 min" }
+        - { kind: discussion, hours: 9, note: "watching and discussing the nine Playing Shakespeare workshops, 9 x 1 h" }
+      electiveHours: 56
+      electiveBasis: "Linklater's Freeing Shakespeare's Voice and the rest of Berry and Tucker (~640 pp, ~25 h), further verse-speaking practice (~13 h), a start on 5–6 audition speeches (~6 h), further exercises (~7 h) and longer workshop discussion (~5 h)"
     coreTexts:
       - title: The Actor and the Text
         kind: instructional
         reader: student
         pages: 303
+        role: selections
+        portion: "the chapters on verse, with their exercises"
+        readPages: 150
         author: Cicely Berry
         date: "1987; rev. 2000"
         publicDomain: false
@@ -507,6 +521,9 @@ rows:
         kind: instructional
         reader: student
         pages: 389
+        role: selections
+        portion: "the opening chapters on the cue script and the 30 secrets"
+        readPages: 120
         lessons: 10
         lessonLabel: chapter
         lessonsNote: "Routledge table of contents, 2nd ed.: 10 chapters, The 30 Secrets to The Plays and the Clues, plus epilogue and appendices"
@@ -515,7 +532,7 @@ rows:
         publicDomain: false
         links:
           - { label: Routledge, url: "https://www.routledge.com/Secrets-of-Acting-Shakespeare-The-Original-Approach/Tucker/p/book/9781138678521" }
-      - title: "Freeing Shakespeare's Voice: The Actor's Guide to Talking the Text"
+      - title: "Freeing Shakespeare's Voice: The Actor's Guide to Talking the Text (elective)"
         kind: instructional
         reader: student
         pages: 214
@@ -566,6 +583,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Specialist voice training. The core drama line keeps scene study, voice, verse speaking
+      and full production.
     ageStart: 13
     ageEnd: 14.5
     order: 6
@@ -671,6 +692,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Specialist voice training. The core drama line keeps scene study, voice, verse speaking
+      and full production.
     ageStart: 14
     ageEnd: 15.5
     order: 7
@@ -771,6 +796,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Specialist voice training. The core drama line keeps scene study, voice, verse speaking
+      and full production.
     ageStart: 14.5
     ageEnd: 15.5
     order: 8
@@ -890,6 +919,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Specialist voice training. The core drama line keeps scene study, voice, verse speaking
+      and full production.
     ageStart: 15
     ageEnd: 16
     order: 9
@@ -988,7 +1021,7 @@ rows:
     ageStart: 15.5
     ageEnd: 16.5
     order: 10
-    prerequisites: [drama-05, drama-07]
+    prerequisites: [drama-05, drama-03]
     related: [literature-26, rhetoric-09]
     summary: >-
       The craft side of the full student production that literature-26 requires. That row covers the
@@ -1006,14 +1039,16 @@ rows:
       - Serve as verse or dialect coach for the cast, using the IPA and lexical-set skills of drama-04 to drama-07
       - Compete in the ESU National Shakespeare Competition school round (one monologue plus one sonnet)
     workload:
-      readingHours: 8
-      readingBasis: "246 pp: Mitchell's The Director's Craft at ~30 pp/h"
+      readingHours: 4
+      readingBasis: "120 pp: selections from Mitchell's The Director's Craft at ~30 pp/h"
       work:
-        - { kind: project, hours: 70, note: "full production: ~10 weeks x 3 rehearsals x 2 h plus ~10 h of tech, dress and performances" }
+        - { kind: project, hours: 50, note: "full production: ~7 weeks x 3 rehearsals x 2 h plus ~8 h of tech, dress and performances" }
         - { kind: memorization, hours: 15, note: "a principal role of 200+ lines" }
-        - { kind: exercises, hours: 15, note: "cutting the play to a two-hour text and building the promptbook" }
-        - { kind: practice, hours: 8, note: "directing a 10-minute scene with younger players, 8 x 1 h" }
-        - { kind: recitation, hours: 8, note: "preparing the ESU monologue and sonnet" }
+        - { kind: exercises, hours: 10, note: "cutting the play to a two-hour text and building the promptbook" }
+        - { kind: practice, hours: 6, note: "directing a 10-minute scene with younger players, 6 x 1 h" }
+        - { kind: recitation, hours: 5, note: "preparing the ESU monologue and sonnet" }
+      electiveHours: 34
+      electiveBasis: "the rest of The Director's Craft (~126 pp, ~4 h), a longer rehearsal period (~20 h), further promptbook work (~5 h), two more directing sessions (~2 h) and fuller ESU preparation (~3 h)"
     coreTexts:
       - title: The Folger Method (Cutting a Text; Promptbooks; Group Scenes)
         kind: instructional
@@ -1027,6 +1062,9 @@ rows:
         kind: instructional
         reader: student
         pages: 246
+        role: selections
+        portion: "the chapters on preparing and running rehearsals"
+        readPages: 120
         lessons: 14
         lessonLabel: chapter
         lessonsNote: "Routledge table of contents: 14 chapters in four parts"
@@ -1093,6 +1131,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 11

@@ -1,6 +1,10 @@
 track: ap-humanities
 title: "AP Languages, English & Music (side track)"
 trackGroup: AP & Exams
+elective: true
+electiveNote: >-
+  AP exam preparation. When a student takes it, it replaces the matching core unit's hours
+  rather than adding to them.
 description: >-
   A side track for the AP exams in English, Latin, Spanish, Chinese and music theory. It supplements the main
   tracks and never replaces them. Rhetoric, grammar and composition, literature, poetry, Latin, Spanish, Chinese

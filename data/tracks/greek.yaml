@@ -145,8 +145,10 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 145, note: "Machen (45 lessons), Athenaze I or First Form Greek over 1.5 years, 54 weeks x 4 x 40 min; the grammar is lessons, not reading" }
-        - { kind: memorization, hours: 25, note: "vocabulary to about 600 words and the verb paradigms" }
+        - { kind: exercises, hours: 120, note: "Machen (45 lessons), Athenaze I or First Form Greek over 1.5 years, about 160 sessions x 45 min (three a week); the grammar is lessons, not reading" }
+        - { kind: memorization, hours: 22, note: "vocabulary to about 600 words and the verb paradigms" }
+      electiveHours: 28
+      electiveBasis: "a fourth weekly session of supplementary exercises and adapted reading (~25 h) and extra vocabulary review (~3 h)"
     coreTexts:
       - title: New Testament Greek for Beginners
         kind: instructional
@@ -227,8 +229,10 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 110, note: "Crosby & Schaeffer or Hansen & Quinn, 36 weeks x 4 x 45 min" }
-        - { kind: memorization, hours: 20, note: "principal parts of the 100 most important irregular verbs" }
+        - { kind: exercises, hours: 63, note: "the grammar lessons of Crosby & Schaeffer or Hansen & Quinn, 36 weeks x 3 x 35 min; the review lessons and supplementary exercises are elective" }
+        - { kind: memorization, hours: 15, note: "principal parts of the 100 most important irregular verbs, 36 weeks x 25 min" }
+      electiveHours: 52
+      electiveBasis: "the review lessons and supplementary exercises in a fourth weekly session (~47 h) and extra principal-parts drill (~5 h)"
     coreTexts:
       - title: An Introduction to Greek
         kind: instructional
@@ -365,17 +369,19 @@ rows:
     related: [latin-06]
     summary: >-
       The student learns to consult Goodwin (the 19th-century school standard) and Smyth (the
-      comprehensive reference). He writes English-to-Greek sentences and short passages weekly
+      comprehensive reference). He writes English-to-Greek sentences and short passages regularly
       from North & Hillard's Greek Prose Composition, which fixes accents, moods and particles.
     objectives:
       - Look up any construction in Smyth or Goodwin by section number
-      - Complete the first 40 exercises of North & Hillard's Greek Prose Composition
+      - Complete the first 20 exercises of North & Hillard's Greek Prose Composition
       - Accent correctly any noun or verb form written
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 70, note: "the first 40 North & Hillard exercises x ~1.5 h (60 h), plus Smyth and Goodwin look-up lessons and accent drill (10 h), spread over 5.5 years" }
-        - { kind: discussion, hours: 13, note: "tutor correction of each exercise, 40 x 20 min" }
+        - { kind: exercises, hours: 34, note: "the first 20 North & Hillard exercises x ~1.5 h (30 h), plus Smyth and Goodwin look-up lessons and accent drill (4 h), spread over 5.5 years" }
+        - { kind: discussion, hours: 7, note: "tutor correction of each exercise, 20 x 20 min" }
+      electiveHours: 42
+      electiveBasis: "North & Hillard exercises 21–40 with tutor correction (~36 h) and further look-up and accent drill (~6 h)"
     coreTexts:
       - title: A Greek Grammar
         kind: instructional
@@ -408,7 +414,7 @@ rows:
         date: "1902"
         publicDomain: true
         role: selections
-        portion: "the first 40 exercises"
+        portion: "the first 20 exercises"
         pace: long
         links:
           - { label: Archive.org, url: "https://archive.org/details/greekprosecompos0000nort" }
@@ -484,6 +490,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      The core Greek path reads the New Testament and Homer; Xenophon is read in translation in
+      history-08.
     ageStart: 13
     ageEnd: 14
     order: 8
@@ -567,6 +577,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      The core Greek path reads the New Testament and Homer; the Apology and Crito are read in
+      translation in philosophy-03.
     ageStart: 14
     ageEnd: 15
     order: 10
@@ -620,7 +634,7 @@ rows:
     ageStart: 14.5
     ageEnd: 16
     order: 11
-    prerequisites: [greek-08]
+    prerequisites: [greek-04, greek-07]
     related: [latin-12, literature-16]
     summary: >-
       Homeric dialect and the dactylic hexameter. The student reads Odyssey Books I and IX–XII
@@ -695,6 +709,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      The core Greek path reads the New Testament and Homer; Herodotus is read in translation in
+      history-15.
     ageStart: 15
     ageEnd: 16
     order: 12
@@ -741,6 +759,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      The core Greek path reads the New Testament and Homer; the Greek Fathers are read in
+      translation in theology-16.
     ageStart: 15.5
     ageEnd: 16.5
     order: 13
@@ -790,6 +812,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      The core Greek path reads the New Testament and Homer; the tragedians are read in
+      translation in literature-16.
     ageStart: 16
     ageEnd: 16.5
     order: 14
@@ -849,6 +875,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 15

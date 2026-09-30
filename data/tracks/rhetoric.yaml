@@ -211,18 +211,21 @@ rows:
       - Use gesture, eye contact and movement purposefully
       - Deliver a selection before an audience and take structured critique
     workload:
-      readingHours: 12
-      readingBasis: "240 pp: English Reader and McGuffey's Sixth Reader selections at ~20 pp/h; Sheridan's Lectures (262 pp) is a teacher text and is not counted"
+      readingHours: 7
+      readingBasis: "140 pp: English Reader and McGuffey's Sixth Reader selections at ~20 pp/h; Sheridan's Lectures (262 pp) is a teacher text and is not counted"
       work:
-        - { kind: memorization, hours: 25, note: "one major speech excerpt a term, 6 x 4 h" }
-        - { kind: exercises, hours: 25, note: "lessons on emphasis, inflection, pause and gesture, and marking texts for delivery, 72 x 20 min" }
-        - { kind: recitation, hours: 18, note: "coached rehearsal and a termly declamation with critique, 6 x 3 h" }
+        - { kind: memorization, hours: 15, note: "one major speech excerpt a term, 6 x 2.5 h" }
+        - { kind: exercises, hours: 8, note: "lessons on emphasis, inflection, pause and gesture, and marking texts for delivery, 24 x 20 min" }
+        - { kind: recitation, hours: 9, note: "coached rehearsal and a termly declamation with critique, 6 x 1.5 h" }
+      electiveHours: 41
+      electiveBasis: "fuller reading in the English Reader and McGuffey's Sixth Reader (~100 pp, ~5 h), longer memorized pieces (~10 h), further delivery lessons (~17 h) and further coached rehearsal (~9 h)"
     coreTexts:
       - title: "The English Reader: or, Pieces in Prose and Poetry, Selected from the Best Writers"
         kind: instructional
         reader: student
         pages: 254
         role: selections
+        readPages: 60
         author: Lindley Murray
         date: "1799 (this ed. 1841)"
         publicDomain: true
@@ -242,6 +245,7 @@ rows:
         reader: student
         pages: 464
         role: selections
+        readPages: 80
         author: William Holmes McGuffey (compiled with Alexander H. McGuffey)
         date: "1857/1879"
         publicDomain: true
@@ -302,7 +306,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 13
-    ageEnd: 14
+    ageEnd: 14.5
     order: 7
     prerequisites: [rhetoric-06]
     related: [logic-05, philosophy-07]
@@ -320,13 +324,15 @@ rows:
       - Analyze figures of speech (schemes and tropes) and use several deliberately
       - Deliver a 5–7 minute deliberative speech built by the five canons
     workload:
-      readingHours: 40
-      readingBasis: "629 pp: Aristotle's Rhetoric, the Phaedrus and Gorgias and Isocrates at ~15 pp/h; Corbett (584 pp) is the course textbook, counted under exercises"
+      readingHours: 38
+      readingBasis: "569 pp: Aristotle's Rhetoric, the Gorgias and the second half of the Phaedrus, and Isocrates at ~15 pp/h; Corbett (584 pp) is the course textbook, counted under exercises"
       work:
-        - { kind: exercises, hours: 45, note: "Corbett worked as the textbook with its exercises on topics and figures, 36 wk x 75 min" }
-        - { kind: discussion, hours: 25, note: "weekly seminar on Aristotle and Plato, 36 x 45 min" }
-        - { kind: writing, hours: 18, note: "speech analyses and speech drafts, ~6 x 3 h" }
+        - { kind: exercises, hours: 28, note: "Corbett worked as the textbook with its exercises on topics and figures, 28 wk x 60 min" }
+        - { kind: discussion, hours: 15, note: "weekly seminar on Aristotle and Plato, 30 x 30 min" }
+        - { kind: writing, hours: 12, note: "speech analyses and speech drafts, ~4 x 3 h" }
         - { kind: practice, hours: 8, note: "building and delivering a 5–7 minute deliberative speech" }
+      electiveHours: 37
+      electiveBasis: "the first half of the Phaedrus (~60 pp, ~4 h), further Corbett exercises (~17 h), a longer weekly seminar (~10 h) and two further speech analyses (~6 h)"
     coreTexts:
       - title: Rhetoric
         kind: primary
@@ -342,6 +348,9 @@ rows:
         kind: primary
         reader: student
         pages: 200
+        role: selections
+        portion: "the Gorgias whole; the Phaedrus from 257c (on the art of rhetoric) to the end"
+        readPages: 140
         author: Plato
         publicDomain: true
         links:
@@ -409,8 +418,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 15
+    ageStart: 14
+    ageEnd: 16
     order: 8
     prerequisites: [rhetoric-05]
     related: [philosophy-10]
@@ -427,20 +436,23 @@ rows:
       - Write an imitation that uses a model's structure on a new subject
       - Compare the ancient and modern styles of deliberative eloquence
     workload:
-      readingHours: 30
-      readingBasis: "~515 pp of oratory at ~18 pp/h: Demosthenes, Webster, Lincoln, Churchill, King, and Burke's Conciliation speech estimated at ~50 pp"
+      readingHours: 11
+      readingBasis: "~204 pp of oratory at ~18 pp/h: Demosthenes' First and Third Philippics and First Olynthiac, Burke's Conciliation speech (~50 pp), Henry, Webster's Reply to Hayne, Lincoln, Churchill and King"
       work:
-        - { kind: writing, hours: 25, note: "analyses of the seven speeches (7 x 2 h), an imitation on a new subject (~5 h) and an ancient-versus-modern comparison (~5 h)" }
-        - { kind: memorization, hours: 16, note: "four major passages x 4 h" }
+        - { kind: writing, hours: 16, note: "analyses of the seven speeches (7 x 1 h), an imitation on a new subject (~5 h) and an ancient-versus-modern comparison (~4 h)" }
+        - { kind: memorization, hours: 12, note: "four major passages x 3 h" }
         - { kind: recitation, hours: 6, note: "delivering the four passages, 4 x 1.5 h" }
-        - { kind: discussion, hours: 12, note: "each speech in its setting as statesmanship, 16 x 45 min" }
+        - { kind: discussion, hours: 6, note: "each speech in its setting as statesmanship, 8 x 45 min" }
+      electiveHours: 38
+      electiveBasis: "the remaining Olynthiacs and Philippics and wider reading in Webster's and Lincoln's speeches (~310 pp, ~19 h), fuller analyses and comparison (~9 h), longer memory work (~4 h) and further discussion (~6 h)"
     coreTexts:
       - title: The Public Orations of Demosthenes, vol. 1 (Olynthiacs, Philippics)
         kind: primary
         reader: student
         pages: 280
         role: selections
-        portion: "Olynthiacs and Philippics"
+        portion: "First and Third Philippics and the First Olynthiac"
+        readPages: 40
         author: Demosthenes (trans. A.W. Pickard-Cambridge)
         publicDomain: true
         links:
@@ -450,6 +462,7 @@ rows:
         reader: student
         role: selections
         portion: "Speech on Conciliation with America"
+        readPages: 50
         author: Edmund Burke
         publicDomain: true
         links:
@@ -469,6 +482,7 @@ rows:
         pages: 707
         role: selections
         portion: "Reply to Hayne"
+        readPages: 70
         author: Daniel Webster
         publicDomain: true
         links:
@@ -479,6 +493,7 @@ rows:
         pages: 290
         role: selections
         portion: "Gettysburg Address and Second Inaugural"
+        readPages: 5
         author: Abraham Lincoln
         publicDomain: true
         links:
@@ -544,7 +559,8 @@ rows:
       Competitive and in-home debate trains the student to argue both sides, think on his feet,
       and cross-examine. The formats are Lincoln–Douglas value debate (one-on-one, modeled on the
       1858 Senate debates), team parliamentary debate (impromptu), and mock trial or moot court
-      (forensic rhetoric, rules of evidence, direct and cross-examination).
+      (forensic rhetoric, rules of evidence, direct and cross-examination). The competitive tournament
+      season is elective.
     objectives:
       - Research and brief both sides of a resolution with evidence
       - Construct a value/criterion case and rebuttals for Lincoln–Douglas debate
@@ -552,17 +568,22 @@ rows:
       - Argue impromptu in parliamentary format with 15–20 minutes of preparation
       - Play attorney and witness roles in a mock trial
     workload:
-      readingHours: 35
-      readingBasis: "699 pp: the Lincoln–Douglas debates at ~20 pp/h"
+      readingHours: 15
+      readingBasis: "300 pp: the Ottawa, Freeport and Alton debates at ~20 pp/h"
       work:
-        - { kind: exercises, hours: 25, note: "formats, case construction and cross-examination lessons (Everyday Debate, Argument Builder), 36 x 45 min" }
-        - { kind: project, hours: 65, note: "briefing both sides of ~3 resolutions (3 x 15 h) and one mock-trial case (~20 h)" }
-        - { kind: practice, hours: 110, note: "weekly practice rounds and impromptu drills, 108 x 40 min (72 h), plus ~5 tournaments x 8 h" }
+        - { kind: exercises, hours: 18, note: "formats, case construction and cross-examination lessons (Everyday Debate, Argument Builder), 24 x 45 min" }
+        - { kind: project, hours: 36, note: "briefing both sides of two resolutions (2 x 12 h) and one mock-trial case (~12 h)" }
+        - { kind: practice, hours: 20, note: "practice rounds and impromptu parliamentary drills, 30 x 40 min" }
+      electiveHours: 146
+      electiveBasis: "the other four Lincoln–Douglas debates (~400 pp, ~20 h), further format lessons (~7 h), a third resolution and fuller mock-trial preparation (~29 h) and the competitive season of weekly practice rounds and ~5 tournaments (~90 h)"
     coreTexts:
       - title: The Lincoln–Douglas Debates of 1858
         kind: primary
         reader: student
         pages: 699
+        role: selections
+        portion: "the Ottawa, Freeport and Alton debates"
+        readPages: 300
         pace: long
         author: Abraham Lincoln & Stephen A. Douglas
         publicDomain: true
@@ -617,18 +638,23 @@ rows:
       - Read Quintilian Books 1, 2, 10 and 12 and compare them with this program's own design
       - Use the memory palace (Ad Herennium III) to memorize a speech
     workload:
-      readingHours: 65
-      readingBasis: "1,264 pp of Roman rhetorical treatises in translation (De Inventione, De Oratore, Ad Herennium, Quintilian 1, 2, 10, 12) at ~20 pp/h"
+      readingHours: 27
+      readingBasis: "540 pp of Roman rhetorical treatises in translation (De Inventione I, De Oratore I, Ad Herennium I and III, Quintilian 1, 2, 10, 12) at ~20 pp/h"
       work:
-        - { kind: discussion, hours: 40, note: "seminar, 54 x 45 min" }
-        - { kind: exercises, hours: 15, note: "stasis analysis and parts-of-the-oration exercises, 15 x 1 h" }
+        - { kind: discussion, hours: 16, note: "seminar, 32 x 30 min" }
+        - { kind: exercises, hours: 10, note: "stasis analysis and parts-of-the-oration exercises, 10 x 1 h" }
         - { kind: memorization, hours: 8, note: "memorizing a speech with a memory palace (Ad Herennium III)" }
-        - { kind: writing, hours: 15, note: "De Oratore summary and an essay comparing Quintilian with the program" }
+        - { kind: writing, hours: 10, note: "De Oratore summary (~3 h) and an essay comparing Quintilian with the program (~7 h)" }
+      electiveHours: 70
+      electiveBasis: "the rest of De Inventione, De Oratore and the Ad Herennium (~720 pp, ~36 h), a longer weekly seminar (~24 h), further stasis exercises (~5 h) and fuller essay revision (~5 h)"
     coreTexts:
       - title: De Inventione (On Rhetorical Invention), in The Orations of Marcus Tullius Cicero, vol. 4
         kind: primary
         reader: student
         pages: 140
+        role: selections
+        portion: "Book I"
+        readPages: 70
         author: Cicero (trans. C.D. Yonge)
         publicDomain: true
         links:
@@ -638,6 +664,9 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        role: selections
+        portion: "Book I (the debate of Crassus and Antonius on the orator's education)"
+        readPages: 130
         author: Cicero (trans. J.S. Watson)
         date: "55 BC; trans. 1871"
         publicDomain: true
@@ -648,6 +677,9 @@ rows:
         kind: primary
         reader: student
         pages: 491
+        role: selections
+        portion: "Books I (the parts of the oration and stasis) and III (delivery and memory)"
+        readPages: 80
         author: Anonymous (formerly attributed to Cicero)
         date: "c. 80s BC"
         publicDomain: true
@@ -659,6 +691,7 @@ rows:
         pages: 1000
         role: selections
         portion: "Books 1, 2, 10 and 12"
+        readPages: 260
         author: Quintilian (trans. H.E. Butler)
         date: "c. AD 95"
         publicDomain: true
@@ -678,6 +711,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Classical and Roman rhetoric remain core; the founding-era manuals are kept as an
+      elective.
     ageStart: 15
     ageEnd: 16
     order: 11
@@ -772,6 +809,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 12

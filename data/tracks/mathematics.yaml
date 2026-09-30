@@ -399,6 +399,9 @@ rows:
     type: unit
     level: 6-8
     stage: formal
+    elective: true
+    electiveNote: >-
+      Competition preparation, taken on top of the core course.
     ageStart: 10.5
     ageEnd: 13
     order: 8
@@ -692,18 +695,20 @@ rows:
       to incommensurable magnitudes and the root of the real numbers. Read beside Nicomachus's
       Introduction to Arithmetic (the medieval quadrivium's arithmetic) and Archimedes's Measurement of
       a Circle and On the Equilibrium of Planes, which show Greek geometry applied to measurement and
-      mechanics.
+      mechanics. Elective: Nicomachus Book II.
     objectives:
       - Follow Euclid's definition of same ratio (V, Def. 5) and prove key proportion theorems
       - Demonstrate Book VI similarity theorems
       - Reproduce Archimedes's bounds for π from inscribed and circumscribed polygons
       - Explain the Pythagorean/Nicomachean classification of numbers
     workload:
-      readingHours: 55
-      readingBasis: "484 pp: Byrne's Books V–VI ~89 pp at ~6 pp/h (15 h), Archimedes ~109 pp at ~5 pp/h (22 h), Nicomachus 286 pp at ~15 pp/h (19 h)"
+      readingHours: 43
+      readingBasis: "288 pp: Byrne's Books V–VI ~89 pp at ~6 pp/h (15 h), Archimedes ~109 pp at ~5 pp/h (22 h), Nicomachus Book I ~90 pp at ~15 pp/h (6 h)"
       work:
-        - { kind: exercises, hours: 20, note: "proportion theorems and Archimedes's polygon bounds for pi worked out, ~20 x 1 h" }
-        - { kind: recitation, hours: 8, note: "Book V–VI demonstrations at the board, ~15 x 30 min" }
+        - { kind: exercises, hours: 12, note: "proportion theorems and Archimedes's polygon bounds for pi worked out, ~12 x 1 h" }
+        - { kind: recitation, hours: 6, note: "Book V–VI demonstrations at the board, ~12 x 30 min" }
+      electiveHours: 22
+      electiveBasis: "Nicomachus Book II and the translators' studies (~196 pp, ~13 h), and further proportion exercises and board demonstrations (~9 h)"
     coreTexts:
       - title: The First Six Books of the Elements of Euclid
         kind: primary
@@ -734,6 +739,9 @@ rows:
         author: Nicomachus of Gerasa (trans. M. L. D'Ooge)
         date: "c. AD 100 (trans. 1926)"
         publicDomain: true
+        role: selections
+        portion: "Book I (the classification of numbers and of ratios)"
+        readPages: 90
     curriculumOptions:
       - name: "Euclid's Elements (Densmore ed.)"
         publisher: Green Lion Press
@@ -829,6 +837,9 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Competition preparation, taken on top of the core course.
     ageStart: 13
     ageEnd: 16
     order: 14
@@ -904,8 +915,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 15
+    ageEnd: 16
     order: 16
     prerequisites: [mathematics-11]
     related: [social-science-03, social-science-04, economics-10]
@@ -930,9 +941,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 150, note: "AP Statistics lessons and problem sets through the five CED units, 36 wk x 4 x 50 min (120 h), plus AoPS Counting and Probability (~30 h)" }
-        - { kind: project, hours: 20, note: "written investigations in the question, collect, analyze, interpret cycle, ~4 x 5 h" }
-        - { kind: exam-prep, hours: 25, note: "released FRQs and timed full practice exams in April and May" }
+        - { kind: exercises, hours: 70, note: "AP Statistics lessons and core problem sets through the five CED units, 36 wk x 2 x 50 min (60 h), plus AoPS Counting and Probability chapters 1–5 (~10 h)" }
+        - { kind: project, hours: 10, note: "written investigations in the question, collect, analyze, interpret cycle, 2 x 5 h" }
+        - { kind: exam-prep, hours: 10, note: "released FRQs and two timed full practice exams in April and May" }
+      electiveHours: 105
+      electiveBasis: "further AP problem sets in two more weekly sessions (~60 h), the remaining AoPS Counting and Probability chapters (~20 h), two further investigations (~10 h) and further practice exams (~15 h)"
     curriculumOptions:
       - name: "The Practice of Statistics for the AP Course, 7th ed. (Starnes & Tabor)"
         publisher: BFW / Macmillan Learning
@@ -1173,6 +1186,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Beyond the core sequence through calculus and proof; suited to dual enrollment.
     ageStart: 15.5
     ageEnd: 16.5
     order: 19
@@ -1216,6 +1232,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      Beyond the core sequence through calculus and proof; suited to dual enrollment.
     ageStart: 16.5
     ageEnd: 17.5
     order: 20
@@ -1276,19 +1295,22 @@ rows:
       at the board: Ptolemy's Almagest (chord tables and planetary models), Apollonius's Conics, Descartes's
       Geometry (the birth of analytic geometry), Newton's Principia, Lobachevsky's non-Euclidean
       Geometrical Researches, and Dedekind's essays on continuity and number. The aim is to understand
-      how mathematics was discovered and what its first principles are.
+      how mathematics was discovered and what its first principles are. Elective: the rest of the
+      Geometry and the Principia, and Dedekind's The Nature and Meaning of Numbers.
     objectives:
       - Demonstrate selected propositions of Apollonius and Ptolemy
       - Reconstruct Descartes's solution of Pappus's problem
       - Follow Lobachevsky's construction of a geometry without the parallel postulate
       - Explain Dedekind's construction of the real numbers by cuts
     workload:
-      readingHours: 85
-      readingBasis: "~520 pp at ~5–8 pp/h: Descartes's Geometry (245 pp with facing French facsimile, ~120 pp of English) 25 h, Principia ~227 pp 38 h, Lobachevsky 52 pp 10 h, Dedekind 115 pp 14 h"
+      readingHours: 35
+      readingBasis: "~240 pp at ~5–8 pp/h: Descartes's Geometry Book I and the opening of Book II (~90 pp with facing French facsimile, ~45 pp of English) 9 h, Principia definitions, laws, Book I sections 1–3 and Book III rules and phenomena ~70 pp 12 h, Lobachevsky 52 pp 10 h, Dedekind's Continuity and Irrational Numbers ~27 pp 4 h"
       work:
-        - { kind: recitation, hours: 45, note: "demonstrating propositions at the board in tutorial, 30 wk x 2 x 45 min" }
-        - { kind: exercises, hours: 30, note: "Apollonius and Ptolemy selections from the Green Lion editions (no counted pages) and the reconstruction of Pappus's problem, ~30 x 1 h" }
-        - { kind: writing, hours: 10, note: "a tutorial paper, e.g. on Dedekind's cuts or Lobachevsky's parallels" }
+        - { kind: recitation, hours: 22, note: "demonstrating propositions at the board in tutorial, 30 wk x 45 min" }
+        - { kind: exercises, hours: 16, note: "Apollonius and Ptolemy selections from the Green Lion editions (no counted pages) and the reconstruction of Pappus's problem, ~16 x 1 h" }
+        - { kind: writing, hours: 8, note: "a tutorial paper, e.g. on Dedekind's cuts or Lobachevsky's parallels" }
+      electiveHours: 89
+      electiveBasis: "the rest of Descartes's Geometry, the Principia and Dedekind's The Nature and Meaning of Numbers (~50 h), a second weekly tutorial session (~23 h), and further Apollonius and Ptolemy exercises and a longer paper (~16 h)"
     coreTexts:
       - title: The Geometry of René Descartes (Smith & Latham trans.)
         kind: primary
@@ -1297,6 +1319,9 @@ rows:
         author: René Descartes
         date: "1637 (trans. 1925)"
         publicDomain: true
+        role: selections
+        portion: "Book I and the opening of Book II (Pappus's problem)"
+        readPages: 90
         links:
           - { label: Archive.org, url: "https://archive.org/details/geometryofrenede0000unse_y3h6" }
           - { label: "Project Gutenberg (French)", url: "https://www.gutenberg.org/ebooks/26400" }
@@ -1316,6 +1341,9 @@ rows:
         author: Richard Dedekind
         date: "1872/1888"
         publicDomain: true
+        role: selections
+        portion: "Continuity and Irrational Numbers"
+        readPages: 27
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/21016" }
       - title: Principia
@@ -1323,6 +1351,8 @@ rows:
         reader: student
         pages: 680
         role: selections
+        portion: "Definitions, Axioms, Book I sections 1–3, and the Rules of Reasoning and Phenomena of Book III"
+        readPages: 70
         author: Isaac Newton, trans. Andrew Motte
         date: "1687"
         publicDomain: true

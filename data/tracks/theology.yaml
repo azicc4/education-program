@@ -410,7 +410,8 @@ rows:
     type: unit
     level: early-5
     stage: formal
-    ageStart: 8.5
+    day: sunday
+    ageStart: 9
     ageEnd: 10.5
     order: 9
     prerequisites: [theology-04]
@@ -471,6 +472,7 @@ rows:
     type: unit
     level: 6-8
     stage: formal
+    day: sunday
     ageStart: 9.5
     ageEnd: 11
     order: 10
@@ -596,13 +598,14 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    day: sunday
     ageStart: 11
-    ageEnd: 12.5
+    ageEnd: 13
     order: 12
     prerequisites: [theology-07]
     related: [rhetoric-06]
     summary: >-
-      A close reading of Matthew, Mark, Luke, John and Acts in a modern Catholic translation, using
+      Sunday Scripture study: a close reading of Matthew, Mark, Luke, John and Acts in a modern Catholic translation, using
       the notes, essays and word studies of the Ignatius Catholic Study Bible (Hahn & Mitch). The
       student learns to read Scripture in context, use cross-references and commentary, and see
       how the Old Testament is fulfilled in the New.
@@ -615,9 +618,11 @@ rows:
       readingHours: 14
       readingBasis: "207 pp: the Gospels and Acts with study notes at ~15 pp/h"
       work:
-        - { kind: memorization, hours: 25, note: "Sermon on the Mount in sections, 54 weeks x 3 x 10 min" }
-        - { kind: exercises, hours: 18, note: "synoptic parallels and Old Testament fulfillment study, 30 x 35 min" }
-        - { kind: discussion, hours: 18, note: "discussion, 36 x 30 min" }
+        - { kind: memorization, hours: 18, note: "Sermon on the Mount in sections, 54 Sundays x 20 min" }
+        - { kind: exercises, hours: 14, note: "synoptic parallels and Old Testament fulfillment study, 28 Sundays x 30 min" }
+        - { kind: discussion, hours: 14, note: "Sunday discussion, 42 x 20 min" }
+      electiveHours: 15
+      electiveBasis: "further memory review of the Sermon on the Mount (~7 h), further synoptic and fulfillment exercises (~4 h) and further discussion (~4 h)"
     coreTexts:
       - title: "Ignatius Catholic Study Bible: New Testament (RSV-2CE)"
         kind: primary
@@ -669,9 +674,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 65, note: "Laux Parts I–IV read and studied as lessons with review questions, 64 weeks x 1 h" }
-        - { kind: writing, hours: 20, note: "written answers to objections, 10 x 2 h" }
-        - { kind: discussion, hours: 20, note: "weekly discussion, 64 x 20 min" }
+        - { kind: exercises, hours: 48, note: "Laux Parts I–IV read and studied as lessons with the core review questions, 64 weeks x 45 min" }
+        - { kind: writing, hours: 10, note: "written answers to objections, 5 x 2 h" }
+        - { kind: discussion, hours: 12, note: "fortnightly discussion, 36 x 20 min" }
+      electiveHours: 35
+      electiveBasis: "the remaining Laux review questions (~17 h), five further written answers to objections (~10 h) and further discussion (~8 h)"
     coreTexts:
       - title: A Course in Religion for Catholic High Schools and Academies (Parts I–IV)
         kind: instructional
@@ -720,11 +727,13 @@ rows:
       - Summarize Lewis's moral argument and his "liar, lunatic or Lord" trilemma, and evaluate them
       - Answer five common objections to Christianity in short essays
     workload:
-      readingHours: 90
-      readingBasis: "1,553 pp: Sheed and Kreeft-Tacelli (712 pp) at ~18 pp/h (40 h), Adam and Paley (650 pp) at ~15 pp/h (43 h), Mere Christianity at ~25 pp/h (8 h)"
+      readingHours: 60
+      readingBasis: "1,040 pp: Sheed and Kreeft-Tacelli selections (419 pp) at ~18 pp/h (23 h), Adam and Paley selections (430 pp) at ~15 pp/h (29 h), Mere Christianity at ~25 pp/h (8 h)"
       work:
-        - { kind: writing, hours: 25, note: "five objection essays x 2.5 h and three argument papers x 4 h" }
-        - { kind: discussion, hours: 40, note: "weekly discussion over 1.5 years, 54 x 45 min" }
+        - { kind: writing, hours: 16, note: "five objection essays x 2 h and two argument papers x 3 h" }
+        - { kind: discussion, hours: 24, note: "fortnightly discussion over 1.5 years, 36 x 40 min" }
+      electiveHours: 55
+      electiveBasis: "the rest of Kreeft-Tacelli and Paley's Evidences (~513 pp, ~30 h), a third argument paper and fuller essay revision (~9 h) and longer discussion (~16 h)"
     coreTexts:
       - title: Theology for Beginners
         kind: secondary
@@ -739,6 +748,9 @@ rows:
         kind: secondary
         reader: student
         pages: 493
+        role: selections
+        portion: the chapters on faith and reason, the existence of God, the soul, the Resurrection and the Church
+        readPages: 200
         pace: long
         author: Peter Kreeft & Ronald K. Tacelli, S.J.
         date: "2009"
@@ -794,6 +806,9 @@ rows:
         kind: primary
         reader: student
         pages: 400
+        role: selections
+        portion: the Preparatory Considerations and Part I (the direct historical evidence)
+        readPages: 180
         author: William Paley
         date: "1794"
         publicDomain: true
@@ -838,8 +853,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    day: sunday
     ageStart: 13
-    ageEnd: 14.5
+    ageEnd: 16
     order: 15
     prerequisites: [theology-12]
     related: [rhetoric-08, literature-31]
@@ -918,8 +934,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 14.5
+    day: sunday
+    ageStart: 15.5
+    ageEnd: 16.5
     order: 16
     prerequisites: [theology-14]
     related: [philosophy-08, chinese-10, history-18]
@@ -999,8 +1016,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    day: sunday
+    ageStart: 16.5
+    ageEnd: 17.5
     order: 17
     prerequisites: [theology-16]
     related: [philosophy-06, spanish-09]
@@ -1082,21 +1100,24 @@ rows:
     summary: >-
       Three great converts and men of letters defend the faith against modern unbelief. Newman's
       Apologia Pro Vita Sua is the history of his religious opinions from Anglicanism to Rome.
-      Chesterton's Orthodoxy and The Everlasting Man argue with paradox and history. Lewis's
+      Two chapters of Chesterton's Orthodoxy argue with paradox. Lewis's
       Screwtape Letters and The Great Divorce are imaginative works on temptation and on heaven and
       hell, and The Abolition of Man defends objective value and natural law in education.
+      Elective: The Everlasting Man and the rest of Orthodoxy.
     objectives:
       - Trace Newman's development and his idea that "to live is to change"
       - Summarize Chesterton's "Ethics of Elfland" and "The Paradoxes of Christianity"
       - Explain Lewis's "Tao" and "men without chests" and apply them to modern education
       - Write a Screwtape-style letter on a modern temptation
     workload:
-      readingHours: 65
-      readingBasis: "1,230 pp: Newman at ~15 pp/h (26 h), Chesterton and Abolition of Man (547 pp) at ~20 pp/h (27 h), Screwtape and Great Divorce (288 pp) at ~30 pp/h (10 h)"
+      readingHours: 44
+      readingBasis: "840 pp: Newman at ~15 pp/h (26 h), Orthodoxy IV and VI and Abolition of Man (157 pp) at ~20 pp/h (8 h), Screwtape and Great Divorce (288 pp) at ~30 pp/h (10 h)"
       work:
-        - { kind: writing, hours: 20, note: "Screwtape-style letter and four essays, 5 x 4 h" }
-        - { kind: discussion, hours: 20, note: "fortnightly discussion, 27 x 45 min" }
-        - { kind: exercises, hours: 11, note: "Hillsdale Lewis lectures (8 x 40 min) and Memoria Orthodoxy guide (12 x 30 min)" }
+        - { kind: writing, hours: 12, note: "Screwtape-style letter and two essays, 3 x 4 h" }
+        - { kind: discussion, hours: 10, note: "fortnightly discussion, 15 x 40 min" }
+        - { kind: exercises, hours: 5, note: "Hillsdale Lewis lectures, 8 x 40 min" }
+      electiveHours: 45
+      electiveBasis: "The Everlasting Man and the rest of Orthodoxy (~390 pp, ~21 h), the Memoria Orthodoxy guide (~6 h), two further essays (~8 h) and further discussion (~10 h)"
     coreTexts:
       - title: Apologia Pro Vita Sua
         kind: primary
@@ -1112,12 +1133,15 @@ rows:
         kind: primary
         reader: student
         pages: 156
+        role: selections
+        portion: 'chapters IV ("The Ethics of Elfland") and VI ("The Paradoxes of Christianity")'
+        readPages: 40
         author: G.K. Chesterton
         date: "1908"
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/130" }
-      - title: The Everlasting Man
+      - title: "The Everlasting Man (elective)"
         kind: primary
         reader: student
         pages: 274
@@ -1169,6 +1193,7 @@ rows:
       Newman and Chesterton converted from Anglicanism to Catholicism, while Lewis remained an
       Anglican. The Great Divorce's purgatory-like "refrigerium" is Lewis's imaginative device, but
       Lewis did personally believe in purgatory, which surprises many Protestant readers.
+      Orthodoxy and The Everlasting Man are read in full in literature-24.
 
   - id: theology-19
     title: "Comparative Theology: The Protestant Classics Read with Charity"
@@ -1195,11 +1220,13 @@ rows:
       - State Pascal's wager and his "reasons of the heart", and note where Jansenism diverged from Catholic teaching
       - Write a comparative essay that states each side in terms its own adherents would accept
     workload:
-      readingHours: 100
-      readingBasis: "1,712 pp: Calvin, Wesley and Pascal (1,019 pp) at ~18 pp/h (57 h), Butler and the Shorter Catechism (374 pp) at ~15 pp/h (25 h), Bonhoeffer at ~20 pp/h (16 h)"
+      readingHours: 34
+      readingBasis: "604 pp: Calvin, Wesley and Pascal selections (410 pp) at ~18 pp/h (23 h), Butler selections and the Shorter Catechism (94 pp) at ~15 pp/h (6 h), Bonhoeffer chapters I–V at ~20 pp/h (5 h)"
       work:
-        - { kind: writing, hours: 30, note: "comparative essay (6–8 pp) with revision 12 h, catechism comparison chart 6 h, 5 short papers x 2 h" }
-        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: writing, hours: 20, note: "comparative essay (6–8 pp) with revision 10 h, catechism comparison chart 6 h, 2 short papers x 2 h" }
+        - { kind: discussion, hours: 24, note: "weekly seminar, 24 x 1 h" }
+      electiveHours: 82
+      electiveBasis: "the rest of Calvin's Books I and III, further Wesley sermons and the rest of Pascal, Butler and Bonhoeffer (~1,108 pp, ~66 h), three further short papers and fuller essay revision (~10 h) and six further seminars (~6 h)"
     coreTexts:
       - title: The Westminster Shorter Catechism
         kind: primary
@@ -1216,7 +1243,8 @@ rows:
         reader: student
         pages: 1500
         role: selections
-        portion: Book I (the knowledge of God) and Book III (faith and justification)
+        portion: "Book I, chapters 1–9 (the knowledge of God and of ourselves), and Book III, chapters 1–3 and 11–14 (faith and justification)"
+        readPages: 200
         author: John Calvin
         date: "1536; final ed. 1559"
         publicDomain: true
@@ -1228,7 +1256,8 @@ rows:
         reader: student
         pages: 500
         role: selections
-        portion: several of the standard sermons
+        portion: '"Salvation by Faith", "The Almost Christian", "Justification by Faith", "The Witness of the Spirit" (I and II) and "Christian Perfection"'
+        readPages: 80
         author: John Wesley
         publicDomain: true
         links:
@@ -1238,6 +1267,9 @@ rows:
         kind: primary
         reader: student
         pages: 319
+        role: selections
+        portion: "chapters I–V (Costly Grace to Discipleship and the Individual)"
+        readPages: 100
         author: Dietrich Bonhoeffer
         date: "1937; Eng. 1948"
         publicDomain: false
@@ -1247,6 +1279,9 @@ rows:
         kind: primary
         reader: student
         pages: 352
+        role: selections
+        portion: "sections II–IV (the misery of man without God, the necessity of the wager, the means of belief)"
+        readPages: 130
         author: Blaise Pascal (trans. W.F. Trotter)
         date: "1670"
         publicDomain: true
@@ -1257,6 +1292,9 @@ rows:
         kind: primary
         reader: student
         pages: 350
+        role: selections
+        portion: "the Introduction, Part I, chapter 1 (of a future life) and Part II, chapter 1 (the importance of Christianity)"
+        readPages: 70
         author: Joseph Butler
         date: "1736"
         publicDomain: true
@@ -1338,10 +1376,12 @@ rows:
       readingHours: 30
       readingBasis: "631 pp at ~20 pp/h: Spirit of the Liturgy (350 pp), Sacrosanctum Concilium and four encyclicals (281 pp); Callan and McHugh's manual is counted as lessons under exercises"
       work:
-        - { kind: exercises, hours: 50, note: "Callan and McHugh's Moral Theology (824 pp) as 32 lessons x 90 min" }
-        - { kind: writing, hours: 19, note: "policy memo using the Compendium 8 h, 8 double-effect cases x 1 h, two service descriptions x 1.5 h" }
-        - { kind: discussion, hours: 25, note: "weekly discussion, 32 x 45 min" }
+        - { kind: exercises, hours: 30, note: "Callan and McHugh's Moral Theology (824 pp) as 20 of its 32 lessons x 90 min" }
+        - { kind: writing, hours: 15, note: "policy memo using the Compendium 8 h, 4 double-effect cases x 1 h, two service descriptions x 1.5 h" }
+        - { kind: discussion, hours: 12, note: "discussion, 24 x 30 min" }
         - { kind: practice, hours: 4, note: "attending services of two other traditions" }
+      electiveHours: 37
+      electiveBasis: "the remaining 12 Callan and McHugh lessons (~20 h), four further double-effect cases (~4 h) and further discussion (~13 h)"
     coreTexts:
       - title: "The Spirit of the Liturgy (Commemorative Edition, with Guardini's work of the same title)"
         kind: primary
@@ -1426,8 +1466,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 17
     order: 21
     prerequisites: [theology-13, theology-14]
     related: [philosophy-09]
@@ -1499,9 +1539,10 @@ rows:
     summary: >-
       This is a Thomas Aquinas College–style tutorial in the Summa Theologiae, read article by
       article (objections, sed contra, respondeo, replies). It covers sacred doctrine (I q.1), the
-      existence and nature of God and the five ways (I qq.2–13), the Trinity (I qq.27–43), man and
+      existence and nature of God and the five ways (I qq.2–13), the Trinity (I qq.27–32), man and
       happiness (I-II qq.1–5), the treatise on law (I-II qq.90–97, including natural law), and
-      Christ and the sacraments (III, selections). Kreeft's Summa of the Summa supplies notes for
+      Christ and the sacraments (III qq.1–2 and 60). The rest of the treatise on the Trinity and
+      further questions of the Tertia Pars are elective. Kreeft's Summa of the Summa supplies notes for
       self-study.
     objectives:
       - Read and present a Summa article in its full scholastic structure
@@ -1510,18 +1551,21 @@ rows:
       - Apply natural-law reasoning to a constitutional or legislative question
       - Explain the doctrine of the Trinity using Aquinas's terms (procession, relation, person)
     workload:
-      readingHours: 65
-      readingBasis: "~1,000 pp of the Summa read article by article at ~15 pp/h"
+      readingHours: 40
+      readingBasis: "~600 pp of the Summa read article by article at ~15 pp/h"
       work:
-        - { kind: discussion, hours: 90, note: "tutorial, 30 weeks x 2 x 90 min" }
-        - { kind: writing, hours: 50, note: "eight article presentations in scholastic form x 3 h and two 8-page papers x 12 h" }
+        - { kind: discussion, hours: 36, note: "tutorial, 24 weeks x 90 min" }
+        - { kind: writing, hours: 24, note: "six article presentations in scholastic form x 2 h and one 8-page paper x 12 h" }
+      electiveHours: 105
+      electiveBasis: "the rest of the treatise on the Trinity (I qq.33–43) and further questions of the Tertia Pars (~400 pp, ~25 h), a second weekly tutorial and longer sessions (~54 h), and two further article presentations and a second paper (~26 h)"
     coreTexts:
       - title: Summa Theologiae
         kind: primary
         reader: student
         pages: 3000
         role: selections
-        portion: "I q. 1; I qq. 2–13; I qq. 27–43; I-II qq. 1–5; I-II qq. 90–97; III (selections)"
+        portion: "I q. 1; I qq. 2–13; I qq. 27–32; I-II qq. 1–5; I-II qq. 90–97; III qq. 1–2 and 60"
+        readPages: 600
         pace: long
         author: Thomas Aquinas (trans. Fathers of the English Dominican Province)
         date: "1265–1274"
@@ -1589,11 +1633,13 @@ rows:
       - State and apply Newman's seven notes of genuine development
       - Write a research paper on one council or reform movement from primary sources
     workload:
-      readingHours: 50
-      readingBasis: "1,277 pp: Eusebius at ~25 pp/h (9 h), Newman's Essay at ~18 pp/h (25 h), Carroll at ~40 pp/h (15 h); the councils, creeds, 95 Theses and Trent decrees are not counted"
+      readingHours: 35
+      readingBasis: "1,032 pp: Eusebius at ~25 pp/h (9 h), Newman's Essay selections (200 pp) at ~18 pp/h (11 h), Carroll at ~40 pp/h (15 h); the councils, creeds, 95 Theses and Trent decrees are not counted"
       work:
-        - { kind: writing, hours: 50, note: "research paper (12–15 pp) from primary sources ~40 h, plus 6 short papers x 2 h" }
-        - { kind: discussion, hours: 60, note: "30 seminars x 2 h" }
+        - { kind: writing, hours: 20, note: "research paper (8–10 pp) from primary sources ~16 h, plus 2 short papers x 2 h" }
+        - { kind: discussion, hours: 24, note: "16 seminars x 90 min" }
+      electiveHours: 81
+      electiveBasis: "the rest of Newman's Essay (~245 pp, ~15 h), a longer research paper and four further short papers (~30 h) and further seminars (~36 h)"
     coreTexts:
       - title: Church History
         kind: primary
@@ -1610,6 +1656,9 @@ rows:
         kind: primary
         reader: student
         pages: 445
+        role: selections
+        portion: "the Introduction, chapters 1–5 (the nature of development and the seven notes) and the Conclusion"
+        readPages: 200
         author: John Henry Newman
         date: "1845; rev. 1878"
         publicDomain: true
@@ -1652,6 +1701,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College seminar beyond the core; the spiritual classics are core in theology-17.
     ageStart: 17
     ageEnd: 18
     order: 24
@@ -1709,6 +1761,7 @@ rows:
     type: practice
     level: 6-8
     stage: formal
+    day: sunday
     ageStart: 10
     ageEnd: 16
     order: 11.5

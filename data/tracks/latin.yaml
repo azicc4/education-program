@@ -662,20 +662,22 @@ rows:
     order: 8
     prerequisites: [latin-04]
     summary: >-
-      "Making Latin": English-to-Latin prose composition done weekly across two to three years.
+      "Making Latin": English-to-Latin prose composition done every week or two across two to three years.
       The student starts with single sentences on one construction at a time (Bradley's Arnold)
       and moves to connected passages in the style of Caesar and Cicero (North & Hillard). Nothing
       else fixes grammar so permanently.
     objectives:
-      - Complete the exercises of Bradley's Arnold Parts I–II
+      - Complete the core exercises of Bradley's Arnold Parts I–II
       - Write a correct 100-word Latin paragraph in the style of Caesar
       - Choose the right idiom for purpose, result, indirect speech and conditions
       - Keep a personal phrase-book of Ciceronian idioms collected from reading
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 115, note: "about 90 weekly proses over 2.5 years (Arnold I–II, then North & Hillard) x ~75 min, including writing out corrections; the two books are workbooks, not reading" }
-        - { kind: discussion, hours: 30, note: "tutor correction of each prose, 90 x 20 min" }
+        - { kind: exercises, hours: 70, note: "about 56 proses over 2.5 years, roughly one every other week of term (the core exercises of Arnold I–II, then about 20 North & Hillard passages) x ~75 min, including writing out corrections; the two books are workbooks, not reading" }
+        - { kind: discussion, hours: 19, note: "tutor correction of each prose, 56 x 20 min" }
+      electiveHours: 56
+      electiveBasis: "about 34 further proses from Arnold and North & Hillard, for a weekly rhythm, with tutor correction (~56 h)"
     coreTexts:
       - title: "A Practical Introduction to Latin Prose Composition (Bradley's Arnold)"
         kind: instructional
@@ -704,6 +706,8 @@ rows:
         date: "1895"
         publicDomain: true
         order: 2
+        role: selections
+        portion: "about 20 connected passages"
         pace: long
         links:
           - { label: "Archive.org (1913 printing)", url: "https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913" }
@@ -912,8 +916,9 @@ rows:
     summary: >-
       "Tully", the model of Latin prose and of republican statesmanship. The student reads the
       First Catilinarian and Pro Archia (the defence of liberal letters), a selection of letters,
-      and De Amicitia and De Senectute. He finishes with De Officiis Book I, the moral handbook
-      of the founders' generation, which Boston boys read as "Tully's Offices".
+      and De Amicitia and De Senectute. He finishes with the core of De Officiis Book I, the moral handbook
+      of the founders' generation, which Boston boys read as "Tully's Offices". Elective: the
+      Tusculan Disputations.
     objectives:
       - Read In Catilinam I and Pro Archia in full
       - Read 15–20 letters to Atticus and to friends
@@ -923,9 +928,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: translation, hours: 130, note: "about 155 pp of Latin actually assigned (Cat. I, Pro Archia, De Amicitia, 15–20 letters, Off. I, Tusculan selections) at ~1.2 pp/h; the counted 553 pp include a third of the complete letters" }
+        - { kind: translation, hours: 92, note: "about 110 pp of Latin actually assigned (Cat. I, Pro Archia, De Amicitia, 15–20 letters, Off. I §§1–60 and 150–161) at ~1.2 pp/h; the counted 470 pp include a third of the complete letters" }
         - { kind: discussion, hours: 15, note: "structure of the period and the oration, and the moral works, about 30 x 30 min" }
         - { kind: memorization, hours: 4, note: "Quo usque tandem (Cat. I.1–2), learned and declaimed" }
+      electiveHours: 38
+      electiveBasis: "the Tusculan Disputations selections and the rest of De Officiis Book I (~45 pp of Latin, ~38 h)"
     coreTexts:
       - title: In Catilinam I–IV
         kind: primary
@@ -975,11 +982,11 @@ rows:
         date: "44 BC"
         publicDomain: true
         role: selections
-        portion: "Book I"
+        portion: "Book I, §§1–60 (the sources of duty and justice) and §§150–161 (the ranking of duties)"
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/cicero/off.shtml" }
           - { label: "Steadman, De Officiis Book 1 (free PDF)", url: "https://geoffreysteadman.com/cicero-de-officiis-book-1/" }
-      - title: Tusculanae Disputationes
+      - title: "Tusculanae Disputationes (elective)"
         kind: primary
         reader: student
         pages: 250
@@ -1039,12 +1046,12 @@ rows:
     related: [greek-11]
     exams: [ap-latin]
     summary: >-
-      The summit of the school course. The student reads Aeneid Books I, II, IV and VI in full,
-      the rest selectively and the rest in translation, plus Eclogues I and IV. Pietas, duty,
+      The summit of the school course. The student reads Aeneid Books I, IV and VI in full and
+      the chief passages of Book II, the rest in translation, plus Eclogue IV. Pietas, duty,
       founding a nation and the cost of empire make this the founding father's epic. Large
-      passages are memorized.
+      passages are memorized. Elective: the rest of Book II and Eclogue I.
     objectives:
-      - Read Aeneid I, II, IV and VI in Latin (about 3,000 lines)
+      - Read Aeneid I, IV and VI in Latin and the chief passages of Book II (about 2,600 lines)
       - Scan and read hexameter aloud with expression at sight
       - Memorize at least 100 lines (e.g. I.1–33, VI.847–853)
       - Write an essay on pietas in Aeneas compared with Achilles or Odysseus
@@ -1052,11 +1059,13 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: translation, hours: 125, note: "Aeneid I, II, IV and VI, about 3,000 lines at ~25 lines/h (120 h), and Eclogues I and IV (6 h)" }
+        - { kind: translation, hours: 108, note: "Aeneid I, IV and VI in full (about 2,360 lines) and Book II 1–56, 199–249, 268–297, 559–620 and 735–804 (about 270 lines), about 2,630 lines at ~25 lines/h (105 h), and Eclogue IV (3 h)" }
         - { kind: memorization, hours: 10, note: "at least 100 lines of the Aeneid" }
-        - { kind: exercises, hours: 8, note: "scansion and expressive reading of hexameter at sight, 16 x 30 min" }
-        - { kind: writing, hours: 8, note: "essay on pietas in Aeneas compared with Achilles or Odysseus" }
-        - { kind: discussion, hours: 10, note: "weekly discussion of the poem, 40 x 15 min" }
+        - { kind: exercises, hours: 5, note: "scansion and expressive reading of hexameter at sight, 10 x 30 min" }
+        - { kind: writing, hours: 6, note: "essay on pietas in Aeneas compared with Achilles or Odysseus, drafted and revised" }
+        - { kind: discussion, hours: 5, note: "discussion of the poem, 20 x 15 min" }
+      electiveHours: 27
+      electiveBasis: "the rest of Aeneid II (~535 lines) and Eclogue I (~20 h), and further scansion, discussion and essay work (~7 h)"
     coreTexts:
       - title: Aeneid
         kind: primary
@@ -1066,7 +1075,7 @@ rows:
         date: "19 BC"
         publicDomain: true
         role: selections
-        portion: "Books I, II, IV and VI (about 3,000 lines)"
+        portion: "Books I, IV and VI; Book II 1–56, 199–249, 268–297, 559–620 and 735–804 (about 2,600 lines)"
         pace: long
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/verg.html" }
@@ -1107,6 +1116,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Livy is read in translation in the Rome seminar (history-16); the core Latin path reads
+      Caesar, Cicero, Virgil and Horace.
     ageStart: 14
     ageEnd: 15
     order: 13
@@ -1197,9 +1210,9 @@ rows:
     summary: >-
       The poet of the golden mean, contentment and friendship, and the most quoted Latin author
       in eighteenth-century English letters. The student reads selected Odes (I.9, I.11, II.3,
-      II.10, III.1–6 "Roman Odes", III.30), two Satires and the Ars Poetica. He learns the lyric
+      II.10, III.1–6 "Roman Odes", III.30) and the Ars Poetica. He learns the lyric
       metres (Alcaic, Sapphic, Asclepiad) and builds a stock of tags for conversation and
-      writing.
+      writing. Elective: two Satires, the last two acts of Terence's Andria and the Adelphoe.
     objectives:
       - Read 25–30 Odes and scan the Alcaic, Sapphic and Asclepiad metres
       - Read the Ars Poetica and summarize its precepts on poetry
@@ -1208,10 +1221,12 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: translation, hours: 130, note: "Horace: 25–30 Odes, two Satires and the Ars Poetica, about 1,450 lines at ~22 lines/h (65 h); Terence Andria and Adelphoe, about 2,000 lines at ~30 lines/h (65 h); counted 167 pp" }
+        - { kind: translation, hours: 74, note: "Horace: 25–30 Odes and the Ars Poetica, about 1,180 lines at ~22 lines/h (54 h); Terence Andria Acts I–III, about 600 lines at ~30 lines/h (20 h); counted 167 pp" }
         - { kind: memorization, hours: 8, note: "five Odes" }
-        - { kind: exercises, hours: 6, note: "Alcaic, Sapphic and Asclepiad scansion drill" }
+        - { kind: exercises, hours: 5, note: "Alcaic, Sapphic and Asclepiad scansion drill, ~10 x 30 min" }
         - { kind: writing, hours: 5, note: "one Horatian ode imitated in English verse" }
+      electiveHours: 57
+      electiveBasis: "two Satires (~230 lines, ~10 h), Andria Acts IV–V and the Adelphoe (~1,400 lines, ~46 h) and further scansion drill (~1 h)"
     coreTexts:
       - title: Carmina, Sermones, Epistulae, Ars Poetica
         kind: primary
@@ -1221,7 +1236,7 @@ rows:
         date: "c. 35–13 BC"
         publicDomain: true
         role: selections
-        portion: "25–30 Odes, two Satires and the Ars Poetica"
+        portion: "25–30 Odes and the Ars Poetica"
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/hor.html" }
       - title: "Comedies: Andria and Adelphoe (with the other four plays)"
@@ -1232,7 +1247,7 @@ rows:
         date: "166–160 BC"
         publicDomain: true
         role: selections
-        portion: "Andria and Adelphoe"
+        portion: "Andria, Acts I–III"
         links:
           - { label: The Latin Library (Latin), url: "https://www.thelatinlibrary.com/ter.html" }
           - { label: "Gutenberg (tr. George Colman, 1765)", url: "https://www.gutenberg.org/ebooks/22695" }
@@ -1272,8 +1287,9 @@ rows:
       in bulk and composed Latin lyric verse on his model.
     notes: >-
       Terence is core: Jefferson named him with Virgil and Horace as the Latin poets, and John
-      Quincy Adams finished the Andria with his Horace. Read the Andria and the Adelphoe in Latin
-      and the other plays in Colman's translation if time allows. Choose 1 of the 2 electives
+      Quincy Adams finished the Andria with his Horace. Read the first three acts of the Andria in Latin.
+      The rest of the Andria and the Adelphoe are elective, and the other plays can be read in
+      Colman's translation if time allows. Choose 1 of the 2 electives
       (Plautus or Persius).
 
   - id: latin-15
@@ -1281,6 +1297,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Latin Composition I remains core; advanced prose and verse composition is for strong
+      Latinists.
     ageStart: 14.5
     ageEnd: 16.5
     order: 15
@@ -1442,6 +1462,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 17
@@ -1515,24 +1538,27 @@ rows:
     ageStart: 17.5
     ageEnd: 18.5
     order: 18
-    prerequisites: [latin-16, latin-17]
+    prerequisites: [latin-16, latin-11, latin-14]
     summary: >-
-      The finishing course. The student reads the whole of the Confessions in Latin and a sequence
+      The finishing course. The student reads the narrative books of the Confessions (I–IX) in Latin and a sequence
       of Summa questions (e.g. on law, I-II qq.90–97, which is foundational for natural-law
       political thought). He reads selections of Neo-Latin (Erasmus, Thomas More's Utopia, Grotius)
-      and practises daily sight-reading of unseen passages from any period. The test is the
-      Harvard standard of reading Tully (and, from 1655, Virgil) "ex tempore".
+      and practises regular sight-reading of unseen passages from any period. The test is the
+      Harvard standard of reading Tully (and, from 1655, Virgil) "ex tempore". Elective: Confessions
+      X and the rest of Erasmus's Institutio.
     objectives:
-      - Read Confessions I–X in Latin
+      - Read Confessions I–IX in Latin
       - Read Summa Theologiae I-II qq.90–97 (the Treatise on Law) in Latin
       - Translate an unseen passage of Cicero, Livy or Virgil at sight with minimal help
       - Read a Neo-Latin political text (More, Erasmus's Institutio Principis Christiani, or Grotius)
     workload:
       readingHours: 0
       work:
-        - { kind: translation, hours: 95, note: "Confessions I–X (~160 pp of Latin) and Erasmus Institutio (~100 pp) at ~3 pp/h, and Summa I-II qq.90–97 (~40 pp) at ~4 pp/h; counted 810 pp include editions with apparatus" }
-        - { kind: practice, hours: 60, note: "daily sight-reading of unseen Cicero, Livy, Virgil and Neo-Latin, 36 weeks x 5 x 20 min" }
-        - { kind: discussion, hours: 15, note: "natural law and the Christian prince, 30 x 30 min" }
+        - { kind: translation, hours: 63, note: "Confessions I–IX (~130 pp of Latin) and Erasmus Institutio ch. I (~30 pp) at ~3 pp/h (53 h), and Summa I-II qq.90–97 (~40 pp) at ~4 pp/h (10 h); counted 480 pp include editions with apparatus" }
+        - { kind: practice, hours: 27, note: "sight-reading of unseen Cicero, Livy, Virgil and Neo-Latin, 36 weeks x 3 x 15 min" }
+        - { kind: discussion, hours: 10, note: "natural law and the Christian prince, 20 x 30 min" }
+      electiveHours: 70
+      electiveBasis: "Confessions X and Erasmus Institutio chs. II–XI (~100 pp of Latin, ~33 h), daily sight-reading in place of three sessions a week (~33 h) and further discussion (~5 h)"
     coreTexts:
       - title: Confessiones
         kind: primary
@@ -1540,6 +1566,9 @@ rows:
         pages: 383
         author: St. Augustine
         publicDomain: true
+        role: selections
+        portion: "Books I–IX"
+        readPages: 250
         pace: long
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/august.html" }
@@ -1558,6 +1587,9 @@ rows:
         author: Desiderius Erasmus
         date: "1516"
         publicDomain: true
+        role: selections
+        portion: "Chapter I (The Birth and Education of the Christian Prince)"
+        readPages: 80
         links:
           - { label: The Latin Library, url: "https://www.thelatinlibrary.com/erasmus.html" }
     historicalPrecedent: >-

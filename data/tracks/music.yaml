@@ -244,10 +244,12 @@ rows:
       readingHours: 9
       readingBasis: "132 pp of Watts (psalm paraphrases and Divine Songs) read together at ~15 pp/h (verse)"
       work:
-        - { kind: memorization, hours: 60, note: "60 hymns, text and tune, ~1 h each over a month of daily repetition" }
-        - { kind: practice, hours: 18, note: "singing in parts from a hymnal once voices allow, ~2 yr x 36 wk x 15 min" }
-        - { kind: exercises, hours: 10, note: "author, era, tradition and meter name for each hymn, 60 x 10 min" }
+        - { kind: memorization, hours: 35, note: "60 hymns, text and tune, ~35 min each in a few minutes of daily repetition over a month" }
+        - { kind: practice, hours: 9, note: "singing in parts from a hymnal once voices allow, ~1.5 yr x 36 wk x 10 min" }
+        - { kind: exercises, hours: 4, note: "author, era, tradition and meter name for each hymn, 60 x 4 min" }
         - { kind: writing, hours: 3, note: "a psalm compared with Watts's paraphrase of it" }
+      electiveHours: 40
+      electiveBasis: "longer daily repetition of each hymn (~25 h), further weekly part-singing (~9 h) and fuller notes on each hymn's author, era and meter (~6 h)"
     coreTexts:
       - title: The Psalms of David Imitated in the Language of the New Testament
         kind: primary
@@ -312,8 +314,10 @@ rows:
       readingHours: 10
       readingBasis: "240 pp of Brower's story-lives of composers at ~25 pp/h"
       work:
-        - { kind: exercises, hours: 80, note: "composer study: guided listening and lessons on instruments and forms, 108 wk x 30 min (54 h), plus 12 or more live concerts or services x 2 h" }
-        - { kind: discussion, hours: 18, note: "narrating composers' lives and describing works heard, 108 wk x 10 min" }
+        - { kind: exercises, hours: 51, note: "composer study: guided listening and lessons on instruments and forms, 108 wk x 15 min (27 h), plus 12 or more live concerts or services x 2 h" }
+        - { kind: discussion, hours: 9, note: "narrating composers' lives and describing works heard, 108 wk x 5 min" }
+      electiveHours: 38
+      electiveBasis: "a second 15-minute listening session each week (~27 h), longer weekly narration (~9 h) and one further concert (~2 h)"
     coreTexts:
       - title: "The World's Great Men of Music: Story-Lives of Master Musicians"
         kind: secondary
@@ -359,9 +363,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 70, note: "square notation, neumes, clefs and the eight psalm tones, 4 yr x 36 wk x 30 min" }
-        - { kind: practice, hours: 50, note: "singing Mass Ordinaries, Marian antiphons, sequences and Vespers, 4 yr x 36 wk x 20 min; the Parish Book of Chant is sung, not counted as reading" }
+        - { kind: exercises, hours: 36, note: "square notation, neumes, clefs and the eight psalm tones, 4 yr x 36 wk x 15 min" }
+        - { kind: practice, hours: 29, note: "singing Mass Ordinaries, Marian antiphons, sequences and Vespers, 4 yr x 36 wk x 12 min; the Parish Book of Chant is sung, not counted as reading" }
         - { kind: translation, hours: 15, note: "translating and explaining the Latin texts sung, ~30 texts x 30 min" }
+      electiveHours: 55
+      electiveBasis: "a longer weekly notation and psalm-tone lesson (~34 h) and further weekly singing of the Ordinaries, antiphons, sequences and Vespers (~21 h)"
     coreTexts:
       - title: The Parish Book of Chant (2nd ed.)
         kind: primary
@@ -466,9 +472,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 50, note: "studying his repertoire as music history and analysis, 6 or more pieces a year, 4 yr x 36 wk x 20 min" }
-        - { kind: practice, hours: 60, note: "sight-reading drill, 4 yr x 36 wk x 15 min (36 h), plus service playing (hymns, choir or church ensemble), ~24 x 1 h; daily practice, lessons and ensemble rehearsals are counted in the Music Lessons track" }
+        - { kind: exercises, hours: 36, note: "studying his repertoire as music history and analysis, 6 or more pieces a year, 4 yr x 36 wk x 15 min" }
+        - { kind: practice, hours: 48, note: "sight-reading drill, 4 yr x 36 wk x 10 min (24 h), plus service playing (hymns, choir or church ensemble), ~24 x 1 h; daily practice, lessons and ensemble rehearsals are counted in the Music Lessons track" }
         - { kind: exam-prep, hours: 15, note: "aural tests, scales and mock exams for ~4 graded practical exams" }
+      electiveHours: 26
+      electiveBasis: "longer weekly repertoire study (~14 h) and longer weekly sight-reading drill (~12 h)"
     curriculumOptions:
       - name: ABRSM practical graded exams
         publisher: ABRSM
@@ -514,8 +522,10 @@ rows:
       readingHours: 20
       readingBasis: "426 pp of Dickinson's Music in the History of the Western Church at ~20 pp/h"
       work:
-        - { kind: practice, hours: 300, note: "weekly rehearsal and sung service, 3 yr x 36 wk x 2.5 h (270 h), plus learning parts of 20 or more motets at home, ~20 x 1.5 h" }
-        - { kind: exercises, hours: 20, note: "sight-singing drill toward choir awards (RSCM Voice for Life or similar), ~40 x 30 min" }
+        - { kind: practice, hours: 172, note: "weekly choir rehearsal, 3 yr x 36 wk x 1.5 h (162 h), plus learning parts of 20 or more motets at home, ~20 x 30 min" }
+        - { kind: exercises, hours: 10, note: "sight-singing drill toward choir awards (RSCM Voice for Life or similar), ~40 x 15 min" }
+      electiveHours: 138
+      electiveBasis: "sung services and longer rehearsals beyond the 1.5-hour weekly rehearsal (~108 h), fuller home learning of motet parts (~20 h) and further sight-singing drill (~10 h)"
     coreTexts:
       - title: Music in the History of the Western Church
         kind: secondary
@@ -568,8 +578,10 @@ rows:
       readingHours: 16
       readingBasis: "156 pp of Fux's Gradus (Mann) at ~10 pp/h (dialogue with musical examples)"
       work:
-        - { kind: exercises, hours: 110, note: "five-species counterpoint, four-part chorale harmony, figured bass and Roman-numeral analysis, 3 yr x 36 wk x 1 h" }
-        - { kind: exam-prep, hours: 20, note: "ABRSM Grade 6–8 theory or AP Music Theory practice papers" }
+        - { kind: exercises, hours: 54, note: "five-species counterpoint, four-part chorale harmony, figured bass and Roman-numeral analysis, 3 yr x 36 wk x 30 min" }
+        - { kind: exam-prep, hours: 10, note: "ABRSM Grade 6–8 theory or AP Music Theory practice papers, ~5 papers x 2 h" }
+      electiveHours: 66
+      electiveBasis: "a second 30-minute weekly session of counterpoint, harmony and analysis (~56 h) and further practice papers (~10 h)"
     coreTexts:
       - title: "The Study of Counterpoint (from Fux's Gradus ad Parnassum)"
         kind: primary
@@ -653,6 +665,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      For students who compose; theory and counterpoint remain core.
     ageStart: 13
     ageEnd: 16
     order: 13
@@ -690,6 +705,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 14

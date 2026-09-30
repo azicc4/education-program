@@ -643,10 +643,12 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: translation, hours: 45, note: "reading in Spanish: San Manuel (84 pp) at ~12 pp/h (7 h), Unamuno selections (~183 pp) at ~10 pp/h (18 h), Borges (~60 pp) at ~6 pp/h (10 h), Neruda (~27 pp) at ~4 pp/h (7 h)" }
-        - { kind: writing, hours: 25, note: "about ten timed AP-format analysis essays with review, 10 x 2.5 h" }
-        - { kind: discussion, hours: 20, note: "close reading and AP themes, 36 x 35 min" }
-        - { kind: exam-prep, hours: 25, note: "AP Spanish Literature and Culture: required-list review and practice exams" }
+        - { kind: translation, hours: 41, note: "reading in Spanish: San Manuel (84 pp) at ~12 pp/h (7 h), Unamuno selections (~140 pp) at ~10 pp/h (14 h), Borges (~60 pp) at ~6 pp/h (10 h), Neruda (~27 pp) at ~4 pp/h (7 h), and rereading for discussion (3 h)" }
+        - { kind: writing, hours: 20, note: "eight timed AP-format analysis essays with review, 8 x 2.5 h" }
+        - { kind: discussion, hours: 15, note: "close reading and AP themes, 30 x 30 min" }
+        - { kind: exam-prep, hours: 15, note: "AP Spanish Literature and Culture: required-list review and two timed practice exams" }
+      electiveHours: 24
+      electiveBasis: "further Unamuno selections (~43 pp, ~4 h), two further timed essays (~5 h), further discussion (~5 h) and additional practice exams (~10 h)"
     coreTexts:
       - title: San Manuel Bueno, mártir
         kind: primary
@@ -665,6 +667,7 @@ rows:
         date: "1917; 1905"
         publicDomain: true
         role: selections
+        readPages: 140
         links:
           - { label: "Project Gutenberg: Abel Sánchez", url: "https://www.gutenberg.org/ebooks/44512" }
           - { label: "Project Gutenberg: Vida de Don Quijote y Sancho", url: "https://www.gutenberg.org/ebooks/75472" }

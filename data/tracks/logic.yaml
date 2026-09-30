@@ -292,6 +292,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Traditional and material logic are core in logic-03 to logic-05; the historical logic
+      manuals are kept for depth.
     ageStart: 14
     ageEnd: 15
     order: 6
@@ -382,7 +386,9 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 95, note: "forall x or Intermediate Logic, about 54 weeks x 2 x 50 min of chapters and problem sets (90 h), plus Boolean algebra and gates (5 h)" }
+        - { kind: exercises, hours: 59, note: "forall x or Intermediate Logic, about 36 weeks x 2 x 45 min of chapters and selected problem sets (54 h), plus Boolean algebra and gates (5 h)" }
+      electiveHours: 36
+      electiveBasis: "the remaining problem sets of forall x or Intermediate Logic (~36 h)"
     coreTexts:
       - title: "forall x: Calgary. An Introduction to Formal Logic"
         kind: instructional
@@ -434,7 +440,7 @@ rows:
     ageStart: 17
     ageEnd: 18
     order: 8
-    prerequisites: [logic-06, logic-07]
+    prerequisites: [logic-05, logic-07]
     related: [philosophy-14]
     summary: >-
       The student reads Aristotle's own logical works (Categories, On Interpretation, and
@@ -447,12 +453,14 @@ rows:
       - Compare Aristotelian demonstration with Baconian and Millian induction
       - Apply Mill's methods of agreement and difference to a real causal question
     workload:
-      readingHours: 40
-      readingBasis: "750 pp: Aristotle (183 pp) at ~15 pp/h (12 h), Bacon (360 pp) at ~20 pp/h (18 h), Mill (~207 pp) at ~20 pp/h (10 h)"
+      readingHours: 19
+      readingBasis: "330 pp: Aristotle (130 pp) at ~15 pp/h (9 h), Bacon (120 pp) at ~20 pp/h (6 h), Mill (80 pp) at ~20 pp/h (4 h)"
       work:
-        - { kind: discussion, hours: 55, note: "tutorial seminar, 36 x 90 min" }
-        - { kind: exercises, hours: 20, note: "reconstructing the Prior Analytics proofs and applying Mill's methods" }
-        - { kind: writing, hours: 25, note: "two seminar papers" }
+        - { kind: discussion, hours: 24, note: "tutorial seminar, 24 x 60 min" }
+        - { kind: exercises, hours: 12, note: "reconstructing the Prior Analytics proofs and applying Mill's methods" }
+        - { kind: writing, hours: 14, note: "two seminar papers, 2 x 7 h" }
+      electiveHours: 71
+      electiveBasis: "the rest of the Prior Analytics, the Novum Organum and Mill's Book III (~420 pp, ~21 h), a longer weekly tutorial (~31 h), further exercises (~8 h) and fuller seminar papers (~11 h)"
     coreTexts:
       - title: Categories
         kind: primary
@@ -481,6 +489,8 @@ rows:
         publicDomain: true
         order: 3
         role: selections
+        portion: "Book I, chapters 1–7 (the three figures and the reduction of the moods)"
+        readPages: 40
         links:
           - { label: MIT Internet Classics Archive, url: "https://classics.mit.edu/Aristotle/prior.html" }
       - title: Novum Organum
@@ -491,6 +501,9 @@ rows:
         date: "1620"
         publicDomain: true
         order: 4
+        role: selections
+        portion: "Book I (the Idols) and Book II, aphorisms 1–20 (the tables and the first vintage)"
+        readPages: 120
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/45988" }
       - title: "A System of Logic, Ratiocinative and Inductive"
@@ -502,7 +515,8 @@ rows:
         publicDomain: true
         order: 5
         role: selections
-        portion: "induction and the canons of experimental inquiry"
+        portion: "Book III, chapters 8–10 (the four methods of experimental inquiry)"
+        readPages: 80
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/27942" }
       - title: "On Sophistical Refutations (elective)"
