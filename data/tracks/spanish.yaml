@@ -123,11 +123,17 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/products/spanish-for-children-primer-a"
         notes: Grammar-chant approach that parallels Latin for Children, with video and audio. Ideal for a child who already understands spoken Spanish.
+        lessons: 37
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press product page: 37 weekly chapters incl. 8 review chapters"
       - name: Song School Spanish
         publisher: Classical Academic Press
         tradition: classical
         url: "https://classicalacademicpress.com/pages/series-song-school-spanish"
         notes: Gentler, song-based bridge for ages 5–7 if Primer A feels too heavy.
+        lessons: 31
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource (Book 1): 31 chapters, one per week; the publisher describes 30 weekly lessons"
       - name: Madrigal's Magic Key to Spanish
         publisher: Penguin Random House (Broadway)
         tradition: secular
@@ -175,6 +181,9 @@ rows:
         kind: instructional
         reader: together
         pages: 260
+        lessons: 68
+        lessonLabel: section
+        lessonsNote: "Archive.org scan (firstspanishread00roes) contents: 68 numbered readings (56 prose, 6 poems, 6 songs), each with questions"
         author: Erwin W. Roessler and Alfred Remy
         date: "1904"
         publicDomain: true
@@ -186,6 +195,9 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/products/spanish-for-children-primer-b"
         notes: Continues Primer A with past tenses and more reading.
+        lessons: 32
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press product page: 32 weekly chapters incl. 6 review chapters and an end-of-book review"
       - name: Fluency Matters comprehensible-input novels (e.g. Brandon Brown quiere un perro)
         publisher: Wayside Publishing (Fluency Matters)
         tradition: secular
@@ -230,6 +242,9 @@ rows:
         date: "1992"
         publicDomain: false
         pace: long
+        lessons: 52
+        lessonLabel: lesson
+        lessonsNote: "WGBH/Annenberg series of 52 episodes (Wikipedia: Destinos)"
         links:
           - { label: "Archive.org (full series)", url: "https://archive.org/details/destinos_pbs" }
           - { label: "Annenberg Learner interactive", url: "https://www.learner.org/wp-content/interactive/destinos/mexico/index.html" }
@@ -679,6 +694,9 @@ rows:
         tradition: secular
         url: "https://apcentral.collegeboard.org/courses/ap-spanish-literature-and-culture"
         notes: Its required list overlaps this track (Lazarillo, Quijote, Garcilaso, Quevedo, Sor Juana, Bécquer, Unamuno, Borges, Neruda).
+        lessons: 8
+        lessonLabel: unit
+        lessonsNote: "College Board AP Central course framework: 8 units of study"
     notes: >-
       For Neruda, choose selections rather than whole books. The Canto general and the Odas elementales
       suit students better than all of the love poems. Neruda was a communist, which is itself worth

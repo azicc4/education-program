@@ -141,6 +141,9 @@ rows:
         tradition: secular
         url: "https://heritagechinese.com/"
         notes: The widely used U.S. weekend-school series designed for heritage learners, with heavy reading.
+        lessons: 6
+        lessonLabel: unit
+        lessonsNote: "mlpchinese.com curriculum structure page: three units per school year (Grades 1-2 = 6 units)"
       - name: Better Chinese curriculum (e.g. My First Chinese Reader)
         publisher: Better Chinese
         tradition: secular
@@ -183,11 +186,17 @@ rows:
         tradition: secular
         url: "https://www.mlpchinese.com/website/page/jiegou/"
         notes: The series structure page shows the reading-heavy sequence by grade.
+        lessons: 6
+        lessonLabel: unit
+        lessonsNote: "mlpchinese.com curriculum structure page: three units per school year (Grades 3-4 = 6 units)"
       - name: HSK Standard Course 1–2
         publisher: Beijing Language and Culture University Press
         tradition: secular
         url: "https://www.blcup.com/EnPInfo/index/77"
         notes: The official HSK-aligned textbook. Use for exam preparation alongside the heritage series.
+        lessons: 30
+        lessonLabel: lesson
+        lessonsNote: "Nottingham Confucius Institute course-book list: HSK Standard Course 1 lessons 1-15 and Course 2 lessons 1-15"
       - name: Better Chinese (upper-elementary levels)
         publisher: Better Chinese
         tradition: secular
@@ -287,6 +296,9 @@ rows:
         tradition: secular
         url: "https://ic.cheng-tsui.com/"
         notes: The most widely used U.S. college and high-school Chinese textbook, with a clear grammar sequence.
+        lessons: 20
+        lessonLabel: lesson
+        lessonsNote: "Cheng & Tsui Vol. 1 preview: ten lessons per volume, Lessons 1-20 across Vols. 1-2 (plus a Basics unit in Vol. 1)"
       - name: Mandarin Companion graded readers, Level 1
         publisher: Mandarin Companion
         tradition: secular
@@ -297,6 +309,9 @@ rows:
         tradition: secular
         url: "https://www.blcup.com/EnPInfo/index/77"
         notes: Exam-aligned alternative or supplement.
+        lessons: 20
+        lessonLabel: lesson
+        lessonsNote: "Nottingham Confucius Institute course-book list: HSK Standard Course 3 lessons 1-20"
 
   - id: chinese-08
     title: "Tang Poetry: Memorizing 唐诗三百首"
@@ -370,6 +385,9 @@ rows:
         tradition: secular
         url: "https://ic.cheng-tsui.com/"
         notes: Continues the Level 1 sequence.
+        lessons: 20
+        lessonLabel: lesson
+        lessonsNote: "Cheng & Tsui Vol. 3 front matter: ten lessons per volume, numbered 1-20 across Vols. 3-4"
       - name: Chinese Breeze graded readers (中文天天读), Levels 2–4
         publisher: Peking University Press
         tradition: secular
@@ -529,6 +547,9 @@ rows:
         tradition: secular
         url: "https://www.blcup.com/EnPInfo/index/77"
         notes: Exam-aligned textbook for this stage. The link opens the series (level 1 page).
+        lessons: 36
+        lessonLabel: lesson
+        lessonsNote: "Nottingham Confucius Institute course-book list: HSK 5 first and second volumes, lessons 1-36"
     notes: >-
       Lu Xun is the founding voice of modern Chinese prose and was highly critical of traditional
       culture. Pair him with the classics students have already memorized.
@@ -562,11 +583,17 @@ rows:
         tradition: classical
         url: "https://www.hup.harvard.edu/books/9780674022706"
         notes: Graded lessons from easy anecdotes to the philosophers, built on authentic texts.
+        lessons: 42
+        lessonLabel: lesson
+        lessonsNote: "Harvard University Asia Center description: 40 lessons of pre-Han and Han texts plus 2 lessons on later texts"
       - name: An Introduction to Literary Chinese, 2nd ed. (Michael Fuller)
         publisher: Harvard University Asia Center
         tradition: classical
         url: "https://www.hup.harvard.edu/books/9780674295858"
         notes: Rigorous grammar-first alternative, with more linguistic explanation.
+        lessons: 36
+        lessonLabel: lesson
+        lessonsNote: "Harvard University Asia Center (Project MUSE): 36 lessons in four parts (8, 16, 6, 6)"
     historicalPrecedent: >-
       In late-imperial China, a schoolboy moved from the 三百千 primers to memorizing the Four Books
       (Analects, Mencius, Great Learning, Doctrine of the Mean) with Zhu Xi's commentary. This is the
@@ -662,3 +689,6 @@ rows:
         tradition: classical
         url: "https://www.ubcpress.ca/outline-of-classical-chinese-grammar"
         notes: Standard reference grammar, the Classical Chinese counterpart of Allen & Greenough.
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "UBC Press table of contents: chapters I-XV"

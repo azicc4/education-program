@@ -89,6 +89,9 @@ rows:
         notes: >-
           Light, cartoon-rich lessons from a Christian homeschool family, nominally ages 12 and up.
           Strong readers can do it at 10. It is short enough to finish in a semester.
+        lessons: 38
+        lessonLabel: lesson
+        lessonsNote: "Christian Logic product page: Thirty-Eight Lessons on How to Recognize Bad Reasoning (lessons 1-38)"
     notes: >-
       You can use both: Fallacy Detective at 9–10 and Art of Argument at 10–11. Keep a family
       "fallacy jar" for the ones you catch at dinner.
@@ -123,6 +126,9 @@ rows:
         kind: instructional
         reader: student
         pages: 110
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource (3rd ed. student text): 14 chapters plus an introduction, ch. 14 a comprehensive review"
         author: Martin Cothran
         publicDomain: false
         pace: long
@@ -136,6 +142,9 @@ rows:
         notes: >-
           Textbook, workbook, quizzes and tests, a key, and instructional video by Martin Cothran.
           It is designed for grade 7 and up and takes about one semester.
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource (3rd ed. student text): 14 chapters plus an introduction, ch. 14 a comprehensive review"
       - name: The Discovery of Deduction
         publisher: Classical Academic Press
         tradition: classical
@@ -143,6 +152,9 @@ rows:
         notes: >-
           Categorical logic taught through Socratic dialogue, with more history of logic than
           Cothran. It is written for grade 8 and up and has a video course.
+        lessons: 44
+        lessonLabel: lesson
+        lessonsNote: "Classical Academic Press sample table of contents (Exodus Books): 9 chapters, 44 numbered lessons incl. 6 dialogues"
       - name: Introductory Logic
         publisher: Canon Press
         tradition: protestant
@@ -150,6 +162,9 @@ rows:
         notes: >-
           The Canon Logic series used in classical Christian (ACCS) schools. It covers terms,
           propositions and syllogisms, and leads into Canon's Intermediate Logic.
+        lessons: 40
+        lessonLabel: lesson
+        lessonsNote: "Canon Press product page: 40 lessons in 5 units"
     historicalPrecedent: >-
       The Jesuit Ratio Studiorum (1599) and English grammar schools alike assumed a boy would
       enter university already able to dispute in syllogisms. Harvard's first course of study,
@@ -184,6 +199,9 @@ rows:
         kind: instructional
         reader: student
         pages: 404
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "St. Augustine's Press ed. 3.1 table of contents: Introduction plus chapters I-XVI"
         author: Peter Kreeft
         publicDomain: false
         pace: long
@@ -195,6 +213,9 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/traditional-logic-ii-complete-set/"
         notes: The direct sequel to Traditional Logic I, covering advanced syllogistic forms.
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Rainbow Resource (2nd ed. text): chapters 1-14 in five sections"
       - name: Socratic Logic (self-study with a tutor or parent)
         publisher: St. Augustine's Press
         tradition: catholic
@@ -202,6 +223,9 @@ rows:
         notes: >-
           College-level but readable. Use its exercises selectively at 12–13 and return to it as a
           reference through high school.
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "St. Augustine's Press ed. 3.1 table of contents: Introduction plus chapters I-XVI"
 
   - id: logic-05
     title: "Material Logic & the Liberal Arts of the Trivium"
@@ -234,6 +258,9 @@ rows:
         kind: instructional
         reader: student
         pages: 292
+        lessons: 11
+        lessonLabel: chapter
+        lessonsNote: "Paul Dry Books ed. table of contents: 11 chapters, The Liberal Arts through Composition and Reading"
         author: Sister Miriam Joseph, C.S.C.
         date: "1940s; Paul Dry Books ed. 2002"
         publicDomain: false
@@ -246,6 +273,9 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/logic-and-rhetoric/material-logic-third-edition-complete-set/"
         notes: Modes of being, knowledge and argumentation. A one- or two-semester follow-up to Traditional Logic.
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "Memoria Press product page: student text of 15 chapters"
       - name: "The Trivium (with The Trivium Companion)"
         publisher: Paul Dry Books
         tradition: catholic
@@ -253,6 +283,9 @@ rows:
         notes: >-
           Written for freshmen at Saint Mary's College (Notre Dame) in the 1930s–40s. Dense but
           beautiful, and best read slowly with a tutor.
+        lessons: 11
+        lessonLabel: chapter
+        lessonsNote: "Paul Dry Books ed. table of contents: 11 chapters, The Liberal Arts through Composition and Reading"
 
   - id: logic-06
     title: "The Logic Masters: Watts, Jevons & Joseph"
@@ -296,6 +329,9 @@ rows:
         kind: instructional
         reader: student
         pages: 340
+        lessons: 33
+        lessonLabel: lesson
+        lessonsNote: "Archive.org 1898 scan (elementarylesson00jevouoft): Lessons I-XXXIII"
         author: W. Stanley Jevons
         date: "1870"
         publicDomain: true
@@ -306,6 +342,9 @@ rows:
         kind: instructional
         reader: student
         pages: 608
+        lessons: 27
+        lessonLabel: chapter
+        lessonsNote: "Archive.org 2nd ed. 1916 scan (cu31924032298949) contents: chapters I-XXVII"
         author: H.W.B. Joseph
         date: "1906 (2nd ed. 1916)"
         publicDomain: true
@@ -349,6 +388,9 @@ rows:
         kind: instructional
         reader: student
         pages: 380
+        lessons: 48
+        lessonLabel: chapter
+        lessonsNote: "forallx.openlogicproject.org current PDF outline: 48 chapters in 9 parts"
         author: P.D. Magnus, Tim Button, et al.
         publicDomain: false
         pace: long
@@ -362,6 +404,9 @@ rows:
         notes: >-
           Truth tables, formal proofs, truth trees and argument analysis, with DVD lessons by James
           Nance. For grade 8 and up, and the most accessible option for home study.
+        lessons: 40
+        lessonLabel: lesson
+        lessonsNote: "Canon Press product page: 40 lessons in 5 units"
       - name: A Concise Introduction to Logic (14th ed.)
         publisher: Cengage (Patrick Hurley)
         tradition: secular
@@ -369,11 +414,17 @@ rows:
         notes: >-
           The most widely used college intro text, covering informal, categorical, propositional and
           predicate logic and induction. It is suitable for dual-credit rigor at 15–16.
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "WebAssign 14th ed. table of contents: chapters 1-14"
       - name: "forall x: Calgary"
         publisher: Open Logic Project
         tradition: secular
         url: "https://forallx.openlogicproject.org/"
         notes: A free, rigorous open textbook with solutions. Good for a mathematically minded student.
+        lessons: 48
+        lessonLabel: chapter
+        lessonsNote: "forallx.openlogicproject.org current PDF outline: 48 chapters in 9 parts"
 
   - id: logic-08
     title: "College Seminar: Aristotle's Organon, Induction & Scientific Method"
@@ -482,6 +533,9 @@ rows:
         notes: >-
           Ten lectures modeled on the logic and rhetoric core course that every Hillsdale student
           takes. A good capstone overview alongside the primary texts.
+        lessons: 10
+        lessonLabel: lesson
+        lessonsNote: "Hillsdale College Online course page: 10 video lessons"
       - name: Thomas Aquinas College syllabus (logic tutorial, freshman year)
         publisher: Thomas Aquinas College
         tradition: catholic

@@ -139,6 +139,9 @@ rows:
         tradition: secular
         url: "https://logicofenglish.com/pages/foundations"
         notes: Most parent-friendly of the three, with games and scripted lessons.
+        lessons: 120
+        lessonLabel: lesson
+        lessonsNote: "Logic of English Foundations page: each level contains 40 lessons (B-D = 120)"
 
   - id: reading-phonics-04
     title: "Explicit Phonics II: Readers from the Classical & Catholic Traditions"
@@ -170,6 +173,9 @@ rows:
         kind: instructional
         reader: together
         pages: 70
+        lessons: 52
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #14642 (revised ed.): Lessons I-LII, every fifth a review"
         order: 1
         author: William Holmes McGuffey
         date: "1836; rev. 1879"
@@ -180,6 +186,9 @@ rows:
         kind: instructional
         reader: together
         pages: 96
+        lessons: 63
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #14640 (revised ed.): Lessons I-LXIII"
         order: 2
         author: William Holmes McGuffey
         date: "1836; rev. 1879"
@@ -233,6 +242,9 @@ rows:
         kind: instructional
         reader: together
         pages: 170
+        lessons: 54
+        lessonLabel: section
+        lessonsNote: "Archive.org 1809 scan (americanspelling00webs): Tables I-LIV, followed by reading lessons"
         role: choice
         group: A
         pace: long
@@ -245,6 +257,9 @@ rows:
         kind: instructional
         reader: together
         pages: 168
+        lessons: 149
+        lessonLabel: section
+        lessonsNote: "Archive.org 1857 scan (elementaryspelli00websrich): numbered sections No. 1-149"
         role: choice
         group: A
         pace: long
@@ -257,6 +272,9 @@ rows:
         kind: instructional
         reader: together
         pages: 144
+        lessons: 248
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #15456 (1879 revised ed.): Lessons 1-248"
         pace: long
         author: Alexander H. McGuffey
         date: "1846; rev. 1879"
@@ -308,6 +326,9 @@ rows:
         kind: instructional
         reader: together
         pages: 160
+        lessons: 71
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #14668: Lessons I-LXXI"
         order: 1
         author: William Holmes McGuffey
         date: "1879 ed."
@@ -318,6 +339,9 @@ rows:
         kind: instructional
         reader: together
         pages: 208
+        lessons: 79
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #14766: Lessons I-LXXIX"
         order: 2
         author: William Holmes McGuffey
         date: "1879 ed."
@@ -369,6 +393,9 @@ rows:
         kind: instructional
         reader: student
         pages: 262
+        lessons: 90
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #14880 contents: 90 numbered lessons"
         order: 1
         author: William Holmes McGuffey
         date: "1879 ed."
@@ -391,6 +418,9 @@ rows:
         kind: instructional
         reader: student
         pages: 820
+        lessons: 255
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #15040 and #16751 contents: Fifth Reader 117 and Sixth Reader 138 numbered lessons"
         order: 2
         author: William Holmes McGuffey
         date: "1879 ed."
