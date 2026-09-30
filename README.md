@@ -28,7 +28,7 @@ Every subject is a **track** (26 of them across 9 subject groups). A track is a 
 The website is in `docs/` and has three views:
 
 - **Curriculum**: the master table. You can sort it by age, level, track or title, and filter it by level, subject and track or by search. Click a row to see its texts, curriculum options, and historical precedent. Each unit's texts are listed in reading order and marked "read over the unit", "selections", "reference", "re-read" or grouped as "choose one", with the weekly reading load that follows. Every formal unit also shows its **estimated effort**: total hours of reading and of work (exercises, writing, translation, memorization, discussion, labs, practice, projects, exam prep), with how each figure was reached.
-- **Skill Tree**: each track as a lane on an age axis, with prerequisite arrows. **Current Age** (on by default) shows only a chosen child's current units and hides finished and not-yet-begun tracks; **Print booklist** prints the current units' texts, the next units', or both. **One track** switches to a condensed view: one track as a simple path of unit cards, with every other track folded to its title.
+- **Skill Tree**: each track as a lane on an age axis, with prerequisite arrows. **Current Age** (on by default) shows only a chosen child's current units and hides finished and not-yet-begun tracks; **Print booklist** prints the current units' texts, the next units', or both. **No child (curriculum only)** shows the tree without any child's progress. **One track** switches to a condensed view: one track as a simple path of unit cards, with every other track folded to its title.
 - **Sources**: for each track, the curricula and programs it uses beside its primary sources, secondary works and instructional texts, with a mix bar showing the balance.
 - **Radial Tree**: one child's current place in every track, drawn as a force-directed graph around the child, with fullscreen, zoom and hover highlighting (demo children included), plus the same **Current Age** toggle and **Print booklist**.
 - **Founding-Era Reading**: the historical reading lists, cross-linked into the curriculum.
@@ -36,6 +36,7 @@ The website is in `docs/` and has three views:
   - Add each child, with a birthdate, and place them in each track.
   - See each child's **next assignments** (units whose prerequisites are done and whose typical age is near).
   - Mark units started or completed. This also works from any unit's detail panel.
+  - Log **time spent** per child in any unit's detail panel: minutes of reading, discussing and writing for each book; per lesson for textbooks (reading, exercises) and language books (learning, practicing, studying), with one total per book. Curriculum programs can be tracked the same way.
   - Keep **"Name's Bookshelf of Knowledge"**: completed units add the texts actually read (not electives, reference works, or the other options of a "choose one" group), any other book can be added with **+ Add a book**, and the shelf sorts by subject, date finished, title or author. The demo family comes with full shelves.
   - Use **Look Ahead** to get a combined shopping list of the texts every child will need in the next 3, 6 or 12 months, with an "acquired" checklist and filters to hide acquired, missing, free or paid texts.
 
