@@ -89,6 +89,9 @@ rows:
       - title: "Music: First Year (Ward Method)"
         kind: instructional
         reader: teacher
+        lessons: 36
+        lessonLabel: chapter
+        lessonsNote: "Archive.org scan table of contents: Chapters 1-36 in two parts"
         order: 1
         pace: long
         author: Justine Bayard Ward
@@ -99,6 +102,9 @@ rows:
       - title: "Music: Third Year, Teacher's Manual"
         kind: instructional
         reader: teacher
+        lessons: 36
+        lessonLabel: chapter
+        lessonsNote: "Archive.org scan: Chapters One to Thirty-Six, each about one week's work"
         order: 2
         pace: long
         author: Justine Bayard Ward

@@ -134,6 +134,9 @@ rows:
         kind: instructional
         reader: together
         pages: 96
+        lessons: 63
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 14640 text: Lessons I-LXIII incl. 5 review lessons"
         author: William Holmes McGuffey
         date: "1836 (rev. 1879)"
         publicDomain: true

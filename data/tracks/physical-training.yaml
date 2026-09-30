@@ -151,6 +151,9 @@ rows:
         kind: instructional
         reader: student
         pages: 450
+        lessons: 9
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg 29558 table of contents: Chapters I-IX, Scoutcraft to Patriotism and Citizenship"
         pace: long
         author: Boy Scouts of America
         date: "1911"
@@ -161,6 +164,9 @@ rows:
         kind: instructional
         reader: student
         pages: 270
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg 44215 text: Chapters I-XIV"
         author: Daniel Carter Beard
         date: "1920"
         publicDomain: true
@@ -170,6 +176,9 @@ rows:
         kind: instructional
         reader: student
         pages: 87
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg 34607 table of contents: Chapters I-X"
         author: George Washington Sears ("Nessmuk")
         date: "1884"
         publicDomain: true
@@ -559,6 +568,9 @@ rows:
         kind: instructional
         reader: student
         pages: 347
+        lessons: 8
+        lessonLabel: chapter
+        lessonsNote: "Open Library table of contents, 3rd ed.: 8 chapters, Strength: why and how to Programming"
         author: Mark Rippetoe
         date: "2011"
         publicDomain: false

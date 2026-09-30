@@ -152,6 +152,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 60
+        lessons: 8
+        lessonLabel: section
+        lessonsNote: "Archive.org scan contents: 8 sections, Introductory Remarks, Signals, Position, Movements, Forms, Capitals, Spacing, Shading"
         author: Spencerian authors (H. C. Spencer)
         date: "1874"
         publicDomain: true
@@ -214,6 +217,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 320
+        lessons: 12
+        lessonLabel: chapter
+        lessonsNote: "Library catalog contents, 4th ed.: 12 chapters, Drawing and the Art of Bicycle Riding to Drawing on the Artist in You"
         pace: long
         author: Betty Edwards
         date: "1979 (4th ed. 2012)"
@@ -329,6 +335,9 @@ rows:
         kind: instructional
         reader: student
         pages: 210
+        lessons: 20
+        lessonLabel: lesson
+        lessonsNote: "Archive.org scan table of contents: Step One to Step Twenty, each with problems"
         author: Ernest R. Norling
         date: "1939"
         publicDomain: false

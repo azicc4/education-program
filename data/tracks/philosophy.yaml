@@ -85,6 +85,9 @@ rows:
         kind: instructional
         reader: together
         pages: 211
+        lessons: 40
+        lessonLabel: lesson
+        lessonsNote: "Routledge title and contents: 40 questions in four parts, one per lesson"
         pace: long
         author: David A. White
         date: "2001"
@@ -212,6 +215,9 @@ rows:
         kind: instructional
         reader: student
         pages: 398
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "1972 rev. ed. table of contents (Exodus Books sample, Wikipedia): 21 chapters in four parts"
         author: Mortimer J. Adler & Charles Van Doren
         date: "1940; rev. 1972"
         publicDomain: false

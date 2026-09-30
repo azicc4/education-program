@@ -580,6 +580,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 368
+        lessons: 9
+        lessonLabel: chapter
+        lessonsNote: "Open Library table of contents: 9 play chapters, A Midsummer Night's Dream to The Tempest, plus 2 interludes and 5 appendices"
         author: Ken Ludwig
         date: "2013"
         publicDomain: false
@@ -654,6 +657,9 @@ rows:
         kind: instructional
         reader: student
         pages: 262
+        lessons: 90
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 14880 text: Lessons I-XC"
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
@@ -664,6 +670,9 @@ rows:
         kind: instructional
         reader: student
         pages: 352
+        lessons: 117
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 15040 text: Lessons I-CXVII after the introductory elocution sections"
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
@@ -674,6 +683,9 @@ rows:
         kind: instructional
         reader: student
         pages: 464
+        lessons: 138
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 16751 text: Lessons I-CXXXVIII after the introductory elocution sections"
         author: William Holmes McGuffey
         date: "1879 rev. ed."
         publicDomain: true
