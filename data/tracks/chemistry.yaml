@@ -65,6 +65,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1326
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 21 chapters, Essential Ideas onward"
         role: reference
         author: OpenStax
         date: "2019"
@@ -80,6 +83,9 @@ rows:
           Classical Christian, mastery-based, written for strong students with algebra. The best fit
           for this program. The standard-pace General Chemistry, 3rd ed.
           (https://classicalacademicpress.com/products/general-chemistry-3rd-edition) is the alternative.
+        lessons: 13
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press sample PDF, table of contents: 13 chapters with exercises"
       - name: Chemistry with Lab / Honors Chemistry (online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -93,6 +99,9 @@ rows:
           Popular homeschool option with good lab support. Apologia writes from a young-earth
           creationist perspective (see the notes on biology-01), which touches the chemistry content
           very little. It is written below honors level, so add the AP-style problem sets.
+        lessons: 16
+        lessonLabel: unit
+        lessonsNote: "Rainbow Resource listing for Exploring Creation with Chemistry, 3rd ed.: 16 modules"
     historicalPrecedent: >-
       Jefferson followed Lavoisier's new chemistry closely while minister in Paris. Joseph Priestley,
       discoverer of oxygen, emigrated to Pennsylvania in 1794 and corresponded with Jefferson and Adams.
@@ -139,6 +148,9 @@ rows:
         kind: instructional
         reader: student
         pages: 432
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "Library catalog table of contents (UTB): 21 chapters, 5 on safety, equipment and skills, then 16 laboratory chapters"
         author: Robert Bruce Thompson
         date: "2008"
         publicDomain: false
@@ -177,6 +189,9 @@ rows:
         notes: >-
           A serious home-lab manual that covers setting up a lab, glassware, safety and quantitative
           experiments at high-school and AP level. Better than a boxed set for the second year.
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "Library catalog table of contents (UTB): 21 chapters, 5 on safety, equipment and skills, then 16 laboratory chapters"
     historicalPrecedent: >-
       Lavoisier gave the whole of Part III of his Elements of Chemistry (1789) to describing instruments
       and laboratory operations: balances, gasometers, calorimeters, and how to weigh and measure. He
@@ -230,6 +245,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1200
+        lessons: 22
+        lessonLabel: chapter
+        lessonsNote: "10th ed. table of contents: 22 chapters, Chemical Foundations to Organic and Biological Molecules"
         role: choice
         group: A
         pace: long
@@ -242,6 +260,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1200
+        lessons: 24
+        lessonLabel: chapter
+        lessonsNote: "Pearson 15th ed. product page contents: 24 chapters, Introduction to The Chemistry of Life"
         role: choice
         group: A
         pace: long
@@ -254,6 +275,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1224
+        lessons: 26
+        lessonLabel: chapter
+        lessonsNote: "Pearson 6th ed. product page contents: 26 chapters, Matter, Measurement, and Problem Solving to Transition Metals"
         role: choice
         group: A
         pace: long
@@ -266,6 +290,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1326
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 21 chapters, Essential Ideas onward"
         role: choice
         group: A
         pace: long
@@ -362,6 +389,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1233
+        lessons: 31
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 31 chapters, Structure and Bonding onward"
         pace: long
         author: John McMurry (OpenStax)
         date: "2023"

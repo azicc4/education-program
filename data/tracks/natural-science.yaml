@@ -161,16 +161,25 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/science/the-book-of-birds-set/"
         notes: "Classical nature-study units. Pair with My Nature Journal (https://www.memoriapress.com/curriculum/science/my-nature-journal/)."
+        lessons: 18
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press Teacher Guide sample contents: Lessons 1-18 with four unit reviews and a final review"
       - name: "Behold and See 3: Beginning Science"
         publisher: Catholic Heritage Curricula
         tradition: catholic
         url: "https://chcweb.com/product/behold-and-see-3-beginning-science/"
         notes: Catholic elementary science with a nature-study flavor.
+        lessons: 36
+        lessonLabel: week
+        lessonsNote: "CHC Behold and See 3 Daily Lesson Plans: 36-week schedule, 4 days a week"
       - name: "REAL Science Odyssey: Biology 1"
         publisher: Pandia Press
         tradition: secular
         url: "https://pandiapress.com/pages/real-science-odyssey"
         notes: Hands-on secular elementary life science with lab sheets.
+        lessons: 36
+        lessonLabel: week
+        lessonsNote: "Pandia Press Biology 1 product page: 36 weeks of material, taught two days per week"
     historicalPrecedent: >-
       The Cornell nature-study movement (Liberty Hyde Bailey, Anna Comstock), active from the 1890s,
       put nature study into American schools. Charlotte Mason's Parents' Union Schools in England made
@@ -217,16 +226,25 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/science/book-astronomy/"
         notes: Constellations and star stories in the classical core.
+        lessons: 4
+        lessonLabel: unit
+        lessonsNote: "Memoria Press Teacher Guide sample contents: Units 1-4 of constellations, each with unit exercises"
       - name: "REAL Science Odyssey: Earth & Environment 1"
         publisher: Pandia Press
         tradition: secular
         url: "https://pandiapress.com/products/real-science-odyssey-earth-environment-1"
         notes: Hands-on elementary earth science.
+        lessons: 25
+        lessonLabel: week
+        lessonsNote: "Pandia Press product page: designed for 25 weeks of instruction, 2 sessions per week"
       - name: Apologia Astronomy (Young Explorer series)
         publisher: Apologia
         tradition: protestant
         url: "https://www.apologia.com/shop/all-science/astronomy/"
         notes: Popular Christian elementary astronomy. It is written from a young-earth creationist perspective (see notes on biology-01).
+        lessons: 14
+        lessonLabel: lesson
+        lessonsNote: "Apologia Astronomy 2nd ed. textbook page: 14 lessons, Lesson 1 What is Astronomy onward"
     notes: A planisphere and a pair of 7×50 or 10×50 binoculars are the only equipment needed.
 
   - id: natural-science-06
@@ -299,6 +317,9 @@ rows:
         tradition: catholic
         url: "https://chcweb.com/product/behold-and-see-5/"
         notes: Catholic upper-elementary science.
+        lessons: 36
+        lessonLabel: week
+        lessonsNote: "CHC Behold and See 5 Daily Lesson Plans: 36-week schedule, 5 days a week"
 
   - id: natural-science-07
     title: "Physical Science by Experiment: Faraday's Candle"
@@ -351,11 +372,17 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/products/physical-science-program-1"
         notes: Classical Christian, mastery-based. The Memoria Press recommendation for grade 8 (https://www.memoriapress.com/curriculum/science/novare-physical-science/).
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press sample PDF (3rd ed.) contents: Chapter 0 Start Reading Here, then Chapters 1-14"
       - name: "REAL Science Odyssey: Chemistry 1 / Physics 1"
         publisher: Pandia Press
         tradition: secular
         url: "https://pandiapress.com/products/real-science-odyssey-chemistry-level-one"
         notes: Lab-heavy secular option.
+        lessons: 36
+        lessonLabel: week
+        lessonsNote: "Pandia Press product pages: Chemistry 1 and Physics 1 are each 36 weeks, taught twice per week"
       - name: Intro to Physics and Chemistry (online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -402,16 +429,25 @@ rows:
         tradition: secular
         url: "https://nostarch.com/python-crash-course-3rd-edition"
         notes: Project-based introduction, good for a motivated 11–12 year old.
+        lessons: 20
+        lessonLabel: chapter
+        lessonsNote: "No Starch Press table of contents (3rd ed.): 20 chapters, 11 basics and 9 project chapters"
       - name: "Think Python, 3rd ed. (Allen Downey)"
         publisher: Green Tea Press
         tradition: secular
         url: "https://greenteapress.com/wp/think-python-3rd-edition/"
         notes: Free online. More conceptual, teaches thinking like a computer scientist.
+        lessons: 19
+        lessonLabel: chapter
+        lessonsNote: "Online edition (allendowney.github.io, 3rd ed.) contents: 19 chapters, Programming as a way of thinking to Final thoughts"
       - name: "Automate the Boring Stuff with Python (Al Sweigart)"
         publisher: No Starch Press
         tradition: secular
         url: "https://automatetheboringstuff.com/"
         notes: Free online. Practical scripts for real tasks.
+        lessons: 24
+        lessonLabel: chapter
+        lessonsNote: "automatetheboringstuff.com contents (3rd ed.): 24 chapters, Python Basics to Text-to-Speech and Speech Recognition Engines"
     historicalPrecedent: >-
       Boole's Laws of Thought (1854) joined logic and algebra, and his algebra later became the basis of
       digital circuits. The founders' ideal of the practical inventor (Franklin's stove and lightning
@@ -461,16 +497,25 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/products/novare-life-science"
         notes: Classical Christian middle-school life science.
+        lessons: 12
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press sample PDF contents: 12 chapters, What Is Life Science to Variation, Natural Selection, and Adaptation"
       - name: Life Science
         publisher: Catholic Heritage Curricula
         tradition: catholic
         url: "https://chcweb.com/product/life-science/"
         notes: Catholic middle-school option.
+        lessons: 36
+        lessonLabel: week
+        lessonsNote: "CHC Life Science Daily Lesson Plans: 36-week schedule, 5 days a week"
       - name: "REAL Science Odyssey: Biology Level 2"
         publisher: Pandia Press
         tradition: secular
         url: "https://pandiapress.com/products/real-science-odyssey-biology-level-two"
         notes: Rigorous secular middle-school biology with labs.
+        lessons: 32
+        lessonLabel: lesson
+        lessonsNote: "Pandia Press product page: the textbook contains 32 narrative lessons, for a 36-week year"
     notes: Latin students can read Linnaeus's genus and species descriptions directly (links well with the Latin track).
 
   - id: natural-science-10
@@ -600,11 +645,17 @@ rows:
         tradition: catholic
         url: "https://chcweb.com/product/behold-and-see-4-human-anatomy-and-health/"
         notes: A gentler Catholic introduction. Use it as a younger-sibling or review text.
+        lessons: 36
+        lessonLabel: week
+        lessonsNote: "CHC Behold and See 4 Daily Lesson Plans: 36-week schedule, 4 days a week"
       - name: Apologia Anatomy and Physiology
         publisher: Apologia
         tradition: protestant
         url: "https://www.apologia.com/shop/all-science/anatomy-and-physiology/"
         notes: Popular Christian option (young-earth perspective).
+        lessons: 14
+        lessonLabel: lesson
+        lessonsNote: "Apologia anatomy textbook page: 14 lessons in the one-year Human Anatomy and Physiology course"
 
   - id: natural-science-15
     title: "Astronomy: Ptolemy, Copernicus, Kepler & Galileo"
@@ -682,6 +733,9 @@ rows:
         tradition: protestant
         url: "https://www.memoriapress.com/curriculum/science/science-in-the-scientific-revolution-set/"
         notes: Hands-on history-of-science course. Useful for younger siblings or as a lab supplement.
+        lessons: 90
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press scope and sequence PDF: six sections of 15 lessons (90 lessons)"
     historicalPrecedent: >-
       John Winthrop, Hollis Professor at Harvard (1738–1779), observed the 1761 and 1769 transits of
       Venus and taught Newtonian astronomy to John Adams's generation. Jefferson's Notes on the State of
@@ -721,6 +775,9 @@ rows:
         tradition: secular
         url: "https://cs50.harvard.edu/x/"
         notes: The best free introductory CS course.
+        lessons: 11
+        lessonLabel: week
+        lessonsNote: "CS50x course site: Weeks 0-10, Scratch to The End, plus an Artificial Intelligence lecture"
       - name: USACO Guide
         publisher: USACO Guide (community)
         tradition: secular
@@ -736,6 +793,9 @@ rows:
         tradition: secular
         url: "https://mitpress.mit.edu/9780262543231/structure-and-interpretation-of-computer-programs/"
         notes: The classic on abstraction. Free online at https://sicp.sourceacademy.org/.
+        lessons: 5
+        lessonLabel: chapter
+        lessonsNote: "MIT Press / Source Academy JavaScript edition contents: 5 chapters, Building Abstractions with Functions to Computing with Register Machines"
     coreTexts:
       - title: An Investigation of the Laws of Thought
         kind: primary
@@ -919,6 +979,9 @@ rows:
         kind: instructional
         reader: student
         pages: 660
+        lessons: 5
+        lessonLabel: chapter
+        lessonsNote: "Online edition (sarabander.github.io) table of contents: 5 chapters, Building Abstractions with Procedures to Computing with Register Machines"
         role: selections
         portion: "Chapters 1–4"
         pace: long
@@ -952,16 +1015,25 @@ rows:
         tradition: secular
         url: "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/"
         notes: "The original MIT course built on SICP, with lecture notes and problem sets. Free."
+        lessons: 26
+        lessonLabel: lesson
+        lessonsNote: "MIT OCW 6.001 Spring 2005 lecture notes: Lectures L1-L26, each with a recitation"
       - name: "18.404J Theory of Computation (Sipser)"
         publisher: MIT OpenCourseWare
         tradition: secular
         url: "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/"
         notes: "Michael Sipser's own course, with full video lectures. It follows his textbook Introduction to the Theory of Computation."
+        lessons: 26
+        lessonLabel: lesson
+        lessonsNote: "MIT OCW 18.404J Fall 2020 video lectures: Lectures 1-26"
       - name: How to Design Programs (2nd ed.)
         publisher: MIT Press / free online
         tradition: secular
         url: "https://htdp.org/"
         notes: "A gentler alternative or bridge to SICP, with the same design-first philosophy. The full text is free online."
+        lessons: 34
+        lessonLabel: chapter
+        lessonsNote: "htdp.org online edition contents: Prologue, 34 numbered chapters in six parts with intermezzos, Epilogue"
     historicalPrecedent: >-
       Leibniz, a hero of 18th-century learning, dreamed of a calculus ratiocinator that would settle disputes by
       calculation. Babbage and Ada Lovelace's Analytical Engine (1830s–40s) made the dream mechanical.

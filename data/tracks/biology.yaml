@@ -87,6 +87,9 @@ rows:
         tradition: classical
         url: "https://classicalacademicpress.com/products/general-biology-2nd-edition"
         notes: Classical Christian, mastery-based. Also sold by Memoria Press. Novare's Advanced Biology (see biology-02) follows it.
+        lessons: 13
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press sample PDF, table of contents: 13 chapters, Biology to The Theory of Evolution"
       - name: Biology with Lab / Honors Biology (online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -97,6 +100,9 @@ rows:
         tradition: protestant
         url: "https://www.apologia.com/subject/science/biology/"
         notes: Widely used homeschool biology with strong labs. It teaches from a young-earth creationist perspective.
+        lessons: 16
+        lessonLabel: unit
+        lessonsNote: "Rainbow Resource listing for the 3rd ed.: 16 modules, about two weeks each"
     historicalPrecedent: >-
       Benjamin Smith Barton of Philadelphia published Elements of Botany (1803), the first American
       botany textbook, illustrated by William Bartram. Natural history of this kind, with plants and
@@ -161,6 +167,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1488
+        lessons: 56
+        lessonLabel: chapter
+        lessonsNote: "Pearson 12th ed. table of contents: 56 chapters, ending with Conservation Biology and Global Change"
         role: choice
         group: A
         pace: long
@@ -173,6 +182,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1500
+        lessons: 38
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 38 chapters in 8 units, The Study of Life to Conservation Biology and Biodiversity"
         role: choice
         group: A
         pace: long
@@ -215,6 +227,9 @@ rows:
           Classical Christian. It covers the whole AP Biology syllabus with a biochemical emphasis and
           assumes chemistry, which Honors Chemistry supplies concurrently here. Use it with AP
           Classroom practice.
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Novare Biology Text Concordance PDF: Advanced Biology has 10 chapters, The Study of Life to The Theory of Evolution"
       - name: AP Biology (live online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -321,6 +336,9 @@ rows:
         kind: instructional
         reader: student
         pages: 336
+        lessons: 9
+        lessonLabel: chapter
+        lessonsNote: "JSTOR/Crossref contents (2nd ed., 2021): Introduction, 9 chapters, Conclusion"
         pace: long
         author: Nicanor Pier Giorgio Austriaco, OP
         date: "2021"
@@ -337,6 +355,9 @@ rows:
           networks, using Austriaco and the magisterial documents above. Three college credits are
           available through Catholic International University. It also covers end-of-life questions and
           gender ideology, so parents may prefer to take it at 15–16 with theology-20.
+        lessons: 16
+        lessonLabel: week
+        lessonsNote: "NCBC High School Program page: a semester-long (16-week) asynchronous course in four parts"
       - name: "Making Sense of Bioethics (Fr. Tadeusz Pacholczyk's columns)"
         publisher: The National Catholic Bioethics Center / FatherTad.com
         tradition: catholic
@@ -382,6 +403,9 @@ rows:
         kind: instructional
         reader: student
         pages: 1488
+        lessons: 56
+        lessonLabel: chapter
+        lessonsNote: "Pearson 12th ed. table of contents: 56 chapters, ending with Conservation Biology and Global Change"
         pace: long
         author: Urry, Cain, Wasserman, Minorsky & Orr
         date: "2020"

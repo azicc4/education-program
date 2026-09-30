@@ -70,6 +70,9 @@ rows:
         kind: instructional
         reader: student
         pages: 146
+        lessons: 6
+        lessonLabel: chapter
+        lessonsNote: "Hachette/Basic Books contents: six chapters (the six lectures)"
         author: Richard P. Feynman
         date: "1963/1994"
         publicDomain: false
@@ -86,6 +89,9 @@ rows:
           Precalculus (mathematics-13). Novare's Introductory Physics
           (https://classicalacademicpress.com/products/introductory-physics-program-1) is the gentler,
           Algebra I-level alternative.
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "Classical Academic Press sample PDF, table of contents: 16 chapters with exercises"
       - name: College Physics for AP Courses 2e
         publisher: OpenStax
         tradition: secular
@@ -95,6 +101,9 @@ rows:
           Applications (https://www.pearson.com/en-us/subject-catalog/p/physics-principles-with-applications/P200000006936)
           is the classic purchased alternative, and Hewitt's Conceptual Physics
           (https://www.conceptualphysics.com/) is a good light companion for intuition.
+        lessons: 34
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 34 chapters, The Nature of Science and Physics onward"
       - name: Honors Physics (course plan & tests) / AP Physics 1 (online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -209,6 +218,9 @@ rows:
         tradition: secular
         url: "https://www.worldscientific.com/worldscibooks/10.1142/8887"
         notes: Problems from Japan's olympiad selection, graded from junior-high level upward. A good bridge from Honors Physics.
+        lessons: 8
+        lessonLabel: chapter
+        lessonsNote: "World Scientific/Crossref chapter list: 8 chapters, General Physics to Practical Exercises, plus a math appendix"
     sources:
       - { label: "AAPT: U.S. Physics Team program", url: "https://www.aapt.org/physicsteam/" }
       - { label: "AAPT: F=ma registration, dates and homeschool proctoring (2026)", url: "https://aapt.org/physicsteam/2026/Registration.cfm" }
@@ -280,6 +292,9 @@ rows:
         tradition: secular
         url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
         notes: The standard calculus-based text for Physics C. One book serves both Mechanics and E&M. Serway's Physics for Scientists and Engineers is an equivalent alternative.
+        lessons: 44
+        lessonLabel: chapter
+        lessonsNote: "Wiley table of contents PDF (12th ed. Extended): 44 chapters, Measurement to Quarks, Leptons, and the Big Bang"
       - name: "University Physics Vol. 1 + MIT OCW 8.01SC Classical Mechanics"
         publisher: OpenStax / MIT OpenCourseWare
         tradition: secular
@@ -288,11 +303,17 @@ rows:
           Free text plus a free full MIT course (https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/).
           Khan Academy's free AP Physics C: Mechanics course (https://www.khanacademy.org/science/ap-physics-c-mechanics)
           follows the CED units.
+        lessons: 17
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 17 chapters, Units and Measurement onward"
       - name: "An Introduction to Mechanics, 2nd ed. (Kleppner & Kolenkow)"
         publisher: Cambridge University Press
         tradition: secular
         url: "https://www.cambridge.org/gb/universitypress/subjects/physics/general-and-classical-physics/introduction-mechanics-2nd-edition"
         notes: MIT's honors mechanics text. For strong students, and the best bridge to USAPhO. Use it after or beside a standard text.
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Cambridge Core/Crossref chapter list (2nd ed., 2013): 14 chapters, Vectors and Kinematics to Spacetime Physics"
     historicalPrecedent: >-
       Newtonian natural philosophy entered colonial colleges in the 1720s–40s through Isaac Greenwood and
       John Winthrop at Harvard and William Small at William & Mary. Jefferson said Small "fixed the
@@ -386,16 +407,25 @@ rows:
         tradition: secular
         url: "https://www.wiley.com/en-us/Fundamentals+of+Physics%2C+Extended%2C+12th+Edition-p-9781119773511"
         notes: Continue in the same text used for Mechanics.
+        lessons: 44
+        lessonLabel: chapter
+        lessonsNote: "Wiley table of contents PDF (12th ed. Extended): 44 chapters; Chapters 21-33 are electricity and magnetism"
       - name: "University Physics Vol. 2 + MIT OCW 8.02 Electricity and Magnetism"
         publisher: OpenStax / MIT OpenCourseWare
         tradition: secular
         url: "https://openstax.org/details/books/university-physics-volume-2"
         notes: Free text plus a free full MIT course (https://ocw.mit.edu/courses/8-02-physics-ii-electricity-and-magnetism-spring-2007/).
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 16 chapters, Temperature and Heat onward"
       - name: "Electricity and Magnetism, 3rd ed. (Purcell & Morin)"
         publisher: Cambridge University Press
         tradition: secular
         url: "https://www.cambridge.org/us/titles/electricity-and-magnetism-3rd-edition"
         notes: The honors classic, in SI units. It treats magnetism as a consequence of relativity. For strong students and USAPhO preparation.
+        lessons: 11
+        lessonLabel: chapter
+        lessonsNote: "Cambridge Core/Crossref chapter list (3rd ed.): 11 chapters, Electrostatics to Magnetic fields in matter, then a chapter of solutions"
     historicalPrecedent: >-
       Franklin's electrical experiments in Philadelphia, sent as letters to Peter Collinson and printed
       in London in 1751, made him the most famous American natural philosopher of his age. Faraday
@@ -443,6 +473,9 @@ rows:
         tradition: secular
         url: "https://www.amazon.com/Introduction-Classical-Mechanics-Problems-Solutions/dp/0521876222"
         notes: Harvard's honors mechanics text with over 250 solved problems. The standard next step after Kleppner.
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Cambridge Core/Crossref chapter list: 14 chapters, Strategies for solving problems to General Relativity, plus appendices"
       - name: Jaan Kalda's study guides for IPhO
         publisher: Jaan Kalda (free online)
         tradition: secular

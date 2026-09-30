@@ -143,6 +143,9 @@ rows:
         kind: instructional
         reader: together
         pages: 102
+        lessons: 89
+        lessonLabel: lesson
+        lessonsNote: "Archive.org scan (1877): Lessons I-LXXXIX; Mott Media reprint also lists 89 lessons"
         pace: long
         author: Joseph Ray
         date: "1877"
@@ -165,6 +168,9 @@ rows:
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/math/rod-staff-grade-3-math-third-edition-set/"
         notes: Traditional drill-heavy arithmetic (Mennonite author). Rigorous facts practice.
+        lessons: 170
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press product page: the Grade 3 Student Book, Third Edition has 170 lessons"
       - name: "Math for Young Catholics"
         publisher: Seton Press
         tradition: catholic
@@ -211,6 +217,9 @@ rows:
         kind: instructional
         reader: together
         pages: 141
+        lessons: 80
+        lessonLabel: lesson
+        lessonsNote: "Archive.org scan (1877): Lessons I-LXXX"
         pace: long
         author: Joseph Ray
         date: "1877"
@@ -290,6 +299,9 @@ rows:
         tradition: secular
         url: "https://www.hmhco.com/programs/saxon-math"
         notes: Incremental spiral review, used widely by Catholic programs (Mother of Divine Grace, Seton) and classical homeschools. Less conceptual than Singapore.
+        lessons: 120
+        lessonLabel: lesson
+        lessonsNote: "Exodus Books and Simply Charlotte Mason: each of 5/4, 6/5, 7/6 and 8/7 has 120 lessons plus 12 investigations"
       - name: Math Mammoth
         publisher: Math Mammoth
         tradition: secular
@@ -342,6 +354,9 @@ rows:
         kind: instructional
         reader: student
         pages: 408
+        lessons: 23
+        lessonLabel: section
+        lessonsNote: "Archive.org scan (1880), table of contents: 23 numbered divisions I-XXIII, Introduction to Miscellaneous Exercises"
         pace: long
         author: Joseph Ray
         date: "1880"
@@ -354,11 +369,17 @@ rows:
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/prealgebra"
         notes: First choice for strong students. Discovery-based and demanding.
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 15 chapters, Properties of Arithmetic to Problem-Solving Strategies"
       - name: Memoria Pre-Algebra
         publisher: Memoria Press
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/math/memoria-pre-algebra-set/"
         notes: Classical-school sequence with lesson plans.
+        lessons: 56
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press Student Text sample contents and video track list: Lessons 1-56 in three units"
       - name: Dimensions Math 6–8
         publisher: Singapore Math Inc.
         tradition: secular
@@ -369,6 +390,9 @@ rows:
         tradition: catholic
         url: "https://caravel.homeschoolconnections.com/catalog/65539010"
         notes: "Recorded Catholic online class with weekly Saxon 8/7 lessons, in two semesters. A Catholic option, not a requirement."
+        lessons: 120
+        lessonLabel: lesson
+        lessonsNote: "Saxon 8/7 has 120 lessons plus 12 investigations (Exodus Books); the Homeschool Connections semester-1 class covers Lessons 1-60 in 14 recorded classes"
 
   - id: mathematics-08
     title: "Number Theory & Competition Math I: MATHCOUNTS"
@@ -402,6 +426,9 @@ rows:
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intro-number-theory"
         notes: Standard text for strong middle schoolers.
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 15 chapters, Integers to Number Sense"
       - name: MATHCOUNTS Competition Program
         publisher: MATHCOUNTS Foundation
         tradition: secular
@@ -451,16 +478,25 @@ rows:
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intro-algebra"
         notes: Covers Algebra I and much of Algebra II. Best for strong students.
+        lessons: 22
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 22 chapters, Follow the Rules to Special Manipulations"
       - name: Elementary Algebra (Harold Jacobs)
         publisher: Master Books
         tradition: protestant
         url: "https://www.masterbooks.com/elementary-algebra-set"
         notes: Jacobs's classic, clear and witty text. Master Books is an evangelical publisher, but the math content is standard.
+        lessons: 17
+        lessonLabel: chapter
+        lessonsNote: "Cathy Duffy review and Rainbow Resource listing: textbook divided into 17 chapters, each subdivided into lessons"
       - name: Memoria Algebra I
         publisher: Memoria Press
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/math/memoria-algebra-i-set/"
         notes: Classical-school course with lesson plans and video support.
+        lessons: 92
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press Student Text sample contents and video track list: Lessons 1-92 in five units"
       - name: Algebra 1 / Honors Algebra 1 (online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -545,16 +581,25 @@ rows:
         tradition: protestant
         url: "https://www.masterbooks.com/geometry-curriculum"
         notes: Best-loved modern proof-based high-school geometry. Evangelical publisher, standard math.
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "Master Books description via Rainbow Resource and Cathy Duffy (3rd ed.): 16 chapters"
       - name: "Kiselev's Geometry, Book I: Planimetry"
         publisher: Sumizdat
         tradition: classical
         url: "https://www.sumizdat.org/pl_ebook.shtml"
         notes: Kiselev's classic Russian gymnasium text, adapted by A. Givental. Rigorous and elegant.
+        lessons: 38
+        lessonLabel: section
+        lessonsNote: "Sumizdat front matter PDF, contents: Introduction plus 5 chapters of 14, 7, 9, 3 and 5 numbered sections (38)"
       - name: Introduction to Geometry
         publisher: Art of Problem Solving
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intro-geometry"
         notes: Problem-heavy. Best for competition-bound students.
+        lessons: 19
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 19 chapters, What Is Geometry to Problem Solving Strategies in Geometry"
     historicalPrecedent: >-
       Euclid was the core of geometry at Harvard, Yale and William & Mary, and at Eton and Rugby, into
       the 1800s. Hillsdale K-12 still teaches "Euclid's principles, constructions and proofs throughout"
@@ -592,6 +637,9 @@ rows:
         kind: instructional
         reader: student
         pages: 153
+        lessons: 72
+        lessonLabel: section
+        lessonsNote: "Springer/Crossref table of contents: 72 numbered sections, Introduction to The harmonic mean"
         pace: long
         author: I. M. Gelfand and A. Shen
         date: "1993"
@@ -604,11 +652,17 @@ rows:
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intermediate-algebra"
         notes: Demanding. Covers AMC/AIME-level algebra.
+        lessons: 20
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 20 chapters, Basic Techniques for Solving Equations to Some Advanced Strategies"
       - name: Memoria Algebra II
         publisher: Memoria Press
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/math/memoria-algebra-ii-set/"
         notes: Classical-school sequence.
+        lessons: 59
+        lessonLabel: lesson
+        lessonsNote: "Memoria Press Student Text sample contents and video track list: Lessons 1-59"
       - name: Honors Algebra 2/Trig (online)
         publisher: Kolbe Academy
         tradition: catholic
@@ -721,6 +775,9 @@ rows:
         kind: instructional
         reader: student
         pages: 229
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Springer/Crossref chapter list: 10 chapters, 0 Trigonometry to 9 Inverse Functions and Trigonometric Equations"
         author: I. M. Gelfand and M. Saul
         date: "2001"
         publicDomain: false
@@ -739,6 +796,9 @@ rows:
         kind: instructional
         reader: student
         pages: 109
+        lessons: 7
+        lessonLabel: chapter
+        lessonsNote: "Book contents page: Introduction plus 7 chapters, Examples to Rational Functions, then problems"
         author: I. M. Gelfand, E. G. Glagoleva, E. E. Shnol
         date: "1990"
         publicDomain: false
@@ -750,6 +810,9 @@ rows:
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/precalculus"
         notes: Rigorous, with complex numbers and linear algebra previews.
+        lessons: 13
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 13 chapters, Functions Review to Vector Geometry"
       - name: Precalculus Lesson Plans
         publisher: Memoria Press
         tradition: classical
@@ -797,6 +860,9 @@ rows:
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intro-counting"
         notes: Core AMC combinatorics text.
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 15 chapters, Counting Is Arithmetic to More Challenging Problems"
     notes: >-
       Standard for every student (family decision), not optional enrichment.
 
@@ -876,11 +942,17 @@ rows:
           The most widely used AP text (TPS). The 7th edition (2024) follows the previous nine-unit CED,
           so map its chapters onto the five revised units. Kolbe Academy's Catholic bookstore also
           carries TPS (https://books.kolbe.org/products/the-practice-of-statistics).
+        lessons: 9
+        lessonLabel: unit
+        lessonsNote: "BFW product page (7th ed., 2024) contents: 9 units, Exploring One-Variable Data to Inference for Quantitative Data: Slopes"
       - name: "Stats: Modeling the World, AP Edition (Bock, Velleman, De Veaux, Bullard)"
         publisher: Savvas
         tradition: secular
         url: "https://www.savvas.com/index.cfm?locator=PS38Yg&PMDbSiteId=2781&PMDbSolutionId=6724&PMDbCategoryId=806&PMDbSubCategoryId=24788&PMDbProgramId=154969"
         notes: Readable alternative with the Think, Show, Tell method for writing solutions.
+        lessons: 26
+        lessonLabel: chapter
+        lessonsNote: "Pearson 6th ed. table of contents: 26 chapters in 7 parts, Stats Starts Here to Inferences for Regression"
       - name: AP Statistics (online, live)
         publisher: Kolbe Academy
         tradition: catholic
@@ -896,11 +968,17 @@ rows:
         tradition: secular
         url: "https://www.openintro.org/book/ahss/"
         notes: Free text written for AP Statistics. OpenIntro Statistics (https://www.openintro.org/book/os/) is its college sibling.
+        lessons: 5
+        lessonLabel: chapter
+        lessonsNote: "OpenIntro AHSS book page: 5 chapters, Exploring one-variable data and collecting data to Regression analysis"
       - name: Introduction to Counting & Probability
         publisher: Art of Problem Solving
         tradition: secular
         url: "https://artofproblemsolving.com/store/book/intro-counting"
         notes: Rigorous combinatorics and probability. Shared with the AMC seminar (mathematics-14).
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "AoPS table of contents PDF: 15 chapters, Counting Is Arithmetic to More Challenging Problems"
       - name: AP Classroom and released free-response questions
         publisher: College Board
         tradition: secular
@@ -955,6 +1033,9 @@ rows:
         kind: instructional
         reader: student
         pages: 480
+        lessons: 8
+        lessonLabel: chapter
+        lessonsNote: "Cambridge Core table of contents (3rd ed.): Introduction plus 8 chapters, Sentential Logic to Infinite Sets"
         pace: long
         author: Daniel J. Velleman
         date: "2019 (3rd ed.)"
@@ -1001,6 +1082,9 @@ rows:
         kind: instructional
         reader: student
         pages: 265
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg edition (2nd ed., 1914): Prologue, Chapters I-XXI, Epilogue"
         author: Silvanus P. Thompson
         date: "1910"
         publicDomain: true
@@ -1034,6 +1118,9 @@ rows:
         tradition: secular
         url: "https://www.wiley.com/en-us/Calculus%3A+Single+Variable%2C+8th+Edition-p-00099309"
         notes: Harvard Consortium "rule of four" (graphical, numerical, symbolic, verbal), which matches the CED's Connecting Representations practice.
+        lessons: 11
+        lessonLabel: chapter
+        lessonsNote: "Wiley table of contents PDF (8th ed.): 11 chapters, Foundation for Calculus to Differential Equations"
       - name: AP/College Calculus BC
         publisher: Khan Academy
         tradition: secular
@@ -1109,11 +1196,17 @@ rows:
         tradition: secular
         url: "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/"
         notes: Free video lectures. The book is at https://math.mit.edu/~gs/linearalgebra/.
+        lessons: 34
+        lessonLabel: lesson
+        lessonsNote: "MIT OCW 18.06 Spring 2010 video lectures: Lectures 1-34 plus a 24b quiz review"
       - name: "Linear Algebra Done Right (Sheldon Axler)"
         publisher: Springer (open access)
         tradition: secular
         url: "https://linear.axler.net/"
         notes: Free PDF. Proof-based second course.
+        lessons: 9
+        lessonLabel: chapter
+        lessonsNote: "Springer/Crossref chapter list (4th ed., 2024): 9 chapters, Vector Spaces to Multilinear Algebra and Determinants"
     notes: >-
       Moved to 15.5–16.5 (after AP Calculus BC and proof writing) so the math sequence has no gap before
       college work.
@@ -1146,16 +1239,25 @@ rows:
         tradition: secular
         url: "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/"
         notes: Free full course.
+        lessons: 36
+        lessonLabel: lesson
+        lessonsNote: "MIT OCW 18.02 Fall 2007 calendar: lectures numbered 0-35, plus four exams and a final"
       - name: "Vector Calculus, Linear Algebra, and Differential Forms (Hubbard & Hubbard)"
         publisher: Matrix Editions
         tradition: secular
         url: "https://matrixeditions.com/"
         notes: Unified rigorous treatment, for the strongest students.
+        lessons: 7
+        lessonLabel: chapter
+        lessonsNote: "Matrix Editions table of contents PDF (5th ed.): Chapters 0-6, Preliminaries to Forms and vector calculus"
       - name: "Understanding Analysis (Stephen Abbott)"
         publisher: Springer
         tradition: secular
         url: "https://link.springer.com/book/10.1007/978-1-4939-2712-8"
         notes: The most readable first analysis text.
+        lessons: 8
+        lessonLabel: chapter
+        lessonsNote: "Springer/Crossref chapter list (2nd ed., 2015): 8 chapters, The Real Numbers to Additional Topics"
     notes: >-
       Begins at 16.5, right after linear algebra.
 
