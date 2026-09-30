@@ -661,3 +661,28 @@ dialog.modal input:not([type="checkbox"]):not([type="radio"]), dialog.modal sele
 }
 @media print { .linear .lt-list, .linear .lt-select { display: none; } .linear { display: block; } }
 .tree-layout[hidden], .chip[hidden] { display: none; }
+.lcard.lcard-done { padding: 7px 12px; gap: 3px; }
+.lcard.lcard-done .lcard-title { font-size: 0.95rem; }
+
+/* ---------- time spent (detail panel) ---------- */
+.time-sec { display: grid; gap: 10px; font-family: var(--sans); }
+.time-sum { margin: 0; font-size: 0.86rem; color: var(--ink-2); }
+.time-sum strong { color: var(--ink); }
+.time-item { border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; display: grid; gap: 6px; }
+.ti-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.ti-title { font: 0.95rem/1.3 var(--serif); min-width: 0; }
+.ti-total { font: 600 0.9rem var(--sans); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.ti-meta { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; font-size: 0.78rem; color: var(--ink-2); }
+.badge.ti-kind { color: var(--ink-2); }
+.ti-add { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ti-add select, .ti-add input { font: 0.85rem var(--sans); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; padding: 4px 6px; min-width: 0; }
+.ti-add input[name="m"] { width: 6.5em; }
+.ti-add .ti-lnum { width: 7em; }
+.ti-by summary, .ti-log summary { cursor: pointer; font-size: 0.8rem; color: var(--link); }
+.ti-by table { border-collapse: collapse; font-size: 0.78rem; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.ti-by th, .ti-by td { padding: 2px 8px 2px 0; text-align: left; border-bottom: 1px solid var(--rule); }
+.ti-log ul { list-style: none; padding: 0 !important; margin: 4px 0 0; font-size: 0.78rem; color: var(--ink-2); }
+.ti-log li { margin: 2px 0 !important; }
+.ti-del { border: 0; background: none; color: var(--ink-2); cursor: pointer; font-size: 1rem; line-height: 1; padding: 0 4px; }
+.time-prog { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 0.82rem; color: var(--ink-2); }
+.time-prog select { font: 0.85rem var(--sans); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; padding: 4px 6px; max-width: 100%; min-width: 0; }

@@ -43,6 +43,17 @@ const EXAM_CATEGORIES = ['ap-stem', 'ap-humanities', 'ap-language', 'clt', 'admi
 // how a core text is used within its unit (see data/schema.md)
 const TEXT_ROLES = ['core', 'choice', 'selections', 'reference', 'review'];
 const TEXT_PACES = ['long'];
+// how a textbook or program divides its lessons (see data/schema.md)
+const LESSON_LABELS = ['lesson', 'chapter', 'unit', 'week', 'section', 'day'];
+function checkLessons(rel, where, o) {
+  if (o.lessons === undefined) {
+    if (o.lessonLabel !== undefined) warn(rel, `${where}: lessonLabel without lessons`);
+    return;
+  }
+  if (!(Number.isInteger(o.lessons) && o.lessons > 0 && o.lessons <= 400)) err(rel, `${where}: lessons must be a whole number from 1 to 400`);
+  if (o.lessonLabel !== undefined && !LESSON_LABELS.includes(o.lessonLabel)) err(rel, `${where}: bad lessonLabel ${o.lessonLabel} (${LESSON_LABELS.join(' | ')})`);
+  if (!o.lessonsNote) warn(rel, `${where}: lessons should have a lessonsNote saying where the count comes from`);
+}
 // kinds of non-reading work in a unit's workload estimate (see data/schema.md)
 const WORK_KINDS = ['exercises', 'writing', 'translation', 'memorization', 'recitation', 'discussion', 'lab', 'practice', 'project', 'exam-prep'];
 const FOUNDING_USES = ['reference', 'teacher', 'student'];
@@ -112,6 +123,7 @@ function validateTrack(file, doc) {
         else if (t.pages && t.readPages > t.pages) warn(rel, `${tw}: readPages ${t.readPages} > pages ${t.pages}`);
       }
       if (t.reviewOf !== undefined && t.role !== 'review') warn(rel, `${tw}: reviewOf is meant for role review`);
+      checkLessons(rel, tw, t);
     }
     for (const [g, n] of Object.entries(groups)) if (n < 2) warn(rel, `${where}: choice group ${g} has only one text`);
     if (r.workload !== undefined) {
@@ -134,6 +146,7 @@ function validateTrack(file, doc) {
       if (!c.name) err(rel, `${where}: curriculumOption missing name`);
       if (c.tradition && !TRADITIONS.includes(c.tradition)) err(rel, `${where}: bad tradition ${c.tradition}`);
       if (c.url) checkLinks(rel, `${where} option "${c.name}"`, [c]);
+      checkLessons(rel, `${where} option "${c.name}"`, c);
     }
     checkLinks(rel, `${where} sources`, r.sources);
   }
