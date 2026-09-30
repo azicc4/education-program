@@ -111,6 +111,9 @@ rows:
         tradition: classical
         url: "https://welltrainedmind.com/c/series/writing-with-ease/"
         notes: Scripted narration and dictation from classic children's literature. The most turnkey option.
+        lessons: 144
+        lessonLabel: week
+        lessonsNote: "Well-Trained Mind Press workbooks: each of the 4 levels is 36 weeks of 4 lessons"
       - name: Language of God (Levels B–C)
         publisher: Catholic Heritage Curricula
         tradition: catholic
@@ -146,11 +149,17 @@ rows:
         tradition: classical
         url: "https://welltrainedmind.com/c/series/first-language-lessons/"
         notes: Scripted oral lessons with poem memorization. Level 3–4 begins diagramming.
+        lessons: 374
+        lessonLabel: lesson
+        lessonsNote: "Cathy Duffy review: 100 lessons each in Levels 1 and 2, 89 in Level 3, 85 in Level 4 (plus optional units)"
       - name: English Grammar Recitation I
         publisher: Memoria Press
         tradition: classical
         url: "https://www.memoriapress.com/curriculum/writing-and-english-grammar/english-grammar-recitation-workbook-one/"
         notes: Catechism-style grammar recitation that repeats each year, tightly tied to Latin.
+        lessons: 26
+        lessonLabel: lesson
+        lessonsNote: "Rainbow Resource (Workbook One): 26 two-page lessons plus 5 periodic reviews and a final review"
       - name: Well-Ordered Language (Level 1)
         publisher: Classical Academic Press
         tradition: classical
@@ -191,6 +200,9 @@ rows:
         tradition: protestant
         url: "https://www.rodstaff.com/english/"
         notes: Mennonite, rigorous and thorough, with diagramming. Grades 6–8 books are near high-school level.
+        lessons: 371
+        lessonLabel: lesson
+        lessonsNote: "Heart of Dakota and Exodus Books: English 3, 125 lessons; English 4, 127 lessons; English 5, 119 lessons"
       - name: Voyages in English (Grades 3–5)
         publisher: Loyola Press
         tradition: catholic
@@ -230,6 +242,9 @@ rows:
         kind: instructional
         reader: student
         pages: 293
+        lessons: 100
+        lessonLabel: lesson
+        lessonsNote: "Title page and Project Gutenberg #7010 text: one hundred practical lessons"
         order: 1
         pace: long
         author: Alonzo Reed and Brainerd Kellogg
@@ -241,6 +256,9 @@ rows:
         kind: instructional
         reader: student
         pages: 264
+        lessons: 168
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg #7188 text (revised ed.): Lessons 1-168"
         order: 2
         pace: long
         author: Alonzo Reed and Brainerd Kellogg
@@ -259,6 +277,9 @@ rows:
         tradition: protestant
         url: "https://www.rodstaff.com/english/"
         notes: Its diagramming is some of the most thorough available.
+        lessons: 257
+        lessonLabel: lesson
+        lessonsNote: "Heart of Dakota: English 6, 132 lessons in 11 chapters; English 7, 125 lessons in 11 chapters"
 
   - id: grammar-composition-06
     title: "Founding-Era Grammar: Lindley Murray & Harvey (Parsing, Syntax, Prosody)"
@@ -311,11 +332,17 @@ rows:
         tradition: catholic
         url: "https://setonbooks.com/english/1158-english-7-for-young-catholics.html"
         notes: Traditional Catholic grammar and composition text to run alongside Murray.
+        lessons: 8
+        lessonLabel: unit
+        lessonsNote: "Seton Books product description: 8 study units, nouns through punctuation"
       - name: Building Christian English (Grade 8)
         publisher: Rod and Staff Publishers
         tradition: protestant
         url: "https://www.rodstaff.com/english/"
         notes: Completes grammar at a level that equals most high-school courses.
+        lessons: 124
+        lessonLabel: lesson
+        lessonsNote: "Exodus Books: English 8 has 124 lessons divided into 11 chapters"
     historicalPrecedent: >-
       In his 1749 Proposals, Franklin asked that pupils be "taught the English Tongue by Grammar" and
       form their style on the best English authors. Murray's Grammar (first printed 1795) went through
@@ -472,6 +499,9 @@ rows:
         tradition: protestant
         url: "https://iew.com/sss-info"
         notes: Key-word outlines and stylistic techniques, taught by video. Very structured and effective for reluctant writers.
+        lessons: 24
+        lessonLabel: week
+        lessonsNote: "IEW product page: Year 1 is a 24-week video writing course"
       - name: English 7 for Young Catholics (composition units)
         publisher: Seton Educational Media
         tradition: catholic
@@ -567,11 +597,17 @@ rows:
         tradition: catholic
         url: "https://books.kolbe.org/products/english-grammar-composition-course-plan"
         notes: Catholic classical homeschool course plan and tests for high-school composition.
+        lessons: 32
+        lessonLabel: week
+        lessonsNote: "Kolbe Academy course plan: two 16-week semesters with a five-day week"
       - name: Structure and Style for Students (Level C)
         publisher: Institute for Excellence in Writing
         tradition: protestant
         url: "https://iew.com/sss-info"
         notes: High-school level of the IEW system, with essay models and critiques.
+        lessons: 24
+        lessonLabel: week
+        lessonsNote: "IEW Level C page: Year 1 is a 24-week writing course"
     historicalPrecedent: >-
       Franklin's Proposals (1749) recommended that pupils write "Letters to each other, making Abstracts
       of what they read" and learn to express themselves "clearly, concisely, and naturally, without
@@ -681,6 +717,9 @@ rows:
         tradition: secular
         url: "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140/9780137536603"
         notes: The best modern treatment of sentence-level clarity, with graded exercises.
+        lessons: 12
+        lessonLabel: lesson
+        lessonsNote: "Pearson 13th ed. table of contents: Lessons 1-12 in five parts"
       - name: "Clear and Simple as the Truth: Writing Classic Prose (Thomas & Turner)"
         publisher: Princeton University Press
         tradition: secular
@@ -734,6 +773,9 @@ rows:
         tradition: secular
         url: "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140/9780137536603"
         notes: Continue the grammar-composition-13 exercises at college level.
+        lessons: 12
+        lessonLabel: lesson
+        lessonsNote: "Pearson 13th ed. table of contents: Lessons 1-12 in five parts"
       - name: The Lost Tools of Writing (advanced levels)
         publisher: CiRCE Institute
         tradition: classical
