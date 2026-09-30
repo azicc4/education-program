@@ -358,6 +358,9 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    elective: true
+    electiveNote: >-
+      Plutarch's Lives are core in civics-law-08.
     ageStart: 10
     ageEnd: 13
     order: 6
@@ -441,12 +444,14 @@ rows:
       - Learn Gautier's ten commandments of chivalry and relate each to a cardinal or theological virtue
       - Take a chivalric "vow" for a season (defending the weak, keeping one's word, courtesy to all) and keep a record
     workload:
-      readingHours: 30
-      readingBasis: "793 pp: Boy's King Arthur 371 pp (student, archaic prose) at ~25 pp/h (15 h), Gautier's Chivalry 422 pp (teacher-led, read with the student) at ~30 pp/h (14 h)"
+      readingHours: 17
+      readingBasis: "431 pp: Boy's King Arthur 371 pp (student, archaic prose) at ~25 pp/h (15 h), Gautier's Chivalry selections 60 pp (teacher-led, read with the student) at ~30 pp/h (2 h)"
       work:
-        - { kind: discussion, hours: 18, note: "Arthur, Lancelot, Gawain, Galahad and Mordred as studies in virtue, ~36 x 30 min" }
+        - { kind: discussion, hours: 7, note: "Arthur, Lancelot, Gawain, Galahad and Mordred as studies in virtue, ~14 x 30 min" }
         - { kind: memorization, hours: 3, note: "Gautier's ten commandments of chivalry, each tied to a virtue" }
-        - { kind: practice, hours: 4, note: "a season's chivalric vow with a weekly written record, ~12 x 20 min" }
+        - { kind: practice, hours: 3, note: "a season's chivalric vow with a weekly written record, ~12 x 15 min" }
+      electiveHours: 24
+      electiveBasis: "the rest of Gautier's Chivalry (~362 pp, ~12 h), 22 further discussions (~11 h) and a fuller weekly vow record (~1 h)"
     coreTexts:
       - title: "The Boy's King Arthur (Malory, ed. Sidney Lanier)"
         kind: secondary
@@ -461,6 +466,9 @@ rows:
         kind: secondary
         reader: teacher
         pages: 422
+        role: selections
+        portion: "the opening chapters on the origin of chivalry and its code (the Ten Commandments of Chivalry)"
+        readPages: 60
         author: Léon Gautier (trans. Henry Frith)
         date: "1891"
         publicDomain: true
@@ -489,13 +497,15 @@ rows:
       - Keep a one-week time log, then design and follow a weekly schedule
       - Discuss the parable of the talents (Matthew 25) and the Christian idea of stewardship
     workload:
-      readingHours: 19
-      readingBasis: "311 pp: Way to Wealth and Jefferson's canons 22 pp at ~15 pp/h (1 h), Seneca ~147 pp at ~15 pp/h (10 h), Newcomb 142 pp at ~20 pp/h (7 h)"
+      readingHours: 10
+      readingBasis: "194 pp: Way to Wealth and Jefferson's canons 22 pp at ~15 pp/h (1 h), Seneca's On the Shortness of Life ~30 pp at ~15 pp/h (2 h), Newcomb 142 pp at ~20 pp/h (7 h)"
       work:
-        - { kind: memorization, hours: 6, note: "Jefferson's ten canons and Franklin's key maxims" }
-        - { kind: practice, hours: 17, note: "a written budget kept for a year, 52 wk x 15 min (13 h), plus a one-week time log and a planned weekly schedule (4 h)" }
-        - { kind: exercises, hours: 30, note: "Foundations in Personal Finance, ~10 chapters x 3 h of video and workbook" }
-        - { kind: discussion, hours: 10, note: "a Newcomb chapter a week turned into a resolution, plus the parable of the talents, ~30 x 20 min" }
+        - { kind: memorization, hours: 5, note: "Jefferson's ten canons and Franklin's key maxims" }
+        - { kind: practice, hours: 13, note: "a written budget kept for a year, 52 wk x 10 min (9 h), plus a one-week time log and a planned weekly schedule (4 h)" }
+        - { kind: exercises, hours: 6, note: "Foundations in Personal Finance, 3 chapters on budgeting, saving and giving x 2 h of video and workbook" }
+        - { kind: discussion, hours: 5, note: "Newcomb chapters and their resolutions, plus the parable of the talents, ~15 x 20 min" }
+      electiveHours: 43
+      electiveBasis: "further Seneca dialogues (~9 h), the rest of Foundations in Personal Finance (~24 h), 15 further discussions (~5 h), fuller budget and schedule work (~4 h) and further Franklin maxims (~1 h)"
     coreTexts:
       - title: "Franklin's Way to Wealth; or, Poor Richard Improved"
         kind: primary
@@ -521,6 +531,7 @@ rows:
         pages: 440
         role: selections
         portion: "On the Shortness of Life"
+        readPages: 30
         author: Lucius Annaeus Seneca (trans. Aubrey Stewart)
         date: "c. 49 AD (trans. 1889)"
         publicDomain: true
@@ -557,7 +568,7 @@ rows:
     ageStart: 12
     ageEnd: 14
     order: 9
-    prerequisites: [character-virtue-06]
+    prerequisites: [character-virtue-03]
     related: [theology-14, theology-20, philosophy-04]
     summary: >-
       This course brings the stories and habits of the earlier years together into a systematic account.
@@ -646,15 +657,17 @@ rows:
     objectives:
       - Read Xenophon's Cyropaedia (selections) and discuss what makes men willingly obey a leader
       - Hold a real leadership position for a year or more (patrol leader, team captain, altar-server head, project organizer)
-      - Complete 100 or more hours of direct service (the corporal works of mercy) over the course
+      - Complete 50 or more hours of direct service (the corporal works of mercy) over the course
       - Plan and lead a service project from proposal to report
     workload:
       readingHours: 5
       readingBasis: "~109 pp of Cyropaedia selections (Dakyns) at ~20 pp/h"
       work:
-        - { kind: practice, hours: 135, note: "100 or more hours of direct service (objective) plus a year in a leadership post, ~36 wk x 1 h of planning and leading" }
-        - { kind: project, hours: 20, note: "plan and lead a service project from proposal to written report" }
+        - { kind: practice, hours: 62, note: "50 hours of direct service (objective) plus a year in a leadership post, ~36 wk x 20 min of planning and leading (12 h)" }
+        - { kind: project, hours: 10, note: "plan and lead a small service project from proposal to written report" }
         - { kind: discussion, hours: 5, note: "Cyropaedia on why men willingly obey a leader, ~6 x 45 min" }
+      electiveHours: 83
+      electiveBasis: "further direct service up to 100 or more hours (~50 h), fuller leadership planning and duties (~23 h) and a larger service project (~10 h)"
     coreTexts:
       - title: "Cyropaedia: The Education of Cyrus"
         kind: primary
@@ -754,6 +767,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      The Nicomachean Ethics is core in philosophy-07.
     ageStart: 15
     ageEnd: 16
     order: 12
@@ -809,6 +825,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      De Officiis is read in Latin in latin-11.
     ageStart: 16
     ageEnd: 17
     order: 13
@@ -863,6 +882,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      Aquinas is core in theology-22; this college seminar is kept as an elective.
     ageStart: 17
     ageEnd: 18
     order: 14

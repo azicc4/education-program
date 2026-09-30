@@ -377,7 +377,8 @@ rows:
       the rejection of socialism. Quadragesimo Anno (1931) covers subsidiarity and social justice.
       Centesimus Annus (1991) weighs the market economy after communism. Belloc's The Servile State and
       Chesterton's The Outline of Sanity argue for distributism, a society of widely held property: small
-      farms, shops and family firms.
+      farms, shops and family firms. The three encyclicals, first read in theology-20, are reviewed here.
+      Elective: Chesterton's What's Wrong with the World.
     objectives:
       - State Leo XIII's teaching on private property, the just wage and the rights of association
       - Define subsidiarity, solidarity and the universal destination of goods
@@ -385,16 +386,20 @@ rows:
       - Summarize John Paul II's qualified endorsement of the "business economy" and "free economy" in Centesimus Annus §42
       - Write an essay comparing distributism with the free-market arguments of Smith and Hayek
     workload:
-      readingHours: 40
-      readingBasis: "793 pp: three encyclicals 186 pp at ~15 pp/h (12 h), Belloc 188 pp and Chesterton 419 pp at ~20 pp/h (30 h)"
+      readingHours: 22
+      readingBasis: "433 pp: Belloc 188 pp and Chesterton's Outline of Sanity 245 pp at ~20 pp/h; the three encyclicals are review (theology-20) and not counted"
       work:
-        - { kind: discussion, hours: 25, note: "seminar on property, the just wage, subsidiarity and distributism, ~33 x 45 min" }
-        - { kind: writing, hours: 15, note: "short summaries of Leo XIII, Belloc and Centesimus Annus §42 (5 h) and a comparative essay on distributism, Smith and Hayek (10 h)" }
+        - { kind: discussion, hours: 9, note: "seminar on property, the just wage, subsidiarity and distributism, 12 x 45 min" }
+        - { kind: writing, hours: 10, note: "short summaries of Leo XIII, Belloc and Centesimus Annus §42 (3 h) and a comparative essay on distributism, Smith and Hayek (7 h)" }
+      electiveHours: 39
+      electiveBasis: "What's Wrong with the World (174 pp, ~8 h), a full re-reading of the three encyclicals from theology-20 (~12 h), 19 further seminars (~14 h) and a longer comparative essay (~5 h)"
     coreTexts:
       - title: Rerum Novarum
         kind: primary
         reader: student
         pages: 40
+        role: review
+        reviewOf: theology-20
         author: Pope Leo XIII
         date: "1891"
         publicDomain: true
@@ -404,6 +409,8 @@ rows:
         kind: primary
         reader: student
         pages: 46
+        role: review
+        reviewOf: theology-20
         author: Pope Pius XI
         date: "1931"
         publicDomain: false
@@ -413,6 +420,8 @@ rows:
         kind: primary
         reader: student
         pages: 100
+        role: review
+        reviewOf: theology-20
         author: Pope John Paul II
         date: "1991"
         publicDomain: false
@@ -436,7 +445,7 @@ rows:
         publicDomain: true
         links:
           - { label: Archive.org, url: "https://archive.org/details/theoutlineofsanity" }
-      - title: What's Wrong with the World
+      - title: "What's Wrong with the World (elective)"
         kind: primary
         reader: student
         pages: 174
@@ -495,17 +504,22 @@ rows:
       - Summarize Mill on production versus distribution and on the stationary state
       - Explain Marx's theory of surplus value and class struggle and give the main economic and moral objections to it
     workload:
-      readingHours: 120
-      readingBasis: "~2,090 pp: Say 488 pp at ~20 pp/h (24 h), Ricardo 450 pp at ~15 pp/h (30 h), Mill ~333 pp at ~20 pp/h (17 h), Manifesto 38 pp (2 h), Capital counted at a third, ~367 pp on surplus value, at ~15 pp/h (24 h; the reading load counts all 1,100 pp), List 414 pp at ~20 pp/h (21 h)"
+      readingHours: 45
+      readingBasis: "~790 pp: Say 180 pp at ~20 pp/h (9 h), Ricardo 150 pp at ~15 pp/h (10 h), Mill 100 pp at ~20 pp/h (5 h), Manifesto 38 pp (2 h), Capital selections on surplus value, ~200 pp, at ~15 pp/h (13 h; the reading load counts all 1,100 pp), List 120 pp at ~20 pp/h (6 h)"
       work:
         - { kind: discussion, hours: 30, note: "weekly seminar, ~36 x 50 min" }
         - { kind: exercises, hours: 5, note: "numerical comparative-advantage and rent examples" }
         - { kind: writing, hours: 15, note: "three short papers: Say and Ricardo, the labor theory of value and the marginal revolution, objections to Marx" }
+      electiveHours: 75
+      electiveBasis: "the rest of Say's Treatise (~15 h), Ricardo's Principles (~20 h) and List's National System (~15 h), and further Mill and Capital selections (~25 h)"
     coreTexts:
       - title: A Treatise on Political Economy
         kind: primary
         reader: student
         pages: 488
+        role: selections
+        portion: "Introduction and Book I (production, including ch. XV on the demand or market for products)"
+        readPages: 180
         pace: long
         author: Jean-Baptiste Say
         date: "1803"
@@ -516,6 +530,9 @@ rows:
         kind: primary
         reader: student
         pages: 450
+        role: selections
+        portion: "Chapters I–VII (value, rent, natural and market price, wages, profits and foreign trade)"
+        readPages: 150
         pace: long
         author: David Ricardo
         date: "1817"
@@ -527,7 +544,8 @@ rows:
         reader: student
         pages: 1000
         role: selections
-        portion: "on production versus distribution and on the stationary state"
+        portion: "on production versus distribution and on the stationary state: Preliminary Remarks, Book II, chs. 1–2, Book IV, chs. 6–7 and Book V, ch. 11"
+        readPages: 100
         author: John Stuart Mill
         date: "1848"
         publicDomain: true
@@ -570,6 +588,9 @@ rows:
         kind: primary
         reader: student
         pages: 414
+        role: selections
+        portion: "Book II (The Theory), on productive powers and the protection of infant industries"
+        readPages: 120
         pace: long
         author: Friedrich List (trans. Sampson S. Lloyd)
         date: "1841; Eng. 1885"
@@ -718,16 +739,21 @@ rows:
       - Apply Graham's margin-of-safety principle to evaluate a company's financial statements
       - Write a data-driven policy paper of 3,000 words
     workload:
-      readingHours: 25
-      readingBasis: "640 pp of The Intelligent Investor (with commentary) at ~25 pp/h"
+      readingHours: 10
+      readingBasis: "250 pp of The Intelligent Investor (selected chapters with commentary) at ~25 pp/h"
       work:
-        - { kind: exercises, hours: 150, note: "college micro and macro principles (e.g. MRU), 2 x 30 wk x 2.5 h of lectures, notes and problem sets, including Graham's financial-statement exercises" }
-        - { kind: writing, hours: 25, note: "a 3,000-word data-driven policy paper, research and revision" }
+        - { kind: exercises, hours: 90, note: "college micro and macro principles (e.g. MRU), 2 x 30 wk x 1.5 h of lectures, notes and core problem sets, including Graham's financial-statement exercises" }
+        - { kind: writing, hours: 20, note: "a 3,000-word data-driven policy paper, research and one revision" }
+      electiveHours: 80
+      electiveBasis: "the rest of The Intelligent Investor (~390 pp, ~15 h), further problem sets and lecture review (~60 h) and a second revision of the policy paper (~5 h)"
     coreTexts:
       - title: The Intelligent Investor (Rev. Ed.)
         kind: primary
         reader: student
         pages: 640
+        role: selections
+        portion: "Chapters 1, 8, 11–14 and 20, with Zweig's commentary"
+        readPages: 250
         pace: long
         author: Benjamin Graham
         date: "1949 / 2003"

@@ -320,13 +320,15 @@ rows:
       - Attend and write a report on a local government meeting and a court session
       - Write a respectful letter to an elected official about a real issue
     workload:
-      readingHours: 25
-      readingBasis: "372 pp: Story's Familiar Exposition at ~15 pp/h; the House's Legislative Process has no page count and is not counted"
+      readingHours: 15
+      readingBasis: "225 pp: Story's Familiar Exposition, chapters on the three departments, at ~15 pp/h; the House's Legislative Process has no page count and is not counted"
       work:
-        - { kind: exercises, hours: 30, note: "civics lessons (Hillsdale 1776 middle school) with Story chapter questions, 45 x 40 min" }
-        - { kind: discussion, hours: 18, note: "fortnightly discussion over two years, 36 x 30 min" }
-        - { kind: project, hours: 12, note: "visits to a town council, a court session and the state capitol, with preparation, 4 x 3 h" }
+        - { kind: exercises, hours: 20, note: "civics lessons (Hillsdale 1776 middle school) with Story chapter questions, 30 x 40 min" }
+        - { kind: discussion, hours: 10, note: "monthly discussion over two years, 20 x 30 min" }
+        - { kind: project, hours: 9, note: "visits to a town council, a court session and the state capitol, with preparation, 3 x 3 h" }
         - { kind: writing, hours: 6, note: "two visit reports and a letter to an elected official, 3 x 2 h" }
+      electiveHours: 31
+      electiveBasis: "the rest of Story's Familiar Exposition: the historical chapters and the appendix of documents (~147 pp, ~10 h), 15 further civics lessons (~10 h), 16 further discussions (~8 h) and a fourth visit (~3 h)"
     coreTexts:
       - title: A Familiar Exposition of the Constitution of the United States
         kind: instructional
@@ -335,6 +337,9 @@ rows:
         lessons: 38
         lessonLabel: chapter
         lessonsNote: "Archive.org scan table of contents: Chapters I-XXXVIII plus appendix of documents"
+        role: selections
+        portion: "the chapters on the Preamble, the legislative, executive and judicial departments, and the amendments"
+        readPages: 225
         pace: long
         author: Joseph Story
         date: "1840"
@@ -400,13 +405,15 @@ rows:
       - Draft a bill with findings and enacting clauses and argue for it in a mock legislative session
       - Deliver a three-minute persuasive speech and answer cross-examination
     workload:
-      readingHours: 13
-      readingBasis: "188 pp: Jefferson's Manual at ~15 pp/h"
+      readingHours: 6
+      readingBasis: "90 pp: Jefferson's Manual, selected sections, at ~15 pp/h"
       work:
-        - { kind: exercises, hours: 15, note: "Robert's Rules and Everyday Debate lessons, 20 x 45 min" }
-        - { kind: practice, hours: 36, note: "Junto-style club meetings run under Robert's Rules, 24 x 1.5 h over three years" }
-        - { kind: project, hours: 25, note: "one model-legislature or Congressional Debate season: bill research, sessions and tournament days" }
-        - { kind: writing, hours: 12, note: "drafting two bills and persuasive speeches, 6 x 2 h" }
+        - { kind: exercises, hours: 9, note: "Robert's Rules and Everyday Debate lessons, 12 x 45 min" }
+        - { kind: practice, hours: 15, note: "Junto-style club meetings run under Robert's Rules, 10 x 1.5 h" }
+        - { kind: project, hours: 12, note: "one model-legislature session or Congressional Debate tournament: bill research 4 h and two session days 8 h" }
+        - { kind: writing, hours: 8, note: "drafting one bill and three persuasive speeches, 4 x 2 h" }
+      electiveHours: 51
+      electiveBasis: "the rest of Jefferson's Manual (~98 pp, ~7 h), 8 further lessons (~6 h), 14 further club meetings (~21 h), the rest of a full debate season (~13 h) and a second bill and speech (~4 h)"
     coreTexts:
       - title: "Robert's Rules of Order (1915 edition)"
         kind: instructional
@@ -425,6 +432,9 @@ rows:
         lessons: 53
         lessonLabel: section
         lessonsNote: "Archive.org scan text: Sections I-LIII of the Manual, before the added rules of both Houses"
+        role: selections
+        portion: "the sections on order in debate, motions, bills, the previous question, amendments and putting the question"
+        readPages: 90
         author: Thomas Jefferson
         date: "1801"
         publicDomain: true
@@ -477,13 +487,15 @@ rows:
       - Memorize the closing paragraph of the Second Inaugural and a passage from "Their Finest Hour"
       - Write an essay on what makes a statesman, as distinct from a politician
     workload:
-      readingHours: 30
-      readingBasis: "475 pp: Plutarch (Dryden) at ~17 pp/h (25 h), Washington, Lincoln and Churchill speeches (42 pp) at ~15 pp/h (3 h)"
+      readingHours: 18
+      readingBasis: "302 pp: eight Plutarch Lives (Dryden, ~260 pp) at ~17 pp/h (15 h), Washington, Lincoln and Churchill speeches (42 pp) at ~15 pp/h (3 h)"
       work:
-        - { kind: writing, hours: 25, note: "eight paired-Lives comparisons and a statesman essay, about 9 x 3 h" }
-        - { kind: discussion, hours: 25, note: "narration and discussion of the Lives and speeches, 50 x 30 min" }
+        - { kind: writing, hours: 15, note: "four paired-Lives comparisons and a statesman essay, 5 x 3 h" }
+        - { kind: discussion, hours: 15, note: "narration and discussion of the Lives and speeches, 30 x 30 min" }
         - { kind: exercises, hours: 6, note: "Hillsdale Churchill and Statesmanship lectures, 8 x 45 min" }
         - { kind: memorization, hours: 5, note: "Second Inaugural closing and a Finest Hour passage, 10 weeks x 3 x 10 min" }
+      electiveHours: 32
+      electiveBasis: "further Plutarch Lives beyond the core eight (~12 h), four more paired-Lives comparisons (~10 h) and 20 further discussions (~10 h)"
     coreTexts:
       - title: "Plutarch: Lives of the Noble Grecians and Romans (Dryden/Clough)"
         kind: primary
@@ -491,6 +503,7 @@ rows:
         pages: 1300
         role: selections
         portion: "at least eight Lives, including Lycurgus and Numa, Solon and Publicola, Cato the Younger, Cicero and Demosthenes"
+        readPages: 260
         pace: long
         author: Plutarch
         date: c. 100
@@ -566,26 +579,29 @@ rows:
       constitution. From Cicero's Republic and Laws he takes natural law and the Roman res publica
       ("true law is right reason in agreement with nature"). From Aquinas's Treatise on Law (Summa I-II,
       qq. 90–97) he takes the eternal, natural, human and divine law, and the principle that an unjust law
-      is no law. De Regno adds Aquinas on kingship and tyranny.
+      is no law. Elective: De Regno, Aquinas on kingship and tyranny.
     objectives:
       - Explain Aristotle's six regimes and his argument for the "polity" or mixed regime
       - Summarize Cicero's definition of a commonwealth and of true law
       - State Aquinas's definition of law (an ordinance of reason for the common good, made by whoever has care of the community, and promulgated) and the four kinds of law
       - Write a comparative essay on natural law in Cicero and Aquinas
     workload:
-      readingHours: 25
-      readingBasis: "445 pp: Aristotle's Politics at ~15 pp/h (5 h), Cicero at ~18 pp/h (10 h), Summa qq. 90–97 at ~15 pp/h (7 h), De Regno at ~18 pp/h (5 h)"
+      readingHours: 18
+      readingBasis: "295 pp: Aristotle's Politics selections at ~15 pp/h (4 h), Cicero at ~18 pp/h (8 h), Summa qq. 90–97 at ~15 pp/h (7 h)"
       work:
-        - { kind: discussion, hours: 30, note: "weekly Socratic seminar, 30 x 1 h" }
-        - { kind: exercises, hours: 18, note: "Memoria Cicero study-guide questions, 24 x 45 min" }
-        - { kind: writing, hours: 20, note: "comparative natural-law essay (4–5 pp) with revision 8 h, plus 8 one-page responses x 1.5 h" }
+        - { kind: discussion, hours: 12, note: "weekly Socratic seminar, 12 x 1 h" }
+        - { kind: exercises, hours: 9, note: "Memoria Cicero study-guide questions, 12 x 45 min" }
+        - { kind: writing, hours: 11, note: "comparative natural-law essay (4–5 pp) with revision 8 h, plus 2 one-page responses x 1.5 h" }
+      electiveHours: 43
+      electiveBasis: "De Regno (96 pp, ~5 h), the rest of the Politics and Cicero selections, including Politics Books II and VII (~2 h), 18 further seminars (~18 h), 12 further study-guide lessons (~9 h) and six further one-page responses (~9 h)"
     coreTexts:
       - title: "Politics: A Treatise on Government (Jowett trans.)"
         kind: primary
         reader: student
         pages: 229
         role: selections
-        portion: Books I–III and VII
+        portion: "Book I, chs. 1–2, Book III (the citizen, the six regimes and the rule of law) and Book IV, chs. 8–11 (polity)"
+        readPages: 55
         author: Aristotle
         date: c. 350 BC
         publicDomain: true
@@ -596,7 +612,8 @@ rows:
         reader: student
         pages: 520
         role: selections
-        portion: On the Republic and On the Laws
+        portion: "On the Republic (Books I–III and the Dream of Scipio) and On the Laws (Books I–II)"
+        readPages: 140
         author: Marcus Tullius Cicero
         date: 54–51 BC
         publicDomain: true
@@ -614,7 +631,7 @@ rows:
         publicDomain: true
         links:
           - { label: New Advent, url: "https://www.newadvent.org/summa/2090.htm" }
-      - title: De Regno (On Kingship)
+      - title: "De Regno (On Kingship) (elective)"
         kind: primary
         reader: student
         pages: 96
@@ -666,11 +683,13 @@ rows:
       - Compare Sidney's and Locke's accounts of the right to resist tyranny
       - Identify Vattel's influence on the Declaration's language and on early American diplomacy
     workload:
-      readingHours: 95
-      readingBasis: "1,732 pp: Hooker and Rutherford (352 pp) at ~15 pp/h (24 h), Sidney at ~18 pp/h (25 h), Locke, Montesquieu and Vattel (937 pp) at ~20 pp/h (47 h)"
+      readingHours: 27
+      readingBasis: "485 pp: Hooker and Rutherford selections (140 pp) at ~15 pp/h (9 h), Sidney selections at ~18 pp/h (5 h), Locke, Montesquieu and Vattel selections (255 pp) at ~20 pp/h (13 h)"
       work:
-        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
+        - { kind: discussion, hours: 24, note: "weekly seminar, 24 x 1 h" }
         - { kind: writing, hours: 20, note: "three analytical essays (3–4 pp) with revision, 3 x ~7 h" }
+      electiveHours: 74
+      electiveBasis: "the rest of Sidney's Discourses (~353 pp, ~20 h), of Vattel's Law of Nations (~492 pp, ~25 h) and of Lex, Rex (~212 pp, ~14 h), further books of the Spirit of Laws (~9 h) and six further seminars (~6 h)"
     coreTexts:
       - title: Of the Laws of Ecclesiastical Polity (Book I)
         kind: primary
@@ -697,6 +716,9 @@ rows:
         kind: primary
         reader: student
         pages: 443
+        role: selections
+        portion: "selected sections of Chapters I and III on consent, tyranny and resistance, including III.36 on the general revolt of a nation"
+        readPages: 90
         author: Algernon Sidney
         date: "1698"
         publicDomain: true
@@ -708,6 +730,7 @@ rows:
         pages: 750
         role: selections
         portion: Books XI–XII
+        readPages: 60
         author: Montesquieu
         date: "1748"
         publicDomain: true
@@ -718,6 +741,9 @@ rows:
         kind: primary
         reader: student
         pages: 572
+        role: selections
+        portion: "Preliminaries, Book I, chs. 1–4 (the nation, sovereignty and the constitution of a state) and Book II, chs. 1–4 (the duties of nations to one another)"
+        readPages: 80
         author: Emer de Vattel
         date: "1758"
         publicDomain: true
@@ -727,6 +753,9 @@ rows:
         kind: primary
         reader: student
         pages: 252
+        role: selections
+        portion: "selected Questions on the origin of government, the covenant between king and people, and lawful resistance"
+        readPages: 40
         author: Samuel Rutherford
         date: "1644"
         publicDomain: true
@@ -892,12 +921,14 @@ rows:
       - Summarize Tocqueville on township government, voluntary associations and "self-interest rightly understood"
       - Write an essay testing Tocqueville's warnings about soft despotism against present-day America
     workload:
-      readingHours: 45
-      readingBasis: "1,012 pp: Burke at ~18 pp/h (19 h), Tocqueville (674 pp) at ~25 pp/h (27 h)"
+      readingHours: 31
+      readingBasis: "638 pp: Burke at ~18 pp/h (19 h), Tocqueville selections (300 pp) at ~25 pp/h (12 h)"
       work:
-        - { kind: discussion, hours: 30, note: "weekly seminar, 30 x 1 h" }
-        - { kind: writing, hours: 17, note: "soft-despotism essay (5 pp) with revision 8 h, plus 6 short responses x 1.5 h" }
-        - { kind: exercises, hours: 8, note: "Hillsdale American Citizenship lectures, 10 x 45 min" }
+        - { kind: discussion, hours: 22, note: "weekly seminar, 22 x 1 h" }
+        - { kind: writing, hours: 11, note: "soft-despotism essay (5 pp) with revision 8 h, plus 2 short responses x 1.5 h" }
+        - { kind: exercises, hours: 6, note: "Hillsdale American Citizenship lectures, 8 x 45 min" }
+      electiveHours: 30
+      electiveBasis: "the rest of Democracy in America (~374 pp, ~14 h), 8 further seminars (~8 h), 4 further short responses (~6 h) and 2 further lectures (~2 h)"
     coreTexts:
       - title: "Reflections on the Revolution in France (in Works, vol. 3)"
         kind: primary
@@ -913,6 +944,9 @@ rows:
         reader: student
         pages: 378
         order: 1
+        role: selections
+        portion: "the introduction and the chapters on the point of departure, the township, political associations, the omnipotence of the majority, the legal profession and the jury, and religion"
+        readPages: 200
         author: Alexis de Tocqueville
         date: "1835"
         publicDomain: true
@@ -923,6 +957,9 @@ rows:
         reader: student
         pages: 296
         order: 2
+        role: selections
+        portion: "Book II, chs. 1–9 (individualism, associations, self-interest rightly understood) and Book IV (the kind of despotism democratic nations have to fear)"
+        readPages: 100
         author: Alexis de Tocqueville
         date: "1840"
         publicDomain: true
@@ -939,8 +976,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 17
     order: 13
     prerequisites: [civics-law-10]
     related: [latin-11, history-21]
@@ -1005,8 +1042,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 17
     order: 14
     prerequisites: [civics-law-13, civics-law-07]
     related: [rhetoric-09, rhetoric-12, history-23]
@@ -1023,12 +1060,14 @@ rows:
       - Compete in at least one mock-trial season (attorney and witness roles)
       - Write an appellate brief and deliver a timed oral argument before a moot-court panel
     workload:
-      readingHours: 16
-      readingBasis: "314 pp of opinions (Dred Scott alone 240 pp) at ~20 pp/h; the modern cases have no page count and are not counted"
+      readingHours: 10
+      readingBasis: "194 pp of opinions (Taney's opinion and Curtis's dissent in Dred Scott 120 pp) at ~20 pp/h; the modern cases have no page count and are not counted"
       work:
-        - { kind: practice, hours: 50, note: "one mock-trial season, 16 practices x 2 h and 2 competition days x 6 h, plus moot-court rehearsals ~6 h" }
+        - { kind: practice, hours: 44, note: "one mock-trial season, 14 practices x 2 h and 2 competition days x 6 h, plus moot-court rehearsals ~4 h" }
         - { kind: writing, hours: 25, note: "four case briefs x 3 h and an appellate brief ~13 h" }
-        - { kind: discussion, hours: 18, note: "case discussion, 24 x 45 min" }
+        - { kind: discussion, hours: 12, note: "case discussion, 16 x 45 min" }
+      electiveHours: 18
+      electiveBasis: "the concurring and other dissenting opinions in Dred Scott (~120 pp, ~6 h), two further mock-trial practices and moot-court rehearsal (~6 h) and 8 further case discussions (~6 h)"
     coreTexts:
       - title: Marbury v. Madison
         kind: primary
@@ -1050,6 +1089,9 @@ rows:
         kind: primary
         reader: student
         pages: 240
+        role: selections
+        portion: "Chief Justice Taney's opinion of the Court and Justice Curtis's dissent"
+        readPages: 120
         date: "1857"
         publicDomain: true
         links:
@@ -1083,6 +1125,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Rerum Novarum and Quadragesimo Anno are core in theology-20; the rest of this unit is kept
+      as an elective.
     ageStart: 16
     ageEnd: 17
     order: 15
@@ -1208,7 +1254,7 @@ rows:
     related: [history-31]
     summary: >-
       The equivalent of Hillsdale's required core course on the Constitution. The seminar works through
-      Hillsdale's Constitution Reader (113 primary sources) from the founding principles through the Civil
+      selections from Hillsdale's Constitution Reader (113 primary sources) from the founding principles through the Civil
       War, the Progressive rejection of the founding and the rise of the administrative state. Story's
       Commentaries on the Constitution and the Heritage Guide to the Constitution serve as the clause-by-clause
       references.
@@ -1218,17 +1264,22 @@ rows:
       - Trace the growth of the presidency and the administrative state from primary sources
       - Write a seminar paper of 3,000 words on a constitutional question
     workload:
-      readingHours: 35
-      readingBasis: "790 pp: the whole Hillsdale Constitution Reader at ~22 pp/h"
+      readingHours: 16
+      readingBasis: "352 pp: selections from the Hillsdale Constitution Reader at ~22 pp/h"
       work:
-        - { kind: exercises, hours: 16, note: "Hillsdale Constitution 101 and 201 lectures, 24 x 40 min" }
-        - { kind: discussion, hours: 35, note: "18 weekly seminars x 2 h" }
-        - { kind: writing, hours: 35, note: "3,000-word seminar paper ~20 h, plus 15 one-page responses x 1 h" }
+        - { kind: exercises, hours: 10, note: "Hillsdale Constitution 101 and 201 lectures, 15 x 40 min" }
+        - { kind: discussion, hours: 24, note: "12 weekly seminars x 2 h" }
+        - { kind: writing, hours: 22, note: "3,000-word seminar paper ~20 h, plus 2 one-page responses x 1 h" }
+      electiveHours: 49
+      electiveBasis: "the rest of the Constitution Reader (~438 pp, ~19 h), 9 further lectures (~6 h), 6 further seminars (~11 h) and 13 further one-page responses (~13 h)"
     coreTexts:
       - title: "The U.S. Constitution: A Reader"
         kind: primary
         reader: student
         pages: 790
+        role: selections
+        portion: "selected documents from each part: the founding principles, the Convention and ratification, the Civil War, the Progressive critique (Wilson, Goodnow) and the administrative state"
+        readPages: 352
         pace: long
         author: Hillsdale College Politics Faculty
         date: "2012"
@@ -1278,6 +1329,10 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College seminar beyond the core; The Federalist, Burke and Tocqueville are core in
+      civics-law-11 and civics-law-12.
     ageStart: 17
     ageEnd: 18
     order: 17
@@ -1429,6 +1484,10 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College seminar beyond the core; Aquinas on law is core in civics-law-09 and natural law
+      in philosophy-15.
     ageStart: 17
     ageEnd: 17.5
     order: 17.5
@@ -1595,6 +1654,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College seminar beyond the core; Blackstone is core in civics-law-13.
     ageStart: 17.5
     ageEnd: 18
     order: 18.5

@@ -8,14 +8,14 @@
     return;
   }
   const years = B.years;
+  // ages in quarters read as fractions: 12.75 → 12¾
+  const age = (a) => `${Math.floor(a) || ''}${{ 0: '', 0.25: '¼', 0.5: '½', 0.75: '¾' }[a % 1] ?? String(a % 1).slice(1)}` || '0';
   const DAYS = [
     { id: 'weekday', title: 'Weekday academics', sub: 'Monday to Friday' },
     { id: 'saturday', title: 'Saturday activities', sub: `${B.saturday.hoursPerDay} hours a day, ${B.saturday.weeks} Saturdays a year` },
     { id: 'sunday', title: 'Sunday Bible and theology', sub: `${(B.sunday.bands || []).map((b) => `${b.hoursPerWeek} h a week from ${age(b.ageStart)} to ${age(b.ageEnd)}`).join(', ')}; ${B.sunday.weeks} Sundays a year` },
   ];
   const n = (h) => Math.round(h).toLocaleString();
-  // ages in quarters read as fractions: 12.75 → 12¾
-  const age = (a) => `${Math.floor(a) || ''}${{ 0: '', 0.25: '¼', 0.5: '½', 0.75: '¾' }[a % 1] ?? String(a % 1).slice(1)}` || '0';
   const gradeShort = (y) => (y.grade ? `G${y.grade}` : 'K');
   const srcIndex = Object.fromEntries((B.sources || []).map((s, i) => [s.id, i + 1]));
   const cite = (id) => (srcIndex[id] ? `<sup><a href="#src-${esc(id)}">${srcIndex[id]}</a></sup>` : '');

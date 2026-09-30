@@ -155,13 +155,15 @@ rows:
       - Read James's chapter "Habit" and compare it with Aquinas on habit (social-science-01)
       - Identify the view of the person assumed by each major school (behaviorist, psychoanalytic, humanistic, cognitive, evolutionary)
     workload:
-      readingHours: 50
-      readingBasis: "951 pp: James's Principles chapters (175 pp) at ~20 pp/h (9 h), Briefer Course (478 pp) at ~25 pp/h (19 h), Wundt (198 pp) at ~15 pp/h (13 h), Reid (~100 pp) at ~15 pp/h (7 h)"
+      readingHours: 14
+      readingBasis: "250 pp: James's Principles chapters (175 pp) at ~20 pp/h (9 h), Wundt selection (40 pp) at ~15 pp/h (3 h), Reid selection (35 pp) at ~15 pp/h (2 h)"
       work:
-        - { kind: exercises, hours: 90, note: "Psychology 2e or Myers (a 750-pp textbook, counted as lessons), 36 weeks x 3 x 50 min" }
-        - { kind: writing, hours: 5, note: "James on habit compared with Aquinas" }
-        - { kind: discussion, hours: 10, note: "the schools and their view of the person, 20 x 30 min" }
-        - { kind: exam-prep, hours: 20, note: "AP Psychology or CLEP Introductory Psychology review and practice exams" }
+        - { kind: exercises, hours: 32, note: "Psychology 2e or Myers (a 750-pp textbook, counted as lessons), 16 chapters x 2 h" }
+        - { kind: writing, hours: 3, note: "a short essay: James on habit compared with Aquinas" }
+        - { kind: discussion, hours: 4, note: "the schools and their view of the person, 8 x 30 min" }
+        - { kind: exam-prep, hours: 6, note: "AP Psychology or CLEP Introductory Psychology review and two practice exams" }
+      electiveHours: 116
+      electiveBasis: "James's Briefer Course (478 pp, ~19 h), the rest of Wundt and Reid (~15 h), fuller textbook study (~60 h), further exam review and practice exams (~14 h), 12 further discussions (~6 h) and a longer essay (~2 h)"
     coreTexts:
       - title: "The Principles of Psychology, Vol. 1 (ch. IV Habit, IX The Stream of Thought, XI Attention, XVI Memory)"
         kind: primary
@@ -173,7 +175,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/57628" }
           - { label: Classics in the History of Psychology (York Univ.), url: "https://psychclassics.yorku.ca/James/Principles/" }
-      - title: "Psychology: Briefer Course"
+      - title: "Psychology: Briefer Course (elective)"
         kind: primary
         reader: student
         pages: 478
@@ -186,6 +188,9 @@ rows:
         kind: primary
         reader: student
         pages: 198
+        role: selections
+        portion: "the opening chapter, on consciousness and attention"
+        readPages: 40
         author: Wilhelm Wundt
         date: "1911; Eng. 1912"
         publicDomain: true
@@ -199,6 +204,8 @@ rows:
         date: "1764"
         publicDomain: true
         role: selections
+        portion: "Chapter I (Introduction) and Chapter VII (Conclusion)"
+        readPages: 35
         links:
           - { label: Archive.org, url: "https://archive.org/details/b30503462" }
       - title: Psychology 2e
@@ -475,6 +482,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Elective topic. The core social science keeps psychology, research methods, judgment and
+      decision, sociology, and media and the mind.
     ageStart: 15
     ageEnd: 16
     order: 5
@@ -613,6 +624,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Elective topic. The core social science keeps psychology, research methods, judgment and
+      decision, sociology, and media and the mind.
     ageStart: 15.5
     ageEnd: 16
     order: 6
@@ -723,8 +738,8 @@ rows:
     related: [civics-law-12, civics-law-15, economics-07, philosophy-10, civics-law-01]
     summary: >-
       Sociology studies the institutions between the individual and the state: family, church, town,
-      association and class. The course reads its founders and its best American heirs. Tocqueville is read
-      as a sociologist of mores and associations (Democracy in America, Volume 2). Durkheim's Suicide
+      association and class. The course reads its founders and its best American heirs. Tocqueville, first
+      read in civics-law-12, is reviewed as a sociologist of mores and associations (Democracy in America, Volume 2). Durkheim's Suicide
       (1897) is the first great statistical study of society; it links suicide rates to social integration
       and religious community. Weber's The Protestant Ethic and the Spirit of Capitalism (1905) argues that
       ideas and religion shape economic life. Nisbet's The Quest for Community (1953) argues that
@@ -740,12 +755,14 @@ rows:
       - Define social capital (Coleman, Putnam) and assess the evidence for its decline since 1960
       - Write a research paper on the state of one mediating institution (parish, family, lodge, local club) in your own town
     workload:
-      readingHours: 70
-      readingBasis: "1,849 pp: Berger and Putnam (735 pp) at ~40 pp/h (18 h), Durkheim, Weber and Tocqueville (785 pp) at ~20 pp/h (39 h), Nisbet (303 pp) at ~25 pp/h (12 h), Coleman (26 pp) (1 h)"
+      readingHours: 28
+      readingBasis: "737 pp: Berger and Putnam selections (341 pp) at ~40 pp/h (9 h), Durkheim and Weber selections (250 pp) at ~20 pp/h (13 h), Nisbet selections (120 pp) at ~25 pp/h (5 h), Coleman (26 pp) (1 h); Tocqueville is review (civics-law-12) and not counted"
       work:
-        - { kind: exercises, hours: 25, note: "an introductory sociology text (optionally for CLEP), about 18 weeks x 2 x 45 min" }
-        - { kind: writing, hours: 20, note: "research paper on a mediating institution in the home town" }
-        - { kind: discussion, hours: 10, note: "weekly discussion, 18 x 35 min" }
+        - { kind: exercises, hours: 15, note: "an introductory sociology text (optionally for CLEP), about 18 weeks x 50 min" }
+        - { kind: writing, hours: 12, note: "a shorter research paper on a mediating institution in the home town" }
+        - { kind: discussion, hours: 6, note: "discussion, 10 x 35 min" }
+      electiveHours: 64
+      electiveBasis: "the rest of Durkheim's Suicide (~255 pp, ~12 h), Weber's Protestant Ethic (~200 pp, ~9 h), Nisbet's Quest for Community (~183 pp, ~7 h) and Bowling Alone (~394 pp, ~10 h), a re-reading of the Tocqueville chapters (~4 h), fuller textbook study (~10 h), a longer research paper (~8 h) and 8 further discussions (~4 h)"
     coreTexts:
       - title: Invitation to Sociology
         kind: secondary
@@ -761,6 +778,8 @@ rows:
         kind: primary
         reader: student
         pages: 80
+        role: review
+        reviewOf: civics-law-12
         author: Alexis de Tocqueville
         date: "1840"
         publicDomain: true
@@ -771,6 +790,9 @@ rows:
         kind: primary
         reader: student
         pages: 405
+        role: selections
+        portion: "the Introduction and Book II, chs. 2–5 (egoistic, altruistic and anomic suicide)"
+        readPages: 150
         author: Émile Durkheim
         date: "1897; Eng. 1951"
         publicDomain: false
@@ -782,6 +804,9 @@ rows:
         kind: primary
         reader: student
         pages: 300
+        role: selections
+        portion: "Part I, chs. 1–3 (the problem and the calling), and Part II, ch. 5 (asceticism and the spirit of capitalism)"
+        readPages: 100
         author: Max Weber (trans. Talcott Parsons)
         date: "1905; Eng. 1930"
         publicDomain: true
@@ -792,6 +817,9 @@ rows:
         kind: primary
         reader: student
         pages: 303
+        role: selections
+        portion: "the opening chapters on the loss of community and the rise of the modern state"
+        readPages: 120
         author: Robert Nisbet
         date: "1953"
         publicDomain: false
@@ -802,6 +830,9 @@ rows:
         kind: primary
         reader: student
         pages: 544
+        role: selections
+        portion: "Sections I–II (the trends in civic engagement and social capital) and the chapter on education and children's welfare"
+        readPages: 150
         author: Robert D. Putnam
         date: "2000; 2020"
         publicDomain: false
@@ -849,6 +880,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Elective topic. The core social science keeps psychology, research methods, judgment and
+      decision, sociology, and media and the mind.
     ageStart: 16
     ageEnd: 16.5
     order: 8
@@ -1059,6 +1094,10 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Elective topic. The core social science keeps psychology, research methods, judgment and
+      decision, sociology, and media and the mind.
     ageStart: 16
     ageEnd: 16.5
     order: 10
@@ -1140,6 +1179,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 11
