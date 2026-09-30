@@ -138,6 +138,11 @@ rows:
   the site leaves it out of placement by age, Next assignments and Look Ahead until a child starts it. Inside a core
   unit, a text is elective when its title ends in `(elective)`, and `workload` counts only the core; the elective part
   goes in `electiveHours` and `electiveBasis`. Nothing is removed from the curriculum to shorten it.
+- **Ages are when the unit is studied.** A year is four 12-week terms (quarters of an age year). From age 10, daily
+  tracks (mathematics, Latin, Greek, Spanish, grammar and composition, literature, music, physical training) run one
+  unit at a time; the other tracks are taken in blocks of one or two terms, with no two units of a track at once.
+  Weekly practices that run for years (service, debate, the commonplace book, reference grammars) keep long spans.
+  Each term's weekday load should stay near its share of the year's budget; the School Hours page shows it term by term.
 - **Day** (`day`) says which part of the week a unit uses. Weekday units are the Monday–Friday academics; Saturday
   units are outdoor skills, riding and shooting, sailing, handcrafts and home arts; Sunday units are Scripture, the
   lives of the saints and spiritual reading.

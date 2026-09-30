@@ -1063,7 +1063,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10
+    ageStart: 11
     ageEnd: 11.5
     order: 11
     prerequisites: [literature-09]
@@ -1175,8 +1175,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10
-    ageEnd: 11.5
+    ageStart: 11.5
+    ageEnd: 11.75
     order: 12
     prerequisites: [literature-09]
     related: []
@@ -1282,8 +1282,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 11.5
+    ageStart: 11.75
+    ageEnd: 12
     order: 13
     prerequisites: [literature-06]
     related: [poetry-05, drama-02]
@@ -1384,8 +1384,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 12.5
+    ageStart: 12
+    ageEnd: 12.25
     order: 14
     prerequisites: [literature-11, literature-12]
     related: []
@@ -1485,7 +1485,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11.5
+    ageStart: 12.25
     ageEnd: 12.5
     order: 15
     prerequisites: [literature-13]
@@ -1575,8 +1575,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13.5
+    ageStart: 12.5
+    ageEnd: 13
     order: 16
     prerequisites: [literature-05, literature-14]
     related: [greek-11]
@@ -1703,7 +1703,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 13
-    ageEnd: 14
+    ageEnd: 13.25
     order: 17
     prerequisites: [literature-15, literature-16]
     related: [poetry-09]
@@ -1807,8 +1807,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14.5
+    ageStart: 13.25
+    ageEnd: 13.5
     order: 18
     prerequisites: [literature-16]
     related: [poetry-09, old-english-05, old-english-04]
@@ -1951,7 +1951,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 13.5
-    ageEnd: 14.5
+    ageEnd: 13.75
     order: 19
     prerequisites: [literature-17, literature-18]
     related: [poetry-09]
@@ -2077,8 +2077,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 13.75
+    ageEnd: 14
     order: 20
     prerequisites: [literature-19]
     related: [poetry-10]
@@ -2214,7 +2214,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 14
-    ageEnd: 15
+    ageEnd: 14.25
     order: 21
     prerequisites: [literature-19]
     related: [poetry-11]
@@ -2339,8 +2339,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 15.5
+    ageStart: 14.25
+    ageEnd: 14.5
     order: 22
     prerequisites: [literature-21, literature-14]
     related: []
@@ -2454,8 +2454,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 14.5
+    ageEnd: 14.75
     order: 23
     prerequisites: [literature-22]
     related: [poetry-11]
@@ -2586,8 +2586,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 14.75
+    ageEnd: 15
     order: 24
     prerequisites: [literature-22]
     related: [poetry-12]
@@ -2702,8 +2702,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 15
+    ageEnd: 15.25
     order: 25
     prerequisites: [literature-24]
     related: []
@@ -2937,8 +2937,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 14.5
+    ageStart: 15.25
+    ageEnd: 15.5
     order: 27
     prerequisites: [literature-12, literature-14]
     related: []
@@ -3077,8 +3077,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 15.5
+    ageStart: 15.5
+    ageEnd: 15.75
     order: 28
     prerequisites: [literature-27]
     related: [poetry-12]
@@ -3203,8 +3203,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 15.75
+    ageEnd: 16
     order: 29
     prerequisites: [literature-28]
     related: [philosophy-07]
@@ -3348,7 +3348,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 16
-    ageEnd: 17
+    ageEnd: 16.5
     order: 30
     prerequisites: [literature-22]
     related: []
@@ -3473,8 +3473,8 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
-    ageEnd: 17.5
+    ageStart: 16.5
+    ageEnd: 17.25
     order: 31
     prerequisites: [literature-16, literature-18]
     related: [philosophy-05, theology-15]
@@ -3628,7 +3628,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17.5
+    ageStart: 17.25
     ageEnd: 18
     order: 32
     prerequisites: [literature-31]

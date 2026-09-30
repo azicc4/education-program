@@ -128,7 +128,7 @@ rows:
     stage: formal
     day: saturday
     ageStart: 7
-    ageEnd: 16
+    ageEnd: 18
     order: 4
     prerequisites: [physical-training-03]
     related: [natural-science-11, mathematics-15, sports-02, sports-05]
@@ -258,7 +258,7 @@ rows:
     stage: formal
     day: saturday
     ageStart: 8
-    ageEnd: 16
+    ageEnd: 18
     order: 6
     prerequisites: [physical-training-02]
     related: [greek-08]
@@ -418,7 +418,7 @@ rows:
     stage: formal
     day: saturday
     ageStart: 10
-    ageEnd: 16
+    ageEnd: 18
     order: 9
     prerequisites: [physical-training-01]
     related: [sports-01, sports-09]

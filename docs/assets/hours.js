@@ -114,9 +114,28 @@
     $('hours-grade').innerHTML = `<section class="panel-card hours-grade">
       <h2>${esc(y.label)} in detail <small>ages ${y.ageStart}–${y.ageEnd}</small></h2>
       <div class="chips" role="group" aria-label="Grade">${chips}</div>
+      ${termsHtml(y)}
       <p class="by">Each unit's hours are spread evenly over its ages, so a unit running over two years counts half in each. Select a unit to open it.</p>
       ${sections}
     </section>`;
+  }
+
+  // the year as four 12-week terms: the weekday units studied in each, heaviest first; light weekly practices are counted, not listed
+  const TERMS = ['Term 1', 'Term 2', 'Term 3', 'Term 4'];
+  const perWeek = (r) => (workloadTotal(r) || 0) / Math.max(r.ageEnd - r.ageStart, 0.25) / (B.saturday.weeks || 48);
+  function termsHtml(y) {
+    const wk = DATA.rows.filter((r) => !r.elective && dayOf(r) === 'weekday' && r.workload);
+    const cols = TERMS.map((label, i) => {
+      const a = y.ageStart + i / 4;
+      const on = wk.filter((r) => r.ageStart <= a + 1e-9 && a < r.ageEnd - 1e-9).sort((p, q) => perWeek(q) - perWeek(p));
+      const main = on.filter((r) => perWeek(r) >= 1.5);
+      const light = on.length - main.length;
+      const h = on.reduce((s, r) => s + perWeek(r), 0);
+      return `<div class="term"><h4>${label} <small>ages ${age(a)}–${age(a + 0.25)} · ${Math.round(h)} h a week</small></h4><ul>${main
+        .map((r) => `<li><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> <span class="by">${esc(trackById[r.track]?.title || r.track)} · ${perWeek(r).toFixed(1)} h/wk</span></li>`)
+        .join('')}</ul>${light ? `<p class="by">plus ${light} light weekly practice${light === 1 ? '' : 's'} (under 1½ h a week each)</p>` : ''}</div>`;
+    });
+    return `<h3>Term by term (weekday academics)</h3><p class="by">Daily subjects run one unit at a time through the year; the others are taken a term or two at a time, so each term has a handful of main subjects.</p><div class="terms">${cols.join('')}</div>`;
   }
 
   function render() {

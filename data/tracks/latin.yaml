@@ -245,10 +245,10 @@ rows:
   - id: latin-04
     title: "Latin IV: Grammar Completion (Syntax & the Subjunctive)"
     type: course
-    level: early-5
+    level: 6-8
     stage: formal
-    ageStart: 10
-    ageEnd: 12
+    ageStart: 10.5
+    ageEnd: 12.25
     order: 4
     prerequisites: [latin-03]
     summary: >-
@@ -371,8 +371,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 12
+    ageStart: 12.25
+    ageEnd: 12.5
     order: 5
     prerequisites: [latin-03]
     related: [greek-07]
@@ -566,8 +566,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11.5
-    ageEnd: 12.5
+    ageStart: 12.5
+    ageEnd: 13
     order: 7
     prerequisites: [latin-04, latin-05]
     related: [greek-08]
@@ -655,10 +655,10 @@ rows:
   - id: latin-08
     title: "Latin Composition I: Bradley's Arnold & North and Hillard"
     type: course
-    level: 6-8
+    level: 9-12
     stage: formal
-    ageStart: 11.5
-    ageEnd: 14
+    ageStart: 13
+    ageEnd: 13.5
     order: 8
     prerequisites: [latin-04]
     summary: >-
@@ -732,10 +732,10 @@ rows:
   - id: latin-09
     title: "Ovid: Metamorphoses & Tristia (First Latin Verse)"
     type: course
-    level: 6-8
+    level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 13.5
+    ageEnd: 13.75
     order: 9
     prerequisites: [latin-07]
     related: [greek-11]
@@ -795,8 +795,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 13.75
+    ageEnd: 14
     order: 10
     prerequisites: [latin-04]
     related: [hebrew-08, greek-13, music-07]
@@ -907,8 +907,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 14
+    ageStart: 14
+    ageEnd: 14.75
     order: 11
     prerequisites: [latin-07, latin-08]
     related: [character-virtue-13, rhetoric-10]
@@ -1039,8 +1039,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13.5
-    ageEnd: 15
+    ageStart: 14.75
+    ageEnd: 15.5
     order: 12
     prerequisites: [latin-09, latin-11]
     related: [greek-11]
@@ -1201,8 +1201,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 15.5
+    ageStart: 15.5
+    ageEnd: 16.25
     order: 14
     prerequisites: [latin-12]
     related: [old-english-03]
@@ -1301,8 +1301,8 @@ rows:
     electiveNote: >-
       Latin Composition I remains core; advanced prose and verse composition is for strong
       Latinists.
-    ageStart: 14.5
-    ageEnd: 16.5
+    ageStart: 14.75
+    ageEnd: 16.75
     order: 15
     prerequisites: [latin-08, latin-12]
     related: [poetry-10]
@@ -1370,8 +1370,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16.5
+    ageStart: 16.25
+    ageEnd: 17
     order: 16
     prerequisites: [latin-10, latin-11]
     related: [old-english-02, history-19]
@@ -1535,7 +1535,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17.5
+    ageStart: 17
     ageEnd: 18.5
     order: 18
     prerequisites: [latin-16, latin-11, latin-14]

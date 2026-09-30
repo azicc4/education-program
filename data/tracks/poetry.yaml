@@ -438,7 +438,7 @@ rows:
     level: 6-8
     stage: formal
     ageStart: 10
-    ageEnd: 12
+    ageEnd: 10.25
     order: 5
     prerequisites: [poetry-03]
     related: [literature-07, literature-10, literature-13, literature-15, rhetoric-05, drama-03]
@@ -548,8 +548,8 @@ rows:
     type: unit
     level: 6-8
     stage: formal
-    ageStart: 10
-    ageEnd: 12
+    ageStart: 10.5
+    ageEnd: 10.75
     order: 6
     prerequisites: [poetry-03]
     related: [hebrew-06, music-05]
@@ -698,7 +698,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
+    ageStart: 12.25
     ageEnd: 12.5
     order: 7
     prerequisites: [poetry-04]
@@ -801,7 +801,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
+    ageStart: 13.25
     ageEnd: 13.5
     order: 8
     prerequisites: [poetry-07]
@@ -908,8 +908,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14.5
+    ageStart: 14
+    ageEnd: 14.25
     order: 9
     prerequisites: [poetry-08]
     related: [literature-18, literature-19, literature-26, old-english-05]
@@ -1165,8 +1165,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 15.5
+    ageStart: 15
+    ageEnd: 15.25
     order: 11
     prerequisites: [poetry-09]
     related: [literature-21, literature-23]
@@ -1352,7 +1352,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
+    ageStart: 15.75
     ageEnd: 16
     order: 12
     prerequisites: [poetry-11]

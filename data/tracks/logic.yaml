@@ -101,8 +101,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 12
+    ageStart: 11.5
+    ageEnd: 11.75
     order: 3
     prerequisites: [logic-02]
     related: [philosophy-03]
@@ -175,7 +175,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
+    ageStart: 12.75
     ageEnd: 13
     order: 4
     prerequisites: [logic-03]
@@ -233,7 +233,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 13
-    ageEnd: 14
+    ageEnd: 13.25
     order: 5
     prerequisites: [logic-04]
     related: [rhetoric-07, philosophy-07]
@@ -368,8 +368,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 16
+    ageStart: 13.75
+    ageEnd: 14
     order: 7
     prerequisites: [logic-04]
     related: []
@@ -437,8 +437,8 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
-    ageEnd: 18
+    ageStart: 17.5
+    ageEnd: 17.75
     order: 8
     prerequisites: [logic-05, logic-07]
     related: [philosophy-14]

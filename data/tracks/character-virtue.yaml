@@ -430,7 +430,7 @@ rows:
     level: 6-8
     stage: formal
     ageStart: 11
-    ageEnd: 13
+    ageEnd: 11.25
     order: 7
     prerequisites: [character-virtue-03]
     related: [literature-08]
@@ -563,10 +563,10 @@ rows:
   - id: character-virtue-09
     title: "The Cardinal and Theological Virtues"
     type: course
-    level: 9-12
+    level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 14
+    ageStart: 10.5
+    ageEnd: 10.75
     order: 9
     prerequisites: [character-virtue-03]
     related: [theology-14, theology-20, philosophy-04]
@@ -700,8 +700,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 16
+    ageStart: 16
+    ageEnd: 16.25
     order: 11
     prerequisites: [character-virtue-07, character-virtue-09]
     related: [theology-18, literature-23]

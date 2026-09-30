@@ -407,8 +407,8 @@ rows:
     type: unit
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 13
+    ageStart: 11
+    ageEnd: 11.75
     order: 8
     prerequisites: [grammar-composition-04]
     related: [character-virtue-04, practical-arts-07]
@@ -459,7 +459,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
+    ageStart: 11.75
     ageEnd: 13
     order: 9
     prerequisites: [grammar-composition-04, grammar-composition-02]
@@ -522,8 +522,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 14
+    ageStart: 13
+    ageEnd: 13.75
     order: 10
     prerequisites: [grammar-composition-05, grammar-composition-09]
     related: []
@@ -570,8 +570,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 15
+    ageStart: 13.75
+    ageEnd: 15.25
     order: 11
     prerequisites: [grammar-composition-09, grammar-composition-10]
     related: [rhetoric-07, logic-02]
@@ -626,7 +626,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
+    ageStart: 15.25
     ageEnd: 16
     order: 12
     prerequisites: [grammar-composition-11]
@@ -743,7 +743,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
+    ageStart: 16
     ageEnd: 18
     order: 14
     prerequisites: [grammar-composition-12, grammar-composition-10, grammar-composition-11]

@@ -457,7 +457,7 @@ rows:
     level: 6-8
     stage: formal
     ageStart: 11
-    ageEnd: 12
+    ageEnd: 11.75
     order: 9
     prerequisites: [mathematics-07]
     related: []
@@ -514,10 +514,10 @@ rows:
   - id: mathematics-10
     title: "Euclid's Elements I: Books I–IV & Demonstrative Geometry"
     type: course
-    level: 9-12
+    level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 11.75
+    ageEnd: 12.5
     order: 10
     prerequisites: [mathematics-09]
     related: [logic-03, philosophy-05]
@@ -619,7 +619,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 12.5
-    ageEnd: 13.5
+    ageEnd: 13.25
     order: 11
     prerequisites: [mathematics-09]
     related: []
@@ -685,8 +685,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 13.25
+    ageEnd: 13.5
     order: 12
     prerequisites: [mathematics-10]
     related: []
@@ -759,8 +759,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 13.5
+    ageEnd: 14.25
     order: 13
     prerequisites: [mathematics-10, mathematics-11]
     related: []
@@ -882,7 +882,7 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 13.5
+    ageStart: 14.25
     ageEnd: 14.5
     order: 15
     prerequisites: [mathematics-13]
@@ -915,8 +915,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 14.5
+    ageEnd: 15
     order: 16
     prerequisites: [mathematics-11]
     related: [social-science-03, social-science-04, economics-10]
@@ -1023,8 +1023,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 15.5
+    ageStart: 16
+    ageEnd: 17
     order: 17
     prerequisites: [mathematics-10, mathematics-11]
     related: [logic-07]
@@ -1061,8 +1061,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 15
+    ageEnd: 16
     order: 16.5
     prerequisites: [mathematics-13]
     related: [physics-02, physics-05]
@@ -1189,8 +1189,8 @@ rows:
     elective: true
     electiveNote: >-
       Beyond the core sequence through calculus and proof; suited to dual enrollment.
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 17
     order: 19
     prerequisites: [mathematics-17, mathematics-18]
     related: []

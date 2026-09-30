@@ -326,7 +326,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10
+    ageStart: 10.75
     ageEnd: 11
     order: 7
     prerequisites: [natural-science-06]
@@ -404,8 +404,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10
-    ageEnd: 12
+    ageStart: 11
+    ageEnd: 11.25
     order: 8
     prerequisites: []
     related: []
@@ -464,8 +464,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 11.5
+    ageStart: 10.25
+    ageEnd: 10.5
     order: 9
     prerequisites: [natural-science-06]
     related: []
@@ -530,8 +530,8 @@ rows:
     type: unit
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 13
+    ageStart: 11.25
+    ageEnd: 11.5
     order: 10
     prerequisites: [natural-science-07, natural-science-08]
     related: []
@@ -598,8 +598,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12
-    ageEnd: 13
+    ageStart: 12.5
+    ageEnd: 12.75
     order: 11
     prerequisites: [natural-science-09]
     related: []
@@ -673,8 +673,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 14.5
+    ageEnd: 14.75
     order: 15
     prerequisites: [natural-science-05]
     related: [physics-01]
@@ -758,7 +758,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
+    ageStart: 15.75
     ageEnd: 16
     order: 16
     prerequisites: [natural-science-08]
@@ -830,8 +830,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 16.25
     order: 18
     prerequisites: []
     related: [logic-08, biology-01, physics-02]
@@ -883,7 +883,7 @@ rows:
     level: college
     stage: formal
     ageStart: 17
-    ageEnd: 18
+    ageEnd: 17.25
     order: 19
     prerequisites: [natural-science-18]
     related: [philosophy-14, chemistry-01, physics-02]

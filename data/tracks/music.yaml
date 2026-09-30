@@ -559,7 +559,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 12
-    ageEnd: 15
+    ageEnd: 13.75
     order: 11
     prerequisites: [music-08]
     related: []
@@ -610,7 +610,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
+    ageStart: 13.75
     ageEnd: 16
     order: 12
     prerequisites: [music-06]

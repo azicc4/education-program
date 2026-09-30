@@ -112,8 +112,8 @@ rows:
     type: unit
     level: 6-8
     stage: formal
-    ageStart: 10
-    ageEnd: 11
+    ageStart: 11.25
+    ageEnd: 11.5
     order: 3
     prerequisites: [economics-02]
     related: [mathematics-06]
@@ -162,8 +162,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 12.5
+    ageStart: 12
+    ageEnd: 12.25
     order: 4
     prerequisites: [economics-03]
     related: [logic-02, civics-law-06]
@@ -243,7 +243,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
+    ageStart: 13.75
     ageEnd: 14
     order: 5
     prerequisites: [economics-04]
@@ -296,8 +296,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14.5
+    ageStart: 14
+    ageEnd: 14.25
     order: 6
     prerequisites: [economics-04]
     related: [philosophy-07, character-virtue-12]
@@ -366,8 +366,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15.5
+    ageStart: 14.25
+    ageEnd: 14.5
     order: 7
     prerequisites: [economics-06]
     related: [theology-20, civics-law-15]
@@ -486,8 +486,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 14.75
+    ageEnd: 15
     order: 8
     prerequisites: [economics-06]
     related: [philosophy-11, philosophy-12]
@@ -642,7 +642,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
+    ageStart: 16
     ageEnd: 16.5
     order: 9
     prerequisites: [economics-08, economics-07]
@@ -720,7 +720,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
+    ageStart: 17.5
     ageEnd: 18
     order: 10
     prerequisites: [economics-09, economics-05]

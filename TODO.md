@@ -38,9 +38,16 @@ and has a page count where one is known.
   with unit ids are in the PR description.
 - [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
   edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
-- [ ] **Scheduling within the year.** Each year's core now fits its budget (School Hours page). Still to do: decide
-  when in the school year each unit runs (whole year, a term, a summer, a few weeks), turn the totals into hours per
-  week or minutes per day, and show each child's combined weekly load in Family Progress and the trees.
+- [x] **Units sequenced by term** (ages 10–18): daily subjects one unit at a time, the rest in one- or two-term
+  blocks, one unit per track at a time; each term has about 8–11 main subjects (was 44–53 units open at once), and every
+  grade from 6 to 12 sits at 92–102% of its weekday budget with no gap (the old dip to 19 h a week at 16½ is gone).
+  Sciences run one a year: biology 12½, chemistry 13½, physics 14½, AP Physics C 16½.
+- [ ] Check the new term order where it matters in practice: AP courses should end by May of the exam year (ages are
+  by birthday, not the calendar); a lab practice unit sometimes follows its course by a term rather than running with it
+  (chemistry-02 after chemistry-01); some Latin and mathematics units now come later than before (Virgil at 14¾–15½,
+  AP Calculus BC at 15–16, proof writing at 16–17) because their units no longer overlap.
+- [ ] Show each child's combined weekly load in Family Progress and the trees, from the term plan.
+- [ ] Saturdays use 45–83% of their 8 hours in grades 5–12 (lightest at 15–17); room for more outdoor or craft units.
 - [ ] Check the page counts and portions the shortening assigned from memory rather than a specific edition: the Stones
   of Venice selection in fine-arts-11 (and its objective on "The Nature of Gothic", which is in Vol. II), and the Berry
   and Tucker portions in drama-05, which name content rather than chapter numbers; the Andria act boundaries (latin-14),

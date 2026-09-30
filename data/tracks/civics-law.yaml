@@ -302,7 +302,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10
+    ageStart: 11.75
     ageEnd: 12
     order: 6
     prerequisites: [civics-law-05]
@@ -388,8 +388,8 @@ rows:
     type: unit
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 14
+    ageStart: 11.75
+    ageEnd: 14.75
     order: 7
     prerequisites: [civics-law-06]
     related: [rhetoric-09, logic-02]
@@ -468,8 +468,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 13
+    ageStart: 12.25
+    ageEnd: 12.5
     order: 8
     prerequisites: [civics-law-05]
     related: [character-virtue-06, character-virtue-10, rhetoric-08, literature-10, history-09]
@@ -568,7 +568,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 13
-    ageEnd: 14
+    ageEnd: 13.25
     order: 9
     prerequisites: [civics-law-08]
     related: [philosophy-07, character-virtue-13, latin-11, theology-22, philosophy-15]
@@ -663,7 +663,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
+    ageStart: 14.75
     ageEnd: 15
     order: 10
     prerequisites: [civics-law-09]
@@ -790,7 +790,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
+    ageStart: 15.25
     ageEnd: 15.5
     order: 11
     prerequisites: [civics-law-10, civics-law-06]
@@ -904,8 +904,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 15.5
+    ageEnd: 15.75
     order: 12
     prerequisites: [civics-law-11]
     related: [philosophy-10]
@@ -976,7 +976,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
+    ageStart: 16.5
     ageEnd: 17
     order: 13
     prerequisites: [civics-law-10]
@@ -1042,8 +1042,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
-    ageEnd: 17
+    ageStart: 17
+    ageEnd: 17.25
     order: 14
     prerequisites: [civics-law-13, civics-law-07]
     related: [rhetoric-09, rhetoric-12, history-23]
@@ -1247,7 +1247,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
+    ageStart: 17.25
     ageEnd: 17.5
     order: 16
     prerequisites: [civics-law-11, civics-law-14]
@@ -1398,7 +1398,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17.5
+    ageStart: 17.75
     ageEnd: 18
     order: 18
     prerequisites: [civics-law-13, civics-law-16]
@@ -1657,8 +1657,8 @@ rows:
     elective: true
     electiveNote: >-
       College seminar beyond the core; Blackstone is core in civics-law-13.
-    ageStart: 17.5
-    ageEnd: 18
+    ageStart: 17.75
+    ageEnd: 18.25
     order: 18.5
     prerequisites: [civics-law-19, civics-law-18]
     related: [philosophy-16, theology-20, rhetoric-08, history-26, history-31]

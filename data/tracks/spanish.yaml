@@ -270,8 +270,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10.5
-    ageEnd: 12
+    ageStart: 11
+    ageEnd: 11.75
     order: 6
     prerequisites: [spanish-05]
     related: []
@@ -327,10 +327,10 @@ rows:
   - id: spanish-07
     title: "Hispanic History from Primary Sources: Bernal Díaz & Las Casas"
     type: unit
-    level: 9-12
+    level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 13.5
+    ageStart: 11.75
+    ageEnd: 12.25
     order: 7
     prerequisites: [spanish-06]
     related: []
@@ -387,8 +387,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 14
+    ageStart: 12.25
+    ageEnd: 13
     order: 8
     prerequisites: [spanish-06]
     related: [rhetoric-02]
@@ -451,7 +451,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 13
-    ageEnd: 14.5
+    ageEnd: 13.25
     order: 9
     prerequisites: [spanish-08]
     related: [theology-17, latin-10, theology-24]
@@ -517,8 +517,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14
-    ageEnd: 15.5
+    ageStart: 13.25
+    ageEnd: 14.25
     order: 10
     prerequisites: [spanish-06, spanish-08]
     related: [literature-30]
@@ -560,8 +560,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 16
+    ageStart: 14.25
+    ageEnd: 15
     order: 11
     prerequisites: [spanish-10]
     related: [philosophy-08]
@@ -626,8 +626,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 15
+    ageEnd: 16
     order: 12
     prerequisites: [spanish-11]
     related: []
@@ -710,7 +710,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
+    ageStart: 16
     ageEnd: 18
     order: 13
     prerequisites: [spanish-12]

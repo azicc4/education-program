@@ -412,7 +412,7 @@ rows:
     stage: formal
     day: sunday
     ageStart: 9
-    ageEnd: 10.5
+    ageEnd: 11
     order: 9
     prerequisites: [theology-04]
     related: []
@@ -470,11 +470,11 @@ rows:
   - id: theology-10
     title: "The Pilgrim's Progress & Christian Allegory"
     type: unit
-    level: 6-8
+    level: early-5
     stage: formal
     day: sunday
-    ageStart: 9.5
-    ageEnd: 11
+    ageStart: 9
+    ageEnd: 10
     order: 10
     prerequisites: [theology-07]
     related: []
@@ -531,8 +531,8 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 10
-    ageEnd: 12
+    ageStart: 10.5
+    ageEnd: 11
     order: 11
     prerequisites: [theology-08]
     related: [logic-02]
@@ -653,10 +653,10 @@ rows:
   - id: theology-13
     title: "Fr. Laux's Course in Religion (Doctrine, Sacraments, Morality, Apologetics)"
     type: course
-    level: 9-12
+    level: 6-8
     stage: formal
-    ageStart: 12
-    ageEnd: 14
+    ageStart: 11.75
+    ageEnd: 12
     order: 13
     prerequisites: [theology-11]
     related: [philosophy-04]
@@ -709,8 +709,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 12.5
-    ageEnd: 14
+    ageStart: 13
+    ageEnd: 13.25
     order: 14
     prerequisites: [theology-11]
     related: [philosophy-05, logic-04, biology-01]
@@ -935,8 +935,8 @@ rows:
     level: 9-12
     stage: formal
     day: sunday
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 17
     order: 16
     prerequisites: [theology-14]
     related: [philosophy-08, chinese-10, history-18]
@@ -1017,8 +1017,8 @@ rows:
     level: 9-12
     stage: formal
     day: sunday
-    ageStart: 16.5
-    ageEnd: 17.5
+    ageStart: 17
+    ageEnd: 18
     order: 17
     prerequisites: [theology-16]
     related: [philosophy-06, spanish-09]
@@ -1093,7 +1093,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 14
-    ageEnd: 15.5
+    ageEnd: 14.25
     order: 18
     prerequisites: [theology-14]
     related: [philosophy-13]
@@ -1200,8 +1200,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 15.5
+    ageEnd: 15.75
     order: 19
     prerequisites: [theology-13, theology-15]
     related: [philosophy-12]
@@ -1355,7 +1355,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 15
-    ageEnd: 16
+    ageEnd: 15.25
     order: 20
     prerequisites: [theology-13]
     related: [philosophy-10, civics-law-15, economics-07, biology-03, history-26]
@@ -1466,7 +1466,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16
+    ageStart: 16.5
     ageEnd: 17
     order: 21
     prerequisites: [theology-13, theology-14]
@@ -1531,8 +1531,8 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
-    ageEnd: 18
+    ageStart: 17.5
+    ageEnd: 17.75
     order: 22
     prerequisites: [theology-21]
     related: [philosophy-13, philosophy-14, logic-08, character-virtue-14]
@@ -1614,8 +1614,8 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
-    ageEnd: 18
+    ageStart: 17.25
+    ageEnd: 17.5
     order: 23
     prerequisites: [theology-16, theology-21]
     related: [rhetoric-12, history-32]
