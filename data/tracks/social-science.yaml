@@ -205,6 +205,9 @@ rows:
         kind: instructional
         reader: student
         pages: 750
+        lessons: 16
+        lessonLabel: chapter
+        lessonsNote: "OpenStax online table of contents: 16 chapters, Introduction to Psychology to Therapy and Treatment"
         author: Rose M. Spielman et al.
         date: "2020"
         publicDomain: false

@@ -332,6 +332,9 @@ rows:
         kind: instructional
         reader: student
         pages: 372
+        lessons: 38
+        lessonLabel: chapter
+        lessonsNote: "Archive.org scan table of contents: Chapters I-XXXVIII plus appendix of documents"
         pace: long
         author: Joseph Story
         date: "1840"
@@ -419,6 +422,9 @@ rows:
         kind: instructional
         reader: student
         pages: 188
+        lessons: 53
+        lessonLabel: section
+        lessonsNote: "Archive.org scan text: Sections I-LIII of the Manual, before the added rules of both Houses"
         author: Thomas Jefferson
         date: "1801"
         publicDomain: true

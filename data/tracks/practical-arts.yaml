@@ -333,6 +333,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 176
+        lessons: 21
+        lessonLabel: chapter
+        lessonsNote: "Archive.org scan table of contents: 21 chapters, Theory of Penmanship to Drawing, plus appendix"
         order: 1
         author: H. C. Spencer
         date: "1866"
@@ -476,6 +479,9 @@ rows:
         kind: instructional
         reader: student
         pages: 288
+        lessons: 6
+        lessonLabel: section
+        lessonsNote: "Archive.org scan (Philadelphia ed.), preface and text: Sections I-VI"
         pace: long
         author: Robert Gibson
         date: "1789 (Philadelphia ed.)"
@@ -851,6 +857,9 @@ rows:
         kind: instructional
         reader: student
         pages: 234
+        lessons: 13
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg 50846 table of contents: 13 chapters"
         author: E. S. Keene
         date: "1918"
         publicDomain: true
@@ -973,6 +982,9 @@ rows:
         kind: instructional
         reader: student
         pages: 369
+        lessons: 37
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg 21829 table of contents: Chapters I-XXXVII"
         author: Catharine E. Beecher
         date: "1841"
         publicDomain: true

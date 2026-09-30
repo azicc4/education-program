@@ -729,6 +729,9 @@ rows:
         kind: instructional
         reader: student
         pages: 188
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Archive.org record of the 1979 rev. ed. (McGraw-Hill) contents: 10 chapters, Nature of meter to Conventions and the individual talent"
         author: Paul Fussell
         date: "1965; rev. 1979"
         publicDomain: false
@@ -1443,6 +1446,9 @@ rows:
         kind: instructional
         reader: student
         pages: 188
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Archive.org record of the 1979 rev. ed. (McGraw-Hill) contents: 10 chapters, Nature of meter to Conventions and the individual talent"
         role: review
         reviewOf: poetry-07
         author: Paul Fussell

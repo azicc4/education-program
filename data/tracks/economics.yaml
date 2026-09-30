@@ -139,6 +139,9 @@ rows:
         kind: instructional
         reader: student
         pages: 158
+        lessons: 15
+        lessonLabel: chapter
+        lessonsNote: "Bluestocking Press table of contents: 15 chapters, Money: Coins and Paper to Natural Law and Economic Prosperity"
         author: Richard J. Maybury
         date: "1989"
         publicDomain: false

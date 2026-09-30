@@ -247,6 +247,9 @@ rows:
         kind: instructional
         reader: together
         pages: 64
+        lessons: 11
+        lessonLabel: lesson
+        lessonsNote: "Catholic Book Publishing look-inside contents: 11 lessons, God Made Us to The Holy Eucharist, plus prayer and Mass pages"
         order: 1
         author: Confraternity of Christian Doctrine (rev. Baltimore Catechism)
         publicDomain: false
@@ -255,6 +258,9 @@ rows:
       - title: "A Catechism of Christian Doctrine, No. 1 (Baltimore Catechism)"
         kind: instructional
         reader: together
+        lessons: 33
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 14551 text: Lesson First to Lesson Thirty-Third"
         order: 2
         author: Third Plenary Council of Baltimore
         date: "1885 (1891 ed.)"
@@ -378,6 +384,9 @@ rows:
       - title: "A Catechism of Christian Doctrine, No. 2 (Baltimore Catechism)"
         kind: instructional
         reader: together
+        lessons: 37
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 14552 text: Lesson First to Lesson Thirty-Seventh"
         pace: long
         author: Third Plenary Council of Baltimore
         date: "1885"
@@ -546,6 +555,9 @@ rows:
       - title: "A Catechism of Christian Doctrine, No. 3 (Baltimore Catechism)"
         kind: instructional
         reader: student
+        lessons: 37
+        lessonLabel: lesson
+        lessonsNote: "Project Gutenberg 14553 text: Lesson First to Lesson Thirty-Seventh"
         pace: long
         author: Third Plenary Council of Baltimore
         date: "1885 (1891 ed.)"

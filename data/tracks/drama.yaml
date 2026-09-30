@@ -83,6 +83,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 368
+        lessons: 9
+        lessonLabel: chapter
+        lessonsNote: "Open Library table of contents: 9 play chapters, A Midsummer Night's Dream to The Tempest, plus 2 interludes and 5 appendices"
         author: Ken Ludwig
         date: "2013"
         publicDomain: false
@@ -492,6 +495,9 @@ rows:
         kind: instructional
         reader: student
         pages: 238
+        lessons: 12
+        lessonLabel: chapter
+        lessonsNote: "Open Library table of contents (Methuen ed.): 12 chapters, The two traditions to Poetry and hidden poetry"
         author: John Barton
         date: "1984; rev. 2009"
         publicDomain: false
@@ -501,6 +507,9 @@ rows:
         kind: instructional
         reader: student
         pages: 389
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Routledge table of contents, 2nd ed.: 10 chapters, The 30 Secrets to The Plays and the Clues, plus epilogue and appendices"
         author: Patrick Tucker
         date: "2002; 2nd ed. 2016"
         publicDomain: false
@@ -588,6 +597,9 @@ rows:
         kind: instructional
         reader: teacher
         pages: 278
+        lessons: 11
+        lessonLabel: section
+        lessonsNote: "Cambridge contents: 3 chapters in 11 sections, Linguistic and social variability to Some further British innovations"
         author: J. C. Wells
         date: "1982"
         publicDomain: false
@@ -597,6 +609,9 @@ rows:
         kind: instructional
         reader: student
         pages: 172
+        lessons: 31
+        lessonLabel: chapter
+        lessonsNote: "Springer/Palgrave table of contents: introduction plus 31 chapters, The Power of Writing to Uptalk"
         author: Geoff Lindsey
         date: "2019"
         publicDomain: false
@@ -838,6 +853,9 @@ rows:
         kind: instructional
         reader: student
         pages: 452
+        lessons: 12
+        lessonLabel: chapter
+        lessonsNote: "Wiley table of contents, 3rd ed.: 12 chapters, Dialects, Standards, and Vernaculars to Dialect Awareness"
         author: Walt Wolfram & Natalie Schilling
         date: "2015"
         publicDomain: false
@@ -1009,6 +1027,9 @@ rows:
         kind: instructional
         reader: student
         pages: 246
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Routledge table of contents: 14 chapters in four parts"
         author: Katie Mitchell
         date: "2009"
         publicDomain: false
@@ -1018,6 +1039,9 @@ rows:
         kind: instructional
         reader: student
         pages: 389
+        lessons: 10
+        lessonLabel: chapter
+        lessonsNote: "Routledge table of contents, 2nd ed.: 10 chapters, The 30 Secrets to The Plays and the Clues, plus epilogue and appendices"
         role: review
         reviewOf: drama-05
         author: Patrick Tucker
@@ -1111,6 +1135,9 @@ rows:
         kind: instructional
         reader: student
         pages: 246
+        lessons: 14
+        lessonLabel: chapter
+        lessonsNote: "Routledge table of contents: 14 chapters in four parts"
         role: review
         reviewOf: drama-10
         author: Katie Mitchell

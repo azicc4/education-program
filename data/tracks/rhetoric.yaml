@@ -351,6 +351,9 @@ rows:
         kind: instructional
         reader: student
         pages: 584
+        lessons: 6
+        lessonLabel: chapter
+        lessonsNote: "4th ed. contents: 6 chapters, Introduction, Discovery of Arguments, Arrangement, Style, The Progymnasmata, A Survey of Rhetoric"
         pace: long
         author: Edward P.J. Corbett & Robert J. Connors
         date: "1965; 4th ed. 1999"
