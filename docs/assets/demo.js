@@ -13,10 +13,10 @@
     return d.toISOString().slice(0, 10);
   };
 
-  // units that have ended are done; units spanning the child's age are in progress
+  // core units that have ended are done; core units spanning the child's age are in progress (electives are left unstarted)
   function progressFor(DATA, age) {
     const status = {};
-    for (const r of DATA.rows) {
+    for (const r of DATA.rows.filter((x) => !x.elective)) {
       if (r.ageEnd <= age) status[r.id] = 'done';
       else if (r.ageStart <= age) status[r.id] = 'active';
     }

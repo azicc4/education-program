@@ -366,7 +366,16 @@
       ctx.fillStyle = n.kind === 'hub' ? INK.hub : n.color;
       ctx.beginPath();
       ctx.arc(n.x, n.y, r, 0, 2 * Math.PI);
-      ctx.fill();
+      // elective units are drawn as outlined circles with a faint fill
+      if (n.row?.elective) {
+        const a = ctx.globalAlpha;
+        ctx.globalAlpha = a * 0.3;
+        ctx.fill();
+        ctx.globalAlpha = a;
+        ctx.strokeStyle = n.color;
+        ctx.lineWidth = 1.2 / k;
+        ctx.stroke();
+      } else ctx.fill();
       const ring = n.status === 'active' ? INK.active : n.complete ? INK.done : '';
       if (ring) {
         ctx.globalAlpha = lit(n) ? 1 : dim;

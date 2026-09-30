@@ -79,7 +79,7 @@
         : `<button type="button" class="btn" data-act="active" data-id="${esc(r.id)}">Start</button>`;
     return `<article class="unit-card">
       <div class="meta">${levelBadge(r.level)} <span>${esc(r.trackGroup)} › ${esc(trackTitle(r.track))}</span> · <span>typical age ${esc(ageLabel(r))}</span> <span class="badge pace-${item.pace}">${esc(pace)}</span>${S.inSeason(r) ? ' <span class="badge pace-on">In season now</span>' : ''}</div>
-      <h3><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button></h3>
+      <h3><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> ${window.App.unitBadges(r)}</h3>
       <p class="desc">${esc(r.summary)}</p>
       ${texts.length ? `<div class="texts"><strong>Texts:</strong> ${window.App.readingPlan(r).texts.filter((t) => texts.includes(t)).map((t) => `${esc(S.cleanTitle(t))}${t.author ? ` <span class="by">(${esc(t.author)})</span>` : ''} ${window.App.planBadges(t, window.App.readingPlan(r))} ${readerBadge(t)}${lengthLabel(t) ? ` <span class="by">${lengthLabel(t)}</span>` : ''}`).join('; ')}</div>${window.App.loadText(window.App.readingPlan(r)) ? `<p class="load">${esc(window.App.loadText(window.App.readingPlan(r)))}</p>` : ''}` : ''}
       <div class="form-actions">${actions} <button type="button" class="linkish" data-open="${esc(r.id)}">Details, objectives &amp; resources</button></div>
@@ -208,7 +208,7 @@
           const key = S.textKey(t);
           if (S.onShelf(c.id, key)) continue;
           const entry = needs.get(key) || { text: t, elective: true, uses: [] };
-          entry.elective = entry.elective && S.isElective(t);
+          entry.elective = entry.elective && (S.isElective(t) || !!r.elective);
           entry.uses.push({ child: c, row: r, badges: window.App.planBadges(t, plan), choice: t.role === 'choice' });
           needs.set(key, entry);
         }

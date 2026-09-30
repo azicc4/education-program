@@ -28,9 +28,16 @@
   const lengthLabel = (t) => (t?.pages ? `${Number(t.pages).toLocaleString()} pp` : t?.words ? `${Math.round(t.words / 1000).toLocaleString()}k words` : '');
   const levelBadge = (id) => `<span class="badge lvl-${esc(id)}">${esc(levelById[id]?.label ?? id)}</span>`;
   const trackTitle = (id) => trackById[id]?.title ?? id;
+  // units outside the core, and units that run on a Saturday or a Sunday rather than a school day
+  const DAY_LABEL = { weekday: 'Weekday', saturday: 'Saturday', sunday: 'Sunday' };
+  const dayOf = (r) => r.day || 'weekday';
+  const unitBadges = (r) =>
+    `${r.elective ? `<span class="badge unit-elective" title="${esc(r.electiveNote || 'Outside the core curriculum')}">Elective</span>` : ''}${dayOf(r) !== 'weekday' ? `<span class="badge day-${esc(r.day)}" title="Runs on ${DAY_LABEL[r.day]}s">${DAY_LABEL[r.day]}</span>` : ''}`;
+  // whether a unit is part of a child's expected path: core units always, electives once started
+  const inPlan = (r, status) => !r.elective || !!status;
 
   // ---------- state in URL hash ----------
-  const defaults = { level: [], group: '', track: '', exam: '', q: '', sort: 'age', dir: 'asc', row: '', at: '', child: '', now: 'on', view: 'table', lt: '' };
+  const defaults = { level: [], group: '', track: '', exam: '', q: '', sort: 'age', dir: 'asc', row: '', at: '', child: '', now: 'on', view: 'table', lt: '', el: '', day: '' };
   function readState() {
     const p = new URLSearchParams(location.hash.slice(1));
     return {
@@ -47,6 +54,8 @@
       now: p.get('now') || defaults.now,
       view: p.get('view') || defaults.view,
       lt: p.get('lt') || '',
+      el: p.get('el') || '',
+      day: p.get('day') || '',
     };
   }
   function writeState(state) {
@@ -64,6 +73,9 @@
     if (s.group && r.trackGroup !== s.group) return false;
     if (s.track && r.track !== s.track) return false;
     if (s.exam && !(r.exams || []).includes(s.exam)) return false;
+    if (s.el === 'core' && r.elective) return false;
+    if (s.el === 'elective' && !r.elective) return false;
+    if (s.day && dayOf(r) !== s.day) return false;
     if (s.q) {
       const hay = [
         r.title, r.summary, r.notes, r.historicalPrecedent, trackTitle(r.track), r.trackGroup,
@@ -96,6 +108,8 @@
       ${(DATA.exams || []).length ? `<label>Prepares for <select data-f="exam"><option value="">Any exam</option>${DATA.exams
         .map((x) => `<option value="${esc(x.id)}"${x.id === state.exam ? ' selected' : ''}>${esc(x.name)}</option>`)
         .join('')}</select></label>` : ''}
+      <label>Units <select data-f="el"><option value="">Core and elective</option><option value="core"${state.el === 'core' ? ' selected' : ''}>Core only</option><option value="elective"${state.el === 'elective' ? ' selected' : ''}>Electives only</option></select></label>
+      <label>Day <select data-f="day"><option value="">Any day</option>${Object.entries(DAY_LABEL).map(([k, l]) => `<option value="${k}"${state.day === k ? ' selected' : ''}>${l}${k === 'weekday' ? ' (Mon–Fri)' : ''}</option>`).join('')}</select></label>
       ${search ? `<input type="search" data-f="q" placeholder="Search titles, authors, texts…" value="${esc(state.q)}" aria-label="Search">` : ''}
       ${child ? childSelect() : ''}
       <button type="button" class="linkish" data-f="reset">Reset</button>
@@ -121,6 +135,11 @@
       state.exam = e.target.value;
       onChange(false);
     });
+    for (const k of ['el', 'day'])
+      el.querySelector(`[data-f="${k}"]`).addEventListener('change', (e) => {
+        state[k] = e.target.value;
+        onChange(false);
+      });
     el.querySelector('[data-f="track"]').addEventListener('change', (e) => {
       state.track = e.target.value;
       onChange(false);
@@ -137,7 +156,7 @@
       });
     }
     el.querySelector('[data-f="reset"]').addEventListener('click', () => {
-      Object.assign(state, { level: [], group: '', track: '', exam: '', q: '' });
+      Object.assign(state, { level: [], group: '', track: '', exam: '', q: '', el: '', day: '' });
       onChange(true);
     });
   }
@@ -262,11 +281,12 @@
       ? `<div class="effort-bar" aria-hidden="true">${w.readingHours ? `<i class="k-reading" style="flex:${w.readingHours}"></i>` : ''}${work.map((x) => `<i class="k-${esc(x.kind)}" style="flex:${x.hours}" title="${esc(WORK_LABEL[x.kind] || x.kind)}: ${hrs(x.hours)}"></i>`).join('')}</div>`
       : '';
     return `<h3>Estimated effort</h3>
-      <div class="effort"><p class="effort-total"><strong>About ${hrs(total)}</strong> for the whole unit: ${hrs(w.readingHours || 0)} reading and ${hrs(workHours(r))} of work.</p>${bar}
+      <div class="effort"><p class="effort-total"><strong>About ${hrs(total)}</strong> ${r.elective ? 'for the whole unit (elective)' : w.electiveHours ? 'for the core of the unit' : 'for the whole unit'}: ${hrs(w.readingHours || 0)} reading and ${hrs(workHours(r))} of work.</p>${bar}
       <ul class="effort-list">${w.readingHours ? `<li><span class="sw k-reading"></span><strong>Reading, ${hrs(w.readingHours)}</strong>${w.readingBasis ? ` <span class="by">${esc(w.readingBasis)}</span>` : ''}</li>` : ''}${work
         .map((x) => `<li><span class="sw k-${esc(x.kind)}"></span><strong>${esc(WORK_LABEL[x.kind] || x.kind)}, ${hrs(x.hours)}</strong>${x.note ? ` <span class="by">${esc(x.note)}</span>` : ''}</li>`)
         .join('')}</ul>
-      <p class="by">Estimates for a typical student, as totals for the whole unit (${esc(ageLabel(r))}); how they spread across the school year is set separately.</p></div>`;
+      ${w.electiveHours ? `<p class="effort-elective"><span class="badge unit-elective">Elective</span> <strong>About ${hrs(w.electiveHours)} more as an elective extension:</strong> ${esc(w.electiveBasis || '')}</p>` : ''}
+      <p class="by">Estimates for a typical student, as totals for the whole unit (${esc(ageLabel(r))})${dayOf(r) !== 'weekday' ? `, run on ${DAY_LABEL[r.day]}s` : ''}. See <a href="hours.html">School Hours</a> for how each year's units fit the yearly budget.</p></div>`;
   }
 
 
@@ -390,7 +410,7 @@
   // the units a child should be on now in one track: in progress or running at their age; when behind, the first
   // unfinished unit whose age has already come. Empty when the track is finished or not yet begun.
   function nowUnits(rows, who) {
-    const open = [...rows].sort((a, b) => a.order - b.order || a.ageStart - b.ageStart).filter((r) => who.status(r.id) !== 'done');
+    const open = [...rows].sort((a, b) => a.order - b.order || a.ageStart - b.ageStart).filter((r) => who.status(r.id) !== 'done' && (who.none || inPlan(r, who.status(r.id))));
     const now = open.filter((r) => who.status(r.id) === 'active' || (r.ageStart <= who.age && who.age < r.ageEnd));
     if (now.length) return now;
     return open[0] && open[0].ageStart <= who.age ? [open[0]] : [];
@@ -398,7 +418,7 @@
   // the next step after `current` in a track: units unlocked by it, else the next unfinished unit in order
   function nextUnits(rows, current, who) {
     const used = new Set(current.map((r) => r.id));
-    const pool = rows.filter((r) => !used.has(r.id) && who.status(r.id) !== 'done').sort((a, b) => a.order - b.order);
+    const pool = rows.filter((r) => !used.has(r.id) && who.status(r.id) !== 'done' && (who.none || inPlan(r, who.status(r.id)))).sort((a, b) => a.order - b.order);
     const ids = new Set(current.map((r) => r.id));
     const unlocked = pool.filter((r) => (r.prerequisites || []).some((p) => ids.has(p)));
     if (unlocked.length) return unlocked.slice(0, 2);
@@ -601,6 +621,7 @@
       <button type="button" class="close" aria-label="Close">×</button>
       <div class="meta">${levelBadge(r.level)} <span>Age ${esc(ageLabel(r))}</span> · <span>${esc(r.trackGroup)} › ${esc(t?.title)}</span> · <span>${esc(r.type)}</span></div>
       <h2 id="detail-title">${esc(r.title)}</h2>
+      ${unitBadges(r) ? `<div class="unit-flags">${unitBadges(r)}${r.elective && r.electiveNote ? ` <span class="by">${esc(r.electiveNote)}</span>` : ''}</div>` : ''}
       <p>${esc(r.summary)}</p>
       ${progressSection(r)}
       ${timeSection(r)}
@@ -663,7 +684,7 @@
 
   window.App = {
     DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks, examById,
-    esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel,
+    esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel, unitBadges, dayOf, inPlan, DAY_LABEL,
     readState, writeState, matches, renderFilters, showDetail,
     isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml, workloadTotal, workloadHtml, workHours,
     quarterAge, childOptions, childFor, defaultChild, nowUnits, nextUnits, modal, printBooklist,

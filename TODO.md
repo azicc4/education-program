@@ -15,13 +15,14 @@ and has a page count where one is known.
 - [x] **GitHub Pages:** live at https://azicc4.github.io/education-program/, deployed by `.github/workflows/pages.yml` on every push to `main`.
 
 ## Open decisions for Adam
-- [ ] **Total workload is several times a school year.** With every formal unit estimated (7,858 h of reading and
-  33,108 h of work in all) and each unit spread evenly over its ages, the program asks roughly 2,700 h in the year from
-  age 10, 3,700 h from 12, and 5,000–6,000 h a year at 13–15, against about 1,000 h in a full school year. Decide which
-  tracks are core, which are optional or seasonal (physical training, practical arts, AP side tracks, test prep), and
-  which concurrent units to shorten, merge or move (history seminars at 13–15, theology at 12.5–14.5 and 15–16, the
-  five languages at 12–14, the sciences and two APs at 13–15). Part of the scheduling task under Next up.
-- [ ] The workload at 13–14 is Honors Chemistry, AP Biology, Honors Physics and precalculus together. Keep it, or move AP Biology to 14–15?
+- [x] **Workload fitted to yearly hour budgets** (`data/budget.yaml`, School Hours page). Weekday academics: regular
+  school hours × 2 through grade 6, × 2.5 for grades 7–10, × 1.5 for grades 11–12; Saturdays 8 h of activities; Sundays
+  1 h (age 9–12¾) or 2 h (12¾–18) of Scripture and spiritual reading. 104 units are now elective (Hebrew, Chinese, Old
+  English and the AP tracks whole; competitions, second AP sciences, college seminars that repeat earlier work, and
+  duplicated readings), 98 core units were shortened with the cut reading kept as elective, and 22 units were re-timed.
+  The science sequence is now one lab science a year (biology 12, chemistry 13, physics 14, AP Physics C 16).
+- [ ] Check the choices made in the shortening: Spanish as the core modern language (Chinese elective) and wrestling as
+  the core combat sport (fencing elective) are defaults a family may swap.
 - [ ] Add a non-Western world-history unit to the main history track? For now AP World is covered only in the side track.
 - [ ] Bioethics companion (biology-03): keep it at 13.5, or move it to 15–16? It touches end-of-life questions and gender ideology.
 
@@ -37,10 +38,17 @@ and has a page count where one is known.
   with unit ids are in the PR description.
 - [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
   edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
-- [ ] **Scheduling the workload.** Each formal unit now carries total reading and work hours (`workload` in the track YAML).
-  Next: decide when in the school year each unit runs (whole year, a term, a summer, a few weeks), then turn the totals
-  into hours per week or minutes per school day, and show each child's combined weekly load in Family Progress and the
-  trees. Check the totals against the pace a family can sustain at each age, and flag any year that is overloaded.
+- [ ] **Scheduling within the year.** Each year's core now fits its budget (School Hours page). Still to do: decide
+  when in the school year each unit runs (whole year, a term, a summer, a few weeks), turn the totals into hours per
+  week or minutes per day, and show each child's combined weekly load in Family Progress and the trees.
+- [ ] Check the page counts and portions the shortening assigned from memory rather than a specific edition: the Stones
+  of Venice selection in fine-arts-11 (and its objective on "The Nature of Gothic", which is in Vol. II), and the Berry
+  and Tucker portions in drama-05, which name content rather than chapter numbers; the Andria act boundaries (latin-14),
+  the De Officiis sections (latin-11), the Franklin letters to Collinson (natural-science-10) and the Maxwell Part IV
+  chapters (natural-science-19). Also: greek-03's notes say Machen has 45 lessons, its `lessons` field says 33.
+- [ ] A few shortened units keep whole novels an objective asks for, so their cut fell on seminars: literature-23 (12
+  seminars, 8 h left for its research essay), literature-25 and literature-30. Consider making Hardy or 1984 elective
+  instead and rewording the objective.
 - [x] Link check rerun (2,395 URLs: 2,294 OK, 34 flagged, 67 bot-blocked). Fixed: the AASM sleep paper (now on PMC), the Tracker tool (new site), and the dead Cambiata link (removed). The other flags were transient or bot walls (Green Lion, Cengage, IMSLP, ABRSM, Archive.org timeouts, vatican.va), all rechecked OK.
 - [x] Cross-track links wired: 73 pairs total; 372 of 462 units link to related units.
 - [x] Thin curriculum options filled on 36 rows: Catholic Latin (MODG, Kolbe, OLVS, Seton Henle, CLAA, Homeschool Connections, TAN Scanlon), Catholic math and civics, product-level Veritas and CC links, the Adoremus hymnal and Liturgy of the Hours for poetry-06, and the Catholic Literary Arts youth contest for poetry-13. All Seton links load.
