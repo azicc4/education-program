@@ -311,14 +311,16 @@ rows:
       - Compose an original ballad of 8+ stanzas on a historical or family subject
       - Read aloud a narrative poem with dramatic variation of voice
     workload:
-      readingHours: 85
-      readingBasis: "1,421 pp: ballads and narrative verse read by the student at ~16 pp/h (75 h), Child ballads read aloud at ~25 pp/h (9 h)"
+      readingHours: 51
+      readingBasis: "900 pp: ballads and narrative verse read by the student at ~16 pp/h (676 pp, 42 h), Child ballads read aloud at ~25 pp/h (224 pp, 9 h)"
       work:
         - { kind: memorization, hours: 20, note: "Horatius (280 lines) or the Rime Part I, 30 wk x 3 x 15 min with review" }
         - { kind: exercises, hours: 10, note: "ballad stanza, refrain and incremental repetition, 20 x 30 min" }
         - { kind: writing, hours: 5, note: "original ballad of 8+ stanzas, drafted and revised, ~6 x 45 min" }
-        - { kind: recitation, hours: 12, note: "dramatic reading aloud of narrative poems, 36 x 20 min" }
-        - { kind: discussion, hours: 18, note: "weekly narration and talk about the poems, 72 x 15 min" }
+        - { kind: recitation, hours: 10, note: "dramatic reading aloud of narrative poems, 30 x 20 min" }
+        - { kind: discussion, hours: 12, note: "narration and talk about the poems, 48 x 15 min" }
+      electiveHours: 41
+      electiveBasis: "the rest of the Oxford Book of Ballads, Percy's Reliques, The Lady of the Lake and Hiawatha (~520 pp, ~33 h), further recitation and discussion (~8 h)"
     coreTexts:
       - title: "The English and Scottish Popular Ballads, Vol. 1"
         kind: primary
@@ -335,6 +337,7 @@ rows:
         reader: student
         pages: 871
         role: selections
+        readPages: 120
         author: Arthur Quiller-Couch (ed.)
         date: "1910"
         publicDomain: true
@@ -345,6 +348,7 @@ rows:
         reader: student
         pages: 400
         role: selections
+        readPages: 80
         author: Thomas Percy (ed.)
         date: "1765"
         publicDomain: true
@@ -363,6 +367,9 @@ rows:
         kind: primary
         reader: student
         pages: 233
+        role: selections
+        portion: "Cantos I and II"
+        readPages: 80
         author: Sir Walter Scott
         date: "1810"
         publicDomain: true
@@ -390,6 +397,9 @@ rows:
         kind: primary
         reader: student
         pages: 215
+        role: selections
+        portion: "Introduction and Cantos I–VIII"
+        readPages: 70
         author: Henry Wadsworth Longfellow
         date: "1855"
         publicDomain: true
@@ -555,12 +565,14 @@ rows:
       - Scan hymn meters (common meter 8.6.8.6, long meter 8.8.8.8) and match texts to tunes
       - Write a metrical paraphrase of a short psalm in common meter
     workload:
-      readingHours: 40
-      readingBasis: "717 pp: KJV Psalms at ~15 pp/h (7 h), metrical psalms and hymns (Bay Psalm Book, Watts, Olney, Wesley, Keble) at ~20 pp/h (31 h); Lyra Catholica has no page count and is left out"
+      readingHours: 19
+      readingBasis: "338 pp: KJV Psalms at ~15 pp/h (7 h), selected metrical psalms and hymns (Bay Psalm Book, Watts, Olney, Wesley, Keble; 238 pp) at ~20 pp/h (12 h); Lyra Catholica has no page count and is left out"
       work:
         - { kind: memorization, hours: 14, note: "Psalms 1, 23, 51, 90, 121 and a metrical psalm (~90 lines), 36 wk x 2 x 12 min" }
-        - { kind: exercises, hours: 12, note: "parallelism, hymn-meter scansion and matching texts to tunes, 24 x 30 min" }
+        - { kind: exercises, hours: 5, note: "parallelism, hymn-meter scansion and matching texts to tunes, 10 x 30 min" }
         - { kind: writing, hours: 3, note: "metrical paraphrase of a short psalm in common meter, drafted and revised" }
+      electiveHours: 26
+      electiveBasis: "fuller reading in the Bay Psalm Book, Watts, the Olney Hymns, the Wesleys' Collection and Keble (~380 pp, ~19 h) and further scansion and tune-matching exercises (~7 h)"
     coreTexts:
       - title: "The Book of Psalms (King James Version)"
         kind: primary
@@ -587,6 +599,7 @@ rows:
         reader: student
         pages: 300
         role: selections
+        readPages: 30
         date: "1640"
         publicDomain: true
         links:
@@ -596,6 +609,7 @@ rows:
         reader: student
         pages: 312
         role: selections
+        readPages: 40
         author: Isaac Watts
         date: "1719"
         publicDomain: true
@@ -615,6 +629,7 @@ rows:
         reader: student
         pages: 348
         role: selections
+        readPages: 50
         author: John Newton & William Cowper
         date: "1779"
         publicDomain: true
@@ -625,6 +640,7 @@ rows:
         reader: student
         pages: 493
         role: selections
+        readPages: 50
         author: John & Charles Wesley
         date: "1779"
         publicDomain: true
@@ -644,6 +660,7 @@ rows:
         reader: student
         pages: 316
         role: selections
+        readPages: 40
         author: John Keble
         date: "1827"
         publicDomain: true
@@ -700,11 +717,13 @@ rows:
       - Distinguish accentual-syllabic, accentual (Old English, Hopkins' sprung rhythm) and syllabic verse
       - Complete Fry's exercises in iambic pentameter (write 50+ correct lines)
     workload:
-      readingHours: 35
-      readingBasis: "661 pp of prosody books: Fry at ~25 pp/h (15 h), Hollander and Fussell at ~15 pp/h (19 h)"
+      readingHours: 28
+      readingBasis: "563 pp of prosody books: Fry at ~25 pp/h (15 h), Hollander and Part One of Fussell (192 pp) at ~15 pp/h (13 h)"
       work:
-        - { kind: exercises, hours: 40, note: "scansion of memorized poems and Fry's metrical exercises, 54 wk x 45 min" }
+        - { kind: exercises, hours: 22, note: "scansion of memorized poems and Fry's metrical exercises, 33 wk x 40 min" }
         - { kind: writing, hours: 10, note: "50+ lines of iambic pentameter and other metrical exercises from Fry" }
+      electiveHours: 25
+      electiveBasis: "Part Two of Fussell on poetic form (~100 pp, ~7 h) and further weekly scansion exercises (~18 h)"
     coreTexts:
       - title: "The Ode Less Travelled: Unlocking the Poet Within"
         kind: instructional
@@ -729,6 +748,9 @@ rows:
         kind: instructional
         reader: student
         pages: 188
+        role: selections
+        portion: "Part One (Poetic Meter)"
+        readPages: 90
         lessons: 10
         lessonLabel: chapter
         lessonsNote: "Archive.org record of the 1979 rev. ed. (McGraw-Hill) contents: 10 chapters, Nature of meter to Conventions and the individual talent"
@@ -795,18 +817,21 @@ rows:
       - Write 30 lines of blank verse on a narrative subject
       - Explain why a poet chose a given form, and the effect of the choice, for any studied poem
     workload:
-      readingHours: 40
-      readingBasis: "564 pp of anthology selections (Oxford Book of English Verse, Shakespeare's Sonnets, Golden Treasury) read closely at ~15 pp/h"
+      readingHours: 21
+      readingBasis: "320 pp of anthology selections (Oxford Book of English Verse, Shakespeare's Sonnets, Golden Treasury) read closely at ~15 pp/h"
       work:
-        - { kind: writing, hours: 40, note: "eight form poems plus two sonnets and 30 lines of blank verse, each drafted and revised twice, ~10 pieces x 4 h" }
-        - { kind: exercises, hours: 25, note: "weekly scan-and-imitate exercises, 54 x 30 min" }
-        - { kind: discussion, hours: 14, note: "why the poet chose the form, 54 x 15 min" }
+        - { kind: writing, hours: 30, note: "eight form poems plus two sonnets and 30 lines of blank verse, each drafted and revised twice, ~10 pieces x 3 h" }
+        - { kind: exercises, hours: 10, note: "weekly scan-and-imitate exercises, 30 x 20 min" }
+        - { kind: discussion, hours: 8, note: "why the poet chose the form, 32 x 15 min" }
+      electiveHours: 48
+      electiveBasis: "further anthology reading in the Oxford Book, the Sonnets and the Golden Treasury (~245 pp, ~17 h), a further hour of revision per poem (~10 h), more scan-and-imitate exercises (~15 h) and discussion (~6 h)"
     coreTexts:
       - title: "The Oxford Book of English Verse, 1250–1900"
         kind: secondary
         reader: student
         pages: 1083
         role: selections
+        readPages: 200
         author: Arthur Quiller-Couch (ed.)
         date: "1900"
         publicDomain: true
@@ -817,6 +842,7 @@ rows:
         reader: student
         pages: 180
         role: selections
+        readPages: 60
         author: William Shakespeare
         date: "1609"
         publicDomain: true
@@ -849,6 +875,7 @@ rows:
         reader: student
         pages: 428
         role: selections
+        readPages: 60
         author: Francis Turner Palgrave (ed.)
         date: "1861"
         publicDomain: true
@@ -898,13 +925,15 @@ rows:
       - Scan the pentameter couplets of the General Prologue's opening (hear it read in Middle English; the student's own reading aloud in the original comes in old-english-05)
       - Write an imitation of a Herbert pattern poem or a Donne holy sonnet
     workload:
-      readingHours: 65
-      readingBasis: "979 pp of Chaucer-to-Milton verse (the Sonnets, Donne, Herbert, Milton's shorter poems) read closely at ~15 pp/h"
+      readingHours: 17
+      readingBasis: "251 pp of Chaucer-to-Milton verse (the General Prologue and selected Sonnets, Sidney, Donne, Herbert, Southwell, Marvell and Milton's shorter poems) read closely at ~15 pp/h"
       work:
         - { kind: memorization, hours: 15, note: "5 Shakespeare sonnets, 2 Holy Sonnets and 2 Herbert poems (~130 lines), 9 poems x ~1.5 h plus review" }
         - { kind: writing, hours: 12, note: "1,000-word conceit explication with revision (~8 h) and a Herbert or Donne imitation (~4 h)" }
-        - { kind: exercises, hours: 5, note: "scanning the General Prologue's opening couplets with a Middle English recording, 6 x 45 min" }
-        - { kind: discussion, hours: 40, note: "weekly seminar on the poems, 54 x 45 min" }
+        - { kind: exercises, hours: 3, note: "scanning the General Prologue's opening couplets with a Middle English recording, 4 x 45 min" }
+        - { kind: discussion, hours: 14, note: "seminar on the poems, 28 x 30 min" }
+      electiveHours: 76
+      electiveBasis: "the rest of the Sonnets, The Temple and the Sidney, Donne, Southwell, Marvell and Milton volumes (~730 pp, ~48 h), a longer weekly seminar (~26 h) and further scansion (~2 h)"
     coreTexts:
       - title: The Canterbury Tales (General Prologue)
         kind: primary
@@ -922,6 +951,9 @@ rows:
         kind: primary
         reader: student
         pages: 180
+        role: selections
+        portion: "about 25 sonnets, including the five memorized"
+        readPages: 40
         author: William Shakespeare
         date: "1609"
         publicDomain: true
@@ -932,6 +964,8 @@ rows:
         reader: student
         pages: 192
         role: selections
+        portion: "selected sonnets and songs"
+        readPages: 24
         author: Sir Philip Sidney
         date: "1595"
         publicDomain: true
@@ -942,7 +976,8 @@ rows:
         reader: student
         pages: 470
         role: selections
-        portion: "Songs and Sonnets; Holy Sonnets"
+        portion: "selected Songs and Sonnets; the Holy Sonnets"
+        readPages: 45
         author: John Donne
         date: "1633"
         publicDomain: true
@@ -952,6 +987,9 @@ rows:
         kind: primary
         reader: student
         pages: 213
+        role: selections
+        portion: "selected poems of The Church, including the pattern poems"
+        readPages: 45
         author: George Herbert
         date: "1633"
         publicDomain: true
@@ -962,6 +1000,8 @@ rows:
         reader: student
         pages: 235
         role: selections
+        portion: "The Burning Babe and a few short lyrics"
+        readPages: 15
         author: St. Robert Southwell, S.J.
         date: "1595; ed. 1856"
         publicDomain: true
@@ -972,6 +1012,8 @@ rows:
         reader: student
         pages: 207
         role: selections
+        portion: "To His Coy Mistress, The Garden, and the Horatian Ode"
+        readPages: 20
         author: Andrew Marvell
         date: "1681; ed. 1898"
         publicDomain: true
@@ -983,6 +1025,7 @@ rows:
         pages: 559
         role: selections
         portion: "the shorter poems: the Nativity Ode, Lycidas, the sonnets"
+        readPages: 30
         author: John Milton
         date: "1645–1673"
         publicDomain: true
@@ -1018,6 +1061,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Virgil and Horace are read in the original in the Latin track; verse translation is an
+      elective extension.
     ageStart: 14
     ageEnd: 15.5
     order: 10
@@ -1136,12 +1183,14 @@ rows:
       - Write a dramatic monologue in blank verse after Browning's "My Last Duchess" or "Andrea del Sarto"
       - Analyze Hopkins' sprung rhythm and inscape in a close reading
     workload:
-      readingHours: 55
-      readingBasis: "976 pp of Romantic and Victorian verse (Lyrical Ballads, In Memoriam, Browning, Hopkins, Newman) at ~17 pp/h"
+      readingHours: 20
+      readingBasis: "340 pp of selected Romantic and Victorian verse (Gray, Lyrical Ballads, Coleridge, Keats, In Memoriam, Browning, Rossetti, Newman, Hopkins, Burns) at ~17 pp/h"
       work:
-        - { kind: memorization, hours: 20, note: "Gray's Elegy (or 60 lines), one Keats ode and three Hopkins sonnets, ~200 lines at ~6 min a line incl. review" }
-        - { kind: writing, hours: 20, note: "Keats ode explication (~7 h), a Browning-style dramatic monologue in blank verse (~8 h) and a Hopkins close reading (~5 h)" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: memorization, hours: 17, note: "60 lines of Gray's Elegy, one Keats ode and three Hopkins sonnets, ~170 lines at ~6 min a line incl. review" }
+        - { kind: writing, hours: 14, note: "Keats ode explication (~5 h), a Browning-style dramatic monologue in blank verse (~6 h) and a Hopkins close reading (~3 h)" }
+        - { kind: discussion, hours: 10, note: "seminar, 20 x 30 min" }
+      electiveHours: 59
+      electiveBasis: "the rest of the Romantic and Victorian volumes, including all of In Memoriam and Gerontius (~640 pp, ~35 h), the whole Elegy by heart (~3 h), further essay revision (~6 h) and a longer weekly seminar (~15 h)"
     coreTexts:
       - title: Select Poems of Thomas Gray (incl. Elegy Written in a Country Churchyard)
         kind: primary
@@ -1149,6 +1198,7 @@ rows:
         pages: 150
         role: selections
         portion: "Elegy Written in a Country Churchyard"
+        readPages: 10
         author: Thomas Gray
         date: "1751"
         publicDomain: true
@@ -1158,6 +1208,9 @@ rows:
         kind: primary
         reader: student
         pages: 136
+        role: selections
+        portion: "Tintern Abbey, Michael, the Lucy poems and a few ballads"
+        readPages: 50
         author: William Wordsworth & S. T. Coleridge
         date: "1800"
         publicDomain: true
@@ -1168,6 +1221,8 @@ rows:
         reader: student
         pages: 203
         role: selections
+        portion: "Kubla Khan, Frost at Midnight and Dejection: An Ode"
+        readPages: 30
         author: Samuel Taylor Coleridge
         date: "1796–1834"
         publicDomain: true
@@ -1179,6 +1234,7 @@ rows:
         pages: 200
         role: selections
         portion: "the Odes"
+        readPages: 25
         author: John Keats
         date: "1820"
         publicDomain: true
@@ -1188,6 +1244,9 @@ rows:
         kind: primary
         reader: student
         pages: 136
+        role: selections
+        portion: "the Prologue and about forty sections, including LIV–LVI, CVI and the Epilogue"
+        readPages: 40
         author: Alfred, Lord Tennyson
         date: "1850"
         publicDomain: true
@@ -1199,6 +1258,7 @@ rows:
         pages: 334
         role: selections
         portion: "the dramatic monologues"
+        readPages: 40
         author: Robert Browning
         date: "1855"
         publicDomain: true
@@ -1209,6 +1269,8 @@ rows:
         reader: student
         pages: 244
         role: selections
+        portion: "Goblin Market and a few lyrics"
+        readPages: 30
         author: Christina Rossetti
         date: "1862–66"
         publicDomain: true
@@ -1218,6 +1280,9 @@ rows:
         kind: primary
         reader: student
         pages: 71
+        role: selections
+        portion: "§1 (the deathbed) and the closing sections"
+        readPages: 25
         author: John Henry Newman
         date: "1865"
         publicDomain: true
@@ -1227,6 +1292,9 @@ rows:
         kind: primary
         reader: student
         pages: 156
+        role: selections
+        portion: "the mature poems, from The Wreck of the Deutschland to the terrible sonnets"
+        readPages: 60
         author: Gerard Manley Hopkins, S.J.
         date: "1918"
         publicDomain: true
@@ -1238,6 +1306,7 @@ rows:
         pages: 300
         role: selections
         portion: "Tam o' Shanter, To a Mouse, The Cotter's Saturday Night, A Man's a Man, and a handful of songs"
+        readPages: 30
         author: Robert Burns
         date: "1786–1796"
         publicDomain: true
@@ -1290,24 +1359,26 @@ rows:
     related: [literature-24, literature-28]
     exams: [ap-english-literature]
     summary: >-
-      Twentieth-century poetry in English. The course reads Frost's early books, Yeats, Housman's A Shropshire
+      Twentieth-century poetry in English. The course reads Frost's North of Boston and Mountain Interval, Yeats, Housman's A Shropshire
       Lad, Chesterton's "Lepanto" and ballads, Eliot's "Prufrock", The Waste Land and Four Quartets, and Kipling's
       verse. The question is how modern poets kept, broke or remade the traditional forms. Frost's blank verse
-      and Yeats's stanzas become models, and Eliot's free verse is a problem to understand.
+      and Yeats's stanzas become models, and Eliot's free verse is a problem to understand. Elective: A Boy's Will.
     objectives:
       - Memorize two Frost poems, one Yeats poem and one section of Four Quartets
       - Compare Frost's blank-verse dialogues ("Death of the Hired Man") with Browning's monologues
       - Write an essay on the religious turn in Eliot from The Waste Land to Four Quartets
       - Distinguish free verse from loosened accentual verse
     workload:
-      readingHours: 35
-      readingBasis: "705 pp of modern verse (Frost's first three books, Yeats, Housman, Chesterton, Eliot) at ~20 pp/h"
+      readingHours: 17
+      readingBasis: "333 pp of modern verse (selections from North of Boston, Mountain Interval, Yeats, Housman and Chesterton; Prufrock and Four Quartets whole) at ~20 pp/h"
       work:
         - { kind: memorization, hours: 12, note: "two Frost poems, one Yeats poem and a section of Four Quartets (~130 lines)" }
         - { kind: writing, hours: 13, note: "essay on Eliot's religious turn with revision (~10 h) and a short Frost–Browning comparison (~3 h)" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: discussion, hours: 18, note: "weekly seminar, 36 x 30 min" }
+      electiveHours: 25
+      electiveBasis: "A Boy's Will and the rest of North of Boston, Mountain Interval, Yeats, Housman and Chesterton (~370 pp, ~18 h) and a longer weekly seminar (~7 h)"
     coreTexts:
-      - title: A Boy's Will
+      - title: "A Boy's Will (elective)"
         kind: primary
         reader: student
         pages: 63
@@ -1320,6 +1391,9 @@ rows:
         kind: primary
         reader: student
         pages: 140
+        role: selections
+        portion: "Mending Wall, The Death of the Hired Man, Home Burial, After Apple-Picking, The Wood-Pile and a few more"
+        readPages: 80
         author: Robert Frost
         date: "1914"
         publicDomain: true
@@ -1329,6 +1403,9 @@ rows:
         kind: primary
         reader: student
         pages: 108
+        role: selections
+        portion: "The Road Not Taken, The Oven Bird, Birches, \"Out, Out—\" and a few more"
+        readPages: 35
         author: Robert Frost
         date: "1916"
         publicDomain: true
@@ -1339,6 +1416,7 @@ rows:
         reader: student
         pages: 474
         role: selections
+        readPages: 60
         author: W. B. Yeats
         date: "1895–1912"
         publicDomain: true
@@ -1348,6 +1426,9 @@ rows:
         kind: primary
         reader: student
         pages: 95
+        role: selections
+        portion: "about twenty of the poems"
+        readPages: 40
         author: A. E. Housman
         date: "1896"
         publicDomain: true
@@ -1359,6 +1440,7 @@ rows:
         pages: 160
         role: selections
         portion: "Lepanto and the ballads"
+        readPages: 30
         author: G. K. Chesterton
         date: "1915"
         publicDomain: true
@@ -1403,6 +1485,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Poetic forms and first composition (poetry-08) remain core; the capstone is for students
+      who write verse seriously.
     ageStart: 15.5
     ageEnd: 16.5
     order: 13
@@ -1546,6 +1632,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 14

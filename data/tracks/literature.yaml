@@ -949,11 +949,13 @@ rows:
       - Distinguish legend (Weems' cherry tree) from history, and explain why Weems wrote as he did
       - Memorize a speech from Addison's Cato (e.g. "'Tis not in mortals to command success")
     workload:
-      readingHours: 130
-      readingBasis: "2,120 pp read by the student: KJV Bible (1,200 pp) at ~15 pp/h (80 h), Bunyan Part I, White's Plutarch and Cato (640 pp) at ~16 pp/h (38 h), Weems and Franklin (280 pp) at ~25 pp/h (11 h)"
+      readingHours: 100
+      readingBasis: "1,690 pp read by the student: KJV Bible selections (~770 pp) at ~15 pp/h (51 h), Bunyan Part I, White's Plutarch and Cato (640 pp) at ~16 pp/h (38 h), Weems and Franklin (280 pp) at ~25 pp/h (11 h)"
       work:
         - { kind: discussion, hours: 25, note: "weekly discussion of the Lives, Weems vs history, and Franklin's reading, 54 x 30 min" }
         - { kind: memorization, hours: 3, note: "one speech from Addison's Cato" }
+      electiveHours: 30
+      electiveBasis: "the remaining Old Testament books: Chronicles, Ezra, Nehemiah, Esther, the Song of Solomon, Jeremiah, Lamentations, Ezekiel and the Minor Prophets (~430 pp, ~29 h)"
     coreTexts:
       - title: The Holy Bible, King James Version
         kind: primary
@@ -961,6 +963,9 @@ rows:
         pages: 1200
         date: "1611"
         publicDomain: true
+        role: selections
+        portion: "Genesis through 2 Kings; Job, Psalms, Proverbs, Ecclesiastes, Isaiah and Daniel; the whole New Testament"
+        readPages: 770
         pace: long
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/10" }
@@ -1065,20 +1070,22 @@ rows:
     related: []
     summary: >-
       Nineteenth-century historical romance and first Dickens. The course reads A Christmas Carol, Scott's
-      Ivanhoe and The Talisman, Stevenson's Black Arrow, Cooper's Last of the Mohicans, Dumas' Three Musketeers
-      and Orczy's Scarlet Pimpernel. It pairs with medieval and early-modern history, and it trains the student
-      in long, richly described Victorian prose.
+      Ivanhoe, Stevenson's Black Arrow, Cooper's Last of the Mohicans, Dumas' Three Musketeers and Orczy's
+      Scarlet Pimpernel. It pairs with medieval and early-modern history, and it trains the student in long,
+      richly described Victorian prose. Elective: Scott's The Talisman.
     objectives:
       - Read Scott's Ivanhoe complete and explain its picture of Saxon, Norman and Jew under Richard I
       - Analyze Scrooge's conversion as a moral structure (past, present, future; repentance and amendment)
       - Write a comparison essay between two historical novels and the history they fictionalize
       - Identify the conventions of romance (disguise, tournament, rescue, recognition)
     workload:
-      readingHours: 110
-      readingBasis: "2,601 pp of novels read by the student: Scott and Cooper (1,278 pp) at ~20 pp/h (64 h), Carol and Black Arrow (383 pp) at ~25 pp/h (16 h), Dumas and Orczy (940 pp) at ~31 pp/h (30 h)"
+      readingHours: 91
+      readingBasis: "2,229 pp of novels read by the student: Ivanhoe and Cooper (906 pp) at ~20 pp/h (45 h), Carol and Black Arrow (383 pp) at ~25 pp/h (16 h), Dumas and Orczy (940 pp) at ~31 pp/h (30 h)"
       work:
         - { kind: writing, hours: 8, note: "one comparison essay on two historical novels and their history, drafted and revised" }
         - { kind: discussion, hours: 25, note: "weekly discussion of romance conventions and Scrooge's conversion, 54 x 30 min" }
+      electiveHours: 19
+      electiveBasis: "Scott's The Talisman (372 pp, ~19 h)"
     coreTexts:
       - title: A Christmas Carol
         kind: primary
@@ -1098,7 +1105,7 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/82" }
-      - title: The Talisman
+      - title: "The Talisman (elective)"
         kind: primary
         reader: student
         pages: 372
@@ -1383,21 +1390,23 @@ rows:
     prerequisites: [literature-11, literature-12]
     related: []
     summary: >-
-      The transition from children's classics to adult novels. The course reads Dickens's Great Expectations
-      and Oliver Twist, Swift's Gulliver's Travels (all four voyages, the satire now understood), Kipling's Kim,
-      Doyle's Hound of the Baskervilles and Verne's Twenty Thousand Leagues. Students begin the formal literary
-      essay.
+      The transition from children's classics to adult novels. The course reads Dickens's Great Expectations,
+      Swift's Gulliver's Travels (all four voyages, the satire now understood), Kipling's Kim and Doyle's Hound
+      of the Baskervilles. Students begin the formal literary essay. Elective: Oliver Twist and Verne's Twenty
+      Thousand Leagues.
     objectives:
       - Read Great Expectations complete and trace Pip's moral education (pride, ingratitude, repentance)
       - Explain the targets of Swift's satire in each of Gulliver's four voyages
       - Write a 3–5 paragraph analytical essay with thesis, textual evidence and conclusion
       - Identify narrator, point of view and irony
     workload:
-      readingHours: 80
-      readingBasis: "2,036 pp read by the student: Great Expectations and Oliver Twist (896 pp) at ~25 pp/h (36 h), Gulliver (278 pp) at ~18 pp/h (15 h), Kim at ~25 pp/h (11 h), Hound and Verne (576 pp) at ~32 pp/h (18 h)"
+      readingHours: 52
+      readingBasis: "1,253 pp read by the student: Great Expectations (482 pp) at ~25 pp/h (19 h), Gulliver (278 pp) at ~18 pp/h (15 h), Kim at ~25 pp/h (11 h), Hound (207 pp) at ~32 pp/h (7 h)"
       work:
         - { kind: writing, hours: 16, note: "four 3–5 paragraph analytical essays with revision, ~4 h each" }
-        - { kind: discussion, hours: 25, note: "discussion of narrator, irony and Swift's targets, 54 weeks x 30 min" }
+        - { kind: discussion, hours: 22, note: "discussion of narrator, irony and Swift's targets, 44 weeks x 30 min" }
+      electiveHours: 31
+      electiveBasis: "Oliver Twist and Twenty Thousand Leagues (783 pp, ~28 h) and ten further weekly discussions (~3 h)"
     coreTexts:
       - title: Great Expectations
         kind: primary
@@ -1408,7 +1417,7 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1400" }
-      - title: Oliver Twist
+      - title: "Oliver Twist (elective)"
         kind: primary
         reader: student
         pages: 414
@@ -1444,7 +1453,7 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2852" }
-      - title: Twenty Thousand Leagues Under the Seas
+      - title: "Twenty Thousand Leagues Under the Seas (elective)"
         kind: primary
         reader: student
         pages: 369
@@ -1805,9 +1814,9 @@ rows:
     related: [poetry-09, old-english-05, old-english-04]
     summary: >-
       The literary achievement of Christendom. The course reads Augustine's Confessions as spiritual
-      autobiography, Beowulf and Sir Gawain as heroic and chivalric poetry, Dante's Divine Comedy complete (or
-      Inferno and Purgatorio with Paradiso selections), the fuller reading of Chaucer's Canterbury Tales in modern
-      verse translation, the morality play Everyman and Malory's Morte d'Arthur. It pairs with the Old English
+      autobiography, Beowulf and Sir Gawain as heroic and chivalric poetry, Dante's Inferno and Purgatorio complete
+      with Paradiso selections, the fuller reading of Chaucer's Canterbury Tales in modern verse translation, the
+      morality play Everyman and the opening books of Malory's Morte d'Arthur. It pairs with the Old English
       units and medieval history.
     objectives:
       - Read the Confessions (Books I–X) and trace the structure of conversion
@@ -1816,12 +1825,14 @@ rows:
       - Compare the heroic ideal in Beowulf with the Christian knight in Gawain
       - Trace the pilgrimage frame and the "quiting" of tale against tale across the Canterbury Tales
     workload:
-      readingHours: 95
-      readingBasis: "1,697 pp at ~15–25 pp/h: Esolen Dante (~500 pp with notes) at ~15 (33 h), Confessions I–X (~131 pp) at ~15 (9 h), Heaney Beowulf (facing-page, 256 pp) at ~25 (10 h), Gawain, Chaucer, Everyman and Malory (810 pp) at ~20 (41 h)"
+      readingHours: 69
+      readingBasis: "1,257 pp at ~15–25 pp/h: Esolen Dante, Inferno and Purgatorio with Paradiso selections (~390 pp with notes) at ~15 (26 h), Confessions I–X (~131 pp) at ~15 (9 h), Heaney Beowulf (facing-page, 256 pp) at ~25 (10 h), Gawain, Chaucer, Everyman and Malory I–IV (480 pp) at ~20 (24 h)"
       work:
         - { kind: writing, hours: 10, note: "two 2–3 page essays with revision (e.g. Beowulf vs Gawain)" }
         - { kind: project, hours: 4, note: "a chart or map of Dante's moral architecture" }
-        - { kind: discussion, hours: 40, note: "weekly seminar, 54 x 45 min" }
+        - { kind: discussion, hours: 27, note: "weekly seminar, 36 x 45 min" }
+      electiveHours: 39
+      electiveBasis: "the rest of the Paradiso (~110 pp, ~7 h), Pearl and Sir Orfeo (~80 pp, ~4 h), Malory Books V–IX (~250 pp, ~13 h) and a longer seminar schedule (54 x 45 min, ~13 h)"
     coreTexts:
       - title: The Confessions
         kind: primary
@@ -1852,6 +1863,9 @@ rows:
         author: The Pearl Poet
         date: "c. 1390"
         publicDomain: false
+        role: selections
+        portion: "Sir Gawain and the Green Knight"
+        readPages: 70
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/sir-gawain-and-the-green-knight-pearl-and-sir-orfeo-j-r-r-tolkien/1101964418?ean=9780345277602" }
           - { label: "Free alt: Weston prose (Gutenberg)", url: "https://www.gutenberg.org/ebooks/66084" }
@@ -1863,7 +1877,8 @@ rows:
         date: "1308–1321"
         publicDomain: false
         role: selections
-        portion: "Inferno and Purgatorio complete; Paradiso complete or in selections"
+        portion: "Inferno and Purgatorio complete; Paradiso Cantos I–III, VI, X–XII, XV–XVII and XXX–XXXIII"
+        readPages: 390
         pace: long
         links:
           - { label: "Inferno (Penguin Random House)", url: "https://www.penguinrandomhouse.com/books/36722/inferno-by-dante/" }
@@ -1898,6 +1913,9 @@ rows:
         author: Sir Thomas Malory
         date: "1485"
         publicDomain: true
+        role: selections
+        portion: "Books I–IV (the coming of Arthur, Balin, the Round Table and the passing of Merlin)"
+        readPages: 150
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1251" }
     curriculumOptions:
@@ -1949,12 +1967,14 @@ rows:
       - Imitate one of Bacon's essays in form and length
       - Memorize the opening 26 lines of Paradise Lost
     workload:
-      readingHours: 70
-      readingBasis: "991 pp of older English at ~12–15 pp/h: Faerie Queene I (253 pp) at ~12 (21 h), Bacon's Essays (405 pp) and Paradise Lost (333 pp) at ~15 (49 h); the two electives are not counted"
+      readingHours: 50
+      readingBasis: "691 pp of older English at ~12–15 pp/h: Faerie Queene I (253 pp) at ~12 (21 h), fifteen of Bacon's Essays (~105 pp) and Paradise Lost (333 pp) at ~15 (29 h); the electives are not counted"
       work:
         - { kind: writing, hours: 10, note: "one Bacon-style imitation essay and one critical essay" }
         - { kind: memorization, hours: 3, note: "the opening 26 lines of Paradise Lost" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: discussion, hours: 18, note: "weekly seminar, 24 x 45 min" }
+      electiveHours: 27
+      electiveBasis: "the rest of Bacon's Essays (~300 pp, ~20 h) and twelve further seminars (~7 h)"
     coreTexts:
       - title: "The Faerie Queene, Book I"
         kind: primary
@@ -1984,6 +2004,9 @@ rows:
         date: "1625"
         publicDomain: true
         order: 1
+        role: selections
+        portion: "Of Truth, Of Death, Of Unity in Religion, Of Revenge, Of Adversity, Of Great Place, Of Atheism, Of Superstition, Of Seditions and Troubles, Of Empire, Of Counsel, Of Friendship, Of Youth and Age, Of Studies, Of Discourse"
+        readPages: 105
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/575" }
       - title: Paradise Lost
@@ -2070,11 +2093,13 @@ rows:
       - Analyze Swift's irony in A Modest Proposal
       - Explicate a passage of Pope's heroic couplets
     workload:
-      readingHours: 45
-      readingBasis: "873 pp at ~15–22 pp/h: Pope's Essay on Man (~63 pp) at ~15 (4 h), Spectator selections (~500 pp) at ~20 (25 h), Boswell (300 pp) at ~22 (14 h), A Modest Proposal (1 h); the two electives are not counted"
+      readingHours: 29
+      readingBasis: "573 pp at ~15–22 pp/h: Pope's Essay on Man (~63 pp) at ~15 (4 h), Spectator selections (~200 pp) at ~20 (10 h), Boswell (300 pp) at ~22 (14 h), A Modest Proposal (1 h); the electives are not counted"
       work:
-        - { kind: writing, hours: 15, note: "four Spectator imitations by Franklin's method (~3 h each) and a Johnson commonplace" }
-        - { kind: discussion, hours: 25, note: "weekly seminar (Swift's irony, couplet explication), 36 x 45 min" }
+        - { kind: writing, hours: 8, note: "two Spectator imitations by Franklin's method (~3 h each) and a Johnson commonplace (~2 h)" }
+        - { kind: discussion, hours: 14, note: "seminar (Swift's irony, couplet explication), 19 x 45 min" }
+      electiveHours: 34
+      electiveBasis: "further Spectator papers (~300 pp, ~15 h), two more Spectator imitations and a fuller commonplace (~7 h) and seventeen further seminars (~12 h)"
     coreTexts:
       - title: "The Poetical Works of John Dryden, Vol. 1 (elective)"
         kind: primary
@@ -2124,6 +2149,8 @@ rows:
         date: "1711–1712"
         publicDomain: true
         role: selections
+        portion: "Nos. 1–10 and the Sir Roger de Coverley papers (about 50 essays)"
+        readPages: 200
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/12030" }
       - title: "Rasselas, Prince of Abyssinia (elective)"
@@ -2203,11 +2230,13 @@ rows:
       - If Frankenstein is chosen, read it as a response to Paradise Lost and to Enlightenment science
       - Write a 2,000-word comparative essay (e.g. Austen's Elizabeth and Anne Elliot)
     workload:
-      readingHours: 60
-      readingBasis: "1,493 pp: Pride and Prejudice and Persuasion (619 pp) at ~35 pp/h (18 h), Waverley (500 pp) at ~25 pp/h (20 h), The Prelude (374 pp) at ~17 pp/h (22 h); the two electives are not counted"
+      readingHours: 44
+      readingBasis: "1,224 pp: Pride and Prejudice and Persuasion (619 pp) at ~35 pp/h (18 h), Waverley (500 pp) at ~25 pp/h (20 h), The Prelude Books I, II, VI and XIV (~105 pp) at ~17 pp/h (6 h); the electives are not counted"
       work:
-        - { kind: writing, hours: 15, note: "one 2,000-word comparative essay with drafts" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: writing, hours: 10, note: "one 2,000-word comparative essay, drafted and revised" }
+        - { kind: discussion, hours: 18, note: "weekly seminar, 24 x 45 min" }
+      electiveHours: 28
+      electiveBasis: "the rest of the Prelude (~270 pp, ~16 h), a further essay draft (~5 h) and twelve further seminars (~7 h)"
     coreTexts:
       - title: Pride and Prejudice
         kind: primary
@@ -2270,6 +2299,9 @@ rows:
         author: William Wordsworth
         date: "1850"
         publicDomain: true
+        role: selections
+        portion: "Books I–II (childhood and school-time), VI (Cambridge and the Alps) and XIV (Snowdon and the conclusion)"
+        readPages: 105
         links:
           - { label: Archive.org, url: "https://archive.org/details/preludeorgrowtho00worduoft" }
       - title: "Biographia Literaria (elective)"
@@ -2314,22 +2346,24 @@ rows:
     related: []
     exams: [ap-english-literature]
     summary: >-
-      The great Victorian novels of the 1840s–60s. The course reads Charlotte Brontë's Jane Eyre, Emily Brontë's
-      Wuthering Heights, Dickens's David Copperfield, A Tale of Two Cities and Bleak House, Thackeray's Vanity
-      Fair and Gaskell's North and South. It covers the "condition of England" question, the Victorian
+      The great Victorian novels of the 1840s–60s. The course reads Charlotte Brontë's Jane Eyre and Dickens's
+      Bleak House, with electives from Emily Brontë's Wuthering Heights, Dickens's David Copperfield and A Tale of
+      Two Cities, Thackeray's Vanity Fair and Gaskell's North and South. It covers the "condition of England" question, the Victorian
       conscience, and the novel at the height of its social and moral ambition.
     objectives:
-      - Read the three core novels (Bleak House complete) and two electives
+      - Read the two core novels (Bleak House complete) and two electives
       - Analyze how Victorian novels treat class, industry, law and religion
       - Compare Jane Eyre's passion and the moral frame that judges it with Heathcliff's (if Wuthering Heights is chosen) or Becky Sharp's (if Vanity Fair is chosen)
       - Present a 15-minute seminar introduction on one novel
     workload:
-      readingHours: 55
-      readingBasis: "1,685 pp of novels: Jane Eyre (480 pp) at ~35 pp/h (14 h), A Tale of Two Cities and Bleak House (1,205 pp) at ~30 pp/h (40 h); the two electives are not counted"
+      readingHours: 41
+      readingBasis: "1,297 pp of novels: Jane Eyre (480 pp) at ~35 pp/h (14 h), Bleak House (817 pp) at ~30 pp/h (27 h); the electives are not counted"
       work:
         - { kind: writing, hours: 8, note: "one 3–4 page essay on class, law or religion, with revision" }
         - { kind: project, hours: 5, note: "a 15-minute seminar introduction, prepared and delivered" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: discussion, hours: 18, note: "weekly seminar, 24 x 45 min" }
+      electiveHours: 21
+      electiveBasis: "A Tale of Two Cities (388 pp, ~13 h) and twelve further seminars (~7 h)"
     coreTexts:
       - title: Jane Eyre
         kind: primary
@@ -2358,7 +2392,7 @@ rows:
         publicDomain: true
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/766" }
-      - title: A Tale of Two Cities
+      - title: "A Tale of Two Cities (elective)"
         kind: primary
         reader: student
         pages: 388
@@ -2411,9 +2445,9 @@ rows:
         url: "https://www.setonhome.org/high-school/english/english-12/"
         notes: Catholic British survey with longer works.
     notes: >-
-      Core texts are required; choose 2 of the electives. Bleak House (law and the Chancery courts) and A Tale of
-      Two Cities (revolution, read with Burke) are core for a future statesman; Jane Eyre is the core novel of
-      conscience.
+      Core texts are required; choose 2 of the electives. Bleak House (law and the Chancery courts) is core for
+      a future statesman, and A Tale of Two Cities (revolution, read with Burke) is the natural first elective;
+      Jane Eyre is the core novel of conscience.
 
   - id: literature-23
     title: "English Literature V: High Victorians & the Oxford Movement"
@@ -2436,11 +2470,13 @@ rows:
       - Compare Hardy's fatalism with Eliot's humanism and Newman's faith
       - Write a 2,500-word research essay using at least two secondary sources
     workload:
-      readingHours: 65
-      readingBasis: "1,727 pp: Middlemarch (793 pp) at ~30 pp/h (26 h), Mayor of Casterbridge (363 pp) at ~35 pp/h (10 h), Newman's Apologia and Idea of a University (571 pp) at ~19 pp/h (30 h); the two electives are not counted"
+      readingHours: 44
+      readingBasis: "1,316 pp: Middlemarch (793 pp) at ~30 pp/h (26 h), Mayor of Casterbridge (363 pp) at ~35 pp/h (10 h), Newman's Apologia Chapters II and V and Idea of a University Discourses V–VII (160 pp) at ~19 pp/h (8 h); the electives are not counted"
       work:
-        - { kind: writing, hours: 20, note: "one 2,500-word research essay with two secondary sources, drafts and revision" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: writing, hours: 8, note: "one 2,500-word research essay with two secondary sources, drafted and revised" }
+        - { kind: discussion, hours: 9, note: "fortnightly seminar, 12 x 45 min" }
+      electiveHours: 49
+      electiveBasis: "the rest of the Apologia (~310 pp, ~16 h), further Discourses of the Idea (~100 pp, ~5 h), a second essay draft (~12 h) and a weekly seminar in place of the fortnightly one (~16 h)"
     coreTexts:
       - title: Middlemarch
         kind: primary
@@ -2494,6 +2530,9 @@ rows:
         author: John Henry Newman
         date: "1864"
         publicDomain: true
+        role: selections
+        portion: "Chapter II (History of my Religious Opinions, 1833–1839) and Chapter V (Position of my Mind since 1845)"
+        readPages: 85
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/19690" }
       - title: The Idea of a University
@@ -2505,6 +2544,7 @@ rows:
         publicDomain: true
         role: selections
         portion: "Discourses V–VII"
+        readPages: 75
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/24526" }
       - title: "Loss and Gain: The Story of a Convert (elective)"
@@ -2681,8 +2721,10 @@ rows:
       readingHours: 55
       readingBasis: "2,111 pp of novels at ~35–40 pp/h: The Lord of the Rings (1,193 pp) at ~40 (30 h), Brideshead, The Power and the Glory and 1984 (918 pp) at ~37 (25 h); the two electives are not counted"
       work:
-        - { kind: writing, hours: 12, note: "two 3–4 page essays (Waugh and Greene; Orwell on language)" }
-        - { kind: discussion, hours: 35, note: "weekly seminar, 36 x 60 min" }
+        - { kind: writing, hours: 6, note: "one 3–4 page essay (Waugh and Greene, or Orwell on language)" }
+        - { kind: discussion, hours: 11, note: "seminar, 15 x 45 min" }
+      electiveHours: 30
+      electiveBasis: "a second 3–4 page essay (~6 h) and a weekly 60-minute seminar in place of the shorter schedule (~24 h)"
     coreTexts:
       - title: The Lord of the Rings
         kind: primary
@@ -2795,6 +2837,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Three Shakespeare units and the drama performance line remain core; the romances, sonnets
+      and full production are kept as an elective.
     ageStart: 15
     ageEnd: 16
     order: 26
@@ -2898,8 +2944,8 @@ rows:
     related: []
     exams: [ap-english-literature]
     summary: >-
-      American letters from Franklin to Melville. The course reads Franklin's Autobiography complete, Irving's
-      Sketch-Book, Cooper's Deerslayer, Poe's tales and poems, Hawthorne's Scarlet Letter, Melville's Moby-Dick,
+      American letters from Franklin to Melville. The course reads the later parts of Franklin's Autobiography,
+      Irving's Sketch-Book, Cooper's Deerslayer, Poe's tales and poems, Hawthorne's Scarlet Letter, Melville's Moby-Dick,
       Emerson's Essays, Thoreau's Walden and "Civil Disobedience", and Douglass's Narrative. The questions are
       what is American about American literature, and how Puritan, Enlightenment and Romantic strands
       interweave.
@@ -2909,11 +2955,13 @@ rows:
       - Analyze Douglass's Narrative as rhetoric and as an argument from natural rights
       - Write a thesis-driven essay on an American Renaissance text
     workload:
-      readingHours: 65
-      readingBasis: "1,327 pp: Franklin and Scarlet Letter (422 pp) at ~25 pp/h (17 h), Moby-Dick (452 pp) at ~20 pp/h (23 h), Emerson's Essays (326 pp) at ~15 pp/h (22 h), Douglass (127 pp) at ~30 pp/h (4 h); the two electives are not counted"
+      readingHours: 45
+      readingBasis: "991 pp: Franklin Parts II–IV and Scarlet Letter (332 pp) at ~25 pp/h (13 h), Moby-Dick (452 pp) at ~20 pp/h (23 h), three of Emerson's Essays (~80 pp) at ~15 pp/h (5 h), Douglass (127 pp) at ~30 pp/h (4 h); the electives are not counted"
       work:
-        - { kind: writing, hours: 10, note: "one thesis-driven essay with drafts and revision" }
-        - { kind: discussion, hours: 25, note: "weekly seminar, 36 x 45 min" }
+        - { kind: writing, hours: 8, note: "one thesis-driven essay, drafted and revised" }
+        - { kind: discussion, hours: 17, note: "weekly seminar, 23 x 45 min" }
+      electiveHours: 30
+      electiveBasis: "Franklin Part I (~90 pp, ~4 h, read in literature-10), the other nine essays of Emerson's First Series (~245 pp, ~16 h), a further essay draft (~2 h) and thirteen further seminars (~8 h)"
     coreTexts:
       - title: Autobiography of Benjamin Franklin
         kind: primary
@@ -2922,6 +2970,9 @@ rows:
         author: Benjamin Franklin
         date: "1791"
         publicDomain: true
+        role: selections
+        portion: "Parts II–IV (Part I is read in literature-10)"
+        readPages: 60
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/20203" }
       - title: "The Sketch-Book of Geoffrey Crayon (elective)"
@@ -2975,6 +3026,9 @@ rows:
         author: Ralph Waldo Emerson
         date: "1841"
         publicDomain: true
+        role: selections
+        portion: "Self-Reliance, Compensation and The Over-Soul"
+        readPages: 80
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2944" }
       - title: "Walden, and On the Duty of Civil Disobedience (elective)"
@@ -3293,8 +3347,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.5
+    ageStart: 16
+    ageEnd: 17
     order: 30
     prerequisites: [literature-22]
     related: []
@@ -3313,7 +3367,9 @@ rows:
       readingBasis: "2,362 pp: Don Quixote and The Betrothed (1,495 pp) at ~35 pp/h (43 h), The Brothers Karamazov (867 pp) at ~30 pp/h (29 h); the elective is not counted"
       work:
         - { kind: writing, hours: 10, note: "a translation-comparison paper and one 3–4 page essay" }
-        - { kind: discussion, hours: 35, note: "weekly seminar incl. the Grand Inquisitor, 36 x 60 min" }
+        - { kind: discussion, hours: 20, note: "weekly seminar incl. the Grand Inquisitor, 30 x 40 min" }
+      electiveHours: 15
+      electiveBasis: "a longer seminar schedule (36 x 60 min, ~15 h more)"
     coreTexts:
       - title: Don Quixote (trans. John Ormsby)
         kind: primary
@@ -3424,22 +3480,24 @@ rows:
     related: [philosophy-05, theology-15]
     summary: >-
       A college-level Socratic seminar on the ancient foundations, modeled on the freshman years of St. John's
-      College and Thomas Aquinas College and on Hillsdale's Great Books 101. It re-reads Homer in full, and adds
-      Hesiod, Herodotus and Thucydides, Plato's Republic, Aristotle's Ethics, Lucretius and Virgil, with Genesis,
-      Exodus and Job as literature. Texts are read in Greek or Latin where the language tracks allow.
+      College and Thomas Aquinas College and on Hillsdale's Great Books 101. It returns to the key books of the Iliad,
+      and adds Hesiod, the central books of Herodotus and Thucydides, Plato's Republic, Aristotle's Ethics,
+      Lucretius and Virgil, with Genesis, Exodus and Job as literature. Texts are read in Greek or Latin where the language tracks allow.
     objectives:
       - Lead and participate in two-hour seminars on primary texts with no secondary sources
       - Write a 3,000-word seminar paper and defend it orally (St. John's "don rag" / oral examination)
       - Read at least one work (e.g. Iliad I or Aeneid I) in the original language
       - Trace the dialogue between Athens and Jerusalem across the term
     workload:
-      readingHours: 135
-      readingBasis: "3,130 pp in a half year at ~20–30 pp/h: Republic, Ethics and Lucretius (930 pp) at ~20 (47 h), Iliad, Hesiod, Thucydides and Genesis–Exodus–Job (1,800 pp) at ~25 (73 h), Herodotus (400 pp) at ~30 (13 h); the Iliad is a second reading after literature-16 but is counted"
+      readingHours: 46
+      readingBasis: "1,050 pp of selections in a half year at ~20–30 pp/h: Republic, Ethics and Lucretius (390 pp) at ~20 (20 h), Iliad, Hesiod, Thucydides and Genesis–Exodus–Job (540 pp) at ~25 (22 h), Herodotus (120 pp) at ~30 (4 h); the Iliad books are a second reading after literature-16 and are counted"
       work:
-        - { kind: discussion, hours: 70, note: "two 2-hour seminars a week x 18 weeks" }
-        - { kind: writing, hours: 25, note: "one 3,000-word seminar paper, drafts and revision" }
+        - { kind: discussion, hours: 36, note: "one 2-hour seminar a week x 18 weeks" }
+        - { kind: writing, hours: 16, note: "one 3,000-word seminar paper, drafted and revised" }
         - { kind: exam-prep, hours: 5, note: "preparing for the oral examination on the paper" }
         - { kind: translation, hours: 20, note: "Iliad I or Aeneid I in the original, ~600 lines at ~30 lines/h" }
+      electiveHours: 132
+      electiveBasis: "the rest of the Iliad, Herodotus Vol. 1, Thucydides, the Republic, the Ethics and Lucretius (~2,000 pp, ~89 h), a second weekly seminar (~34 h) and further paper drafts (~9 h)"
     coreTexts:
       - title: The Iliad of Homer (trans. Richmond Lattimore)
         kind: primary
@@ -3447,6 +3505,9 @@ rows:
         pages: 440
         author: Homer
         publicDomain: false
+        role: selections
+        portion: "Books I, VI, IX, XVI, XVIII, XXII and XXIV"
+        readPages: 130
         links:
           - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/the-iliad-of-homer-homer/1116755951?ean=9780226470498" }
       - title: "Hesiod, the Homeric Hymns, and Homerica"
@@ -3457,7 +3518,8 @@ rows:
         date: "c. 700 BC"
         publicDomain: true
         role: selections
-        portion: "Hesiod"
+        portion: "Hesiod: Theogony and Works and Days"
+        readPages: 70
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/348" }
       - title: "The History of Herodotus, Vol. 1"
@@ -3467,6 +3529,9 @@ rows:
         author: Herodotus (trans. G. C. Macaulay)
         date: "c. 430 BC"
         publicDomain: true
+        role: selections
+        portion: "Book I (Gyges, Croesus and Solon, Cyrus) and Book III.38 and 80–88 (custom as king; the debate on constitutions)"
+        readPages: 120
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/2707" }
       - title: The History of the Peloponnesian War
@@ -3476,6 +3541,9 @@ rows:
         author: Thucydides (trans. Richard Crawley)
         date: "c. 400 BC"
         publicDomain: true
+        role: selections
+        portion: "Book I.1–23 and 66–88; Book II.34–65 (the Funeral Oration and the plague); Book III.36–50 and 69–85 (Mytilene and Corcyra); Book V.84–116 (the Melian dialogue); Books VI–VII (the Sicilian expedition)"
+        readPages: 200
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
       - title: The Republic
@@ -3485,6 +3553,9 @@ rows:
         author: Plato (trans. Benjamin Jowett)
         date: "c. 375 BC"
         publicDomain: true
+        role: selections
+        portion: "Books I, II, VII and X"
+        readPages: 150
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1497" }
       - title: The Nicomachean Ethics
@@ -3494,6 +3565,9 @@ rows:
         author: Aristotle
         date: "c. 340 BC"
         publicDomain: true
+        role: selections
+        portion: "Books I, II, VI and X"
+        readPages: 110
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8438" }
       - title: On the Nature of Things
@@ -3503,6 +3577,9 @@ rows:
         author: Lucretius
         date: "c. 55 BC"
         publicDomain: true
+        role: selections
+        portion: "Books I, III and V"
+        readPages: 130
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/785" }
       - title: The Bible (Douay-Rheims)
@@ -3512,6 +3589,7 @@ rows:
         publicDomain: true
         role: selections
         portion: "Genesis, Exodus and Job"
+        readPages: 140
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/8300" }
     curriculumOptions:
@@ -3556,7 +3634,7 @@ rows:
     prerequisites: [literature-31]
     related: [poetry-14]
     summary: >-
-      A second college seminar, from Dante complete through Cervantes, Montaigne, Shakespeare, Milton, Pascal,
+      A second college seminar, from the Paradiso complete through Cervantes, Montaigne, Shakespeare, Milton, Pascal,
       Goethe and Dostoevsky, on the model of Hillsdale's Great Books 102 and the St. John's junior year. It
       closes the literature track with the student able to read, discuss and write about any major work of the
       Western canon at the level of a strong college junior.
@@ -3566,19 +3644,24 @@ rows:
       - Write and defend a senior-style essay (5,000 words) on a text of the student's choosing
       - Present a public lecture or a seminar-leader's opening question to an audience
     workload:
-      readingHours: 135
-      readingBasis: "3,502 pp in a half year at ~20–40 pp/h: Longfellow's Dante (650 pp) at ~20 (33 h), Pascal, Paradise Lost, Faust and Montaigne (1,142 pp) at ~21 (54 h), Four Quartets at ~10 (5 h), Don Quixote and Karamazov (1,662 pp) at ~38 (44 h); about 2,000 pp are re-reads of literature-18, -19 and -30 but are counted"
+      readingHours: 55
+      readingBasis: "1,244 pp in a half year at ~20–40 pp/h: Longfellow's Paradiso with key cantos of the Inferno and Purgatorio (280 pp) at ~20 (14 h), Pascal, Paradise Lost, Faust and Montaigne selections (566 pp) at ~21 (27 h), Four Quartets at ~10 (5 h), Don Quixote and Karamazov selections (350 pp) at ~38 (9 h); the re-read selections from literature-18, -19 and -30 are counted"
       work:
-        - { kind: discussion, hours: 70, note: "two 2-hour seminars a week x 18 weeks" }
-        - { kind: writing, hours: 35, note: "one 5,000-word senior essay with drafts, revision and defense" }
+        - { kind: discussion, hours: 36, note: "one 2-hour seminar a week x 18 weeks" }
+        - { kind: writing, hours: 22, note: "one 5,000-word senior essay, drafted, revised and defended" }
         - { kind: project, hours: 8, note: "a public lecture or seminar-leader's opening question, prepared and delivered" }
+      electiveHours: 127
+      electiveBasis: "the rest of the Inferno, Purgatorio, Paradise Lost, Montaigne's Essays, the Pensées, Don Quixote and the Brothers Karamazov (~2,250 pp, ~80 h), a second weekly seminar (~34 h) and further essay drafts (~13 h)"
     coreTexts:
-      - title: "The Divine Comedy (Longfellow translation, complete)"
+      - title: "The Divine Comedy (Longfellow translation)"
         kind: primary
         reader: student
         pages: 650
         author: Dante Alighieri
         publicDomain: true
+        role: selections
+        portion: "Paradiso complete; Inferno I, V, XXVI and XXXIV and Purgatorio I and XXX–XXXIII re-read"
+        readPages: 280
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/1004" }
       - title: Don Quixote (trans. Ormsby)
@@ -3587,6 +3670,9 @@ rows:
         pages: 795
         author: Miguel de Cervantes
         publicDomain: true
+        role: selections
+        portion: "Part I, chapters 1–8 and 20–27; Part II, chapters 1–11 and 72–74"
+        readPages: 200
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/996" }
       - title: Essays (trans. Charles Cotton)
@@ -3597,6 +3683,8 @@ rows:
         date: "1580–1595"
         publicDomain: true
         role: selections
+        portion: "To the Reader; Of Idleness; That to Study Philosophy is to Learn to Die; Of Cannibals; Of Repentance; Of Experience"
+        readPages: 130
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/3600" }
       - title: The Thoughts of Blaise Pascal (Pensées)
@@ -3606,6 +3694,9 @@ rows:
         author: Blaise Pascal
         date: "1670"
         publicDomain: true
+        role: selections
+        portion: "Sections II–IV (the misery of man without God, the wager, the means of belief) and VI–VII (the philosophers; morality and doctrine)"
+        readPages: 110
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/46921" }
       - title: Paradise Lost
@@ -3614,6 +3705,9 @@ rows:
         pages: 333
         author: John Milton
         publicDomain: true
+        role: selections
+        portion: "Books I–IV, IX and XII"
+        readPages: 170
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/26" }
       - title: "Faust, Part 1 (trans. Bayard Taylor)"
@@ -3631,6 +3725,9 @@ rows:
         pages: 867
         author: Fyodor Dostoevsky
         publicDomain: true
+        role: selections
+        portion: "Book II, chapters 1–6; Book V (Pro and Contra, with the Grand Inquisitor); Book VI (The Russian Monk); the Epilogue"
+        readPages: 150
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/28054" }
       - title: Four Quartets
@@ -3659,5 +3756,5 @@ rows:
         url: "https://www.thomasaquinas.edu/a-liberating-education/syllabus"
         notes: TAC's upper years pair modern literature with St. Thomas.
     notes: >-
-      Several texts here were first read at 13–16. The seminar re-reads them at college depth, which is the
-      classical principle of returning to the same great works at each stage.
+      Several texts here were first read at 13–16. The seminar re-reads their central books at college depth,
+      which is the classical principle of returning to the same great works at each stage.

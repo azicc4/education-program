@@ -307,8 +307,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 14
+    ageEnd: 15
     order: 6
     prerequisites: [philosophy-03]
     related: [rhetoric-10]
@@ -324,11 +324,13 @@ rows:
       - Read ten of Seneca's letters and summarize their teaching on time, death, friendship and wealth
       - Contrast Stoic apatheia with Christian charity and the theological virtues
     workload:
-      readingHours: 35
-      readingBasis: "600 pp: Epictetus and Seneca (314 pp) at ~20 pp/h (16 h), Marcus Aurelius (Casaubon) at ~15 pp/h (14 h), Tusculan Disputations at ~18 pp/h (5 h)"
+      readingHours: 26
+      readingBasis: "467 pp: Epictetus and Seneca (314 pp) at ~20 pp/h (16 h), Marcus Aurelius Books II–V (Casaubon, 70 pp) at ~15 pp/h (5 h), Tusculan Disputations at ~18 pp/h (5 h)"
       work:
-        - { kind: writing, hours: 11, note: "dichotomy-of-control journal (30 x 10 min) and two short essays x 3 h" }
-        - { kind: discussion, hours: 14, note: "fortnightly discussion, 18 x 45 min" }
+        - { kind: writing, hours: 8, note: "dichotomy-of-control journal (30 x 10 min) and one short essay x 3 h" }
+        - { kind: discussion, hours: 7, note: "fortnightly discussion, 14 x 30 min" }
+      electiveHours: 19
+      electiveBasis: "Marcus Aurelius Books I and VI–XII (~133 pp, ~9 h), a second short essay (~3 h) and further discussion (~7 h)"
     coreTexts:
       - title: A Selection from the Discourses of Epictetus, with the Encheiridion
         kind: primary
@@ -342,6 +344,9 @@ rows:
         kind: primary
         reader: student
         pages: 203
+        role: selections
+        portion: Books II–V
+        readPages: 70
         author: Marcus Aurelius (trans. Meric Casaubon)
         publicDomain: true
         links:
@@ -526,8 +531,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 16
+    ageEnd: 17
     order: 9
     prerequisites: [philosophy-08]
     related: [logic-07]
@@ -613,6 +618,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Locke, Burke and Tocqueville are core in civics-law-10 and civics-law-12; Machiavelli,
+      Hobbes and Rousseau are kept here as an elective.
     ageStart: 15.5
     ageEnd: 16.5
     order: 10
@@ -722,6 +731,9 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Kept as an elective reading in liberalism and education.
     ageStart: 16
     ageEnd: 16.5
     order: 11
@@ -807,11 +819,13 @@ rows:
       - Explain Kierkegaard's stages (aesthetic, ethical, religious) and his idea of the "single individual"
       - Identify each thinker's influence on present-day politics and culture
     workload:
-      readingHours: 45
-      readingBasis: "752 pp: Manifesto at ~25 pp/h (2 h), Genealogy at ~18 pp/h (13 h), Beyond Good and Evil and Kierkegaard (484 pp) at ~15 pp/h (32 h)"
+      readingHours: 32
+      readingBasis: "513 pp: Manifesto at ~25 pp/h (2 h), Genealogy Essays I–II at ~18 pp/h (8 h), Beyond Good and Evil selections and Kierkegaard (335 pp) at ~15 pp/h (22 h)"
       work:
         - { kind: writing, hours: 8, note: "two short papers x 4 h" }
-        - { kind: discussion, hours: 14, note: "weekly discussion, 18 x 45 min" }
+        - { kind: discussion, hours: 10, note: "weekly discussion, 13 x 45 min" }
+      electiveHours: 17
+      electiveBasis: "the rest of Beyond Good and Evil and the Third Essay of the Genealogy (~239 pp, ~13 h) and further discussion (~4 h)"
     coreTexts:
       - title: The Communist Manifesto
         kind: primary
@@ -826,6 +840,9 @@ rows:
         kind: primary
         reader: student
         pages: 224
+        role: selections
+        portion: 'Parts One ("On the Prejudices of Philosophers"), Five ("On the Natural History of Morals") and Nine ("What Is Noble")'
+        readPages: 75
         author: Friedrich Nietzsche
         date: "1886"
         publicDomain: true
@@ -835,6 +852,9 @@ rows:
         kind: primary
         reader: student
         pages: 230
+        role: selections
+        portion: 'the First Essay ("Good and Evil", "Good and Bad") and the Second Essay ("Guilt", "Bad Conscience" and the like)'
+        readPages: 140
         author: Friedrich Nietzsche
         date: "1887"
         publicDomain: true
@@ -868,7 +888,7 @@ rows:
     ageStart: 17
     ageEnd: 17.5
     order: 13
-    prerequisites: [philosophy-11, philosophy-12]
+    prerequisites: [philosophy-09, philosophy-07, philosophy-12]
     related: [theology-22]
     summary: >-
       This seminar reads the 20th-century recovery of classical and Thomist philosophy in answer to
@@ -884,11 +904,13 @@ rows:
       - Outline Fides et Ratio's account of the relation of philosophy to theology
       - Write a seminar paper applying MacIntyre or Pieper to the design of this program
     workload:
-      readingHours: 75
-      readingBasis: "1,638 pp: Pieper, Maritain and Fides et Ratio (425 pp) at ~22 pp/h (19 h), Gilson at ~20 pp/h (25 h), MacIntyre at ~18 pp/h (16 h), Senior (437 pp) at ~30 pp/h (15 h)"
+      readingHours: 29
+      readingBasis: "665 pp: Pieper, Maritain selections and Fides et Ratio (287 pp) at ~22 pp/h (13 h), Gilson chapters I–II at ~20 pp/h (2 h), MacIntyre selections at ~18 pp/h (8 h), Senior's Death of Christian Culture at ~30 pp/h (6 h)"
       work:
-        - { kind: writing, hours: 40, note: "seminar paper (10–12 pp) ~25 h and 15 weekly responses x 1 h" }
-        - { kind: discussion, hours: 35, note: "18 seminars x 2 h" }
+        - { kind: writing, hours: 15, note: "seminar paper (8–10 pp) ~10 h and 5 weekly responses x 1 h" }
+        - { kind: discussion, hours: 16, note: "8 seminars x 2 h" }
+      electiveHours: 90
+      electiveBasis: "the rest of Maritain, Gilson and After Virtue, and The Restoration of Christian Culture (~973 pp, ~46 h), a longer seminar paper and ten further responses (~25 h) and ten further seminars (~19 h)"
     coreTexts:
       - title: "Leisure: The Basis of Culture (with The Philosophical Act)"
         kind: primary
@@ -903,6 +925,9 @@ rows:
         kind: secondary
         reader: student
         pages: 228
+        role: selections
+        portion: "Part One (the nature of philosophy, from the pre-Socratics to Aristotle and St. Thomas)"
+        readPages: 90
         author: Jacques Maritain
         date: "1931"
         publicDomain: false
@@ -912,6 +937,9 @@ rows:
         kind: secondary
         reader: student
         pages: 490
+        role: selections
+        portion: 'chapters I–II ("The Problem of Christian Philosophy" and "The Concept of Christian Philosophy")'
+        readPages: 45
         author: Étienne Gilson
         date: "1932; Eng. 1936"
         publicDomain: false
@@ -921,6 +949,9 @@ rows:
         kind: primary
         reader: student
         pages: 286
+        role: selections
+        portion: "chapters 1–5 (the failure of the Enlightenment project), 9, 14–15 (the virtues, practices and tradition) and 18"
+        readPages: 140
         author: Alasdair MacIntyre
         date: "1981; 3rd ed. 2007"
         publicDomain: false
@@ -945,7 +976,7 @@ rows:
         publicDomain: false
         links:
           - { label: IHS Press, url: "https://ihspress.com/templates/book_detail_template.php?book=JS001" }
-      - title: The Restoration of Christian Culture
+      - title: "The Restoration of Christian Culture (elective)"
         kind: primary
         reader: student
         pages: 244
@@ -972,7 +1003,7 @@ rows:
       case for the kind of education this program attempts: nursery rhymes, fairy tales and "gymnastic"
       (music and the body) before the great books, then a list of a "thousand good books" as the soil in
       which the Great Books can grow. The student reads him as the philosophy of his own schooling and
-      tests it against Pieper and MacIntyre. Senior's two books, and Postman's The End of Education, are
+      tests it against Pieper and MacIntyre. The Death of Christian Culture is core and its sequel elective. Senior's two books, and Postman's The End of Education, are
       also recommended reading for parents, ideally before the child starts school. Postman writes as a
       secular humanist; his "end" means both purpose and death, and his claim that schools need a unifying
       "narrative" (a god to serve) is read as an elective, set beside Senior's answer that the narrative
@@ -1040,7 +1071,7 @@ rows:
     ageStart: 16
     ageEnd: 16.5
     order: 12.5
-    prerequisites: [philosophy-08, philosophy-10]
+    prerequisites: [philosophy-08, philosophy-07]
     related: [civics-law-09, civics-law-10, civics-law-13, civics-law-19, greek-14, literature-16, theology-18, latin-18, biology-03]
     summary: >-
       The natural-law tradition is read as one argument running from the Greeks to the
@@ -1061,11 +1092,13 @@ rows:
       - Show how the Declaration's "Laws of Nature and of Nature's God" and Wilson's lecture "Of the Law of Nature" draw on this tradition
       - Match the precepts in Lewis's appendix ("Illustrations of the Tao") to the Decalogue and to Aquinas q.94
     workload:
-      readingHours: 90
-      readingBasis: "1,783 pp: Suárez at ~15 pp/h (24 h), Pufendorf at ~20 pp/h (17 h), Burlamaqui, Wilson and Budziszewski (1,015 pp) at ~22 pp/h (46 h), Antigone and Rhetoric I.13 at ~25 pp/h (3 h); Grotius has no page count and is not counted"
+      readingHours: 44
+      readingBasis: "885 pp: Suárez selections (150 pp) at ~15 pp/h (10 h), Pufendorf Book I, chs. 1–8 (140 pp) at ~20 pp/h (7 h), Burlamaqui and Wilson selections and Budziszewski (532 pp) at ~22 pp/h (24 h), Antigone and Rhetoric I.13 at ~25 pp/h (3 h); Grotius has no page count and is not counted"
       work:
         - { kind: writing, hours: 15, note: "seminar paper and the Tao, Decalogue and q.94 matching exercise" }
         - { kind: discussion, hours: 18, note: "weekly seminar, 18 x 1 h" }
+      electiveHours: 46
+      electiveBasis: "the rest of the Suárez selections, Pufendorf, Burlamaqui and Wilson's lectures (~898 pp, ~46 h)"
     coreTexts:
       - title: "Antigone (in Plays of Sophocles, trans. F. Storr)"
         kind: primary
@@ -1125,7 +1158,8 @@ rows:
         reader: student
         pages: 1100
         role: selections
-        portion: A Treatise on Laws and God the Lawgiver (1612)
+        portion: "A Treatise on Laws and God the Lawgiver (1612): Book I, chs. 1–7, and Book II, chs. 5–8 and 17–20 (law, the natural law and the ius gentium)"
+        readPages: 150
         author: Francisco Suárez
         date: "1612–1621"
         publicDomain: true
@@ -1156,6 +1190,9 @@ rows:
         kind: primary
         reader: student
         pages: 338
+        role: selections
+        portion: "Book I, chs. 1–8 (human action, law, the law of nature, and duties to God, to oneself and to others)"
+        readPages: 140
         author: Samuel Pufendorf
         date: "1673"
         publicDomain: true
@@ -1165,6 +1202,9 @@ rows:
         kind: primary
         reader: student
         pages: 530
+        role: selections
+        portion: "The Principles of Natural Law, Part I and Part II, chs. 1–5"
+        readPages: 200
         author: Jean-Jacques Burlamaqui
         date: "1747–1751"
         publicDomain: true
@@ -1186,7 +1226,8 @@ rows:
         reader: student
         pages: 700
         role: selections
-        portion: 'the lectures, especially "Of the Law of Nature"'
+        portion: '"Of the General Principles of Law and Obligation" and "Of the Law of Nature"'
+        readPages: 80
         author: James Wilson
         date: "1790–1791"
         publicDomain: true
@@ -1280,6 +1321,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College seminar beyond the core; Natural Law I (philosophy-15) remains core.
     ageStart: 17.5
     ageEnd: 18
     order: 13.5

@@ -17,8 +17,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 14
+    ageStart: 14
+    ageEnd: 15
     order: 1
     prerequisites: []
     related: [mathematics-11, mathematics-13, natural-science-07]
@@ -130,8 +130,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 13
-    ageEnd: 16
+    ageStart: 14
+    ageEnd: 17
     order: 1.5
     prerequisites: []
     related: [natural-science-07, mathematics-16]
@@ -150,8 +150,10 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: lab, hours: 100, note: "about one lab a week in the bound notebook during Honors Physics and the Physics C year, ~65 x 1.5 h" }
-        - { kind: writing, hours: 15, note: "uncertainty analysis and a written defense of one student-designed experiment per unit, ~15 x 1 h" }
+        - { kind: lab, hours: 48, note: "about one lab every other week in the bound notebook during Honors Physics and the Physics C year, ~32 x 1.5 h" }
+        - { kind: writing, hours: 10, note: "uncertainty analysis and a written defense of a student-designed experiment in most units, ~10 x 1 h" }
+      electiveHours: 57
+      electiveBasis: "about 33 further labs for a weekly rhythm (~52 h) and five further written defenses (~5 h)"
     curriculumOptions:
       - name: phyphox (free smartphone physics lab)
         publisher: RWTH Aachen University
@@ -169,15 +171,18 @@ rows:
         url: "https://www.vernier.com/product/physics-with-vernier/"
         notes: Standard lab manual for probeware (motion detector, force sensor). Worth it if the family buys sensors.
     notes: >-
-      Optional as a separate row, but the lab habits are expected. Log roughly one lab a week during
-      Honors Physics and the Physics C courses, and include at least one student-designed experiment per
-      unit.
+      Optional as a separate row, but the lab habits are expected. Log roughly one lab every other week during
+      Honors Physics and the Physics C courses, and include a student-designed experiment in most units.
+      A weekly lab and a designed experiment in every unit are elective.
 
   - id: physics-04
     title: "Physics Olympiad I: F=ma"
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Competition preparation, taken on top of the core course.
     ageStart: 14
     ageEnd: 16
     order: 1.8
@@ -237,8 +242,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 16
+    ageEnd: 17
     order: 2
     prerequisites: [physics-01]
     related: [mathematics-18, mathematics-21, natural-science-19]
@@ -338,8 +343,11 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16
+    elective: true
+    electiveNote: >-
+      A second AP physics course; AP Physics C: Mechanics remains core.
+    ageStart: 16.5
+    ageEnd: 17
     order: 3
     prerequisites: [physics-02]
     related: [mathematics-18, natural-science-07]
@@ -448,6 +456,9 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Competition preparation, taken on top of the core course.
     ageStart: 16
     ageEnd: 16.5
     order: 4

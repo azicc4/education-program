@@ -131,6 +131,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      One lab science a year: Honors Biology is core, and AP Biology is an elective second year.
     ageStart: 13
     ageEnd: 14
     order: 2
@@ -374,6 +377,9 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Competition preparation, taken on top of the core course.
     ageStart: 13.5
     ageEnd: 16
     order: 4

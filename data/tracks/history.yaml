@@ -1341,11 +1341,13 @@ rows:
       - Analyze the Funeral Oration and the Melian Dialogue as statements of Athenian self-understanding
       - Draw lessons for republics (stasis, empire, demagoguery) and test them against the founders' use of Greek history
     workload:
-      readingHours: 95
-      readingBasis: "~1,860 pp: Herodotus I and VI–IX ~530 pp (six of nine books; the counted ~267 pp understates them) at ~22 pp/h (24 h), Thucydides 614 pp at ~16 pp/h (38 h), Hellenica 299 pp and Arrian 420 pp at ~22 pp/h (33 h)"
+      readingHours: 69
+      readingBasis: "~1,294 pp: Herodotus I and VI–IX ~530 pp (six of nine books; the counted ~267 pp understates them) at ~22 pp/h (24 h), Thucydides 614 pp at ~16 pp/h (38 h), Arrian Books I–III ~150 pp at ~22 pp/h (7 h)"
       work:
-        - { kind: writing, hours: 25, note: "four argumentative essays including the 1,500-word comparison, with revision, ~6 h each" }
-        - { kind: discussion, hours: 30, note: "weekly Socratic seminar, 36 x 50 min" }
+        - { kind: writing, hours: 16, note: "four argumentative essays including the 1,500-word comparison, with revision, ~4 h each" }
+        - { kind: discussion, hours: 15, note: "weekly Socratic seminar, 36 x 25 min" }
+      electiveHours: 50
+      electiveBasis: "Xenophon's Hellenica and Arrian Books IV–VII (~569 pp, ~26 h), fuller essay revision (~9 h) and longer seminars (~15 h)"
     coreTexts:
       - title: The History of Herodotus
         kind: primary
@@ -1371,7 +1373,7 @@ rows:
         links:
           - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/7142" }
           - { label: Perseus, url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200" }
-      - title: Hellenica
+      - title: "Hellenica (elective)"
         kind: primary
         reader: student
         pages: 299
@@ -1385,6 +1387,9 @@ rows:
         reader: student
         pages: 420
         order: 4
+        role: selections
+        portion: "Books I–III (from Alexander's accession to the death of Darius)"
+        readPages: 150
         author: Arrian (tr. Chinnock)
         date: "c. AD 130–150"
         publicDomain: true
@@ -1447,8 +1452,8 @@ rows:
     related: [latin-13, latin-17, rhetoric-10, character-virtue-13]
     summary: >-
       A year-long seminar on the rise and fall of the Republic and the Principate that replaced it,
-      read in their historians. The student reads Polybius Books I, III and VI (the mixed
-      constitution, the founders' favorite ancient text on government) and Livy Books I–V and
+      read in their historians. The student reads Polybius's proem (I.1–4) and Books III and VI (the mixed
+      constitution, the founders' favorite ancient text on government) and Livy Books I–III and
       XXI–XXII (Hannibal). He then reads Tacitus's Agricola, Annals I–IV (Tiberius) and XV (the fire
       and the Christians under Nero), and Josephus's Jewish War on the fall of Jerusalem in AD 70,
       which joins Roman and sacred history. Sallust's moralist view of decline, Suetonius's lives of
@@ -1465,11 +1470,13 @@ rows:
       - "From the electives: analyze Sallust's thesis that wealth and ambition corrupted Rome, or compare Tacitus and Suetonius as sources for the same emperor"
       - Write an essay on how liberty is lost under a republican facade, using Tacitus
     workload:
-      readingHours: 60
-      readingBasis: "1,058 pp: Polybius ~367 pp at ~16 pp/h (23 h), Livy ~333 pp at ~22 pp/h (15 h), Tacitus's Annals and Agricola ~191 pp at ~16 pp/h (12 h), Josephus ~167 pp at ~20 pp/h (8 h); the two chosen electives are not counted"
+      readingHours: 47
+      readingBasis: "858 pp: Polybius ~260 pp at ~16 pp/h (16 h), Livy ~240 pp at ~22 pp/h (11 h), Tacitus's Annals and Agricola ~191 pp at ~16 pp/h (12 h), Josephus ~167 pp at ~20 pp/h (8 h); the two chosen electives are not counted"
       work:
-        - { kind: writing, hours: 30, note: "the 2,000-word Polybius essay (~10 h), the Tacitus liberty essay and the elective analysis (~6 h each), shorter papers on Hannibal and Josephus (~8 h)" }
-        - { kind: discussion, hours: 30, note: "weekly Socratic seminar, 36 x 50 min" }
+        - { kind: writing, hours: 19, note: "the 2,000-word Polybius essay (~8 h), the Tacitus liberty essay and the elective analysis (~4 h each), a short paper on Hannibal (~3 h)" }
+        - { kind: discussion, hours: 25, note: "weekly Socratic seminar, 30 x 50 min" }
+      electiveHours: 29
+      electiveBasis: "the rest of Polybius Book I and Livy Books IV–V (~200 pp, ~13 h), a short paper on Josephus and fuller essay revision (~11 h) and further seminars (~5 h)"
     coreTexts:
       - title: The Histories of Polybius (Vols. 1–2)
         kind: primary
@@ -1477,7 +1484,8 @@ rows:
         pages: 1100
         order: 1
         role: selections
-        portion: "Books I, III and VI"
+        portion: "Book I, chs. 1–4 (the proem), and Books III and VI"
+        readPages: 260
         author: Polybius (tr. Shuckburgh)
         date: "c. 150 BC"
         publicDomain: true
@@ -1491,7 +1499,8 @@ rows:
         pages: 1000
         order: 1
         role: selections
-        portion: "Books I–V and XXI–XXII"
+        portion: "Books I–III and XXI–XXII"
+        readPages: 240
         author: Livy
         publicDomain: true
         links:
@@ -1730,15 +1739,17 @@ rows:
       - Compare a monastic historian (Bede) with a court biographer (Einhard) and, from the electives, an annalist or a bishop-historian
       - Write an essay on Dawson's thesis that religion is the key to cultural history, tested against these sources
       - Read the Gregory VII–Henry IV exchange and Unam Sanctam, and state each side's claim
-      - Read Joinville entire and Froissart on Crécy, Poitiers and the Peasants' Revolt, and compare them as witnesses
+      - Re-read Joinville on the crusade and captivity of St. Louis, read Froissart on Crécy, Poitiers and the Peasants' Revolt, and compare them as witnesses
       - Write a 2,000-word essay on church and state from Gelasius to Unam Sanctam, and its legacy for the First Amendment
     workload:
-      readingHours: 65
-      readingBasis: "~1,410 pp: Bede 400 pp at ~18 pp/h (22 h), Einhard and Notker 180 pp at ~22 pp/h (8 h), Dawson 317 pp at ~20 pp/h (16 h), Joinville 409 pp, re-read from history-11, at ~30 pp/h (14 h), Froissart on Crécy, Poitiers and the Peasants' Revolt ~100 pp at ~25 pp/h (4 h; the counted ~500 pp overstates three episodes), papal documents 8 pp"
+      readingHours: 48
+      readingBasis: "~1,018 pp: Bede 400 pp at ~18 pp/h (22 h), Einhard and Notker 180 pp at ~22 pp/h (8 h), Dawson's Introduction and Part III 130 pp at ~20 pp/h (7 h), Joinville on the crusade 200 pp, re-read from history-11, at ~30 pp/h (7 h), Froissart on Crécy, Poitiers and the Peasants' Revolt ~100 pp at ~25 pp/h (4 h; the counted ~500 pp overstates three episodes), papal documents 8 pp"
       work:
-        - { kind: writing, hours: 25, note: "the Dawson essay (~7 h), the 2,000-word church-and-state essay (~10 h), the witness comparisons (~8 h)" }
-        - { kind: discussion, hours: 30, note: "weekly Socratic seminar, 36 x 50 min" }
+        - { kind: writing, hours: 17, note: "the Dawson essay (~5 h), the 2,000-word church-and-state essay (~8 h), one witness comparison (~4 h)" }
+        - { kind: discussion, hours: 24, note: "weekly Socratic seminar, 36 x 40 min" }
         - { kind: exercises, hours: 2, note: "maps of the conversion of the English and the Franks" }
+      electiveHours: 31
+      electiveBasis: "the rest of Dawson and of the Joinville re-read (~396 pp, ~17 h), a second witness comparison and fuller essay revision (~8 h) and longer seminars (~6 h)"
     coreTexts:
       - title: Ecclesiastical History of the English People
         kind: primary
@@ -1773,6 +1784,9 @@ rows:
         reader: student
         pages: 317
         order: 1
+        role: selections
+        portion: "the Introduction and Part III (the formation of Western Christendom)"
+        readPages: 130
         author: Christopher Dawson
         date: "1932"
         publicDomain: false
@@ -1812,6 +1826,9 @@ rows:
         reader: student
         pages: 409
         order: 2
+        role: selections
+        portion: "the crusade in Egypt, the captivity and the years in Outremer"
+        readPages: 200
         author: Jean de Joinville
         date: "1309"
         publicDomain: true
@@ -2754,6 +2771,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      An elective in historical method; the core seminars already read the historians
+      themselves.
     ageStart: 16
     ageEnd: 16.5
     order: 24
@@ -2895,6 +2916,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College survey that repeats the history cycle already completed in the seminars.
     ageStart: 17
     ageEnd: 17.5
     order: 29
@@ -2980,6 +3004,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College survey that repeats the history cycle already completed in the seminars.
     ageStart: 17.5
     ageEnd: 18
     order: 30
@@ -3066,6 +3093,10 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      College survey that repeats the American founding seminar (history-23) and the civics
+      sequence.
     ageStart: 17
     ageEnd: 18
     order: 31
@@ -3168,6 +3199,9 @@ rows:
     type: course
     level: college
     stage: formal
+    elective: true
+    electiveNote: >-
+      Church history is core in theology-23.
     ageStart: 17.5
     ageEnd: 18
     order: 32

@@ -286,6 +286,10 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    elective: true
+    electiveNote: >-
+      Parsing and syntax are covered by sentence diagramming (grammar-composition-05) and the
+      core composition sequence; this founding-era drill is kept for depth.
     ageStart: 10.5
     ageEnd: 12
     order: 6
@@ -521,7 +525,7 @@ rows:
     ageStart: 12.5
     ageEnd: 14
     order: 10
-    prerequisites: [grammar-composition-06, grammar-composition-09]
+    prerequisites: [grammar-composition-05, grammar-composition-09]
     related: []
     exams: [ap-english-language]
     summary: >-
@@ -573,7 +577,7 @@ rows:
     related: [rhetoric-07, logic-02]
     exams: [ap-english-language]
     summary: >-
-      Students write a full essay every week or two across genres (definition, comparison, cause and
+      Students write a full essay every two or three weeks across genres (definition, comparison, cause and
       effect, literary analysis, and persuasion on a question of justice or policy), using classical
       invention (the topics) and the logic course's argument analysis. Timed essays prepare for exams.
     objectives:
@@ -583,9 +587,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 55, note: "invention and arrangement lessons (Lost Tools or IEW), 72 wk x 45 min" }
-        - { kind: writing, hours: 145, note: "a full essay every two weeks, ~36 essays x 4 h" }
+        - { kind: exercises, hours: 30, note: "invention and arrangement lessons (Lost Tools or IEW), 40 wk x 45 min" }
+        - { kind: writing, hours: 120, note: "a full essay every two to three weeks, ~30 essays x 4 h" }
         - { kind: exam-prep, hours: 12, note: "timed 40-minute essays with review, 12 x 1 h" }
+      electiveHours: 50
+      electiveBasis: "six further essays (~25 h) and further invention and arrangement lessons (~25 h)"
     curriculumOptions:
       - name: The Lost Tools of Writing (Levels II–III)
         publisher: CiRCE Institute
@@ -638,10 +644,12 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 20, note: "research-process lessons (questions, sources, notes, Chicago style), 30 x 45 min" }
-        - { kind: project, hours: 50, note: "research for two papers: finding, reading and noting sources, 2 x 25 h" }
-        - { kind: writing, hours: 50, note: "outlining, drafting and revising two 3,000–5,000-word papers, 2 x 25 h" }
+        - { kind: exercises, hours: 14, note: "research-process lessons (questions, sources, notes, Chicago style), 19 x 45 min" }
+        - { kind: project, hours: 40, note: "research for two papers: finding, reading and noting sources, 2 x 20 h" }
+        - { kind: writing, hours: 40, note: "outlining, drafting and revising two 3,000–5,000-word papers, 2 x 20 h" }
         - { kind: practice, hours: 6, note: "preparing and giving the oral defenses, 2 x 3 h" }
+      electiveHours: 26
+      electiveBasis: "wider source research (~10 h), further drafting and revision (~10 h) and further research-process lessons (~6 h)"
     coreTexts:
       - title: A Manual for Writers of Research Papers, Theses, and Dissertations (9th ed.)
         kind: instructional
@@ -670,6 +678,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Usage and style are core in Usage & Style I (grammar-composition-10); Fowler stays
+      available as a reference.
     ageStart: 15.5
     ageEnd: 16.5
     order: 13
@@ -734,7 +746,7 @@ rows:
     ageStart: 17
     ageEnd: 18
     order: 14
-    prerequisites: [grammar-composition-12, grammar-composition-13]
+    prerequisites: [grammar-composition-12, grammar-composition-10, grammar-composition-11]
     related: [rhetoric-12, philosophy-13]
     summary: >-
       A general-education college writing seminar. Students write sustained expository and
@@ -749,9 +761,11 @@ rows:
       readingHours: 1
       readingBasis: "18 pp: Orwell's essay read closely at ~30 pp/h"
       work:
-        - { kind: writing, hours: 95, note: "six 2,500–5,000-word essays x ~15 h with revision, plus an op-ed (~5 h)" }
-        - { kind: exercises, hours: 30, note: "They Say / I Say and Style exercises, 30 x 1 h" }
-        - { kind: discussion, hours: 30, note: "seminar and editing conferences, 30 x 1 h" }
+        - { kind: writing, hours: 65, note: "four 2,500–5,000-word essays x ~15 h with revision, plus an op-ed (~5 h)" }
+        - { kind: exercises, hours: 15, note: "They Say / I Say and Style exercises, 15 x 1 h" }
+        - { kind: discussion, hours: 20, note: "seminar and editing conferences, 20 x 1 h" }
+      electiveHours: 55
+      electiveBasis: "two further 2,500–5,000-word essays (~30 h), further They Say / I Say and Style exercises (~15 h) and further seminar and editing conferences (~10 h)"
     coreTexts:
       - title: Politics and the English Language
         kind: primary

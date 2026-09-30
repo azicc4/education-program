@@ -1,6 +1,10 @@
 track: hebrew
 title: Biblical Hebrew
 trackGroup: Languages
+elective: true
+electiveNote: >-
+  Elective third sacred language. The core language load is Latin, Greek and one modern language
+  (Spanish).
 description: >-
   Biblical Hebrew begins at 12–13, after Latin grammar is mastered and Greek is well under way.
   It completes the three "sacred languages" of the colonial colleges and of the Christian

@@ -65,6 +65,7 @@ rows:
     type: course
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 7
     ageEnd: 12
     order: 2
@@ -117,6 +118,7 @@ rows:
     type: course
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 7
     ageEnd: 13
     order: 3
@@ -267,8 +269,10 @@ rows:
       readingHours: 13
       readingBasis: "200 pp read together (Ruskin's Letter III and Cennini on pigments and procedure) at ~15 pp/h"
       work:
-        - { kind: exercises, hours: 19, note: "washes, wet-in-wet, glazing, the color wheel and limited-palette mixing, ~25 x 45 min" }
-        - { kind: practice, hours: 60, note: "20 or more finished studies from life x ~2 h (40 h) plus ~27 practice sessions x 45 min" }
+        - { kind: exercises, hours: 17, note: "washes, wet-in-wet, glazing, the color wheel and limited-palette mixing, ~25 x 40 min" }
+        - { kind: practice, hours: 30, note: "20 or more finished studies from life x ~1.5 h" }
+      electiveHours: 32
+      electiveBasis: "~27 further practice sessions x 45 min (~20 h), longer finished studies (~10 h) and longer technique exercises (~2 h)"
     coreTexts:
       - title: The Elements of Drawing (Letter III, On Colour and Composition)
         kind: instructional
@@ -328,8 +332,10 @@ rows:
       readingHours: 7
       readingBasis: "100 pp of Leonardo's notebooks on perspective, light and shade at ~15 pp/h; Norling is a workbook counted as exercises"
       work:
-        - { kind: exercises, hours: 25, note: "Norling's constructions: one-, two- and three-point perspective, ellipses, arches, stairs and cast shadows, ~32 x 45 min" }
-        - { kind: practice, hours: 12, note: "drawing buildings and interiors from life in perspective, ~12 x 1 h" }
+        - { kind: exercises, hours: 15, note: "Norling's constructions: one-, two- and three-point perspective, ellipses, arches, stairs and cast shadows, 20 steps x ~45 min" }
+        - { kind: practice, hours: 8, note: "drawing buildings and interiors from life in perspective, ~8 x 1 h" }
+      electiveHours: 14
+      electiveBasis: "~12 further construction sessions (~10 h) and ~4 further drawings from life (~4 h)"
     coreTexts:
       - title: Perspective Made Easy
         kind: instructional
@@ -366,8 +372,9 @@ rows:
     type: course
     level: 6-8
     stage: formal
-    ageStart: 11
-    ageEnd: 14
+    day: saturday
+    ageStart: 12
+    ageEnd: 16
     order: 7
     prerequisites: [fine-arts-04]
     related: []
@@ -492,6 +499,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Architecture is core in practical-arts-15 (Jefferson's Palladio).
     ageStart: 13
     ageEnd: 16
     order: 9
@@ -553,6 +563,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      For serious draftsmen; drawing fundamentals remain core.
     ageStart: 13
     ageEnd: 16
     order: 10
@@ -615,7 +628,7 @@ rows:
     ageStart: 17
     ageEnd: 18
     order: 11
-    prerequisites: [fine-arts-08, fine-arts-09]
+    prerequisites: [fine-arts-08, fine-arts-06]
     related: [philosophy-14, theology-20]
     summary: >-
       A college survey and seminar on the Western tradition of art and architecture from the Parthenon to
@@ -629,17 +642,22 @@ rows:
       - Read John Paul II's Letter to Artists and Benedict XVI's 2009 address on the "way of beauty"
       - Write a 3,000-word research paper on a building or artwork studied in person
     workload:
-      readingHours: 30
-      readingBasis: "645 pp: Stones of Venice I 400 pp at ~20 pp/h (20 h), The Two Paths 217 pp at ~22 pp/h (10 h), John Paul II and Benedict XVI 28 pp (1 h)"
+      readingHours: 16
+      readingBasis: "345 pp: Stones of Venice I selections 100 pp at ~20 pp/h (5 h), The Two Paths 217 pp at ~22 pp/h (10 h), John Paul II and Benedict XVI 28 pp (1 h)"
       work:
-        - { kind: discussion, hours: 60, note: "survey lectures and seminar from the Parthenon to modernism, 30 wk x 2 h" }
-        - { kind: project, hours: 15, note: "museum study in person, ~5 visits x 3 h" }
-        - { kind: writing, hours: 25, note: "a 3,000-word research paper on a building or artwork studied in person" }
+        - { kind: discussion, hours: 22, note: "survey lectures and seminar from the Parthenon to modernism, 30 wk x 45 min" }
+        - { kind: project, hours: 8, note: "museum study in person, ~3 visits x 2.5 h" }
+        - { kind: writing, hours: 15, note: "a 3,000-word research paper on a building or artwork studied in person: research, draft and one revision" }
+      electiveHours: 69
+      electiveBasis: "the rest of The Stones of Venice, Vol. 1 (~300 pp, ~14 h), a longer weekly seminar (~38 h), two further museum visits (~7 h) and a fuller research-and-revision cycle for the paper (~10 h)"
     coreTexts:
       - title: The Stones of Venice, Vol. 1
         kind: primary
         reader: student
         pages: 400
+        role: selections
+        portion: "Chapters I–II, The Quarry and The Virtues of Architecture"
+        readPages: 100
         author: John Ruskin
         date: "1851–1853"
         publicDomain: true

@@ -1,6 +1,10 @@
 track: ap-history
 title: "AP History (side track)"
 trackGroup: AP & Exams
+elective: true
+electiveNote: >-
+  AP exam preparation. When a student takes it, it replaces the matching core unit's hours
+  rather than adding to them.
 description: >-
   A side track that prepares the student for the three College Board history exams: AP United
   States History, AP European History and AP World History: Modern. It supplements the main

@@ -140,9 +140,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: lab, hours: 80, note: "~30 traditional labs from Thompson's guide (an instruction manual, not counted as reading) x 2 h, plus the six AP guided-inquiry labs x 3 h" }
-        - { kind: exercises, hours: 8, note: "RAMP risk assessment, safety data sheets, PPE and waste disposal, ~10 x 45 min" }
-        - { kind: writing, hours: 18, note: "notebook calculations, percent error and error discussions written up, ~36 x 30 min" }
+        - { kind: lab, hours: 38, note: "~10 essential technique labs from Thompson's guide (an instruction manual, not counted as reading: analytical balance, volumetric glassware, titration, gravimetric analysis, calorimetry, Beer's-law spectrophotometry) x 2 h, plus the six AP guided-inquiry labs x 3 h" }
+        - { kind: exercises, hours: 5, note: "RAMP risk assessment, safety data sheets, PPE and waste disposal, ~7 x 45 min" }
+        - { kind: writing, hours: 8, note: "notebook calculations, percent error and error discussions written up, ~16 x 30 min" }
+      electiveHours: 55
+      electiveBasis: "about 20 further traditional labs from Thompson's guide (~42 h), their write-ups (~10 h) and further safety exercises (~3 h)"
     coreTexts:
       - title: "Illustrated Guide to Home Chemistry Experiments: All Lab, No Lecture"
         kind: instructional
@@ -212,6 +214,10 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      One lab science a year: Honors Chemistry is core, and AP Chemistry is an elective second
+      year.
     ageStart: 14
     ageEnd: 15
     order: 3
@@ -352,6 +358,9 @@ rows:
     type: unit
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Competition preparation, taken on top of the core course.
     ageStart: 14
     ageEnd: 16
     order: 4

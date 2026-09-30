@@ -1,6 +1,11 @@
 track: chinese
 title: Chinese (Mandarin & Classical)
 trackGroup: Languages
+elective: true
+electiveNote: >-
+  Elective modern language. Mandarin needs about 2,200 class hours for professional working
+  proficiency (Foreign Service Institute, Category V), which does not fit beside Latin and Greek
+  in the yearly hour budget. A family that chooses Chinese takes it in place of Spanish.
 description: >-
   Mandarin is acquired by ear from infancy through a native-speaking caregiver, songs and stories.
   Infants who hear live Mandarin keep the ability to perceive its sounds, and live input matters more
