@@ -784,3 +784,28 @@ dialog.modal input:not([type="checkbox"]):not([type="radio"]), dialog.modal sele
 .term li .by { display: block; font: 0.72rem var(--sans); }
 @media (max-width: 900px) { .terms { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .terms { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- Family Progress: weekly load ---------- */
+.weekly-load { --viz-core: #2a78d6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .weekly-load { --viz-core: #3987e5; } }
+:root[data-theme="dark"] .weekly-load { --viz-core: #3987e5; }
+.wl-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 14px; }
+.wl-tile { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; font-family: var(--sans); }
+.wl-head { font-size: 0.9rem; }
+.wl-num { font: 600 1.5rem/1.1 var(--sans); font-variant-numeric: tabular-nums; }
+.wl-num small { font: 400 0.8rem var(--sans); color: var(--ink-2); }
+.wl-tile .by { font-size: 0.78rem; }
+.wl-track { position: relative; display: block; height: 10px; background: var(--surface-2); border-radius: 999px; }
+.wl-bar { display: block; height: 100%; background: var(--viz-core); border-radius: 999px; }
+.wl-bud { position: absolute; top: -3px; bottom: -3px; width: 2px; margin-left: -1px; background: var(--ink); }
+.wl-table { width: 100%; border-collapse: collapse; font: 0.85rem var(--sans); }
+.wl-table th, .wl-table td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.wl-table th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-2); background: var(--surface-2); }
+.wl-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wl-table tr.on td { background: var(--surface-2); }
+.weekly-load h3 { font-size: 1rem; margin: 14px 0 6px; }
+.badge.wl-active { color: var(--lvl-68); }
+.badge.wl-due { color: var(--ink-2); }
+.badge.wl-overdue { color: var(--accent); }
+.wl-line { font-size: 0.9rem; }
+@media (max-width: 640px) { .wl-tiles { grid-template-columns: minmax(0, 1fr); } }

@@ -46,7 +46,8 @@ and has a page count where one is known.
   by birthday, not the calendar); a lab practice unit sometimes follows its course by a term rather than running with it
   (chemistry-02 after chemistry-01); some Latin and mathematics units now come later than before (Virgil at 14¾–15½,
   AP Calculus BC at 15–16, proof writing at 16–17) because their units no longer overlap.
-- [ ] Show each child's combined weekly load in Family Progress and the trees, from the term plan.
+- [x] Each child's weekly load in Family Progress (Weekly load tab, and a line on Next assignments).
+- [ ] Show the weekly load in the trees too (e.g. beside the child selector with Current Age on).
 - [ ] Saturdays use 45–83% of their 8 hours in grades 5–12 (lightest at 15–17); room for more outdoor or craft units.
 - [ ] Check the page counts and portions the shortening assigned from memory rather than a specific edition: the Stones
   of Venice selection in fine-arts-11 (and its objective on "The Nature of Gothic", which is in Vol. II), and the Berry

@@ -46,6 +46,7 @@
   });
   document.getElementById('load-demo').addEventListener('click', () => {
     const n = window.Demo.loadIntoStore(DATA, S);
+    addForm.hidden = true;
     if (!n) alert('The demo children are already loaded, and their bookshelves are filled in.');
   });
   document.getElementById('add-child-cancel').addEventListener('click', () => (addForm.hidden = true));
@@ -67,6 +68,81 @@
       render();
     }),
   );
+
+  // ---------- weekly load: the hours a week of the units a child is on now, by part of the week ----------
+  const B = DATA.budget;
+  const WEEKS = B?.saturday?.weeks || 48;
+  const DAYS = [['weekday', 'Weekday academics', 'Monday to Friday'], ['saturday', 'Saturday', 'activities'], ['sunday', 'Sunday', 'Bible and theology']];
+  // Saturdays and weekdays follow the 48-week school year; Sundays run all 52 weeks
+  const weeksFor = (day) => (day === 'sunday' ? B?.sunday?.weeks || 52 : WEEKS);
+  const perWeek = (r) => (window.App.workloadTotal(r) || 0) / Math.max(r.ageEnd - r.ageStart, 0.25) / weeksFor(window.App.dayOf(r));
+  const hw = (h) => `${h < 10 ? h.toFixed(1) : Math.round(h)} h`;
+  function budgetFor(age) {
+    const y = B?.years?.find((x) => x.grade === Math.floor(age) - B.gradeAgeOffset);
+    const band = (B?.sunday?.bands || []).find((b) => age >= b.ageStart && age < b.ageEnd);
+    return {
+      label: y ? y.label : '',
+      weekday: y ? y.weekday / WEEKS : 0,
+      saturday: y ? B.saturday.hoursPerDay : 0,
+      sunday: band ? band.hoursPerWeek : 0,
+    };
+  }
+  // the units a child is on now in every track: in progress, or due at their age (the first unfinished one if behind)
+  function weeklyLoad(c) {
+    const who = window.App.childFor(`store:${c.id}`);
+    const units = [];
+    for (const t of DATA.tracks) {
+      const rows = DATA.rows.filter((r) => r.track === t.id);
+      for (const r of window.App.nowUnits(rows, who)) {
+        if (!r.workload) continue;
+        const st = S.status(c.id, r.id);
+        units.push({ r, st: st === 'active' ? 'active' : r.ageEnd <= who.age ? 'overdue' : 'due', day: window.App.dayOf(r), h: perWeek(r) });
+      }
+    }
+    const totals = Object.fromEntries(DAYS.map(([d]) => [d, units.filter((u) => u.day === d).reduce((n, u) => n + u.h, 0)]));
+    return { age: who.age, units, totals, budget: budgetFor(who.age) };
+  }
+  const meter = (h, b) => {
+    const max = Math.max(h, b, 0.1) * 1.15;
+    const pct = (x) => `${Math.min(100, (100 * x) / max).toFixed(1)}%`;
+    return `<span class="wl-track"><i class="wl-bar" style="width:${pct(h)}"></i>${b ? `<b class="wl-bud" style="left:${pct(b)}"></b>` : ''}</span>`;
+  };
+  const loadLine = (L) =>
+    DAYS.map(([d, label]) => `${label.split(' ')[0]} ${hw(L.totals[d])}${L.budget[d] ? ` of ${hw(L.budget[d])}` : ''}`).join(' · ');
+
+  function renderLoad(c) {
+    if (!c.birthdate) return '<p class="empty">Add a birthdate to see the weekly load.</p>';
+    const L = weeklyLoad(c);
+    const ST = { active: 'In progress', due: 'Due now', overdue: 'Behind' };
+    const tiles = DAYS.map(([d, label, sub]) => {
+      const h = L.totals[d], b = L.budget[d];
+      const pct = b ? Math.round((100 * h) / b) : null;
+      const perDay = d === 'weekday' ? ` · about ${hw(h / 5)} a day` : '';
+      return `<div class="wl-tile"><div class="wl-head"><strong>${label}</strong> <span class="by">${sub}</span></div>
+        <div class="wl-num">${hw(h)} <small>a week${perDay}</small></div>
+        ${meter(h, b)}
+        <div class="by">${b ? `Budget ${hw(b)} a week${pct != null ? ` · ${pct}%` : ''}${pct > 110 ? ' · above budget' : ''}` : 'No budget at this age'}</div></div>`;
+    }).join('');
+    const sections = DAYS.map(([d, label]) => {
+      const us = L.units.filter((u) => u.day === d).sort((a, b) => b.h - a.h);
+      if (!us.length) return '';
+      return `<h3>${label}</h3><div class="table-wrap"><table class="wl-table"><thead><tr><th>Unit</th><th>Track</th><th>Status</th><th class="num">h a week</th></tr></thead><tbody>${us
+        .map((u) => `<tr><td><button type="button" class="linkish" data-open="${esc(u.r.id)}">${esc(u.r.title)}</button>${u.r.elective ? ' <span class="badge unit-elective">Elective</span>' : ''}</td><td>${esc(trackTitle(u.r.track))}</td><td><span class="badge wl-${u.st}">${ST[u.st]}</span></td><td class="num">${hw(u.h)}</td></tr>`)
+        .join('')}</tbody></table></div>`;
+    }).join('');
+    const kids = S.children().filter((k) => k.birthdate);
+    const family = kids.length > 1
+      ? `<h3>The whole family</h3><div class="table-wrap"><table class="wl-table"><thead><tr><th>Child</th>${DAYS.map(([, l]) => `<th class="num">${l.split(' ')[0]}</th>`).join('')}</tr></thead><tbody>${kids
+          .map((k) => { const K = weeklyLoad(k); return `<tr${k.id === c.id ? ' class="on"' : ''}><td>${esc(k.name)} <small class="by">${esc(fmtYears(S.age(k)))}</small></td>${DAYS.map(([d]) => `<td class="num">${hw(K.totals[d])}${K.budget[d] ? ` <small class="by">/ ${hw(K.budget[d])}</small>` : ''}</td>`).join('')}</tr>`; })
+          .join('')}</tbody></table></div>`
+      : '';
+    return `<div class="weekly-load">
+      <p class="desc">${esc(c.name)}'s units this week, age ${esc(fmtYears(L.age))}${L.budget.label ? ` (${esc(L.budget.label)})` : ''}: every unit in progress, and each track's unit due at this age (the first unfinished one if behind). Hours a week are each unit's estimated core work spread evenly over its ages: ${WEEKS} school weeks a year, and ${weeksFor('sunday')} Sundays. See <a href="hours.html">School Hours</a> for the yearly budgets.</p>
+      <div class="wl-tiles">${tiles}</div>
+      ${sections || '<p class="empty">No units with an estimate are due now.</p>'}
+      ${family}
+    </div>`;
+  }
 
   // ---------- next assignments ----------
   function unitCard(item, cid) {
@@ -95,6 +171,7 @@
     const ready = items.filter((i) => i.status !== 'active');
     return `
       <p class="desc"><a href="exams.html">Exam planner →</a> projected dates for every exam ${esc(c.name)} is preparing for.</p>
+      ${c.birthdate && B ? `<p class="desc wl-line"><strong>This week:</strong> ${esc(loadLine(weeklyLoad(c)))}. <button type="button" class="linkish" data-goto-tab="load">Weekly load →</button></p>` : ''}
       <p class="desc">Age ${esc(fmtYears(S.age(c)))} · ${countStatus(c.id, 'done')} units completed · ${countStatus(c.id, 'active')} in progress · ${S.shelf(c.id).length} books on the shelf.
       Ready units are the next unit in each track whose prerequisites are complete and whose typical age is within a year of ${esc(c.name)}'s age.</p>
       <h2>In progress <small>(${active.length})</small></h2>
@@ -287,11 +364,17 @@
     if (tab === 'ahead') view.innerHTML = renderAhead();
     else if (!c)
       view.innerHTML = `<div class="panel-card"><h2>Welcome</h2><p>Add each of your children to track their progress through every track. You'll then see each child's next assignments, keep their Bookshelf of Knowledge, and get a Look Ahead list of the books to acquire.</p><button type="button" class="btn" onclick="document.getElementById('add-child-toggle').click()">+ Add your first child</button></div>`;
-    else view.innerHTML = tab === 'shelf' ? renderShelf(c) : tab === 'place' ? renderPlace(c) : renderNext(c);
+    else view.innerHTML = tab === 'shelf' ? renderShelf(c) : tab === 'place' ? renderPlace(c) : tab === 'load' ? renderLoad(c) : renderNext(c);
     if (!S.children().length) addForm.hidden = false;
   }
 
   view.addEventListener('click', (e) => {
+    const go = e.target.closest('[data-goto-tab]');
+    if (go) {
+      tab = go.dataset.gotoTab;
+      history.replaceState(null, '', `#tab=${tab}`);
+      return render();
+    }
     const c = S.child(S.activeChild);
     const open = e.target.closest('[data-open]');
     if (open) {
