@@ -47,6 +47,7 @@ rows:
     type: unit
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 6.5
     ageEnd: 9
     order: 2
@@ -104,6 +105,7 @@ rows:
     type: unit
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 7
     ageEnd: 12
     order: 3
@@ -172,6 +174,7 @@ rows:
     type: unit
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 7.5
     ageEnd: 10
     order: 4
@@ -220,6 +223,7 @@ rows:
     type: unit
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 8
     ageEnd: 11
     order: 5
@@ -305,6 +309,7 @@ rows:
     type: unit
     level: early-5
     stage: formal
+    day: saturday
     ageStart: 9.5
     ageEnd: 13
     order: 7
@@ -395,8 +400,9 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    day: saturday
     ageStart: 10
-    ageEnd: 13
+    ageEnd: 15
     order: 8
     prerequisites: [practical-arts-02]
     related: [natural-science-02, natural-science-09]
@@ -451,6 +457,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    day: saturday
     ageStart: 11
     ageEnd: 14
     order: 9
@@ -515,6 +522,7 @@ rows:
     type: course
     level: 6-8
     stage: formal
+    day: saturday
     ageStart: 11.5
     ageEnd: 15
     order: 10
@@ -598,6 +606,9 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    elective: true
+    electiveNote: >-
+      Bookkeeping basics are core in economics-05.
     ageStart: 12.5
     ageEnd: 14
     order: 12
@@ -666,14 +677,14 @@ rows:
     ageStart: 13
     ageEnd: 16
     order: 13
-    prerequisites: [practical-arts-12]
+    prerequisites: [practical-arts-06]
     related: [economics-05, economics-06, civics-law-07]
     summary: >-
       The student starts and runs a real business for at least a year, such as lawn care, tutoring,
       woodworking commissions, eggs and produce, or web design. He writes a business plan, prices his
       work, finds customers, keeps double-entry books, files any required paperwork and taxes, and reports
       to a family board. He reads Franklin's Autobiography as the story of an apprentice who became a
-      master, and he forms a Junto of peers that meets monthly to discuss its standing queries.
+      master, and he forms a Junto of peers that meets through the year to discuss its standing queries.
     objectives:
       - Write a one-page business plan with costs, pricing, market and break-even point
       - Operate a business for 12 months with books, invoices and a year-end profit and loss statement
@@ -683,10 +694,12 @@ rows:
       readingHours: 9
       readingBasis: "183 pp: Franklin's Autobiography and the Junto queries at ~20 pp/h"
       work:
-        - { kind: practice, hours: 150, note: "running the business for 12 months or more, ~50 wk x 3 h, incl. quotes, contracts, complaints and collections" }
-        - { kind: exercises, hours: 25, note: "double-entry books and invoices for the business, ~50 wk x 30 min" }
+        - { kind: practice, hours: 48, note: "one full 12-month enterprise cycle from launch to year-end close, ~48 wk x 1 h, incl. quotes, contracts, complaints and collections" }
+        - { kind: exercises, hours: 12, note: "double-entry books and invoices for the business, ~48 wk x 15 min" }
         - { kind: writing, hours: 10, note: "one-page business plan with break-even, reports to the family board, and a year-end P&L" }
-        - { kind: discussion, hours: 35, note: "monthly Junto meetings on the standing queries, ~24 x 1.5 h" }
+        - { kind: discussion, hours: 12, note: "Junto meetings on the standing queries, 8 x 1.5 h" }
+      electiveHours: 138
+      electiveBasis: "further business hours beyond the core cycle, up to ~3 h a week and past the first year (~102 h), fuller bookkeeping (~13 h) and 16 further Junto meetings (~23 h)"
     coreTexts:
       - title: Autobiography of Benjamin Franklin
         kind: primary
@@ -728,6 +741,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    day: saturday
     ageStart: 13.5
     ageEnd: 16
     order: 14
@@ -799,8 +813,10 @@ rows:
       readingHours: 2
       readingBasis: "Palladio's Book I on the orders has no page count listed: ~30 pp of Ware's text (the book is mostly plates) at ~15 pp/h"
       work:
-        - { kind: exercises, hours: 50, note: "hand drafting then CAD (orthographic, isometric, sections, dimensioning), ~40 x 1 h, plus the five orders drawn in proportion, 5 x 2 h" }
-        - { kind: project, hours: 35, note: "a measured drawing of a real building or room (~12 h) and a capstone set of plans, elevations and materials list for a small building (~23 h)" }
+        - { kind: exercises, hours: 30, note: "hand drafting then CAD (orthographic, isometric, sections, dimensioning), ~20 x 1 h, plus the five orders drawn in proportion, 5 x 2 h" }
+        - { kind: project, hours: 18, note: "a measured drawing of a room (~6 h) and a capstone set of plans, elevations and materials list for a small building such as a shed (~12 h)" }
+      electiveHours: 37
+      electiveBasis: "20 further drafting and CAD sessions (~20 h), a measured drawing of a whole building (~6 h) and a fuller capstone set of drawings (~11 h)"
     coreTexts:
       - title: "The Four Books of Architecture (Isaac Ware trans.)"
         kind: primary
@@ -829,6 +845,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
+    day: saturday
     ageStart: 15
     ageEnd: 16.5
     order: 16
@@ -903,21 +920,23 @@ rows:
     related: [character-virtue-10, civics-law-14]
     summary: >-
       The student serves the community and learns a profession under a master, as the founders did.
-      Service means sustained volunteering (at least 100 hours a year) in a parish or civic organization,
+      Service means sustained volunteering (at least 60 hours a year) in a parish or civic organization,
       a hospital, a fire company, or Civil Air Patrol cadets. Apprenticeship means a structured, supervised
       placement with professionals in law, medicine, engineering, a skilled trade, business or
       government, where the student keeps a work journal, is evaluated, and asks for a letter of
       reference. Two placements in different fields are ideal.
     objectives:
-      - Complete 100+ hours of documented community service per year with one organization
+      - Complete 60+ hours of documented community service per year with one organization
       - Complete at least one 6–12-week supervised placement with a professional mentor
       - Keep a daily work journal and write a reflective report on the profession
       - Earn a written evaluation and letter of reference from the mentor
     workload:
       readingHours: 0
       work:
-        - { kind: practice, hours: 370, note: "100+ documented service hours a year x 2.5 yr (250 h) plus one 6–12-week professional placement, ~8 wk x 15 h (120 h)" }
-        - { kind: writing, hours: 18, note: "daily work journal during the placement, ~40 x 15 min, and a reflective report on the profession (~8 h)" }
+        - { kind: practice, hours: 240, note: "60 documented service hours a year x 2.5 yr (150 h) plus one 6-week professional placement, 6 wk x 15 h (90 h)" }
+        - { kind: writing, hours: 14, note: "daily work journal during the placement, ~30 x 15 min (~7 h), and a reflective report on the profession (~7 h)" }
+      electiveHours: 134
+      electiveBasis: "further service up to 100 or more hours a year (~100 h), a longer placement or a second placement in another field (~30 h) and a fuller work journal (~4 h)"
     coreTexts:
       - title: Autobiography of Benjamin Franklin
         kind: primary
@@ -952,10 +971,11 @@ rows:
     type: course
     level: college
     stage: formal
+    day: saturday
     ageStart: 17
     ageEnd: 18
     order: 18
-    prerequisites: [practical-arts-12, practical-arts-16]
+    prerequisites: [practical-arts-06, practical-arts-16]
     related: [economics-10, character-virtue-08]
     summary: >-
       The capstone of the founder skills: managing a household, and eventually an estate, business or

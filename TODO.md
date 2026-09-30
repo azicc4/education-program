@@ -49,6 +49,8 @@ and has a page count where one is known.
 - [ ] A few shortened units keep whole novels an objective asks for, so their cut fell on seminars: literature-23 (12
   seminars, 8 h left for its research essay), literature-25 and literature-30. Consider making Hardy or 1984 elective
   instead and rewording the objective.
+- [ ] social-science-02 (Introduction to Psychology) now has 59 core hours, thin for a full AP/CLEP course; 70–80 h
+  would suit its "master the content" objective if grade 9 can take it (weekday load there is at 99%).
 - [x] Link check rerun (2,395 URLs: 2,294 OK, 34 flagged, 67 bot-blocked). Fixed: the AASM sleep paper (now on PMC), the Tracker tool (new site), and the dead Cambiata link (removed). The other flags were transient or bot walls (Green Lion, Cengage, IMSLP, ABRSM, Archive.org timeouts, vatican.va), all rechecked OK.
 - [x] Cross-track links wired: 73 pairs total; 372 of 462 units link to related units.
 - [x] Thin curriculum options filled on 36 rows: Catholic Latin (MODG, Kolbe, OLVS, Seton Henle, CLAA, Homeschool Connections, TAN Scanlon), Catholic math and civics, product-level Veritas and CC links, the Adoremus hymnal and Liturgy of the Hours for poetry-06, and the Catholic Literary Arts youth contest for poetry-13. All Seton links load.
