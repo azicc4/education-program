@@ -39,6 +39,7 @@ The website is in `docs/` and has three views:
   - Mark units started or completed. This also works from any unit's detail panel.
   - Log **time spent** per child in any unit's detail panel: minutes of reading, discussing and writing for each book; per lesson for textbooks (reading, exercises) and language books (learning, practicing, studying), with one total per book. Curriculum programs can be tracked the same way.
   - Keep **"Name's Bookshelf of Knowledge"**: completed units add the texts actually read (not electives, reference works, or the other options of a "choose one" group), any other book can be added with **+ Add a book**, and the shelf sorts by subject, date finished, title or author. The demo family comes with full shelves.
+  - See each child's **Weekly load**: the hours a week of every unit they are on now (in progress, due at their age, or behind), split into weekday academics, Saturday and Sunday, each against the budget for their grade, with a family overview. Next assignments shows the same totals in one line.
   - Use **Look Ahead** to get a combined shopping list of the texts every child will need in the next 3, 6 or 12 months, with an "acquired" checklist and filters to hide acquired, missing, free or paid texts.
 
   Progress is saved in the browser you use. Use **Export backup** and **Import backup** to keep a copy or move to another device.
