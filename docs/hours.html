@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Exams · Formation Program</title>
-  <meta name="description" content="The AP, CLT, admissions, national and olympiad exams the program prepares for by 18, with a planner for each child.">
+  <title>School Hours · Formation Program</title>
+  <meta name="description" content="The yearly hour budget for each grade (weekday academics, Saturday activities, Sunday theology) against the core and elective work the curriculum assigns.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -19,29 +19,31 @@
         <a href="sources.html">Sources</a>
         <a href="tree.html">Skill Tree</a>
         <a href="radial.html">Radial Tree</a>
-        <a href="hours.html">School Hours</a>
+        <a href="hours.html" aria-current="page">School Hours</a>
         <a href="founding.html">Founding-Era Reading</a>
-        <a href="exams.html" aria-current="page">Exams</a>
+        <a href="exams.html">Exams</a>
         <a href="family.html">Family Progress</a>
       </nav>
       <button type="button" class="theme-toggle">☾ Dark</button>
     </div>
   </header>
 
-  <main>
+  <main class="hours">
     <p class="intro">
-      These are the exams the program prepares for by age 18: AP courses (science and math follow the AP curriculum), the Classic Learning Test,
-      admissions tests, national language exams, and olympiads. Exams are taken as each course finishes. Choose a child to see projected exam dates
-      and how far they are through the preparing units. Homeschooled students must arrange a test site. Read each exam's registration notes early,
-      because AP registration closes in the fall.
+      Each school year has three budgets. Academics run Monday to Friday, within a yearly budget of the regular school hours for
+      that grade times a multiplier. Saturdays hold outdoor skills, riding and shooting, sailing, handcrafts and home arts. Sundays
+      hold Scripture, the lives of the saints and spiritual reading. The core units of each year fit these budgets; elective units
+      and the elective parts of core units are extra, taken as time and interest allow.
     </p>
-    <div class="filters" id="exam-filters"></div>
-    <div id="exam-list" class="exam-list"></div>
+    <div id="hours-budget"></div>
+    <div id="hours-charts"></div>
+    <div id="hours-grade"></div>
+    <div id="hours-notes"></div>
   </main>
 
   <script src="data/curriculum.js"></script>
   <script src="assets/store.js"></script>
   <script src="assets/common.js"></script>
-  <script src="assets/exams.js"></script>
+  <script src="assets/hours.js"></script>
 </body>
 </html>

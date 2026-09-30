@@ -49,7 +49,7 @@
           <td class="age">${esc(ageLabel(r))}</td>
           <td class="level">${levelBadge(r.level)}</td>
           <td class="track">${esc(trackTitle(r.track))}<small>${esc(r.trackGroup)}</small></td>
-          <td><div class="title">${esc(r.title)} ${statusBadge(window.Store?.status(window.Store.activeChild, r.id))}</div><div class="summary">${esc(r.summary)}</div></td>
+          <td><div class="title">${esc(r.title)} ${window.App.unitBadges(r)}${statusBadge(window.Store?.status(window.Store.activeChild, r.id))}</div><div class="summary">${esc(r.summary)}</div></td>
           <td class="texts">${esc(texts)}${(r.coreTexts || []).length > 3 ? ' …' : ''}</td>
         </tr>`;
       })

@@ -193,6 +193,8 @@
     const byId = Object.fromEntries(DATA.rows.map((r) => [r.id, r]));
     const done = (cid, id) => Store.status(cid, id) === 'done';
     const prereqsMet = (cid, r, extra) => (r.prerequisites || []).every((p) => done(cid, p) || extra?.has(p) || !byId[p]);
+    // elective units are never assumed: they join a child's path only once started or finished
+    const expected = (cid, r) => !r.elective || !!Store.status(cid, r.id);
 
     // Next assignments: per track, the in-progress units plus the earliest unlocked unit within a year of the child's age.
     function next(cid) {
@@ -203,7 +205,7 @@
         const rows = DATA.rows.filter((r) => r.track === t.id).sort((a, b) => a.order - b.order);
         const active = rows.filter((r) => Store.status(cid, r.id) === 'active');
         const ready = rows
-          .filter((r) => !Store.status(cid, r.id) && prereqsMet(cid, r) && r.ageStart <= age + 1)
+          .filter((r) => !Store.status(cid, r.id) && !r.elective && prereqsMet(cid, r) && r.ageStart <= age + 1)
           .filter((r) => !Store.rowSeason(r) || Store.inSeason(r)) // seasonal rows only surface in their season
           .sort((a, b) => Store.inSeason(b) - Store.inSeason(a));
         // extracurricular strands run in parallel, so every ready one shows; academic tracks show the next one
@@ -228,7 +230,7 @@
       while (grew) {
         grew = false;
         for (const r of DATA.rows) {
-          if (set.has(r.id) || Store.status(cid, r.id)) continue;
+          if (set.has(r.id) || Store.status(cid, r.id) || !expected(cid, r)) continue;
           if (r.ageStart <= horizon && prereqsMet(cid, r, set)) {
             set.add(r.id);
             grew = true;
@@ -241,7 +243,7 @@
     // Place a child in a track: mark every unit before `rowId` (and its prerequisite chain) done.
     function placeAt(cid, trackId, rowId) {
       const target = byId[rowId];
-      const ids = new Set(DATA.rows.filter((r) => r.track === trackId && r.order < target.order).map((r) => r.id));
+      const ids = new Set(DATA.rows.filter((r) => r.track === trackId && r.order < target.order && !r.elective).map((r) => r.id));
       const stack = [...(target.prerequisites || [])];
       while (stack.length) {
         const id = stack.pop();
@@ -252,11 +254,11 @@
       Store.markDone(cid, [...ids]);
     }
 
-    // Initial placement by age: everything that ends before the child's current age.
+    // Initial placement by age: every core unit that ends before the child's current age.
     function placeByAge(cid) {
       const age = Store.age(Store.child(cid));
       if (age == null) return 0;
-      const ids = DATA.rows.filter((r) => r.ageEnd <= age).map((r) => r.id);
+      const ids = DATA.rows.filter((r) => r.ageEnd <= age && !r.elective).map((r) => r.id);
       Store.markDone(cid, ids);
       return ids.length;
     }
