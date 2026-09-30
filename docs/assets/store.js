@@ -2,7 +2,7 @@
 // Everything lives in this browser's localStorage; export/import moves it between devices.
 (function () {
   const KEY = 'formation.family.v1';
-  const empty = () => ({ version: 1, children: [], progress: {}, shelf: {}, acquired: {}, activeChild: '' });
+  const empty = () => ({ version: 1, children: [], progress: {}, shelf: {}, acquired: {}, time: {}, programs: {}, activeChild: '' });
   let memoryOnly = false;
   let state = load();
   const listeners = new Set();
@@ -69,6 +69,8 @@
       state.children = state.children.filter((c) => c.id !== id);
       delete state.progress[id];
       delete state.shelf[id];
+      delete state.time[id];
+      delete state.programs[id];
       if (state.activeChild === id) state.activeChild = state.children[0]?.id || '';
       save();
     },
@@ -132,6 +134,35 @@
     },
     removeBook(childId, bookId) {
       state.shelf[childId] = (state.shelf[childId] || []).filter((b) => b.id !== bookId && b.key !== bookId);
+      save();
+    },
+
+    // ---------- time spent, per child, unit and item (a text, or a curriculum program) ----------
+    // entries: { d: 'YYYY-MM-DD', a: activity, m: minutes, l: lesson number (textbooks and language books) }
+    timeLog: (childId, rowId, item) => state.time[childId]?.[rowId]?.[item] || [],
+    timeItems: (childId, rowId) => state.time[childId]?.[rowId] || {},
+    logTime(childId, rowId, item, { activity, minutes, lesson = null, date = today() }) {
+      const m = Math.round(+minutes);
+      if (!(m > 0) || !activity) return false;
+      const unit = ((state.time[childId] ||= {})[rowId] ||= {});
+      (unit[item] ||= []).push(lesson ? { d: date, a: activity, m, l: +lesson } : { d: date, a: activity, m });
+      save();
+      return true;
+    },
+    removeTime(childId, rowId, item, index) {
+      const list = state.time[childId]?.[rowId]?.[item];
+      if (!list || !list[index]) return;
+      list.splice(index, 1);
+      if (!list.length) delete state.time[childId][rowId][item];
+      save();
+    },
+    // curriculum programs a child is working through in a unit (tracked like textbooks)
+    programs: (childId, rowId) => state.programs[childId]?.[rowId] || [],
+    setProgram(childId, rowId, name, on) {
+      const unit = ((state.programs[childId] ||= {})[rowId] ||= []);
+      const i = unit.indexOf(name);
+      if (on && i < 0) unit.push(name);
+      if (!on && i >= 0) unit.splice(i, 1);
       save();
     },
 

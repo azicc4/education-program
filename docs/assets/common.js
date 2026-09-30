@@ -269,6 +269,93 @@
       <p class="by">Estimates for a typical student, as totals for the whole unit (${esc(ageLabel(r))}); how they spread across the school year is set separately.</p></div>`;
   }
 
+
+  // ---------- time spent: logged per child, per text or program, and per lesson for textbooks and language books ----------
+  const LANGUAGE_TRACKS = new Set(['latin', 'greek', 'hebrew', 'spanish', 'chinese', 'old-english']);
+  const ACTIVITIES = {
+    book: [['reading', 'Reading'], ['discussion', 'Discussing'], ['writing', 'Writing']],
+    textbook: [['reading', 'Reading'], ['exercises', 'Exercises']],
+    language: [['learning', 'Learning'], ['practice', 'Practicing'], ['study', 'Studying']],
+  };
+  const TYPE_LABEL = { book: 'Book', textbook: 'Textbook', language: 'Language book' };
+  const fmtMin = (m) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ` ${m % 60} min` : ''}`);
+  const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  let timeChild = '';
+
+  function timeItems(r, cid) {
+    const S = window.Store;
+    const bundle = LANGUAGE_TRACKS.has(r.track) ? 'language' : 'textbook';
+    const items = (r.coreTexts || []).map((t) => ({
+      key: `t:${S.textKey(t)}`, title: cleanTitle(t), by: t.author, type: t.kind === 'instructional' ? bundle : 'book', lessons: t.lessons, label: t.lessonLabel || 'lesson',
+    }));
+    for (const name of S.programs(cid, r.id)) {
+      const o = (r.curriculumOptions || []).find((x) => x.name === name);
+      if (o) items.push({ key: `p:${name}`, title: name, by: o.publisher, type: bundle, lessons: o.lessons, label: o.lessonLabel || 'lesson', program: true });
+    }
+    return items;
+  }
+
+  function timeItemHtml(r, cid, it) {
+    const S = window.Store;
+    const log = S.timeLog(cid, r.id, it.key);
+    const acts = ACTIVITIES[it.type];
+    const total = log.reduce((n, e) => n + e.m, 0);
+    const byAct = acts.map(([k, l]) => [l, log.filter((e) => e.a === k).reduce((n, e) => n + e.m, 0)]).filter(([, m]) => m);
+    const isBundle = it.type !== 'book';
+    const lessonsLogged = isBundle ? [...new Set(log.filter((e) => e.l).map((e) => e.l))].sort((a, b) => a - b) : [];
+    const kind = `${TYPE_LABEL[it.type]}${isBundle && it.lessons ? ` · ${it.lessons} ${it.label}s` : ''}${it.program ? ' · program' : ''}`;
+    const lessonField = !isBundle
+      ? ''
+      : it.lessons
+        ? `<select name="l" aria-label="${esc(cap(it.label))}">${Array.from({ length: it.lessons }, (_, i) => `<option value="${i + 1}">${esc(cap(it.label))} ${i + 1}${lessonsLogged.includes(i + 1) ? ' ✓' : ''}</option>`).join('')}</select>`
+        : `<input name="l" type="number" min="1" inputmode="numeric" placeholder="${esc(cap(it.label))} #" aria-label="${esc(cap(it.label))} number" class="ti-lnum">`;
+    const byLesson = isBundle && lessonsLogged.length
+      ? `<details class="ti-by"><summary>By ${esc(it.label)} (${lessonsLogged.length}${it.lessons ? ` of ${it.lessons}` : ''})</summary><table><thead><tr><th>${esc(cap(it.label))}</th>${acts.map(([, l]) => `<th>${esc(l)}</th>`).join('')}<th>Total</th></tr></thead><tbody>${lessonsLogged
+          .map((n) => {
+            const es = log.filter((e) => e.l === n);
+            return `<tr><td>${n}</td>${acts.map(([k]) => `<td>${(() => { const m = es.filter((e) => e.a === k).reduce((x, e) => x + e.m, 0); return m ? fmtMin(m) : ''; })()}</td>`).join('')}<td>${fmtMin(es.reduce((x, e) => x + e.m, 0))}</td></tr>`;
+          })
+          .join('')}</tbody></table></details>`
+      : '';
+    return `<div class="time-item">
+      <div class="ti-head"><span class="ti-title"><strong>${esc(it.title)}</strong>${it.by ? ` <span class="by">— ${esc(it.by)}</span>` : ''}</span><span class="ti-total">${total ? fmtMin(total) : '—'}</span></div>
+      <div class="ti-meta"><span class="badge ti-kind">${esc(kind)}</span>${byAct.length ? byAct.map(([l, m]) => `<span>${esc(l)} ${fmtMin(m)}</span>`).join('') : '<span class="by">No time logged yet</span>'}${isBundle && it.lessons ? `<span>${lessonsLogged.length} of ${it.lessons} ${esc(it.label)}s logged</span>` : ''}${it.program ? `<button type="button" class="linkish" data-untrack="${esc(it.title)}">Stop tracking</button>` : ''}</div>
+      <form class="ti-add" data-add="${esc(it.key)}" data-type="${it.type}">
+        ${lessonField}
+        <select name="a" aria-label="Activity">${acts.map(([k, l]) => `<option value="${k}">${esc(l)}</option>`).join('')}</select>
+        <input name="m" type="number" min="1" max="1440" inputmode="numeric" placeholder="minutes" aria-label="Minutes spent" required>
+        <button type="submit" class="chip">Add</button>
+      </form>
+      ${byLesson}
+      ${log.length ? `<details class="ti-log"><summary>Entries (${log.length})</summary><ul>${log
+        .map((e, i) => ({ e, i }))
+        .reverse()
+        .map(({ e, i }) => `<li>${esc(e.d)} · ${e.l ? `${esc(cap(it.label))} ${e.l} · ` : ''}${esc((acts.find(([k]) => k === e.a) || [, e.a])[1])} · ${fmtMin(e.m)} <button type="button" class="ti-del" data-del="${esc(it.key)}|${i}" aria-label="Remove this entry">×</button></li>`)
+        .join('')}</ul></details>` : ''}
+    </div>`;
+  }
+
+  function timeSection(r) {
+    const S = window.Store;
+    const kids = S?.children() || [];
+    if (!kids.length) return '';
+    if (!kids.some((c) => c.id === timeChild)) timeChild = kids.some((c) => c.id === S.activeChild) ? S.activeChild : kids[0].id;
+    const c = S.child(timeChild);
+    const items = timeItems(r, c.id);
+    const all = Object.values(S.timeItems(c.id, r.id)).flat();
+    const total = all.reduce((n, e) => n + e.m, 0);
+    const est = workloadTotal(r);
+    const tracked = new Set(S.programs(c.id, r.id));
+    const untracked = (r.curriculumOptions || []).filter((o) => !tracked.has(o.name));
+    return `<h3>Time spent</h3>
+      <div class="time-sec">
+        ${kids.length > 1 ? `<div class="chips" role="group" aria-label="Child">${kids.map((k) => `<button type="button" class="chip" data-time-child="${esc(k.id)}" aria-pressed="${k.id === c.id}">${esc(k.name)}</button>`).join('')}</div>` : ''}
+        <p class="time-sum"><strong>${esc(c.name)}: ${total ? fmtMin(total) : 'nothing'} logged</strong> in this unit${est ? `, of about ${Math.round(est)} h estimated` : ''}. Type the minutes spent and choose the activity; each entry is dated today.</p>
+        ${items.length ? items.map((it) => timeItemHtml(r, c.id, it)).join('') : '<p class="desc">This unit has no listed texts. Track the curriculum program you use below.</p>'}
+        ${untracked.length ? `<label class="time-prog">Track a curriculum program <select data-track-program><option value="">Choose…</option>${untracked.map((o) => `<option value="${esc(o.name)}">${esc(o.name)}${o.lessons ? ` (${o.lessons} ${esc(o.lessonLabel || 'lesson')}s)` : ''}</option>`).join('')}</select></label>` : ''}
+      </div>`;
+  }
+
   // ---------- whose progress a view shows: family children, then demo children not loaded into the family ----------
   const quarterAge = (a) => (Math.floor(a * 4) / 4).toFixed(2);
   function childOptions() {
@@ -433,7 +520,43 @@
       if (cb.checked) window.Store.addBook(cid, { ...t, rowId: r.id, track: r.track });
       else window.Store.removeBook(cid, window.Store.textKey(t));
     });
+    const rerender = (focusSel) => {
+      const top = panel.scrollTop;
+      showDetail(currentRow, onNavigate);
+      panel.scrollTop = top;
+      if (focusSel) panel.querySelector(focusSel)?.focus();
+    };
+    panel.addEventListener('submit', (e) => {
+      const f = e.target.closest('form[data-add]');
+      if (!f) return;
+      e.preventDefault();
+      const d = new FormData(f);
+      const ok = window.Store.logTime(timeChild, currentRow, f.dataset.add, { activity: d.get('a'), minutes: d.get('m'), lesson: d.get('l') || null });
+      if (ok) rerender(`form[data-add="${CSS.escape(f.dataset.add)}"] input[name="m"]`);
+    });
+    panel.addEventListener('change', (e) => {
+      const sel = e.target.closest('[data-track-program]');
+      if (!sel || !sel.value) return;
+      window.Store.setProgram(timeChild, currentRow, sel.value, true);
+      rerender();
+    });
     panel.addEventListener('click', (e) => {
+      const del = e.target.closest('[data-del]');
+      if (del) {
+        const i = del.dataset.del.lastIndexOf('|');
+        window.Store.removeTime(timeChild, currentRow, del.dataset.del.slice(0, i), +del.dataset.del.slice(i + 1));
+        return rerender();
+      }
+      const tc = e.target.closest('[data-time-child]');
+      if (tc) {
+        timeChild = tc.dataset.timeChild;
+        return rerender();
+      }
+      const un = e.target.closest('[data-untrack]');
+      if (un) {
+        window.Store.setProgram(timeChild, currentRow, un.dataset.untrack, false);
+        return rerender();
+      }
       const sb = e.target.closest('[data-status]');
       if (sb) {
         const [cid, st] = sb.dataset.status.split('|');
@@ -480,6 +603,7 @@
       <h2 id="detail-title">${esc(r.title)}</h2>
       <p>${esc(r.summary)}</p>
       ${progressSection(r)}
+      ${timeSection(r)}
       ${r.objectives?.length ? `<h3>Objectives</h3><ul>${r.objectives.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
       ${workloadHtml(r)}
       ${

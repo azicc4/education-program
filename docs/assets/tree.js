@@ -254,6 +254,11 @@
     const card = (r) => {
       const ph = phase(r);
       const texts = (r.coreTexts || []).length;
+      // a finished unit only needs its title, level, status, texts and hours
+      if (ph === 'done') {
+        const meta = [levelBadge(r.level), '<span class="pill ph-done">✓ Done</span>', texts ? `<span>${texts} text${texts === 1 ? '' : 's'}</span>` : '', r.workload ? `<span title="Estimated total reading and work for the unit">${hoursLabel(window.App.workloadTotal(r))}</span>` : ''].filter(Boolean).join('');
+        return `<button type="button" class="lcard lcard-done ph-done${match.has(r.id) ? '' : ' dim'}${r.id === state.row ? ' selected' : ''}" data-id="${esc(r.id)}"><span class="lcard-title">${esc(r.title)}</span><span class="lcard-meta">${meta}</span></button>`;
+      }
       const meta = [levelBadge(r.level), `<span class="pill ph-${ph}">${PHASE[ph]}</span>`, texts ? `<span>${texts} text${texts === 1 ? '' : 's'}</span>` : '', r.workload ? `<span title="Estimated total reading and work for the unit">${hoursLabel(window.App.workloadTotal(r))}</span>` : ''].filter(Boolean).join('');
       return `<button type="button" class="lcard ph-${ph}${match.has(r.id) ? '' : ' dim'}${r.id === state.row ? ' selected' : ''}" data-id="${esc(r.id)}">
         <span class="lcard-age">${esc(ageLabel(r))}</span>

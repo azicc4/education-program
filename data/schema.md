@@ -72,6 +72,9 @@ rows:
         readPages: 120       # optional, with role: selections — pages actually assigned
         pace: long           # optional: long = read slowly across the whole unit (textbooks, long treatises), not in one stretch
         reviewOf: spanish-07 # optional, with role: review — the unit where it was first read
+        lessons: 30          # optional, textbooks, grammars and language books: number of lessons (or chapters…)
+        lessonLabel: lesson  # optional: lesson (default) | chapter | unit | week | section | day
+        lessonsNote: "publisher's table of contents"   # where the count comes from
         links:
           - { label: Archive.org, url: "https://archive.org/details/..." }
     workload:                # estimated total effort for the whole unit, for formal academic units
@@ -87,6 +90,7 @@ rows:
         tradition: classical  # catholic | protestant | secular | classical
         url: "https://www.memoriapress.com/..."
         notes: Short note on fit / tradeoffs.
+        lessons: 25          # optional, as for texts: a program's lessons, with lessonLabel and lessonsNote
     historicalPrecedent: >-
       Optional: how this was done historically (e.g. "Boston Latin School, 1789: boys began
       Cheever's Accidence at age 7–8"). Cite a primary source in `sources` if possible.
