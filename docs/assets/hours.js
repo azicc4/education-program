@@ -46,7 +46,7 @@
 
   // ---------- the budgets ----------
   const bands = (B.weekday || [])
-    .map((b) => `<tr><td>${esc(b.grades === 'K' ? 'Kindergarten' : `Grades ${b.grades}`)}</td><td>${n(b.regularHours)} h${cite(b.source)}</td><td>× ${b.multiplier}</td><td><strong>${n(b.regularHours * b.multiplier)} h</strong></td></tr>`)
+    .map((b) => `<tr><td>${esc(b.grades === 'K' ? 'Kindergarten' : `Grades ${b.grades}`)}</td><td>${n(b.regularHours)} h${cite(b.source)}</td><td>× ${b.multiplier}${b.precedent ? cite(b.precedent) : ''}</td><td><strong>${n(b.regularHours * b.multiplier)} h</strong></td></tr>`)
     .join('');
   $('hours-budget').innerHTML = `
     <section class="panel-card hours-budget">

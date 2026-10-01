@@ -135,8 +135,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.75
-    ageEnd: 15
+    ageStart: 16
+    ageEnd: 16.25
     order: 2
     prerequisites: [social-science-01]
     related: [natural-science-11, biology-01, philosophy-09, rhetoric-11]
@@ -278,8 +278,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 15.25
-    ageEnd: 15.5
+    ageStart: 16.25
+    ageEnd: 16.5
     order: 3
     prerequisites: [social-science-02]
     related: [mathematics-16, logic-02, natural-science-18, logic-08]
@@ -391,8 +391,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 15.75
+    ageStart: 16.5
+    ageEnd: 16.75
     order: 4
     prerequisites: [social-science-02, social-science-03]
     related: [logic-02, mathematics-16, economics-10, rhetoric-07]
@@ -486,8 +486,8 @@ rows:
     electiveNote: >-
       Elective topic. The core social science keeps psychology, research methods, judgment and
       decision, sociology, and media and the mind.
-    ageStart: 15.25
-    ageEnd: 16.25
+    ageStart: 16.5
+    ageEnd: 17.5
     order: 5
     prerequisites: [social-science-02, social-science-03]
     related: [early-development-12, early-development-20, grammar-composition-07, philosophy-11]
@@ -628,8 +628,8 @@ rows:
     electiveNote: >-
       Elective topic. The core social science keeps psychology, research methods, judgment and
       decision, sociology, and media and the mind.
-    ageStart: 15.5
-    ageEnd: 16
+    ageStart: 16.75
+    ageEnd: 17.25
     order: 6
     prerequisites: [social-science-03, social-science-04]
     related: [rhetoric-07, character-virtue-12, history-26, philosophy-07]
@@ -731,8 +731,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.75
-    ageEnd: 16
+    ageStart: 16.75
+    ageEnd: 17
     order: 7
     prerequisites: [social-science-03]
     related: [civics-law-12, civics-law-15, economics-07, philosophy-10, civics-law-01]
@@ -884,8 +884,8 @@ rows:
     electiveNote: >-
       Elective topic. The core social science keeps psychology, research methods, judgment and
       decision, sociology, and media and the mind.
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 16.5
+    ageEnd: 17
     order: 8
     prerequisites: [social-science-02, social-science-03]
     related: [theology-17, character-virtue-09, history-26]
@@ -988,8 +988,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 16.25
-    ageEnd: 16.5
+    ageStart: 17
+    ageEnd: 17.25
     order: 9
     prerequisites: [social-science-03]
     related: [early-development-07, early-development-15, literature-25, rhetoric-07]
@@ -1098,8 +1098,8 @@ rows:
     electiveNote: >-
       Elective topic. The core social science keeps psychology, research methods, judgment and
       decision, sociology, and media and the mind.
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 17
+    ageEnd: 17.5
     order: 10
     prerequisites: [social-science-07]
     related: [history-19, history-28, theology-23]

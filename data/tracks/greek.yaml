@@ -490,12 +490,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    elective: true
-    electiveNote: >-
-      The core Greek path reads the New Testament and Homer; Xenophon is read in translation in
-      history-08.
-    ageStart: 14.25
-    ageEnd: 15.25
+    ageStart: 14.5
+    ageEnd: 15
     order: 8
     prerequisites: [greek-04, greek-07]
     related: [latin-07]
@@ -537,26 +533,30 @@ rows:
       - { label: "Jefferson to Peter Carr, 19 Aug 1785 (Wikisource)", url: "https://en.wikisource.org/wiki/Letter_to_Peter_Carr_-_August_19,_1785" }
 
   - id: greek-09
-    title: "Koine Reading II: Luke–Acts"
+    title: "Koine Reading II: The Four Gospels and Acts"
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
-    ageEnd: 14.75
+    ageStart: 15
+    ageEnd: 15.5
     order: 9
     prerequisites: [greek-05]
     summary: >-
       Luke writes the most literary Koine in the New Testament. The Gospel of Luke and the Acts
       of the Apostles bridge Koine and classical style. Paul's Areopagus speech (Acts 17) and his
-      defences before Festus and Agrippa give rhetorical models.
+      defences before Festus and Agrippa give rhetorical models. Matthew and Mark are read through
+      as well, so the student has read the four Evangelists in Greek, as Princeton required for
+      admission in 1764.
     objectives:
       - Read Luke 1–2 and 15 and the Passion narrative in Greek
       - Read Acts 1–2, 9, 17 and 26–28 in Greek
       - Analyse the periodic prologue of Luke (1:1–4) as classical prose
+      - Read Matthew and Mark complete, and the rest of Luke, in Greek with a reader's lexicon
     workload:
       readingHours: 0
       work:
         - { kind: translation, hours: 20, note: "about 43 pp of Luke and Acts at ~2.5 pp/h (17 h), with the Lucan prologue analysed slowly (3 h)" }
+        - { kind: translation, hours: 70, note: "Matthew and Mark complete and the rest of Luke, about 165 pp read faster with a reader's lexicon, ~2.4 pp/h" }
         - { kind: discussion, hours: 5, note: "Paul's speeches as rhetorical models, 10 x 30 min" }
     coreTexts:
       - title: Gospel of Luke & Acts of the Apostles
@@ -571,6 +571,16 @@ rows:
           - { label: "Perseus, Luke", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Luke:chapter=1" }
           - { label: "Perseus, Acts", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Acts:chapter=1" }
           - { label: SBLGNT, url: "https://sblgnt.com/" }
+      - title: Gospels of Matthew & Mark
+        kind: primary
+        reader: student
+        pages: 120
+        author: St. Matthew and St. Mark
+        publicDomain: true
+        links:
+          - { label: "Perseus, Matthew", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Matthew:chapter=1" }
+          - { label: "Perseus, Mark", url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=Mark:chapter=1" }
+          - { label: SBLGNT, url: "https://sblgnt.com/" }
 
   - id: greek-10
     title: "Plato: Apology & Crito"
@@ -581,8 +591,8 @@ rows:
     electiveNote: >-
       The core Greek path reads the New Testament and Homer; the Apology and Crito are read in
       translation in philosophy-03.
-    ageStart: 14.25
-    ageEnd: 15.25
+    ageStart: 15
+    ageEnd: 16
     order: 10
     prerequisites: [greek-08]
     related: [philosophy-03]
@@ -631,8 +641,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.75
-    ageEnd: 16
+    ageStart: 15.5
+    ageEnd: 16.5
     order: 11
     prerequisites: [greek-04, greek-07]
     related: [latin-12, literature-16]
@@ -713,8 +723,8 @@ rows:
     electiveNote: >-
       The core Greek path reads the New Testament and Homer; Herodotus is read in translation in
       history-15.
-    ageStart: 15
-    ageEnd: 16
+    ageStart: 15.5
+    ageEnd: 16.5
     order: 12
     prerequisites: [greek-10]
     related: [history-15]
@@ -812,12 +822,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    elective: true
-    electiveNote: >-
-      The core Greek path reads the New Testament and Homer; the tragedians are read in
-      translation in literature-16.
-    ageStart: 16
-    ageEnd: 16.5
+    ageStart: 16.5
+    ageEnd: 17
     order: 14
     prerequisites: [greek-11]
     summary: >-
@@ -875,13 +881,10 @@ rows:
     type: course
     level: college
     stage: formal
-    elective: true
-    electiveNote: >-
-      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
     ageStart: 17
     ageEnd: 18
     order: 15
-    prerequisites: [greek-12, greek-14]
+    prerequisites: [greek-14, greek-11]
     related: [latin-17, history-15]
     summary: >-
       The hardest Attic prose and the core texts of political philosophy. Thucydides: the
