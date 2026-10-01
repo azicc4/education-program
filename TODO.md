@@ -38,6 +38,12 @@ and has a page count where one is known.
   with unit ids are in the PR description.
 - [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
   edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
+- [x] Saturday visual arts: sketching from life (12–15), formal book hands (13–15½), botanical illustration (14¾–16¾),
+  measured drawing of buildings (15–17) and manuscript illumination and gilding (15½–17½), with Architecture and the
+  Classical Orders core again; Saturdays now run at 69–86% from grade 6.
+- [ ] Links for the art units the site could not check by script: the Trinity College Dublin Book of Kells page
+  (CAPTCHA), the Met's Belles Heures page (rate-limited), HABS at the Library of Congress; the Thompson and Cennini
+  chapter references in fine-arts-15 are from memory.
 - [x] **Workload checked against precedent** (founding-era schools and colleges, AP college equivalents): grades 7–10
   already exceed the Latin grammar schools (Boston Latin about 31–37 h a week), so they are not raised; grades 11–12 rise
   from ×1.5 to ×2 to match the college years; Xenophon, Livy and Sallust, Latin Composition II, Attic tragedy, College
