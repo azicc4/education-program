@@ -144,6 +144,36 @@
     </div>`;
   }
 
+  // ---------- mastery: objectives mastered and examinations passed, with what needs review ----------
+  function renderMastery(c) {
+    const A = window.App;
+    const rows = DATA.rows.filter((r) => (r.objectives || []).length && S.status(c.id, r.id));
+    const done = rows.filter((r) => S.status(c.id, r.id) === 'done');
+    const active = rows.filter((r) => S.status(c.id, r.id) === 'active');
+    const m = (r) => A.masteryOf(c.id, r);
+    const objTotal = done.reduce((n, r) => n + m(r).total, 0);
+    const objDone = done.reduce((n, r) => n + m(r).done, 0);
+    const review = done.filter((r) => !m(r).full);
+    const ready = active.filter((r) => m(r).done === m(r).total && !m(r).exam);
+    const pct = objTotal ? Math.round((100 * objDone) / objTotal) : 0;
+    const table = (list, extra) => `<div class="table-wrap"><table class="wl-table"><thead><tr><th>Unit</th><th>Track</th><th class="num">Objectives</th><th>Examination</th>${extra ? '<th>How it is examined</th>' : ''}</tr></thead><tbody>${list
+      .map((r) => { const x = m(r), mode = A.examMode(r); return `<tr><td><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button></td><td>${esc(trackTitle(r.track))}</td><td class="num">${x.done} / ${x.total}</td><td>${x.exam ? `✓ ${esc(x.exam)}` : '<span class="badge wl-overdue">Not yet</span>'}</td>${extra ? `<td class="by">${esc(mode?.label || '')}</td>` : ''}</tr>`; })
+      .join('')}</tbody></table></div>`;
+    const modes = (DATA.assessment?.modes || []).map((md) => `<li><strong>${esc(md.label)}</strong>${md.tracks ? ` <span class="by">(${esc(md.tracks.map(trackTitle).join(', '))})</span>` : ' <span class="by">(every other track)</span>'}: ${esc(md.how)}${md.precedent ? ` <span class="by">${esc(md.precedent)}${(md.sources || []).map((x) => ` <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)} ↗</a>`).join('')}</span>` : ''}</li>`).join('');
+    return `<div class="weekly-load">
+      <p class="desc">A unit is mastered when ${esc(c.name)} has shown every objective and passed the unit examination. Tick objectives and record examinations in each unit's panel. Units marked complete with gaps stay on the review list until they are closed.</p>
+      <div class="wl-tiles">
+        <div class="wl-tile"><div class="wl-head"><strong>Objectives mastered</strong></div><div class="wl-num">${pct}% <small>of ${objTotal.toLocaleString()} in completed units</small></div><span class="wl-track"><i class="wl-bar" style="width:${pct}%"></i></span></div>
+        <div class="wl-tile"><div class="wl-head"><strong>Units fully mastered</strong></div><div class="wl-num">${done.length - review.length} <small>of ${done.length} completed</small></div><div class="by">${review.length} on the review list</div></div>
+        <div class="wl-tile"><div class="wl-head"><strong>Ready to examine</strong></div><div class="wl-num">${ready.length} <small>unit${ready.length === 1 ? '' : 's'}</small></div><div class="by">every objective shown, examination not yet recorded</div></div>
+      </div>
+      <h3>Ready for examination</h3>${ready.length ? table(ready, true) : '<p class="empty">No unit in progress has all its objectives ticked yet.</p>'}
+      <h3>Review list</h3>${review.length ? table(review) : '<p class="empty">Nothing to review: every completed unit is mastered and examined.</p>'}
+      <h3>In progress</h3>${active.length ? table(active.sort((a, b) => m(b).done / m(b).total - m(a).done / m(a).total), true) : '<p class="empty">No units in progress.</p>'}
+      <h3>How units are examined</h3><ul class="trules">${modes}</ul>
+    </div>`;
+  }
+
   // ---------- next assignments ----------
   function unitCard(item, cid) {
     const r = item.row;
@@ -155,7 +185,7 @@
         : `<button type="button" class="btn" data-act="active" data-id="${esc(r.id)}">Start</button>`;
     return `<article class="unit-card">
       <div class="meta">${levelBadge(r.level)} <span>${esc(r.trackGroup)} › ${esc(trackTitle(r.track))}</span> · <span>typical age ${esc(ageLabel(r))}</span> <span class="badge pace-${item.pace}">${esc(pace)}</span>${S.inSeason(r) ? ' <span class="badge pace-on">In season now</span>' : ''}</div>
-      <h3><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> ${window.App.unitBadges(r)}</h3>
+      <h3><button type="button" class="linkish" data-open="${esc(r.id)}">${esc(r.title)}</button> ${window.App.unitBadges(r)}${item.status === 'active' && (r.objectives || []).length ? (() => { const x = window.App.masteryOf(cid, r); return ` <span class="badge pace-on" title="Objectives mastered">${x.done}/${x.total} objectives${x.exam ? ' · examined' : ''}</span>`; })() : ''}</h3>
       <p class="desc">${esc(r.summary)}</p>
       ${texts.length ? `<div class="texts"><strong>Texts:</strong> ${window.App.readingPlan(r).texts.filter((t) => texts.includes(t)).map((t) => `${esc(S.cleanTitle(t))}${t.author ? ` <span class="by">(${esc(t.author)})</span>` : ''} ${window.App.planBadges(t, window.App.readingPlan(r))} ${readerBadge(t)}${lengthLabel(t) ? ` <span class="by">${lengthLabel(t)}</span>` : ''}`).join('; ')}</div>${window.App.loadText(window.App.readingPlan(r)) ? `<p class="load">${esc(window.App.loadText(window.App.readingPlan(r)))}</p>` : ''}` : ''}
       <div class="form-actions">${actions} <button type="button" class="linkish" data-open="${esc(r.id)}">Details, objectives &amp; resources</button></div>
@@ -364,7 +394,7 @@
     if (tab === 'ahead') view.innerHTML = renderAhead();
     else if (!c)
       view.innerHTML = `<div class="panel-card"><h2>Welcome</h2><p>Add each of your children to track their progress through every track. You'll then see each child's next assignments, keep their Bookshelf of Knowledge, and get a Look Ahead list of the books to acquire.</p><button type="button" class="btn" onclick="document.getElementById('add-child-toggle').click()">+ Add your first child</button></div>`;
-    else view.innerHTML = tab === 'shelf' ? renderShelf(c) : tab === 'place' ? renderPlace(c) : tab === 'load' ? renderLoad(c) : renderNext(c);
+    else view.innerHTML = tab === 'shelf' ? renderShelf(c) : tab === 'place' ? renderPlace(c) : tab === 'load' ? renderLoad(c) : tab === 'mastery' ? renderMastery(c) : renderNext(c);
     if (!S.children().length) addForm.hidden = false;
   }
 

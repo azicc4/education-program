@@ -13,6 +13,7 @@ const foundingDir = path.join(root, 'data', 'founding');
 const examsFile = path.join(root, 'data', 'exams.yaml');
 const budgetFile = path.join(root, 'data', 'budget.yaml');
 const teacherFile = path.join(root, 'data', 'teacher.yaml');
+const assessmentFile = path.join(root, 'data', 'assessment.yaml');
 const outDir = path.join(root, 'docs', 'data');
 
 export const LEVELS = [
@@ -257,6 +258,25 @@ function buildTeacher(doc) {
   return { categories: cats };
 }
 
+// How mastery of a unit is shown (data/assessment.yaml): one examination mode per track, with a default
+function buildAssessment(doc) {
+  const rel = 'data/assessment.yaml';
+  if (!doc) return err(rel, 'missing or empty'), null;
+  const modes = doc.modes || [];
+  if (modes.filter((m) => m.default).length !== 1) err(rel, 'exactly one mode must be the default');
+  const seen = new Set();
+  for (const m of modes) {
+    if (!m.id || !m.label || !m.how) err(rel, `mode ${m.id ?? '?'}: needs id, label and how`);
+    for (const t of m.tracks || []) {
+      if (!TRACK_ORDER.includes(t)) err(rel, `mode ${m.id}: unknown track ${t}`);
+      if (seen.has(t)) err(rel, `mode ${m.id}: track ${t} is already in another mode`);
+      seen.add(t);
+    }
+    checkLinks(rel, `mode ${m.id} sources`, m.sources);
+  }
+  return { modes };
+}
+
 function validateFounding(file, doc) {
   const rel = path.relative(root, file);
   if (!doc) return null;
@@ -303,6 +323,7 @@ const exams = checkOnly ? (fs.existsSync(examsFile) && rows.some((r) => r.exams?
 const founding = foundingFiles.map((f) => validateFounding(f, load(f))).filter(Boolean);
 const budget = checkOnly ? null : buildBudget(load(budgetFile));
 const teacher = checkOnly ? null : buildTeacher(load(teacherFile));
+const assessment = checkOnly ? null : buildAssessment(load(assessmentFile));
 if (!checkOnly) validateFoundingUnits(founding, rows);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
@@ -313,7 +334,7 @@ if (errors.length) process.exit(1);
 if (!checkOnly) {
   tracks.sort((a, b) => TRACK_ORDER.indexOf(a.id) - TRACK_ORDER.indexOf(b.id));
   const out = rows.map(({ _file, ...r }) => ({ prerequisites: [], related: [], exams: [], ...r }));
-  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams, budget, teacher });
+  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams, budget, teacher, assessment });
   const foundingJson = JSON.stringify({ lists: founding });
   fs.mkdirSync(outDir, { recursive: true });
   // .json for reuse elsewhere; .js so the pages also work opened straight from disk (file://)

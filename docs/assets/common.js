@@ -171,6 +171,30 @@
   }
 
   const STATUS_LABEL = { '': 'Not started', active: 'In progress', done: 'Completed' };
+
+  // ---------- mastery: how a unit is examined (data/assessment.yaml) and what a child has mastered ----------
+  const MODES = DATA.assessment?.modes || [];
+  const examMode = (r) => MODES.find((m) => (m.tracks || []).includes(r.track)) || MODES.find((m) => m.default) || null;
+  function masteryOf(cid, r) {
+    const m = window.Store.mastery(cid, r.id);
+    const total = (r.objectives || []).length;
+    const done = Object.keys(m.o).filter((i) => +i < total).length;
+    return { done, total, exam: m.exam, full: done === total && !!m.exam };
+  }
+  function masteryHtml(r, c) {
+    const S = window.Store;
+    const m = S.mastery(c.id, r.id);
+    const ms = masteryOf(c.id, r);
+    const mode = examMode(r);
+    const objs = (r.objectives || [])
+      .map((o, i) => `<label class="obj"><input type="checkbox" data-obj="${esc(c.id)}|${i}"${m.o[i] ? ' checked' : ''}> <span>${esc(o)}</span>${m.o[i] ? ` <small class="by">${esc(m.o[i])}</small>` : ''}</label>`)
+      .join('');
+    const warn = S.status(c.id, r.id) === 'done' && !ms.full ? `<p class="mastery-warn">Marked complete with ${ms.total - ms.done} objective${ms.total - ms.done === 1 ? '' : 's'} not yet mastered${ms.exam ? '' : ' and no examination'}: on ${esc(c.name)}'s review list.</p>` : '';
+    return `<details class="mastery"${S.status(c.id, r.id) ? ' open' : ''}><summary>Mastery: ${ms.done} of ${ms.total} objectives${ms.exam ? ' · examined' : ''}</summary>
+      ${warn}<div class="objs">${objs}</div>
+      ${mode ? `<div class="exam"><button type="button" class="chip" data-exam="${esc(c.id)}" aria-pressed="${!!ms.exam}">${ms.exam ? `✓ Examination passed ${esc(ms.exam)}` : 'Record examination passed'}</button> <span class="by"><strong>${esc(mode.label)}:</strong> ${esc(mode.how)}</span></div>` : ''}
+    </details>`;
+  }
   const statusBadge = (st) => (st ? `<span class="badge st-${st}">${st === 'done' ? '✓ Completed' : '● In progress'}</span>` : '');
 
   // per-child progress controls inside the detail panel
@@ -195,7 +219,7 @@
               })
               .join('')}<small class="desc">Checked texts are on ${esc(c.name)}'s Bookshelf of Knowledge.</small></div>`
           : '';
-        return `<div class="child-progress"><div class="head"><strong>${esc(c.name)}</strong><small>${when}</small></div><div class="chips">${btns}</div>${shelf}</div>`;
+        return `<div class="child-progress"><div class="head"><strong>${esc(c.name)}</strong><small>${when}</small></div><div class="chips">${btns}</div>${st && (r.objectives || []).length ? masteryHtml(r, c) : ''}${shelf}</div>`;
       })
       .join('')}`;
   }
@@ -554,6 +578,12 @@
       if (e.key === 'Escape' && !panel.hidden) onNavigate('');
     });
     panel.addEventListener('change', (e) => {
+      const ob = e.target.closest('[data-obj]');
+      if (ob) {
+        const [cid, i] = ob.dataset.obj.split('|');
+        window.Store.setObjective(cid, currentRow, +i, ob.checked);
+        return rerender(`[data-obj="${CSS.escape(ob.dataset.obj)}"]`);
+      }
       const cb = e.target.closest('[data-shelf]');
       if (!cb) return;
       const [cid, i] = cb.dataset.shelf.split('|');
@@ -598,6 +628,12 @@
       if (un) {
         window.Store.setProgram(timeChild, currentRow, un.dataset.untrack, false);
         return rerender();
+      }
+      const ex = e.target.closest('[data-exam]');
+      if (ex) {
+        const cid = ex.dataset.exam;
+        window.Store.setExam(cid, currentRow, !window.Store.mastery(cid, currentRow).exam);
+        return rerender(`[data-exam="${CSS.escape(cid)}"]`);
       }
       const sb = e.target.closest('[data-status]');
       if (sb) {
@@ -709,7 +745,7 @@
     DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks, examById,
     esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel, unitBadges, dayOf, inPlan, DAY_LABEL,
     readState, writeState, matches, renderFilters, showDetail,
-    teacherCategory, teacherHours, isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml, workloadTotal, workloadHtml, workHours,
+    examMode, masteryOf, teacherCategory, teacherHours, isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml, workloadTotal, workloadHtml, workHours,
     quarterAge, childOptions, childFor, defaultChild, nowUnits, nextUnits, modal, printBooklist,
   };
 })();

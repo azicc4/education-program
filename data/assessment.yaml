@@ -1,0 +1,53 @@
+# How a child shows mastery of a unit (see data/schema.md). Each unit's objectives are its checklist; the unit
+# examination below, chosen by track, is how the teacher confirms them before the unit is marked complete.
+modes:
+  - id: translation
+    label: Translation at sight and recitation
+    tracks: [latin, greek, hebrew, spanish, chinese, old-english]
+    how: >-
+      Translate an unseen passage of the unit's authors at sight, put a short English passage into the language,
+      parse on request, and recite the memorized passages. In a modern language, add a conversation on the readings.
+    precedent: >-
+      Admission to Harvard was an oral examination before the president and tutors: John Quincy Adams (1786)
+      construed Horace and Homer and put English prose into Latin.
+    sources:
+      - { label: "John Quincy Adams to Abigail Adams 2d, 1 Oct 1785 (Adams Papers Digital Edition)", url: "https://www.masshist.org/publications/adams-papers/index.php/view/ADMS-04-06-02-0123" }
+  - id: problems
+    label: Written problem examination
+    tracks: [mathematics, physics, chemistry, biology, natural-science, logic, economics]
+    how: >-
+      A timed paper of problems not seen before, covering every objective, with proofs or full working; in a lab
+      science, a practical as well, carried out and written up unaided.
+    precedent: >-
+      From 1747–48 Cambridge's Senate House examination set written mathematical problems and printed an order of
+      merit, the model for the written examination.
+    sources:
+      - { label: "Christopher Wordsworth, Scholae Academicae (1877), on the Senate House examination (Internet Archive)", url: "https://archive.org/details/scholaeacademica00worduoft" }
+  - id: declamation
+    label: Declamation and disputation
+    tracks: [rhetoric, poetry, drama]
+    how: >-
+      Deliver a prepared speech or recitation from memory before listeners, then defend a position against
+      questions or an opponent.
+    precedent: >-
+      Harvard's 1767 laws kept weekly and forensic disputations and declamations in the learned languages as
+      standing exercises.
+    sources:
+      - { label: "The Laws of Harvard College [1767] (Colonial Society of Massachusetts)", url: "https://colonialsociety.org/node/432" }
+  - id: demonstration
+    label: Demonstration and portfolio
+    tracks: [fine-arts, physical-training, practical-arts, music, music-lessons, sports, character-virtue]
+    how: >-
+      Show the skill before the teacher or an outside instructor (a performance, a finished piece, a test of
+      technique or a certification), and keep the year's best work in a portfolio.
+  - id: oral
+    label: Oral examination and essay
+    default: true
+    how: >-
+      Narrate and discuss the unit's texts in answer to the teacher's questions without notes, then write an essay
+      under time on a question the student has not seen.
+    precedent: >-
+      Oxford's public examinations, restored from 1800 and ranked in the classical school from 1807, examined
+      candidates orally and on paper on the books they had read.
+    sources:
+      - { label: "Christopher Wordsworth, Scholae Academicae (1877), on the English university examinations (Internet Archive)", url: "https://archive.org/details/scholaeacademica00worduoft" }

@@ -41,6 +41,7 @@ The website is in `docs/` and has three views:
   - Log **time spent** per child in any unit's detail panel: minutes of reading, discussing and writing for each book; per lesson for textbooks (reading, exercises) and language books (learning, practicing, studying), with one total per book. Curriculum programs can be tracked the same way.
   - Keep **"Name's Bookshelf of Knowledge"**: completed units add the texts actually read (not electives, reference works, or the other options of a "choose one" group), any other book can be added with **+ Add a book**, and the shelf sorts by subject, date finished, title or author. The demo family comes with full shelves.
   - See each child's **Weekly load**: the hours a week of every unit they are on now (in progress, due at their age, or behind), split into weekday academics, Saturday and Sunday, each against the budget for their grade, with a family overview. Next assignments shows the same totals in one line.
+  - Track **Mastery**: in each unit's panel, tick the objectives a child has shown and record the unit examination, set by subject (translation at sight for languages, a written problem paper for mathematics and the sciences, declamation for rhetoric, poetry and drama, demonstration and portfolio for skills, and an oral examination and essay for the rest, each with its founding-era precedent). The Mastery tab lists units ready to examine and a review list of units completed with gaps.
   - Use **Look Ahead** to get a combined shopping list of the texts every child will need in the next 3, 6 or 12 months, with an "acquired" checklist and filters to hide acquired, missing, free or paid texts.
 
   Progress is saved in the browser you use. Use **Export backup** and **Import backup** to keep a copy or move to another device.
@@ -64,6 +65,7 @@ All content lives in YAML:
 - `data/tracks/<track>.yaml`: one file per track. See [data/schema.md](data/schema.md) for the fields.
 - `data/founding/<list>.yaml`: historical reading lists.
 - `data/budget.yaml`: the yearly hour budgets per grade, with their sources.
+- `data/assessment.yaml`: how each track's units are examined, with the historical precedent.
 - `data/teacher.yaml`: how far ahead the teacher prepares each kind of unit, and how long it takes.
 
 After editing, run `npm run build`, which validates the data and regenerates `docs/data/`. The build checks for:

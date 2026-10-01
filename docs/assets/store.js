@@ -2,7 +2,7 @@
 // Everything lives in this browser's localStorage; export/import moves it between devices.
 (function () {
   const KEY = 'formation.family.v1';
-  const empty = () => ({ version: 1, children: [], progress: {}, shelf: {}, acquired: {}, time: {}, programs: {}, teacher: {}, activeChild: '' });
+  const empty = () => ({ version: 1, children: [], progress: {}, shelf: {}, acquired: {}, time: {}, programs: {}, teacher: {}, mastery: {}, activeChild: '' });
   let memoryOnly = false;
   let state = load();
   const listeners = new Set();
@@ -71,6 +71,7 @@
       delete state.shelf[id];
       delete state.time[id];
       delete state.programs[id];
+      delete state.mastery[id];
       if (state.activeChild === id) state.activeChild = state.children[0]?.id || '';
       save();
     },
@@ -165,6 +166,21 @@
       if (!on && i >= 0) unit.splice(i, 1);
       save();
     },
+
+    // ---------- mastery: each unit's objectives mastered, and the unit examination passed (per child) ----------
+    mastery: (childId, rowId) => state.mastery[childId]?.[rowId] || { o: {}, exam: '' },
+    setObjective(childId, rowId, index, on, { quiet = false } = {}) {
+      const m = ((state.mastery[childId] ||= {})[rowId] ||= { o: {}, exam: '' });
+      if (on) m.o[index] = m.o[index] || today();
+      else delete m.o[index];
+      if (!quiet) save();
+    },
+    setExam(childId, rowId, on, { quiet = false } = {}) {
+      const m = ((state.mastery[childId] ||= {})[rowId] ||= { o: {}, exam: '' });
+      m.exam = on ? m.exam || today() : '';
+      if (!quiet) save();
+    },
+    saveNow: () => save(),
 
     // ---------- teacher preparation: units the teacher has finished preparing (shared by the whole family) ----------
     teacherPrepared: (rowId) => state.teacher[rowId]?.prepared || '',

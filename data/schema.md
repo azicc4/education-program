@@ -169,6 +169,22 @@ sources:
 The build turns this into a budget per grade (`budget.years` in `curriculum.json`). The School Hours page compares
 each grade's core units, spread evenly over their ages, with the weekday, Saturday and Sunday budgets.
 
+## Unit examinations (`data/assessment.yaml`)
+
+Each unit's `objectives` are its mastery checklist. The examination that confirms them is chosen by track:
+
+```yaml
+modes:
+  - id: translation
+    label: Translation at sight and recitation
+    tracks: [latin, greek, hebrew, spanish, chinese, old-english]   # each track in at most one mode
+    how: What the student does in the examination.
+    precedent: The historical model (optional).
+    sources: [{ label: "…", url: "https://…" }]
+  - id: oral
+    default: true                                                   # every other track
+```
+
 ## The teacher's plan (`data/teacher.yaml`)
 
 The teacher's plan is not a second curriculum: the site builds it from the units and each child's progress. The file
