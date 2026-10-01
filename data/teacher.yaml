@@ -1,0 +1,35 @@
+# The teacher's plan (see data/schema.md). It is not a separate curriculum: the site builds it from the student
+# units and each child's progress, using these rules for how far ahead the teacher prepares and how long it takes.
+categories:
+  - id: language
+    label: Languages
+    tracks: [latin, greek, hebrew, spanish, chinese, old-english]
+    leadMonths: 12
+    rule: >-
+      The teacher studies each language unit a year before the student, so the teacher's skill is always a year
+      ahead of the student's.
+    teacherHoursPerStudentHour: 0.75
+    basis: An adult studying the same course alone, at about three quarters of the student's time.
+  - id: skill
+    label: Art, outdoor and physical skills
+    tracks: [fine-arts, physical-training, practical-arts, music, music-lessons, sports, drama]
+    days: [saturday]
+    leadMonths: 6
+    rule: >-
+      The teacher learns or refreshes the skill, gathers materials and equipment, and arranges any instructor,
+      range, stable, pool or boat at least six months before the student begins.
+    teacherHoursPerStudentHour: 0.3
+    basis: Practising the skill and planning the sessions, about 0.3 h for each hour the student spends.
+  - id: reading
+    label: Reading and lesson preparation
+    default: true
+    leadMonths: 2
+    minLeadMonths: 1
+    rule: >-
+      The teacher reads all the unit's core texts and prepares its lessons one to two months ahead of the
+      student, and has finished each part at least a month before the student reaches it.
+    readingFactor: 0.6
+    workFactor: 0.15
+    basis: >-
+      An adult reads the same pages in about 60% of a student's time; lessons, answer keys and discussion
+      questions take about 0.15 h for each hour of student work.

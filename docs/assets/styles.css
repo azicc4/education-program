@@ -809,3 +809,27 @@ dialog.modal input:not([type="checkbox"]):not([type="radio"]), dialog.modal sele
 .badge.wl-overdue { color: var(--accent); }
 .wl-line { font-size: 0.9rem; }
 @media (max-width: 640px) { .wl-tiles { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- Teacher Plan ---------- */
+.teacher { --tc-reading: #2a78d6; --tc-language: #eb6834; --tc-skill: #1baf7a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .teacher { --tc-reading: #3987e5; --tc-language: #d95926; --tc-skill: #199e70; } }
+:root[data-theme="dark"] .teacher { --tc-reading: #3987e5; --tc-language: #d95926; --tc-skill: #199e70; }
+.teacher h2 small { font: 400 0.8rem var(--sans); color: var(--ink-2); margin-left: 6px; }
+.teacher .filters { align-items: center; }
+.tc-reading { background: var(--tc-reading); } .tc-language { background: var(--tc-language); } .tc-skill { background: var(--tc-skill); }
+.tchart { display: grid; grid-template-columns: repeat(24, minmax(0, 1fr)); gap: 2px; height: 180px; align-items: end; border-bottom: 1px solid var(--rule); padding-bottom: 18px; position: relative; }
+.tcol { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; cursor: default; outline-offset: 2px; }
+.tcol:hover .tstack, .tcol:focus-visible .tstack { filter: brightness(1.08); box-shadow: 0 0 0 2px var(--surface), 0 0 0 3px var(--ink-2); }
+.tstack { display: flex; flex-direction: column-reverse; gap: 2px; border-radius: 4px 4px 0 0; overflow: hidden; min-height: 0; }
+.tseg { display: block; min-height: 2px; }
+.tlab { position: absolute; bottom: -17px; left: 0; font: 0.68rem var(--sans); color: var(--ink-2); white-space: nowrap; }
+.ttable { margin-top: 10px; }
+.ttable summary { cursor: pointer; font: 0.85rem var(--sans); color: var(--link); }
+.badge.tk-reading { color: var(--tc-reading); } .badge.tk-language { color: var(--tc-language); } .badge.tk-skill { color: var(--ink-2); border-color: var(--tc-skill); }
+.badge.ts-late { color: var(--accent); }
+.tt tr.ts-prepared td { opacity: 0.6; }
+.trules { padding-left: 0; list-style: none; display: grid; gap: 8px; font-size: 0.95rem; }
+@media (max-width: 720px) {
+  .tchart { grid-template-columns: repeat(24, minmax(0, 1fr)); height: 140px; }
+  .tt th:nth-child(2), .tt td:nth-child(2), .tt th:nth-child(5), .tt td:nth-child(5) { display: none; }
+}

@@ -2,7 +2,7 @@
 // Everything lives in this browser's localStorage; export/import moves it between devices.
 (function () {
   const KEY = 'formation.family.v1';
-  const empty = () => ({ version: 1, children: [], progress: {}, shelf: {}, acquired: {}, time: {}, programs: {}, activeChild: '' });
+  const empty = () => ({ version: 1, children: [], progress: {}, shelf: {}, acquired: {}, time: {}, programs: {}, teacher: {}, activeChild: '' });
   let memoryOnly = false;
   let state = load();
   const listeners = new Set();
@@ -163,6 +163,14 @@
       const i = unit.indexOf(name);
       if (on && i < 0) unit.push(name);
       if (!on && i >= 0) unit.splice(i, 1);
+      save();
+    },
+
+    // ---------- teacher preparation: units the teacher has finished preparing (shared by the whole family) ----------
+    teacherPrepared: (rowId) => state.teacher[rowId]?.prepared || '',
+    setTeacherPrepared(rowId, on) {
+      if (on) state.teacher[rowId] = { prepared: today() };
+      else delete state.teacher[rowId];
       save();
     },
 

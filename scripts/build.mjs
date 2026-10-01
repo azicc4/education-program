@@ -12,6 +12,7 @@ const tracksDir = path.join(root, 'data', 'tracks');
 const foundingDir = path.join(root, 'data', 'founding');
 const examsFile = path.join(root, 'data', 'exams.yaml');
 const budgetFile = path.join(root, 'data', 'budget.yaml');
+const teacherFile = path.join(root, 'data', 'teacher.yaml');
 const outDir = path.join(root, 'docs', 'data');
 
 export const LEVELS = [
@@ -239,6 +240,23 @@ function buildBudget(doc) {
   return { gradeAgeOffset: off, saturday: sat, sunday: sun, weekday: doc.weekday, notes: doc.notes || '', sources: doc.sources || [], years };
 }
 
+// The teacher's plan rules (data/teacher.yaml): how far ahead each kind of unit is prepared, and how long it takes
+function buildTeacher(doc) {
+  const rel = 'data/teacher.yaml';
+  if (!doc) return err(rel, 'missing or empty'), null;
+  const cats = doc.categories || [];
+  if (cats.filter((c) => c.default).length !== 1) err(rel, 'exactly one category must be the default');
+  for (const c of cats) {
+    if (!c.id || !c.label || !c.rule) err(rel, `category ${c.id ?? '?'}: needs id, label and rule`);
+    if (!(c.leadMonths > 0)) err(rel, `category ${c.id}: leadMonths must be above 0`);
+    for (const t of c.tracks || []) if (!TRACK_ORDER.includes(t)) err(rel, `category ${c.id}: unknown track ${t}`);
+    for (const d of c.days || []) if (!DAYS.includes(d)) err(rel, `category ${c.id}: unknown day ${d}`);
+    const factors = c.default ? ['readingFactor', 'workFactor'] : ['teacherHoursPerStudentHour'];
+    for (const k of factors) if (!(typeof c[k] === 'number' && c[k] >= 0)) err(rel, `category ${c.id}: ${k} must be a number`);
+  }
+  return { categories: cats };
+}
+
 function validateFounding(file, doc) {
   const rel = path.relative(root, file);
   if (!doc) return null;
@@ -284,6 +302,7 @@ validateGraph(rows);
 const exams = checkOnly ? (fs.existsSync(examsFile) && rows.some((r) => r.exams?.length) ? validateExams(load(examsFile), rows) : []) : validateExams(load(examsFile), rows);
 const founding = foundingFiles.map((f) => validateFounding(f, load(f))).filter(Boolean);
 const budget = checkOnly ? null : buildBudget(load(budgetFile));
+const teacher = checkOnly ? null : buildTeacher(load(teacherFile));
 if (!checkOnly) validateFoundingUnits(founding, rows);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
@@ -294,7 +313,7 @@ if (errors.length) process.exit(1);
 if (!checkOnly) {
   tracks.sort((a, b) => TRACK_ORDER.indexOf(a.id) - TRACK_ORDER.indexOf(b.id));
   const out = rows.map(({ _file, ...r }) => ({ prerequisites: [], related: [], exams: [], ...r }));
-  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams, budget });
+  const curriculum = JSON.stringify({ generated: new Date().toISOString(), levels: LEVELS, groups: GROUPS, tracks, rows: out, exams, budget, teacher });
   const foundingJson = JSON.stringify({ lists: founding });
   fs.mkdirSync(outDir, { recursive: true });
   // .json for reuse elsewhere; .js so the pages also work opened straight from disk (file://)
