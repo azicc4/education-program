@@ -1,0 +1,248 @@
+# The Parent Curriculum's plans (see data/schema.md). Readings are ids from the booklist files in this folder;
+# units are ids from the children's curriculum (data/tracks), so the family plan follows the children's units.
+intro: >-
+  The Parent Curriculum runs beside the children's. It has four parts: a reading and practice plan for each stage
+  of a child's life, a marriage track that runs through all of them, a family program on the model of the Olweus
+  school program, and a short core shelf for the first year. The aim is children who are ambitious and humble,
+  cooperative and loving, honest, self-controlled and glad, raised in a home where the parents' own marriage is
+  tended as carefully as the children. Readings mix the research, the clinical guides and the classics; caveats in
+  the booklist say where the evidence is thin.
+
+core:
+  label: The core shelf
+  note: >-
+    Twelve readings for every parent, about one a month in the first year of the program, whatever the children's
+    ages. Each stands for a body of research or a tradition that the stage plans build on.
+  read:
+    - gottman-seven-principles
+    - hoffman-raising-a-secure-child
+    - pinquart-parenting-styles-meta-analyses
+    - faber-mazlish-how-to-talk
+    - gottman-raising-emotionally-intelligent-child
+    - grusec-goodnow-internalization-of-values
+    - aap-effective-discipline-2018
+    - moffitt-childhood-self-control
+    - ryan-deci-self-determination-theory
+    - fiese-family-routines-rituals
+    - lahey-gift-of-failure
+    - jpii-familiaris-consortio
+
+stages:
+  - id: pregnancy
+    label: Before birth
+    ages: Pregnancy
+    focus: >-
+      The couple prepares for the largest change a marriage goes through. Relationship satisfaction falls on
+      average after the first child; programs that prepare couples in pregnancy soften the fall and protect the
+      baby from parental conflict and depression.
+    aims:
+      - Agree how the work of the household and the night will be shared
+      - Learn to soothe each other and to repair after conflict before sleep is short
+      - Know the signs of depression in either parent and where help is found
+      - Plan the mother's nutrition and exercise (see the gestation plan)
+    read: [cowan-when-partners-become-parents, doss-transition-to-parenthood, shapiro-gottman-bringing-baby-home, feinberg-family-foundations, bakermans-kranenburg-less-is-more]
+    further: [comenius-school-infancy, olds-nurse-family-partnership]
+    practices:
+      - A weekly half-hour couple meeting (the marriage track) from the first trimester
+      - A written plan for the first six weeks after birth: night feeds, visitors, meals, who holds what
+      - The gestation plan's nutrition and exercise, week by week
+    help: >-
+      Low mood, anxiety or intrusive thoughts lasting more than two weeks in either parent, or any thought of
+      self-harm, call for the obstetric provider or a clinician the same week.
+    helpRead: [acog-perinatal-mental-health, paulson-bazemore-paternal-depression]
+    units: []
+
+  - id: 0-1
+    label: The first year
+    ages: Birth to 1
+    focus: >-
+      Sensitive, responsive care builds secure attachment, the base from which a child later explores, learns and
+      trusts. Short, focused programs that raise parents' sensitivity work as well as long ones.
+    aims:
+      - Respond promptly and warmly to the baby's signals, and read them better each month
+      - Keep the marriage close while sleep is short; share the night
+      - Begin family prayer and simple rhythms of the day
+    read: [hoffman-raising-a-secure-child, ainsworth-strange-situation, bowlby-secure-base, powell-circle-of-security]
+    further: [yogman-power-of-play, child-mothers-book, bushnell-christian-nurture]
+    practices:
+      - Daily floor time and talk with the baby, face to face, without screens
+      - A short evening check-in between the parents on how each is coping
+      - Family prayer at a fixed time each day
+    help: >-
+      Postpartum depression can begin any time in the first year, in mothers and in fathers; persistent
+      exhaustion, hopelessness or withdrawal from the baby call for help, as does conflict that the couple can no
+      longer repair on its own.
+    helpRead: [acog-perinatal-mental-health, paulson-bazemore-paternal-depression, aamft-marital-distress-guide]
+    units: [early-development-06, theology-01]
+
+  - id: 1-3
+    label: Toddlers
+    ages: 1 to 3
+    focus: >-
+      The toddler begins to want to help and to say no. Warm, mutually responsive parenting at this age predicts
+      later conscience and cooperation; rewards for helping can crowd out the child's own wish to help.
+    aims:
+      - Welcome the child's helping, without paying for it
+      - Name feelings and set calm, consistent limits
+      - Hold the line against harsh punishment and shouting
+    read: [kochanska-mutually-responsive-orientation, warneken-tomasello-altruistic-helping, warneken-tomasello-rewards-undermine-helping, siegel-bryson-whole-brain-child, aap-effective-discipline-2018]
+    further: [mcneil-hembree-kigin-pcit, webster-stratton-incredible-years, mason-home-education, montessori-secret-childhood]
+    practices:
+      - Small real jobs every day (practical life at home)
+      - The family meal, with the toddler at the table
+      - One-to-one play time with each parent, child-led, a few minutes daily
+    help: >-
+      Tantrums that are daily, long and violent past age three, or a parent's sense of losing control, are
+      well treated by parent-child interaction therapy or a similar evaluated program.
+    helpRead: [mcneil-hembree-kigin-pcit, sanders-triple-p-meta, apa-choose-psychologist]
+    units: [practical-arts-01, theology-01, civics-law-01]
+
+  - id: 3-6
+    label: Early childhood
+    ages: 3 to 6
+    focus: >-
+      Self-control, honesty and empathy grow fast. Children lie more in punitive homes and tell the truth more
+      when honesty is praised; emotion coaching and authoritative discipline give the best long-run results.
+    aims:
+      - Coach emotions rather than dismiss them
+      - Praise effort and honesty, not cleverness
+      - Begin the family program's rules and weekly meeting
+    read: [gottman-katz-hooven-meta-emotion, talwar-lee-punitive-environment, lee-classic-moral-stories-honesty, faber-mazlish-how-to-talk, kazdin-method-defiant-child, gershoff-grogan-kaylor-spanking-meta]
+    further: [ginott-between-parent-and-child, locke-thoughts-education, erasmus-education-children, plutarch-education-children]
+    practices:
+      - The four family rules and a short weekly family meeting (the family program)
+      - Daily read-aloud of fables and virtue stories
+      - Family games that need turn-taking and good losing
+    help: >-
+      Persistent defiance, aggression or fears that disrupt daily life respond well to evaluated parent-training
+      programs; the Family Check-Up is a light first step.
+    helpRead: [dishion-family-check-up, webster-stratton-incredible-years, sanders-triple-p-meta]
+    units: [character-virtue-01, character-virtue-02, practical-arts-01, civics-law-01, theology-01]
+
+  - id: 6-12
+    label: Middle childhood
+    ages: 6 to 12
+    focus: >-
+      Competence, conscience and friendship. Autonomy-supportive parenting builds the child's own motivation;
+      praise for intelligence weakens it, and inflated praise breeds narcissism. Siblings learn to quarrel well or
+      badly, and kindness can be practised.
+    aims:
+      - Support autonomy within firm expectations
+      - Praise process and effort, and keep praise honest
+      - Teach siblings to solve problems together
+      - Let children take real risks and real responsibility
+    read: [vasquez-parent-autonomy-support-meta, grolnick-ryan-parent-styles, mueller-dweck-praise-intelligence, brummelman-origins-of-narcissism, faber-mazlish-siblings-without-rivalry, kennedy-kramer-more-fun-siblings, layous-kindness-counts, dweck-mindset]
+    further: [gray-free-to-learn, quintilian-institutio-oratoria, chrysostom-vainglory, ryle-duties-parents, tripp-shepherding-heart, kellam-good-behavior-game]
+    practices:
+      - Children take a role in the weekly family meeting (chair, scribe, timekeeper) by age
+      - Weekly acts of kindness, chosen by the children, reported at the meeting
+      - Growing freedom outdoors and in town, step by step
+    help: >-
+      Bullying, persistent anxiety or school refusal, or a sibling who is repeatedly hurt, call for action and
+      often for outside help.
+    helpRead: [olweus-bullying-at-school, dishion-family-check-up, apa-choose-psychologist]
+    units: [character-virtue-03, character-virtue-04, character-virtue-05, character-virtue-09, character-virtue-07, character-virtue-08]
+
+  - id: 12-18
+    label: Adolescence
+    ages: 12 to 18
+    focus: >-
+      The adolescent brain is unusually open to learning and to risk. Teens who are known, trusted and given
+      responsibility do best; family dinners, gratitude and limits on phones help, though the evidence on screens
+      is debated.
+    aims:
+      - Stay close: shared meals, one-to-one time, interest in the teen's world
+      - Hand over responsibility on a plan, so the teen is ready to leave at 18
+      - Keep phones and social media out of bedrooms and meals
+    read: [steinberg-age-of-opportunity, siegel-brainstorm, lythcott-haims-how-to-raise-an-adult, haidt-anxious-generation, musick-meier-family-dinners, froh-counting-blessings-adolescents]
+    further: [bosco-preventive-system, augustine-confessions, forgatch-degarmo-pmto, spoth-strengthening-families]
+    practices:
+      - Family dinner most nights, phones away
+      - A yearly conversation with each teen on the next year's freedoms and duties
+      - Service and leadership outside the family (the children's service units)
+    help: >-
+      Depression, self-harm, substance use or a breakdown of trust need prompt professional help; evaluated
+      family programs such as the Strengthening Families Program and the Family Check-Up also work at this age.
+    helpRead: [spoth-strengthening-families, dishion-family-check-up, apa-choose-psychologist]
+    units: [character-virtue-10, character-virtue-11, character-virtue-08]
+
+  - id: adult
+    label: Adult children and the next generation
+    ages: 18 and after
+    focus: >-
+      The task turns to friendship with adult children, to a marriage alone again in the house, and to the role
+      of grandparents, who help children's health and development when they are involved and supportive.
+    aims:
+      - Treat adult children as adults, with advice when asked
+      - Renew the marriage for the years after the children leave
+      - Be present as grandparents without displacing the parents
+    read: [lewis-four-loves, wallerstein-good-marriage, sadruddin-grandparents-review, kerr-bowen-family-evaluation]
+    further: [jpii-letter-families, francis-amoris-laetitia, hildebrand-marriage]
+    practices:
+      - A family gathering on the great feasts each year
+      - The marriage track's yearly retreat continues
+    help: >-
+      Estrangement or long-running family conflict is a reason for family therapy rather than silence.
+    helpRead: [aamft-marital-distress-guide, apa-choose-psychologist]
+    units: []
+
+marriage:
+  label: The marriage track
+  note: >-
+    The parents' marriage is the child's first school of love and of conflict. Children are harmed less by
+    disagreement than by hostile, unresolved conflict, and couples who learn a few skills early keep their
+    friendship through the hardest years.
+  practices:
+    - "Daily: a 20-minute conversation at the end of the day about stress outside the marriage, listening first (Gottman)."
+    - "Weekly: a half-hour couple meeting: what went well, one issue handled with the speaker-listener technique (PREP), and the week ahead."
+    - "Monthly: an evening out alone together."
+    - "Yearly: a weekend retreat to review the marriage, the children and the coming year."
+    - "In conflict: soft start-ups, breaks before flooding, and repair before sleep."
+  read: [gottman-seven-principles, markman-fighting-for-your-marriage, johnson-hold-me-tight, cummings-davies-marital-conflict, cowan-supporting-father-involvement, hildebrand-marriage, lewis-four-loves, jpii-familiaris-consortio]
+  research: [gottman-newlywed-prediction, gottman-levenson-divorce-timing, markman-prep-follow-up, hawkins-relationship-education-meta, johnson-eft-meta-analysis, impett-love-languages-review]
+  help: >-
+    Couples counseling works best early, before contempt sets in. Emotionally focused couples therapy and PREP-based
+    programs have the strongest evidence; online programs such as OurRelationship help couples who cannot reach a
+    therapist.
+  helpRead: [johnson-eft-meta-analysis, doss-ourrelationship-trial, aamft-marital-distress-guide, apa-choose-psychologist]
+
+family:
+  label: The family program
+  note: >-
+    Modelled on the Olweus Bullying Prevention Program, which works at the levels of the whole school, the
+    classroom and the individual child, and on the Good Behavior Game. The family version has the same three
+    levels. Using school programs this way is an analogy, not a tested family intervention; each part draws on
+    research cited in the booklist.
+  sources: [olweus-bullying-at-school, kellam-good-behavior-game, fiese-family-routines-rituals, hammons-fiese-family-meals, kazdin-method-defiant-child, sanders-triple-p-meta]
+  levels:
+    - label: The whole family
+      parts:
+        - "Four family rules, adapted from the four Olweus rules: we do not hurt or belittle one another; we help anyone in the family who is being treated badly; we include anyone who is left out; we tell a parent when someone is being hurt."
+        - "Warm, consistent consequences: praise and attention for keeping the rules, small and immediate consequences for breaking them, never harsh or humiliating (Kazdin; AAP)."
+        - "Family routines that hold the week together: daily meals, bedtime reading, the Sunday rhythm."
+        - "A short yearly family questionnaire, as in the Olweus program, so each child can say privately how home is going."
+    - label: The weekly family meeting
+      parts:
+        - "Appreciations first: each member names something good another did."
+        - "The calendar and the week's jobs."
+        - "One problem, solved together: the children propose rules and consequences; the parents decide."
+        - "A family goal for the week, and the Good Behavior Game for children under ten: the family as one team earns a small shared privilege for a good week."
+        - "Roles rotate by age: the youngest leads appreciations, older children chair and keep notes."
+    - label: Each child
+      parts:
+        - "One-to-one time with each parent every week."
+        - "A private talk when a rule is broken or a child is hurt, aimed at repair, not shame."
+        - "Responsibilities and freedoms that grow each year, agreed at a yearly review."
+  children:
+    - ages: 3 to 6
+      role: "Learns the four rules, leads appreciations, has a daily job."
+      read: [lee-classic-moral-stories-honesty, kennedy-kramer-more-fun-siblings]
+      units: [character-virtue-01, practical-arts-01, civics-law-01]
+    - ages: 6 to 12
+      role: "Keeps time or notes at the family meeting, proposes the week's kindness project, helps a younger sibling."
+      read: [layous-kindness-counts, kellam-good-behavior-game]
+      units: [character-virtue-02, character-virtue-03, character-virtue-04, character-virtue-05]
+    - ages: 12 to 18
+      role: "Chairs the family meeting in turn, mentors a younger sibling, leads one family service project a year."
+      read: [froh-counting-blessings-adolescents, dweck-mindset, steinberg-age-of-opportunity, ccc-fourth-commandment]
+      units: [character-virtue-08, character-virtue-10, character-virtue-11]

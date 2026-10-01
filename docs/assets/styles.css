@@ -842,3 +842,37 @@ details.mastery summary { cursor: pointer; font-weight: 600; color: var(--ink); 
 .objs .obj input { margin-top: 3px; flex: none; }
 details.mastery .exam { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; margin-top: 6px; }
 .mastery-warn { margin: 4px 0; color: var(--accent); font-size: 0.82rem; }
+
+/* ---------- Parent Curriculum ---------- */
+.parents .tabs { flex-wrap: wrap; }
+.parents .tablink { margin-left: auto; align-self: center; font: 600 0.85rem var(--sans); }
+.parents h2 small { font: 400 0.8rem var(--sans); color: var(--ink-2); margin-left: 6px; }
+.stage-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 16px; }
+.stage h3, .parents .panel-card h3 { font-size: 1rem; margin: 12px 0 4px; }
+ul.plain { margin: 0; padding-left: 18px; }
+ul.plain li { margin: 3px 0; }
+.refs { margin: 0; padding-left: 18px; font-size: 0.93rem; }
+.refs li { margin: 4px 0; }
+.refs .badge { font-size: 0.68rem; }
+.stage-jump { margin: 0 0 12px; position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 6px 0; }
+.book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); gap: 12px; }
+.book-card { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; }
+dialog.modal .book-card { border: 0; padding: 0; }
+.bk-title { font: 600 1.05rem var(--serif); }
+.bk-meta, .bk-traits { display: flex; flex-wrap: wrap; gap: 4px; }
+.book-card p { margin: 0; font-size: 0.93rem; }
+.bk-caveat { color: var(--ink-2); font-size: 0.86rem !important; }
+.trait { font: 0.72rem var(--sans); color: var(--ink-2); background: var(--surface-2); border-radius: 999px; padding: 1px 8px; }
+.book-card .links { font: 0.82rem var(--sans); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.book-card details summary { cursor: pointer; font: 0.8rem var(--sans); color: var(--link); }
+.badge.ev-research { color: var(--lvl-68); } .badge.ev-clinical { color: var(--lvl-912); } .badge.ev-popular-science { color: var(--trad-classical); }
+.badge.ev-historic { color: var(--ink-2); } .badge.ev-faith { color: var(--accent); } .badge.ev-popular { color: var(--ink-2); }
+.bk-group { margin: 18px 0 8px; }
+@media (max-width: 760px) { .stage-grid { grid-template-columns: minmax(0, 1fr); } .parents .tablink { margin-left: 0; } }
+.preg-title { font-size: 1.6rem; margin: 4px 0 6px; }
+.crumbs { margin: 0; font: 0.85rem var(--sans); }
+.preg-disclaimer { background: var(--surface-2); border-left: 3px solid var(--accent); border-radius: 6px; padding: 10px 12px; margin: 0 0 10px; font-size: 0.93rem; }
+.preg-warn { background: var(--surface-2); border-radius: 8px; padding: 4px 12px 8px; margin-top: 10px; }
+.badge.evd-established { color: var(--lvl-68); } .badge.evd-emerging { color: var(--trad-classical); border-style: dashed; }
+.pregnancy .wl-table td { font-size: 0.85rem; }
+.pregnancy sup a { text-decoration: none; font: 600 0.7rem var(--sans); }
