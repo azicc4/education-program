@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Teacher Plan · Formation Program</title>
-  <meta name="description" content="What the teacher reads, studies and prepares, and when: built from the curriculum and each child's progress.">
+  <title>Gestation Plan · Formation Program</title>
+  <meta name="description" content="Nutrition and exercise from before conception through pregnancy, the postpartum months and the baby's first year, by stage, with sources.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -20,8 +20,8 @@
         <a href="tree.html">Skill Tree</a>
         <a href="radial.html">Radial Tree</a>
         <a href="hours.html">School Hours</a>
-        <a href="teacher.html" aria-current="page">Teacher Plan</a>
-        <a href="parents.html">Parent Curriculum</a>
+        <a href="teacher.html">Teacher Plan</a>
+        <a href="parents.html" aria-current="page">Parent Curriculum</a>
         <a href="founding.html">Founding-Era Reading</a>
         <a href="exams.html">Exams</a>
         <a href="family.html">Family Progress</a>
@@ -30,25 +30,15 @@
     </div>
   </header>
 
-  <main class="teacher">
-    <p class="intro">
-      The teacher's plan is built from the curriculum and each child's progress, so it changes whenever either does. The teacher
-      reads every core text and prepares each unit one to two months ahead of the student, studies each language a year ahead,
-      and prepares art, outdoor and other physical skills at least six months ahead. A unit taken by two children is prepared once.
-    </p>
-    <div id="teacher-controls" class="filters"></div>
-    <div id="teacher-summary"></div>
-    <div id="teacher-chart"></div>
-    <div id="teacher-now"></div>
-    <div id="teacher-next"></div>
-    <div id="teacher-grades"></div>
-    <div id="teacher-rules"></div>
+  <main class="parents pregnancy">
+    <p class="crumbs"><a href="parents.html">← Parent Curriculum</a></p>
+    <div id="preg-view"></div>
   </main>
 
   <script src="data/curriculum.js"></script>
+  <script src="data/parents.js"></script>
   <script src="assets/store.js"></script>
-  <script src="assets/demo.js"></script>
   <script src="assets/common.js"></script>
-  <script src="assets/teacher.js"></script>
+  <script src="assets/pregnancy.js"></script>
 </body>
 </html>

@@ -1,0 +1,1056 @@
+section: child-development
+items:
+  # ---------------------------------------------------------------------------
+  # Attachment and responsive care
+  # ---------------------------------------------------------------------------
+  - id: ainsworth-strange-situation
+    title: "Attachment, Exploration, and Separation: Illustrated by the Behavior of One-Year-Olds in a Strange Situation"
+    author: Mary D. Salter Ainsworth and Silvia M. Bell
+    year: 1970
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [0-1, 1-3]
+    traits: [attachment, love, resilience]
+    summary: >-
+      The founding report of the Strange Situation procedure, in which infants are observed through brief separations
+      from and reunions with a caregiver. It describes how a securely attached infant uses the parent as a "secure
+      base" for exploration and a haven when distressed, and links these patterns to the caregiver's sensitivity at
+      home. For parents, the core lesson is that reliable, prompt and accurate responses to a baby's signals support
+      both comfort-seeking and confident exploration.
+    caveats: >-
+      Based on a small, homogeneous sample of middle-class American families; the distribution of attachment patterns
+      varies across cultures. Later meta-analyses find that early attachment security predicts later social competence
+      and behaviour problems, but the associations are modest in size rather than deterministic.
+    citation: "Ainsworth, M. D. S., & Bell, S. M. (1970). Attachment, exploration, and separation: Illustrated by the behavior of one-year-olds in a strange situation. Child Development, 41(1), 49–67."
+    links:
+      - { label: DOI, url: "https://doi.org/10.2307/1127388" }
+
+  - id: bowlby-secure-base
+    title: "A Secure Base: Parent-Child Attachment and Healthy Human Development"
+    author: John Bowlby
+    year: 1988
+    kind: book
+    evidence: popular-science
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [attachment, love, resilience]
+    summary: >-
+      A collection of late lectures in which the founder of attachment theory summarises its main ideas for a general
+      and professional audience. Bowlby argues that children who can count on an available, responsive parent use that
+      relationship as a secure base from which to explore, and grow into more self-reliant and emotionally stable
+      adults. The chapters on caring for children translate the theory into plain guidance on availability,
+      encouragement of autonomy and avoiding threats of abandonment.
+    caveats: >-
+      Written before much of the modern longitudinal and intervention research; parts retain psychoanalytic framing,
+      and some earlier claims about maternal deprivation have since been qualified.
+    citation: "Bowlby, J. (1988). A secure base: Parent-child attachment and healthy human development. Basic Books."
+    links:
+      - { label: Publisher (Routledge Classics edition), url: "https://www.routledge.com/A-Secure-Base/Bowlby/p/book/9780415355278" }
+
+  - id: bakermans-kranenburg-less-is-more
+    title: "Less Is More: Meta-Analyses of Sensitivity and Attachment Interventions in Early Childhood"
+    author: Marian J. Bakermans-Kranenburg, Marinus H. van IJzendoorn and Femmie Juffer
+    year: 2003
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [pregnancy, 0-1, 1-3, 3-6]
+    traits: [attachment, love]
+    summary: >-
+      Meta-analysis of 70 studies (88 intervention effects) testing whether parental sensitivity and infant attachment
+      security can be improved. Randomized interventions improved insensitive parenting (d = 0.33) and attachment
+      insecurity (d = 0.20); the most effective programmes were relatively brief, used a moderate number of sessions
+      and focused concretely on sensitive behaviour. Interventions that changed sensitivity more also changed
+      attachment more, supporting a causal role of sensitive care.
+    caveats: >-
+      Effect sizes are small to moderate; most studies measured short-term outcomes.
+    citation: "Bakermans-Kranenburg, M. J., van IJzendoorn, M. H., & Juffer, F. (2003). Less is more: Meta-analyses of sensitivity and attachment interventions in early childhood. Psychological Bulletin, 129(2), 195–215."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0033-2909.129.2.195" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/12696839/" }
+
+  - id: hoffman-circle-of-security-study
+    title: "Changing Toddlers' and Preschoolers' Attachment Classifications: The Circle of Security Intervention"
+    author: Kent T. Hoffman, Robert S. Marvin, Glen Cooper and Bert Powell
+    year: 2006
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [1-3, 3-6]
+    traits: [attachment, love, empathy]
+    summary: >-
+      Evaluation of the 20-week group Circle of Security programme with 65 caregiver-child dyads from Head Start and
+      Early Head Start. After the programme, many children moved from disorganized to organized attachment, with a
+      majority classified as secure, and almost no secure children became insecure. The programme teaches parents to
+      read a child's needs for both exploration and comfort ("being with" the child) and to repair ruptures.
+    caveats: >-
+      Pre-post design without a control group. Later randomized trials of the shorter Circle of Security-Parenting
+      format report mixed or subgroup-specific effects.
+    citation: "Hoffman, K. T., Marvin, R. S., Cooper, G., & Powell, B. (2006). Changing toddlers' and preschoolers' attachment classifications: The Circle of Security intervention. Journal of Consulting and Clinical Psychology, 74(6), 1017–1026."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0022-006X.74.6.1017" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/17154732/" }
+
+  - id: hoffman-raising-a-secure-child
+    title: "Raising a Secure Child: How Circle of Security Parenting Can Help You Nurture Your Child's Attachment, Emotional Resilience, and Freedom to Explore"
+    author: Kent Hoffman, Glen Cooper and Bert Powell
+    year: 2017
+    kind: book
+    evidence: clinical
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12]
+    traits: [attachment, love, resilience, empathy]
+    summary: >-
+      The developers of the Circle of Security programme present its ideas for parents: the child's alternating needs
+      to explore and to return for comfort, the parent as "bigger, stronger, wiser, and kind," and the importance of
+      repairing inevitable mistakes. It emphasises that good-enough, not perfect, responsiveness is what children need
+      and helps parents notice the needs that make them personally uncomfortable.
+    caveats: >-
+      The self-help format has not itself been tested in trials; evidence for the group programme is promising but
+      mixed (see the 2006 study entry).
+    citation: "Hoffman, K., Cooper, G., & Powell, B. (with Benton, C. M.). (2017). Raising a secure child: How Circle of Security parenting can help you nurture your child's attachment, emotional resilience, and freedom to explore. Guilford Press."
+    links:
+      - { label: Publisher, url: "https://www.guilford.com/books/Raising-a-Secure-Child/Hoffman-Cooper-Powell/9781462527632" }
+
+  - id: kochanska-mutually-responsive-orientation
+    title: "Mutually Responsive Orientation Between Mothers and Their Young Children: A Context for the Early Development of Conscience"
+    author: Grazyna Kochanska
+    year: 2002
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [1-3, 3-6]
+    traits: [attachment, cooperation, honesty, self-control, love]
+    summary: >-
+      Summarises a longitudinal research programme showing that a mutually responsive, positive parent-child
+      relationship in toddlerhood (shared warmth, cooperation and responsiveness on both sides) predicts children's
+      later "committed compliance" and conscience: following rules when unobserved and feeling concern after wrongdoing.
+      Children in such relationships become willing partners who embrace parental values rather than merely submitting.
+      The practical implication is that a warm, cooperative relationship is the foundation on which discipline works.
+    caveats: >-
+      Correlational longitudinal data from mostly middle-class samples; child temperament also shapes the relationship.
+    citation: "Kochanska, G. (2002). Mutually responsive orientation between mothers and their young children: A context for the early development of conscience. Current Directions in Psychological Science, 11(6), 191–195."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/1467-8721.00198" }
+
+  # ---------------------------------------------------------------------------
+  # Parenting styles: warmth plus structure
+  # ---------------------------------------------------------------------------
+  - id: baumrind-authoritative-control
+    title: "Effects of Authoritative Parental Control on Child Behavior"
+    author: Diana Baumrind
+    year: 1966
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [discipline, love, self-control, responsibility]
+    summary: >-
+      The paper that introduced the distinction between permissive, authoritarian and authoritative parental control.
+      Authoritative parents combine firm, clearly explained expectations with warmth, reasoning and respect for the
+      child's growing autonomy; Baumrind argues this pattern best supports self-reliant, self-controlled and cooperative
+      children. The typology still organises most research on parenting style.
+    caveats: >-
+      A conceptual paper; Baumrind's supporting studies used small, largely white middle-class samples, and the
+      benefits of particular styles vary somewhat by culture and context. Associations are correlational.
+    citation: "Baumrind, D. (1966). Effects of authoritative parental control on child behavior. Child Development, 37(4), 887–907."
+    links:
+      - { label: DOI, url: "https://doi.org/10.2307/1126611" }
+
+  - id: pinquart-parenting-styles-meta-analyses
+    title: "Associations of Parenting Dimensions and Styles with Externalizing Problems of Children and Adolescents: An Updated Meta-Analysis"
+    author: Martin Pinquart
+    year: 2017
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [discipline, love, self-control, responsibility]
+    summary: >-
+      Integrates 1,435 studies: parental warmth, behavioural control (monitoring, clear rules), autonomy granting and an
+      authoritative style are associated with fewer conduct and aggression problems, while harsh control and
+      psychological control (guilt, love withdrawal) show the strongest links to more problems. Several associations are
+      bidirectional over time: difficult behaviour also elicits harsher parenting. A companion meta-analysis (Pinquart,
+      2016) finds the same dimensions, especially authoritative parenting, related to higher academic achievement.
+    caveats: >-
+      Effect sizes are very small to small and mostly correlational; the bidirectional findings caution against
+      attributing children's behaviour solely to parenting.
+    citation: "Pinquart, M. (2017). Associations of parenting dimensions and styles with externalizing problems of children and adolescents: An updated meta-analysis. Developmental Psychology, 53(5), 873–932. See also Pinquart, M. (2016). Associations of parenting styles and dimensions with academic achievement in children and adolescents: A meta-analysis. Educational Psychology Review, 28(3), 475–493."
+    links:
+      - { label: DOI (2017 externalizing), url: "https://doi.org/10.1037/dev0000295" }
+      - { label: PubMed (2017), url: "https://pubmed.ncbi.nlm.nih.gov/28459276/" }
+      - { label: DOI (2016 achievement), url: "https://doi.org/10.1007/s10648-015-9338-y" }
+
+  # ---------------------------------------------------------------------------
+  # Self-control
+  # ---------------------------------------------------------------------------
+  - id: moffitt-childhood-self-control
+    title: "A Gradient of Childhood Self-Control Predicts Health, Wealth, and Public Safety"
+    author: Terrie E. Moffitt et al.
+    year: 2011
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [self-control, responsibility, health]
+    summary: >-
+      In the Dunedin cohort of 1,037 New Zealand children followed from birth to age 32, lower self-control in childhood
+      (ages 3–11) predicted poorer physical health, substance dependence, financial problems and criminal convictions in
+      adulthood, along a gradient across the whole population, independent of IQ and family social class. A British
+      sibling comparison found similar effects. Because the gradient spans everyone, not only a troubled minority, the
+      authors argue that even modest, population-wide improvements in self-control could pay off.
+    caveats: >-
+      Observational data; confounding is controlled statistically rather than by experiment, and the study does not
+      show which ways of building self-control work.
+    citation: "Moffitt, T. E., Arseneault, L., Belsky, D., Dickson, N., Hancox, R. J., Harrington, H., Houts, R., Poulton, R., Roberts, B. W., Ross, S., Sears, M. R., Thomson, W. M., & Caspi, A. (2011). A gradient of childhood self-control predicts health, wealth, and public safety. Proceedings of the National Academy of Sciences, 108(7), 2693–2698."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1073/pnas.1010076108" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3041102/" }
+
+  - id: watts-marshmallow-test-revisited
+    title: "Revisiting the Marshmallow Test: A Conceptual Replication Investigating Links Between Early Delay of Gratification and Later Outcomes"
+    author: Tyler W. Watts, Greg J. Duncan and Haonan Quan
+    year: 2018
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [self-control]
+    summary: >-
+      Re-examines the famous Stanford "marshmallow" studies (Mischel, Shoda & Rodriguez, 1989) in a larger, more diverse
+      U.S. sample. Waiting longer at age 4 predicted somewhat higher achievement at 15, but the correlation was half the
+      size originally reported and shrank by about two-thirds after accounting for family background, early cognitive
+      ability and the home environment; links to adolescent behaviour were small and rarely significant. The lesson for
+      parents is that one test of waiting is not destiny; broader family conditions and skills matter more.
+    caveats: >-
+      Focuses on children of mothers without a college degree; delay of gratification is only one facet of
+      self-control, which in broader measures (see Moffitt et al., 2011) remains predictive.
+    citation: "Watts, T. W., Duncan, G. J., & Quan, H. (2018). Revisiting the marshmallow test: A conceptual replication investigating links between early delay of gratification and later outcomes. Psychological Science, 29(7), 1159–1177."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1177/0956797618761661" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075/" }
+      - { label: Original study (Mischel et al., 1989, Science), url: "https://doi.org/10.1126/science.2658056" }
+
+  # ---------------------------------------------------------------------------
+  # Motivation, ambition and effort
+  # ---------------------------------------------------------------------------
+  - id: dweck-mindset
+    title: "Mindset: The New Psychology of Success"
+    author: Carol S. Dweck
+    year: 2006
+    kind: book
+    evidence: popular-science
+    audience: [parents, teens]
+    stages: [6-12, 12-18, adult]
+    traits: [ambition, resilience, humility]
+    summary: >-
+      Argues that people who believe abilities can be developed (a "growth mindset") seek challenges, persist after
+      setbacks and learn from criticism, while those who believe abilities are fixed avoid risks that might expose a
+      lack of talent. The parenting chapters recommend praising effort, strategies and progress rather than innate
+      ability, and treating mistakes as information. The 2016 updated edition warns against a "false growth mindset"
+      that praises effort alone.
+    caveats: >-
+      Two meta-analyses (Sisk et al., 2018) found weak overall links between mindset and achievement and very small
+      average effects of mindset interventions, with somewhat larger benefits for low-income or academically at-risk
+      students. A large national U.S. trial (Yeager et al., 2019) found a small improvement in grades concentrated among
+      lower-achieving students.
+    citation: "Dweck, C. S. (2006). Mindset: The new psychology of success. Random House."
+    links:
+      - { label: Publisher, url: "https://www.penguinrandomhouse.com/books/44330/mindset-by-carol-s-dweck-phd/" }
+      - { label: Sisk et al. 2018 meta-analyses (DOI), url: "https://doi.org/10.1177/0956797617739704" }
+      - { label: Yeager et al. 2019 national experiment (DOI), url: "https://doi.org/10.1038/s41586-019-1466-y" }
+
+  - id: duckworth-grit
+    title: "Grit: The Power of Passion and Perseverance"
+    author: Angela Duckworth
+    year: 2016
+    kind: book
+    evidence: popular-science
+    audience: [parents, teens]
+    stages: [6-12, 12-18, adult]
+    traits: [ambition, resilience, self-control]
+    summary: >-
+      Argues that sustained passion and perseverance toward long-term goals predict achievement beyond talent. The
+      chapter on "parenting for grit" draws on parenting-style research to recommend combining warmth and support with
+      high expectations, and suggests a family "hard thing rule": each child chooses a demanding activity, cannot quit
+      mid-season, and practises deliberately.
+    caveats: >-
+      A meta-analysis of 88 samples (Credé, Tynan & Harms, 2017) found grit only moderately related to performance and
+      very strongly correlated with conscientiousness, questioning whether it is a distinct trait; the perseverance
+      facet predicted outcomes better than consistency of interest.
+    citation: "Duckworth, A. (2016). Grit: The power of passion and perseverance. Scribner."
+    links:
+      - { label: Publisher, url: "https://www.simonandschuster.com/books/Grit/Angela-Duckworth/9781501111105" }
+      - { label: Credé et al. 2017 meta-analysis (DOI), url: "https://doi.org/10.1037/pspp0000102" }
+
+  - id: ryan-deci-self-determination-theory
+    title: "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being"
+    author: Richard M. Ryan and Edward L. Deci
+    year: 2000
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18, adult]
+    traits: [ambition, happiness, responsibility]
+    summary: >-
+      The most-cited overview of self-determination theory: people thrive and internalize values when three
+      psychological needs are met: autonomy (acting from genuine endorsement), competence and relatedness. Controlling
+      contexts, including pressure, threats and many contingent rewards, undermine intrinsic motivation, whereas
+      offering meaningful choices, explaining the reasons for rules and acknowledging feelings help children take
+      ownership of values and effort.
+    caveats: >-
+      A broad theoretical review; individual findings (for example, reward effects) depend on how rewards are given.
+    citation: "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0003-066X.55.1.68" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/11392867/" }
+
+  - id: grolnick-ryan-parent-styles
+    title: "Parent Styles Associated with Children's Self-Regulation and Competence in School"
+    author: Wendy S. Grolnick and Richard M. Ryan
+    year: 1989
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [6-12]
+    traits: [ambition, self-control, responsibility]
+    summary: >-
+      Interviews with mothers and fathers of elementary-school children rated three dimensions of parenting: autonomy
+      support, involvement and structure. Parents' autonomy support (versus control) was associated with children's
+      more autonomous self-regulation, teacher-rated competence and adjustment, and achievement; involvement also
+      mattered. The study grounded the distinction between supporting children's self-direction and controlling them,
+      developed further in Grolnick's later work on parental control.
+    caveats: >-
+      Cross-sectional and correlational, with a modest sample.
+    citation: "Grolnick, W. S., & Ryan, R. M. (1989). Parent styles associated with children's self-regulation and competence in school. Journal of Educational Psychology, 81(2), 143–154."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0022-0663.81.2.143" }
+
+  - id: vasquez-parent-autonomy-support-meta
+    title: "Parent Autonomy Support, Academic Achievement, and Psychosocial Functioning: A Meta-Analysis of Research"
+    author: Ariana C. Vasquez et al.
+    year: 2016
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [6-12, 12-18]
+    traits: [ambition, happiness, responsibility]
+    summary: >-
+      Synthesises 36 studies of parental autonomy support: taking the child's perspective, offering choices, giving
+      rationales and encouraging initiative. Autonomy support was associated with higher academic achievement and with
+      adaptive psychosocial outcomes such as autonomous motivation, perceived competence, engagement and, most strongly,
+      psychological health; links were stronger when both parents were autonomy-supportive. It offers a research basis
+      for supporting, rather than pressuring, children's schoolwork and ambitions.
+    caveats: >-
+      Mostly correlational studies; effect sizes are small to moderate.
+    citation: "Vasquez, A. C., Patall, E. A., Fong, C. J., Corrigan, A. S., & Pine, L. (2016). Parent autonomy support, academic achievement, and psychosocial functioning: A meta-analysis of research. Educational Psychology Review, 28(3), 605–644."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1007/s10648-015-9329-z" }
+
+  # ---------------------------------------------------------------------------
+  # Humility
+  # ---------------------------------------------------------------------------
+  - id: tangney-humility
+    title: "Humility: Theoretical Perspectives, Empirical Findings and Directions for Future Research"
+    author: June Price Tangney
+    year: 2000
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [all]
+    traits: [humility]
+    summary: >-
+      A foundational review that defines humility not as low self-regard but as an accurate assessment of one's
+      abilities, the ability to acknowledge mistakes and limitations, openness to new ideas and advice, keeping one's
+      accomplishments in perspective, relatively low self-focus, and appreciation of the worth of others. It distinguishes
+      humility from modesty and shame and notes the difficulty of measuring it by self-report.
+    caveats: >-
+      Primarily conceptual; written when empirical research on humility was sparse.
+    citation: "Tangney, J. P. (2000). Humility: Theoretical perspectives, empirical findings and directions for future research. Journal of Social and Clinical Psychology, 19(1), 70–82."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1521/jscp.2000.19.1.70" }
+
+  - id: davis-worthington-hook-humility
+    title: "Humility: Review of Measurement Strategies and Conceptualization as Personality Judgment"
+    author: Don E. Davis, Everett L. Worthington Jr. and Joshua N. Hook
+    year: 2010
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [all]
+    traits: [humility, cooperation]
+    summary: >-
+      Reviews ways of measuring humility and proposes that it is best understood as a judgment others make about a
+      person: an accurate view of oneself combined with an other-oriented rather than self-focused stance in
+      relationships. This "relational humility" approach launched a line of research linking humility to stronger
+      relationships, forgiveness and cooperation. For families, it highlights that humility shows in how a person treats
+      others, especially when they could claim credit or status.
+    caveats: >-
+      Adult-focused; research on how parents foster humility in children remains limited.
+    citation: "Davis, D. E., Worthington, E. L., Jr., & Hook, J. N. (2010). Humility: Review of measurement strategies and conceptualization as personality judgment. The Journal of Positive Psychology, 5(4), 243–252."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1080/17439761003791672" }
+
+  - id: danovitch-childrens-intellectual-humility
+    title: "Intelligence and Neurophysiological Markers of Error Monitoring Relate to Children's Intellectual Humility"
+    author: Judith H. Danovitch et al.
+    year: 2019
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [6-12]
+    traits: [humility, ambition]
+    summary: >-
+      Studied intellectual humility, the recognition of the limits of one's own knowledge, in 127 children aged 6–8,
+      measured by how accurately they judged what they knew and whether they deferred hard questions to experts. Older
+      children showed more intellectual humility, and greater humility was associated with higher intelligence and with
+      brain responses that monitor errors. It suggests that admitting "I don't know" accompanies, rather than signals a
+      lack of, strong thinking.
+    caveats: >-
+      A single correlational study in a young, emerging field; it does not test how parents can foster humility.
+    citation: "Danovitch, J. H., Fisher, M., Schroder, H., Hambrick, D. Z., & Moser, J. (2019). Intelligence and neurophysiological markers of error monitoring relate to children's intellectual humility. Child Development, 90(3), 924–939."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/cdev.12960" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/28922467/" }
+
+  # ---------------------------------------------------------------------------
+  # Prosocial behaviour, empathy and cooperation
+  # ---------------------------------------------------------------------------
+  - id: warneken-tomasello-altruistic-helping
+    title: "Altruistic Helping in Human Infants and Young Chimpanzees"
+    author: Felix Warneken and Michael Tomasello
+    year: 2006
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [1-3]
+    traits: [cooperation, empathy, love]
+    summary: >-
+      Showed that 18-month-old toddlers spontaneously help an unfamiliar adult who is struggling to reach a goal, such
+      as picking up a dropped object or opening a cabinet, without being asked or rewarded. The finding, central to
+      Tomasello's later book Why We Cooperate, indicates that the impulse to help appears very early. Parents can
+      welcome toddlers' attempts to help with real household tasks rather than discouraging them as inefficient.
+    caveats: >-
+      Laboratory tasks with small samples; how early helping develops into broader kindness depends on later
+      socialization.
+    citation: "Warneken, F., & Tomasello, M. (2006). Altruistic helping in human infants and young chimpanzees. Science, 311(5765), 1301–1303."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1126/science.1121448" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/16513986/" }
+
+  - id: warneken-tomasello-rewards-undermine-helping
+    title: "Extrinsic Rewards Undermine Altruistic Tendencies in 20-Month-Olds"
+    author: Felix Warneken and Michael Tomasello
+    year: 2008
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [1-3, 3-6]
+    traits: [cooperation, empathy]
+    summary: >-
+      Toddlers who received a material reward (a toy) for helping later helped less than toddlers who had received
+      social praise or no reward at all. The authors interpret this as an overjustification effect: early helping is
+      intrinsically motivated, and paying children for kindness can crowd it out. The practical implication is to
+      respond to helpfulness with appreciation rather than prizes.
+    caveats: >-
+      A small laboratory experiment with a short-term outcome.
+    citation: "Warneken, F., & Tomasello, M. (2008). Extrinsic rewards undermine altruistic tendencies in 20-month-olds. Developmental Psychology, 44(6), 1785–1788."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/a0013860" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/18999339/" }
+
+  - id: eisenberg-prosocial-development
+    title: "Prosocial Development"
+    author: Nancy Eisenberg, Tracy L. Spinrad and Ariel Knafo-Noam
+    year: 2015
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [empathy, cooperation, love]
+    summary: >-
+      The authoritative handbook chapter on how helping, sharing, comforting and sympathy develop from infancy through
+      adolescence. It reviews genetic and temperamental influences, the role of empathy and emotion regulation, and
+      socialization: warm, supportive parenting, explaining the effects of behaviour on others (induction), modelling,
+      discussing emotions and giving children real opportunities to help are each associated with more prosocial
+      children.
+    caveats: >-
+      A scholarly reference work rather than a parenting guide; much of the socialization evidence is correlational.
+    citation: "Eisenberg, N., Spinrad, T. L., & Knafo-Noam, A. (2015). Prosocial development. In M. E. Lamb (Vol. Ed.) & R. M. Lerner (Series Ed.), Handbook of child psychology and developmental science: Vol. 3. Socioemotional processes (7th ed.). Wiley."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1002/9781118963418.childpsy315" }
+
+  - id: grusec-goodnow-internalization-of-values
+    title: "Impact of Parental Discipline Methods on the Child's Internalization of Values: A Reconceptualization of Current Points of View"
+    author: Joan E. Grusec and Jacqueline J. Goodnow
+    year: 1994
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [discipline, empathy, honesty, responsibility]
+    summary: >-
+      An influential review arguing that children internalize parental values in two steps: they must first perceive
+      the parent's message accurately and then accept it. Clarity, consistency and explanations help perception;
+      acceptance depends on whether the child sees the response as fair and fitting, on a warm relationship, and on the
+      child feeling that the value is his or her own rather than imposed. No single discipline technique is best in all
+      situations, so responses should fit the misdeed and the child.
+    caveats: >-
+      A conceptual synthesis; its specific predictions have been tested only partially.
+    citation: "Grusec, J. E., & Goodnow, J. J. (1994). Impact of parental discipline methods on the child's internalization of values: A reconceptualization of current points of view. Developmental Psychology, 30(1), 4–19."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0012-1649.30.1.4" }
+
+  - id: layous-kindness-counts
+    title: "Kindness Counts: Prompting Prosocial Behavior in Preadolescents Boosts Peer Acceptance and Well-Being"
+    author: Kristin Layous et al.
+    year: 2012
+    kind: article
+    evidence: research
+    audience: [parents, children]
+    stages: [6-12]
+    traits: [empathy, cooperation, happiness]
+    summary: >-
+      In 19 Vancouver classrooms, 9- to 11-year-olds were asked to perform three acts of kindness a week for four weeks
+      or, in the comparison group, to visit three places a week. Both groups improved in well-being, but children who
+      did kind acts gained significantly more peer acceptance. It suggests that deliberately practising kindness can make
+      children both happier and better liked, which families can encourage at home.
+    caveats: >-
+      A single four-week classroom study with self-reported well-being; long-term effects are unknown.
+    citation: "Layous, K., Nelson, S. K., Oberle, E., Schonert-Reichl, K. A., & Lyubomirsky, S. (2012). Kindness counts: Prompting prosocial behavior in preadolescents boosts peer acceptance and well-being. PLoS ONE, 7(12), e51380."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1371/journal.pone.0051380" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3530573/" }
+
+  # ---------------------------------------------------------------------------
+  # Honesty
+  # ---------------------------------------------------------------------------
+  - id: talwar-lee-punitive-environment
+    title: "A Punitive Environment Fosters Children's Dishonesty: A Natural Experiment"
+    author: Victoria Talwar and Kang Lee
+    year: 2011
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [3-6]
+    traits: [honesty, discipline]
+    summary: >-
+      Compared 3- and 4-year-old West African children from a school using harsh physical punishment with children from
+      a non-punitive school. After peeking at a forbidden toy, most children from the punitive school lied about it, and
+      they were better at sustaining the lie under questioning. A follow-up experiment (Talwar, Arruda & Yachison, 2015)
+      found that threatened punishment alone did not increase truth-telling in 4- to 8-year-olds, whereas telling
+      children that honesty would please the adult did.
+    caveats: >-
+      The first study compared two schools rather than randomly assigning children; both are laboratory measures of a
+      single lie.
+    citation: "Talwar, V., & Lee, K. (2011). A punitive environment fosters children's dishonesty: A natural experiment. Child Development, 82(6), 1751–1758."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/j.1467-8624.2011.01663.x" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3218233/" }
+      - { label: Talwar et al. 2015 follow-up (DOI), url: "https://doi.org/10.1016/j.jecp.2014.09.011" }
+
+  - id: lee-classic-moral-stories-honesty
+    title: "Can Classic Moral Stories Promote Honesty in Children?"
+    author: Kang Lee et al.
+    year: 2014
+    kind: article
+    evidence: research
+    audience: [parents, children]
+    stages: [3-6, 6-12]
+    traits: [honesty]
+    summary: >-
+      Tested four classic stories with 3- to 7-year-olds. "Pinocchio" and "The Boy Who Cried Wolf", which emphasise the
+      bad consequences of lying, did not reduce lying, while "George Washington and the Cherry Tree", in which honesty is
+      praised, significantly increased truth-telling; when the Washington story was altered to stress punishment, the
+      effect disappeared. Emphasising the positive results of honesty, including a warm response to confessions, appears
+      more effective than warning about the costs of lying.
+    caveats: >-
+      A single experiment with an immediate laboratory outcome.
+    citation: "Lee, K., Talwar, V., McCarthy, A., Ross, I., Evans, A., & Arruda, C. (2014). Can classic moral stories promote honesty in children? Psychological Science, 25(8), 1630–1636."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1177/0956797614536401" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/24928424/" }
+
+  # ---------------------------------------------------------------------------
+  # Emotion coaching
+  # ---------------------------------------------------------------------------
+  - id: gottman-raising-emotionally-intelligent-child
+    title: "Raising an Emotionally Intelligent Child: The Heart of Parenting"
+    author: John Gottman with Joan DeClaire
+    year: 1997
+    kind: book
+    evidence: popular-science
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [empathy, communication, self-control, resilience]
+    summary: >-
+      Presents "emotion coaching", derived from Gottman's laboratory studies of families, as five steps: notice the
+      child's emotion, see it as an opportunity for closeness and teaching, listen empathetically and validate the
+      feeling, help the child name it, and set limits while solving the problem together. Contrasts coaching with
+      dismissing, disapproving and laissez-faire responses to children's feelings. First published as The Heart of
+      Parenting.
+    caveats: >-
+      The supporting studies are largely correlational and from relatively small samples; later evaluated programmes
+      based on emotion coaching show benefits, but the book itself has not been tested.
+    citation: "Gottman, J., & DeClaire, J. (1997). The heart of parenting: How to raise an emotionally intelligent child. Simon & Schuster."
+    links:
+      - { label: Publisher, url: "https://www.simonandschuster.com/books/Raising-An-Emotionally-Intelligent-Child/John-Gottman/9780684838656" }
+
+  - id: gottman-katz-hooven-meta-emotion
+    title: "Parental Meta-Emotion Philosophy and the Emotional Life of Families: Theoretical Models and Preliminary Data"
+    author: John M. Gottman, Lynn Fainsilber Katz and Carole Hooven
+    year: 1996
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12]
+    traits: [empathy, communication, self-control]
+    summary: >-
+      Introduced "meta-emotion": parents' feelings and beliefs about emotions, their own and their children's. In a
+      longitudinal study of families with preschool children, parents who were aware of emotions and coached their
+      children through them had children who later showed better physiological regulation, peer relations and academic
+      achievement. This is the research foundation for the emotion-coaching approach.
+    caveats: >-
+      Described by the authors as preliminary; a small sample and correlational design.
+    citation: "Gottman, J. M., Katz, L. F., & Hooven, C. (1996). Parental meta-emotion philosophy and the emotional life of families: Theoretical models and preliminary data. Journal of Family Psychology, 10(3), 243–268."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0893-3200.10.3.243" }
+
+  # ---------------------------------------------------------------------------
+  # Gratitude and happiness
+  # ---------------------------------------------------------------------------
+  - id: froh-counting-blessings-adolescents
+    title: "Counting Blessings in Early Adolescents: An Experimental Study of Gratitude and Subjective Well-Being"
+    author: Jeffrey J. Froh, William J. Sefick and Robert A. Emmons
+    year: 2008
+    kind: article
+    evidence: research
+    audience: [parents, teens]
+    stages: [12-18]
+    traits: [happiness, humility, love]
+    summary: >-
+      Eleven middle-school classes (221 students) were randomly assigned to list things they were grateful for, list
+      daily hassles, or do neither. Counting blessings increased gratitude, optimism and life satisfaction and reduced
+      negative affect, with the clearest lasting effect on satisfaction with school. Froh and Bono later expanded this
+      research into practical guidance in Making Grateful Kids (2014).
+    caveats: >-
+      Self-reported outcomes over three weeks; effects of gratitude interventions are generally small.
+    citation: "Froh, J. J., Sefick, W. J., & Emmons, R. A. (2008). Counting blessings in early adolescents: An experimental study of gratitude and subjective well-being. Journal of School Psychology, 46(2), 213–233."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1016/j.jsp.2007.03.005" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/19083358/" }
+
+  # ---------------------------------------------------------------------------
+  # Praise
+  # ---------------------------------------------------------------------------
+  - id: mueller-dweck-praise-intelligence
+    title: "Praise for Intelligence Can Undermine Children's Motivation and Performance"
+    author: Claudia M. Mueller and Carol S. Dweck
+    year: 1998
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [6-12]
+    traits: [ambition, resilience, honesty]
+    summary: >-
+      Six experiments with fifth graders compared praise for intelligence ("you must be smart") with praise for effort.
+      After a later failure, children praised for intelligence enjoyed the task less, persisted less, performed worse,
+      chose easier problems and were more likely to misreport their scores. The study is the basis for the advice to
+      praise process (effort, strategy, improvement) rather than fixed traits.
+    caveats: >-
+      Based on brief laboratory tasks; the long-term effects of everyday praise style are less well established.
+    citation: "Mueller, C. M., & Dweck, C. S. (1998). Praise for intelligence can undermine children's motivation and performance. Journal of Personality and Social Psychology, 75(1), 33–52."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0022-3514.75.1.33" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/9686450/" }
+
+  - id: henderlong-lepper-effects-of-praise
+    title: "The Effects of Praise on Children's Intrinsic Motivation: A Review and Synthesis"
+    author: Jennifer Henderlong and Mark R. Lepper
+    year: 2002
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [ambition, communication]
+    summary: >-
+      A comprehensive review concluding that praise can either strengthen or weaken motivation depending on how it is
+      given. Praise helps when it is sincere, credits things the child controls (effort, strategies), supports autonomy
+      rather than control, and conveys attainable standards; it backfires when it feels manipulative or insincere,
+      relies on comparison with others, or sets impossibly high expectations.
+    caveats: >-
+      Much of the evidence comes from short-term experiments.
+    citation: "Henderlong, J., & Lepper, M. R. (2002). The effects of praise on children's intrinsic motivation: A review and synthesis. Psychological Bulletin, 128(5), 774–795."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0033-2909.128.5.774" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/12206194/" }
+
+  - id: brummelman-origins-of-narcissism
+    title: "Origins of Narcissism in Children"
+    author: Eddie Brummelman et al.
+    year: 2015
+    kind: article
+    evidence: research
+    audience: [parents]
+    stages: [6-12]
+    traits: [humility, love]
+    summary: >-
+      Followed 565 Dutch children aged 7–12 and their parents over four waves. Parental overvaluation (believing a child
+      is more special and entitled than others) predicted later child narcissism, whereas parental warmth predicted
+      healthy self-esteem but not narcissism. A related experiment (Brummelman et al., 2014) found that inflated praise
+      ("incredibly beautiful") led children with low self-esteem to avoid challenges. The practical message is to give
+      children warmth and affection rather than telling them they are superior.
+    caveats: >-
+      Observational design; effects are small and the sample was Dutch.
+    citation: "Brummelman, E., Thomaes, S., Nelemans, S. A., Orobio de Castro, B., Overbeek, G., & Bushman, B. J. (2015). Origins of narcissism in children. Proceedings of the National Academy of Sciences, 112(12), 3659–3662."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1073/pnas.1420870112" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4378434/" }
+      - { label: Brummelman et al. 2014 inflated praise (DOI), url: "https://doi.org/10.1177/0956797613514251" }
+
+  # ---------------------------------------------------------------------------
+  # Discipline that works
+  # ---------------------------------------------------------------------------
+  - id: kazdin-method-defiant-child
+    title: "The Kazdin Method for Parenting the Defiant Child"
+    author: Alan E. Kazdin with Carlo Rotella
+    year: 2008
+    kind: book
+    evidence: clinical
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [discipline, self-control, cooperation]
+    summary: >-
+      A practical guide from the director of the Yale Parenting Center, based on decades of trials of parent management
+      training. It teaches the "ABCs": setting up antecedents (clear, calm prompts and choices), shaping the desired
+      "positive opposite" of the problem behaviour through practice, and following it with specific, enthusiastic
+      praise, while keeping punishment mild, brief and rare. Useful well beyond seriously defiant children.
+    caveats: >-
+      The underlying techniques are well supported in clinical trials; the book as a self-help format has less direct
+      evidence.
+    citation: "Kazdin, A. E., & Rotella, C. (2008). The Kazdin method for parenting the defiant child: With no pills, no therapy, no contest of wills. Houghton Mifflin."
+    links:
+      - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-kazdin-method-for-parenting-the-defiant-child-alan-e-kazdin/c0af551a7dc933e9" }
+      - { label: ABCT book listing, url: "https://www.abct.org/books/the-kazdin-method-for-parenting-the-defiant-child/" }
+
+  - id: aap-effective-discipline-2018
+    title: "Effective Discipline to Raise Healthy Children"
+    author: Robert D. Sege, Benjamin S. Siegel, and the AAP Council on Child Abuse and Neglect and Committee on Psychosocial Aspects of Child and Family Health
+    year: 2018
+    kind: report
+    evidence: clinical
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [discipline, love, health]
+    summary: >-
+      The American Academy of Pediatrics policy statement on discipline. It recommends teaching good behaviour through
+      positive reinforcement, clear limits and expectations, redirection and modelling, and advises against corporal
+      punishment and harsh verbal abuse, citing evidence that they increase aggression and behaviour problems and can
+      affect brain development. It summarises the evidence in a form parents can discuss with their child's
+      paediatrician.
+    caveats: >-
+      A policy statement drawing mainly on observational research; some researchers dispute the strength of evidence
+      against all mild physical punishment.
+    citation: "Sege, R. D., Siegel, B. S., Council on Child Abuse and Neglect, & Committee on Psychosocial Aspects of Child and Family Health. (2018). Effective discipline to raise healthy children. Pediatrics, 142(6), e20183112."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1542/peds.2018-3112" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/30397164/" }
+
+  - id: gershoff-grogan-kaylor-spanking-meta
+    title: "Spanking and Child Outcomes: Old Controversies and New Meta-Analyses"
+    author: Elizabeth T. Gershoff and Andrew Grogan-Kaylor
+    year: 2016
+    kind: review
+    evidence: research
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12]
+    traits: [discipline, health]
+    summary: >-
+      Meta-analyses of 111 effect sizes covering about 160,000 children, restricted to ordinary spanking rather than
+      abuse. Spanking was associated with higher risk on 13 of 17 detrimental outcomes, including aggression, antisocial
+      behaviour, mental health problems and poorer parent-child relationships, and with no improved outcomes; the pattern
+      held across study designs and resembled that for physical abuse. It is a central source behind the AAP's
+      recommendation against spanking.
+    caveats: >-
+      Most included studies are correlational; critics argue that some analyses cannot fully separate the effects of
+      spanking from pre-existing child behaviour problems.
+    citation: "Gershoff, E. T., & Grogan-Kaylor, A. (2016). Spanking and child outcomes: Old controversies and new meta-analyses. Journal of Family Psychology, 30(4), 453–469."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/fam0000191" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7992110/" }
+
+  # ---------------------------------------------------------------------------
+  # Screens, play and independence
+  # ---------------------------------------------------------------------------
+  - id: yogman-power-of-play
+    title: "The Power of Play: A Pediatric Role in Enhancing Development in Young Children"
+    author: Michael Yogman et al.
+    year: 2018
+    kind: report
+    evidence: clinical
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12]
+    traits: [happiness, cooperation, self-control, health]
+    summary: >-
+      An American Academy of Pediatrics clinical report summarising evidence that play, especially unstructured,
+      child-directed and parent-child play, supports executive function, language, social skills, emotional regulation
+      and resilience to stress. It recommends that paediatricians "prescribe" play and that families protect time for it
+      against academic pressure and screens.
+    caveats: >-
+      Draws on a mix of experimental, observational and animal research; specific play recommendations are not all
+      directly tested.
+    citation: "Yogman, M., Garner, A., Hutchinson, J., Hirsh-Pasek, K., Golinkoff, R. M., Committee on Psychosocial Aspects of Child and Family Health, & Council on Communications and Media. (2018). The power of play: A pediatric role in enhancing development in young children. Pediatrics, 142(3), e20182058."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1542/peds.2018-2058" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/30126932/" }
+
+  - id: gray-free-to-learn
+    title: "Free to Learn: Why Unleashing the Instinct to Play Will Make Our Children Happier, More Self-Reliant, and Better Students for Life"
+    author: Peter Gray
+    year: 2013
+    kind: book
+    evidence: popular-science
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [happiness, resilience, responsibility, cooperation]
+    summary: >-
+      A developmental psychologist argues, from anthropology, history and psychology, that free, self-directed play with
+      other children is how children learn to solve problems, manage emotions, negotiate and get along. Gray links the
+      decline of free play over recent decades to rising anxiety and depression among young people and urges more
+      unsupervised, mixed-age play. Gray, Lancy and Bjorklund (2023) later summarised the evidence for this hypothesis in
+      The Journal of Pediatrics.
+    caveats: >-
+      The causal link between reduced independence and youth mental health rests mainly on correlational and historical
+      evidence; the book's advocacy of self-directed schooling relies heavily on a single democratic school.
+    citation: "Gray, P. (2013). Free to learn: Why unleashing the instinct to play will make our children happier, more self-reliant, and better students for life. Basic Books."
+    links:
+      - { label: Publisher, url: "https://www.hachettebookgroup.com/titles/peter-gray/free-to-learn/9780465037919/" }
+      - { label: Gray et al. 2023 evidence summary (DOI), url: "https://doi.org/10.1016/j.jpeds.2023.02.004" }
+
+  - id: haidt-anxious-generation
+    title: "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness"
+    author: Jonathan Haidt
+    year: 2024
+    kind: book
+    evidence: popular-science
+    audience: [parents, teens]
+    stages: [6-12, 12-18]
+    traits: [health, happiness, resilience, responsibility]
+    summary: >-
+      Argues that a shift from a "play-based" to a "phone-based" childhood in the early 2010s, combined with
+      overprotection in the real world, drove sharp rises in adolescent anxiety, depression and self-harm. Proposes four
+      norms: no smartphones before high school, no social media before 16, phone-free schools, and far more independence
+      and free play. The practical recommendations on delaying smartphones and expanding independence are concrete and
+      can be adopted by families together.
+    caveats: >-
+      The causal claims are contested. Reviews such as Odgers (2024, Nature) and large analyses such as Orben and
+      Przybylski (2019) find small average associations between digital technology use and adolescent well-being, and
+      argue that other causes are under-examined; supporters cite experimental and natural-experiment evidence. The
+      debate remains open.
+    citation: "Haidt, J. (2024). The anxious generation: How the great rewiring of childhood is causing an epidemic of mental illness. Penguin Press."
+    links:
+      - { label: Publisher, url: "https://www.penguinrandomhouse.com/books/729231/the-anxious-generation-by-jonathan-haidt/" }
+      - { label: Odgers 2024 review in Nature (DOI), url: "https://doi.org/10.1038/d41586-024-00902-2" }
+      - { label: Orben & Przybylski 2019 (DOI), url: "https://doi.org/10.1038/s41562-018-0506-1" }
+
+  - id: lahey-gift-of-failure
+    title: "The Gift of Failure: How the Best Parents Learn to Let Go So Their Children Can Succeed"
+    author: Jessica Lahey
+    year: 2015
+    kind: book
+    evidence: popular
+    audience: [parents]
+    stages: [6-12, 12-18]
+    traits: [resilience, responsibility, self-control]
+    summary: >-
+      A teacher and journalist argues that overprotective parenting denies children the setbacks they need to become
+      competent and resilient. Drawing on research on autonomy-supportive parenting and motivation, it gives concrete
+      advice by age on chores, homework, friendships, sports and school, with the aim of stepping back so children own
+      their responsibilities and learn from mistakes.
+    caveats: >-
+      Written by a practitioner rather than a researcher; it relies partly on anecdote and selective summaries of
+      research.
+    citation: "Lahey, J. (2015). The gift of failure: How the best parents learn to let go so their children can succeed. Harper."
+    links:
+      - { label: Bookshop.org, url: "https://bookshop.org/p/books/the-gift-of-failure-how-the-best-parents-learn-to-let-go-so-their-children-can-succeed-jessica-lahey/394b971630c876c7" }
+
+  - id: lythcott-haims-how-to-raise-an-adult
+    title: "How to Raise an Adult: Break Free of the Overparenting Trap and Prepare Your Kid for Success"
+    author: Julie Lythcott-Haims
+    year: 2015
+    kind: book
+    evidence: popular
+    audience: [parents]
+    stages: [6-12, 12-18]
+    traits: [responsibility, resilience, self-control]
+    summary: >-
+      A former Stanford dean of freshmen describes the costs of "helicopter" parenting she observed in students and
+      draws on research and interviews to recommend an alternative: teach practical life skills, let children solve
+      their own problems and handle consequences, prepare them for hard work, and focus on character over credentials.
+      Includes lists of age-appropriate life skills.
+    caveats: >-
+      Draws heavily on the author's experience with high-achieving students; research on overparenting is mostly
+      correlational.
+    citation: "Lythcott-Haims, J. (2015). How to raise an adult: Break free of the overparenting trap and prepare your kid for success. Henry Holt."
+    links:
+      - { label: Publisher, url: "https://us.macmillan.com/books/9781627791779" }
+
+  # ---------------------------------------------------------------------------
+  # Family meals and routines
+  # ---------------------------------------------------------------------------
+  - id: fiese-family-routines-rituals
+    title: "A Review of 50 Years of Research on Naturally Occurring Family Routines and Rituals: Cause for Celebration?"
+    author: Barbara H. Fiese et al.
+    year: 2002
+    kind: review
+    evidence: research
+    audience: [parents, family]
+    stages: [all]
+    traits: [love, responsibility, health]
+    summary: >-
+      Reviews 32 publications on family routines (regular practices such as mealtimes and bedtimes) and rituals
+      (symbolic, meaningful events such as holidays and traditions). Predictable routines and meaningful rituals were
+      related to parenting competence, children's adjustment and marital satisfaction. It offers a research basis for
+      protecting regular family meals, bedtime routines and traditions.
+    caveats: >-
+      The authors note inconsistent measures, convenience samples and an inability to separate direct from indirect
+      effects.
+    citation: "Fiese, B. H., Tomcho, T. J., Douglas, M., Josephs, K., Poltrock, S., & Baker, T. (2002). A review of 50 years of research on naturally occurring family routines and rituals: Cause for celebration? Journal of Family Psychology, 16(4), 381–390."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0893-3200.16.4.381" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/12561283/" }
+
+  - id: musick-meier-family-dinners
+    title: "Assessing Causality and Persistence in Associations Between Family Dinners and Adolescent Well-Being"
+    author: Kelly Musick and Ann Meier
+    year: 2012
+    kind: article
+    evidence: research
+    audience: [parents, family]
+    stages: [12-18]
+    traits: [health, love, communication]
+    summary: >-
+      Using U.S. Add Health data on nearly 18,000 adolescents, tests whether the well-known benefits of family dinners
+      survive stricter analysis. Associations with lower depressive symptoms, substance use and delinquency remained
+      after controlling for many features of family life, and some held in within-person (fixed-effects) models, but
+      they did not persist directly into adulthood. A related meta-analysis (Hammons & Fiese, 2011) linked three or more
+      family meals a week to healthier eating and weight.
+    caveats: >-
+      The benefits are partly explained by other qualities of close, involved families; meals appear to matter as a
+      setting for connection rather than as a stand-alone fix.
+    citation: "Musick, K., & Meier, A. (2012). Assessing causality and persistence in associations between family dinners and adolescent well-being. Journal of Marriage and Family, 74(3), 476–493."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/j.1741-3737.2012.00973.x" }
+      - { label: PubMed Central (free full text), url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3686529/" }
+      - { label: Hammons & Fiese 2011 meta-analysis (DOI), url: "https://doi.org/10.1542/peds.2010-1440" }
+
+  # ---------------------------------------------------------------------------
+  # Adolescence
+  # ---------------------------------------------------------------------------
+  - id: steinberg-age-of-opportunity
+    title: "Age of Opportunity: Lessons from the New Science of Adolescence"
+    author: Laurence Steinberg
+    year: 2014
+    kind: book
+    evidence: popular-science
+    audience: [parents, teens]
+    stages: [12-18]
+    traits: [self-control, responsibility, resilience]
+    summary: >-
+      A leading adolescence researcher argues that the teenage brain's heightened plasticity makes adolescence a second
+      window of opportunity, and that self-regulation is the most important capacity to build during it. Explains
+      teenagers' reward sensitivity and peer influence, and recommends authoritative parenting (warm, firm and
+      supportive of autonomy), challenging activities and gradual increases in independence.
+    caveats: >-
+      Popular accounts of adolescent brain development simplify a still-developing science; the dual-systems model the
+      book relies on is debated.
+    citation: "Steinberg, L. (2014). Age of opportunity: Lessons from the new science of adolescence. Houghton Mifflin Harcourt."
+    links:
+      - { label: Author page, url: "https://laurencesteinberg.com/books/age-of-opportunity" }
+
+  - id: siegel-brainstorm
+    title: "Brainstorm: The Power and Purpose of the Teenage Brain"
+    author: Daniel J. Siegel
+    year: 2013
+    kind: book
+    evidence: popular-science
+    audience: [parents, teens]
+    stages: [12-18]
+    traits: [communication, empathy, self-control]
+    summary: >-
+      A psychiatrist reframes adolescence as a period of emotional intensity, social engagement, novelty-seeking and
+      creative exploration that is essential for adult life rather than mere immaturity. Written for both teenagers and
+      parents, it explains brain changes during adolescence and offers reflective and communication practices for
+      staying connected while respecting a teen's growing independence.
+    caveats: >-
+      Siegel's interpersonal-neurobiology framework goes beyond what neuroscience research has directly established;
+      the practices are not tested as a package.
+    citation: "Siegel, D. J. (2013). Brainstorm: The power and purpose of the teenage brain. Jeremy P. Tarcher/Penguin."
+    links:
+      - { label: Publisher, url: "https://www.penguinrandomhouse.com/books/310868/brainstorm-by-daniel-j-siegel-md/" }
+
+  # ---------------------------------------------------------------------------
+  # Practical classics by clinicians
+  # ---------------------------------------------------------------------------
+  - id: ginott-between-parent-and-child
+    title: "Between Parent and Child"
+    author: Haim G. Ginott
+    year: 1965
+    kind: book
+    evidence: clinical
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [communication, empathy, discipline]
+    summary: >-
+      A child psychologist's classic on respectful communication: acknowledge children's feelings instead of arguing
+      with them, praise specific actions rather than character, set limits on behaviour (not feelings) without insults
+      or threats, and express anger without attacking the child. It shaped later approaches, including Faber and
+      Mazlish's work and emotion coaching. A revised edition (2003) was updated by Alice Ginott and H. Wallace Goddard.
+    caveats: >-
+      Based on clinical experience rather than controlled research, though its core practices fit later findings on
+      emotion coaching and autonomy support.
+    citation: "Ginott, H. G. (1965). Between parent and child: New solutions to old problems. Macmillan."
+    links:
+      - { label: Publisher (revised edition), url: "https://www.penguinrandomhouse.com/books/60402/between-parent-and-child-revised-and-updated-by-dr-haim-g-ginott-edited-by-dr-alice-ginott-and-dr-h-wallace-goddard/" }
+
+  - id: faber-mazlish-how-to-talk
+    title: "How to Talk So Kids Will Listen & Listen So Kids Will Talk"
+    author: Adele Faber and Elaine Mazlish
+    year: 1980
+    kind: book
+    evidence: popular
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [communication, cooperation, empathy, discipline]
+    summary: >-
+      A workbook-style guide, developed from the authors' parent workshops with Haim Ginott, with cartoons and exercises
+      for everyday situations. Covers helping children deal with feelings, engaging cooperation without nagging (describe
+      the problem, give information, say it in a word), alternatives to punishment, encouraging autonomy and
+      descriptive praise. Widely used for its concrete phrasing that parents can practise.
+    caveats: >-
+      Not formally evaluated as written; its methods are consistent with, but not derived from, controlled research.
+    citation: "Faber, A., & Mazlish, E. (1980). How to talk so kids will listen & listen so kids will talk. Rawson, Wade."
+    links:
+      - { label: Publisher, url: "https://www.simonandschuster.com/books/How-to-Talk-So-Kids-Will-Listen-Listen-So-Kids-Will-Talk/Adele-Faber/The-How-To-Talk-Series/9781451663884" }
+
+  - id: siegel-bryson-whole-brain-child
+    title: "The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind"
+    author: Daniel J. Siegel and Tina Payne Bryson
+    year: 2011
+    kind: book
+    evidence: popular-science
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12]
+    traits: [empathy, self-control, communication, resilience]
+    summary: >-
+      A psychiatrist and a parenting specialist translate developmental neuroscience into twelve strategies for
+      everyday moments, such as "connect and redirect" (soothe first, then reason), "name it to tame it" (help a child
+      tell the story of an upsetting event), and engaging the reflective "upstairs brain" rather than triggering the
+      reactive "downstairs brain." Includes age-by-age examples and a summary sheet.
+    caveats: >-
+      The brain metaphors (left/right, upstairs/downstairs) are simplifications, and the strategies have not been tested
+      as a programme; they align with research on emotion coaching.
+    citation: "Siegel, D. J., & Bryson, T. P. (2011). The whole-brain child: 12 revolutionary strategies to nurture your child's developing mind. Delacorte Press."
+    links:
+      - { label: Publisher, url: "https://www.penguinrandomhouse.com/books/200276/the-whole-brain-child-by-daniel-j-siegel-md-and-tina-payne-bryson-phd/" }

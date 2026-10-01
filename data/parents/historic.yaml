@@ -1,0 +1,652 @@
+section: historic
+items:
+  - id: plutarch-education-children
+    title: "On the Education of Children (De liberis educandis)"
+    author: Pseudo-Plutarch
+    year: 100
+    kind: article
+    evidence: historic
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [self-control, discipline, responsibility, honesty]
+    summary: >-
+      The oldest surviving Greek treatise devoted to raising children. It holds that character comes from three things
+      together: nature, reason (instruction) and habit (practice). It urges mothers to nurse their own children, fathers
+      to choose tutors of proven character, praise and reproof instead of blows, a balance of study and rest, and above
+      all the parents' own example of self-control. It endures as the classical source of the idea that virtue is formed
+      by habituation begun early.
+    caveats: >-
+      Included in Plutarch's Moralia but almost certainly not by Plutarch; date uncertain (1st–2nd century AD, year
+      given is approximate). Written for free, wealthy Greek households that owned slaves; its passage on the love of
+      older men for boys reflects ancient custom and is not a model.
+    citation: "Pseudo-Plutarch. (1927). The education of children. In Moralia, Vol. I (F. C. Babbitt, Trans.). Loeb Classical Library, Harvard University Press. (Original work c. 100 AD)"
+    links:
+      - { label: "LacusCurtius (Babbitt translation)", url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/De_liberis_educandis*.html" }
+
+  - id: quintilian-institutio-oratoria
+    title: "Institutio Oratoria, Book I"
+    author: Quintilian
+    year: 95
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12]
+    traits: [ambition, discipline, communication]
+    summary: >-
+      The opening book of the Roman rhetorician's education of the orator addresses the earliest years: the speech and
+      character of nurses and parents, an early but playful start to letters, the value of praise and friendly rivalry,
+      and the case for schooling alongside other children. It argues firmly against flogging as degrading and
+      counter-productive. It endures as the foundational text of the classical liberal-arts tradition and its high
+      expectations of young children.
+    caveats: >-
+      Aimed at training elite Roman boys for public speaking; girls and the poor are largely absent. Date of composition
+      approximate (c. 95 AD).
+    citation: "Quintilian. (1920). The institutio oratoria of Quintilian, Vol. I (H. E. Butler, Trans.). Loeb Classical Library, Harvard University Press. (Original work c. 95 AD)"
+    links:
+      - { label: "LacusCurtius (Butler translation), Book I", url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/1A*.html" }
+
+  - id: chrysostom-vainglory
+    title: "Address on Vainglory and the Right Way for Parents to Bring Up Their Children"
+    author: St. John Chrysostom
+    year: 388
+    kind: article
+    evidence: faith
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [faith, humility, self-control, discipline]
+    summary: >-
+      Often called the earliest surviving Christian book on parenting. Chrysostom compares the child's soul to a city
+      whose gates (eyes, ears, tongue, touch, smell) parents must guard, and calls fathers and mothers to form "an
+      athlete for Christ" rather than seek worldly fame for their children. He recommends retelling Bible stories such as
+      Cain and Abel and Jacob and Esau at bedtime, training the child in gentleness and the governance of anger, and
+      shielding the young from corrupting entertainment. It endures as a model of character formation centred on the
+      heart and the home.
+    caveats: >-
+      Dated to the mid–late 380s in Antioch (year approximate). Addressed mainly to the raising of sons; its counsel on
+      marriage arrangements and strict seclusion reflects late-antique custom. The standard English version (Laistner,
+      1951) is available through Archive.org's lending library rather than as a free text.
+    citation: "Chrysostom, J. (1951). Address on vainglory and the right way for parents to bring up their children. In M. L. W. Laistner, Christianity and pagan culture in the later Roman Empire. Cornell University Press. (Original work c. 388)"
+    links:
+      - { label: "Archive.org (Laistner, 1951)", url: "https://archive.org/details/christianitypaga0000lais" }
+
+  - id: augustine-confessions
+    title: "Confessions (Books I–IX)"
+    author: St. Augustine of Hippo
+    year: 397
+    kind: book
+    evidence: faith
+    audience: [parents, teens]
+    stages: [6-12, 12-18, adult]
+    traits: [faith, love, humility, resilience]
+    summary: >-
+      Augustine's account of his own childhood and youth: schooling by beatings, the theft of pears, ambition fostered by
+      his parents, and his long wandering before conversion. Its portrait of his mother Monica, whose years of prayer and
+      tears for a wayward son ("the son of these tears") end in his baptism, and of her patience in a difficult marriage
+      (Book IX), has given generations of parents both realism about a child's freedom and hope in persevering prayer.
+    caveats: >-
+      An autobiography and prayer, not a manual. Augustine is frank that his parents also prized worldly success for him
+      above his character, which is itself a lesson.
+    citation: "Augustine. (1886). The confessions (J. G. Pilkington, Trans.). In P. Schaff (Ed.), Nicene and Post-Nicene Fathers, First Series, Vol. 1. Christian Literature Publishing. (Original work c. 397–400)"
+    links:
+      - { label: "New Advent (Pilkington translation)", url: "https://www.newadvent.org/fathers/1101.htm" }
+      - { label: "Book IX: Monica", url: "https://www.newadvent.org/fathers/110109.htm" }
+      - { label: "Project Gutenberg (Pusey translation)", url: "https://www.gutenberg.org/ebooks/3296" }
+
+  - id: vives-christian-woman
+    title: "The Education of a Christian Woman (De institutione feminae Christianae)"
+    author: Juan Luis Vives
+    year: 1524
+    kind: book
+    evidence: historic
+    audience: [parents, couples]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18, adult]
+    traits: [faith, marriage, responsibility, self-control]
+    summary: >-
+      Written for Catherine of Aragon's daughter Mary and praised by Erasmus and More, this Renaissance manual argued that
+      girls of every class should be taught to read and study good books. Its three books follow a woman as maiden, wife
+      and widow, with counsel on a mother nursing and teaching her own children, the duties of spouses to each other, and
+      the household as a school of virtue. It endures as an early, influential case for educating daughters.
+    caveats: >-
+      Many of its views are dated and severe: it restricts women to the household, is preoccupied with female chastity,
+      and urges harsh discipline of daughters. Read as a historical document of Christian humanism.
+    citation: "Vives, J. L. (2000). The education of a Christian woman: A sixteenth-century manual (C. Fantazzi, Ed. & Trans.). University of Chicago Press. (Original work published 1524)"
+    links:
+      - { label: "Archive.org (Fantazzi, 2000)", url: "https://archive.org/details/educationofchris0000vive" }
+
+  - id: erasmus-education-children
+    title: "On the Education of Children (De pueris statim ac liberaliter instituendis)"
+    author: Desiderius Erasmus
+    year: 1529
+    kind: book
+    evidence: historic
+    audience: [parents, children]
+    stages: [1-3, 3-6, 6-12]
+    traits: [discipline, love, responsibility]
+    summary: >-
+      Erasmus argues that a child's formation in letters and piety should begin almost from infancy, that fathers owe
+      their children education as much as life, and that teaching should be gentle, patient and pleasant, since fear and
+      flogging make learning hateful. His companion handbook On Good Manners for Boys (De civilitate morum puerilium,
+      1530) became Europe's standard guide to courtesy, table manners and bearing for children. Both endure as humanist
+      statements that early, loving instruction shapes character.
+    caveats: >-
+      Written for boys of educated families; some advice on classical study and tutors assumes leisure and wealth.
+    citation: "Woodward, W. H. (1904). Desiderius Erasmus concerning the aim and method of education. Cambridge University Press. (Includes De pueris instituendis, original work published 1529)"
+    links:
+      - { label: "Archive.org (Woodward, 1904)", url: "https://archive.org/details/desideriuserasmu00woodiala" }
+      - { label: "A Handbook on Good Manners for Children (Penguin)", url: "https://www.penguin.com.au/books/a-handbook-on-good-manners-for-children-9781409052104" }
+
+  - id: comenius-school-infancy
+    title: "The School of Infancy"
+    author: John Amos Comenius
+    year: 1633
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6]
+    traits: [faith, health, discipline, self-control, honesty]
+    summary: >-
+      A guide for parents on the "mother's lap" school of the first six years, by the Moravian bishop often called the
+      father of modern education. It covers health and diet, learning through the senses and play, the first knowledge of
+      nature and language, and the early training in temperance, cleanliness, obedience, truthfulness and the fear of
+      God. It endures as one of the first works to treat early childhood as a distinct, formative stage for which parents
+      are the first teachers.
+    caveats: >-
+      Medical and dietary advice reflects the 17th century.
+    citation: "Comenius, J. A. (1896). Comenius' School of infancy: An essay on the education of youth during the first six years (W. S. Monroe, Ed.). D. C. Heath. (Original work published 1633)"
+    links:
+      - { label: "Archive.org (Monroe, 1896)", url: "https://archive.org/details/bub_gb_m8dEAAAAIAAJ" }
+
+  - id: baxter-christian-directory
+    title: "A Christian Directory, Part 2: Christian Economics (Family Duties)"
+    author: Richard Baxter
+    year: 1673
+    kind: book
+    evidence: faith
+    audience: [parents, couples, family]
+    stages: [all]
+    traits: [faith, marriage, responsibility, love, discipline]
+    summary: >-
+      The Puritan pastor's comprehensive manual of household life: choosing a spouse, the mutual duties of husband and
+      wife, the duties of parents and children, family worship, catechizing and keeping the Lord's Day. Baxter insists
+      that parents teach children chiefly by love, example and steady instruction, and that the household is a little
+      church. It endures as the fullest classic Protestant treatment of family religion.
+    caveats: >-
+      Long and dense; assumes a patriarchal household with servants. Some directions on authority and correction are
+      stricter than most present-day Christian readers would follow.
+    citation: "Baxter, R. (1673). A Christian directory: Or, a summ of practical theologie, and cases of conscience. Nevill Simmons."
+    links:
+      - { label: "Project Gutenberg (Part 2)", url: "https://www.gutenberg.org/ebooks/43800" }
+      - { label: "CCEL: Practical Works of Richard Baxter", url: "https://www.ccel.org/ccel/baxter/practical.html" }
+
+  - id: fenelon-education-daughters
+    title: "Treatise on the Education of Daughters"
+    author: François Fénelon
+    year: 1687
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [faith, honesty, self-control, discipline]
+    summary: >-
+      The Archbishop of Cambrai's short treatise counsels gentle, indirect teaching that follows a child's curiosity:
+      answering questions truthfully, teaching through stories and conversation rather than dry lessons, correcting
+      without anger, and making virtue and religion attractive rather than gloomy. It endures for its psychological
+      insight into vanity, fear and the child's natural desire to learn.
+    caveats: >-
+      Assumes that girls' learning should serve a domestic vocation; the 1805 English edition adds the translator's own
+      chapter on religious studies.
+    citation: "Fénelon, F. (1805). Fénelon's treatise on the education of daughters (T. F. Dibdin, Trans.). (Original work published 1687)"
+    links:
+      - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/47621" }
+
+  - id: locke-thoughts-education
+    title: "Some Thoughts Concerning Education"
+    author: John Locke
+    year: 1693
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [self-control, discipline, responsibility, honesty, health]
+    summary: >-
+      Originally letters to a friend about his son, this was the most widely read English book on child-rearing for a
+      century. Locke ranks virtue above wisdom, manners and learning; argues that habits formed by practice matter more
+      than rules; prefers esteem and disgrace to beating or bribery; urges parents to reason with children, encourage
+      curiosity and make learning a kind of play; and holds that early firmness can relax into friendship as the child
+      grows. It endures as a source of the ideas of habit training and authority that becomes friendship.
+    caveats: >-
+      Written for a gentleman's son with a tutor. Its "hardening" regimen (cold baths, wet shoes) is outdated medicine.
+    citation: "Locke, J. (1889). Some thoughts concerning education (R. H. Quick, Ed.). Cambridge University Press. (Original work published 1693)"
+    links:
+      - { label: "Archive.org (Quick, 1889)", url: "https://archive.org/details/somethoughtsconc00lockuoft" }
+
+  - id: rousseau-emile
+    title: "Emile, or On Education"
+    author: Jean-Jacques Rousseau
+    year: 1762
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [responsibility, self-control, health]
+    summary: >-
+      A philosophical novel following an imagined pupil from birth to marriage. Rousseau argues that education should
+      follow the stages of a child's natural development, that children learn best from direct experience and the
+      natural consequences of their actions, and that books and abstract reasoning should wait. It shaped nearly all
+      later child-centred education, and parents still draw on its respect for childhood as a stage with its own
+      purposes.
+    caveats: >-
+      Rousseau placed all five of his own children in a foundling hospital, a fact he admitted. The tutor's methods are
+      often manipulative; Book V's education of Sophie confines women to pleasing men; and the "Profession of Faith of
+      the Savoyard Vicar" rejects revealed religion (the book was condemned in Paris and Geneva). Read critically.
+    citation: "Rousseau, J.-J. (1911). Emile, or education (B. Foxley, Trans.). J. M. Dent. (Original work published 1762)"
+    links:
+      - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/5427" }
+
+  - id: wesley-education-children
+    title: "On the Education of Children; On Family Religion (Sermons 95 and 94)"
+    author: John Wesley
+    year: 1783
+    kind: article
+    evidence: faith
+    audience: [parents, family]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [faith, humility, honesty, self-control]
+    summary: >-
+      Two late sermons by the founder of Methodism. "On Family Religion" (Joshua 24:15) calls heads of households to
+      daily family prayer, Scripture and example. "On the Education of Children" (Proverbs 22:6) treats education as the
+      cure of the soul's natural "diseases": atheism, self-will, pride, love of the world, anger, untruthfulness and
+      injustice, each to be met by patient instruction and contrary habits. They endure as compact Protestant statements
+      that parents are responsible for their children's spiritual formation.
+    caveats: >-
+      Wesley's language of "breaking the will," inherited from his mother Susanna, sounds harsh today and has been read
+      as endorsing coercive discipline.
+    citation: "Wesley, J. (1872). Sermon 94: On family religion; Sermon 95: On the education of children. In T. Jackson (Ed.), The works of John Wesley. Wesleyan Methodist Book Room. (Original work 1783)"
+    links:
+      - { label: "Wesley Center Online: Sermon 95", url: "http://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-95-on-the-education-of-children/" }
+      - { label: "Wesley Center Online: Sermon 94", url: "http://wesley.nnu.edu/john-wesley/the-sermons-of-john-wesley-1872-edition/sermon-94-on-family-religion/" }
+
+  - id: child-mothers-book
+    title: "The Mother's Book"
+    author: Lydia Maria Child
+    year: 1831
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [self-control, discipline, love, honesty, empathy]
+    summary: >-
+      One of the first American child-rearing manuals, by the novelist and abolitionist. Child stresses that mothers
+      shape character from the cradle through calm, consistent example; that firmness need not be harsh; that children's
+      senses, play and amusements deserve attention; and that reading should be chosen with care for each age. It
+      endures for its practical, warm, common-sense tone and its view of the home as the chief school of character.
+    caveats: >-
+      Health and diet advice is 19th-century; some moral advice (on girls' prospects, for example) reflects its era.
+    citation: "Child, L. M. (1831). The mother's book. Carter, Hendee, and Babcock."
+    links:
+      - { label: "Archive.org (1831 edition)", url: "https://archive.org/details/mothersbook1831chil" }
+
+  - id: bushnell-christian-nurture
+    title: "Christian Nurture"
+    author: Horace Bushnell
+    year: 1847
+    kind: book
+    evidence: faith
+    audience: [parents, family]
+    stages: [0-1, 1-3, 3-6, 6-12, 12-18]
+    traits: [faith, love, attachment, responsibility]
+    summary: >-
+      The Congregationalist pastor's central claim is "that the child is to grow up a Christian, and never know himself
+      as being otherwise." Against the revivalism of his day, which waited for a dramatic adult conversion, Bushnell
+      argued that the family is an organic unity through which faith is absorbed from infancy by the atmosphere of the
+      home, the parents' spirit and daily example. It endures as a founding text of Protestant Christian education and
+      family discipleship.
+    caveats: >-
+      Contested by Calvinist critics in its day for underplaying conversion and sin. The enlarged 1861 edition includes
+      a chapter ("The Out-Populating Power of the Christian Stock") with racially chauvinist views that should be
+      rejected.
+    citation: "Bushnell, H. (1847). Views of Christian nurture, and of subjects adjacent thereto. E. Hunt. (Enlarged as Christian nurture, 1861)"
+    links:
+      - { label: "Archive.org (1847 edition)", url: "https://archive.org/details/viewsofchristian0000bush" }
+      - { label: "Archive.org (Christian Nurture, 1863)", url: "https://archive.org/details/christiannurture00bush_0" }
+
+  - id: beecher-domestic-economy
+    title: "A Treatise on Domestic Economy"
+    author: Catharine E. Beecher
+    year: 1841
+    kind: book
+    evidence: historic
+    audience: [parents, family]
+    stages: [0-1, 1-3, 3-6, 6-12]
+    traits: [health, responsibility, self-control, cooperation]
+    summary: >-
+      A widely adopted American textbook that treated running a home as a serious profession. Alongside health, diet and
+      household management, it includes chapters on the care of infants, the management of young children, and the
+      cultivation of a good temper and habits of order in a family. It endures as a window on how the 19th-century
+      Christian home was meant to train children in industry, order and mutual service.
+    caveats: >-
+      Built on a "separate spheres" ideology that confined women's work to the home; medical and hygienic advice is
+      long outdated.
+    citation: "Beecher, C. E. (1841). A treatise on domestic economy, for the use of young ladies at home, and at school. Marsh, Capen, Lyon, and Webb."
+    links:
+      - { label: "Archive.org (1841 edition)", url: "https://archive.org/details/treatiseondomest00beec_1" }
+
+  - id: spencer-education
+    title: "Education: Intellectual, Moral, and Physical"
+    author: Herbert Spencer
+    year: 1861
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [3-6, 6-12, 12-18]
+    traits: [responsibility, self-control, health, discipline]
+    summary: >-
+      Four essays, including "What Knowledge Is of Most Worth?" and "Moral Education." Spencer argued that children learn
+      self-government best from the natural consequences of their own conduct rather than from arbitrary punishment, that
+      parents should stay calm and keep their children's friendship, and that physical health and play deserve serious
+      attention. Its discipline-by-consequences idea endures in many modern parenting programs.
+    caveats: >-
+      Spencer disparaged classical and literary education in favour of science, a direct challenge to a classical
+      curriculum. His Lamarckian biology and later "survival of the fittest" social theory are discredited.
+    citation: "Spencer, H. (1911). Essays on education and kindred subjects. J. M. Dent (Everyman's Library). (Original work published 1861)"
+    links:
+      - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/16510" }
+
+  - id: bosco-preventive-system
+    title: "The Preventive System in the Education of the Young"
+    author: St. John Bosco
+    year: 1877
+    kind: article
+    evidence: faith
+    audience: [parents, teens]
+    stages: [6-12, 12-18]
+    traits: [love, faith, discipline, self-control]
+    summary: >-
+      A short statement of the method Don Bosco used with poor and troubled boys in Turin. It contrasts a "repressive"
+      system that makes rules and punishes breaches with a "preventive" one resting on reason, religion and
+      loving-kindness: adults are constantly and warmly present, explain the reasons for rules, build trust so that
+      correction is rarely needed, and fill the young person's time with work, play, music and the sacraments. It endures
+      as the Salesian charter of education through relationship.
+    caveats: >-
+      Written for oratories and boarding schools rather than families, though widely adapted to parenting.
+    citation: "Bosco, J. (1877). Il sistema preventivo nella educazione della gioventù [The preventive system in the education of the young]. Salesian Press."
+    links:
+      - { label: "Salesian Online Resources (English)", url: "https://www.salesian.online/archives/11571" }
+      - { label: "PDF (Catholic Liberal Education)", url: "https://my.catholicliberaleducation.org/wp-content/uploads/2021/02/John-Bosco-Preventive-System-1877.pdf" }
+
+  - id: leo-xiii-arcanum
+    title: "Arcanum Divinae Sapientiae (On Christian Marriage)"
+    author: Pope Leo XIII
+    year: 1880
+    kind: guide
+    evidence: faith
+    audience: [couples, family]
+    stages: [adult]
+    traits: [marriage, faith, love]
+    summary: >-
+      The first modern papal encyclical devoted to marriage. It presents marriage as a sacrament instituted by God,
+      one and indissoluble, ordered to the good of the spouses and the begetting and education of children, and warns of
+      the social harm of divorce. It endures as the starting point of modern Catholic teaching on the family.
+    caveats: >-
+      Its language of the husband as head and its arguments about civil marriage reflect 19th-century church-state
+      conflicts; later documents (Familiaris Consortio, Amoris Laetitia) develop the theme of mutual self-giving.
+    citation: "Leo XIII. (1880). Arcanum divinae sapientiae [Encyclical letter on Christian marriage]. Holy See."
+    links:
+      - { label: "Vatican.va", url: "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_10021880_arcanum.html" }
+
+  - id: mason-home-education
+    title: "Home Education"
+    author: Charlotte M. Mason
+    year: 1886
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12]
+    traits: [self-control, discipline, responsibility, faith, health]
+    summary: >-
+      Lectures to mothers on raising and teaching children under nine. Mason urges long hours outdoors and nature study,
+      deliberate training in habits (attention, obedience, truthfulness), short varied lessons, "living books" instead of
+      dry textbooks, and narration, while treating the child as a person and the parent as one under divine authority.
+      Her motto, "education is an atmosphere, a discipline, a life," shapes much of today's classical and Christian
+      homeschooling.
+    caveats: >-
+      Assumes a Victorian middle-class home with nursery staff; some remarks on heredity and physiology are dated.
+    citation: "Mason, C. M. (1886). Home education: A course of lectures to ladies. Kegan Paul, Trench. (Project Gutenberg text from the 1906 edition)"
+    links:
+      - { label: "Project Gutenberg", url: "https://www.gutenberg.org/ebooks/71087" }
+
+  - id: murray-children-for-christ
+    title: "The Children for Christ (How to Raise Your Children for Christ)"
+    author: Andrew Murray
+    year: 1887
+    kind: book
+    evidence: faith
+    audience: [parents, family]
+    stages: [all]
+    traits: [faith, love, responsibility]
+    summary: >-
+      Fifty-two short meditations by the South African Reformed pastor, tracing God's promises to families through
+      Scripture, from Noah and Abraham to the New Testament households. Murray calls parents to consecrate their home to
+      God, to pray for and with their children, and to trust that God means to be "the God of their seed." Reissued as
+      How to Raise Your Children for Christ, it endures as a devotional companion for parents.
+    caveats: >-
+      Devotional rather than practical; it offers little concrete method. Archive.org dates the edition 1886; it is
+      usually listed as 1887.
+    citation: "Murray, A. (1887). The children for Christ: Thoughts for Christian parents on the consecration of the home life. James Nisbet."
+    links:
+      - { label: "Archive.org", url: "https://archive.org/details/children-for-christ-1886-pd-murray-c35" }
+
+  - id: ryle-duties-parents
+    title: "The Duties of Parents"
+    author: J. C. Ryle
+    year: 1888
+    kind: article
+    evidence: faith
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [faith, discipline, honesty, love, responsibility]
+    summary: >-
+      A short address on Proverbs 22:6 by the evangelical Anglican bishop of Liverpool, listing seventeen duties:
+      train children in the way they should go, not the way they would; train with tenderness, affection and patience;
+      teach the Bible, prayer and public worship; build habits of obedience and truthfulness; beware of indulgence; set
+      an example; and pray for them. It endures for its directness and its insistence that warmth and firmness belong
+      together.
+    caveats: >-
+      Victorian in tone; accepts physical chastisement as a last resort, a practice most current research advises
+      against.
+    citation: "Ryle, J. C. (1888). The duties of parents. In The upper room: Being a few truths for the times. William Hunt."
+    links:
+      - { label: "Monergism (full text)", url: "https://www.monergism.com/thethreshold/sdg/dutiesofparents.html" }
+      - { label: "Archive.org (The Upper Room)", url: "https://archive.org/details/upperroombeingfe0000john" }
+
+  - id: pius-xi-divini-illius-magistri
+    title: "Divini Illius Magistri (On Christian Education)"
+    author: Pope Pius XI
+    year: 1929
+    kind: guide
+    evidence: faith
+    audience: [parents, family]
+    stages: [all]
+    traits: [faith, responsibility]
+    summary: >-
+      The encyclical sets out the respective roles of family, Church and State in education and affirms that the family
+      holds a natural right to educate its children that is prior to the State's. It warns against an education cut off
+      from God and calls the home the first and indispensable school of Christian life. It endures as a charter for
+      parents' rights in education, frequently cited by home and classical schools.
+    caveats: >-
+      Its strong opposition to coeducation and its treatment of sex education reflect the 1920s; Vatican II's
+      Gravissimum Educationis (1965) and later documents restate its principles in different terms.
+    citation: "Pius XI. (1929). Divini illius magistri [Encyclical letter on Christian education of youth]. Holy See."
+    links:
+      - { label: "Vatican.va", url: "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html" }
+
+  - id: hildebrand-marriage
+    title: "Marriage: The Mystery of Faithful Love"
+    author: Dietrich von Hildebrand
+    year: 1929
+    kind: book
+    evidence: faith
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, love, faith, humility]
+    summary: >-
+      A short philosophical meditation by the Catholic phenomenologist (German original Die Ehe, 1929; English 1942).
+      Hildebrand argued that conjugal love is the primary meaning of marriage, distinct from its procreative end; that
+      spousal love differs from every other love in its total, exclusive self-gift; and that difficulties, borne in
+      faith, can deepen a marriage. It influenced later Catholic teaching on marriage and endures as an elevated account
+      of what spouses owe each other.
+    caveats: >-
+      Abstract and idealistic; it offers little practical guidance on conflict or communication.
+    citation: "von Hildebrand, D. (1991). Marriage: The mystery of faithful love. Sophia Institute Press. (Original work published 1929)"
+    links:
+      - { label: "Sophia Institute Press", url: "https://www.sophiainstitute.com/products/item/marriage" }
+
+  - id: montessori-secret-childhood
+    title: "The Secret of Childhood"
+    author: Maria Montessori
+    year: 1936
+    kind: book
+    evidence: historic
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6]
+    traits: [self-control, responsibility, humility, attachment]
+    summary: >-
+      Montessori's most parent-directed book describes the young child as a "spiritual embryo" passing through sensitive
+      periods for order, language and movement. She asks adults to examine their own pride and impatience, to prepare an
+      orderly environment, and to let the child do things for himself, so that concentration and self-discipline can
+      emerge. It endures for its respect for the child's inner life and its call for adult humility.
+    caveats: >-
+      Based on observation rather than controlled research. Evidence on Montessori schooling is generally positive but
+      modest and uneven in quality (e.g. Randolph et al., 2023, Campbell systematic review).
+    citation: "Montessori, M. (1936). The secret of childhood (B. B. Carter, Trans.). Longmans, Green."
+    links:
+      - { label: "Archive.org", url: "https://archive.org/details/secretofchildhoo0000mari_k2m8" }
+
+  - id: lewis-four-loves
+    title: "The Four Loves"
+    author: C. S. Lewis
+    year: 1960
+    kind: book
+    evidence: faith
+    audience: [parents, couples, family]
+    stages: [adult]
+    traits: [love, marriage, humility, attachment]
+    summary: >-
+      Lewis distinguishes affection (storge), friendship, eros and charity, and need-love from gift-love. His chapter on
+      affection, the love of family, is especially searching about how parental love can turn possessive, jealous or
+      self-serving (the mother who "lives for others"), and how gift-love must work toward a child's independence. It
+      endures as a guide to ordering family and married love under the love of God.
+    caveats: >-
+      A literary and theological reflection, not empirical; some remarks on the sexes are dated.
+    citation: "Lewis, C. S. (1960). The four loves. Harcourt, Brace."
+    links:
+      - { label: "Archive.org (1960 edition)", url: "https://archive.org/details/fourloves0000lewi" }
+
+  - id: jpii-familiaris-consortio
+    title: "Familiaris Consortio (On the Role of the Christian Family in the Modern World)"
+    author: Pope John Paul II
+    year: 1981
+    kind: guide
+    evidence: faith
+    audience: [parents, couples, family]
+    stages: [all]
+    traits: [marriage, love, faith, responsibility]
+    summary: >-
+      Following the 1980 Synod on the family, this apostolic exhortation names four tasks of the family: forming a
+      community of persons, serving life, sharing in the life of society, and sharing in the mission of the Church as a
+      "domestic church." It calls the parents' right and duty to educate "original and primary" and urges them to form
+      children in freedom, justice, simplicity and self-giving. Its refrain "Family, become what you are" endures as a
+      summary of Catholic family teaching.
+    caveats: >-
+      Its teaching on contraception and on divorced and remarried Catholics is contested outside, and in part inside,
+      the Catholic Church.
+    citation: "John Paul II. (1981). Familiaris consortio [Apostolic exhortation on the role of the Christian family in the modern world]. Holy See."
+    links:
+      - { label: "Vatican.va", url: "https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_19811122_familiaris-consortio.html" }
+
+  - id: ccc-fourth-commandment
+    title: "Catechism of the Catholic Church, The Fourth Commandment (paras. 2197–2257)"
+    author: Catholic Church
+    year: 1992
+    kind: guide
+    evidence: faith
+    audience: [parents, family, teens]
+    stages: [all]
+    traits: [faith, love, responsibility, cooperation]
+    summary: >-
+      The Catechism's treatment of "Honor your father and your mother" sets out, briefly, the family in God's plan, the
+      duties of children (respect, gratitude, obedience while at home, care for aged parents) and of parents (to be the
+      first educators, to create a home "where tenderness, forgiveness, respect, fidelity, and disinterested service are
+      the rule," to educate in the virtues and the faith by example, and to respect a grown child's vocation). It is a
+      concise reference for family duties in the Catholic tradition.
+    caveats: >-
+      A doctrinal summary, not a practical guide.
+    citation: "Catholic Church. (1997). Catechism of the Catholic Church (2nd ed.), paras. 2197–2257. Libreria Editrice Vaticana. (Original work published 1992)"
+    links:
+      - { label: "Vatican.va: Article 4", url: "https://www.vatican.va/archive/ENG0015/__P7R.HTM" }
+      - { label: "Vatican.va: Duties of family members", url: "https://www.vatican.va/archive/ENG0015/__P7U.HTM" }
+
+  - id: jpii-letter-families
+    title: "Letter to Families (Gratissimam Sane)"
+    author: Pope John Paul II
+    year: 1994
+    kind: guide
+    evidence: faith
+    audience: [parents, couples, family]
+    stages: [all]
+    traits: [love, marriage, faith, responsibility]
+    summary: >-
+      Written for the International Year of the Family, this letter is addressed to families themselves rather than to
+      clergy. It presents the family as the school of the "civilization of love," marriage as a "sincere gift of self,"
+      parents as the first educators who also are educated by their children, and the fourth commandment as binding
+      parents and children alike. It is more personal and accessible than most magisterial documents.
+    caveats: >-
+      Philosophical in style; some passages assume familiarity with John Paul II's personalist vocabulary.
+    citation: "John Paul II. (1994). Gratissimam sane [Letter to families]. Holy See."
+    links:
+      - { label: "Vatican.va", url: "https://www.vatican.va/content/john-paul-ii/en/letters/1994/documents/hf_jp-ii_let_02021994_families.html" }
+
+  - id: tripp-shepherding-heart
+    title: "Shepherding a Child's Heart"
+    author: Tedd Tripp
+    year: 1995
+    kind: book
+    evidence: faith
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [faith, discipline, communication, honesty]
+    summary: >-
+      A widely used Reformed Protestant parenting book. Tripp argues that behaviour flows from the heart, so parents
+      should aim beyond outward compliance to the child's motives and orientation toward God. It stresses rich
+      communication (encouraging, instructing, entreating, praying) and different emphases for early childhood,
+      middle childhood and the teen years. It endures as a popular framework for heart-focused Christian parenting.
+    caveats: >-
+      Endorses spanking ("the rod") for young children. Meta-analyses link spanking to worse child outcomes, not better
+      (Gershoff & Grogan-Kaylor, 2016), and the American Academy of Pediatrics (2018) advises against it; many Christian
+      readers adopt the book's heart emphasis while setting aside its use of corporal punishment.
+    citation: "Tripp, T. (1995). Shepherding a child's heart. Shepherd Press."
+    links:
+      - { label: "Westminster Bookstore", url: "https://www.wtsbooks.com/shepherding-childs-heart-revised-and-updated-tedd-tripp-9780966378603" }
+
+  - id: francis-amoris-laetitia
+    title: "Amoris Laetitia (On Love in the Family)"
+    author: Pope Francis
+    year: 2016
+    kind: guide
+    evidence: faith
+    audience: [parents, couples, family]
+    stages: [all]
+    traits: [love, marriage, communication, self-control, empathy]
+    summary: >-
+      This post-synodal exhortation is notably practical. Chapter 4 is an extended commentary on 1 Corinthians 13 as a
+      guide to daily married love (patience, kindness, not keeping score, dialogue). Chapter 5 treats welcoming new life,
+      and Chapter 7, "Towards a Better Education of Children," covers knowing where one's children are without
+      controlling them, forming habits and the will, correction as encouragement, patient realism, sex education, and
+      passing on the faith. These chapters endure as accessible counsel for families of any background.
+    caveats: >-
+      Chapter 8, on pastoral care for divorced and civilly remarried Catholics, has been widely debated; the chapters on
+      marriage and child-rearing are not contested in the same way.
+    citation: "Francis. (2016). Amoris laetitia [Post-synodal apostolic exhortation on love in the family]. Holy See."
+    links:
+      - { label: "Vatican.va", url: "https://www.vatican.va/content/francesco/en/apost_exhortations/documents/papa-francesco_esortazione-ap_20160319_amoris-laetitia.html" }
+      - { label: "Vatican.va (PDF)", url: "https://www.vatican.va/content/dam/francesco/pdf/apost_exhortations/documents/papa-francesco_esortazione-ap_20160319_amoris-laetitia_en.pdf" }

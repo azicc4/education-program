@@ -211,6 +211,20 @@ categories:
     workFactor: 0.15                 # lesson preparation per hour of student work
 ```
 
+## The Parent Curriculum (`data/parents/`)
+
+- **Booklist files** (`child-development.yaml`, `family.yaml`, `historic.yaml`): `section` plus `items`, each with
+  `id`, `title`, `author`, `year`, `kind` (book | article | review | guide | program | report), `evidence` (research |
+  clinical | popular-science | popular | historic | faith), `audience` (parents | couples | family | children | teens),
+  `stages` (pregnancy | 0-1 | 1-3 | 3-6 | 6-12 | 12-18 | adult | all), `traits`, `summary`, optional `caveats` (limits of
+  the evidence), `citation` and at least one verified `links` entry. Ids are unique across the files.
+- **`plans.yaml`**: the core shelf, the plan for each stage (focus, aims, `read`, `further`, practices, when to seek
+  help with `helpRead`, and `units` from the children's curriculum), the marriage track and the family program. The
+  build checks that every reading and unit id exists, so the plans follow the booklist and the curriculum.
+- **`pregnancy.yaml`**: the gestation plan by stage (preconception to the baby's first year): nutrients, foods,
+  example days, limits, exercise and weekly plans, warning signs, each tagged `established` or `emerging` and citing
+  `sources` by id (written inline as "(source-id)"); the build checks every id.
+
 ## Exams
 
 `data/exams.yaml` is the catalog of exams the program prepares for by 18 (AP, CLT, SAT/ACT, PSAT/NMSQT, national

@@ -14,6 +14,7 @@ const examsFile = path.join(root, 'data', 'exams.yaml');
 const budgetFile = path.join(root, 'data', 'budget.yaml');
 const teacherFile = path.join(root, 'data', 'teacher.yaml');
 const assessmentFile = path.join(root, 'data', 'assessment.yaml');
+const parentsDir = path.join(root, 'data', 'parents');
 const outDir = path.join(root, 'docs', 'data');
 
 export const LEVELS = [
@@ -277,6 +278,64 @@ function buildAssessment(doc) {
   return { modes };
 }
 
+// The Parent Curriculum (data/parents/): the booklist files, the plans that cite them, and the gestation plan
+const BOOK_KINDS = ['book', 'article', 'review', 'guide', 'program', 'report'];
+const BOOK_EVIDENCE = ['research', 'clinical', 'popular-science', 'popular', 'historic', 'faith'];
+const BOOK_AUDIENCE = ['parents', 'couples', 'family', 'children', 'teens'];
+const BOOK_STAGES = ['pregnancy', '0-1', '1-3', '3-6', '6-12', '12-18', 'adult', 'all'];
+const BOOK_TRAITS = ['ambition', 'humility', 'cooperation', 'love', 'happiness', 'self-control', 'empathy', 'honesty', 'resilience', 'faith', 'responsibility', 'attachment', 'discipline', 'communication', 'marriage', 'health'];
+function buildParents(rowIds) {
+  if (!fs.existsSync(parentsDir)) return null;
+  const items = [];
+  const sections = [];
+  let plans = null, pregnancy = null;
+  for (const f of yamlFiles(parentsDir).sort()) {
+    const rel = path.relative(root, f);
+    const doc = load(f);
+    if (!doc) continue;
+    const base = path.basename(f, '.yaml');
+    if (base === 'plans') { plans = doc; continue; }
+    if (base === 'pregnancy') { pregnancy = doc; continue; }
+    if (!doc.section || !Array.isArray(doc.items)) { err(rel, 'needs section and items'); continue; }
+    sections.push(doc.section);
+    for (const it of doc.items) {
+      const w = `${it.id ?? '?'}`;
+      for (const k of ['id', 'title', 'author', 'year', 'kind', 'evidence', 'summary']) if (it[k] === undefined || it[k] === '') err(rel, `${w}: missing ${k}`);
+      if (!BOOK_KINDS.includes(it.kind)) err(rel, `${w}: bad kind ${it.kind}`);
+      if (!BOOK_EVIDENCE.includes(it.evidence)) err(rel, `${w}: bad evidence ${it.evidence}`);
+      for (const [k, allowed] of [['audience', BOOK_AUDIENCE], ['stages', BOOK_STAGES], ['traits', BOOK_TRAITS]])
+        for (const v of it[k] || []) if (!allowed.includes(v)) err(rel, `${w}: bad ${k} value ${v}`);
+      if (!(it.links || []).length) err(rel, `${w}: needs at least one link`);
+      checkLinks(rel, w, it.links);
+      if (items.some((x) => x.id === it.id)) err(rel, `${w}: duplicate id`);
+      items.push({ ...it, section: doc.section });
+    }
+  }
+  const ids = new Set(items.map((x) => x.id));
+  const checkRefs = (where, list, kind) => {
+    for (const id of list || []) {
+      if (kind === 'unit' ? !rowIds.has(id) : !ids.has(id)) err('data/parents/plans.yaml', `${where}: unknown ${kind} ${id}`);
+    }
+  };
+  if (plans) {
+    checkRefs('core', plans.core?.read, 'reading');
+    for (const st of plans.stages || []) {
+      for (const k of ['read', 'further', 'helpRead']) checkRefs(`stage ${st.id} ${k}`, st[k], 'reading');
+      checkRefs(`stage ${st.id} units`, st.units, 'unit');
+    }
+    for (const k of ['read', 'research', 'helpRead']) checkRefs(`marriage ${k}`, plans.marriage?.[k], 'reading');
+    checkRefs('family sources', plans.family?.sources, 'reading');
+    for (const c of plans.family?.children || []) { checkRefs(`family children ${c.ages}`, c.read, 'reading'); checkRefs(`family children ${c.ages} units`, c.units, 'unit'); }
+  } else warn('data/parents', 'no plans.yaml');
+  if (pregnancy) {
+    const srcIds = new Set((pregnancy.sources || []).map((s) => s.id));
+    checkLinks('data/parents/pregnancy.yaml', 'sources', pregnancy.sources);
+    const refs = (o) => (o && typeof o === 'object' ? Object.entries(o).flatMap(([k, v]) => (k === 'source' && typeof v === 'string' ? [v] : k === 'sources' && Array.isArray(v) && v.every((x) => typeof x === 'string') ? v : refs(v))) : []);
+    for (const st of pregnancy.stages || []) for (const id of refs(st)) if (!srcIds.has(id)) err('data/parents/pregnancy.yaml', `stage ${st.id}: unknown source ${id}`);
+  }
+  return { sections, items, plans, pregnancy };
+}
+
 function validateFounding(file, doc) {
   const rel = path.relative(root, file);
   if (!doc) return null;
@@ -325,6 +384,7 @@ const budget = checkOnly ? null : buildBudget(load(budgetFile));
 const teacher = checkOnly ? null : buildTeacher(load(teacherFile));
 const assessment = checkOnly ? null : buildAssessment(load(assessmentFile));
 if (!checkOnly) validateFoundingUnits(founding, rows);
+const parents = checkOnly ? null : buildParents(new Set(rows.map((r) => r.id)));
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`ERROR ${e}`);
@@ -342,5 +402,10 @@ if (!checkOnly) {
   fs.writeFileSync(path.join(outDir, 'founding.json'), foundingJson);
   fs.writeFileSync(path.join(outDir, 'curriculum.js'), `window.CURRICULUM = ${curriculum};\n`);
   fs.writeFileSync(path.join(outDir, 'founding.js'), `window.FOUNDING = ${foundingJson};\n`);
+  if (parents) {
+    const parentsJson = JSON.stringify(parents);
+    fs.writeFileSync(path.join(outDir, 'parents.json'), parentsJson);
+    fs.writeFileSync(path.join(outDir, 'parents.js'), `window.PARENTS = ${parentsJson};\n`);
+  }
   console.log(`wrote ${path.relative(root, outDir)}/curriculum.{json,js} and founding.{json,js}`);
 }

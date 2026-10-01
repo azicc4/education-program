@@ -1,0 +1,890 @@
+# Parent Curriculum: gestation and the baby's first year of feeding (part of the "first 1,000 days").
+# Nutrition by stage for the baby's body and brain, and exercise for maternal fitness.
+# Every recommendation names its source ids (see `sources`). `evidence` marks each item:
+#   established = a current guideline or committee recommendation from the named body;
+#   emerging    = supported by trials or reviews but not (yet) a standard recommendation, or evidence is mixed.
+title: "Gestation and the first year: nutrition and exercise"
+id: pregnancy
+audience: parents
+lastReviewed: "2026-10-01"
+scope: >-
+  Preconception, the three trimesters, the postpartum months and the baby's first year of feeding. The "first
+  1,000 days" run from conception to the second birthday; this plan covers the first roughly 640 of them (the
+  months before conception, about 280 days of pregnancy and 365 days of infancy). Feeding in the second year is
+  outside this file.
+disclaimer: >-
+  General educational guidance for healthy adults with uncomplicated singleton pregnancies, drawn from the public
+  guidelines listed under sources. It is not medical advice and does not replace care from an obstetrician,
+  midwife, pediatrician or registered dietitian. Follow the obstetric and pediatric providers' instructions
+  whenever they differ from this plan. Many conditions change the advice on food, supplements or exercise,
+  including pre-eclampsia or gestational hypertension, gestational or pre-existing diabetes, placenta previa,
+  cervical insufficiency or cerclage, preterm labor or ruptured membranes, unexplained bleeding, fetal growth
+  restriction, twins or higher-order multiples, anemia, thyroid disease, heart or lung disease, an eating
+  disorder, bariatric surgery, a prior neural-tube-defect pregnancy, anti-seizure or other folate-blocking
+  medication, vegan diets, food allergy, and a cesarean or complicated birth. Before starting or changing an
+  exercise program in pregnancy, a clinical evaluation by the obstetric provider is recommended (acog-804). In an
+  emergency, call 911 or the local emergency number.
+
+evidenceLevels:
+  established: >-
+    A recommendation published by ACOG, AAP, WHO, USPSTF, the National Academies (IOM), the US Dietary Guidelines,
+    FDA/EPA, CDC, NIAID or the American Thyroid Association, current as of the lastReviewed date.
+  emerging: >-
+    Supported by randomized trials, systematic reviews or expert consensus statements, but not part of a standard
+    US guideline, or the trial evidence is mixed. Worth discussing with the provider; not a requirement.
+
+sources:
+  # Exercise
+  - { id: acog-804, title: "Physical Activity and Exercise During Pregnancy and the Postpartum Period (Committee Opinion 804; reaffirmed 2023)", publisher: ACOG, year: 2020, url: "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period" }
+  - { id: acog-faq-exercise-pregnancy, title: "Exercise During Pregnancy (FAQ119, updated September 2024)", publisher: ACOG, year: 2024, url: "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy" }
+  - { id: acog-faq-exercise-postpartum, title: "Exercise After Pregnancy (FAQ131, updated September 2022)", publisher: ACOG, year: 2022, url: "https://www.acog.org/womens-health/faqs/exercise-after-pregnancy" }
+  - { id: who-2020-pa, title: "WHO Guidelines on Physical Activity and Sedentary Behaviour (pregnant and postpartum women; adults 18-64)", publisher: World Health Organization, year: 2020, url: "https://www.who.int/publications/i/item/9789240015128" }
+  - { id: canada-2019-pa, title: "2019 Canadian Guideline for Physical Activity Throughout Pregnancy (Mottola et al., Br J Sports Med 52:1339-46)", publisher: SOGC / CSEP, year: 2018, url: "https://doi.org/10.1136/bjsports-2018-100056" }
+  - { id: cochrane-pfmt-2020, title: "Pelvic floor muscle training for preventing and treating urinary and faecal incontinence in antenatal and postnatal women (Woodley et al., Cochrane review)", publisher: Cochrane, year: 2020, url: "https://doi.org/10.1002/14651858.CD007471.pub4" }
+  - { id: goom-2019, title: "Returning to Running Postnatal: Guideline for Medical, Health and Fitness Professionals (Goom, Donnelly, Brockwell)", publisher: Pelvic health physiotherapists (UK; expert guidance), year: 2019, url: "https://athleticsni.org/download/files/Returning_to_running_postnatal_guideline_for_medical_health_and_fitness_professionals_managing_this_population.05.pdf" }
+  - { id: delphi-run-readiness-2024, title: "Return-to-running readiness after childbirth: international Delphi consensus (Christopher et al., Br J Sports Med 58:299-312)", publisher: BMJ, year: 2024, url: "https://doi.org/10.1136/bjsports-2023-107489" }
+  - { id: delphi-run-program-2024, title: "Designing a postpartum return-to-running programme: international Delphi consensus (Deering et al., Br J Sports Med 58:183-95)", publisher: BMJ, year: 2024, url: "https://doi.org/10.1136/bjsports-2023-107490" }
+  # Nutrition guidelines and requirements
+  - { id: dga-2020, title: "Dietary Guidelines for Americans, 2020-2025 (Chapter 5, Women Who Are Pregnant or Lactating; Chapter 2, Infants and Toddlers)", publisher: USDA / HHS, year: 2020, url: "https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf" }
+  - { id: dga-2025, title: "Dietary Guidelines for Americans, 2025-2030 (released January 2026; pregnant and lactating women, infancy)", publisher: USDA / HHS, year: 2026, url: "https://cdn.realfood.gov/DGA.pdf" }
+  - { id: iom-2009-gwg, title: "Weight Gain During Pregnancy: Reexamining the Guidelines", publisher: Institute of Medicine / National Research Council, year: 2009, url: "https://www.nationalacademies.org/publications/12584" }
+  - { id: nasem-dri, title: "Dietary Reference Intakes: The Essential Guide to Nutrient Requirements", publisher: Institute of Medicine (National Academies), year: 2006, url: "https://www.nationalacademies.org/publications/11537" }
+  - { id: acog-faq-nutrition, title: "Healthy Eating During Pregnancy (FAQ001, updated March 2026)", publisher: ACOG, year: 2026, url: "https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy" }
+  - { id: acog-faq-prepregnancy, title: "Good Health Before Pregnancy: Prepregnancy Care (FAQ056, reviewed October 2025)", publisher: ACOG, year: 2020, url: "https://www.acog.org/womens-health/faqs/Good-Health-Before-Pregnancy-Prepregnancy-Care" }
+  - { id: acog-548, title: "Weight Gain During Pregnancy (Committee Opinion 548; reaffirmed 2026)", publisher: ACOG, year: 2013, url: "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/01/weight-gain-during-pregnancy" }
+  - { id: acog-faq-nvp, title: "Morning Sickness: Nausea and Vomiting of Pregnancy (FAQ126, reviewed November 2025)", publisher: ACOG, year: 2020, url: "https://www.acog.org/womens-health/faqs/morning-sickness-nausea-and-vomiting-of-pregnancy" }
+  - { id: acog-pb-189, title: "Nausea and Vomiting of Pregnancy (Practice Bulletin 189; reaffirmed 2024)", publisher: ACOG, year: 2018, url: "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/01/nausea-and-vomiting-of-pregnancy" }
+  - { id: acog-462, title: "Moderate Caffeine Consumption During Pregnancy (Committee Opinion 462; reaffirmed 2026)", publisher: ACOG, year: 2010, url: "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2010/08/moderate-caffeine-consumption-during-pregnancy" }
+  - { id: acog-faq-listeria, title: "Listeria and Pregnancy (FAQ, updated December 2025)", publisher: ACOG, year: 2025, url: "https://www.acog.org/womens-health/faqs/listeria-and-pregnancy" }
+  - { id: acog-736, title: "Optimizing Postpartum Care (Committee Opinion 736; reaffirmed 2025)", publisher: ACOG, year: 2018, url: "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/05/optimizing-postpartum-care" }
+  - { id: uspstf-folate-2023, title: "Folic Acid Supplementation to Prevent Neural Tube Defects: Preventive Medication (Grade A; reaffirmed August 2023)", publisher: US Preventive Services Task Force, year: 2023, url: "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication" }
+  - { id: uspstf-iron-2024, title: "Screening and Supplementation for Iron Deficiency and Iron Deficiency Anemia During Pregnancy (I statement; JAMA 332:906-13)", publisher: US Preventive Services Task Force, year: 2024, url: "https://doi.org/10.1001/jama.2024.15196" }
+  - { id: ata-2017, title: "2017 Guidelines of the American Thyroid Association for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum (Alexander et al., Thyroid 27:315-89)", publisher: American Thyroid Association, year: 2017, url: "https://doi.org/10.1089/thy.2016.0457" }
+  - { id: ata-2026, title: "American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum (Korevaar et al., Thyroid 36:481-544)", publisher: American Thyroid Association, year: 2026, url: "https://doi.org/10.1177/10507256261445624" }
+  - { id: ods-iodine, title: "Iodine: Fact Sheet for Health Professionals", publisher: NIH Office of Dietary Supplements, year: null, url: "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/" }
+  - { id: ods-choline, title: "Choline: Fact Sheet for Health Professionals", publisher: NIH Office of Dietary Supplements, year: null, url: "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/" }
+  - { id: fda-fish, title: "Advice about Eating Fish: For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1-11 Years", publisher: FDA / EPA, year: 2021, url: "https://www.fda.gov/food/consumers/advice-about-eating-fish" }
+  - { id: cdc-alcohol-pregnancy, title: "About Alcohol Use During Pregnancy", publisher: CDC, year: null, url: "https://www.cdc.gov/alcohol-pregnancy/about/index.html" }
+  - { id: cdc-alcohol-breastfeeding, title: "Alcohol and Breastfeeding", publisher: CDC, year: null, url: "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/vaccine-medication-drugs/alcohol.html" }
+  - { id: cdc-hear-her, title: "Urgent Maternal Warning Signs (Hear Her campaign)", publisher: CDC, year: null, url: "https://www.cdc.gov/hearher/maternal-warning-signs/index.html" }
+  # Research on specific nutrients and the brain
+  - { id: caudill-2018, title: "Maternal choline supplementation during the third trimester of pregnancy improves infant information processing speed (Caudill et al., FASEB J 32:2172-80)", publisher: FASEB Journal, year: 2018, url: "https://doi.org/10.1096/fj.201700692RR" }
+  - { id: wallace-2020-choline, title: "Choline: The Neurocognitive Essential Nutrient of Interest to Obstetricians and Gynecologists (Wallace et al., J Diet Suppl 17:733-52; reports the AAP and 2017 AMA positions on prenatal choline)", publisher: Journal of Dietary Supplements, year: 2020, url: "https://doi.org/10.1080/19390211.2019.1639875" }
+  - { id: cochrane-omega3-2018, title: "Omega-3 fatty acid addition during pregnancy (Middleton et al., Cochrane review)", publisher: Cochrane, year: 2018, url: "https://doi.org/10.1002/14651858.CD003402.pub3" }
+  - { id: orip-2019, title: "A Randomized Trial of Prenatal n-3 Fatty Acid Supplementation and Preterm Delivery (Makrides et al., N Engl J Med 381:1035-45)", publisher: NEJM, year: 2019, url: "https://doi.org/10.1056/NEJMoa1816832" }
+  - { id: adore-2021, title: "Higher dose docosahexaenoic acid supplementation during pregnancy and early preterm birth (Carlson et al., EClinicalMedicine 36:100905)", publisher: The Lancet EClinicalMedicine, year: 2021, url: "https://doi.org/10.1016/j.eclinm.2021.100905" }
+  - { id: stephens-2015-protein, title: "Protein requirements of healthy pregnant women during early and late gestation are higher than current recommendations (Stephens et al., J Nutr 145:73-8)", publisher: Journal of Nutrition, year: 2015, url: "https://doi.org/10.3945/jn.114.198622" }
+  - { id: aap-1000-days, title: "Advocacy for Improving Nutrition in the First 1000 Days to Support Childhood Development and Adult Health (Schwarzenberg & Georgieff, AAP Committee on Nutrition, Pediatrics 141:e20173716)", publisher: American Academy of Pediatrics, year: 2018, url: "https://doi.org/10.1542/peds.2017-3716" }
+  - { id: cusick-georgieff-2016, title: "The Role of Nutrition in Brain Development: The Golden Opportunity of the First 1000 Days (Cusick & Georgieff, J Pediatr 175:16-21)", publisher: Journal of Pediatrics, year: 2016, url: "https://doi.org/10.1016/j.jpeds.2016.05.013" }
+  - { id: georgieff-2007, title: "Nutrition and the developing brain: nutrient priorities and measurement (Georgieff, Am J Clin Nutr 85:614S-620S)", publisher: American Journal of Clinical Nutrition, year: 2007, url: "https://doi.org/10.1093/ajcn/85.2.614S" }
+  - { id: monk-2013, title: "Maternal prenatal distress and poor nutrition: mutually influencing risk factors affecting infant neurocognitive development (Monk, Georgieff & Osterholm, J Child Psychol Psychiatry 54:115-30)", publisher: JCPP, year: 2013, url: "https://doi.org/10.1111/jcpp.12000" }
+  # Infant feeding
+  - { id: aap-breastfeeding-2022, title: "Policy Statement: Breastfeeding and the Use of Human Milk (Meek & Noble, Pediatrics 150:e2022057988)", publisher: American Academy of Pediatrics, year: 2022, url: "https://doi.org/10.1542/peds.2022-057988" }
+  - { id: aap-vitd-2008, title: "Prevention of Rickets and Vitamin D Deficiency in Infants, Children, and Adolescents (Wagner & Greer, Pediatrics 122:1142-52)", publisher: American Academy of Pediatrics, year: 2008, url: "https://doi.org/10.1542/peds.2008-1862" }
+  - { id: aap-iron-2010, title: "Diagnosis and Prevention of Iron Deficiency and Iron-Deficiency Anemia in Infants and Young Children, 0-3 Years (Baker & Greer, Pediatrics 126:1040-50)", publisher: American Academy of Pediatrics, year: 2010, url: "https://doi.org/10.1542/peds.2010-2576" }
+  - { id: aap-allergy-2019, title: "The Effects of Early Nutritional Interventions on the Development of Atopic Disease in Infants and Children (Greer et al., Pediatrics 143:e20190281)", publisher: American Academy of Pediatrics, year: 2019, url: "https://doi.org/10.1542/peds.2019-0281" }
+  - { id: aap-juice-2017, title: "Fruit Juice in Infants, Children, and Adolescents: Current Recommendations (Heyman & Abrams, Pediatrics 139:e20170967)", publisher: American Academy of Pediatrics, year: 2017, url: "https://doi.org/10.1542/peds.2017-0967" }
+  - { id: niaid-peanut-2017, title: "Addendum Guidelines for the Prevention of Peanut Allergy in the United States (Togias et al., J Allergy Clin Immunol 139:29-44)", publisher: NIAID, year: 2017, url: "https://www.niaid.nih.gov/diseases-conditions/guidelines-clinicians-and-patients-food-allergy" }
+  - { id: leap-2015, title: "Randomized Trial of Peanut Consumption in Infants at Risk for Peanut Allergy (LEAP; Du Toit et al., N Engl J Med 372:803-13)", publisher: NEJM, year: 2015, url: "https://doi.org/10.1056/NEJMoa1414850" }
+  - { id: allergy-consensus-2021, title: "A Consensus Approach to the Primary Prevention of Food Allergy Through Nutrition (AAAAI / ACAAI / CSACI; Fleischer et al., J Allergy Clin Immunol Pract 9:22-43)", publisher: AAAAI / ACAAI / CSACI, year: 2021, url: "https://doi.org/10.1016/j.jaip.2020.11.002" }
+
+# What the brain needs, and when. Development is governed by the timing, dose and duration of each nutrient
+# (georgieff-2007); a nutrient missed during a critical window may leave lasting deficits even after later
+# repletion (aap-1000-days).
+brainDevelopment:
+  summary: >-
+    Calories are essential for growth but are not sufficient for normal brain development. The nutrients with the
+    strongest effects on the developing brain are protein; zinc; iron; choline; folate; iodine; vitamins A, D, B6
+    and B12; and long-chain polyunsaturated fatty acids such as DHA (aap-1000-days, georgieff-2007). Brain regions
+    develop on different timetables: the neural tube closes within the first month after conception;
+    myelination rises sharply from about 32 weeks of gestation and is most active in the first two years; the
+    hippocampus (memory) begins its rapid growth phase at about 32 weeks and continues for at least 18 months
+    after birth; the prefrontal cortex begins its growth spurt in the first six months after birth
+    (cusick-georgieff-2016). Maternal stress and poor nutrition interact and each can worsen the other's effect
+    on infant neurocognitive development (monk-2013).
+  windows:
+    - nutrient: Folate (folic acid)
+      when: "At least 1 month before conception through the first 2-3 months of pregnancy"
+      role: >-
+        The neural tube (future brain and spinal cord) forms and closes about 26-28 days after fertilization,
+        often before a pregnancy is recognized. Folic acid taken before and in early pregnancy prevents neural
+        tube defects.
+      evidence: established
+      sources: [uspstf-folate-2023, acog-faq-nutrition]
+    - nutrient: Iodine
+      when: "Before conception and throughout pregnancy and breastfeeding; most critical in the first trimester"
+      role: >-
+        Iodine's only role in brain development is making thyroid hormone. In the first trimester the fetal brain
+        depends entirely on the mother's thyroxine (T4), so maternal iodine status at conception matters. Severe
+        deficiency causes cretinism; milder deficiency is linked with lower cognitive scores.
+      evidence: established
+      sources: [cusick-georgieff-2016, ata-2017, ata-2026, ods-iodine]
+    - nutrient: Choline
+      when: "Throughout pregnancy and lactation; research interest concentrates on the third trimester"
+      role: >-
+        Choline is needed for cell membranes, the neurotransmitter acetylcholine and methyl metabolism alongside
+        folate. Animal studies show lifelong cognitive benefits in offspring when the maternal diet is
+        supplemented with choline, and the AAP and AMA have emphasized prenatal choline. Human evidence is still
+        small: a controlled-feeding trial of 26 women found faster infant information processing when mothers
+        ate about 930 mg a day versus 480 mg a day in the third trimester.
+      evidence: emerging
+      sources: [wallace-2020-choline, caudill-2018, aap-1000-days]
+    - nutrient: Iron
+      when: "Throughout pregnancy, especially the third trimester, and from about 4-6 months of infancy"
+      role: >-
+        Iron is required for normal fetal brain anatomy, myelination, the dopamine, serotonin and norepinephrine
+        systems and hippocampal energy metabolism. Prevention is preferred to treatment, and the earlier the brain
+        is protected (prenatal period and early infancy) the better; excess or mistimed iron can also harm.
+      evidence: established
+      sources: [cusick-georgieff-2016, georgieff-2007, aap-iron-2010]
+    - nutrient: DHA and other long-chain omega-3 fats
+      when: "Pregnancy (rapid brain growth from the third trimester) through breastfeeding and the first two years"
+      role: >-
+        DHA is needed for neurogenesis, neuronal migration, membrane function and synapse formation. Seafood
+        intake in pregnancy is associated with better cognitive measures in young children, but supplement trials
+        of child cognition show mixed results in meta-analyses.
+      evidence: emerging
+      sources: [cusick-georgieff-2016, georgieff-2007, dga-2020]
+    - nutrient: Protein and energy
+      when: "Whole pregnancy and infancy"
+      role: >-
+        Fetal growth restriction and growth failure in the first years are consistently linked with poorer
+        neurodevelopment; protein affects the hippocampus and cortex as well as global development.
+      evidence: established
+      sources: [cusick-georgieff-2016, georgieff-2007]
+    - nutrient: Alcohol (harmful)
+      when: "While trying to conceive and the whole of pregnancy"
+      role: >-
+        There is no known safe amount or safe time to drink. Alcohol causes fetal alcohol spectrum disorders,
+        with growth and central nervous system effects possible at any point in pregnancy.
+      evidence: established
+      sources: [cdc-alcohol-pregnancy, dga-2025]
+
+# Gestational weight gain by pre-pregnancy BMI (iom-2009-gwg; endorsed by acog-548).
+weightGain:
+  note: >-
+    Totals assume about 1.1-4.4 lb (0.5-2 kg) gained in the first trimester; weekly rates apply to the second and
+    third trimesters. Twin ranges are provisional.
+  sources: [iom-2009-gwg, acog-548]
+  singleton:
+    - { bmi: "Underweight (< 18.5)", total: "28-40 lb", weeklyAfterFirstTrimester: "about 1 lb (1-1.3)" }
+    - { bmi: "Normal weight (18.5-24.9)", total: "25-35 lb", weeklyAfterFirstTrimester: "about 1 lb (0.8-1)" }
+    - { bmi: "Overweight (25.0-29.9)", total: "15-25 lb", weeklyAfterFirstTrimester: "about 0.6 lb (0.5-0.7)" }
+    - { bmi: "Obese (30 and above)", total: "11-20 lb", weeklyAfterFirstTrimester: "about 0.5 lb (0.4-0.6)" }
+  twins:
+    - { bmi: "Normal weight", total: "37-54 lb" }
+    - { bmi: "Overweight", total: "31-50 lb" }
+    - { bmi: "Obese", total: "25-42 lb" }
+
+# Daily needs that change across the stages (adult values, ages 19-50; nasem-dri unless noted).
+dailyTargets:
+  - { nutrient: Folate, nonPregnant: "400 mcg DFE", pregnancy: "600 mcg DFE (with a 400-800 mcg folic acid supplement)", lactation: "500 mcg DFE", sources: [nasem-dri, acog-faq-nutrition, uspstf-folate-2023] }
+  - { nutrient: Iron, nonPregnant: "18 mg", pregnancy: "27 mg", lactation: "9 mg", sources: [nasem-dri, acog-faq-nutrition] }
+  - { nutrient: Iodine, nonPregnant: "150 mcg", pregnancy: "220 mcg (ATA: about 250 mcg from all sources)", lactation: "290 mcg (ATA: about 250 mcg from all sources)", sources: [ods-iodine, ata-2026] }
+  - { nutrient: Choline (Adequate Intake), nonPregnant: "425 mg", pregnancy: "450 mg", lactation: "550 mg", sources: [ods-choline, acog-faq-nutrition] }
+  - { nutrient: Vitamin D, nonPregnant: "600 IU (15 mcg)", pregnancy: "600 IU (15 mcg)", lactation: "600 IU (15 mcg)", sources: [nasem-dri, acog-faq-nutrition] }
+  - { nutrient: Calcium, nonPregnant: "1,000 mg", pregnancy: "1,000 mg (1,300 mg if 18 or younger)", lactation: "1,000 mg", sources: [nasem-dri, acog-faq-nutrition] }
+  - { nutrient: Protein, nonPregnant: "46 g (0.8 g/kg)", pregnancy: "71 g (1.1 g/kg) in the second half", lactation: "71 g", source: nasem-dri }
+  - { nutrient: Vitamin B12, nonPregnant: "2.4 mcg", pregnancy: "2.6 mcg", lactation: "2.8 mcg", sources: [nasem-dri, acog-faq-nutrition] }
+  - { nutrient: Extra energy, nonPregnant: "baseline", pregnancy: "+0 kcal (1st trimester), +340 (2nd), +452 (3rd)", lactation: "+330 kcal (0-6 months), +400 kcal (7-12 months)", source: dga-2020 }
+
+stages:
+  # ---------------------------------------------------------------------------------------------------------
+  - id: preconception
+    label: Before conception (3+ months)
+    weeks: "3 or more months before trying to conceive"
+    focus: >-
+      The neural tube closes 26-28 days after fertilization and the major organs form in the first 8 weeks, often
+      before a pregnancy is known, so the most important nutrition happens before conception: folic acid every
+      day, adequate iodine stores for the first-trimester thyroid supply to the fetal brain, a varied whole-food
+      diet, no alcohol, and reaching a healthy weight and fitness base. A strong aerobic and strength base now
+      makes it easier to keep exercising through pregnancy.
+    energy: >-
+      No extra calories. Aim to begin pregnancy at a healthy BMI (18.5-24.9); underweight raises the risk of low
+      birth weight and preterm birth, and overweight or obesity raises the risks of pre-eclampsia, gestational
+      diabetes, cesarean birth and neural tube defects. Even a small loss of excess weight before pregnancy
+      improves health (acog-faq-prepregnancy, iom-2009-gwg).
+    nutrients:
+      - name: Folic acid
+        amount: "400-800 mcg a day, starting at least 1 month (ideally 3) before conception"
+        why: >-
+          Prevents neural tube defects. Nearly half of US pregnancies are unplanned, so the USPSTF advises it for
+          everyone who could become pregnant. A prior NTD-affected pregnancy calls for 4 mg a day from 3 months
+          before conception, as a separate prescription.
+        foods: "Fortified cereal, enriched bread and pasta, beans and lentils, dark leafy greens, oranges, peanuts"
+        evidence: established
+        sources: [uspstf-folate-2023, acog-faq-nutrition]
+      - name: Iodine
+        amount: "Supplement of 150 mcg a day (as potassium iodide), ideally from at least 3 months before conception"
+        why: >-
+          Builds thyroid hormone supply for the first trimester, when the fetal brain depends on maternal T4.
+          Many prenatal vitamins contain little or no iodine, so the label should be checked. Avoid supplements
+          above 500 mcg a day.
+        foods: "Iodized salt (used in place of plain salt, not in addition), milk, yogurt, cheese, eggs, seafood"
+        evidence: established
+        sources: [ata-2017, ata-2026, ods-iodine]
+      - name: Prenatal vitamin
+        amount: "One daily serving as labeled"
+        why: >-
+          Covers folic acid, iron and most vitamins. Taking a vitamin before and during pregnancy also reduces the
+          risk of severe nausea and vomiting. Never double the dose: excess vitamin A can cause birth defects.
+        foods: "Not a substitute for food; choose an established brand and check for folic acid and iodine"
+        evidence: established
+        sources: [acog-faq-nutrition, acog-faq-nvp, acog-faq-prepregnancy]
+      - name: Seafood (omega-3 fats)
+        amount: "2-3 servings (8-12 oz) a week of low-mercury fish"
+        why: "Builds omega-3 status before pregnancy; ACOG advises the same intake before, during and after pregnancy."
+        foods: "Salmon, sardines, trout, herring, anchovies, Atlantic mackerel, pollock, shrimp, canned light tuna"
+        evidence: established
+        sources: [fda-fish, acog-faq-nutrition]
+      - name: Iron
+        amount: "18 mg a day"
+        why: "Enters pregnancy with iron stores; blood volume rises sharply later."
+        foods: "Lean red meat, poultry, fish, beans and lentils, iron-fortified cereals; eat with vitamin C foods"
+        evidence: established
+        sources: [nasem-dri, acog-faq-nutrition]
+    eat:
+      - "Half of each plate vegetables and fruit; half of grains whole grain (acog-faq-nutrition)"
+      - "Protein at every meal: eggs, fish, poultry, meat, beans, lentils, tofu, nuts and seeds (acog-faq-nutrition, dga-2025)"
+      - "Dairy or a fortified alternative 2-3 times a day for calcium and iodine (acog-faq-nutrition, ods-iodine)"
+      - "Two or three fish meals a week from the FDA Best Choices list (fda-fish)"
+      - "Water as the main drink"
+    limit:
+      - "Alcohol: stop while trying to conceive; there is no known safe amount at any point in pregnancy (cdc-alcohol-pregnancy, dga-2025)"
+      - "Tobacco, nicotine, marijuana and non-medical drug use: stop before pregnancy (acog-faq-prepregnancy)"
+      - "Sugar-sweetened drinks and highly processed snacks: replace with whole foods (dga-2025, acog-faq-prepregnancy)"
+      - "High-mercury fish: king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, bigeye tuna (fda-fish)"
+      - "Extra doses of vitamin A or multiple multivitamins (acog-faq-nutrition)"
+    exercise:
+      - activity: Aerobic training
+        dose: "150-300 min a week moderate (brisk walking, cycling, swimming), or 75-150 min vigorous, or a mix"
+        notes: "Builds the cardiovascular base; any amount is better than none; replace sitting time with movement."
+        evidence: established
+        sources: [who-2020-pa, acog-faq-prepregnancy]
+      - activity: Strength training
+        dose: "2 or more days a week, all major muscle groups"
+        notes: "Squats, hinges (deadlift pattern), rows, presses, carries; strengthening abdominal and back muscles helps prevent the low back pain common later in pregnancy."
+        evidence: established
+        sources: [who-2020-pa, acog-faq-prepregnancy, acog-804]
+      - activity: Pelvic floor muscle training
+        dose: "Learn correct technique now; daily practice"
+        notes: "Contract (squeeze and lift) and fully relax the pelvic floor; a pelvic health physiotherapist can confirm technique."
+        evidence: emerging
+        sources: [canada-2019-pa, cochrane-pfmt-2020]
+    weeklyPlan:
+      - { day: Monday, session: "Strength 40 min (squat, hip hinge, row, push-up or press, carry; 2-3 sets of 8-12)" }
+      - { day: Tuesday, session: "Brisk walk or run 30-40 min" }
+      - { day: Wednesday, session: "Cycling or swimming 30-40 min, including some vigorous intervals if already fit" }
+      - { day: Thursday, session: "Strength 40 min (lunge, step-up, deadlift, pull-down or row, plank, side plank)" }
+      - { day: Friday, session: "Brisk walk 30 min" }
+      - { day: Saturday, session: "Longer activity 45-60 min: hike, bike ride, sport" }
+      - { day: Sunday, session: "Rest or gentle stretching and yoga" }
+      - { day: Daily, session: "Pelvic floor practice; break up long sitting" }
+    warnings:
+      - "Review medications, chronic conditions (diabetes, hypertension, thyroid disease, seizures), vaccinations and weight with the provider at a prepregnancy visit (acog-faq-prepregnancy)."
+      - "Anyone with a previous neural-tube-defect pregnancy or on medication that blocks folate needs individualized folic acid dosing (uspstf-folate-2023, acog-faq-nutrition)."
+    sources: [uspstf-folate-2023, ata-2017, ata-2026, ods-iodine, acog-faq-prepregnancy, acog-faq-nutrition, fda-fish, who-2020-pa, iom-2009-gwg, cdc-alcohol-pregnancy, dga-2025]
+
+  # ---------------------------------------------------------------------------------------------------------
+  - id: trimester-1
+    label: First trimester
+    weeks: "Weeks 1-13"
+    focus: >-
+      Organ formation. The neural tube closes in the first month after conception, and the fetal brain relies on
+      the mother's thyroid hormone, so folic acid and iodine continue every day. The extra calorie need is zero;
+      the goal is nutrient density and managing nausea while keeping food and fluids down. Exercise can continue
+      or begin, with heat avoided.
+    energy: >-
+      No extra calories in the first trimester (dga-2020). Expected gain is about 1.1-4.4 lb for the whole
+      trimester (iom-2009-gwg); small losses from nausea are common, but losing 5% of pre-pregnancy weight with
+      dehydration signals hyperemesis gravidarum and needs care (acog-faq-nvp).
+    nutrients:
+      - name: Folic acid
+        amount: "400-800 mcg a day supplement (600 mcg DFE total folate need)"
+        why: "Continue through at least the first 2-3 months; the neural tube is closing."
+        foods: "Fortified cereal, beans, lentils, spinach, asparagus, oranges"
+        evidence: established
+        sources: [uspstf-folate-2023, acog-faq-nutrition]
+      - name: Iodine
+        amount: "220 mcg RDA; 150 mcg supplement daily; about 250 mcg from all sources"
+        why: "Fetal brain depends entirely on maternal thyroxine in this trimester."
+        foods: "Milk, yogurt, eggs, cod, shrimp, iodized salt"
+        evidence: established
+        sources: [ods-iodine, ata-2017, ata-2026, cusick-georgieff-2016]
+      - name: Choline
+        amount: "450 mg a day (Adequate Intake)"
+        why: "Brain and spinal cord development; most prenatal vitamins contain little or none, so it must come from food."
+        foods: "Eggs (about 147 mg in one large egg), beef, chicken, fish, milk, soy, peanuts, beans"
+        evidence: established
+        sources: [acog-faq-nutrition, ods-choline]
+      - name: Vitamin B6 and ginger (for nausea)
+        amount: "As advised by the provider"
+        why: "Vitamin B6 with or without doxylamine is a first-line medication for nausea and vomiting of pregnancy; ginger can settle the stomach."
+        foods: "Ginger tea from fresh ginger, ginger candies; bland foods"
+        evidence: established
+        sources: [acog-pb-189, acog-faq-nvp]
+      - name: Iron
+        amount: "27 mg a day (usually supplied by the prenatal vitamin)"
+        why: "Blood volume begins to expand; anemia is checked by blood test in pregnancy."
+        foods: "Beef, turkey, shrimp, beans, lentils, fortified cereal, with oranges, strawberries, peppers or broccoli"
+        evidence: established
+        source: acog-faq-nutrition
+    eat:
+      - "Dry toast or crackers before getting up; 5-6 small meals so the stomach is never empty (acog-faq-nvp)"
+      - "Protein with every small meal: yogurt, milk, nut butters, eggs, cheese, protein shakes (acog-faq-nvp)"
+      - "Bland, low-fat foods when nauseated (bananas, rice, applesauce, toast); whatever stays down is the right food (acog-faq-nvp)"
+      - "8-12 cups of fluid a day, sipped through the day (acog-faq-nvp, acog-faq-nutrition)"
+      - "Cooked low-mercury fish 2-3 times a week once tolerated (fda-fish)"
+    exampleDay:
+      breakfast: "Crackers in bed; later, scrambled eggs (2) on whole-grain toast, orange segments"
+      snack: "Plain yogurt with banana"
+      lunch: "Lentil soup, whole-grain roll, cheese"
+      snack2: "Peanut butter on apple slices; ginger tea"
+      dinner: "Baked salmon, rice, steamed broccoli"
+      evening: "Glass of milk and a few nuts"
+      notes: "About 450 mg choline (eggs, salmon, milk, peanut butter); folate from lentils and broccoli; iodine from dairy and eggs. When nauseated, swap to smaller, blander portions of the same foods."
+      sources: [acog-faq-nvp, acog-faq-nutrition, ods-choline, fda-fish]
+    limit:
+      - "Alcohol: none (cdc-alcohol-pregnancy, dga-2025)"
+      - "Caffeine: under 200 mg a day, about one 12-oz cup of coffee; count tea, chocolate, energy drinks and soft drinks (acog-462)"
+      - "Listeria risks: raw (unpasteurized) milk and cheeses made from it; hot dogs and deli meats unless heated until steaming; refrigerated pâté and meat spreads; refrigerated smoked seafood; unwashed produce (acog-faq-listeria)"
+      - "Raw or undercooked seafood, eggs, meat and poultry, including sushi with raw fish (acog-faq-listeria, acog-faq-nutrition)"
+      - "High-mercury fish (king mackerel, marlin, orange roughy, shark, swordfish, Gulf tilefish, bigeye tuna); albacore tuna at most one serving a week, with no other fish that week (fda-fish)"
+      - "Hot tubs and saunas: heat exposure has been associated with neural tube defects (acog-804)"
+    exercise:
+      - activity: Moderate aerobic activity
+        dose: "At least 150 min a week, e.g. 30 min on 5 days or 10-min bouts"
+        notes: "Moderate means able to talk but not sing (talk test), or 13-14 'somewhat hard' on the Borg scale. Previously vigorous exercisers may continue. Beginners start with 5 min a day and add 5 min a week."
+        evidence: established
+        sources: [acog-804, acog-faq-exercise-pregnancy, who-2020-pa]
+      - activity: Strength training
+        dose: "2-3 days a week, light to moderate loads, 1-3 sets of 8-15"
+        notes: "Exhale on effort and avoid prolonged breath-holding; experienced lifters consider reducing load relative to pre-pregnancy."
+        evidence: established
+        sources: [acog-804, canada-2019-pa, who-2020-pa]
+      - activity: Pelvic floor muscle training
+        dose: "Daily"
+        notes: "In continent women, antenatal training probably lowers the risk of urinary incontinence in late pregnancy (about 62% less) and slightly lowers it 3-6 months postpartum (about 29% less). Programs in trials varied; instruction in technique is recommended."
+        evidence: established
+        sources: [canada-2019-pa, who-2020-pa, cochrane-pfmt-2020]
+      - activity: Heat and hydration
+        dose: "Every session"
+        notes: "Drink before, during and after; wear loose clothing; exercise in a cool or air-conditioned space; avoid hot, humid conditions, hot yoga and hot Pilates, especially in the first trimester."
+        evidence: established
+        sources: [acog-804, acog-faq-exercise-pregnancy, who-2020-pa]
+    weeklyPlan:
+      - { day: Monday, session: "Brisk walk 30 min + pelvic floor set" }
+      - { day: Tuesday, session: "Full-body strength 30-40 min: goblet squat, hip hinge, row, incline push-up, side plank" }
+      - { day: Wednesday, session: "Stationary cycling or swimming 30 min (intervals only if previously used to them)" }
+      - { day: Thursday, session: "Brisk walk 30 min" }
+      - { day: Friday, session: "Full-body strength 30-40 min: split squat, glute bridge, band pull-apart, overhead press, bird-dog" }
+      - { day: Saturday, session: "Longer easy activity 45 min: walk, swim or prenatal class" }
+      - { day: Sunday, session: "Rest, gentle stretching or prenatal yoga" }
+      - { day: Daily, session: "Pelvic floor muscle training; on nausea days, do what is possible (even 10 minutes counts)" }
+    warnings:
+      - "Stop exercise and call the provider for: vaginal bleeding, abdominal pain, regular painful contractions, fluid leaking, shortness of breath before exercise, dizziness, headache, chest pain, muscle weakness affecting balance, calf pain or swelling (acog-804)."
+      - "Call the provider for nausea and vomiting with dark or scanty urine, inability to keep liquids down, dizziness on standing or a racing heart; and for nausea that starts after 9 weeks, or comes with abdominal pain, fever, headache or a swollen thyroid (acog-faq-nvp)."
+      - "Symptoms of listeriosis (fever, chills, aches, diarrhea, stiff neck) can appear up to 2 months after exposure; contact the provider promptly (acog-faq-listeria)."
+    sources: [dga-2020, iom-2009-gwg, uspstf-folate-2023, ata-2017, ata-2026, ods-iodine, ods-choline, acog-faq-nutrition, acog-faq-nvp, acog-pb-189, acog-462, acog-faq-listeria, fda-fish, acog-804, acog-faq-exercise-pregnancy, who-2020-pa, canada-2019-pa, cochrane-pfmt-2020]
+
+  # ---------------------------------------------------------------------------------------------------------
+  - id: trimester-2
+    label: Second trimester
+    weeks: "Weeks 14-27"
+    focus: >-
+      Steady fetal growth and placental expansion; maternal blood volume rises, so iron needs are high. Appetite
+      usually returns, which makes this the trimester to build habits: protein, iron, choline, iodine and
+      seafood every week. Exercise usually feels best now; the main adjustments are avoiding long periods flat on
+      the back and anything with fall or impact risk.
+    energy: >-
+      About +340 kcal a day, roughly one extra small meal such as a turkey sandwich and a glass of milk (dga-2020).
+      Weight gain of about 1 lb a week for normal pre-pregnancy BMI (0.5-0.6 lb a week if overweight or obese,
+      1-1.3 lb if underweight), toward the totals in weightGain (iom-2009-gwg, acog-548).
+    nutrients:
+      - name: Iron
+        amount: "27 mg a day"
+        why: "Builds maternal red cells and fetal stores. A blood test checks for anemia; the provider adds iron if needed. The USPSTF (2024) found evidence insufficient for or against routine extra iron for non-anemic pregnant people, so the dose beyond the prenatal vitamin is individualized."
+        foods: "Lean beef, turkey, shrimp, sardines, beans, lentils, fortified cereal; pair with vitamin C foods"
+        evidence: established
+        sources: [acog-faq-nutrition, nasem-dri, uspstf-iron-2024]
+      - name: Choline
+        amount: "450 mg a day"
+        why: "Fetal brain and spinal cord development; most pregnant women in the US eat less than the Adequate Intake."
+        foods: "Eggs, beef, chicken, fish, milk, soybeans, peanuts"
+        evidence: established
+        sources: [acog-faq-nutrition, ods-choline, wallace-2020-choline]
+      - name: Iodine
+        amount: "220 mcg RDA; 150 mcg supplement"
+        why: "Thyroid hormone for fetal brain development throughout pregnancy."
+        foods: "Dairy, eggs, seafood, iodized salt"
+        evidence: established
+        sources: [ods-iodine, ata-2017, ata-2026]
+      - name: Calcium and vitamin D
+        amount: "1,000 mg calcium; 600 IU vitamin D"
+        why: "Fetal bones and teeth."
+        foods: "Milk, yogurt, cheese, sardines or canned salmon with bones, fortified foods, egg yolks"
+        evidence: established
+        source: acog-faq-nutrition
+      - name: DHA and omega-3 fats
+        amount: "8-12 oz low-mercury fish a week; prenatal DHA supplement if little fish is eaten"
+        why: >-
+          Seafood is established guidance. Supplements: a Cochrane review (70 trials) found omega-3 reduced
+          preterm birth (RR 0.89) and early preterm birth before 34 weeks (RR 0.58), with a small rise in
+          post-term pregnancy; the large ORIP trial in an omega-3-replete population found no reduction; the ADORE
+          trial suggested 1,000 mg DHA a day lowers early preterm birth mainly in women with low DHA status.
+          Dose and need are best decided with the provider.
+        foods: "Salmon, sardines, trout, herring, anchovies, Atlantic mackerel; walnuts and ground flax supply plant omega-3 (ALA)"
+        evidence: emerging
+        sources: [fda-fish, acog-faq-nutrition, cochrane-omega3-2018, orip-2019, adore-2021]
+      - name: Protein
+        amount: "71 g a day (1.1 g/kg) in the second half of pregnancy"
+        why: "Fetal and placental growth. One small study using a newer method estimated higher needs (about 1.2 g/kg early and 1.5 g/kg late); the official RDA has not changed."
+        foods: "Eggs, dairy, fish, poultry, meat, beans, lentils, tofu, nuts"
+        evidence: established
+        sources: [nasem-dri, stephens-2015-protein]
+    eat:
+      - "Add one nutrient-dense snack or small meal a day rather than larger portions of everything (dga-2020)"
+      - "Two or three fish meals a week; one could be canned salmon or sardines on toast (fda-fish)"
+      - "Eggs several times a week for choline (ods-choline)"
+      - "Iron-rich protein most days, with a vitamin C fruit or vegetable at the same meal (acog-faq-nutrition)"
+      - "Fiber, fluids and activity to ease constipation (acog-faq-exercise-pregnancy, acog-faq-nutrition)"
+    exampleDay:
+      breakfast: "Oatmeal cooked in milk with walnuts and berries; 2 boiled eggs"
+      snack: "Hummus with carrot and pepper sticks; whole-grain crackers"
+      lunch: "Whole-grain wrap with turkey, spinach, tomato and cheese; orange"
+      snack2: "Greek yogurt with ground flax"
+      dinner: "Beef and bean chili with brown rice, side salad"
+      evening: "Milk and a banana (the extra roughly 340 kcal)"
+      notes: "Iron from beef, beans and turkey with vitamin C from peppers, tomato and orange; choline from eggs, beef and milk; replace the chili with salmon or trout 2-3 nights a week."
+      sources: [acog-faq-nutrition, dga-2020, ods-choline, fda-fish]
+    limit:
+      - "Alcohol: none (cdc-alcohol-pregnancy, dga-2025)"
+      - "Caffeine under 200 mg a day (acog-462)"
+      - "Listeria-risk foods and raw or undercooked animal foods, as in the first trimester (acog-faq-listeria)"
+      - "High-mercury fish; check local advisories for fish caught by family or friends (fda-fish, acog-faq-nutrition)"
+      - "Sugar-sweetened beverages and foods high in added sugar or saturated fat (dga-2025, acog-faq-nutrition)"
+    exercise:
+      - activity: Moderate aerobic activity
+        dose: "At least 150 min a week over at least 3 days; daily activity encouraged"
+        notes: "Walking, swimming, water aerobics, stationary cycling, dancing; experienced runners and racquet players may continue with the provider's agreement."
+        evidence: established
+        sources: [acog-804, canada-2019-pa, acog-faq-exercise-pregnancy]
+      - activity: Strength training
+        dose: "2-3 days a week"
+        notes: "Shift lying-on-the-back exercises to incline, seated, standing or side-lying positions; strengthening abdominal and back muscles reduces back pain risk."
+        evidence: established
+        sources: [acog-804, who-2020-pa, canada-2019-pa]
+      - activity: Position
+        dose: "After about 20 weeks"
+        notes: "Avoid long periods lying flat on the back (the uterus compresses the vena cava and can lower blood pressure) and long periods of standing still. Anyone who feels light-headed, nauseated or unwell lying flat should change position."
+        evidence: established
+        sources: [acog-804, acog-faq-exercise-pregnancy, who-2020-pa, canada-2019-pa]
+      - activity: Activities to avoid
+        dose: "Whole pregnancy"
+        notes: "Contact sports (ice hockey, boxing, soccer, basketball); fall risks (downhill skiing, water skiing, surfing, off-road cycling, gymnastics, horseback riding); skydiving; scuba diving; hot yoga or hot Pilates; exertion above 6,000 ft unless already living at altitude."
+        evidence: established
+        sources: [acog-faq-exercise-pregnancy, acog-804]
+      - activity: Pelvic floor muscle training
+        dose: "Daily"
+        notes: "Continue; combine with breathing and deep abdominal (transversus) activation."
+        evidence: established
+        sources: [canada-2019-pa, cochrane-pfmt-2020]
+    weeklyPlan:
+      - { day: Monday, session: "Brisk walk or easy jog (if already a runner) 30-40 min" }
+      - { day: Tuesday, session: "Strength 40 min: goblet squat, Romanian deadlift, seated or standing row, incline press, side-lying leg lift, Pallof press" }
+      - { day: Wednesday, session: "Swim or water aerobics 30-45 min" }
+      - { day: Thursday, session: "Stationary bike 30 min, moderate (talk test)" }
+      - { day: Friday, session: "Strength 40 min: split squat, step-up, hip thrust from a bench, band row, farmer carry, bird-dog" }
+      - { day: Saturday, session: "Walk 45-60 min on even ground, or prenatal yoga or Pilates class" }
+      - { day: Sunday, session: "Rest or gentle stretching" }
+      - { day: Daily, session: "Pelvic floor muscle training" }
+    warnings:
+      - "Stop exercise and call the provider for: vaginal bleeding, abdominal pain, regular painful contractions, fluid leaking, shortness of breath before exercise, dizziness, headache, chest pain, muscle weakness affecting balance, calf pain or swelling (acog-804)."
+      - "Exercise is not advised with ruptured membranes, preterm labor, persistent unexplained bleeding, placenta previa after 28 weeks, pre-eclampsia, cervical insufficiency, fetal growth restriction, triplets or more, or uncontrolled type 1 diabetes, hypertension or thyroid disease; gestational hypertension, twins after 28 weeks, symptomatic anemia, a history of preterm birth or recurrent loss call for an individual decision with the provider (canada-2019-pa)."
+      - "Seek care immediately for severe headache, vision changes, extreme swelling of the hands or face, trouble breathing, chest pain, severe belly pain, or bleeding or fluid leaking (cdc-hear-her)."
+    sources: [dga-2020, iom-2009-gwg, acog-548, acog-faq-nutrition, nasem-dri, uspstf-iron-2024, ods-choline, ods-iodine, ata-2017, ata-2026, fda-fish, cochrane-omega3-2018, orip-2019, adore-2021, stephens-2015-protein, acog-804, acog-faq-exercise-pregnancy, who-2020-pa, canada-2019-pa, cochrane-pfmt-2020, cdc-hear-her]
+
+  # ---------------------------------------------------------------------------------------------------------
+  - id: trimester-3
+    label: Third trimester
+    weeks: "Weeks 28-40"
+    focus: >-
+      The brain growth spurt begins: myelination rises sharply and the hippocampus enters its rapid growth phase
+      from about 32 weeks, and the fetus builds the iron stores it will rely on in early infancy. Iron, choline,
+      iodine, DHA and protein matter most now. Exercise continues with lower impact as balance and comfort change,
+      with water exercise a good option for back pain.
+    energy: >-
+      About +452 kcal a day (dga-2020), for example adding both a mid-morning and an evening snack. Weekly gain as
+      in the second trimester (iom-2009-gwg). Sessions longer than 45 minutes or at high intensity can lower blood
+      sugar, so eat beforehand or shorten the session (acog-804).
+    nutrients:
+      - name: Iron
+        amount: "27 mg a day; more only if the provider finds deficiency"
+        why: "Iron supports fetal brain anatomy, myelination and neurotransmitter systems; late-pregnancy stores protect the infant until iron-rich foods begin."
+        foods: "Red meat, poultry, fish, beans, fortified cereals, with vitamin C foods"
+        evidence: established
+        sources: [acog-faq-nutrition, cusick-georgieff-2016, uspstf-iron-2024]
+      - name: Choline
+        amount: "450 mg a day (Adequate Intake); intakes near 900 mg are under study"
+        why: "In a small controlled-feeding trial, about 930 mg a day in the third trimester produced faster infant information processing than 480 mg; larger trials are needed."
+        foods: "2 eggs a day plus meat, fish, milk or soy reach or exceed 450 mg"
+        evidence: emerging
+        sources: [ods-choline, acog-faq-nutrition, caudill-2018, wallace-2020-choline]
+      - name: DHA and omega-3 fats
+        amount: "8-12 oz low-mercury fish a week; supplement per provider"
+        why: "Rapid brain growth; see the second-trimester entry for the supplement evidence on preterm birth."
+        foods: "Salmon, sardines, trout, herring, anchovies"
+        evidence: emerging
+        sources: [fda-fish, cochrane-omega3-2018, orip-2019, adore-2021, cusick-georgieff-2016]
+      - name: Iodine
+        amount: "220 mcg RDA; 150 mcg supplement"
+        why: "Fetal thyroid hormone production still depends on maternal iodine supply."
+        foods: "Dairy, eggs, seafood, iodized salt"
+        evidence: established
+        sources: [ods-iodine, ata-2017, ata-2026]
+      - name: Protein, calcium and vitamin D
+        amount: "71 g protein; 1,000 mg calcium; 600 IU vitamin D"
+        why: "Fetal growth and the building of fetal bones and teeth."
+        foods: "Dairy, eggs, fish, meat, beans, tofu, nuts"
+        evidence: established
+        sources: [nasem-dri, acog-faq-nutrition]
+    eat:
+      - "Smaller, more frequent meals as the growing uterus crowds the stomach (acog-faq-nvp)"
+      - "Two eggs or an equivalent choline source daily (ods-choline)"
+      - "Fish 2-3 times a week (fda-fish)"
+      - "A snack before exercise sessions (acog-804)"
+      - "8-12 cups of fluid a day (acog-faq-nutrition)"
+    exampleDay:
+      breakfast: "Two-egg omelet with spinach and cheese, whole-grain toast, kiwi"
+      snack: "Smoothie: milk, yogurt, frozen berries, peanut butter"
+      lunch: "Canned salmon salad on whole-grain bread, lentil and vegetable soup"
+      snack2: "Hard cheese, whole-grain crackers, grapes"
+      dinner: "Roast chicken, sweet potato, green beans; whole-grain roll"
+      evening: "Fortified cereal with milk (iron and iodine)"
+      notes: "Roughly 450-500 mg choline (eggs, salmon, chicken, milk); iron from lentils, chicken and fortified cereal; vitamin A from sweet potato and spinach (food sources, not high-dose supplements)."
+      sources: [acog-faq-nutrition, ods-choline, fda-fish, dga-2020]
+    limit:
+      - "Alcohol: none (cdc-alcohol-pregnancy, dga-2025)"
+      - "Caffeine under 200 mg a day (acog-462)"
+      - "Listeria-risk foods, raw or undercooked animal foods, high-mercury fish (acog-faq-listeria, fda-fish)"
+      - "Prolonged heat exposure during exercise (acog-804)"
+    exercise:
+      - activity: Moderate aerobic activity
+        dose: "At least 150 min a week"
+        notes: "Shift toward walking, swimming, water aerobics and stationary cycling as needed. Women who keep exercising vigorously in the third trimester have, on average, babies 200-400 g lighter, without more fetal growth restriction."
+        evidence: established
+        sources: [acog-804, who-2020-pa]
+      - activity: Water exercise
+        dose: "2-3 sessions a week if available"
+        notes: "Buoyancy relieves joint load and is an alternative for low back pain; one trial of aquatic exercise found more intact perineums after birth."
+        evidence: established
+        source: acog-804
+      - activity: Strength and mobility
+        dose: "2 days a week, lighter loads, stable positions"
+        notes: "Seated or supported movements; avoid moves that challenge balance; no long periods flat on the back."
+        evidence: established
+        sources: [acog-804, canada-2019-pa, who-2020-pa]
+      - activity: Pelvic floor muscle training
+        dose: "Daily"
+        notes: "Practice both contraction and full relaxation, which matters for birth."
+        evidence: established
+        sources: [canada-2019-pa, cochrane-pfmt-2020, who-2020-pa]
+    weeklyPlan:
+      - { day: Monday, session: "Walk 30 min (belly support belt if helpful)" }
+      - { day: Tuesday, session: "Strength 30 min, supported: box squat to a bench, seated row, wall push-up, side-lying clam, standing Pallof press" }
+      - { day: Wednesday, session: "Swim or water aerobics 30-40 min" }
+      - { day: Thursday, session: "Stationary bike 30 min" }
+      - { day: Friday, session: "Strength 30 min: supported split squat, hip bridge on an incline, band pull-apart, carry" }
+      - { day: Saturday, session: "Walk 30-45 min or water session" }
+      - { day: Sunday, session: "Rest; gentle stretching" }
+      - { day: Daily, session: "Pelvic floor training with full relaxation; short walks after meals" }
+    warnings:
+      - "Stop exercise and call the provider for: vaginal bleeding, abdominal pain, regular painful contractions, fluid leaking, shortness of breath before exercise, dizziness, headache, chest pain, muscle weakness affecting balance, calf pain or swelling (acog-804)."
+      - "Seek care immediately if the baby's movements stop or slow, or for severe headache, vision changes, extreme swelling of the hands or face, trouble breathing, chest pain or severe belly pain (cdc-hear-her)."
+      - "Bed rest is not routinely recommended to prevent preterm birth or pre-eclampsia; follow the provider's specific instructions when activity is restricted (acog-804)."
+    sources: [dga-2020, iom-2009-gwg, acog-faq-nutrition, cusick-georgieff-2016, uspstf-iron-2024, ods-choline, caudill-2018, wallace-2020-choline, fda-fish, cochrane-omega3-2018, orip-2019, adore-2021, ods-iodine, ata-2017, ata-2026, nasem-dri, acog-804, who-2020-pa, canada-2019-pa, cochrane-pfmt-2020, cdc-hear-her]
+
+  # ---------------------------------------------------------------------------------------------------------
+  - id: postpartum
+    label: Postpartum and breastfeeding (the mother)
+    weeks: "Birth to 12 months after birth; recovery focus in weeks 0-12"
+    focus: >-
+      Recovery, milk production and a gradual return to full fitness. Breast milk carries the mother's iodine,
+      choline and DHA to the infant brain during its fastest growth, so lactation nutrition stays high-priority.
+      Postpartum care is a process: contact with a maternal care provider within the first 3 weeks and a
+      comprehensive visit no later than 12 weeks after birth (acog-736). Exercise resumes gradually, starting with
+      pelvic floor work and walking, and building to at least 150 minutes a week plus strength training.
+    energy: >-
+      Breastfeeding: about +330 kcal a day in months 0-6 and +400 kcal a day in months 7-12 (dga-2020). Return
+      toward pre-pregnancy weight gradually; very low energy intake can affect milk and recovery, and energy
+      availability is one of the factors used to adjust a return-to-running plan (delphi-run-program-2024).
+    nutrients:
+      - name: Iodine
+        amount: "290 mcg RDA while breastfeeding; continue a 150 mcg supplement"
+        why: "The infant's only iodine source is breast milk (or formula); infant thyroid hormone drives brain development."
+        foods: "Dairy, eggs, seafood, iodized salt"
+        evidence: established
+        sources: [ods-iodine, ata-2017, ata-2026]
+      - name: Choline
+        amount: "550 mg a day (Adequate Intake)"
+        why: "Highest requirement of any life stage; supports infant brain development via milk."
+        foods: "Eggs, meat, fish, milk, soy"
+        evidence: established
+        sources: [ods-choline, wallace-2020-choline]
+      - name: DHA and omega-3 fats
+        amount: "8-12 oz low-mercury fish a week"
+        why: "Breast-milk DHA reflects the mother's diet; the US guidelines name omega-3-rich seafood for breastfeeding women."
+        foods: "Salmon, sardines, trout, herring, anchovies, canned light tuna"
+        evidence: established
+        sources: [fda-fish, dga-2025, acog-faq-nutrition]
+      - name: Vitamin B12, folate and vitamin A
+        amount: "B12 2.8 mcg; folate 500 mcg DFE"
+        why: "Named priorities for lactation; vegans need a B12 supplement."
+        foods: "Meat, poultry, eggs, dairy (B12); legumes (folate); orange and dark green vegetables (vitamin A)"
+        evidence: established
+        sources: [dga-2025, nasem-dri, acog-faq-nutrition]
+      - name: Supplements
+        amount: "Continue the prenatal vitamin or as advised"
+        why: "The 2025-2030 Dietary Guidelines advise discussing supplements while breastfeeding with the health care professional; iron needs fall to 9 mg once menstruation is absent, unless anemic after birth."
+        foods: "Varied whole-food diet"
+        evidence: established
+        sources: [dga-2025, nasem-dri]
+    eat:
+      - "Easy one-hand foods prepared ahead: hard-boiled eggs, yogurt, cheese, nuts, fruit, whole-grain sandwiches"
+      - "Fish 2-3 times a week (fda-fish)"
+      - "A glass of water or milk at each feeding; drink before exercise (acog-804)"
+      - "Iron-rich foods if blood loss at birth was large, as directed by the provider"
+    exampleDay:
+      breakfast: "Overnight oats with milk, chia and berries; 2 eggs"
+      snack: "Apple with cheese"
+      lunch: "Leftover salmon and rice bowl with edamame and vegetables"
+      snack2: "Yogurt with granola and walnuts"
+      dinner: "Turkey meatballs, whole-grain pasta, tomato sauce, salad"
+      evening: "Peanut butter toast and milk during a night feed"
+      notes: "Covers the extra roughly 330-400 kcal with protein-rich snacks; choline about 550 mg from eggs, salmon, turkey, milk and edamame."
+      sources: [dga-2020, ods-choline, fda-fish]
+    limit:
+      - "Alcohol: not drinking is safest. Up to one drink a day is not known to harm the infant, but wait at least 2 hours after a single drink before nursing (cdc-alcohol-breastfeeding)."
+      - "Caffeine: up to about 300 mg a day usually has no adverse effects on the infant (dga-2020)"
+      - "High-mercury fish, as in pregnancy (fda-fish)"
+      - "Very low-calorie dieting: energy availability affects recovery and is a reason to modify training (delphi-run-program-2024)"
+      - "Maternal avoidance of common allergens to prevent infant allergy is not recommended (allergy-consensus-2021, aap-allergy-2019)"
+    exercise:
+      - activity: Weekly target
+        dose: "At least 150 min a week of moderate aerobic activity plus muscle strengthening on at least 2 days"
+        notes: "Split into 10-minute walks if needed. Previously vigorous exercisers can work back to vigorous training with the provider's agreement."
+        evidence: established
+        sources: [acog-faq-exercise-postpartum, who-2020-pa, acog-804]
+      - activity: Pelvic floor muscle training
+        dose: "From the first days after birth (once any catheter is removed), daily"
+        notes: "Strength and endurance contractions; refer to a pelvic health physiotherapist for leaking, heaviness or dragging."
+        evidence: established
+        sources: [acog-804, who-2020-pa, goom-2019]
+      - activity: Abdominal rehabilitation
+        dose: "Begin gently in the first weeks and progress"
+        notes: "Abdominal strengthening, including the drawing-in maneuver and curl-ups, decreased diastasis recti and inter-rectus distance after vaginal and cesarean births."
+        evidence: established
+        source: acog-804
+      - activity: Breastfeeding and exercise
+        dose: "Every session"
+        notes: "Aerobic exercise improves fitness without affecting milk volume, composition or infant growth. Feed or express before exercise and wear a supportive bra."
+        evidence: established
+        sources: [acog-804, acog-faq-exercise-postpartum]
+      - activity: Return to running
+        dose: "Usually not before about 12 weeks; individualized"
+        notes: "Expert guidance advises low-impact exercise for the first 3 months and running from 3-6 months once load and impact tests are passed without pain, heaviness, dragging or leaking. A 2024 international Delphi consensus agreed on at least 3 weeks of relative rest, screening, then an individualized walk-run progression with strength training."
+        evidence: emerging
+        sources: [goom-2019, delphi-run-readiness-2024, delphi-run-program-2024]
+    returnToExercise:
+      - phase: "Weeks 0-2"
+        activities: "Pelvic floor contractions; breathing; pelvic tilts, bent-knee fall-outs, side-lying leg lifts; short, frequent walks"
+        criteria: "As soon as comfortable after an uncomplicated vaginal birth; after a cesarean or complications, timing is set by the obstetric provider"
+        evidence: established
+        sources: [acog-804, acog-faq-exercise-postpartum, goom-2019]
+      - phase: "Weeks 2-4"
+        activities: "Longer walks; progress pelvic floor and deep core work; bodyweight squats, lunges and bridges as needed for daily baby care"
+        criteria: "No increase in bleeding or pain"
+        evidence: emerging
+        source: goom-2019
+      - phase: "Weeks 4-6"
+        activities: "Low-impact cardio such as stationary cycling or an elliptical, if sitting on a saddle is comfortable"
+        criteria: "Perineal or wound healing on track"
+        evidence: emerging
+        source: goom-2019
+      - phase: "Weeks 6-8"
+        activities: "Power walking; longer and harder low-impact sessions; resistance training, starting deadlifts at light loads (about the weight of a baby in a car seat) and progressing gradually; scar mobilization"
+        criteria: "Discuss progress at postpartum follow-up (acog-736)"
+        evidence: emerging
+        sources: [goom-2019, acog-736]
+      - phase: "Weeks 8-12"
+        activities: "Swimming once bleeding (lochia) has stopped and wounds are healed; spin classes if comfortable"
+        criteria: "Comprehensive postpartum visit no later than 12 weeks"
+        evidence: emerging
+        sources: [goom-2019, acog-736]
+      - phase: "From about 12 weeks"
+        activities: "Graded walk-run program (e.g. a couch-to-5k plan); build volume before intensity; continue 2+ strength days"
+        criteria: "Without pain, heaviness, dragging or leaking: walk 30 min; single-leg balance 10 s; single-leg squat 10 each side; jog on the spot 1 min; forward bounds 10; hop in place 10 each leg; single-leg running man 10 each side"
+        evidence: emerging
+        sources: [goom-2019, delphi-run-program-2024, delphi-run-readiness-2024]
+    weeklyPlan:
+      - { day: "Weeks 0-6, daily", session: "Pelvic floor set 2-3 times; 2-3 short walks building from 5-10 to 20-30 min; gentle core (drawing-in, pelvic tilts)" }
+      - { day: "Weeks 6-12, Monday", session: "Strength 30 min: squat, hip hinge with light load, row, press, carry, dead bug" }
+      - { day: "Weeks 6-12, Tuesday", session: "Power walk with stroller 30-40 min" }
+      - { day: "Weeks 6-12, Wednesday", session: "Stationary bike or elliptical 30 min" }
+      - { day: "Weeks 6-12, Thursday", session: "Strength 30 min: split squat, bridge, band row, push-up progression, side plank" }
+      - { day: "Weeks 6-12, Friday", session: "Walk 30 min" }
+      - { day: "Weeks 6-12, Saturday", session: "Longer walk or swim (once cleared) 45 min" }
+      - { day: "Weeks 6-12, Sunday", session: "Rest" }
+    warnings:
+      - "Seek care immediately for heavy bleeding or fluid leaking, fever of 100.4 F or higher, severe headache, vision changes, dizziness or fainting, trouble breathing, chest pain or a fast heartbeat, severe belly pain, swelling, redness or pain in a leg, extreme swelling of the hands or face, overwhelming tiredness, or thoughts of harming oneself or the baby; these signs apply for the whole first year (cdc-hear-her)."
+      - "See a pelvic health physiotherapist for pelvic heaviness or dragging, urine or bowel leakage, a bulging or noticeable gap along the midline of the abdomen, or pain with exercise (goom-2019)."
+      - "Pregnancies with preterm birth, gestational diabetes or hypertensive disorders carry higher lifetime cardiometabolic risk; follow-up and long-term exercise matter (acog-736)."
+      - "Stop exercising if it causes pain (acog-faq-exercise-postpartum)."
+    sources: [acog-736, dga-2020, dga-2025, ods-iodine, ods-choline, ata-2017, ata-2026, wallace-2020-choline, fda-fish, nasem-dri, cdc-alcohol-breastfeeding, allergy-consensus-2021, aap-allergy-2019, acog-804, acog-faq-exercise-postpartum, who-2020-pa, goom-2019, delphi-run-readiness-2024, delphi-run-program-2024, cdc-hear-her]
+
+  # ---------------------------------------------------------------------------------------------------------
+  - id: infant-0-6
+    label: Baby, birth to 6 months
+    weeks: "0-6 months of age"
+    focus: >-
+      Breast milk alone for about the first 6 months, or iron-fortified infant formula when breast milk is not
+      available. The infant brain is in its fastest growth: myelination is most active, the hippocampus is in its
+      rapid growth phase and the prefrontal cortex begins its growth spurt in these months
+      (cusick-georgieff-2016). Two supplements matter: vitamin D for all breastfed babies, and iron from about 4
+      months for exclusively breastfed babies.
+    energy: >-
+      Feed on demand; breast milk or formula is the complete diet. Growth is tracked by the pediatrician at well
+      visits. No water, juice or solid foods are needed in the first 6 months for most infants (dga-2025,
+      aap-breastfeeding-2022).
+    nutrients:
+      - name: Breast milk (or iron-fortified formula)
+        amount: "Exclusively for about 6 months"
+        why: "The AAP recommends exclusive breastfeeding for about 6 months, then continued breastfeeding with complementary foods for as long as mutually desired, to 2 years or beyond."
+        foods: "Breast milk; iron-fortified infant formula when breast milk is unavailable"
+        evidence: established
+        sources: [aap-breastfeeding-2022, dga-2025]
+      - name: Vitamin D
+        amount: "400 IU a day by mouth, starting shortly after birth"
+        why: "Breast milk usually does not supply enough vitamin D; also applies to infants drinking less than 32 oz of formula a day."
+        foods: "Infant vitamin D drops"
+        evidence: established
+        sources: [aap-vitd-2008, dga-2025]
+      - name: Iron
+        amount: "Exclusively breastfed term infants: 1 mg/kg a day oral iron from 4 months until iron-rich foods are eaten; formula-fed infants receive iron in fortified formula"
+        why: "Iron supports myelination and neurotransmitter development; birth stores run low around 4-6 months. Dosing is set by the pediatrician."
+        foods: "Iron drops as prescribed; iron-fortified formula"
+        evidence: established
+        sources: [aap-iron-2010, dga-2025, cusick-georgieff-2016]
+      - name: Peanut for high-risk infants
+        amount: "Discuss introduction as early as 4-6 months"
+        why: "For infants with severe eczema, egg allergy or both, the NIAID guidelines advise evaluation and early peanut introduction; in the LEAP trial, eating peanut from 4-11 months cut peanut allergy at age 5 from 13.7% to 1.9% in skin-test-negative infants (about 81% relative reduction). Mild to moderate eczema: peanut foods at around 6 months."
+        foods: "Smooth peanut butter thinned with breast milk or formula, fed by spoon (never whole peanuts)"
+        evidence: established
+        sources: [niaid-peanut-2017, leap-2015, dga-2025]
+    eat:
+      - "Breast milk or iron-fortified formula only, on demand (aap-breastfeeding-2022, dga-2025)"
+      - "Daily vitamin D drops (aap-vitd-2008)"
+      - "For the breastfeeding mother: the postpartum stage's iodine, choline and fish guidance (ata-2017, ods-choline, fda-fish)"
+    limit:
+      - "Honey (including in cooking or on pacifiers) before 12 months: risk of infant botulism (dga-2020)"
+      - "Fruit juice before 12 months (aap-juice-2017)"
+      - "Cow's milk, plant milks, water and solid foods as routine feeds before about 6 months unless the pediatrician advises (dga-2025, dga-2020)"
+      - "Added sugars (dga-2025)"
+    exercise:
+      - activity: "Mother: weekly target"
+        dose: "Build toward at least 150 min moderate aerobic activity a week plus 2 strength days"
+        notes: "Stroller walks count; follow the postpartum returnToExercise phases."
+        evidence: established
+        sources: [acog-faq-exercise-postpartum, who-2020-pa]
+      - activity: "Mother: running and high-impact sport"
+        dose: "From about 3-6 months, once load and impact tests are passed"
+        notes: "See postpartum.returnToExercise."
+        evidence: emerging
+        sources: [goom-2019, delphi-run-program-2024]
+    warnings:
+      - "Call the pediatrician for poor feeding, fewer wet diapers, poor weight gain, or a feeding reaction such as hives, swelling or vomiting."
+      - "Peanut introduction in infants with severe eczema or egg allergy is planned with the pediatrician or an allergist (niaid-peanut-2017, dga-2025)."
+    sources: [aap-breastfeeding-2022, dga-2025, aap-vitd-2008, aap-iron-2010, cusick-georgieff-2016, niaid-peanut-2017, leap-2015, aap-juice-2017, dga-2020]
+
+  # ---------------------------------------------------------------------------------------------------------
+  - id: infant-6-12
+    label: Baby, 6 to 12 months
+    weeks: "6-12 months of age"
+    focus: >-
+      Complementary foods begin at about 6 months, while breast milk or formula remains the main nutrition to 12
+      months. Iron- and zinc-rich foods come first because infant iron stores are low and the brain's demand is
+      high. Common allergens are introduced with other foods at about 6 months. A wide variety of textures and
+      flavors, offered repeatedly, builds acceptance (it can take 8-10 exposures).
+    energy: >-
+      Continue breastfeeding or formula on demand; solids start as small tastes and grow to regular meals. Watch
+      the baby's hunger and fullness cues (dga-2025).
+    nutrients:
+      - name: Iron
+        amount: "11 mg a day (RDA, 7-12 months)"
+        why: "Most iron must now come from food; iron supports myelination and neurotransmitter systems."
+        foods: "Pureed or finely minced meat, poultry and fish; iron-fortified infant cereal; mashed beans and lentils"
+        evidence: established
+        sources: [aap-iron-2010, nasem-dri, dga-2025]
+      - name: Common allergens
+        amount: "Introduce at about 6 months (not before 4 months) and keep offering"
+        why: "Early introduction of peanut and egg prevents allergy to them; delaying allergenic foods does not prevent allergy. Peanut, egg, nut butters, shellfish and wheat are introduced along with other foods."
+        foods: "Thinned smooth peanut butter, well-cooked egg, finely ground or thinned nut butters, wheat cereal, cooked fish and shellfish"
+        evidence: established
+        sources: [dga-2025, allergy-consensus-2021, aap-allergy-2019, niaid-peanut-2017]
+      - name: Fish and DHA
+        amount: "Regular small portions of low-mercury fish"
+        why: "Seafood supplies DHA, iodine, protein and zinc; choose from the FDA Best Choices list."
+        foods: "Salmon, sardines, trout, cod, pollock, flaked and boneless"
+        evidence: established
+        sources: [dga-2025, fda-fish]
+      - name: Vitamin D
+        amount: "400 IU a day"
+        why: "Continue drops for breastfed infants and those on less than 32 oz of formula a day."
+        foods: "Drops; salmon, egg yolks"
+        evidence: established
+        sources: [aap-vitd-2008, dga-2025]
+      - name: Full-fat dairy
+        amount: "Yogurt and cheese as foods"
+        why: "Energy and nutrients for growth and brain development; cow's milk as a drink waits until 12 months."
+        foods: "Plain full-fat yogurt, soft pasteurized cheese"
+        evidence: established
+        source: dga-2025
+    eat:
+      - "Signs of readiness: sits up alone or with support, controls head and neck, grasps and brings objects to the mouth, opens the mouth for food, moves food to the back of the tongue and swallows rather than pushing it out (dga-2025)"
+      - "First foods: meat, poultry or fish purees, iron-fortified cereal, vegetables, fruits, legumes, full-fat yogurt (dga-2025, aap-iron-2010)"
+      - "Progress from smooth to mashed, lumpy and soft finger foods (dga-2025)"
+      - "Offer a new food many times; 8-10 tries may be needed (dga-2025)"
+      - "Family foods without added salt or sugar, cut to safe sizes"
+    exampleDay:
+      breakfast: "Breast milk or formula; iron-fortified oat cereal mixed with breast milk, mashed banana"
+      snack: "Breast milk or formula"
+      lunch: "Minced chicken with mashed sweet potato; soft-cooked green beans"
+      snack2: "Plain full-fat yogurt with thinned smooth peanut butter"
+      dinner: "Flaked salmon, mashed lentils, soft-cooked carrots; strips of well-cooked egg omelet"
+      evening: "Breast milk or formula"
+      notes: "An example for about 9-12 months; at 6 months, start with one or two small tastes a day. Breast milk or formula stays the main source of nutrition."
+      sources: [dga-2025, aap-iron-2010, allergy-consensus-2021]
+    limit:
+      - "Honey before 12 months (dga-2020)"
+      - "Cow's milk as a drink before 12 months; stop infant formula at 12 months and switch to whole milk (dga-2025, dga-2020)"
+      - "Fruit juice before 12 months (aap-juice-2017)"
+      - "Added sugars and highly processed or nutrient-poor foods (dga-2025)"
+      - "Choking hazards: whole nuts, whole grapes, popcorn, hot dog rounds, hard raw vegetables, globs of nut butter (dga-2020)"
+      - "High-mercury fish (fda-fish)"
+      - "Caffeinated drinks (dga-2025)"
+    exercise:
+      - activity: "Mother: full training"
+        dose: "At least 150 min moderate (or 75 min vigorous) aerobic activity a week plus 2+ strength days"
+        notes: "Running, sport and heavier lifting can resume progressively; volume before intensity; continue pelvic floor training."
+        evidence: established
+        sources: [who-2020-pa, acog-faq-exercise-postpartum, goom-2019]
+      - activity: "Mother: breastfeeding athletes"
+        dose: "Every session"
+        notes: "Feed or express before exercise, hydrate, and adjust training for sleep, mood and energy availability."
+        evidence: emerging
+        sources: [acog-804, delphi-run-program-2024]
+    warnings:
+      - "Call 911 for signs of a severe allergic reaction after a new food: trouble breathing, widespread hives, facial swelling, repeated vomiting, limpness."
+      - "Always seat the baby upright and supervise eating; learn infant choking first aid."
+      - "Infants with severe eczema or a known food allergy need an allergen plan from the pediatrician or allergist (niaid-peanut-2017, allergy-consensus-2021)."
+    sources: [dga-2025, dga-2020, aap-iron-2010, nasem-dri, allergy-consensus-2021, aap-allergy-2019, niaid-peanut-2017, fda-fish, aap-vitd-2008, aap-juice-2017, who-2020-pa, acog-faq-exercise-postpartum, goom-2019, acog-804, delphi-run-program-2024]

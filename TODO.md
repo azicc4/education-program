@@ -38,6 +38,13 @@ and has a page count where one is known.
   with unit ids are in the PR description.
 - [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
   edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
+- [x] Parent Curriculum (own tab): core shelf, stage plans, marriage track, family program, 113-item booklist, and the gestation plan subpage.
+- [ ] Parent Curriculum checks: a few book pages (Simon & Schuster, Macmillan, HarperCollins, Bookshop) were confirmed
+  only in search results; AAMFT and APA pages load only in a browser (dates approximate); some caveats summarise later
+  literature without a citation (later Circle of Security trials, the dual-systems debate, critiques of the spanking
+  meta-analysis); several historic publishers and ancient dates are approximate. In the gestation plan, the 2026 ATA
+  iodine details come from summaries, the AMA 2017 choline resolution has no primary link, and the meal plans' choline
+  totals are estimates. Have an obstetric provider and a registered dietitian review the gestation plan.
 - [x] Mastery tracking: objectives ticked per child in each unit's panel, a unit examination by subject (data/assessment.yaml), and a Mastery tab with units ready to examine and a review list.
 - [x] Saturday visual arts: sketching from life (12–15), formal book hands (13–15½), botanical illustration (14¾–16¾),
   measured drawing of buildings (15–17) and manuscript illumination and gilding (15½–17½), with Architecture and the

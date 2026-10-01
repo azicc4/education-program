@@ -1,0 +1,856 @@
+section: family
+items:
+  # ---------------------------------------------------------------- Marriage research and guides
+  - id: gottman-seven-principles
+    title: "The Seven Principles for Making Marriage Work"
+    author: John M. Gottman & Nan Silver
+    year: 1999
+    kind: book
+    evidence: popular-science
+    audience: [couples, parents]
+    stages: [adult, all]
+    traits: [marriage, communication, love]
+    summary: >-
+      A practical guide drawn from Gottman's decades of laboratory observation of married couples. It describes habits
+      linked to lasting marriages (knowing each other's inner world, expressing fondness and admiration, turning toward
+      bids for connection, accepting influence, softening how complaints are raised, repair attempts) and the
+      "four horsemen" of criticism, contempt, defensiveness and stonewalling. Each chapter includes questionnaires and
+      exercises couples can work through together; a revised edition appeared in 2015.
+    caveats: >-
+      The underlying studies are correlational and observational, mostly with smaller U.S. samples; popular claims that
+      divorce can be predicted with over 90% accuracy come from models that were not cross-validated and lose much of
+      their accuracy when tested on new data (Heyman & Slep, 2001). The book's advice is better supported than the
+      claims made for its precision.
+    citation: "Gottman, J. M., & Silver, N. (1999). The seven principles for making marriage work. Crown. (Rev. ed. 2015, Harmony Books.)"
+    links:
+      - { label: Publisher, url: "https://www.penguinrandomhouse.com/books/isbn/9780553447712" }
+      - { label: Gottman Institute research summary, url: "https://www.gottman.com/about/research/couples/" }
+
+  - id: gottman-newlywed-prediction
+    title: "Predicting Marital Happiness and Stability from Newlywed Interactions"
+    author: John M. Gottman et al.
+    year: 1998
+    kind: article
+    evidence: research
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, communication]
+    summary: >-
+      A six-year longitudinal study of about 130 newlywed couples observed discussing a conflict in the laboratory.
+      Couples who later divorced began discussions with more negativity ("harsh start-up"), and husbands' refusal to
+      accept influence from wives and a failure to de-escalate negativity predicted divorce; anger by itself did not.
+      For couples, the practical lesson is to raise issues gently, accept a partner's influence and calm conflicts early.
+    caveats: >-
+      The high predictive accuracy reported was criticized because the models were not cross-validated; when
+      cross-validated on other data, accuracy dropped sharply (Heyman & Slep, 2001, doi:10.1111/j.1741-3737.2001.00473.x).
+    citation: "Gottman, J. M., Coan, J., Carrere, S., & Swanson, C. (1998). Predicting marital happiness and stability from newlywed interactions. Journal of Marriage and the Family, 60(1), 5–22."
+    links:
+      - { label: DOI, url: "https://doi.org/10.2307/353438" }
+      - { label: "Critique (Heyman & Slep, 2001)", url: "https://doi.org/10.1111/j.1741-3737.2001.00473.x" }
+
+  - id: gottman-levenson-divorce-timing
+    title: "The Timing of Divorce: Predicting When a Couple Will Divorce Over a 14-Year Period"
+    author: John M. Gottman & Robert W. Levenson
+    year: 2000
+    kind: article
+    evidence: research
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, communication]
+    summary: >-
+      Follows a sample of married couples for 14 years and distinguishes two pathways to divorce: high negative affect
+      during conflict (criticism, contempt, defensiveness, stonewalling) predicted early divorce, while an absence of
+      positive affect in everyday and conflict conversations predicted later divorce. The finding suggests that a
+      marriage needs both less hostility and actively cultivated warmth, interest and humor.
+    caveats: >-
+      Small community sample from one region; prediction models, like those in Gottman's other prediction papers, were
+      not cross-validated.
+    citation: "Gottman, J. M., & Levenson, R. W. (2000). The timing of divorce: Predicting when a couple will divorce over a 14-year period. Journal of Marriage and Family, 62(3), 737–745."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/j.1741-3737.2000.00737.x" }
+
+  - id: johnson-hold-me-tight
+    title: "Hold Me Tight: Seven Conversations for a Lifetime of Love"
+    author: Sue Johnson
+    year: 2008
+    kind: book
+    evidence: popular-science
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, attachment, love, communication]
+    summary: >-
+      A popular version of Emotionally Focused Therapy (EFT) by its co-developer. It applies attachment theory to adult
+      love, framing many fights as protests against emotional disconnection, and guides couples through seven
+      structured conversations, from recognizing their negative cycle ("demon dialogues") to forgiving injuries and
+      keeping the bond alive. A companion workbook and a group "Hold Me Tight" program exist.
+    caveats: >-
+      EFT's trials are mostly small and conducted by the developers' group; the book itself has not been tested as a
+      self-help intervention. Couples in serious distress or with violence in the relationship need a therapist, not a book.
+    citation: "Johnson, S. (2008). Hold me tight: Seven conversations for a lifetime of love. Little, Brown."
+    links:
+      - { label: Publisher, url: "https://www.hachettebookgroup.com/titles/dr-sue-johnson/hold-me-tight/9780316113007/" }
+
+  - id: johnson-eft-meta-analysis
+    title: "Emotionally Focused Couples Therapy: Status and Challenges"
+    author: Susan M. Johnson et al.
+    year: 1999
+    kind: review
+    evidence: research
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, attachment, communication]
+    summary: >-
+      Reviews outcome and process research on Emotionally Focused couples therapy and pools the four most rigorous
+      randomized trials then available, reporting a large effect on marital adjustment (about d = 1.3) with roughly
+      70–73% of couples recovered from distress after treatment. It is the standard early evidence citation for EFT,
+      whose later research is summarized in Wiebe & Johnson (2016, Family Process).
+    caveats: >-
+      Only four small trials, largely by the developers; effect sizes from early, small trials of any therapy tend to
+      shrink in later independent studies.
+    citation: "Johnson, S. M., Hunsley, J., Greenberg, L., & Schindler, D. (1999). Emotionally focused couples therapy: Status and challenges. Clinical Psychology: Science and Practice, 6(1), 67–79."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1093/clipsy.6.1.67" }
+      - { label: "Later review (Wiebe & Johnson, 2016)", url: "https://doi.org/10.1111/famp.12229" }
+
+  - id: markman-fighting-for-your-marriage
+    title: "Fighting for Your Marriage"
+    author: Howard J. Markman, Scott M. Stanley & Susan L. Blumberg
+    year: 1994
+    kind: book
+    evidence: popular-science
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, communication, self-control]
+    summary: >-
+      The popular book of the Prevention and Relationship Education Program (PREP), developed at the University of
+      Denver. It teaches the speaker-listener technique, ground rules such as calling a time-out when conflict
+      escalates, separating problem discussion from problem solving, and protecting fun, friendship and commitment.
+      Exercises close each chapter; the third edition (2010) adds a DVD of couples using the skills.
+    caveats: >-
+      PREP's benefits in controlled trials are real but modest, and newer community and low-income trials show smaller
+      or mixed effects (see Hawkins et al., 2008).
+    citation: "Markman, H. J., Stanley, S. M., & Blumberg, S. L. (2010). Fighting for your marriage (3rd ed.). Jossey-Bass. (Original work published 1994)"
+    links:
+      - { label: Publisher (Wiley), url: "https://books.wiley.com/titles/9780470485910" }
+      - { label: "USCCB For Your Marriage review", url: "https://www.foryourmarriage.org/fighting-for-your-marriage-3rd-ed/" }
+
+  - id: markman-prep-follow-up
+    title: "Preventing Marital Distress Through Communication and Conflict Management Training: A 4- and 5-Year Follow-Up"
+    author: Howard J. Markman et al.
+    year: 1993
+    kind: article
+    evidence: research
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, communication]
+    summary: >-
+      Reports long-term results of PREP, a five-session program teaching communication and conflict-management skills
+      to couples planning marriage. At the five-year follow-up, PREP couples showed more positive and less negative
+      communication and lower levels of physical aggression than control couples. It is the founding outcome study for
+      skills-based premarital education.
+    caveats: >-
+      Small sample with self-selection issues (many couples declined), which the authors discuss; later trials in
+      community, military and low-income settings produced smaller and less consistent effects.
+    citation: "Markman, H. J., Renick, M. J., Floyd, F. J., Stanley, S. M., & Clements, M. (1993). Preventing marital distress through communication and conflict management training: A 4- and 5-year follow-up. Journal of Consulting and Clinical Psychology, 61(1), 70–77."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0022-006X.61.1.70" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/8450110/" }
+
+  - id: hawkins-relationship-education-meta
+    title: "Does Marriage and Relationship Education Work? A Meta-Analytic Study"
+    author: Alan J. Hawkins et al.
+    year: 2008
+    kind: review
+    evidence: research
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, communication]
+    summary: >-
+      Meta-analysis of 117 studies of marriage and relationship education (programs such as PREP). Experimental studies
+      showed moderate effects on relationship quality (d = .30–.36) and somewhat larger effects on communication skills
+      (d = .43–.45); moderate-dosage programs (roughly 9–20 hours) outperformed very brief ones. It supports couples
+      taking a structured class before marriage or a baby, not just reading.
+    caveats: >-
+      Samples were overwhelmingly white and middle-class, and outcomes such as divorce and aggression were rarely
+      measured. Later large federal evaluations with low-income couples (Building Strong Families, Supporting Healthy
+      Marriage) found small or null effects.
+    citation: "Hawkins, A. J., Blanchard, V. L., Baldwin, S. A., & Fawcett, E. B. (2008). Does marriage and relationship education work? A meta-analytic study. Journal of Consulting and Clinical Psychology, 76(5), 723–734."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/a0012584" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/18837590/" }
+
+  - id: doss-ourrelationship-trial
+    title: "A Randomized Controlled Trial of the Web-Based OurRelationship Program: Effects on Relationship and Individual Functioning"
+    author: Brian D. Doss et al.
+    year: 2016
+    kind: program
+    evidence: clinical
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, communication, health]
+    summary: >-
+      Tests OurRelationship, an 8-hour online program adapted from Integrative Behavioral Couple Therapy, with four short
+      coach calls. In a nationally representative sample of 300 couples, it improved relationship satisfaction
+      (d = 0.69) and confidence, and also reduced depressive and anxious symptoms. It offers a low-cost first step for
+      couples who will not or cannot see a therapist.
+    caveats: >-
+      Compared against a two-month waitlist rather than an active treatment; heterosexual couples only in this trial;
+      longer-term follow-up and independent replication are more limited. Developers conducted the trial.
+    citation: "Doss, B. D., Cicila, L. N., Georgia, E. J., Roddy, M. K., Nowlan, K. M., Benson, L. A., & Christensen, A. (2016). A randomized controlled trial of the web-based OurRelationship program: Effects on relationship and individual functioning. Journal of Consulting and Clinical Psychology, 84(4), 285–296."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/ccp0000063" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/26999504/" }
+
+  # ---------------------------------------------------------------- Transition to parenthood and co-parenting
+  - id: cowan-when-partners-become-parents
+    title: "When Partners Become Parents: The Big Life Change for Couples"
+    author: Carolyn Pape Cowan & Philip A. Cowan
+    year: 1992
+    kind: book
+    evidence: popular-science
+    audience: [couples, parents]
+    stages: [pregnancy, 0-1, 1-3]
+    traits: [marriage, communication, responsibility]
+    summary: >-
+      Based on the Berkeley "Becoming a Family" project, which followed about 100 couples from pregnancy into their
+      children's school years, some of whom joined professionally led couples groups. It documents typical declines in
+      satisfaction and rising conflict over division of labor after a first baby, shows that difficulties often predate
+      the birth, and finds that couples groups helped protect the marriage. Useful for expecting parents planning how to
+      share work and stay connected.
+    caveats: >-
+      Mostly middle-class, married Bay Area couples studied in the 1980s; division-of-labor norms have shifted since. The
+      Cowans' later Supporting Father Involvement trials extended the work to low-income families.
+    citation: "Cowan, C. P., & Cowan, P. A. (1992). When partners become parents: The big life change for couples. Basic Books. (Reissued 2000, Lawrence Erlbaum)"
+    links:
+      - { label: Internet Archive (borrow), url: "https://archive.org/details/whenpartnersbeco00cowa" }
+
+  - id: doss-transition-to-parenthood
+    title: "The Effect of the Transition to Parenthood on Relationship Quality: An 8-Year Prospective Study"
+    author: Brian D. Doss et al.
+    year: 2009
+    kind: article
+    evidence: research
+    audience: [couples, parents]
+    stages: [pregnancy, 0-1, 1-3]
+    traits: [marriage]
+    summary: >-
+      Followed 218 couples over the first eight years of marriage. Parents showed a sudden, small-to-medium
+      deterioration in observed and self-reported relationship functioning after the first birth that tended to persist,
+      while childless couples declined only gradually. Mothers and fathers changed by similar amounts, and the decline
+      varied with factors such as relationship quality before birth and whether the pregnancy was planned.
+    caveats: >-
+      A largely white, married Denver-area sample; averages hide many couples whose relationships stayed stable or
+      improved.
+    citation: "Doss, B. D., Rhoades, G. K., Stanley, S. M., & Markman, H. J. (2009). The effect of the transition to parenthood on relationship quality: An 8-year prospective study. Journal of Personality and Social Psychology, 96(3), 601–619."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/a0013969" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/19254107/" }
+
+  - id: shapiro-gottman-bringing-baby-home
+    title: "Effects on Marriage of a Psycho-Communicative-Educational Intervention With Couples Undergoing the Transition to Parenthood (Bringing Baby Home)"
+    author: Alyson F. Shapiro & John M. Gottman
+    year: 2005
+    kind: program
+    evidence: clinical
+    audience: [couples, parents]
+    stages: [pregnancy, 0-1]
+    traits: [marriage, communication, health]
+    summary: >-
+      Evaluates the Gottman Institute's Bringing Baby Home workshop, a two-day class for expectant and new parents on
+      friendship, conflict management and infant development. Compared with controls, workshop couples maintained
+      marital quality, showed less hostility and had fewer postpartum depressive symptoms at one year after the
+      intervention. A parent-facing book version is "And Baby Makes Three" (Gottman & Gottman, 2007).
+    caveats: >-
+      Small developer-run trial with a short follow-up; larger independent replications are limited. Effects should be
+      treated as promising rather than established.
+    citation: "Shapiro, A. F., & Gottman, J. M. (2005). Effects on marriage of a psycho-communicative-educational intervention with couples undergoing the transition to parenthood, evaluation at 1-year post intervention. Journal of Family Communication, 5(1), 1–24."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1207/s15327698jfc0501_1" }
+      - { label: Program page, url: "https://www.gottman.com/professionals/training/bringing-baby-home/" }
+
+  - id: feinberg-family-foundations
+    title: "Establishing Family Foundations: Intervention Effects on Coparenting, Parent/Infant Well-Being, and Parent-Child Relations"
+    author: Mark E. Feinberg & Marni L. Kan
+    year: 2008
+    kind: program
+    evidence: clinical
+    audience: [couples, parents]
+    stages: [pregnancy, 0-1, 1-3]
+    traits: [marriage, cooperation, communication, health]
+    summary: >-
+      Randomized trial of Family Foundations, eight classes before and after birth delivered through childbirth
+      education, which teach expectant couples to work as a co-parenting team. With 169 couples, the program improved
+      coparental support, maternal depression and anxiety, parent-child relations and infant regulation; at 3.5 years it
+      showed effects on parental stress, harsh parenting and children's emotional adjustment (Feinberg et al., 2010).
+      Blueprints rates it a Model program.
+    caveats: >-
+      Some effects held only in subgroups (e.g., child behavior problems and couple quality among families of boys);
+      most trials were run by the developer. Availability depends on local providers.
+    citation: "Feinberg, M. E., & Kan, M. L. (2008). Establishing family foundations: Intervention effects on coparenting, parent/infant well-being, and parent-child relations. Journal of Family Psychology, 22(2), 253–263."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0893-3200.22.2.253" }
+      - { label: "3.5-year follow-up (Feinberg et al., 2010)", url: "https://doi.org/10.1037/a0020837" }
+
+  - id: cowan-supporting-father-involvement
+    title: "Promoting Fathers' Engagement With Children: Preventive Interventions for Low-Income Families"
+    author: Philip A. Cowan et al.
+    year: 2009
+    kind: program
+    evidence: clinical
+    audience: [couples, parents]
+    stages: [0-1, 1-3, 3-6, 6-12]
+    traits: [marriage, responsibility, cooperation]
+    summary: >-
+      Randomized trial of Supporting Father Involvement with 289 mostly low-income Mexican American and European
+      American couples, comparing 16-week fathers' groups, 16-week couples' groups and a one-time meeting. Both groups
+      increased fathers' engagement and reduced children's problem behaviors, and couples' groups produced more
+      consistent and lasting benefits, including for couple relationship quality. It shows that strengthening the couple
+      relationship is one of the best routes to involved fathering.
+    caveats: >-
+      Conducted in California by the developers; replications elsewhere are fewer and smaller in scale, and the
+      16-week group format requires a local provider.
+    citation: "Cowan, P. A., Cowan, C. P., Pruett, M. K., Pruett, K., & Wong, J. J. (2009). Promoting fathers' engagement with children: Preventive interventions for low-income families. Journal of Marriage and Family, 71(3), 663–679."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/j.1741-3737.2009.00625.x" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/41098235/" }
+
+  # ---------------------------------------------------------------- Popular marriage books (with caveats)
+  - id: chapman-five-love-languages
+    title: "The 5 Love Languages: The Secret to Love That Lasts"
+    author: Gary Chapman
+    year: 1992
+    kind: book
+    evidence: popular
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, love, communication, faith]
+    summary: >-
+      A best-selling book by a Baptist pastor and marriage counselor proposing that people give and receive love in five
+      ways: words of affirmation, quality time, receiving gifts, acts of service and physical touch. Couples are
+      encouraged to learn each other's preferred "language" and to express love deliberately in it. Its lasting value is
+      as a conversation starter about each partner's needs.
+    caveats: >-
+      A 2024 review in Current Directions in Psychological Science (Impett, Park & Muise) found little empirical support
+      for its three central assumptions: that each person has one preferred language, that there are exactly five, and
+      that matching partners' languages makes couples happier. Relationship science suggests partners need all of these
+      forms of care, like a balanced diet.
+    citation: "Chapman, G. (1992). The five love languages: How to express heartfelt commitment to your mate. Northfield Publishing."
+    links:
+      - { label: Publisher, url: "https://moodypublishers.com/the-5-love-languagesreg" }
+
+  - id: impett-love-languages-review
+    title: "Popular Psychology Through a Scientific Lens: Evaluating Love Languages From a Relationship Science Perspective"
+    author: Emily A. Impett, Haeyoung Gideon Park & Amy Muise
+    year: 2024
+    kind: review
+    evidence: research
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, love]
+    summary: >-
+      A short review of the limited empirical work on Chapman's love languages. It concludes that the evidence does not
+      support the claims that each person has a preferred language, that there are five languages, or that couples are
+      more satisfied when partners speak each other's preferred language. The authors suggest thinking of love as a
+      balanced diet in which partners need the full range of care, and explain why the idea remains popular.
+    citation: "Impett, E. A., Park, H. G., & Muise, A. (2024). Popular psychology through a scientific lens: Evaluating love languages from a relationship science perspective. Current Directions in Psychological Science, 33(2), 87–92."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1177/09637214231217663" }
+
+  - id: wallerstein-good-marriage
+    title: "The Good Marriage: How and Why Love Lasts"
+    author: Judith S. Wallerstein & Sandra Blakeslee
+    year: 1995
+    kind: book
+    evidence: popular-science
+    audience: [couples]
+    stages: [adult]
+    traits: [marriage, love, responsibility]
+    summary: >-
+      A clinical interview study of 50 couples who considered themselves happily married. Wallerstein describes four
+      types of marriage (romantic, rescue, companionate and traditional) and nine psychological tasks that good marriages
+      accomplish, including separating from families of origin, building togetherness while keeping autonomy, becoming
+      parents while protecting the couple's privacy, and keeping a safe place for conflict. Its framework helps couples
+      name what they are building together.
+    caveats: >-
+      Small, self-selected, mostly white and middle-class Northern California sample with no comparison group; the
+      findings are descriptive, not tested predictions. Wallerstein's separate divorce research has been criticized for
+      generalizing from clinical samples.
+    citation: "Wallerstein, J. S., & Blakeslee, S. (1995). The good marriage: How and why love lasts. Houghton Mifflin."
+    links:
+      - { label: Internet Archive (borrow), url: "https://archive.org/details/goodmarriagehoww00wall" }
+
+  - id: cummings-davies-marital-conflict
+    title: "Marital Conflict and Children: An Emotional Security Perspective"
+    author: E. Mark Cummings & Patrick T. Davies
+    year: 2010
+    kind: book
+    evidence: research
+    audience: [parents, couples]
+    stages: [all]
+    traits: [marriage, communication, resilience, self-control]
+    summary: >-
+      A research synthesis by leading investigators of how parents' conflicts affect children. Destructive conflict
+      (hostility, threats, withdrawal, conflict about the child) undermines children's sense of emotional security and
+      predicts later problems, while constructive conflict, with calm problem solving, affection and visible resolution,
+      can be harmless or even teach skills. Parents learn that the aim is not to hide every disagreement but to argue
+      respectfully and let children see repair.
+    caveats: >-
+      Written for professionals and fairly technical; much of the evidence is correlational, though the authors' group
+      has also tested brief parent-education programs.
+    citation: "Cummings, E. M., & Davies, P. T. (2010). Marital conflict and children: An emotional security perspective. Guilford Press."
+    links:
+      - { label: Publisher, url: "https://guilford.com/books/Marital-Conflict-and-Children/Cummings-Davies/9781462503292" }
+
+  # ---------------------------------------------------------------- Family life, siblings, systems
+  - id: hammons-fiese-family-meals
+    title: "Is Frequency of Shared Family Meals Related to the Nutritional Health of Children and Adolescents?"
+    author: Amber J. Hammons & Barbara H. Fiese
+    year: 2011
+    kind: review
+    evidence: research
+    audience: [parents, family]
+    stages: [3-6, 6-12, 12-18]
+    traits: [health, cooperation]
+    summary: >-
+      Meta-analysis of 17 studies covering about 183,000 children and adolescents. Sharing three or more family meals a
+      week was associated with 12% lower odds of overweight, 20% lower odds of eating unhealthy foods, 35% lower odds of
+      disordered eating and 24% higher odds of eating healthy foods. It gives families a simple, concrete target for
+      regular shared meals.
+    caveats: >-
+      Observational studies only: families who eat together differ in many ways, so the meals themselves may account for
+      only part of the association.
+    citation: "Hammons, A. J., & Fiese, B. H. (2011). Is frequency of shared family meals related to the nutritional health of children and adolescents? Pediatrics, 127(6), e1565–e1574."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1542/peds.2010-1440" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/21536618/" }
+
+  - id: kennedy-kramer-more-fun-siblings
+    title: "Improving Emotion Regulation and Sibling Relationship Quality: The More Fun With Sisters and Brothers Program"
+    author: Denise E. Kennedy & Laurie Kramer
+    year: 2008
+    kind: program
+    evidence: clinical
+    audience: [parents, children, family]
+    stages: [3-6, 6-12]
+    traits: [cooperation, self-control, empathy, love]
+    summary: >-
+      Evaluates Laurie Kramer's More Fun With Sisters and Brothers program, which teaches pairs of siblings aged 4–8
+      emotional and social competencies such as regulating strong feelings and playing and solving problems together. In 95
+      families, participants improved in emotion regulation and sibling relationship quality compared with a waitlist
+      group and needed less parental help to control negative emotions. It shows that sibling warmth can be taught, not
+      just policed.
+    caveats: >-
+      Modest sample, short follow-up and developer-led evaluation; parents may need to adapt the skills at home since
+      the program is not widely offered.
+    citation: "Kennedy, D. E., & Kramer, L. (2008). Improving emotion regulation and sibling relationship quality: The More Fun With Sisters and Brothers program. Family Relations, 57(5), 567–578."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/j.1741-3729.2008.00523.x" }
+
+  - id: faber-mazlish-siblings-without-rivalry
+    title: "Siblings Without Rivalry: How to Help Your Children Live Together So You Can Live Too"
+    author: Adele Faber & Elaine Mazlish
+    year: 1987
+    kind: book
+    evidence: popular
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [cooperation, empathy, love, communication]
+    summary: >-
+      A practical, workshop-based guide written as dialogues and cartoons. Its main ideas are to acknowledge children's
+      negative feelings about siblings, avoid comparisons and fixed roles, treat children uniquely rather than
+      identically, and step in during fights only to describe the problem and hand it back to the children to solve
+      (separating them when someone may be hurt). Parents get specific scripts to use.
+    caveats: >-
+      Grounded in parent workshops and Haim Ginott's approach rather than controlled trials; the approach is consistent
+      with sibling-intervention research but has not been evaluated itself.
+    citation: "Faber, A., & Mazlish, E. (1987). Siblings without rivalry: How to help your children live together so you can live too. W. W. Norton."
+    links:
+      - { label: Publisher, url: "https://wwnorton.com/books/9780393342215" }
+
+  - id: kerr-bowen-family-evaluation
+    title: "Family Evaluation: An Approach Based on Bowen Theory"
+    author: Michael E. Kerr & Murray Bowen
+    year: 1988
+    kind: book
+    evidence: clinical
+    audience: [parents, couples, family]
+    stages: [adult, all]
+    traits: [marriage, self-control, responsibility]
+    summary: >-
+      The standard statement of Bowen family systems theory, which treats the family as an emotional unit across
+      generations. Key ideas include differentiation of self (staying calm and thoughtful while staying connected),
+      triangles (pulling a third person, often a child, into a couple's tension), emotional cutoff and patterns repeated
+      across generations, illustrated with family diagrams (genograms). It helps parents notice how anxiety travels
+      through a family and how one calmer member can change the pattern.
+    caveats: >-
+      A clinical theory largely untested in controlled trials; differentiation of self has some correlational support,
+      but many concepts are difficult to measure. Older views in the text (for example on the origins of serious mental
+      illness) are dated.
+    citation: "Kerr, M. E., & Bowen, M. (1988). Family evaluation: An approach based on Bowen theory. W. W. Norton."
+    links:
+      - { label: Publisher, url: "https://wwnorton.com/books/9780393700565" }
+
+  - id: sadruddin-grandparents-review
+    title: "How Do Grandparents Influence Child Health and Development? A Systematic Review"
+    author: Aalyia F. A. Sadruddin et al.
+    year: 2019
+    kind: review
+    evidence: research
+    audience: [parents, family]
+    stages: [all]
+    traits: [love, health, cooperation]
+    summary: >-
+      A global systematic review of 206 studies on grandparents' contact, caregiving and financial support, covering
+      custodial and multigenerational care. Grandparent involvement was linked to children's physical,
+      socio-emotional and educational outcomes, but the direction and size of effects varied widely with context. The
+      review offers a framework for thinking about what grandparents actually do and under what conditions it helps.
+    caveats: >-
+      The evidence is heterogeneous and largely observational; the authors stress that measures of grandparent
+      involvement are inconsistent and mechanisms are poorly understood, so no simple rule ("more involvement is
+      better") follows.
+    citation: "Sadruddin, A. F. A., Ponguta, L. A., Zonderman, A. L., Wiley, K. S., Grimshaw, A., & Panter-Brick, C. (2019). How do grandparents influence child health and development? A systematic review. Social Science & Medicine, 239, 112476."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1016/j.socscimed.2019.112476" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/31539783/" }
+
+  # ---------------------------------------------------------------- Evidence-based parenting programs
+  - id: sanders-triple-p-meta
+    title: "The Triple P-Positive Parenting Program: A Systematic Review and Meta-Analysis of a Multi-Level System of Parenting Support"
+    author: Matthew R. Sanders et al.
+    year: 2014
+    kind: program
+    evidence: clinical
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [discipline, self-control, cooperation]
+    summary: >-
+      Triple P, developed by Matthew Sanders at the University of Queensland, is a tiered system ranging from media
+      campaigns and seminars to intensive family therapy, teaching positive attention, clear rules, planned ignoring,
+      logical consequences and parental self-care. This meta-analysis of 101 studies (16,099 families) found moderate
+      short-term effects on children's behavior (d = 0.47) and parenting practices (d = 0.58), with smaller effects on
+      the parents' relationship. Parents can use the online program or the book "Every Parent" (Sanders, 2004).
+    caveats: >-
+      The review was written by the program's developers. An independent review (Wilson et al., 2012, BMC Medicine) found
+      that almost all trials involved Triple P-affiliated authors, relied heavily on mothers' reports, and showed
+      selective reporting; it found little convincing evidence of long-term or population-wide effects.
+    citation: "Sanders, M. R., Kirby, J. N., Tellegen, C. L., & Day, J. J. (2014). The Triple P-Positive Parenting Program: A systematic review and meta-analysis of a multi-level system of parenting support. Clinical Psychology Review, 34(4), 337–357."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1016/j.cpr.2014.04.003" }
+      - { label: "Independent critique (Wilson et al., 2012)", url: "https://doi.org/10.1186/1741-7015-10-130" }
+      - { label: Program site, url: "https://www.triplep-parenting.com/" }
+
+  - id: webster-stratton-incredible-years
+    title: "The Incredible Years: A Trouble-Shooting Guide for Parents of Children Aged 2–8 Years"
+    author: Carolyn Webster-Stratton
+    year: 1992
+    kind: book
+    evidence: clinical
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12]
+    traits: [discipline, self-control, communication, cooperation]
+    summary: >-
+      The parent book of the Incredible Years program, a video-based group parent-training program from the University
+      of Washington. It builds a "parenting pyramid": child-directed play, praise and rewards at the base, then clear
+      limits, ignoring, time-out and logical consequences, plus chapters on parents' own anger, depression and
+      problem-solving. A meta-analysis of 50 studies (Menting et al., 2013) found the group program reduces disruptive
+      behavior (d = .27 overall, d = .50 in treatment samples) with the largest gains for more severe problems.
+    caveats: >-
+      Effects are small in universal prevention samples and larger for children with clear behavior problems; the book
+      alone has been less studied than the group program.
+    citation: "Webster-Stratton, C. (2005). The incredible years: A trouble-shooting guide for parents of children aged 2–8 years (Rev. ed.). The Incredible Years. (Original work published 1992)"
+    links:
+      - { label: Publisher, url: "https://shop.incredibleyears.com/products/trouble-shooting-guide-book" }
+      - { label: "Meta-analysis (Menting et al., 2013)", url: "https://doi.org/10.1016/j.cpr.2013.07.006" }
+      - { label: Program site, url: "https://www.incredibleyears.com/" }
+
+  - id: forgatch-degarmo-pmto
+    title: "Parenting Through Change: An Effective Prevention Program for Single Mothers (Parent Management Training-Oregon)"
+    author: Marion S. Forgatch & David S. DeGarmo
+    year: 1999
+    kind: program
+    evidence: clinical
+    audience: [parents]
+    stages: [6-12, 12-18]
+    traits: [discipline, self-control, responsibility]
+    summary: >-
+      Parent Management Training-Oregon (PMTO) grew out of Gerald Patterson's coercion theory, which describes how
+      parents and children train each other into escalating cycles of nagging and defiance. In this randomized trial
+      with 238 divorcing mothers of young sons, the PMTO-based group program reduced coercive parenting and improved
+      effective parenting, and those parenting gains in turn predicted better child adjustment. Parents can read
+      Patterson and Forgatch's "Parents and Adolescents Living Together" (1987) for the core skills: encouragement,
+      monitoring, problem solving and mild, consistent discipline.
+    caveats: >-
+      Child outcomes in this trial improved indirectly through parenting rather than directly; PMTO is delivered by
+      trained therapists and access varies by country and region.
+    citation: "Forgatch, M. S., & DeGarmo, D. S. (1999). Parenting through change: An effective prevention program for single mothers. Journal of Consulting and Clinical Psychology, 67(5), 711–724."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0022-006X.67.5.711" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/10535238/" }
+      - { label: Program site (GenerationPMTO), url: "https://www.generationpmto.org/" }
+
+  - id: mcneil-hembree-kigin-pcit
+    title: "Parent-Child Interaction Therapy"
+    author: Cheryl B. McNeil & Toni L. Hembree-Kigin
+    year: 2010
+    kind: book
+    evidence: clinical
+    audience: [parents]
+    stages: [1-3, 3-6]
+    traits: [discipline, attachment, self-control]
+    summary: >-
+      A clinician's manual for PCIT, developed by Sheila Eyberg for children aged about 2–7 with disruptive behavior.
+      Parents are coached live through an earpiece, first in child-directed play using PRIDE skills (praise, reflection,
+      imitation, description, enjoyment) and then in giving clear commands with a consistent time-out sequence,
+      advancing only after mastering each skill. A meta-analysis of 23 studies (Thomas et al., 2017, Pediatrics) found
+      large reductions in child externalizing behavior (SMD -0.87), larger when skill mastery was required.
+    caveats: >-
+      The book is written for therapists; parents benefit most by finding a certified PCIT provider. Most trials are of
+      clinic-referred young children rather than general populations.
+    citation: "McNeil, C. B., & Hembree-Kigin, T. L. (2010). Parent-child interaction therapy (2nd ed.). Springer."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1007/978-0-387-88639-8" }
+      - { label: "Meta-analysis (Thomas et al., 2017)", url: "https://doi.org/10.1542/peds.2017-0352" }
+      - { label: PCIT International, url: "https://www.pcit.org/" }
+
+  - id: powell-circle-of-security
+    title: "The Circle of Security Intervention: Enhancing Attachment in Early Parent-Child Relationships"
+    author: Bert Powell et al.
+    year: 2014
+    kind: book
+    evidence: clinical
+    audience: [parents]
+    stages: [0-1, 1-3, 3-6]
+    traits: [attachment, empathy, love]
+    summary: >-
+      The full presentation of Circle of Security, an attachment-based program that teaches caregivers to see the
+      child's alternating needs to explore and to return for comfort, and to be "bigger, stronger, wiser and kind."
+      Parents reflect on their own "shark music" (emotional discomfort that makes some needs hard to meet). An early
+      uncontrolled study of 65 high-risk dyads found shifts from disorganized to organized attachment (Hoffman et al.,
+      2006). The parent-facing book is "Raising a Secure Child" (Hoffman, Cooper & Powell, 2017).
+    caveats: >-
+      Controlled evidence is mixed: a randomized trial of the 8-session COS-Parenting format in Head Start found fewer
+      unsupportive maternal responses but no overall effect on child attachment or behavior problems (Cassidy et al.,
+      2017), and a meta-analysis (Yaholkoski et al., 2016) was based on few, mostly uncontrolled studies.
+    citation: "Powell, B., Cooper, G., Hoffman, K., & Marvin, B. (2014). The Circle of Security intervention: Enhancing attachment in early parent-child relationships. Guilford Press."
+    links:
+      - { label: Publisher, url: "https://www.guilford.com/books/The-Circle-of-Security-Intervention/Powell-Cooper-Hoffman-Marvin/9781462527830" }
+      - { label: "Parent book (Raising a Secure Child)", url: "https://www.guilford.com/books/Raising-a-Secure-Child/Hoffman-Cooper-Powell/9781462527632" }
+      - { label: "RCT (Cassidy et al., 2017)", url: "https://doi.org/10.1017/S0954579417000244" }
+
+  - id: spoth-strengthening-families
+    title: "Randomized Trial of Brief Family Interventions for General Populations: Adolescent Substance Use Outcomes 4 Years Following Baseline (Strengthening Families Program)"
+    author: Richard L. Spoth, Cleve Redmond & Chungyeol Shin
+    year: 2001
+    kind: program
+    evidence: clinical
+    audience: [parents, teens, family]
+    stages: [6-12, 12-18]
+    traits: [self-control, communication, responsibility, discipline]
+    summary: >-
+      The Strengthening Families Program, originated by Karol Kumpfer and adapted at Iowa State as SFP 10–14, brings
+      parents and young adolescents together for seven weekly sessions on clear expectations, consistent consequences,
+      handling strong emotions, family communication and peer-refusal skills. In this trial of 33 Iowa schools,
+      students assigned to the family program showed lower rates of alcohol, tobacco and marijuana initiation and use by tenth grade
+      than students in the control condition. The weekly family-night structure is a model a family can adopt at home.
+    caveats: >-
+      Replications outside the U.S. have been disappointing: a large cluster-randomized trial in Poland (Foxcroft et al.,
+      2017) and a pragmatic UK trial in Wales (Segrott et al., 2022) found no effect on substance use.
+    citation: "Spoth, R. L., Redmond, C., & Shin, C. (2001). Randomized trial of brief family interventions for general populations: Adolescent substance use outcomes 4 years following baseline. Journal of Consulting and Clinical Psychology, 69(4), 627–642."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1037/0022-006X.69.4.627" }
+      - { label: Blueprints program page, url: "https://www.blueprintsprograms.org/programs/189999999/strengthening-families-10-14/" }
+      - { label: "Poland trial (Foxcroft et al., 2017)", url: "https://doi.org/10.1093/eurpub/ckw195" }
+      - { label: "UK trial (Segrott et al., 2022)", url: "https://doi.org/10.1136/bmjopen-2021-049647" }
+
+  - id: olds-nurse-family-partnership
+    title: "Long-term Effects of Home Visitation on Maternal Life Course and Child Abuse and Neglect: Fifteen-Year Follow-up of a Randomized Trial (Nurse-Family Partnership)"
+    author: David L. Olds et al.
+    year: 1997
+    kind: program
+    evidence: clinical
+    audience: [parents]
+    stages: [pregnancy, 0-1, 1-3]
+    traits: [attachment, health, responsibility]
+    summary: >-
+      The Nurse-Family Partnership sends nurses to visit low-income first-time mothers from pregnancy to the child's
+      second birthday, coaching prenatal health, infant care and the mother's own plans. In the Elmira, New York trial,
+      15 years later nurse-visited mothers had fewer verified reports of child abuse and neglect, fewer subsequent
+      births and less welfare use, and unmarried, low-income mothers had fewer arrests. Families eligible for local
+      home-visiting programs can ask about enrolling.
+    caveats: >-
+      Effects have varied by setting: a large UK trial (Building Blocks; Robling et al., 2016, Lancet) found no benefit on
+      its primary outcomes where usual care was already strong. The program serves first-time, low-income mothers rather
+      than all families.
+    citation: "Olds, D. L., Eckenrode, J., Henderson, C. R., Jr., Kitzman, H., Powers, J., Cole, R., Sidora, K., Morris, P., Pettitt, L. M., & Luckey, D. (1997). Long-term effects of home visitation on maternal life course and child abuse and neglect: Fifteen-year follow-up of a randomized trial. JAMA, 278(8), 637–643."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1001/jama.1997.03550080047038" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/9272895/" }
+      - { label: Blueprints program page, url: "https://www.blueprintsprograms.org/programs/35999999/nurse-family-partnership/" }
+      - { label: "UK trial (Robling et al., 2016)", url: "https://doi.org/10.1016/S0140-6736(15)00392-X" }
+
+  - id: dishion-family-check-up
+    title: "The Family Check-Up With High-Risk Indigent Families: Preventing Problem Behavior by Increasing Parents' Positive Behavior Support in Early Childhood"
+    author: Thomas J. Dishion et al.
+    year: 2008
+    kind: program
+    evidence: clinical
+    audience: [parents]
+    stages: [1-3, 3-6, 6-12, 12-18]
+    traits: [discipline, attachment, responsibility]
+    summary: >-
+      The Family Check-Up, developed by Thomas Dishion and colleagues, is a brief, strengths-based assessment with
+      feedback sessions using motivational interviewing, followed by tailored parenting support. In this trial with 731
+      low-income families recruited through WIC, the check-up at ages 2 and 3 reduced child behavior problems through
+      age 4, mainly by increasing parents' positive behavior support, with the largest effects for children with more
+      problems at age 2. Versions exist for school-aged children and teens, and the parent book is "Everyday Parenting"
+      (Dishion, Stormshak & Kavanagh, 2011).
+    caveats: >-
+      Effects concentrated in higher-risk families; benefits are smaller in general populations. Delivered by trained
+      providers, so availability is limited.
+    citation: "Dishion, T. J., Shaw, D., Connell, A., Gardner, F., Weaver, C., & Wilson, M. (2008). The Family Check-Up with high-risk indigent families: Preventing problem behavior by increasing parents' positive behavior support in early childhood. Child Development, 79(5), 1395–1414."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1111/j.1467-8624.2008.01195.x" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/18826532/" }
+      - { label: Program site, url: "https://fcu.uoregon.edu/" }
+
+  # ---------------------------------------------------------------- School/community models for family rules
+  - id: olweus-bullying-at-school
+    title: "Bullying at School: What We Know and What We Can Do"
+    author: Dan Olweus
+    year: 1993
+    kind: book
+    evidence: research
+    audience: [parents, family]
+    stages: [6-12, 12-18]
+    traits: [empathy, responsibility, discipline, cooperation]
+    summary: >-
+      The founding book of the Olweus Bullying Prevention Program, summarizing Olweus's Scandinavian research and the
+      Bergen intervention, which reported large reductions in bullying. Its approach (a few clear, posted rules against
+      bullying, warm adult involvement, consistent non-hostile consequences, regular class meetings and supervision) is
+      a model a family can borrow: a short list of household rules, a weekly family meeting and the same consequence
+      every time. Olweus and Limber (2010) review its evaluation and spread to U.S. schools.
+    caveats: >-
+      U.S. evaluations have been less consistent than the Norwegian studies (e.g., Bauer et al., 2007), and a major
+      meta-analysis found anti-bullying programs reduce bullying by roughly 20% on average (Ttofi & Farrington, 2011).
+      The family application is an analogy, not a tested family program.
+    citation: "Olweus, D. (1993). Bullying at school: What we know and what we can do. Blackwell."
+    links:
+      - { label: Publisher (Wiley-Blackwell), url: "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/bullying-at-school-978-0-631-19241-1" }
+      - { label: "Evaluation review (Olweus & Limber, 2010)", url: "https://doi.org/10.1111/j.1939-0025.2010.01015.x" }
+      - { label: "Meta-analysis (Ttofi & Farrington, 2011)", url: "https://doi.org/10.1007/s11292-010-9109-1" }
+
+  - id: kellam-good-behavior-game
+    title: "Effects of a Universal Classroom Behavior Management Program in First and Second Grades on Young Adult Behavioral, Psychiatric, and Social Outcomes (Good Behavior Game)"
+    author: Sheppard G. Kellam et al.
+    year: 2008
+    kind: program
+    evidence: research
+    audience: [parents, children, family]
+    stages: [3-6, 6-12]
+    traits: [self-control, cooperation, discipline, responsibility]
+    summary: >-
+      In the Good Behavior Game, classes are divided into teams that earn rewards together for following a few clear
+      rules, making self-control a shared, cooperative game. In randomized Baltimore first- and second-grade classrooms,
+      boys who played it, especially those who were aggressive in first grade, had lower rates of drug and alcohol
+      disorders, regular smoking and antisocial personality disorder at ages 19–21. Families can borrow the structure:
+      a few positively stated rules, short practice periods, team rewards for siblings and quick, predictable feedback.
+    caveats: >-
+      Effects were concentrated in high-risk boys and were weaker in a replication cohort with less teacher support; a
+      large trial in English schools found no average effect on behavior or reading (Humphrey et al., 2018, Education
+      Endowment Foundation). The home version is an adaptation, not an evaluated program.
+    citation: "Kellam, S. G., Brown, C. H., Poduska, J. M., Ialongo, N. S., Wang, W., Toyinbo, P., Petras, H., Ford, C., Windham, A., & Wilcox, H. C. (2008). Effects of a universal classroom behavior management program in first and second grades on young adult behavioral, psychiatric, and social outcomes. Drug and Alcohol Dependence, 95(Suppl. 1), S5–S28."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1016/j.drugalcdep.2008.01.004" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/18343607/" }
+
+  # ---------------------------------------------------------------- Counseling and help-seeking
+  - id: aamft-marital-distress-guide
+    title: "Marital Distress (Consumer Update) and TherapistLocator"
+    author: American Association for Marriage and Family Therapy
+    year: 2024
+    kind: guide
+    evidence: clinical
+    audience: [couples, parents, family]
+    stages: [all]
+    traits: [marriage, communication, health]
+    summary: >-
+      Consumer pages from the professional body for marriage and family therapists. They distinguish ordinary ups and
+      downs from real distress (constant dissatisfaction, unresolved arguments, loss of friendship and affection,
+      contempt, withdrawal or violence), note that distressed marriages rarely fix themselves and that delay makes
+      therapy harder, and point out that couples also use therapy to strengthen sound marriages. AAMFT's free
+      TherapistLocator directory lists licensed clinical members.
+    caveats: >-
+      A professional association's consumer advice rather than research; the year is approximate because the pages are
+      updated without dates. When there is violence or fear in the relationship, safety planning and individual help
+      come before joint couples therapy.
+    citation: "American Association for Marriage and Family Therapy. (n.d.). Marital distress [Consumer update]. AAMFT."
+    links:
+      - { label: AAMFT Consumer Update, url: "https://www.aamft.org/AAMFT/Consumer_Updates/Marital_Distress.aspx" }
+      - { label: TherapistLocator, url: "https://www.therapistlocator.net/" }
+
+  - id: paulson-bazemore-paternal-depression
+    title: "Prenatal and Postpartum Depression in Fathers and Its Association With Maternal Depression: A Meta-Analysis"
+    author: James F. Paulson & Sharnail D. Bazemore
+    year: 2010
+    kind: review
+    evidence: research
+    audience: [parents, couples]
+    stages: [pregnancy, 0-1]
+    traits: [health, marriage]
+    summary: >-
+      Meta-analysis of 43 studies (28,004 participants) finding that about 10% of fathers experience depression between
+      the first trimester and the first postpartum year, rising to about 26% at three to six months postpartum. Paternal
+      depression correlated moderately with maternal depression (r = 0.31). Both parents, not only the mother, should be
+      watched and supported after a birth.
+    caveats: >-
+      Rates varied widely across studies and measures; most studies used questionnaires rather than clinical interviews.
+    citation: "Paulson, J. F., & Bazemore, S. D. (2010). Prenatal and postpartum depression in fathers and its association with maternal depression: A meta-analysis. JAMA, 303(19), 1961–1969."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1001/jama.2010.605" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/20483973/" }
+
+  - id: acog-perinatal-mental-health
+    title: "Screening and Diagnosis of Mental Health Conditions During Pregnancy and Postpartum (Clinical Practice Guideline No. 4)"
+    author: American College of Obstetricians and Gynecologists
+    year: 2023
+    kind: guide
+    evidence: clinical
+    audience: [parents, couples]
+    stages: [pregnancy, 0-1]
+    traits: [health]
+    summary: >-
+      ACOG's guideline recommends that clinicians screen for perinatal depression and anxiety with a validated tool at
+      the first prenatal visit, later in pregnancy and after birth, and assess for bipolar disorder and suicide risk.
+      ACOG's patient page on postpartum depression explains how it differs from the short-lived "baby blues" and when to
+      call a doctor. Expectant couples can use both to know what to ask for and when to seek help.
+    caveats: >-
+      Written for clinicians; the patient page is the more accessible entry point. Emergency symptoms (thoughts of
+      harming oneself or the baby) require immediate help, for example through the U.S. 988 crisis line.
+    citation: "American College of Obstetricians and Gynecologists. (2023). Screening and diagnosis of mental health conditions during pregnancy and postpartum: ACOG Clinical Practice Guideline No. 4. Obstetrics & Gynecology, 141(6), 1232–1261."
+    links:
+      - { label: DOI, url: "https://doi.org/10.1097/AOG.0000000000005200" }
+      - { label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/37486660/" }
+      - { label: ACOG patient FAQ, url: "https://www.acog.org/womens-health/faqs/postpartum-depression" }
+
+  - id: apa-choose-psychologist
+    title: "How to Choose a Psychologist"
+    author: American Psychological Association
+    year: 2024
+    kind: guide
+    evidence: clinical
+    audience: [parents, couples, family]
+    stages: [all]
+    traits: [health]
+    summary: >-
+      A consumer guide from the American Psychological Association on finding and evaluating a therapist: where to get
+      referrals, checking state licensure, and questions to ask (experience with this kind of problem, which treatments
+      are used and whether they are evidence-based, fees and insurance). It stresses that personal comfort and rapport
+      matter once competence is established. The APA Psychologist Locator helps find licensed psychologists by area and
+      specialty.
+    caveats: >-
+      U.S.-focused; the year is approximate because the page is updated without dates. For couples or family problems,
+      ask specifically about training in an evidence-based couple or family therapy (e.g., EFT, IBCT, PCIT, PMTO).
+    citation: "American Psychological Association. (n.d.). How to choose a psychologist. APA."
+    links:
+      - { label: APA guide, url: "https://www.apa.org/topics/psychotherapy/choose-therapist" }
+      - { label: APA Psychologist Locator, url: "https://locator.apa.org/" }
