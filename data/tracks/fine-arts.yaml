@@ -6,12 +6,15 @@ description: >-
   academy joined "a fair Hand" to "Drawing, by Imitation of Prints, and some of the first Principles of
   Perspective," and Locke recommended drawing as "a thing very useful to a gentleman." The track runs on
   two strands. The practical strand moves from picture study and free drawing to nature journaling,
-  penmanship and calligraphy, observational drawing, watercolor, perspective, modeling and sculpture,
-  and the academic rigor of the Bargue plates and cast drawing (6–16). The historical strand studies art
-  and architecture through primary works and writers: Vasari, Ruskin, Vitruvius and Palladio, the
-  classical orders, and a college survey of Western art, architecture and sacred art (12–18). The end state
-  is a graduate who draws accurately from life and in perspective, writes a beautiful hand, paints
-  competently in watercolor, can identify and explain the major works, styles and orders, and can
+  penmanship and calligraphy, observational drawing, watercolor, perspective, modeling and sculpture, and
+  the academic rigor of the Bargue plates and cast drawing (6–16). Saturday studio and field units carry
+  it further: sketching from life, the formal book hands, botanical and natural-history illustration, the
+  measured drawing of real buildings, and manuscript illumination and gilding (12–17.5). The historical
+  strand studies art and architecture through primary works and writers: Vasari, Ruskin, Vitruvius and
+  Palladio, the classical orders, and a college survey of Western art, architecture and sacred art
+  (12–18). The end state is a graduate who draws accurately from life and in perspective, writes a
+  beautiful hand and a formal book hand, paints competently in watercolor, can gild and illuminate a page,
+  can measure and draw a building, can identify and explain the major works, styles and orders, and can
   argue, with Vitruvius and Ruskin, what makes a building or painting good.
 rows:
   - id: fine-arts-01
@@ -367,6 +370,89 @@ rows:
     sources:
       - { label: "Franklin, Proposals Relating to the Education of Youth in Pensilvania (1749)", url: "https://archives.upenn.edu/digitized-resources/docs-pubs/franklin-proposals/" }
 
+  - id: fine-arts-12
+    title: "Sketching from Life: Field and Town"
+    type: course
+    level: 6-8
+    stage: formal
+    day: saturday
+    ageStart: 12
+    ageEnd: 15
+    order: 7
+    prerequisites: [fine-arts-04, fine-arts-05]
+    related: [practical-arts-09]
+    summary: >-
+      The studio teaches accuracy. The sketch teaches speed, choice and the habit of drawing whatever is in
+      front of the eye. On Saturday outings the student draws in the field and in town: landscapes, trees
+      and skies, streets, market squares, churches and people at work. He uses pencil, then pen and ink,
+      then pen and wash. Ruskin's second letter, "Sketching from Nature," teaches him to seize the leading
+      lines when the whole cannot be drawn. A pocket sketchbook goes everywhere, and by fifteen it is a
+      habit.
+    objectives:
+      - Fill a pocket sketchbook from life each term, with dated and placed entries
+      - Make quick figure studies (gesture drawings of 1 to 5 minutes) of people walking, working and at rest
+      - Draw a landscape and a street scene on location in pencil, pen and ink, and pen and wash
+      - Use thumbnails and a three-value plan to choose and compose a view before drawing it
+      - Read Ruskin's Letter II and apply its rule of the leading lines to trees, hills and clouds
+    workload:
+      readingHours: 3
+      readingBasis: "Ruskin's Letter II, 41 pp at ~15 pp/h"
+      work:
+        - { kind: exercises, hours: 10, note: "technique lessons: gesture drawing, thumbnails and value plans, pen hatching from Guptill, and laying a wash over ink, ~15 x 40 min" }
+        - { kind: practice, hours: 60, note: "Saturday sketching outings in the field and in town, ~40 outings x 1.5 h over three years" }
+        - { kind: project, hours: 8, note: "a finished sketchbook of one place (a town, a farm or a park) through the seasons: ~12 pen-and-wash views and figure studies, with notes" }
+    coreTexts:
+      - title: "The Elements of Drawing (Letter II, Sketching from Nature)"
+        kind: instructional
+        reader: student
+        pages: 230
+        role: selections
+        portion: "Letter II, Sketching from Nature"
+        readPages: 41
+        author: John Ruskin
+        date: "1857"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/30325" }
+      - title: Rendering in Pen and Ink (60th anniversary ed.)
+        kind: instructional
+        reader: teacher
+        pages: 256
+        role: reference
+        author: Arthur L. Guptill
+        date: "1997 (60th anniversary ed.)"
+        publicDomain: false
+        links:
+          - { label: Barnes & Noble, url: "https://www.barnesandnoble.com/w/rendering-in-pen-and-ink-arthur-l-guptill/1111619432?ean=9780823045297" }
+    curriculumOptions:
+      - name: "The Art of Urban Sketching (Gabriel Campanario)"
+        publisher: Quarry Books
+        tradition: secular
+        url: "https://www.quarto.com/books/9781592537259/Art-of-Urban-Sketching"
+        notes: Location drawings from more than 50 cities, with each artist's tools and methods. A source of models and ideas, not a graded course.
+      - name: Urban Sketchers (local chapters and sketchwalks)
+        publisher: Urban Sketchers
+        tradition: secular
+        url: "https://urbansketchers.org/"
+        notes: Free group sketchwalks in many cities. Suitable for a parent and student together.
+      - name: The Laws Guide to Nature Drawing and Journaling (landscape chapters)
+        publisher: Heyday Books
+        tradition: secular
+        url: "https://heydaybooks.com/catalog/the-laws-guide-to-nature-drawing-and-journaling/"
+        notes: Continues the nature-journal strand into landscape and field sketching.
+    historicalPrecedent: >-
+      Turner left 309 sketchbooks, from about 1789 to 1845, many of them filled on tour. West Point
+      trained its cadets in topographical drawing and sketching. Seth Eastman, a graduate, taught drawing
+      there from 1833 and in 1837 published a Treatise on Topographical Drawing. Ruskin wrote The Elements
+      of Drawing (1857) for beginners who wanted to sketch from nature.
+    sources:
+      - { label: "Tate: Cataloguing the Turner Bequest", url: "https://www.tate.org.uk/visit/tate-britain/display/jmw-turner/cataloguing-turner-bequest" }
+      - { label: "MNopedia: Eastman, Seth (1808–1875)", url: "https://www.mnhs.org/mnopedia/search/index/person/eastman-seth-1808-1875" }
+      - { label: "Eastman, Treatise on Topographical Drawing (1837), Archive.org", url: "https://archive.org/details/treatiseontopog01eastgoog" }
+    notes: >-
+      Figure studies are of clothed people in public places. Sketching on private property needs the
+      owner's permission.
+
   - id: fine-arts-07
     title: "Sculpture and Modeling"
     type: course
@@ -375,7 +461,7 @@ rows:
     day: saturday
     ageStart: 12
     ageEnd: 16
-    order: 7
+    order: 8
     prerequisites: [fine-arts-04]
     related: []
     summary: >-
@@ -424,7 +510,7 @@ rows:
     stage: formal
     ageStart: 12
     ageEnd: 15
-    order: 8
+    order: 9
     prerequisites: [fine-arts-01]
     related: []
     summary: >-
@@ -494,17 +580,116 @@ rows:
         url: "https://www.phaidon.com/store/art/the-story-of-art-9780714832470/"
         notes: The standard one-volume narrative survey. Clear and humane.
 
+  - id: fine-arts-14
+    title: "Formal Book Hands: Foundational, Uncial, Italic and Gothic"
+    type: course
+    level: 9-12
+    stage: formal
+    day: saturday
+    ageStart: 13
+    ageEnd: 15.5
+    order: 10
+    prerequisites: [fine-arts-03]
+    related: [practical-arts-07, history-11, history-19]
+    summary: >-
+      Penmanship to Calligraphy gave a first taste of the historical scripts. This course takes four of
+      them to a finished standard with the broad-edged pen: Edward Johnston's Foundational hand, the
+      Uncial of the early Gospel books, the Renaissance Italic, and Gothic textura (blackletter). The
+      student learns each hand from its pen angle, letter height in nib-widths, ductus (the order and
+      direction of strokes) and spacing, then copies a page of a real manuscript. He rules and plans
+      pages as a medieval scribe did, and ends by writing and sewing a small manuscript book.
+    objectives:
+      - Cut a quill or reed pen and set up a sloped writing board, as Johnston teaches
+      - Write the Foundational, Uncial, Italic and Gothic textura hands, capitals and minuscules, at a consistent pen angle and x-height
+      - Copy a page of a historical model in each hand and explain how the script developed
+      - Plan, rule and write a sheet of prose and a sheet of poetry, with margins and line spacing set by rule
+      - Write and sew a small manuscript book (a psalm, a canticle or a short cycle of poems)
+    workload:
+      readingHours: 12
+      readingBasis: "Johnston's Chapters I–VI and XIV–XV, ~180 pp at ~15 pp/h; Waters is a workbook counted as exercises"
+      work:
+        - { kind: exercises, hours: 30, note: "pen ladders, letter families and alphabet sheets in four hands from Waters and Johnston, ~45 x 40 min" }
+        - { kind: practice, hours: 30, note: "copying a page of a historical model in each hand and writing text pages, ~30 x 1 h" }
+        - { kind: project, hours: 15, note: "a small manuscript book: planning and ruling (~3 h), writing ~12 pages (~9 h), rubrics and sewing (~3 h)" }
+    coreTexts:
+      - title: "Writing & Illuminating, & Lettering"
+        kind: instructional
+        reader: student
+        pages: 499
+        role: selections
+        portion: "Chapters I–VI (the development of writing, acquiring a formal hand, manuscript books) and XIV–XV (good lettering, the Roman alphabet and its derivatives)"
+        readPages: 180
+        order: 1
+        author: Edward Johnston
+        date: "1906"
+        publicDomain: true
+        lessons: 17
+        lessonLabel: chapter
+        lessonsNote: "Project Gutenberg edition contents: Chapters I–XVII, The Development of Writing to Inscriptions in Stone"
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/47089" }
+          - { label: "Archive.org (1906 ed.)", url: "https://archive.org/details/writingillumina00john" }
+      - title: Foundations of Calligraphy (2023 ed.)
+        kind: instructional
+        reader: student
+        pages: 150
+        pace: long
+        order: 1
+        author: Sheila Waters
+        date: "2006 (2023 ed.)"
+        publicDomain: false
+        links:
+          - { label: John Neal Books, url: "https://www.johnnealbooks.com/product/foundations-of-calligraphy-by-sheila-waters-2023-edition" }
+      - title: "Medieval Calligraphy: Its History and Technique"
+        kind: instructional
+        reader: teacher
+        pages: 224
+        role: reference
+        author: Marc Drogin
+        date: "1980 (Dover 1989)"
+        publicDomain: false
+        links:
+          - { label: Dover Publications, url: "https://store.doverpublications.com/products/9780486261423" }
+    curriculumOptions:
+      - name: "Foundations of Calligraphy (Sheila Waters)"
+        publisher: John Neal Books
+        tradition: secular
+        url: "https://www.johnnealbooks.com/product/foundations-of-calligraphy-by-sheila-waters-2023-edition"
+        notes: A master scribe's course in the broad-edged hands, from Roman capitals and the Foundational hand to Uncial, Carolingian, Italic and Gothic, with layout and design.
+      - name: "Medieval Calligraphy: Its History and Technique (Marc Drogin)"
+        publisher: Dover Publications
+        tradition: secular
+        url: "https://store.doverpublications.com/products/9780486261423"
+        notes: Thirteen medieval scripts from Roman Rustic to late Gothic, with photographed models and modern-tool directions.
+      - name: Society of Scribes (classes and workshops)
+        publisher: Society of Scribes
+        tradition: secular
+        url: "https://www.societyofscribes.org/"
+        notes: New York calligraphy guild with classes, many online. Local guilds elsewhere offer the same.
+    historicalPrecedent: >-
+      Medieval book hands were taught in monastic scriptoria. The Lindisfarne Gospels (c. 700) were
+      probably written by Eadfrith, bishop of Lindisfarne, who is named as scribe in a tenth-century
+      colophon. Edward Johnston revived the broad-edged pen by studying manuscripts in the British Museum.
+      He taught lettering at the Central School of Arts and Crafts from 1899 to 1912 and at the Royal
+      College of Art from 1901, and his Writing & Illuminating, & Lettering (1906) became the
+      textbook of the modern revival.
+    sources:
+      - { label: "German Museum of Books and Writing: Edward Johnston", url: "https://mediengeschichte.dnb.de/DBSMZBN/Content/EN/FontDesign/05-johnston-edward-en.html" }
+      - { label: "V&A: Edward Johnston, The House of David, His Inheritance (manuscript)", url: "https://collections.vam.ac.uk/item/O1487434/the-house-of-david-his-manuscript-johnston-edward" }
+      - { label: "British Library: Cotton MS Nero D IV (Lindisfarne Gospels), catalogue record", url: "https://searcharchives.bl.uk/catalog/040-001102725" }
+    notes: >-
+      Penmanship to Calligraphy (fine-arts-03) introduces broad-edge capitals, Carolingian and italic.
+      This course assumes a steady hand with the pen and aims at a finished page. Left-handed students need left-oblique nibs.
+
   - id: fine-arts-09
     title: "Architecture and the Classical Orders: Vitruvius and Palladio"
     type: course
     level: 9-12
     stage: formal
-    elective: true
-    electiveNote: >-
-      Architecture is core in practical-arts-15 (Jefferson's Palladio).
+    day: saturday
     ageStart: 13
     ageEnd: 16
-    order: 9
+    order: 11
     prerequisites: [fine-arts-06]
     related: [mathematics-10, civics-law-04, practical-arts-15]
     summary: >-
@@ -568,7 +753,7 @@ rows:
       For serious draftsmen; drawing fundamentals remain core.
     ageStart: 13
     ageEnd: 16
-    order: 10
+    order: 12
     prerequisites: [fine-arts-04, fine-arts-07]
     related: []
     summary: >-
@@ -620,6 +805,320 @@ rows:
       Bargue's Cours de dessin, produced with Jean-Léon Gérôme for Goupil & Cie (1866–1871), was used in French
       academies and ateliers. Van Gogh copied the whole set in 1880–1881 while teaching himself to draw.
 
+  - id: fine-arts-13
+    title: "Botanical and Natural-History Illustration"
+    type: course
+    level: 9-12
+    stage: formal
+    day: saturday
+    ageStart: 14.75
+    ageEnd: 16.75
+    order: 13
+    prerequisites: [fine-arts-02, fine-arts-05]
+    related: [natural-science-06, natural-science-09, biology-01]
+    summary: >-
+      The nature journal records what was seen. The scientific plate shows what a species is, so that
+      another person can identify it. The student draws plants from life at measured scale, dissects
+      flowers and fruits with a hand lens, and renders form in graphite tone. He then paints in watercolor
+      by layered washes, matching each color to the living specimen. Insects and birds follow, drawn from
+      specimens, museum skins and the feeder. The models are the great illustrated natural histories:
+      Merian's insects of Surinam, Catesby's Carolina, and Audubon's Birds of America.
+    objectives:
+      - Measure a specimen with dividers and draw it at life size, with correct proportion, venation and leaf arrangement
+      - Dissect and draw a flower and a fruit with a hand lens, labeling the parts in botanical Latin
+      - Render form in graphite with a full value range, then in layered watercolor matched to the specimen
+      - Draw an insect and a bird from specimens or life with correct anatomy and proportion
+      - Complete four finished plates in the manner of a scientific illustration
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 25, note: "the course in the Eden Project book: pencil tone, shapes in nature, dissection and bisection, perspective of leaves and flowers, color mixing and watercolor application, ~25 x 1 h (an instruction book, not counted as reading)" }
+        - { kind: practice, hours: 40, note: "studies from life of plants, insects and birds (garden, field, museum skins and specimens), ~40 x 1 h" }
+        - { kind: project, hours: 20, note: "four finished plates x ~5 h: a flowering plant with dissections, a fruit or seed, an insect with its food plant after Merian, and a bird" }
+    coreTexts:
+      - title: The Botanical Illustration Course with the Eden Project
+        kind: instructional
+        reader: student
+        pages: 144
+        pace: long
+        author: Rosie Martin and Meriel Thurstan
+        date: "2006"
+        publicDomain: false
+        links:
+          - { label: Batsford, url: "https://www.batsfordbooks.com/book/botanical-illustration-course-with-the-eden-project/" }
+      - title: Metamorphosis insectorum Surinamensium
+        kind: primary
+        reader: student
+        role: reference
+        author: Maria Sibylla Merian
+        date: "1705"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/Metamorphosisin00Meri" }
+      - title: "The Natural History of Carolina, Florida and the Bahama Islands, Vol. 1"
+        kind: primary
+        reader: student
+        role: reference
+        author: Mark Catesby
+        date: "1731"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/CAT31020028001" }
+      - title: The Birds of America (plates)
+        kind: primary
+        reader: student
+        role: reference
+        author: John James Audubon
+        date: "1827–1838"
+        publicDomain: true
+        links:
+          - { label: National Audubon Society, url: "https://www.audubon.org/art/birds-of-america" }
+    curriculumOptions:
+      - name: "Botanical Drawing in Color (Wendy Hollender)"
+        publisher: Watson-Guptill
+        tradition: secular
+        url: "https://www.penguinrandomhouse.com/books/196815/botanical-drawing-in-color-by-wendy-hollender/"
+        notes: Colored-pencil method from the author's classes at the New York Botanical Garden. A good alternative to watercolor for a younger or less patient student.
+      - name: "The Laws Guide to Drawing Birds (John Muir Laws)"
+        publisher: Heyday Books
+        tradition: secular
+        url: "https://www.heydaybooks.com/catalog/the-laws-guide-to-drawing-birds/"
+        notes: Bird anatomy, proportion and feather groups, step by step. Continues the Laws nature-journal books.
+      - name: American Society of Botanical Artists
+        publisher: ASBA
+        tradition: secular
+        url: "https://www.asba-art.org/"
+        notes: Exhibitions, classes and a directory of teachers and botanical-art programs.
+    historicalPrecedent: >-
+      Before photography, natural science depended on accurate drawing. Maria Sibylla Merian raised and
+      painted the insects of Surinam on their food plants (1705). Mark Catesby drew and etched his own
+      plates of Carolina plants and birds (1731–1743), and Audubon drew American birds life-size for The
+      Birds of America (1827–1838). Comstock's nature-study movement at Cornell put this kind of drawing
+      into American schools.
+    sources:
+      - { label: "Merian, Metamorphosis insectorum Surinamensium (1705), Archive.org", url: "https://archive.org/details/Metamorphosisin00Meri" }
+      - { label: "Catesby, The Natural History of Carolina (1731), Archive.org", url: "https://archive.org/details/CAT31020028001" }
+      - { label: "National Audubon Society: John J. Audubon's Birds of America", url: "https://www.audubon.org/art/birds-of-america" }
+    notes: >-
+      Take only common plants, and only where picking is allowed. Museum and university collections often
+      lend insect and bird specimens for drawing.
+
+  - id: fine-arts-16
+    title: "Measured Drawing: Surveying and Drawing Real Buildings"
+    type: course
+    level: 9-12
+    stage: formal
+    day: saturday
+    ageStart: 15
+    ageEnd: 17
+    order: 14
+    prerequisites: [fine-arts-09, fine-arts-06]
+    related: [practical-arts-15, practical-arts-09, mathematics-15]
+    summary: >-
+      Palladio learned architecture by measuring the ruins of Rome, and every classical architect since has
+      learned it the same way. The student first constructs the five orders with compass and rule from
+      Ware's American Vignola: the module, the moldings, entasis and the Ionic volute. Then he goes out to
+      a real building, such as a church, a courthouse, a farmhouse or a colonial house. He sketches it,
+      measures it with tape, rod and level, and records every dimension in field notes. At the board he
+      draws the plan, elevations, a section and full-size profiles of the moldings, to scale and in ink,
+      following the conventions of the Historic American Buildings Survey.
+    objectives:
+      - Construct the Tuscan, Doric, Ionic, Corinthian and Composite orders from the module with compass and rule, including the Ionic volute
+      - Take running and overall dimensions with tape and rod, and triangulate to check that a plan closes
+      - Record molding profiles with a contour gauge and draw them full size
+      - Draw a measured plan, two elevations and a section of a real building to scale, inked and lettered with a title block
+      - Compare the building's proportions with the orders and with Palladio's and Vitruvius's rules
+    workload:
+      readingHours: 0
+      work:
+        - { kind: exercises, hours: 25, note: "the five orders constructed from Ware's plates, 5 x 3 h, and moldings, entasis and the Ionic volute, ~10 x 1 h (Ware is a plate book, not counted as reading)" }
+        - { kind: practice, hours: 20, note: "measuring and drawing details in the field (doorways, cornices, windows, molding profiles), ~10 sessions x 2 h" }
+        - { kind: project, hours: 50, note: "a measured survey of one building: field sketches and dimensions, ~4 days x 5 h, then plan, two elevations and a section inked to scale, ~30 h" }
+    coreTexts:
+      - title: "The American Vignola, Part I: The Five Orders"
+        kind: instructional
+        reader: student
+        pace: long
+        author: William R. Ware
+        date: "1903"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/americanvignola01wareuoft" }
+      - title: "Measured Drawings of Some Colonial and Georgian Houses, Vols. 1–2"
+        kind: primary
+        reader: student
+        role: reference
+        author: Donald Millar
+        date: "1916"
+        publicDomain: true
+        links:
+          - { label: "Archive.org (Vol. 1)", url: "https://archive.org/details/measureddrawings01mill" }
+          - { label: "Archive.org (Vol. 2)", url: "https://archive.org/details/measureddrawings02mill" }
+      - title: The Classical Orders of Architecture (2nd ed.)
+        kind: instructional
+        reader: teacher
+        pages: 228
+        role: reference
+        author: Robert Chitham
+        date: "1985 (2nd ed. 2005)"
+        publicDomain: false
+        links:
+          - { label: Routledge, url: "https://www.routledge.com/The-Classical-Orders-of-Architecture/Chitham/p/book/9780750661249" }
+    curriculumOptions:
+      - name: "The Classical Orders of Architecture (Robert Chitham)"
+        publisher: Routledge
+        tradition: classical
+        url: "https://www.routledge.com/The-Classical-Orders-of-Architecture/Chitham/p/book/9780750661249"
+        notes: Modern drawings of the orders with proportions in both 100-part and 96-part systems, and in metric and imperial units.
+      - name: Institute of Classical Architecture & Art (drawing courses)
+        publisher: ICAA
+        tradition: classical
+        url: "https://www.classicist.org/"
+        notes: Courses in drawing the orders, architectural rendering and classical design, online and in person.
+    historicalPrecedent: >-
+      Palladio's Book IV (1570) publishes his own measured drawings of the temples of ancient Rome.
+      Antoine Desgodetz, sent to Rome by Colbert, measured its ancient buildings (Les édifices antiques de
+      Rome, 1682), and Stuart and Revett measured Athens (The Antiquities of Athens, 1762). In America, the
+      Historic American Buildings Survey, begun in 1933, sent architects to measure and draw the nation's
+      buildings. Its drawings, now at the Library of Congress, remain the model for student work.
+    sources:
+      - { label: "NPS: About the Historic American Buildings Survey", url: "https://www.nps.gov/subjects/heritagedocumentation/habs.htm" }
+      - { label: "Desgodetz, Les édifices antiques de Rome (1779 ed.), Archive.org", url: "https://archive.org/details/lesedificesantiq0000desg" }
+      - { label: "Stuart and Revett, The Antiquities of Athens (1858 ed.), Archive.org", url: "https://archive.org/details/antiquitiesofath00stua" }
+    notes: >-
+      Jefferson's Palladio (practical-arts-15) makes a measured drawing of one room. This course surveys
+      a whole building. Ask the
+      owner's permission before measuring, and work in pairs on ladders and roofs. A local historical
+      society can suggest a building that has never been recorded.
+
+  - id: fine-arts-15
+    title: "Manuscript Illumination and Gilding"
+    type: course
+    level: 9-12
+    stage: formal
+    day: saturday
+    ageStart: 15.5
+    ageEnd: 17.5
+    order: 15
+    prerequisites: [fine-arts-14, fine-arts-05]
+    related: [history-19, theology-16, theology-20]
+    summary: >-
+      Illumination is the art of lighting a written page with gold and color. The student learns it from
+      the medieval recipe books and from Johnston, who revived it. He prepares raised gesso and lays and
+      burnishes gold leaf. He mixes egg tempera and gouache from pigments and paints in flat layers with
+      fine outlines. He copies decorated initials and borders from three traditions: the interlace and
+      knotwork of the Book of Kells and the Lindisfarne Gospels, and the ivy-leaf borders and miniatures of
+      the French Books of Hours. The course ends with an illuminated page of the student's own design.
+    objectives:
+      - Lay raised gesso and flat gold, burnish gold leaf, and correct faults in the gilding
+      - Mix egg tempera and gouache, and paint flat color, modeled color and white-line highlights with a fine brush
+      - Copy an interlace initial from the Book of Kells or the Lindisfarne Gospels and a border from a Book of Hours
+      - Explain Johnston's three kinds of illumination (colour-work, pen-work and limner's) and identify them in the facsimiles
+      - Design and complete an illuminated page with a written text, a raised-gold initial and a painted border
+    workload:
+      readingHours: 16
+      readingBasis: "~245 pp at ~15 pp/h: Johnston's Chapters VII–XIII (125 pp), Thompson on pigments and metals (~80 pp) and Cennini on gesso and gilding (~40 pp)"
+      work:
+        - { kind: exercises, hours: 20, note: "materials and methods: gesso, gold leaf and burnishing, egg tempera and gouache, ~20 x 1 h" }
+        - { kind: practice, hours: 30, note: "copies of decorated initials and border sections from Kells, Lindisfarne and a Book of Hours, ~15 studies x 2 h" }
+        - { kind: project, hours: 25, note: "an illuminated page: design (~4 h), writing the text in a book hand (~6 h), gilding (~5 h) and painting the initial and border (~10 h)" }
+    coreTexts:
+      - title: "Writing & Illuminating, & Lettering"
+        kind: instructional
+        reader: student
+        pages: 499
+        role: selections
+        portion: "Chapters VII–XIII (versals, black and red, laying and burnishing gold, gold and colours in initials, the theory, development and design of illumination)"
+        readPages: 125
+        order: 1
+        author: Edward Johnston
+        date: "1906"
+        publicDomain: true
+        links:
+          - { label: Project Gutenberg, url: "https://www.gutenberg.org/ebooks/47089" }
+      - title: The Materials and Techniques of Medieval Painting
+        kind: secondary
+        reader: student
+        role: selections
+        portion: "the chapters on pigments and on metals (gold leaf and shell gold)"
+        readPages: 80
+        order: 2
+        author: Daniel V. Thompson
+        date: "1936"
+        publicDomain: false
+        links:
+          - { label: Dover Publications, url: "https://store.doverpublications.com/products/9780486203270" }
+      - title: "The Book of the Art of Cennino Cennini (trans. Christiana Herringham)"
+        kind: primary
+        reader: student
+        pages: 330
+        role: selections
+        portion: "the chapters on gesso, gilding and working on parchment"
+        readPages: 40
+        order: 2
+        author: Cennino Cennini
+        date: "c. 1400 (trans. 1899)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bookofartofcenni00cennuoft" }
+      - title: "The Book of Kells (24 colour plates)"
+        kind: primary
+        reader: student
+        role: reference
+        author: Edward Sullivan
+        date: "c. 800 (facsimile plates 1914)"
+        publicDomain: true
+        links:
+          - { label: Archive.org, url: "https://archive.org/details/bookofkells0000unse_m2w7" }
+      - title: Lindisfarne Gospels (Cotton MS Nero D IV), digitised manuscript
+        kind: primary
+        reader: student
+        role: reference
+        author: Eadfrith of Lindisfarne (attrib.)
+        date: "c. 700"
+        publicDomain: true
+        links:
+          - { label: "British Library: catalogue record", url: "https://searcharchives.bl.uk/catalog/040-001102725" }
+          - { label: "British Library: online viewer", url: "https://iiif.bl.uk/uv/#?manifest=https://bl.digirati.io/iiif/ark:/81055/man_10000006.0x000001" }
+      - title: The Belles Heures of Jean de France, duc de Berry
+        kind: primary
+        reader: student
+        role: reference
+        author: Limbourg brothers
+        date: "1405–1409"
+        publicDomain: true
+        links:
+          - { label: The Metropolitan Museum of Art, url: "https://www.metmuseum.org/art/collection/search/470306" }
+    curriculumOptions:
+      - name: "Beginning Illumination: Learning the Ancient Art, Step by Step (Claire Travers)"
+        publisher: Schiffer Publishing
+        tradition: secular
+        url: "https://schifferbooks.com/products/beginning-illumination"
+        notes: Short, photo-filled guide to parchment, pigments, gilding and painting borders, faces and creatures. A practical companion to Johnston.
+      - name: "The Craftsman's Handbook (Cennini, trans. Daniel V. Thompson)"
+        publisher: Dover Publications
+        tradition: secular
+        url: "https://store.doverpublications.com/products/9780486200545"
+        notes: The standard modern translation of Cennini, more exact on technique than Herringham's.
+      - name: "Understanding Illuminated Manuscripts: A Guide to Technical Terms (rev. ed.)"
+        publisher: Getty Publications
+        tradition: secular
+        url: "https://shop.getty.edu/products/understanding-illuminated-manuscripts-a-guide-to-technical-terms-revised-edition-978-1606065785"
+        notes: Illustrated glossary of the materials, methods and parts of the medieval book.
+    historicalPrecedent: >-
+      The Lindisfarne Gospels (c. 700) and the Book of Kells (c. 800) were written and painted in
+      monastic scriptoria. The twelfth-century monk Theophilus and the painter Cennino Cennini (c. 1400)
+      wrote down the recipes for gesso, gold and pigments that illuminators used. Johnston's 1906 book,
+      with Graily Hewitt's appendix on gilding, revived raised gilding in the modern Arts and Crafts movement.
+    sources:
+      - { label: "Theophilus, An Essay upon Various Arts (trans. Hendrie, 1847), Archive.org", url: "https://archive.org/details/essayuponvarious00hend" }
+      - { label: "Trinity College Dublin: The Book of Kells", url: "https://www.tcd.ie/library/exhibitions/directors-choice/book-of-kells/" }
+      - { label: "British Library: Cotton MS Nero D IV (Lindisfarne Gospels)", url: "https://searcharchives.bl.uk/catalog/040-001102725" }
+    notes: >-
+      Use ready-made pigments. Historical pigments such as lead white, vermilion and orpiment are toxic. The
+      Trinity College Dublin Digital Collections hold a full digitization of the Book of Kells (TCD MS 58);
+      no direct link to it is given here because it has not been verified.
+
   - id: fine-arts-11
     title: "College: History of Art, Architecture and Sacred Art"
     type: course
@@ -627,7 +1126,7 @@ rows:
     stage: formal
     ageStart: 17.75
     ageEnd: 18
-    order: 11
+    order: 16
     prerequisites: [fine-arts-08, fine-arts-06]
     related: [philosophy-14, theology-20]
     summary: >-
