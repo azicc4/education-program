@@ -169,6 +169,32 @@ sources:
 The build turns this into a budget per grade (`budget.years` in `curriculum.json`). The School Hours page compares
 each grade's core units, spread evenly over their ages, with the weekday, Saturday and Sunday budgets.
 
+## The teacher's plan (`data/teacher.yaml`)
+
+The teacher's plan is not a second curriculum: the site builds it from the units and each child's progress. The file
+sets, for each kind of unit, how far ahead the teacher works and how long preparation takes.
+
+```yaml
+categories:
+  - id: language                     # matched by track (and optionally by day)
+    label: Languages
+    tracks: [latin, greek, hebrew, spanish, chinese, old-english]
+    leadMonths: 12                   # the teacher's schedule is the student's, this many months earlier
+    rule: The teacher studies each language unit a year before the student.
+    teacherHoursPerStudentHour: 0.75
+  - id: skill
+    tracks: [fine-arts, physical-training, practical-arts, music, music-lessons, sports, drama]
+    days: [saturday]
+    leadMonths: 6
+    teacherHoursPerStudentHour: 0.3
+  - id: reading                      # everything else
+    default: true
+    leadMonths: 2
+    minLeadMonths: 1
+    readingFactor: 0.6               # teacher reading time per hour of student reading
+    workFactor: 0.15                 # lesson preparation per hour of student work
+```
+
 ## Exams
 
 `data/exams.yaml` is the catalog of exams the program prepares for by 18 (AP, CLT, SAT/ACT, PSAT/NMSQT, national

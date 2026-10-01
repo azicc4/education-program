@@ -290,6 +290,28 @@
   }
 
 
+  // ---------- the teacher's preparation for a unit (rules in data/teacher.yaml) ----------
+  const TEACHER = DATA.teacher?.categories || [];
+  function teacherCategory(r) {
+    return (
+      TEACHER.find((c) => !c.default && ((c.tracks || []).includes(r.track) || (c.days || []).includes(r.day || 'weekday'))) ||
+      TEACHER.find((c) => c.default) ||
+      null
+    );
+  }
+  function teacherHours(r) {
+    const c = teacherCategory(r);
+    if (!c || !r.workload) return 0;
+    if (c.default) return (r.workload.readingHours || 0) * c.readingFactor + workHours(r) * c.workFactor;
+    return (workloadTotal(r) || 0) * c.teacherHoursPerStudentHour;
+  }
+  function teacherHtml(r) {
+    const c = teacherCategory(r);
+    if (!c) return '';
+    const h = teacherHours(r);
+    return `<h3>Teacher preparation</h3><p class="desc"><strong>${esc(c.label)}: ${c.leadMonths} month${c.leadMonths === 1 ? '' : 's'} ahead.</strong> ${esc(c.rule)}${h ? ` About ${hrs(h)} for the teacher.` : ''} See the <a href="teacher.html">Teacher Plan</a>.</p>`;
+  }
+
   // ---------- time spent: logged per child, per text or program, and per lesson for textbooks and language books ----------
   const LANGUAGE_TRACKS = new Set(['latin', 'greek', 'hebrew', 'spanish', 'chinese', 'old-english']);
   const ACTIVITIES = {
@@ -627,6 +649,7 @@
       ${timeSection(r)}
       ${r.objectives?.length ? `<h3>Objectives</h3><ul>${r.objectives.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
       ${workloadHtml(r)}
+      ${teacherHtml(r)}
       ${
         texts.length
           ? `<h3>Core texts</h3>${loadHtml(readingPlan(r))}${textsHtml(
@@ -686,7 +709,7 @@
     DATA, trackOrder, trackById, rowById, levelById, levelOrder, unlocks, examById,
     esc, ageLabel, fmtAge, levelBadge, trackTitle, statusBadge, readerBadge, lengthLabel, unitBadges, dayOf, inPlan, DAY_LABEL,
     readState, writeState, matches, renderFilters, showDetail,
-    isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml, workloadTotal, workloadHtml, workHours,
+    teacherCategory, teacherHours, isElective, cleanTitle, readingPlan, loadText, planBadges, textsHtml, workloadTotal, workloadHtml, workHours,
     quarterAge, childOptions, childFor, defaultChild, nowUnits, nextUnits, modal, printBooklist,
   };
 })();
