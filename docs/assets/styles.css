@@ -833,3 +833,12 @@ dialog.modal input:not([type="checkbox"]):not([type="radio"]), dialog.modal sele
   .tchart { grid-template-columns: repeat(24, minmax(0, 1fr)); height: 140px; }
   .tt th:nth-child(2), .tt td:nth-child(2), .tt th:nth-child(5), .tt td:nth-child(5) { display: none; }
 }
+
+/* ---------- mastery: objectives and examinations ---------- */
+details.mastery { margin: 8px 0 4px; font: 0.85rem var(--sans); }
+details.mastery summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+.objs { display: grid; gap: 4px; margin: 6px 0; }
+.objs .obj { display: flex; gap: 8px; align-items: flex-start; line-height: 1.35; }
+.objs .obj input { margin-top: 3px; flex: none; }
+details.mastery .exam { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; margin-top: 6px; }
+.mastery-warn { margin: 4px 0; color: var(--accent); font-size: 0.82rem; }

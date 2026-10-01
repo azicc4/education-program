@@ -38,6 +38,7 @@ and has a page count where one is known.
   with unit ids are in the PR description.
 - [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
   edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
+- [x] Mastery tracking: objectives ticked per child in each unit's panel, a unit examination by subject (data/assessment.yaml), and a Mastery tab with units ready to examine and a review list.
 - [x] Saturday visual arts: sketching from life (12–15), formal book hands (13–15½), botanical illustration (14¾–16¾),
   measured drawing of buildings (15–17) and manuscript illumination and gilding (15½–17½), with Architecture and the
   Classical Orders core again; Saturdays now run at 69–86% from grade 6.

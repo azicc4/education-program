@@ -48,6 +48,16 @@
     // fill each loaded demo child's Bookshelf of Knowledge from their completed units, once per child
     topUp(DATA, Store) {
       let added = 0;
+      // demo children have mastered and been examined on every unit they finished
+      for (const c of Store.children().filter((x) => NAMES.has(x.name) && !x.masterySeeded)) {
+        Store.updateChild(c.id, { masterySeeded: true }, { quiet: true });
+        for (const r of DATA.rows) {
+          if (Store.status(c.id, r.id) !== 'done') continue;
+          (r.objectives || []).forEach((_, i) => Store.setObjective(c.id, r.id, i, true, { quiet: true }));
+          Store.setExam(c.id, r.id, true, { quiet: true });
+        }
+        Store.saveNow();
+      }
       for (const c of Store.children().filter((x) => NAMES.has(x.name) && !x.shelfSeeded)) {
         // set the flag first so the single save in addBooks stores it; save it directly when nothing was new
         Store.updateChild(c.id, { shelfSeeded: true }, { quiet: true });
