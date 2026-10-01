@@ -1116,12 +1116,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    elective: true
-    electiveNote: >-
-      Livy is read in translation in the Rome seminar (history-16); the core Latin path reads
-      Caesar, Cicero, Virgil and Horace.
-    ageStart: 14
-    ageEnd: 15
+    ageStart: 15.5
+    ageEnd: 16
     order: 13
     prerequisites: [latin-11]
     related: [history-16]
@@ -1201,8 +1197,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 15.5
-    ageEnd: 16.25
+    ageStart: 16
+    ageEnd: 16.75
     order: 14
     prerequisites: [latin-12]
     related: [old-english-03]
@@ -1297,12 +1293,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    elective: true
-    electiveNote: >-
-      Latin Composition I remains core; advanced prose and verse composition is for strong
-      Latinists.
-    ageStart: 14.75
-    ageEnd: 16.75
+    ageStart: 16
+    ageEnd: 17.5
     order: 15
     prerequisites: [latin-08, latin-12]
     related: [poetry-10]
@@ -1370,8 +1362,8 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 16.25
-    ageEnd: 17
+    ageStart: 16.75
+    ageEnd: 17.25
     order: 16
     prerequisites: [latin-10, latin-11]
     related: [old-english-02, history-19]
@@ -1462,10 +1454,7 @@ rows:
     type: course
     level: college
     stage: formal
-    elective: true
-    electiveNote: >-
-      College-level seminar beyond the core sequence; suited to dual enrollment or a gap year.
-    ageStart: 17
+    ageStart: 17.25
     ageEnd: 18
     order: 17
     prerequisites: [latin-13, latin-14]
@@ -1535,7 +1524,7 @@ rows:
     type: course
     level: college
     stage: formal
-    ageStart: 17
+    ageStart: 17.5
     ageEnd: 18.5
     order: 18
     prerequisites: [latin-16, latin-11, latin-14]

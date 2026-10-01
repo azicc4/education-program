@@ -38,6 +38,13 @@ and has a page count where one is known.
   with unit ids are in the PR description.
 - [ ] Two workload notes disagree with the confirmed counts: logic-03 says Traditional Logic I has 17 chapters (the 3rd
   edition has 14), and spanish-03 assumes 32 weeks for Spanish for Children Primer A (37 chapters).
+- [x] **Workload checked against precedent** (founding-era schools and colleges, AP college equivalents): grades 7–10
+  already exceed the Latin grammar schools (Boston Latin about 31–37 h a week), so they are not raised; grades 11–12 rise
+  from ×1.5 to ×2 to match the college years; Xenophon, Livy and Sallust, Latin Composition II, Attic tragedy, College
+  Latin I and College Greek are core again and the four Gospels are read in Greek (core Latin and Greek by 18: about
+  2,800 h, was about 1,880); AP Calculus BC rises to 300 h and AP Statistics to 135 h.
+- [ ] AP Chemistry and AP Biology (electives) are at about 0.5–0.8 of their college hours; raise them if a family
+  takes them for credit. AP World's core units reach college hours only for a one-semester credit.
 - [x] **Units sequenced by term** (ages 10–18): daily subjects one unit at a time, the rest in one- or two-term
   blocks, one unit per track at a time; each term has about 8–11 main subjects (was 44–53 units open at once), and every
   grade from 6 to 12 sits at 92–102% of its weekday budget with no gap (the old dip to 19 h a week at 16½ is gone).

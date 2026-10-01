@@ -10,7 +10,7 @@ weekday:
   - { grades: "K", regularHours: 900, multiplier: 2, source: nces }
   - { grades: "1-6", regularHours: 1000, multiplier: 2, source: pew }
   - { grades: "7-10", regularHours: 1035, multiplier: 2.5, source: pew }
-  - { grades: "11-12", regularHours: 1035, multiplier: 1.5, source: pew }
+  - { grades: "11-12", regularHours: 1035, multiplier: 2, source: pew, precedent: harvard-1767 }
 
 saturday:
   hoursPerDay: 8
@@ -27,9 +27,28 @@ notes: >-
   minimum (997.8 hours) and grades 7–12 the average 11th-grade minimum (1,034.8 hours) across the
   39 states that set an annual minimum. Kindergarten uses 900 hours, a common full-day kindergarten
   minimum. For comparison, OECD countries average 805 hours a year of required instruction in
-  primary school and 916 in lower secondary.
+  primary school and 916 in lower secondary. Grades 11–12 use ×2 rather than ×1.5: founding-era students of 16 to
+  18 were usually in college, where the laws kept them at their studies most of the day (about 1,800 hours a year at
+  Harvard under the 1767 laws, more at Princeton), and Harvard's median entrance age had risen to about 17 by 1769.
+  Grades 7–10 are not raised: at about 10.8 hours a school day they already sit at the edge of what teenagers can
+  sustain with 8–10 hours of sleep.
 
 sources:
+  - id: harvard-1767
+    title: "The Laws of Harvard College [1767]"
+    publisher: Colonial Society of Massachusetts
+    date: "1767"
+    url: "https://colonialsociety.org/node/432"
+  - id: cohen-harvard
+    title: "Harvard College on the Eve of the American Revolution"
+    publisher: Sheldon S. Cohen, Colonial Society of Massachusetts
+    date: "1980"
+    url: "https://www.colonialsociety.org/node/1239"
+  - id: aasm-sleep
+    title: "Recharge with sleep: pediatric sleep recommendations promoting optimal health"
+    publisher: American Academy of Sleep Medicine
+    date: "2016"
+    url: "https://aasm.org/recharge-with-sleep-pediatric-sleep-recommendations-promoting-optimal-health/"
   - id: pew
     title: "In the U.S., 180 days of school is most common, but length of school day varies by state"
     publisher: Pew Research Center

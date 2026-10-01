@@ -915,7 +915,7 @@ rows:
     type: course
     level: 9-12
     stage: formal
-    ageStart: 14.5
+    ageStart: 14
     ageEnd: 15
     order: 16
     prerequisites: [mathematics-11]
@@ -941,11 +941,11 @@ rows:
     workload:
       readingHours: 0
       work:
-        - { kind: exercises, hours: 70, note: "AP Statistics lessons and core problem sets through the five CED units, 36 wk x 2 x 50 min (60 h), plus AoPS Counting and Probability chapters 1–5 (~10 h)" }
-        - { kind: project, hours: 10, note: "written investigations in the question, collect, analyze, interpret cycle, 2 x 5 h" }
-        - { kind: exam-prep, hours: 10, note: "released FRQs and two timed full practice exams in April and May" }
-      electiveHours: 105
-      electiveBasis: "further AP problem sets in two more weekly sessions (~60 h), the remaining AoPS Counting and Probability chapters (~20 h), two further investigations (~10 h) and further practice exams (~15 h)"
+        - { kind: exercises, hours: 100, note: "AP Statistics lessons and problem sets through the five CED units, 36 wk x 3 x 50 min (90 h), plus AoPS Counting and Probability chapters 1–5 (~10 h)" }
+        - { kind: project, hours: 20, note: "written investigations in the question, collect, analyze, interpret cycle, 4 x 5 h" }
+        - { kind: exam-prep, hours: 15, note: "released FRQs and three timed full practice exams in April and May" }
+      electiveHours: 60
+      electiveBasis: "further AP problem sets in a fourth weekly session (~30 h), the remaining AoPS Counting and Probability chapters (~20 h) and further practice exams (~10 h)"
     curriculumOptions:
       - name: "The Practice of Statistics for the AP Course, 7th ed. (Starnes & Tabor)"
         publisher: BFW / Macmillan Learning
@@ -1023,8 +1023,8 @@ rows:
     type: unit
     level: 9-12
     stage: formal
-    ageStart: 16
-    ageEnd: 17
+    ageStart: 16.5
+    ageEnd: 17.25
     order: 17
     prerequisites: [mathematics-10, mathematics-11]
     related: [logic-07]
@@ -1062,7 +1062,7 @@ rows:
     level: 9-12
     stage: formal
     ageStart: 15
-    ageEnd: 16
+    ageEnd: 16.5
     order: 16.5
     prerequisites: [mathematics-13]
     related: [physics-02, physics-05]
@@ -1088,8 +1088,8 @@ rows:
       readingHours: 3
       readingBasis: "12 pp of Newton's Principia Book I §1 read together at ~4 pp/h; Thompson and the AP text are counted as exercises"
       work:
-        - { kind: exercises, hours: 170, note: "Thompson's Calculus Made Easy, then an AP text through all ten units, 36 wk x 5 x ~55 min" }
-        - { kind: exam-prep, hours: 30, note: "timed FRQs and ~4 full practice exams in April and May" }
+        - { kind: exercises, hours: 250, note: "Thompson's Calculus Made Easy, then an AP text through all ten units over a year and a half, 54 wk x 5 x ~55 min, the last half-year on series, parametric and polar calculus and a full review" }
+        - { kind: exam-prep, hours: 47, note: "timed FRQs and ~6 full practice exams in April and May" }
     coreTexts:
       - title: Calculus Made Easy
         kind: instructional
@@ -1189,8 +1189,8 @@ rows:
     elective: true
     electiveNote: >-
       Beyond the core sequence through calculus and proof; suited to dual enrollment.
-    ageStart: 16
-    ageEnd: 17
+    ageStart: 16.5
+    ageEnd: 17.5
     order: 19
     prerequisites: [mathematics-17, mathematics-18]
     related: []
